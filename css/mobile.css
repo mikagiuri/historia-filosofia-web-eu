@@ -147,3 +147,6 @@
 #tarjetas .face.front { align-items: center; text-align: center; }
 #tarjetas .face.front .emoji { margin-bottom: 2px; }
 #tarjetas .face.front .front-t { max-width: 90%; text-wrap: balance; }
+
+/* hf: una sola materia → sin filtro de materia. */
+.fgroup:has([data-subj]), .fgroup:has([data-sa]) { display: none; }
