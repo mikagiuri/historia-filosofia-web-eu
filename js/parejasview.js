@@ -5,13 +5,19 @@
 
 const PAR_N = 6;                 // parejas por ronda
 const PAR_BLOCK_NAME = { A: "Bloque A · Antigua-medieval", B: "Bloque B · Moderna", C: "C blokea · Garaikidea" };
+/* Grupo de un término: el bloque (glosario de HF, A/B/C) o, si no lo tiene, el tema (glosario de
+   Filosofía 1.º: "Filosofía · Tema 1", "Taller de argumentación"…). Así el juego funciona en las
+   dos webs con el glosario de cada una. */
+function parGroupOf(g){ return g.bloque || g.tema || ""; }
+function parGroupName(b){ return PAR_BLOCK_NAME[b] || b; }
+function parGroupShort(b){ return PAR_BLOCK_NAME[b] ? PAR_BLOCK_NAME[b].split(" · ")[0] : String(b).replace(/^Filosofía · /, ""); }
 
 const par = { block: null, pairs: [], sel: null, matched: null, errors: 0, score: 0, streak: 0, t0: 0, tick: null };
 
 function parBox(){ return document.getElementById("parbox"); }
 function parShuffle(a){ a = a.slice(); for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
-function parBlocksPresent(){ return [...new Set(GLOSARIO.map(g => g.bloque))].filter(Boolean).sort(); }
-function parPoolOf(b){ return GLOSARIO.filter(g => g.bloque === b && g.t && g.def); }
+function parBlocksPresent(){ return [...new Set(GLOSARIO.map(parGroupOf))].filter(b => b && parPoolOf(b).length >= PAR_N).sort(); }
+function parPoolOf(b){ return GLOSARIO.filter(g => parGroupOf(g) === b && g.t && g.def); }
 function escPar(s){ return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
 
 /* ---------- historial de rondas (localStorage) ---------- */
@@ -92,9 +98,9 @@ function renderParStart(){
   const present = parBlocksPresent();
   if (!present.length){ box.innerHTML = '<p class="lead">No hay glosario para jugar en esta web.</p>'; return; }
   if (!present.includes(par.block)) par.block = present[0];
-  const picks = present.map(b => '<button class="pbtn" data-pblock="' + b + '" aria-pressed="' + (b === par.block) + '">' + PAR_BLOCK_NAME[b] + '</button>').join("");
+  const picks = present.map(b => '<button class="pbtn" data-pblock="' + b + '" aria-pressed="' + (b === par.block) + '">' + escPar(parGroupName(b)) + '</button>').join("");
   const best = parBestLoad(); const anyBest = present.some(b => best[b]);
-  const bestItems = present.map(b => '<span class="par-best-item">' + PAR_BLOCK_NAME[b].split(" · ")[0] + ' <b>' + (best[b] ? best[b] + ' pts' : '—') + '</b></span>').join("");
+  const bestItems = present.map(b => '<span class="par-best-item">' + escPar(parGroupShort(b)) + ' <b>' + (best[b] ? best[b] + ' pts' : '—') + '</b></span>').join("");
   const bestPanel = '<div class="par-best">' +
     '<div class="par-best-top"><span class="par-best-h">🏅 Mejores marcas</span>' +
       '<span class="par-best-io">' +
@@ -219,7 +225,7 @@ function renderParResult(){
   const key = "aula-parejas-best";
   const bestMap = store.get(key, {}); const prev = bestMap[par.block] || 0;
   const record = par.score > prev; if (record){ bestMap[par.block] = par.score; store.set(key, bestMap); }
-  parHistPush({ block: par.block, blockName: PAR_BLOCK_NAME[par.block], emoji: emoji, rank: rank, score: par.score, errors: par.errors, secs: secs, pairs: par.pairs.length, record: record, date: parNowStr(), ts: Date.now() });
+  parHistPush({ block: par.block, blockName: parGroupName(par.block), emoji: emoji, rank: rank, score: par.score, errors: par.errors, secs: secs, pairs: par.pairs.length, record: record, date: parNowStr(), ts: Date.now() });
   parBox().innerHTML = '<div class="par-wrap"><div class="par-result">' +
     '<div class="par-badge">' + emoji + '</div>' +
     '<div class="par-rank">' + rank + '</div>' +
