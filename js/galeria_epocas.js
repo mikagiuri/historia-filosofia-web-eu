@@ -22,6 +22,7 @@ const GALERIA_EPOCAS = [
   "f": "media/galeria_museo/epocas/academia_liceo_Stoa_of_Attalos_Athens_Agora.jpg",
   "t": "Academia, Liceo y Stoa",
   "pie": "Stoa of Attalos Athens Agora · Ian W. Scott · 2005-03-20 · CC BY 3.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File%3AStoa_of_Attalos_Athens_Agora.JPG",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -38,6 +39,7 @@ const GALERIA_EPOCAS = [
   "f": "media/galeria_museo/epocas/helenismo_Laocoon_group_left_part_Pio_Clementino_Museum_Vatican_Museums.jpg",
   "t": "Alejandro y el helenismo",
   "pie": "Laocoon group (left part), Pio Clementino Museum, Vatican Museums · Quentin Lowagie / Klow · 2014-08-12 14:38:37 · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALaocoon_group_%28left_part%29%2C_Pio_Clementino_Museum%2C_Vatican_Museums.jpg",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -94,6 +96,7 @@ const GALERIA_EPOCAS = [
   "f": "media/galeria_museo/epocas/roma_estoica_Roman_Forum_Panorama_45485038075.jpg",
   "t": "Roma y el estoicismo",
   "pie": "Roman Forum, Panorama (45485038075) · Sonse · 2018-11-14 15:50 · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File%3ARoman_Forum%2C_Panorama_%2845485038075%29.jpg",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -126,6 +129,7 @@ const GALERIA_EPOCAS = [
   "f": "media/galeria_museo/epocas/al_andalus_Great_Mosque_of_Cordoba_interior_8th_10th_centuries_29539115350.jpg",
   "t": "Filosofía árabe y judía",
   "pie": "Great Mosque of Cordoba, interior, 8th - 10th centuries (29539115350) · Richard Mortel from Riyadh, Saudi Arabia · Taken on 11 August 2016, 11:37 · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File%3AGreat_Mosque_of_Cordoba%2C_interior%2C_8th_-_10th_centuries_%2829539115350%29.jpg",
   "bloque": "B",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -134,6 +138,7 @@ const GALERIA_EPOCAS = [
   "f": "media/galeria_museo/epocas/al_andalus_Great_Mosque_of_Cordoba_interior_8th_10th_centuries_38_29721130342.jpg",
   "t": "Filosofía árabe y judía",
   "pie": "Great Mosque of Cordoba, interior, 8th - 10th centuries (38) (29721130342) · Richard Mortel from Riyadh, Saudi Arabia · Taken on 11 August 2016, 11:53 · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File%3AGreat_Mosque_of_Cordoba%2C_interior%2C_8th_-_10th_centuries_%2838%29_%2829721130342%29.jpg",
   "bloque": "B",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -142,6 +147,7 @@ const GALERIA_EPOCAS = [
   "f": "media/galeria_museo/epocas/al_andalus_Two_tiered_arches_at_the_Mosque_Cathedral_of_C_rdoba.jpg",
   "t": "Filosofía árabe y judía",
   "pie": "Two-tiered arches at the Mosque–Cathedral of Córdoba · GourmetBean · 2024-07-16 14:43:38 · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File%3ATwo-tiered_arches_at_the_Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba.jpg",
   "bloque": "B",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false

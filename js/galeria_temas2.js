@@ -22,6 +22,7 @@ const GALERIA_TEMAS2 = [
   "f": "media/galeria_museo/temas2/helenismo_Dying_gaul.jpg",
   "t": "Alejandro y el helenismo",
   "pie": "Dying gaul · antmoose · 2005-06-04 · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Dying_gaul.jpg",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -54,6 +55,7 @@ const GALERIA_TEMAS2 = [
   "f": "media/galeria_museo/temas2/atenas_clasica_Stoa_of_Attalos_Athens_Agora.jpg",
   "t": "Atenas y la democracia",
   "pie": "Stoa of Attalos Athens Agora · Ian W. Scott · 2005-03-20 · CC BY 3.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File%3AStoa_of_Attalos_Athens_Agora.JPG",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -78,6 +80,7 @@ const GALERIA_TEMAS2 = [
   "f": "media/galeria_museo/temas2/mito_logos_Odysseus_Circe_Met_41_83.jpg",
   "t": "Del mito al logos",
   "pie": "Odysseus Circe Met 41.83 · Attributed to the Persephone Painter · circa 440 BC · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Odysseus_Circe_Met_41.83.jpg",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -150,6 +153,7 @@ const GALERIA_TEMAS2 = [
   "f": "media/galeria_museo/temas2/al_andalus_Astrolabe_18th_century_assembled.jpg",
   "t": "Filosofía árabe y judía",
   "pie": "Astrolabe, 18th century, assembled · Evan from paris, france · 2009-02-24 17:09 · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Astrolabe,_18th_century,_assembled.jpg",
   "bloque": "B",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -294,6 +298,7 @@ const GALERIA_TEMAS2 = [
   "f": "media/galeria_museo/temas2/siglo_xxi_Internet_map_1024_-_transparent_inverted.png",
   "t": "El siglo XXI",
   "pie": "Internet map 1024 - transparent, inverted · The Opte Project · Original upload: December 1, 2006 · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Internet_map_1024_-_transparent,_inverted.png",
   "bloque": "C",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false
@@ -421,7 +426,8 @@ const GALERIA_TEMAS2 = [
  {
   "f": "media/galeria_museo/temas2/positivismo_ciencia_The_Royal_Institution_Albemarle_Street_the_laboratory_Eng_Wellcome_M0009405.jpg",
   "t": "Positivismo y ciencia (s. XIX)",
-  "pie": "The Royal Institution, Albemarle Street; the laboratory. Eng Wellcome M0009405 · CC BY 4.0 · Wikimedia Commons",
+  "pie": "The Royal Institution, Albemarle Street; the laboratory. Eng Wellcome M0009405 · Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Royal_Institution,_Albemarle_Street;_the_laboratory._Eng_Wellcome_M0009405.jpg",
   "bloque": "C",
   "unidad": "Contexto histórico · museo (dominio público)",
   "ia": false

@@ -1,4 +1,7 @@
 /* ===== Juegos (Eudaimonía / República) ===== usa los tokens de styles.css ===== */
+/* aviso de transparencia: las ilustraciones de los juegos están generadas con IA */
+.ia-note{ margin:1rem 0 .2rem; font-size:.75rem; letter-spacing:.04em; color:var(--muted); opacity:.85; }
+.ia-note::before{ content:"\1F916\00A0"; }
 #eudaimonia .ari-wrap{ max-width:780px; }
 #eudaimonia .ari-lead{ color:var(--muted); line-height:1.6; margin:.2rem 0 1.2rem; }
 #eudaimonia .ari-col-h{ font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:.2rem 0 .5rem; }

@@ -161,7 +161,8 @@ const REP_EVENTS = [
 function renderRepStart(){
   const box=repBox(); if(!box) return; Object.assign(rep, repFresh());
   box.innerHTML='<div class="rep-wrap"><div class="rep-modes-pick" id="repModes"></div>'+
-    '<div class="rep-design"><div class="rep-roster" id="repRoster"></div><aside class="rep-summary" id="repSummary"></aside></div></div>';
+    '<div class="rep-design"><div class="rep-roster" id="repRoster"></div><aside class="rep-summary" id="repSummary"></aside></div>'+
+    '<p class="ia-note">IAz sortutako ilustrazioak</p></div>';
   drawRepModes(); drawRepRoster(); drawRepSummary();
 }
 function drawRepModes(){

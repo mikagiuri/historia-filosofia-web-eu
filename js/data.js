@@ -2101,7 +2101,7 @@ const DECKS = {
    ],
    [
     "🦸",
-    "Supergizakia",
+    "Gaingizakia",
     "Bere balio propioak sortzen dituena."
    ],
    [
@@ -5451,7 +5451,7 @@ const QUIZZES = {
     "fb": "Metodo filosofiko bat galderak, kontzeptuak eta argudioak arazo bat lantzeko antolatzen dituen prozedura bat da, ez trikimailu erretoriko bat, ezta buruz ikasteko teknika bat ere."
    },
    {
-    "q": "Zer da falazia bat?",
+    "q": "Zer da faltsukeria bat?",
     "o": [
      "Filosofikoki defendatzen den edozein iritzi.",
      "Sinesgarria den argudio faltsua.",

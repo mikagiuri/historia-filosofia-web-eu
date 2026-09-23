@@ -38,6 +38,7 @@ const GALERIA_MUSEO = [
   "f": "media/retratos/museo/diogenes.jpg",
   "t": "Diógenes",
   "pie": "Diogenes statue Sinop enhanced · Diogenes-statue-Sinop.JPG: Tony f derivative work: Singinglemon (talk) · CC BY 3.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Diogenes-statue-Sinop-enhanced.jpg",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
   "ia": false
@@ -133,7 +134,8 @@ const GALERIA_MUSEO = [
  {
   "f": "media/retratos/museo/agustin.jpg",
   "t": "Agustín de Hipona",
-  "pie": "Saint Augustine of Hippo Engraving Wellcome V0031651 · CC BY 4.0 · Wikimedia Commons",
+  "pie": "Saint Augustine of Hippo Engraving Wellcome V0031651 · Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_of_Hippo._Engraving._Wellcome_V0031651.jpg",
   "bloque": "B",
   "unidad": "Medieval-Moderna · museo (dominio público)",
   "ia": false
@@ -270,6 +272,7 @@ const GALERIA_MUSEO = [
   "f": "media/retratos/museo/beauvoir.jpg",
   "t": "Simone de Beauvoir",
   "pie": "Simone de Beauvoir drawing · aeneastudio · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir_drawing.jpg",
   "bloque": "C",
   "unidad": "Contemporánea · museo (dominio público)",
   "ia": false

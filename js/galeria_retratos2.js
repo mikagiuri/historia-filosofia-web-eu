@@ -37,6 +37,7 @@ const GALERIA_RETRATOS2 = [
   "f": "media/retratos/museo2/democrito.jpg",
   "t": "Demócrito",
   "pie": "Bust of Democritus - Victoria and Albert Museum · Afshin Darian · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Democritus_-_Victoria_and_Albert_Museum.jpg",
   "bloque": "A",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -44,7 +45,8 @@ const GALERIA_RETRATOS2 = [
  {
   "f": "media/retratos/museo2/empedocles.jpg",
   "t": "Empédocles",
-  "pie": "Empedocles. Line engraving, 1580. Wellcome V0001766 · CC BY 4.0 · Wikimedia Commons",
+  "pie": "Empedocles. Line engraving, 1580. Wellcome V0001766 · Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Empedocles._Line_engraving,_1580._Wellcome_V0001766.jpg",
   "bloque": "A",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -68,7 +70,8 @@ const GALERIA_RETRATOS2 = [
  {
   "f": "media/retratos/museo2/parmenides.jpg",
   "t": "Parménides",
-  "pie": "Busto di Parmenide (cropped) (3.2) · This image has an extracted file: Busto di Parmenide.jpg. · CC BY 4.0 · Wikimedia Commons",
+  "pie": "Busto di Parmenide (cropped) (3.2) · Sergio Spolti · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Busto_di_Parmenide_(cropped)_(3.2).jpg",
   "bloque": "A",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -93,6 +96,7 @@ const GALERIA_RETRATOS2 = [
   "f": "media/retratos/museo2/plotino.jpg",
   "t": "Plotino",
   "pie": "Head of Plotinus, Museo Ostiense inv · Sailko · CC BY 3.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Head_of_Plotinus,_Museo_Ostiense_inv.JPG",
   "bloque": "A",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -108,7 +112,8 @@ const GALERIA_RETRATOS2 = [
  {
   "f": "media/retratos/museo2/tales.jpg",
   "t": "Tales de Mileto",
-  "pie": "Thales of Miletus. Line engraving. Wellcome V0005773 · CC BY 4.0 · Wikimedia Commons",
+  "pie": "Thales of Miletus. Line engraving. Wellcome V0005773 · Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Thales_of_Miletus._Line_engraving._Wellcome_V0005773.jpg",
   "bloque": "A",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -117,6 +122,7 @@ const GALERIA_RETRATOS2 = [
   "f": "media/retratos/museo2/zenon-citio.jpg",
   "t": "Zenón de Citio",
   "pie": "Zeno of Citium - Museo archeologico nazionale di Napoli · Jeremy Weate from Abuja, Nigeria · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Zeno_of_Citium_-_Museo_archeologico_nazionale_di_Napoli.jpg",
   "bloque": "A",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -269,6 +275,7 @@ const GALERIA_RETRATOS2 = [
   "f": "media/retratos/museo2/comte.jpg",
   "t": "Comte",
   "pie": "Portrait dAuguste Comte (maison dA. Comte, Paris) (2424895050) · Jean-Pierre Dalbéra from Paris, France · CC BY 2.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_dAuguste_Comte_(maison_dA._Comte,_Paris)_(2424895050).jpg",
   "bloque": "C",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -276,7 +283,8 @@ const GALERIA_RETRATOS2 = [
  {
   "f": "media/retratos/museo2/dalembert.jpg",
   "t": "D'Alembert",
-  "pie": "Jean le Rond d'Alembert. Line engraving. Wellcome V0000121 · CC BY 4.0 · Wikimedia Commons",
+  "pie": "Jean le Rond d'Alembert. Line engraving. Wellcome V0000121 · Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Jean_le_Rond_d%27Alembert._Line_engraving._Wellcome_V0000121.jpg",
   "bloque": "C",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
@@ -317,6 +325,7 @@ const GALERIA_RETRATOS2 = [
   "f": "media/retratos/museo2/heidegger.jpg",
   "t": "Heidegger",
   "pie": "Freiburg, Zähringen- Jahnhalle, Prof. Martin Heidegger während eines Vortrags - LABW - Staatsarchiv Freiburg W 134 Nr. 023740f · Willy Pragher · CC BY 4.0 · Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Freiburg,_Z%C3%A4hringen-_Jahnhalle,_Prof._Martin_Heidegger_w%C3%A4hrend_eines_Vortrags_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._023740f.jpeg",
   "bloque": "C",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false

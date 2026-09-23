@@ -168,7 +168,7 @@ const INFOGRAFIAS = {
      },
      {
       "emoji": "⛰️",
-      "t": "Supergizakia",
+      "t": "Gaingizakia",
       "p": "Jainkoaren heriotzaren ondoren bere balioak asmatzen dituena."
      },
      {

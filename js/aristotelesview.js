@@ -21,7 +21,8 @@ function renderAriStart(){
     '</button>').join("");
   box.innerHTML = '<div class="ari-wrap">' +
     '<div class="ari-col-h">Elige tu personaje · ' + JUEGO_ARIS.meta.rounds + ' dilemas · si la eudaimonía cae a 0, es el fin</div>' +
-    '<div class="ari-chars">' + cards + '</div></div>';
+    '<div class="ari-chars">' + cards + '</div>' +
+    '<p class="ia-note">IAz sortutako ilustrazioak</p></div>';
   box.querySelectorAll("[data-char]").forEach(b => b.addEventListener("click", () => ariStart(b.dataset.char)));
 }
 

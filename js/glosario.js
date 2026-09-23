@@ -713,7 +713,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Haitzuloaren mitoa",
+  "t": "Kobazuloaren mitoa",
   "area": "Epistemologia",
   "bloque": "A",
   "unidad": "AP",
@@ -2432,7 +2432,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Supergizakia",
+  "t": "Gaingizakia",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "CN",

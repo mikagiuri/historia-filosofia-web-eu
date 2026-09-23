@@ -9,8 +9,8 @@ const PAR_BLOCK_NAME = { A: "Bloque A · Antigua-medieval", B: "Bloque B · Mode
    Filosofía 1.º: "Filosofía · Tema 1", "Taller de argumentación"…). Así el juego funciona en las
    dos webs con el glosario de cada una. */
 function parGroupOf(g){ return g.bloque || g.tema || ""; }
-function parGroupName(b){ return PAR_BLOCK_NAME[b] || b; }
-function parGroupShort(b){ return PAR_BLOCK_NAME[b] ? PAR_BLOCK_NAME[b].split(" · ")[0] : String(b).replace(/^Filosofía · /, ""); }
+function parGroupName(b){ return PAR_BLOCK_NAME[b] || String(b).replace(/^Pensamiento crítico · /, ""); }
+function parGroupShort(b){ return PAR_BLOCK_NAME[b] ? PAR_BLOCK_NAME[b].split(" · ")[0] : String(b).replace(/^(Filosofía|Pensamiento crítico) · /, ""); }
 
 const par = { block: null, pairs: [], sel: null, matched: null, errors: 0, score: 0, streak: 0, t0: 0, tick: null };
 
@@ -132,7 +132,7 @@ function renderParStart(){
       '</div></div>'
   ) : '';
   box.innerHTML = '<div class="par-wrap">' +
-    '<div class="par-pick"><span class="flabel">Blokea</span>' + picks + '</div>' +
+    '<div class="par-pick"><span class="flabel">' + (present.some(b => PAR_BLOCK_NAME[b]) ? "Blokea" : "Gaia") + '</span>' + picks + '</div>' +
     '<button class="par-play" id="parPlay"><span>🧩</span><span><b>Jugar</b> · empareja ' + PAR_N + ' términos con su definición</span></button>' +
     bestPanel + histPanel +
     '</div>';
