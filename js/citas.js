@@ -157,12 +157,6 @@ const CITAS = [
   "e": "modernoa"
  },
  {
-  "c": "Gizakia kanabera bat besterik ez da, naturako ahulena, baina pentsatzen duen kanabera bat da.",
-  "a": "Blaise Pascal",
-  "o": "Pentsamenduak",
-  "e": "modernoa"
- },
- {
   "c": "Arrazoia grinen esklabo da, eta halakoa besterik ez luke izan behar.",
   "a": "David Hume",
   "o": "Giza naturari buruzko tratatua",
@@ -184,12 +178,6 @@ const CITAS = [
   "c": "Gizonik zapalduenak ere izaki bat zapal dezake: bere emaztea. Bera da proletarioaren beraren proletarioa.",
   "a": "Flora Tristan",
   "o": "Langile eta emakumeen emantzipazioa (Unión obrera)",
-  "e": "modernoa"
- },
- {
-  "c": "Jakintza boterea da.",
-  "a": "Francis Bacon",
-  "o": "Zientzia eta naturaren menderatzea (Meditationes sacrae)",
   "e": "modernoa"
  },
  {
@@ -373,12 +361,6 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
-  "c": "Munduaren betiko ulertezina haren ulergarritasuna da.",
-  "a": "Albert Einstein",
-  "o": "Fisika eta errealitatea",
-  "e": "contemporanea"
- },
- {
   "c": "Feminismoa Ilustrazioaren seme-alaba aitortu gabea da.",
   "a": "Amorós",
   "o": "Berdintasun ilustratua (Hacia una crítica de la razón patriarcal)",
@@ -418,12 +400,6 @@ const CITAS = [
   "c": "Etikaren irizpide material unibertsala giza bizitzaren ekoizpena, birsorkuntza eta garapena da komunitatean.",
   "a": "Dussel",
   "o": "Askapenaren etika (1998)",
-  "e": "contemporanea"
- },
- {
-  "c": "Gizakia animalia sinbolikoa da.",
-  "a": "Ernst Cassirer",
-  "o": "Antropologia filosofikoa",
   "e": "contemporanea"
  },
  {
@@ -556,12 +532,6 @@ const CITAS = [
   "c": "Jainkoa hil da! Jainkoak hilik dirau! Eta guk hil dugu!",
   "a": "Nietzsche",
   "o": "Jainkoaren heriotza (La gaya ciencia §125)",
-  "e": "contemporanea"
- },
- {
-  "c": "Arte oro guztiz alferrikakoa da.",
-  "a": "Oscar Wilde",
-  "o": "Dorian Grayren erretratua (hitzaurrea)",
   "e": "contemporanea"
  },
  {

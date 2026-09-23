@@ -1,6 +1,4 @@
-"use strict";
-/* ===== Retratos de museo (dominio público) ===== generado desde imagenes_museos/manifest.csv
-   Se inyectan en la teoría (retratosview.js) segun los autores citados en cada unidad. */
+// Generado por tools/build_subject.js (hf) — alumnado, sin material del profesor.
 const RETRATOS = [
  {
   "slug": "socrates",
@@ -61,18 +59,6 @@ const RETRATOS = [
   "artist": "Giovanni Angelo Canini",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:Aspasia_Canini.png"
- },
- {
-  "slug": "alcibiades",
-  "name": "Alcibíades",
-  "aliases": [
-   "Alcibíades"
-  ],
-  "file": "media/retratos/museo/alcibiades.jpg",
-  "title": "Academische studie naar prent buste van Alcibiades 1806 Dominique Cool",
-  "artist": "Dominique Cools / After Alexandre Chaponnier",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Academische_studie_naar_prent,_buste_van_Alcibiades,_1806,_Dominique_Cools,_Musea_Brugge,_0014.GRO0007.27.II.jpg"
  },
  {
   "slug": "alejandro",
@@ -471,44 +457,6 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File%3AOlympe_de_Gouges.jpg"
  },
  {
-  "slug": "curie",
-  "name": "Marie Curie",
-  "aliases": [
-   "Marie Curie",
-   "Curie"
-  ],
-  "file": "media/retratos/museo/curie.jpg",
-  "title": "Marie Curie c1920",
-  "artist": "Henri Manuel",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File%3AMarie_Curie_c1920.jpg"
- },
- {
-  "slug": "franklin",
-  "name": "Rosalind Franklin",
-  "aliases": [
-   "Rosalind Franklin"
-  ],
-  "file": "media/retratos/museo/franklin.jpg",
-  "title": "Rosalind Franklin CC-BY-SA",
-  "artist": "Rori!",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File%3ARosalind_Franklin_CC-BY-SA.png"
- },
- {
-  "slug": "cassirer",
-  "name": "Ernst Cassirer",
-  "aliases": [
-   "Ernst Cassirer",
-   "Cassirer"
-  ],
-  "file": "media/retratos/museo/cassirer.jpg",
-  "title": "Ernst Cassirer",
-  "artist": "Center for Advanced Research in Phenomenology - CARP http://www.phenomenologycenter.org",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File%3AErnst_Cassirer.jpg"
- },
- {
   "slug": "popper",
   "name": "Karl Popper",
   "aliases": [
@@ -573,31 +521,6 @@ const RETRATOS = [
   "artist": "Godfrey Kneller",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg"
- },
- {
-  "slug": "einstein",
-  "name": "Albert Einstein",
-  "aliases": [
-   "Einstein",
-   "Albert Einstein"
-  ],
-  "file": "media/retratos/museo/einstein.jpg",
-  "title": "Einstein 1921 by F Schmutzer - restoration",
-  "artist": "Ferdinand Schmutzer / Adam Cuerden",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File%3AEinstein_1921_by_F_Schmutzer_-_restoration.jpg"
- },
- {
-  "slug": "james",
-  "name": "William James",
-  "aliases": [
-   "William James"
-  ],
-  "file": "media/retratos/museo/james.jpg",
-  "title": "William James b1842c",
-  "artist": "Notman Studios (photographer)",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File%3AWilliam_James_b1842c.jpg"
  },
  {
   "slug": "dewey",
