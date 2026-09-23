@@ -78,12 +78,6 @@ const SUBJECTS = {
     "hf-debate"
    ],
    [
-    "Zenonen fitxa (USE Ej. 2)",
-    "Paradoxak eta aporiak hausnartzeko, ereduarekin eta errubrikarekin.",
-    "hf\\A_bloque",
-    "hf-zenon"
-   ],
-   [
     "USE gida 2 orrialdetan",
     "Azterketaren egitura, irizpideak eta aholkuak (2026ko formatua).",
     "hf\\PAU",
