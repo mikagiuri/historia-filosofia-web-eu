@@ -361,6 +361,12 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
+  "c": "Munduaren betiko ulertezina haren ulergarritasuna da.",
+  "a": "Albert Einstein",
+  "o": "Fisika eta errealitatea",
+  "e": "contemporanea"
+ },
+ {
   "c": "Feminismoa Ilustrazioaren seme-alaba aitortu gabea da.",
   "a": "Amorós",
   "o": "Berdintasun ilustratua (Arrazoi patriarkalaren kritika baterantz)",

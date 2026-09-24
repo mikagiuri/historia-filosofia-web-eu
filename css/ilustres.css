@@ -1,0 +1,82 @@
+/* ===== Ilustres: biografías de los pensadores de la teoría (ilustresview.js) =====
+   Colores de época = los del eje cronológico del curso (eje_cronologico.js); en oscuro, tonos claros. */
+#ilustres, .ilu-strip{
+  --e-ant:#8F6600; --e-med:#8A4B84; --e-ren:#B83220; --e-mod:#0A76A0; --e-con:#267A5B;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) #ilustres, :root:not([data-theme="light"]) .ilu-strip{ --e-ant:#E3B23C; --e-med:#C48ABF; --e-ren:#F07A66; --e-mod:#5BC3EA; --e-con:#6FCBA6; }
+}
+:root[data-theme="dark"] #ilustres, :root[data-theme="dark"] .ilu-strip{ --e-ant:#E3B23C; --e-med:#C48ABF; --e-ren:#F07A66; --e-mod:#5BC3EA; --e-con:#6FCBA6; }
+:is(#ilustres, .ilu-strip) [data-b="ant"]{ --e:var(--e-ant) } :is(#ilustres, .ilu-strip) [data-b="med"]{ --e:var(--e-med) }
+:is(#ilustres, .ilu-strip) [data-b="ren"]{ --e:var(--e-ren) } :is(#ilustres, .ilu-strip) [data-b="mod"]{ --e:var(--e-mod) }
+:is(#ilustres, .ilu-strip) [data-b="con"]{ --e:var(--e-con) }
+
+#ilustres .filterbar[hidden], #ilustres .ilu-count[hidden]{display:none}
+#ilustres .ilu-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--e);margin-right:6px;vertical-align:1px}
+#ilustres .ilu-tools{display:flex;margin:4px 0 0}
+#ilustres .ilu-search{flex:1;min-width:0;max-width:520px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;font:inherit;background:var(--surface);color:var(--ink)}
+#ilustres .ilu-search:focus{outline:2px solid var(--accent);outline-offset:0;border-color:var(--accent)}
+#ilustres .ilu-count{color:var(--muted);font-size:13px;margin:12px 0 4px}
+#ilustres .ilu-empty{color:var(--muted);padding:24px 2px}
+#ilustres mark{background:var(--accent);color:var(--on-accent);padding:0 2px;border-radius:3px}
+
+/* listado */
+#ilustres .ilu-era{font-size:1.15rem;margin:26px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--e);color:var(--ink)}
+#ilustres .ilu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+#ilustres .ilu-card{display:flex;gap:12px;align-items:center;text-align:left;padding:10px 12px;border:1px solid var(--line);border-left:3px solid var(--e);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);font:inherit;color:var(--ink);transition:border-color .15s, transform .15s}
+#ilustres .ilu-card:hover{border-color:var(--e);transform:translateY(-1px)}
+#ilustres .ilu-av{flex:none;width:52px;height:52px;border-radius:50%;overflow:hidden;background:var(--surface-2);display:grid;place-items:center;border:1px solid var(--line-soft)}
+#ilustres .ilu-av .ilu-img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+#ilustres .ilu-mono{font-family:var(--serif);font-weight:600;font-size:1.1rem;color:var(--e)}
+#ilustres .ilu-txt{display:flex;flex-direction:column;min-width:0;line-height:1.3}
+#ilustres .ilu-txt b{font-family:var(--serif);font-size:1.02rem;font-weight:600}
+#ilustres .ilu-dates{font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+#ilustres .ilu-role{font-size:.8rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ficha */
+#ilustres .ilu-nav{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:18px 0 14px}
+#ilustres .ilu-pn{display:flex;gap:8px}
+#ilustres .ilu-ficha{border:1px solid var(--line);border-top:4px solid var(--e);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);padding:22px 24px 24px;max-width:860px}
+#ilustres .ilu-head{display:flex;gap:22px;align-items:flex-start;margin-bottom:16px}
+#ilustres .ilu-portrait{flex:none;width:170px;margin:0}
+#ilustres .ilu-portrait .ilu-img{width:170px;height:210px;object-fit:cover;object-position:50% 20%;border-radius:10px;border:1px solid var(--line-soft);cursor:zoom-in;display:block}
+#ilustres .ilu-portrait .ilu-mono{display:grid;place-items:center;width:170px;height:170px;border-radius:50%;background:var(--surface-2);border:2px solid var(--e);font-size:3rem}
+#ilustres .ilu-portrait figcaption{font-size:11px;line-height:1.35;color:var(--muted);margin-top:6px}
+#ilustres .ilu-id{min-width:0}
+#ilustres .ilu-era-tag{font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;font-weight:600;color:var(--e);margin-bottom:4px}
+#ilustres .ilu-id h2{font-size:clamp(1.6rem,4vw,2.2rem);margin-bottom:4px}
+#ilustres .ilu-life{color:var(--muted);font-size:.95rem}
+#ilustres .ilu-idea{margin-top:14px;padding:10px 14px;border-left:3px solid var(--e);background:var(--surface-2);border-radius:0 10px 10px 0;font-family:var(--serif);font-size:1.05rem;line-height:1.45}
+#ilustres .ilu-bio p{font-size:1rem;line-height:1.65;margin:0 0 .85em;max-width:70ch}
+#ilustres .ilu-sec{margin-top:18px}
+#ilustres .ilu-sec h3{font-size:1rem;margin-bottom:8px}
+#ilustres .ilu-obras{margin:0;padding-left:1.2em;line-height:1.6}
+#ilustres .ilu-obras li{font-style:italic}
+#ilustres .ilu-temas{display:flex;flex-wrap:wrap;gap:8px}
+#ilustres .ilu-tema{display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:1px;padding:7px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);font:inherit;font-size:.88rem;color:var(--ink);max-width:100%}
+#ilustres .ilu-tema span{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+#ilustres .ilu-tema:hover{border-color:var(--accent)}
+
+/* tira «Ilustres de este tema» al final de cada unidad de la teoría */
+.ilu-strip{margin:28px 0 8px;padding-top:14px;border-top:1px solid var(--line)}
+.ilu-strip h3{font-size:1rem;margin-bottom:10px}
+.ilu-strip-list{display:flex;flex-wrap:wrap;gap:8px}
+.ilu-strip-list button{display:flex;flex-direction:column;align-items:flex-start;gap:0;padding:6px 12px;border:1px solid var(--line);border-left:3px solid var(--e);border-radius:10px;background:var(--surface);font:inherit;font-size:.9rem;font-weight:600;color:var(--ink);line-height:1.3}
+.ilu-strip-list button span{font-size:.75rem;font-weight:400;color:var(--muted)}
+.ilu-strip-list button:hover{border-color:var(--e)}
+
+@media (max-width:600px){
+  #ilustres .ilu-grid{grid-template-columns:1fr}
+  #ilustres .ilu-ficha{padding:16px}
+  #ilustres .ilu-head{flex-direction:column;align-items:center;text-align:center}
+  #ilustres .ilu-idea{text-align:left}
+  #ilustres .ilu-portrait figcaption{text-align:center}
+}
+
+@media print{
+  .ilu-strip{display:none !important}
+  #ilustres .ilu-nav, #ilustres .ilu-tools, #ilustres .ilu-sec-temas{display:none !important}
+  #ilustres .ilu-ficha{box-shadow:none;border-color:#999;max-width:none}
+  #ilustres .ilu-card{box-shadow:none;break-inside:avoid}
+  #ilustres .ilu-grid{grid-template-columns:repeat(3,1fr)}
+}

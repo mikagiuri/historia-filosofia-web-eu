@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="css/parejas.css">
 <link rel="stylesheet" href="css/juegos.css">
 <link rel="stylesheet" href="css/retratos.css">
+<link rel="stylesheet" href="css/ilustres.css">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Filosofiaren Historia · Batxilergoko 2. maila">
 <meta property="og:description" content="El taller de Historia de la Filosofía de 2.º de Bachillerato en una página: teoría, textos, esquemas, tarjetas y práctica de la PAU (disertación y comentario).">
@@ -46,6 +47,7 @@
           <button data-view="tarjetas">Txartelak</button>
           <button data-view="cuestionarios">Galdetegiak</button>
           <button data-view="glosario">Glosarioa</button>
+          <button data-view="ilustres">Ospetsuak</button>
           <button data-view="citas">Esaldiak</button>
         </div>
       </div>
@@ -283,6 +285,16 @@
     <div class="glolist" id="glolist"></div>
   </section>
 
+  <!-- ILUSTRES -->
+  <section class="view" id="ilustres">
+    <p class="eyebrow">Erreferentzia</p>
+    <h1 class="title">Ospetsuak</h1>
+    <p class="lead">Teorian agertzen diren pentsalarien biografiak, sokrates aurrekoetatik gaur egunera arte: nor izan ziren, zer pentsatu zuten eta zein gaitan ikasten ditugun. Iragazi <strong>garaiaren</strong> arabera edo bilatu izenez, lanez edo ideiaz.</p>
+    <div class="filterbar" id="ilufilter" role="group" aria-label="Iragazi ospetsuak"></div>
+    <div class="ilu-count" id="ilucount"></div>
+    <div id="ilubox"></div>
+  </section>
+
   <!-- CITAS -->
   <section class="view" id="citas">
     <p class="eyebrow">Erreferentzia</p>
@@ -417,6 +429,8 @@
 <script src="js/infografiasview.js"></script>
 <script src="js/glosario.js"></script>
 <script src="js/glosarioview.js"></script>
+<script src="js/ilustres.js"></script>
+<script src="js/ilustresview.js"></script>
 <script src="js/parejasview.js"></script>
 <script src="js/juego_aristoteles.js"></script>
 <script src="js/aristotelesview.js"></script>

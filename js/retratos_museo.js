@@ -457,6 +457,31 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File%3AOlympe_de_Gouges.jpg"
  },
  {
+  "slug": "curie",
+  "name": "Marie Curie",
+  "aliases": [
+   "Marie Curie",
+   "Curie"
+  ],
+  "file": "media/retratos/museo/curie.jpg",
+  "title": "Marie Curie c1920",
+  "artist": "Henri Manuel",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMarie_Curie_c1920.jpg"
+ },
+ {
+  "slug": "franklin",
+  "name": "Rosalind Franklin",
+  "aliases": [
+   "Rosalind Franklin"
+  ],
+  "file": "media/retratos/museo/franklin.jpg",
+  "title": "Rosalind Franklin CC-BY-SA",
+  "artist": "Rori!",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ARosalind_Franklin_CC-BY-SA.png"
+ },
+ {
   "slug": "popper",
   "name": "Karl Popper",
   "aliases": [
@@ -521,6 +546,31 @@ const RETRATOS = [
   "artist": "Godfrey Kneller",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg"
+ },
+ {
+  "slug": "einstein",
+  "name": "Albert Einstein",
+  "aliases": [
+   "Einstein",
+   "Albert Einstein"
+  ],
+  "file": "media/retratos/museo/einstein.jpg",
+  "title": "Einstein 1921 by F Schmutzer - restoration",
+  "artist": "Ferdinand Schmutzer / Adam Cuerden",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File%3AEinstein_1921_by_F_Schmutzer_-_restoration.jpg"
+ },
+ {
+  "slug": "james",
+  "name": "William James",
+  "aliases": [
+   "William James"
+  ],
+  "file": "media/retratos/museo/james.jpg",
+  "title": "William James b1842c",
+  "artist": "Notman Studios (photographer)",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File%3AWilliam_James_b1842c.jpg"
  },
  {
   "slug": "dewey",

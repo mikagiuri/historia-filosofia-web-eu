@@ -15,7 +15,7 @@ function hasEje(){ return typeof EJE_CRONOLOGICO !== "undefined"; }
 function cronoBlocksPresent(){ return (hasEje() ? [EJE_ID] : []).concat([...new Set(CRONOGRAMAS.map(c => cronoOf(c.code)))]); }
 function cronoList(block){ return CRONOGRAMAS.filter(c => cronoOf(c.code) === block); }
 
-const CRONO_BLOCK_NAME = { A: "A blokea · Antzinakoa eta Erdi Arokoa", B: "B blokea · Modernoa", C: "C blokea · Garaikidea", "·": "Besteak" };
+const CRONO_BLOCK_NAME = { A: "A blokea · Antzinakoa eta Erdi Arokoa", B: "B blokea · Modernoa", C: "C blokea · Garaikidea", "·": "Beste batzuk" };
 function cronoBlockName(b){ return b === EJE_ID ? EJE_CRONOLOGICO.txt.filtro : CRONO_BLOCK_NAME[b]; }
 
 /* ---------- año → texto (a.C. = antes de Cristo) ----------
