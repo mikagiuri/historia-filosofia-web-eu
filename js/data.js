@@ -64,26 +64,7 @@ const SUBJECTS = {
   "kick": "2. Batxilergoa · A, B eta C blokeak",
   "color": "var(--hf)",
   "intro": "Antzinako filosofiatik filosofia garaikidera: 27 gaien teoria, ikasgelako materialak eta USEko bost testuak (Platon, Descartes, Kant, Nietzsche eta Beauvoir), «Irakurgaiak» fitxan.",
-  "mats": [
-   [
-    "Laguntza-paketea T3-T5",
-    "Mitoa/logosa, presokratikoak, sofistak eta Sokrates: hutsen zuzenketa, flashcardak eta jarduerak.",
-    "hf\\A_bloque",
-    "hf-paquete-t3t5"
-   ],
-   [
-    "Eztabaida-fitxa",
-    "«Konbentzitu ala egia bilatu?»: sofistak Sokratesen aurrean, Aspasiarekin.",
-    "hf\\A_bloque",
-    "hf-debate"
-   ],
-   [
-    "USE gida 2 orrialdetan",
-    "Azterketaren egitura, irizpideak eta aholkuak (2026ko formatua).",
-    "hf\\PAU",
-    "hf-guia-pau"
-   ]
-  ],
+  "mats": [],
   "tools": [
    [
     "Teoria (A blokea)",
@@ -134,6 +115,11 @@ const SUBJECTS = {
     "Aipuak · garaikidea",
     "tarjetas",
     "citasC"
+   ],
+   [
+    "USEren gida eta praktika",
+    "pau",
+    ""
    ]
   ]
  }
