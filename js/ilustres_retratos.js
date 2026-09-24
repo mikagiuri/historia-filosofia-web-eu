@@ -81,6 +81,11 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/museo2/democrito.jpg",
   "pie": "Bust of Democritus - Victoria and Albert Museum · Afshin Darian · CC BY 2.0"
  },
+ "hipias": {
+  "f": "media/retratos/ilustres/hipias.jpg",
+  "pie": "Ruinas de la antigua Élide, su ciudad natal (no se conserva ningún retrato de Hipias) · Tkoletsis · CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Elis_city.JPG"
+ },
  "antistenes": {
   "f": "media/retratos/museo2/antistenes.jpg",
   "pie": "Antisthenes engraving · Wellcome Collection · Public Domain Mark"
@@ -466,6 +471,11 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/ilustres/gadamer.jpg",
   "pie": "Hans-Georg Gadamer · Leena Ruuskanen · CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Hans-Georg_Gadamer.jpg"
+ },
+ "ryle": {
+  "f": "media/retratos/ilustres/ryle.jpg",
+  "pie": "La biblioteca de Gilbert Ryle en el Linacre College de Oxford (no hay retrato suyo de uso libre) · D Wells · CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gilbert_Ryle_Library.jpg"
  },
  "popper": {
   "f": "media/retratos/museo/popper.jpg",
