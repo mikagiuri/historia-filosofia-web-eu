@@ -1,10 +1,10 @@
 "use strict";
-/* ===== Vista Ilustres ===== depende de: ilustres.js (ILUSTRES), retratos_museo.js (RETRATOS, opcional),
+/* ===== Vista Ilustres ===== depende de: ilustres.js (ILUSTRES), ilustres_retratos.js (ILUSTRES_RETRATOS, opcional),
    theory.js (THEORY, para los enlaces a los temas) =====
    Biografías de los pensadores que aparecen en la teoría de Filosofía 1.º y de Historia de la
    Filosofía 2.º. Listado en orden cronológico, filtrable por materia (si la web trae las dos),
    época y búsqueda; cada tarjeta abre la ficha del pensador (enlace profundo #ilustres/<id>).
-   El retrato sale de RETRATOS (dominio público) cuando existe; si no, un monograma. */
+   Retrato de dominio público o CC (Wikimedia Commons) cuando lo hay; si no, un monograma. */
 
 const ILU_EPOCAS = [
   ["ant", "Antzinakoa"], ["med", "Erdi Arokoa"], ["ren", "Errenazimentua"], ["mod", "Modernoa"], ["con", "Garaikidea"]
@@ -17,9 +17,9 @@ function iluEsc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({
 function iluList(){ return typeof ILUSTRES !== "undefined" && ILUSTRES ? Object.keys(ILUSTRES).map(k => Object.assign({ id: k }, ILUSTRES[k])) : []; }
 function iluPresent(){ const all = iluList(); return ["fil", "hf"].filter(s => all.some(p => (p.subjects || []).includes(s))); }
 function iluEpocaName(b){ const e = ILU_EPOCAS.find(x => x[0] === b); return e ? e[1] : ""; }
+/* retrato: {f, pie, page?} de ilustres_retratos.js (generado por tools/build_ilustres.js) */
 function iluRetrato(p){
-  if (typeof RETRATOS === "undefined" || !p.slug) return null;
-  return RETRATOS.find(r => r.slug === p.slug) || null;
+  return typeof ILUSTRES_RETRATOS !== "undefined" && ILUSTRES_RETRATOS[p.id] || null;
 }
 function iluInitials(name){
   const w = String(name || "").replace(/\(.*?\)/g, "").split(/\s+/).filter(x => x && /^[A-ZÁÉÍÓÚÑÄÖÜ]/.test(x));
@@ -27,7 +27,7 @@ function iluInitials(name){
 }
 function iluAvatar(p, big){
   const r = iluRetrato(p);
-  if (r) return '<img class="ilu-img' + (big ? " figimg" : "") + '" loading="lazy" src="' + iluEsc(r.file) + '" alt="' + iluEsc(p.name) + '">';
+  if (r) return '<img class="ilu-img' + (big ? " figimg" : "") + '" loading="lazy" src="' + iluEsc(r.f) + '" alt="' + iluEsc(p.name) + '">';
   return '<span class="ilu-mono" aria-hidden="true">' + iluEsc(iluInitials(p.name)) + '</span>';
 }
 function iluHi(escaped, q){
@@ -127,7 +127,6 @@ function loadIlustre(id){
   const seq = iluFiltered().some(x => x.id === id) ? iluFiltered() : all;
   const i = seq.findIndex(x => x.id === id), prev = seq[i - 1], next = seq[i + 1];
   const r = iluRetrato(p);
-  const cred = r ? [r.title, r.artist && r.artist !== "Desconocido" && r.artist !== "Unknown author" ? r.artist : ""].filter(Boolean).join(" · ") : "";
   box.innerHTML =
     '<div class="ilu-nav"><button class="btn ghost" data-back>← Ospetsu guztiak</button>' +
     '<span class="ilu-pn">' +
@@ -137,7 +136,7 @@ function loadIlustre(id){
     '<article class="ilu-ficha" data-b="' + p.block + '">' +
       '<header class="ilu-head">' +
         '<figure class="ilu-portrait">' + iluAvatar(p, true) +
-          (r ? '<figcaption>' + (cred ? iluEsc(cred) + ' · ' : '') + iluEsc(r.license) + ' · <a href="' + iluEsc(r.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption>' : '') +
+          (r ? '<figcaption>' + iluEsc(r.pie) + ' · ' + (r.page ? '<a href="' + iluEsc(r.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : 'Wikimedia Commons') + '</figcaption>' : '') +
         '</figure>' +
         '<div class="ilu-id">' +
           '<p class="ilu-era-tag"><i class="ilu-dot" data-b="' + p.block + '" aria-hidden="true"></i>' + iluEsc(iluEpocaName(p.block)) + ' · ' + iluEsc(p.role) + '</p>' +

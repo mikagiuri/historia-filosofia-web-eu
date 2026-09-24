@@ -303,8 +303,7 @@ const ILUSTRES = {
    "hf-antropologia",
    "hf-etica",
    "hf-politica"
-  ],
-  "slug": "socrates"
+  ]
  },
  "aspasia": {
   "name": "Aspasia Miletokoa",
@@ -322,8 +321,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-sofistas"
-  ],
-  "slug": "aspasia"
+  ]
  },
  "democrito": {
   "name": "Demokrito Abderakoa",
@@ -411,8 +409,7 @@ const ILUSTRES = {
    "hf-fe-razon",
    "hf-sospecha",
    "hf-descartes-makro"
-  ],
-  "slug": "platon"
+  ]
  },
  "diogenes": {
   "name": "Diogenes Sinopekoa",
@@ -430,8 +427,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-helenismo"
-  ],
-  "slug": "diogenes"
+  ]
  },
  "aristoteles": {
   "name": "Aristoteles",
@@ -462,8 +458,7 @@ const ILUSTRES = {
    "hf-contrato",
    "hf-utilitarismo",
    "hf-descartes-makro"
-  ],
-  "slug": "aristoteles"
+  ]
  },
  "pirron": {
   "name": "Pirron Elisekoa",
@@ -504,8 +499,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-helenismo"
-  ],
-  "slug": "epicuro"
+  ]
  },
  "zenon": {
   "name": "Zenon Zitiokoa",
@@ -591,8 +585,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-descartes-makro"
-  ],
-  "slug": "agustin"
+  ]
  },
  "hipatia": {
   "name": "Hipatia Alexandriakoa",
@@ -610,8 +603,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-helenismo"
-  ],
-  "slug": "hipatia"
+  ]
  },
  "anselmo": {
   "name": "Anselmo Canterburykoa",
@@ -702,8 +694,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-fe-razon"
-  ],
-  "slug": "averroes"
+  ]
  },
  "tomas": {
   "name": "Tomas Akinokoa",
@@ -727,8 +718,7 @@ const ILUSTRES = {
    "hf-historicidad",
    "hf-medieval",
    "hf-fe-razon"
-  ],
-  "slug": "aquino"
+  ]
  },
  "ockham": {
   "name": "Gilen Ockhamgoa",
@@ -798,8 +788,7 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-sospecha",
    "hf-descartes-makro"
-  ],
-  "slug": "copernico"
+  ]
  },
  "lutero": {
   "name": "Martin Luther",
@@ -866,8 +855,7 @@ const ILUSTRES = {
   "temas": [
    "hf-modernidad",
    "hf-descartes-makro"
-  ],
-  "slug": "galileo"
+  ]
  },
  "kepler": {
   "name": "Johannes Kepler",
@@ -963,8 +951,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-kant",
    "hf-descartes-makro"
-  ],
-  "slug": "descartes"
+  ]
  },
  "isabel": {
   "name": "Isabel Bohemiakoa",
@@ -1007,8 +994,7 @@ const ILUSTRES = {
   "temas": [
    "hf-racionalismo",
    "hf-descartes-makro"
-  ],
-  "slug": "spinoza"
+  ]
  },
  "locke": {
   "name": "John Locke",
@@ -1033,8 +1019,7 @@ const ILUSTRES = {
    "hf-utilitarismo",
    "hf-ilustracion",
    "hf-descartes-makro"
-  ],
-  "slug": "locke"
+  ]
  },
  "malebranche": {
   "name": "Nicolas Malebranche",
@@ -1080,8 +1065,7 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-ilustracion",
    "hf-descartes-makro"
-  ],
-  "slug": "newton"
+  ]
  },
  "leibniz": {
   "name": "Gottfried Wilhelm Leibniz",
@@ -1217,8 +1201,7 @@ const ILUSTRES = {
    "hf-racionalismo",
    "hf-kant",
    "hf-descartes-makro"
-  ],
-  "slug": "hume"
+  ]
  },
  "rousseau": {
   "name": "Jean-Jacques Rousseau",
@@ -1241,8 +1224,7 @@ const ILUSTRES = {
   "temas": [
    "hf-contrato",
    "hf-ilustracion"
-  ],
-  "slug": "rousseau"
+  ]
  },
  "diderot": {
   "name": "Denis Diderot",
@@ -1334,8 +1316,7 @@ const ILUSTRES = {
    "hf-kant",
    "hf-etica-deber",
    "hf-descartes-makro"
-  ],
-  "slug": "kant"
+  ]
  },
  "bentham": {
   "name": "Jeremy Bentham",
@@ -1378,8 +1359,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion"
-  ],
-  "slug": "gouges"
+  ]
  },
  "wollstonecraft": {
   "name": "Mary Wollstonecraft",
@@ -1401,8 +1381,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion"
-  ],
-  "slug": "wollstonecraft"
+  ]
  },
  "hegel": {
   "name": "Georg Wilhelm Friedrich Hegel",
@@ -1427,8 +1406,7 @@ const ILUSTRES = {
    "hf-historicidad",
    "hf-metodos",
    "hf-beauvoir"
-  ],
-  "slug": "hegel"
+  ]
  },
  "comte": {
   "name": "Auguste Comte",
@@ -1496,8 +1474,7 @@ const ILUSTRES = {
   "temas": [
    "hf-utilitarismo",
    "hf-etica-deber"
-  ],
-  "slug": "mill"
+  ]
  },
  "darwin": {
   "name": "Charles Darwin",
@@ -1519,8 +1496,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-sospecha"
-  ],
-  "slug": "darwin"
+  ]
  },
  "marx": {
   "name": "Karl Marx",
@@ -1545,8 +1521,7 @@ const ILUSTRES = {
    "hf-metodos",
    "hf-sospecha",
    "hf-capitalismo"
-  ],
-  "slug": "marx"
+  ]
  },
  "kropotkin": {
   "name": "Piotr Kropotkin",
@@ -1593,8 +1568,7 @@ const ILUSTRES = {
    "hf-metodos",
    "hf-sospecha",
    "hf-posmodernidad"
-  ],
-  "slug": "nietzsche"
+  ]
  },
  "freud": {
   "name": "Sigmund Freud",
@@ -1751,8 +1725,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-existencialismo"
-  ],
-  "slug": "ortega"
+  ]
  },
  "sapir": {
   "name": "Edward Sapir",
@@ -1793,8 +1766,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-analitica"
-  ],
-  "slug": "wittgenstein"
+  ]
  },
  "heidegger": {
   "name": "Martin Heidegger",
@@ -1925,8 +1897,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-capitalismo"
-  ],
-  "slug": "popper"
+  ]
  },
  "adorno": {
   "name": "Theodor W. Adorno",
@@ -1972,8 +1943,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-existencialismo"
-  ],
-  "slug": "zambrano"
+  ]
  },
  "sartre": {
   "name": "Jean-Paul Sartre",
@@ -2020,8 +1990,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-capitalismo"
-  ],
-  "slug": "arendt"
+  ]
  },
  "beauvoir": {
   "name": "Simone de Beauvoir",
@@ -2044,8 +2013,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beauvoir"
-  ],
-  "slug": "beauvoir"
+  ]
  },
  "turing": {
   "name": "Alan Turing",

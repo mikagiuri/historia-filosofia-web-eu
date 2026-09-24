@@ -41,7 +41,7 @@
 #ilustres .ilu-portrait{flex:none;width:170px;margin:0}
 #ilustres .ilu-portrait .ilu-img{width:170px;height:210px;object-fit:cover;object-position:50% 20%;border-radius:10px;border:1px solid var(--line-soft);cursor:zoom-in;display:block}
 #ilustres .ilu-portrait .ilu-mono{display:grid;place-items:center;width:170px;height:170px;border-radius:50%;background:var(--surface-2);border:2px solid var(--e);font-size:3rem}
-#ilustres .ilu-portrait figcaption{font-size:11px;line-height:1.35;color:var(--muted);margin-top:6px}
+#ilustres .ilu-portrait figcaption{font-size:11px;line-height:1.35;color:var(--muted);margin-top:6px;overflow-wrap:anywhere}
 #ilustres .ilu-id{min-width:0}
 #ilustres .ilu-era-tag{font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;font-weight:600;color:var(--e);margin-bottom:4px}
 #ilustres .ilu-id h2{font-size:clamp(1.6rem,4vw,2.2rem);margin-bottom:4px}
