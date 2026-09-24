@@ -19,6 +19,12 @@ const EA_CSS = `
 #esqautor .easchema li{font-size:.94rem;color:var(--ink);padding-left:16px;position:relative}
 #esqautor .easchema li::before{content:"";position:absolute;left:2px;top:.55em;width:6px;height:6px;
   border-radius:50%;background:var(--ipc)}
+#esqautor .easchema li ul{margin:4px 0 2px;gap:3px}
+#esqautor .easchema li li::before{background:var(--line);width:5px;height:5px}
+#esqautor .ea-q{font-family:var(--serif);font-style:italic;color:var(--muted);margin:-4px 0 8px}
+#esqautor .ea-d{margin:0 0 6px;font-size:.94rem}
+#esqautor .ea-a{color:var(--muted);font-style:italic}
+#esqautor .ea-idea{margin:14px 0 0;padding:10px 12px;border-left:4px solid var(--hf);background:var(--surface-2);border-radius:8px;font-size:.94rem}
 /* Solo cuando esta vista es la activa: este script se carga en todas las vistas y un
    body *{visibility:hidden} sin acotar dejaba en blanco la impresión de las demás. */
 @media print{
@@ -49,13 +55,23 @@ function renderEABody(){
   const box = document.getElementById("eabody");
   if (!box) return;
   const list = ESQUEMAS_AUTOR.filter(function (e){ return eaBlock === "all" || e.block === eaBlock; });
+  /* ítems: texto (formato antiguo) u objeto {t, d, a, c} (desde el 25-09, sacados de los esquemas v2) */
+  function item(i){
+    if (typeof i === "string") return '<li>' + eaEsc(i) + '</li>';
+    return '<li><strong>' + eaEsc(i.t) + '</strong>' + (i.d ? ': ' + eaEsc(i.d) : '') +
+      (i.a ? ' <span class="ea-a">(' + eaEsc(i.a) + ')</span>' : '') +
+      (Array.isArray(i.c) && i.c.length ? '<ul>' + i.c.map(item).join("") + '</ul>' : '') + '</li>';
+  }
   box.innerHTML = list.map(function (sch){
     const secs = (sch.sections || []).map(function (s){
       const h = s.heading ? '<h3>' + eaEsc(s.heading) + '</h3>' : '';
-      const items = (s.items || []).map(function (i){ return '<li>' + eaEsc(i) + '</li>'; }).join("");
-      return h + '<ul>' + items + '</ul>';
+      const d = s.d || s.a ? '<p class="ea-d">' + (s.d ? eaEsc(s.d) : '') + (s.a ? ' <span class="ea-a">(' + eaEsc(s.a) + ')</span>' : '') + '</p>' : '';
+      const items = (s.items || []).map(item).join("");
+      return h + d + (items ? '<ul>' + items + '</ul>' : '');
     }).join("");
-    return '<article class="easchema"><h2>' + eaEsc(sch.title) + '</h2>' + secs + '</article>';
+    return '<article class="easchema"><h2>' + eaEsc(sch.title) + '</h2>' +
+      (sch.pregunta ? '<p class="ea-q">' + eaEsc(sch.pregunta) + '</p>' : '') + secs +
+      (sch.idea ? '<p class="ea-idea"><strong>Ideia gakoa:</strong> ' + eaEsc(sch.idea) + '</p>' : '') + '</article>';
   }).join("");
 }
 
