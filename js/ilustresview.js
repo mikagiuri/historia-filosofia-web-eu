@@ -136,7 +136,7 @@ function loadIlustre(id){
     '<article class="ilu-ficha" data-b="' + p.block + '">' +
       '<header class="ilu-head">' +
         '<figure class="ilu-portrait">' + iluAvatar(p, true) +
-          (r ? '<figcaption>' + iluEsc(r.pie) + ' · ' + (r.page ? '<a href="' + iluEsc(r.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : 'Wikimedia Commons') + '</figcaption>' : '') +
+          (r ? '<figcaption>' + iluEsc(r.pie) + ' · ' + (r.page ? '<a href="' + iluEsc(r.page) + '" target="_blank" rel="noopener">' + (/wikipedia\.org/.test(r.page) ? "Wikipedia" : "Wikimedia Commons") + '</a>' : 'Wikimedia Commons') + '</figcaption>' : '') +
         '</figure>' +
         '<div class="ilu-id">' +
           '<p class="ilu-era-tag"><i class="ilu-dot" data-b="' + p.block + '" aria-hidden="true"></i>' + iluEsc(iluEpocaName(p.block)) + ' · ' + iluEsc(p.role) + '</p>' +

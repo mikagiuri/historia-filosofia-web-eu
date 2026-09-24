@@ -62,6 +62,11 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/museo2/gorgias.jpg",
   "pie": "Gorgia di Leontini · Giuseppe Emanuele Ortolani e C. Biondi · Public Domain"
  },
+ "policleto": {
+  "f": "media/retratos/ilustres/policleto.jpg",
+  "pie": "Estatua de Policleto (s. XIX, figura imaginada), Nuevo Hermitage, San Petersburgo · Александр Сигачёв · CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:N-Herm_-_POLIKLET.jpg"
+ },
  "socrates": {
   "f": "media/retratos/museo/socrates.jpg",
   "pie": "Bust Socrates Musei Capitolini MC1163 · Public Domain",
@@ -436,6 +441,11 @@ const ILUSTRES_RETRATOS = {
  "heidegger": {
   "f": "media/retratos/museo2/heidegger.jpg",
   "pie": "Freiburg, Zähringen- Jahnhalle, Prof. Martin Heidegger während eines Vortrags - LABW - Staatsarchiv Freiburg W 134 Nr. 023740f · Willy Pragher · CC BY 4.0"
+ },
+ "carnap": {
+  "f": "media/retratos/ilustres/carnap.jpg",
+  "pie": "Rudolf Carnap en 1907 · PD-US",
+  "page": "https://en.wikipedia.org/wiki/File:Rudolf_Carnap_in_1907.jpeg"
  },
  "benjamin": {
   "f": "media/retratos/ilustres/benjamin.jpg",
