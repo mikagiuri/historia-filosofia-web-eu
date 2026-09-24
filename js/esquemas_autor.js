@@ -65,7 +65,7 @@ const ESQUEMAS_AUTOR = [
         ]
       },
       {
-        "heading": "Otros",
+        "heading": "Besteak",
         "items": [
           "Pitágoras → Números",
           "Heráclito → Cambio / fuego",

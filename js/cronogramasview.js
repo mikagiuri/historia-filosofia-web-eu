@@ -15,14 +15,18 @@ function hasEje(){ return typeof EJE_CRONOLOGICO !== "undefined"; }
 function cronoBlocksPresent(){ return (hasEje() ? [EJE_ID] : []).concat([...new Set(CRONOGRAMAS.map(c => cronoOf(c.code)))]); }
 function cronoList(block){ return CRONOGRAMAS.filter(c => cronoOf(c.code) === block); }
 
-const CRONO_BLOCK_NAME = { A: "A blokea · Antzinakoa eta Erdi Arokoa", B: "B blokea · Modernoa", C: "C blokea · Garaikidea", "·": "Otros" };
-function cronoBlockName(b){ return b === EJE_ID ? "★ " + EJE_CRONOLOGICO.txt.filtro : CRONO_BLOCK_NAME[b]; }
+const CRONO_BLOCK_NAME = { A: "A blokea · Antzinakoa eta Erdi Arokoa", B: "B blokea · Modernoa", C: "C blokea · Garaikidea", "·": "Besteak" };
+function cronoBlockName(b){ return b === EJE_ID ? EJE_CRONOLOGICO.txt.filtro : CRONO_BLOCK_NAME[b]; }
 
-/* ---------- año → texto (a.C. = antes de Cristo) ---------- */
-function cronoYear(y){ if (y == null) return ""; return y < 0 ? (-y) + " a.C." : "" + y; }
+/* ---------- año → texto (a.C. = antes de Cristo) ----------
+   (24-09) el formato va en una plantilla para que el diccionario de interfaz pueda
+   reordenarlo en euskera («{n} a.C.» → «K.a. {n}»). */
+const CRONO_AC = "K.a. {n}";
+function cronoBC(n){ return CRONO_AC.replace("{n}", n); }
+function cronoYear(y){ if (y == null) return ""; return y < 0 ? cronoBC(-y) : "" + y; }
 function cronoRange(s, e){ if (s == null || e == null) return "";
-  if (s < 0 && e < 0) return (-s) + "–" + (-e) + " a.C.";
-  if (s < 0 && e >= 0) return (-s) + " a.C.–" + e;
+  if (s < 0 && e < 0) return cronoBC((-s) + "–" + (-e));
+  if (s < 0 && e >= 0) return cronoBC(-s) + "–" + e;
   return s + "–" + e; }
 function niceStep(span){ const steps = [10, 20, 25, 50, 100, 200, 250, 500, 1000];
   for (const s of steps) if (span / s <= 9) return s; return 1000; }
@@ -34,9 +38,12 @@ function renderCronoFilter(){
   if (!present.includes(cronoBlock)) cronoBlock = present[0];
   box.innerHTML = '<span class="flabel">Blokea</span>' + present.map(b =>
     '<button class="cbtn' + (b === EJE_ID ? ' cbtn-eje' : '') + '" data-cblock="' + b + '" aria-pressed="' + (b === cronoBlock) + '">' +
-    escapeCrono(cronoBlockName(b)) + '</button>').join("");
+    (b === EJE_ID ? '<span aria-hidden="true">★ </span>' : '') + escapeCrono(cronoBlockName(b)) + '</button>').join("");
+  // los clics pasan por loadCrono para que el enlace #cronogramas/<clave> siga a la selección
   box.querySelectorAll("[data-cblock]").forEach(b => b.addEventListener("click", () => {
-    cronoBlock = b.dataset.cblock; cronoId = null; renderCronoFilter(); renderCronoChips(); drawCrono();
+    const k = b.dataset.cblock;
+    if (k === EJE_ID) loadCrono(EJE_ID);
+    else { const l = cronoList(k); if (l.length) loadCrono(l[0].id); }
   }));
 }
 
@@ -48,7 +55,7 @@ function renderCronoChips(){
   if (!list.some(c => c.id === cronoId)) cronoId = list.length ? list[0].id : null;
   box.innerHTML = list.map(c =>
     '<button class="chip" data-crono="' + c.id + '" aria-pressed="' + (c.id === cronoId) + '">' + cronoTitle(c) + '</button>').join("");
-  box.querySelectorAll("[data-crono]").forEach(b => b.addEventListener("click", () => { cronoId = b.dataset.crono; renderCronoChips(); drawCrono(); }));
+  box.querySelectorAll("[data-crono]").forEach(b => b.addEventListener("click", () => loadCrono(b.dataset.crono)));
 }
 
 /* ---------- dibujo ---------- */
@@ -56,7 +63,7 @@ function drawCrono(){
   const box = document.getElementById("cronobox"); if (!box) return;
   if (cronoBlock === EJE_ID){ box.innerHTML = ejeCard(EJE_CRONOLOGICO); return; }
   const c = CRONOGRAMAS.find(x => x.id === cronoId);
-  if (!c){ box.innerHTML = '<p class="lead">Elige un cronograma.</p>'; return; }
+  if (!c){ box.innerHTML = '<p class="lead">Aukeratu kronograma bat.</p>'; return; }
   const span = (c.type === "timeline" && c.start != null && c.end != null) ? (cronoYear(c.start) + " – " + cronoYear(c.end)) : "";
   box.innerHTML = '<div class="crono-card"><div class="crono-h"><h2 class="crono-title">' + cronoTitle(c) + '</h2>' +
     (span ? '<span class="crono-span">' + span + '</span>' : '') + '</div>' +
@@ -102,7 +109,7 @@ function cronoSvg(c){
     svg += '<text class="lane-lbl" x="8" y="' + (y + rowH / 2 + 4) + '">' + escapeCrono(nm) + '</text>';
     if (a.start != null && a.end != null && a.end >= a.start){
       const bx = xOf(a.start), bw = Math.max(4, xOf(a.end) - xOf(a.start));
-      svg += '<rect class="bar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colors[i % colors.length] + '"/>';
+      svg += '<rect class="cbar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colors[i % colors.length] + '"/>';
       // años SIEMPRE visibles: a la derecha de la barra, o a la izquierda si no cabe (nunca recortados)
       const lbl = cronoYear(a.start) + '–' + cronoYear(a.end), lblW = lbl.length * 6;
       const yr = y + rowH / 2 + 4, rx = xOf(a.end) + 6;
@@ -130,10 +137,12 @@ function cronoEpochs(c){
    etiquetas verdes bajo el eje y, debajo, una ficha por periodo (siglos, acontecimiento y
    representantes). El ancho de las etiquetas se mide con la fuente de la página, así que
    vale también para la versión en euskera. */
-const EJE = { W: 1100, AX0: -700, AX1: 2100, X0: 40, X1: 1060, LBL: 13, LEAD: 15, BAR_Y: 42, BAR_H: 20, TIP: 10, GAP: 3,
-  AXIS_Y: 88, YEAR_Y: 110, PILL_Y0: 122, PILL_H: 32, PILL_DY: 38 };
+const EJE = { W: 1100, AX0: -700, AX1: 2100, X0: 40, X1: 1060, LBL: 14, LEAD: 16, BAR_Y: 46, BAR_H: 20, TIP: 10, GAP: 3,
+  AXIS_Y: 92, YEAR_Y: 115, PILL_Y0: 128, PILL_H: 34, PILL_DY: 40, PN: 13, PD: 12 };
 EJE.H = EJE.PILL_Y0 + EJE.PILL_DY + EJE.PILL_H + 6;
 function ejeX(y){ return EJE.X0 + (y - EJE.AX0) * (EJE.X1 - EJE.X0) / (EJE.AX1 - EJE.AX0); }
+/* colores del periodo: barra, texto en claro (ink) y texto en oscuro (dk, o la barra) */
+function ejeVars(p){ return "--pbar:" + p.bar + ";--pl:" + p.ink + ";--pd:" + (p.dk || p.bar); }
 
 let ejeCtx = null;
 function ejeTextW(s, px, bold){
@@ -173,7 +182,7 @@ function ejeLabelX(periods){
   return boxes.map(b => (b[0] + b[1]) / 2);
 }
 function ejePill(e){
-  const x = ejeX(e.year), w = Math.max(ejeTextW(e.name, 12, true), ejeTextW(e.date, 11, false)) + 20;
+  const x = ejeX(e.year), w = Math.max(ejeTextW(e.name, EJE.PN, true), ejeTextW(e.date, EJE.PD, false)) + 22;
   let left = e.lado > 0 ? x - 12 : e.lado < 0 ? x + 12 - w : x - w / 2;
   left = Math.max(6, Math.min(left, EJE.W - 6 - w));
   return { x: x, left: left, w: w, top: EJE.PILL_Y0 + (e.fila || 0) * EJE.PILL_DY };
@@ -186,7 +195,7 @@ function ejeSvg(E){
   const lx = ejeLabelX(P);
   P.forEach((p, i) => {
     const ls = ejeLines(p.name);
-    s += '<g class="eje-c" style="--pbar:' + p.bar + ';--pl:' + p.ink + '"><polygon points="' + ejeBar(i, p, P.length) + '" fill="' + p.bar + '"/>' +
+    s += '<g class="eje-c" style="' + ejeVars(p) + '"><polygon points="' + ejeBar(i, p, P.length) + '" fill="' + p.bar + '"/>' +
       '<text class="lbl" x="' + f(lx[i]) + '" y="' + (EJE.BAR_Y - 10 - (ls.length - 1) * EJE.LEAD) + '" text-anchor="middle">' +
       ls.map((l, k) => '<tspan x="' + f(lx[i]) + '"' + (k ? ' dy="' + EJE.LEAD + '"' : '') + '>' + esc(l) + '</tspan>').join("") + '</text></g>';
   });
@@ -203,7 +212,7 @@ function ejeSvg(E){
     '<polyline class="axis" points="' + (EJE.W - 26) + ',' + (ay - 7) + ' ' + (EJE.W - 14) + ',' + ay + ' ' + (EJE.W - 26) + ',' + (ay + 7) + '"/>';
   for (let y = EJE.AX0 + 100; y < EJE.AX1; y += 100){
     const x = ejeX(y);
-    if (pills.some(q => Math.abs(q.x - x) < 8)) continue;
+    if (pills.some(q => Math.abs(q.x - x) < 10)) continue;
     const big = y % 500 === 0, d = big ? 7 : 4;
     s += '<line class="tick' + (big ? ' big' : '') + '" x1="' + f(x) + '" y1="' + (ay - d) + '" x2="' + f(x) + '" y2="' + (ay + d) + '"/>';
   }
@@ -213,13 +222,13 @@ function ejeSvg(E){
   E.events.forEach((e, i) => {
     const q = pills[i];
     s += '<rect class="pill" x="' + f(q.left) + '" y="' + q.top + '" width="' + f(q.w) + '" height="' + EJE.PILL_H + '" rx="5"/>' +
-      '<text class="pill-n" x="' + f(q.left + 10) + '" y="' + (q.top + 14) + '">' + esc(e.name) + '</text>' +
-      '<text class="pill-d" x="' + f(q.left + 10) + '" y="' + (q.top + 27) + '">' + esc(e.date) + '</text>';
+      '<text class="pill-n" x="' + f(q.left + 11) + '" y="' + (q.top + 15) + '">' + esc(e.name) + '</text>' +
+      '<text class="pill-d" x="' + f(q.left + 11) + '" y="' + (q.top + 29) + '">' + esc(e.date) + '</text>';
   });
   // leyenda en la segunda fila, a la izquierda
   const ly = EJE.PILL_Y0 + EJE.PILL_DY + 10;
   s += '<rect class="pill" x="' + EJE.X0 + '" y="' + ly + '" width="18" height="12" rx="3"/>' +
-    '<text class="leg" x="' + (EJE.X0 + 26) + '" y="' + (ly + 10) + '">' + esc(E.txt.leyenda) + '</text>';
+    '<text class="leg" x="' + (EJE.X0 + 26) + '" y="' + (ly + 11) + '">' + esc(E.txt.leyenda) + '</text>';
   return s + '</svg>';
 }
 
@@ -242,7 +251,7 @@ function ejeGrid(E){
   const T = E.txt;
   return '<div class="eje-grid">' + E.periods.map((p, i) => {
     const ev = E.events[i] || {};
-    return '<div class="eje-col eje-c" style="--pbar:' + p.bar + ';--pl:' + p.ink + '">' +
+    return '<div class="eje-col eje-c" style="' + ejeVars(p) + '">' +
       '<h3 class="eje-per">' + escapeCrono(p.name) + '</h3>' +
       '<p class="eje-k">' + escapeCrono(T.siglos) + '</p><p class="eje-siglos">' + escapeCrono(p.siglos) + '</p>' +
       '<p class="eje-k">' + escapeCrono(T.evento) + '</p><p class="eje-evt"><span class="eje-pill">' + escapeCrono(ev.name) +
@@ -253,7 +262,8 @@ function ejeGrid(E){
 function ejeCard(E){
   return '<div class="crono-card eje-card"><div class="crono-h"><h2 class="crono-title">' + escapeCrono(E.title) + '</h2>' +
     '<span class="crono-span eje-sub">' + escapeCrono(E.sub) + '</span></div>' +
-    '<div class="eje-scroll">' + ejeSvg(E) + '</div>' + ejeGrid(E) + '</div>';
+    '<div class="eje-scroll">' + ejeSvg(E) + '</div>' +
+    (E.txt.desliza ? '<p class="eje-hint" aria-hidden="true">' + escapeCrono(E.txt.desliza) + '</p>' : '') + ejeGrid(E) + '</div>';
 }
 
 /* Enlace profundo: #cronogramas/eje o #cronogramas/<id de cronograma> (Classroom, QR). */
@@ -269,6 +279,10 @@ function escapeCrono(s){ return String(s || "").replace(/&/g, "&amp;").replace(/
 /* ---------- init ---------- */
 function initCrono(){ if (typeof CRONOGRAMAS === "undefined") return; renderCronoFilter(); renderCronoChips(); drawCrono(); }
 document.addEventListener("DOMContentLoaded", initCrono);
+/* el eje mide sus etiquetas con la fuente de la página: se vuelve a dibujar cuando esta termina de cargar */
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => {
+  if (cronoBlock === EJE_ID && document.querySelector("#cronogramas .eje-card")) drawCrono();
+});
 (function(){ const nav = document.getElementById("tabs"); if (nav) nav.addEventListener("click", e => {
   const b = e.target.closest("button"); if (b && b.dataset.view === "cronogramas") initCrono();
 }); })();

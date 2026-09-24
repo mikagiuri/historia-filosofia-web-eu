@@ -122,7 +122,7 @@ const CITAS = [
  },
  {
   "c": "Alferrik da gehiagorekin egitea gutxiagorekin egin daitekeena.",
-  "a": "Ockhamgo Gilen",
+  "a": "Gilen Ockhamgoa",
   "o": "Ockham-en labana (Summa Logicae I, 12)",
   "e": "medieval"
  },

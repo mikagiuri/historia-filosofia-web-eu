@@ -8,7 +8,8 @@ const EJE_CRONOLOGICO = {
   "siglos": "Mendeak",
   "evento": "Aldia irekitzen duen gertakaria",
   "reps": "Ordezkariak",
-  "leyenda": "Aldi batetik besterako igarobidea markatzen duten gertakariak"
+  "leyenda": "Aldi batetik besterako igarobidea markatzen duten gertakariak",
+  "desliza": "Arrastatu ardatz osoa ikusteko →"
  },
  "ticks": [
   {
@@ -57,11 +58,11 @@ const EJE_CRONOLOGICO = {
       },
       {
        "nombre": "Aspasia Miletokoa",
-       "fechas": "K.a. 470 – 400 ing."
+       "fechas": "K.a. 470 ing. – 400 ing."
       },
       {
        "nombre": "Platon",
-       "fechas": "K.a. 427 – 347 ing."
+       "fechas": "K.a. 427 ing. – 347"
       },
       {
        "nombre": "Aristoteles",
@@ -69,11 +70,11 @@ const EJE_CRONOLOGICO = {
       },
       {
        "nombre": "Eskola helenistikoak",
-       "fechas": "K.a. IV. mendearen amaieratik"
+       "fechas": "K.a. IV. mende amaieratik"
       },
       {
        "nombre": "Hipatia Alexandriakoa",
-       "fechas": "K.o. 355/370 – 415 ing."
+       "fechas": "K.o. 355/370 ing. – 415"
       }
      ]
     }
@@ -83,6 +84,7 @@ const EJE_CRONOLOGICO = {
    "name": "Erdi Aroko filosofia",
    "bar": "#A966A3",
    "ink": "#8A4B84",
+   "dk": "#C48ABF",
    "start": 476,
    "end": 1492,
    "siglos": "V. – XV. mendeak",
@@ -102,8 +104,8 @@ const EJE_CRONOLOGICO = {
        "fechas": "1225 – 1274"
       },
       {
-       "nombre": "Ockhamgo Gilen",
-       "fechas": "1287 – 1347 ing."
+       "nombre": "Gilen Ockhamgoa",
+       "fechas": "1287 ing. – 1347"
       }
      ]
     }
@@ -112,7 +114,8 @@ const EJE_CRONOLOGICO = {
   {
    "name": "Errenazimentuko filosofia",
    "bar": "#E94E35",
-   "ink": "#CC3A22",
+   "ink": "#B83220",
+   "dk": "#F07A66",
    "start": 1492,
    "end": 1600,
    "siglos": "XV. – XVI. mendeak",
@@ -126,7 +129,7 @@ const EJE_CRONOLOGICO = {
       },
       {
        "nombre": "Erasmo Rotterdamgoa",
-       "fechas": "1466 – 1536 ing.",
+       "fechas": "1466 ing. – 1536",
        "nota": "intelektual humanistaren eredua"
       },
       {
@@ -309,7 +312,7 @@ const EJE_CRONOLOGICO = {
    "lado": 0
   },
   {
-   "name": "Kolon Amerikan",
+   "name": "Kolon Amerikara iristea",
    "date": "1492",
    "year": 1492,
    "fila": 0,

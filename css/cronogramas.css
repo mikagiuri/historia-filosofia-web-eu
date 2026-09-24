@@ -6,6 +6,7 @@
 #cronogramas .cbtn:hover{ transform:translateY(-1px); border-color:var(--accent); }
 #cronogramas .cbtn[aria-pressed="true"]{ background:var(--accent); color:var(--on-accent); border-color:var(--accent); }
 #cronogramas .crono-chips{ display:flex; flex-wrap:wrap; gap:.4rem; margin:.3rem 0 1.1rem; }
+#cronogramas .crono-chips[hidden]{ display:none; }
 #cronogramas .crono-chips .chip{ font:inherit; cursor:pointer; border:1px solid var(--line); background:var(--surface-2);
   color:var(--ink); padding:.38rem .7rem; border-radius:10px; font-size:.85rem; transition:border-color .15s, transform .1s; }
 #cronogramas .crono-chips .chip:hover{ border-color:var(--accent); transform:translateY(-1px); }
@@ -20,7 +21,7 @@
 #cronogramas .crono-svg .grid{ stroke:var(--line-soft); stroke-width:1; }
 #cronogramas .crono-svg .tick-lbl{ fill:var(--muted); font-family:var(--mono); font-size:11px; }
 #cronogramas .crono-svg .lane-lbl{ fill:var(--ink); font-family:var(--sans); font-size:13px; }
-#cronogramas .crono-svg .bar{ rx:6; }
+#cronogramas .crono-svg .cbar{ rx:6; }   /* (24-09) no «.bar»: styles.css oculta .bar al imprimir */
 #cronogramas .crono-svg .bar-lbl{ fill:var(--on-accent); font-family:var(--mono); font-size:10.5px; }
 #cronogramas .crono-svg .bar-yr{ fill:var(--muted); font-family:var(--mono); font-size:10.5px; }
 #cronogramas .crono-svg .band{ fill:var(--ink); opacity:.035; }
@@ -39,33 +40,36 @@
 }
 
 /* ===== Eje cronológico del curso (24-09) ===== datos: eje_cronologico.js; vista: cronogramasview.js
-   Cada periodo trae su color de barra (--pbar) y su tinta para fondo claro (--pl); en tema oscuro
-   el texto toma el color de la barra, que es el que se lee sobre fondo oscuro. */
+   Cada periodo trae su color de barra (--pbar) y su color de texto para tema claro (--pl) y oscuro
+   (--pd), ambos con contraste AA sobre las fichas. */
 #cronogramas .cbtn-eje{ font-weight:600; border-color:var(--hf); }
 #cronogramas .cbtn-eje[aria-pressed="true"]{ background:var(--hf); border-color:var(--hf); color:var(--on-accent); }
 #cronogramas .eje-c{ --pink:var(--pl); }
-@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) #cronogramas .eje-c{ --pink:var(--pbar); } }
-:root[data-theme="dark"] #cronogramas .eje-c{ --pink:var(--pbar); }
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) #cronogramas .eje-c{ --pink:var(--pd); } }
+:root[data-theme="dark"] #cronogramas .eje-c{ --pink:var(--pd); }
 #cronogramas .eje-sub{ white-space:normal; }
 #cronogramas .eje-scroll{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin:.2rem 0 .9rem; }
-#cronogramas .eje-svg{ display:block; width:100%; min-width:760px; height:auto; font-family:var(--sans); }
-#cronogramas .eje-svg .lbl{ fill:var(--pink); font-weight:700; font-size:13px; }
+#cronogramas .eje-svg{ display:block; width:100%; min-width:1000px; height:auto; font-family:var(--sans); }
+#cronogramas .eje-svg .lbl{ fill:var(--pink); font-weight:700; font-size:14px; }
 #cronogramas .eje-svg .axis{ stroke:var(--ink); stroke-width:2; fill:none; stroke-linecap:round; stroke-linejoin:round; }
 #cronogramas .eje-svg .tick{ stroke:var(--ink); stroke-width:1; }
 #cronogramas .eje-svg .tick.big{ stroke-width:2; }
-#cronogramas .eje-svg .yr{ fill:var(--ink); font-size:12px; }
+#cronogramas .eje-svg .yr{ fill:var(--ink); font-size:13px; }
 #cronogramas .eje-svg .lead{ stroke:var(--muted); stroke-width:1; stroke-dasharray:3 3; }
 #cronogramas .eje-svg .dia{ fill:#6CCB3A; stroke:var(--ink); stroke-width:1.2; }
 #cronogramas .eje-svg .pill{ fill:#C6F68D; }
-#cronogramas .eje-svg .pill-n{ fill:#1E1E1E; font-weight:700; font-size:12px; }
-#cronogramas .eje-svg .pill-d{ fill:#333; font-size:11px; }
-#cronogramas .eje-svg .leg{ fill:var(--muted); font-size:12px; }
+#cronogramas .eje-svg .pill-n{ fill:#1E1E1E; font-weight:700; font-size:13px; }
+#cronogramas .eje-svg .pill-d{ fill:#333; font-size:12px; }
+#cronogramas .eje-svg .leg{ fill:var(--muted); font-size:13px; }
+#cronogramas .eje-hint{ display:none; font-size:.8rem; color:var(--muted); text-align:right; margin:-.55rem 0 .7rem; }
+@media (max-width:1100px){ #cronogramas .eje-hint{ display:block; } }
 
 #cronogramas .eje-grid{ display:grid; grid-template-columns:1fr; gap:.7rem; }
 @media (min-width:640px){ #cronogramas .eje-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (min-width:640px) and (max-width:999px){ #cronogramas .eje-col:last-child:nth-child(odd){ grid-column:span 2; } }
 @media (min-width:1000px){ #cronogramas .eje-grid{ grid-template-columns:repeat(5,minmax(0,1fr)); } }
 #cronogramas .eje-col{ background:var(--surface-2); border:1px solid var(--line); border-top:4px solid var(--pbar);
-  border-radius:10px; padding:.6rem .75rem .75rem; font-size:.9rem; line-height:1.4; min-width:0; }
+  border-radius:10px; padding:.6rem .75rem .75rem; font-size:.9rem; line-height:1.4; min-width:0; overflow-wrap:break-word; }
 #cronogramas .eje-per{ font-family:var(--serif); font-size:1.17em; color:var(--pink); margin-bottom:.1rem; }
 #cronogramas .eje-k{ font-size:.73em; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); margin-top:.5rem; }
 #cronogramas .eje-siglos{ color:var(--pink); }
@@ -73,6 +77,7 @@
   -webkit-box-decoration-break:clone; box-decoration-break:clone; }
 #cronogramas .eje-dt{ color:var(--muted); font-size:.82em; white-space:nowrap; }
 #cronogramas .eje-evt .eje-dt{ display:block; margin-top:.15rem; }
+#cronogramas .eje-list .eje-dt, #cronogramas .eje-top .eje-dt{ white-space:normal; }
 #cronogramas .eje-nom{ color:var(--pink); }
 #cronogramas .eje-nt{ color:var(--ink); }
 #cronogramas .eje-grp{ color:var(--pink); font-weight:700; font-size:.93em; margin-top:.45em; }
@@ -86,15 +91,15 @@
 @page eje{ size:A4 landscape; margin:8mm; }
 @media print{
   #cronogramas .crono-filter, #cronogramas .crono-chips{ display:none !important; }
-  /* esquemas_autorview.js inyecta body *{visibility:hidden} para imprimir sus esquemas */
-  #cronogramas, #cronogramas *{ visibility:visible; }
   #cronogramas .eje-card{ page:eje; box-shadow:none; border:0; padding:0; background:#fff;
     --surface:#fff; --surface-2:#fff; --ink:#1e1e1e; --muted:#555; --line:#bdbdbd; --line-soft:#ddd; }
   #cronogramas .eje-card .eje-c{ --pink:var(--pl) !important; }
   #cronogramas .eje-scroll{ overflow:visible; margin:0 0 3mm; }
+  #cronogramas .eje-hint{ display:none !important; }
   #cronogramas .eje-svg{ min-width:0; }
   #cronogramas .eje-grid{ grid-template-columns:repeat(5,minmax(0,1fr)); gap:2mm; }
+  #cronogramas .eje-col:last-child:nth-child(odd){ grid-column:auto; }
   #cronogramas .eje-col{ font-size:8.2pt; line-height:1.3; padding:1.4mm 2mm 1.8mm; break-inside:avoid; }
   #cronogramas .eje-card .crono-h{ margin-bottom:1mm; }
-  #cronogramas .eje-svg{ width:96%; margin:0 auto; }
+  #cronogramas .eje-svg{ width:94%; margin:0 auto; }
 }

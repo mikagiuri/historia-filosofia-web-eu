@@ -385,6 +385,134 @@ const GALERIA_RETRATOS2 = [
   "bloque": "C",
   "unidad": "Retrato · museo (dominio público)",
   "ia": false
- }
+ },
+  {
+   "f": "media/retratos/museo2/anaxagoras.jpg",
+   "t": "Anaxágoras",
+   "pie": "Anaxagoras etching · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/antistenes.jpg",
+   "t": "Antístenes",
+   "pie": "Antisthenes engraving · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/arquimedes.jpg",
+   "t": "Arquímedes",
+   "pie": "Archimedes (after Raphael) · A. Campanella · Public Domain Mark · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/diogenes-laercio.jpg",
+   "t": "Diógenes Laercio",
+   "pie": "Diogenes Laertius · Unknown · Public Domain · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/hipocrates.jpg",
+   "t": "Hipócrates",
+   "pie": "Hippocrates engraving · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/lucrecio.jpg",
+   "t": "Lucrecio",
+   "pie": "Lucretius, globe of Chance · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/ptolomeo.jpg",
+   "t": "Ptolomeo",
+   "pie": "Ptolemy (Stimmer, 1587) · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/sexto-empirico.jpg",
+   "t": "Sexto Empírico",
+   "pie": "Sextus Empiricus · Unknown · Public Domain · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/erasmo.jpg",
+   "t": "Erasmo de Róterdam",
+   "pie": "Portrait of Erasmus · Hans Holbein the Younger · Public Domain · Wikimedia Commons",
+   "bloque": "B",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/gassendi.jpg",
+   "t": "Gassendi",
+   "pie": "Gassendi (Mellan) · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "B",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/kepler.jpg",
+   "t": "Kepler",
+   "pie": "Kepler (Dietz) · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "B",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/tomas-moro.jpg",
+   "t": "Tomás Moro",
+   "pie": "Thomas More (after Holbein) · Wellcome Collection · Public Domain Mark · Wikimedia Commons",
+   "bloque": "B",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/hiparquia.jpg",
+   "t": "Hiparquía de Maronea",
+   "pie": "Hipparchia of Maroneia (Villa Farnesina fresco) · Unknown · Public Domain · Wikimedia Commons",
+   "bloque": "A",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/isabel-bohemia.jpg",
+   "t": "Isabel de Bohemia",
+   "pie": "Princess Elisabeth of the Palatinate · Gerard van Honthorst · Public Domain · Wikimedia Commons",
+   "bloque": "B",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/emilie-chatelet.jpg",
+   "t": "Émilie du Châtelet",
+   "pie": "Portrait of Émilie du Châtelet · Marianne Loir · Public Domain · Wikimedia Commons",
+   "bloque": "B",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  },
+  {
+   "f": "media/retratos/museo2/cristina-pizan.jpg",
+   "t": "Cristina de Pizán",
+   "pie": "Christine de Pizan presenting her book (Harley MS 4431) · Unknown illuminator · Public Domain · Wikimedia Commons",
+   "bloque": "B",
+   "unidad": "Retrato · museo (dominio público)",
+   "ia": false
+  }
 ];
 try { if (typeof GALERIA !== "undefined" && Array.isArray(GALERIA)) GALERIA.push.apply(GALERIA, GALERIA_RETRATOS2); } catch(e){}
