@@ -66,5 +66,5 @@ renderEABody();
 /* Botón imprimir (se conecta en index.html o aquí por id). */
 (function(){
   const b = document.getElementById("eaprint");
-  if (b) b.addEventListener("click", function(){ window.print(); });
+  if (b) b.addEventListener("click", function(){ void 0 /* sin imprimir en la web de alumnado */; });
 })();
