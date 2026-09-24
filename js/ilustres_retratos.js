@@ -276,6 +276,11 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/museo2/diderot.jpg",
   "pie": "Denis Diderot by Louis Michel van Loo (drawing) · Louis-Michel van Loo · Public Domain"
  },
+ "baumgarten": {
+  "f": "media/retratos/ilustres/baumgarten.jpg",
+  "pie": "Portada de su Aesthetica (1750), la obra que fundó la estética (no se conoce ningún retrato de Baumgarten) · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Aesthetica.png"
+ },
  "dalembert": {
   "f": "media/retratos/museo2/dalembert.jpg",
   "pie": "Jean le Rond d'Alembert. Line engraving. Wellcome V0000121 · Wellcome Collection · CC BY 4.0"
@@ -558,6 +563,11 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/museo2/foucault.jpg",
   "pie": "Michel Foucault MET 153881 · Giovanni Battista Nini · CC0"
  },
+ "dickie": {
+  "f": "media/retratos/ilustres/dickie.jpg",
+  "pie": "La Fuente de Duchamp fotografiada por Alfred Stieglitz (1917), el ejemplo clásico de la teoría institucional del arte (no hay retrato de Dickie de uso libre) · Marcel Duchamp / Alfred Stieglitz · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg"
+ },
  "chomsky": {
   "f": "media/retratos/ilustres/chomsky.jpg",
   "pie": "Noam Chomsky portrait 2015 · Augusto Starita / Ministerio de Cultura de la Nación · CC BY-SA 2.0",
@@ -601,6 +611,11 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/ilustres/azurmendi.jpg",
   "pie": "Joxe Azurmendi · Luistxo from Donostia, Basque Country · CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Joxe_Azurmendi.jpg"
+ },
+ "ingham": {
+  "f": "media/retratos/ilustres/ingham.jpg",
+  "pie": "Tarjas medievales de deuda, imagen clásica del dinero como crédito, la tesis de Ingham (no hay retrato suyo de uso libre) · Winchester City Council Museums · CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Medieval_tally_sticks.jpg"
  },
  "nussbaum": {
   "f": "media/retratos/ilustres/nussbaum.jpg",
