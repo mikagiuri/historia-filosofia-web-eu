@@ -41,7 +41,7 @@ function iluFiltered(){
   return iluList().filter(p => {
     if (iluSubject !== "all" && !(p.subjects || []).includes(iluSubject)) return false;
     if (iluEpoca !== "all" && p.block !== iluEpoca) return false;
-    if (q && !iluFold([p.name, p.role, p.idea, (p.obras || []).join(" "), p.bio].join(" ")).includes(q)) return false;
+    if (q && !iluFold([p.name, p.role, p.idea, (p.obras || []).join(" "), p.bio, p.anecdota].join(" ")).includes(q)) return false;
     return true;
   });
 }
@@ -146,6 +146,8 @@ function loadIlustre(id){
         '</div>' +
       '</header>' +
       '<div class="ilu-bio">' + (p.bio || "") + '</div>' +
+      (p.anecdota ? '<div class="ilu-sec ilu-anec"><h3><span>Anekdota</span>' + (p.tradicion ? ' <span class="ilu-trad">tradizioaren arabera</span>' : '') + '</h3>' +
+        p.anecdota + (p.fuente ? '<p class="ilu-fuente"><span>Iturria</span>: ' + iluEsc(p.fuente) + '</p>' : '') + '</div>' : '') +
       ((p.obras || []).length ? '<div class="ilu-sec"><h3>Lan nagusiak</h3><ul class="ilu-obras">' + p.obras.map(o => '<li>' + iluEsc(o) + '</li>').join("") + '</ul></div>' : '') +
       iluTemaChips(p) +
     '</article>';

@@ -1,6 +1,8 @@
 "use strict";
-/* ===== Vista Citas ===== depende de: citas.js =====
-   Frases célebres de la filosofía, con filtro por época. Estilos propios con tokens de tema. */
+/* ===== Vista Citas ===== depende de: citas.js (ILUSTRES y show/loadIlustre, opcionales) =====
+   Frases célebres de la filosofía, con filtro por época. Estilos propios con tokens de tema.
+   Cada frase lleva el retrato de su autor (campo «img», lo añade tools/build_ilustres.js) y, si
+   el autor tiene ficha en Ilustres en esta web (campo «id»), el retrato y el nombre la abren. */
 (function(){
   if (typeof CITAS === "undefined") return;
 
@@ -11,7 +13,13 @@
     + '  border-radius:12px; padding:18px 18px 15px; display:flex; flex-direction:column; gap:10px; box-shadow:var(--shadow); }'
     + '#citas .cit-q{ font-family:var(--serif,Georgia,serif); font-style:italic; font-size:1.08rem; line-height:1.45; color:var(--ink); margin:0; }'
     + '#citas .cit-q::before{ content:"\\201C"; color:var(--accent); font-size:1.3em; line-height:0; vertical-align:-0.25em; margin-right:.05em; }'
-    + '#citas .cit-src{ margin-top:auto; font-size:.9rem; }'
+    + '#citas .cit-src{ margin-top:auto; font-size:.9rem; display:flex; align-items:center; gap:10px; }'
+    + '#citas .cit-av{ flex:none; width:46px; height:46px; border-radius:50%; overflow:hidden; border:1px solid var(--line); background:var(--surface-2); padding:0; }'
+    + '#citas .cit-av img{ width:100%; height:100%; object-fit:cover; object-position:50% 20%; display:block; }'
+    + '#citas button.cit-av{ cursor:pointer; } #citas button.cit-av:hover{ border-color:var(--accent); }'
+    + '#citas .cit-who{ min-width:0; }'
+    + '#citas button.cit-a{ background:none; border:0; padding:0; font:inherit; cursor:pointer; text-align:left; }'
+    + '#citas button.cit-a:hover{ color:var(--accent); text-decoration:underline; }'
     + '#citas .cit-a{ font-weight:600; color:var(--ink); }'
     + '#citas .cit-o{ color:var(--muted); font-style:italic; }'
     + '#citas .citcount{ color:var(--muted); font-size:13px; margin:10px 0 0; }'
@@ -40,12 +48,19 @@
     const body = document.getElementById("citasbody");
     if (!body) return;
     const list = citFiltered();
+    const ficha = function (c){ return c.id && typeof ILUSTRES !== "undefined" && ILUSTRES[c.id] && typeof loadIlustre === "function"; };
     body.innerHTML = '<div class="citgrid">' + list.map(function (c){
+      const link = ficha(c), dt = link ? ' data-ilu="' + esc(c.id) + '"' : '';
+      const av = c.img ? (link ? '<button class="cit-av"' + dt + ' aria-hidden="true" tabindex="-1">' : '<span class="cit-av" aria-hidden="true">') +
+        '<img loading="lazy" src="' + esc(c.img) + '" alt="">' + (link ? '</button>' : '</span>') : '';
+      const who = link ? '<button class="cit-a"' + dt + '>' + esc(c.a) + '</button>' : '<span class="cit-a">' + esc(c.a) + '</span>';
       return '<figure class="citcard"><blockquote class="cit-q">' + esc(c.c) + '</blockquote>' +
-        '<figcaption class="cit-src"><span class="cit-a">' + esc(c.a) + '</span>' +
-        (c.o ? ', <span class="cit-o">' + esc(c.o) + '</span>' : '') + '</figcaption></figure>';
+        '<figcaption class="cit-src">' + av + '<span class="cit-who">' + who +
+        (c.o ? ', <span class="cit-o">' + esc(c.o) + '</span>' : '') + '</span></figcaption></figure>';
     }).join("") + '</div>' +
     '<p class="citcount">' + list.length + (list.length === 1 ? " esaldi" : " esaldi") + '.</p>';
+    body.querySelectorAll("[data-ilu]").forEach(function (b){ b.addEventListener("click", function (){
+      (window.show || show)("ilustres"); loadIlustre(b.dataset.ilu); }); });
   }
 
   function initCitas(){ if (!document.getElementById("citasbody")) return; renderCitFilter(); renderCitBody(); }

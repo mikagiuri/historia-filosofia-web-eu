@@ -1,6 +1,6 @@
 "use strict";
 /* ===== Galería · más obras por época y tema (dominio público, 2ª tanda) ===== push a GALERIA
-   sin editar galeria.js. Fuente: imagenes_museos/temas_2/manifest.csv (Commons/Met/Cleveland). */
+   sin editar galeria.js. Fuente: recursos/imagenes_museos/temas_2/manifest.csv (Commons/Met/Cleveland). */
 const GALERIA_TEMAS2 = [
  {
   "f": "media/galeria_museo/temas2/helenismo_Nike_of_Samothrace_Paris_Louvre.jpg",

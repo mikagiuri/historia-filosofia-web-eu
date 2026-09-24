@@ -13,6 +13,9 @@ const ILUSTRES = {
    "Iliada",
    "Odisea"
   ],
+  "anecdota": "<p>Antzinako kondaira batek dioenez, Homero, jada zaharra zela, Ios uhartean arrantzatik itzultzen ziren mutil batzuekin topo egin zuen. Zer harrapatu zuten galdetu zien, eta haiek asmakizun batekin erantzun zioten: «Harrapatu duguna utzi egin dugu; harrapatu ez duguna gainean daramagu». Jainkoei eta heroiei buruz dena zekien olerkariak ez zuen asmatu. Erantzuna zorriak ziren, hondartzan eserita kendu zituztenak. Heraklitok jada istorio hau aipatzen zuen olerkarien jakinduriaz fidatzen zirenez burla egiteko: greziarren artean handiena ere engainatu egin zuen begien aurrean zuenak.</p>",
+  "fuente": "Herodotori egotzitako Homeroren bizitza; Homero eta Hesiodoren lehia; Heraklito, Homerori eta zorriei buruzko zatia",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -34,6 +37,9 @@ const ILUSTRES = {
    "Teogonia",
    "Lanak eta egunak"
   ],
+  "anecdota": "<p>Hesiodok <em>Lanak eta egunak</em> lanean kontatzen du Kalkisera joan zela, Eubean, Anfidamanteren omenezko hileta-jokoetan parte hartzera, eta ereserki batekin tripode bat irabazi zuela, Helikongo Musei eskaini ziena. Mende batzuk geroago, tradizioak lehiaketa hura Homerorekin berarekin izandako norgehiagoka bihurtu zuen. <em>Homero eta Hesiodoren lehia</em> lanaren arabera, jendeak Homero nahiago zuen, baina jokoen buru zen erregeak Hesiodori eman zion saria: bidezkoa zen nekazaritza eta bakea abesten zituenak irabaztea, eta ez gerra eta sarraskiak abesten zituenak.</p>",
+  "fuente": "Hesiodo, Lanak eta egunak; Homero eta Hesiodoren lehia",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -54,6 +60,9 @@ const ILUSTRES = {
   "obras": [
    "Elegiak (zatiak)"
   ],
+  "anecdota": "<p>Herodotok kontatzen du Solonek, bere bidaietan, Sardesen Kreso bisitatu zuela, Lidiako errege aberastasunengatik ospetsua. Bere altxorrak erakutsi ondoren, Kresok galdetu zion nor zen ezagutu zuen gizonik zoriontsuena, bere izena entzutea espero zuela. Solonek atenastar xume bat aipatu zuen, Telo, bere seme-alabak hazten ikusi eta bere hiria defendatuz ohorez hil zena. Eta gaineratu zuen ezin zaiola inori zoriontsu deitu bizi den bitartean, zortea aldatu egiten delako. Kresok mespretxuz bidali zuen, baina geroago, bere erreinua galdu ondoren, haren hitzak gogoratuko zituen. Kronologiak zalantzan jartzen du topaketa benetakoa izan ote zen.</p>",
+  "fuente": "Herodoto, Historiak I",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -72,6 +81,9 @@ const ILUSTRES = {
   "idea": "Lehen filosofotzat hartua, gauza guztiei komuna zaien printzipio natural bat bilatu zuen, arkhea, eta printzipio hori ura dela esan zuen.",
   "bio": "<p>Tales Mileton bizi izan zen, Joniako merkataritza-hiri oparoan, gaur egungo Turkiako kostaldean, K.a. VII. mendearen amaieratik VI.aren erdialdera arte. Greziarrek Zazpi Jakintsuen artean sartu zuten. Tradizioaren arabera jakintsu praktikoa izan zen: Egiptora bidaiatu zuen, eta han geometria eta astronomia ikasi omen zituen; K.a. 585eko eguzki-eklipsea iragarri zuen, eta joniarrei aholkuak eman zizkien gai politikoetan. Ez zuen ezer idatzi utzi, edo ez da ezer gorde; batez ere Aristotelesen bidez eta egiaztatzen zailak diren pasadizoen bidez ezagutzen dugu.</p>\n<p><strong>Lehen filosofotzat</strong> hartzen da natura (<strong>physis</strong>) jainkoengana jo gabe azaltzen saiatu zelako. <strong>Arkhea</strong>ri buruz galdetu zuen, gauza guztiak datozen printzipio komunari buruz, eta <strong>ura</strong> dela erantzun zuen. Aristotelesen arabera, ideia horretara irits zitekeen bizidun guztiek hezetasuna behar dutela ikusita. Erabakigarria ez da erantzuna, metodoa baizik: kausa naturalak bilatzen ditu, argudiatu egiten du eta bere tesia kritikari irekita uzten du. Gauza oro jainkoz beteta dagoela dioen ideia ere egozten zaio, hau da, materia bizia dela.</p>\n<p>Talesekin hasten da Miletoko eskola, Anaximandrok eta Anaximenesek jarraitua; haiek haren erantzuna eztabaidatu eta beste printzipio batzuk proposatu zituzten. Haren irudiak <strong>mitotik logosera</strong> igarotzea sinbolizatzen du: Homeroren Ozeano jainkotiarraren aurrean, printzipio behagarri bat aukeratzen du. Tradizioak haren izena daraman teorema geometrikoa ere egozten dio, nahiz eta egiletza hori zalantzazkoa den.</p>",
   "obras": [],
+  "anecdota": "<p>Aristotelesek kontatzen du Talesi bere pobrezia leporatzen ziotela, filosofiak ezertarako balio ez balu bezala. Kontrakoa frogatzeko, astronomiari buruz zekienari esker, neguan aurreikusi zuen hurrengo oliba-uzta bikaina izango zela. Zuen diru apurrarekin, Miletoko eta Kioseko olio-dolare guztiak alokatu zituen aldez aurretik, prezio merkean, beste inork ez baitzuen eskaintzarik egiten. Uzta iritsi eta denek behar zituztenean, nahi zuen prezioan azpialokatu zituen eta dirutza irabazi zuen. Horrela erakutsi zuen filosofoak erraz aberats zitezkeela nahi izanez gero, baina haien interesa beste nonbait dagoela.</p>",
+  "fuente": "Aristoteles, Politika I",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -90,6 +102,9 @@ const ILUSTRES = {
   "idea": "Gauza guztien printzipioa ez da elementu zehatz bat, apeirona baizik: zerbait mugagabe eta zehaztugabea, kontrarioak bertatik sortzen eta bertara itzultzen direna.",
   "bio": "<p>Anaximandro Mileton jaio zen K.a. 610 inguruan, eta Talesen dizipulu edo kide izan zen. Ezagutzen zen munduaren lehen mapa, kosmosaren eredu bat eta gnomona Greziara ekartzea egozten zaizkio; gnomona eguzki-erloju gisa balio duen makila bat da. Prosazko liburu bat idatzi zuen, greziar literaturako lehenetakoa, baina ez da gorde: zati labur bat baino ez zaigu iritsi, geroagoko egileek aipatua.</p>\n<p>Ez zuen onartu <strong>arkhea</strong> ura bezalako elementu zehatz bat izatea. Antzinako albiste baten arabera, termino hori erabili zuen lehena izan zen. Elementuetako bat mugagabea balitz, besteak suntsituko lituzke; horregatik printzipioak <strong>apeirona</strong> izan behar du: mugagabea, definitugabea edo zehaztugabea, betierekoa eta suntsiezina. Harengandik bereizten dira kontrarioak (beroa eta hotza, lehorra eta hezea), elkarren artean borrokatzen dira eta harengana itzultzen dira. Haren zatian, prozesu hori <strong>justizia</strong> kosmiko gisa deskribatzen da: gauzek beren injustizia ordaintzen dute denboraren ordenaren arabera, eta horrek <strong>beharrezkotasunaren</strong> ideia sartzen du.</p>\n<p>Anaximandrok urrats bat eman zuen abstrakziorantz: printzipioa jada ez da ikusten ez ukitzen, pentsatu baino ez da egiten. Anaximenes, haren ondorengoa, elementu behagarri batera itzuli zen, airera. Halaber, Lurra kosmosaren erdian dagoela ezeren gainean bermatu gabe eta lehen gizakiak uretako animalietatik zetozela defendatu zuen, bere garairako ideia ausartak.</p>",
   "obras": [],
+  "anecdota": "<p>Zizeronek albiste harrigarri bat jasotzen du: Anaximandrok espartarrei ohartarazi zien lurrikara bat hurbiltzen ari zela, eta etxeak utzi eta gaua landan igarotzeko aholkatu zien, armatuta. Handik gutxira, kontakizunaren arabera, hiria erori egin zen eta Taigeto mendiaren zati bat askatu zen. Zizeronek etorkizuna igartzea posible den eztabaidatzean aipatzen du, eta ez du profezia gisa aurkezten, naturaren behaketaren fruitu gisa baizik. Egia izan ala ez, istorioa bat dator Anaximandroren irudiarekin: gertatzen den guztiarentzat kausa naturalak bilatzen zituen ikertzailea.</p>",
+  "fuente": "Zizeron, Igarpenari buruz I",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -126,6 +141,9 @@ const ILUSTRES = {
   "idea": "Errealitatearen esentzia zenbakia da: unibertsoa ordena harmoniko eta matematikoa da, eta arima hilezkorrak garbitu egin behar du ondoz ondoko berraragitzeetan zehar.",
   "bio": "<p>Pitagoras Samos uhartean jaio zen, Joniako kostaldearen parean, K.a. 570 inguruan. K.a. 530 inguruan Italiako hegoaldera emigratu zuen, Magna Greziara, eta Krotonan komunitate bat sortu zuen, aldi berean erlijiosoa, zientifikoa eta politikoa. Ez zuen ezer idatzi, eta haren jarraitzaileek aurkikuntza guztiak berari egozten zizkioten; horregatik zaila da bereiztea zer pentsatu zuen berak eta zer garatu zuten pitagorikoek. Tradizioaren arabera, bere burua filosofo deitu zuen lehena izan zen, jakintzaren maitale, eta ez jakintsu.</p>\n<p>Pitagorikoek aurkitu zuten musika-notak zenbakizko proportzioei dagozkiela, eta ideia orokortu egin zuten: <strong>zenbakia</strong> da gauza guztien printzipioa, eta unibertsoa <strong>kosmosa</strong> da, egitura matematikoko ordena harmonikoa. Arimaren eta gorputzaren <strong>dualismoa</strong> eta <strong>metenpsikosia</strong> edo berraragitzea ere irakatsi zituzten, orfismotik hartua: arima hilezkorra da, gorputzean preso dago kartzela batean bezala, eta musikaren, ikasketaren eta bizitza kontenplatiboaren bidez garbitu behar du. Errealitatea aurkako hierarkizatuen taula batean antolatu zuten.</p>\n<p>Haren eragina erabakigarria da <strong>Platon</strong>engan: matematika ezagutza egiazkoaren eredu gisa, arimaren hilezkortasuna, garbikuntza eta errealitatea goi-polo batean eta behe-polo batean banatzea Ideien teoriara eta <em>Fedon</em> bezalako lanetara igarotzen dira. Haren izena daraman teorema babiloniarrek praktikan ezagutzen zuten jada, nahiz eta tradizioak haren eskolari egozten dion frogapen bat.</p>",
   "obras": [],
+  "anecdota": "<p>Pitagorasen garaikide batek, Xenofanes olerkariak, haren berraragitzearen sinesmenaz burla egin zuen, gorde den eszena batekin. Kontatzen du Pitagoras jipoitzen ari ziren txakurkume baten ondotik igaro zela eta, hunkituta, oihu egin zuela: «Gelditu, ez jo gehiago! Nire lagun baten arima da; haren ahotsa entzutean ezagutu dut». Karikatura bat bada ere, Pitagorasi buruzko lekukotasunik zaharrenetako bat da, eta berresten du bizirik zegoela jada arimen <strong>transmigrazioaren</strong> doktrinarekin lotzen zutela, animalien artean ere bai, eta horrek azaltzen du pitagorikoek haragia jateari uko egitea.</p>",
+  "fuente": "Xenofanes, Diogenes Laertziok aipatutako zatia, Bizitzak VIII",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -147,6 +165,9 @@ const ILUSTRES = {
    "Elegiak (zatiak)",
    "Siloak (zatiak)"
   ],
+  "anecdota": "<p>Aristotelesek kontatzen du Eleako biztanleek Xenofanesi galdetu ziotela ea sakrifizioak eskaini behar zizkioten Leukoteari, mitoaren arabera itsas jainkosa bihurtutako emakume hilkorrari, eta, aldi berean, hileta-erritoetan hura negartu. Xenofanesek irtenbiderik uzten ez zuen argudio batekin erantzun zien: jainkosatzat hartzen bazuten, ez zuten negarrik egin behar, jainkoak ez baitira hiltzen; eta emakume hilkortzat hartzen bazuten, ez zioten sakrifiziorik eskaini behar. Erantzunak erlijio tradizionalari egiten zion kritika laburbiltzen du: arrazoia mitoei aplikatzeak haien kontraesanak agerian uzten ditu.</p>",
+  "fuente": "Aristoteles, Erretorika II",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -168,6 +189,9 @@ const ILUSTRES = {
   "obras": [
    "Naturaz (zatiak)"
   ],
+  "anecdota": "<p>Aristotelesek kontatzen du bisitari batzuk Heraklitoren etxera iritsi zirela jakintsu ospetsua ezagutzeko gogoz. Sukaldeko labearen ondoan berotzen aurkitu zuten, eta atean geldi geratu ziren, hain leku xumeak harrituta. Heraklitok sartzera animatu zituen: «Sartu, hemen ere badira jainkoak». Aristotelesek pasadizoa animaliarik apalenen azterketa defendatzeko erabiltzen du, natura-gauza guztietan baitago zerbait miresgarria. Bat dator Heraklitoren pentsamenduarekin: sua eta logos jainkotiarra guztian daude, eguneroko gauzetan ere bai.</p>",
+  "fuente": "Aristoteles, Animalien atalak I",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -189,6 +213,9 @@ const ILUSTRES = {
   "obras": [
    "Naturaz (poema, zatiak)"
   ],
+  "anecdota": "<p>Parmenides ez zen pentsalari abstraktu hutsa izan. Antzinako hainbat iturriren arabera, bere hiriko, Eleako, legeak idatzi zituen, eta herritarrak hain gustura geratu ziren, non urtero magistratuek Parmenidesen legeak errespetatzeko zin egiten baitzuten. Plutarkok aipatzen du filosofoei bizitza praktikorako balio ez zutela leporatzen zietenei erantzuteko, eta Estrabonek Eleako gobernu onari egozten dio, Parmenides eta Zenonen lanari, hiriak bere auzokoen aurrean eutsi izana. Horrela, izate higiezinaren filosofoak arrasto oso zehatza utzi zuen <strong>polis</strong>ean ere.</p>",
+  "fuente": "Plutarko, Kolotesen aurka; Estrabon, Geografia VI; Diogenes Laertzio, Bizitzak IX",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -210,6 +237,9 @@ const ILUSTRES = {
   "obras": [
    "Naturaz (zatiak)"
   ],
+  "anecdota": "<p>Kontatzen da Anaxagorasek bere familiaren ondasunak alde batera utzi zituela natura aztertzeari emateko, eta bere lurrak ardien larre bihurtzen utzi zituela. Norbaitek bere aberriaz ez arduratzea leporatu zionean, zerua seinalatu eta erantzun zuen: «Izugarri arduratzen naiz nire aberriaz». Beste behin, zertarako merezi zuen jaio izana galdetu zioten, eta erantzun zuen: «Zerua eta unibertso osoaren ordena kontenplatzeko». Aristotelesek azken erantzun hori jasotzen du ezagutzari emandako bizitzaren adibide gisa.</p>",
+  "fuente": "Diogenes Laertzio, Bizitzak II; Aristoteles, Eudemorentzako Etika I",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -231,6 +261,9 @@ const ILUSTRES = {
    "Naturaz (zatiak)",
    "Garbikuntzak (zatiak)"
   ],
+  "anecdota": "<p>Diogenes Laertziok kontatzen du Agrigenton hain haize bortitzak jotzen zuela, non uztak hondatzen baitzituen. Enpedoklesek astoak larrutzeko agindu zuen, eta haien larruarekin zahagiak egin zituen, muinoetan eta arroiletan jarri zituenak haizea harrapatzeko. Haizea baretu zenean, herritarrak «haizeak gelditzen dituena» deitzen hasi zitzaizkion. Istorioak, antzinako historialariengandik jasoak, teknika eta magia nahasten ditu, Enpedoklesen irudiak berak bezala: bere bertsoetan ekaitzak baretzen eta naturaren indarrak menderatzen irakastea agintzen zien bere ikasleei.</p>",
+  "fuente": "Diogenes Laertzio, Bizitzak VIII",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -252,6 +285,9 @@ const ILUSTRES = {
    "Jainkoez (zatiak)",
    "Egia (zatiak)"
   ],
+  "anecdota": "<p>Aulo Geliok kontatzen du gazte batek, Euatlok, Protagorasekin hitzartu zuela erretorika-eskolak ordainduko zizkiola bere lehen epaiketa irabazten zuenean. Ikasketak amaitu zituen, baina ez zen auzitegietan aritu, ezta ordaindu ere. Protagorasek salatu egin zuen eta dilema bat planteatu zion: berak irabazten bazuen epaiketa, Euatlok epaiaren ondorioz ordaindu beharko zuen; Euatlok irabazten bazuen, itunaren ondorioz ordaindu beharko zuen. Ikasleak kontrako dilemarekin erantzun zion: irabazten bazuen, ez zuen ordainduko epaiaren ondorioz; galtzen bazuen, ezta ere, oraindik ez baitzuen epaiketarik irabazita izango. Epaileek, diotenez, erabakia atzeratu zuten. Tesi bat eta haren kontrakoa defendatzeko artearen erakusgarri ezin hobea da.</p>",
+  "fuente": "Aulo Gelio, Gau atikoak V; Diogenes Laertzio, Bizitzak IX",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -274,6 +310,9 @@ const ILUSTRES = {
    "Helenaren laudorioa",
    "Palamedesen defentsa"
   ],
+  "anecdota": "<p>Gorgias ospetsua zen bat-batean hitz egiteko zuen gaitasunagatik. Filostratoren arabera, Atenasko antzokian sartu eta jendeari erronka egiten zion: «Proposa ezazue gai bat», eta berehala hitz egiten zuen hari buruz, prestatu gabe. Platonek ohitura hori aipatzen du bere <em>Gorgias</em>en hasieran, non sofista edozein galderari erantzuteko gai dela harrotzen baita. Hain arrakasta handia izan zuen, non Delfosko santutegian bere burua irudikatzen zuen estatua urreztatu bat eskaini baitzuen. Platonentzat, distira horrek erretorikaren arriskua laburbiltzen zuen: jendea liluratzea, egiaz arduratu gabe.</p>",
+  "fuente": "Filostrato, Sofisten bizitzak I; Platon, Gorgias; Pausanias, Greziaren deskribapena X",
+  "tradicion": false,
   "block": "ant",
   "subjects": [
    "hf"
@@ -292,6 +331,9 @@ const ILUSTRES = {
   "idea": "Ongia benetan ezagutzen duenak ongi jokatzen du; horregatik, filosofiaren zeregina norberaren bizitza aztertzea eta, elkarrizketan, definizio unibertsalak bilatzea da.",
   "bio": "<p>Sokrates Atenasen jaio zen, eskultore baten eta emagin baten semea, eta Atenasko demokraziaren distira eta krisia bizi izan zituen, Periklesen eta Peloponesoko gerraren garaian. Soldadu aritu zen, eta bizitza agoran solasean eman zuen. Ez zuen ezer idatzi: bere ikasle <strong>Platon</strong>en, Xenofonteren eta Aristofanesen <em>Hodeiak</em> komediaren bidez ezagutzen dugu. K.a. 399an, erlijioaren aurka jokatzea eta gazteria usteltzea leporatu zioten, eta zikuta edanez hil zen.</p>\n<p>Sofistekin partekatzen du gizakiarekiko eta polis-eko bizitzarekiko interesa, baina haien aurka dago: ez du kobratzen, elkarrizketa nahiago du hitzaldia baino, eta erlatibismoaren aurka borrokatzen da. Norberaren ezjakintasuna onartzetik abiatzen da, eta justizia edo ausardia bezalako kontzeptuen <strong>definizio unibertsalak</strong> bilatzen ditu. Bere metodoak bi atal ditu: <strong>ironia</strong>, solaskideari ez dakiela ohartarazten diona, eta <strong>maieutika</strong>, egia berak bere kabuz argitara ekartzen laguntzen diona. Etikan <strong>intelektualismo morala</strong> defendatzen du: gaizkia ezjakintasunagatik egiten da.</p>\n<p>Sokratesekin filosofia gizakiarengana bideratzen da, hainbesteraino non aurreko pentsalariei presokratiko deitzen baitzaie. Platonek unibertsalaren bilaketa hori jaso eta Ideien teoria bihurtzen du, eta haren zirkulutik zinikoak eta zirenaikoak ere sortzen dira.</p>",
   "obras": [],
+  "anecdota": "<p>Platonen <em>Apologia</em>ren arabera, Sokratesen lagun batek, Kerefontek, Delfosko orakuluari galdetu zion ea bazen Sokrates baino jakintsuagorik, eta apaizak ezetz erantzun zion. Sokrates harrituta geratu zen, bazekielako ez zela jakintsua, eta egiaztatzea erabaki zuen, jakintsu ospea zuten politikari, olerkari eta artisauei galderak eginez. Aurkitu zuen denek uste zutela ez zekitena bazekitela. Ondorioztatu zuen orakuluak arrazoi zuela zentzu batean: bera zen jakintsuena, bere ezjakintasuna onartzen zuelako soilik. Harrezkero, besteen azterketa horretan jainkoak agindutako eginkizun bat ikusi zuen.</p>",
+  "fuente": "Platon, Sokratesen apologia; Xenofonte, Apologia",
+  "tradicion": false,
   "block": "ant",
   "subjects": [
    "hf"
@@ -315,6 +357,9 @@ const ILUSTRES = {
   "idea": "Emakume batek gizonek adina menderatu zitzakeen hitza eta pentsamendu politikoa, eta Atenasko hiritarrik eraginkorrenei erretorika irakatsi.",
   "bio": "<p>Aspasia Mileton jaio zen, Joniako kostaldeko hiri greziar batean, eta Atenasera joan zen bizitzera, atzerritar egoiliar gisa. <strong>Perikles</strong>en bikotekidea izan zen, eta harekin seme bat izan zuen; haren etxea politikarien, artisten eta filosofoen topagune bihurtu zen. Atenas klasikoan gizon libreak baino ez zirenez hiritar, bizitza publikoan izan zuen presentzia salbuespenekoa izan zen, eta komedia-idazleen erasoak eta iseka ere ekarri zizkion.</p>\n<p>Ez da haren idazkirik gorde: beste egile batzuen lekukotasunei esker dakigu haren berri, hala nola Platon, Xenofonte eta Plutarkorenei; horregatik, datuak eta kondaira bereizi behar dira. Iturri horiek hizlari bikain eta <strong>erretorika</strong>-maistra gisa aurkezten dute, konbentzitzeko artearen maistra gisa. Platonen <em>Menexeno</em> lanean, Sokratesek bere maistra deitzen dio eta hileta-hitzaldi bat egozten dio; tradizioaren arabera, Periklesi bere hitzaldiak prestatzen ere lagundu omen zion.</p>\n<p>Aspasia gai-zerrendan antzinako filosofian lekua lortu zuten emakume gutxietako baten adibide gisa agertzen da. Haren irudiak Atenasko demokraziaren mugak erakusten ditu, emakumeak <strong>isonomia</strong>tik eta isegoriatik baztertzen baitzituen, bai eta ia arrastorik utzi ez duen emakumezkoen pentsamendua berreskuratzeko zailtasuna ere. Sokratesekin eta sofisten giroarekin lotzen da.</p>",
   "obras": [],
+  "anecdota": "<p>Eskines sokratikoaren elkarrizketa galdu batean, Zizeronek zati bat gorde zuena, Aspasiak Xenofonteren emazteari galdetzen dio: bere auzokoak berak baino bitxi hobeak balitu, nahiago al lituzke auzokoarenak? Bai, erantzuten du. Eta jantzi hobeak balitu? Baita ere. Eta berea baino senar hobea balu? Emakumea isilik geratzen da. Aspasiak gauza bera egiten du gero Xenofonterekin, eta ondorioztatzen du bakoitzak ahalik eta ezkontide onena izaten ahalegindu behar duela. Zizeronek eszena indukzio bidezko arrazoiketaren adibide gisa aipatzen du: Sokratesi egozten zaion metodo bera.</p>",
+  "fuente": "Eskines Sfetokoa, Aspasia (Zizeronek transmititutako zatia, Asmamen erretorikoaz I)",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -333,6 +378,9 @@ const ILUSTRES = {
   "idea": "Existitzen den guztia hutsean mugitzen diren atomo zatiezinez osatuta dago; haien talkek eta konbinazioek naturako aldaketa guztiak azaltzen dituzte.",
   "bio": "<p>Demokrito Abderan jaio zen, Traziako kolonia greziar batean, eta Sokratesen garaikidea izan zen, nahiz eta bere pentsamenduagatik presokratikoen artean sartzen den. <strong>Leuzipo</strong>ren ikaslea izan zen, eta harekin partekatzen du teoria atomikoa. Tradizioaren arabera, asko bidaiatu zuen eta oso adin handira iritsi zen. Lan ugari idatzi zituen fisikaz, etikaz, matematikaz edo musikaz, baina denak galdu dira: beste egile batzuek aipatutako zatiak baino ez ditugu gordetzen.</p>\n<p>Bere teoriak Parmenidesek planteatutako aldaketaren arazoari erantzuten dio. Errealitatea <strong>atomo</strong>z osatuta dago (grezierazko «zatiezin» hitzetik): partikula betiereko eta aldaezinak, forma, tamaina eta posizioa baino bereizten ez dituztenak. <strong>Hutsean</strong> mugitzen dira; Demokritok hutsa ez-izatearekin identifikatzen du, eta izatea bezain errealtzat jotzen du, hura gabe ez bailegoke ez mugimendurik ez aniztasunik. Dena modu mekanikoan gertatzen da, beharrez, adimen antolatzaile baten esku-hartzerik gabe. Arima bera ere atomo oso finen multzo bat litzateke; beraz, haren jarrera <strong>materialismo</strong> osoa da. Etikan bizitza lasaia eta neurritsua proposatzen du.</p>\n<p>Epikurok haren atomismoa berreskuratu zuen bere fisikaren eta etikaren oinarri gisa, eta Lukrezio poeta erromatarrak zabaldu zuen. Platonek eta Aristotelesek kritikatu zuten. Aro Modernoan zientziak atomoaren ideia berreskuratu zuen, eta gaur egun monismo materialistaren aitzindaritzat aipatzen da, Platonen edo Descartesen dualismoaren aurrean.</p>",
   "obras": [],
+  "anecdota": "<p>Tradizioak Demokrito «barre egiten duen filosofoa» bezala gogoratzen du: giza kezka eta asmoez barre egiten zuen, barregarriak iruditzen zitzaizkiolako, Heraklito ez bezala, haiengatik negar egiten baitzuen. Hipokratesi egotzitako antzinako gutun batzuek, benetakoak ez direnak, kontatzen dute Abderako bizilagunek erotu egin zela uste izan zutela eta sendagile ospetsuari deitu ziotela sendatzeko. Hipokratesek animalia batzuen anatomia aztertzen aurkitu zuen, harekin hitz egin zuen eta ondorioztatu zuen Demokrito zela hiriko zentzudunena. Kondairak giza gaien aurreko <strong>lasaitasunaren</strong> ideala islatzen du.</p>",
+  "fuente": "Seneka, Haserreaz II; Gutun pseudohipokratikoak",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -351,6 +399,9 @@ const ILUSTRES = {
   "idea": "Hiri bakoitzeko legeak giza hitzarmenak dira, aldakorrak eta alda daitezkeenak, eta natura-legeetatik bereizten dira, horiek unibertsalak baitira eta berdin balio baitute guztientzat.",
   "bio": "<p>Hipias Eliden jaio zen, Joko Olinpikoak ospatzen ziren Peloponesoko eskualdean, eta Sokratesen garaikidea izan zen. Bere hiriak hainbat aldiz bidali zuen enbaxadore gisa, eta bidaiak aprobetxatzen zituen ikasgaiak eta hitzaldiak emateko, kobratuz, gainerako <strong>sofistek</strong> bezala. Bere jakintza entziklopedikoagatik zen ospetsua: matematika, astronomia, musika, historia eta poesia irakasten zituen, eta memoria miresgarriaz harrotzen zen. Haren lanak galdu dira; batez ere Platonen <em>Hipias nagusia</em>, <em>Hipias txikia</em> eta <em>Protagoras</em> elkarrizketen bidez ezagutzen dugu, halako ironia batez erretratatzen baitute.</p>\n<p>Gai-zerrendari egin zion ekarpenik garrantzitsuena <strong>physis</strong>aren eta <strong>nomos</strong>aren arteko bereizketa da. Natura-legeak aldaezinak eta unibertsalak dira; gizakiek ezarritako legeak, berriz, komunitate batetik bestera aldatzen diren hitzarmenak dira. Legeak hitzarmena badira, alda daitezke. <em>Protagoras</em> lanean, Platonek hari esanarazten dio legea naturaren aurkako gauza asko behartzen dituen tiranoa dela, eta gizakiak naturaz direla ahaide, ez legez.</p>\n<p>Ideia horrek filosofia politikoaren funtsezko eztabaida bat irekitzen du: arauak naturalak ala hitzartuak diren. Haren konbentzionalismoa Protagorasen erlatibismoarekin lotzen da, eta Sokratesek eta Platonek haren aurka borrokatu zuten, justizia unibertsal bat bilatuz. Gizaki guztien arteko ahaidetasun naturalaren ideiak zinikoen eta estoikoen kosmopolitismoa aurreratzen du.</p>",
   "obras": [],
+  "anecdota": "<p><em>Hipias txikia</em>n, Platonek Sokratesen ahoan jartzen du Hipiasek Olinpiar Jokoetan egin zuen agerraldi ospetsu baten oroitzapena. Sofista denen aurrean harrotu zen gainean zeraman guztia berak egina zela: eraztuna eta lantzen zuen zigilua, olio-ontzia, bainurako karraska, sandaliak, mantua eta tunika, eta baita gerriko brodatua ere. Gainera, bere uztako olerkiak, tragediak eta diskurtsoak zekartzan. Platonek ironiaz kontatzen du, baina eszenak ondo erretratatzen du Hipias harro zegoen jakintza entziklopediko eta autonomoaren ideala.</p>",
+  "fuente": "Platon, Hipias txikia",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -369,6 +420,9 @@ const ILUSTRES = {
   "idea": "Bertutea nahikoa da zoriontsu izateko; hura lortzeko bizitza zuhurra eraman behar da, plazerak menderatu eta aberastasunen eta ohoreen menpe ez egon.",
   "bio": "<p>Antistenes Atenasen jaio zen. Lehenik Gorgias sofistaren ikaslea izan zen, eta harengandik erretorika ikasi zuen; gero <strong>Sokrates</strong>en ikasle leialenetako bat bihurtu zen: Platonen arabera, haren heriotzan egon zen. Kinosargesko gimnasioan irakatsi zuen, Atenasko kanpoaldean. Lan asko idatzi zituen, baina denak galdu dira, eta zatiak eta lekukotasunak baino ez dira geratzen.</p>\n<p>Sokratesengandik hartu zuen bertutea irakats daitekeela dioen ideia, eta muturrera eraman zuen: bertutea nahikoa da zoriontasunerako, eta gainerako guztia (aberastasuna, ospea, plazera) axolagabea edo kaltegarria da. Horregatik defendatzen zuen bizitza zuhurra eta <strong>norberaren menderatzea</strong>. Tradizioak <strong>zinismoa</strong>ren sortzailetzat hartzen du —Diogenes Sinopekoak muturreraino eraman zuen korrontea—, eta horrela agertzen da gai-zerrendan, nahiz eta historialari batzuek lotura zuzen hori zalantzan jartzen duten.</p>",
   "obras": [],
+  "anecdota": "<p>Diogenes Laertziok kontatzen du Antistenesek egunero berrogei bat estadio egiten zituela oinez, zazpi kilometro baino gehiago, Pireotik Atenasera, Sokrates entzutera. Bere maisuaren austeritatea muturreraino imitatzen zuen, eta mantu zahar eta urratu bat eraman ohi zuen, zulodun aldea ondo agerian. Egun batean Sokrates konturatu eta esan zion: «Zure mantuaren zuloetatik zure harrokeria ikusten dut». Pasadizoak pobrezia ikuskizun bihurtzearen arriskua erakusten du, geroko zinikoek are urrunago eramango zutena.</p>",
+  "fuente": "Diogenes Laertzio, Bizitzak VI",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -392,6 +446,9 @@ const ILUSTRES = {
    "Oturuntza",
    "Fedro"
   ],
+  "anecdota": "<p>Diogenes Laertziok kontatzen du Platon gazteak asmo literarioak zituela: olerkiak eta tragediak idazten zituen. Tragedia bat lehiaketara aurkeztekotan zegoen Sokrates Dionisoren antzokiaren aurrean hitz egiten entzun zuenean. Hain hunkituta geratu zen, non bere bertsoak sutara bota baitzituen, Homeroren bertso bat parodiatuz: «Zatoz hona, Hefesto, Platonek behar zaitu». Harrezkero filosofiari eman zion bere burua. Hala ere, ez zion idazle handia izateari utzi: bere elkarrizketek, pertsonaia, eszena eta mitoekin, alde batera uzten ari zirudien arte dramatikoaren zati handi bat gordetzen dute.</p>",
+  "fuente": "Diogenes Laertzio, Bizitzak III",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -421,6 +478,9 @@ const ILUSTRES = {
   "idea": "Aske eta zoriontsu izateko ahalik eta gutxien behar izan behar da, naturaren arabera bizi, eta gizarte-hitzarmenak, aberastasuna eta boterea gutxietsi.",
   "bio": "<p>Diogenes Sinopen jaio zen, Itsaso Beltzaren ertzeko kolonia greziar batean. Tradizioaren arabera, bere hiritik alde egin behar izan zuen, aita tartean zegoen txanpon-faltsutze eskandalu baten ondorioz, eta Atenasen kokatu zen, non Antistenesen irakaspenak jarraitu omen zituen. Azken urteak Korinton eman zituen. Haren inguruan dakigun ia guztia Diogenes Laertziokoak mende batzuk geroago bildutako pasadizoetatik dator, eta tradizio gisa irakurri behar dira, ez historia ziur gisa. Egozten zaizkion lanetatik bat ere ez da gorde.</p>\n<p><strong>Zinismoa</strong>ren irudirik adierazgarriena da; izena grezierazko <em>kynos</em>, «txakurra», hitzetik dator, zinikoak lotsarik eta hitzarmenik gabe bizi baitziren, txakurrak bezala. Haren ideala <strong>autarkia</strong> da, norberaren burujabetasuna: zenbat eta gutxiago behar izan, orduan eta askeagoa eta zoriontsuagoa izango da bat. Horregatik baztertzen zituen aberastasuna, ospea eta boterea, behar artifizial gisa, eta naturaren arabera bizitzea defendatzen zuen. Tradizioak dioenez, ontzi handi batean bizi zen, egun-argitan «gizon baten» bila ibiltzen zen kriseilu batekin, eta Alexandro Handiari alde egiteko eskatu zion, eguzkia estaltzen ziolako. Nongoa zen galdetzen ziotenean, munduko hiritarra zela erantzuten zuen.</p>\n<p>Bere ikasle Krates Zenon Zitiokoaren maisua izan zen, eta estoikoek zinismotik jaso zituzten burujabetasunaren ideala eta <strong>kosmopolitismoa</strong>. Hitzarmenei egin zien kritika probokatzaileak geroko pentsalariak inspiratu ditu.</p>",
   "obras": [],
+  "anecdota": "<p>Diogenes Laertziok kontatzen du Platonek gizakia «luma gabeko animalia hankabiko» gisa definitu zuela, eta definizioak arrakasta izan zuela Akademian. Diogenesek oilar bat lumatu, eskolara eraman eta denen aurrean askatu zuen, esanez: «Hona hemen Platonen gizakia». Kontakizunaren arabera, definizioari «azazkal zabalekoa» gehitu zitzaion gero. Eszenak estilo zinikoa laburbiltzen du: argudio luzeekin eztabaidatu beharrean, Diogenesek keinu batekin barregarri uzten du filosofia abstraktua eta erakusten du definizioak errealitatetik oso urrun egon daitezkeela.</p>",
+  "fuente": "Diogenes Laertzio, Bizitzak VI",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -444,6 +504,9 @@ const ILUSTRES = {
    "Politika",
    "Arimaz"
   ],
+  "anecdota": "<p>Alexandro Handia hil zenean, K.a. 323an, Atenasen etsaigoa hazi zen mazedoniarren eta haiekin harremana zutenen aurka. Aristoteles, Alexandroren irakasle ohia, jainkoenganako errespeturik ezaz salatu zuten, Sokrates hamarkada batzuk lehenago bezala. Antzinako biografien arabera, Kalkisera joatea erabaki zuen, eta azaldu zuen ez zuela nahi atenastarrek bigarren aldiz bekatu egitea filosofiaren aurka. Esaldiak, agian tradizioak edertua, bere egoera Sokratesen kondenarekin alderatzen du, eta erakusten du nahiago zuela bere bizitza eta lana salbatu martiri bihurtu baino.</p>",
+  "fuente": "Eliano, Historia bitxiak III; Aristotelesen antzinako biografiak",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -470,6 +533,9 @@ const ILUSTRES = {
   "idea": "Baieztapen orori beste bat kontrajar dakioke, bera bezain sinesgarria; horregatik, jakintsuak judizioa eteten du, eta horrela lortzen du arimaren lasaitasuna.",
   "bio": "<p>Pirron Elisen jaio zen, Peloponesoan, eta antzinako iturrien arabera margolaria izan zen filosofiari ekin aurretik. Alexandro Handiarekin joan zen Ekialdeko espedizioan eta Indiaraino iritsi zen; tradizioaren arabera, han ezagutu zituen greziarrek gimnosofista deitzen zituzten jakintsu asketak. Bere hirira itzulita, bizitza xumea eraman zuen eta oso errespetatua izan zen. Ez zuen ezer idatzi: haren pentsamendua Timon Fliuntekoa ikaslearen bidez ezagutzen dugu eta, batez ere, geroko egileen bidez, Sexto Enpiriko kasu.</p>\n<p>Pirron da <strong>eszeptizismoa</strong>ren sortzailea, ezagutza ziur bat lor dezakegula zalantzan jartzen duen jarrerarena. Ez dakigu gauzak berez nolakoak diren; guri nola agertzen zaizkigun baino ez, eta arrazoi bakoitzari indar bereko beste bat kontrajar dakioke. Horregatik, jakintsuak <strong>epokhe</strong> edo judizioaren etetea praktikatzen du: ez du ezer baieztatzen ez ukatzen. Jarrera horretatik sortzen da <strong>ataraxia</strong>, barne-bakea, inongo iritziri atxikitzen ez zaionak ez baitu hura defendatzeagatik sufritzen. Gainerako eskola helenistikoek bezala, haren azken helburua praktikoa da: lasai bizitzea.</p>\n<p>Antzinako eszeptizismoa, Errenazimentuan Sexto Enpirikoren bidez berreskuratua, Montaignerengan eragin zuen, eta <strong>Descartes</strong>ek garaitu nahi izan zuen aurkaria izan zen: zalantza kartesiarra metodikoa da, ziurtasunera iristeko tresna, eta Pirronena, berriz, helburu bat. Humeren eszeptizismo modernoarekin ere lotzen da.</p>",
   "obras": [],
+  "anecdota": "<p>Diogenes Laertziok kontatzen du Pirron itsasontzian zihoala ekaitz bat lehertu zenean. Bere lagunak etsita zeuden bitartean, berak txerrikume bat seinalatu zuen, ontzi-bizkarrean lasai jaten jarraitzen zuena, eta esan zien jakintsuak animalia hura bezain asaldaezin egon behar zuela. Iturri bereko beste pasadizo batzuek haren axolagabekeria puzten dute, lagunek gurdietatik eta amildegietatik aldendu behar zutela esateraino, nahiz eta Antzinaroan bertan haien egiazkotasuna eztabaidatzen zen. Txerrikumeak, ordea, ondo irudikatzen du <strong>ataraxia</strong>ren ideal eszeptikoa: inongo iritziri ez atxikitzetik sortzen den lasaitasuna.</p>",
+  "fuente": "Diogenes Laertzio, Bizitzak IX",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -493,6 +559,9 @@ const ILUSTRES = {
    "Herodotori gutuna",
    "Oinarrizko maximak"
   ],
+  "anecdota": "<p>Senekak kontatzen du Epikuroren Lorategiko atean gonbidapen bat irakur zitekeela: «Arrotz hori, hemen ondo egongo zara; hemen ongi gorena plazera da». Baina oturuntza baten zain sartzen zenak ogia eta ura eskaintzen zizkion ostalari atsegin bat aurkitzen zuen. Epikurok berak, Diogenes Laertziok aipatutako gutun batean, gazta-ontzi txiki bat bidaltzeko eskatzen dio lagun bati, nahi zuenean jaialdia egin ahal izateko. Bi eszenek gezurtatu egiten dute Epikuro bizizale gisa aurkezten duen irudia: harentzat, plazera xumetasunean eta minik ezean dago.</p>",
+  "fuente": "Seneka, Luziliori gutunak 21; Diogenes Laertzio, Bizitzak X",
+  "tradicion": false,
   "block": "ant",
   "subjects": [
    "hf"
@@ -511,6 +580,9 @@ const ILUSTRES = {
   "idea": "Unibertsoa arrazoi jainkotiar batek antolatzen du; jakintsuak patua onartzen du, bere grinak menderatzen ditu eta bere esku dagoenaz bakarrik arduratzen da.",
   "bio": "<p>Zenon Zition jaio zen, Zipre uhartean, eta merkataritzan aritu zen, aita bezala. Tradizioaren arabera, itsasontzi-hondoratze batek Atenasera eraman zuen, eta han filosofia ezagutu zuen Sokratesi buruz irakurriz. Bertan <strong>Krates</strong> zinikoaren eta beste maisu batzuen ikaslea izan zen. K.a. 300 inguruan agorako <strong>Stoa Poikile</strong>n («arkupe margotua») hasi zen irakasten, eta arkupe horretatik hartzen du izena eskola estoikoak. Hainbat lan idatzi zituen, horien artean <em>Errepublika</em> bat, baina denak galdu dira eta zatiak baino ez dira geratzen.</p>\n<p>Zenonentzat unibertsoa <strong>logos</strong>ak gobernatzen du, dena antolatzen duen arrazoi jainkotiar batek; beraz, ezer ez da zoriz gertatzen: dena patuaren arabera gertatzen da. Jakituria naturaren eta arrazoiaren arabera bizitzean datza, gure esku ez dagoena onartuz. Jakintsuak <strong>apatia</strong> lortzen du, eta hori ez da axolagabekeria, asaldatzen gaituzten grinarik eza baizik, eta harekin batera barne-bakea. Guztiok logos beraren partaide garenez, gizaki guztiok mundu bakar bateko hiritarrak gara: hori da <strong>kosmopolitismoa</strong>.</p>\n<p>Zinismotik austeritatea eta autosufizientziaren ideia hartu zituen, baina fisika eta logika zituen sistema batean txertatu zituen. Krisipok garatu zuen gero doktrina, eta Erroman Senekak, Epiktetok eta Marko Aureliok jarraitu zuten. Estoizismoak eragina izan zuen pentsamendu kristauan eta eskubide unibertsalen ideia modernoan.</p>",
   "obras": [],
+  "anecdota": "<p>Diogenes Laertziok kontatzen du Krates zinikoak, Zenonen lehen maisuak, haren lotsa eta barregarri geratzeko beldur handiegia sendatu nahi izan zituela. Dilista-lapiko bat eman zion eta Zeramikotik, Atenasko auzo jendetsu batetik, eramateko agindu zion. Zenon lapikoa ezkutatzen saiatzen ari zela ikusita, Kratesek makilakada batez hautsi zuen, eta dilistak gainera isuri zitzaizkion. Zenon lotsatuta ihesi zihoan bitartean, Kratesek oihu egin zion: «Zergatik egiten duzu ihes? Ez zaizu ezer izugarririk gertatu». Estoizismoak gordeko zuen ikasgai zinikoa zen: besteen iritziaren menpe ez geratzea.</p>",
+  "fuente": "Diogenes Laertzio, Bizitzak VII",
+  "tradicion": true,
   "block": "ant",
   "subjects": [
    "hf"
@@ -553,6 +625,9 @@ const ILUSTRES = {
   "obras": [
    "Eneadak"
   ],
+  "anecdota": "<p>Porfiriok kontatzen du Plotinori lotsa ematen ziola gorputza izateak, eta horregatik beti uko egin ziola erretratu baterako posatzeari. Amelio ikasleak eskatu zionean, erantzun zuen: ez al da nahikoa naturak inguratu gaituen irudia gainean eramatea, gainera irudi horren irudi bat uzteko? Ameliok ez zuen amore eman: Karterio margolaria eraman zuen bere eskoletara, eta hark hainbat saiotan behatu eta oroimenez margotu zuen. Ezezkoa bat dator bere filosofiarekin: sentigarria benetako errealitatearen isla ahul bat besterik ez da.</p>",
+  "fuente": "Porfirio, Plotinoren bizitza",
+  "tradicion": false,
   "block": "ant",
   "subjects": [
    "hf"
@@ -577,6 +652,9 @@ const ILUSTRES = {
    "Trinitateaz",
    "Borondate askeaz"
   ],
+  "anecdota": "<p>386ko udan, Milango lorategi batean, Agustin negarrez zegoen piku baten azpian, bizimodua aldatzeko nahiaren eta hori egiteko ezintasunaren artean urratuta. Bat-batean, ondoko etxe batetik haur-ahots bat entzun zuen, errepika moduko bat esaten: <strong>«Hartu eta irakurri, hartu eta irakurri»</strong>. Jainkoaren agindutzat hartu zuen, eskura zituen Paulo deunaren gutunak zoriz ireki eta gehiegikeriak uztera gonbidatzen zuen pasarte bat irakurri zuen. Berak kontatzen du bere <em>Aitorpenak</em> lanean, bere konbertsioaren une erabakigarri gisa.</p>",
+  "fuente": "Agustin Hiponakoa, Aitorpenak VIII",
+  "tradicion": false,
   "block": "med",
   "subjects": [
    "hf"
@@ -597,6 +675,9 @@ const ILUSTRES = {
   "idea": "Filosofia neoplatonikoa matematikaren eta astronomiaren irakaskuntzarekin batu zuen, kosmosaren azterketa arrazionala jakinduriarako bidetzat hartuta.",
   "bio": "<p>Hipatia Alexandrian jaio zen, mundu helenistikoaren gune zientifiko eta kultural handian, IV. mendearen erdialdean; data zehatza eztabaidagai da. Teon matematikari eta astronomoaren alaba zen, eta hark hezi zuen. Hiriko eskola neoplatonikoa zuzentzera iritsi zen, eta ikasle paganoei eta kristauei irakatsi zien; haien artean zen Sinesio Zirenekoa, geroago apezpiku izan zena, eta haren gutunak Hipatiari buruzko iturri nagusietako bat dira. Ospe publiko handia izan zuen, baita hiriko agintariekin harremana ere.</p>\n<p>Matematikaria, astronomoa eta filosofoa izan zen. <strong>Neoplatonismoaren</strong> ildoari jarraitu zion, arrazoi filosofikoa jainkozkoaren bilaketa ia erlijioso batekin batzen zuena, eta matematika ezagutza goren horretarako urrats bat zela uste zuen. Antzinako iturrien arabera, Diofanto eta Apolonio bezalako matematikarien lanei buruzko iruzkinak idatzi zituen, eta aitarekin batera Ptolomeoren testu astronomikoen edizioan lan egin zuen. <strong>Ez da haren lanik batere gorde</strong>; beraz, haren pentsamendua beste egile batzuen testigantzen bidez baino ez dugu ezagutzen.</p>\n<p>415. urtean, tentsio politiko eta erlijioso larrien erdian, kristau-talde amorratu batek hil zuen. Haren heriotza <strong>filosofia paganoaren amaieraren</strong> eta mundu klasikoaren ikur bihurtu da, baita Erdi Arorako igarobidearena ere. Gaur egun, <strong>emakumeak zientzian</strong> izan duen eginkizunaren erreferente ere bada, askotan ikusezin bihurtua, Marie Curie edo Rosalind Franklin bezalako figurekin batera.</p>",
   "obras": [],
+  "anecdota": "<p>Damaskio filosofoak kontatzen du Hipatiak filosofoen mantua, tribona, janzten zuela eta Alexandriako erdigunea zeharkatzen zuela, entzun nahi zion edonori Platon, Aristoteles edo beste edozein pentsalari publikoki azalduz. Sokrates Eskolastikoa historialariak gaineratzen du hiriko magistratuak hari kontsulta egitera joaten zirela eta bera gizonen bileretan erabateko naturaltasunez agertzen zela. Jakintza eskoletan itxita zegoen garai batean, Hipatiak filosofia kalera eraman zuen.</p>",
+  "fuente": "Damaskio, Isidororen bizitza (zatiak Sudan); Sokrates Eskolastikoa, Eliza-historia VII",
+  "tradicion": false,
   "block": "ant",
   "subjects": [
    "hf"
@@ -619,6 +700,9 @@ const ILUSTRES = {
    "Proslogion (1077-1078)",
    "Zergatik egin zen Jainkoa gizon"
   ],
+  "anecdota": "<p>Eadmero bere biografo eta idazkariaren arabera, Anselmok Jainkoaren existentzia frogatzeko nahikoa izango zen argudio bakar bat bilatzen zuen. Ideia horrek hain obsesionatzen zuen, non gosea, loa eta otoitzetako kontzentrazioa ere kentzen baitzizkion, eta tentaldi bat zela pentsatzera iritsi zen. Gau batean, matutinoetan, azkenean aurkitu zuen. Argizarizko ohol batzuetan idatzi zuen, eta galdu egin ziren; beste batzuetan kopiatu zuen, eta lurrean hautsita agertu ziren. Azkenean pergaminora pasarazi zuen: horrela jaio zen <em>Proslogion</em>.</p>",
+  "fuente": "Eadmero, San Anselmoren bizitza",
+  "tradicion": false,
   "block": "med",
   "subjects": [
    "hf"
@@ -642,6 +726,9 @@ const ILUSTRES = {
    "Etika edo Ezagut ezazu zeure burua",
    "Filosofo, judu eta kristau baten arteko elkarrizketa"
   ],
+  "anecdota": "<p>Parisera iritsi berritan, Abelardo gaztea Gilen Champeauxkoaren ikasle egin zen, hiriko maisurik ospetsuena eta unibertsalei buruzko errealismo muturrekoaren defendatzailea. Laster hasi zen hari eskola betean kontra egiten, eta batzuetan eztabaida irabazten zuela zirudien. Bere kontakizunaren arabera, azkenean Gilen bere tesia zuzentzera behartu zuen, eta ikasle askok maisua utzi zuten dizipuluaren atzetik joateko. Berak kontatzen du <em>Nire zorigaitzen historia</em> lanean, lekukotasun baliotsua, baina, jakina, ez oso inpartziala.</p>",
+  "fuente": "Pedro Abelardo, Nire zorigaitzen historia",
+  "tradicion": false,
   "block": "med",
   "subjects": [
    "hf"
@@ -665,6 +752,9 @@ const ILUSTRES = {
    "Kausak eta sendabideak",
    "Ordo Virtutum"
   ],
+  "anecdota": "<p>1178an, laurogei urte beteta, Hildegardak bere monasterioan lurperatzen utzi zuen eskomikatua izandako noble gazte bat, haren ustez hil aurretik Elizarekin adiskidetu zelako. Magontziako agintariek lurpetik ateratzeko agindu zioten, eta berak uko egin zion. Zigor gisa, komentua interdiktupean geratu zen eta mojek ezin izan zuten ofizio jainkotiarra abestu. Hildegardak protesta egin zuen prelatuei idatzitako gutun batean, non musika paradisuko harmoniaren oihartzun gisa defendatzen baitzuen. Zigorra haren heriotza baino pixka bat lehenago kendu zen.</p>",
+  "fuente": "Hildegardak Magontziako prelatuei idatzitako gutuna; Santa Hildegardaren bizitza",
+  "tradicion": false,
   "block": "med",
   "subjects": [
    "hf"
@@ -688,6 +778,9 @@ const ILUSTRES = {
    "Aristotelesi buruzko iruzkinak",
    "Medikuntzaren orokortasunen liburua"
   ],
+  "anecdota": "<p>Averroesek ikasle bati kontatu zion nola ezagutu zuen Abu Yaqub Yusuf kalifa almohadea, Ibn Tufayl filosofoari esker. Agurtu bezain laster, kalifak galdetu zion zer pentsatzen zuten filosofoek zeruari buruz: betierekoa zen ala sortua izan zen? Averroesek, beldurtuta, filosofiaz ezer ez zekiela itxuratu zuen. Orduan kalifa gaia Ibn Tufaylekin eztabaidatzen hasi zen, Platon eta Aristoteles aipatuz, gaztea lasaitu eta hitz egin zuen arte. Handik opariekin atera zen eta, handik gutxira, Aristoteles azaltzeko enkarguarekin.</p>",
+  "fuente": "Al-Marrakushi, Almohadeen historia (Kitab al-Muyib)",
+  "tradicion": false,
   "block": "med",
   "subjects": [
    "hf"
@@ -710,6 +803,9 @@ const ILUSTRES = {
    "Jentilen aurkako Summa",
    "Izakia eta esentzia"
   ],
+  "anecdota": "<p>Kontatzen da Kolonian Alberto Handiarekin ikasten ari zela Tomas hain gizena eta isila zenez, ikaskideek «Siziliako idi mutua» ezizena jarri ziotela. Egun batean, galdera zail bat bikain defendatzen entzun ondoren, Albertok bere ikasleei esan zien haiek idi mutua deitzen ziotela, baina haren marruak mundu osoan entzungo zirela. Eszena bere kanonizaziorako idatzitako biografietatik dator, tonu eredugarriz, baina ondo erretratatzen du azkenean <em>Summa Theologiae</em> idatziko zuen pentsalari isila.</p>",
+  "fuente": "Gilen Toccokoa, Tomas Akinokoa santuaren historia",
+  "tradicion": true,
   "block": "med",
   "subjects": [
    "hf"
@@ -735,6 +831,9 @@ const ILUSTRES = {
    "Quodlibetak",
    "Elkarrizketa"
   ],
+  "anecdota": "<p>Tradizioaren arabera, Ockhamek Avignondik ihes egin eta Luis Bavariakoa enperadorearen babespean jarri zenean, tratu bat proposatu zion: «Defenda nazazu ezpatarekin, nik lumarekin defendatuko zaitut». Esaldia ez da bere lanetan agertzen eta seguruenik geroagokoa da, baina ondo laburbiltzen du gertatutakoa: Munichen, Ockhamek bere azken urteak aita santuaren botere tenporalaren aurkako eta enperadorearen independentziaren aldeko tratatu politikoak idazten eman zituen. Logikaria polemista politiko bihurtu zen horrela.</p>",
+  "fuente": "Geroko tradizioak egotzitako esaldia; ez da bere idazkietan ageri",
+  "tradicion": true,
   "block": "med",
   "subjects": [
    "hf"
@@ -759,6 +858,9 @@ const ILUSTRES = {
    "Gerraren arteaz (1521)",
    "Mandragora"
   ],
+  "anecdota": "<p>Sant'Andrea in Percussinako bere landetxean erbesteratuta, Makiavelok bere eguneroko bizimodua deskribatu zion Francesco Vettori bere lagunari. Egunez birigarroak ehizatzen zituen, egurginekin berriketan aritzen zen eta tabernan kartetan jokatzen zuen, oihu eta liskarren artean. Gaua iristean, lokatzez zikindutako arropak kendu, gorteko jantziak janzten zituen eta bere estudioan sartzen zen antzinakoekin «solasean» aritzeko, eta haiek eskuzabaltasunez erantzuten zioten. Solasaldi horietatik, gaineratzen zuen, printzerriei buruzko lantxo bat ari zen sortzen: <em>Printzea</em>.</p>",
+  "fuente": "Makiavelo, Francesco Vettoriri gutuna, 1513ko abenduaren 10ekoa",
+  "tradicion": false,
   "block": "ren",
   "subjects": [
    "hf"
@@ -780,6 +882,9 @@ const ILUSTRES = {
   "obras": [
    "Zeruko esferen biraketei buruz (1543)"
   ],
+  "anecdota": "<p>Kopernikok hamarkadetan atzeratu zuen bere lan handiaren argitalpena, Rheticus ikasle gazteak konbentzitu zuen arte. Tiedemann Giese bere lagunaren gutun baten arabera, inprimatutako lehen alea hil zen egunean bertan iritsi zitzaion eskuetara. Liburuak, gainera, ezusteko bat zekarren: sinadurarik gabeko hitzaurre bat, Andreas Osiander teologoak gehitua, heliozentrismoa kalkuluak errazteko hipotesi soil gisa aurkezten zuena. Hamarkada batzuk geroago, Keplerrek agerian utzi zuen nork idatzi zuen.</p>",
+  "fuente": "Tiedemann Giesek Rheticusi idatzitako gutuna (1543)",
+  "tradicion": true,
   "block": "ren",
   "subjects": [
    "hf"
@@ -805,6 +910,9 @@ const ILUSTRES = {
    "Alemaniako nazioaren noblezia kristauari (1520)",
    "Borondate esklabua (1525)"
   ],
+  "anecdota": "<p>1505eko uztailean, Martin Luther zuzenbide-ikasle gaztea Erfurtera itzultzen ari zela, Stotternheim herrixkatik gertu ekaitz batek harrapatu zuen eta tximista bat oso gertu erori zitzaion. Izututa, oihu egin zuen: «Lagun iezadazu, santa Ana, eta fraide egingo naiz!». Aste gutxi batzuk geroago bete zuen bere promesa, aitaren nahiaren aurka, eta Erfurteko agustindarren komentuan sartu zen. Lutherrek berak askotan gogoratu zuen eszena hau, bere bilaketa erlijiosoaren hasiera markatu zuena.</p>",
+  "fuente": "Lutherren beraren lekukotasunak (Mahai-solasak)",
+  "tradicion": false,
   "block": "ren",
   "subjects": [
    "hf"
@@ -826,6 +934,9 @@ const ILUSTRES = {
   "obras": [
    "Erlijio kristauaren instituzioa (1536)"
   ],
+  "anecdota": "<p>1536an, Kalvinok gau bakarra igaro nahi zuen Genevan, Estrasburgorako bidean, han ikasketei lasai eman nahi baitzien bere burua. Baina Guillaume Farel predikaria, han Erreforma ezartzen saiatzen ari zena, jakinaren gainean jarri eta haren bila joan zen. Kalvinok geratzeari uko egin zionean, Farelek solemneki ohartarazi zion Jainkoak madarikatu egingo zituela bere erretiroa eta ikasketak eginkizun hura uzten bazuen. Kalvino, bere kontakizunaren arabera, hain hunkituta geratu zen, non bidaiari uko egin baitzion. Geneva ez zen gehiago haren izenetik bereiziko.</p>",
+  "fuente": "Kalvino, Salmoen iruzkinaren hitzaurrea",
+  "tradicion": false,
   "block": "ren",
   "subjects": [
    "hf"
@@ -848,6 +959,9 @@ const ILUSTRES = {
    "Munduko bi sistema nagusiei buruzko elkarrizketa (1632)",
    "Bi zientzia berriri buruzko diskurtso eta frogapen matematikoak (1638)"
   ],
+  "anecdota": "<p>Vincenzo Viviani bere ikasle eta biografoaren arabera, hemeretzi urte eskas zituen Galileok Pisako katedralean sabaitik zintzilik kulunkatzen zen lanpara bat behatzen zuen. Pultsua erloju gisa hartuta, egiaztatu zuen kulunkaldi bakoitzak denbora bera irauten zuela, kulunka zabala zein txikia izan. Horrela aurkituko zuen penduluaren isokronismoa. Istorioa agian edertua dago, baina erakusten du zerk bihurtuko zuen aitzindari: eguneroko fenomenoak neurtzea, autoritateez fidatu beharrean.</p>",
+  "fuente": "Vincenzo Viviani, Galileoren bizitzaren kontakizun historikoa",
+  "tradicion": true,
   "block": "ren",
   "subjects": [
    "hf"
@@ -871,6 +985,9 @@ const ILUSTRES = {
    "Astronomia berria (1609)",
    "Munduaren harmonia (1619)"
   ],
+  "anecdota": "<p>1595eko uztailean, Grazen eskolak ematen ari zela, Keplerrek Jupiter eta Saturnoren konjuntzioak marrazten zituen arbelean. Zirkulu baten barruan triangeluak marraztean, beste zirkulu bat agertzen ikusi zuen barnean, eta iruditu zitzaion bien arteko proportzioak planeta horien orbitena gogorarazten zuela. Handik ideia ausart batera jauzi egin zuen: planeten distantziak bost solido erregularrak bata bestearen barruan txertatuz azal zitezkeen. Teoria faltsua zen, baina ordena matematiko batean zuen fede horrek bere legeetaraino gidatu zuen.</p>",
+  "fuente": "Kepler, Unibertsoaren sekretua (Mysterium cosmographicum), hitzaurrea",
+  "tradicion": false,
   "block": "ren",
   "subjects": [
    "hf"
@@ -892,6 +1009,9 @@ const ILUSTRES = {
   "obras": [
    "Animalietan bihotzaren eta odolaren mugimenduari buruz (1628)"
   ],
+  "anecdota": "<p>John Aubreyk kontatzen du Edgehilleko guduan (1642), Ingalaterrako gerra zibileko lehenengoan, Harveyk Karlos I.a erregearen semeak zituela bere ardurapean. Haiek babesteko, haiekin batera hesi baten ondora erretiratu zen eta, inguruan borrokan ari ziren bitartean, liburu bat atera zuen poltsikotik eta lasai irakurtzen hasi zen. Kanoi-bala bat gertuegi erori zenean bakarrik aldatu zen lekuz. Pasadizoak, agian puztuak, ikertzailea erretratatzen du, ikasketan murgilduta kaosaren erdian ere.</p>",
+  "fuente": "John Aubrey, Bizitza laburrak",
+  "tradicion": true,
   "block": "ren",
   "subjects": [
    "hf"
@@ -915,6 +1035,9 @@ const ILUSTRES = {
    "Leviatana (1651)",
    "Gorputzari buruz (1655)"
   ],
+  "anecdota": "<p>John Aubrey bere lagunaren arabera, Hobbesek berrogei bat urte zituen jada zaldun baten liburutegian Euklidesen <em>Elementuak</em> aurkitu zituenean, Pitagorasen teoreman irekita. Enuntziatua irakurtzean, hura ezinezkoa zela esan zuen harriduraz. Frogapena irakurri zuen, aurreko beste proposizio batera bidaltzen zuena, eta hau beste batera, eta horrela jarraian, konbentzitu zen arte. Harrezkero geometriaz maitemindu zen. Printzipio argietatik abiatu eta urratsez urrats aurrera egiten duen metodo hura izan zen politikan aplikatu nahi izan zuena.</p>",
+  "fuente": "John Aubrey, Bizitza laburrak",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -940,6 +1063,9 @@ const ILUSTRES = {
    "Filosofiaren printzipioak (1644)",
    "Arimaren grinak (1649)"
   ],
+  "anecdota": "<p>1619ko neguan, Descartes, orduan soldadu zena, Alemaniako herri batean geratu zen hotzak geldiarazita. Egun osoa berogailu batek berotutako gela batean itxita igaro zuen, inork distraitu gabe, bere pentsamenduei emanda. Han sortu zitzaion arkitekto bakar batek egindako lanak askok adabatutakoak baino perfektuagoak direlako ideia, eta bere jakintza guztia oinarrietatik berreraikitzea erabaki zuen. Baillet bere biografoaren arabera, gau hartan bertan hiru amets izan zituen, eginkizun horretarako dei gisa interpretatu zituenak.</p>",
+  "fuente": "Descartes, Metodoaren diskurtsoa II; Adrien Baillet, Descartesen bizitza",
+  "tradicion": false,
   "block": "ren",
   "subjects": [
    "hf"
@@ -965,6 +1091,9 @@ const ILUSTRES = {
   "obras": [
    "Descartesekin izandako gutun-trukea (1643–1649)"
   ],
+  "anecdota": "<p>1644an, Descartesek bere <em>Filosofiaren printzipioak</em> argitaratu zituen, bere lanik sistematikoena, eta Isabeli eskaini zion, orduan hogeita bost urte zituenari. Eskaintzan zioen ez zuela ezagutu bera bezain ondo bere idazki guztiak ulertzen zituen inor: askok metafisika menderatzen zuten eta beste batzuek matematika, baina berak bakarrik ulertzen zituen bi alderdiak berdin. Hain egile zorrotzarengandik etorrita, aitortza aparta zen haren dualismoaren puntu ahulak seinalatzera ausartu zen printzesa gaztearentzat.</p>",
+  "fuente": "Descartes, Filosofiaren printzipioak lanaren eskaintza (1644)",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -987,6 +1116,9 @@ const ILUSTRES = {
    "Ordena geometrikoaren arabera frogatutako Etika (1677)",
    "Adimenaren hobekuntzari buruzko tratatua (1677)"
   ],
+  "anecdota": "<p>1672ko abuztuan, jendetza haserre batek De Witt anaiak hil zituen Hagan, Spinozak miresten zituen Holandako errepublikako buruzagiak. Haserre bizian, filosofoak, beti hain lasaia, kanpora atera nahi izan zuen lekuaren ondoan kartel bat zintzilikatzeko, latinezko hitz hauekin: <em>ultimi barbarorum</em>, «barbaroetan okerrenak». Etxejabeak, bera ere hilko zuten beldurrez, atea giltzaz itxi zuen eta ez zion irteten utzi. Spinozak urte batzuk geroago kontatu zion Leibnizi, eta honek idatziz jaso zuen.</p>",
+  "fuente": "Leibniz, Spinozarekin izandako elkarrizketari buruzko oharrak (1676)",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1010,6 +1142,9 @@ const ILUSTRES = {
    "Giza adimenari buruzko saioa (1690)",
    "Gobernu zibilari buruzko bi tratatu (1690)"
   ],
+  "anecdota": "<p>1671 inguruan, bost edo sei lagun Lockeren gelan biltzen ziren gai filosofikoak eztabaidatzeko; haietako batek, James Tyrrellek, dioenez, moralaz eta erlijio errebelatuaz. Laster trabatuta geratu ziren, inolako konponbiderantz aurrera egin gabe. Orduan Lockek pentsatu zuen galdera horiei ekin aurretik gure adimenaren gaitasunak aztertu behar zirela lehenik, eta zer objektu ezagut ditzakeen eta zein ez argitu. Arratsalde bateko intuizio hark ia hogei urte behar izan zituen bere <em>Giza adimenari buruzko saioa</em> bihurtzeko.</p>",
+  "fuente": "Locke, Giza adimenari buruzko saioaren «Irakurleari gutuna»",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1057,6 +1192,9 @@ const ILUSTRES = {
    "Filosofia naturalaren printzipio matematikoak (1687)",
    "Optika (1704)"
   ],
+  "anecdota": "<p>1665ean izurriak Cambridgeko Unibertsitatea itxi zuen eta Newton Woolsthorpeko familiaren baserrira itzuli zen, eta han sormen izugarriko hilabeteak igaro zituen. Hirurogei urte geroago, William Stukeley bere lagunarekin sagarrondo batzuen azpian tea hartzen ari zela, kontatu zion han bertan, antzeko egoera batean, sagar baten erorketak grabitazioaren ideia iradoki ziola: zergatik erortzen da beti bertikalean, Lurraren erdigunerantz? Newtonek ez zuen buruan inolako kolperik aipatu, eta seguruenik oroitzapena edertu egin zuen.</p>",
+  "fuente": "William Stukeley, Sir Isaac Newtonen bizitzaren oroitzapenak",
+  "tradicion": true,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1082,6 +1220,9 @@ const ILUSTRES = {
    "Teodizea (1710)",
    "Monadologia (1714)"
   ],
+  "anecdota": "<p>Leibnizen aita, Leipzigeko irakaslea, sei urte zituela hil zen. Zortzi urte inguru zituela, haurrak lortu zuen aitaren liburutegian sartzen uztea, ordura arte itxita izan zuena. Han Tito Livioren edizio irudidun bat aurkitu zuen eta, grabatuez eta testuinguruaz baliatuz, latina ia bakarrik ikasi zuen. Laster klasikoak, Elizaren aitak eta eskolastikoak irensten zituen. Berak gogoratuko zuen bere ohar autobiografikoetan: ia zientzia guztiak hartu zituen jakin-min unibertsal baten jatorria izan zen.</p>",
+  "fuente": "Leibnizen ohar autobiografikoak",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1105,6 +1246,9 @@ const ILUSTRES = {
    "Giza ezagutzaren printzipioei buruzko tratatua (1710)",
    "Hylas eta Filonousen arteko hiru elkarrizketa (1713)"
   ],
+  "anecdota": "<p>James Boswellek kontatzen du 1763an, elizatik irtetean, Samuel Johnson idazlearekin hizketan ari zela Berkeleyk materiaren existentzia ukatzeko erabilitako argudio buruargiaz. Boswellek esan zuen ezinezkoa zela hura gezurtatzea. Orduan Johnsonek ostiko gogor bat eman zion harri handi bati eta oihu egin zuen: «Horrela gezurtatzen dut!». Erantzuna ospetsu bihurtu zen, nahiz eta egiaz ezer ez duen gezurtatzen: Berkeleyk ez zuen inoiz ukatu harriaren gogortasuna sentitzen dugunik, baizik eta pertzepzio horietatik haratago zerbait material dagoenik.</p>",
+  "fuente": "James Boswell, Samuel Johnsonen bizitza",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1149,6 +1293,9 @@ const ILUSTRES = {
    "Tolerantziari buruzko tratatua (1763)",
    "Hiztegi filosofikoa (1764)"
   ],
+  "anecdota": "<p>1729an, La Condamine matematikariak akats bat aurkitu zuen Frantziako gobernuak antolatutako loteria batean: sariak txartel guztiak erostea zenbat kostatzen zen baino handiagoak ziren. Voltaire harekin eta beste bazkide batzuekin elkartu zen, hilabetez txartelak masiboki erosi zituzten eta dirutza irabazi zuten. Diru harekin, gero ondo inbertituta, Voltaire aberats eta independente bihurtu zen. Ez zuen babeslerik ez pentsiorik behar izan, eta independentzia ekonomiko horri esker bere garaiko egile gutxik izan zezaketen askatasunez idatzi ahal izan zuen.</p>",
+  "fuente": "Voltaireren biografiak, garaiko lekukotasunetan oinarrituak",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1170,6 +1317,9 @@ const ILUSTRES = {
    "Arimaren historia naturala (1745)",
    "Gizaki-makina (1748)"
   ],
+  "anecdota": "<p>1751ko azaroan, La Mettrie oturuntza batera joan zen Frantziak Berlinen zuen enbaxadorearen etxera, lord Tyrconnellenera, zeinaren sendagile izan baitzen. Handik gutxira gaixotu eta egun gutxitan hil zen; Voltairek eta beste lekuko batzuek gehiegi jan omen zuen boilur-pate bati egotzi zioten gaitza. Bere etsaiek burla egin zioten hain filosofikoa ez zen amaiera hari, baina Federiko II.ak berak idatzi zuen haren hileta-goraipamena eta Berlingo Akademian irakurrarazi zuen. Keinu ezohikoa zen: errege batek publikoki defendatzen zuen bere garaiko egilerik eskandalagarrienaren oroimena.</p>",
+  "fuente": "Voltaireren gutunak Berlindik; Federiko II.a, La Mettrieren goraipamena",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1193,6 +1343,9 @@ const ILUSTRES = {
    "Moralaren printzipioei buruzko ikerketa (1751)",
    "Erlijio naturalari buruzko elkarrizketak (1779)"
   ],
+  "anecdota": "<p>Kontatzen da Hume, jada lodia eta bere eszeptizismo erlijiosoagatik ospetsua, lokaztutako lubaki batera erori zela Edinburgoko obretan zegoen gune batetik lasterbidea hartzean. Handik igarotzen zen emakume batek «Hume ateoa» bezala ezagutu zuen eta ez zuen handik atera nahi izan Gure Aita eta Sinesten dut errezatu arte. Berak, ohiko umore onez, errezitatu egin zituen protestarik egin gabe, eta emakumeak eskua luzatu zion. Eszenak ondo laburbiltzen du haren izaera: bere garairako ideia deserosoak zituen, baina garaikide guztiek nabarmentzen zuten haren izaera atsegina eta gorrotorik eza.</p>",
+  "fuente": "Edinburgoko tradizioa, Humeren biografietan jasoa (E. C. Mossner, The Life of David Hume)",
+  "tradicion": true,
   "block": "ren",
   "subjects": [
    "hf"
@@ -1217,6 +1370,9 @@ const ILUSTRES = {
    "Gizarte-kontratua (1762)",
    "Emilio, edo hezkuntzaz (1762)"
   ],
+  "anecdota": "<p>1749ko udan, Rousseau oinez zihoan Paristik Vincenneseko gaztelura, han preso zegoen Diderot bere laguna bisitatzera. Atseden hartzeko, <em>Mercure de France</em> gainbegiratzen zuen, eta bertan Dijongo Akademiaren lehiaketa baten galdera irakurri zuen: zientzien eta arteen aurrerapenak ohiturak hobetu ote zituen. Berak kontatu zuenez, bat-bateko argialdi moduko bat sentitu zuen, zuhaitz baten azpian eseri behar izan zuen eta negarrez aurkitu zuen bere burua. Une hartatik jaio zen bere lehen <em>Diskurtsoa</em> eta, harekin batera, bere lan osoa zeharkatzen duen ideia.</p>",
+  "fuente": "Rousseau, Aitorpenak, VIII. liburua; Malesherbesi bigarren gutuna (1762)",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1241,6 +1397,9 @@ const ILUSTRES = {
    "Rameauren iloba",
    "Jacques fatalista"
   ],
+  "anecdota": "<p>1765 inguruan, Diderotek dirua behar zuen alabaren dotea ordaintzeko eta bere liburutegia saltzea erabaki zuen, bere ondasunik preziatuena. Errusiako Katalina II.a enperatrizak, ilustratuen miresleak, diru-kopuru on baten truke erosi zuen, baina baldintza eskuzabal batekin: Diderotek liburuak Parisen gordeko zituen bizi zen bitartean eta soldata bat jasoko zuen haren liburuzain gisa. Ordainketa atzeratu zenean, tsarinak berrogeita hamar urteko soldata aurreratu zion aldi bakarrean. 1773an, Diderotek San Petersburgora bidaia egin zuen eskerrak emateko, eta luze hitz egin zuen harekin politikaz eta erreformez.</p>",
+  "fuente": "Diderotren korrespondentzia; garaiko lekukotasunak (Grimm, Correspondance littéraire)",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1262,6 +1421,9 @@ const ILUSTRES = {
    "Dinamikari buruzko tratatua (1743)",
    "Entziklopediaren sarrera-diskurtsoa (1751)"
   ],
+  "anecdota": "<p>Saint-Jean-le-Rondeko eskaileretan utzitako haurra beirazale baten emazteak hazi zuen, eta D'Alembertek, akademiko ospetsu izanda ere, haren etxe xumean bizitzen jarraitu zuen berrogei urteak igaro arte. Tradizioaren arabera, bere ama biologikoa, Madame de Tencin aristokrata, hura aitortzen saiatu zen ospetsu egin zenean, eta berak erantzun zion bere ama bakarra beirazalearen emaztea zela. Esaldia zehatza izan ala ez, D'Alembertek beti erakutsi zion esker ona zaindu zuenari, eta haren arrakasta adibide ilustratu bihurtu zen: merituak jaiotzak baino gehiago balio zezakeen.</p>",
+  "fuente": "Condorcet, D'Alemberten goraipamena; tradizio biografikoa",
+  "tradicion": true,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1283,6 +1445,9 @@ const ILUSTRES = {
    "Sentimendu moralen teoria (1759)",
    "Nazioen aberastasuna (1776)"
   ],
+  "anecdota": "<p>Adam Smith ospetsua zen bere distrakzioengatik. Garaikideek kalean bakarrik hizketan deskribatzen zuten, ezpainak mugituz norbait ikusezinarekin eztabaidatzen ariko balitz bezala. Kontatzen da goiz batean batarekin atera zela lorategira, bere pentsamenduetan murgilduta, eta oinez jarraitu zuela beste herri batera iritsi arte, zenbait kilometrora, non elizako kanpaiek esnatu baitzuten. Beste istorio batek dio, larrugintza-lantegi batera egindako bisitan lanaren banaketa azaltzen ari zela, upel batera erori zela. Kontakizun puztuak dira, baina bizilagunek irudikatzen zuten pentsalari murgildua islatzen dute.</p>",
+  "fuente": "Dugald Stewart, Account of the Life and Writings of Adam Smith (haren distrakzioei buruz); Eskoziako tradizioko pasadizoak",
+  "tradicion": true,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1306,6 +1471,9 @@ const ILUSTRES = {
    "Arrazoimen praktikoaren kritika (1788)",
    "Judizioaren kritika (1790)"
   ],
+  "anecdota": "<p>Tradizioaren arabera, Königsbergeko bizilagunek beren erlojuak orduan jartzen zituzten Kant arratsaldeko eguneroko ibilaldian igarotzen ikusten zutenean, beti ordu berean eta ibilbide beretik. Behin bakarrik, diotenez, huts egin zuen hitzordura: etxean geratu zen egunetan, Rousseauren <em>Emilio</em>, argitaratu berria, irakurtzen murgilduta. Pasadizoa agian apainduta dago, baina mirespena benetakoa zen: Kantek erretratu bakarra zuen bere estudioan, Rousseaurena, eta aitortzen zuen hark irakatsi ziola edozein gizakiren duintasuna errespetatzen.</p>",
+  "fuente": "Tradizio biografikoa; haren ohiturei buruz, Borowski, Jachmann eta Wasianskiren biografiak",
+  "tradicion": true,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1332,6 +1500,9 @@ const ILUSTRES = {
    "Moralaren eta legegintzaren printzipioetarako sarrera (1789)",
    "Panoptikoa (1791)"
   ],
+  "anecdota": "<p>Benthamek erabilgarria izan nahi zuen hil ondoren ere. Testamentuan xedatu zuen bere gorpua anatomia irakasteko erabiltzea eta gero bere hezurdura, bere arropekin jantzita eta bere aulkian eserita, «autoikono» gisa gordetzea. Hala egin zen: gaur egun Londresko University Collegeko erakusleiho batean ikus daiteke, nahiz eta burua argizarizkoa den. Kondaira batek dio unibertsitateko kontseiluaren bileretara joaten dela «bertan, baina botorik gabe» oharrarekin. Bitxikeriaren atzean ideia utilitarista bat zegoen: gorpu batek ere ongi komunaren alde egin dezake.</p>",
+  "fuente": "Benthamen testamentua; University College London",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1353,6 +1524,9 @@ const ILUSTRES = {
   "obras": [
    "Emakumearen eta emakume hiritarraren eskubideen adierazpena (1791)"
   ],
+  "anecdota": "<p>1792ko abenduan, Konbentzioa Luis XVI.a epaitzeko prest zegoenean, Olympe de Gougesek diputatuei idatzi zien erregearen defendatzaile gisa eskaintzeko, Malesherbes abokatuarekin batera. Ez zen monarkikoa: defendatzen zuen erregea epaitu behar zela, baina ez exekutatu, eta uste zuen errepublika sendo batek ez zuela haren odola isuri beharrik. Konbentzioak bere eskaintza baztertu zuen, besteak beste, emakumea zela argudiatuz. Pasarteak haren irizpide-independentzia eta ausardia erakusten ditu, azkenean jakobinoen aurka jarri zutenak.</p>",
+  "fuente": "Olympe de Gougesek Konbentzioari idatzitako gutuna (1792ko abendua)",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1375,6 +1549,9 @@ const ILUSTRES = {
    "Gizonaren eskubideen aldarrikapena (1790)",
    "Emakumearen eskubideen aldarrikapena (1792)"
   ],
+  "anecdota": "<p>1795ean, Mary Wollstonecraftek bere garaiko emakume batentzat ohikoa ez zen bidaia bati ekin zion: Suedia, Norvegia eta Danimarka zeharkatu zituen bere bikotekidearen merkataritza-arazo bat konpontzeko, alaba txikiak eta haurzain batek bakarrik lagunduta. Esperientzia horretatik jaio ziren bere <em>Suedian, Norvegian eta Danimarkan idatzitako gutunak</em>, non paisaien deskribapena gizarteari eta emakumeen egoerari buruzko hausnarketekin nahasten baitu. Liburuak arrakasta handia izan zuen, eta William Godwinek geroago aitortu zuen, irakurtzean, egileaz maitemindu zela.</p>",
+  "fuente": "Wollstonecraft, Suedian, Norvegian eta Danimarkan idatzitako gutunak; William Godwin, «Emakumearen eskubideen aldarrikapena» lanaren egilearen oroitzapenak",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1398,6 +1575,9 @@ const ILUSTRES = {
    "Zientzia filosofikoen entziklopedia (1817)",
    "Zuzenbidearen filosofiaren oinarriak (1821)"
   ],
+  "anecdota": "<p>1806ko urrian, Hegel Jenan zegoen <em>Espirituaren fenomenologia</em> amaitzen Napoleonen tropek hiria okupatu zutenean, gudu ospetsuaren bezperan. Egun hartan Niethammer bere lagunari idatzi zion enperadorea zaldiz igarotzen ikusi zuela, «munduaren arima hori», eta sentsazio aparta zela puntu batean kontzentratuta mundua menderatzen zuen gizabanako bat kontenplatzea. Kontatzen da eskuizkribuaren azken orriak gerraren kaosaren erdian bidali behar izan zituela. Hegelentzat, historia unibertsala bere begien aurrean aurrera egiten ari zela zirudien.</p>",
+  "fuente": "Hegelek Niethammerri idatzitako gutuna, 1806ko urriaren 13a",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1422,6 +1602,9 @@ const ILUSTRES = {
    "Espiritu positiboari buruzko diskurtsoa (1844)",
    "Politika positiboaren sistema (1851-1854)"
   ],
+  "anecdota": "<p>Heldutasunean, Comtek berak «garun-higienea» deitzen zuena praktikatu zuen: egunkariak, aldizkariak eta beste egile batzuen liburuak irakurtzeari uztea erabaki zuen, besteen ideiek bere sistema propioaren lanketa asaldatu ez zezaten. Klasiko gutxi batzuk berrirakurtzea baino ez zuen bere buruari baimentzen, atseden gisa balio zioten olerkariak, adibidez. Ohiturak bere miresleak ere harritu zituen, gertaeretan oinarritutako filosofia baten sortzailea bere garaiko berrikuntzetatik isolatzen baitzen. Comteren asmoa erakusten du: zientzia guztien sintesi osoa berak bakarrik eraikitzea.</p>",
+  "fuente": "Comteren beraren eta haren ikasleen lekukotasunak",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1444,6 +1627,9 @@ const ILUSTRES = {
    "Filosofiaren erreformarako behin-behineko tesiak (1842)",
    "Etorkizuneko filosofiaren printzipioak (1843)"
   ],
+  "anecdota": "<p>1850ean, Feuerbachek Jacob Moleschott fisiologoak elikadurari buruz idatzitako dibulgazio-liburu baten iruzkina idatzi zuen. Bertan, alemanezko hitz-joko bati esker ospetsu egingo zen esaldi bat utzi zuen: <em>Der Mensch ist, was er isst</em>, «gizakia jaten duena da» (alemanez, «da» eta «jaten du» ia berdin ahoskatzen dira). Txiste serio horrekin bere materialismoa laburbiltzen zuen: gizakia ez da gorpuzgabeko espiritu bat, izaki konkretu, sentikor eta bere baldintza materialen menpeko bat baizik. Kritikariek arrunkeria bat ikusi zuten horretan; berak, gorputzaren defentsa idealismoaren aurrean.</p>",
+  "fuente": "Feuerbach, Moleschotten elikadurari buruzko lanaren iruzkina (1850)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1467,6 +1653,9 @@ const ILUSTRES = {
    "Utilitarismoa (1863)",
    "Emakumearen menpekotasuna (1869)"
   ],
+  "anecdota": "<p>1865ean, Parlamenturako kanpainan, Mill langile-entzule batzuekin bildu zen. Aurkari batek kartel bat zabaldu zuen haren liburu bateko esaldi batekin, non esaten baitzuen langile-klaseak, gezurra esateaz lotsatzen baziren ere, gezurtiak izan ohi zirela. Hura idatzi ote zuen galdetu zioten, eta Millek zalantzarik gabe erantzun zuen: «Bai, nik idatzi nuen». Bere <em>Autobiografia</em>ren arabera, entzuleek txalo zaparrada bat eman zuten, hautagai batek galderari ihes egiten ez saiatzea baloratzen baitzuten. Millek eserlekua irabazi zuen eta, beste kausa batzuen artean, emakumeen botoa defendatzeko erabili zuen.</p>",
+  "fuente": "John Stuart Mill, Autobiografia",
+  "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
@@ -1490,6 +1679,9 @@ const ILUSTRES = {
    "Espezieen jatorria (1859)",
    "Gizakiaren jatorria (1871)"
   ],
+  "anecdota": "<p>Cambridgen ikasle zela, Darwin kakalardo-bildumazale sutsua zen. Bere <em>Autobiografia</em>n gogoratzen du egun batean zuhaitz baten azala kendu eta bi ale arraro aurkitu zituela; bat esku bakoitzarekin hartu zuen, eta une horretan hirugarren bat ikusi zuen, galdu nahi ez zuen espezie berri batekoa. Pentsatu gabe, eskuan zituenetako bat ahoan sartu zuen. Intsektuak mingaina erre zion likido azido bat bota zuen; Darwinek ahotik bota zuen eta hirugarrena galdu zuen. Mugarik gabeko jakin-min hark elikatu zuen gero bere bidaia <em>Beagle</em> ontzian.</p>",
+  "fuente": "Charles Darwin, Autobiografia",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1513,6 +1705,9 @@ const ILUSTRES = {
    "Manifestu komunista (1848)",
    "Kapitala (1867)"
   ],
+  "anecdota": "<p>Bere azken urteetan, Marxek atsekabez ikusi zuen nola «marxista» deitzen zuten sozialista frantziar batzuek bere ideiak sinplifikatzen zituzten dogma bihurtu arte. Engelsek 1882ko gutun batean kontatu zuenez, Marxek ironiaz esan zuen haien aurrean: «Gauza bakarra da ziurra: ni ez naizela marxista». Esaldiak erakusten du Marxek ez zuela nahi bere lana doktrina itxi gisa errepikatzea, gizartea kritikoki aztertzeko metodo gisa erabiltzea baizik. Paradoxikoki, hil ondoren «marxismoa» XX. mendeko ideologiarik eragingarrienetako bat bihurtu zen.</p>",
+  "fuente": "Engelsek Eduard Bernsteini idatzitako gutuna (1882)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1537,6 +1732,9 @@ const ILUSTRES = {
    "Soroak, lantegiak eta tailerrak (1899)",
    "Elkarren laguntza (1902)"
   ],
+  "anecdota": "<p>1876an, Kropotkin San Petersburgoko San Pedro eta San Pablo gotorlekuan preso zegoen eta, gaixorik zegoenez, espetxeko ospitale militarrera eraman zuten. Han, bere kideek ihesaldi zehatz bat prestatu zuten: patioko ibilaldian, biolin-jotzaile batek inguruko etxe batetik jotzen zuen, bidea libre zegoela adierazteko seinale gisa. Kropotkinek presoaren bata astuna erantzi, atera arte korrika egin eta zain zuen zalgurdi batera jauzi egin zuen. Egun batzuk geroago Errusiatik ihes egin zuen, eta Europan erbestealdi luze bati ekin zion.</p>",
+  "fuente": "Piotr Kropotkin, Iraultzaile baten oroitzapenak",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1560,6 +1758,9 @@ const ILUSTRES = {
    "Honela mintzatu zen Zaratustra (1883-1885)",
    "Moralaren genealogia (1887)"
   ],
+  "anecdota": "<p>1882an, ikusmena gero eta ahulagoa zuela, Nietzschek lehen idazmakinetako bat erosi zuen, «idazteko bola» daniar bitxi bat, teklak erdiesfera baten gainean jarrita zituena. Aste batzuetan erabili zuen, eta hartaz gutun eta poema labur batzuk idaztera iritsi zen, tresna hondatu zen arte. Heinrich Köselitz lagunari, haren estiloa are laburragoa zela ohartuta zegoenari, erantzun zion gure idazteko tresnek ere gure pentsamenduak osatzen laguntzen dutela. Esaldi horrek oso gaurkoa den gogoeta bat aurreratzen du: teknikak gure pentsatzeko modua nola eraldatzen duen.</p>",
+  "fuente": "Nietzscheren gutuna Heinrich Köselitzi (1882ko otsaila)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1585,6 +1786,9 @@ const ILUSTRES = {
    "Nia eta Elloa (1923)",
    "Kulturaren ondoeza (1930)"
   ],
+  "anecdota": "<p>1933ko maiatzean, naziek Berlinen eta Alemaniako beste hiri batzuetan etsaitzat zituzten egileen liburuak erre zituzten, Freudenak tartean. Ernest Jones haren biografoaren arabera, Freudek ironia mingotsez esan zuen: «Zenbat aurreratu dugun! Erdi Aroan ni erreko ninduten; gaur nire liburuak erretzearekin konformatzen dira». Orduan ezin zuen irudikatu nazismoa askoz urrunago iritsiko zenik. Bost urte geroago, Austriaren anexioak Viena uztera behartu zuen. Esaldiak barbariaren aurrean zuen argitasuna eta umorea erakusten ditu.</p>",
+  "fuente": "Ernest Jones, Sigmund Freuden bizitza eta lana",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1608,6 +1812,9 @@ const ILUSTRES = {
    "Kristautasunaren agonia (1925)",
    "San Manuel Bueno, martiria (1931)"
   ],
+  "anecdota": "<p>Unamunok ustekabeko zaletasun bat zuen: paperezko txoritxoak egitea. Solasaldietan, kafetegietan eta etxean tolesten zituen, eta hain serio hartu zituen, non diziplina bat asmatu baitzuen, <strong>kokotologia</strong>, eta tratatu burlesko bat eskaini zion <em>Maitasuna eta pedagogia</em> (1902) eleberriaren amaieran. Solemnitate zientifiko faltsuz, txoritxoak sailkatu eta aztertzen zituen, animalia-espezieak balira bezala. Dena sistema batera murritz daitekeela uste dutenen harrokeriaz barre egiteko modu bat zen, abstrakzioez fidatzen ez zen pentsalari batengan oso berezkoa.</p>",
+  "fuente": "Unamuno, Maitasuna eta pedagogia (1902), «Kokotologiaren tratatu baterako oharrak»",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1631,6 +1838,9 @@ const ILUSTRES = {
    "Politika bokazio gisa (1919)",
    "Ekonomia eta gizartea (1922)"
   ],
+  "anecdota": "<p>1919ko urtarrilean, Alemania garaituta eta Munich iraultza-giro betean zegoela, ikasle-elkarte batek politikaz hitz egiteko gonbita egin zion Weberri. Gazte askok iraultzak mundu berri bat ekarriko zuela entzun nahi zuten. Weberrek justu kontrakoa eskaini zien: boterearen, erantzukizunaren eta asmo onen mugen inguruko gogoeta soila. Politika <strong>ohol gogorrak poliki eta tinko zulatzearekin</strong> alderatuz amaitu zuen, grina eta neurria aldi berean eskatzen dituen lana. Hitzaldi hori, <em>Politika bokazio gisa</em>, konbikzioaren etika eta erantzukizunaren etika bereizten dituen testua da.</p>",
+  "fuente": "Weber, Politika bokazio gisa (1919ko hitzaldia); Marianne Weber, Max Weberren biografia",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1653,6 +1863,9 @@ const ILUSTRES = {
    "Filosofiaren arazoak (1912)",
    "Mendebaldeko filosofiaren historia (1945)"
   ],
+  "anecdota": "<p>1902an Gottlob Frege bere lan handiaren bigarren liburukia argitaratzear zegoen, aritmetika logikan oinarritzen zuena. Orduan Russell gazte baten gutun bat jaso zuen, oso begirunetsua, zailtasun bat planteatzen ziona: bere burua barne hartzen ez duten multzo guztien multzoak bere burua barne hartzen al du ala ez? Edozein erantzunek kontraesanera darama. Fregek zintzotasun handiz erantzun zion horrek bere oinarriak kolokan jartzen zituela, eta hori aitortzen zuen eranskin bat gehitu zuen. <strong>Russellen paradoxak</strong> matematikaren oinarriak berriz pentsatzera behartu zuen, eta <em>Principia Mathematica</em>-ren jatorrian dago.</p>",
+  "fuente": "Russell eta Fregeren arteko gutunak (1902); Frege, Aritmetikaren oinarrizko legeak lanaren II. liburukiaren eranskina",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1676,6 +1889,9 @@ const ILUSTRES = {
    "Idealismoaren ezeztapena (1903)",
    "Zentzu komunaren defentsa (1925)"
   ],
+  "anecdota": "<p>1939an, Britainiar Akademiaren aurrean, Moorek kanpoko munduaren existentziaren froga gisa aurkeztu zuena eskaini zuen. Esku bat altxatu eta esan zuen, gutxi gorabehera: «Hemen esku bat dago». Gero bestea altxatu zuen: «Eta hemen beste bat». Beraz, ondorioztatu zuen, gutxienez kanpoko bi objektu daude. Entzule askok txantxatzat hartu zuten, baina Moore serio ari zen: seguruago zegoen eskuak zituela argudio eszeptiko baten edozein premisaz baino. Keinu horrek laburbiltzen du haren <strong>zentzu komunaren</strong> defentsa, hura zalantzan jartzen duten filosofien aurrean.</p>",
+  "fuente": "Moore, «Kanpoko munduaren froga» (1939)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1719,6 +1935,9 @@ const ILUSTRES = {
    "Gure garaiko gaia (1923)",
    "Masen errebelta (1930)"
   ],
+  "anecdota": "<p>1930eko azaroan Ortegak <em>El Sol</em> egunkarian artikulu bat argitaratu zuen, «El error Berenguer» («Berengueren akatsa»), lelo bihurtutako latinezko esaldi batekin amaitzen zena: «Delenda est Monarchia», monarkia suntsitu egin behar da. Hilabete batzuk geroago Bigarren Errepublika iritsi zen, eta Ortega diputatu hautatu zuten. Baina laster etsipena eragin zion politika berriaren norabideak, eta, 1931ko irailean, beste artikulu bat idatzi zuen, hura bezain ospetsu egin zen kexu batekin: <strong>«Ez da hau, ez da hau!»</strong>. Bi esaldiek erakusten dute bizitza publikoan esku hartzen duen intelektualaren ideia, hura epaitzeari uko egin gabe.</p>",
+  "fuente": "Ortega y Gasset, «El error Berenguer» (El Sol, 1930) eta «Un aldabonazo» (Crisol, 1931)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1739,6 +1958,9 @@ const ILUSTRES = {
   "obras": [
    "Hizkuntza (1921)"
   ],
+  "anecdota": "<p>1915eko udan Sapirrek San Franciscon lan egin zuen Ishirekin, Kaliforniako hizkuntza indigena baten, yahieraren, azken hiztuntzat hartzen zen gizonarekin. Ishi hamarkadetan ezkutuan bizi izan zen bere talde txikiarekin eta, bakarrik geratu ondoren, Kaliforniako Unibertsitateko antropologia-museoan hartu zuen bizilekua. Astetan zehar Sapirrek harekin hitzak, kontakizunak eta egitura gramatikalak idatzi zituen, hizkuntza gal ez zedin. Eszena horrek laburbiltzen du Sapirren lana: mehatxatutako hizkuntzak dokumentatzea, bakoitzak mundua antolatzeko modu bakar bat gordetzen duela sinetsita.</p>",
+  "fuente": "Alfred Kroeberren lekukotasunak eta Kaliforniako Unibertsitateko antropologia-museoko dokumentazioa; Theodora Kroeber, Ishi bi mundutan",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1760,6 +1982,9 @@ const ILUSTRES = {
    "Tractatus logico-philosophicus (1921)",
    "Ikerketa filosofikoak (1953)"
   ],
+  "anecdota": "<p>1929an, Cambridgera itzultzean, Wittgensteinek doktoretza behar zuen irakatsi ahal izateko, eta tesi gisa <em>Tractatus</em>-a aurkeztu zuen, ordurako ospetsua. Epaimahaikideak Russell eta Moore izan ziren, ez gutxiago. Azterketa lagun zaharren arteko solasaldia izan zen ia, harik eta Wittgensteinek, amaitzean, sorbaldan txaplada bat eman eta kezkatzeko ez esan zien arte, bazekiela ez zutela inoiz ulertuko. Moorek bere txostenean idatzi zuen lana jeinu baten lana zela eta, nolanahi ere, doktoretzarako baldintzak betetzen zituela.</p>",
+  "fuente": "Ray Monken biografian jasotako lekukotasunak, Ludwig Wittgenstein. Jeinu baten betebeharra",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1783,6 +2008,9 @@ const ILUSTRES = {
    "Artelanaren jatorria",
    "Humanismoari buruzko gutuna (1947)"
   ],
+  "anecdota": "<p>1924an Heideggerrek Aristotelesi buruzko ikastaro bati ekin zion Marburgen, ikasleek ahaztu ez zuten moduan. Filosofoaren biografia errepasatu beharrean, esaldi bakar batean bukatu zuen: Aristoteles jaio zen, lan egin zuen eta hil zen. Garrantzitsua ez zen egilearen bizitza anekdotikoa, haren pentsamendua baizik. Eskola bizi eta zorrotz haiek «filosofiaren errege ezkutua» ospea eman zioten Heideggerri ikasle alemanen artean, <em>Izatea eta denbora</em> argitaratu aurretik ere. Marburgen entzuten zutenen artean Hannah Arendt eta Hans-Georg Gadamer zeuden.</p>",
+  "fuente": "Heidegger, 1924ko Marburgeko ikastaroa (Filosofia aristotelikoaren oinarrizko kontzeptuak); haren ikasleen lekukotasunak, Arendtena kasu",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1805,6 +2033,9 @@ const ILUSTRES = {
    "Metafisikaren gainditzea hizkuntzaren analisi logikoaren bidez (1932)",
    "Hizkuntzaren sintaxi logikoa (1934)"
   ],
+  "anecdota": "<p>Nerabe zela, Carnapek bere kabuz ikasi zuen <strong>esperantoa</strong>, herrien arteko ulermena errazteko sortutako hizkuntza artifiziala. 1908an esperantisten mundu-biltzar batera joan zen Dresdenera, eta harrituta geratu zen herrialde askotako jendea asmatutako hizkuntza batean jarioz hizketan ikustean. Bere autobiografia intelektualean kontatu zuenez, esperientzia horrek konbentzitu zuen eraikitako hizkuntza batek naturala bezala funtziona zezakeela. Geroago, bere filosofiaren zati handi bat hizkuntza logiko zehatzak diseinatzera bideratuko zuen, ezagutza zientifikoa anbiguotasunik gabe adierazteko gai zirenak.</p>",
+  "fuente": "Carnap, «Autobiografia intelektuala», in P. A. Schilpp (arg.), The Philosophy of Rudolf Carnap",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1827,6 +2058,9 @@ const ILUSTRES = {
    "Ilustrazioaren dialektika (1944, Adornorekin)",
    "Arrazoi instrumentalaren kritika (1947)"
   ],
+  "anecdota": "<p>Georg Lukács filosofo marxistak ospetsu egin zen ziztada bat eskaini zien Horkheimerri, Adornori eta Frankfurteko haien lankideei. 1962an idatzi zuen «Grand Hotel Amildegia»-n kokatu zirela: hotel luxuzko bat, erosotasun guztiekin, amildegiaren ertzera begira, eta handik munduaren hondamendia begiratzen zuten otordu on eta artelanen artean. Lukácsek leporatzen zien gizartea kritikatzen zutela ekintza politikoarekin konprometitu gabe. Txantxak <strong>teoria kritikoari</strong> buruzko funtsezko eztabaida bat laburbiltzen du: nahikoa ote den kritikoki pentsatzea edo errealitatea eraldatu behar ote den.</p>",
+  "fuente": "Lukács, Eleberriaren teoria lanaren 1962ko hitzaurrea",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1847,6 +2081,9 @@ const ILUSTRES = {
   "obras": [
    "Hizkuntza, pentsamendua eta errealitatea (1956)"
   ],
+  "anecdota": "<p>Suteen ikuskatzaile gisa egindako lanak Whorfi bere adibide gogokoenetako bat eman zion. Biltegi batean ikusi zuen langileek kontuz jokatzen zutela gasolinaz betetako bidoien ondoan, baina lasai erretzen zutela «hutsik» etiketa zutenen ondoan. Hala ere, bidoi horiek lurrun sukoiz beteta zeuden, askoz arriskutsuagoak. «Hutsik» hitzak, arriskurik eza iradokitzen duenak, errealitate fisikoak baino gehiago gidatzen zuen jokabidea. Whorfek horrelako kasuak erabili zituen hizkuntzak egoerak nola hautematen ditugun eta haietan nola jokatzen dugun baldintzatzen duela defendatzeko.</p>",
+  "fuente": "Whorf, «Ohiko pentsamenduak eta jokabideak hizkuntzarekin duten harremana» (1939)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1891,6 +2128,9 @@ const ILUSTRES = {
    "Historizismoaren miseria (1957)",
    "Aieruak eta errefutazioak (1963)"
   ],
+  "anecdota": "<p>1946ko urriaren 25ean Popperrek hitzaldi bat eman zuen Cambridgeko Zientzia Moralen Klubean, Wittgenstein buru zela. Popperrek defendatu zuen benetako arazo filosofikoak badirela; Wittgensteinek, berriz, hizkuntzaren buru-hausgarriak baino ez daudela. Eztabaida berotu egin zen eta, zenbait lekukoren arabera, Wittgensteinek tximiniako su-burdina bat astindu zuen hizketan ari zela. Popperrek kontatu zuenez, arau moral baten adibide bat eskatu ziotenean, hau erantzun zuen: «Gonbidatutako hizlariak su-burdinekin ez mehatxatzea». Bertaratuak ez datoz bat zehazki gertatu zenaz, eta batzuek bertsio hori ukatzen dute. Liskarrak hamar minutu eskas iraun zuen.</p>",
+  "fuente": "Popper, Bilaketa amaigabea (autobiografia); saiora bertaratutakoen lekukotasunak",
+  "tradicion": true,
   "block": "con",
   "subjects": [
    "hf"
@@ -1914,6 +2154,9 @@ const ILUSTRES = {
    "Dialektika negatiboa (1966)",
    "Teoria estetikoa (1970)"
   ],
+  "anecdota": "<p>Kalifornian erbestean zegoela, Adorno Thomas Mannen lagun egin zen; gertu bizi zen eta <em>Doktor Faustus</em> idazten ari zen, deabruarekin ituna egiten duen konpositore baten eleberria. Mannek bazekien benetan musika modernoa ulertzen zuen norbait behar zuela, eta Adorno, Alban Bergen ikaslea, haren aholkulari bihurtu zen: musika dodekafonikoa azaltzen zion, eta protagonistaren obra irudimenezkoak ere deskribatzen zizkion. Mannek berak aitortu zuen lankidetza hori eleberriaren sorrerari buruzko liburu batean. Adornorentzat, musika serioa bere garaia ezagutzeko modu bat zen.</p>",
+  "fuente": "Thomas Mann, Doktor Faustusen jatorria (1949)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1937,6 +2180,9 @@ const ILUSTRES = {
    "Pertsona eta demokrazia (1958)",
    "Basoko soilguneak (1977)"
   ],
+  "anecdota": "<p>María Zambranok erbestealdiaren zati handi bat Araceli ahizparekin bizi izan zuen, eta biek katu ugari hartzen zituzten, berak izugarri maite zituenak. Erroman, hirurogeiko hamarkadaren erdialdean, bizilagunek katuengatik jarritako salaketa batek herrialdea uzteko agindu bat ekarri zuen. Ahizpak orduan etxe bakartu batera joan ziren La Pièce-n, Frantziako Juran, Suitzatik gertu, eta han bakardade eta idazketa handiko urteak bizi izan zituzten. Han heldu ziren haren lan pertsonalenetako batzuk, <em>Basoko soilguneak</em> kasu.</p>",
+  "fuente": "María Zambranoren lekukotasun biografikoak eta gutunak",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1960,6 +2206,9 @@ const ILUSTRES = {
    "Existentzialismoa humanismo bat da (1946)",
    "Arrazoi dialektikoaren kritika (1960)"
   ],
+  "anecdota": "<p>Simone de Beauvoirrek 1933ko eszena bat kontatzen du, Montparnasseko taberna batean. Raymond Aronek, Berlinen ikasten egon ondoren itzulita, bere abrikot-koktelaren edalontzia seinalatu eta Sartreri esan zion, fenomenologoa bazen, koktel hartaz hitz egin zezakeela eta hori filosofia izango zela. Sartre, Beauvoirren arabera, ia zurbildu egin zen hunkiduraz: horixe zen bilatzen zuena, gauza zehatzetatik abiatuko zen filosofia bat, bizi ditugun bezala. Handik gutxira Berlinera joan zen Husserl aztertzera, eta hortik sortu zen haren existentzialismoa.</p>",
+  "fuente": "Simone de Beauvoir, Bizitzaren betetasuna (La force de l'âge)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -1984,6 +2233,9 @@ const ILUSTRES = {
    "Eichmann Jerusalemen (1963)",
    "Egia eta politika (1967)"
   ],
+  "anecdota": "<p>1964an Arendtek elkarrizketa luze bat eman zion Alemaniako telebistari, Günter Gaus kazetariarekin. Lasai erretzen, erbesteaz, nazismoaz eta bere lanbideaz hitz egin zuen. Gausek Hitler aurreko Europatik zer geratzen zitzaion galdetu zionean, <strong>ama-hizkuntza</strong> geratzen zitzaiola erantzun zuen: alemana, zeinean poema asko buruz zekizkien eta inoiz galdu ez zuena, Estatu Batuetan bizi arren. Hizkuntza, esan zuen, ez zen erotu. Elkarrizketa gaur egun ere haren pentsamendu-independentziaren erretratu gisa ikusten da.</p>",
+  "fuente": "Günter Gausekin elkarrizketa, «Zur Person» (ZDF, 1964)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2007,6 +2259,9 @@ const ILUSTRES = {
    "Mandarinak (1954)",
    "Zahartzaroa (1970)"
   ],
+  "anecdota": "<p>1929an, Pariseko Luxemburgo lorategietako Médicis iturriaren ondoan, Beauvoirrek eraikitzen ari zen teoria morala azaldu zion Sartreri. Hark orduz desegin zuen, piezaz pieza. Beauvoirrek, bere klaseko onena izatera ohituta, aitortu zuen jada ez zegoela ziur zer pentsatzen zuen, ezta pentsatzen ote zuen ere. Adorea galdu beharrean, akuilu gisa bizi izan zuen: norbait aurkitu zuen berdinetik berdinera eztabaidatzeko. Hala kontatzen du bere memorietan, eta horrela hasi zen berrogeita hamar urte iraun zuen elkarrizketa filosofiko bat.</p>",
+  "fuente": "Simone de Beauvoir, Neska formal baten memoriak (1958)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2028,6 +2283,9 @@ const ILUSTRES = {
    "Zenbaki konputagarriez (1936)",
    "Makineria konputazionala eta adimena (1950)"
   ],
+  "anecdota": "<p>1926ko maiatzean, Turing Sherborneko barnetegian lehen ikasturtea hastera zihoanean, greba orokor batek Britainia Handiko trenak geldiarazi zituen. Itxaron beharrean, hamahiru urteko mutikoak bizikleta hartu eta ehun bat kilometro egin zituen Southamptondik, bidean ostatu batean lo egiteko geldituta. Balentriak hainbesteko arreta erakarri zuen, non tokiko prentsak jaso baitzuen. Beti lagundu zioten ezaugarriak aurreratzen ditu: independentzia, tinkotasuna eta distantzia luzeekiko zaletasuna; izan ere, heldutan ia olinpiar mailako iraupen-korrikalaria izan zen.</p>",
+  "fuente": "Andrew Hodges, Alan Turing: The Enigma; 1926ko tokiko prentsa",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2051,6 +2309,9 @@ const ILUSTRES = {
    "Denbora eta narrazioa (1983-1985)",
    "Norbera beste bat bezala (1990)"
   ],
+  "anecdota": "<p>Alemanian gerra-preso egon zen bost urteetan, Ricoeurrek ez zion filosofia egiteari utzi. Kanpalekuan, Mikel Dufrenne bezalako beste ofizial batzuekin batera, ikastaroak eta irakurketak antolatu zituen bere kideentzat, inprobisatutako unibertsitate moduko bat. Han bertan itzuli zuen frantsesera Husserlen <em>Ideak</em>, arkatzez idatziz zuen ale bakarraren marjinetan, papera falta zitzaiolako. Itzulpen horrek, gerra ondoren argitaratuak, fenomenologian aditu frantses handienetako bat bezala ezagutarazi zuen.</p>",
+  "fuente": "Ricoeur, Autobiografia intelektuala (Réflexion faite)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2074,6 +2335,9 @@ const ILUSTRES = {
    "Herrien zuzenbidea (1999)",
    "Justizia ekitate gisa: birformulazio bat (2001)"
   ],
+  "anecdota": "<p>Gerra amaitzean, Rawls Japoniako okupazio-tropen parte izan zen eta trenez igaro zen Hiroshimako hondakinen ondotik, bonba atomikoa bota eta aste gutxira. Ikuspen hura ez zitzaion inoiz burutik joan. Berrogeita hamar urte geroago, 1995ean, «Berrogeita hamar urte Hiroshimaren ondoren» artikulua argitaratu zuen, eta bertan defendatu zuen zibilez betetako hiriak bonbardatzea akats moral larria izan zela, gobernu demokratiko batek agindu arren. Rawlsentzat, gerran ere badira justiziak gainditzen uzten ez dituen mugak.</p>",
+  "fuente": "Thomas Pogge, John Rawls: bere bizitza eta justiziaren teoria; J. Rawls, «Fifty Years after Hiroshima», Dissent (1995)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2098,6 +2362,9 @@ const ILUSTRES = {
    "Egoera posmodernoa (1979)",
    "Desadostasuna (1983)"
   ],
+  "anecdota": "<p>1985ean Lyotardek filosofo batentzat ohikoa ez zen zerbait egin zuen: erakusketa handi baten komisarioa izan zen Pariseko Pompidou Zentroan, <em>Les Immatériaux</em> («Materiagabeak») izenekoa. Ordenan zintzilikatutako koadroen ordez, publikoak espazio erdi-ilunen laberinto bat zeharkatzen zuen, eremuaren arabera testu desberdinak igortzen zituzten entzungailuekin, eta pantailak, objektu sintetikoak eta informazioaren teknologia berriak aurkitzen zituen. Ez zegoen ibilbide bakarrik ez ondoriorik: erakusketak nahi zuen bisitariak bere gorputzean bizi zezan egoera posmodernoa, kontakizun handi batek gidatu gabe.</p>",
+  "fuente": "Les Immatériaux erakusketa (Pompidou Zentroa, 1985) eta haren katalogoa",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2144,6 +2411,9 @@ const ILUSTRES = {
    "Zaindu eta zigortu (1975)",
    "Sexualitatearen historia (1976-1984)"
   ],
+  "anecdota": "<p>1971ko azaroan Herbehereetako telebistak aurrez aurre jarri zituen Foucault eta Noam Chomsky giza naturari buruz eztabaidatzeko. Chomskyk defendatu zuen giza natura badagoela, hizkuntza bezalako jaiotzetiko gaitasunekin, eta hartan oinarri daitekeela justiziaren ideia bat. Foucault mesfidati agertu zen: harentzat, giza natura edo justizia bezalako kontzeptuak gure gizartearen barruan eratu dira eta boterea gauzatzeko ere balio dute. Biek adeitasunez jardun zuten, baina ia ez ziren ados jarri. Eztabaida klasiko bihurtu zen.</p>",
+  "fuente": "Chomsky-Foucault telebistako eztabaida (Eindhoven, 1971), Giza natura: justizia versus boterea izenburuz argitaratua",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2166,6 +2436,9 @@ const ILUSTRES = {
    "Sintaxiaren teoriaren alderdiak (1965)",
    "Adostasunaren fabrikazioa (1988, E. S. Hermanekin)"
   ],
+  "anecdota": "<p>Hamar urte besterik ez zituela, Chomskyk bere lehen artikulua idatzi zuen Filadelfiako bere eskolako egunkarian. Gaia ez zen haurrena: Bartzelona Francoren tropen esku erortzea, 1939 hasieran, eta faxismoa Europan zabaltzea. Chomskyk berak askotan gogoratu du testu hori. Espainiako gerra zibilak haurtzarotik markatu zuen: geroago ideia anarkistetara hurbildu zen eta Kataluniako eta Aragoiko kolektibitateak miretsi zituen, XX. mendeko autogestio-esperimentu handienetako bat iritzita.</p>",
+  "fuente": "Chomskyren beraren lekukotasuna elkarrizketetan; R. Barsky, Noam Chomsky: desadostasunezko bizitza bat",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2189,6 +2462,9 @@ const ILUSTRES = {
    "Ekintza komunikatiboaren teoria (1981)",
    "Modernitatearen diskurtso filosofikoa (1985)"
   ],
+  "anecdota": "<p>1953an, 24 urterekin eta doktoretza lortu berritan, Habermasek Heideggerren 1935eko ikastaro baten berrargitalpena irakurri zuen, <em>Metafisikarako sarrera</em>, non oraindik mugimendu nazionalsozialistaren «barne-egiaz eta handitasunaz» hitz egiten zuen, zuzenketa-hitz bakar bat ere gabe. Haserre, artikulu bat argitaratu zuen <em>Frankfurter Allgemeine Zeitung</em> egunkarian, Alemaniako filosofo miretsienari azalpenak eskatuz. Heideggerrek ez zuen inoiz benetan erantzun. Testu hark bizitza osoko Habermas iragartzen du: eztabaida publikoan esku hartzen duen eta inolako autoritate ez dagoela eztabaidaren gainetik uste duen intelektuala.</p>",
+  "fuente": "J. Habermas, «Heideggerrekin pentsatu Heideggerren aurka», Frankfurter Allgemeine Zeitung (1953)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2213,6 +2489,9 @@ const ILUSTRES = {
    "Inurriak (1990, B. Hölldoblerrekin)",
    "Lurraren konkista soziala (2012)"
   ],
+  "anecdota": "<p>Zazpi urterekin, Floridako kai batean arrantzan ari zela, Edward txikiak indar gehiegiz tira egin zion amu-hariari eta arrain baten hegats arantzatsuak eskuineko begian zauritu zuen; begi hura ia erabat galdu zuen azkenean. Ezkerrarekin, aldiz, xehetasun handiz ikusten zuen hurbiletik. Berak kontatu zuenez, horregatik utzi zion hegaztiei eta ugaztunei erreparatzeari, urrunetik behatzen zailak baitziren, eta aurpegitik hurbil eutsita azter zitzakeen izaki txikietan jarri zuen arreta. Horrela hasi zen inurriekiko zuen grina.</p>",
+  "fuente": "E. O. Wilson, Naturalista (autobiografia, 1994)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2258,6 +2537,9 @@ const ILUSTRES = {
    "Simulakroak eta simulazioa (1981)",
    "Golkoko gerra ez da gertatu (1991)"
   ],
+  "anecdota": "<p><em>Matrix</em> (1999) filmean, protagonistak, Neok, disko piratak ezkutatzen ditu Baudrillarden liburua den <em>Simulakroak eta simulazioa</em>-ren ale hustu batean. Zuzendariek aktoreei eskatu zieten filmatu aurretik irakurtzeko, eta filosofoa bera ere gonbidatu zuten segidetan parte hartzera. Baudrillardek ezetz esan zuen. 2004ko elkarrizketa batean azaldu zuen filmak gaizki ulertu zuela: <em>Matrix</em>-ek argi bereizten ditu mundu faltsu bat eta ihes egin daitekeen mundu erreal bat; harentzat, berriz, kezkagarria da muga hori jada ez dagoela.</p>",
+  "fuente": "Matrix filma (1999); Baudrillardi egindako elkarrizketa Le Nouvel Observateur aldizkarian (2004)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2281,6 +2563,9 @@ const ILUSTRES = {
    "Filosofiaren marjinak (1972)",
    "Marxen espektroak (1993)"
   ],
+  "anecdota": "<p>1981aren amaieran Derrida Pragara joan zen Txekoslovakiako erregimen komunistaren intelektual disidenteei mintegi klandestino bat ematera. Irteeran, poliziak atxilotu egin zuen aireportuan: bere maletan droga aurkitu zutela esan zuten, benetan haiek eurek jarria. Gau bat eman zuen kartzelan eta estupefazienteen trafikoa egotzi zioten. Frantziako Gobernuaren protestak, Mitterrand presidentea buru zela, haren askatasuna eta herrialdetik kanporatzea lortu zituen. Testuei buruzko susmoaren filosofoa asmatutako espediente baten biktima izan zen azkenean.</p>",
+  "fuente": "Benoît Peeters, Derrida (biografia, 2010); garai hartako prentsa",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2372,6 +2657,9 @@ const ILUSTRES = {
    "Irabazi asmorik gabe (2010)",
    "Gaitasunak sortzea (2011)"
   ],
+  "anecdota": "<p>Filosofiari ekin aurretik, Martha gazteak aktore izan nahi zuen. Unibertsitateko ikasketak utzi zituen denbora batez errepertorioko antzerki-konpainia batean lan egiteko, herrialdean zehar obra klasikoak antzezten ibiltzen zena. Gero unibertsitatera itzuli zen eta greziar hizkuntzan eta literaturan jarri zuen arreta, New Yorkeko Unibertsitatean. Tragediarekiko grina hura ez zen desagertu: <em>Onaren hauskortasuna</em> lanean Sofokles eta Euripides aztertzen ditu, literaturak ere bizitza morala pentsatzen irakasten duela erakusteko.</p>",
+  "fuente": "R. Aviv-en profila The New Yorker aldizkarian (2016) eta elkarrizketak",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2395,6 +2683,9 @@ const ILUSTRES = {
    "Bizitza prekarioa (2004)",
    "Indarkeriarik ezaren indarra (2020)"
   ],
+  "anecdota": "<p>Butlerrek kontatu du, hamalau bat urte zituela, Clevelandeko sinagogako eskola hebrearreko eskoletan hainbeste hitz egiten zuela, non errabinoak zigor gisa banakako tutoretza batzuk ezartzea erabaki baitzuen. Ustezko zigorra opari bat izan zen: etika juduari buruzko saio haietan, errabinoak Spinoza bezalako filosofoak eta tradizioko beste pentsalari batzuk irakurri eta eztabaidatzea proposatu zion. Han hasi zen filosofiarekiko interesa, eta inoiz utzi ez dituen galderekikoa, hala nola etikaren, indarkeriaren eta komunitatearen arteko harremana.</p>",
+  "fuente": "Judith Butlerren lekukotasuna elkarrizketetan",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2418,6 +2709,9 @@ const ILUSTRES = {
    "Psikopolitika (2014)",
    "Bestelakoaren kanporatzea (2016)"
   ],
+  "anecdota": "<p>Bizitza digitalaren kritikariak nahiago du lurra pantailak baino. Hiru udaberri eta hiru udatan, Hanek lorategi bat landu zuen Berlinen eta liburu bihurtu zuen: <em>Lurraren laudorioa</em> (2018). Kontatzen du loreen izenak ikasi zituela, neguan ere landatzen zuela eta lorategiak itxaroten, zaintzen eta azkartu ezin diren erritmoak onartzen irakatsi ziola. Bere saiakeretan deskribatzen dituen presaren eta autoesplotazioaren aurrean, lurrean eskuekin lan egitea denbora berreskuratzeko modu bat iruditzen zaio.</p>",
+  "fuente": "Byung-Chul Han, Lurraren laudorioa. Bidaia bat lorategira (2018)",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
@@ -2461,6 +2755,9 @@ const ILUSTRES = {
    "Adimen kontzientea (1996)",
    "Reality+ (2022)"
   ],
+  "anecdota": "<p>1998an, Bremengo biltzar baten ondoren, Christof Koch neurozientzialariak ardo oneko kaxa bat apustu egin zuen Chalmersekin: Kochek uste zuen hogeita bost urtean garunean aurkituta egongo zela kontzientzia azaltzen duen seinale neuronala; Chalmersek, ezetz. 2023an, New Yorken kontzientziari buruz egindako biltzar batean, apustua berrikusi zen. Esperimentuek ez zuten auzia ebatzi, eta, beraz, Kochek porrota onartu eta ordaindu egin zuen. Chalmersek ez zuen irabazi bere dualismoa frogatu zuelako, arazo zaila irekita jarraitzen zuelako baizik.</p>",
+  "fuente": "Association for the Scientific Study of Consciousness elkartearen biltzarraren kronikak (New York, 2023), Naturerena tartean",
+  "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"

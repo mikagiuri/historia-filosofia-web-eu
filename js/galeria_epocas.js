@@ -1,6 +1,6 @@
 "use strict";
 /* ===== Galería · obras de arte por época (dominio público) ===== se añaden a GALERIA
-   sin editar galeria.js. Fuente: imagenes_museos/epocas/manifest.csv (Wikimedia Commons). */
+   sin editar galeria.js. Fuente: recursos/imagenes_museos/epocas/manifest.csv (Wikimedia Commons). */
 const GALERIA_EPOCAS = [
  {
   "f": "media/galeria_museo/epocas/academia_liceo_MANNapoli_124545_plato_s_academy_mosaic_cropped.jpg",

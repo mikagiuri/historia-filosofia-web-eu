@@ -1,6 +1,6 @@
 "use strict";
 /* ===== Galería · imágenes de museo (dominio público) ===== se añaden a GALERIA (galeria.js)
-   sin editar ese archivo. Fuente: imagenes_museos/manifest.csv (Wikimedia Commons). */
+   sin editar ese archivo. Fuente: recursos/imagenes_museos/manifest.csv (Wikimedia Commons). */
 const GALERIA_MUSEO = [
  {
   "f": "media/retratos/museo/alcibiades.jpg",

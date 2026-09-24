@@ -80,3 +80,11 @@
   #ilustres .ilu-card{box-shadow:none;break-inside:avoid}
   #ilustres .ilu-grid{grid-template-columns:repeat(3,1fr)}
 }
+
+/* anécdota (ficha) */
+#ilustres .ilu-anec{margin-top:18px;padding:12px 16px 12px;border:1px dashed var(--e);border-radius:12px;background:var(--surface-2)}
+#ilustres .ilu-anec h3{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}
+#ilustres .ilu-anec h3::before{content:"✦";color:var(--e)}
+#ilustres .ilu-trad{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+#ilustres .ilu-anec p{font-size:.97rem;line-height:1.6;margin:0 0 .5em;max-width:70ch}
+#ilustres .ilu-anec .ilu-fuente{font-size:.8rem;color:var(--muted);margin:0}
