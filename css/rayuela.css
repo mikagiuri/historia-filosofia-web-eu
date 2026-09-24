@@ -1,0 +1,72 @@
+/* ===== «Rayuela filosófica» (HF 2.º) ===== usa tokens de styles.css ===== */
+#rayuela .linkbtn{ font:inherit; background:none; border:0; padding:0; color:var(--accent); cursor:pointer; text-decoration:underline; text-underline-offset:2px; }
+#rayuela .pbtn{ font:inherit; cursor:pointer; border:1px solid var(--line); background:var(--surface); color:var(--ink); padding:.5rem 1rem; border-radius:999px; }
+#rayuela .pbtn:hover{ border-color:var(--hf); }
+#rayuela .ray-btn{ font:inherit; font-weight:600; cursor:pointer; border:0; border-radius:999px; padding:.6rem 1.2rem; color:#fff; background:var(--hf); }
+#rayuela .ray-btn:hover{ filter:brightness(1.08); }
+#rayuela .ray-wrap{ display:grid; grid-template-columns:minmax(0,1fr); gap:1.2rem; }
+@media (min-width:980px){
+  #rayuela .ray-wrap{ grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr); align-items:start; }
+  #rayuela .ray-side{ position:sticky; top:4.5rem; }
+}
+#rayuela .ray-side{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:.6rem .6rem .8rem; }
+#rayuela .ray-map{ display:block; width:100%; height:auto; max-height:78vh; }
+#rayuela .ray-e{ fill:none; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; opacity:.34; }
+#rayuela .ray-e.hist{ opacity:.62; }
+#rayuela .ray-e.now{ opacity:1; stroke-width:8; }
+#rayuela .ray-st circle{ stroke-width:4; }
+#rayuela .ray-st.contra circle{ stroke-dasharray:none; }
+#rayuela .ray-st .ray-num{ font:700 13px var(--sans, system-ui, sans-serif); fill:var(--ink); }
+#rayuela .ray-st.vis .ray-num{ fill:#fff; }
+#rayuela .ray-halo{ fill:none; stroke-width:3; opacity:.6; animation:ray-pulse 1.6s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+#rayuela .ray-lbl{ font:600 12px var(--sans, system-ui, sans-serif); fill:var(--ink); paint-order:stroke; stroke:var(--surface); stroke-width:4px; stroke-linejoin:round; }
+#rayuela .ray-term rect{ fill:var(--surface); stroke:var(--ink); stroke-width:2.5; }
+#rayuela .ray-term .ray-num{ font:700 15px var(--serif, Georgia, serif); fill:var(--ink); }
+#rayuela .ray-term.vis rect{ fill:var(--ink); }
+#rayuela .ray-term.vis .ray-num{ fill:var(--surface); }
+#rayuela .ray-term.cur rect{ stroke:var(--hf); stroke-width:4; }
+#rayuela .ray-legend{ display:flex; flex-wrap:wrap; gap:.3rem .9rem; font-size:.78rem; color:var(--muted); padding:.4rem .5rem 0; }
+#rayuela .ray-legend b{ width:100%; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; }
+#rayuela .ray-legend i{ display:inline-block; width:18px; height:5px; border-radius:3px; margin-right:.35rem; vertical-align:middle; }
+#rayuela .ray-intro{ font-size:1.05rem; line-height:1.65; margin:0 0 .8rem; max-width:62ch; }
+#rayuela .ray-stats{ color:var(--muted); font-size:.92rem; }
+#rayuela .ray-actions{ display:flex; flex-wrap:wrap; gap:.6rem; align-items:center; margin:1rem 0; }
+#rayuela .ray-check{ display:flex; gap:.5rem; align-items:center; font-size:.9rem; color:var(--muted); cursor:pointer; }
+#rayuela .ray-back{ display:inline-block; margin-bottom:.8rem; }
+#rayuela .ray-card{ background:var(--surface); border:1px solid var(--line); border-top:6px solid var(--lc, var(--hf)); border-radius:var(--radius); padding:1.1rem 1.25rem 1.2rem; animation:ray-in .28s ease both; }
+#rayuela .ray-card.contradiccion{ background:color-mix(in srgb, #d23a2b 7%, var(--surface)); }
+#rayuela .ray-card.final{ border-top-color:var(--ink); }
+#rayuela .ray-kick{ display:flex; gap:.5rem; align-items:center; font-size:.76rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+#rayuela .ray-card h2{ font-family:var(--serif); font-size:1.55rem; margin:.45rem 0 .5rem; }
+#rayuela .ray-h{ font-family:var(--serif); font-size:1.5rem; margin:.2rem 0 .3rem; }
+#rayuela .ray-text{ font-size:1.04rem; line-height:1.65; margin:0 0 .9rem; }
+#rayuela .ray-q{ font-weight:600; font-size:1.06rem; margin:.4rem 0 .7rem; }
+#rayuela .ray-badge{ display:inline-grid; place-items:center; min-width:1.9rem; height:1.9rem; padding:0 .35rem; border-radius:999px; background:var(--lc, var(--hf)); color:#fff; font-weight:700; font-size:.85rem; letter-spacing:0; }
+#rayuela .ray-badge.term{ border-radius:8px; background:var(--ink); color:var(--surface); }
+#rayuela .ray-badge.sm{ min-width:1.45rem; height:1.45rem; font-size:.72rem; margin-right:.15rem; background:var(--muted); }
+#rayuela .ray-badge.sm.term{ background:var(--ink); }
+#rayuela .ray-badge.sm.contra{ background:#d23a2b; }
+#rayuela .ray-opts{ display:flex; flex-direction:column; gap:.6rem; }
+#rayuela .ray-opt{ display:flex; gap:.7rem; align-items:flex-start; text-align:left; font:inherit; color:var(--ink); background:var(--surface-2);
+  border:1px solid var(--line); border-radius:12px; padding:.75rem .9rem; cursor:pointer; line-height:1.45; transition:transform .12s, border-color .15s; }
+#rayuela .ray-opt:hover, #rayuela .ray-opt:focus-visible{ transform:translateX(3px); border-color:var(--lc, var(--hf)); }
+#rayuela .ray-n{ flex:none; width:1.7rem; height:1.7rem; border-radius:50%; display:grid; place-items:center; background:var(--lc, var(--hf)); color:#fff; font-weight:700; font-size:.9rem; }
+#rayuela .ray-choque{ border-left:4px solid #d23a2b; background:var(--surface-2); border-radius:10px; padding:.6rem .9rem; margin:0 0 .8rem; }
+#rayuela .ray-choque ul{ margin:.35rem 0 0 1.1rem; padding:0; line-height:1.5; }
+#rayuela .ray-box{ background:var(--surface-2); border-radius:12px; padding:.75rem 1rem; margin:.8rem 0 0; }
+#rayuela .ray-box p{ margin:.3rem 0 0; line-height:1.55; }
+#rayuela .ray-box ul{ margin:.35rem 0 0 1.1rem; padding:0; line-height:1.6; }
+#rayuela .ray-box.pau{ border-left:4px solid var(--hf); }
+#rayuela .ray-box textarea{ width:100%; margin-top:.6rem; font:inherit; font-size:.95rem; line-height:1.5; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:.6rem .7rem; resize:vertical; box-sizing:border-box; }
+#rayuela .ray-box small{ color:var(--muted); }
+#rayuela .ray-links{ margin:.3rem 0; line-height:1.6; font-size:.95rem; }
+#rayuela .ray-links a{ color:var(--accent); }
+#rayuela .ray-ruta, #rayuela .ray-viajes{ margin:.4rem 0 0 1.2rem; padding:0; line-height:1.7; font-size:.92rem; }
+#rayuela .ray-date{ color:var(--muted); font-size:.82rem; margin-right:.3rem; }
+#rayuela .ray-new{ display:inline-block; font-size:.72rem; font-weight:700; color:#fff; background:var(--hf); border-radius:999px; padding:.1rem .55rem; text-transform:none; letter-spacing:0; }
+#rayuela .ray-tgrid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(min(170px,100%),1fr)); gap:.5rem; margin:.8rem 0; }
+#rayuela .ray-tcard{ display:flex; gap:.55rem; align-items:center; background:var(--surface); border:1px dashed var(--line); border-radius:12px; padding:.5rem .6rem; font-size:.9rem; color:var(--muted); }
+#rayuela .ray-tcard.got{ border-style:solid; color:var(--ink); font-weight:600; }
+@keyframes ray-in{ from{ opacity:0; transform:translateY(6px); } to{ opacity:1; transform:none; } }
+@keyframes ray-pulse{ 0%,100%{ transform:scale(1); opacity:.6; } 50%{ transform:scale(1.18); opacity:.2; } }
+@media (prefers-reduced-motion: reduce){ #rayuela .ray-card{ animation:none; } #rayuela .ray-halo{ animation:none; } #rayuela .ray-opt{ transition:none; } }
