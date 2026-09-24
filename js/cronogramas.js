@@ -1,74 +1,73 @@
-// Generado por tools/cronogramas_extract.js desde zmos.txt (canónico LTFH). NO editar a mano.
-// 41 cronogramas · 39 timeline / 2 épocas.
+// Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/cronogramas.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const CRONOGRAMAS = [
  {
   "id": "A1-OS-KRO-01",
   "code": "A1-OS-KRO-01",
-  "title": "Viaje histórico de las preguntas permanentes",
+  "title": "Galdera iraunkorren bidaia historikoa",
   "type": "epochs",
   "stages": [
    {
-    "label": "Siglo VI a.C.",
-    "text": "El mito, la physis y el comienzo de la explicación racional."
+    "label": "K.a. VI. mendea",
+    "text": "Mitoa, physis-a eta azalpen arrazionalaren hasiera."
    },
    {
-    "label": "Siglos V-IV a.C.",
-    "text": "La polis, la justicia, el alma, el conocimiento y la buena vida."
+    "label": "K.a. V-IV. mendeak",
+    "text": "Polisa, justizia, arima, ezagutza eta bizitza ona."
    },
    {
-    "label": "Edad Media",
-    "text": "Fe y razón, Dios, el alma y la salvación."
+    "label": "Erdi Aroa",
+    "text": "Fedea eta arrazoia, Jainkoa, arima eta salbazioa."
    },
    {
-    "label": "Edad Moderna",
-    "text": "El sujeto, el método, la ciencia, la libertad y el contrato."
+    "label": "Aro Modernoa",
+    "text": "Subjektua, metodoa, zientzia, askatasuna eta kontratua."
    },
    {
-    "label": "Siglos XIX-XX",
-    "text": "La historia, la sospecha, el lenguaje, el poder y la existencia."
+    "label": "XIX-XX. mendeak",
+    "text": "Historia, susmoa, hizkuntza, boterea eta existentzia."
    },
    {
-    "label": "Actualidad",
-    "text": "La tecnología, el género, la ecología, la memoria y la convivencia democrática."
+    "label": "Gaur egun",
+    "text": "Teknologia, generoa, ekologia, memoria eta elkarbizitza demokratikoa."
    }
   ]
  },
  {
   "id": "A2-OS-KRO-01",
   "code": "A2-OS-KRO-01",
-  "title": "Breve recorrido de los métodos filosóficos",
+  "title": "Metodo filosofikoen ibilbide laburra",
   "type": "epochs",
   "stages": [
    {
-    "label": "Sócrates",
-    "text": "La pregunta, la ironía y la búsqueda de definiciones."
+    "label": "Sokrates",
+    "text": "Galdera, ironia eta definizioen bilaketa."
    },
    {
-    "label": "Aristóteles",
-    "text": "La lógica, la clasificación y el estudio de las causas."
+    "label": "Aristoteles",
+    "text": "Logika, sailkapena eta kausen azterketa."
    },
    {
-    "label": "Edad Media",
-    "text": "La quaestio, el debate reglado y el orden de los argumentos."
+    "label": "Erdi Aroa",
+    "text": "Quaestio-a, eztabaida arautua eta argudioen ordena."
    },
    {
     "label": "Descartes",
-    "text": "La duda metódica y la búsqueda de la certeza."
+    "text": "Zalantza metodikoa eta ziurtasunaren bilaketa."
    },
    {
     "label": "Kant",
-    "text": "El examen de las condiciones del conocimiento."
+    "text": "Ezagutzaren baldintzen azterketa."
    },
    {
-    "label": "Siglo XX",
-    "text": "El lenguaje, la interpretación, la fenomenología y la crítica social."
+    "label": "XX. mendea",
+    "text": "Hizkuntza, interpretazioa, fenomenologia eta gizarte-kritika."
    }
   ]
  },
  {
   "id": "A3-KRO-01",
   "code": "A3-KRO-01",
-  "title": "A3 · Recorrido cronológico",
+  "title": "A3 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -624,
   "end": -370,
@@ -84,22 +83,22 @@ const CRONOGRAMAS = [
     "end": -546
    },
    {
-    "name": "Pitágoras",
+    "name": "Pitagoras",
     "start": -570,
     "end": -495
    },
    {
-    "name": "Heráclito",
+    "name": "Heraklito",
     "start": -540,
     "end": -480
    },
    {
-    "name": "Parménides",
+    "name": "Parmenides",
     "start": -515,
     "end": -450
    },
    {
-    "name": "Demócrito",
+    "name": "Demokrito",
     "start": -460,
     "end": -370
    }
@@ -109,7 +108,7 @@ const CRONOGRAMAS = [
  {
   "id": "A4-KRO-01",
   "code": "A4-KRO-01",
-  "title": "A4 · Recorrido cronológico",
+  "title": "A4 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -624,
   "end": -370,
@@ -125,37 +124,37 @@ const CRONOGRAMAS = [
     "end": -546
    },
    {
-    "name": "Anaxímenes",
+    "name": "Anaximenes",
     "start": -586,
     "end": -526
    },
    {
-    "name": "Pitágoras",
+    "name": "Pitagoras",
     "start": -570,
     "end": -495
    },
    {
-    "name": "Heráclito",
+    "name": "Heraklito",
     "start": -540,
     "end": -480
    },
    {
-    "name": "Parménides",
+    "name": "Parmenides",
     "start": -515,
     "end": -450
    },
    {
-    "name": "Empédocles",
+    "name": "Enpedokles",
     "start": -494,
     "end": -434
    },
    {
-    "name": "Anaxágoras",
+    "name": "Anaxagoras",
     "start": -500,
     "end": -428
    },
    {
-    "name": "Demócrito",
+    "name": "Demokrito",
     "start": -460,
     "end": -370
    }
@@ -165,18 +164,18 @@ const CRONOGRAMAS = [
  {
   "id": "A5-KRO-01",
   "code": "A5-KRO-01",
-  "title": "A5 · Recorrido cronológico",
+  "title": "A5 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -490,
   "end": -399,
   "axes": [
    {
-    "name": "La época de Pericles",
+    "name": "Periklesen garaia",
     "start": -461,
     "end": -429
    },
    {
-    "name": "Protágoras",
+    "name": "Protagoras",
     "start": -490,
     "end": -420
    },
@@ -186,17 +185,17 @@ const CRONOGRAMAS = [
     "end": -380
    },
    {
-    "name": "Aspasia de Mileto",
+    "name": "Aspasia Miletokoa",
     "start": -470,
     "end": -400
    },
    {
-    "name": "Sócrates",
+    "name": "Sokrates",
     "start": -470,
     "end": -399
    },
    {
-    "name": "El juicio de Sócrates",
+    "name": "Sokratesen epaiketa",
     "start": -399,
     "end": -399
    }
@@ -206,33 +205,33 @@ const CRONOGRAMAS = [
  {
   "id": "AP-KRO-01",
   "code": "AP-KRO-01",
-  "title": "AP · El recorrido de Platón",
+  "title": "AP · Platonen ibilbidea",
   "type": "timeline",
   "start": -427,
   "end": -347,
   "axes": [
    {
-    "name": "Platón",
+    "name": "Platon",
     "start": -427,
     "end": -347
    },
    {
-    "name": "El juicio de Sócrates",
+    "name": "Sokratesen epaiketa",
     "start": -399,
     "end": -399
    },
    {
-    "name": "Fundación de la Academia",
+    "name": "Akademiaren sorrera",
     "start": -387,
     "end": -387
    },
    {
-    "name": "La República",
+    "name": "Errepublika",
     "start": -380,
     "end": -370
    },
    {
-    "name": "Los viajes a Sicilia",
+    "name": "Siziliarako bidaiak",
     "start": -388,
     "end": -361
    }
@@ -242,33 +241,33 @@ const CRONOGRAMAS = [
  {
   "id": "AA-KRO-01",
   "code": "AA-KRO-01",
-  "title": "AA · El recorrido de Aristóteles",
+  "title": "AA · Aristotelesen ibilbidea",
   "type": "timeline",
   "start": -384,
   "end": -322,
   "axes": [
    {
-    "name": "Aristóteles",
+    "name": "Aristoteles",
     "start": -384,
     "end": -322
    },
    {
-    "name": "Alumno en la Academia",
+    "name": "Ikasle Akademian",
     "start": -367,
     "end": -347
    },
    {
-    "name": "La educación de Alejandro Magno",
+    "name": "Alexandro Handiaren hezkuntza",
     "start": -343,
     "end": -340
    },
    {
-    "name": "Fundación del Liceo",
+    "name": "Lizeoaren sorrera",
     "start": -335,
     "end": -335
    },
    {
-    "name": "La huida de Atenas",
+    "name": "Atenastik ihesa",
     "start": -323,
     "end": -322
    }
@@ -278,28 +277,28 @@ const CRONOGRAMAS = [
  {
   "id": "A6-KRO-01",
   "code": "A6-KRO-01",
-  "title": "A6 · Recorrido cronológico",
+  "title": "A6 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -427,
   "end": -322,
   "axes": [
    {
-    "name": "Platón",
+    "name": "Platon",
     "start": -427,
     "end": -347
    },
    {
-    "name": "La Academia",
+    "name": "Akademia",
     "start": -387,
     "end": -347
    },
    {
-    "name": "Aristóteles",
+    "name": "Aristoteles",
     "start": -384,
     "end": -322
    },
    {
-    "name": "El Liceo",
+    "name": "Lizeoa",
     "start": -335,
     "end": -322
    }
@@ -309,33 +308,33 @@ const CRONOGRAMAS = [
  {
   "id": "A7-KRO-01",
   "code": "A7-KRO-01",
-  "title": "A7 · Recorrido cronológico",
+  "title": "A7 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -470,
   "end": -322,
   "axes": [
    {
-    "name": "Sócrates",
+    "name": "Sokrates",
     "start": -470,
     "end": -399
    },
    {
-    "name": "Platón",
+    "name": "Platon",
     "start": -427,
     "end": -347
    },
    {
-    "name": "Aristóteles",
+    "name": "Aristoteles",
     "start": -384,
     "end": -322
    },
    {
-    "name": "La Academia",
+    "name": "Akademia",
     "start": -387,
     "end": -347
    },
    {
-    "name": "El Liceo",
+    "name": "Lizeoa",
     "start": -335,
     "end": -322
    }
@@ -345,28 +344,28 @@ const CRONOGRAMAS = [
  {
   "id": "A8-KRO-01",
   "code": "A8-KRO-01",
-  "title": "A8 · Recorrido cronológico",
+  "title": "A8 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -470,
   "end": -322,
   "axes": [
    {
-    "name": "Sócrates",
+    "name": "Sokrates",
     "start": -470,
     "end": -399
    },
    {
-    "name": "Platón",
+    "name": "Platon",
     "start": -427,
     "end": -347
    },
    {
-    "name": "Aristóteles",
+    "name": "Aristoteles",
     "start": -384,
     "end": -322
    },
    {
-    "name": "Ética a Nicómaco",
+    "name": "Nikomakorentzako Etika",
     "start": -350,
     "end": -322
    }
@@ -376,28 +375,28 @@ const CRONOGRAMAS = [
  {
   "id": "A9-KRO-01",
   "code": "A9-KRO-01",
-  "title": "A9 · Recorrido cronológico",
+  "title": "A9 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -508,
   "end": -322,
   "axes": [
    {
-    "name": "La democracia ateniense",
+    "name": "Atenasko demokrazia",
     "start": -508,
     "end": -322
    },
    {
-    "name": "Platón",
+    "name": "Platon",
     "start": -427,
     "end": -347
    },
    {
-    "name": "Aristóteles",
+    "name": "Aristoteles",
     "start": -384,
     "end": -322
    },
    {
-    "name": "La crisis de la polis",
+    "name": "Polisaren krisia",
     "start": -431,
     "end": -322
    }
@@ -407,38 +406,38 @@ const CRONOGRAMAS = [
  {
   "id": "A10-KRO-01",
   "code": "A10-KRO-01",
-  "title": "A10 · Recorrido cronológico",
+  "title": "A10 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": -356,
   "end": 415,
   "axes": [
    {
-    "name": "Alejandro Magno",
+    "name": "Alexandro Handia",
     "start": -356,
     "end": -323
    },
    {
-    "name": "Diógenes de Sínope",
+    "name": "Diogenes Sinopekoa",
     "start": -412,
     "end": -323
    },
    {
-    "name": "Epicuro",
+    "name": "Epikuro",
     "start": -341,
     "end": -270
    },
    {
-    "name": "Zenón de Citio",
+    "name": "Zenon Zitiokoa",
     "start": -334,
     "end": -262
    },
    {
-    "name": "Euclides",
+    "name": "Euklides",
     "start": -325,
     "end": -265
    },
    {
-    "name": "Arquímedes",
+    "name": "Arkimedes",
     "start": -287,
     "end": -212
    },
@@ -453,48 +452,48 @@ const CRONOGRAMAS = [
  {
   "id": "A10-VIS-KRO-01",
   "code": "A10-VIS-KRO-01",
-  "title": "Cronograma visual de los filósofos helenistas",
+  "title": "Filosofo helenistikoen kronograma bisuala",
   "type": "timeline",
   "start": -420,
   "end": 450,
   "axes": [
    {
-    "name": "Diógenes de Sínope",
+    "name": "Diogenes Sinopekoa",
     "start": -412,
     "end": -323
    },
    {
-    "name": "Pirrón",
+    "name": "Pirron",
     "start": -360,
     "end": -270
    },
    {
-    "name": "Epicuro",
+    "name": "Epikuro",
     "start": -341,
     "end": -270
    },
    {
-    "name": "Zenón de Citio",
+    "name": "Zenon Zitiokoa",
     "start": -334,
     "end": -262
    },
    {
-    "name": "Lucrecio",
+    "name": "Lukrezio",
     "start": -99,
     "end": -55
    },
    {
-    "name": "Séneca",
+    "name": "Seneka",
     "start": -4,
     "end": 65
    },
    {
-    "name": "Epicteto",
+    "name": "Epikteto",
     "start": 50,
     "end": 135
    },
    {
-    "name": "Marco Aurelio",
+    "name": "Marko Aurelio",
     "start": 121,
     "end": 180
    },
@@ -509,43 +508,43 @@ const CRONOGRAMAS = [
  {
   "id": "BA-KRO-01",
   "code": "BA-KRO-01",
-  "title": "BA · Recorrido cronológico",
+  "title": "BA · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 354,
   "end": 430,
   "axes": [
    {
-    "name": "Nacimiento de Agustín",
+    "name": "Agustinen jaiotza",
     "start": 354,
     "end": 354
    },
    {
-    "name": "La etapa maniquea",
+    "name": "Etapa manikearra",
     "start": 373,
     "end": 383
    },
    {
-    "name": "Milán y Ambrosio",
+    "name": "Milan eta Anbrosio",
     "start": 384,
     "end": 386
    },
    {
-    "name": "La conversión",
+    "name": "Konbertsioa",
     "start": 386,
     "end": 386
    },
    {
-    "name": "El bautismo",
+    "name": "Bataioa",
     "start": 387,
     "end": 387
    },
    {
-    "name": "Obispo de Hipona",
+    "name": "Hiponako apezpikua",
     "start": 395,
     "end": 430
    },
    {
-    "name": "Muerte de Agustín",
+    "name": "Agustinen heriotza",
     "start": 430,
     "end": 430
    }
@@ -555,13 +554,13 @@ const CRONOGRAMAS = [
  {
   "id": "BH-KRO-01",
   "code": "BH-KRO-01",
-  "title": "El recorrido de Hildegarda",
+  "title": "Hildegardaren ibilbidea",
   "type": "timeline",
   "start": 1050,
   "end": 1250,
   "axes": [
    {
-    "name": "Hildegarda de Bingen",
+    "name": "Hildegarda Bingengoa",
     "start": 1098,
     "end": 1179
    },
@@ -581,7 +580,7 @@ const CRONOGRAMAS = [
     "end": 1174
    },
    {
-    "name": "Tomás de Aquino",
+    "name": "Tomas Akinokoa",
     "start": 1225,
     "end": 1274
    }
@@ -591,13 +590,13 @@ const CRONOGRAMAS = [
  {
   "id": "BV-KRO-01",
   "code": "BV-KRO-01",
-  "title": "El recorrido de Avicena",
+  "title": "Avicenaren ibilbidea",
   "type": "timeline",
   "start": 900,
   "end": 1250,
   "axes": [
    {
-    "name": "Avicena",
+    "name": "Avizena",
     "start": 980,
     "end": 1037
    },
@@ -612,7 +611,7 @@ const CRONOGRAMAS = [
     "end": 1198
    },
    {
-    "name": "Tomás de Aquino",
+    "name": "Tomas Akinokoa",
     "start": 1225,
     "end": 1274
    }
@@ -622,7 +621,7 @@ const CRONOGRAMAS = [
  {
   "id": "BT-KRO-01",
   "code": "BT-KRO-01",
-  "title": "El recorrido de Tomás",
+  "title": "Tomasen ibilbidea",
   "type": "timeline",
   "start": 1150,
   "end": 1320,
@@ -633,7 +632,7 @@ const CRONOGRAMAS = [
     "end": 1198
    },
    {
-    "name": "Tomás de Aquino",
+    "name": "Tomas Akinokoa",
     "start": 1225,
     "end": 1274
    },
@@ -658,13 +657,13 @@ const CRONOGRAMAS = [
  {
   "id": "BO-KRO-01",
   "code": "BO-KRO-01",
-  "title": "El contexto de Ockham",
+  "title": "Ockhamen testuingurua",
   "type": "timeline",
   "start": 1220,
   "end": 1400,
   "axes": [
    {
-    "name": "Tomás de Aquino",
+    "name": "Tomas Akinokoa",
     "start": 1225,
     "end": 1274
    },
@@ -674,17 +673,17 @@ const CRONOGRAMAS = [
     "end": 1347
    },
    {
-    "name": "El papado de Aviñón",
+    "name": "Avignongo aita santutza",
     "start": 1309,
     "end": 1377
    },
    {
-    "name": "La Peste Negra",
+    "name": "Izurri Beltza",
     "start": 1347,
     "end": 1351
    },
    {
-    "name": "La Baja Edad Media",
+    "name": "Behe Erdi Aroa",
     "start": 1300,
     "end": 1400
    }
@@ -694,13 +693,13 @@ const CRONOGRAMAS = [
  {
   "id": "B1-KRO-01",
   "code": "B1-KRO-01",
-  "title": "B1 · Recorrido cronológico",
+  "title": "B1 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 354,
   "end": 1349,
   "axes": [
    {
-    "name": "Agustín",
+    "name": "Agustin",
     "start": 354,
     "end": 430
    },
@@ -710,7 +709,7 @@ const CRONOGRAMAS = [
     "end": 1179
    },
    {
-    "name": "Tomás de Aquino",
+    "name": "Tomas Akinokoa",
     "start": 1225,
     "end": 1274
    },
@@ -725,23 +724,23 @@ const CRONOGRAMAS = [
  {
   "id": "B2-KRO-01",
   "code": "B2-KRO-01",
-  "title": "B2 · Recorrido cronológico",
+  "title": "B2 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 354,
   "end": 1349,
   "axes": [
    {
-    "name": "Agustín",
+    "name": "Agustin",
     "start": 354,
     "end": 430
    },
    {
-    "name": "La recepción latina de Aristóteles",
+    "name": "Aristotelesen harrera latinoa",
     "start": 1120,
     "end": 1270
    },
    {
-    "name": "Tomás de Aquino",
+    "name": "Tomas Akinokoa",
     "start": 1225,
     "end": 1274
    },
@@ -756,23 +755,23 @@ const CRONOGRAMAS = [
  {
   "id": "B3-KRO-01",
   "code": "B3-KRO-01",
-  "title": "B3 · Recorrido cronológico",
+  "title": "B3 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1400,
   "end": 1700,
   "axes": [
    {
-    "name": "El Humanismo",
+    "name": "Humanismoa",
     "start": 1400,
     "end": 1600
    },
    {
-    "name": "La Reforma",
+    "name": "Erreforma",
     "start": 1517,
     "end": 1648
    },
    {
-    "name": "Copérnico",
+    "name": "Koperniko",
     "start": 1473,
     "end": 1543
    },
@@ -792,7 +791,7 @@ const CRONOGRAMAS = [
  {
   "id": "BD-KRO-01",
   "code": "BD-KRO-01",
-  "title": "El recorrido de Descartes",
+  "title": "Descartesen ibilbidea",
   "type": "timeline",
   "start": 1590,
   "end": 1710,
@@ -803,12 +802,12 @@ const CRONOGRAMAS = [
     "end": 1650
    },
    {
-    "name": "Discurso del método",
+    "name": "Metodoaren diskurtsoa",
     "start": 1637,
     "end": 1637
    },
    {
-    "name": "Meditaciones metafísicas",
+    "name": "Meditazio metafisikoak",
     "start": 1641,
     "end": 1641
    },
@@ -828,7 +827,7 @@ const CRONOGRAMAS = [
  {
   "id": "BS-KRO-01",
   "code": "BS-KRO-01",
-  "title": "El recorrido de Spinoza",
+  "title": "Spinozaren ibilbidea",
   "type": "timeline",
   "start": 1600,
   "end": 1720,
@@ -844,7 +843,7 @@ const CRONOGRAMAS = [
     "end": 1677
    },
    {
-    "name": "Publicación de la Ética",
+    "name": "Etikaren argitalpena",
     "start": 1677,
     "end": 1677
    },
@@ -859,7 +858,7 @@ const CRONOGRAMAS = [
  {
   "id": "BHU-KRO-01",
   "code": "BHU-KRO-01",
-  "title": "El recorrido de Hume",
+  "title": "Humeren ibilbidea",
   "type": "timeline",
   "start": 1680,
   "end": 1800,
@@ -880,7 +879,7 @@ const CRONOGRAMAS = [
     "end": 1776
    },
    {
-    "name": "Tratado de la naturaleza humana",
+    "name": "Giza naturari buruzko tratatua",
     "start": 1739,
     "end": 1740
    },
@@ -895,7 +894,7 @@ const CRONOGRAMAS = [
  {
   "id": "B4-KRO-01",
   "code": "B4-KRO-01",
-  "title": "B4 · Recorrido cronológico",
+  "title": "B4 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1596,
   "end": 1804,
@@ -936,7 +935,7 @@ const CRONOGRAMAS = [
  {
   "id": "B5-KRO-01",
   "code": "B5-KRO-01",
-  "title": "B5 · Recorrido cronológico",
+  "title": "B5 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1596,
   "end": 1804,
@@ -972,7 +971,7 @@ const CRONOGRAMAS = [
  {
   "id": "B6-KRO-01",
   "code": "B6-KRO-01",
-  "title": "B6 · Recorrido cronológico",
+  "title": "B6 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1588,
   "end": 1800,
@@ -993,7 +992,7 @@ const CRONOGRAMAS = [
     "end": 1778
    },
    {
-    "name": "La Revolución francesa",
+    "name": "Frantziako Iraultza",
     "start": 1789,
     "end": 1799
    }
@@ -1003,18 +1002,18 @@ const CRONOGRAMAS = [
  {
   "id": "B7-KRO-01",
   "code": "B7-KRO-01",
-  "title": "B7 · Recorrido cronológico",
+  "title": "B7 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1650,
   "end": 1800,
   "axes": [
    {
-    "name": "La Ilustración temprana",
+    "name": "Lehen Ilustrazioa",
     "start": 1650,
     "end": 1750
    },
    {
-    "name": "La Enciclopedia",
+    "name": "Entziklopedia",
     "start": 1751,
     "end": 1772
    },
@@ -1024,7 +1023,7 @@ const CRONOGRAMAS = [
     "end": 1778
    },
    {
-    "name": "La Revolución francesa",
+    "name": "Frantziako Iraultza",
     "start": 1789,
     "end": 1799
    }
@@ -1034,7 +1033,7 @@ const CRONOGRAMAS = [
  {
   "id": "C1-KRO-01",
   "code": "C1-KRO-01",
-  "title": "C1 · Recorrido cronológico",
+  "title": "C1 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1689,
   "end": 1804,
@@ -1075,7 +1074,7 @@ const CRONOGRAMAS = [
  {
   "id": "C2-KRO-01",
   "code": "C2-KRO-01",
-  "title": "C2 · Recorrido cronológico",
+  "title": "C2 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1711,
   "end": 1804,
@@ -1091,12 +1090,12 @@ const CRONOGRAMAS = [
     "end": 1804
    },
    {
-    "name": "La Crítica de la razón pura",
+    "name": "Arrazoimen hutsaren kritika",
     "start": 1781,
     "end": 1787
    },
    {
-    "name": "El límite de la metafísica",
+    "name": "Metafisikaren muga",
     "start": 1781,
     "end": 1804
    }
@@ -1106,7 +1105,7 @@ const CRONOGRAMAS = [
  {
   "id": "C3-KRO-01",
   "code": "C3-KRO-01",
-  "title": "C3 · Recorrido cronológico",
+  "title": "C3 · Ibilbide kronologikoa",
   "type": "timeline",
   "start": 1724,
   "end": 1900,
@@ -1127,7 +1126,7 @@ const CRONOGRAMAS = [
     "end": 1873
    },
    {
-    "name": "El debate de la ética moderna",
+    "name": "Etika modernoaren eztabaida",
     "start": 1785,
     "end": 1900
    }
@@ -1137,7 +1136,7 @@ const CRONOGRAMAS = [
  {
   "id": "C4-KRO-01",
   "code": "C4-KRO-01",
-  "title": "Los precedentes de C4 y el eje de la sospecha",
+  "title": "C4ren aurrekariak eta susmoaren ardatza",
   "type": "timeline",
   "start": 1720,
   "end": 2010,
@@ -1188,7 +1187,7 @@ const CRONOGRAMAS = [
  {
   "id": "C4-KRO-RICOEUR-HARRERA",
   "code": "C4-KRO-RICOEUR-HARRERA",
-  "title": "Ricoeur y la recepción posterior (1913–2005)",
+  "title": "Ricoeur eta ondorengo harrera (1913–2005)",
   "type": "timeline",
   "start": 1913,
   "end": 2005,
@@ -1214,7 +1213,7 @@ const CRONOGRAMAS = [
  {
   "id": "C5-KRO-01",
   "code": "C5-KRO-01",
-  "title": "Los autores de C5: coetaneidad",
+  "title": "C5eko egileak: garaikidetasuna",
   "type": "timeline",
   "start": 1810,
   "end": 2026,
@@ -1270,38 +1269,38 @@ const CRONOGRAMAS = [
  {
   "id": "C6-KRO-01",
   "code": "C6-KRO-01",
-  "title": "Cronograma de la posmodernidad (C6)",
+  "title": "Posmodernitatearen kronograma (C6)",
   "type": "timeline",
   "start": 1880,
   "end": 2026,
   "axes": [
    {
-    "name": "El legado de Nietzsche",
+    "name": "Nietzscheren ondarea",
     "start": 1880,
     "end": 1900
    },
    {
-    "name": "Gadamer y la hermenéutica",
+    "name": "Gadamer eta hermeneutika",
     "start": 1900,
     "end": 2002
    },
    {
-    "name": "Foucault y la genealogía",
+    "name": "Foucault eta genealogia",
     "start": 1926,
     "end": 1984
    },
    {
-    "name": "Derrida y la deconstrucción",
+    "name": "Derrida eta dekonstrukzioa",
     "start": 1930,
     "end": 2004
    },
    {
-    "name": "Lyotard y la posmodernidad",
+    "name": "Lyotard eta posmodernitatea",
     "start": 1924,
     "end": 1998
    },
    {
-    "name": "Vattimo y el pensamiento débil",
+    "name": "Vattimo eta pentsamendu ahula",
     "start": 1936,
     "end": 2023
    }
@@ -1311,7 +1310,7 @@ const CRONOGRAMAS = [
  {
   "id": "C7-KRO-01",
   "code": "C7-KRO-01",
-  "title": "Cronograma del lenguaje y la ciencia (C7)",
+  "title": "Hizkuntzaren eta zientziaren kronograma (C7)",
   "type": "timeline",
   "start": 1870,
   "end": 2000,
@@ -1327,7 +1326,7 @@ const CRONOGRAMAS = [
     "end": 1951
    },
    {
-    "name": "El Círculo de Viena",
+    "name": "Vienako Zirkulua",
     "start": 1924,
     "end": 1936
    },
@@ -1347,7 +1346,7 @@ const CRONOGRAMAS = [
  {
   "id": "C8-NB-CORPUS-02",
   "code": "C8-NB-CORPUS-02",
-  "title": "Cronograma de la existencia y la circunstancia",
+  "title": "Existentziaren eta zirkunstantziaren kronograma",
   "type": "timeline",
   "start": 1840,
   "end": 1980,
@@ -1358,7 +1357,7 @@ const CRONOGRAMAS = [
     "end": 1855
    },
    {
-    "name": "Temor y temblor",
+    "name": "Beldurra eta dardara",
     "start": 1843,
     "end": 1843
    },
@@ -1368,7 +1367,7 @@ const CRONOGRAMAS = [
     "end": 1955
    },
    {
-    "name": "Meditaciones del Quijote",
+    "name": "Kixoteari buruzko meditazioak",
     "start": 1914,
     "end": 1914
    },
@@ -1378,7 +1377,7 @@ const CRONOGRAMAS = [
     "end": 1976
    },
    {
-    "name": "Ser y tiempo",
+    "name": "Izatea eta denbora",
     "start": 1927,
     "end": 1927
    },
@@ -1388,7 +1387,7 @@ const CRONOGRAMAS = [
     "end": 1960
    },
    {
-    "name": "El mito de Sísifo",
+    "name": "Sisiforen mitoa",
     "start": 1942,
     "end": 1942
    },
@@ -1398,12 +1397,12 @@ const CRONOGRAMAS = [
     "end": 1980
    },
    {
-    "name": "El ser y la nada",
+    "name": "Izatea eta ezereza",
     "start": 1943,
     "end": 1943
    },
    {
-    "name": "El existencialismo es un humanismo",
+    "name": "Existentzialismoa humanismo bat da",
     "start": 1946,
     "end": 1946
    },
@@ -1413,7 +1412,7 @@ const CRONOGRAMAS = [
     "end": 1986
    },
    {
-    "name": "El segundo sexo",
+    "name": "Bigarren sexua",
     "start": 1949,
     "end": 1949
    }
@@ -1423,13 +1422,13 @@ const CRONOGRAMAS = [
  {
   "id": "C8-KRO-01",
   "code": "C8-KRO-01",
-  "title": "Cronograma del existencialismo (C8)",
+  "title": "Existentzialismoaren kronograma (C8)",
   "type": "timeline",
   "start": 1840,
   "end": 1980,
   "axes": [
    {
-    "name": "El precedente de Kierkegaard",
+    "name": "Kierkegaard aurrekari gisa",
     "start": 1843,
     "end": 1855
    },
@@ -1444,7 +1443,7 @@ const CRONOGRAMAS = [
     "end": 1980
    },
    {
-    "name": "El contexto de la Segunda Guerra Mundial",
+    "name": "Bigarren Mundu Gerraren testuingurua",
     "start": 1939,
     "end": 1945
    }
@@ -1454,7 +1453,7 @@ const CRONOGRAMAS = [
  {
   "id": "C8-CORPUS-OBRAK",
   "code": "C8-CORPUS-OBRAK",
-  "title": "Cronograma de los autores y obras principales del existencialismo",
+  "title": "Existentzialismoaren egile eta lan nagusien kronograma",
   "type": "timeline",
   "start": 1840,
   "end": 1986,
@@ -1465,7 +1464,7 @@ const CRONOGRAMAS = [
     "end": 1855
    },
    {
-    "name": "Temor y temblor",
+    "name": "Beldurra eta dardara",
     "start": 1843,
     "end": 1843
    },
@@ -1475,7 +1474,7 @@ const CRONOGRAMAS = [
     "end": 1976
    },
    {
-    "name": "Ser y tiempo",
+    "name": "Izatea eta denbora",
     "start": 1927,
     "end": 1927
    },
@@ -1485,7 +1484,7 @@ const CRONOGRAMAS = [
     "end": 1980
    },
    {
-    "name": "El ser y la nada",
+    "name": "Izatea eta ezereza",
     "start": 1943,
     "end": 1943
    },
@@ -1495,7 +1494,7 @@ const CRONOGRAMAS = [
     "end": 1960
    },
    {
-    "name": "El mito de Sísifo",
+    "name": "Sisiforen mitoa",
     "start": 1942,
     "end": 1942
    },
@@ -1505,7 +1504,7 @@ const CRONOGRAMAS = [
     "end": 1986
    },
    {
-    "name": "El segundo sexo",
+    "name": "Bigarren sexua",
     "start": 1949,
     "end": 1949
    }
@@ -1515,18 +1514,18 @@ const CRONOGRAMAS = [
  {
   "id": "C9-KRO-01",
   "code": "C9-KRO-01",
-  "title": "Cronograma del feminismo (C9)",
+  "title": "Feminismoaren kronograma (C9)",
   "type": "timeline",
   "start": 1790,
   "end": 2026,
   "axes": [
    {
-    "name": "El primer feminismo moderno",
+    "name": "Lehen feminismo modernoa",
     "start": 1792,
     "end": 1920
    },
    {
-    "name": "El sufragismo",
+    "name": "Sufragismoa",
     "start": 1848,
     "end": 1928
    },
@@ -1536,17 +1535,17 @@ const CRONOGRAMAS = [
     "end": 1986
    },
    {
-    "name": "La segunda ola",
+    "name": "Bigarren olatua",
     "start": 1960,
     "end": 1980
    },
    {
-    "name": "Judith Butler y la teoría de género",
+    "name": "Judith Butler eta generoaren teoria",
     "start": 1990,
     "end": 2026
    },
    {
-    "name": "La justicia y el enfoque de las capacidades",
+    "name": "Justizia eta gaitasunen ikuspegia",
     "start": 1999,
     "end": 2026
    }
@@ -1556,38 +1555,38 @@ const CRONOGRAMAS = [
  {
   "id": "C10-KRO-01",
   "code": "C10-KRO-01",
-  "title": "Cronograma de los retos del siglo XXI (C10)",
+  "title": "XXI. mendeko erronken kronograma (C10)",
   "type": "timeline",
   "start": 1980,
   "end": 2026,
   "axes": [
    {
-    "name": "La globalización neoliberal",
+    "name": "Globalizazio neoliberala",
     "start": 1980,
     "end": 2026
    },
    {
-    "name": "La crítica del capitalismo de Klein",
+    "name": "Kleinen kapitalismoaren kritika",
     "start": 1999,
     "end": 2026
    },
    {
-    "name": "La modernidad líquida de Bauman",
+    "name": "Baumanen modernitate likidoa",
     "start": 2000,
     "end": 2017
    },
    {
-    "name": "Chomsky y la crítica de los medios",
+    "name": "Chomsky eta hedabideen kritika",
     "start": 1988,
     "end": 2026
    },
    {
-    "name": "La psicopolítica de Byung-Chul Han",
+    "name": "Byung-Chul Hanen psikopolitika",
     "start": 2010,
     "end": 2026
    },
    {
-    "name": "El ecofeminismo y los cuidados",
+    "name": "Ekofeminismoa eta zaintzak",
     "start": 2011,
     "end": 2026
    }

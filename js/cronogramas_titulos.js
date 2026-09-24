@@ -1,26 +1,22 @@
-"use strict";
-/* ===== Títulos descriptivos de los cronogramas =====
-   Override de títulos para los cronogramas que el extractor deja genéricos
-   («Xn · Recorrido cronológico»). cronogramasview.js usa CRONO_TITULOS[id] || c.title.
-   No se pierde al regenerar cronogramas.js (que lleva "NO editar a mano"). */
+// Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/cronogramas_titulos.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const CRONO_TITULOS = {
-  "A3-KRO-01": "Los primeros filósofos: Mileto y la pregunta por el arché",
-  "A4-KRO-01": "Los presocráticos: en busca del principio de la naturaleza",
-  "A5-KRO-01": "La Atenas de Pericles: sofistas y la Ilustración griega",
-  "A6-KRO-01": "Platón y Aristóteles: la Academia y el Liceo",
-  "A7-KRO-01": "De Sócrates a Aristóteles: los maestros de la filosofía clásica",
-  "A8-KRO-01": "La ética clásica: de Sócrates a la eudaimonía aristotélica",
-  "A9-KRO-01": "La política clásica y la crisis de la democracia ateniense",
-  "A10-KRO-01": "El helenismo: cínicos, epicúreos y estoicos",
-  "BA-KRO-01": "La vida de san Agustín y el paso al cristianismo",
-  "B1-KRO-01": "La filosofía medieval: de Agustín a Ockham",
-  "B2-KRO-01": "Fe y razón: la recepción de Aristóteles y el tomismo",
-  "B3-KRO-01": "Del Humanismo a la revolución científica",
-  "B4-KRO-01": "Racionalistas y empiristas: de Descartes a Hume",
-  "B5-KRO-01": "El giro moderno: mente, cuerpo y conocimiento",
-  "B6-KRO-01": "El contrato social: de Hobbes a la Revolución francesa",
-  "B7-KRO-01": "La Ilustración: la Enciclopedia y la Revolución francesa",
-  "C1-KRO-01": "El pensamiento político ilustrado y los derechos",
-  "C2-KRO-01": "Kant y los límites de la razón",
-  "C3-KRO-01": "La ética moderna: el deber (Kant) frente a la utilidad (Mill)"
+ "A3-KRO-01": "Lehen filosofoak: Mileto eta arkhe-ari buruzko galdera",
+ "A4-KRO-01": "Sokrates aurrekoak: naturaren printzipioaren bila",
+ "A5-KRO-01": "Periklesen Atenas: sofistak eta Greziako Ilustrazioa",
+ "A6-KRO-01": "Platon eta Aristoteles: Akademia eta Lizeoa",
+ "A7-KRO-01": "Sokratesengandik Aristotelesengana: filosofia klasikoaren maisuak",
+ "A8-KRO-01": "Etika klasikoa: Sokratesengandik eudaimonia aristotelikora",
+ "A9-KRO-01": "Politika klasikoa eta Atenasko demokraziaren krisia",
+ "A10-KRO-01": "Helenismoa: zinikoak, epikurearrak eta estoikoak",
+ "BA-KRO-01": "Agustin deunaren bizitza eta kristautasunerako urratsa",
+ "B1-KRO-01": "Erdi Aroko filosofia: Agustinengandik Ockhamengana",
+ "B2-KRO-01": "Fedea eta arrazoia: Aristotelesen harrera eta tomismoa",
+ "B3-KRO-01": "Humanismotik iraultza zientifikora",
+ "B4-KRO-01": "Arrazionalistak eta enpiristak: Descartesengandik Humerengana",
+ "B5-KRO-01": "Bira modernoa: adimena, gorputza eta ezagutza",
+ "B6-KRO-01": "Gizarte-kontratua: Hobbesengandik Frantziako Iraultzara",
+ "B7-KRO-01": "Ilustrazioa: Entziklopedia eta Frantziako Iraultza",
+ "C1-KRO-01": "Pentsamendu politiko ilustratua eta eskubideak",
+ "C2-KRO-01": "Kant eta arrazoimenaren mugak",
+ "C3-KRO-01": "Etika modernoa: betebeharra (Kant) utilitatearen aurrean (Mill)"
 };

@@ -135,7 +135,7 @@ const CITAS = [
  {
   "c": "Errebelazioa giza gaitasunaren arabera ulertu behar da, metaforetara eta sinboloetara joz esanezina adierazteko.",
   "a": "Maimonides",
-  "o": "Interpretazioaren zailtasuna (Guía de los perplejos I, 31)",
+  "o": "Interpretazioaren zailtasuna (Nahasien gida I, 31)",
   "e": "medieval"
  },
  {
@@ -153,7 +153,7 @@ const CITAS = [
  {
   "c": "Bere interesa bilatzean, gizabanakoak sarritan gizartearena sustatzen du, benetan sustatzen saiatzen denean baino eraginkorrago.",
   "a": "Adam Smith",
-  "o": "Esku ikusezina (La riqueza de las naciones IV, II)",
+  "o": "Esku ikusezina (Nazioen aberastasuna IV, II)",
   "e": "modernoa"
  },
  {
@@ -195,7 +195,7 @@ const CITAS = [
  {
   "c": "Arrazoiak gobernatzen du mundua.",
   "a": "Hegel",
-  "o": "Arrazoia historian (Filosofía de la historia, Introducción)",
+  "o": "Arrazoia historian (Historiaren filosofia, Sarrera)",
   "e": "modernoa"
  },
  {
@@ -207,7 +207,7 @@ const CITAS = [
  {
   "c": "Egitatezko gaiei buruzko arrazoibide guztiak kausa eta ondorioaren erlazioan oinarritzen direla dirudi.",
   "a": "Hume",
-  "o": "Kausalitatearen kritika (Tratado de la naturaleza humana)",
+  "o": "Kausalitatearen kritika (Giza naturari buruzko tratatua)",
   "e": "modernoa"
  },
  {
@@ -285,7 +285,7 @@ const CITAS = [
  {
   "c": "Botereaz abusatu ezin izateko, beharrezkoa da, gauzen antolaeragatik, botereak boterea geldiaraztea.",
   "a": "Montesquieu",
-  "o": "Botere-banaketa (Espíritu de las leyes XI, 6)",
+  "o": "Botere-banaketa (Legeen espiritua XI, 6)",
   "e": "modernoa"
  },
  {
@@ -351,19 +351,19 @@ const CITAS = [
  {
   "c": "Ez dut nahi haiek [emakumeek] gizonen gaineko boterea izatea, beren buruaren gainekoa baizik.",
   "a": "Wollstonecraft",
-  "o": "Hezkuntza eta berdintasuna (Vindicación de los derechos de la mujer IV)",
+  "o": "Hezkuntza eta berdintasuna (Emakumearen eskubideen aldarrikapena IV)",
   "e": "modernoa"
  },
  {
   "c": "Ilustrazioa totalitarioa da.",
   "a": "Adorno & Horkheimer",
-  "o": "Arrazoi instrumentala (Dialéctica de la Ilustración)",
+  "o": "Arrazoi instrumentala (Ilustrazioaren dialektika)",
   "e": "contemporanea"
  },
  {
   "c": "Feminismoa Ilustrazioaren seme-alaba aitortu gabea da.",
   "a": "Amorós",
-  "o": "Berdintasun ilustratua (Hacia una crítica de la razón patriarcal)",
+  "o": "Berdintasun ilustratua (Arrazoi patriarkalaren kritika baterantz)",
   "e": "contemporanea"
  },
  {
@@ -375,7 +375,7 @@ const CITAS = [
  {
   "c": "Filosofiak, sortzen dituen zalantzei buruzko erantzun egiazkoa ziurtasunez esateko gai ez bada ere, gure pentsamenduak zabaltzen dituzten aukera asko iradokitzeko gai da.",
   "a": "Bertrand Russell",
-  "o": "Filosofiaren balioa (Los problemas de la filosofía)",
+  "o": "Filosofiaren balioa (Filosofiaren arazoak)",
   "e": "contemporanea"
  },
  {
@@ -411,7 +411,7 @@ const CITAS = [
  {
   "c": "Inkontzientea da benetan erreala bizitza psikikoan.",
   "a": "Freud",
-  "o": "Inkontzientea (La interpretación de los sueños VII)",
+  "o": "Inkontzientea (Ametsen interpretazioa VII)",
   "e": "contemporanea"
  },
  {
@@ -435,7 +435,7 @@ const CITAS = [
  {
   "c": "Teknika ez da bitarteko soil bat. Teknika desestaltzeko modu bat da.",
   "a": "Heidegger",
-  "o": "Teknikaren arriskua (La pregunta por la técnica)",
+  "o": "Teknikaren arriskua (Teknikari buruzko galdera)",
   "e": "contemporanea"
  },
  {
@@ -555,7 +555,7 @@ const CITAS = [
  {
   "c": "Filosofiaren benetako subjektua gizaki zehatza da, hezur-haragizkoa, heriotzaren aurreko bere larritasunarekin eta hilezkortasun-irrikarekin.",
   "a": "Unamuno",
-  "o": "Hilezkortasunaren irrika (Del sentimiento trágico de la vida)",
+  "o": "Hilezkortasunaren irrika (Bizitzaren sentimendu tragikoaz)",
   "e": "contemporanea"
  },
  {
