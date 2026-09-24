@@ -37,3 +37,64 @@
 @media (max-width:640px){
   #cronogramas .epoch{ grid-template-columns:1fr; gap:.15rem; }
 }
+
+/* ===== Eje cronológico del curso (24-09) ===== datos: eje_cronologico.js; vista: cronogramasview.js
+   Cada periodo trae su color de barra (--pbar) y su tinta para fondo claro (--pl); en tema oscuro
+   el texto toma el color de la barra, que es el que se lee sobre fondo oscuro. */
+#cronogramas .cbtn-eje{ font-weight:600; border-color:var(--hf); }
+#cronogramas .cbtn-eje[aria-pressed="true"]{ background:var(--hf); border-color:var(--hf); color:var(--on-accent); }
+#cronogramas .eje-c{ --pink:var(--pl); }
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) #cronogramas .eje-c{ --pink:var(--pbar); } }
+:root[data-theme="dark"] #cronogramas .eje-c{ --pink:var(--pbar); }
+#cronogramas .eje-sub{ white-space:normal; }
+#cronogramas .eje-scroll{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin:.2rem 0 .9rem; }
+#cronogramas .eje-svg{ display:block; width:100%; min-width:760px; height:auto; font-family:var(--sans); }
+#cronogramas .eje-svg .lbl{ fill:var(--pink); font-weight:700; font-size:13px; }
+#cronogramas .eje-svg .axis{ stroke:var(--ink); stroke-width:2; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+#cronogramas .eje-svg .tick{ stroke:var(--ink); stroke-width:1; }
+#cronogramas .eje-svg .tick.big{ stroke-width:2; }
+#cronogramas .eje-svg .yr{ fill:var(--ink); font-size:12px; }
+#cronogramas .eje-svg .lead{ stroke:var(--muted); stroke-width:1; stroke-dasharray:3 3; }
+#cronogramas .eje-svg .dia{ fill:#6CCB3A; stroke:var(--ink); stroke-width:1.2; }
+#cronogramas .eje-svg .pill{ fill:#C6F68D; }
+#cronogramas .eje-svg .pill-n{ fill:#1E1E1E; font-weight:700; font-size:12px; }
+#cronogramas .eje-svg .pill-d{ fill:#333; font-size:11px; }
+#cronogramas .eje-svg .leg{ fill:var(--muted); font-size:12px; }
+
+#cronogramas .eje-grid{ display:grid; grid-template-columns:1fr; gap:.7rem; }
+@media (min-width:640px){ #cronogramas .eje-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (min-width:1000px){ #cronogramas .eje-grid{ grid-template-columns:repeat(5,minmax(0,1fr)); } }
+#cronogramas .eje-col{ background:var(--surface-2); border:1px solid var(--line); border-top:4px solid var(--pbar);
+  border-radius:10px; padding:.6rem .75rem .75rem; font-size:.9rem; line-height:1.4; min-width:0; }
+#cronogramas .eje-per{ font-family:var(--serif); font-size:1.17em; color:var(--pink); margin-bottom:.1rem; }
+#cronogramas .eje-k{ font-size:.73em; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); margin-top:.5rem; }
+#cronogramas .eje-siglos{ color:var(--pink); }
+#cronogramas .eje-pill{ background:#C6F68D; color:#1E1E1E; font-weight:700; padding:.05rem .35rem; border-radius:4px;
+  -webkit-box-decoration-break:clone; box-decoration-break:clone; }
+#cronogramas .eje-dt{ color:var(--muted); font-size:.82em; white-space:nowrap; }
+#cronogramas .eje-evt .eje-dt{ display:block; margin-top:.15rem; }
+#cronogramas .eje-nom{ color:var(--pink); }
+#cronogramas .eje-nt{ color:var(--ink); }
+#cronogramas .eje-grp{ color:var(--pink); font-weight:700; font-size:.93em; margin-top:.45em; }
+#cronogramas .eje-grp.eje-top{ font-weight:400; font-size:1em; }
+#cronogramas .eje-top .eje-nom{ font-weight:700; }
+#cronogramas .eje-list{ list-style:none; margin:.15rem 0 0; padding:0; }
+#cronogramas .eje-list li{ position:relative; padding-left:.85rem; margin:.1rem 0; }
+#cronogramas .eje-list li::before{ content:"•"; position:absolute; left:0; color:var(--pink); }
+
+/* Impresión: el eje sale en una hoja A4 apaisada (página con nombre: no afecta a las demás vistas). */
+@page eje{ size:A4 landscape; margin:8mm; }
+@media print{
+  #cronogramas .crono-filter, #cronogramas .crono-chips{ display:none !important; }
+  /* esquemas_autorview.js inyecta body *{visibility:hidden} para imprimir sus esquemas */
+  #cronogramas, #cronogramas *{ visibility:visible; }
+  #cronogramas .eje-card{ page:eje; box-shadow:none; border:0; padding:0; background:#fff;
+    --surface:#fff; --surface-2:#fff; --ink:#1e1e1e; --muted:#555; --line:#bdbdbd; --line-soft:#ddd; }
+  #cronogramas .eje-card .eje-c{ --pink:var(--pl) !important; }
+  #cronogramas .eje-scroll{ overflow:visible; margin:0 0 3mm; }
+  #cronogramas .eje-svg{ min-width:0; }
+  #cronogramas .eje-grid{ grid-template-columns:repeat(5,minmax(0,1fr)); gap:2mm; }
+  #cronogramas .eje-col{ font-size:8.2pt; line-height:1.3; padding:1.4mm 2mm 1.8mm; break-inside:avoid; }
+  #cronogramas .eje-card .crono-h{ margin-bottom:1mm; }
+  #cronogramas .eje-svg{ width:96%; margin:0 auto; }
+}

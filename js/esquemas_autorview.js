@@ -19,9 +19,11 @@ const EA_CSS = `
 #esqautor .easchema li{font-size:.94rem;color:var(--ink);padding-left:16px;position:relative}
 #esqautor .easchema li::before{content:"";position:absolute;left:2px;top:.55em;width:6px;height:6px;
   border-radius:50%;background:var(--ipc)}
+/* Solo cuando esta vista es la activa: este script se carga en todas las vistas y un
+   body *{visibility:hidden} sin acotar dejaba en blanco la impresión de las demás. */
 @media print{
-  body *{visibility:hidden}
-  #esqautor, #esqautor *{visibility:visible}
+  body:has(#esqautor.active) *{visibility:hidden}
+  body:has(#esqautor.active) #esqautor, body:has(#esqautor.active) #esqautor *{visibility:visible}
   #esqautor{position:absolute;left:0;top:0;width:100%;padding:0;margin:0}
   #esqautor .ea-actions, #esqautor .filterbar, #esqautor .eyebrow, #esqautor .lead{display:none}
   #esqautor .easchema{border:1px solid #ccc;box-shadow:none;break-inside:avoid}
