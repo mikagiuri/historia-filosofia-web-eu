@@ -407,7 +407,8 @@ const CITAS = [
   "c": "Gogoak ez du sexurik.",
   "a": "Poulain de la Barre",
   "o": "Gogoak ez du sexurik (De l’égalité des deux sexes)",
-  "e": "modernoa"
+  "e": "modernoa",
+  "img": "media/retratos/citas/poulain.jpg"
  },
  {
   "c": "Pentsatzen dut, beraz existitzen naiz.",
@@ -469,7 +470,9 @@ const CITAS = [
   "c": "Ilustrazioa totalitarioa da.",
   "a": "Adorno & Horkheimer",
   "o": "Arrazoi instrumentala (Ilustrazioaren dialektika)",
-  "e": "contemporanea"
+  "e": "contemporanea",
+  "id": "adorno",
+  "img": "media/retratos/ilustres/adorno.jpg"
  },
  {
   "c": "Munduaren betiko ulertezina haren ulergarritasuna da.",
