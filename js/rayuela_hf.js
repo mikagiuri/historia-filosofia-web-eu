@@ -488,21 +488,6 @@ const RAYUELA_HF = {
    "texto": "Erantzun batean diozu kausaren eta ondorioaren arteko lotura ohiturak jartzen duela, edo mundua agertzen zaigun bezala baino ez dugula ezagutzen; beste batean, zientziak mundua den bezala ematen digula, eta gainerakoa hitz hutsak direla. Baina zientzia kausetan eta legeetan oinarritzen da: haien beharra gure adimenak jartzen badu, zientziak ezin dizkigu gauzak berez diren bezala eman. Humek eta Kantek ez zuten zientzia gutxiesten, baina mugak jartzen zizkioten."
   },
   {
-   "id": "t-sospecha-razon",
-   "grado": "tension",
-   "a": [
-    "m-sospecha"
-   ],
-   "b": [
-    "m-autonomia",
-    "m-razon",
-    "m-certeza-sin-dios",
-    "m-cientificismo"
-   ],
-   "titulo": "Arrazoimenaz susmatzen duzu… eta hartaz fidatzen zara",
-   "texto": "Erantzun batean arrazoimenaz susmatzen duzu: agian engainatu egiten zaitu, edo interesak ezkutatzen ditu; beste batean hartaz fidatzen zara ziurtasunez ezagutzeko edo zure kabuz pentsatzeko. Egin daiteke, baina kontuz: arrazoimenaz susmatzeko ere hura erabili behar da. Descartesek denaz egin zuen zalantza zerbait seguru aurkitzeko; Marxek, Nietzschek eta Freudek, «susmoaren maisuek», galdetzen irakatsi ziguten nori egiten dion mesede zentzuzkotzat jotzen dugunak."
-  },
-  {
    "id": "t-tecnica-dominio",
    "grado": "tension",
    "a": [
@@ -2149,9 +2134,9 @@ const RAYUELA_HF = {
      "marca": "m-ontologico"
     },
     {
-     "t": "Susmagarria iruditzen zait: eskolastikoak kritikatzen ditu eta Erdi Aroko argudio bat erabiltzen du… eta arrazoiak engainatzen banau?",
+     "t": "Susmagarria iruditzen zait: eskolastikoak kritikatzen ditu eta Erdi Aroko argudio bat erabiltzen du. Onartu aurretik, sakonago zalantzan jarri behar da.",
      "to": "47",
-     "marca": "m-sospecha"
+     "marca": "m-duda-metodica"
     },
     {
      "t": "Ez: ideia batetik ez dator zerbait existitzen denik.",

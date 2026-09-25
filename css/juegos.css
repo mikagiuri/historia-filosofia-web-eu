@@ -274,3 +274,45 @@
 #republica .rep-errs li{ font-size:.82rem; color:var(--bad); background:var(--bad-bg); border-radius:8px; padding:.4rem .5rem; }
 #republica .rep-summary .rep-play{ width:100%; margin-top:.6rem; }
 @media (max-width:720px){ #republica .rep-design{ grid-template-columns:1fr; } #republica .rep-summary{ position:static; } }
+
+/* ===== Eudaimonía v3 (25-09-2026): números ocultos, niveles cualitativos, peligro y balance con números ===== */
+#eudaimonia .ari-intro{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:.8rem 1.1rem; margin:0 0 1.1rem; }
+#eudaimonia .ari-intro summary{ cursor:pointer; font-family:var(--serif); font-weight:700; font-size:1.1rem; }
+#eudaimonia .ari-intro ul{ margin:.5rem 0 .3rem; padding-left:1.2rem; line-height:1.55; }
+#eudaimonia .ari-intro li{ margin:.25rem 0; }
+#eudaimonia .ari-intro-h{ margin:.8rem 0 0; font-weight:600; color:var(--accent); }
+#eudaimonia .ari-perfil{ margin:0; font-size:.88rem; line-height:1.45; }
+#eudaimonia .ari-trait{ font-size:.82rem; line-height:1.4; color:var(--muted); }
+#eudaimonia .ari-trait .ari-vir, #eudaimonia .ari-trait .ari-deb{ display:inline-block; margin-right:.2rem; font-weight:600; }
+#eudaimonia .ari-pills{ display:flex; flex-wrap:wrap; gap:.35rem; margin:0 0 .8rem; }
+#eudaimonia .ari-pill{ font-size:.8rem; padding:.2rem .55rem; border-radius:999px; background:var(--surface-2); border:1px solid var(--line); color:var(--muted); }
+#eudaimonia .ari-pill b{ color:var(--ink); font-weight:600; }
+#eudaimonia .ari-pill.warn{ background:var(--bad-bg); border-color:var(--bad); color:var(--ink); }
+#eudaimonia .ari-hints{ display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.35rem; }
+#eudaimonia .ari-hints span{ font-size:.74rem; padding:.05rem .45rem; border-radius:999px; background:var(--surface-2); color:var(--muted); }
+#eudaimonia .ari-blk{ display:block; font-size:.78rem; color:var(--bad); margin-top:.25rem; }
+#eudaimonia .ari-opt:disabled:not(.dim):not(.chosen){ opacity:.55; cursor:not-allowed; }
+#eudaimonia .ari-arrows{ display:flex; flex-wrap:wrap; gap:.3rem .7rem; margin:.3rem 0 .2rem; font-size:.84rem; font-weight:600; }
+#eudaimonia .ari-arrows .up{ color:var(--ok); } #eudaimonia .ari-arrows .down{ color:var(--bad); }
+#eudaimonia .ari-hist{ margin:.8rem 0 0; font-size:.86rem; color:var(--muted); font-style:italic; }
+#eudaimonia .ari-band-t{ max-width:56ch; margin:.2rem auto .6rem; line-height:1.5; }
+#eudaimonia .ari-formula{ font-size:.84rem; color:var(--muted); margin:.2rem 0; }
+#eudaimonia .ari-reveal{ margin:.8rem auto; border-collapse:collapse; font-size:.9rem; font-variant-numeric:tabular-nums; }
+#eudaimonia .ari-reveal th, #eudaimonia .ari-reveal td{ padding:.25rem .7rem; border-bottom:1px solid var(--line); text-align:center; }
+#eudaimonia .ari-reveal td:first-child{ text-align:left; }
+#eudaimonia .ari-reveal td:last-child{ color:var(--muted); font-size:.82rem; text-align:left; }
+#eudaimonia .ari-destino{ max-width:60ch; margin:.8rem auto; text-align:left; font-size:.9rem; line-height:1.5; padding:.6rem .9rem; background:var(--surface-2); border-radius:10px; }
+#eudaimonia .ari-log{ text-align:left; margin:.6rem 0 1rem; }
+#eudaimonia .ari-log summary{ cursor:pointer; font-weight:600; }
+#eudaimonia .ari-log ol{ padding-left:0; list-style:none; margin:.5rem 0 0; display:grid; gap:.5rem; }
+#eudaimonia .ari-log li{ padding:.5rem .7rem; border-left:3px solid var(--line); background:var(--surface-2); border-radius:0 8px 8px 0; font-size:.86rem; line-height:1.45; }
+#eudaimonia .ari-log-s{ color:var(--muted); }
+#eudaimonia .ari-log-cs{ display:flex; flex-wrap:wrap; gap:.2rem .8rem; margin-top:.2rem; }
+#eudaimonia .ari-log-c{ font-family:var(--mono); font-size:.78rem; }
+#eudaimonia .ari-log-c .up{ color:var(--ok); } #eudaimonia .ari-log-c .down{ color:var(--bad); }
+#eudaimonia .ari-log li.paso{ border-left-color:var(--accent); font-style:italic; }
+#eudaimonia .ari-noimg{ display:flex; align-items:center; justify-content:center; font-family:var(--serif); font-weight:700; color:var(--accent);
+  background:radial-gradient(circle at 50% 40%, var(--surface) 0%, var(--surface-2) 70%); }
+#eudaimonia .ari-portrait .ari-noimg{ width:100%; height:100%; font-size:4.5rem; }
+#eudaimonia .ari-mini.ari-noimg{ font-size:.9rem; border:1px solid var(--accent); }
+#eudaimonia .ari-result-img.ari-noimg{ margin:0 auto .4rem; font-size:3.5rem; }
