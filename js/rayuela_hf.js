@@ -1,6 +1,23 @@
 // Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/rayuela_hf.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const RAYUELA_HF = {
  "inicio": "1",
+ "inicios": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "11",
+  "12",
+  "13",
+  "14",
+  "17",
+  "19"
+ ],
  "lineas": [
   {
    "id": "l-inicio",
@@ -73,6 +90,345 @@ const RAYUELA_HF = {
    "n": 4,
    "nombre": "4. sarea · XXI. mendea: gaur egungo erronkak",
    "abre": "2026-09-25"
+  }
+ ],
+ "tensiones": [
+  {
+   "id": "t-verdad-perspectiva",
+   "grado": "contradiccion",
+   "a": [
+    "m-verdad-objetiva",
+    "m-logos",
+    "m-autonomia",
+    "m-universalidad"
+   ],
+   "b": [
+    "m-perspectivismo",
+    "m-interpretaciones"
+   ],
+   "titulo": "Egia bat guztiontzat, ala bakoitzarentzat bat?",
+   "texto": "Erantzun batean diozu badagoela guztiontzat balio duen zerbait: egia bat, dena gobernatzen duen logos bat, arrazoi komun bat edo eskubide unibertsal batzuk. Beste batean, berriz, garai eta kultura bakoitzak bere arrazoia duela, edo ez dagoela gertakaririk, interpretazioak baizik. Sokratesek Protagorasekin zuen auzi zaharra da, eta tranpa du: dena interpretazioa bada, esaldi hori bera ere interpretazioa da."
+  },
+  {
+   "id": "t-sentido-nihilismo",
+   "grado": "contradiccion",
+   "a": [
+    "m-verdad-objetiva",
+    "m-alma-orden",
+    "m-felicidad-dios",
+    "m-logos",
+    "m-orden-divino",
+    "m-fines",
+    "m-inmortal"
+   ],
+   "b": [
+    "m-nada-vale",
+    "m-todo-se-hunde",
+    "m-absurdo"
+   ],
+   "titulo": "Ba al dago zentzurik, ala ezerk ez du balio?",
+   "texto": "Erantzun batean diozu badagoela Ongi bat, ordena bat edo helburu bat —arimaren barruan, Jainkoarengan edo kosmosean—; beste batean, ezerk ez duela merezi edo bizitza absurdoa dela. Biak ezin dira aldi berean egia izan: helburu baterantz ordenatutako mundua ez da absurdoa. Camusek zioen absurdoa zentzu-egarriaren eta isilik dagoen munduaren arteko talkatik sortzen dela. Zer aldatu da erantzun batetik bestera?"
+  },
+  {
+   "id": "t-logos-serenidad",
+   "grado": "tension",
+   "a": [
+    "m-logos",
+    "m-orden-divino"
+   ],
+   "b": [
+    "m-duda-serenidad",
+    "m-evitar-muerte"
+   ],
+   "titulo": "Ordenan sinesten duzu, baina ez zara hartaz fidatzen",
+   "texto": "Erantzun batean diozu arrazoi unibertsal batek (logosak edo jainkozko probidentzia batek) dena gobernatzen duela; beste batean, mesfidati zaude Senekak heriotzaren aurrean duen lasaitasunaz. Baina lasaitasun hori da, hain zuzen, ondorio estoikoa: dena logosaren arabera gertatzen bada, zentzuzkoa da gure esku ez dagoena onartzea. Sinets al daiteke ordena horretan eta, aldi berean, hark dakarrenaren aurka matxinatu?"
+  },
+  {
+   "id": "t-alma-materia",
+   "grado": "contradiccion",
+   "a": [
+    "m-alma-separada",
+    "m-inmortal",
+    "m-dualismo",
+    "m-dualismo-firme"
+   ],
+   "b": [
+    "m-materialismo",
+    "m-solo-cuerpo",
+    "m-nada-miedo"
+   ],
+   "titulo": "Arima hilezkorra ala materia soilik?",
+   "texto": "Erantzun batean diozu arima gorputzaz bestelako zerbait dela, edo heriotzaren ondoren bizirik irauten duela; beste batean, materia besterik ez dagoela, edo heriotzaren ondoren ez dela ezer geratzen. Dena materia bada, gorputza desegiten denean ez da ezer geratzen bizirik irauteko. Platonek eta Descartesek lehenengoa defendatzen zuten; Demokritok, Epikurok eta Hobbesek, bigarrena. Ezin zara bi taldeetan egon aldi berean."
+  },
+  {
+   "id": "t-cuidar-alma-materia",
+   "grado": "tension",
+   "a": [
+    "m-alma-orden",
+    "m-alma-forma",
+    "m-interioridad"
+   ],
+   "b": [
+    "m-materialismo",
+    "m-solo-cuerpo"
+   ],
+   "titulo": "Zer arima zaintzen duzu materia besterik ez badago?",
+   "texto": "Erantzun batean arimaz hitz egiten duzu: ordenan izateaz, gorputzaren forma izateaz edo egia zure barruan bilatzeaz. Beste batean, dena materia dela diozu. Ez da ezinezkoa biak batzea: Epikuroren ustez arima atomoz egina dago, eta, hala ere, zaindu egin behar zen. Baina zuk azaldu beharko duzu zer den «arima» hori materia besterik ez bada, eta nola ezagut dezakeen ongia."
+  },
+  {
+   "id": "t-ciudad-corrompe",
+   "grado": "tension",
+   "a": [
+    "m-participar",
+    "m-obedecer",
+    "m-habitos"
+   ],
+   "b": [
+    "m-bondad-natural"
+   ],
+   "titulo": "Hiriak hobetu egiten zaitu ala usteldu?",
+   "texto": "Erantzun batean diozu hirian parte hartzea eta haren legeak betetzea ondo bizitzearen parte dela; beste batean, gizarteak usteltzen gaituela. Gizarteak usteltzen badu, zergatik bete haren legeak, oker daudenean ere? Aristotelesek hirian ikusten zuen bertutearen leku naturala; Rousseauk, gure gaitzen jatorria, eta horregatik kontratu berri batekin birsortu nahi zuen."
+  },
+  {
+   "id": "t-ciudad-retiro",
+   "grado": "tension",
+   "a": [
+    "m-participar",
+    "m-obedecer",
+    "m-habitos",
+    "m-desapego-limites",
+    "m-retiro-politica",
+    "m-politica-necesaria",
+    "m-vida-comun",
+    "m-transformar",
+    "m-compromiso",
+    "m-refundar"
+   ],
+   "b": [
+    "m-apartarse",
+    "m-autarquia",
+    "m-aparte",
+    "m-no-pertenecer"
+   ],
+   "titulo": "Besteekin ala aparte?",
+   "texto": "Erantzun batean diozu bizitza ona besteekin jokatzen dela: hirian, haren legeetan edo konpromiso politikoan. Beste batean, onena aparte bizitzea eta gutxirekin nahikoa izatea dela. Aristotelesek zioen hiririk gabe bizi daitekeena «edo piztia da edo jainkoa»; Diogenesek eta Epikurok bazterrean bizitzea aukeratu zuten. Erdibide bat egon daiteke, baina zein den esan beharko duzu."
+  },
+  {
+   "id": "t-autoridad-pensar",
+   "grado": "tension",
+   "a": [
+    "m-autoridad",
+    "m-absolutismo",
+    "m-obedecer"
+   ],
+   "b": [
+    "m-autonomia",
+    "m-tolerancia",
+    "m-verdad-ciencia"
+   ],
+   "titulo": "Obeditu ala zeure kabuz pentsatu?",
+   "texto": "Erantzun batean onartzen duzu agintariak erabakitzea: zer irakasten den, zein legek balio duten oker egonda ere, edo zenbat botere duen subiranoak. Beste batean, bakoitzak bere kabuz pentsatu behar duela, tutorerik gabe. Kant biak uztartzen saiatu zen: «arrazoitu nahi adina eta nahi duzuen guztiaz, baina obeditu». Sokratesek legeak bete zituen, baina ez zion inoiz galdetzeari utzi. Nahikoa al zaizu irtenbide hori?"
+  },
+  {
+   "id": "t-fe-razon",
+   "grado": "contradiccion",
+   "a": [
+    "m-solo-fe",
+    "m-razon-inutil"
+   ],
+   "b": [
+    "m-razon",
+    "m-razon-valida",
+    "m-ontologico",
+    "m-certeza-sin-dios",
+    "m-autonomia",
+    "m-cientificismo",
+    "m-interioridad-razon"
+   ],
+   "titulo": "Fedea bakarrik, ala arrazoia ere bai?",
+   "texto": "Erantzun batean diozu fedeak bakarrik ematen duela ziurtasuna, edo arrazoiak ez duela ezertarako balio; beste batean, arrazoian oinarritzen zara zerbait ezagutzeko edo frogatzeko. Arrazoiak balio ez badu, horretarako ere ez du balio. Agustinek eta Tomas Akinokoak beste irtenbide bat bilatu zuten: sinetsi ulertzeko eta ulertu sinesteko; arrazoia puntu bateraino iristen da eta fedea haratago doa, baina ez dute elkar kontraesaten."
+  },
+  {
+   "id": "t-sentidos-razon",
+   "grado": "tension",
+   "a": [
+    "m-sentidos-razon",
+    "m-tabula-rasa"
+   ],
+   "b": [
+    "m-razon",
+    "m-innatismo"
+   ],
+   "titulo": "Zentzumenak ala arrazoia?",
+   "texto": "Erantzun batean diozu ezagutza zentzumenekin hasten dela, edo jaiotzean adimena orri zuri bat dela; beste batean, egia arrazoiak pentsatzen duenean dagoela eta ez ikusten denean, edo ideia batzuk gurekin jaiotzen direla. Enpiristen eta arrazionalisten arteko eztabaida handia da. Kant bi taldeak batzen saiatu zen: edukirik gabeko pentsamenduak hutsak dira, eta kontzepturik gabeko intuizioak, itsuak."
+  },
+  {
+   "id": "t-duda-certeza",
+   "grado": "contradiccion",
+   "a": [
+    "m-suspender",
+    "m-escepticismo-total",
+    "m-duda-esteril"
+   ],
+   "b": [
+    "m-cogito",
+    "m-ontologico",
+    "m-dios-veraz",
+    "m-certeza-sin-dios",
+    "m-causa-necesaria",
+    "m-cientificismo"
+   ],
+   "titulo": "Ezer ez da ziurra… hau izan ezik?",
+   "texto": "Erantzun batean nahiago duzu ezer ziurtasunez ez baieztatu; beste batean, zerbait erabat ziurtzat jotzen duzu. Eszeptikoen aurkako betiko objekzioa da: «ezin da ezer jakin» dioenak zerbait baieztatzen du jada. Sexto Enpirikok erantzuten zuen eszeptikoak ez duela baieztatzen, gauzak nola iruditzen zaizkion kontatzen duela baizik. Hori al da zure kasua, ala bidean iritziz aldatu zara?"
+  },
+  {
+   "id": "t-util-verdad",
+   "grado": "tension",
+   "a": [
+    "m-utilidad",
+    "m-utilidad-politica",
+    "m-funciona"
+   ],
+   "b": [
+    "m-verdad-ciencia"
+   ],
+   "titulo": "Egiak berez balio du ala balio duenagatik?",
+   "texto": "Erantzun batean diozu egia dela funtzionatzen duena, edo zerbaitek funtzionatzearekin nahikoa duzula; beste batean, egia ez dela negoziatzen, kosta ahala kosta. Egia erabilgarria dena besterik ez balitz, Galileori isiltzea komeni zitzaion: uko egiteak bizia salbatu zion. Egiak berez balio du ala bere ondorioengatik?"
+  },
+  {
+   "id": "t-placer-deber",
+   "grado": "tension",
+   "a": [
+    "m-bienestar",
+    "m-placer-tranquilo",
+    "m-placer-intenso",
+    "m-ataraxia"
+   ],
+   "b": [
+    "m-imperativo",
+    "m-regla-universal"
+   ],
+   "titulo": "Plazera ala betebeharra?",
+   "texto": "Erantzun batean ongizatea edo plazera jartzen duzu benetan garrantzitsua den gauzatzat; beste batean, guztientzat balio lezakeen arau baten arabera jokatu behar dela, komeni ez zaizunean ere. Epikurorentzat plazera da bizitza zoriontsuaren hasiera eta helburua; Kantentzat, ondo sentiarazten gaituelako egindako ekintzak ez du balio moralik. Zerk du pisu handiagoa zuretzat?"
+  },
+  {
+   "id": "t-suma-derechos",
+   "grado": "tension",
+   "a": [
+    "m-mayor-numero",
+    "m-consecuencias",
+    "m-riqueza-total"
+   ],
+   "b": [
+    "m-derechos",
+    "m-derechos-naturales",
+    "m-imperativo",
+    "m-libertad-individual",
+    "m-universalidad",
+    "m-poder-limitado"
+   ],
+   "titulo": "Zoriontasunaren batura ala bakoitzaren eskubideak?",
+   "texto": "Erantzun batean zuzena ondorioen arabera epaitzen duzu: zoriontasunik handiena ahalik eta jende gehienarentzat. Beste batean, badaudela ukitzen ez diren eskubide edo arauak, kontuak ateratzen badira ere. Benthamek eta Kantek ezin dute aldi berean arrazoia izan. Mill bi gauzak salbatzen saiatu zen: zoriontasunik handiena, bai, baina inoren askatasunari kalterik egin gabe."
+  },
+  {
+   "id": "t-valores-universales",
+   "grado": "tension",
+   "a": [
+    "m-valores-propios",
+    "m-crear-valores"
+   ],
+   "b": [
+    "m-imperativo",
+    "m-regla-universal",
+    "m-universalidad",
+    "m-derechos-todas",
+    "m-dialogo",
+    "m-derechos"
+   ],
+   "titulo": "Bakoitzaren balioak ala guztientzakoak?",
+   "texto": "Erantzun batean diozu balioak bakoitzak sortzen edo erabakitzen dituela; beste batean, badaudela pertsona guztientzat balio duten arau edo eskubideak. Bakoitzak bere balioak sortzen baditu, zer eskubidez eskatzen diogu besteari gureak errespetatzeko? Nietzschek eta Kantek ezin dute aldi berean arrazoia izan; Habermasek bien arteko bide bat bilatu zuen: denek elkarrizketan onar ditzaketen arauak."
+  },
+  {
+   "id": "t-necesidad-libertad",
+   "grado": "tension",
+   "a": [
+    "m-libertad-necesidad",
+    "m-materialismo"
+   ],
+   "b": [
+    "m-condenado-libre",
+    "m-actos"
+   ],
+   "titulo": "Dena dago zehaztuta, ala aske zara?",
+   "texto": "Erantzun batean mundu bat deskribatzen duzu non dena kausa beharrezkoen bidez gertatzen den: Spinozaren substantzia bakarra edo Hobbesen materia mugimenduan. Beste batean, aske izatera kondenatuta zaudela eta egiten duzuna zarela. Spinozarentzat, aske garela uste izatea mugiarazten gaituzten kausak ez ezagutzea da; Sartrerentzat, kausa batek ere ez du balio aitzakia gisa. Nola egokitzen da zure askatasuna mundu horretan?"
+  },
+  {
+   "id": "t-dios-muerte",
+   "grado": "tension",
+   "a": [
+    "m-felicidad-dios",
+    "m-fe-supera",
+    "m-solo-fe",
+    "m-dios-veraz",
+    "m-inmortal",
+    "m-mal-privacion",
+    "m-interioridad"
+   ],
+   "b": [
+    "m-muerte-dios"
+   ],
+   "titulo": "Jainkoa erdigunean… ala Jainkoa hil da?",
+   "texto": "Erantzun batean Jainkoa jartzen duzu erdigunean: zoriontasunarenean, ezagutzarenean edo heriotzaren ondoren dagoenarenean. Beste batean, Jainkoa hil ote den galdetzen diozu zeure buruari. Hori galdetzea ez da kontraesana: pentsatzea hori da. Baina Jainkoa hil bada, zer geratzen da Harengan oinarritzen zenuen guztitik? Hori da, hain zuzen, Nietzsche kezkatzen zuena."
+  },
+  {
+   "id": "t-politica-moral",
+   "grado": "tension",
+   "a": [
+    "m-alma-orden",
+    "m-habitos",
+    "m-participar",
+    "m-obedecer"
+   ],
+   "b": [
+    "m-realismo-politico",
+    "m-solo-poder"
+   ],
+   "titulo": "Politikak zuzena izan behar al du?",
+   "texto": "Erantzun batean bizitza ona justiziarekin eta hiriarekin lotzen duzu; beste batean, politikan boterea edo emaitza baino ez dela kontatzen, ez morala. Sokratesentzat eta Aristotelesentzat, politika etikaren jarraipena da; Makiavelok bereizi egin zituen. Pertsona bati justizia eska dakioke eta gobernu bati ez?"
+  },
+  {
+   "id": "t-dinero-mercado",
+   "grado": "tension",
+   "a": [
+    "m-explotacion",
+    "m-poder-economico",
+    "m-igualdad-real",
+    "m-residuo",
+    "m-transformar"
+   ],
+   "b": [
+    "m-mercado",
+    "m-riqueza-total"
+   ],
+   "titulo": "Esplotazioa ala merezitako irabazia?",
+   "texto": "Erantzun batean salatzen duzu dirua duenak agintzen duela, edo batzuk besteen lanetik bizi direla; beste batean, merkatuaren irabazia merezia dela, edo aberastasun osoa dela kontatzen duena, nola banatzen den gorabehera. Marxek eta Lockek ezin dute aldi berean arrazoia izan jabetzari buruz: batentzat, besteek kobratzen ez duten lanetik sortzen da; bestearentzat, eskubide naturala da."
+  },
+  {
+   "id": "t-vinculos-libertad",
+   "grado": "tension",
+   "a": [
+    "m-vinculos",
+    "m-cuidar-vida",
+    "m-vulnerables",
+    "m-libertad-otros",
+    "m-libertad-todos"
+   ],
+   "b": [
+    "m-nada-me-ata",
+    "m-no-pertenecer"
+   ],
+   "titulo": "Denetatik aske ala besteekin lotuta?",
+   "texto": "Erantzun batean lotura sendoak eta elkar zaintzea eskatzen dituzu; beste batean, ezerk lotzen ez zaituela ospatzen duzu. Baumanek esango luke loturarik gabeko askatasun hori turistarena dela: arina dena ondo doan bitartean, bakartia gauzak okertzen direnean. Beauvoirrek gehituko luke inor ez dela guztiz aske besteak aske ez badira."
   }
  ],
  "estaciones": {

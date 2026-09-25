@@ -83,3 +83,24 @@
 #rayuela .ray-map.ruta .ray-lbl{ font-size:14px; }
 #rayuela .ray-map.ruta .ray-lbl.fin{ font-weight:700; }
 @media (min-width:980px){ #rayuela .ray-side{ max-height:calc(100vh - 6rem); overflow:auto; } }
+
+/* alerta de coherencia y tensiones (25-09): contradicción en rojo, tensión en ámbar */
+#rayuela .ray-card.aviso{ background:color-mix(in srgb, #d23a2b 5%, var(--surface)); }
+#rayuela .ray-tens{ border-left:4px solid #d23a2b; background:var(--surface-2); border-radius:10px; padding:.65rem .9rem .75rem; margin:.7rem 0; }
+#rayuela .ray-tens.tension{ border-left-color:#d99a00; }
+#rayuela .ray-tens h3{ font-family:var(--serif); font-size:1.15rem; margin:.25rem 0 .4rem; }
+#rayuela .ray-tens ul{ margin:.2rem 0 .4rem 1.1rem; padding:0; line-height:1.5; }
+#rayuela .ray-tens p{ margin:.3rem 0 0; line-height:1.55; }
+#rayuela .ray-tl{ font-size:.8rem; font-weight:700; color:var(--muted); margin:.35rem 0 0; }
+#rayuela .ray-ademas{ margin-top:.2rem; }
+#rayuela .ray-grado{ display:inline-block; font-size:.7rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:#fff; background:#d23a2b; border-radius:999px; padding:.1rem .55rem; }
+#rayuela .ray-tens.tension .ray-grado{ background:#b07c00; }
+#rayuela .ray-box.tens{ border-left:4px solid #d23a2b; }
+#rayuela .ray-box.tens .ray-tens{ background:var(--surface); }
+/* salida al azar y «Todas mis paradas» (25-09) */
+#rayuela .ray-salida{ margin:.2rem 0 .1rem; font-size:.88rem; color:var(--muted); font-style:italic; }
+#rayuela .ray-vbtn.todas{ font-weight:700; border-color:var(--line); padding:.3rem .7rem; }
+#rayuela .ray-vbtn.todas.sel{ border-color:var(--hf); }
+#rayuela .ray-lin{ display:inline-block; width:18px; height:5px; border-radius:3px; margin-right:.4rem; vertical-align:middle; }
+#rayuela .ray-todas{ list-style:none; margin:.2rem 0 .3rem; padding:0; display:flex; flex-wrap:wrap; gap:.25rem .9rem; font-size:.9rem; line-height:1.6; }
+#rayuela .ray-todas small{ color:var(--muted); }
