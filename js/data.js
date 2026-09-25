@@ -67,6 +67,11 @@ const SUBJECTS = {
   "mats": [],
   "tools": [
    [
+    "Dilema etikoak",
+    "dilemas",
+    ""
+   ],
+   [
     "Teoria (A blokea)",
     "teoria",
     "hf-mito"
