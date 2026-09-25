@@ -4535,7 +4535,7 @@ const ESQUEMAS = {
      "a": "Independentzia ekonomikoa"
     }
    ],
-   "idea": "«Ez da emakume jaiotzen: emakume bihurtzen da»: femeninoa emakumea «bestea» bihurtu duen eraikuntza da; eraikia bada, eraldatu egin daiteke."
+   "idea": "«Ez da emakume jaiotzen: egiten da»: femeninoa emakumea «bestea» bihurtu duen eraikuntza da; eraikia bada, eraldatu egin daiteke."
   }
  }
 };
