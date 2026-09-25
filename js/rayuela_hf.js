@@ -43,6 +43,11 @@ const RAYUELA_HF = {
    "color": "#c2185b"
   },
   {
+   "id": "l-siglo21",
+   "nombre": "XXI. mendearen linea",
+   "color": "#0f8b8d"
+  },
+  {
    "id": "l-contradiccion",
    "nombre": "Kontraesanak",
    "color": "#d23a2b"
@@ -62,6 +67,11 @@ const RAYUELA_HF = {
   {
    "n": 3,
    "nombre": "3. sarea · Garaikideak: Kantetik Beauvoirrera",
+   "abre": "2026-09-25"
+  },
+  {
+   "n": 4,
+   "nombre": "4. sarea · XXI. mendea: gaur egungo erronkak",
    "abre": "2026-09-25"
   }
  ],
@@ -844,6 +854,12 @@ const RAYUELA_HF = {
      "t": "Ez betebeharra, ez kalkulua: balioak nik erabakitzen ditut.",
      "to": "21",
      "marca": "m-valores-propios"
+    },
+    {
+     "t": "Ba al dugu betebeharrik planetarekin eta oraindik jaio ez direnekin?",
+     "to": "28",
+     "marca": "m-generaciones",
+     "red": 4
     }
    ],
    "temas": [
@@ -924,6 +940,12 @@ const RAYUELA_HF = {
      "t": "Bidegabekeria bat, konponduko litzatekeena edonork onartuko lukeen banaketa batekin, zein toki egokituko zitzaion jakin gabe.",
      "to": "FX",
      "marca": "m-velo"
+    },
+    {
+     "t": "Eta gaur? Lantegia mundu osoa da, eta markak erosten ditugu, ez gauzak.",
+     "to": "26",
+     "marca": "m-global",
+     "red": 4
     }
    ],
    "temas": [
@@ -1043,6 +1065,12 @@ const RAYUELA_HF = {
      "t": "Nire zirkunstantziatik ulertzen dut, eta sentitzen dudana ere entzuten duen arrazoi batekin.",
      "to": "66",
      "marca": "m-circunstancia"
+    },
+    {
+     "t": "Eta gaur egun bizitza lapurtzen didana mugikorra eta nekea badira?",
+     "to": "25",
+     "marca": "m-cansancio",
+     "red": 4
     }
    ],
    "temas": [
@@ -1086,6 +1114,12 @@ const RAYUELA_HF = {
      "t": "Gehiegikeria dela: sexu bakoitzak bere izaera eta bere zeregina ditu.",
      "to": "100",
      "marca": "m-naturaleza-sexo"
+    },
+    {
+     "t": "Eta generoa? Hori ere ikasten al da?",
+     "to": "27",
+     "marca": "m-genero",
+     "red": 4
     }
    ],
    "temas": [
@@ -1097,6 +1131,201 @@ const RAYUELA_HF = {
     },
     {
      "id": "wollstonecraft"
+    }
+   ]
+  },
+  "25": {
+   "tipo": "pregunta",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    28.2,
+    12.8
+   ],
+   "titulo": "Goizaldeko ordu biak",
+   "texto": "Goizaldeko ordu biak dira eta mugikorrarekin jarraitzen duzu: bideo bat gehiago, jakinarazpen bat gehiago, erantzun beharreko mezu bat. Bihar azterketa duzu eta lehertuta zaude, baina inork ez zaitu jarraitzera behartzen.",
+   "pregunta": "Zer ari da gertatzen?",
+   "opciones": [
+    {
+     "t": "Nire burua esplotatzen dut libre naizela sinetsita: inork ez nau behartzen, eta, hala ere, ez naiz gelditzen.",
+     "to": "68",
+     "marca": "m-autoexplotacion"
+    },
+    {
+     "t": "Plataformak harrapatzeko diseinatuta daudela: errua diseinatzen dituenarena da.",
+     "to": "26",
+     "marca": "m-plataformas"
+    },
+    {
+     "t": "Ezer larririk ez: teknologia neutrala da; bakoitzak nola erabiltzen duen, horren araberakoa da.",
+     "to": "101",
+     "marca": "m-tecnologia-neutra"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "han"
+    }
+   ]
+  },
+  "26": {
+   "tipo": "pregunta",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    27.6,
+    10.2
+   ],
+   "titulo": "Bizitza likidoa",
+   "texto": "Bi urtez behin aldatzen duzu mugikorra, hilabete gutxiro lana, eta sare sozial bakoitzean nortasuna. Markek ez dizkizute zapatilak saltzen, bizimodu bat baizik. Ezerk ez du asko irauten.",
+   "pregunta": "Nola bizi duzu?",
+   "opciones": [
+    {
+     "t": "Askatasun gisa: ezerk ez nau lotzen, eta nahi dudanean asma dezaket neure burua berriro.",
+     "to": "27",
+     "marca": "m-nada-me-ata"
+    },
+    {
+     "t": "Prekarietate gisa: erabili eta botatzeko loturak, lanak eta nortasunak.",
+     "to": "69",
+     "marca": "m-precariedad"
+    },
+    {
+     "t": "Negozio gisa: merkatuak kontsumitzaile nahi gaitu, ez hiritar.",
+     "to": "28",
+     "marca": "m-consumidores"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "bauman"
+    },
+    {
+     "id": "klein"
+    },
+    {
+     "id": "chomsky"
+    }
+   ]
+  },
+  "27": {
+   "tipo": "pregunta",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    30.4,
+    8.8
+   ],
+   "titulo": "Generoa",
+   "texto": "Jaiotzen zarenetik esaten dizute nola jantzi, nola mugitu, zertara jolastu eta zer gustatu behar zaizun zure sexuaren arabera. Judith Butlerrek dio generoa keinu horiek errepikatuz ikasten dela, paper bat bezala.",
+   "pregunta": "Zer da generoa?",
+   "opciones": [
+    {
+     "t": "Keinuak errepikatuz ikasten den papera, eta horregatik alda daitekeena.",
+     "to": "70",
+     "marca": "m-performatividad"
+    },
+    {
+     "t": "Gertakari biologiko bat: gorputzarekin batera ematen da.",
+     "to": "100",
+     "marca": "m-genero-biologico"
+    },
+    {
+     "t": "Boterea banatzeko balio duen eraikuntza soziala.",
+     "to": "FV",
+     "marca": "m-genero-poder"
+    }
+   ],
+   "temas": [
+    "hf-siglo21",
+    "hf-beauvoir"
+   ],
+   "autores": [
+    {
+     "id": "butler"
+    },
+    {
+     "id": "preciado"
+    }
+   ]
+  },
+  "28": {
+   "tipo": "pregunta",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    29.2,
+    6.4
+   ],
+   "titulo": "Planeta",
+   "texto": "Termometroa igotzen ari da, ibaiak lehortzen dira eta uda bakoitzean baso gehiago erretzen da. Bitartean, ekonomiak urtero hazi behar du. Yayo Herrerok gogorarazten du ekomendekoak garela (naturatik bizi gara) eta elkarren mendekoak (besteen zaintzatik bizi gara).",
+   "pregunta": "Zer egiten dugu?",
+   "opciones": [
+    {
+     "t": "Norabidea aldatu: bizitza eta zaintzak erdigunean jarri, ez dirua.",
+     "to": "FZ",
+     "marca": "m-cuidar-vida"
+    },
+    {
+     "t": "Teknologian konfiantza izan: zientziak aurkituko du irtenbidea, gure bizimodua aldatu gabe.",
+     "to": "102",
+     "marca": "m-tecno-solucion"
+    },
+    {
+     "t": "Bakoitzak bere zatia egin dezala: birziklatu eta pixka bat gutxiago kontsumitu.",
+     "to": "29",
+     "marca": "m-cada-uno"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "herrero"
+    }
+   ]
+  },
+  "29": {
+   "tipo": "pregunta",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    28.2,
+    4.2
+   ],
+   "titulo": "Zer da herrialde justu bat?",
+   "texto": "Bi herrialdek aberastasun bera dute biztanleko. Batean, neskak ez dira eskolara joaten, ez dago ospitalerik gertu eta inork ez du denbora librerik. Bestean, bai.",
+   "pregunta": "Nola neurtzen da justizia?",
+   "opciones": [
+    {
+     "t": "Jendeak benetan egin eta izan dezakeenaren arabera: osasuna, hezkuntza, maitasuna, jolasa, ahotsa.",
+     "to": "FAA",
+     "marca": "m-capacidades"
+    },
+    {
+     "t": "Aberastasun eta zoriontasun osoaren arabera, nola banatzen diren kontuan hartu gabe.",
+     "to": "FQ",
+     "marca": "m-riqueza-total"
+    },
+    {
+     "t": "Bakoitzak bere bizitza aukeratzeko duen askatasunaren arabera.",
+     "to": "FO",
+     "marca": "m-libertad-elegir"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "nussbaum"
     }
    ]
   },
@@ -2025,6 +2254,117 @@ const RAYUELA_HF = {
     }
    ]
   },
+  "68": {
+   "tipo": "vida",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    30.2,
+    12.2
+   ],
+   "titulo": "Byung-Chul Hanen lorategia",
+   "texto": "Berlin, 2016 inguruan. Byung-Chul Hanek, nekearen gizarteaz hitz egiten duen filosofoak, hiru udaberri ematen ditu lorategi bat zaintzen: loreen izenak ikasten ditu, kimatu arte itxaroten du, eskuak zikintzen ditu. Lurraren laudorioa liburuan kontatzen du: lurrak pantailak ezagutzen ez duen denbora motel bat irakasten du.",
+   "pregunta": "Zer iruditzen zaizu?",
+   "opciones": [
+    {
+     "t": "Arrazoi duela: denbora motela, isiltasuna eta errealitatearekiko kontaktua berreskuratu behar dira.",
+     "to": "FAB",
+     "marca": "m-tiempo-lento"
+    },
+    {
+     "t": "Pribilegio bat dela: ez dago edonoren esku deskonektatzea.",
+     "to": "26",
+     "marca": "m-privilegio"
+    },
+    {
+     "t": "Gehiegikeria dela: teknologiak ere lotzen gaitu eta libreago egiten gaitu.",
+     "to": "101",
+     "marca": "m-tecno-libera"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "han"
+    }
+   ]
+  },
+  "69": {
+   "tipo": "vida",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    28.4,
+    8.6
+   ],
+   "titulo": "Baumanen erbestea",
+   "texto": "Varsovia, 1968. Erregimen komunistaren kanpaina antisemita batean, Zygmunt Baumanek unibertsitateko katedra galtzen du eta Polonia utzi behar du. Gaztetan ere naziengandik ihes egin behar izan zuen. Leedsen amaitzen du, Ingalaterran, eta bere bizitza ematen du ezer sendoa ez den mundu bat pentsatzen: ez lanpostuak, ez loturak, ez nortasunak.",
+   "pregunta": "Zer ikasten duzu harengandik?",
+   "opciones": [
+    {
+     "t": "Mundu likido batean lotura sendoak behar direla: elkar zaintzea.",
+     "to": "28",
+     "marca": "m-vinculos"
+    },
+    {
+     "t": "Merkatuarentzat baliagarria ez dena «giza hondakin» bihurtzen dela: sistema aldatu behar da.",
+     "to": "FS",
+     "marca": "m-residuo"
+    },
+    {
+     "t": "Ezeren parte ez izatea ere askatasun modu bat dela.",
+     "to": "27",
+     "marca": "m-no-pertenecer"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "bauman"
+    }
+   ]
+  },
+  "70": {
+   "tipo": "vida",
+   "red": 4,
+   "linea": "l-siglo21",
+   "xy": [
+    31.6,
+    7.2
+   ],
+   "titulo": "Butler São Paulon",
+   "texto": "São Paulo, 2017ko azaroa. Judith Butler demokraziari buruzko biltzar batera iristen da. Kalean, manifestari talde batek bere aurpegia duen panpina bat erretzen du, sorginez jantzita, «genero-ideologia» deitzen dutenaren aurka. Gero, artikulu batean, Butlerrek erantzuten du kontua dela pertsona guztiek indarkeriarik gabe bizi ahal izatea.",
+   "pregunta": "Zer esaten dizu eszenak?",
+   "opciones": [
+    {
+     "t": "Gorputzari buruzko arauak politikoak direla: eztabaidatu eta alda daitezke.",
+     "to": "FV",
+     "marca": "m-cuerpo-politico"
+    },
+    {
+     "t": "Gaiak beldurra ematen duela intimoena ukitzen duelako: arrazoiekin eta errespetuz hitz egin behar da.",
+     "to": "FW",
+     "marca": "m-hablar-respeto"
+    },
+    {
+     "t": "Denon gorputzak babestu behar direla, ahulenetatik hasita.",
+     "to": "28",
+     "marca": "m-vulnerables"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "butler"
+    }
+   ]
+  },
   "90": {
    "tipo": "contradiccion",
    "red": 1,
@@ -2518,6 +2858,90 @@ const RAYUELA_HF = {
    "autores": [
     {
      "id": "beauvoir"
+    }
+   ]
+  },
+  "101": {
+   "tipo": "contradiccion",
+   "red": 4,
+   "linea": "l-contradiccion",
+   "xy": [
+    29.2,
+    10.8
+   ],
+   "titulo": "Kontraesana: askatasun konektatua",
+   "texto": "Teknologia neutrala dela edo libre egiten zaituela diozu, baina baita ezin duzula mugikorra utzi edo plataformek harrapatzen zaituztela ere. Tresna batek erabakitzen badu zenbat denbora ematen duzun hura erabiltzen, tresna bat besterik ez al da?",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Onartzen dut ez dela neutrala: ni ere aldatzen nau.",
+     "to": "26"
+    },
+    {
+     "t": "Denbora batez deskonektatzen dut egiaztatzeko.",
+     "to": "FAB"
+    },
+    {
+     "t": "Tresna bat besterik ez dela diot, eta gainerakoa ere konponduko duela uste dut.",
+     "to": "28"
+    }
+   ],
+   "choque": [
+    "m-tecnologia-neutra",
+    "m-tecno-libera",
+    "m-autoexplotacion",
+    "m-plataformas",
+    "m-cansancio"
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "han"
+    }
+   ]
+  },
+  "102": {
+   "tipo": "contradiccion",
+   "red": 4,
+   "linea": "l-contradiccion",
+   "xy": [
+    30.8,
+    4.8
+   ],
+   "titulo": "Kontraesana: mugarik gabe hazi",
+   "texto": "Planeta zaindu nahi duzu eta, aldi berean, ekonomiak amaierarik gabe haztea edo teknikak dena konpontzea, gure bizitzan ezer aldatu gabe. Baina baliabide mugatuak dituen planeta batean ezin da betiko hazi.",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Onartzen dut mugak daudela: soberan dagoenean hazteari utzi behar zaio.",
+     "to": "FZ"
+    },
+    {
+     "t": "Merkatuak eta teknikak konponduko dutela diot.",
+     "to": "FO"
+    },
+    {
+     "t": "Galdetzen diot neure buruari zer behar duen benetan jendeak ondo bizitzeko.",
+     "to": "29"
+    }
+   ],
+   "choque": [
+    "m-tecno-solucion",
+    "m-tecnologia-neutra",
+    "m-consumidores",
+    "m-vinculos",
+    "m-vulnerables",
+    "m-generaciones",
+    "m-cuidar-vida"
+   ],
+   "temas": [
+    "hf-siglo21"
+   ],
+   "autores": [
+    {
+     "id": "herrero"
     }
    ]
   }
@@ -3055,6 +3479,60 @@ const RAYUELA_HF = {
    ],
    "temas": [
     "hf-existencialismo"
+   ]
+  },
+  "Z": {
+   "xy": [
+    27.2,
+    0.9
+   ],
+   "titulo": "Bizitza erdigunean jarri",
+   "texto": "Zuretzat ekonomiak bizitzaren zerbitzura egon behar du, eta ez alderantziz: naturaren eta beste pertsonen zaintzen mende gaude, eta bi gauza horiek ahazten dituen sistema bat bizitzaren aurkako gerran dago. Yayo Herreroren ekofeminismoa da.",
+   "abierto": "Nola aldatzen da sistema oso bat inor atzean utzi gabe?",
+   "reflexion": "Ba al dugu betebeharrik naturarekin eta etorkizuneko belaunaldiekin?",
+   "autores": [
+    {
+     "id": "herrero"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ]
+  },
+  "AA": {
+   "xy": [
+    28.2,
+    0.9
+   ],
+   "titulo": "Gaitasunak",
+   "texto": "Uste duzu gizarte bat justua dela pertsona guztiei bizitza duin baterako gaitasunak bermatzen badizkie: osasuna, hezkuntza, maitasuna, arrazoimen praktikoa, jolasa, parte-hartzea. Herrialde baten aberastasuna ez da nahikoa hori jakiteko. Martha Nussbaumen ikuspegia da.",
+   "abierto": "Nork erabakitzen du zein gaitasun diren oinarrizkoak kultura guztientzat?",
+   "reflexion": "Zer behar du pertsona batek bizitza duin bat izateko?",
+   "autores": [
+    {
+     "id": "nussbaum"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
+   ]
+  },
+  "AB": {
+   "xy": [
+    29.2,
+    0.9
+   ],
+   "titulo": "Denbora motela",
+   "texto": "Konturatzen zara inork ez zaituela zuk zeuk bezainbeste esplotatzen, beti gehiago errenditu dezakezula uste duzunean. Denbora motela, isiltasuna eta errealitatearekiko kontaktua berreskuratzea aukeratzen duzu. Byung-Chul Hanek nekearen gizarteari egiten dion kritika da.",
+   "abierto": "Deskonekta al daiteke mundutik kanpo geratu gabe?",
+   "reflexion": "Libreago egiten al gaitu teknologiak?",
+   "autores": [
+    {
+     "id": "han"
+    }
+   ],
+   "temas": [
+    "hf-siglo21"
    ]
   }
  }

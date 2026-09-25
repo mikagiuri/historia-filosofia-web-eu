@@ -127,7 +127,7 @@ function renderRayEstacion(){
   rayBox().querySelectorAll("[data-i]").forEach(b => b.addEventListener("click", () => {
     const o = ops[+b.dataset.i];
     ray.elec.push({ n: n, t: o.t, marca: o.marca || null });
-    if (/^F[A-Z]$/.test(o.to)){ ray.fin = o.to.slice(1); rayTerminar(); }
+    if (/^F[A-Z]{1,2}$/.test(o.to)){ ray.fin = o.to.slice(1); rayTerminar(); }
     else { ray.ruta.push(o.to); renderRayEstacion(); }
     const v = document.getElementById("rayuela"); if (v && v.getBoundingClientRect().top < 0) v.scrollIntoView({ block: "start" });
   }));
