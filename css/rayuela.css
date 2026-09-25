@@ -73,3 +73,13 @@
 @keyframes ray-in{ from{ opacity:0; transform:translateY(6px); } to{ opacity:1; transform:none; } }
 @keyframes ray-pulse{ 0%,100%{ transform:scale(1); opacity:.6; } 50%{ transform:scale(1.18); opacity:.2; } }
 @media (prefers-reduced-motion: reduce){ #rayuela .ray-card{ animation:none; } #rayuela .ray-halo{ animation:none; } #rayuela .ray-opt{ transition:none; } }
+
+#rayuela .ray-side-t{ margin:.1rem .3rem .4rem; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); font-weight:700; }
+#rayuela .ray-empty{ margin:1.2rem .6rem; color:var(--muted); font-size:.95rem; line-height:1.5; }
+#rayuela .ray-vbtn{ font:inherit; text-align:left; background:none; border:1px solid transparent; border-radius:10px; padding:.2rem .4rem; cursor:pointer; color:inherit; line-height:1.7; }
+#rayuela .ray-vbtn:hover{ border-color:var(--line); }
+#rayuela .ray-vbtn.sel{ border-color:var(--hf); background:var(--surface); }
+#rayuela .ray-map.ruta{ max-height:none; margin:0 auto; }
+#rayuela .ray-map.ruta .ray-lbl{ font-size:14px; }
+#rayuela .ray-map.ruta .ray-lbl.fin{ font-weight:700; }
+@media (min-width:980px){ #rayuela .ray-side{ max-height:calc(100vh - 6rem); overflow:auto; } }

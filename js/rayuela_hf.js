@@ -38,6 +38,11 @@ const RAYUELA_HF = {
    "color": "#e0701b"
   },
   {
+   "id": "l-igualdad",
+   "nombre": "Berdintasunaren linea",
+   "color": "#c2185b"
+  },
+  {
    "id": "l-contradiccion",
    "nombre": "Kontraesanak",
    "color": "#d23a2b"
@@ -52,6 +57,11 @@ const RAYUELA_HF = {
   {
    "n": 2,
    "nombre": "2. sarea · Modernoak: Galileotik Millera",
+   "abre": "2026-09-25"
+  },
+  {
+   "n": 3,
+   "nombre": "3. sarea · Garaikideak: Kantetik Beauvoirrera",
    "abre": "2026-09-25"
   }
  ],
@@ -288,6 +298,12 @@ const RAYUELA_HF = {
      "t": "Agian Jainkoa ez da hain ona: engainatzen egon liteke.",
      "to": "92",
      "marca": "m-dios-engana"
+    },
+    {
+     "t": "Eta Jainkoa hil bada, eta gaitzak ez badu azalpenik behar?",
+     "to": "21",
+     "marca": "m-muerte-dios",
+     "red": 3
     }
    ],
    "temas": [
@@ -470,6 +486,12 @@ const RAYUELA_HF = {
      "t": "Ez dago ezer… baina, badaezpada, beldurra ematen dit.",
      "to": "90",
      "marca": "m-nada-miedo"
+    },
+    {
+     "t": "Eta garrantzitsuena ez bada ondoren zer dagoen, baizik eta dudan bizitzarekin zer egiten dudan?",
+     "to": "23",
+     "marca": "m-que-hago",
+     "red": 3
     }
    ],
    "temas": [
@@ -558,6 +580,12 @@ const RAYUELA_HF = {
      "t": "Ez dakit, baina zientziak funtzionatzen du, eta horrekin aski dut.",
      "to": "16",
      "marca": "m-funciona"
+    },
+    {
+     "t": "Eta kausen beharrezkotasuna ez badu ohiturak jartzen, baizik eta gure adimenak berak?",
+     "to": "19",
+     "marca": "m-a-priori",
+     "red": 3
     }
    ],
    "temas": [
@@ -681,6 +709,12 @@ const RAYUELA_HF = {
      "t": "Boterea herriarena da: legeek borondate orokorra adierazi behar dute.",
      "to": "FP",
      "marca": "m-voluntad-general"
+    },
+    {
+     "t": "Eta benetako boterea ez badago gobernuan, dirua duenarengan baizik?",
+     "to": "20",
+     "marca": "m-poder-economico",
+     "red": 3
     }
    ],
    "temas": [
@@ -724,6 +758,12 @@ const RAYUELA_HF = {
      "t": "Araberakoa: plazer guztiak eta bizitza guztiak ez dira berdin neurtzen.",
      "to": "55",
      "marca": "m-calidad"
+    },
+    {
+     "t": "Guztientzat balio duen arau bat bilatzen dut, kontuak egin gabe.",
+     "to": "18",
+     "marca": "m-regla-universal",
+     "red": 3
     }
    ],
    "temas": [
@@ -735,6 +775,328 @@ const RAYUELA_HF = {
     },
     {
      "id": "mill"
+    }
+   ]
+  },
+  "17": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-conocimiento",
+   "xy": [
+    20.2,
+    12.8
+   ],
+   "titulo": "Ausartu pentsatzera!",
+   "texto": "Königsberg, 1784. Kantek Ilustrazioa definitzen du gizakia bere adingabetasunetik irtetea bezala: besteren gidaritzarik gabe bere adimena erabiltzeko ezintasunetik. Haren lema «Sapere aude» da: ausartu pentsatzera.",
+   "pregunta": "Ausartzen zara zeure kabuz pentsatzera?",
+   "opciones": [
+    {
+     "t": "Bai: arrazoia bera da guztientzat, eta tutorerik gabe erabil dezaket.",
+     "to": "19",
+     "marca": "m-autonomia"
+    },
+    {
+     "t": "Kontuz: arrazoi ilustratuak natura eta pertsonak menderatzeko ere balio izan du.",
+     "to": "20",
+     "marca": "m-razon-dominio"
+    },
+    {
+     "t": "Zer arrazoi? Garai eta kultura bakoitzak berea du.",
+     "to": "21",
+     "marca": "m-perspectivismo"
+    }
+   ],
+   "temas": [
+    "hf-ilustracion"
+   ],
+   "autores": [
+    {
+     "id": "kant"
+    },
+    {
+     "id": "adorno"
+    }
+   ]
+  },
+  "18": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-felicidad",
+   "xy": [
+    25.4,
+    10.6
+   ],
+   "titulo": "Betebeharra",
+   "texto": "Lagun bati sekretu bat gordetzea agindu diozu. Orain kontatzea oso ondo etorriko litzaizuke: inor ez litzateke jabetuko zu izan zarela.",
+   "pregunta": "Zer egiten duzu?",
+   "opciones": [
+    {
+     "t": "Gordetzen dut: guztientzat balio dezakeen arau baten arabera bakarrik jokatzen dut.",
+     "to": "FR",
+     "marca": "m-imperativo"
+    },
+    {
+     "t": "Kontatzen dut, horrela jende gehiago zoriontsuagoa bada.",
+     "to": "55",
+     "marca": "m-consecuencias"
+    },
+    {
+     "t": "Ez betebeharra, ez kalkulua: balioak nik erabakitzen ditut.",
+     "to": "21",
+     "marca": "m-valores-propios"
+    }
+   ],
+   "temas": [
+    "hf-etica-deber"
+   ],
+   "autores": [
+    {
+     "id": "kant"
+    },
+    {
+     "id": "mill"
+    }
+   ]
+  },
+  "19": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-conocimiento",
+   "xy": [
+    22.2,
+    12.8
+   ],
+   "titulo": "Arrazoiaren mugak",
+   "texto": "Kantek galdetzen du zer ezagut dezakeen arrazoiak eta non dauden haren mugak. Haren erantzunak filosofia aldatzen du: ez da ezagutza gauzetara egokitzen, gauzak baizik gure ezagutzeko moduari.",
+   "pregunta": "Mundua den bezala ezagutzen dugu?",
+   "opciones": [
+    {
+     "t": "Agertzen zaigun bezala bakarrik: gure adimenak jartzen ditu espazioa, denbora eta kausak.",
+     "to": "60",
+     "marca": "m-fenomeno"
+    },
+    {
+     "t": "Bai, eta gero eta hobeto: zientziak mundua den bezala ematen digu, eta gainerakoa berriketa da.",
+     "to": "22",
+     "marca": "m-cientificismo"
+    },
+    {
+     "t": "Ez dago gertakaririk, interpretazioak baizik.",
+     "to": "21",
+     "marca": "m-interpretaciones"
+    }
+   ],
+   "temas": [
+    "hf-kant"
+   ],
+   "autores": [
+    {
+     "id": "kant"
+    },
+    {
+     "id": "nietzsche"
+    }
+   ]
+  },
+  "20": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-ciudad",
+   "xy": [
+    19.4,
+    10.8
+   ],
+   "titulo": "Lantegia",
+   "texto": "Manchester, 1845. Egunean hamalau ordu egiten dituzu lan ehun-lantegi batean, zure seme-alaba txikiek bezala, eta goseak ez hiltzeko adina kobratzen duzu. Lantegiaren jabea urtero aberatsagoa da.",
+   "pregunta": "Zer ari da gertatzen?",
+   "opciones": [
+    {
+     "t": "Esplotazioa: batzuk bizi dira beste batzuek kobratzen ez duten lanetik.",
+     "to": "61",
+     "marca": "m-explotacion"
+    },
+    {
+     "t": "Merkatua da: bere kapitala arriskatzen duenak merezi du irabazia.",
+     "to": "FO",
+     "marca": "m-mercado"
+    },
+    {
+     "t": "Bidegabekeria bat, konponduko litzatekeena edonork onartuko lukeen banaketa batekin, zein toki egokituko zitzaion jakin gabe.",
+     "to": "FX",
+     "marca": "m-velo"
+    }
+   ],
+   "temas": [
+    "hf-capitalismo",
+    "hf-sospecha"
+   ],
+   "autores": [
+    {
+     "id": "marx"
+    },
+    {
+     "id": "rawls"
+    }
+   ]
+  },
+  "21": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-dios",
+   "xy": [
+    21.6,
+    9.4
+   ],
+   "titulo": "Jainkoa hil da",
+   "texto": "«Jainkoa hil da, eta guk hil dugu», idazten du Nietzschek 1882an. Ez du erlijioaz hitz egiten, zerbait larriagoaz baizik: jada ez dago oinarri ziurrik —Jainkoa, arrazoia, egia— zerk balio duen eta zerk ez esateko.",
+   "pregunta": "Eta orain zer?",
+   "opciones": [
+    {
+     "t": "Nire balioak sortu eta bizitzari baietz esan, min ematen duenari ere bai.",
+     "to": "62",
+     "marca": "m-crear-valores"
+    },
+    {
+     "t": "Ezerk oinarririk ez badu, ezerk ez du merezi.",
+     "to": "95",
+     "marca": "m-nada-vale"
+    },
+    {
+     "t": "Jainkorik gabe, guztion arteko elkarrizketa arrazionalak arau komunak eman diezazkiguke.",
+     "to": "FW",
+     "marca": "m-dialogo"
+    }
+   ],
+   "temas": [
+    "hf-sospecha",
+    "hf-posmodernidad"
+   ],
+   "autores": [
+    {
+     "id": "nietzsche"
+    },
+    {
+     "id": "habermas"
+    }
+   ]
+  },
+  "22": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-conocimiento",
+   "xy": [
+    23.2,
+    10.6
+   ],
+   "titulo": "Hizkuntza",
+   "texto": "XX. mendearen hasieran, filosofo askok susmo bat dute: agian filosofiaren arazo asko ez dira munduaren arazoak, hizkuntzaren gaizkiulertuak baizik.",
+   "pregunta": "Zer pentsatzen duzu hizkuntzaz?",
+   "opciones": [
+    {
+     "t": "Argi esan ezin dena, hobe isiltzea.",
+     "to": "63",
+     "marca": "m-callar"
+    },
+    {
+     "t": "Hitz baten esanahia bere erabilera dela: hizkuntza-jokoetan jolastuz ikasten dugu hitz egiten.",
+     "to": "FW",
+     "marca": "m-uso"
+    },
+    {
+     "t": "Ez dela neutrala: batzuk araua bezala izendatzen ditu, eta beste batzuk «bestea» bezala.",
+     "to": "24",
+     "marca": "m-lenguaje-poder"
+    }
+   ],
+   "temas": [
+    "hf-analitica"
+   ],
+   "autores": [
+    {
+     "id": "wittgenstein"
+    }
+   ]
+  },
+  "23": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-alma",
+   "xy": [
+    23.4,
+    6.6
+   ],
+   "titulo": "Existentzia",
+   "texto": "Inork ez dizu galdetu jaio nahi zenuen. Hemen zaude, aukeratu ez zenituen garai eta leku batean, eta zure bizitzarekin zer egin erabaki behar duzu, inork jarraibide-eskuliburua eman gabe.",
+   "pregunta": "Zer egiten duzu zure existentziarekin?",
+   "opciones": [
+    {
+     "t": "Libre izatera kondenatuta nago: egiten dudana naiz.",
+     "to": "64",
+     "marca": "m-condenado-libre"
+    },
+    {
+     "t": "Bizitza absurdoa da, eta, hala ere, matxinadaz bizi behar da.",
+     "to": "FU",
+     "marca": "m-absurdo"
+    },
+    {
+     "t": "Nire zirkunstantziatik ulertzen dut, eta sentitzen dudana ere entzuten duen arrazoi batekin.",
+     "to": "66",
+     "marca": "m-circunstancia"
+    }
+   ],
+   "temas": [
+    "hf-existencialismo"
+   ],
+   "autores": [
+    {
+     "id": "sartre"
+    },
+    {
+     "id": "camus"
+    },
+    {
+     "id": "ortega"
+    }
+   ]
+  },
+  "24": {
+   "tipo": "pregunta",
+   "red": 3,
+   "linea": "l-igualdad",
+   "xy": [
+    22.6,
+    4.6
+   ],
+   "titulo": "Ez da emakume jaiotzen",
+   "texto": "«Ez da emakume jaiotzen: emakume egiten da», idazten du Simone de Beauvoirrek 1949an. Esaldia feminismo garaikidearen abiapuntuetako bat bihurtzen da.",
+   "pregunta": "Zer esan nahi du?",
+   "opciones": [
+    {
+     "t": "Femeninoa eraikuntza soziala dela, ez patu biologikoa.",
+     "to": "65",
+     "marca": "m-construccion"
+    },
+    {
+     "t": "Gizonak eta emakumeak eskubidetan berdinak direla, eta legeetan aitortu behar dela.",
+     "to": "67",
+     "marca": "m-derechos-todas"
+    },
+    {
+     "t": "Gehiegikeria dela: sexu bakoitzak bere izaera eta bere zeregina ditu.",
+     "to": "100",
+     "marca": "m-naturaleza-sexo"
+    }
+   ],
+   "temas": [
+    "hf-beauvoir"
+   ],
+   "autores": [
+    {
+     "id": "beauvoir"
+    },
+    {
+     "id": "wollstonecraft"
     }
    ]
   },
@@ -1262,6 +1624,12 @@ const RAYUELA_HF = {
      "t": "Gizarteak usteltzen badu, hobe dela aparte bizitzea.",
      "to": "FC",
      "marca": "m-aparte"
+    },
+    {
+     "t": "Jakin nahi dut zer den norbere kabuz pentsatzera ausartzea, Ilustrazioak eskatzen zuen bezala.",
+     "to": "17",
+     "marca": "m-ilustracion",
+     "red": 3
     }
    ],
    "temas": [
@@ -1348,6 +1716,312 @@ const RAYUELA_HF = {
    "autores": [
     {
      "id": "maquiavelo"
+    }
+   ]
+  },
+  "60": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-conocimiento",
+   "xy": [
+    24.2,
+    12.2
+   ],
+   "titulo": "Kanten ibilaldia",
+   "texto": "Königsberg, 1780 inguruan. Kant ez da inoiz bere hiritik irteten. Bostetan jaikitzen da, klaseak ematen ditu, idazten du eta, arratsaldero, ordu berean ateratzen da paseatzera etorbide beretik; bizilagunek, diotenez, erlojua ordu jartzen zuten hura pasatzen ikustean. Behin bakarrik utzi zion paseoari: etxean geratu zen Rousseauren Emilio irakurtzen.",
+   "pregunta": "Zer iruditzen zaizu hain bizitza erregularra?",
+   "opciones": [
+    {
+     "t": "Koherentea: librea izatea norberari legea ematea eta hura betetzea da.",
+     "to": "18",
+     "marca": "m-autonomia"
+    },
+    {
+     "t": "Zintzoa: mugak jartzen dizkio arrazoiari; Jainkoaz edo arimaz ezin dugu ezer jakin.",
+     "to": "21",
+     "marca": "m-limites-razon"
+    },
+    {
+     "t": "Ordena gehiegi: bizitza ez da arauetan sartzen.",
+     "to": "23",
+     "marca": "m-vida-sin-reglas"
+    }
+   ],
+   "temas": [
+    "hf-kant",
+    "hf-etica-deber"
+   ],
+   "autores": [
+    {
+     "id": "kant"
+    }
+   ]
+  },
+  "61": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-ciudad",
+   "xy": [
+    19.2,
+    8.6
+   ],
+   "titulo": "Marx Museo Britainiarrean",
+   "texto": "Londres, 1850eko hamarkada. Marx erbestean eta pobrezian bizi da; bere hiru seme-alaba txikitan hiltzen zaizkio. Egunero Museo Britainiarreko irakurketa-aretora joaten da ekonomia ikastera, Kapitala idazteko. Idatzita utzia zuen jada: filosofoek mundua interpretatu besterik ez dute egin; kontua hura eraldatzea da.",
+   "pregunta": "Zer iruditzen zaizu haren tesia?",
+   "opciones": [
+    {
+     "t": "Arrazoi du: mundua aldatu behar da, ez pentsatu bakarrik.",
+     "to": "FS",
+     "marca": "m-transformar"
+    },
+    {
+     "t": "Eraldatu, bai, baina inoiz ez bakoitzaren askatasunaren kontura.",
+     "to": "99",
+     "marca": "m-libertad-primero"
+    },
+    {
+     "t": "Susmoa urrunago irits daiteke: morala eta arrazoia ere interesak ezkutatzen dituzte.",
+     "to": "21",
+     "marca": "m-sospecha"
+    }
+   ],
+   "temas": [
+    "hf-capitalismo",
+    "hf-sospecha"
+   ],
+   "autores": [
+    {
+     "id": "marx"
+    }
+   ]
+  },
+  "62": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-dios",
+   "xy": [
+    22.6,
+    8
+   ],
+   "titulo": "Nietzsche Turinen",
+   "texto": "Turin, 1889ko urtarrila. Nietzschek ikusten du gurdizain batek bere zaldia zigortzen duela plazan. Animaliarengana korrika joan, haren lepoari negarrez besarkatu eta erori egiten da. Ez du berriro zentzua berreskuratuko. Errukia kritikatu zuen filosofoak zaldi bati besarkatuta amaitzen ditu bere egun argiak.",
+   "pregunta": "Zer ikusten duzu eszenan?",
+   "opciones": [
+    {
+     "t": "Bizitza osoari baietz esan nahi izan zion gizona, minari ere bai.",
+     "to": "FT",
+     "marca": "m-si-a-la-vida"
+    },
+    {
+     "t": "Jainkorik gabe dena hondoratzen dela erakusten duen froga.",
+     "to": "95",
+     "marca": "m-todo-se-hunde"
+    },
+    {
+     "t": "Kritikatzen zuen errukia bere barruan zegoela.",
+     "to": "23",
+     "marca": "m-compasion"
+    }
+   ],
+   "temas": [
+    "hf-sospecha",
+    "hf-posmodernidad"
+   ],
+   "autores": [
+    {
+     "id": "nietzsche"
+    }
+   ]
+  },
+  "63": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-conocimiento",
+   "xy": [
+    24.6,
+    8.8
+   ],
+   "titulo": "Wittgenstein lubakian",
+   "texto": "Ekialdeko frontea, 1916. Wittgensteinek, Europako familia aberatsenetako baten semeak, soldadu soil gisa izena eman du. Posturik arriskutsuenak eskatzen ditu eta, borroka baten eta bestearen artean, koaderno batean Tractatus idazten du. Gerratik itzultzean, bere fortuna osoa oparitzen du eta herri-eskola bateko maisu egiten da.",
+   "pregunta": "Zer pentsatzen duzu?",
+   "opciones": [
+    {
+     "t": "Garrantzitsuena —etika, bizitzaren zentzua— ez dela esaten: bizitzean erakusten da.",
+     "to": "23",
+     "marca": "m-mostrar"
+    },
+    {
+     "t": "Garrantzitsu guztia esan ezina bada, filosofiak ez duela ezertarako balio.",
+     "to": "FD",
+     "marca": "m-filosofia-inutil"
+    },
+    {
+     "t": "Ondo egin zuela bizitza eta, geroago, ideiak aldatzean: pentsatzea norbere burua zuzentzea da.",
+     "to": "FW",
+     "marca": "m-corregirse"
+    }
+   ],
+   "temas": [
+    "hf-analitica"
+   ],
+   "autores": [
+    {
+     "id": "wittgenstein"
+    }
+   ]
+  },
+  "64": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-alma",
+   "xy": [
+    24.8,
+    6.8
+   ],
+   "titulo": "Sartrek Nobela baztertzen du",
+   "texto": "Paris, 1964. Suediako Akademiak Literaturako Nobel Saria ematen dio Jean-Paul Sartreri. Hark ezetz dio: idazle batek ez du bere burua erakunde bihurtzen utzi behar. Saria borondatez baztertzen duen lehena da.",
+   "pregunta": "Zer iruditzen zaizu haren keinua?",
+   "opciones": [
+    {
+     "t": "Koherentea: inork ezin nau definitu, nire egintzek izan ezik.",
+     "to": "FU",
+     "marca": "m-actos"
+    },
+    {
+     "t": "Ondo, baina nire askatasuna besteenaren araberakoa ere bada, Beauvoirrek zioen bezala.",
+     "to": "24",
+     "marca": "m-libertad-otros"
+    },
+    {
+     "t": "Nahiago dut arrazoi apalago bat, bizi duenak ukitzen uzten diona.",
+     "to": "66",
+     "marca": "m-razon-humilde"
+    }
+   ],
+   "temas": [
+    "hf-existencialismo"
+   ],
+   "autores": [
+    {
+     "id": "sartre"
+    }
+   ]
+  },
+  "65": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-igualdad",
+   "xy": [
+    21.2,
+    3.6
+   ],
+   "titulo": "Beauvoir Indizean",
+   "texto": "Paris, 1949. Simone de Beauvoirrek Bigarren sexua argitaratzen du. Hogeita bi mila ale saltzen ditu aste batean, irainak eta gutun sutsuak jasotzen ditu, eta Vatikanoak liburu debekatuen Indizean sartzen du. Gaur egun mundu osoan irakurtzen da.",
+   "pregunta": "Zer zegoen jokoan liburu horrekin?",
+   "opciones": [
+    {
+     "t": "Emakumeen askatasuna: inork ez ditu kanpotik definitu behar.",
+     "to": "FV",
+     "marca": "m-libertad-mujeres"
+    },
+    {
+     "t": "Denon askatasuna: pertsona batzuen zapalkuntzak besteen askatasuna mugatzen du.",
+     "to": "FU",
+     "marca": "m-libertad-todos"
+    },
+    {
+     "t": "Gaur egun garrantzirik ez duen ezer: arazo konpondua da.",
+     "to": "100",
+     "marca": "m-resuelto"
+    }
+   ],
+   "temas": [
+    "hf-beauvoir"
+   ],
+   "autores": [
+    {
+     "id": "beauvoir"
+    }
+   ]
+  },
+  "66": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-alma",
+   "xy": [
+    25.6,
+    5.2
+   ],
+   "titulo": "Zambrano mugaz bestaldera",
+   "texto": "Pirinioak, 1939ko urtarrila. María Zambranok, Ortegaren ikasleak, oinez igarotzen du muga bere amarekin, Gerra Zibiletik ihesi doan jendetzaren artean. Berrogeita bost urteko erbestea hasten du Mexikon, Kuban, Italian eta Suitzan. Han «arrazoi poetiko» bat pentsatzen du: sentitzen dena mespretxatzen ez duen arrazoia.",
+   "pregunta": "Zer ikasten duzu harengandik?",
+   "opciones": [
+    {
+     "t": "Arrazoiak poetiko bihurtu behar duela, eta sentitzen dugunari eta esaten ez dakigunari ireki.",
+     "to": "FY",
+     "marca": "m-razon-poetica"
+    },
+    {
+     "t": "Ni neu eta nire zirkunstantzia naizela: norbere bizitzatik pentsatu behar da, Ortegak zioen bezala.",
+     "to": "FY",
+     "marca": "m-razon-vital"
+    },
+    {
+     "t": "Politikak erabakitzen dituela gure bizitzak: konprometitu egin behar da.",
+     "to": "FU",
+     "marca": "m-compromiso"
+    }
+   ],
+   "temas": [
+    "hf-existencialismo"
+   ],
+   "autores": [
+    {
+     "id": "zambrano"
+    },
+    {
+     "id": "ortega"
+    }
+   ]
+  },
+  "67": {
+   "tipo": "vida",
+   "red": 3,
+   "linea": "l-igualdad",
+   "xy": [
+    23.8,
+    3.4
+   ],
+   "titulo": "Olympe de Gouges",
+   "texto": "Paris, 1791. Iraultzak gizonaren eta herritarraren eskubideak aldarrikatu ditu. Olympe de Gougesek Emakumearen eta Herritar Emakumearen Eskubideen Adierazpenarekin erantzuten du: «Emakumeak eskubidea du urkamendira igotzeko; tribunara igotzekoa ere izan behar du». 1793an gillotinatu egiten dute.",
+   "pregunta": "Zer ondorioztatzen duzu?",
+   "opciones": [
+    {
+     "t": "Arrazoi zuela: eskubideak pertsona guztienak dira, edo ez dira eskubideak.",
+     "to": "FV",
+     "marca": "m-universalidad"
+    },
+    {
+     "t": "Legearen aurreko berdintasuna ez dela nahikoa desberdintasunak jarraitzen badu ekonomian eta etxean.",
+     "to": "FS",
+     "marca": "m-igualdad-real"
+    },
+    {
+     "t": "Adierazpenek ez dutela balio eskubideak babesten dituzten erakunderik gabe.",
+     "to": "FO",
+     "marca": "m-instituciones"
+    }
+   ],
+   "temas": [
+    "hf-ilustracion",
+    "hf-beauvoir"
+   ],
+   "autores": [
+    {
+     "id": "gouges"
+    },
+    {
+     "id": "wollstonecraft"
     }
    ]
   },
@@ -1579,6 +2253,48 @@ const RAYUELA_HF = {
     }
    ]
   },
+  "95": {
+   "tipo": "contradiccion",
+   "red": 3,
+   "linea": "l-contradiccion",
+   "xy": [
+    21.4,
+    5.8
+   ],
+   "titulo": "Kontraesana: ezerk ez du balio, baina aukeratzen duzu",
+   "texto": "Ezerk ez duela merezi diozu, baina aukeratzen, eztabaidatzen eta gauzak nahi izaten jarraitzen duzu: aukera bakoitzarekin esaten duzu zerbaitek beste zerbaitek baino gehiago balio duela. Nietzschek nihilismo pasiboa deitzen zion jarrera horri, eta gainditu nahi zuen.",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Nire balioak sortzen ditut.",
+     "to": "FT"
+    },
+    {
+     "t": "Zentzua bilatzen dut nire bizitzarekin egiten dudanean.",
+     "to": "23"
+    },
+    {
+     "t": "Horri eusten diot: ezerk ez du ezer balio.",
+     "to": "FJ"
+    }
+   ],
+   "choque": [
+    "m-nada-vale",
+    "m-todo-se-hunde",
+    "m-valores-propios",
+    "m-crear-valores",
+    "m-autonomia",
+    "m-imperativo"
+   ],
+   "temas": [
+    "hf-posmodernidad"
+   ],
+   "autores": [
+    {
+     "id": "nietzsche"
+    }
+   ]
+  },
   "96": {
    "tipo": "contradiccion",
    "red": 2,
@@ -1707,6 +2423,101 @@ const RAYUELA_HF = {
    "autores": [
     {
      "id": "mill"
+    }
+   ]
+  },
+  "99": {
+   "tipo": "contradiccion",
+   "red": 3,
+   "linea": "l-contradiccion",
+   "xy": [
+    20.4,
+    7.2
+   ],
+   "titulo": "Kontraesana: berdintasuna ala jabetza",
+   "texto": "Esplotazioa salatzen duzu eta, aldi berean, jabetza eta merkatua ukiezinak direla defendatzen duzu; edo dena eraldatu nahi duzu inork ezer galdu gabe. Marxek eta Lockek ezin dute aldi berean arrazoia izan jabetzari buruz.",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Berdintasuna doa lehenengo.",
+     "to": "FS"
+    },
+    {
+     "t": "Askatasuna doa lehenengo.",
+     "to": "FO"
+    },
+    {
+     "t": "Mundu guztiak onar dezakeen banaketa bat bilatzen dut.",
+     "to": "FX"
+    }
+   ],
+   "choque": [
+    "m-explotacion",
+    "m-transformar",
+    "m-libertad-primero",
+    "m-mercado",
+    "m-derechos-naturales",
+    "m-poder-limitado",
+    "m-libertad-individual",
+    "m-poder-economico"
+   ],
+   "temas": [
+    "hf-capitalismo"
+   ],
+   "autores": [
+    {
+     "id": "marx"
+    },
+    {
+     "id": "locke"
+    },
+    {
+     "id": "rawls"
+    }
+   ]
+  },
+  "100": {
+   "tipo": "contradiccion",
+   "red": 3,
+   "linea": "l-contradiccion",
+   "xy": [
+    25,
+    2.8
+   ],
+   "titulo": "Kontraesana: askatasuna ala patua",
+   "texto": "Libreak garela defendatu duzu, eskubideak denonak direla edo bakoitzak bere burua egiten duela; eta orain, sexuak patu bat markatzen duela, edo desberdintasunik ez dagoela jada. Beauvoirrek galdetuko luke: libreak denok, ala batzuk bakarrik?",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Zuzentzen dut: inor ez da patu idatzi batekin jaiotzen.",
+     "to": "FV"
+    },
+    {
+     "t": "Onartzen dut libreak garela, biologiak ere badu bere eragina.",
+     "to": "FU"
+    },
+    {
+     "t": "Horri eusten diot: sexu bakoitzak bere patu naturala du.",
+     "to": "FK"
+    }
+   ],
+   "choque": [
+    "m-naturaleza-sexo",
+    "m-resuelto",
+    "m-condenado-libre",
+    "m-autonomia",
+    "m-derechos-todas",
+    "m-libertad-otros",
+    "m-actos",
+    "m-derechos-naturales"
+   ],
+   "temas": [
+    "hf-beauvoir",
+    "hf-existencialismo"
+   ],
+   "autores": [
+    {
+     "id": "beauvoir"
     }
    ]
   }
@@ -2072,6 +2883,178 @@ const RAYUELA_HF = {
    ],
    "temas": [
     "hf-utilitarismo"
+   ]
+  },
+  "R": {
+   "xy": [
+    19.2,
+    0.9
+   ],
+   "titulo": "Autonomia",
+   "texto": "Uste duzu morala ez dagoela ondorioen mende, ezta nahi duzunaren mende ere, baizik eta guztientzat balio dezakeen arau baten arabera jokatzean, eta pertsonak beti helburutzat tratatzean, eta inoiz ez bitarteko soiltzat. Kanten inperatibo kategorikoa da.",
+   "abierto": "Eta arau unibertsal bat betetzeak kalte egiten badu kasu zehatz batean, adibidez norbaiti kalte egiteko bila dabilenari gezurrik ez esateak?",
+   "reflexion": "Gure betebeharra bete behar al dugu ondorioak txarrak badira ere?",
+   "autores": [
+    {
+     "id": "kant"
+    }
+   ],
+   "temas": [
+    "hf-kant",
+    "hf-etica-deber"
+   ]
+  },
+  "S": {
+   "xy": [
+    20.2,
+    0.9
+   ],
+   "titulo": "Emantzipazioa",
+   "texto": "Zuretzat filosofiak ez du nahikoa mundua ulertzearekin: aldatu egin behar da. Desberdintasuna ez da naturala, lana eta jabetza antolatzeko moduaren ondorioa baizik, eta gainditu daiteke. Marxen linea da eta, XX. mendean, Frankfurteko Eskolarena.",
+   "abierto": "Nola eraldatzen da gizartea eraldaketa zapalkuntza berri batean amaitu gabe?",
+   "reflexion": "Posible al da desberdintasunik gabeko gizarte bat?",
+   "autores": [
+    {
+     "id": "marx"
+    },
+    {
+     "id": "adorno"
+    }
+   ],
+   "temas": [
+    "hf-capitalismo",
+    "hf-sospecha"
+   ]
+  },
+  "T": {
+   "xy": [
+    21.2,
+    0.9
+   ],
+   "titulo": "Balioak sortu",
+   "texto": "Oinarri absoluturik gabe, ez zara hondoratzen: zure balioak sortzea eta bizitza osoari baietz esatea erabakitzen duzu, minari ere bai. Nietzschek gaingizakiaren irudiarekin planteatu zuen erronka da.",
+   "abierto": "Bakoitzak bere balioak sortzen baditu, zer irizpiderekin kritika ditzakegu besteren balioak?",
+   "reflexion": "Ba al dago balio unibertsalik, ala pertsona bakoitzak sortzen ditu?",
+   "autores": [
+    {
+     "id": "nietzsche"
+    }
+   ],
+   "temas": [
+    "hf-posmodernidad",
+    "hf-sospecha"
+   ]
+  },
+  "U": {
+   "xy": [
+    22.2,
+    0.9
+   ],
+   "titulo": "Existentzialista",
+   "texto": "Zuretzat existentzia esentziaren aurretik dago: ez zara izaera finko batekin jaiotzen, aukeratzen duzunarekin egiten zara, eta horren erantzule zara. Sartreren, Camusen eta Beauvoirren linea da.",
+   "abierto": "Guztiz libreak bagara, zenbateko eragina dute gizarte-klaseak, hezkuntzak edo gorputzak garen horretan?",
+   "reflexion": "Egiten duguna al gara?",
+   "autores": [
+    {
+     "id": "sartre"
+    },
+    {
+     "id": "camus"
+    },
+    {
+     "id": "beauvoir"
+    }
+   ],
+   "temas": [
+    "hf-existencialismo"
+   ]
+  },
+  "V": {
+   "xy": [
+    23.2,
+    0.9
+   ],
+   "titulo": "Feminista",
+   "texto": "Uste duzu emakumeen eta gizonen arteko desberdintasuna ez dela naturala, eraikia baizik, eta eskubideak pertsona guztienak direla edo ez direla eskubideak. Olympe de Gouges eta Mary Wollstonecraftengandik Simone de Beauvoirrenganaino doan linea da.",
+   "abierto": "Nahikoa al da legeetako berdintasunarekin, ala eguneroko bizitza ere aldatu behar da?",
+   "reflexion": "Generoa eraikuntza soziala al da?",
+   "autores": [
+    {
+     "id": "beauvoir"
+    },
+    {
+     "id": "wollstonecraft"
+    },
+    {
+     "id": "gouges"
+    }
+   ],
+   "temas": [
+    "hf-beauvoir"
+   ]
+  },
+  "W": {
+   "xy": [
+    24.2,
+    0.9
+   ],
+   "titulo": "Arrazoi dialogikoa",
+   "texto": "Oinarri absoluturik gabe, konfiantza duzu guztion arteko elkarrizketak, hertsadurarik gabe eta arrazoiak emanez, arau komunetara eraman gaitzakeela. Habermasen proposamena da, dena balio duela diotenen aurrean.",
+   "abierto": "Zer gertatzen da elkarrizketan berdintasunean parte hartu ezin dutenekin?",
+   "reflexion": "Konpon ditzake elkarrizketak desadostasun moralak?",
+   "autores": [
+    {
+     "id": "habermas"
+    },
+    {
+     "id": "wittgenstein"
+    }
+   ],
+   "temas": [
+    "hf-posmodernidad",
+    "hf-analitica"
+   ]
+  },
+  "X": {
+   "xy": [
+    25.2,
+    0.9
+   ],
+   "titulo": "Justizia ekitate gisa",
+   "texto": "Uste duzu gizarte justua dela aukeratuko genukeena, bertan zein toki egokituko zitzaigun jakingo ez bagenu: askatasun berdinak guztientzat, eta desberdintasunak okerren daudenei mesede egiten badiete bakarrik. Rawlsen ezjakintasunaren beloa da.",
+   "abierto": "Zenbat desberdintasun onar daiteke gizarte batek justua izaten jarraitzeko?",
+   "reflexion": "Zerk egiten du justu gizarte bat?",
+   "autores": [
+    {
+     "id": "rawls"
+    }
+   ],
+   "temas": [
+    "hf-capitalismo"
+   ]
+  },
+  "Y": {
+   "xy": [
+    26.2,
+    0.9
+   ],
+   "titulo": "Arrazoi bitala eta poetikoa",
+   "texto": "Zuretzat pentsatzea norbere bizitzatik eta haren zirkunstantziatik pentsatzea da, sentimenduak eta esaten ez dakiguna mespretxatzen ez dituen arrazoi batekin. Ortega y Gassetena, María Zambranorena eta, bere erara, Unamunorena da filosofia hori.",
+   "abierto": "Arrazoia sentimenduei irekitzen bazaie, nola saihesten dugu besterik gabe apetatzen zaiguna arrazoitzea?",
+   "reflexion": "Uler dezake arrazoiak bizitza?",
+   "autores": [
+    {
+     "id": "ortega"
+    },
+    {
+     "id": "zambrano"
+    },
+    {
+     "id": "unamuno"
+    }
+   ],
+   "temas": [
+    "hf-existencialismo"
    ]
   }
  }
