@@ -429,6 +429,221 @@ const RAYUELA_HF = {
    ],
    "titulo": "Denetatik aske ala besteekin lotuta?",
    "texto": "Erantzun batean lotura sendoak eta elkar zaintzea eskatzen dituzu; beste batean, ezerk lotzen ez zaituela ospatzen duzu. Baumanek esango luke loturarik gabeko askatasun hori turistarena dela: arina dena ondo doan bitartean, bakartia gauzak okertzen direnean. Beauvoirrek gehituko luke inor ez dela guztiz aske besteak aske ez badira."
+  },
+  {
+   "id": "t-azar-necesidad",
+   "grado": "contradiccion",
+   "a": [
+    "m-azar"
+   ],
+   "b": [
+    "m-monismo",
+    "m-causa-necesaria",
+    "m-determinismo",
+    "m-libertad-necesidad"
+   ],
+   "titulo": "Zoria ala beharra?",
+   "texto": "Erantzun batean diozu dena zoriaren eta atomoen talkaren emaitza dela; beste batean, dena beharrez gertatzen dela, beste modu batera izan ezin diren kausen arabera. Biak ezin dira aldi berean egia izan: dena beharrezkoa bada, ezer ez da kasualitatea. Demokritok uste zuen atomoak beharrez mugitzen direla; Epikurok zorizko desbideratze txiki bat gehitu zien, askatasunari lekua egiteko, eta Spinozarentzat zoria gure ezjakintasunaren izena besterik ez da."
+  },
+  {
+   "id": "t-determinismo-deber",
+   "grado": "contradiccion",
+   "a": [
+    "m-determinismo"
+   ],
+   "b": [
+    "m-imperativo",
+    "m-regla-universal",
+    "m-autonomia",
+    "m-actos",
+    "m-condenado-libre"
+   ],
+   "titulo": "Inor ez da arduradun… baina betebeharrak daude",
+   "texto": "Erantzun batean diozu, dena beharrez gertatzen bada, inor ez dela ezeren arduradun; beste batean, guztientzat balio lezakeen arau baten arabera jokatu behar dela, edo egiten duzuna zarela. Baina ezin zaio inori betebehar bat betetzeko eskatu, hura betetzea aukeratu ezin badu. Kantek honela laburtzen zuen: «behar duzu, beraz ahal duzu». Sartre urrunago zihoan: determinismoa fede txarreko aitzakia da."
+  },
+  {
+   "id": "t-desobedecer-autoridad",
+   "grado": "tension",
+   "a": [
+    "m-desobedecer"
+   ],
+   "b": [
+    "m-autoridad",
+    "m-absolutismo"
+   ],
+   "titulo": "Lege bidegabea desobeditu, ala agintariak erabaki?",
+   "texto": "Erantzun batean diozu, lege bat bidegabea bada, batzuetan zuzena dela hura desobeditzea; beste batean, agintariak duela zer irakatsi erabakitzeko eskubidea, edo hobe dela subirano bat botere osoarekin kaosa baino. Subiranoak dena erabakitzen badu, nork epaitzen du noiz den lege bat bidegabea? Hobbesentzat, desobeditzeak denen arteko gerrara itzultzen gaitu; Thoreaurentzat, lege bidegabe baten aurrean pertsona zuzenaren lekua kartzela da."
+  },
+  {
+   "id": "t-costumbre-ciencia",
+   "grado": "tension",
+   "a": [
+    "m-habito",
+    "m-fenomeno"
+   ],
+   "b": [
+    "m-cientificismo"
+   ],
+   "titulo": "Kausa ohitura bada, zer ematen digu zientziak?",
+   "texto": "Erantzun batean diozu kausaren eta ondorioaren arteko lotura ohiturak jartzen duela, edo mundua agertzen zaigun bezala baino ez dugula ezagutzen; beste batean, zientziak mundua den bezala ematen digula, eta gainerakoa hitz hutsak direla. Baina zientzia kausetan eta legeetan oinarritzen da: haien beharra gure adimenak jartzen badu, zientziak ezin dizkigu gauzak berez diren bezala eman. Humek eta Kantek ez zuten zientzia gutxiesten, baina mugak jartzen zizkioten."
+  },
+  {
+   "id": "t-sospecha-razon",
+   "grado": "tension",
+   "a": [
+    "m-sospecha"
+   ],
+   "b": [
+    "m-autonomia",
+    "m-razon",
+    "m-certeza-sin-dios",
+    "m-cientificismo"
+   ],
+   "titulo": "Arrazoimenaz susmatzen duzu… eta hartaz fidatzen zara",
+   "texto": "Erantzun batean arrazoimenaz susmatzen duzu: agian engainatu egiten zaitu, edo interesak ezkutatzen ditu; beste batean hartaz fidatzen zara ziurtasunez ezagutzeko edo zure kabuz pentsatzeko. Egin daiteke, baina kontuz: arrazoimenaz susmatzeko ere hura erabili behar da. Descartesek denaz egin zuen zalantza zerbait seguru aurkitzeko; Marxek, Nietzschek eta Freudek, «susmoaren maisuek», galdetzen irakatsi ziguten nori egiten dion mesede zentzuzkotzat jotzen dugunak."
+  },
+  {
+   "id": "t-tecnica-dominio",
+   "grado": "tension",
+   "a": [
+    "m-razon-dominio"
+   ],
+   "b": [
+    "m-tecnologia-neutra",
+    "m-tecno-libera",
+    "m-tecno-solucion"
+   ],
+   "titulo": "Teknika neutrala da, ala menderatzeko balio du?",
+   "texto": "Erantzun batean ohartarazten duzu arrazoimen ilustratuak natura eta pertsonak menderatzeko ere balio izan duela; beste batean, teknologia neutrala dela, askeago egiten gaituela edo planetaren arazoak konponduko dituela. Adornok eta Horkheimerrek esango lukete teknika ez dela inoiz tresna hutsa: barruan darama mundua ustiatzeko zerbait bezala ikusteko modu bat. Zergatik fidatzen zara orain lehen susmagarri iruditzen zitzaizunaz?"
+  },
+  {
+   "id": "t-libertad-agota",
+   "grado": "tension",
+   "a": [
+    "m-autoexplotacion",
+    "m-cansancio"
+   ],
+   "b": [
+    "m-nada-me-ata",
+    "m-tecno-libera"
+   ],
+   "titulo": "Nekatzen duen askatasuna",
+   "texto": "Erantzun batean diozu zure burua esplotatzen duzula libre zarela sinetsita, edo mugikorrak eta nekeak bizitza lapurtzen dizutela; beste batean ospatzen duzu ezerk ez zaituela lotzen, edo teknologiak askeago egiten zaituela. Byung-Chul Hanek esango luke askatasun bera dela, bi aldetatik ikusita: inork ez gaitu behartzen, eta horregatik ez gara inoiz gelditzen. Zer askatasun mota da lehertuta uzten zaituena?"
+  },
+  {
+   "id": "t-sistema-individuo",
+   "grado": "tension",
+   "a": [
+    "m-plataformas",
+    "m-privilegio",
+    "m-consumidores",
+    "m-residuo",
+    "m-explotacion",
+    "m-global"
+   ],
+   "b": [
+    "m-cada-uno",
+    "m-tecnologia-neutra"
+   ],
+   "titulo": "Sistemaren arazoa, ala bakoitzarena?",
+   "texto": "Erantzun batean sistemaren arazo bat seinalatzen duzu: harrapatzeko diseinatutako plataformak, kontsumitzaile nahi gaituen merkatua, beste batzuek kobratzen ez duten lana edo hondakin gisa tratatutako pertsonak; beste batean, nahikoa dela bakoitzak bere zatia egitea edo teknologia ondo erabiltzea. Arazoa egiturazkoa bada, banakako irtenbideak laburregiak dira; dena bakoitzaren esku badago, sistemari egindako kritika soberan dago. Baumanek eta Yayo Herrerok aldaketa kolektiboak eskatzen dituzte, pertsona bakoitzak egiten duena ahaztu gabe."
+  },
+  {
+   "id": "t-consumo-mercado",
+   "grado": "tension",
+   "a": [
+    "m-consumidores",
+    "m-global"
+   ],
+   "b": [
+    "m-mercado",
+    "m-libertad-elegir",
+    "m-riqueza-total"
+   ],
+   "titulo": "Kontsumoa kritikatu, eta merkatuaz fidatu?",
+   "texto": "Erantzun batean kritikatzen duzu merkatuak kontsumitzaile nahi gaituela eta ez hiritar, edo markak erosten ditugula eta ez gauzak; beste batean, merkatuaren irabazia merezia dela, edo justizia aberastasun osoaren arabera edo bakoitzak aukeratzeko duen askatasunaren arabera neurtzen dela. Baina aukeratzen duguna publizitateak ere moldatzen du. Baumanek esango luke kontsumoaren gizartean aukeratzeko askatasuna erosteko betebehar bihurtu dela."
+  },
+  {
+   "id": "t-callar-poetica",
+   "grado": "tension",
+   "a": [
+    "m-callar"
+   ],
+   "b": [
+    "m-razon-poetica"
+   ],
+   "titulo": "Esan ezin dena isildu, ala beste modu batera esan?",
+   "texto": "Erantzun batean diozu argi esan ezin dena hobe dela isiltzea; beste batean, arrazoimenak poetiko bihurtu behar duela, sentitzen dugunari eta esaten ez dakigunari irekitzeko. Wittgensteinek esan ezin denaren aurrean isiltasuna eskatuz itxi zuen bere lehen liburua; María Zambranoren ustez, arrazoimen poetikoa kontzeptuetan sartzen ez den horretara hurbil zitekeen. Bietako zeinekin geratzen zara?"
+  },
+  {
+   "id": "t-dios-limites",
+   "grado": "tension",
+   "a": [
+    "m-felicidad-dios",
+    "m-ontologico",
+    "m-dios-veraz",
+    "m-orden-divino"
+   ],
+   "b": [
+    "m-limites-razon"
+   ],
+   "titulo": "Jainkoa erdigunean, baina Jainkoaz ez dakigu ezer",
+   "texto": "Erantzun batean Jainkoa erdigunean jartzen duzu: zoriontasunaren, munduaren ordenaren edo ziurtasunaren erdigunean; beste batean, arrazoimenak mugak dituela eta Jainkoaz edo arimaz ezin dugula ezer jakin. Ez du zertan kontraesana izan: Kantek idatzi zuen jakintza kendu behar izan zuela fedeari lekua egiteko. Baina orduan zure Jainkoa ez da frogatzen den zerbait, sinesten den zerbait baizik."
+  },
+  {
+   "id": "t-lobos-dialogo",
+   "grado": "tension",
+   "a": [
+    "m-guerra-todos"
+   ],
+   "b": [
+    "m-dialogo"
+   ],
+   "titulo": "Otsoak bagara, nola egingo dugu elkarrizketa?",
+   "texto": "Erantzun batean diozu, Estaturik gabe, denen arteko gerran biziko ginatekeela; beste batean, denen arteko elkarrizketa arrazionalak arau komunak eman diezazkigukeela. Hobbesek ez zuen uste akordio batera iritsiko ginenik beldurra ematen digun botere bat gabe; Habermasentzat, arau bat baliozkoa da eragindako guztiek elkarrizketa aske batean onar badezakete bakarrik. Zer aldatu beharko litzateke pertsonengan elkarrizketak funtziona dezan?"
+  },
+  {
+   "id": "t-sereno-miedo",
+   "grado": "tension",
+   "a": [
+    "m-estoico",
+    "m-ataraxia",
+    "m-serenidad"
+   ],
+   "b": [
+    "m-nada-miedo",
+    "m-evitar-muerte"
+   ],
+   "titulo": "Heriotzaren aurreko lasaitasuna miresten duzu… eta beldurra ematen dizu",
+   "texto": "Erantzun batean heriotzaren aurreko lasaitasuna miresten duzu, edo diozu garrantzitsuena beldurrik gabe bizitzea dela; beste batean, heriotzak beldurra ematen dizula, edo edozein preziotan saihestu behar dela. Ez da arraroa: ia guztiok gauza bat pentsatzen dugu eta beste bat sentitzen. Epikurok arrazoitzen zuen heriotza ez dela ezer guretzat, hura dagoenean gu ez baikaude jada; Senekak, bizitza osoan ikasi behar dela hiltzen. Konbentzitzen zaituzte, ala beldurrak argudioek baino gehiago pisatzen du?"
+  },
+  {
+   "id": "t-construccion-resuelto",
+   "grado": "tension",
+   "a": [
+    "m-lenguaje-poder",
+    "m-construccion"
+   ],
+   "b": [
+    "m-resuelto"
+   ],
+   "titulo": "Eraikuntza soziala… eta arazo konpondua?",
+   "texto": "Erantzun batean diozu hizkuntzak batzuk araua bezala izendatzen dituela eta beste batzuk «bestea» bezala, edo emakumezkoa eraikuntza soziala dela; beste batean, Beauvoirrek jokoan zuena ez dela gaur garrantzitsua. Zerbait eraikuntza soziala bada, ez da desagertzen legeak aldatzen direlako soilik: ohituretan, hizkuntzan eta etxeko lanen banaketan jarraitzen du. Beauvoirrentzat, legearen aurreko berdintasuna lehen urratsa besterik ez zen."
+  },
+  {
+   "id": "t-nada-vale-cuidar",
+   "grado": "tension",
+   "a": [
+    "m-nada-vale",
+    "m-todo-se-hunde"
+   ],
+   "b": [
+    "m-cuidar-vida",
+    "m-vinculos",
+    "m-vulnerables"
+   ],
+   "titulo": "Ezerk ez du balio… baina bizitza zaindu behar da",
+   "texto": "Erantzun batean diozu ezerk ez duela merezi, edo Jainkorik gabe dena hondoratzen dela; beste batean, bizitza zaindu behar dela, lotura sendoak ehundu edo ahulenak babestu. Ezerk balio ez balu, zaintzeak ere ez luke balioko. Agian bidean ikasi duzu zerbaitek baduela balioa: Camusentzat, zentzurik gabeko mundu batean ere, besteekiko elkartasuna absurduari emandako erantzuna da."
   }
  ],
  "estaciones": {
