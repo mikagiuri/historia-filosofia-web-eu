@@ -48,6 +48,11 @@ const RAYUELA_HF = {
    "n": 1,
    "nombre": "1. sarea · Sokratesetik Descartesera",
    "abre": "2026-09-01"
+  },
+  {
+   "n": 2,
+   "nombre": "2. sarea · Modernoak: Galileotik Millera",
+   "abre": "2026-09-25"
   }
  ],
  "estaciones": {
@@ -233,6 +238,12 @@ const RAYUELA_HF = {
      "t": "Gorputz bat besterik ez: ondo antolatutako materia.",
      "to": "94",
      "marca": "m-solo-cuerpo"
+    },
+    {
+     "t": "Jakin nahi dut nola erlaziona daitezkeen arima eta gorputza, hain desberdinak badira.",
+     "to": "52",
+     "marca": "m-problema-union",
+     "red": 2
     }
    ],
    "temas": [
@@ -317,6 +328,12 @@ const RAYUELA_HF = {
      "t": "Sartu egiten naiz, baina badakit politika boterearen aldeko borroka besterik ez dela.",
      "to": "93",
      "marca": "m-solo-poder"
+    },
+    {
+     "t": "Boterea den bezala ulertu nahi dut, ez izan beharko lukeen bezala.",
+     "to": "56",
+     "marca": "m-poder-real",
+     "red": 2
     }
    ],
    "temas": [
@@ -404,6 +421,12 @@ const RAYUELA_HF = {
      "t": "Ez batez ez besteaz: fedeak bakarrik ematen du ziurtasuna.",
      "to": "45",
      "marca": "m-solo-fe"
+    },
+    {
+     "t": "Ezeri fidatu aurretik, jakin nahi dut nondik datozen gure ideiak.",
+     "to": "11",
+     "marca": "m-origen-ideas",
+     "red": 2
     }
    ],
    "temas": [
@@ -462,6 +485,256 @@ const RAYUELA_HF = {
     },
     {
      "id": "epicuro"
+    }
+   ]
+  },
+  "11": {
+   "tipo": "pregunta",
+   "red": 2,
+   "linea": "l-conocimiento",
+   "xy": [
+    13.6,
+    12.8
+   ],
+   "titulo": "Ideien jatorria",
+   "texto": "XVII. mendea. Galileoren eta Newtonen zientzia berriak munduaren irudia aldatzen du, eta filosofoak galdetzen dute nondik datorren dakiguna. Descartes arrazoiaz fidatzen da; Lockek dio jaiotzean adimena orri zuri bat dela.",
+   "pregunta": "Nondik datoz gure ideiak?",
+   "opciones": [
+    {
+     "t": "Batzuk gurekin jaiotzen dira: arrazoiak bere baitan aurkitzen ditu.",
+     "to": "13",
+     "marca": "m-innatismo"
+    },
+    {
+     "t": "Denak esperientziatik datoz: adimena orri zuri bat da.",
+     "to": "12",
+     "marca": "m-tabula-rasa"
+    },
+    {
+     "t": "Berdin zait nondik datozen: garrantzitsuena esperimentuekin egiaztatzea da.",
+     "to": "50",
+     "marca": "m-experimento"
+    }
+   ],
+   "temas": [
+    "hf-modernidad",
+    "hf-racionalismo"
+   ],
+   "autores": [
+    {
+     "id": "descartes"
+    },
+    {
+     "id": "locke"
+    },
+    {
+     "id": "galileo"
+    }
+   ]
+  },
+  "12": {
+   "tipo": "pregunta",
+   "red": 2,
+   "linea": "l-conocimiento",
+   "xy": [
+    13.2,
+    10.4
+   ],
+   "titulo": "Kausa eta ondorioa",
+   "texto": "Billar-bola batek beste bat jotzen du, eta bigarrena mugitu egiten da. Mila aldiz ikusi duzu. Baina ikusi al duzu inoiz kausa, bigarren bola mugiarazten duen indar hori? Ala gauza bat bestearen ondoren datorrela bakarrik ikusi duzu?",
+   "pregunta": "Zer ikusten duzu kausa bat ikusten duzunean?",
+   "opciones": [
+    {
+     "t": "Lotura bera: kausak ondorioa sortzen du nahitaez.",
+     "to": "97",
+     "marca": "m-causa-necesaria"
+    },
+    {
+     "t": "Gauza bat bestearen ondoren datorrela bakarrik; beharrezkotasuna nire ohiturak jartzen du.",
+     "to": "51",
+     "marca": "m-habito"
+    },
+    {
+     "t": "Ez dakit, baina zientziak funtzionatzen du, eta horrekin aski dut.",
+     "to": "16",
+     "marca": "m-funciona"
+    }
+   ],
+   "temas": [
+    "hf-racionalismo"
+   ],
+   "autores": [
+    {
+     "id": "hume"
+    }
+   ]
+  },
+  "13": {
+   "tipo": "pregunta",
+   "red": 2,
+   "linea": "l-alma",
+   "xy": [
+    16.8,
+    12.8
+   ],
+   "titulo": "Substantzia",
+   "texto": "Arrazoiak mundua nolakoa den ezagut badezake, hurrengo galdera da zerez egina dagoen. Modernoek substantzia deitu zioten: bere kabuz existitzen dena, beste ezeren mende egon gabe.",
+   "pregunta": "Zerez dago egina existitzen den guztia?",
+   "opciones": [
+    {
+     "t": "Bi gauza desberdinez: pentsatzen duen adimenaz eta lekua hartzen duen materiaz.",
+     "to": "52",
+     "marca": "m-dualismo"
+    },
+    {
+     "t": "Substantzia infinitu bakar batez: Jainkoa edo, gauza bera dena, Natura.",
+     "to": "53",
+     "marca": "m-monismo"
+    },
+    {
+     "t": "Mugimenduan dagoen materiaz bakarrik: pentsamendua ere bai.",
+     "to": "14",
+     "marca": "m-materialismo"
+    }
+   ],
+   "temas": [
+    "hf-metafisica"
+   ],
+   "autores": [
+    {
+     "id": "descartes"
+    },
+    {
+     "id": "spinoza"
+    },
+    {
+     "id": "hobbes"
+    }
+   ]
+  },
+  "14": {
+   "tipo": "pregunta",
+   "red": 2,
+   "linea": "l-ciudad",
+   "xy": [
+    14,
+    6.2
+   ],
+   "titulo": "Naturazko egoera",
+   "texto": "Imajinatu bihar Estatua, polizia eta legeak desagertzen direla. Hobbesek, Lockek eta Rousseauk pentsamendu-esperimentu bera egin zuten, gobernu bati zergatik obeditzen diogun azaltzeko.",
+   "pregunta": "Nolakoa litzateke bizitza Estaturik gabe?",
+   "opciones": [
+    {
+     "t": "Denen aurkako denen gerra: bizitza bakartia, pobrea, basatia eta laburra.",
+     "to": "15",
+     "marca": "m-guerra-todos"
+    },
+    {
+     "t": "Eskubide naturalak izango genituzke —bizitza, askatasuna, jabetza—, baina inork ez lituzke babestuko.",
+     "to": "15",
+     "marca": "m-derechos-naturales"
+    },
+    {
+     "t": "Libreagoak eta zoriontsuagoak izango ginateke: gizarteak usteltzen gaitu.",
+     "to": "54",
+     "marca": "m-bondad-natural"
+    }
+   ],
+   "temas": [
+    "hf-contrato"
+   ],
+   "autores": [
+    {
+     "id": "hobbes"
+    },
+    {
+     "id": "locke"
+    },
+    {
+     "id": "rousseau"
+    }
+   ]
+  },
+  "15": {
+   "tipo": "pregunta",
+   "red": 2,
+   "linea": "l-ciudad",
+   "xy": [
+    14.6,
+    4.2
+   ],
+   "titulo": "Gizarte-kontratua",
+   "texto": "Naturazko egoeratik irteteko, pertsonek itun bat egiten dute: zerbait uzten dute bakean bizitzearen truke. Kontua da zer uzten duten eta nori.",
+   "pregunta": "Zer botere izan behar du gobernuak?",
+   "opciones": [
+    {
+     "t": "Botere osoa, subirano baten eskuetan: hobe nagusi bat kaosa baino.",
+     "to": "96",
+     "marca": "m-absolutismo"
+    },
+    {
+     "t": "Botere mugatu eta banatu bat, gure eskubideak errespetatzen dituena.",
+     "to": "FO",
+     "marca": "m-poder-limitado"
+    },
+    {
+     "t": "Boterea herriarena da: legeek borondate orokorra adierazi behar dute.",
+     "to": "FP",
+     "marca": "m-voluntad-general"
+    }
+   ],
+   "temas": [
+    "hf-contrato"
+   ],
+   "autores": [
+    {
+     "id": "hobbes"
+    },
+    {
+     "id": "locke"
+    },
+    {
+     "id": "rousseau"
+    }
+   ]
+  },
+  "16": {
+   "tipo": "pregunta",
+   "red": 2,
+   "linea": "l-felicidad",
+   "xy": [
+    16.8,
+    5
+   ],
+   "titulo": "Tranbia",
+   "texto": "Balaztarik gabeko tranbia bat zuzen doa trenbidera lotuta dauden bost pertsonaren aurka. Zu palanka baten ondoan zaude: eragiten badiozu, tranbia beste trenbide batera desbideratzen da, eta han pertsona bakarra dago.",
+   "pregunta": "Palankari eragiten diozu?",
+   "opciones": [
+    {
+     "t": "Bai: zuzena da gehiengoarentzat zoriontasun handiena sortzen duena.",
+     "to": "55",
+     "marca": "m-mayor-numero"
+    },
+    {
+     "t": "Ez: badira inori egiten ez zaizkion gauzak, kontuek ematen badute ere.",
+     "to": "FO",
+     "marca": "m-derechos"
+    },
+    {
+     "t": "Araberakoa: plazer guztiak eta bizitza guztiak ez dira berdin neurtzen.",
+     "to": "55",
+     "marca": "m-calidad"
+    }
+   ],
+   "temas": [
+    "hf-utilitarismo"
+   ],
+   "autores": [
+    {
+     "id": "bentham"
+    },
+    {
+     "id": "mill"
     }
    ]
   },
@@ -811,6 +1084,273 @@ const RAYUELA_HF = {
     }
    ]
   },
+  "50": {
+   "tipo": "vida",
+   "red": 2,
+   "linea": "l-cosmos",
+   "xy": [
+    15.6,
+    11.8
+   ],
+   "titulo": "Galileo Inkisizioaren aurrean",
+   "texto": "Erroma, 1633. Galileok ia hirurogeita hamar urte ditu. Teleskopioarekin egindako behaketek diote Lurrak Eguzkiaren inguruan biratzen duela, eta Inkisizioak belauniko jarri eta hori ukatzera behartzen du. Uko egiten dio eta bizitza osoa etxean giltzapetuta ematen du. Kondairak dio, altxatzean, xuxurlatu zuela: «Eta, hala ere, mugitu egiten da».",
+   "pregunta": "Zer egingo zenukeen zuk?",
+   "opciones": [
+    {
+     "t": "Uko egin: bizitza salbatu eta isilean ikertzen jarraitu.",
+     "to": "56",
+     "marca": "m-prudencia"
+    },
+    {
+     "t": "Tinko eutsi: zientziaren egia ez da negoziatzen.",
+     "to": "12",
+     "marca": "m-verdad-ciencia"
+    },
+    {
+     "t": "Obeditu: agintariak du zer irakasten den erabakitzeko eskubidea.",
+     "to": "96",
+     "marca": "m-autoridad"
+    }
+   ],
+   "temas": [
+    "hf-modernidad"
+   ],
+   "autores": [
+    {
+     "id": "galileo"
+    }
+   ]
+  },
+  "51": {
+   "tipo": "vida",
+   "red": 2,
+   "linea": "l-conocimiento",
+   "xy": [
+    12.8,
+    7.8
+   ],
+   "titulo": "Hume eta backgammona",
+   "texto": "Edinburgo, 1739. Humek hain urrun eraman du zalantza, ezen jada ez dakien ezertaz fidatu daitekeen: ez kausez, ez munduaz, ez bere niaz. Aitortzen du orduan afaldu egiten duela, backgammon partida bat jokatzen duela eta lagunekin hizketan aritzen dela, eta hiruzpalau orduren buruan bere espekulazioak hotzak eta barregarriak iruditzen zaizkiola.",
+   "pregunta": "Zer iruditzen zaizu?",
+   "opciones": [
+    {
+     "t": "Zentzuzkoa: naturak sinestera eramaten gaitu, arrazoiak frogatu ezin badu ere.",
+     "to": "FL",
+     "marca": "m-naturalismo"
+    },
+    {
+     "t": "Tranpatia: ezer frogatu ezin badu, ez dezala ezer baieztatu.",
+     "to": "FD",
+     "marca": "m-escepticismo-total"
+    },
+    {
+     "t": "Elkarrekin nola bizi garen interesatzen zait gehiago, zer jakin dezakegun baino.",
+     "to": "14",
+     "marca": "m-vida-comun"
+    }
+   ],
+   "temas": [
+    "hf-racionalismo"
+   ],
+   "autores": [
+    {
+     "id": "hume"
+    }
+   ]
+  },
+  "52": {
+   "tipo": "vida",
+   "red": 2,
+   "linea": "l-alma",
+   "xy": [
+    17.8,
+    10.6
+   ],
+   "titulo": "Isabel Bohemiakoak Descartesi idazten dio",
+   "texto": "Haga, 1643. Isabel Bohemiakoak, hogeita lau urteko printzesa erbesteratu batek, galdera bat idazten dio Descartesi, eta hark ez daki ondo erantzuten: arimak lekurik hartzen ez badu eta hedadurarik ez badu, nola mugi dezake gorputza? Descartesek guruin pinealaz hitz egiten du; bera ez da konbentzitzen.",
+   "pregunta": "Nork du arrazoia?",
+   "opciones": [
+    {
+     "t": "Isabelek: zerbaitek huts egiten du arima eta gorputza hain substantzia desberdinak badira.",
+     "to": "53",
+     "marca": "m-critica-dualismo"
+    },
+    {
+     "t": "Descartesek: bi substantzia dira, nola batzen diren ez badakigu ere.",
+     "to": "10",
+     "marca": "m-dualismo-firme"
+    },
+    {
+     "t": "Inork ez: arimak ezer azaltzen ez badu, materia bakarrik geratzen da.",
+     "to": "14",
+     "marca": "m-materialismo"
+    }
+   ],
+   "temas": [
+    "hf-metafisica",
+    "hf-racionalismo"
+   ],
+   "autores": [
+    {
+     "id": "isabel"
+    },
+    {
+     "id": "descartes"
+    }
+   ]
+  },
+  "53": {
+   "tipo": "vida",
+   "red": 2,
+   "linea": "l-dios",
+   "xy": [
+    16.2,
+    9
+   ],
+   "titulo": "Spinoza lenteak leuntzen",
+   "texto": "Amsterdam, 1656. Komunitate juduak Spinoza kanporatzen du, hogeita hiru urterekin, Jainkoari buruzko ideiengatik. Mikroskopio eta teleskopioetarako lenteak leunduz irabazten du bizimodua. 1673an Heidelbergen katedra bat eskaintzen diote, eta ezetz dio: filosofatzeko askatasuna galtzeko beldur da.",
+   "pregunta": "Zer iruditzen zaizu haren aukera?",
+   "opciones": [
+    {
+     "t": "Ulertzen dut: librea izatea gauzak zergatik gertatzen diren ulertzea da, ez kargu bat izatea.",
+     "to": "FM",
+     "marca": "m-libertad-necesidad"
+    },
+    {
+     "t": "Pentsatzeko duen askatasuna miresten dut: denentzako tolerantzia defendatuko nuke.",
+     "to": "15",
+     "marca": "m-tolerancia"
+    },
+    {
+     "t": "Dena beharrez gertatzen bada, inor ez da ezeren erantzule.",
+     "to": "16",
+     "marca": "m-determinismo"
+    }
+   ],
+   "temas": [
+    "hf-metafisica"
+   ],
+   "autores": [
+    {
+     "id": "spinoza"
+    }
+   ]
+  },
+  "54": {
+   "tipo": "vida",
+   "red": 2,
+   "linea": "l-ciudad",
+   "xy": [
+    15.6,
+    7.2
+   ],
+   "titulo": "Rousseau Vincennesko bidean",
+   "texto": "Parisko inguruak, 1749. Rousseau oinez doa Diderot bere laguna ikustera, Vincennesen kartzelatuta baitago. Bidean, egunkari batean lehiaketa baten galdera irakurtzen du: hobetu al dituzte zientziek eta arteek ohiturak? Zuhaitz baten azpian eseri behar du, hunkituta: gizakia berez ona da, eta gizarteak usteltzen du.",
+   "pregunta": "Zer ateratzen duzu haren intuiziotik?",
+   "opciones": [
+    {
+     "t": "Gizartea denen borondatetik berriz sortu behar dela.",
+     "to": "15",
+     "marca": "m-refundar"
+    },
+    {
+     "t": "Gehiegikeria dela: zientziek eta arteek hobeak ere egin gaituzte.",
+     "to": "16",
+     "marca": "m-progreso"
+    },
+    {
+     "t": "Gizarteak usteltzen badu, hobe dela aparte bizitzea.",
+     "to": "FC",
+     "marca": "m-aparte"
+    }
+   ],
+   "temas": [
+    "hf-contrato",
+    "hf-ilustracion"
+   ],
+   "autores": [
+    {
+     "id": "rousseau"
+    }
+   ]
+  },
+  "55": {
+   "tipo": "vida",
+   "red": 2,
+   "linea": "l-felicidad",
+   "xy": [
+    17.8,
+    7.2
+   ],
+   "titulo": "Millen krisia",
+   "texto": "Londres, 1826. John Stuart Millek hogei urte ditu. Aitak eta Benthamek txikitatik hezi dute gehiengoarentzako zoriontasun handiena kalkulatzeko. Egun batean bere buruari galdetzen dio: nahi dituzun erreforma guztiak orain bertan beteko balira, zoriontsu izango zinateke? Eta erantzuna ezetz da. Depresio batean erortzen da, eta Wordsworthen poesiak ateratzen du hortik.",
+   "pregunta": "Zer ikasten du Millek?",
+   "opciones": [
+    {
+     "t": "Zoriontasunak irizpidea izaten jarraitzen duela, baina badirela beste batzuk baino plazer handiagoak.",
+     "to": "FQ",
+     "marca": "m-placeres-superiores"
+    },
+    {
+     "t": "Gehiengoaren zoriontasunaren alde edonor sakrifika daitekeela.",
+     "to": "98",
+     "marca": "m-sacrificio"
+    },
+    {
+     "t": "Bakoitzaren askatasunak zoriontasun-batura edozeinek baino gehiago balio duela.",
+     "to": "FO",
+     "marca": "m-libertad-individual"
+    }
+   ],
+   "temas": [
+    "hf-utilitarismo"
+   ],
+   "autores": [
+    {
+     "id": "mill"
+    },
+    {
+     "id": "bentham"
+    }
+   ]
+  },
+  "56": {
+   "tipo": "vida",
+   "red": 2,
+   "linea": "l-ciudad",
+   "xy": [
+    12.6,
+    5
+   ],
+   "titulo": "Makiavelo erbestean",
+   "texto": "San Casciano, Florentziatik gertu, 1513. Makiavelok kargua galdu du, torturatu egin dute eta erbestean bizi da. Egunez tabernan eztabaidatzen du; gauez jantzi dotoreak janzten ditu eta antzinakoekin hitz egiten du haien liburuetan. Horrela idazten du Printzea: gobernari bati komeni zaio maitatua baino beldurtua izatea.",
+   "pregunta": "Zer iruditzen zaizu haren aholkua?",
+   "opciones": [
+    {
+     "t": "Arrazoi du: politikan emaitzak du garrantzia, ez moralak.",
+     "to": "14",
+     "marca": "m-realismo-politico"
+    },
+    {
+     "t": "Ondo deskribatzen du boterea, baina mugak jarri behar zaizkio.",
+     "to": "15",
+     "marca": "m-limites"
+    },
+    {
+     "t": "Inmorala da: gobernari batek zuzena izan behar du eraginkorra izan aurretik.",
+     "to": "16",
+     "marca": "m-moral-politica"
+    }
+   ],
+   "temas": [
+    "hf-contrato"
+   ],
+   "autores": [
+    {
+     "id": "maquiavelo"
+    }
+   ]
+  },
   "90": {
    "tipo": "contradiccion",
    "red": 1,
@@ -1036,6 +1576,137 @@ const RAYUELA_HF = {
     },
     {
      "id": "descartes"
+    }
+   ]
+  },
+  "96": {
+   "tipo": "contradiccion",
+   "red": 2,
+   "linea": "l-contradiccion",
+   "xy": [
+    13,
+    2.8
+   ],
+   "titulo": "Kontraesana: askatasuna ala subirano absolutua",
+   "texto": "Askatasuna, eskubideak edo gizakiaren berezko ontasuna defendatzen dituzu eta, aldi berean, mugarik gabeko botere bat. Lockek hori leporatzen zion Hobbesi: subiranoak nahi duena egin badezake, zertatik babesten gaitu kontratuak? Azerietatik ihes egin eta lehoiaren gordelekuan babestea bezala litzateke.",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Zuzentzen dut: boterea mugatuta egon behar da.",
+     "to": "FO"
+    },
+    {
+     "t": "Ordena askatasunaren aurretik doala diot.",
+     "to": "FN"
+    },
+    {
+     "t": "Herri osoa izan dadila subiranoa.",
+     "to": "FP"
+    }
+   ],
+   "choque": [
+    "m-derechos-naturales",
+    "m-bondad-natural",
+    "m-refundar",
+    "m-absolutismo",
+    "m-autoridad",
+    "m-limites",
+    "m-tolerancia"
+   ],
+   "temas": [
+    "hf-contrato"
+   ],
+   "autores": [
+    {
+     "id": "hobbes"
+    },
+    {
+     "id": "locke"
+    }
+   ]
+  },
+  "97": {
+   "tipo": "contradiccion",
+   "red": 2,
+   "linea": "l-contradiccion",
+   "xy": [
+    14.8,
+    9.2
+   ],
+   "titulo": "Kontraesana: esperientzia eta beharrezkotasuna",
+   "texto": "Dakizun guztia esperientziatik datorrela diozu, baina kausen beharrezkotasuna ikusten duzula ere bai. Humek adierazi zuen: esperientziak gauza bat bestearen ondoren datorrela bakarrik erakusten du, inoiz ez horrela etorri behar duela. Edo beharrezkotasuna ez dator esperientziatik, edo ez dugu ikusten.",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Onartzen dut beharrezkotasuna ohiturak jartzen duela.",
+     "to": "51"
+    },
+    {
+     "t": "Onartzen dut ideia batzuk ez datozela esperientziatik.",
+     "to": "13"
+    },
+    {
+     "t": "Ziurtasunik gabe geratzen naiz: ezin dut ezer ziurrik jakin.",
+     "to": "FD"
+    }
+   ],
+   "choque": [
+    "m-tabula-rasa",
+    "m-causa-necesaria",
+    "m-verdad-ciencia"
+   ],
+   "temas": [
+    "hf-racionalismo"
+   ],
+   "autores": [
+    {
+     "id": "hume"
+    },
+    {
+     "id": "locke"
+    }
+   ]
+  },
+  "98": {
+   "tipo": "contradiccion",
+   "red": 2,
+   "linea": "l-contradiccion",
+   "xy": [
+    17.4,
+    2.8
+   ],
+   "titulo": "Kontraesana: gehiengoa ala eskubideak",
+   "texto": "Eskubideez, askatasunaz edo tolerantziaz hitz egiten duzu eta, aldi berean, edonor sakrifikatzea onartzen duzu gehiengoak irabazten badu. Millek bateratzen saiatu zen Askatasunari buruz lanean: norbaiten askatasuna mugatu daiteke bakarrik besteei kalte egin ez diezaien.",
+   "pregunta": "Nola irteten zara hemendik?",
+   "opciones": [
+    {
+     "t": "Millen printzipioa onartzen dut: askatasuna, besteei kalte egiten ez badie.",
+     "to": "FQ"
+    },
+    {
+     "t": "Eskubideak edozein kalkuluren aurretik jartzen ditut.",
+     "to": "FO"
+    },
+    {
+     "t": "Zoriontasun-batura bakarrik dela kontuan hartzekoa diot.",
+     "to": "FQ"
+    }
+   ],
+   "choque": [
+    "m-sacrificio",
+    "m-mayor-numero",
+    "m-derechos-naturales",
+    "m-poder-limitado",
+    "m-tolerancia",
+    "m-libertad-individual",
+    "m-derechos"
+   ],
+   "temas": [
+    "hf-utilitarismo"
+   ],
+   "autores": [
+    {
+     "id": "mill"
     }
    ]
   }
@@ -1280,6 +1951,127 @@ const RAYUELA_HF = {
    "temas": [
     "hf-preso",
     "hf-metafisica"
+   ]
+  },
+  "L": {
+   "xy": [
+    12.8,
+    0.9
+   ],
+   "titulo": "Enpirista",
+   "texto": "Dakizun guztia esperientziatik dator, eta esperientziak ez du ziurtasun absoluturik ematen: kausalitatea ohitura bat da, eta nia, pertzepzio-sorta bat. Lockek hasi zuen bidea; Humek azkeneraino eraman zuen.",
+   "abierto": "Zientzia ohituran oinarritzen bada, zergatik funtzionatzen du hain ondo?",
+   "reflexion": "Eman al diezaguke esperientziak ezagutza ziurra?",
+   "autores": [
+    {
+     "id": "locke"
+    },
+    {
+     "id": "hume"
+    }
+   ],
+   "temas": [
+    "hf-racionalismo"
+   ]
+  },
+  "M": {
+   "xy": [
+    13.8,
+    0.9
+   ],
+   "titulo": "Jainkoa edo Natura",
+   "texto": "Zuretzat dena errealitate bakarra da —Jainkoa edo Natura— eta dena beharrez gertatzen da. Spinozak bezala, uste duzu librea izatea ez dela nahi duzuna egitea, gauzak zergatik gertatzen diren ulertzea baizik.",
+   "abierto": "Dena beharrezkoa bada, zentzurik al du saritzeak edo zigortzeak?",
+   "reflexion": "Libreak gara, ala dena dago aurrez zehaztuta?",
+   "autores": [
+    {
+     "id": "spinoza"
+    }
+   ],
+   "temas": [
+    "hf-metafisica"
+   ]
+  },
+  "N": {
+   "xy": [
+    14.8,
+    0.9
+   ],
+   "titulo": "Leviatana",
+   "texto": "Botere indartsurik gabe, bizitza denen aurkako denen gerra izango litzateke. Nahiago duzu zure askatasuna subirano bati utzi segurtasunaren truke. Hobbesek beldurrari emandako erantzuna da, eta badu Makiaveloren errealismotik zerbait.",
+   "abierto": "Nork babesten gaitu subiranotik?",
+   "reflexion": "Justifikatuta al dago askatasunari uko egitea segurtasunaren truke?",
+   "autores": [
+    {
+     "id": "hobbes"
+    },
+    {
+     "id": "maquiavelo"
+    }
+   ],
+   "temas": [
+    "hf-contrato"
+   ]
+  },
+  "O": {
+   "xy": [
+    15.8,
+    0.9
+   ],
+   "titulo": "Liberala",
+   "texto": "Uste duzu Estatua baino lehenagoko eskubideak ditugula —bizitza, askatasuna, jabetza— eta boterea mugatuta eta banatuta egon behar dela horiek babesteko. Locken linea da eta, XIX. mendean, Millena.",
+   "abierto": "Zer gertatzen da beren eskubideak baliarazteko jabetzarik edo boterik ez dutenekin?",
+   "reflexion": "Zein izan behar dira Estatuaren boterearen mugak?",
+   "autores": [
+    {
+     "id": "locke"
+    },
+    {
+     "id": "mill"
+    }
+   ],
+   "temas": [
+    "hf-contrato",
+    "hf-utilitarismo"
+   ]
+  },
+  "P": {
+   "xy": [
+    16.8,
+    0.9
+   ],
+   "titulo": "Borondate orokorra",
+   "texto": "Zuretzat boterea herriarena da: lege bat borondate orokorra adierazten badu bakarrik da legitimoa. Rousseauk bezala, uste duzu gizarteak usteldu dezakeela, baina kontratu on batek hiritar libre egiten gaituela ere bai.",
+   "abierto": "Zer gertatzen da borondate orokorrarekin ados ez dagoen gutxiengoarekin?",
+   "reflexion": "Zerk egiten du legitimo lege bat?",
+   "autores": [
+    {
+     "id": "rousseau"
+    }
+   ],
+   "temas": [
+    "hf-contrato"
+   ]
+  },
+  "Q": {
+   "xy": [
+    17.8,
+    0.9
+   ],
+   "titulo": "Utilitarista",
+   "texto": "Ekintzak beren ondorioen arabera epaitzen dituzu: zuzena da gehiengoarentzat zoriontasun handiena sortzen duena. Millek bezala, goi- eta behe-mailako plazerrak bereizten dituzu, eta muga bat jartzen duzu: besteei kalterik ez egitea.",
+   "abierto": "Pertsona bat sakrifika al daiteke horrela asko salbatzen badira?",
+   "reflexion": "Ondorioen arabera bakarrik epaitu behar al dira ekintzak?",
+   "autores": [
+    {
+     "id": "bentham"
+    },
+    {
+     "id": "mill"
+    }
+   ],
+   "temas": [
+    "hf-utilitarismo"
    ]
   }
  }

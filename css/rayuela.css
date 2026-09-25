@@ -13,6 +13,9 @@
 #rayuela .ray-map{ display:block; width:100%; height:auto; max-height:78vh; }
 #rayuela .ray-e{ fill:none; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; opacity:.34; }
 #rayuela .ray-e.hist{ opacity:.62; }
+#rayuela .ray-e.tr{ stroke-dasharray:3 9; }
+#rayuela .ray-opt.tr{ border-style:dashed; }
+#rayuela .ray-tr{ display:block; font-size:.72rem; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); font-weight:700; margin-bottom:.15rem; }
 #rayuela .ray-e.now{ opacity:1; stroke-width:8; }
 #rayuela .ray-st circle{ stroke-width:4; }
 #rayuela .ray-st.contra circle{ stroke-dasharray:none; }
