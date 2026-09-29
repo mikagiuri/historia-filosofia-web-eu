@@ -117,223 +117,273 @@ const CRONOGRAMAS = [
     "name": "Tales Miletokoa",
     "start": -624,
     "end": -546,
-    "grp": 0
+    "grp": 0,
+    "per": 0
    },
    {
     "name": "Anaximandro",
     "start": -610,
     "end": -546,
-    "grp": 0
+    "grp": 0,
+    "per": 0
    },
    {
     "name": "Anaximenes",
     "start": -586,
     "end": -526,
-    "grp": 0
+    "grp": 0,
+    "per": 0
    },
    {
     "name": "Xenofanes",
     "start": -570,
     "end": -475,
-    "grp": 1
+    "grp": 1,
+    "per": 0
    },
    {
     "name": "Heraklito",
     "start": -540,
     "end": -480,
-    "grp": 1
+    "grp": 1,
+    "per": 0
    },
    {
     "name": "Pitagoras",
     "start": -570,
     "end": -495,
-    "grp": 2
+    "grp": 2,
+    "per": 0
    },
    {
     "name": "Filolao",
     "start": -470,
     "end": -385,
-    "grp": 2
+    "grp": 2,
+    "per": 0
    },
    {
     "name": "Arkitas Tarentokoa",
     "start": -430,
     "end": -350,
-    "grp": 2
+    "grp": 2,
+    "per": 0
    },
    {
     "name": "Parmenides",
     "start": -515,
     "end": -450,
-    "grp": 3
+    "grp": 3,
+    "per": 0
    },
    {
     "name": "Zenon Eleakoa",
     "start": -490,
     "end": -430,
-    "grp": 3
+    "grp": 3,
+    "per": 0
    },
    {
     "name": "Meliso Samoskoa",
     "start": -440,
     "end": null,
     "fl": true,
-    "grp": 3
+    "grp": 3,
+    "per": 0
    },
    {
     "name": "Anaxagoras",
     "start": -500,
     "end": -428,
-    "grp": 4
+    "grp": 4,
+    "per": 0
    },
    {
     "name": "Enpedokles",
     "start": -495,
     "end": -435,
-    "grp": 4
+    "grp": 4,
+    "per": 0
    },
    {
     "name": "Leuzipo",
     "start": -440,
     "end": null,
     "fl": true,
-    "grp": 4
+    "grp": 4,
+    "per": 0
    },
    {
     "name": "Demokrito",
     "start": -460,
     "end": -370,
-    "grp": 4
+    "grp": 4,
+    "per": 0
    },
    {
     "name": "Protagoras",
     "start": -490,
     "end": -420,
-    "grp": 5
+    "grp": 5,
+    "per": 1
    },
    {
     "name": "Gorgias",
     "start": -483,
     "end": -375,
-    "grp": 5
+    "grp": 5,
+    "per": 1
    },
    {
     "name": "Trasimako",
     "start": -427,
     "end": null,
     "fl": true,
-    "grp": 5
+    "grp": 5,
+    "per": 1
    },
    {
     "name": "Sokrates",
     "start": -470,
     "end": -399,
-    "grp": 6
+    "grp": 6,
+    "per": 1
    },
    {
     "name": "Antistenes",
     "start": -445,
     "end": -365,
-    "grp": 6
+    "grp": 6,
+    "per": 1
    },
    {
     "name": "Aristipo Zirenekoa",
     "start": -435,
     "end": -356,
-    "grp": 6
+    "grp": 6,
+    "per": 1
    },
    {
     "name": "Platon",
     "start": -427,
     "end": -347,
-    "grp": 7
+    "grp": 7,
+    "per": 2
    },
    {
     "name": "Espeusipo",
     "start": -407,
     "end": -339,
-    "grp": 7
+    "grp": 7,
+    "per": 2
    },
    {
     "name": "Arkesilao",
     "start": -316,
     "end": -241,
-    "grp": 7
+    "grp": 7,
+    "per": 3
    },
    {
     "name": "Karneades",
     "start": -214,
     "end": -129,
-    "grp": 7
+    "grp": 7,
+    "per": 3
    },
    {
     "name": "Aristoteles",
     "start": -384,
     "end": -322,
-    "grp": 8
+    "grp": 8,
+    "per": 2
    },
    {
     "name": "Teofrasto",
     "start": -371,
     "end": -287,
-    "grp": 8
+    "grp": 8,
+    "per": 2
    },
    {
     "name": "Straton Lampsakokoa",
     "start": -335,
     "end": -269,
-    "grp": 8
+    "grp": 8,
+    "per": 2
    },
    {
     "name": "Diogenes Sinopekoa",
     "start": -412,
     "end": -323,
-    "grp": 9
+    "grp": 9,
+    "per": 3
    },
    {
     "name": "Krates Tebaskoa",
     "start": -365,
     "end": -285,
-    "grp": 9
+    "grp": 9,
+    "per": 3
    },
    {
     "name": "Pirron",
     "start": -360,
     "end": -270,
-    "grp": 10
+    "grp": 10,
+    "per": 3
    },
    {
     "name": "Timon Fliuntekoa",
     "start": -320,
     "end": -230,
-    "grp": 10
+    "grp": 10,
+    "per": 3
    },
    {
     "name": "Epikuro",
     "start": -341,
     "end": -270,
-    "grp": 11
+    "grp": 11,
+    "per": 3
    },
    {
     "name": "Zenon Zitiokoa",
     "start": -334,
     "end": -262,
-    "grp": 12
+    "grp": 12,
+    "per": 3
    },
    {
     "name": "Kleantes",
     "start": -331,
     "end": -232,
-    "grp": 12
+    "grp": 12,
+    "per": 3
    },
    {
     "name": "Krisipo",
     "start": -279,
     "end": -206,
-    "grp": 12
+    "grp": 12,
+    "per": 3
    }
   ],
-  "events": []
+  "events": [],
+  "periods": [
+   {
+    "name": "Aldi kosmologikoa"
+   },
+   {
+    "name": "Aldi antropologiko-soziala"
+   },
+   {
+    "name": "Aldi sistematiko-klasikoa"
+   },
+   {
+    "name": "Aldi helenistikoa"
+   }
+  ]
  },
  {
   "id": "A3-KRO-01",

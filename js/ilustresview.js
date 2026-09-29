@@ -14,7 +14,14 @@ let iluSubject = "all", iluEpoca = "all", iluQuery = "";
 
 function iluFold(s){ return (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
 function iluEsc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
-function iluList(){ return typeof ILUSTRES !== "undefined" && ILUSTRES ? Object.keys(ILUSTRES).map(k => Object.assign({ id: k }, ILUSTRES[k])) : []; }
+/* (29-09) orden: por época (ILU_EPOCAS) y, dentro de cada una, por nacimiento; así cada época sale una
+   sola vez aunque la época del eje del dpto. no coincida con las fechas (Hipatia, Hume, Bentham, Mill…) */
+function iluList(){
+  if (typeof ILUSTRES === "undefined" || !ILUSTRES) return [];
+  const ep = b => { const i = ILU_EPOCAS.findIndex(e => e[0] === b); return i < 0 ? ILU_EPOCAS.length : i; };
+  return Object.keys(ILUSTRES).map(k => Object.assign({ id: k }, ILUSTRES[k]))
+    .sort((a, b) => ep(a.block) - ep(b.block) || (a.born ?? 0) - (b.born ?? 0));
+}
 function iluPresent(){ const all = iluList(); return ["fil", "hf"].filter(s => all.some(p => (p.subjects || []).includes(s))); }
 function iluEpocaName(b){ const e = ILU_EPOCAS.find(x => x[0] === b); return e ? e[1] : ""; }
 /* retrato: {f, pie, page?} de ilustres_retratos.js (generado por tools/build_ilustres.js) */

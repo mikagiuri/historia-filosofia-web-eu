@@ -23,7 +23,8 @@ function cronoBlockName(b){ return b === EJE_ID ? EJE_CRONOLOGICO.txt.filtro : C
    reordenarlo en euskera («{n} a.C.» → «K.a. {n}»). */
 const CRONO_AC = "K.a. {n}";
 /* (29-09) cronogramas con «groups» (escuelas): color por escuela y botones para mostrar u ocultar
-   cada una (cronoHidden, se reinicia al cambiar de cronograma); «fl.» = floruit */
+   cada una; con «periods», otra fila de botones por periodo (cronoHidden guarda «g:n» y «p:n»; se reinicia
+   al cambiar de cronograma). Se ve un pensador si su escuela y su periodo están activos. «fl.» = floruit */
 const CRONO_GRP_COLORS = ["#2e9e6b", "#7fb069", "#e0a526", "#b44fc4", "#3fa7c9", "#a8b82e", "#9a7b5f", "#2f6fd6", "#7b61d9", "#e377c2", "#d95f02", "#54a24b", "#c0392b"];
 function cronoGrpColor(k){ return CRONO_GRP_COLORS[k % CRONO_GRP_COLORS.length]; }
 let cronoHidden = new Set(), cronoHiddenFor = null;
@@ -86,12 +87,13 @@ function cronoSvg(c){
   // orden cronológico (por año de inicio, luego de fin): la línea se lee de arriba a abajo en el tiempo
   const key = v => (v == null ? 1e9 : v);
   axes = axes.slice().sort((a, b) => key(a.start) - key(b.start) || key(a.end) - key(b.end));
-  // (29-09) con escuelas (c.groups): solo las que están activas; la escala no cambia al ocultar
-  const grps = c.groups || null;
+  // (29-09) con escuelas (c.groups) y periodos (c.periods): solo lo activo; la escala no cambia al ocultar
+  const grps = c.groups || null, pers = c.periods || null;
   if (cronoHiddenFor !== c.id){ cronoHidden = new Set(); cronoHiddenFor = c.id; }
   const hasFl = axes.some(a => a.fl);
-  if (grps) axes = axes.filter(a => !cronoHidden.has(a.grp));
-  const legend = grps ? cronoLegend(grps) : "";
+  axes = axes.filter(a => !(grps && cronoHidden.has("g:" + a.grp)) && !(pers && cronoHidden.has("p:" + a.per)));
+  const legend = (pers ? cronoLegend("p", CRONO_PERIODOS, pers, CRONO_TODOS, CRONO_NINGUNO) : "") +
+    (grps ? cronoLegend("g", CRONO_ESCUELAS, grps, CRONO_TODAS, CRONO_NINGUNA) : "");
   if (!axes.length) return legend + '<p class="lead crono-none">' + CRONO_NONE + '</p>';
 
   const W = 960, gutter = 186, padR = 26, padTop = 40, rowH = 30, barH = 18;
@@ -141,24 +143,26 @@ function cronoSvg(c){
   if (hasFl && axes.some(a => a.fl)) svg += '<p class="crono-leg-note">' + CRONO_FL_NOTE + '</p>';
   return legend + svg;
 }
-/* botones de escuela: color + nombre; pulsado = visible. «Todas» / «Ninguna» para empezar de cero */
+/* botones de escuela (color + nombre) y de periodo: pulsado = visible; «Todas/Todos» y «Ninguna/Ninguno» para empezar de cero */
 const CRONO_ESCUELAS = "Eskolak", CRONO_TODAS = "Guztiak", CRONO_NINGUNA = "Bat ere ez",
-  CRONO_NONE = "Ez dago eskolarik aktibo: sakatu bat ikusteko.";
-function cronoLegend(grps){
-  return '<div class="crono-legend" role="group" aria-label="' + CRONO_ESCUELAS + '"><span class="flabel">' + CRONO_ESCUELAS + '</span>' +
-    grps.map((g, k) => '<button type="button" class="crono-leg" data-cgrp="' + k + '" aria-pressed="' + !cronoHidden.has(k) + '">' +
-      '<i style="background:' + cronoGrpColor(k) + '"></i><span>' + escapeCrono(g.name) + '</span></button>').join("") +
-    '<button type="button" class="crono-leg crono-leg-all" data-cgrp="all">' + CRONO_TODAS + '</button>' +
-    '<button type="button" class="crono-leg crono-leg-all" data-cgrp="none">' + CRONO_NINGUNA + '</button></div>';
+  CRONO_PERIODOS = "Aldiak", CRONO_TODOS = "Guztiak", CRONO_NINGUNO = "Bat ere ez",
+  CRONO_NONE = "Ez dago ezer erakusteko: aktibatu eskolaren bat edo aldiren bat.";
+function cronoLegend(t, label, items, todas, ninguna){
+  return '<div class="crono-legend" role="group" aria-label="' + label + '"><span class="flabel">' + label + '</span>' +
+    items.map((g, k) => '<button type="button" class="crono-leg" data-cfil="' + t + ':' + k + '" aria-pressed="' + !cronoHidden.has(t + ":" + k) + '">' +
+      (t === "g" ? '<i style="background:' + cronoGrpColor(k) + '"></i>' : '') + '<span>' + escapeCrono(g.name) + '</span></button>').join("") +
+    '<button type="button" class="crono-leg crono-leg-all" data-cfil="' + t + ':all">' + todas + '</button>' +
+    '<button type="button" class="crono-leg crono-leg-all" data-cfil="' + t + ':none">' + ninguna + '</button></div>';
 }
 document.addEventListener("click", e => {
-  const b = e.target.closest && e.target.closest("#cronobox [data-cgrp]"); if (!b) return;
-  const k = b.dataset.cgrp, c = CRONOGRAMAS.find(x => x.id === cronoId);
-  if (k === "all") cronoHidden.clear();
-  else if (k === "none") (c && c.groups || []).forEach((g, i) => cronoHidden.add(i));
-  else { const i = +k; cronoHidden.has(i) ? cronoHidden.delete(i) : cronoHidden.add(i); }
+  const b = e.target.closest && e.target.closest("#cronobox [data-cfil]"); if (!b) return;
+  const k = b.dataset.cfil, [t, v] = k.split(":"), c = CRONOGRAMAS.find(x => x.id === cronoId);
+  const items = (c && (t === "g" ? c.groups : c.periods)) || [];
+  if (v === "all") items.forEach((g, i) => cronoHidden.delete(t + ":" + i));
+  else if (v === "none") items.forEach((g, i) => cronoHidden.add(t + ":" + i));
+  else cronoHidden.has(k) ? cronoHidden.delete(k) : cronoHidden.add(k);
   drawCrono();
-  const again = document.querySelector('#cronobox [data-cgrp="' + k + '"]'); if (again) again.focus();
+  const again = document.querySelector('#cronobox [data-cfil="' + k + '"]'); if (again) again.focus();
 });
 
 function cronoEpochs(c){
