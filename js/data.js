@@ -107,17 +107,17 @@ const SUBJECTS = {
     "plat-antro"
    ],
    [
-    "Aipuak · antzinakoa",
+    "Esaldiak · antzinakoa",
     "tarjetas",
     "citasA"
    ],
    [
-    "Aipuak · modernoa",
+    "Esaldiak · modernoa",
     "tarjetas",
     "citasB"
    ],
    [
-    "Aipuak · garaikidea",
+    "Esaldiak · garaikidea",
     "tarjetas",
     "citasC"
    ],
@@ -344,9 +344,10 @@ const DECKS = {
   ]
  },
  "citasA": {
-  "name": "Aipuak · Antzinakoa (A blokea)",
+  "name": "Esaldiak · Antzinakoa (A blokea)",
   "subject": "hf",
   "block": "A",
+  "tipo": "frases",
   "cards": [
    [
     "🏛️",
@@ -401,9 +402,10 @@ const DECKS = {
   ]
  },
  "citasB": {
-  "name": "Aipuak · Erdi Arokoa, modernoa eta Ilustrazioa (B)",
+  "name": "Esaldiak · Erdi Arokoa, modernoa eta Ilustrazioa (B)",
   "subject": "hf",
   "block": "B",
+  "tipo": "frases",
   "cards": [
    [
     "💡",
@@ -558,9 +560,10 @@ const DECKS = {
   ]
  },
  "citasC": {
-  "name": "Aipuak · Garaikidea (C blokea)",
+  "name": "Esaldiak · Garaikidea (C blokea)",
   "subject": "hf",
   "block": "C",
+  "tipo": "frases",
   "cards": [
    [
     "🌍",
