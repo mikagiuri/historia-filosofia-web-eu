@@ -2227,7 +2227,7 @@ const ILUSTRES = {
   "place": "Stuttgart (Alemania)",
   "role": "filosofo idealista alemaniarra",
   "idea": "Errealitatea prozesu dialektiko bat da, non Espiritua historian zehar garatzen den; filosofia bakoitza bere garaia da, pentsamenduetan adierazia.",
-  "bio": "<p>Georg Wilhelm Friedrich Hegel Stuttgarten jaio zen 1770ean. Teologia ikasi zuen Tübingenen, non Schellingen eta Hölderlin poetaren ikaskidea izan zen, eta gogo biziz jarraitu zuen Frantziako Iraultza. Jenan eta Heidelbergen irakatsi ondoren, 1818an Berlingo katedra lortu zuen, eta han ospe handia iritsi zuen. Berlinen hil zen 1831n.</p>\n<p>Hegel da <strong>idealismo alemaniarraren</strong> figura handia. Haren ustez, errealitatea ez da zerbait finkoa, prozesu bat baizik, non <strong>Espiritua</strong> edo Ideia hedatu eta bere buruaren kontzientzia hartzen duen historian zehar. Mugimendu hori <strong>dialektikoa</strong> da: kontraesanen bidez aurrera egiten du, eta kontraesan horiek gainditu egiten dira, une bakoitzeko baliozkoa gordeta. Horregatik filosofia ezin da <strong>historikotasunetik</strong> bereizi: filosofia bakoitza bere garaia da, pentsamenduetan harrapatua. <em>Espirituaren fenomenologia</em> lanean nagusiaren eta esklaboaren dialektika azaltzen du; horren arabera, identitatea bestearen aitorpenaren aldeko borrokan eratzen da. Estetikan, artea egiaren agerpen sentikorra dela dio, baina mundu modernoan bere zeregin nagusia galdu duela erlijioaren eta filosofiaren aurrean: hori da «artearen amaiera»ren tesia.</p>\n<p>Haren eragina izugarria izan zen. Marxek haren dialektika metodo materialista bihurtu zuen historia eta gizartea aztertzeko. Simone de Beauvoirrek nagusiaren eta esklaboaren dialektika gizonen eta emakumeen arteko harremanari aplikatu zion.</p>",
+  "bio": "<p>Georg Wilhelm Friedrich Hegel Stuttgarten jaio zen 1770ean. Teologia ikasi zuen Tübingenen, non Schellingen eta Hölderlin poetaren ikaskidea izan zen, eta gogo biziz jarraitu zuen Frantziako Iraultza. Jenan eta Heidelbergen irakatsi ondoren, 1818an Berlingo katedra lortu zuen, eta han ospe handia iritsi zuen. Berlinen hil zen 1831n.</p>\n<p>Hegel da <strong>idealismo alemaniarraren</strong> figura handia. Haren ustez, errealitatea ez da zerbait finkoa, prozesu bat baizik, non <strong>Espiritua</strong> edo Ideia hedatu eta bere buruaren kontzientzia hartzen duen historian zehar. Mugimendu hori <strong>dialektikoa</strong> da: kontraesanen bidez aurrera egiten du, eta kontraesan horiek gainditu egiten dira, une bakoitzeko baliozkoa gordeta. Horregatik filosofia ezin da <strong>historikotasunetik</strong> bereizi: filosofia bakoitza bere garaia da, pentsamenduetan harrapatua. <em>Espirituaren fenomenologia</em> lanean nagusiaren eta esklaboaren dialektika azaltzen du; horren arabera, identitatea bestearen aitorpenaren aldeko borrokan eratzen da. Estetikan, artea egiaren agerpen sentikorra dela dio, baina mundu modernoan bere zeregin nagusia galdu duela erlijioaren eta filosofiaren aurrean: hori da «artearen amaiera»ren tesia.</p>\n<p>Haren eragina izugarria izan zen. Marxek haren dialektika metodo materialista bihurtu zuen historia eta gizartea aztertzeko. Simone de Beauvoirrek nagusiaren eta esklaboaren dialektika gizonen eta emakumeen arteko harremanari aplikatu zion.</p>\n<p><strong>Mitotik logosera</strong> igarotzeari buruz (Filosofiako 1. gaian eta Filosofiaren Historiako 3. gaian aztertzen dugu), Hegelek ez du uste greziar mitoa akats hutsa edo ipuin hutsala zenik: «mitoaren edukia pentsamendua da». Mitoan huts egiten duena ez da esaten duena, esateko <strong>era</strong> baizik: irudiak, kontakizunak eta jainkoak, kontzeptuen ordez. Greziar jainkoek era eder eta bitartegabean adierazten dute oraindik pentsamendu gisa pentsatu gabe dagoen eduki espiritual bat. Horregatik, lehen filosofoek ez dute mitoarekin hausten; <strong>mitotik abiatuta pentsatzen dute</strong>: filosofiak mitoak zekarren egia gordetzen du, irudizko bilgarria atzean uzten du eta kontzeptura jasotzen du. <strong>Gainditze</strong> bat da (<em>Aufhebung</em>), ez haustura: <em>mythos</em>a <em>logos</em>aren mende geratzen da, baina ez gezurra delako, mitoak irudikatzen duena filosofiak pentsatu behar duelako baizik.</p>",
   "obras": [
    "Espirituaren fenomenologia (1807)",
    "Logikaren zientzia (1812-1816)",
@@ -3079,31 +3079,6 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-posmodernidad"
-  ]
- },
- "chomsky": {
-  "name": "Noam Chomsky",
-  "dates": "1928an jaioa",
-  "born": 1928,
-  "died": null,
-  "place": "Filadelfia (AEB)",
-  "role": "hizkuntzalaria eta ekintzaile politikoa",
-  "idea": "Komunikabide handiek, zuzeneko zentsurarik behar gabe, adostasuna fabrikatzen dute: zertaz hitz egiten den hautatzen dute eta iritzi publikoa eliteen zerbitzura moldatzen dute.",
-  "bio": "<p>Noam Chomsky Filadelfian jaio zen, jatorri ukrainar eta bielorrusiarreko familia judu batean. Pennsylvaniako Unibertsitatean ikasi zuen eta 1955etik aurrera Massachusettseko Teknologia Institutuko (MIT) irakasle izan zen. Bere ibilbideak bi alderdi ditu: historiako hizkuntzalari eraginkorrenetako bat da eta, Vietnamgo gerratik aurrera, Estatu Batuetako kanpo-politikaren kritikari nabarmena.</p>\n<p>Hizkuntzalaritzan <strong>gramatika sortzailea</strong> sortu zuen. Haren ustez, gizaki guztiak hizkuntzarako jaiotzetiko gaitasun batekin jaiotzen dira, hizkuntza guztietan komuna den <strong>gramatika unibertsal</strong> batekin. Horrela azaltzen du haur batek hain azkar ikastea hitz egiten adibide gutxitatik abiatuta, dena estimulu eta erantzunetara murrizten zuen konduktismoaren aurrean. Gai-zerrendan batez ere komunikabideei egindako kritikagatik agertzen da. <em>Adostasunaren fabrikazioa</em> (1988) lanean, Edward S. Hermanekin idatzian, <strong>adostasunaren fabrikazioa</strong> aztertzen du <strong>propaganda-eredu</strong> baten bidez. Komunikabideak enpresa handien, publizitatearen eta iturri ofizialen menpe daude, eta iragazki horiek erabakitzen dute zer albiste dauden eta nola kontatzen diren. Ez dute pentsatzea debekatzen: pentsa daitekeenaren mugak ezartzen dituzte.</p>\n<p>Bere lanak hizkuntzalaritza aldatu zuen eta psikologia kognitiboan eta adimenaren filosofian eragina izan zuen. Komunikabideei egindako kritika Frankfurteko Eskolarekin eta manipulaziorik gabeko esfera publiko aske batekiko Habermasen kezkarekin lotzen da.</p>",
-  "obras": [
-   "Egitura sintaktikoak (1957)",
-   "Sintaxiaren teoriaren alderdiak (1965)",
-   "Adostasunaren fabrikazioa (1988, E. S. Hermanekin)"
-  ],
-  "anecdota": "<p>Hamar urte besterik ez zituela, Chomskyk bere lehen artikulua idatzi zuen Filadelfiako bere eskolako egunkarian. Gaia ez zen haurrena: Bartzelona Francoren tropen esku erortzea, 1939 hasieran, eta faxismoa Europan zabaltzea. Chomskyk berak askotan gogoratu du testu hori. Espainiako gerra zibilak haurtzarotik markatu zuen: geroago ideia anarkistetara hurbildu zen eta Kataluniako eta Aragoiko kolektibitateak miretsi zituen, XX. mendeko autogestio-esperimentu handienetako bat iritzita.</p>",
-  "fuente": "Chomskyren beraren lekukotasuna elkarrizketetan; R. Barsky, Noam Chomsky: desadostasunezko bizitza bat",
-  "tradicion": false,
-  "block": "con",
-  "subjects": [
-   "hf"
-  ],
-  "temas": [
-   "hf-siglo21"
   ]
  },
  "habermas": {

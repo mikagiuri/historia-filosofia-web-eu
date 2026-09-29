@@ -1764,9 +1764,6 @@ const RAYUELA_HF = {
     },
     {
      "id": "klein"
-    },
-    {
-     "id": "chomsky"
     }
    ]
   },

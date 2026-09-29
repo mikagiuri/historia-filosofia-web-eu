@@ -605,11 +605,6 @@ const ILUSTRES_RETRATOS = {
   "pie": "La Fuente de Duchamp fotografiada por Alfred Stieglitz (1917), el ejemplo clásico de la teoría institucional del arte (no hay retrato de Dickie de uso libre) · Marcel Duchamp / Alfred Stieglitz · Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg"
  },
- "chomsky": {
-  "f": "media/retratos/ilustres/chomsky.jpg",
-  "pie": "Noam Chomsky portrait 2015 · Augusto Starita / Ministerio de Cultura de la Nación · CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Noam_Chomsky_portrait_2015.jpg"
- },
  "habermas": {
   "f": "media/galeria_museo/extra3/habermas.jpg",
   "pie": "Jürgen Habermas, Protestbewegung und Hochschulreform 1969 · 1969 · Public domain"

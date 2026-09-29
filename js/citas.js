@@ -120,14 +120,6 @@ const CITAS = [
   "img": "media/retratos/museo/platon.jpg"
  },
  {
-  "c": "Gizakia da gauza guztien neurria.",
-  "a": "Protagoras",
-  "o": "DK 80 B1 zatia (Platonek aipatua, Teeteto 152a)",
-  "e": "antigua",
-  "id": "protagoras",
-  "img": "media/retratos/museo2/protagoras.jpg"
- },
- {
   "c": "Gizakia da gauza guztien neurria: direnena, badirela; ez direnena, ez direla.",
   "a": "Protagoras",
   "o": "DK 80 B1 zatia (Platonek aipatua, Teeteto 152a)",
@@ -289,7 +281,7 @@ const CITAS = [
  },
  {
   "c": "Guztien gerra guztien aurka.",
-  "a": "Hobbes",
+  "a": "Thomas Hobbes",
   "o": "Leviatan (1651) I, 13",
   "e": "modernoa",
   "id": "hobbes",
@@ -297,7 +289,7 @@ const CITAS = [
  },
  {
   "c": "Egitatezko gaiei buruzko arrazoibide guztiak kausa eta ondorioaren erlazioan oinarritzen direla dirudi.",
-  "a": "Hume",
+  "a": "David Hume",
   "o": "Giza adimenari buruzko ikerketa (1748), IV. atala, 1. zatia",
   "e": "modernoa",
   "id": "hume",
@@ -305,7 +297,7 @@ const CITAS = [
  },
  {
   "c": "Naturaren egitura osoak egile adimendun bat iragartzen du; eta ikertzaile arrazionalik ezin du, hausnarketa serio baten ondoren, une batez ere bere sinesmena eten egiazko teismoaren lehen printzipioei dagokienez.",
-  "a": "Hume",
+  "a": "David Hume",
   "o": "Erlijioaren historia naturala (1757), Sarrera",
   "e": "modernoa",
   "id": "hume",
@@ -353,7 +345,7 @@ const CITAS = [
  },
  {
   "c": "Jokatu soilik aldi berean lege unibertsal bihur dadin nahi izan dezakezun maxima haren arabera.",
-  "a": "Kant",
+  "a": "Immanuel Kant",
   "o": "Ohituren metafisikaren funtsapena (1785) II (Ak IV, 421)",
   "e": "modernoa",
   "id": "kant",
@@ -369,7 +361,7 @@ const CITAS = [
  },
  {
   "c": "Naturazko egoerak naturazko lege bat du, hura gobernatzen eta guztiak behartzen dituena: arrazoiak, lege hori denak, gizateria osoari irakasten dio, kontsultatzeko duintzen bada, guztiak berdinak eta independenteak izanik, inork ez duela beste inor kaltetu behar bere bizitzan, osasunean, askatasunean edo ondasunetan.",
-  "a": "Locke",
+  "a": "John Locke",
   "o": "Gobernu zibilari buruzko bigarren tratatua (1690) II, § 6",
   "e": "modernoa",
   "id": "locke",
@@ -487,14 +479,6 @@ const CITAS = [
   "img": "media/retratos/museo2/voltaire.jpg"
  },
  {
-  "c": "Ez dut nahi haiek [emakumeek] gizonen gaineko boterea izatea, beren buruaren gainekoa baizik.",
-  "a": "Wollstonecraft",
-  "o": "Emakumearen eskubideen aldarrikapena (1792), IV. kap.",
-  "e": "modernoa",
-  "id": "wollstonecraft",
-  "img": "media/retratos/museo/wollstonecraft.jpg"
- },
- {
   "c": "Ilustrazioa totalitarioa da.",
   "a": "Adorno & Horkheimer",
   "o": "Ilustrazioaren dialektika (1944), «Ilustrazioaren kontzeptua»",
@@ -572,14 +556,6 @@ const CITAS = [
   "e": "contemporanea",
   "id": "freud",
   "img": "media/retratos/museo2/freud.jpg"
- },
- {
-  "c": "Jainkoa hil da.",
-  "a": "Friedrich Nietzsche",
-  "o": "Zientzia alaia (1882) III, § 108",
-  "e": "contemporanea",
-  "id": "nietzsche",
-  "img": "media/retratos/museo/nietzsche.jpg"
  },
  {
   "c": "Norberak kaosa eduki behar du bere baitan izar dantzari bat sortzeko.",
@@ -716,7 +692,7 @@ const CITAS = [
  },
  {
   "c": "Ekoizpen-modu kapitalista nagusi den gizarteen aberastasuna “merkantzia-pilaketa erraldoi” gisa agertzen da.",
-  "a": "Marx",
+  "a": "Karl Marx",
   "o": "Kapitala (1867), I. liburua, 1. kap.",
   "e": "contemporanea",
   "id": "marx",
@@ -724,7 +700,7 @@ const CITAS = [
  },
  {
   "c": "Jainkoa hil da! Jainkoak hilik dirau! Eta guk hil dugu!",
-  "a": "Nietzsche",
+  "a": "Friedrich Nietzsche",
   "o": "Zientzia alaia (1882) III, § 125",
   "e": "contemporanea",
   "id": "nietzsche",

@@ -239,8 +239,7 @@ const GENEALOGIAS = {
     "wittgenstein",
     "carnap",
     "ryle",
-    "popper",
-    "chomsky"
+    "popper"
    ]
   }
  ],
