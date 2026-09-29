@@ -7,6 +7,7 @@
   if (typeof CITAS === "undefined") return;
 
   const EPOCAS = { antigua: "Antzinakoa", medieval: "Erdi Arokoa", moderna: "Modernoa", contemporanea: "Garaikidea" };
+  const CIT_EP = { antigua: "ant", medieval: "med", moderna: "mod", contemporanea: "con" };   // (30-09) color de época (styles.css, js/epocas.js)
   const CSS = ''
     + '#citas .citgrid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr)); gap:14px; margin-top:14px; }'
     + '#citas .citcard{ background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--accent); '
@@ -63,7 +64,7 @@
       const av = c.img ? (link ? '<button class="cit-av"' + dt + ' aria-hidden="true" tabindex="-1">' : '<span class="cit-av" aria-hidden="true">') +
         '<img loading="lazy" src="' + esc(c.img) + '" alt="">' + (link ? '</button>' : '</span>') : '';
       const who = link ? '<button class="cit-a"' + dt + '>' + esc(c.a) + '</button>' : '<span class="cit-a">' + esc(c.a) + '</span>';
-      return '<figure class="citcard' + (c.dest ? ' cit-dest' : '') + '">' + (c.dest ? '<span class="cit-badge">' + CIT_CLASE + '</span>' : '') +
+      return '<figure class="citcard' + (c.dest ? ' cit-dest' : '') + '"' + (CIT_EP[c.e] ? ' data-ep="' + CIT_EP[c.e] + '"' : '') + '>' + (c.dest ? '<span class="cit-badge">' + CIT_CLASE + '</span>' : '') +
         '<blockquote class="cit-q">' + esc(c.c) + '</blockquote>' +
         '<figcaption class="cit-src">' + av + '<span class="cit-who">' + who +
         (c.o ? ', <span class="cit-o">' + esc(c.o) + '</span>' : '') + '</span></figcaption></figure>';

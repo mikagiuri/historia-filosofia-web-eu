@@ -4,33 +4,218 @@ const CRONOGRAMAS = [
   "id": "A1-OS-KRO-01",
   "code": "A1-OS-KRO-01",
   "title": "Galdera iraunkorren bidaia historikoa",
-  "type": "epochs",
-  "stages": [
+  "type": "timeline",
+  "start": -700,
+  "end": 2025,
+  "groups": [
    {
-    "label": "K.a. VI. mendea",
-    "text": "Mitoa, physis-a eta azalpen arrazionalaren hasiera."
+    "name": "Antzinaroa",
+    "color": "var(--e-ant)"
    },
    {
-    "label": "K.a. V-IV. mendeak",
-    "text": "Polisa, justizia, arima, ezagutza eta bizitza ona."
+    "name": "Erdi Aroa",
+    "color": "var(--e-med)"
    },
    {
-    "label": "Erdi Aroa",
-    "text": "Fedea eta arrazoia, Jainkoa, arima eta salbazioa."
+    "name": "Modernoa",
+    "color": "var(--e-mod)"
    },
    {
-    "label": "Aro Modernoa",
-    "text": "Subjektua, metodoa, zientzia, askatasuna eta kontratua."
-   },
-   {
-    "label": "XIX-XX. mendeak",
-    "text": "Historia, susmoa, hizkuntza, boterea eta existentzia."
-   },
-   {
-    "label": "Gaur egun",
-    "text": "Teknologia, generoa, ekologia, memoria eta elkarbizitza demokratikoa."
+    "name": "Garaikidea",
+    "color": "var(--e-con)"
    }
-  ]
+  ],
+  "periods": [
+   {
+    "name": "K.a. VI. mendea"
+   },
+   {
+    "name": "K.a. V-IV. mendeak"
+   },
+   {
+    "name": "Erdi Aroa"
+   },
+   {
+    "name": "Aro Modernoa"
+   },
+   {
+    "name": "XIX-XX. mendeak"
+   },
+   {
+    "name": "Gaur egun"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Mitotik logosera",
+    "start": -700,
+    "end": -500,
+    "grp": 0,
+    "per": 0,
+    "note": "Homero eta Hesiodotik (K.a. 700 inguru) lehen filosofo joniarretara"
+   },
+   {
+    "name": "Physis-a eta arkhé-a",
+    "start": -585,
+    "end": -370,
+    "grp": 0,
+    "per": 0,
+    "note": "Tales Miletokotik (K.a. 585 inguru) Demokritora"
+   },
+   {
+    "name": "Polisa eta justizia",
+    "start": -480,
+    "end": -322,
+    "grp": 0,
+    "per": 1,
+    "note": "Sofistetatik Aristotelesen Politikara"
+   },
+   {
+    "name": "Arima eta ezagutza",
+    "start": -470,
+    "end": -322,
+    "grp": 0,
+    "per": 1,
+    "note": "Sokrates, Platon eta Aristoteles"
+   },
+   {
+    "name": "Bizitza ona",
+    "start": -440,
+    "end": -270,
+    "grp": 0,
+    "per": 1,
+    "note": "Sokratesengandik Epikurorengana eta lehen estoikoengana"
+   },
+   {
+    "name": "Fedea eta arrazoia",
+    "start": 354,
+    "end": 1349,
+    "grp": 1,
+    "per": 2,
+    "note": "San Agustinengandik Ockhamgo Williamengana"
+   },
+   {
+    "name": "Jainkoa eta arima",
+    "start": 380,
+    "end": 1274,
+    "grp": 1,
+    "per": 2,
+    "note": "San Agustinengandik Tomas Akinokoarengana"
+   },
+   {
+    "name": "Salbazioa",
+    "start": 400,
+    "end": 1350,
+    "grp": 1,
+    "per": 2,
+    "note": "Giza bizitza bere azken helburura bideratua"
+   },
+   {
+    "name": "Subjektua eta metodoa",
+    "start": 1620,
+    "end": 1781,
+    "grp": 2,
+    "per": 3,
+    "note": "Baconen Novum Organum-etik (1620) eta Metodoaren diskurtsotik (1637) Arrazoimen hutsaren kritikara (1781)"
+   },
+   {
+    "name": "Zientzia",
+    "start": 1543,
+    "end": 1687,
+    "grp": 2,
+    "per": 3,
+    "note": "Kopernikotik (1543) Newtonen Principia-ra (1687)"
+   },
+   {
+    "name": "Askatasuna eta kontratua",
+    "start": 1651,
+    "end": 1762,
+    "grp": 2,
+    "per": 3,
+    "note": "Hobbesen Leviatanetik (1651) Rousseauren Kontratu sozialera (1762)"
+   },
+   {
+    "name": "Historia",
+    "start": 1807,
+    "end": 1867,
+    "grp": 3,
+    "per": 4,
+    "note": "Hegelen Espirituaren fenomenologiatik (1807) Marxen Kapitalera (1867)"
+   },
+   {
+    "name": "Susmoa",
+    "start": 1848,
+    "end": 1900,
+    "grp": 3,
+    "per": 4,
+    "note": "Marx, Nietzsche eta Freud: Manifestu komunistatik (1848) Ametsen interpretaziora (1900)"
+   },
+   {
+    "name": "Existentzia",
+    "start": 1843,
+    "end": 1946,
+    "grp": 3,
+    "per": 4,
+    "note": "Kierkegaardengandik (1843) Sartreren Existentzialismoa humanismo bat da lanera (1946)"
+   },
+   {
+    "name": "Hizkuntza",
+    "start": 1921,
+    "end": 1953,
+    "grp": 3,
+    "per": 4,
+    "note": "Wittgensteinen Tractatus-etik (1921) Ikerketa filosofikoetara (1953)"
+   },
+   {
+    "name": "Boterea",
+    "start": 1944,
+    "end": 1975,
+    "grp": 3,
+    "per": 4,
+    "note": "Ilustrazioaren dialektikatik (1944) Foucaulten Zaindu eta zigortu lanera (1975)"
+   },
+   {
+    "name": "Generoa",
+    "start": 1949,
+    "end": 2025,
+    "grp": 3,
+    "per": 5,
+    "note": "Simone de Beauvoirren Bigarren sexua lanetik aurrera (1949)"
+   },
+   {
+    "name": "Teknologia",
+    "start": 1954,
+    "end": 2025,
+    "grp": 3,
+    "per": 5,
+    "note": "Heideggerren Teknikari buruzko galdera lanetik aurrera (1954)"
+   },
+   {
+    "name": "Elkarbizitza demokratikoa",
+    "start": 1971,
+    "end": 2025,
+    "grp": 3,
+    "per": 5,
+    "note": "Rawlsen Justiziaren teoriatik aurrera (1971)"
+   },
+   {
+    "name": "Ekologia",
+    "start": 1979,
+    "end": 2025,
+    "grp": 3,
+    "per": 5,
+    "note": "Hans Jonasen Erantzukizunaren printzipiotik aurrera (1979)"
+   },
+   {
+    "name": "Memoria",
+    "start": 1995,
+    "end": 2025,
+    "grp": 3,
+    "per": 5,
+    "note": "Todoroven Memoriaren abusuak lanetik aurrera (1995)"
+   }
+  ],
+  "events": []
  },
  {
   "id": "A2-OS-KRO-01",

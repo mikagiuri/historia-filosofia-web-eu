@@ -77,11 +77,6 @@ const SUBJECTS = {
     "hf-mito"
    ],
    [
-    "Txartelak: aporiak",
-    "tarjetas",
-    "aporias"
-   ],
-   [
     "Txartelak: presokratikoak",
     "tarjetas",
     "presocraticos"
@@ -130,68 +125,6 @@ const SUBJECTS = {
  }
 };
 const DECKS = {
- "aporias": {
-  "name": "Aporiak (4. gaia)",
-  "subject": "hf",
-  "block": "A",
-  "cards": [
-   [
-    "🪞",
-    "Antropomorfismoa",
-    "Kosmosaren ordena erreala da, ala gure proiekzio bat? Xenofanesen zaldia, jainkoa zaldi-itxuraz margotzen duena: «kanpora» begiratu eta gure isla ikusten dugu."
-   ],
-   [
-    "⛓️",
-    "Kausen erregresio infinitua",
-    "Ondorio orok kausa bat badu, ba al da lehen kausarik, ala katea atzerantz galtzen da lehen katebegirik gabe?"
-   ],
-   [
-    "💧",
-    "Bata eta anitza",
-    "Arkhea: ibai bihurtzen den tanta bat. Batak azaltzen al du anitza, ala anitzak gezurtatzen du bata?"
-   ],
-   [
-    "🏷️",
-    "Orokorra eta singularra",
-    "Kontzeptua izen propioaren aurrean: etiketa bera («sua», «aulkia») inoiz elkarren berdin-berdinak ez diren gauzen gainean."
-   ],
-   [
-    "⚖️",
-    "Natura eta konbentzioa",
-    "Kosmosetik polisera: dike, «gauza bakoitza bere lekuan». Oreka, baina nork doitzen du?"
-   ],
-   [
-    "🌊",
-    "Aldaketa eta iraupena",
-    "«Ez zara bi aldiz ibai berean bainatzen» (Heraklito): nola alda daiteke zerbait eta, aldi berean, bera izaten jarraitu?"
-   ],
-   [
-    "🏹",
-    "Mugimendua (Zenon)",
-    "Airean izoztutako gezia: filma ukatzen duen fotograma. Mugimendua erreala da, ala arrazoiarentzako kontraesan bat?"
-   ],
-   [
-    "🔒",
-    "Arimaren purifikazioa",
-    "Gorputza arimaren kartzela gisa (pitagorikoak): purifikazioa gizatasunetik ihes egitea da, ala haren betetasuna?"
-   ],
-   [
-    "🕯️",
-    "Zentzumenak eta arrazoia",
-    "Egia aletheia gisa (desestalketa): kandela bat gela ilun batean, aurkitzeko argitu behar dena."
-   ],
-   [
-    "⛵",
-    "Identitate pertsonala",
-    "Teseoren ontzia: ohol guztiak aldatzen dizkiote eta «ontzi bera» deitzen jarraitzen dugu. Zer da «nia»?"
-   ],
-   [
-    "🚪",
-    "Galderak motor gisa",
-    "Ate bat, ate gehiago dituen korridore batera: erantzun bakoitzak ez du arazoa ixten, beste bat irekitzen du."
-   ]
-  ]
- },
  "mito": {
   "name": "Mitoa eta logosa",
   "subject": "hf",

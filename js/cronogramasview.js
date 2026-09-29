@@ -26,7 +26,8 @@ const CRONO_AC = "K.a. {n}";
    cada una; con «periods», otra fila de botones por periodo (cronoHidden guarda «g:n» y «p:n»; se reinicia
    al cambiar de cronograma). Se ve un pensador si su escuela y su periodo están activos. «fl.» = floruit */
 const CRONO_GRP_COLORS = ["#2e9e6b", "#7fb069", "#e0a526", "#b44fc4", "#3fa7c9", "#a8b82e", "#9a7b5f", "#2f6fd6", "#7b61d9", "#e377c2", "#d95f02", "#54a24b", "#c0392b"];
-function cronoGrpColor(k){ return CRONO_GRP_COLORS[k % CRONO_GRP_COLORS.length]; }
+/* (30-09) un grupo puede traer su «color» (p. ej. var(--e-ant): épocas con los colores de Ilustres) */
+function cronoGrpColor(k, g){ return (g && g.color) || CRONO_GRP_COLORS[k % CRONO_GRP_COLORS.length]; }
 let cronoHidden = new Set(), cronoHiddenFor = null;
 const CRONO_FL = "fl. ";
 const CRONO_FL_NOTE = "fl. = jarduera-garaia (ez dira ezagutzen bere bizitzaren datak)";
@@ -93,7 +94,7 @@ function cronoSvg(c){
   const hasFl = axes.some(a => a.fl);
   axes = axes.filter(a => !(grps && cronoHidden.has("g:" + a.grp)) && !(pers && cronoHidden.has("p:" + a.per)));
   const legend = (pers ? cronoLegend("p", CRONO_PERIODOS, pers, CRONO_TODOS, CRONO_NINGUNO) : "") +
-    (grps ? cronoLegend("g", CRONO_ESCUELAS, grps, CRONO_TODAS, CRONO_NINGUNA) : "");
+    (grps ? cronoLegend("g", grps.some(g => g.color) ? CRONO_EPOCAS : CRONO_ESCUELAS, grps, CRONO_TODAS, CRONO_NINGUNA) : "");
   if (!axes.length) return legend + '<p class="lead crono-none">' + CRONO_NONE + '</p>';
 
   const W = 960, gutter = 186, padR = 26, padTop = 40, rowH = 30, barH = 18;
@@ -118,7 +119,7 @@ function cronoSvg(c){
   if (start < 0 && end > 0){ const xz = xOf(0); svg += '<line class="zero" x1="' + xz.toFixed(1) + '" y1="' + (padTop - 8) + '" x2="' + xz.toFixed(1) + '" y2="' + (H - 8) + '"/>'; }
 
   const colors = ["var(--accent)", "var(--accent-2)", "var(--fil)", "var(--hf)", "var(--ipc)"];
-  const colOf = (a, i) => grps && a.grp != null ? cronoGrpColor(a.grp) : colors[i % colors.length];
+  const colOf = (a, i) => grps && a.grp != null ? cronoGrpColor(a.grp, grps[a.grp]) : colors[i % colors.length];
   axes.forEach((a, i) => {
     const y = padTop + i * rowH;
     svg += '<rect class="lane-bg" x="0" y="' + (y + (rowH - barH) / 2 - 2) + '" width="' + W + '" height="' + (barH + 4) + '" rx="4" opacity="' + (i % 2 ? ".5" : ".22") + '"/>';
@@ -126,7 +127,8 @@ function cronoSvg(c){
     svg += '<text class="lane-lbl" x="8" y="' + (y + rowH / 2 + 4) + '">' + escapeCrono(nm) + '</text>';
     if (a.start != null && a.end != null && a.end >= a.start){
       const bx = xOf(a.start), bw = Math.max(4, xOf(a.end) - xOf(a.start));
-      svg += '<rect class="cbar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colOf(a, i) + '"/>';
+      svg += '<rect class="cbar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colOf(a, i) + '">' +
+        (a.note ? '<title>' + escapeCrono(a.note) + '</title>' : '') + '</rect>';
       // años SIEMPRE visibles: a la derecha de la barra, o a la izquierda si no cabe (nunca recortados)
       const lbl = cronoYear(a.start) + '–' + cronoYear(a.end), lblW = lbl.length * 6;
       const yr = y + rowH / 2 + 4, rx = xOf(a.end) + 6;
@@ -144,13 +146,13 @@ function cronoSvg(c){
   return legend + svg;
 }
 /* botones de escuela (color + nombre) y de periodo: pulsado = visible; «Todas/Todos» y «Ninguna/Ninguno» para empezar de cero */
-const CRONO_ESCUELAS = "Eskolak", CRONO_TODAS = "Guztiak", CRONO_NINGUNA = "Bat ere ez",
+const CRONO_ESCUELAS = "Eskolak", CRONO_EPOCAS = "Garaiak", CRONO_TODAS = "Guztiak", CRONO_NINGUNA = "Bat ere ez",
   CRONO_PERIODOS = "Aldiak", CRONO_TODOS = "Guztiak", CRONO_NINGUNO = "Bat ere ez",
   CRONO_NONE = "Ez dago ezer erakusteko: aktibatu eskolaren bat edo aldiren bat.";
 function cronoLegend(t, label, items, todas, ninguna){
   return '<div class="crono-legend" role="group" aria-label="' + label + '"><span class="flabel">' + label + '</span>' +
     items.map((g, k) => '<button type="button" class="crono-leg" data-cfil="' + t + ':' + k + '" aria-pressed="' + !cronoHidden.has(t + ":" + k) + '">' +
-      (t === "g" ? '<i style="background:' + cronoGrpColor(k) + '"></i>' : '') + '<span>' + escapeCrono(g.name) + '</span></button>').join("") +
+      (t === "g" ? '<i style="background:' + cronoGrpColor(k, g) + '"></i>' : '') + '<span>' + escapeCrono(g.name) + '</span></button>').join("") +
     '<button type="button" class="crono-leg crono-leg-all" data-cfil="' + t + ':all">' + todas + '</button>' +
     '<button type="button" class="crono-leg crono-leg-all" data-cfil="' + t + ':none">' + ninguna + '</button></div>';
 }

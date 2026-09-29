@@ -8,7 +8,10 @@
 const GEN_T = { lineas: "Lerroak", todas: "Guztiak", ninguna: "Bat ere ez", op: "Aurkakotasunak",
   none: "Ez dago lerrorik aktibo: sakatu bat ikusteko.", hint: "Irristatu historian barrena ibiltzeko →" };
 const GEN_EPOCAS = [["ant", "Antzinakoa"], ["med", "Erdi Arokoa"], ["ren", "Errenazimentua"], ["mod", "Modernoa"], ["ilu", "Ilustrazioa"], ["con", "Garaikidea"]];
-let genHidden = new Set();
+/* (30-09) al entrar, solo dos líneas activas (con todas a la vez el plano abruma); «Todas» sigue a un clic */
+const GEN_DEFECTO = ["idea", "dual"];
+function genDefecto(){ return new Set(typeof GENEALOGIAS === "undefined" ? [] : GENEALOGIAS.lineas.filter(l => !GEN_DEFECTO.includes(l.id)).map(l => "l:" + l.id)); }
+let genHidden = genDefecto();
 
 function genEsc(s){ return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
 function genPerson(id){ return typeof ILUSTRES !== "undefined" && ILUSTRES[id] ? ILUSTRES[id] : null; }
@@ -104,6 +107,7 @@ function loadGenea(k){
   if (typeof GENEALOGIAS === "undefined") return;
   genHidden = new Set();
   if (k && GENEALOGIAS.lineas.some(l => l.id === k)) GENEALOGIAS.lineas.forEach(l => { if (l.id !== k) genHidden.add("l:" + l.id); });
+  else genHidden = genDefecto();
   drawGenea();
 }
 
