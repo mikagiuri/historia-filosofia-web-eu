@@ -11,7 +11,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-el-imperio-romano.jpg",
-  "t": "Mapa · El Imperio romano",
+  "t": "Mapa histórico: El Imperio romano",
   "pie": "Map of the Roman Empire during Trajan · Joyfulmapper · 2025-11-23 · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Obra de museo (dominio público)",
@@ -19,7 +19,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-el-imperio-romano-2.jpg",
-  "t": "Mapa · El Imperio romano",
+  "t": "Mapa histórico: El Imperio romano",
   "pie": "Roman Empire (117 AD) · TRAJAN 117  This bitmap image was created with Windows Paint. · 2013-04-04 · Public domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Obra de museo (dominio público)",
@@ -27,7 +27,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-el-imperio-de-alejandro.jpg",
-  "t": "Mapa · El imperio de Alejandro",
+  "t": "Mapa histórico: El imperio de Alejandro",
   "pie": "1854 Spruner Map of the Empire of Alexander the Great - Geographicus - · Friedrich von Stülpnagel · from 1862date QS:P571,+1862-00-00T00:00:00Z/7,P580,+1862-00- · Public domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Obra de museo (dominio público)",
@@ -35,7 +35,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-el-imperio-de-alejandro-2.jpg",
-  "t": "Mapa · El imperio de Alejandro",
+  "t": "Mapa histórico: El imperio de Alejandro",
   "pie": "Fifth period - B.C. 323. The Empire Of Alexander. Drawn & engraved by  · Quin, Edward · Public domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Obra de museo (dominio público)",
@@ -43,7 +43,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-los-reinos-helenisticos-diadocos.jpg",
-  "t": "Mapa · Los reinos helenísticos (Diádocos)",
+  "t": "Mapa histórico: Los reinos helenísticos (Diádocos)",
   "pie": "Diadochi kingdoms 301 200 · William R. Shepherd · 1923 · Public domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Obra de museo (dominio público)",
@@ -83,7 +83,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-europa-hacia-el-ano-1000.jpg",
-  "t": "Mapa · Europa hacia el año 1000",
+  "t": "Mapa histórico: Europa hacia el año 1000",
   "pie": "Europe 1000 · Public domain · Wikimedia Commons",
   "bloque": "B",
   "unidad": "Obra de museo (dominio público)",
@@ -91,7 +91,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-europa-medieval.jpg",
-  "t": "Mapa · Europa medieval",
+  "t": "Mapa histórico: Europa medieval",
   "pie": "Historical atlas of modern Europe 1903 (135895458) · Reginald Lane Poole · Public domain · Wikimedia Commons",
   "bloque": "B",
   "unidad": "Obra de museo (dominio público)",
@@ -163,7 +163,7 @@ const GALERIA_EXTRA3 = [
  },
  {
   "f": "media/galeria_museo/extra3/mapa-europa-de-la-ilustracion.jpg",
-  "t": "Mapa · Europa de la Ilustración",
+  "t": "Mapa histórico: Europa de la Ilustración",
   "pie": "An historical atlas of modern Europe from 1789-1914, with an historica · Internet Archive Book Images · 1915 · No restrictions · Wikimedia Commons",
   "bloque": "C",
   "unidad": "Obra de museo (dominio público)",

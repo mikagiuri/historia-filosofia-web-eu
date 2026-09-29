@@ -70,7 +70,7 @@ const GALERIA_TEMAS2 = [
  },
  {
   "f": "media/galeria_museo/temas2/mito_logos_Attic_Black-Figure_Neck_Amphora_-_Achilles_and_Ajax_playing_a_board_game_overseen_by_Athena_cropped_white-bg.png",
-  "t": "Del mito al logos",
+  "t": "Aquiles y Áyax jugando a los dados",
   "pie": "Attic Black-Figure Neck Amphora - Achilles and Ajax playing a board game overseen by Athena cropped white-bg · Attributed to the Medea Group · circa 510 BCE · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
@@ -78,7 +78,7 @@ const GALERIA_TEMAS2 = [
  },
  {
   "f": "media/galeria_museo/temas2/mito_logos_Odysseus_Circe_Met_41_83.jpg",
-  "t": "Del mito al logos",
+  "t": "Odiseo y Circe",
   "pie": "Odysseus Circe Met 41.83 · Attributed to the Persephone Painter · circa 440 BC · CC BY 2.0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Odysseus_Circe_Met_41.83.jpg",
   "bloque": "A",
@@ -95,7 +95,7 @@ const GALERIA_TEMAS2 = [
  },
  {
   "f": "media/galeria_museo/temas2/mito_logos_CMA_Black-Figure_Neck-Amphora_Storage_Vessel_Herakles_and_Nemean_Lion_A_Dionysos_Satyrs_and_Maenads_B.jpg",
-  "t": "Del mito al logos",
+  "t": "Heracles y el león de Nemea",
   "pie": "Black-Figure Neck-Amphora (Storage Vessel): Herakles and Nemean Lion (A); Dionysos, Satyrs, and Maenads (B) · Painter of Berlin 1899 (Greek, Attic) · 515–510 BCE · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",

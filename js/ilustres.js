@@ -272,6 +272,22 @@ const ILUSTRES = {
    "hf-preso"
   ]
  },
+ "zenon_elea": {
+  "name": "Zenon Eleakoa",
+  "dates": "K.a. 490 ing. – 430 ing.",
+  "born": -490,
+  "died": -430,
+  "place": "Elea (Magna Grezia)",
+  "role": "filosofo eleatarra",
+  "idea": "Gauza asko daudela eta mugimendua dagoela onartzen bada, kontraesanetan erortzen da; beraz, Parmenidesek arrazoi du: izatea bat eta higiezina da.",
+  "bio": "<p>Zenon <strong>Parmenides</strong>en ikaslea izan zen Elean, Italia hegoaldean. <em>Parmenides</em> elkarrizketan, Platonek kontatzen du biak Atenasera joan zirela eta han oso gazte zen Sokratesekin hitz egin zutela. Ez da nahastu behar Zenon Zitiokoarekin, estoizismoaren sortzailearekin, mende eta erdi geroago bizi izan baitzen.</p>\n<p>Zenonek ez zuen bere maisua froga zuzenekin defendatu, haren kritikariei eraso eginez baizik: erakusten zuen, aniztasuna edo mugimendua onartzen bada, ondorio absurdoetara iristen dela. Horiek dira haren <strong>paradoxa</strong> ospetsuak. Akiles eta dortokarenean, korrikalari azkarrena ez da inoiz dortokara iristen, dortoka zegoen lekura iristen den bakoitzean hura apur bat aurreratu baita. Geziarenean, hegan doan gezia geldi dago une bakoitzean; beraz, ez da inoiz mugitzen. Arrazoitzeko modu horregatik, Aristotelesek <strong>dialektikaren</strong> asmatzailetzat hartu zuen. Infinituari buruzko haren paradoxek bi mila urte baino gehiagoz eman zieten zer pentsatua matematikariei.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "protagoras": {
   "name": "Protagoras Abderakoa",
   "dates": "K.a. 485 ing. – 411 ing.",
@@ -320,6 +336,75 @@ const ILUSTRES = {
   "temas": [
    "hf-sofistas"
   ]
+ },
+ "meliso": {
+  "name": "Meliso Samoskoa",
+  "dates": "fl. K.a. 440 ing.",
+  "born": -480,
+  "died": null,
+  "place": "Samos (Egeo itsasoa)",
+  "role": "filosofo eleatarra eta almirantea",
+  "idea": "Izatea bat, betierekoa eta infinitua da; hutsunerik ez dagoenez, ezer ezin da mugitu.",
+  "bio": "<p>Melisoz gutxi dakigu, baina bada zerbait deigarria: filosofoa izateaz gain, almirantea izan zen. Plutarkok kontatzen du K.a. 441ean, Samosen eta Atenasen arteko gerran, bere uharteko itsas armada zuzendu zuela eta atenastarrak garaitu zituela. Ez ditugu ezagutzen haren jaiotza- eta heriotza-datak, jarduera-garaia baino ez.</p>\n<p>Melisok <strong>Parmenides</strong>i jarraitu zion: izatea <strong>bat</strong> da, ez da jaiotzen ez hiltzen, eta ez da aldatzen. Baina puntu batean zuzendu zuen bere maisua: Parmenidesentzat izatea mugatua zen, esfera bat bezala; Melisorentzat <strong>infinitua</strong> da, muga bat izango balu haren kanpoan zerbait egongo litzatekeelako. <strong>Hutsunea</strong> ere ukatu zuen, eta hortik ondorioztatu zuen mugimendua ezinezkoa dela, ezerk ez bailuke nora mugitu izango. Atomistek alderantziz erantzun zuten: mugimendua badago, hutsuneak egon behar du.</p>",
+  "obras": [
+   "Naturaz edo izateaz"
+  ],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "leucipo": {
+  "name": "Leuzipo",
+  "dates": "fl. K.a. 440 ing.",
+  "born": -480,
+  "died": null,
+  "place": "Mileto edo Abdera (ez dakigu ziur)",
+  "role": "filosofo atomista",
+  "idea": "Dena hutsunean mugitzen diren atomo zatiezinez egina dago, eta ezer ez da zoriz gertatzen: dena arrazoi batengatik eta beharrez gertatzen da.",
+  "bio": "<p>Leuzipo <strong>atomismoaren</strong> sortzailea eta <strong>Demokrito</strong>ren maisua da, baina hain pertsonaia iluna da, ezen Antzinaroan bertan Epikurok zalantzan jarri baitzuen existitu ote zen. Ez dakigu ziur non jaio zen ezta noiz hil zen ere; K.a. V. mendearen erdialdean aritu zela baino ez. Haren lanak laster nahastu ziren Demokritorenekin.</p>\n<p>Leuzipok mugimendua ukatzen zuten eleatarrei erantzun zien: onartu zuen izatea ez dela jaiotzen ez suntsitzen, baina partikula txiki-txiki eta zatiezin infinitutan banatu zuen, <strong>atomoetan</strong>, eta onartu zuen badagoela <strong>hutsunea</strong>, haiek mugitzeko. Ikusten dugun guztia atomoak nola elkartzen eta bereizten diren horretatik sortzen da. Esaldi bakar bat gordetzen da ziur harena: «ezer ez da zoriz gertatzen, dena arrazoi batengatik eta beharrez gertatzen da», <strong>determinismoaren</strong> lehen baieztapenetako bat.</p>",
+  "obras": [
+   "Kosmologia handia (egotzia)",
+   "Adimenaz"
+  ],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "filolao": {
+  "name": "Filolao Krotonakoa",
+  "dates": "K.a. 470 ing. – 385 ing.",
+  "born": -470,
+  "died": -385,
+  "place": "Krotona (Magna Grezia)",
+  "role": "filosofo pitagorikoa",
+  "idea": "Ezagutzen den guztiak du zenbakia; kosmosa mugagabeaz eta mugak jartzen dituenaz egina dago, harmoniak batuta.",
+  "bio": "<p>Filolao Krotonan jaio zen, Pitagorasek bere komunitatea sortu zuen Italia hegoaldeko hirian. Pitagorikoen aurkako jazarpenen ondoren, denbora batez Teban bizi izan zen, Grezian: Platonen <em>Fedon</em>en, Simmias eta Zebes Sokratesen bi lagunek diote han entzun zutela. Liburu bat idatzi zuen lehen pitagorikoa izan zen, eta zati batzuk gorde ditugu, nahiz eta haien egiazkotasuna eztabaidatzen den.</p>\n<p>Filolaoren ustez, gauza guztiak <strong>mugagabeaz</strong> eta <strong>mugatzen</strong> duenaz osatuta daude, eta elkarrekin eusten diena <strong>harmonia</strong> da, zenbaki-proportzioetan adierazten dena: horregatik «ezagutzen den guztiak du zenbakia». Haren kosmologia harrigarria da: unibertsoaren erdian ez dago Lurra, <strong>erdiko su</strong> bat baizik, eta haren inguruan biraka dabiltza Lurra, «Kontra-Lur» ikusezin bat, Ilargia, Eguzkia eta planetak. Lurra kosmosaren erditik kendu zuten lehen aldietako bat izan zen, arrazoi astronomikoengatik baino gehiago zenbakiengatik bada ere.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "trasimaco": {
+  "name": "Trasimako Kaltzedoniakoa",
+  "dates": "fl. K.a. 430 – 400 ing.",
+  "born": -470,
+  "died": null,
+  "place": "Kaltzedonia (Bosforo ondoan)",
+  "role": "sofista eta erretorika-maisua",
+  "idea": "Justizia ez da indartsuenari komeni zaiona baino: agintzen duenak bere mesederako egiten ditu legeak, eta haiek betetzeari «justua» deitzen dio.",
+  "bio": "<p>Trasimako Kaltzedonian jaio zen, Bosforoaren ertzean, eta <strong>erretorika</strong> irakatsi zuen Atenasen K.a. V. mendearen amaieran. Ospetsua izan zen bere prosaren erritmoagatik eta entzuleen emozioak pizteko trebetasunagatik; Aristotelesek hitz egiteko artea hobetu zutenen artean aipatzen du. Haren idazkietatik zatiak baino ez dira geratzen.</p>\n<p>Gaur egun batez ere Platonen <em>Errepublika</em>ren I. liburuko pertsonaia gisa ezagutzen dugu. Bertan, elkarrizketan sartu eta <strong>justizia indartsuenari komeni zaiona dela</strong> defendatzen du: agintariek beren onurarako egiten dituzte legeak, eta besteek bete ditzaten justizia deitzen diote; horregatik, bidegabeari, nahikoa boteretsua bada, justuari baino hobeto doakio. Sokrates hura gezurtatzen saiatzen da, eta <em>Errepublika</em> osoa haren erronkari emandako erantzun luze gisa irakur daiteke.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "socrates": {
   "name": "Sokrates",
@@ -431,6 +516,41 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "aristipo": {
+  "name": "Aristipo Zirenekoa",
+  "dates": "K.a. 435 ing. – 356 ing.",
+  "born": -435,
+  "died": -356,
+  "place": "Zirene (gaur egungo Libia)",
+  "role": "filosofo sokratiko hedonista",
+  "idea": "Plazera da ongi bakarra eta bizitzaren helburua; oraingo plazeraz gozatu behar da, baina haren menpe geratu gabe.",
+  "bio": "<p>Aristipo Zirenen jaio zen, Afrika iparraldeko kolonia greziar oparo batean. <strong>Sokrates</strong>en ospeak erakarrita, Atenasera joan zen eta haren zirkuluan sartu zen. Bere maisua ez bezala, irakasteagatik kobratzen zuen, sofistek bezala, eta tradizioaren arabera Dionisio Sirakusakoaren gortean bizi izan zen, erosotasunean, luxuz inguratuta. Haren idazkiak galdu dira, eta haren inguruan kontatzen denaren zati handi bat egiaztatzen zailak diren pasadizoak dira.</p>\n<p><strong>Eskola zirenaikoa</strong>ren sortzailetzat hartzen da, <strong>hedonismoa</strong>ren lehen defendatzailea (grezierazko <em>hedoné</em>, «plazera», hitzetik). Zirenaikoentzat ongi gorena plazera da, batez ere gorputzaren mugimendu leun eta atsegin gisa ulertuta, eta mina da gaizki bakarra. Oraina baino ezin dugunez ziurtzat hartu, berehalako plazeraz gozatu behar da; gai-zerrendak <em>carpe diem</em> esapidearekin laburbiltzen du ideia hori. Aristipok, hala ere, azpimarratzen zuen jakintsuak plazera eduki behar duela, eta ez plazerak hura.</p>\n<p>Garai helenistikoa baino lehen bizi izan bazen ere, gai-zerrendak eskola helenistikoekin batera aztertzen du, horiek garatzen duten zoriontasunari buruzko galdera irekitzen baitu. Berehalako plazeraren hedonismoa <strong>Epikuro</strong>renarekin kontrastatzeko balio du, honek plazera neurritasun eta minik eza gisa ulertzen baitu. Zinikoen zuhurtasunaren aurka ere badago, nahiz eta horiek zirkulu sokratiko beretik sortu ziren.</p>",
+  "obras": [],
+  "anecdota": "<p>Vitruvio arkitekto erromatarrak kontatzen du Aristipok naufragioa izan zuela eta Rodasko kostaraino iritsi zela. Hondarrean marraztutako irudi geometrikoak ikustean, bere lagunak animatu zituen: «Izan itxaropena, gizakien aztarnak ikusten ditut». Hirira joan zen, gimnasioan filosofiaz hitz egin zuen eta hainbeste opari jaso zituen, non bere burua mantendu eta lagunei laguntzeko aukera izan baitzuen. Hauek etxera itzuli nahi izan zutenean, mezu bat eman zien herritarrentzat: naufragio batetik igerian salba daitezkeen ondasunak eskuratu behar dira. Plazeraren zaleak bazekien benetako aberastasuna kultura dela.</p>",
+  "fuente": "Vitruvio, De architectura VI (hitzaurrea)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "arquitas": {
+  "name": "Arkitas Tarentokoa",
+  "dates": "K.a. 430 ing. – 350 ing.",
+  "born": -430,
+  "died": -350,
+  "place": "Tarento (Magna Grezia)",
+  "role": "filosofo pitagorikoa, matematikaria eta politikaria",
+  "idea": "Ondo egindako kalkuluak eztabaidak amaitzen ditu: proportzio zuzena ezagutzen denean, aberatsak eta pobreak ados jar daitezke.",
+  "bio": "<p>Arkitas filosofoa, matematikaria eta agintaria izan zen aldi berean. Hainbat aldiz zuzendu zuen Tarentoko armada, Italia hegoaldean, eta tradizioaren arabera ez zuten inoiz garaitu. <strong>Platon</strong>en laguna izan zen: Platoni egotzitako <em>VII. gutunak</em> kontatzen du Arkitasek itsasontzi bat bidali zuela Sirakusara hura handik ateratzeko, Dionisio II.a tiranoak atxikita zeukanean.</p>\n<p>Pitagoriko ona zenez, uste zuen <strong>matematika</strong> dela ezagutza ororen oinarria. Kuboa bikoizteko problema ebatzi zuen hiru dimentsioko eraikuntza burutsu batekin, akustika eta proportzio musikalak aztertu zituen, eta mekanikaren sortzaileetako bat dela uste da. Infinituari buruzko argudio ospetsu bat ere proposatu zuen: norbait unibertsoaren ertzera iritsi eta besoa luzatuko balu, zerk geldituko luke? Ezerk gelditzen ez badu, unibertsoak ez du ertzik.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "platon": {
   "name": "Platon",
   "dates": "K.a. 427 ing. – 347",
@@ -489,6 +609,22 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "espeusipo": {
+  "name": "Espeusipo",
+  "dates": "K.a. 407 ing. – 339",
+  "born": -407,
+  "died": -339,
+  "place": "Atenas",
+  "role": "filosofo platonikoa, Akademiaren bigarren zuzendaria",
+  "idea": "Errealitatearen lehen printzipioak ez dira Ideiak, zenbakiak eta errealitate matematikoak baizik.",
+  "bio": "<p>Espeusipo <strong>Platon</strong>en iloba zen, haren arreba Potoneren semea, eta Sirakusara egindako bidaietan lagundu zion. Platon K.a. 347an hil zenean, bera izan zen, eta ez Aristoteles, <strong>Akademiaren</strong> buru geratu zena, eta hil arte zuzendu zuen. Garai hartan Aristotelesek Atenas utzi zuen.</p>\n<p>Espeusipok bere osabaren filosofia aldatu zuen: Ideiei uko egin zien errealitate bereizi gisa, eta haien lekuan <strong>zenbakiak</strong> eta objektu matematikoak jarri zituen guztiaren printzipio gisa. Izaki biziak antzekotasunen arabera sailkatzeko ere interesa izan zuen, Aristotelesen lana prestatzen duen lana. Haren ia lan guztiak galdu dira.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "aristoteles": {
   "name": "Aristoteles",
   "dates": "K.a. 384 – 322",
@@ -522,6 +658,42 @@ const ILUSTRES = {
    "hf-utilitarismo",
    "hf-descartes-makro"
   ]
+ },
+ "teofrasto": {
+  "name": "Teofrasto Eresokoa",
+  "dates": "K.a. 371 ing. – 287 ing.",
+  "born": -371,
+  "died": -287,
+  "place": "Ereso (Lesbos uhartea)",
+  "role": "filosofo peripatetikoa eta naturalista",
+  "idea": "Natura ulertzeko, xehetasunez behatu eta sailkatu behar da, landarez landare eta izaeraz izaera.",
+  "bio": "<p>Teofrasto Lesbos uhartean jaio zen, eta hamarkadetan <strong>Aristoteles</strong>en laguntzailea izan zen. Tradizioaren arabera, haren benetako izena Tirtamo zen, eta Aristotelesek deitu zion Teofrasto, «hizkera jainkotiarra duena», bere hitz-jarioagatik. Aristotelesek K.a. 322an Atenas utzi zuenean, Teofrasto <strong>Lizeoaren</strong> buru geratu zen; 35 bat urtez zuzendu zuen, eta ehunka ikasle izatera iritsi zen.</p>\n<p>Bere maisuaren metodoari jarraitu zion, behaketan oinarritua, eta landareei aplikatu zien: haren <em>Landareen historia</em>k <strong>botanikaren</strong> sortzaile bihurtzen du. <em>Izaerak</em> ere idatzi zituen, giza tipoen erretratu labur eta dibertigarrien sorta bat (lausengaria, berritsua, zekena…), geroko idazle askoren inspirazio izan zena. Gainera, aurreko filosofoen iritziak bildu zituen, eta lan horri esker ezagutzen dugu presokratikoek pentsatzen zutenaren zati handi bat.</p>",
+  "obras": [
+   "Landareen historia",
+   "Landareen kausak",
+   "Izaerak"
+  ],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "crates": {
+  "name": "Krates Tebaskoa",
+  "dates": "K.a. 365 ing. – 285 ing.",
+  "born": -365,
+  "died": -285,
+  "place": "Teba (Beozia)",
+  "role": "filosofo zinikoa",
+  "idea": "Zoriontasuna oso gutxi behar izatean datza: aberastasunari eta besteen iritziari uko egiten dionak askea da.",
+  "bio": "<p>Krates Tebako familia aberats batekoa zen, baina bere ondasunak banatu eta <strong>Diogenes Sinopekoa</strong>ren ikasle bihurtu zen. Bere maisua ez bezala, probokazioengatik ospetsua zena, Krates atsegina zela esaten zen: etxeetan sartzen zen behar zuenari laguntzeko eta aholku emateko, eta horregatik «ateak irekitzen dituena» deitzen zioten.</p>\n<p><strong>Hiparkiarekin</strong> ezkondu zen, familia oneko neska gazte batekin, gurasoen nahiaren aurka haren pobrezia-bizitza partekatu nahi izan zuena eta Antzinaroko emakume filosofo gutxietako bat bihurtu zena, haren berri dugunen artean. Krates Zenon Zitiokoaren maisua ere izan zen: haren bidez, austeritatearen eta independentziaren etika zinikoa <strong>estoizismora</strong> igaro zen.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "pirron": {
   "name": "Pirron Elisekoa",
@@ -570,6 +742,22 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "straton": {
+  "name": "Straton Lampsakokoa",
+  "dates": "K.a. 335 ing. – 269 ing.",
+  "born": -335,
+  "died": -269,
+  "place": "Lampsako (Helesponto ondoan)",
+  "role": "filosofo peripatetikoa, «Fisikaria»",
+  "idea": "Natura bere indarrez azaltzen da, jainkoen edo helburuen beharrik gabe.",
+  "bio": "<p>Straton Lampsakon jaio zen, Dardaneloetako itsasartearen ondoan. Denbora bat Alexandrian eman zuen, Ptolomeo II.a errege izango zenaren maisu gisa, eta gero Teofrastoren ondorengoa izan zen <strong>Lizeoaren</strong> buruan, hemezortzi bat urtez zuzendu zuena.</p>\n<p>«Fisikaria» ezizena jarri zioten batez ere naturaren azterketari eman ziolako, eta Aristotelesek baino modu erradikalagoan egin zuen: fenomenoak kausa naturalen bidez azaltzen zituen, pisua edo beroa adibidez, jainkoetara edo naturak helburuak dituelako ideiara jo gabe. Onartu zuen gorputzen partikulen artean hutsune txikiak daudela, eta esperimentuetara hurbiltzen diren behaketak egin zituen, adibidez gorputzen erorketari buruz. Haren lanak galdu dira.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "zenon": {
   "name": "Zenon Zitiokoa",
   "dates": "K.a. 334 ing. – 262 ing.",
@@ -590,6 +778,90 @@ const ILUSTRES = {
   "temas": [
    "hf-helenismo"
   ]
+ },
+ "cleantes": {
+  "name": "Kleantes Asokoa",
+  "dates": "K.a. 331 ing. – 232 ing.",
+  "born": -331,
+  "died": -232,
+  "place": "Aso (Asia Txikia)",
+  "role": "filosofo estoikoa",
+  "idea": "Logos berak, arrazoi jainkotiarrak, gobernatzen du unibertsoa; ondo bizitzea harekin bat etorriz bizitzea eta patua onartzea da.",
+  "bio": "<p>Kleantes boxeolaria izan zen, eta ia dirurik gabe iritsi zen Atenasera. <strong>Zenon Zitiokoa</strong>ren klaseak ordaintzeko, gauez lorategietako putzuetatik ura ateratzen zuen, eta horregatik «urketaria» ezizena jarri zioten. Ikasle motela baina iraunkorra izan zen, eta Zenon K.a. 262an hil zenean <strong>Stoaren</strong> bigarren zuzendari bihurtu zen.</p>\n<p>Haren lanik ezagunena <em>Zeusi ereserkia</em> da, oso-osorik gordetzen diren antzinako testu estoiko gutxietako bat. Bertan Zeus <strong>logosa</strong> da, unibertso osoa ordenatzen duen arrazoia, eta gizakia ordena hori onartzen badu eta <strong>naturarekin bat etorriz</strong> bizi bada baino ez da zoriontsu. Mende batzuk geroago, Senekak patuari buruzko haren bertso batzuk latinera itzuli eta esaldi ospetsu batean laburbildu zituen: «patuak onartzen duena gidatzen du, eta aurka egiten diona arrastaka darama».</p>",
+  "obras": [
+   "Zeusi ereserkia"
+  ],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "timon": {
+  "name": "Timon Fliuntekoa",
+  "dates": "K.a. 320 ing. – 230 ing.",
+  "born": -320,
+  "died": -230,
+  "place": "Fliunte (Peloponeso)",
+  "role": "filosofo eszeptikoa eta poeta satirikoa",
+  "idea": "Zoriontsu izan nahi duenak galdetu behar du nolakoak diren gauzak, zer jarrera hartu haien aurrean eta zer irabazten duen jarrera horrekin; erantzun eszeptikoa iritzia etetea da.",
+  "bio": "<p>Timon Fliunten jaio zen, Peloponeson. Gaztetan dantzaria izan zen, eta geroago <strong>Pirron</strong>en ikasle bihurtu zen, zeinak ez baitzuen ezer idatzi: lehen eszeptizismoaz dakigun ia guztia Timonen bidez iristen zaigu.</p>\n<p>Bere maisuaren irakaspena hiru galderatan laburbildu zuen: nolakoak diren gauzak (ezin dugu jakin), zer jarrera hartu behar dugun haien aurrean (ezer ez baieztatu ez ukatu) eta zer ateratzen den jarrera horretatik (<strong>ataraxia</strong>, arimaren lasaitasuna). <em>Siloak</em> ere idatzi zituen, poema satirikoak, egiaren jabe zirela uste zuten filosofoez burla egiten zuena, presokratikoetatik Platoneraino.</p>",
+  "obras": [
+   "Siloak"
+  ],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "arcesilao": {
+  "name": "Arkesilao Pitanekoa",
+  "dates": "K.a. 316 ing. – 241 ing.",
+  "born": -316,
+  "died": -241,
+  "place": "Pitane (Asia Txikia)",
+  "role": "filosofo akademiko eszeptikoa",
+  "idea": "Ez dago egiazkoa eta faltsua bereizteko irizpide segururik; horregatik, jakintsuak iritzia eteten du.",
+  "bio": "<p>Arkesilao Pitanetik iritsi zen Atenasera, Asia Txikiko kostaldetik, eta K.a. 268 inguruan Platonek sortutako <strong>Akademiaren</strong> zuzendari bihurtu zen. Harekin eskolak bira eman zuen: doktrinak irakasteari utzi eta zalantza praktikatzen hasi zen. Horregatik hitz egiten da «Erdi Akademiaz» edo «Akademia berriaz». Sokratesek bezala, ez zuen ezer idatzi.</p>\n<p>Arkesilaok Sokratesengandik hartu zuen ezer ez dakigula dioen ideia, eta harago eraman zuen: hori bera ere ezin dugu ziur jakin. Haren aurkari handia Zenon Zitiokoa estoikoa izan zen, zenbait inpresio hain argiak direla baitzioen, ezen ezin baitira faltsuak izan. Arkesilaok erantzuten zuen ez dagoela faltsu batekin nahas ezin daitekeen inpresio egiazkorik, eta, beraz, jakintsua dela <strong>iritzia etetea</strong> (<em>epokhe</em>). Klasean tesi bakoitzaren alde eta aurka argudiatzen zuen, bat ere ez zela segurua erakusteko.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "crisipo": {
+  "name": "Krisipo Solosekoa",
+  "dates": "K.a. 279 ing. – 206 ing.",
+  "born": -279,
+  "died": -206,
+  "place": "Solos (Zilizia, Asia Txikia)",
+  "role": "filosofo estoikoa",
+  "idea": "Dena patuaren arabera gertatzen da, baina egiten duguna gure menpe ere badago, zilindro bat bezala: norbaitek bultzatzen duenean, bere formaren arabera biratzen da.",
+  "bio": "<p>Krisipo Solosen jaio zen, gaur egungo Turkian, eta Kleantesen ondorengoa izan zen <strong>Stoaren</strong> hirugarren zuzendari gisa. Bera izan zen estoizismoa sistema oso eta ondo argudiatu bihurtu zuena, hainbeste non Antzinaroan esaten baitzen: «Krisipo existitu izan ez balitz, ez zen Stoa existituko». Zazpiehun lan baino gehiago idatzi zituen, denak galduak.</p>\n<p>Krisipok <strong>logika</strong> berezi bat garatu zuen, proposizioen arteko erlazioetan oinarritua («eguna bada, argia dago»), Aristotelesena osatzen zuena. <strong>Patua</strong> gizakiaren erantzukizunarekin bateratzen ere saiatu zen zilindroaren irudiarekin: norbaitek bultzatzen du, baina biratzea bere formari zor zaio. Era berean, inguruabarrek bultzatzen gaituzte, baina nola erantzuten dugun gure izaeraren araberakoa da.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "carneades": {
+  "name": "Karneades Zirenekoa",
+  "dates": "K.a. 214 ing. – 129 ing.",
+  "born": -214,
+  "died": -129,
+  "place": "Zirene (Afrika iparraldea)",
+  "role": "filosofo akademiko eszeptikoa",
+  "idea": "Ezin dugu egia segurua lortu, baina bai gutxi-asko probablea dena bereizi, eta hori nahikoa da nola jokatu erabakitzeko.",
+  "bio": "<p>Karneadesek, Afrika iparraldeko Zirenen jaioak, <strong>Akademia</strong> zuzendu zuen haren etapa eszeptikoan, eta bere garaiko filosoforik distiratsuena izan zen. Ez zuen ezer idatzi; haren ideiak Klitomako ikaslearen eta Zizeronen bidez ezagutzen ditugu. K.a. 155ean Erromara joan zen Atenasko enbaxadore gisa, eta han bi hitzaldi eman zituen jarraian: lehen egunean justizia defendatu zuen, eta bigarrenean indar berarekin gezurtatu. Katon Zaharrak, eskandalizatuta, enbaxadore haiek lehenbailehen bidaltzeko eskatu zuen, Erromako gazteria usteldu ez zezaten.</p>\n<p>Karneadesek batez ere estoikoak kritikatu zituen: inpresio batek ere ez du berez egia bermatzen. Baina zalantzak geldiarazi ez zezan, <strong>probabilismoa</strong> proposatu zuen: ziurtasunik lortzen ez badugu ere, <strong>sinesgarria edo probablea</strong> denaren arabera jokatu dezakegu, batez ere egiaztatu bada eta ezerk kontraesaten ez badu. Bizi ahal izateko pentsatutako eszeptizismoa da.</p>",
+  "obras": [],
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "tertuliano": {
   "name": "Tertuliano",

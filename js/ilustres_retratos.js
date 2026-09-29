@@ -54,6 +54,10 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/museo2/empedocles.jpg",
   "pie": "Empedocles. Line engraving, 1580. Wellcome V0001766 · Wellcome Collection · CC BY 4.0"
  },
+ "zenon_elea": {
+  "f": "media/retratos/museo2/zenon-elea.jpg",
+  "pie": "Portret van Zeno van Elea, RP-P-OB-17.264 · Rijksmuseum · CC0"
+ },
  "protagoras": {
   "f": "media/retratos/museo2/protagoras.jpg",
   "pie": "Ribera - Protagoras, 1637 · Jusepe de Ribera · Public Domain"
@@ -122,6 +126,14 @@ const ILUSTRES_RETRATOS = {
  "zenon": {
   "f": "media/retratos/museo2/zenon-citio.jpg",
   "pie": "Zeno of Citium - Museo archeologico nazionale di Napoli · Jeremy Weate from Abuja, Nigeria · CC BY 2.0"
+ },
+ "cleantes": {
+  "f": "media/retratos/museo2/cleantes.jpg",
+  "pie": "Cleanthes Assius - Illustrium philosophorum et sapientum effigies ab eorum numistatibus extractae · Girolamo Olgiati · Public Domain"
+ },
+ "crisipo": {
+  "f": "media/retratos/museo2/crisipo.jpg",
+  "pie": "Academische studie naar sculptuur, buste van Chrysippos, 1826, Johannes du Burck, Musea Brugge, 0016.GRO0187.II · Johannes du Burck · CC0"
  },
  "seneca": {
   "f": "media/retratos/museo/seneca.jpg",

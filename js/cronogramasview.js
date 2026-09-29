@@ -22,6 +22,13 @@ function cronoBlockName(b){ return b === EJE_ID ? EJE_CRONOLOGICO.txt.filtro : C
    (24-09) el formato va en una plantilla para que el diccionario de interfaz pueda
    reordenarlo en euskera («{n} a.C.» → «K.a. {n}»). */
 const CRONO_AC = "K.a. {n}";
+/* (29-09) cronogramas con «groups» (escuelas): color por escuela y botones para mostrar u ocultar
+   cada una (cronoHidden, se reinicia al cambiar de cronograma); «fl.» = floruit */
+const CRONO_GRP_COLORS = ["#2e9e6b", "#7fb069", "#e0a526", "#b44fc4", "#3fa7c9", "#a8b82e", "#9a7b5f", "#2f6fd6", "#7b61d9", "#e377c2", "#d95f02", "#54a24b", "#c0392b"];
+function cronoGrpColor(k){ return CRONO_GRP_COLORS[k % CRONO_GRP_COLORS.length]; }
+let cronoHidden = new Set(), cronoHiddenFor = null;
+const CRONO_FL = "fl. ";
+const CRONO_FL_NOTE = "fl. = jarduera-garaia (ez dira ezagutzen bere bizitzaren datak)";
 function cronoBC(n){ return CRONO_AC.replace("{n}", n); }
 function cronoYear(y){ if (y == null) return ""; return y < 0 ? cronoBC(-y) : "" + y; }
 function cronoRange(s, e){ if (s == null || e == null) return "";
@@ -79,6 +86,13 @@ function cronoSvg(c){
   // orden cronológico (por año de inicio, luego de fin): la línea se lee de arriba a abajo en el tiempo
   const key = v => (v == null ? 1e9 : v);
   axes = axes.slice().sort((a, b) => key(a.start) - key(b.start) || key(a.end) - key(b.end));
+  // (29-09) con escuelas (c.groups): solo las que están activas; la escala no cambia al ocultar
+  const grps = c.groups || null;
+  if (cronoHiddenFor !== c.id){ cronoHidden = new Set(); cronoHiddenFor = c.id; }
+  const hasFl = axes.some(a => a.fl);
+  if (grps) axes = axes.filter(a => !cronoHidden.has(a.grp));
+  const legend = grps ? cronoLegend(grps) : "";
+  if (!axes.length) return legend + '<p class="lead crono-none">' + CRONO_NONE + '</p>';
 
   const W = 960, gutter = 186, padR = 26, padTop = 40, rowH = 30, barH = 18;
   const H = padTop + axes.length * rowH + 16;
@@ -102,6 +116,7 @@ function cronoSvg(c){
   if (start < 0 && end > 0){ const xz = xOf(0); svg += '<line class="zero" x1="' + xz.toFixed(1) + '" y1="' + (padTop - 8) + '" x2="' + xz.toFixed(1) + '" y2="' + (H - 8) + '"/>'; }
 
   const colors = ["var(--accent)", "var(--accent-2)", "var(--fil)", "var(--hf)", "var(--ipc)"];
+  const colOf = (a, i) => grps && a.grp != null ? cronoGrpColor(a.grp) : colors[i % colors.length];
   axes.forEach((a, i) => {
     const y = padTop + i * rowH;
     svg += '<rect class="lane-bg" x="0" y="' + (y + (rowH - barH) / 2 - 2) + '" width="' + W + '" height="' + (barH + 4) + '" rx="4" opacity="' + (i % 2 ? ".5" : ".22") + '"/>';
@@ -109,7 +124,7 @@ function cronoSvg(c){
     svg += '<text class="lane-lbl" x="8" y="' + (y + rowH / 2 + 4) + '">' + escapeCrono(nm) + '</text>';
     if (a.start != null && a.end != null && a.end >= a.start){
       const bx = xOf(a.start), bw = Math.max(4, xOf(a.end) - xOf(a.start));
-      svg += '<rect class="cbar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colors[i % colors.length] + '"/>';
+      svg += '<rect class="cbar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colOf(a, i) + '"/>';
       // años SIEMPRE visibles: a la derecha de la barra, o a la izquierda si no cabe (nunca recortados)
       const lbl = cronoYear(a.start) + '–' + cronoYear(a.end), lblW = lbl.length * 6;
       const yr = y + rowH / 2 + 4, rx = xOf(a.end) + 6;
@@ -118,13 +133,33 @@ function cronoSvg(c){
       else
         svg += '<text class="bar-yr" x="' + (bx - 6).toFixed(1) + '" y="' + yr + '" text-anchor="end">' + lbl + '</text>';
     } else if (a.start != null){
-      svg += '<circle cx="' + xOf(a.start).toFixed(1) + '" cy="' + (y + rowH / 2) + '" r="5" fill="' + colors[i % colors.length] + '"/>';
-      svg += '<text class="bar-yr" x="' + (xOf(a.start) + 9).toFixed(1) + '" y="' + (y + rowH / 2 + 4) + '" text-anchor="start">' + cronoYear(a.start) + '</text>';
+      svg += '<circle cx="' + xOf(a.start).toFixed(1) + '" cy="' + (y + rowH / 2) + '" r="5" fill="' + colOf(a, i) + '"/>';
+      svg += '<text class="bar-yr" x="' + (xOf(a.start) + 9).toFixed(1) + '" y="' + (y + rowH / 2 + 4) + '" text-anchor="start">' + (a.fl ? CRONO_FL : "") + cronoYear(a.start) + '</text>';
     }
   });
   svg += '</svg>';
-  return svg;
+  if (hasFl && axes.some(a => a.fl)) svg += '<p class="crono-leg-note">' + CRONO_FL_NOTE + '</p>';
+  return legend + svg;
 }
+/* botones de escuela: color + nombre; pulsado = visible. «Todas» / «Ninguna» para empezar de cero */
+const CRONO_ESCUELAS = "Eskolak", CRONO_TODAS = "Guztiak", CRONO_NINGUNA = "Bat ere ez",
+  CRONO_NONE = "Ez dago eskolarik aktibo: sakatu bat ikusteko.";
+function cronoLegend(grps){
+  return '<div class="crono-legend" role="group" aria-label="' + CRONO_ESCUELAS + '"><span class="flabel">' + CRONO_ESCUELAS + '</span>' +
+    grps.map((g, k) => '<button type="button" class="crono-leg" data-cgrp="' + k + '" aria-pressed="' + !cronoHidden.has(k) + '">' +
+      '<i style="background:' + cronoGrpColor(k) + '"></i><span>' + escapeCrono(g.name) + '</span></button>').join("") +
+    '<button type="button" class="crono-leg crono-leg-all" data-cgrp="all">' + CRONO_TODAS + '</button>' +
+    '<button type="button" class="crono-leg crono-leg-all" data-cgrp="none">' + CRONO_NINGUNA + '</button></div>';
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest && e.target.closest("#cronobox [data-cgrp]"); if (!b) return;
+  const k = b.dataset.cgrp, c = CRONOGRAMAS.find(x => x.id === cronoId);
+  if (k === "all") cronoHidden.clear();
+  else if (k === "none") (c && c.groups || []).forEach((g, i) => cronoHidden.add(i));
+  else { const i = +k; cronoHidden.has(i) ? cronoHidden.delete(i) : cronoHidden.add(i); }
+  drawCrono();
+  const again = document.querySelector('#cronobox [data-cgrp="' + k + '"]'); if (again) again.focus();
+});
 
 function cronoEpochs(c){
   return '<div class="crono-epochs">' + (c.stages || []).map(s =>
@@ -283,7 +318,7 @@ function escapeCrono(s){ return String(s || "").replace(/&/g, "&amp;").replace(/
    Alias: los de tools/ilustres_autores.txt (CRONO_ILU_ALIAS, generado; regenerar si cambia esa lista)
    + el nombre de la ficha tal como está en esta web (en euskera, «Platon», «Tomas Akinokoa»…) y su forma
    corta. Un alias que valga para dos pensadores se descarta (mejor sin enlace que con uno equivocado). */
-const CRONO_ILU_ALIAS = {"homero":["Homero"],"hesiodo":["Hesíodo"],"tales":["Tales de Mileto","Tales"],"anaximandro":["Anaximandro"],"anaximenes":["Anaxímenes"],"pitagoras":["Pitágoras de Samos","Pitágoras"],"jenofanes":["Jenófanes de Colofón","Jenófanes"],"heraclito":["Heráclito de Éfeso","Heráclito"],"parmenides":["Parménides de Elea","Parménides"],"anaxagoras":["Anaxágoras de Clazómenas","Anaxágoras"],"empedocles":["Empédocles de Agrigento","Empédocles"],"solon":["Solón"],"protagoras":["Protágoras de Abdera","Protágoras"],"gorgias":["Gorgias de Leontinos","Gorgias"],"policleto":["Policleto"],"socrates":["Sócrates"],"aspasia":["Aspasia de Mileto","Aspasia"],"democrito":["Demócrito de Abdera","Demócrito"],"hipias":["Hipias de Élide","Hipias"],"antistenes":["Antístenes"],"aristipo":["Aristipo de Cirene","Aristipo"],"platon":["Platón"],"diogenes":["Diógenes de Sinope","Diógenes"],"aristoteles":["Aristóteles"],"pirron":["Pirrón de Elis","Pirrón"],"epicuro":["Epicuro"],"zenon":["Zenón de Citio"],"seneca":["Séneca"],"tertuliano":["Tertuliano"],"plotino":["Plotino"],"hipatia":["Hipatia de Alejandría","Hipatia"],"agustin":["Agustín de Hipona","San Agustín","S. Agustín","Agustín"],"anselmo":["Anselmo de Canterbury","Anselmo"],"abelardo":["Pedro Abelardo","Abelardo"],"hildegarda":["Hildegarda de Bingen","Hildegarda"],"averroes":["Averroes"],"tomas":["Tomás de Aquino","Santo Tomás","S. Tomás"],"ockham":["Guillermo de Ockham","Ockham"],"maquiavelo":["Nicolás Maquiavelo","Maquiavelo"],"copernico":["Nicolás Copérnico","Copérnico"],"lutero":["Martín Lutero","Lutero"],"calvino":["Juan Calvino","Calvino"],"galileo":["Galileo Galilei","Galileo"],"kepler":["Johannes Kepler","Kepler"],"harvey":["William Harvey","Harvey"],"hobbes":["Thomas Hobbes","Hobbes"],"descartes":["René Descartes","Descartes"],"isabel":["Isabel de Bohemia"],"spinoza":["Baruch Spinoza","Spinoza"],"locke":["John Locke","Locke"],"malebranche":["Nicolas Malebranche","Malebranche"],"newton":["Isaac Newton","Newton"],"leibniz":["Gottfried Wilhelm Leibniz","Leibniz"],"berkeley":["George Berkeley","Berkeley"],"montesquieu":["Montesquieu"],"voltaire":["Voltaire"],"hume":["David Hume","Hume"],"lamettrie":["Julien Offray de La Mettrie","La Mettrie"],"rousseau":["Jean-Jacques Rousseau","Rousseau"],"diderot":["Denis Diderot","Diderot"],"dalembert":["Jean le Rond d'Alembert","D'Alembert","d'Alembert"],"baumgarten":["Alexander Baumgarten","Baumgarten"],"smith":["Adam Smith"],"kant":["Immanuel Kant","Kant"],"lamarck":["Jean-Baptiste Lamarck","Lamarck"],"bentham":["Jeremy Bentham","Bentham"],"gouges":["Olympe de Gouges","De Gouges"],"wollstonecraft":["Mary Wollstonecraft","Wollstonecraft"],"hegel":["Georg Wilhelm Friedrich Hegel","Hegel"],"comte":["Auguste Comte","Comte"],"feuerbach":["Ludwig Feuerbach","Feuerbach"],"mill":["John Stuart Mill","Stuart Mill"],"darwin":["Charles Darwin","Darwin"],"boole":["George Boole","Boole"],"marx":["Karl Marx","Marx"],"mendel":["Gregor Mendel","Mendel"],"wallace":["Alfred Russel Wallace","Wallace"],"kropotkin":["Piotr Kropotkin","Kropotkin"],"tylor":["Edward B. Tylor","Tylor"],"nietzsche":["Friedrich Nietzsche","Nietzsche"],"james":["William James"],"freud":["Sigmund Freud","Freud"],"frege":["Gottlob Frege","Frege"],"unamuno":["Miguel de Unamuno","Unamuno"],"whitehead":["Alfred North Whitehead","Whitehead"],"weber":["Max Weber","Weber"],"curie":["Marie Curie","Curie"],"russell":["Bertrand Russell","Russell"],"moore":["George Edward Moore","Moore"],"scheler":["Max Scheler","Scheler"],"schlick":["Moritz Schlick","Schlick"],"einstein":["Albert Einstein","Einstein"],"ortega":["José Ortega y Gasset","Ortega"],"sapir":["Edward Sapir","Sapir"],"duchamp":["Marcel Duchamp","Duchamp"],"wittgenstein":["Ludwig Wittgenstein","Wittgenstein"],"heidegger":["Martin Heidegger","Heidegger"],"carnap":["Rudolf Carnap","Carnap"],"horkheimer":["Max Horkheimer","Horkheimer"],"benjamin":["Walter Benjamin"],"whorf":["Benjamin Lee Whorf","Whorf"],"gadamer":["Hans-Georg Gadamer","Gadamer"],"ryle":["Gilbert Ryle","Ryle"],"popper":["Karl Popper","Popper"],"adorno":["Theodor W. Adorno","Adorno"],"zambrano":["María Zambrano","Zambrano"],"sartre":["Jean-Paul Sartre","Sartre"],"arendt":["Hannah Arendt","Arendt"],"beauvoir":["Simone de Beauvoir","Beauvoir"],"turing":["Alan Turing","Turing"],"camus":["Albert Camus","Camus"],"shannon":["Claude Shannon","Shannon"],"franklin":["Rosalind Franklin"],"ricoeur":["Paul Ricoeur","Ricoeur"],"rawls":["John Rawls","Rawls"],"kuhn":["Thomas Kuhn","Kuhn"],"lyotard":["Jean-François Lyotard","Lyotard"],"bauman":["Zygmunt Bauman","Bauman"],"danto":["Arthur Danto","Danto"],"foucault":["Michel Foucault","Foucault"],"dickie":["George Dickie","Dickie"],"chomsky":["Noam Chomsky","Chomsky"],"habermas":["Jürgen Habermas","Habermas"],"wilson":["Edward O. Wilson"],"txillardegi":["Txillardegi"],"baudrillard":["Jean Baudrillard","Baudrillard"],"debord":["Guy Debord","Debord"],"derrida":["Jacques Derrida","Derrida"],"vattimo":["Gianni Vattimo","Vattimo"],"azurmendi":["Joxe Azurmendi","Azurmendi"],"ingham":["Geoffrey Ingham","Ingham"],"nussbaum":["Martha Nussbaum","Nussbaum"],"butler":["Judith Butler","Butler"],"han":["Byung-Chul Han"],"herrero":["Yayo Herrero"],"chalmers":["David Chalmers","Chalmers"],"klein":["Naomi Klein"],"preciado":["Paul B. Preciado","Preciado"],"bostrom":["Nick Bostrom","Bostrom"]};
+const CRONO_ILU_ALIAS = {"homero":["Homero"],"hesiodo":["Hesíodo"],"tales":["Tales de Mileto","Tales"],"anaximandro":["Anaximandro"],"anaximenes":["Anaxímenes"],"pitagoras":["Pitágoras de Samos","Pitágoras"],"jenofanes":["Jenófanes de Colofón","Jenófanes"],"heraclito":["Heráclito de Éfeso","Heráclito"],"parmenides":["Parménides de Elea","Parménides"],"anaxagoras":["Anaxágoras de Clazómenas","Anaxágoras"],"empedocles":["Empédocles de Agrigento","Empédocles"],"solon":["Solón"],"protagoras":["Protágoras de Abdera","Protágoras"],"gorgias":["Gorgias de Leontinos","Gorgias"],"policleto":["Policleto"],"socrates":["Sócrates"],"aspasia":["Aspasia de Mileto","Aspasia"],"democrito":["Demócrito de Abdera","Demócrito"],"hipias":["Hipias de Élide","Hipias"],"antistenes":["Antístenes"],"aristipo":["Aristipo de Cirene","Aristipo"],"platon":["Platón"],"diogenes":["Diógenes de Sinope","Diógenes"],"aristoteles":["Aristóteles"],"pirron":["Pirrón de Elis","Pirrón"],"epicuro":["Epicuro"],"zenon":["Zenón de Citio"],"filolao":["Filolao de Crotona","Filolao"],"arquitas":["Arquitas de Tarento","Arquitas"],"zenon_elea":["Zenón de Elea"],"meliso":["Meliso de Samos","Meliso"],"leucipo":["Leucipo"],"trasimaco":["Trasímaco de Calcedonia","Trasímaco"],"espeusipo":["Espeusipo"],"arcesilao":["Arcesilao de Pitane","Arcesilao"],"carneades":["Carnéades de Cirene","Carnéades"],"teofrasto":["Teofrasto de Ereso","Teofrasto"],"straton":["Estratón de Lámpsaco","Estratón"],"crates":["Crates de Tebas","Crates"],"timon":["Timón de Fliunte"],"cleantes":["Cleantes de Aso","Cleantes"],"crisipo":["Crisipo de Solos","Crisipo"],"seneca":["Séneca"],"tertuliano":["Tertuliano"],"plotino":["Plotino"],"hipatia":["Hipatia de Alejandría","Hipatia"],"agustin":["Agustín de Hipona","San Agustín","S. Agustín","Agustín"],"anselmo":["Anselmo de Canterbury","Anselmo"],"abelardo":["Pedro Abelardo","Abelardo"],"hildegarda":["Hildegarda de Bingen","Hildegarda"],"averroes":["Averroes"],"tomas":["Tomás de Aquino","Santo Tomás","S. Tomás"],"ockham":["Guillermo de Ockham","Ockham"],"maquiavelo":["Nicolás Maquiavelo","Maquiavelo"],"copernico":["Nicolás Copérnico","Copérnico"],"lutero":["Martín Lutero","Lutero"],"calvino":["Juan Calvino","Calvino"],"galileo":["Galileo Galilei","Galileo"],"kepler":["Johannes Kepler","Kepler"],"harvey":["William Harvey","Harvey"],"hobbes":["Thomas Hobbes","Hobbes"],"descartes":["René Descartes","Descartes"],"isabel":["Isabel de Bohemia"],"spinoza":["Baruch Spinoza","Spinoza"],"locke":["John Locke","Locke"],"malebranche":["Nicolas Malebranche","Malebranche"],"newton":["Isaac Newton","Newton"],"leibniz":["Gottfried Wilhelm Leibniz","Leibniz"],"berkeley":["George Berkeley","Berkeley"],"montesquieu":["Montesquieu"],"voltaire":["Voltaire"],"hume":["David Hume","Hume"],"lamettrie":["Julien Offray de La Mettrie","La Mettrie"],"rousseau":["Jean-Jacques Rousseau","Rousseau"],"diderot":["Denis Diderot","Diderot"],"dalembert":["Jean le Rond d'Alembert","D'Alembert","d'Alembert"],"baumgarten":["Alexander Baumgarten","Baumgarten"],"smith":["Adam Smith"],"kant":["Immanuel Kant","Kant"],"lamarck":["Jean-Baptiste Lamarck","Lamarck"],"bentham":["Jeremy Bentham","Bentham"],"gouges":["Olympe de Gouges","De Gouges"],"wollstonecraft":["Mary Wollstonecraft","Wollstonecraft"],"hegel":["Georg Wilhelm Friedrich Hegel","Hegel"],"comte":["Auguste Comte","Comte"],"feuerbach":["Ludwig Feuerbach","Feuerbach"],"mill":["John Stuart Mill","Stuart Mill"],"darwin":["Charles Darwin","Darwin"],"boole":["George Boole","Boole"],"marx":["Karl Marx","Marx"],"mendel":["Gregor Mendel","Mendel"],"wallace":["Alfred Russel Wallace","Wallace"],"kropotkin":["Piotr Kropotkin","Kropotkin"],"tylor":["Edward B. Tylor","Tylor"],"nietzsche":["Friedrich Nietzsche","Nietzsche"],"james":["William James"],"freud":["Sigmund Freud","Freud"],"frege":["Gottlob Frege","Frege"],"unamuno":["Miguel de Unamuno","Unamuno"],"whitehead":["Alfred North Whitehead","Whitehead"],"weber":["Max Weber","Weber"],"curie":["Marie Curie","Curie"],"russell":["Bertrand Russell","Russell"],"moore":["George Edward Moore","Moore"],"scheler":["Max Scheler","Scheler"],"schlick":["Moritz Schlick","Schlick"],"einstein":["Albert Einstein","Einstein"],"ortega":["José Ortega y Gasset","Ortega"],"sapir":["Edward Sapir","Sapir"],"duchamp":["Marcel Duchamp","Duchamp"],"wittgenstein":["Ludwig Wittgenstein","Wittgenstein"],"heidegger":["Martin Heidegger","Heidegger"],"carnap":["Rudolf Carnap","Carnap"],"horkheimer":["Max Horkheimer","Horkheimer"],"benjamin":["Walter Benjamin"],"whorf":["Benjamin Lee Whorf","Whorf"],"gadamer":["Hans-Georg Gadamer","Gadamer"],"ryle":["Gilbert Ryle","Ryle"],"popper":["Karl Popper","Popper"],"adorno":["Theodor W. Adorno","Adorno"],"zambrano":["María Zambrano","Zambrano"],"sartre":["Jean-Paul Sartre","Sartre"],"arendt":["Hannah Arendt","Arendt"],"beauvoir":["Simone de Beauvoir","Beauvoir"],"turing":["Alan Turing","Turing"],"camus":["Albert Camus","Camus"],"shannon":["Claude Shannon","Shannon"],"franklin":["Rosalind Franklin"],"ricoeur":["Paul Ricoeur","Ricoeur"],"rawls":["John Rawls","Rawls"],"kuhn":["Thomas Kuhn","Kuhn"],"lyotard":["Jean-François Lyotard","Lyotard"],"bauman":["Zygmunt Bauman","Bauman"],"danto":["Arthur Danto","Danto"],"foucault":["Michel Foucault","Foucault"],"dickie":["George Dickie","Dickie"],"chomsky":["Noam Chomsky","Chomsky"],"habermas":["Jürgen Habermas","Habermas"],"wilson":["Edward O. Wilson"],"txillardegi":["Txillardegi"],"baudrillard":["Jean Baudrillard","Baudrillard"],"debord":["Guy Debord","Debord"],"derrida":["Jacques Derrida","Derrida"],"vattimo":["Gianni Vattimo","Vattimo"],"azurmendi":["Joxe Azurmendi","Azurmendi"],"ingham":["Geoffrey Ingham","Ingham"],"nussbaum":["Martha Nussbaum","Nussbaum"],"butler":["Judith Butler","Butler"],"han":["Byung-Chul Han"],"herrero":["Yayo Herrero"],"chalmers":["David Chalmers","Chalmers"],"klein":["Naomi Klein"],"preciado":["Paul B. Preciado","Preciado"],"bostrom":["Nick Bostrom","Bostrom"]};
 let _cronoIluRe = null, _cronoIluMap = null;
 function cronoIluIndex(){
   if (_cronoIluMap || typeof ILUSTRES === "undefined") return _cronoIluMap;
@@ -294,7 +329,7 @@ function cronoIluIndex(){
     const n = ILUSTRES[id].name || ""; add(n, id);
     const w = n.split(/\s+/);
     if (w.length > 1){
-      if (/\s(de|del|d'|von|van)\s/i.test(n) || /koa$/i.test(n)) add(w[0], id);   /* «Tales de Mileto», «Tales Miletokoa» → Tales */
+      if (/\s(de|del|d'|von|van)\s/i.test(n) || /[kg]oa$/i.test(n)) add(w[0], id);   /* «Tales de Mileto», «Tales Miletokoa», «Xenofanes Kolofongoa» → Tales, Xenofanes */
       else add(w[w.length - 1], id);                                                 /* «Immanuel Kant» → Kant */
     }
   });
@@ -302,7 +337,9 @@ function cronoIluIndex(){
   Object.keys(cand).forEach(a => { if (cand[a].size === 1) _cronoIluMap.set(a, [...cand[a]][0]); });
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const keys = [..._cronoIluMap.keys()].sort((a, b) => b.length - a.length);   /* el más largo primero */
-  _cronoIluRe = keys.length ? new RegExp("(?<![\\p{L}\\p{N}])(" + keys.map(esc).join("|") + ")(?![\\p{L}\\p{N}])", "gu") : null;
+  /* (29-09) un nombre seguido de «de» + mayúscula que no es su alias completo es otro pensador
+     («Zenón de Elea» no es Zenón de Citio): sin enlace */
+  _cronoIluRe = keys.length ? new RegExp("(?<![\\p{L}\\p{N}])(" + keys.map(esc).join("|") + ")(?![\\p{L}\\p{N}])(?! de \\p{Lu})", "gu") : null;
   return _cronoIluMap;
 }
 function cronoIlu(){

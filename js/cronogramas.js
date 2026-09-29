@@ -65,6 +65,277 @@ const CRONOGRAMAS = [
   ]
  },
  {
+  "id": "A-GRECIA-KRO-01",
+  "code": "A-GRECIA-KRO-01",
+  "title": "Filosofia greziarra eskolaka (K.a. VI-II. mendeak)",
+  "type": "timeline",
+  "start": -625,
+  "end": -100,
+  "groups": [
+   {
+    "name": "Miletoarrak"
+   },
+   {
+    "name": "Beste presokratiko batzuk"
+   },
+   {
+    "name": "Pitagorikoak"
+   },
+   {
+    "name": "Eleatarrak"
+   },
+   {
+    "name": "Pluralistak eta atomistak"
+   },
+   {
+    "name": "Sofistak"
+   },
+   {
+    "name": "Sokrates eta sokratikoak"
+   },
+   {
+    "name": "Akademia (Platon)"
+   },
+   {
+    "name": "Lizeoa (Aristoteles)"
+   },
+   {
+    "name": "Zinikoak"
+   },
+   {
+    "name": "Eszeptikoak"
+   },
+   {
+    "name": "Epikureoak"
+   },
+   {
+    "name": "Estoikoak"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Tales Miletokoa",
+    "start": -624,
+    "end": -546,
+    "grp": 0
+   },
+   {
+    "name": "Anaximandro",
+    "start": -610,
+    "end": -546,
+    "grp": 0
+   },
+   {
+    "name": "Anaximenes",
+    "start": -586,
+    "end": -526,
+    "grp": 0
+   },
+   {
+    "name": "Xenofanes",
+    "start": -570,
+    "end": -475,
+    "grp": 1
+   },
+   {
+    "name": "Heraklito",
+    "start": -540,
+    "end": -480,
+    "grp": 1
+   },
+   {
+    "name": "Pitagoras",
+    "start": -570,
+    "end": -495,
+    "grp": 2
+   },
+   {
+    "name": "Filolao",
+    "start": -470,
+    "end": -385,
+    "grp": 2
+   },
+   {
+    "name": "Arkitas Tarentokoa",
+    "start": -430,
+    "end": -350,
+    "grp": 2
+   },
+   {
+    "name": "Parmenides",
+    "start": -515,
+    "end": -450,
+    "grp": 3
+   },
+   {
+    "name": "Zenon Eleakoa",
+    "start": -490,
+    "end": -430,
+    "grp": 3
+   },
+   {
+    "name": "Meliso Samoskoa",
+    "start": -440,
+    "end": null,
+    "fl": true,
+    "grp": 3
+   },
+   {
+    "name": "Anaxagoras",
+    "start": -500,
+    "end": -428,
+    "grp": 4
+   },
+   {
+    "name": "Enpedokles",
+    "start": -495,
+    "end": -435,
+    "grp": 4
+   },
+   {
+    "name": "Leuzipo",
+    "start": -440,
+    "end": null,
+    "fl": true,
+    "grp": 4
+   },
+   {
+    "name": "Demokrito",
+    "start": -460,
+    "end": -370,
+    "grp": 4
+   },
+   {
+    "name": "Protagoras",
+    "start": -490,
+    "end": -420,
+    "grp": 5
+   },
+   {
+    "name": "Gorgias",
+    "start": -483,
+    "end": -375,
+    "grp": 5
+   },
+   {
+    "name": "Trasimako",
+    "start": -427,
+    "end": null,
+    "fl": true,
+    "grp": 5
+   },
+   {
+    "name": "Sokrates",
+    "start": -470,
+    "end": -399,
+    "grp": 6
+   },
+   {
+    "name": "Antistenes",
+    "start": -445,
+    "end": -365,
+    "grp": 6
+   },
+   {
+    "name": "Aristipo Zirenekoa",
+    "start": -435,
+    "end": -356,
+    "grp": 6
+   },
+   {
+    "name": "Platon",
+    "start": -427,
+    "end": -347,
+    "grp": 7
+   },
+   {
+    "name": "Espeusipo",
+    "start": -407,
+    "end": -339,
+    "grp": 7
+   },
+   {
+    "name": "Arkesilao",
+    "start": -316,
+    "end": -241,
+    "grp": 7
+   },
+   {
+    "name": "Karneades",
+    "start": -214,
+    "end": -129,
+    "grp": 7
+   },
+   {
+    "name": "Aristoteles",
+    "start": -384,
+    "end": -322,
+    "grp": 8
+   },
+   {
+    "name": "Teofrasto",
+    "start": -371,
+    "end": -287,
+    "grp": 8
+   },
+   {
+    "name": "Straton Lampsakokoa",
+    "start": -335,
+    "end": -269,
+    "grp": 8
+   },
+   {
+    "name": "Diogenes Sinopekoa",
+    "start": -412,
+    "end": -323,
+    "grp": 9
+   },
+   {
+    "name": "Krates Tebaskoa",
+    "start": -365,
+    "end": -285,
+    "grp": 9
+   },
+   {
+    "name": "Pirron",
+    "start": -360,
+    "end": -270,
+    "grp": 10
+   },
+   {
+    "name": "Timon Fliuntekoa",
+    "start": -320,
+    "end": -230,
+    "grp": 10
+   },
+   {
+    "name": "Epikuro",
+    "start": -341,
+    "end": -270,
+    "grp": 11
+   },
+   {
+    "name": "Zenon Zitiokoa",
+    "start": -334,
+    "end": -262,
+    "grp": 12
+   },
+   {
+    "name": "Kleantes",
+    "start": -331,
+    "end": -232,
+    "grp": 12
+   },
+   {
+    "name": "Krisipo",
+    "start": -279,
+    "end": -206,
+    "grp": 12
+   }
+  ],
+  "events": []
+ },
+ {
   "id": "A3-KRO-01",
   "code": "A3-KRO-01",
   "title": "A3 · Ibilbide kronologikoa",

@@ -62,7 +62,7 @@ const GALERIA_EPOCAS = [
  },
  {
   "f": "media/galeria_museo/epocas/mito_logos_Achilles_and_Ajax_playing_dice_Attic_black_figured_amphora_signed_by_Exekias_as.jpg",
-  "t": "Del mito al logos",
+  "t": "Aquiles y Áyax jugando a los dados",
   "pie": "Achilles and Ajax playing dice, Attic black-figured amphora, signed by Exekias as both painter and potter, 540-530 BC, inv. 16757 - Museo Gregoriano Etrusco - Vatican Museums - DSC01049 · Daderot · 2019-04-06 04:48:03 · PD · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
