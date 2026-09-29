@@ -73,7 +73,13 @@ function renderEABody(){
       (sch.pregunta ? '<p class="ea-q">' + eaEsc(sch.pregunta) + '</p>' : '') + secs +
       (sch.idea ? '<p class="ea-idea"><strong>Ideia gakoa:</strong> ' + eaEsc(sch.idea) + '</p>' : '') + '</article>';
   }).join("");
+  eaIlu();
 }
+
+/* (29-09) Nombres de pensadores → su ficha en «Ilustres», con el mismo enlazador que los
+   cronogramas (cronoIlu, en cronogramasview.js, que se carga después: de ahí el DOMContentLoaded). */
+function eaIlu(){ if (typeof cronoIlu === "function") try { cronoIlu(document.getElementById("eabody")); } catch (e) {} }
+document.addEventListener("DOMContentLoaded", eaIlu);
 
 eaInjectCss();
 renderEAFilter();

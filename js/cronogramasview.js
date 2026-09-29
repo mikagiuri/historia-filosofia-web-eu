@@ -346,8 +346,8 @@ function cronoIluIndex(){
   _cronoIluRe = keys.length ? new RegExp("(?<![\\p{L}\\p{N}])(" + keys.map(esc).join("|") + ")(?![\\p{L}\\p{N}])(?! de \\p{Lu})", "gu") : null;
   return _cronoIluMap;
 }
-function cronoIlu(){
-  const box = document.getElementById("cronobox") || document.querySelector("#cronogramas .crono-card, #cronogramas");
+function cronoIlu(root){   /* root: otra caja que enlazar (29-09: «Esquemas de autor») */
+  const box = root || document.getElementById("cronobox") || document.querySelector("#cronogramas .crono-card, #cronogramas");
   if (!box || !cronoIluIndex() || !_cronoIluRe) return;
   const SVGNS = "http://www.w3.org/2000/svg";
   const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, { acceptNode: t =>
@@ -380,7 +380,8 @@ function cronoIlu(){
 }
 (function(){
   const css = document.createElement("style");
-  css.textContent = "#cronogramas .crono-ilu{cursor:pointer;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;color:inherit}" +
+  css.textContent = "#esqautor a.crono-ilu{cursor:pointer;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;color:inherit}#esqautor a.crono-ilu:hover{text-decoration-style:solid}" +
+    "#cronogramas .crono-ilu{cursor:pointer;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;color:inherit}" +
     "#cronogramas a.crono-ilu:hover,#cronogramas tspan.crono-ilu:hover{text-decoration-style:solid}" +
     "#cronogramas tspan.crono-ilu{text-decoration:underline;fill:currentColor}";
   document.head.appendChild(css);
