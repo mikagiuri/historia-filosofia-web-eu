@@ -288,6 +288,36 @@ const DECKS = {
     "⚛️",
     "Demokrito",
     "Atomo zatiezinak eta hutsa. Dena materia eta mugimendua da, helbururik gabe: lehen azalpen mekanizista."
+   ],
+   [
+    "🔥",
+    "Heraklito Parmenidesen aurrean",
+    "Heraklito: physisa etengabe aldatzen da, dena isurtzen da. Parmenides: benetako izatea ezin da aldatu; aldaketa itxura da. Biek arrazoiak bakarrik iristen duen batasun bat bilatzen dute: logosa, edo izatea."
+   ],
+   [
+    "📏",
+    "«Neurriaren arabera»",
+    "Heraklitoren sua neurriz pizten eta itzaltzen da: aldaketa ez da kaotikoa, lege bati obeditzen dio (logosari). Horregatik Parmenidesekiko kontrajarpena dirudien baino txikiagoa da."
+   ],
+   [
+    "📖",
+    "B 30 zatia",
+    "«Mundu hau, guztiontzat bera, ez zuen jainkoetako inork egin, ezta gizakietako inork ere: beti izan zen, bada eta izango da beti bizirik dagoen sua». Kosmosa betierekoa da, ez sortua, eta prozesu bat da."
+   ],
+   [
+    "🌊",
+    "«Ezerk ez du irauten, dena isurtzen da» (panta rei)",
+    "Aldaketa, kontrarioen «borroka» edo «gerra», beharrezkoa da: hortik sortzen da kosmosa. Borrokaren azpian harmonia ikusezin bat dago, kontrakoak batzen dituena."
+   ],
+   [
+    "🎭",
+    "Heraklitoren estiloa",
+    "Poetikoa eta aforistikoa: paradoxak, metaforak eta analogiak («gorako eta beherako bidea bat eta bera da»). Iluntasunagatik Iluna deitu zioten."
+   ],
+   [
+    "🔍",
+    "«Neure burua ikertu nuen»",
+    "Heraklitorentzat jakintsua ez da gauza asko dakiena (Pitagoras, Hesiodo), logosa ulertzen duena baizik: gehiengoak, lotan bezala, atzematen ez duen lege komuna."
    ]
   ]
  },
@@ -340,6 +370,41 @@ const DECKS = {
     "👩‍🏫",
     "Aspasia Miletokoa",
     "Erretorika-maistra eta logografoa; gizonei eta emakumeei irakasten zien. Sokratesek «nire maistra» deitzen dio Platonen Menexenon."
+   ],
+   [
+    "💰",
+    "Irakasteagatik kobratzea",
+    "Sofistak: profesionalak, ordainsari handiak kobratzen dituzte; beren zeregina interesatua da. Sokrates: ez du kobratzen; irakastea besteen onerako egiten den zeregin sakratua da."
+   ],
+   [
+    "🎓",
+    "Nori irakasten dioten",
+    "Sofistak: ordaindu dezakeenari. Sokrates: prestutasun intelektual eta moral ona erakusten duenari, eta askatasunez aukeratzen du."
+   ],
+   [
+    "🗣️",
+    "Zer irakasten duten",
+    "Sofistak: arrakasta lortzeko jakintza baliagarriak, batez ere erretorika. Sokrates: ondo pentsatzen eta jokatzen; izaera hezten du, ez diskurtsoa."
+   ],
+   [
+    "🧳",
+    "Nola bizi diren",
+    "Sofistak: ibiltariak, hiriz hiri; ez zuten eskolarik sortu. Sokrates: ia ez zen Atenastik irten, plazan elkarrizketan; bere ikasleek bai sortu zituzten eskolak."
+   ],
+   [
+    "🧠",
+    "Intelektualismo morala",
+    "«Inork ez du gaizkia jakinaren gainean egiten»: bertutea ezagutza da eta akats morala ezjakintasuna. Horregatik bertutea irakats daiteke."
+   ],
+   [
+    "🤷",
+    "Ezjakintasun jakintsua",
+    "«Ezer ez dakidala baino ez dakit». Norberaren ezjakintasuna aitortzea da elkarrizketa sokratikoaren lehen urratsa."
+   ],
+   [
+    "📜",
+    "Xenofonte",
+    "Sokratesen ikaslea, Sokratesen oroitzapenak liburuaren egilea: elkarrizketa laburrak, maisua inpietate-salaketetatik eta gazteria usteltzearen salaketatik defendatzeko."
    ]
   ]
  },
@@ -1466,6 +1531,41 @@ const DECKS = {
     "👑",
     "Errege filosofoa",
     "Ongiaren Ideia ezagutzen dutenek bakarrik gobernatu behar dute."
+   ],
+   [
+    "🛠️",
+    "Demiurgoa",
+    "Timeoko artisau jainkotiarra: ona eta inbidiarik gabea, materia kaotikoa ordenatzen du Ideiak imitatuz. Ez du ezerezetik sortzen."
+   ],
+   [
+    "🌀",
+    "Kaosetik kosmosera",
+    "Unibertsoa hiru elementuren emaitza da: demiurgoa, Ideiak (eredua) eta materia betierekoa. Inperfektua da, materiak moldatua izateari erresistentzia egiten diolako."
+   ],
+   [
+    "💫",
+    "Munduaren arima",
+    "Mugitzen dena arima batek mugitzen du; unibertsoa mugitzen denez, arima du. Demiurgoak lehenik hura sortzen du: astroen mugimendu erregular eta zirkularraren kausa."
+   ],
+   [
+    "🎯",
+    "Ikuspegi teleologikoa",
+    "Gauza bat ulertzea bere helburua ulertzea da: mundua den bezalakoa da horrela hobea delako. Ongiaren ideia guztiaren kausa finala da."
+   ],
+   [
+    "📐",
+    "Mundu matematiko bat",
+    "Unibertsoa esferikoa da eta astroak zirkuluan biratzen dira, irudirik perfektuenak; lau elementuak poliedro erregularrez eginak daude. Eragin pitagorikoa."
+   ],
+   [
+    "📖",
+    "Kosmogonia: egiantzeko kontakizuna",
+    "Mundu sentigarriaz «mito probable» bat baino ez da posible; ezagutza segurua Ideiena bakarrik da."
+   ],
+   [
+    "🔗",
+    "Aristoteles Platonen aurrean",
+    "Biak: zientziak forma unibertsalak ezagutzen ditu. Platon: Formak bereizita existitzen dira, mundu adigarrian. Aristoteles: formak immanenteak dira, gauzetan daude, materiarekin."
    ]
   ]
  },
@@ -8353,6 +8453,50 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Miletoko monista joniarrak dira (K.a. VII-VI. mendeak): hirurek natura-printzipio bakar bat bilatzen dute (ura, apeirona, airea)."
+   },
+   {
+    "q": "Heraklitoren B 30 zatiaren arabera, nork egin zuen kosmosa?",
+    "o": [
+     "Jainko ordenatzaile batek, eredu betiereko bat imitatuz.",
+     "Inork ez: beti izan zen, bada eta izango da, beti bizirik dagoen sua.",
+     "Gizakiek, hizkuntzaz izena emanez.",
+     "Maitasunak eta Gorrotoak, erroak batuz eta bereiziz."
+    ],
+    "a": 1,
+    "fb": "Kosmosa ez dute jainkoek ez gizakiek sortu: betierekoa eta autosufizientea da, neurri baten arabera pizten eta itzaltzen den sua."
+   },
+   {
+    "q": "Zer esan nahi du Heraklitoren sua «neurriaren arabera» pizteak eta itzaltzeak?",
+    "o": [
+     "Aldaketa kaotikoa dela eta ezin dela ezagutu.",
+     "Sua beste elementu bat dela, Talesen ura bezala.",
+     "Aldaketak lege arrazional bati obeditzen diola, logosari.",
+     "Mundua iraupen bereko zikloetan suntsitzen eta birsortzen dela."
+    ],
+    "a": 2,
+    "fb": "Neurria aldaketa guztiak gobernatzen dituen legea da: logos komuna, «harmonia ikusezina». Horregatik Heraklitok ere onartzen du zerbait iraunkorra."
+   },
+   {
+    "q": "Zertan datoz bat Heraklito eta Parmenides?",
+    "o": [
+     "Izatea bakarra, betierekoa eta geldia dela esatean.",
+     "Errealitatea aldaketa-prozesu bat dela esatean.",
+     "Itxuren azpian, arrazoiak bakarrik iristen duen batasun bat bilatzean.",
+     "Zentzumenak ezagutzaren iturri fidagarriena direla esatean."
+    ],
+    "a": 2,
+    "fb": "Batek logos deitzen dio eta besteak izate, baina biek diote munduaren batasuna ez dela ikusten: pentsatu egiten da."
+   },
+   {
+    "q": "Heraklitorentzat, nor da jakintsua?",
+    "o": [
+     "Gauza asko dakiena, Pitagoras edo Hesiodo bezala.",
+     "Logosa, aldaketaren lege komuna, ulertzen duena.",
+     "Mundutik aldentzen dena eta hizkuntza gutxiesten duena.",
+     "Poetek jainkoez diotena onartzen duena."
+    ],
+    "a": 1,
+    "fb": "Erudizioa ez da jakinduria: jakintsua errealitatearen azken egitura atzematen duena da, gehiengoak, lotan bezala, ulertzen ez duen logosa."
    }
   ]
  },
@@ -8734,6 +8878,50 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Eredu patriarkalak emakumeak hiritartasunetik eta espazio publikotik kanpo uzten zituen, eta esparru pribatura baztertzen zituen."
+   },
+   {
+    "q": "Antifonterekiko elkarrizketan, zergatik dio Sokratesek ez duela irakasteagatik kobratzen?",
+    "o": [
+     "Irakasten duenak ezer balio ez duelako, berak onartzen duenez.",
+     "Hiriak soldata publikoa ordaintzen diolako.",
+     "Jakinduria diruaren truke saltzea prostituitzea delako.",
+     "Ordaindu behar ez duten familia aberatsei bakarrik irakasten dielako."
+    ],
+    "a": 2,
+    "fb": "Sokratesek balioa eta prezioa bereizten ditu: hezkuntza adiskidetasunez bakarrik egiten den zeregin sakratua da, ez diruagatik."
+   },
+   {
+    "q": "Zer da intelektualismo moral sokratikoa?",
+    "o": [
+     "Bertutea ezagutza dela eta gaizkia ezjakintasunetik sortzen dela dioen doktrina.",
+     "Intelektualak bakarrik izan daitezkeela bertutetsuak dioen ideia.",
+     "Morala hiri bakoitzaren konbentzioa dela dioen tesia.",
+     "Bertutea ezin dela irakatsi dioen sinesmena."
+    ],
+    "a": 0,
+    "fb": "«Inork ez du gaizkia jakinaren gainean egiten»: gaizki jokatzen duenak ona zer den ez dakielako egiten du; horregatik bertutea irakats daiteke."
+   },
+   {
+    "q": "Sokratesen eta sofisten arteko desberdintasun hauetatik, zein da zuzena?",
+    "o": [
+     "Sofistak plazan aritzen dira elkarrizketan; Sokratesek ordaindutako ikastaroak ematen ditu.",
+     "Sokratesek erretorika irakasten du; sofistek izaera hezten dute.",
+     "Sofistak ibiltariak dira; Sokrates ia ez zen Atenastik irten.",
+     "Sofistek ikasleak prestutasunaren arabera aukeratzen dituzte; Sokratesek, diruaren arabera."
+    ],
+    "a": 2,
+    "fb": "Sofistak hiriz hiri zebiltzan arrakasta lortzen irakasteagatik kobratuz; Sokratesek doan aritzen zen elkarrizketan Atenasen eta ikasleak prestutasunaren arabera aukeratzen zituen."
+   },
+   {
+    "q": "Zer du helburu Xenofontek Sokratesen oroitzapenak liburuarekin?",
+    "o": [
+     "Sokratesek idatzi ez zuen Ideien teoria azaltzea.",
+     "Maisua inpietate-salaketetatik eta gazteria usteltzearen salaketatik defendatzea.",
+     "Sokrates, egiatan, beste sofista bat zela frogatzea.",
+     "Sokratesek batzarrean egindako hitzaldiak jasotzea."
+    ],
+    "a": 1,
+    "fb": "Xenofontek elkarrizketa laburrak biltzen ditu Sokrates jainkozale, zuzen eta jakintsu bat erakusteko, bidegabe kondenatua."
    }
   ]
  },
@@ -9126,6 +9314,50 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Platonentzat arimak Ideiak kontenplatu zituen jada; ikastea haiek oroiaraztea da, ez kanpotik jasotzea."
+   },
+   {
+    "q": "Timeon, zer egiten du demiurgoak materiarekin?",
+    "o": [
+     "Ezerezetik sortzen du bere borondate ahalguztidunaz.",
+     "Ordenatu egiten du, mugimendu kaotikoan aurkitzen baitu.",
+     "Suntsitu egiten du Ideiekin ordezkatzeko.",
+     "Dagoen bezala uzten du, perfektua delako."
+    ],
+    "a": 1,
+    "fb": "Demiurgoa ez da kreatzaile absolutua: aurretiko materia bati forma eta ordena ezartzen dion artisaua da, Ideiak imitatuz."
+   },
+   {
+    "q": "Zergatik da inperfektua Timeoko mundua?",
+    "o": [
+     "Demiurgoa inbidiatsua delako eta ez zuelako hobeto egin nahi izan.",
+     "Eredu dituen Ideiak inperfektuak direlako.",
+     "Materiak moldatua izateari erresistentzia egiten diolako.",
+     "Munduaren arima gorputza baino geroago sortu zelako."
+    ],
+    "a": 2,
+    "fb": "Demiurgoa ona da eta ahalik eta onena egiten du; inperfekzioa aurretiko materialetik dator, erresistentzia egiten baitu."
+   },
+   {
+    "q": "Zergatik sortzen du demiurgoak lehenik munduaren arima?",
+    "o": [
+     "Mugitzen den guztia arima batek mugitzen duelako, eta unibertsoa mugitu egiten delako.",
+     "Arima gorputza baino materia finagoa delako.",
+     "Ideiek arima behar dutelako existitzeko.",
+     "Munduaren arima Ongiaren ideia delako."
+    ],
+    "a": 0,
+    "fb": "Ezerk ez du bere burua mugitzen, arimak izan ezik; zeruaren mugimendu erregularrak mugituko duen arima arrazional bat eskatzen du."
+   },
+   {
+    "q": "Platonen arabera, zer ezagutza mota da posible kosmologiaz?",
+    "o": [
+     "Ezagutza zehatz eta aldaezina, Ideiena bezalakoa.",
+     "Egiantzeko kontakizun bat, «mito probable» bat.",
+     "Bat ere ez: mundu sentigarria ilusio hutsa da.",
+     "Ezagutza matematiko perfektua, kosmosa esferikoa delako."
+    ],
+    "a": 1,
+    "fb": "Ideien munduaz bakarrik dago zientzia segurua; mundu sentigarriaz, aldakorra denez, gutxi gorabeherako kontakizun bat baino ez."
    }
   ]
  },
