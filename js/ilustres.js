@@ -958,6 +958,49 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "escoto_erigena": {
+  "name": "Joan Eskoto Eriugena",
+  "dates": "810 ing. – 877 ing.",
+  "born": 810,
+  "died": 877,
+  "place": "Irlanda",
+  "role": "filosofoa eta teologoa",
+  "idea": "Benetako filosofia benetako erlijioa da, eta alderantziz; natura osoa Jainkoarengandik ateratzen da eta Harengana itzultzen da.",
+  "bio": "<p>Joan Eskoto Irlandan jaio zen: horixe esan nahi dute bai «Eskotok» bai «Eriugenak», «Ériun jaioa». Karlos Burusoila errege karolingioaren gortean lan egin zuen, Frantzian, eta bere garaian Mendebaldean grekoa zekiten jakintsu gutxietako bat izan zen. Pseudo-Dionisio deiturikoaren eta beste egile greziar batzuen lanak latinera itzuli zituen, eta horrela pentsamendu neoplatoniko kristaua ekarri zuen Mendebaldera.</p>\n<p>Haren lan handiak, <em>Naturaren banaketaz</em>, errealitate osoa Jainkoarengandik atera eta Harengana itzultzen den prozesu gisa deskribatzen du. Lau «natura» bereizten ditu: sortzen duena eta sortua ez dena (Jainkoa jatorri gisa), sortua dena eta sortzen duena (ideiak), sortua dena eta sortzen ez duena (munduko gauzak) eta ez sortzen duena ez sortua dena (Jainkoa azken helburu gisa). Eriugenarentzat arrazoiak eta fedeak ezin dute elkar kontraesan. Mende batzuk geroago haren lana kondenatu egin zuten, <strong>panteismoaren</strong> susmagarri zelako, hau da, Jainkoa naturarekin nahasteagatik.</p>",
+  "obras": [
+   "Naturaren banaketaz (Periphyseon)"
+  ],
+  "anecdota": "<p>Malmesburyko Gilen kronikariak kontatzen du afari batean Karlos Burusoila erregeak adarra jo nahi izan ziola, <em>Scottus</em> («irlandarra») eta <em>sottus</em> («ergela») latinezko hitzekin jolastuz: «Zerk bereizten du eskoto bat ergel batetik?». Eriugenak, haren aurrean eserita, erantzun zion: «Mahaiak bakarrik».</p>",
+  "fuente": "Malmesburyko Gilen, Gotzain ingelesen egintzak",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "avicena": {
+  "name": "Avizena",
+  "dates": "980 – 1037",
+  "born": 980,
+  "died": 1037,
+  "place": "Afshana, Bukharatik gertu (gaur egungo Uzbekistan)",
+  "role": "filosofo eta mediku persiarra",
+  "idea": "Gauza sortu guztietan bereizten da zer diren (esentzia) eta existitzen direla (existentzia); Jainkoarengan bakarrik datoz bat: Bera da izaki beharrezkoa.",
+  "bio": "<p>Ibn Sina, Mendebaldean Avizena izenez ezaguna, haur miragarria izan zen: bere autobiografiaren arabera, hemezortzi urterekin logika, matematika eta medikuntza menderatzen zituen, eta Bukharako emirra sendatu zuen, zeinak bere liburutegi handia ireki zion. Gero Persiako hainbat gortetan bizi izan zen, mediku gisa eta batzuetan bisir gisa, gerren eta agintari-aldaketen erdian. Haren <em>Medikuntzaren kanona</em> bostehun urte baino gehiagoz ikasi zen Europako unibertsitateetan.</p>\n<p>Haren lan filosofikorik zabalenak, <em>Sendatzearen liburuak</em>, Aristoteles eta neoplatonikoak jaso eta berrlantzen ditu. Avizenak gauza baten <strong>esentzia</strong> (zer den) eta haren <strong>existentzia</strong> (izatea bera) bereizi zituen: kreaturetan desberdinak dira, existitu gabe egon litezkeelako; Jainkoarengan bakarrik dira gauza bera, eta horregatik da Bera <strong>izaki beharrezkoa</strong>. «Gizon hegalariaren» pentsamendu-esperimentua ere proposatu zuen: bat-batean sortua, airean flotatzen eta inolako sentsaziorik gabe dagoen norbaitek jakingo luke existitzen dela; beraz, arimak bere burua ezagutzen du gorputzik gabe. Tomas Akinokoak asko hartu zuen harengandik.</p>",
+  "obras": [
+   "Medikuntzaren kanona",
+   "Sendatzearen liburua"
+  ],
+  "anecdota": "<p>Bere autobiografian, Avizenak kontatzen du berrogei aldiz irakurri zuela Aristotelesen <em>Metafisika</em> ulertu gabe, buruz ikasi arte. Egun batean, kasualitatez, liburu-saltzaile batek merke eskaini zion al-Farabiren lan txiki bat erosi zuen, haren helburua azaltzen zuena, eta bat-batean dena ulertu zuen. Arratsalde hartan bertan, dioenez, limosnak banatu zituen Jainkoari eskerrak emateko.</p>",
+  "fuente": "Avizena, Autobiografia",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "anselmo": {
   "name": "Anselmo Canterburykoa",
   "dates": "1033 – 1109",
@@ -1009,6 +1052,25 @@ const ILUSTRES = {
    "hf-medieval"
   ]
  },
+ "avempace": {
+  "name": "Avempace",
+  "dates": "1085 ing. – 1138",
+  "born": 1085,
+  "died": 1138,
+  "place": "Zaragoza (al-Andalus)",
+  "role": "filosofo, mediku eta musikari andaluziarra",
+  "idea": "Gizarte inperfektu batean, jakintsuak «bakarti» gisa bizi behar du, adimena landuz gizaki guztiak argitzen dituen adimenarekin bat egin arte.",
+  "bio": "<p>Ibn Bajja, latindarrek Avempace deitua, Zaragozan jaio zen, taifa-erresuma baten hiriburua zenean. Hiriko gobernadore almorabidearen bisirra izan zen, eta Alfontso I.a Borrokalariak Zaragoza 1118an konkistatu zuenean Sevillara, Granadara eta azkenik Fezera joan zen, eta han hil zen; tradizioaren arabera, etsaiek pozoituta. Filosofoa izateaz gain, medikua, astronomoa, poeta eta oso estimatutako musikaria izan zen.</p>\n<p>Avempace al-Andalusko lehen filosofo aristoteliko handia izan zen, eta <strong>Averroesi</strong> bidea ireki zion. <em>Bakartiaren gobernua</em> lanean galdetzen du nola bizi daitekeen ondo jakintsua hiri justua ez den batean: haren erantzuna da gehiengoaren iritzietatik aldendu eta ezagutzari eman behar diola bere burua, zeinaren helburua <strong>adimen eragilearekin</strong> bat egitea baita, gizaki guztiak argitzen dituen adimen komunarekin. Aristotelesen <em>Fisika</em>ri egindako iruzkinak, Averroesen bidez ezagutuak, Erdi Aroko fisika latindarrean eztabaidatu ziren.</p>",
+  "obras": [
+   "Bakartiaren gobernua",
+   "Aristotelesen Fisikari egindako iruzkinak"
+  ],
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "hildegarda": {
   "name": "Hildegarda Bingengoa",
   "dates": "1098 – 1179",
@@ -1035,6 +1097,28 @@ const ILUSTRES = {
    "hf-medieval"
   ]
  },
+ "eloisa": {
+  "name": "Heloisa",
+  "dates": "1100 ing. – 1164",
+  "born": 1100,
+  "died": 1164,
+  "place": "Frantzia (seguruenik Paris)",
+  "role": "filosofoa, idazlea eta abadesa",
+  "idea": "Moralki kontatzen duena zein asmorekin jokatzen den da, ez kanpotik ikusten dena; eta benetako maitasunak ez du ezer bilatzen truke, ezta ezkontza ere.",
+  "bio": "<p>Heloisa Argenteuilgo komentuan hezi zen, Paristik gertu, eta gaztetan bere kulturagatik zen ospetsua: latina menderatzen zuen eta, Abelardoren arabera, grekoa eta hebreera ere ezagutzen zituen, XII. mendeko emakume batentzat salbuespenezko zerbait. Bere osaba Fulberto Notre-Dameko kalonjearekin bizi zen, eta honek <strong>Pedro Abelardo</strong> hartu zuen irakasle, hiriko maisurik ospetsuena. Maitemindu egin ziren eta seme bat izan zuten, Astrolabio. Heloisa ezkontzearen aurka agertu zen: antzinako filosofoengandik hartutako argudioekin defendatzen zuen maitasun askeak lotura legal batek baino gehiago balio zuela, eta ezkontzak Abelardoren bizitza intelektuala oztopatuko zuela. Azkenean ezkutuan ezkondu ziren, baina haren familiak, traizionatua sentituta, Abelardo zikiratzeko agindu zuen, eta biak bizitza erlijiosora sartu ziren.</p>\n<p>Heloisa Paraklitoko abadesa izatera iritsi zen, Abelardok sortutako monasterioarena, eta hogeita hamar urte baino gehiagoz zuzendu zuen ospe handiz; Pedro Agurgarriak, Clunyko abadeak, haren jakinduria goraipatu zuen. Abelardorekin izandako gutunak gordetzen dira; haien egiletza denbora luzez eztabaidatu zen, eta gaur egun onartu ohi da. Gutunetan ohiz kanpoko zintzotasunez hausnartzen du maitasunaz, desioaz eta bere bokazioaz: aitortzen du komentuan Abelardori obeditzeagatik sartu zela eta ez Jainkoarenganako maitasunagatik, eta galdetzen du zer balio duen itxura baino ez den bertute batek. Abelardok bere <em>Etika</em>n garatu zuen ideia bera da: ekintza bat ona edo txarra egiten duena <strong>asmoa</strong> da. <em>Heloisaren problemak</em> ere bidali zizkion, Bibliako pasarte zailei buruzko berrogeita bi galdera. Gaur egun Europako Erdi Aroko lehen emakume filosofoetako bat dela uste da.</p>",
+  "obras": [
+   "Gutunak (Abelardorekin izandako gutun-trukea)",
+   "Heloisaren problemak"
+  ],
+  "anecdota": "<p>Heloisa 1164an hil zen, eta Paraklitoan lurperatu zuten Abelardoren ondoan, hogeita bi urte lehenago hil baitzen hura. Haien hondakinak hainbat aldiz lekualdatu zituzten, eta 1817an Parisko Père-Lachaise hilerriko hilobi bateratu batean jarri zituzten. Harrezkero maitaleen erromes-leku bihurtu da, eta oraindik ere loreak eta gutunak uzten dituzte bertan. Geroko kondaira batek dio Abelardoren hilobia ireki zutenean hura lurperatzeko, honek besoak zabaldu zituela bera besarkatzeko.</p>",
+  "fuente": "Toursko kronika (XIII. m.), besarkadaren kondairarako",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "averroes": {
   "name": "Averroes",
   "dates": "1126 – 1198",
@@ -1060,6 +1144,68 @@ const ILUSTRES = {
   "temas": [
    "hf-fe-razon"
   ]
+ },
+ "maimonides": {
+  "name": "Maimonides",
+  "dates": "1138 – 1204",
+  "born": 1138,
+  "died": 1204,
+  "place": "Kordoba (al-Andalus)",
+  "role": "filosofoa, medikua eta errabinoa",
+  "idea": "Fedeak eta arrazoiak ez dute elkar kontraesaten; Biblia arrazoiaren argitan irakurri behar da, eta Jainkoaz zer ez den baino ezin dugu esan.",
+  "bio": "<p>Moises ben Maimon, Maimonides, Kordobako familia judu batean jaio zen. Almohadeek hiria konkistatu eta juduak eta kristauak jazarri zituztenean, haren familiak alde egin behar izan zuen; al-Andalusen eta Afrika iparraldean urteak bidaiatzen eman ondoren, Egipton finkatu zen. Han Saladino sultanaren gorteko medikua eta komunitate juduaren gidaria izan zen. Hebreeraz lege juduaren bilduma handi bat idatzi zuen, <em>Mixne Tora</em>, gaur egun oraindik ikasten dena.</p>\n<p>Haren lan filosofiko nagusia, arabieraz idatzia, <em>Harrituen gida</em> da, Bibliak dioenaren eta Aristotelesek irakasten duenaren artean nahasita sentitzen ziren fededunentzat pentsatua. Maimonidesek dio ez dagoela kontraesanik: testu sakratu batek arrazoiaren aurka doala dirudienean, modu ez-literalean interpretatu behar da. Jainkoaz <strong>teologia negatiboa</strong> defendatu zuen: Jainkoak pentsa dezakegun guztia gainditzen duenez, egiaz zer <em>ez</em> den baino ezin dugu esan. Eragin handia izan zuen Tomas Akinokoarengan eta Spinozarengan.</p>",
+  "obras": [
+   "Harrituen gida",
+   "Mixne Tora"
+  ],
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "alberto_magno": {
+  "name": "Alberto Handia",
+  "dates": "1200 ing. – 1280",
+  "born": 1200,
+  "died": 1280,
+  "place": "Lauingen (Bavaria, Alemania)",
+  "role": "filosofo, teologo eta naturalista dominikarra",
+  "idea": "Fedeak eta arrazoiak bakoitzak bere eremua du: natura behatuz eta arrazoituz ezagutzen da, mirakuluetara jo beharrik gabe.",
+  "bio": "<p>Alberto Suabian jaio zen, Alemania hegoaldean, eta dominikarren ordenan sartu zen. Parisko Unibertsitatean eta Kolonian irakatsi zuen, eta Kolonian ikasketa-gune handi bat sortu zuen; denbora laburrez Regensburgeko gotzaina ere izan zen. Garaikideek «Handia» eta «Doktore unibertsala» deitu zioten, zituen ezagutza zabalengatik. Haren ikaslerik ospetsuena <strong>Tomas Akinokoa</strong> izan zen, eta hura hil ondoren ere defendatu zuen.</p>\n<p>Albertok <strong>Aristoteles</strong> ulergarri egin nahi izan zien kristau latindarrei: haren ia lan guztiak iruzkindu zituen, eta erakutsi zuen filosofiak, arrazoian oinarrituta, bere eremu propioa duela, teologiarena ez bezalakoa. Naturalista handia ere izan zen: landareei, animaliei eta mineralei buruz idatzi zuen, eta antzinako liburuek ziotenari bere behaketak gehitu zizkion, bere garaian ohikoa ez zena. Horregatik, XX. mendean Elizak natur zientziei ematen zaienen zaindari izendatu zuen.</p>",
+  "obras": [
+   "Landareez",
+   "Animaliez",
+   "Aristotelesi buruzko iruzkinak"
+  ],
+  "anecdota": "<p>Tomas Akinokoaren lehen biografoek jasotako tradizio baten arabera, Kolonian ikaskideek «idi mutua» deitzen zioten, gorputz handikoa eta isila zelako. Albertok, haren talentua ezagutzen zuenez, erantzun zien: «Idi mutua deitzen diozue, baina egunen batean haren orroak mundu osoan entzungo dira».</p>",
+  "fuente": "Tocco-ko Gilen, San Tomas Akinokoaren bizitza",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "roger_bacon": {
+  "name": "Roger Bacon",
+  "dates": "1220 ing. – 1292 ing.",
+  "born": 1220,
+  "died": 1292,
+  "place": "Ilchester (Ingalaterra)",
+  "role": "filosofo eta zientzialari frantziskotarra",
+  "idea": "Esperientziarik gabe ezin da ezer ziur jakin: zientziak bere baieztapenak egiaztatu behar ditu eta matematikan oinarritu.",
+  "bio": "<p>Roger Baconek Oxforden eta Parisen ikasi eta irakatsi zuen, eta frantziskotarren ordenan sartu zen. 1267 inguruan, Klemente IV.a aita santuak eskatuta, bere <em>Obra nagusia</em> idatzi zuen, bere garaiko jakintza osoa berritzeko proposamena. Miresleek «Doktore miragarria» deitu zioten. Ez da nahastu behar Francis Baconekin, hiru mende eta erdi geroago bizi izan baitzen.</p>\n<p>Baconek kritikatu zuen bere garaiko jakintsuek agintarien iritziaz gehiegi fidatzen zirela. Akatsaren lau kausa aipatu zituen: <strong>autoritate</strong> ez-fidagarri bati jarraitzea, <strong>ohitura</strong>, <strong>gehiengoaren iritzia</strong> eta norberaren ezjakintasuna ezkutatzea, jakin itxurak eginez. Horien aurrean <strong>zientzia esperimentala</strong> eta matematika defendatu zituen. Optika, argiaren errefrakzioa eta lenteak aztertu zituen, eta fantasia ziruditen makinak irudikatu zituen, hala nola arraunlaririk gabeko itsasontziak edo animaliarik gabeko gurdiak. Geroko tradizio batek dio bere ordenak espetxeratu egin zuela bere ideiengatik, baina ez dago froga segururik.</p>",
+  "obras": [
+   "Obra nagusia (Opus maius)",
+   "Obra txikia",
+   "Hirugarren obra"
+  ],
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "tomas": {
   "name": "Tomas Akinokoa",
@@ -1088,6 +1234,65 @@ const ILUSTRES = {
    "hf-fe-razon"
   ]
  },
+ "llull": {
+  "name": "Ramon Llull",
+  "dates": "1232 ing. – 1316 ing.",
+  "born": 1232,
+  "died": 1316,
+  "place": "Palma (Mallorca)",
+  "role": "filosofo, mistiko eta idazlea",
+  "idea": "Oinarrizko kontzeptu gutxi batzuk konbinatuz, fedearen egiak edonori froga dakizkioke, kristaua, musulmana edo judua izan, arrazoiaren bidez bakarrik.",
+  "bio": "<p>Ramon Llull (gaztelaniaz Raimundo Lulio) Mallorcan jaio zen, Jaime I.a erregeak konkistatu eta gutxira, eta gorteko noblea izan zen. Hogeita hamar urte inguru zituela, berak kontatzen duenez, Kristo gurutziltzatuaren hainbat ikuspen izan zituen, eta bizitza aldatu zitzaion: familia utzi eta musulmanak arrazoiaren bidez bihurtzeari eman zion bere burua. Arabiera ikasi zuen, misiolarientzako hizkuntza-eskola bat sortu zuen, eta hainbat aldiz bidaiatu zuen Afrika iparraldera. 260 bat lan idatzi zituen katalanez, latinez eta arabieraz, eta katalanezko prosa literarioaren sortzaileetako bat da.</p>\n<p>Haren asmakizun handia <strong>Artea</strong> da: irudi eta zirkulu birakarien bidez oinarrizko printzipio gutxi batzuk (ontasuna, handitasuna, betierekotasuna…) konbinatzen dituen sistema, galdera bati eman dakizkiokeen erantzun guztiak lortzeko. Llullek uste zuen horrela kristautasunaren egia edonori froga ziezaiokeela, agintarietara jo gabe. <strong>Konbinatoriaren</strong> eta arrazoiketa mekanikoaren ideiaren aurrekaria da, Leibnizek miretsi zuena. <em>Jentilaren eta hiru jakintsuen liburuan</em>, judu batek, kristau batek eta musulman batek beren sinesmenak begirunez azaltzen dizkiote pagano bati, eta honek ez du esaten zein aukeratzen duen.</p>",
+  "obras": [
+   "Arte handia (Ars magna)",
+   "Jentilaren eta hiru jakintsuen liburua",
+   "Blanquerna"
+  ],
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "dante": {
+  "name": "Dante Alighieri",
+  "dates": "1265 – 1321",
+  "born": 1265,
+  "died": 1321,
+  "place": "Florentzia (Italia)",
+  "role": "poeta eta pentsalari politikoa",
+  "idea": "Gizakiak bi helburu ditu, zoriontasuna bizitza honetan eta bestean; lehenerako, bakea bermatuko duen enperadore bat behar da, aita santuarengandik independentea.",
+  "bio": "<p>Dante Florentzian jaio zen eta bere hiriko politikan aktiboki parte hartu zuen, elkarren aurka zeuden alderdietan banatuta zegoenean. 1302an aurkariek erbestera kondenatu zuten, eta ezin izan zen inoiz itzuli: Italiako hainbat gortetan bizi izan zen eta Ravennan hil zen. Erbestean <em>Jainkozko Komedia</em> idatzi zuen, Infernuan, Purgatorioan eta Paradisuan barrena egindako bidaia irudimenezkoa, lehenik Virgilio poetak eta gero Beatrizek gidatua. Italiako literaturaren lan sortzailea da.</p>\n<p><em>Komedia</em> filosofiaz beteta dago: Linboan Sokrates, Platon eta Aristoteles agertzen dira, «dakitenen maisua», baita Avizena eta Averroes ere. <em>Convivio</em>n filosofia latinik ez zekitenengana eraman nahi izan zuen, italieraz idatziz. Eta <em>Monarkia</em>n defendatu zuen <strong>enperadorearen</strong> boterea zuzenean Jainkoarengandik datorrela eta ez aita santuarengandik: Elizak salbazioaz arduratu behar du, eta botere politikoak lurreko bakeaz eta zoriontasunaz. Tesi horregatik liburua jendaurrean erre zuten 1329an.</p>",
+  "obras": [
+   "Jainkozko Komedia",
+   "Convivio",
+   "Monarkia"
+  ],
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "duns_escoto": {
+  "name": "Joan Duns Eskoto",
+  "dates": "1266 ing. – 1308",
+  "born": 1266,
+  "died": 1308,
+  "place": "Duns (Eskozia)",
+  "role": "filosofo eta teologo frantziskotarra",
+  "idea": "Norbanako bakoitzak badu bakar egiten duen zerbait berezkoa, bere «hautasuna»; eta Jainkoarengan zein gizakiarengan nahimena adimenaren gainetik dago.",
+  "bio": "<p>Joan Duns Eskoto Dunsen jaio zen, Eskozian, eta fraide frantziskotarra izan zen. Oxforden irakatsi zuen, baita Parisen ere, handik denbora batez alde egin behar izan zuen Frantziako erregearen aurrean aita santuaren alde egiteagatik, eta Kolonian, non gazte hil zen. Bere arrazoiketen fintasunagatik «Doktore fina» deitu zioten.</p>\n<p>Tomas Akinokoaren aurrean defendatu zuen <strong>izatearen</strong> kontzeptua zentzu berean aplikatzen zaiela Jainkoari eta kreaturei, eta horrek Jainkoaz zorroztasunez hitz egitea ahalbidetzen duela. Norbanako bakoitza zerk egiten duen bakar azaltzeko, <strong>hautasuna</strong> (<em>haecceitas</em>, <em>haec</em>, «hau») sartu zuen: Sokrates gizon hau eta ez beste bat izatea egiten duena. <strong>Nahimenaren</strong> lehentasuna ere defendatu zuen adimenaren gainetik: Jainkoak ez du zerbait nahi ona delako, baizik eta ona da Jainkoak nahi duelako, logikaren mugen barruan. Haren ideiek Ockhami ireki zioten bidea. Bitxia bada ere, XVI. mendean humanistek haren jarraitzaileez burla egiten zuten <em>dunces</em> deituz, eta hortik dator ingelesezko <em>dunce</em> hitza, «astoa», «ergela».</p>",
+  "obras": [
+   "Ordinatio",
+   "Lehen printzipioari buruzko tratatua"
+  ],
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "ockham": {
   "name": "Gilen Ockhamgoa",
   "dates": "1287 ing. – 1347",
@@ -1114,6 +1319,68 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon"
   ]
+ },
+ "nicolas_cusa": {
+  "name": "Nikolas Kusakoa",
+  "dates": "1401 – 1464",
+  "born": 1401,
+  "died": 1464,
+  "place": "Kues (Mosela ondoan, Alemania)",
+  "role": "filosofo, teologo eta kardinala",
+  "idea": "Jakin dezakegun gauzarik gorena da ez dakigula: «ezjakintasun jakintsua»; Jainko infinituan aurkakoak bat datoz.",
+  "bio": "<p>Nikolas Kuesen jaio zen, Mosela ibaiaren ertzean, eta hortik dator bere izen latindarra, Cusanus. Zuzenbidea eta matematika ikasi zituen, kardinala eta diplomatikoa izan zen aita santuaren zerbitzuan, eta Europa erdia zeharkatu zuen, Konstantinoplaraino. Erdi Aroaren eta Errenazimentuaren artean bizi izan zen, eta haren pentsamenduak aro berria iragartzen du.</p>\n<p><em>Ezjakintasun jakintsua</em> lanean dio gure ezagutza konparazioz aurrera doala, ezezaguna ezagunarekin neurtuz; horregatik <strong>infinitua</strong> ezin da ezagutu, eta benetako jakinduria ez dakigula jakitea da. Jainko infinituan <strong>aurkakoen bat-etortzea</strong> gertatzen da: gehiena eta gutxiena gauza bera dira. Esan zuen, halaber, unibertsoak ez duela erdigune finkorik ez mugarik, eta, beraz, Lurrak ez duela leku pribilegiaturik; Giordano Brunok berreskuratuko zuen ideia hori. Konstantinopla erori ondoren <em>Fedearen bakea</em> idatzi zuen, erlijio desberdinetako ordezkariek batzen dituena bilatzen duten elkarrizketa.</p>",
+  "obras": [
+   "Ezjakintasun jakintsua",
+   "Fedearen bakea"
+  ],
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "pico": {
+  "name": "Giovanni Pico della Mirandola",
+  "dates": "1463 – 1494",
+  "born": 1463,
+  "died": 1494,
+  "place": "Mirandola (Italia)",
+  "role": "humanista eta filosofoa",
+  "idea": "Gizakiak ez du izaera finkorik: nahi duena izatea aukera dezake, piztiengana jaitsi edo jainkotiarreraino igo.",
+  "bio": "<p>Pico Italia iparraldeko familia noble batean jaio zen, eta memoria miragarria zuen. Bolonian, Paduan eta Parisen ikasi zuen, grekoa, hebreera eta arabiera ikasi zituen, eta Florentzian Marsilio Ficinoren zirkulu platonikoarekin bat egin zuen, Lorenzo Medicikoaren babespean. 1486an Erroman jendaurrean eztabaidatzea proposatu zuen tradizio guztietatik hartutako <strong>900 tesi</strong>: Platon, Aristoteles, arabiarrak, kabala judua… Filosofia guztiek egiaren zati bat dutela erakutsi nahi zuen. Aita santuak eztabaida bertan behera utzi eta zenbait tesi kondenatu zituen, eta Picok Frantziara ihes egin behar izan zuen, non denbora batez atxilotu zuten. Florentzian hil zen, 31 urte besterik ez zituela; haren hondakinen analisi berriek artsenikozko pozoitze bat iradokitzen dute.</p>\n<p>Eztabaida hura irekitzeko prestatu zuen hitzaldia, <em>Gizakiaren duintasunari buruzko hitzaldia</em> izenez ezaguna, Errenazimentuaren manifestutzat hartzen da. Bertan, Jainkoak gizakiari esaten dio ez diola leku finkorik ez forma propiorik eman, berak aukera dezan: piztietaraino endekatu edo jainkotiarreraino birsortu daiteke. <strong>Giza duintasuna</strong>, Picorentzat, <strong>askatasun</strong> horretan datza.</p>",
+  "obras": [
+   "Gizakiaren duintasunari buruzko hitzaldia",
+   "900 tesi"
+  ],
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "erasmo": {
+  "name": "Erasmo Rotterdamgoa",
+  "dates": "1466 ing. – 1536",
+  "born": 1466,
+  "died": 1536,
+  "place": "Rotterdam (Herbehereak)",
+  "role": "humanista eta teologoa",
+  "idea": "Benetako erlijioa ontasunez eta bakean bizitzea da Ebanjelioari jarraituz, ez zeremoniak ez teologoen eztabaidak; eta horretarako testuak ondo irakurri eta hezi behar da.",
+  "bio": "<p>Erasmo apaiz baten legez kanpoko semea izan zen, eta oso gazte geratu zen umezurtz. Kalonje agustindarren komentu batean sartu eta apaiz ordenatu zuten, baina laster utzi zuen komentuko bizitza ikasteko eta bidaiatzeko: Paris, Ingalaterra, non <strong>Tomas Mororen</strong> lagun mina izan zen, Italia eta Basilea. Europako intelektualik ospetsuena izan zen, «humanisten printzea», eta 1516an Itun Berriaren lehen edizio inprimatua argitaratu zuen grekoz, bere latinezko itzulpenarekin.</p>\n<p><em>Eromenaren laudorioan</em> (1511), Morori eskainian, Eromenak berak burla egiten die gauza alferrez eztabaidatzen duten teologoei, fraide ezjakinei eta gerra egiten duten errege eta aita santuei. Erasmok erlijio xume, barnekoi eta Ebanjelioan oinarritua defendatzen zuen, eta <strong>bakezale</strong> sutsua izan zen. Elizaren gehiegikeriak kritikatu zituen, baina ez zuen harekin hautsi nahi izan: Luterok aukeramen askea ukatu zuenean, Erasmok haren alde idatzi zuen, eta biak elkarren aurka amaitu zuten. Unibertsitate-trukeetarako Europako Erasmus programak haren izena darama gaur egun.</p>",
+  "obras": [
+   "Eromenaren laudorioa",
+   "Zaldun kristauaren eskuliburua",
+   "Borondate askeaz",
+   "Bakearen kexa"
+  ],
+  "anecdota": "<p>Bere garaian esaera bat zebilen: «Erasmok jarri zuen arrautza eta Luterok txitatu zuen», hau da, haren kritikek Eliza prestatu zutela Erreformarako. Erasmok ironiaz erantzun zuen, gutun batean, berak oilo-arrautza bat jarri zuela eta Luterok hartatik oso bestelako txori bat atera zuela.</p>",
+  "fuente": "Erasmo, Johannes Caesariusi gutuna (1524)",
+  "tradicion": true,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "maquiavelo": {
   "name": "Nikolas Makiavelo",
@@ -1167,6 +1434,27 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "tomas_moro": {
+  "name": "Tomas Moro",
+  "dates": "1478 – 1535",
+  "born": 1478,
+  "died": 1535,
+  "place": "Londres (Ingalaterra)",
+  "role": "humanista, legelaria eta politikaria",
+  "idea": "Gizarte justu batek jabetza pribatua desagerraraztea eta guztion lana antolatzea eskatzen du, inork beharrik izan ez dezan.",
+  "bio": "<p>Tomas Moro abokatua, humanista eta <strong>Erasmo Rotterdamgoaren</strong> lagun mina izan zen; Erasmok bere <em>Eromenaren laudorioa</em> eskaini zion. Lord kantziler izatera iritsi zen, erresumako karguen artean gorena Enrike VIII.a erregearen ondoren. Baina erregeak Erromarekin hautsi zuenean dibortziatu ahal izateko, eta bere burua Ingalaterrako Elizaren buru izendatu zuenean, Morok ez zuen hori zin egin nahi izan. Londresko Dorrean espetxeratu eta 1535ean lepoa moztu zioten.</p>\n<p>1516an <em>Utopia</em> argitaratu zuen, berak asmatutako hitza, «inon ez» esan nahi duena. Uharte irudimenezko bat deskribatzen du, non ez dagoen jabetza pribaturik, denek sei ordu inguru egiten duten lan egunean, agintariak hautatuak diren eta erlijio desberdinak errespetatzen diren. Bere garaiko Ingalaterrarekin alderatuta, non nekazariak beren lurretatik kanporatzen zituzten eta pobreak urkatu lapurtzeagatik, Morok gizarte-kritika gogorra egiten du. Liburuak genero oso bati eman zion izena: <strong>utopiena</strong> edo gizarte idealena.</p>",
+  "obras": [
+   "Utopia"
+  ],
+  "anecdota": "<p>Lehen biografoen arabera, Morok umorea gorde zuen azkeneraino. Kolokan zegoen eskafaldora igotzean, ofizialari esan zion: «Lagundu iezadazu igotzen; jaisteko neure kabuz moldatuko naiz». Eta kolpea jaso aurretik bizarra enborretik aldendu zuen, esanez hark ez zuela inolako traiziorik egin.</p>",
+  "fuente": "William Roper, Sir Tomas Mororen bizitza; Edward Hall, Kronika",
+  "tradicion": true,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "lutero": {
   "name": "Martin Luther",
   "dates": "1483 – 1546",
@@ -1216,6 +1504,49 @@ const ILUSTRES = {
   "temas": [
    "hf-descartes-makro"
   ]
+ },
+ "giordano_bruno": {
+  "name": "Giordano Bruno",
+  "dates": "1548 – 1600",
+  "born": 1548,
+  "died": 1600,
+  "place": "Nola (Napoli ondoan, Italia)",
+  "role": "filosofo eta kosmologoa",
+  "idea": "Unibertsoa infinitua da eta mundu infinituz betea dago; izar bakoitza eguzki bat da, bere planetekin.",
+  "bio": "<p>Giordano Bruno fraide dominikarra izan zen, baina ordena utzi zuen heresia-salaketa jaso ondoren, eta urte luzez Europan barrena ibili zen: Geneva, Tolosa, Paris, Londres, Wittenberg, Praga… Leku guztietan irakatsi eta eztabaidatu zuen, eta askotan agintariekin liskarrean amaitu zuen, katolikoak zein protestanteak izan. 1592an Venezian salatu eta Erromako Inkisizioaren esku utzi zuten. Ia zortzi urteko prozesuaren ondoren, atzera egiteari uko egin zion, eta bizirik erre zuten Erroman, Campo de’ Fiori plazan, 1600ean.</p>\n<p>Brunok <strong>Kopernikoren</strong> teoria onartu zuen, Lurra Eguzkiaren inguruan biraka dabilela dioena, eta askoz harago joan zen: unibertsoa <strong>infinitua</strong> da, ez du erdigunerik, eta izarrak beste mundu batzuez inguratutako eguzkiak dira, agian bizidunak. Jainkoa ez dago munduaz kanpo, natura osoan baizik. Batez ere dogma kristauak ukatzeagatik kondenatu zuten, ez bakarrik bere kosmologiagatik, baina haren irudia pentsamendu-askatasunaren ikur bihurtu zen: 1889an estatua bat altxatu zioten hil zen lekuan.</p>",
+  "obras": [
+   "Unibertso infinituaz eta munduez",
+   "Errautsen afaria",
+   "Kausaz, printzipioaz eta batez"
+  ],
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
+ "francis_bacon": {
+  "name": "Francis Bacon",
+  "dates": "1561 – 1626",
+  "born": 1561,
+  "died": 1626,
+  "place": "Londres (Ingalaterra)",
+  "role": "filosofo, legelaria eta politikaria",
+  "idea": "Jakitea boterea da: zientziak natura behatzetik abiatu behar du eta indukzioz aurrera egin, adimenaren aurreiritzietatik aske.",
+  "bio": "<p>Francis Bacon abokatua eta politikaria izan zen, eta lord kantziler izatera iritsi zen Jakue I.a erregearekin, harik eta 1621ean eroskeriak onartzea leporatu eta karguetatik kendu zuten arte. Orduan azken urteak filosofiari eskaini zizkion. Ez da nahastu behar Roger Baconekin, Erdi Aroko frantziskotarrarekin.</p>\n<p>Bere <em>Novum organum</em>ean («tresna berria»), zeinaren izenburuak Aristotelesen <em>Organon</em>ari erantzuten dion, zientziarako metodo berri bat proposatzen du: kasu asko behatu, alderatu eta pixkanaka lege orokorretara iritsi, hau da, <strong>indukzioa</strong>. Aurretik, <strong>idoloetatik</strong> askatu behar da, gure ezagutza desitxuratzen duten akatsetatik: leinuarenak (giza izaerari dagozkionak), leizearenak (norbanakoarenak), foroarenak (hizkuntzarenak) eta antzokiarenak (heredatutako teoriena). Baconentzat jakintzaren helburua giza bizitza hobetzea da: «jakitea boterea da». <em>Atlantida berria</em>n ikerketa zientifikoaren inguruan antolatutako gizarte bat irudikatu zuen.</p>",
+  "obras": [
+   "Novum organum",
+   "Saiakerak",
+   "Atlantida berria"
+  ],
+  "anecdota": "<p>John Aubreyren arabera, 1626ko elurte-egun batean Baconek jakin nahi izan zuen hotzak haragia kontserbatzen ote zuen. Gurdia gelditu, oilo bat erosi, hilarazi eta berak elurrez bete zuen. Hainbeste hoztu zen, ezen gaixotu eta egun gutxiren buruan hil baitzen. Istorioa ederegi dator esperimentuaren aldeko haren defentsarekin, eta historialariek zalantzan jartzen dute zehazki horrela gertatu izana.</p>",
+  "fuente": "John Aubrey, Bizitza laburrak",
+  "tradicion": true,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "galileo": {
   "name": "Galileo Galilei",
@@ -1542,7 +1873,7 @@ const ILUSTRES = {
    "Gutun persiarrak (1721)",
    "Legeen espirituaz (1748)"
   ],
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1568,7 +1899,7 @@ const ILUSTRES = {
   "anecdota": "<p>1729an, La Condamine matematikariak akats bat aurkitu zuen Frantziako gobernuak antolatutako loteria batean: sariak txartel guztiak erostea zenbat kostatzen zen baino handiagoak ziren. Voltaire harekin eta beste bazkide batzuekin elkartu zen, hilabetez txartelak masiboki erosi zituzten eta dirutza irabazi zuten. Diru harekin, gero ondo inbertituta, Voltaire aberats eta independente bihurtu zen. Ez zuen babeslerik ez pentsiorik behar izan, eta independentzia ekonomiko horri esker bere garaiko egile gutxik izan zezaketen askatasunez idatzi ahal izan zuen.</p>",
   "fuente": "Voltaireren biografiak, garaiko lekukotasunetan oinarrituak",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1592,7 +1923,7 @@ const ILUSTRES = {
   "anecdota": "<p>1751ko azaroan, La Mettrie oturuntza batera joan zen Frantziak Berlinen zuen enbaxadorearen etxera, lord Tyrconnellenera, zeinaren sendagile izan baitzen. Handik gutxira gaixotu eta egun gutxitan hil zen; Voltairek eta beste lekuko batzuek gehiegi jan omen zuen boilur-pate bati egotzi zioten gaitza. Bere etsaiek burla egin zioten hain filosofikoa ez zen amaiera hari, baina Federiko II.ak berak idatzi zuen haren hileta-goraipamena eta Berlingo Akademian irakurrarazi zuen. Keinu ezohikoa zen: errege batek publikoki defendatzen zuen bere garaiko egilerik eskandalagarrienaren oroimena.</p>",
   "fuente": "Voltaireren gutunak Berlindik; Federiko II.a, La Mettrieren goraipamena",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1618,7 +1949,7 @@ const ILUSTRES = {
   "anecdota": "<p>Kontatzen da Hume, jada lodia eta bere eszeptizismo erlijiosoagatik ospetsua, lokaztutako lubaki batera erori zela Edinburgoko obretan zegoen gune batetik lasterbidea hartzean. Handik igarotzen zen emakume batek «Hume ateoa» bezala ezagutu zuen eta ez zuen handik atera nahi izan Gure Aita eta Sinesten dut errezatu arte. Berak, ohiko umore onez, errezitatu egin zituen protestarik egin gabe, eta emakumeak eskua luzatu zion. Eszenak ondo laburbiltzen du haren izaera: bere garairako ideia deserosoak zituen, baina garaikide guztiek nabarmentzen zuten haren izaera atsegina eta gorrotorik eza.</p>",
   "fuente": "Edinburgoko tradizioa, Humeren biografietan jasoa (E. C. Mossner, The Life of David Hume)",
   "tradicion": true,
-  "block": "ren",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1645,7 +1976,7 @@ const ILUSTRES = {
   "anecdota": "<p>1749ko udan, Rousseau oinez zihoan Paristik Vincenneseko gaztelura, han preso zegoen Diderot bere laguna bisitatzera. Atseden hartzeko, <em>Mercure de France</em> gainbegiratzen zuen, eta bertan Dijongo Akademiaren lehiaketa baten galdera irakurri zuen: zientzien eta arteen aurrerapenak ohiturak hobetu ote zituen. Berak kontatu zuenez, bat-bateko argialdi moduko bat sentitu zuen, zuhaitz baten azpian eseri behar izan zuen eta negarrez aurkitu zuen bere burua. Une hartatik jaio zen bere lehen <em>Diskurtsoa</em> eta, harekin batera, bere lan osoa zeharkatzen duen ideia.</p>",
   "fuente": "Rousseau, Aitorpenak, VIII. liburua; Malesherbesi bigarren gutuna (1762)",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1672,13 +2003,32 @@ const ILUSTRES = {
   "anecdota": "<p>1765 inguruan, Diderotek dirua behar zuen alabaren dotea ordaintzeko eta bere liburutegia saltzea erabaki zuen, bere ondasunik preziatuena. Errusiako Katalina II.a enperatrizak, ilustratuen miresleak, diru-kopuru on baten truke erosi zuen, baina baldintza eskuzabal batekin: Diderotek liburuak Parisen gordeko zituen bizi zen bitartean eta soldata bat jasoko zuen haren liburuzain gisa. Ordainketa atzeratu zenean, tsarinak berrogeita hamar urteko soldata aurreratu zion aldi bakarrean. 1773an, Diderotek San Petersburgora bidaia egin zuen eskerrak emateko, eta luze hitz egin zuen harekin politikaz eta erreformez.</p>",
   "fuente": "Diderotren korrespondentzia; garaiko lekukotasunak (Grimm, Correspondance littéraire)",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
   "temas": [
    "hf-ilustracion"
   ]
+ },
+ "helvetius": {
+  "name": "Claude-Adrien Helvétius",
+  "dates": "1715 – 1771",
+  "born": 1715,
+  "died": 1771,
+  "place": "Paris (Frantzia)",
+  "role": "Ilustrazioko filosofo materialista",
+  "idea": "Pertsonen arteko desberdintasunak hezkuntzari eta inguruneari zor zaizkie; interesak gidatzen du jokabidea, eta lege onek bakoitzaren interesa guztionarekin bat etortzea lortzen dute.",
+  "bio": "<p>Helvétius erregearentzako zerga-biltzailea izan zen, oso aberats egin zuen kargua, eta filosofiari eskaintzeko utzi zuen. 1758an <em>Espirituaz</em> argitaratu zuen, eta eskandalu izugarria sortu zuen: Sorbonak, Parisko Parlamentuak eta aita santuak kondenatu zuten, eta liburua jendaurrean erre zuten. Helvétiusek atzera egin behar izan zuen. Hurrengo lana, <em>Gizakiaz</em>, hil ondoren argitaratu zen.</p>\n<p>Haren tesirik ausartena da denok antzeko gaitasunekin jaiotzen garela: bereizten gaituena <strong>hezkuntza</strong> eta ingurunea dira. Horregatik, hezkuntza eta legeak hobetzen badira, pertsonak hobetzen dira. Helvétiusentzat jokabide ororen eragilea <strong>interesa</strong> da, plazerraren bilaketa eta minari ihes egitea; legegilearen zeregina gizartea antolatzea da, bakoitzak bere interesa bilatzean zoriontasun orokorrari lagun diezaion. Ideia horrek zuzenean inspiratu zuen Benthamen <strong>utilitarismoa</strong>.</p>",
+  "obras": [
+   "Espirituaz",
+   "Gizakiaz"
+  ],
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "dalembert": {
   "name": "Jean le Rond d'Alembert",
@@ -1696,13 +2046,32 @@ const ILUSTRES = {
   "anecdota": "<p>Saint-Jean-le-Rondeko eskaileretan utzitako haurra beirazale baten emazteak hazi zuen, eta D'Alembertek, akademiko ospetsu izanda ere, haren etxe xumean bizitzen jarraitu zuen berrogei urteak igaro arte. Tradizioaren arabera, bere ama biologikoa, Madame de Tencin aristokrata, hura aitortzen saiatu zen ospetsu egin zenean, eta berak erantzun zion bere ama bakarra beirazalearen emaztea zela. Esaldia zehatza izan ala ez, D'Alembertek beti erakutsi zion esker ona zaindu zuenari, eta haren arrakasta adibide ilustratu bihurtu zen: merituak jaiotzak baino gehiago balio zezakeen.</p>",
   "fuente": "Condorcet, D'Alemberten goraipamena; tradizio biografikoa",
   "tradicion": true,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
   "temas": [
    "hf-ilustracion"
   ]
+ },
+ "holbach": {
+  "name": "Holbach baroia",
+  "dates": "1723 – 1789",
+  "born": 1723,
+  "died": 1789,
+  "place": "Edesheim (Palatinatua, Alemania)",
+  "role": "filosofo materialista eta entziklopedista",
+  "idea": "Mugimenduan dagoen materia baino ez dago; gizakia naturaren parte da, eta erlijioa beldurretik eta ezjakintasunetik sortzen da.",
+  "bio": "<p>Paul-Henri Thiry, Holbach baroia, Alemanian jaio zen, baina Parisen bizi izan zen, eta han dirutza handia heredatu zuen. Haren etxea <strong>Ilustrazioko</strong> saloirik ausartena bihurtu zen: astero biltzen ziren bertan Diderot, Helvétius, D'Alembert eta Hume bezalako bisitariak, beste inon ez zegoen askatasunez eztabaidatzeko. Ehunka zientzia-artikulu idatzi zituen <em>Entziklopedia</em>rako.</p>\n<p><em>Naturaren sistema</em> lanean (1770), jazarpena saihesteko izen faltsu batekin argitaratua, <strong>materialismo</strong> osoa defendatu zuen: dena, pentsamendua barne, materiaren eta haren legeen bidez azaltzen da, eta ez dago arima hilezkorrik ez Jainkorik. Bere burua argi eta garbi <strong>ateotzat</strong> jo zuen lehen egileetako bat izan zen. Uste zuen erlijioak beldurraz eta ezjakintasunaz baliatzen dela, eta arrazoian eta guztion zoriontasunaren bilaketan oinarritutako moral batek pertsonak hobeak eta askeagoak egingo lituzkeela.</p>",
+  "obras": [
+   "Naturaren sistema",
+   "Kristautasuna agerian"
+  ],
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "smith": {
   "name": "Adam Smith",
@@ -1720,7 +2089,7 @@ const ILUSTRES = {
   "anecdota": "<p>Adam Smith ospetsua zen bere distrakzioengatik. Garaikideek kalean bakarrik hizketan deskribatzen zuten, ezpainak mugituz norbait ikusezinarekin eztabaidatzen ariko balitz bezala. Kontatzen da goiz batean batarekin atera zela lorategira, bere pentsamenduetan murgilduta, eta oinez jarraitu zuela beste herri batera iritsi arte, zenbait kilometrora, non elizako kanpaiek esnatu baitzuten. Beste istorio batek dio, larrugintza-lantegi batera egindako bisitan lanaren banaketa azaltzen ari zela, upel batera erori zela. Kontakizun puztuak dira, baina bizilagunek irudikatzen zuten pentsalari murgildua islatzen dute.</p>",
   "fuente": "Dugald Stewart, Account of the Life and Writings of Adam Smith (haren distrakzioei buruz); Eskoziako tradizioko pasadizoak",
   "tradicion": true,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1746,7 +2115,7 @@ const ILUSTRES = {
   "anecdota": "<p>Tradizioaren arabera, Königsbergeko bizilagunek beren erlojuak orduan jartzen zituzten Kant arratsaldeko eguneroko ibilaldian igarotzen ikusten zutenean, beti ordu berean eta ibilbide beretik. Behin bakarrik, diotenez, huts egin zuen hitzordura: etxean geratu zen egunetan, Rousseauren <em>Emilio</em>, argitaratu berria, irakurtzen murgilduta. Pasadizoa agian apainduta dago, baina mirespena benetakoa zen: Kantek erretratu bakarra zuen bere estudioan, Rousseaurena, eta aitortzen zuen hark irakatsi ziola edozein gizakiren duintasuna errespetatzen.</p>",
   "fuente": "Tradizio biografikoa; haren ohiturei buruz, Borowski, Jachmann eta Wasianskiren biografiak",
   "tradicion": true,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1775,7 +2144,7 @@ const ILUSTRES = {
   "anecdota": "<p>Benthamek erabilgarria izan nahi zuen hil ondoren ere. Testamentuan xedatu zuen bere gorpua anatomia irakasteko erabiltzea eta gero bere hezurdura, bere arropekin jantzita eta bere aulkian eserita, «autoikono» gisa gordetzea. Hala egin zen: gaur egun Londresko University Collegeko erakusleiho batean ikus daiteke, nahiz eta burua argizarizkoa den. Kondaira batek dio unibertsitateko kontseiluaren bileretara joaten dela «bertan, baina botorik gabe» oharrarekin. Bitxikeriaren atzean ideia utilitarista bat zegoen: gorpu batek ere ongi komunaren alde egin dezake.</p>",
   "fuente": "Benthamen testamentua; University College London",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1799,13 +2168,31 @@ const ILUSTRES = {
   "anecdota": "<p>1792ko abenduan, Konbentzioa Luis XVI.a epaitzeko prest zegoenean, Olympe de Gougesek diputatuei idatzi zien erregearen defendatzaile gisa eskaintzeko, Malesherbes abokatuarekin batera. Ez zen monarkikoa: defendatzen zuen erregea epaitu behar zela, baina ez exekutatu, eta uste zuen errepublika sendo batek ez zuela haren odola isuri beharrik. Konbentzioak bere eskaintza baztertu zuen, besteak beste, emakumea zela argudiatuz. Pasarteak haren irizpide-independentzia eta ausardia erakusten ditu, azkenean jakobinoen aurka jarri zutenak.</p>",
   "fuente": "Olympe de Gougesek Konbentzioari idatzitako gutuna (1792ko abendua)",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
   "temas": [
    "hf-ilustracion"
   ]
+ },
+ "hamilton": {
+  "name": "Alexander Hamilton",
+  "dates": "1755 ing. – 1804",
+  "born": 1755,
+  "died": 1804,
+  "place": "Nevis (Antilla britainiarrak)",
+  "role": "politikari eta pentsalari politiko estatubatuarra",
+  "idea": "Askatasuna hobeto babesten du gobernu indartsu eta ondo orekatu batek, non botere bereiziek elkar zaintzen duten.",
+  "bio": "<p>Alexander Hamilton Karibeko Nevis uhartean jaio zen, legez kanpoko seme eta laster umezurtz. New Yorkera iritsi zen ikastera, Estatu Batuetako Independentzia Gerran borrokatu zuen Washington jeneralaren laguntzaile gisa, eta 1787ko Konstituzioaren bultzatzaile nagusietako bat izan zen. Herrialdeko lehen Ogasun idazkaria izan zen. 1804an hil zen, Aaron Burr aurkari politikoarekin izandako duelu baten ondorioz.</p>\n<p>James Madison eta John Jayrekin batera <em>Federalista</em> idatzi zuen, Konstituzio berria defendatzen zuten 85 artikulu; gehienak Hamiltonek idatzi zituen. <strong>Montesquieu</strong>ri jarraituz, dio askatasunak <strong>botere-banaketa</strong> eta elkarren kontrol-sistema bat eskatzen dituela, baina gehitzen du gobernu ahul bat tiraniko bat bezain arriskutsua dela: energiadun botere betearazle bat eta Konstituzioaren aurkako legeak baliogabetzeko gai diren epaile independenteak behar dira. Ideia horiek demokrazia konstituzionalei buruzko eztabaidaren erdigunean jarraitzen dute.</p>",
+  "obras": [
+   "Federalista (Madison eta Jayrekin)"
+  ],
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "wollstonecraft": {
   "name": "Mary Wollstonecraft",
@@ -1824,7 +2211,7 @@ const ILUSTRES = {
   "anecdota": "<p>1795ean, Mary Wollstonecraftek bere garaiko emakume batentzat ohikoa ez zen bidaia bati ekin zion: Suedia, Norvegia eta Danimarka zeharkatu zituen bere bikotekidearen merkataritza-arazo bat konpontzeko, alaba txikiak eta haurzain batek bakarrik lagunduta. Esperientzia horretatik jaio ziren bere <em>Suedian, Norvegian eta Danimarkan idatzitako gutunak</em>, non paisaien deskribapena gizarteari eta emakumeen egoerari buruzko hausnarketekin nahasten baitu. Liburuak arrakasta handia izan zuen, eta William Godwinek geroago aitortu zuen, irakurtzean, egileaz maitemindu zela.</p>",
   "fuente": "Wollstonecraft, Suedian, Norvegian eta Danimarkan idatzitako gutunak; William Godwin, «Emakumearen eskubideen aldarrikapena» lanaren egilearen oroitzapenak",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],
@@ -1928,7 +2315,7 @@ const ILUSTRES = {
   "anecdota": "<p>1865ean, Parlamenturako kanpainan, Mill langile-entzule batzuekin bildu zen. Aurkari batek kartel bat zabaldu zuen haren liburu bateko esaldi batekin, non esaten baitzuen langile-klaseak, gezurra esateaz lotsatzen baziren ere, gezurtiak izan ohi zirela. Hura idatzi ote zuen galdetu zioten, eta Millek zalantzarik gabe erantzun zuen: «Bai, nik idatzi nuen». Bere <em>Autobiografia</em>ren arabera, entzuleek txalo zaparrada bat eman zuten, hautagai batek galderari ihes egiten ez saiatzea baloratzen baitzuten. Millek eserlekua irabazi zuen eta, beste kausa batzuen artean, emakumeen botoa defendatzeko erabili zuen.</p>",
   "fuente": "John Stuart Mill, Autobiografia",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "hf"
   ],

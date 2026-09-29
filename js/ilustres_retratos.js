@@ -178,14 +178,31 @@ const ILUSTRES_RETRATOS = {
   "pie": "The Disgrace of Averroes Vies Des Savants Illustr s · Louis Figuier (15 February 1819 – 8 November 1894) · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:The_Disgrace_of_Averroes_-_Vies_Des_Savants_Illustr%C3%A9s.jpg"
  },
+ "maimonides": {
+  "f": "media/retratos/museo2/maimonides.jpg",
+  "pie": "Maimonides bas-relief in the U.S. House of Representatives chamber cropped · Sculpture by Brenda Putnam; photo by the Architect of the Capitol · Public Domain"
+ },
  "tomas": {
   "f": "media/retratos/museo/aquino.jpg",
   "pie": "St thomas aquinas · Carlo Crivelli · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinas.jpg"
  },
+ "duns_escoto": {
+  "f": "media/retratos/museo2/duns-escoto.jpg",
+  "pie": "Portraits of Alberto Magno and Duns Scoto. Painted circa 1508-1510 · Aspertini, Amico (1474/1475-1552) · Public Domain"
+ },
  "ockham": {
   "f": "media/retratos/museo2/ockham.jpg",
   "pie": "William of Occam - Sketch - Frater Occham iste, 1341 · Public Domain"
+ },
+ "pico": {
+  "f": "media/retratos/citas/pico.jpg",
+  "pie": "Pico1 · Cristofano dell'Altissimo · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pico1.jpg"
+ },
+ "erasmo": {
+  "f": "media/retratos/museo2/erasmo.jpg",
+  "pie": "Portrait of Erasmus · Hans Holbein the Younger · Public Domain"
  },
  "maquiavelo": {
   "f": "media/retratos/museo2/maquiavelo.jpg",
@@ -196,6 +213,10 @@ const ILUSTRES_RETRATOS = {
   "pie": "Nikolaus Kopernikus · Anónimo · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3ANikolaus_Kopernikus.jpg"
  },
+ "tomas_moro": {
+  "f": "media/retratos/museo2/tomas-moro.jpg",
+  "pie": "Thomas More (after Holbein) · Wellcome Collection · Public Domain Mark"
+ },
  "lutero": {
   "f": "media/retratos/ilustres/lutero.jpg",
   "pie": "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg) · Lucas Cranach the Elder · Public domain",
@@ -205,6 +226,10 @@ const ILUSTRES_RETRATOS = {
   "f": "media/retratos/ilustres/calvino.jpg",
   "pie": "Portrait john calvin reverse · Portrait_john_calvin.jpg: Anonymous · Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Portrait_john_calvin_reverse.jpg"
+ },
+ "francis_bacon": {
+  "f": "media/retratos/museo2/bacon.jpg",
+  "pie": "British (English) School - Portrait of an Unknown Man (called 'Sir Francis Bacon, 1561–1626, Viscount St Albans') - 1210310 - National Trust · anonymous · Public Domain"
  },
  "galileo": {
   "f": "media/retratos/museo/galileo.jpg",

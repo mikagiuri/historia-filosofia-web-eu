@@ -7,7 +7,7 @@
    Retrato de dominio público o CC (Wikimedia Commons) cuando lo hay; si no, un monograma. */
 
 const ILU_EPOCAS = [
-  ["ant", "Antzinakoa"], ["med", "Erdi Arokoa"], ["ren", "Errenazimentua"], ["mod", "Modernoa"], ["con", "Garaikidea"]
+  ["ant", "Antzinakoa"], ["med", "Erdi Arokoa"], ["ren", "Errenazimentua"], ["mod", "Modernoa"], ["ilu", "Ilustrazioa"], ["con", "Garaikidea"]
 ];
 const ILU_SUBJECTS = { fil: "Filosofia 1.", hf: "Filosofiaren Historia" };
 let iluSubject = "all", iluEpoca = "all", iluQuery = "";
@@ -122,6 +122,18 @@ function iluTemaChips(p){
     '</div></div>';
 }
 
+/* (29-09) Sus frases (citas.js, enlazadas por «id»), con el estilo de la sección Frases */
+const ILU_FRASES = "Esaldiak", ILU_CLASE = "Klasean";
+function iluCitas(p){
+  if (typeof CITAS === "undefined") return "";
+  const cs = CITAS.filter(c => c.id === p.id).sort((a, b) => (b.dest ? 1 : 0) - (a.dest ? 1 : 0));
+  if (!cs.length) return "";
+  return '<div class="ilu-sec ilu-cits"><h3>' + ILU_FRASES + '</h3>' + cs.map(c =>
+    '<figure class="ilu-cit' + (c.dest ? ' ilu-cit-dest' : '') + '">' + (c.dest ? '<span class="ilu-cit-badge">' + ILU_CLASE + '</span>' : '') +
+    '<blockquote class="ilu-cit-q">' + iluEsc(c.c) + '</blockquote>' +
+    (c.o ? '<figcaption class="ilu-cit-o">' + iluEsc(c.o) + '</figcaption>' : '') + '</figure>').join("") + '</div>';
+}
+
 /* Ficha de un pensador. Sin argumento (o id desconocido) vuelve al listado. */
 function loadIlustre(id){
   const box = document.getElementById("ilubox");
@@ -153,6 +165,7 @@ function loadIlustre(id){
         '</div>' +
       '</header>' +
       '<div class="ilu-bio">' + (p.bio || "") + '</div>' +
+      iluCitas(p) +
       (p.anecdota ? '<div class="ilu-sec ilu-anec"><h3><span>Anekdota</span>' + (p.tradicion ? ' <span class="ilu-trad">tradizioaren arabera</span>' : '') + '</h3>' +
         p.anecdota + (p.fuente ? '<p class="ilu-fuente"><span>Iturria</span>: ' + iluEsc(p.fuente) + '</p>' : '') + '</div>' : '') +
       ((p.obras || []).length ? '<div class="ilu-sec"><h3>Lan nagusiak</h3><ul class="ilu-obras">' + p.obras.map(o => '<li>' + iluEsc(o) + '</li>').join("") + '</ul></div>' : '') +

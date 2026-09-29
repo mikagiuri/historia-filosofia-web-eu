@@ -23,14 +23,23 @@
     + '#citas .cit-a{ font-weight:600; color:var(--ink); }'
     + '#citas .cit-o{ color:var(--muted); font-style:italic; }'
     + '#citas .citcount{ color:var(--muted); font-size:13px; margin:10px 0 0; }'
-    + '@media (max-width:520px){ #citas .citgrid{ grid-template-columns:1fr; } }';
+    + '#citas .citcard.cit-dest{ grid-column:span 2; border-left-width:6px; background:linear-gradient(0deg,var(--surface),var(--surface-2)); }'
+    + '#citas .cit-dest .cit-q{ font-size:1.35rem; font-style:normal; font-weight:500; }'
+    + '#citas .cit-badge{ align-self:flex-start; font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; '
+    + '  color:var(--on-accent,#fff); background:var(--accent); border-radius:999px; padding:3px 10px; }'
+    + '@media (max-width:620px){ #citas .citgrid{ grid-template-columns:1fr; } #citas .citcard.cit-dest{ grid-column:auto; } }';
   let cssDone = false;
   function injectCss(){ if (cssDone) return; const s = document.createElement("style"); s.textContent = CSS; document.head.appendChild(s); cssDone = true; }
 
   function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
   let citEpoca = "all";
 
-  function citFiltered(){ return CITAS.filter(function (c){ return citEpoca === "all" || c.e === citEpoca; }); }
+  /* (29-09) las frases que se citan en clase («dest») van primero y destacadas */
+  const CIT_CLASE = "Klasean";
+  function citFiltered(){
+    const l = CITAS.filter(function (c){ return citEpoca === "all" || c.e === citEpoca; });
+    return l.filter(function (c){ return c.dest; }).concat(l.filter(function (c){ return !c.dest; }));
+  }
 
   function renderCitFilter(){
     const box = document.getElementById("citasfilter");
@@ -54,7 +63,8 @@
       const av = c.img ? (link ? '<button class="cit-av"' + dt + ' aria-hidden="true" tabindex="-1">' : '<span class="cit-av" aria-hidden="true">') +
         '<img loading="lazy" src="' + esc(c.img) + '" alt="">' + (link ? '</button>' : '</span>') : '';
       const who = link ? '<button class="cit-a"' + dt + '>' + esc(c.a) + '</button>' : '<span class="cit-a">' + esc(c.a) + '</span>';
-      return '<figure class="citcard"><blockquote class="cit-q">' + esc(c.c) + '</blockquote>' +
+      return '<figure class="citcard' + (c.dest ? ' cit-dest' : '') + '">' + (c.dest ? '<span class="cit-badge">' + CIT_CLASE + '</span>' : '') +
+        '<blockquote class="cit-q">' + esc(c.c) + '</blockquote>' +
         '<figcaption class="cit-src">' + av + '<span class="cit-who">' + who +
         (c.o ? ', <span class="cit-o">' + esc(c.o) + '</span>' : '') + '</span></figcaption></figure>';
     }).join("") + '</div>' +
