@@ -130,7 +130,7 @@ function cronoSvg(c){
       svg += '<rect class="cbar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colOf(a, i) + '">' +
         (a.note ? '<title>' + escapeCrono(a.note) + '</title>' : '') + '</rect>';
       // años SIEMPRE visibles: a la derecha de la barra, o a la izquierda si no cabe (nunca recortados)
-      const lbl = cronoYear(a.start) + '–' + cronoYear(a.end), lblW = lbl.length * 6;
+      const lbl = cronoYear(a.start) + '–' + (a.vive ? '' : cronoYear(a.end)), lblW = lbl.length * 6;   // (01-10) «vive»: rótulo abierto
       const yr = y + rowH / 2 + 4, rx = xOf(a.end) + 6;
       if (rx + lblW <= W - 2)
         svg += '<text class="bar-yr" x="' + rx.toFixed(1) + '" y="' + yr + '" text-anchor="start">' + lbl + '</text>';

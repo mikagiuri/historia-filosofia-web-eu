@@ -92,7 +92,7 @@ const CRONOGRAMAS = [
     "end": 1349,
     "grp": 1,
     "per": 2,
-    "note": "San Agustinengandik Ockhamgo Williamengana"
+    "note": "San Agustinengandik Gilen Ockhamgoarengana"
    },
    {
     "name": "Jainkoa eta arima",
@@ -1167,6 +1167,557 @@ const CRONOGRAMAS = [
   "events": []
  },
  {
+  "id": "B-MED-KRO-01",
+  "code": "B-MED-KRO-01",
+  "title": "Erdi Aroko filosofia: patristika, eskolastika eta filosofia arabiarra eta judua (IV-XIV. mendeak)",
+  "type": "timeline",
+  "start": 340,
+  "end": 1360,
+  "groups": [
+   {
+    "name": "Patristika eta goi Erdi Aroa"
+   },
+   {
+    "name": "Filosofia arabiarra eta judua"
+   },
+   {
+    "name": "Eskolastika"
+   },
+   {
+    "name": "Monakatua eta mistika"
+   },
+   {
+    "name": "Frantziskotarrak eta eskolastikaren krisia"
+   },
+   {
+    "name": "Pentsamendu politikoa"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Agustin Hiponakoa",
+    "start": 354,
+    "end": 430,
+    "grp": 0
+   },
+   {
+    "name": "Boezio",
+    "start": 480,
+    "end": 524,
+    "note": "Filosofiaren kontsolazioa",
+    "grp": 0
+   },
+   {
+    "name": "Joan Eskoto Eriugena",
+    "start": 810,
+    "end": 877,
+    "grp": 0
+   },
+   {
+    "name": "Al-Farabi",
+    "start": 872,
+    "end": 950,
+    "grp": 1
+   },
+   {
+    "name": "Avizena",
+    "start": 980,
+    "end": 1037,
+    "grp": 1
+   },
+   {
+    "name": "Al-Ghazali",
+    "start": 1058,
+    "end": 1111,
+    "grp": 1
+   },
+   {
+    "name": "Avempace",
+    "start": 1085,
+    "end": 1138,
+    "grp": 1
+   },
+   {
+    "name": "Averroes",
+    "start": 1126,
+    "end": 1198,
+    "grp": 1
+   },
+   {
+    "name": "Maimonides",
+    "start": 1138,
+    "end": 1204,
+    "grp": 1
+   },
+   {
+    "name": "Anselmo Canterburykoa",
+    "start": 1033,
+    "end": 1109,
+    "grp": 2
+   },
+   {
+    "name": "Pedro Abelardo",
+    "start": 1079,
+    "end": 1142,
+    "grp": 2
+   },
+   {
+    "name": "Alberto Handia",
+    "start": 1200,
+    "end": 1280,
+    "grp": 2
+   },
+   {
+    "name": "Bonabentura",
+    "start": 1217,
+    "end": 1274,
+    "grp": 2
+   },
+   {
+    "name": "Tomas Akinokoa",
+    "start": 1225,
+    "end": 1274,
+    "grp": 2
+   },
+   {
+    "name": "Hildegarda Bingengoa",
+    "start": 1098,
+    "end": 1179,
+    "grp": 3
+   },
+   {
+    "name": "Heloisa",
+    "start": 1100,
+    "end": 1164,
+    "grp": 3
+   },
+   {
+    "name": "Ramon Llull",
+    "start": 1232,
+    "end": 1316,
+    "grp": 3
+   },
+   {
+    "name": "Roger Bacon",
+    "start": 1220,
+    "end": 1292,
+    "grp": 4
+   },
+   {
+    "name": "Joan Duns Eskoto",
+    "start": 1266,
+    "end": 1308,
+    "grp": 4
+   },
+   {
+    "name": "Gilen Ockhamgoa",
+    "start": 1287,
+    "end": 1347,
+    "grp": 4
+   },
+   {
+    "name": "Dante Alighieri",
+    "start": 1265,
+    "end": 1321,
+    "note": "De monarchia",
+    "grp": 5
+   },
+   {
+    "name": "Marsilio Paduakoa",
+    "start": 1275,
+    "end": 1342,
+    "note": "Bakearen defendatzailea",
+    "grp": 5
+   }
+  ],
+  "events": []
+ },
+ {
+  "id": "B-REN-KRO-01",
+  "code": "B-REN-KRO-01",
+  "title": "Errenazimentua: humanismoa, Erreforma eta iraultza zientifikoa (XV-XVII. mendeak)",
+  "type": "timeline",
+  "start": 1395,
+  "end": 1665,
+  "groups": [
+   {
+    "name": "Humanismoa"
+   },
+   {
+    "name": "Pentsamendu politikoa"
+   },
+   {
+    "name": "Erreforma"
+   },
+   {
+    "name": "Natura eta iraultza zientifikoa"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Nikolas Kusakoa",
+    "start": 1401,
+    "end": 1464,
+    "grp": 0
+   },
+   {
+    "name": "Pico della Mirandola",
+    "start": 1463,
+    "end": 1494,
+    "grp": 0
+   },
+   {
+    "name": "Erasmo Rotterdamgoa",
+    "start": 1466,
+    "end": 1536,
+    "grp": 0
+   },
+   {
+    "name": "Tomas Moro",
+    "start": 1478,
+    "end": 1535,
+    "grp": 0
+   },
+   {
+    "name": "Michel de Montaigne",
+    "start": 1533,
+    "end": 1592,
+    "note": "Saiakerak",
+    "grp": 0
+   },
+   {
+    "name": "Nikolas Makiavelo",
+    "start": 1469,
+    "end": 1527,
+    "grp": 1
+   },
+   {
+    "name": "Francisco de Vitoria",
+    "start": 1483,
+    "end": 1546,
+    "note": "Salamancako Eskola: herrien zuzenbidea",
+    "grp": 1
+   },
+   {
+    "name": "Francisco Suárez",
+    "start": 1548,
+    "end": 1617,
+    "note": "Salamancako Eskola",
+    "grp": 1
+   },
+   {
+    "name": "Martin Luther",
+    "start": 1483,
+    "end": 1546,
+    "grp": 2
+   },
+   {
+    "name": "Joan Kalvino",
+    "start": 1509,
+    "end": 1564,
+    "grp": 2
+   },
+   {
+    "name": "Nikolas Koperniko",
+    "start": 1473,
+    "end": 1543,
+    "grp": 3
+   },
+   {
+    "name": "Giordano Bruno",
+    "start": 1548,
+    "end": 1600,
+    "grp": 3
+   },
+   {
+    "name": "Francis Bacon",
+    "start": 1561,
+    "end": 1626,
+    "grp": 3
+   },
+   {
+    "name": "Galileo Galilei",
+    "start": 1564,
+    "end": 1642,
+    "grp": 3
+   },
+   {
+    "name": "Johannes Kepler",
+    "start": 1571,
+    "end": 1630,
+    "grp": 3
+   },
+   {
+    "name": "William Harvey",
+    "start": 1578,
+    "end": 1657,
+    "grp": 3
+   }
+  ],
+  "events": []
+ },
+ {
+  "id": "B-MOD-KRO-01",
+  "code": "B-MOD-KRO-01",
+  "title": "Filosofia modernoa: arrazionalismoa eta enpirismoa (XVII. mendea)",
+  "type": "timeline",
+  "start": 1580,
+  "end": 1760,
+  "groups": [
+   {
+    "name": "Arrazionalismoa"
+   },
+   {
+    "name": "Enpirismoa"
+   },
+   {
+    "name": "Pentsamendu politikoa"
+   },
+   {
+    "name": "Zientzia"
+   },
+   {
+    "name": "Garai hartako filosofoak (emakumeak)"
+   }
+  ],
+  "axes": [
+   {
+    "name": "René Descartes",
+    "start": 1596,
+    "end": 1650,
+    "grp": 0
+   },
+   {
+    "name": "Baruch Spinoza",
+    "start": 1632,
+    "end": 1677,
+    "grp": 0
+   },
+   {
+    "name": "Nicolas Malebranche",
+    "start": 1638,
+    "end": 1715,
+    "grp": 0
+   },
+   {
+    "name": "Gottfried Wilhelm Leibniz",
+    "start": 1646,
+    "end": 1716,
+    "grp": 0
+   },
+   {
+    "name": "John Locke",
+    "start": 1632,
+    "end": 1704,
+    "note": "Liberalismo politikoaren teorialaria ere bada",
+    "grp": 1
+   },
+   {
+    "name": "George Berkeley",
+    "start": 1685,
+    "end": 1753,
+    "grp": 1
+   },
+   {
+    "name": "Hugo Grozio",
+    "start": 1583,
+    "end": 1645,
+    "note": "Zuzenbide naturala",
+    "grp": 2
+   },
+   {
+    "name": "Thomas Hobbes",
+    "start": 1588,
+    "end": 1679,
+    "grp": 2
+   },
+   {
+    "name": "Blaise Pascal",
+    "start": 1623,
+    "end": 1662,
+    "grp": 3
+   },
+   {
+    "name": "Isaac Newton",
+    "start": 1642,
+    "end": 1727,
+    "grp": 3
+   },
+   {
+    "name": "Isabel Bohemiakoa",
+    "start": 1618,
+    "end": 1680,
+    "note": "Descartesekin eztabaidatzen du arimaren eta gorputzaren batasuna",
+    "grp": 4
+   },
+   {
+    "name": "Margaret Cavendish",
+    "start": 1623,
+    "end": 1673,
+    "grp": 4
+   },
+   {
+    "name": "Anne Conway",
+    "start": 1631,
+    "end": 1679,
+    "grp": 4
+   }
+  ],
+  "events": []
+ },
+ {
+  "id": "B-ILU-KRO-01",
+  "code": "B-ILU-KRO-01",
+  "title": "Ilustrazioa (XVIII. mendea)",
+  "type": "timeline",
+  "start": 1685,
+  "end": 1880,
+  "groups": [
+   {
+    "name": "Frantziako Ilustrazioa"
+   },
+   {
+    "name": "Eskoziako Ilustrazioa"
+   },
+   {
+    "name": "Alemaniako Ilustrazioa"
+   },
+   {
+    "name": "Amerikako Ilustrazioa"
+   },
+   {
+    "name": "Feminismo ilustratua"
+   },
+   {
+    "name": "Utilitarismoa eta liberalismoa"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Montesquieu",
+    "start": 1689,
+    "end": 1755,
+    "grp": 0
+   },
+   {
+    "name": "Voltaire",
+    "start": 1694,
+    "end": 1778,
+    "grp": 0
+   },
+   {
+    "name": "La Mettrie",
+    "start": 1709,
+    "end": 1751,
+    "grp": 0
+   },
+   {
+    "name": "Jean-Jacques Rousseau",
+    "start": 1712,
+    "end": 1778,
+    "grp": 0
+   },
+   {
+    "name": "Denis Diderot",
+    "start": 1713,
+    "end": 1784,
+    "grp": 0
+   },
+   {
+    "name": "Helvétius",
+    "start": 1715,
+    "end": 1771,
+    "grp": 0
+   },
+   {
+    "name": "D'Alembert",
+    "start": 1717,
+    "end": 1783,
+    "grp": 0
+   },
+   {
+    "name": "Holbach baroia",
+    "start": 1723,
+    "end": 1789,
+    "grp": 0
+   },
+   {
+    "name": "David Hume",
+    "start": 1711,
+    "end": 1776,
+    "grp": 1
+   },
+   {
+    "name": "Adam Smith",
+    "start": 1723,
+    "end": 1790,
+    "grp": 1
+   },
+   {
+    "name": "Alexander Baumgarten",
+    "start": 1714,
+    "end": 1762,
+    "grp": 2
+   },
+   {
+    "name": "Immanuel Kant",
+    "start": 1724,
+    "end": 1804,
+    "grp": 2
+   },
+   {
+    "name": "Benjamin Franklin",
+    "start": 1706,
+    "end": 1790,
+    "grp": 3
+   },
+   {
+    "name": "Thomas Jefferson",
+    "start": 1743,
+    "end": 1826,
+    "grp": 3
+   },
+   {
+    "name": "Alexander Hamilton",
+    "start": 1755,
+    "end": 1804,
+    "grp": 3
+   },
+   {
+    "name": "Olympe de Gouges",
+    "start": 1748,
+    "end": 1793,
+    "grp": 4
+   },
+   {
+    "name": "Mary Wollstonecraft",
+    "start": 1759,
+    "end": 1797,
+    "grp": 4
+   },
+   {
+    "name": "Jeremy Bentham",
+    "start": 1748,
+    "end": 1832,
+    "grp": 5
+   },
+   {
+    "name": "John Stuart Mill",
+    "start": 1806,
+    "end": 1873,
+    "grp": 5
+   },
+   {
+    "name": "Harriet Taylor Mill",
+    "start": 1807,
+    "end": 1858,
+    "note": "Millekin batera idatzi zuen Emakumearen menpekotasuna",
+    "grp": 5
+   }
+  ],
+  "events": []
+ },
+ {
   "id": "BA-KRO-01",
   "code": "BA-KRO-01",
   "title": "BA · Ibilbide kronologikoa",
@@ -1687,6 +2238,407 @@ const CRONOGRAMAS = [
     "name": "Frantziako Iraultza",
     "start": 1789,
     "end": 1799
+   }
+  ],
+  "events": []
+ },
+ {
+  "id": "C-XIX-KRO-01",
+  "code": "C-XIX-KRO-01",
+  "title": "XIX. mendea: idealismoa, positibismoa eta susmoaren maisuak",
+  "type": "timeline",
+  "start": 1755,
+  "end": 1945,
+  "groups": [
+   {
+    "name": "Idealismo alemana"
+   },
+   {
+    "name": "Positibismoa eta eboluzionismoa"
+   },
+   {
+    "name": "Ezker hegeldarra, marxismoa eta anarkismoa"
+   },
+   {
+    "name": "Nahimena, existentzia eta bizitza"
+   },
+   {
+    "name": "Psikoanalisia"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Johann G. Fichte",
+    "start": 1762,
+    "end": 1814,
+    "grp": 0
+   },
+   {
+    "name": "G. W. F. Hegel",
+    "start": 1770,
+    "end": 1831,
+    "grp": 0
+   },
+   {
+    "name": "Friedrich Schelling",
+    "start": 1775,
+    "end": 1854,
+    "grp": 0
+   },
+   {
+    "name": "Auguste Comte",
+    "start": 1798,
+    "end": 1857,
+    "grp": 1
+   },
+   {
+    "name": "Charles Darwin",
+    "start": 1809,
+    "end": 1882,
+    "grp": 1
+   },
+   {
+    "name": "Ludwig Feuerbach",
+    "start": 1804,
+    "end": 1872,
+    "grp": 2
+   },
+   {
+    "name": "Karl Marx",
+    "start": 1818,
+    "end": 1883,
+    "grp": 2
+   },
+   {
+    "name": "Friedrich Engels",
+    "start": 1820,
+    "end": 1895,
+    "grp": 2
+   },
+   {
+    "name": "Piotr Kropotkin",
+    "start": 1842,
+    "end": 1921,
+    "grp": 2
+   },
+   {
+    "name": "Arthur Schopenhauer",
+    "start": 1788,
+    "end": 1860,
+    "grp": 3
+   },
+   {
+    "name": "Søren Kierkegaard",
+    "start": 1813,
+    "end": 1855,
+    "grp": 3
+   },
+   {
+    "name": "Friedrich Nietzsche",
+    "start": 1844,
+    "end": 1900,
+    "grp": 3
+   },
+   {
+    "name": "Sigmund Freud",
+    "start": 1856,
+    "end": 1939,
+    "grp": 4
+   }
+  ],
+  "events": []
+ },
+ {
+  "id": "C-XX-KRO-01",
+  "code": "C-XX-KRO-01",
+  "title": "XX. eta XXI. mendeak: filosofia analitikotik gaur egungo erronketara",
+  "type": "timeline",
+  "start": 1855,
+  "end": 2026,
+  "groups": [
+   {
+    "name": "Filosofia analitikoa, hizkuntza eta zientzia"
+   },
+   {
+    "name": "Fenomenologia, hermeneutika eta existentzialismoa"
+   },
+   {
+    "name": "Filosofia Espainian eta Euskal Herrian"
+   },
+   {
+    "name": "Teoria kritikoa eta filosofia politikoa"
+   },
+   {
+    "name": "Postmodernitatea"
+   },
+   {
+    "name": "Feminismoak"
+   },
+   {
+    "name": "XXI. mendeko erronkak"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Bertrand Russell",
+    "start": 1872,
+    "end": 1970,
+    "grp": 0
+   },
+   {
+    "name": "G. E. Moore",
+    "start": 1873,
+    "end": 1958,
+    "grp": 0
+   },
+   {
+    "name": "Moritz Schlick",
+    "start": 1882,
+    "end": 1936,
+    "grp": 0
+   },
+   {
+    "name": "Edward Sapir",
+    "start": 1884,
+    "end": 1939,
+    "grp": 0
+   },
+   {
+    "name": "Ludwig Wittgenstein",
+    "start": 1889,
+    "end": 1951,
+    "grp": 0
+   },
+   {
+    "name": "Rudolf Carnap",
+    "start": 1891,
+    "end": 1970,
+    "grp": 0
+   },
+   {
+    "name": "Benjamin Lee Whorf",
+    "start": 1897,
+    "end": 1941,
+    "grp": 0
+   },
+   {
+    "name": "Gilbert Ryle",
+    "start": 1900,
+    "end": 1976,
+    "grp": 0
+   },
+   {
+    "name": "Karl Popper",
+    "start": 1902,
+    "end": 1994,
+    "grp": 0
+   },
+   {
+    "name": "Alan Turing",
+    "start": 1912,
+    "end": 1954,
+    "grp": 0
+   },
+   {
+    "name": "Edmund Husserl",
+    "start": 1859,
+    "end": 1938,
+    "grp": 1
+   },
+   {
+    "name": "Martin Heidegger",
+    "start": 1889,
+    "end": 1976,
+    "grp": 1
+   },
+   {
+    "name": "Jean-Paul Sartre",
+    "start": 1905,
+    "end": 1980,
+    "grp": 1
+   },
+   {
+    "name": "Paul Ricoeur",
+    "start": 1913,
+    "end": 2005,
+    "grp": 1
+   },
+   {
+    "name": "Miguel de Unamuno",
+    "start": 1864,
+    "end": 1936,
+    "grp": 2
+   },
+   {
+    "name": "José Ortega y Gasset",
+    "start": 1883,
+    "end": 1955,
+    "grp": 2
+   },
+   {
+    "name": "María Zambrano",
+    "start": 1904,
+    "end": 1991,
+    "grp": 2
+   },
+   {
+    "name": "Txillardegi",
+    "start": 1929,
+    "end": 2012,
+    "grp": 2
+   },
+   {
+    "name": "Joxe Azurmendi",
+    "start": 1941,
+    "end": 2025,
+    "grp": 2
+   },
+   {
+    "name": "Max Weber",
+    "start": 1864,
+    "end": 1920,
+    "grp": 3
+   },
+   {
+    "name": "Max Horkheimer",
+    "start": 1895,
+    "end": 1973,
+    "grp": 3
+   },
+   {
+    "name": "Theodor W. Adorno",
+    "start": 1903,
+    "end": 1969,
+    "grp": 3
+   },
+   {
+    "name": "Hannah Arendt",
+    "start": 1906,
+    "end": 1975,
+    "grp": 3
+   },
+   {
+    "name": "John Rawls",
+    "start": 1921,
+    "end": 2002,
+    "grp": 3
+   },
+   {
+    "name": "Jürgen Habermas",
+    "start": 1929,
+    "end": 2026,
+    "grp": 3
+   },
+   {
+    "name": "Martha Nussbaum",
+    "start": 1947,
+    "end": 2026,
+    "vive": true,
+    "grp": 3
+   },
+   {
+    "name": "Michel Foucault",
+    "start": 1926,
+    "end": 1984,
+    "grp": 4
+   },
+   {
+    "name": "Jean-François Lyotard",
+    "start": 1924,
+    "end": 1998,
+    "grp": 4
+   },
+   {
+    "name": "Zygmunt Bauman",
+    "start": 1925,
+    "end": 2017,
+    "grp": 4
+   },
+   {
+    "name": "Jean Baudrillard",
+    "start": 1929,
+    "end": 2007,
+    "grp": 4
+   },
+   {
+    "name": "Jacques Derrida",
+    "start": 1930,
+    "end": 2004,
+    "grp": 4
+   },
+   {
+    "name": "Gianni Vattimo",
+    "start": 1936,
+    "end": 2023,
+    "grp": 4
+   },
+   {
+    "name": "Simone de Beauvoir",
+    "start": 1908,
+    "end": 1986,
+    "grp": 5
+   },
+   {
+    "name": "Judith Butler",
+    "start": 1956,
+    "end": 2026,
+    "vive": true,
+    "grp": 5
+   },
+   {
+    "name": "Yayo Herrero",
+    "start": 1965,
+    "end": 2026,
+    "vive": true,
+    "grp": 5
+   },
+   {
+    "name": "Paul B. Preciado",
+    "start": 1970,
+    "end": 2026,
+    "vive": true,
+    "grp": 5
+   },
+   {
+    "name": "Edward O. Wilson",
+    "start": 1929,
+    "end": 2021,
+    "grp": 6
+   },
+   {
+    "name": "Geoffrey Ingham",
+    "start": 1942,
+    "end": 2026,
+    "vive": true,
+    "grp": 6
+   },
+   {
+    "name": "Byung-Chul Han",
+    "start": 1959,
+    "end": 2026,
+    "vive": true,
+    "grp": 6
+   },
+   {
+    "name": "David Chalmers",
+    "start": 1966,
+    "end": 2026,
+    "vive": true,
+    "grp": 6
+   },
+   {
+    "name": "Naomi Klein",
+    "start": 1970,
+    "end": 2026,
+    "vive": true,
+    "grp": 6
+   },
+   {
+    "name": "Nick Bostrom",
+    "start": 1973,
+    "end": 2026,
+    "vive": true,
+    "grp": 6
    }
   ],
   "events": []
