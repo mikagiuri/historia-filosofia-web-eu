@@ -94,7 +94,7 @@ function cronoSvg(c){
   const hasFl = axes.some(a => a.fl);
   axes = axes.filter(a => !(grps && cronoHidden.has("g:" + a.grp)) && !(pers && cronoHidden.has("p:" + a.per)));
   const legend = (pers ? cronoLegend("p", CRONO_PERIODOS, pers, CRONO_TODOS, CRONO_NINGUNO) : "") +
-    (grps ? cronoLegend("g", grps.some(g => g.color) ? CRONO_EPOCAS : CRONO_ESCUELAS, grps, CRONO_TODAS, CRONO_NINGUNA) : "");
+    (grps ? cronoLegend("g", c.groupsLabel || (grps.some(g => g.color) ? CRONO_EPOCAS : CRONO_ESCUELAS), grps, CRONO_TODAS, CRONO_NINGUNA) : "");   // (01-10) «groupsLabel»: rótulo propio de la leyenda
   if (!axes.length) return legend + '<p class="lead crono-none">' + CRONO_NONE + '</p>';
 
   const W = 960, gutter = 186, padR = 26, padTop = 40, rowH = 30, barH = 18;
@@ -137,7 +137,8 @@ function cronoSvg(c){
       else
         svg += '<text class="bar-yr" x="' + (bx - 6).toFixed(1) + '" y="' + yr + '" text-anchor="end">' + lbl + '</text>';
     } else if (a.start != null){
-      svg += '<circle cx="' + xOf(a.start).toFixed(1) + '" cy="' + (y + rowH / 2) + '" r="5" fill="' + colOf(a, i) + '"/>';
+      svg += '<circle cx="' + xOf(a.start).toFixed(1) + '" cy="' + (y + rowH / 2) + '" r="5" fill="' + colOf(a, i) + '">' +
+        (a.note ? '<title>' + escapeCrono(a.note) + '</title>' : '') + '</circle>';
       svg += '<text class="bar-yr" x="' + (xOf(a.start) + 9).toFixed(1) + '" y="' + (y + rowH / 2 + 4) + '" text-anchor="start">' + (a.fl ? CRONO_FL : "") + cronoYear(a.start) + '</text>';
     }
   });

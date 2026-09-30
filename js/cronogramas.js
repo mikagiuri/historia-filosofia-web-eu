@@ -252,10 +252,10 @@ const CRONOGRAMAS = [
  {
   "id": "A-GRECIA-KRO-01",
   "code": "A-GRECIA-KRO-01",
-  "title": "Filosofia greziarra eskolaka (K.a. VI-II. mendeak)",
+  "title": "Kosmologoak: physis-ari buruzko galdera (K.a. VI-V. mendeak)",
   "type": "timeline",
-  "start": -625,
-  "end": -100,
+  "start": -630,
+  "end": -360,
   "groups": [
    {
     "name": "Miletoarrak"
@@ -271,19 +271,229 @@ const CRONOGRAMAS = [
    },
    {
     "name": "Pluralistak eta atomistak"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Tales Miletokoa",
+    "start": -624,
+    "end": -546,
+    "grp": 0
    },
+   {
+    "name": "Anaximandro",
+    "start": -610,
+    "end": -546,
+    "grp": 0
+   },
+   {
+    "name": "Anaximenes",
+    "start": -586,
+    "end": -526,
+    "grp": 0
+   },
+   {
+    "name": "Xenofanes",
+    "start": -570,
+    "end": -475,
+    "grp": 1
+   },
+   {
+    "name": "Heraklito",
+    "start": -540,
+    "end": -480,
+    "grp": 1
+   },
+   {
+    "name": "Pitagoras",
+    "start": -570,
+    "end": -495,
+    "grp": 2
+   },
+   {
+    "name": "Filolao",
+    "start": -470,
+    "end": -385,
+    "grp": 2
+   },
+   {
+    "name": "Arkitas Tarentokoa",
+    "start": -430,
+    "end": -350,
+    "grp": 2
+   },
+   {
+    "name": "Parmenides",
+    "start": -515,
+    "end": -450,
+    "grp": 3
+   },
+   {
+    "name": "Zenon Eleakoa",
+    "start": -490,
+    "end": -430,
+    "grp": 3
+   },
+   {
+    "name": "Meliso Samoskoa",
+    "start": -440,
+    "end": null,
+    "fl": true,
+    "grp": 3
+   },
+   {
+    "name": "Anaxagoras",
+    "start": -500,
+    "end": -428,
+    "grp": 4
+   },
+   {
+    "name": "Enpedokles",
+    "start": -495,
+    "end": -435,
+    "grp": 4
+   },
+   {
+    "name": "Leuzipo",
+    "start": -440,
+    "end": null,
+    "fl": true,
+    "grp": 4
+   },
+   {
+    "name": "Demokrito",
+    "start": -460,
+    "end": -370,
+    "grp": 4
+   }
+  ],
+  "events": []
+ },
+ {
+  "id": "A-GRECIA-KRO-02",
+  "code": "A-GRECIA-KRO-02",
+  "title": "Sofistak eta klasikoak: Sokrates, Aspasia, Platon eta Aristoteles (K.a. V-IV. mendeak)",
+  "type": "timeline",
+  "start": -500,
+  "end": -260,
+  "groups": [
    {
     "name": "Sofistak"
    },
    {
-    "name": "Sokrates eta sokratikoak"
+    "name": "Sokrates eta bere ingurukoak"
    },
    {
-    "name": "Akademia (Platon)"
+    "name": "Platon eta Akademia"
    },
    {
-    "name": "Lizeoa (Aristoteles)"
+    "name": "Aristoteles eta Lizeoa"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Protagoras",
+    "start": -490,
+    "end": -420,
+    "grp": 0
    },
+   {
+    "name": "Gorgias",
+    "start": -483,
+    "end": -375,
+    "grp": 0
+   },
+   {
+    "name": "Prodiko Keoskoa",
+    "start": -465,
+    "end": -395,
+    "grp": 0
+   },
+   {
+    "name": "Trasimako",
+    "start": -427,
+    "end": null,
+    "fl": true,
+    "grp": 0
+   },
+   {
+    "name": "Aspasia Miletokoa",
+    "start": -470,
+    "end": -400,
+    "grp": 1,
+    "note": "Gutxi gorabeherako datak; erretorika-maistra, Sokratesek «nire maistra» deitzen dio Menexeno-n"
+   },
+   {
+    "name": "Sokrates",
+    "start": -470,
+    "end": -399,
+    "grp": 1
+   },
+   {
+    "name": "Antistenes",
+    "start": -445,
+    "end": -365,
+    "grp": 1
+   },
+   {
+    "name": "Aristipo Zirenekoa",
+    "start": -435,
+    "end": -356,
+    "grp": 1
+   },
+   {
+    "name": "Xenofonte",
+    "start": -430,
+    "end": -354,
+    "grp": 1
+   },
+   {
+    "name": "Platon",
+    "start": -427,
+    "end": -347,
+    "grp": 2
+   },
+   {
+    "name": "Espeusipo",
+    "start": -407,
+    "end": -339,
+    "grp": 2
+   },
+   {
+    "name": "Xenokrates",
+    "start": -396,
+    "end": -314,
+    "grp": 2
+   },
+   {
+    "name": "Aristoteles",
+    "start": -384,
+    "end": -322,
+    "grp": 3
+   },
+   {
+    "name": "Teofrasto",
+    "start": -371,
+    "end": -287,
+    "grp": 3
+   },
+   {
+    "name": "Straton Lampsakokoa",
+    "start": -335,
+    "end": -269,
+    "grp": 3
+   }
+  ],
+  "events": []
+ },
+ {
+  "id": "A-GRECIA-KRO-03",
+  "code": "A-GRECIA-KRO-03",
+  "title": "Eskola helenistikoak eta haien oihartzuna Erroman (K.a. IV. mendea - K.o. II. mendea)",
+  "type": "timeline",
+  "start": -420,
+  "end": 190,
+  "groups": [
    {
     "name": "Zinikoak"
    },
@@ -299,276 +509,221 @@ const CRONOGRAMAS = [
   ],
   "axes": [
    {
-    "name": "Tales Miletokoa",
-    "start": -624,
-    "end": -546,
-    "grp": 0,
-    "per": 0
-   },
-   {
-    "name": "Anaximandro",
-    "start": -610,
-    "end": -546,
-    "grp": 0,
-    "per": 0
-   },
-   {
-    "name": "Anaximenes",
-    "start": -586,
-    "end": -526,
-    "grp": 0,
-    "per": 0
-   },
-   {
-    "name": "Xenofanes",
-    "start": -570,
-    "end": -475,
-    "grp": 1,
-    "per": 0
-   },
-   {
-    "name": "Heraklito",
-    "start": -540,
-    "end": -480,
-    "grp": 1,
-    "per": 0
-   },
-   {
-    "name": "Pitagoras",
-    "start": -570,
-    "end": -495,
-    "grp": 2,
-    "per": 0
-   },
-   {
-    "name": "Filolao",
-    "start": -470,
-    "end": -385,
-    "grp": 2,
-    "per": 0
-   },
-   {
-    "name": "Arkitas Tarentokoa",
-    "start": -430,
-    "end": -350,
-    "grp": 2,
-    "per": 0
-   },
-   {
-    "name": "Parmenides",
-    "start": -515,
-    "end": -450,
-    "grp": 3,
-    "per": 0
-   },
-   {
-    "name": "Zenon Eleakoa",
-    "start": -490,
-    "end": -430,
-    "grp": 3,
-    "per": 0
-   },
-   {
-    "name": "Meliso Samoskoa",
-    "start": -440,
-    "end": null,
-    "fl": true,
-    "grp": 3,
-    "per": 0
-   },
-   {
-    "name": "Anaxagoras",
-    "start": -500,
-    "end": -428,
-    "grp": 4,
-    "per": 0
-   },
-   {
-    "name": "Enpedokles",
-    "start": -495,
-    "end": -435,
-    "grp": 4,
-    "per": 0
-   },
-   {
-    "name": "Leuzipo",
-    "start": -440,
-    "end": null,
-    "fl": true,
-    "grp": 4,
-    "per": 0
-   },
-   {
-    "name": "Demokrito",
-    "start": -460,
-    "end": -370,
-    "grp": 4,
-    "per": 0
-   },
-   {
-    "name": "Protagoras",
-    "start": -490,
-    "end": -420,
-    "grp": 5,
-    "per": 1
-   },
-   {
-    "name": "Gorgias",
-    "start": -483,
-    "end": -375,
-    "grp": 5,
-    "per": 1
-   },
-   {
-    "name": "Trasimako",
-    "start": -427,
-    "end": null,
-    "fl": true,
-    "grp": 5,
-    "per": 1
-   },
-   {
-    "name": "Sokrates",
-    "start": -470,
-    "end": -399,
-    "grp": 6,
-    "per": 1
-   },
-   {
-    "name": "Antistenes",
-    "start": -445,
-    "end": -365,
-    "grp": 6,
-    "per": 1
-   },
-   {
-    "name": "Aristipo Zirenekoa",
-    "start": -435,
-    "end": -356,
-    "grp": 6,
-    "per": 1
-   },
-   {
-    "name": "Platon",
-    "start": -427,
-    "end": -347,
-    "grp": 7,
-    "per": 2
-   },
-   {
-    "name": "Espeusipo",
-    "start": -407,
-    "end": -339,
-    "grp": 7,
-    "per": 2
-   },
-   {
-    "name": "Arkesilao",
-    "start": -316,
-    "end": -241,
-    "grp": 7,
-    "per": 3
-   },
-   {
-    "name": "Karneades",
-    "start": -214,
-    "end": -129,
-    "grp": 7,
-    "per": 3
-   },
-   {
-    "name": "Aristoteles",
-    "start": -384,
-    "end": -322,
-    "grp": 8,
-    "per": 2
-   },
-   {
-    "name": "Teofrasto",
-    "start": -371,
-    "end": -287,
-    "grp": 8,
-    "per": 2
-   },
-   {
-    "name": "Straton Lampsakokoa",
-    "start": -335,
-    "end": -269,
-    "grp": 8,
-    "per": 2
-   },
-   {
     "name": "Diogenes Sinopekoa",
     "start": -412,
     "end": -323,
-    "grp": 9,
-    "per": 3
+    "grp": 0
    },
    {
     "name": "Krates Tebaskoa",
     "start": -365,
     "end": -285,
-    "grp": 9,
-    "per": 3
+    "grp": 0
+   },
+   {
+    "name": "Hiparkia Maroneakoa",
+    "start": -325,
+    "end": null,
+    "fl": true,
+    "grp": 0,
+    "note": "Krates-en emaztea eta filosofo zinikoa"
    },
    {
     "name": "Pirron",
     "start": -360,
     "end": -270,
-    "grp": 10,
-    "per": 3
+    "grp": 1
    },
    {
     "name": "Timon Fliuntekoa",
     "start": -320,
     "end": -230,
-    "grp": 10,
-    "per": 3
+    "grp": 1
+   },
+   {
+    "name": "Arkesilao",
+    "start": -316,
+    "end": -241,
+    "grp": 1,
+    "note": "Akademia eszeptikoa"
+   },
+   {
+    "name": "Karneades",
+    "start": -214,
+    "end": -129,
+    "grp": 1,
+    "note": "Akademia eszeptikoa"
+   },
+   {
+    "name": "Sexto Enpiriko",
+    "start": 160,
+    "end": null,
+    "fl": true,
+    "grp": 1,
+    "note": "Pirronen eszeptizismoa jasotzen du"
    },
    {
     "name": "Epikuro",
     "start": -341,
     "end": -270,
-    "grp": 11,
-    "per": 3
+    "grp": 2
+   },
+   {
+    "name": "Metrodoro Lampsakokoa",
+    "start": -331,
+    "end": -278,
+    "grp": 2
+   },
+   {
+    "name": "Lukrezio",
+    "start": -99,
+    "end": -55,
+    "grp": 2,
+    "note": "De rerum natura"
    },
    {
     "name": "Zenon Zitiokoa",
     "start": -334,
     "end": -262,
-    "grp": 12,
-    "per": 3
+    "grp": 3
    },
    {
     "name": "Kleantes",
     "start": -331,
     "end": -232,
-    "grp": 12,
-    "per": 3
+    "grp": 3
    },
    {
     "name": "Krisipo",
     "start": -279,
     "end": -206,
-    "grp": 12,
-    "per": 3
+    "grp": 3
+   },
+   {
+    "name": "Panezio Rodaskoa",
+    "start": -185,
+    "end": -110,
+    "grp": 3
+   },
+   {
+    "name": "Posidonio",
+    "start": -135,
+    "end": -51,
+    "grp": 3
+   },
+   {
+    "name": "Seneka",
+    "start": -4,
+    "end": 65,
+    "grp": 3
+   },
+   {
+    "name": "Epikteto",
+    "start": 50,
+    "end": 135,
+    "grp": 3
+   },
+   {
+    "name": "Marko Aurelio",
+    "start": 121,
+    "end": 180,
+    "grp": 3
    }
   ],
-  "events": [],
-  "periods": [
+  "events": []
+ },
+ {
+  "id": "A-GRECIA-KRO-04",
+  "code": "A-GRECIA-KRO-04",
+  "title": "Non irakasten zen filosofia: eskolak eta erakundeak (K.a. VI. mendea - K.o. VI. mendea)",
+  "type": "timeline",
+  "start": -560,
+  "end": 640,
+  "groupsLabel": "Aldiak",
+  "groups": [
    {
-    "name": "Aldi kosmologikoa"
+    "name": "Arkaikoak eta klasikoak"
    },
    {
-    "name": "Aldi antropologiko-soziala"
+    "name": "Helenistikoak"
    },
    {
-    "name": "Aldi sistematiko-klasikoa"
-   },
-   {
-    "name": "Aldi helenistikoa"
+    "name": "Erromatarrak eta antzinaro berantiarrekoak"
    }
-  ]
+  ],
+  "axes": [
+   {
+    "name": "Komunitate pitagorikoa",
+    "start": -530,
+    "end": -450,
+    "grp": 0,
+    "note": "Krotona: Pitagoras iritsi zenetik (K.a. 530 inguru) pitagorikoen aurkako matxinadara (K.a. 450 inguru)"
+   },
+   {
+    "name": "Isokratesen eskola",
+    "start": -392,
+    "end": -338,
+    "grp": 0,
+    "note": "Erretorika-eskola Atenasen, Akademiaren lehiakidea"
+   },
+   {
+    "name": "Platonen Akademia",
+    "start": -387,
+    "end": 529,
+    "grp": 0,
+    "note": "Mila urte inguru: Platonek sortu zuenetik (K.a. 387 inguru) Justinianok itxi zuen arte (K.o. 529). Silaren arpilaketaren ondoren (K.a. 86) bere egoitzatik kanpo irakasten da, eta 410 inguruan Plutarko Atenaskoak eskola neoplatoniko gisa berrsortzen du"
+   },
+   {
+    "name": "Lizeoa (Peripatoa)",
+    "start": -335,
+    "end": -86,
+    "grp": 0,
+    "note": "Aristotelesek sortua (K.a. 335); hura ere K.a. 86an galdu zen"
+   },
+   {
+    "name": "Epikuroren Lorategia",
+    "start": -306,
+    "end": 200,
+    "grp": 1,
+    "note": "Epikurok sortua Atenasen (K.a. 306); K.o. II. mendera arte badira epikureo aktiboak"
+   },
+   {
+    "name": "Atepea (Stoa)",
+    "start": -300,
+    "end": -110,
+    "grp": 1,
+    "note": "Zenon Zitiokoak Stoa Pezilen irakasten du (K.a. 300 inguru); Atenasko eskola Panezioraino iristen da (K.a. 110 inguru hila)"
+   },
+   {
+    "name": "Alexandriako Museoa",
+    "start": -295,
+    "end": 272,
+    "grp": 1,
+    "note": "Museoa eta Liburutegia, Ptolomeoek sortuak (K.a. 295 inguru); Museoaren auzoa K.o. 272an suntsitu zen"
+   },
+   {
+    "name": "Atenasko katedrak",
+    "start": 176,
+    "end": null,
+    "grp": 2,
+    "note": "Marko Aureliok lau katedra sortu zituen Atenasen: platonikoa, aristotelikoa, estoikoa eta epikureoa (K.o. 176)"
+   },
+   {
+    "name": "Plotinoren eskola Erroman",
+    "start": 244,
+    "end": 270,
+    "grp": 2,
+    "note": "Plotinok Erroman irakatsi zuen K.o. 244tik 270era"
+   },
+   {
+    "name": "Alexandriako eskola",
+    "start": 400,
+    "end": 610,
+    "grp": 2,
+    "note": "Alexandriako neoplatonikoak: Hipatiarengandik (415ean hila) Esteban Alexandriakoarengana, Konstantinoplara joan zena (610 inguru)"
+   }
+  ],
+  "events": []
  },
  {
   "id": "A3-KRO-01",
