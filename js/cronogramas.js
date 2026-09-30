@@ -2351,238 +2351,253 @@ const CRONOGRAMAS = [
  {
   "id": "C-XX-KRO-01",
   "code": "C-XX-KRO-01",
-  "title": "XX. eta XXI. mendeak: filosofia analitikotik gaur egungo erronketara",
+  "title": "XX. eta XXI. mendeak herrialdeka",
   "type": "timeline",
   "start": 1855,
   "end": 2026,
   "groups": [
    {
-    "name": "Filosofia analitikoa, hizkuntza eta zientzia"
+    "name": "Alemania"
    },
    {
-    "name": "Fenomenologia, hermeneutika eta existentzialismoa"
+    "name": "Austria"
    },
    {
-    "name": "Filosofia Espainian eta Euskal Herrian"
+    "name": "Frantzia"
    },
    {
-    "name": "Teoria kritikoa eta filosofia politikoa"
+    "name": "Erresuma Batua"
    },
    {
-    "name": "Postmodernitatea"
+    "name": "Ameriketako Estatu Batuak"
    },
    {
-    "name": "Feminismoak"
+    "name": "Espainia eta Euskal Herria"
    },
    {
-    "name": "XXI. mendeko erronkak"
+    "name": "Italia"
+   },
+   {
+    "name": "Beste herrialde batzuk"
    }
   ],
   "axes": [
    {
-    "name": "Bertrand Russell",
-    "start": 1872,
-    "end": 1970,
+    "name": "Edmund Husserl",
+    "start": 1859,
+    "end": 1938,
+    "note": "Moravian jaio zen (orduan Austria-Hungaria); Alemanian irakatsi zuen",
     "grp": 0
    },
    {
-    "name": "G. E. Moore",
-    "start": 1873,
-    "end": 1958,
+    "name": "Max Weber",
+    "start": 1864,
+    "end": 1920,
     "grp": 0
    },
    {
     "name": "Moritz Schlick",
     "start": 1882,
     "end": 1936,
+    "note": "Berlinen jaio zen; Vienako Zirkulua zuzendu zuen",
     "grp": 0
    },
    {
-    "name": "Edward Sapir",
-    "start": 1884,
-    "end": 1939,
-    "grp": 0
-   },
-   {
-    "name": "Ludwig Wittgenstein",
+    "name": "Martin Heidegger",
     "start": 1889,
-    "end": 1951,
+    "end": 1976,
     "grp": 0
    },
    {
     "name": "Rudolf Carnap",
     "start": 1891,
     "end": 1970,
+    "note": "Vienako Zirkulukoa; AEBetara emigratu zuen (1935)",
     "grp": 0
    },
    {
-    "name": "Benjamin Lee Whorf",
-    "start": 1897,
-    "end": 1941,
+    "name": "Max Horkheimer",
+    "start": 1895,
+    "end": 1973,
+    "note": "Erbestea AEBetan (1934-1949)",
     "grp": 0
    },
    {
-    "name": "Gilbert Ryle",
-    "start": 1900,
-    "end": 1976,
+    "name": "Theodor W. Adorno",
+    "start": 1903,
+    "end": 1969,
+    "note": "Erbestea Ingalaterran eta AEBetan (1934-1949)",
     "grp": 0
+   },
+   {
+    "name": "Hannah Arendt",
+    "start": 1906,
+    "end": 1975,
+    "note": "AEBetara emigratu zuen (1941)",
+    "grp": 0
+   },
+   {
+    "name": "Jürgen Habermas",
+    "start": 1929,
+    "end": 2026,
+    "grp": 0
+   },
+   {
+    "name": "Ludwig Wittgenstein",
+    "start": 1889,
+    "end": 1951,
+    "note": "Cambridgen irakatsi zuen (Erresuma Batua)",
+    "grp": 1
    },
    {
     "name": "Karl Popper",
     "start": 1902,
     "end": 1994,
-    "grp": 0
-   },
-   {
-    "name": "Alan Turing",
-    "start": 1912,
-    "end": 1954,
-    "grp": 0
-   },
-   {
-    "name": "Edmund Husserl",
-    "start": 1859,
-    "end": 1938,
-    "grp": 1
-   },
-   {
-    "name": "Martin Heidegger",
-    "start": 1889,
-    "end": 1976,
+    "note": "Londresen irakatsi zuen 1946tik aurrera",
     "grp": 1
    },
    {
     "name": "Jean-Paul Sartre",
     "start": 1905,
     "end": 1980,
-    "grp": 1
+    "grp": 2
+   },
+   {
+    "name": "Simone de Beauvoir",
+    "start": 1908,
+    "end": 1986,
+    "grp": 2
    },
    {
     "name": "Paul Ricoeur",
     "start": 1913,
     "end": 2005,
-    "grp": 1
-   },
-   {
-    "name": "Miguel de Unamuno",
-    "start": 1864,
-    "end": 1936,
     "grp": 2
    },
    {
-    "name": "José Ortega y Gasset",
-    "start": 1883,
-    "end": 1955,
+    "name": "Jean-François Lyotard",
+    "start": 1924,
+    "end": 1998,
     "grp": 2
    },
    {
-    "name": "María Zambrano",
-    "start": 1904,
-    "end": 1991,
+    "name": "Michel Foucault",
+    "start": 1926,
+    "end": 1984,
     "grp": 2
    },
    {
-    "name": "Txillardegi",
+    "name": "Jean Baudrillard",
     "start": 1929,
-    "end": 2012,
+    "end": 2007,
     "grp": 2
    },
    {
-    "name": "Joxe Azurmendi",
-    "start": 1941,
-    "end": 2025,
+    "name": "Jacques Derrida",
+    "start": 1930,
+    "end": 2004,
+    "note": "Aljerian jaio zen, orduan frantziarra",
     "grp": 2
    },
    {
-    "name": "Max Weber",
-    "start": 1864,
-    "end": 1920,
+    "name": "Bertrand Russell",
+    "start": 1872,
+    "end": 1970,
     "grp": 3
    },
    {
-    "name": "Max Horkheimer",
-    "start": 1895,
-    "end": 1973,
+    "name": "G. E. Moore",
+    "start": 1873,
+    "end": 1958,
     "grp": 3
    },
    {
-    "name": "Theodor W. Adorno",
-    "start": 1903,
-    "end": 1969,
+    "name": "Gilbert Ryle",
+    "start": 1900,
+    "end": 1976,
     "grp": 3
    },
    {
-    "name": "Hannah Arendt",
-    "start": 1906,
-    "end": 1975,
+    "name": "Alan Turing",
+    "start": 1912,
+    "end": 1954,
     "grp": 3
+   },
+   {
+    "name": "Geoffrey Ingham",
+    "start": 1942,
+    "end": 2026,
+    "vive": true,
+    "grp": 3
+   },
+   {
+    "name": "Edward Sapir",
+    "start": 1884,
+    "end": 1939,
+    "note": "Prusian jaio zen; txikitan AEBetara emigratu zuen",
+    "grp": 4
+   },
+   {
+    "name": "Benjamin Lee Whorf",
+    "start": 1897,
+    "end": 1941,
+    "grp": 4
    },
    {
     "name": "John Rawls",
     "start": 1921,
     "end": 2002,
-    "grp": 3
+    "grp": 4
    },
    {
-    "name": "Jürgen Habermas",
+    "name": "Edward O. Wilson",
     "start": 1929,
-    "end": 2026,
-    "grp": 3
+    "end": 2021,
+    "grp": 4
    },
    {
     "name": "Martha Nussbaum",
     "start": 1947,
     "end": 2026,
     "vive": true,
-    "grp": 3
-   },
-   {
-    "name": "Michel Foucault",
-    "start": 1926,
-    "end": 1984,
     "grp": 4
-   },
-   {
-    "name": "Jean-François Lyotard",
-    "start": 1924,
-    "end": 1998,
-    "grp": 4
-   },
-   {
-    "name": "Zygmunt Bauman",
-    "start": 1925,
-    "end": 2017,
-    "grp": 4
-   },
-   {
-    "name": "Jean Baudrillard",
-    "start": 1929,
-    "end": 2007,
-    "grp": 4
-   },
-   {
-    "name": "Jacques Derrida",
-    "start": 1930,
-    "end": 2004,
-    "grp": 4
-   },
-   {
-    "name": "Gianni Vattimo",
-    "start": 1936,
-    "end": 2023,
-    "grp": 4
-   },
-   {
-    "name": "Simone de Beauvoir",
-    "start": 1908,
-    "end": 1986,
-    "grp": 5
    },
    {
     "name": "Judith Butler",
     "start": 1956,
     "end": 2026,
     "vive": true,
+    "grp": 4
+   },
+   {
+    "name": "Miguel de Unamuno",
+    "start": 1864,
+    "end": 1936,
+    "grp": 5
+   },
+   {
+    "name": "José Ortega y Gasset",
+    "start": 1883,
+    "end": 1955,
+    "grp": 5
+   },
+   {
+    "name": "María Zambrano",
+    "start": 1904,
+    "end": 1991,
+    "note": "Erbestea Amerikan eta Europan (1939-1984)",
+    "grp": 5
+   },
+   {
+    "name": "Txillardegi",
+    "start": 1929,
+    "end": 2012,
+    "grp": 5
+   },
+   {
+    "name": "Joxe Azurmendi",
+    "start": 1941,
+    "end": 2025,
     "grp": 5
    },
    {
@@ -2600,48 +2615,54 @@ const CRONOGRAMAS = [
     "grp": 5
    },
    {
-    "name": "Edward O. Wilson",
-    "start": 1929,
-    "end": 2021,
+    "name": "Gianni Vattimo",
+    "start": 1936,
+    "end": 2023,
     "grp": 6
    },
    {
-    "name": "Geoffrey Ingham",
-    "start": 1942,
-    "end": 2026,
-    "vive": true,
-    "grp": 6
+    "name": "Zygmunt Bauman",
+    "start": 1925,
+    "end": 2017,
+    "note": "Polonia; 1971tik aurrera, Erresuma Batuan",
+    "grp": 7
    },
    {
     "name": "Byung-Chul Han",
     "start": 1959,
     "end": 2026,
     "vive": true,
-    "grp": 6
+    "note": "Hego Korea; Alemanian lan egiten du",
+    "grp": 7
    },
    {
     "name": "David Chalmers",
     "start": 1966,
     "end": 2026,
     "vive": true,
-    "grp": 6
+    "note": "Australia",
+    "grp": 7
    },
    {
     "name": "Naomi Klein",
     "start": 1970,
     "end": 2026,
     "vive": true,
-    "grp": 6
+    "note": "Kanada",
+    "grp": 7
    },
    {
     "name": "Nick Bostrom",
     "start": 1973,
     "end": 2026,
     "vive": true,
-    "grp": 6
+    "note": "Suedia; Oxforden lan egiten du",
+    "grp": 7
    }
   ],
-  "events": []
+  "events": [],
+  "groupsLabel": "Herrialdeak",
+  "porGrupo": true
  },
  {
   "id": "C1-KRO-01",

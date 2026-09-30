@@ -87,7 +87,7 @@ function cronoSvg(c){
   if (start == null || end == null || end <= start){ return '<p class="lead">—</p>'; }
   // orden cronológico (por año de inicio, luego de fin): la línea se lee de arriba a abajo en el tiempo
   const key = v => (v == null ? 1e9 : v);
-  axes = axes.slice().sort((a, b) => key(a.start) - key(b.start) || key(a.end) - key(b.end));
+  axes = axes.slice().sort((a, b) => (c.porGrupo ? key(a.grp) - key(b.grp) : 0) || key(a.start) - key(b.start) || key(a.end) - key(b.end));   // (01-10) «porGrupo»: filas juntas por grupo (p. ej. por países)
   // (29-09) con escuelas (c.groups) y periodos (c.periods): solo lo activo; la escala no cambia al ocultar
   const grps = c.groups || null, pers = c.periods || null;
   if (cronoHiddenFor !== c.id){ cronoHidden = new Set(); cronoHiddenFor = c.id; }
