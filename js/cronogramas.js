@@ -1330,7 +1330,8 @@ const CRONOGRAMAS = [
     "grp": 5
    }
   ],
-  "events": []
+  "events": [],
+  "groupsLabel": "Korronteak"
  },
  {
   "id": "B-REN-KRO-01",
@@ -1454,7 +1455,8 @@ const CRONOGRAMAS = [
     "grp": 3
    }
   ],
-  "events": []
+  "events": [],
+  "groupsLabel": "Korronteak"
  },
  {
   "id": "B-MOD-KRO-01",
@@ -1563,7 +1565,8 @@ const CRONOGRAMAS = [
     "grp": 4
    }
   ],
-  "events": []
+  "events": [],
+  "groupsLabel": "Korronteak"
  },
  {
   "id": "B-ILU-KRO-01",
@@ -1715,7 +1718,8 @@ const CRONOGRAMAS = [
     "grp": 5
    }
   ],
-  "events": []
+  "events": [],
+  "groupsLabel": "Korronteak"
  },
  {
   "id": "BA-KRO-01",
@@ -2346,7 +2350,8 @@ const CRONOGRAMAS = [
     "grp": 4
    }
   ],
-  "events": []
+  "events": [],
+  "groupsLabel": "Korronteak"
  },
  {
   "id": "C-XX-KRO-01",
