@@ -13319,7 +13319,7 @@ const QUIZZES = {
     "fb": "Adam Smithek, Nazioen aberastasuna lanean (1776), liberalismoa eta utilitarismoa lotzen ditu esku ikusezinaren ideiarekin."
    },
    {
-    "q": "Nork erakutsi zuen gizakiarena bezalako espezieen arrakasta ebolutiboa lankidetzari zor zaiola, eta ez borrokari?",
+    "q": "Nork defendatu zuen gizakiarena bezalako espezieen arrakasta ebolutiboa lankidetzari zor zaiola, eta ez borrokari?",
     "o": [
      "Adam Smith",
      "Geoffrey Ingham",
