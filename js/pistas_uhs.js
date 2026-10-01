@@ -216,6 +216,223 @@ const PISTAS = [
   }
  },
  {
+  "id": "hf-duda",
+  "subject": "hf",
+  "tema": "14. gaia · Descartes",
+  "unidad": "hf-racionalismo",
+  "materia": "Filosofia · Descartes",
+  "titulo": "Zertarako dudatzen du Descartesek?",
+  "lede": "Zalantza metodikoa eta lehen ziurtasuna. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer da zalantza metodikoa eta zertarako erabiltzen du Descartesek?",
+    "intro": [
+     "Descartesek zalantzan jar daitekeen guztiaz dudatzea erabakitzen du. Saiatu azaltzen zergatik egingo lukeen norbaitek horrelakorik, laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Descartesek ezagutza erabat segurua bilatzen du, jakintza osoa haren gainean eraikitzeko.",
+     "Bere zalantza ez da eszeptizismoa: ez du dudatzen dudan geratzeko.",
+     "<em>Metodo</em> bat da: behin-behinean baztertzen du zalantzarik txikiena duen guztia, zerbait zutik geratzen den ikusteko.",
+     "Zalantza metodikoa <strong>lehen egia zalantzaezin</strong> bat aurkitzeko tresna da: zalantza erabiltzen du zalantza gainditzeko."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer bilatzen du Descartesek zalantza metodikoarekin?",
+     "opciones": [
+      [
+       "Egia zalantzaezin bat aurkitzea, ezagutza haren gainean oinarritzeko.",
+       true
+      ],
+      [
+       "Ezer jakin ezin dugula frogatzea.",
+       false,
+       "Hori eszeptizismoa litzateke. Descartesek, hain zuzen, zalantzatik ateratzeko dudatzen du."
+      ],
+      [
+       "Aurreko filosofoez trufatzea.",
+       false,
+       "Bere helburua eraikitzailea da: jakintza sendo bat oinarritzea."
+      ],
+      [
+       "Besteez dudatzea, baina ez bere buruaz.",
+       false,
+       "Alderantziz: guztiaz dudatzen du, baita bere sinesmenez ere."
+      ]
+     ],
+     "ok": "Ondo. Metodoa eta helburua dituen zalantza da: lehen ziurtasuna.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Urratsak ikusi behar ditut",
+      "etiqueta": "Zalantzaren bidea",
+      "titulo": "Dudatzeko hiru arrazoi",
+      "definicion": [
+       "<strong>Zentzumenak</strong>: batzuetan engainatzen gaituzte → pertzepzio arrunta ez da guztiz fidagarria.",
+       "<strong>Ametsa</strong>: ez dugu beti segurtasunez bereizten esna egotea eta amets egitea → kanpoko mundua zalantzagarria izan daiteke.",
+       "<strong>Jeinu gaiztoa</strong>: agian izaki boteretsu batek engainatzen gaitu matematiketan ere → zalantza muturreraino iristen da."
+      ],
+      "parrafos": [
+       "Ohartu urrats bakoitza aurrekoa baino erradikalagoa dela. Zer geratzen da guztiaz dudatzen denean?"
+      ],
+      "comprobacion": {
+       "etiqueta": "Urratsen egiaztapena",
+       "pregunta": "Zertarako sartzen du Descartesek jeinu gaiztoa?",
+       "opciones": [
+        [
+         "Zalantza muturreraino eramateko, matematiketaraino ere.",
+         true
+        ],
+        [
+         "Benetan deabru engainatzaile batean sinesten zuelako.",
+         false,
+         "Esperimentu teoriko bat da, ez sinesmen bat."
+        ],
+        [
+         "Jainkoa existitzen ez dela frogatzeko.",
+         false,
+         "Ez: aurrerago Descartes Jainkoa existitzen dela eta ez gaituela engainatzen frogatzen saiatuko da."
+        ],
+        [
+         "Zentzumenez bakarrik dudatzeko.",
+         false,
+         "Zentzumenez lehen urratsean dudatu zuen jada; jeinu gaiztoak haratago jotzen du."
+        ]
+       ],
+       "ok": "Zuzen. Hipotesirik erradikalena da: horri zerbaitek eusten badio, zalantzaezina izango da.",
+       "mal": "Begiratu berriro urratsei.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Zalantza metodikoa",
+      "definicion": [
+       "<strong>Zalantza metodikoa</strong> zalantzan jar daitekeen guztia, behin-behinean, faltsutzat hartzean datza.",
+       "Ez da <strong>eszeptizismoa</strong>: eszeptikoa zalantzan geratzen da; Descartesek oinarri sendo bat aurkitzeko tresna gisa erabiltzen du.",
+       "Bere helburua egia bat hain argi eta bereizia aurkitzea da, ezein zalantzak ukitu ezin izateko moduan."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zertan bereizten da Descartesen zalantza eszeptikoarenetik?",
+       "opciones": [
+        [
+         "Descartesek ziurtasun bat aurkitzeko dudatzen du; eszeptikoa zalantzan geratzen da.",
+         true
+        ],
+        [
+         "Ezertan ez: biek ukatzen dute ezer jakin dezakegula.",
+         false,
+         "Descartesek ez du ezagutza ukatzen: bilatu egiten du."
+        ],
+        [
+         "Descartesek zentzumenez bakarrik dudatzen du.",
+         false,
+         "Bere zalantza askoz urrunago iristen da: ametsera eta jeinu gaiztoarengana."
+        ],
+        [
+         "Eszeptikoak metodoz dudatzen du eta Descartesek ez.",
+         false,
+         "Alderantziz da: zalantza kartesiarra metodikoa da."
+        ]
+       ],
+       "ok": "Zuzen: ziurtasunaren zerbitzura dagoen zalantza da.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zein ziurtasunek eusten dio zalantzarik erradikalenari?",
+    "intro": [
+     "Demagun jeinu gaiztoak guztian engainatzen zaituela. Ba al dago, hala ere, zalantzan jarri ezin duzun zerbait?"
+    ],
+    "pistas": [
+     "Jeinu gaiztoak zu engainatzeko, norbait egon behar da engainatua izateko.",
+     "Dudatzen duzun bitartean, zerbait egiten ari zara. Zer?",
+     "Dudatzea pentsatzeko modu bat da.",
+     "Dudatzen badut, pentsatzen dut; eta pentsatzen badut, existitzen naiz: «pentsatzen dut, beraz banaiz» (<em>cogito, ergo sum</em>)."
+    ],
+    "comprobacion": {
+     "pregunta": "Zergatik eusten dio cogitoak zalantzari?",
+     "opciones": [
+      [
+       "Dudatzean pentsatzen ari naizelako, eta pentsatzeko existitu egin behar dudalako.",
+       true
+      ],
+      [
+       "Zentzumenek existitzen naizela erakusten didatelako.",
+       false,
+       "Zentzumenez dudatu da jada: cogitoa ez dago haien mende."
+      ],
+      [
+       "Tradizio filosofikoak hala dioelako.",
+       false,
+       "Descartesek uko egiten dio autoritatean oinarritzeari: ebidentzia propio bat bilatzen du."
+      ],
+      [
+       "Jeinu gaiztoak inor ezin duelako engainatu.",
+       false,
+       "Gainerako guztian engaina nazake, baina ez pentsatzen dudan bitartean existitzen naizela."
+      ]
+     ],
+     "ok": "Hala da. Zenbat eta gehiago dudatu, orduan eta seguruago nago pentsatzen dudala, eta, beraz, existitzen naizela.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Lehen ziurtasuna",
+      "titulo": "Cogitoa",
+      "definicion": [
+       "Gainerako guztia zalantzagarria izan arren, bada ukatu ezin dudan zerbait: dudatzen ari naizela. Eta dudatzea pentsatzea da.",
+       "Pentsatzen badut, pentsatzen duen gauza gisa existitzen naiz: «<strong>pentsatzen dut, beraz banaiz</strong>» (<em>cogito, ergo sum</em>).",
+       "Cogitoa <strong>lehen egia</strong> eta ziurtasun ororen eredua da: <strong>argitasun eta bereiztasun</strong> berarekin hautematen dena egiazkoa izango da."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer egiteko du cogitoak Descartesen metodoan?",
+       "opciones": [
+        [
+         "Lehen egia eta ziurtasunaren eredua da: argitasuna eta bereiztasuna.",
+         true
+        ],
+        [
+         "Beste zalantza bat da.",
+         false,
+         "Ez: zalantza orori eusten diona da."
+        ],
+        [
+         "Kanpoko mundua existitzen dela frogatzen du.",
+         false,
+         "Oraindik ez: cogitoak pentsatzen duen subjektuaren existentzia bakarrik ziurtatzen du."
+        ],
+        [
+         "Esperientziatik ateratako ondorio bat da.",
+         false,
+         "Ez dator zentzumenetatik, arrazoitik beretik baizik."
+        ]
+       ],
+       "ok": "Zuzen: cogitotik abiatuta, Descartesek jakintza berreraikitzen du.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Orain azal ditzakezu zalantza eta cogitoa",
+   "parrafos": [
+    "Descartesek metodoz dudatzen du —zentzumenak, ametsa, jeinu gaiztoa— egia zalantzaezin bat aurkitzeko. Cogitoan aurkitzen du: dudatzen badut, pentsatzen dut, eta pentsatzen badut, existitzen naiz. Bere egia-irizpidea argitasuna eta bereiztasuna izango dira.",
+    "USErako: alderatu abiapuntu arrazionalista hau Humerenarekin; harentzat ezagutza oro esperientziatik dator."
+   ]
+  }
+ },
+ {
   "id": "kant-imperativo",
   "subject": "hf",
   "tema": "20. gaia · Kant: betebeharraren etika",
