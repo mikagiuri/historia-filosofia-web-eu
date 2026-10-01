@@ -135,6 +135,22 @@ function iluCitas(p){
 }
 
 /* Ficha de un pensador. Sin argumento (o id desconocido) vuelve al listado. */
+/* (01-10) «Su vida en fechas»: una sola línea vertical, de arriba abajo, con lo esencial (nace, los hechos del campo
+   «vida» {a, b?, t} y muere). No toca la biografía: va detrás, como una sección más de la ficha. */
+const ILU_VIDA = { tit: "Bere bizitza datetan", nace: "Jaio", muere: "Hil", ac: "K.a. {n}" };
+function iluAno(y){ return y < 0 ? ILU_VIDA.ac.replace("{n}", -y) : String(y); }
+function iluVida(p){
+  const v = (p.vida || []).filter(e => !e.ctx).slice().sort((x, y) => x.a - y.a);
+  if (!v.length || p.born == null) return "";
+  const c = /^c\./.test(p.dates || "") ? "c. " : "";
+  const fecha = e => e.b == null ? iluAno(e.a) : e.a < 0 && e.b < 0 ? ILU_VIDA.ac.replace("{n}", -e.a + "–" + -e.b) : iluAno(e.a) + "–" + iluAno(e.b);
+  const fila = (f, t, cl) => '<li' + (cl ? ' class="' + cl + '"' : '') + '><span class="vida-a">' + iluEsc(f) + '</span><span class="vida-t">' + iluEsc(t) + '</span></li>';
+  return '<div class="ilu-sec ilu-vida"><h3>' + ILU_VIDA.tit + '</h3><ol class="vida-linea">' +
+    fila(c + iluAno(p.born), ILU_VIDA.nace + (p.place ? " · " + p.place : ""), "vida-extremo") +
+    v.map(e => fila(fecha(e), e.t)).join("") +
+    (p.died != null ? fila(iluAno(p.died), ILU_VIDA.muere, "vida-extremo") : "") + '</ol></div>';
+}
+
 function loadIlustre(id){
   const box = document.getElementById("ilubox");
   if (!box) return;
@@ -165,6 +181,7 @@ function loadIlustre(id){
         '</div>' +
       '</header>' +
       '<div class="ilu-bio">' + (p.bio || "") + '</div>' +
+      iluVida(p) +
       iluCitas(p) +
       (p.anecdota ? '<div class="ilu-sec ilu-anec"><h3><span>Anekdota</span>' + (p.tradicion ? ' <span class="ilu-trad">tradizioaren arabera</span>' : '') + '</h3>' +
         p.anecdota + (p.fuente ? '<p class="ilu-fuente"><span>Iturria</span>: ' + iluEsc(p.fuente) + '</p>' : '') + '</div>' : '') +

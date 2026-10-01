@@ -99,3 +99,11 @@
 #ilustres .ilu-cit-dest{border-left-width:6px;background:linear-gradient(0deg,var(--surface),var(--surface-2))}
 #ilustres .ilu-cit-dest .ilu-cit-q{font-size:1.3rem;font-style:normal;font-weight:500}
 #ilustres .ilu-cit-badge{align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--on-accent,#fff);background:var(--accent);border-radius:999px;padding:3px 10px}
+/* (01-10) «Su vida en fechas» (iluVida en ilustresview.js): una línea vertical hacia abajo, con el color de la época */
+#ilustres .vida-linea{list-style:none;margin:6px 0 0;padding:0 0 0 22px;position:relative}
+#ilustres .vida-linea::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:var(--e);border-radius:1px}
+#ilustres .vida-linea li{position:relative;display:flex;flex-wrap:wrap;gap:2px 12px;align-items:baseline;padding:4px 0 10px}
+#ilustres .vida-linea li::before{content:"";position:absolute;left:-21px;top:9px;width:10px;height:10px;border-radius:50%;background:var(--surface);border:2px solid var(--e)}
+#ilustres .vida-linea li.vida-extremo::before{background:var(--e)}
+#ilustres .vida-a{font:600 .82rem var(--mono);color:var(--e);min-width:10.5em}
+#ilustres .vida-t{font-family:var(--serif);font-size:1rem;color:var(--ink)}
