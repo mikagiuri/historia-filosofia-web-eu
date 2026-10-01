@@ -17,10 +17,10 @@ const PISTAS = [
      "Gogoratu eszena: txikitatik kateatuta dauden preso batzuek kobazulo baten hondoko horma begiratzen dute. Saiatu Platonek zer esan nahi duen azaltzen laguntza eskatu aurretik."
     ],
     "pistas": [
-     "Alegoria bat da: eszenako elementu bakoitzak beste zerbait adierazten du.",
-     "Presoek itzalak baino ez dituzte ikusten, eta hori errealitate osoa dela uste dute. Pentsatu zer ezagutza mota duten.",
-     "Platonek bi mundu bereizten ditu: zentzumenek atzematen dutena eta arrazoiak bakarrik atzematen duena.",
-     "Kobazuloa mundu sentigarria da; itzalak, itxurak (iritzia, <em>doxa</em>); eguzkiak argitutako kanpoaldea, Ideien mundua (zientzia, <em>episteme</em>)."
+     "Gogoratu, kokatzeko: <strong>alegoria</strong> bat da, ez kontakizun erreal bat. Eszenaren elementu bakoitzak beste zerbait irudikatzen du.",
+     "Harekin Platonek <strong>bi ezagutza-maila</strong> azaltzen ditu: bata engainagarria, itxurena, eta bestea egiazkoa, arrazoiak bakarrik iristen duena.",
+     "Ez dira bi leku, baizik eta bi jakintza: barruan, itzalak zentzumenezkoari buruzko <strong>iritzia</strong> (<em>doxa</em>) dira; kanpoan <strong>Ideiak</strong> daude, arrazoiak hartzen dituenak (<em>episteme</em>). Ez nahastu kobazuloa benetako espetxe batekin.",
+     "Irudikatu barruan objektu baten itzala objektu beratzat hartzen duzula; kanpoan, argi betean, azkenean objektu errealak ikusten dituzula. Eguzkiaren argi hori egia da."
     ],
     "comprobacion": {
      "pregunta": "Zer adierazten du kobazuloaren barrualdeak?",
@@ -135,10 +135,10 @@ const PISTAS = [
      "Kontakizuna ez da kanpoan amaitzen: eguzkia ikusi duena besteen bila itzultzen da. Pentsatu horrek zer lotura duen Platonen politikarekin."
     ],
     "pistas": [
-     "Itzultzean, askatuak ez du ondo ikusten ilunpean, eta besteek barre egiten diote; hil ere egin nahiko lukete. Gogoratu zer gertatu zitzaion Sokratesi.",
-     "Ongia ezagutzen duenak erantzukizuna du barruan jarraitzen dutenekiko.",
-     "<em>Errepublikan</em>, nork gobernatu behar du hiri ideala?",
-     "Itzuli egin behar du, Ongiaren Ideia ezagutzen duenak besteak gidatzeko betebeharra duelako: <strong>filosofo agintaria</strong> da."
+     "Gogoratu: kanpoan, askatuak eguzkia ikusi du, hau da, <strong>Ongiaren Ideia</strong>, errealena eta denari zentzua ematen diona.",
+     "Jakintza hori ez da kontenplazioan geratzen: <strong>betebehar</strong> bat dakar kateatuta jarraitzen dutenekiko.",
+     "Ez da itzultzen itzalen nostalgiagatik, ezta zigor gisa ere: dakiena partekatzera <strong>behartuta</strong> itzultzen da, nahiago lukeen arren argiari begira jarraitu eta behean gaizki hartuko duten arren.",
+     "<strong>Filosofo gobernaria</strong> da: argia ikusi duena besteak gidatzera jaisten da. Hala, alegoriak ezagutza eta politika lotzen ditu <em>Errepublika</em>n."
     ],
     "comprobacion": {
      "pregunta": "Zer zentzu du kobazulora itzultzeak?",
@@ -232,10 +232,10 @@ const PISTAS = [
      "Descartesek zalantzan jar daitekeen guztiaz dudatzea erabakitzen du. Saiatu azaltzen zergatik egingo lukeen norbaitek horrelakorik, laguntza eskatu aurretik."
     ],
     "pistas": [
-     "Descartesek ezagutza erabat segurua bilatzen du, jakintza osoa haren gainean eraikitzeko.",
-     "Bere zalantza ez da eszeptizismoa: ez du dudatzen dudan geratzeko.",
-     "<em>Metodo</em> bat da: behin-behinean baztertzen du zalantzarik txikiena duen guztia, zerbait zutik geratzen den ikusteko.",
-     "Zalantza metodikoa <strong>lehen egia zalantzaezin</strong> bat aurkitzeko tresna da: zalantza erabiltzen du zalantza gainditzeko."
+     "Gogoratu, kokatzeko: <strong>ziurtasun</strong> bat inola ere zalantzan jarri ezin den zerbait da. Descartesek gutxienez bat aurkitu nahi du.",
+     "Zalantzak <strong>lurra garbitzeko</strong> balio dio: jakintza osoa altxatzeko oinarri seguru bat bilatzen du, aztertu gabeko sinesmen jasorik gabe.",
+     "Ez da <strong>eszeptizismoa</strong> (zalantza egitearren zalantza egitea): <em>metodo</em> bat da. Faltsutzat jotzen du, momentuz, zalantza txikiena onartzen duen guztia, zerk eusten dion ikusteko soilik.",
+     "Zalantza <strong>bahe</strong> gisa erabiltzen du: zalantzazkoa erortzen da; zerbait bahean geratzen bada, zalantzarik gabeko lehen egia izango da. Zalantza egiten du zalantza gainditzeko."
     ],
     "comprobacion": {
      "pregunta": "Zer bilatzen du Descartesek zalantza metodikoarekin?",
@@ -352,10 +352,10 @@ const PISTAS = [
      "Demagun jeinu gaiztoak guztian engainatzen zaituela. Ba al dago, hala ere, zalantzan jarri ezin duzun zerbait?"
     ],
     "pistas": [
-     "Jeinu gaiztoak zu engainatzeko, norbait egon behar da engainatua izateko.",
-     "Dudatzen duzun bitartean, zerbait egiten ari zara. Zer?",
-     "Dudatzea pentsatzeko modu bat da.",
-     "Dudatzen badut, pentsatzen dut; eta pentsatzen badut, existitzen naiz: «pentsatzen dut, beraz banaiz» (<em>cogito, ergo sum</em>)."
+     "Gogoratu: engainua zein erradikala den axola gabe, jeinu maltzurrak <strong>norbait</strong> behar du engainatzeko.",
+     "Erreparatu orain bertan egiten ari zarenari: zalantza egiten ari zara. Zalantza egitea ez da ezereza, <strong>jarduera</strong> bat da.",
+     "Eta zalantza egitea <strong>pentsatzeko</strong> modu bat da. <em>Zer</em> pentsatzen duzun engainatzen bazaitu ere, ezin zaitu engainatu pentsatzen <em>duzula</em>.",
+     "Pentsatzen badut, pentsatzen duen ni bat existitu behar da: «<strong>pentsatzen dut, beraz banaiz</strong>» (<em>cogito, ergo sum</em>). Zenbat eta gehiago zalantza egin, orduan eta gehiago baieztatzen duzu."
     ],
     "comprobacion": {
      "pregunta": "Zergatik eusten dio cogitoak zalantzari?",
@@ -449,10 +449,10 @@ const PISTAS = [
      "Saiatu erantzuten pista bat ireki aurretik. Ez duzu definizio perfektu bat behar: nahikoa da bere ezaugarri nagusia berreskuratzea."
     ],
     "pistas": [
-     "Inperatibo <em>hipotetikoaren</em> aurkakoa da.",
-     "Inperatibo hipotetikoak forma hau du: «X nahi baduzu, egin Y». Zer falta zaio kategorikoari?",
-     "Pentsatu «Ez esan gezurrik» aginduan, gezurrak onura ekarriko balizu ere. Zeren menpe <em>ez</em> dago «behar duzu» hori?",
-     "Baldintzarik gabe behartzen du: ez dago lortu nahi duzun helbururen baten edo ondorioen menpe."
+     "Kokatzeko: inperatibo bat <strong>agindu</strong> bat da, egin behar duzunari buruzko agindu bat.",
+     "Kategorikoa da ekintza bati bere balio morala ematen diona: <em>betebeharragatik</em> jokatzeko agintzen du, ez interesagatik.",
+     "Agindu <em>hipotetiko</em>aren aldean («X nahi baduzu, egin Y»), ez du baldintzarik jartzen: gerta dadin gerta behartzen du, bilatzen duzun helburuaren eta ondorioen mende egon gabe.",
+     "«Behar duzu» soil bat da, ez «behar duzu <em>baldin…</em>» bat: aginduak ez darama inolako «baldin»ik atzetik."
     ],
     "comprobacion": {
      "pregunta": "Deskribapen hauetatik zein dago hurbilen?",
@@ -526,7 +526,7 @@ const PISTAS = [
       "titulo": "Inperatibo kategorikoa",
       "definicion": [
        "<strong>Baldintzarik gabe</strong> behartzen duen agindu morala da: ez dago helburu jakin bat lortu nahi izatearen menpe.",
-       "Inperatibo hipotetikoak forma hau hartzen du: «X nahi baduzu, Y egin behar duzu». Kategorikoak betebeharragatik jarduteko agintzen du, ekintzak onurarik ekarri ez arren.",
+       "Agindu hipotetiko batek «X nahi baduzu, Y egin behar duzu» forma hartzen du. Kategorikoak betebeharragatik jokatzeko agintzen du, ekintzak onurarik ekartzen ez badigu ere. Adibidez: «Ez gezurrik esan» balio du gezurrak onura ekarriko lizukeen kasuan ere.",
        "Moraltasuna ez da ondorioen arabera erabakitzen, jarduteko erabiltzen dugun <strong>maxima</strong> aztertuz baizik, eta ea arrazionalki guztientzat balio dezakeen."
       ],
       "comprobacion": {
@@ -568,10 +568,10 @@ const PISTAS = [
      "Ziklo berri bat hasten da. Orain ez dugu inperatibo kategorikoa definitu nahi, proba gisa nola erabiltzen den baizik. Kantek hainbat modutan adierazi zuen: gogoratzen duzu bat?"
     ],
     "pistas": [
-     "Bere formulazioetako batek zerbait <em>unibertsalizatzeaz</em> hitz egiten du.",
-     "Galdetu zeure buruari zer gertatuko litzatekeen mundu guztiak zure arau bera jarraituz jokatuko balu.",
-     "Promesa faltsua ezinezko bihurtzen da mundu guztiak faltsuki agintzen badu: inork ez lituzke promesak sinetsiko.",
-     "Probak ez du lehenik emaitza aztertzen: zure <strong>maxima</strong> lege unibertsal gisa nahi dezakezun aztertzen du."
+     "Kokatzeko: <strong>maxima</strong> bat jokatzea erabakitzeko abiapuntu duzun arau pertsonala da.",
+     "Probak maxima hori morala den jakiteko balio du, ondorioak <em>begiratu gabe</em>.",
+     "Maxima <em>unibertsalizatzean</em> datza: zeure buruari galdetzea ea nahi zenukeen denentzako lege gisa balioko lukeela, eta ez zure kasu soltea bakarrik epaitzea.",
+     "Zure araua «eusten» duen egiaztatzea bezala da, mundu guztiak aldi berean jarraitzen duenean, edo bere kabuz erortzen den."
     ],
     "comprobacion": {
      "pregunta": "Zerk izan behar du unibertsalizagarria?",
@@ -609,7 +609,8 @@ const PISTAS = [
        "fuente": "Kant, Ohituren metafisikaren oinarriak, II. kap."
       },
       "parrafos": [
-       "Galdera ez da soilik «zer gertatuko litzateke denek egingo balute?», baizik eta ea arrazionalki nahi dezakezun zure ekintzaren maximak edonorentzat balio dezan."
+       "Galdera ez da soilik «zer gertatuko litzateke denek egingo balute?», baizik eta ea arrazionalki nahi dezakezun zure ekintzaren maximak edonorentzat balio dezan.",
+       "Adibidez: «komeni zaidanean gezurretan agintzen dut» maxima ezin da unibertsalizatu; denek gezurretan aginduko balute, inork ez lituzke jada promesak sinetsiko eta agintzeak existitzeari utziko lioke."
       ],
       "comprobacion": {
        "boton": "Egiaztatuz amaitu",
@@ -668,10 +669,10 @@ const PISTAS = [
      "Saiatu zure hitzekin azaltzen laguntza eskatu aurretik. Pentsatu norbait «erabiltzen» den adibide batean."
     ],
     "pistas": [
-     "Kantek bereizi egiten ditu <em>prezioa</em> duena eta <em>duintasuna</em> duena.",
-     "Besteak bitarteko gisa erabiltzen ditugu etengabe: okina, autobus-gidaria. Kantek ez du hori debekatzen. Erreparatu «<strong>soil</strong>» hitzari.",
-     "Norbait bitarteko <em>soil</em> gisa erabiltzea jakingo balu onartuko ez lukeen moduan tratatzea da: engainatzea, behartzea, manipulatzea.",
-     "Pertsonak helburu dira berez: duintasuna dute, baliokiderik gabeko balioa. Haiek errespetatzea beren kabuz erabakitzeko gaitasuna errespetatzea da."
+     "Kokatzeko: <em>helburu</em> bat bere buruarengatik balio duen zerbait da; <em>bitarteko</em> bat beste zerbait lortzeko erabiltzen duzun zerbait da.",
+     "Formulak pertsona bat nola trata dezakezun mugatzen du: inoiz zer egin ezin diozun esaten dizu.",
+     "Ez du debekatzen norbait bitarteko gisa erabiltzea (hori etengabe egiten dugu); <strong>soilik</strong> bitarteko gisa erabiltzea debekatzen du, jakingo balu onartu ezingo lukeen moduan: engainatuz edo behartuz.",
+     "Kantek <em>prezioa</em> eta <em>duintasuna</em> bereizten ditu: gauza bat beste baliokide batengatik trukatzen da; pertsona bat, ez. Helburu gisa tratatzea erabakitzen duen norbait gisa tratatzea da, ez tresna ordezkagarri gisa."
     ],
     "comprobacion": {
      "pregunta": "Ekintza hauetatik zeinek tratatzen du norbait bitarteko soil gisa?",
@@ -746,7 +747,7 @@ const PISTAS = [
       "definicion": [
        "Kantentzat, gauzek <strong>prezioa</strong> dute: baliokide den zerbaitekin ordezka daitezke. Pertsonek <strong>duintasuna</strong> dute: ez baliokiderik ez trukerik onartzen ez duen balioa.",
        "Duintasuna <strong>autonomiatik</strong> dator: izaki arrazionala gai da bere buruari lege morala emateko. Horregatik da helburu berez, eta ez tresna soil bat.",
-       "Norbait bitarteko <em>soil</em> gisa tratatzea gaitasun hori zapaltzea da: engainatzea edo behartzea, partekatu ezin lukeen helburu bati zerbitzatzeko."
+       "Norbait bitarteko gisa <em>soilik</em> tratatzea gaitasun horren gainetik pasatzea da: engainatzea edo behartzea partekatu ezingo lukeen helburu baten zerbitzura jar dadin. Adibidez: okina edo autobus-gidaria bitarteko gisa erabiltzen ditugu, eta hori Kantek ez du debekatzen, haiek tratua libreki onartzen dutelako."
       ],
       "comprobacion": {
        "boton": "Ulermena egiaztatu",
@@ -787,10 +788,10 @@ const PISTAS = [
      "Ezagutzen dituzu jada lege unibertsalaren formula eta gizateriarena. Orain kasu berean lotu behar dira: dirua lortzeko faltsuki agintzea."
     ],
     "pistas": [
-     "Hasi lege unibertsalarekin: egon liteke agintzeko praktikarik, mundu guztiak faltsuki agintzen balu?",
-     "Orain begiratu engainatutako pertsonari: ados egon liteke zure planarekin ezagutuko balu?",
-     "Kantek bere formulak lege moral <em>bera</em> adierazteko modu desberdin gisa aurkezten ditu.",
-     "Maxima ezin da unibertsalizatu (bere burua suntsitzen du) eta, aldi berean, bestea bitarteko soil gisa erabiltzen du (ezin luke onartu)."
+     "Kokatzeko, gogoratu formula bakoitzak zer eskatzen duen: lege unibertsalarenak, maxima <em>unibertsalizatzea</em>; gizatasunarenak, inor <em>soilik</em> bitarteko gisa ez tratatzea.",
+     "Kantek bi formulak <em>lege moral bera</em> adierazteko modu desberdin gisa aurkezten ditu: horregatik ekintza txar batek bietan huts egin beharko luke aldi berean.",
+     "Egiaztatu bakoitza bereizita: gezurretan agintzea unibertsaliza al liteke? Engainatutako pertsonak onartu al lezake zure plana ezagutuko balu?",
+     "Gela berera ematen duten bi leiho bezala dira: batak arauaren <em>forma</em> begiratzen du, besteak pertsonarekiko <em>errespetua</em>; eta bietatik huts bera ikusten da."
     ],
     "comprobacion": {
      "pregunta": "Zer erlazio dago bi formulen artean?",
