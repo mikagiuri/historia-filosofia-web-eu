@@ -7157,7 +7157,7 @@ const QUIZZES = {
     "fb": "Historia tradizionalak emakumeak eta pentsalari ez-europarrak baztertu zituen; gaiak adierazten du hautaketa hori ez dela neutrala eta zabaldu eta berrikusi egin behar dela."
    },
    {
-    "q": "Adimen artifizialari buruzko eztabaida batean, norbaitek galdetu du makina bat libre izan ote daitekeen. Zer erakusten du kasu horrek galdera filosofikoei buruz?",
+    "q": "Eztabaida batean, norbaitek planteatzen du makina bat libre izan ote litekeen. Zer erakusten du kasu honek galdera filosofikoei buruz?",
     "o": [
      "Askatasunari buruzko galdera berria dela eta ez duela aurrekari filosofikorik.",
      "«Libreak al gara?» galdera zaharra kontzeptu berriekin planteatzen dela berriro.",
@@ -7450,7 +7450,7 @@ const QUIZZES = {
     "fb": "Biak dira arrazoiketak, baina faltsukeria sendoa dirudi soilik: ez du bere ondorioa behar bezala justifikatzen."
    },
    {
-    "q": "Ados ez dagoen artikulu bat kritikatu aurretik, Laurak berriro irakurtzen du, haren tesia ahalik eta modu sinesgarrienean azaltzeko. Zer ari da aplikatzen?",
+    "q": "Ados ez dagoen artikulu bat kritikatu aurretik, pertsona batek berriro irakurtzen du haren tesia ahalik eta modurik sinesgarrienean azaltzeko. Zer ari da aplikatzen?",
     "o": [
      "Karitatearen printzipioa",
      "Balioen genealogia",
@@ -7483,7 +7483,7 @@ const QUIZZES = {
     "fb": "Jende askok zerbait erabiltzeak ez du frogatzen fidagarria denik: arrazoiketak sendoa dirudi, baina ez du ondorioa behar bezala justifikatzen."
    },
    {
-    "q": "Martak tesi argia eta argudio onak dituen saiakera bat idazten du, baina ez du inolako eragozpenik edo aurkako jarrerarik aipatzen. Gaiaren arabera, zer falta zaio?",
+    "q": "Norbaitek saiakera bat idazten du tesi argi batekin eta argudio onekin, baina ez du inolako objekziorik edo kontrako jarrerarik aipatzen. Zer falta zaio gaiaren arabera?",
     "o": [
      "Kritika sartzea",
      "Arazoa aurkeztea",
@@ -8256,7 +8256,7 @@ const QUIZZES = {
     "fb": "Fenomenoek legeei jarraitzen badiete soilik aurreikus daiteke: natura uniformea, kausala eta adigarria da, eta ondorio orok kausa beharrezko bat du."
    },
    {
-    "q": "Laurak dio: «Ez dut hamar urte lehenagoko neskaren antzik batere, baina ni izaten jarraitzen dut: irauten duena eraldatzen naizen ordena da». Zer filosoforekin dator bat haren erantzuna?",
+    "q": "Norbaitek dio: «Ez dut inolako antzik duela hamar urteko harekin, baina ni izaten jarraitzen dut: mantentzen dena eraldatzen naizen ordena da». Zein filosoforekin bat dator haren erantzuna?",
     "o": [
      "Parmenidesekin: haren ustez, benetako nia aldatzen ez den pentsamendua da.",
      "Demokritorekin: haren ustez, hutsean talka egiten duten atomoak baino ez gara.",
@@ -9758,7 +9758,7 @@ const QUIZZES = {
     "fb": "Aporiak galdetzen du zergatik, ongi jokatzeko jakitea nahikoa bada, badakigun zer dagoen ongi eta, hala ere, gaizki egiten dugun: desirek eta pasioek arrazoia arrastaka daramatela dirudi."
    },
    {
-    "q": "Martak badaki azken egunerako ikasketa uzteak kalte egiten diola eta, hala ere, hiruhileko guztietan berdin egiten du. Zein tesi jartzen du zalantzan haren kasuak?",
+    "q": "Norbaitek badaki ikasketa azken egunerako uztea kaltegarria zaiola eta, hala ere, hiruhileko bakoitzean berriro egiten du. Zein tesi zalantzan jartzen du haren kasuak?",
     "o": [
      "Erdibide aristotelikoa, haren jokabidea gehiegikeriazko bizio bat delako",
      "Intelektualismo sokratikoa, ongia jakitea ez zaiolako nahikoa ongi jokatzeko",
@@ -11784,7 +11784,7 @@ const QUIZZES = {
     "fb": "Iraultza zientifikoak autoritatearen (Aristoteles, Biblia) ordez behaketa eta esperimentazioa jartzen ditu."
    },
    {
-    "q": "Txikitan, Mikelek uste zuen trumoiak jainkoen haserrea zirela; gaur elektrizitate atmosferikoaren bidez azaltzen ditu. Comteren arabera, zer ibilbide egin du?",
+    "q": "Txikitan, pertsona batek uste zuen trumoiak jainkoen haserrea zirela; gaur egun atmosferako elektrizitatearen bidez azaltzen ditu. Comteren arabera, zein ibilbide egin du?",
     "o": [
      "Egoera metafisikotik teologikora.",
      "Egoera positibotik metafisikora.",
@@ -12099,7 +12099,7 @@ const QUIZZES = {
     "fb": "Humek kontrako aldetik erantzuten du: ez dago jaiotzetiko ideiarik, eta ezagutza oro esperientziatik dator."
    },
    {
-    "q": "Amets oso erreal baten ondoren, Luziak bere buruari galdetzen dio ea orain ere ez ote duen filosofia-klasea ametsetan ikusten. Zalantza kartesiarraren zer urrats errepikatzen du?",
+    "q": "Amets oso errealista baten ondoren, pertsona batek galdetzen dio bere buruari ea orain ere filosofia-klasea amesten ari ez ote den. Zalantza kartesiarraren zein urrats erreproduzitzen du?",
     "o": [
      "Matematikei buruzko zalantza, jeinu gaiztoaren ondorioz",
      "Kanpoko errealitatearen existentziari buruzko zalantza",
@@ -12107,7 +12107,7 @@ const QUIZZES = {
      "Humek ni iraunkor baten ideiari egindako kritika"
     ],
     "a": 1,
-    "fb": "Descartesek kanpoko errealitateaz dudatzen du, agian dena amets bat delako: Luziak ematen duen urrats bera da."
+    "fb": "Descartesek kanpoko errealitateaz zalantza egiten du, agian dena ametsa delako: pertsona horrek ematen duen urrats bera da."
    },
    {
     "q": "Haur batek askotan ikusten du suak erretzen duela, eta hurrengoan ere erreko duela espero du. Nola azalduko luke Humek itxaropen hori?",
@@ -12154,7 +12154,7 @@ const QUIZZES = {
     "fb": "Humeren emotibismoaren arabera, judizio moralek sentimenduak adierazten dituzte, ez egitateak."
    },
    {
-    "q": "Pablok bere desioen arabera erabakitzen du zer nahi duen, eta arrazoia hura lortzeko bidea bilatzeko baino ez du erabiltzen. Zer tesi erakusten du?",
+    "q": "Norbaitek nahi duena bere desiren arabera erabakitzen du, eta arrazoia hura lortzeko modua bilatzeko bakarrik erabiltzen du. Zein tesi irudikatzen du?",
     "o": [
      "Descartesena: arrazoiak grinak gidatu eta menderatu behar ditu",
      "Spinozarena: dena substantzia bakar baten adierazpena da",
@@ -13231,7 +13231,7 @@ const QUIZZES = {
     "fb": "Pertsona gehiagori zoriontasun gehiago ematen diona aukeratzea Millen zoriontasunik handienaren printzipioa aplikatzea da."
    },
    {
-    "q": "Luziak arratsaldea gozokiak jaten eman lezake, baina nahiago du lagunekin elkarrizketa sakon bat izan, benetan zoriontsuago egiten duela dioelako. Zer tesi erakusten du?",
+    "q": "Pertsona batek arratsaldea gozokiak jaten eman lezake, baina bere lagunekin elkarrizketa sakon bat nahiago du, benetan zoriontsuago egiten duela dioelako. Zein tesi irudikatzen du?",
     "o": [
      "Liberalismoaren ikuspegi ezkor eta berekoia",
      "Zoriontasuna intentsitate fisikoaren arabera neurtzea",
@@ -16715,7 +16715,7 @@ const QUIZZES = {
     "fb": "Bi sexuek saihesten dute askatasuna: emakumeak konplizitatearen bidez, gizonak bere pribilegioa naturalizatuz; hortik elkarri egindako gaitzespenen gurpila."
    },
    {
-    "q": "Laurak bere karrera uzten du «erosoagoa delako beste norbaitek nire ordez erabakitzea», baina bere senarrari leporatzen dio bere asegabetasuna. Beauvoirren zer kontzeptuk deskribatzen du hobekien?",
+    "q": "Pertsona batek bere karrera uzten du «erosoagoa delako beste batek nire ordez erabakitzea», baina bere senarra errudun jotzen du bere asegabetasunagatik. Beauvoirren zein kontzeptuk deskribatzen du ondoen?",
     "o": [
      "Transzendentziak, etorkizunera proiektatzen baita",
      "Bi askatasunen arteko elkarrekikotasunak",
@@ -16748,7 +16748,7 @@ const QUIZZES = {
     "fb": "Beauvoirrentzat gizarteak eraikitzen du emakumearen identitatea; «natural» gisa aurkezteak eraikuntza hori ezkutatzen du."
    },
    {
-    "q": "Martak eguna garbitzen, sukaldatzen eta txukuntzen ematen du; hurrengo egunean dena berriro hasten da eta bere bizitzak aurrera egiten ez duela sentitzen du. Zer kontzeptuk azaltzen du?",
+    "q": "Pertsona batek eguna garbitzen, sukaldatzen eta txukuntzen ematen du; hurrengo egunean dena berriro hasten da eta sentitzen du bere bizitzak ez duela aurrera egiten. Zein kontzeptuk azaltzen du hori?",
     "o": [
      "Proiektu propio baten transzendentziak",
      "Bi subjektu askeren elkarrekikotasunak",
@@ -17041,7 +17041,7 @@ const QUIZZES = {
     "fb": "Hanentzat, nekearen gizartea autoesplotazioaren ondorioa da: nekearen, antsietatearen eta depresioaren epidemia bat."
    },
    {
-    "q": "Lucía autonomoa da eta goizaldera arte lan egiten du, «nahi badu, ahal duela» sinetsita. Inork ez dio eskatzen, baina nekatuta eta antsietatez beteta dago. Zein kontzeptuk azaltzen du hobekien?",
+    "q": "Pertsona bat langile autonomoa da eta goizaldera arte lan egiten du, «nahi badu, ahal duela» sinetsita. Inork ez dio eskatzen, baina leher eginda eta antsietatez dago. Zein kontzeptuk azaltzen du hori ondoen?",
     "o": [
      "Kleinen hondamendiaren kapitalismoak",
      "Hanen errendimenduaren gizartea",
