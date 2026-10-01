@@ -334,7 +334,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-sofistas"
+   "hf-sofistas",
+   "hf-platon-superficie"
   ]
  },
  "meliso": {
@@ -427,9 +428,12 @@ const ILUSTRES = {
    "hf-metodos",
    "hf-sofistas",
    "hf-platon",
+   "hf-platon-superficie",
    "hf-antropologia",
    "hf-etica",
-   "hf-politica"
+   "hf-politica",
+   "hf-etica-deber",
+   "hf-sospecha"
   ]
  },
  "aspasia": {
@@ -599,11 +603,16 @@ const ILUSTRES = {
    "hf-preso",
    "hf-sofistas",
    "hf-platon",
+   "hf-platon-superficie",
+   "hf-platon-prejuicio",
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
    "hf-medieval",
+   "hf-platon-agustin",
    "hf-fe-razon",
+   "hf-modernidad",
+   "hf-racionalismo",
    "hf-sospecha",
    "hf-descartes-makro"
   ]
@@ -693,6 +702,8 @@ const ILUSTRES = {
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
+   "hf-medieval",
+   "hf-fe-razon",
    "hf-modernidad",
    "hf-contrato",
    "hf-utilitarismo",
@@ -998,7 +1009,9 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-medieval",
+   "hf-platon-agustin",
    "hf-fe-razon",
+   "hf-racionalismo",
    "hf-descartes-makro"
   ]
  },
@@ -1064,7 +1077,10 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-medieval",
+   "hf-fe-razon"
+  ]
  },
  "anselmo": {
   "name": "Anselmo Canterburykoa",
@@ -1421,7 +1437,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-medieval",
-   "hf-fe-razon"
+   "hf-fe-razon",
+   "hf-modernidad"
   ]
  },
  "nicolas_cusa": {
@@ -1460,7 +1477,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-modernidad"
+  ]
  },
  "erasmo": {
   "name": "Erasmo Rotterdamgoa",
@@ -1484,7 +1503,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-modernidad"
+  ]
  },
  "maquiavelo": {
   "name": "Nikolas Makiavelo",
@@ -1535,6 +1556,7 @@ const ILUSTRES = {
   "temas": [
    "hf-modernidad",
    "hf-sospecha",
+   "hf-analitica",
    "hf-descartes-makro"
   ]
  },
@@ -1557,7 +1579,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-modernidad"
+  ]
  },
  "lutero": {
   "name": "Martin Luther",
@@ -1675,6 +1699,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-modernidad",
+   "hf-metafisica",
+   "hf-analitica",
    "hf-descartes-makro"
   ]
  },
@@ -1750,6 +1776,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
+   "hf-racionalismo",
    "hf-metafisica",
    "hf-contrato",
    "hf-utilitarismo"
@@ -1789,10 +1817,15 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
+   "hf-medieval",
+   "hf-fe-razon",
    "hf-modernidad",
    "hf-racionalismo",
+   "hf-descartes-simulacion",
    "hf-metafisica",
    "hf-kant",
+   "hf-capitalismo",
+   "hf-existencialismo",
    "hf-descartes-makro"
   ]
  },
@@ -1847,7 +1880,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
    "hf-racionalismo",
+   "hf-metafisica",
    "hf-descartes-makro"
   ]
  },
@@ -1873,6 +1908,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
+   "hf-racionalismo",
+   "hf-metafisica",
    "hf-contrato",
    "hf-utilitarismo",
    "hf-ilustracion",
@@ -1898,6 +1936,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-racionalismo",
    "hf-metafisica",
    "hf-descartes-makro"
   ]
@@ -1924,7 +1963,10 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-modernidad",
+   "hf-metafisica",
    "hf-ilustracion",
+   "hf-kant",
+   "hf-analitica",
    "hf-descartes-makro"
   ]
  },
@@ -1951,7 +1993,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-racionalismo",
    "hf-metafisica",
+   "hf-kant",
    "hf-descartes-makro"
   ]
  },
@@ -1977,6 +2021,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-metafisica",
    "hf-descartes-makro"
   ]
  },
@@ -1998,6 +2043,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-modernidad",
+   "hf-contrato",
    "hf-ilustracion"
   ]
  },
@@ -2081,7 +2128,11 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
+   "hf-fe-razon",
+   "hf-modernidad",
    "hf-racionalismo",
+   "hf-metafisica",
    "hf-kant",
    "hf-descartes-makro"
   ]
@@ -2108,8 +2159,10 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
    "hf-contrato",
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-kant"
   ]
  },
  "diderot": {
@@ -2248,9 +2301,13 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
+   "hf-modernidad",
+   "hf-racionalismo",
+   "hf-metafisica",
    "hf-ilustracion",
    "hf-kant",
    "hf-etica-deber",
+   "hf-sospecha",
    "hf-descartes-makro"
   ]
  },
@@ -2277,7 +2334,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-utilitarismo",
-   "hf-etica-deber"
+   "hf-etica-deber",
+   "hf-posmodernidad"
   ]
  },
  "gouges": {
@@ -2371,6 +2429,11 @@ const ILUSTRES = {
   "temas": [
    "hf-historicidad",
    "hf-metodos",
+   "hf-mito",
+   "hf-modernidad",
+   "hf-sospecha",
+   "hf-capitalismo",
+   "hf-posmodernidad",
    "hf-beauvoir"
   ]
  },
@@ -2421,6 +2484,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-sospecha",
    "hf-capitalismo"
   ]
  },
@@ -2447,6 +2511,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-modernidad",
    "hf-utilitarismo",
    "hf-etica-deber"
   ]
@@ -2473,6 +2538,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-modernidad",
    "hf-sospecha"
   ]
  },
@@ -2500,6 +2566,9 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
+   "hf-modernidad",
+   "hf-ilustracion",
+   "hf-etica-deber",
    "hf-sospecha",
    "hf-capitalismo"
   ]
@@ -2553,8 +2622,13 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
+   "hf-platon-superficie",
+   "hf-modernidad",
+   "hf-ilustracion",
+   "hf-etica-deber",
    "hf-sospecha",
-   "hf-posmodernidad"
+   "hf-posmodernidad",
+   "hf-existencialismo"
   ]
  },
  "freud": {
@@ -2580,7 +2654,11 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-sospecha"
+   "hf-modernidad",
+   "hf-ilustracion",
+   "hf-sospecha",
+   "hf-capitalismo",
+   "hf-posmodernidad"
   ]
  },
  "unamuno": {
@@ -2729,7 +2807,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-existencialismo"
+   "hf-existencialismo",
+   "hf-beauvoir"
   ]
  },
  "sapir": {
@@ -2802,6 +2881,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-posmodernidad",
    "hf-existencialismo"
   ]
  },
@@ -2828,6 +2908,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-analitica"
+  ]
+ },
+ "benjamin": {
+  "name": "Walter Benjamin",
+  "dates": "1892 – 1940",
+  "born": 1892,
+  "died": 1940,
+  "place": "Berlin",
+  "role": "filosofo eta kritikari alemana",
+  "idea": "Irudien erreprodukzio teknikoak artelan bakarraren aura suntsitzen du, baina masetara hurbiltzen du eta funtzio politiko berri bat ematen dio.",
+  "bio": "<p>Walter Benjamin Berlinen jaio zen 1892an, familia judu aberats batean. Erromantizismo alemaniarreko arte-kritikari buruzko azterketa batekin egin zuen doktoregoa, baina drama barrokoari buruzko habilitazio-tesia erretiratu behar izan zuen, eta horrek unibertsitate-karrera itxi zion. Kritikari, saiakeragile eta itzultzaile gisa bizi izan zen. 1933an Parisen erbesteratu zen. 1940an, naziengandik ihesi, Pirinioak zeharkatu zituen, eta Portbou-n (Girona) bere buruaz beste egin zuen, Gestapori entregatuko ote zuten beldurrez.</p>\n<p>Haren saiakerarik ezagunenak, <em>Artelana bere erreproduzigarritasun teknikoaren garaian</em> (1936), argazkigintzak eta zinemak artea nola eraldatzen duten aztertzen du. Artelan tradizionalak <strong>aura</strong> zuen: bere izaera bakarra, ia sakratua. <strong>Erreproduzigarritasun teknikoak</strong> aura hori suntsitzen du, baina, trukean, artea masetara hurbiltzen du eta aukera politiko berriak irekitzen ditu. Benjaminek ohartarazi zuen faxismoak <strong>politika estetizatzen duela</strong>, liluratzen duen ikuskizun bihurtuz, eta <strong>artea politizatuz</strong> erantzutea proposatu zuen, emantzipazioaren zerbitzura jarriz.</p>\n<p>Haren obrak, zatikakoa eta neurri handi batean hil ondokoa, eragina izan zuen Frankfurteko Eskolan, nahiz eta Adornok eztabaidatu egin zuen zinemarekiko eta masa-artearekiko zuen konfiantza. Historiari buruzko tesiek, hil baino apur bat lehenago idatziak, aurrerapenaren ideia kritikatzen dute eta garaituen memoria aldarrikatzen dute. Irudiari buruzko haren azterketek Guy Debord edo Jean Baudrillard bezalako egileek geroago berreskuratuko dituzten eztabaidak aurreratzen dituzte.</p>",
+  "obras": [
+   "Drama barroko alemaniarraren jatorria (1928)",
+   "Artelana bere erreproduzigarritasun teknikoaren garaian (1936)",
+   "Historiaren kontzeptuaz (1940)",
+   "Pasabideen liburua"
+  ],
+  "anecdota": "<p>1921ean Benjaminek Paul Kleeren akuarela txiki bat erosi zuen, <em>Angelus Novus</em>, begiak zabal-zabalik dituen aingeru-irudi bat. Bizitza osoan gorde zuen eta erbestera eraman zuen berekin. Ia hogei urte geroago historiari buruzko tesien irudi nagusi bihurtu zuen: <strong>historiaren aingeruak</strong> iraganera begiratzen du eta hondakinak pilatzen dituen hondamendi bat ikusten du, aurrerapena izeneko ekaitz batek etorkizunera bultzatzen duen bitartean. Gaur egun akuarela Israelgo Museoan gordetzen da, Jerusalemen.</p>",
+  "fuente": "Benjamin, Historiaren kontzeptuaz, IX. tesia; Gershom Scholemen lekukotasunak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-capitalismo"
   ]
  },
  "horkheimer": {
@@ -2922,7 +3028,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-capitalismo"
+   "hf-capitalismo",
+   "hf-analitica"
   ]
  },
  "adorno": {
@@ -3027,6 +3134,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-ilustracion",
    "hf-capitalismo"
   ]
  },
@@ -3053,6 +3161,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-ilustracion",
    "hf-beauvoir"
   ]
  },
@@ -3078,6 +3187,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-descartes-makro"
+  ]
+ },
+ "camus": {
+  "name": "Albert Camus",
+  "dates": "1913 – 1960",
+  "born": 1913,
+  "died": 1960,
+  "place": "Mondovi (Aljeria)",
+  "role": "idazle eta filosofo frantsesa",
+  "idea": "Bizitza absurdua da munduak ez diolako erantzuten zentzua izateko dugun eskakizunari; erantzuna ez da hartatik ihes egitea, argitasunez eta errebeldiaz bizitzea baizik.",
+  "bio": "<p>Albert Camus 1913an jaio zen Mondovin, orduan frantsesa zen Aljerian, familia oso apal batean: aita Lehen Mundu Gerran hil zen, bera urtebetekoa zela. Kazetaria izan zen, eta okupazio nazian Erresistentzian parte hartu zuen, <em>Combat</em> egunkari klandestinoaren erredaktoreburu gisa. 1957an Literaturako Nobel saria jaso zuen. Frantzian hil zen trafiko-istripu batean 1960an.</p>\n<p><em>Sisiforen mitoa</em> (1942) lanean <strong>absurdua</strong> deskribatzen du: zentzuaren giza irrikaren eta erantzuten ez duen munduaren arteko talka. Haren ikurra Sisifo da, behin eta berriz erortzen den harkaitz bat betiko igotzera kondenatua. Camusek ez du etsipena proposatzen, <strong>errebeldia</strong> baizik: absurdua argitasunez onartzea. Etiketa hori baztertu arren, gai-zerrendan existentzialisten ondoan agertzen da, bizitzak aurretiko zentzurik ez duela dioen tesiagatik.</p>",
+  "obras": [
+   "Arrotza (1942)",
+   "Sisiforen mitoa (1942)",
+   "Izurria (1947)",
+   "Gizaki errebeldea (1951)"
+  ],
+  "anecdota": "<p>Gazte zela, Aljerren, Camus Aljerreko Racing Universitaire-ren (RUA) gazte-taldeko atezaina izan zen. Kontatzen denez, postu hori aukeratu zuen oinetakoak gutxien higatzen zituena zelako, garrantzitsua familia pobre batean. Oso gazte utzi behar izan zion atezain izateari, baina futbolak haren grinetako bat izaten jarraitu zuen. Urte batzuk geroago idatzi zuen gizakien moralaz eta betebeharrez ziurtasun handienaz zekiena futbolari zor ziola: jokoak leialtasuna, arau partekatuak eta talde-elkartasuna irakatsi zizkion.</p>",
+  "fuente": "Camusen testua Racing Universitaire d'Alger-en buletinerako (berrogeita hamarreko hamarkada); lekukotasun biografikoak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-existencialismo"
   ]
  },
  "ricoeur": {
@@ -3130,7 +3265,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-historicidad",
-   "hf-capitalismo"
+   "hf-capitalismo",
+   "hf-beauvoir"
+  ]
+ },
+ "kuhn": {
+  "name": "Thomas Kuhn",
+  "dates": "1922 – 1996",
+  "born": 1922,
+  "died": 1996,
+  "place": "Cincinnati (AEB)",
+  "role": "zientziaren filosofoa",
+  "idea": "Zientzia ez da egiak metatuz bakarrik aurrera egiten: paradigma baten barruko zientzia normalaren aldi luzeak txandakatzen ditu paradigma hori beste batekin ordezten duten iraultza zientifikoekin.",
+  "bio": "<p>Thomas Kuhn Cincinnatin jaio zen eta Harvardeko Unibertsitatean doktoratu zen fisikan. Giza zientzietako ikasleentzako zientzia-ikastaro bat prestatzen ari zela, Aristotelesen fisika irakurri zuen eta konturatu zen ez zela gaizki egindako fisika moderno bat, mundua ikusteko beste modu bat baizik. Aurkikuntza horrek zientziaren historiara eta filosofiara eraman zuen. Berkeleyn, Princetonen eta MITen izan zen irakasle.</p>\n<p><em>Iraultza zientifikoen egitura</em> (1962) lanean defendatu zuen zientzia ez dela metatze hutsez hazten. <strong>Zientzia normalaren</strong> aldi luzeetan, zientzialariek <strong>paradigma</strong> baten barruan lan egiten dute: teoria, metodo, arazo eta adibideen marko partekatu batean. Paradigmak azaltzen ez dituen <strong>anomaliak</strong> metatzen direnean, krisia iristen da eta, ondoren, <strong>iraultza zientifiko</strong> bat, paradigma hori beste batekin ordezten duena; adibidez, Ptolomeoren astronomiatik Kopernikorenera igarotzea, edo Newtonen fisikatik Einsteinenera. Kuhnen arabera, paradigma lehiakideak neurri batean <strong>neurtezinak</strong> dira: ezin dira puntuz puntu alderatu neurri komun batekin.</p>\n<p>Bere lanak Popperren irudia zuzendu zuen; Popperrentzat zientziak aieru eta errefutazioen bidez egiten du aurrera, baina Kuhnek erakutsi zuen zientzialariek ez dutela teoria bat lehen errefutazioan bertan behera uzten. Lakatos eta Feyerabendekin eztabaidak ireki zituen, eta paradigma hitza hizkera arruntera igaro zen.</p>",
+  "obras": [
+   "Iraultza kopernikarra (1957)",
+   "Iraultza zientifikoen egitura (1962)",
+   "Funtsezko tentsioa (1977)"
+  ],
+  "anecdota": "<p>Egiak metatuz aurrera egiten duen zientziaren irudia zalantzan jarri zuen lana, paradoxikoki, <em>Zientzia Bateratuaren Nazioarteko Entziklopedia</em>-ren barruan argitaratu zen, Vienako Zirkuluko positibista logikoek sortutako bilduman. Rudolf Carnapek, haren argitaratzaileetako batek, eskuizkribua irakurri eta laudorioz hartu zuen Kuhni idatzitako gutun batean. Urte askoan istorioa positibismoa barrutik garaitu zuen liburu batena bezala kontatu zen; gaur egun historialariek ñabartzen dute Kuhnen eta filosofo haien arteko harremana zirudiena baino hurbilagoa izan zela.</p>",
+  "fuente": "Iraultza zientifikoen egitura lanaren lehen edizioa (International Encyclopedia of Unified Science, 1962); G. Reischek aztertutako Carnapen gutunak Kuhni",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-analitica"
   ]
  },
  "lyotard": {
@@ -3205,7 +3366,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-posmodernidad"
+   "hf-posmodernidad",
+   "hf-beauvoir"
   ]
  },
  "habermas": {
@@ -3426,6 +3588,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-beauvoir",
    "hf-siglo21"
   ]
  },
@@ -3452,6 +3615,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-beauvoir",
    "hf-siglo21"
   ]
  },
@@ -3478,6 +3642,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-platon-superficie",
    "hf-siglo21"
   ]
  },
@@ -3524,6 +3689,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-descartes-simulacion",
    "hf-descartes-makro"
   ]
  },
@@ -3590,6 +3756,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-descartes-simulacion",
    "hf-descartes-makro"
   ]
  }
