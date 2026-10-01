@@ -1,6 +1,221 @@
 // Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/pistas_uhs.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const PISTAS = [
  {
+  "id": "hf-caverna",
+  "subject": "hf",
+  "tema": "6. gaia · Platon",
+  "unidad": "hf-platon",
+  "materia": "Filosofia · Platon",
+  "titulo": "Zer esan nahi du kobazuloaren mitoak?",
+  "lede": "Filosofiako alegoriarik ospetsuena. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer adierazten dute presoek, itzalek eta kobazuloaren kanpoaldeak?",
+    "intro": [
+     "Gogoratu eszena: txikitatik kateatuta dauden preso batzuek kobazulo baten hondoko horma begiratzen dute. Saiatu Platonek zer esan nahi duen azaltzen laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Alegoria bat da: eszenako elementu bakoitzak beste zerbait adierazten du.",
+     "Presoek itzalak baino ez dituzte ikusten, eta hori errealitate osoa dela uste dute. Pentsatu zer ezagutza mota duten.",
+     "Platonek bi mundu bereizten ditu: zentzumenek atzematen dutena eta arrazoiak bakarrik atzematen duena.",
+     "Kobazuloa mundu sentigarria da; itzalak, itxurak (iritzia, <em>doxa</em>); eguzkiak argitutako kanpoaldea, Ideien mundua (zientzia, <em>episteme</em>)."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer adierazten du kobazuloaren barrualdeak?",
+     "opciones": [
+      [
+       "Mundu sentigarria: zentzumenen bidez ezagutzen duguna, itxura hutsa dena.",
+       true
+      ],
+      [
+       "Ideien mundua.",
+       false,
+       "Ez: Ideien mundua kanpoan dago, eguzkiak argituta."
+      ],
+      [
+       "Bere garaiko Atenasko benetako kartzela bat.",
+       false,
+       "Ez da kontakizun historiko bat: ezagutzari buruzko alegoria bat da."
+      ],
+      [
+       "Pertsona bakoitzaren subkontzientea.",
+       false,
+       "Hori Platon askoz geroagoko ideiekin irakurtzea litzateke (Freud)."
+      ]
+     ],
+     "ok": "Ondo. Barruan, itxurak; kanpoan, arrazoiak bakarrik iristen dituen Ideiak.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Eskema ikusi behar dut",
+      "etiqueta": "Alegoriaren eskema",
+      "titulo": "Zer den gauza bakoitza",
+      "definicion": [
+       "<strong>Preso kateatuak</strong> → hezkuntza filosofikorik gabeko gizakiak.",
+       "<strong>Horman itzalak</strong> → itxura sentigarriak: iritzia (<em>doxa</em>).",
+       "<strong>Kanpora irtetea</strong> → hezkuntza: ezagutzarako igoera zaila eta mingarria.",
+       "<strong>Kanpoko objektuak eta eguzkia</strong> → Ideiak eta Ongiaren Ideia: zientzia (<em>episteme</em>)."
+      ],
+      "comprobacion": {
+       "etiqueta": "Eskemaren egiaztapena",
+       "pregunta": "Zer adierazten du kobazulotik irteteak?",
+       "opciones": [
+        [
+         "Hezkuntza filosofikoa: iritzitik egiazko ezagutzara igarotzea.",
+         true
+        ],
+        [
+         "Beste herrialde batera bidaiatzea.",
+         false,
+         "Alegoria bat da: irteera ez da bidaia fisiko bat."
+        ],
+        [
+         "Presoaren heriotza.",
+         false,
+         "Ez: presoa bizirik irteten da eta berriro sar daiteke."
+        ],
+        [
+         "Arrazoia erabiltzeari uztea.",
+         false,
+         "Justu alderantziz: irtetea arrazoia erabiltzen hastea da."
+        ]
+       ],
+       "ok": "Zuzen. Irtetea heztea da: egiarako igoera nekeza.",
+       "mal": "Begiratu berriro.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Bi munduak",
+      "definicion": [
+       "Platonek bereizi egiten ditu <strong>mundu sentigarria</strong> (aldakorra, anitza, zentzumenek atzematen dutena) eta <strong>mundu adigarria</strong> edo Ideien mundua (betierekoa, aldaezina, arrazoiak atzematen duena).",
+       "Sentigarria Ideien kopia akastun bat baino ez da, itzalak objektuen kopiak diren bezala.",
+       "Benetan ezagutzea itxuretatik Ideietara igotzea da: iritzitik (<em>doxa</em>) zientziara (<em>episteme</em>)."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Platonen arabera, zer ezagutzen dugu zentzumenekin bakarrik?",
+       "opciones": [
+        [
+         "Itxura aldakorrak: iritzia baino ez dugu lortzen.",
+         true
+        ],
+        [
+         "Ideia betierekoak.",
+         false,
+         "Ideiak arrazoiak bakarrik iristen ditu."
+        ],
+        [
+         "Errealitate osoa, den bezala.",
+         false,
+         "Hori uste dute presoek: itzalak errealitatearekin nahasten dituzte."
+        ],
+        [
+         "Ezer ere ez.",
+         false,
+         "Zerbait ezagutzen dugu: itxurak. Baina ez da zientzia, iritzia baizik."
+        ]
+       ],
+       "ok": "Zuzen: zentzumenek iritzia ematen dute; zientziak arrazoia eskatzen du.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zergatik itzuli behar du preso askatuak kobazulora?",
+    "intro": [
+     "Kontakizuna ez da kanpoan amaitzen: eguzkia ikusi duena besteen bila itzultzen da. Pentsatu horrek zer lotura duen Platonen politikarekin."
+    ],
+    "pistas": [
+     "Itzultzean, askatuak ez du ondo ikusten ilunpean, eta besteek barre egiten diote; hil ere egin nahiko lukete. Gogoratu zer gertatu zitzaion Sokratesi.",
+     "Ongia ezagutzen duenak erantzukizuna du barruan jarraitzen dutenekiko.",
+     "<em>Errepublikan</em>, nork gobernatu behar du hiri ideala?",
+     "Itzuli egin behar du, Ongiaren Ideia ezagutzen duenak besteak gidatzeko betebeharra duelako: <strong>filosofo agintaria</strong> da."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer zentzu du kobazulora itzultzeak?",
+     "opciones": [
+      [
+       "Ongia ezagutzen duenak besteak hezi eta gobernatu behar ditu: filosofo agintaria.",
+       true
+      ],
+      [
+       "Ezagutza arriskutsua dela eta hobe dela ez irtetea.",
+       false,
+       "Ez: Platonek irteera baloratzen du; itzulera betebehar bat da, ez damu bat."
+      ],
+      [
+       "Presoak itzalak faltan botatzen dituela.",
+       false,
+       "Ez da nostalgiaz itzultzen, besteekiko erantzukizunagatik baizik."
+      ],
+      [
+       "Kanpoan ez zegoela ezer ikusteko.",
+       false,
+       "Kanpoan dago errealena: Ideiak eta eguzkia (Ongia)."
+      ]
+     ],
+     "ok": "Hala da. Alegoriak ezagutzaren teoria eta politika lotzen ditu.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Ezagutza eta politika",
+      "titulo": "Filosofoaren itzulera",
+      "definicion": [
+       "Askatua itzuli egiten da eta, argira ohituta, gaizki ikusten du ilunpean: presoek barre egiten diote eta, ahal izanez gero, hil egingo lukete. <strong>Sokratesen</strong> kondenari egindako aipamena da.",
+       "Platonentzat, ondo gobernatzeko Ongiaren Ideia ezagutu behar da. Horregatik, hiri justuan <strong>filosofoek</strong> gobernatzen dute, nahiz eta nahiago luketen kontenplatzen geratu.",
+       "Alegoriak hiru gai lotzen ditu: ezagutza (Ideietarako igoera), hezkuntza (irteera) eta politika (gobernatzeko itzulera)."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Norengana egiten du aipamena presoen erreakzio bortitzak?",
+       "opciones": [
+        [
+         "Sokratesengana, Atenasek heriotzara kondenatu zuena.",
+         true
+        ],
+        [
+         "Aristotelesengana, Atenasetik alde egin zuena.",
+         false,
+         "Irakurri berriro azalpenaren lehen paragrafoa."
+        ],
+        [
+         "Sofistekin.",
+         false,
+         "Sofistak ez zituzten kondenatu: Platon bere maisuaz ari da."
+        ],
+        [
+         "Inorengana zehazki.",
+         false,
+         "Bada aipamen bat: irakurri berriro lehen paragrafoa."
+        ]
+       ],
+       "ok": "Zuzen: Sokratesen heriotzak Platonen filosofia osoa markatzen du.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Orain badakizu alegoria azaltzen",
+   "parrafos": [
+    "Kobazuloa mundu sentigarria da, eta haren itzalak, iritzia; kanpoaldea Ideien mundua da, arrazoiak bakarrik iristen duena. Irtetea heztea da; itzultzea, filosofoak hiria gobernatzeko duen betebeharra.",
+    "USErako: lotu alegoria Ideien teoriarekin eta <em>Errepublikako</em> filosofoen gobernuarekin."
+   ]
+  }
+ },
+ {
   "id": "kant-imperativo",
   "subject": "hf",
   "tema": "20. gaia · Kant: betebeharraren etika",
