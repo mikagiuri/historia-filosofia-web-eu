@@ -67,7 +67,8 @@
 .ilu-strip-list button:hover{border-color:var(--e)}
 
 @media (max-width:600px){
-  #ilustres .ilu-grid{grid-template-columns:1fr}
+  #ilustres .ilu-grid{grid-template-columns:minmax(0,1fr)}
+  #ilustres .ilu-card{min-width:0}
   #ilustres .ilu-ficha{padding:16px}
   #ilustres .ilu-head{flex-direction:column;align-items:center;text-align:center}
   #ilustres .ilu-idea{text-align:left}
