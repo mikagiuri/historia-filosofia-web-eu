@@ -956,7 +956,6 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-medieval",
    "hf-fe-razon"
   ]
  },
@@ -2043,9 +2042,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad",
    "hf-contrato",
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-sospecha"
   ]
  },
  "voltaire": {
@@ -2301,7 +2300,6 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
-   "hf-modernidad",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-ilustracion",
@@ -2430,7 +2428,6 @@ const ILUSTRES = {
    "hf-historicidad",
    "hf-metodos",
    "hf-mito",
-   "hf-modernidad",
    "hf-sospecha",
    "hf-capitalismo",
    "hf-posmodernidad",
@@ -2459,7 +2456,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad"
+   "hf-modernidad",
+   "hf-sospecha"
   ]
  },
  "feuerbach": {
@@ -2511,9 +2509,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad",
    "hf-utilitarismo",
-   "hf-etica-deber"
+   "hf-etica-deber",
+   "hf-sospecha"
   ]
  },
  "darwin": {
@@ -2538,7 +2536,6 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad",
    "hf-sospecha"
   ]
  },
@@ -2566,7 +2563,6 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
-   "hf-modernidad",
    "hf-ilustracion",
    "hf-etica-deber",
    "hf-sospecha",
@@ -2623,7 +2619,6 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-platon-superficie",
-   "hf-modernidad",
    "hf-ilustracion",
    "hf-etica-deber",
    "hf-sospecha",
@@ -2654,7 +2649,6 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad",
    "hf-ilustracion",
    "hf-sospecha",
    "hf-capitalismo",
