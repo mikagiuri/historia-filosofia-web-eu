@@ -117,6 +117,11 @@ const SUBJECTS = {
     "citasC"
    ],
    [
+    "Logikaren txokoa: egia-taulak, silogismoak eta ateak",
+    "logica",
+    ""
+   ],
+   [
     "USEren gida eta praktika",
     "pau",
     ""
