@@ -2917,3 +2917,255 @@ const GLOSARIO = [
   "def": "Leibniz-en doktrina: Jainkoak mundua sortzean substantziak betirako sinkronizatu zituen, kanpo-eraginik gabe."
  }
 ];
+const GLOSARIO_TRAMPAS = {
+ "hf": [
+  [
+   "Izatea (Parmenides)",
+   "Panta rei"
+  ],
+  [
+   "Arkhé",
+   "Apeiron"
+  ],
+  [
+   "Nous",
+   "Homeomeriak"
+  ],
+  [
+   "Atomo",
+   "Homeomeriak"
+  ],
+  [
+   "Hilozoismoa",
+   "Physis"
+  ],
+  [
+   "Ironia sokratikoa",
+   "Maieutika"
+  ],
+  [
+   "Aporia",
+   "Ironia sokratikoa"
+  ],
+  [
+   "Nomos",
+   "Subjektibismoa"
+  ],
+  [
+   "Doxa",
+   "Episteme"
+  ],
+  [
+   "Dualismo ontologikoa",
+   "Ideien teoria"
+  ],
+  [
+   "Mundu sentikorra",
+   "Partaidetza (méthesis)"
+  ],
+  [
+   "Aktua eta potentzia",
+   "Hilemorfismoa"
+  ],
+  [
+   "Substantzia (klasikoa)",
+   "Hilemorfismoa"
+  ],
+  [
+   "Teleologia",
+   "Lau kausak"
+  ],
+  [
+   "Hirugarren gizona",
+   "Bi munduen arazoa"
+  ],
+  [
+   "Arete",
+   "Termino erdikoa"
+  ],
+  [
+   "Tirania",
+   "Erregimenen endekapena"
+  ],
+  [
+   "Ataraxia",
+   "Apatheia"
+  ],
+  [
+   "Aponia",
+   "Ataraxia"
+  ],
+  [
+   "Autarkia",
+   "Zinismoa"
+  ],
+  [
+   "Patristika",
+   "Eskolastika"
+  ],
+  [
+   "Apologetak",
+   "Patristika"
+  ],
+  [
+   "Barrentasuna",
+   "Konbertsioa"
+  ],
+  [
+   "Humanismoa",
+   "Dignitas hominis"
+  ],
+  [
+   "Arrazionalismoa",
+   "Enpirismoa"
+  ],
+  [
+   "Innatismoa",
+   "Ideia argi eta bereiziak"
+  ],
+  [
+   "Zalantza metodikoa",
+   "Solipsismoa"
+  ],
+  [
+   "Res cogitans",
+   "Res extensa"
+  ],
+  [
+   "Okasionalismoa",
+   "Harmonia aurrez ezarria"
+  ],
+  [
+   "Fenomenismoa",
+   "Pertzepzioen multzoa"
+  ],
+  [
+   "Inpresioa",
+   "Ohitura"
+  ],
+  [
+   "Dualismoa",
+   "Materialismoa"
+  ],
+  [
+   "Mekanizismoa",
+   "Materialismoa"
+  ],
+  [
+   "Fenomenoa",
+   "Noumenoa"
+  ],
+  [
+   "A priori",
+   "Transzendentala"
+  ],
+  [
+   "Kategoria",
+   "Ideia erregulatiboa"
+  ],
+  [
+   "Autonomia",
+   "Betebeharra"
+  ],
+  [
+   "Ideologia",
+   "Alienazioa"
+  ],
+  [
+   "Azpiegitura / gainegitura",
+   "Materialismo historikoa"
+  ],
+  [
+   "Plusbalioa",
+   "Fetitxismoa"
+  ],
+  [
+   "Apolineoa",
+   "Dionisiakoa"
+  ],
+  [
+   "Nihilismoa",
+   "Perspektibismoa"
+  ],
+  [
+   "Botere-nahia",
+   "Borondate itsua"
+  ],
+  [
+   "Dialektika",
+   "Dialektika materialista"
+  ],
+  [
+   "Arrazoi instrumentala",
+   "Arrazoi komunikatiboa"
+  ],
+  [
+   "Industria kulturala",
+   "Gizarte unidimentsionala"
+  ],
+  [
+   "Behar faltsuak",
+   "Errepresio gehigarria"
+  ],
+  [
+   "Dekonstrukzioa",
+   "Differance"
+  ],
+  [
+   "Metakontakizuna",
+   "Postmodernitatea"
+  ],
+  [
+   "Erriza",
+   "Ihes-lerroa"
+  ],
+  [
+   "Egiaztagarritasuna",
+   "Faltsabilitatea"
+  ],
+  [
+   "Paradigma",
+   "Ikerketa-programa"
+  ],
+  [
+   "Hizkuntza-jokoa",
+   "Isomorfismoa"
+  ],
+  [
+   "Performatibitatea",
+   "Hizketa-ekintzen teoria"
+  ],
+  [
+   "Angustia",
+   "Absurdua"
+  ],
+  [
+   "Dasein",
+   "Izatea heriotzarantz"
+  ],
+  [
+   "Ser-para-sí",
+   "Esistentzia lehenago"
+  ],
+  [
+   "Sexu-genero bereizketa",
+   "Generoaren eraikuntza"
+  ],
+  [
+   "Queer teoria",
+   "Generoaren desegitea"
+  ],
+  [
+   "Totalitarismoa",
+   "Gaizkiaren hutsalkeria"
+  ],
+  [
+   "Modernitate likidoa",
+   "Prekarietatea"
+  ],
+  [
+   "Psikopolitika",
+   "Nekearen gizartea"
+  ]
+ ]
+};
