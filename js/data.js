@@ -1507,6 +1507,103 @@ const DECKS = {
    ]
   ]
  },
+ "aristoteles": {
+  "name": "Aristoteles: kontzeptuak (7.-9. gaiak)",
+  "subject": "hf",
+  "block": "A",
+  "cards": [
+   [
+    "🧍",
+    "Substantzia",
+    "Berez existitzen dena: materiaz eta formaz osatutako banako zehatza."
+   ],
+   [
+    "🧱",
+    "Hilemorfismoa",
+    "Doktrina aristotelikoa: substantzia oro materia + forma da."
+   ],
+   [
+    "🪨",
+    "Materia",
+    "Zerbait zerez egina dagoen: estatua baten brontzea."
+   ],
+   [
+    "🗿",
+    "Forma",
+    "Zerbait dena izatea egiten duena: estatuaren irudia, brontzerik gabe existitzen ez dena."
+   ],
+   [
+    "🌱",
+    "Aktua eta potentzia",
+    "Potentzia izateko aukera da; ekintza (aktua), haren gauzatzea. Aldaketa batetik bestera igarotzea da."
+   ],
+   [
+    "4️⃣",
+    "Lau kausak",
+    "Materiala (zerez eginda dagoen), formala (bere egitura), eragilea (zerk sortzen duen) eta finala (zertarako)."
+   ],
+   [
+    "⚙️",
+    "Motor geldia",
+    "Mugimenduaren lehen printzipioa: ekintza hutsa, mugitu gabe, gainerako guztia erakartzen duena kausa final gisa."
+   ],
+   [
+    "🫀",
+    "Arima (psikea)",
+    "Gorputz biziaren forma: dena izatea egiten diona. Ezin da gorputzik gabe existitu."
+   ],
+   [
+    "🔍",
+    "Abstrakzioa",
+    "Ezagutzea zentzumenek jasotzen dutenetik unibertsala abstraitzea da, ez gogoratzea."
+   ],
+   [
+    "🎯",
+    "Eudaimonia",
+    "Bere baitarako bilatzen den azken helburua: bizitza betea, bertutearen arabera gauzatua."
+   ],
+   [
+    "🔁",
+    "Bertute etikoak",
+    "Grinak eta ekintzak ongirantz bideratzen dituzten ohiturak; errepikapenaren bidez eskuratzen dira."
+   ],
+   [
+    "🧠",
+    "Bertute dianoetikoak",
+    "Adimenaren perfekzioak, jakinduria eta zuhurtzia, esaterako; irakaskuntzaren bidez eskuratzen dira."
+   ],
+   [
+    "⚖️",
+    "Termino erdikoa",
+    "Bertute etikoa bi bizioren artean dago: ausardia, koldarkeriaren (gabezia) eta ausarkeriaren (gehiegikeria) artean."
+   ],
+   [
+    "🤔",
+    "Zuhurtzia",
+    "Kasu bakoitzean komeni denaz deliberatzen duen eta termino erdikoa finkatzen duen bertutea."
+   ],
+   [
+    "🐝",
+    "Zoon politikon",
+    "«Animalia politikoa»: gizakia komunitatean baino ez da bizi betean; hortik kanpo piztia edo jainko bat litzateke."
+   ],
+   [
+    "🏛️",
+    "Ongi komuna",
+    "Erregimenen irizpidea: ongi komunerako gobernatzen dutenak dira zuzenak, eta norberaren interesa bilatzen dutenak, endekatuak."
+   ],
+   [
+    "🧭",
+    "Erregimenik onena",
+    "Herri bakoitzera egokitzen dena, muturrak saihestuz; klase ertaina da egonkortasunaren oinarria."
+   ],
+   [
+    "👀",
+    "Platonen aurrean",
+    "Bere maisuaren dualismoa baztertzen du: errealitatearen behaketatik abiatzen da, ez Ideien mundu bereizi batetik."
+   ]
+  ]
+ },
  "antropologia": {
   "name": "Antropologia klasikoa (7. gaia)",
   "subject": "hf",
