@@ -1989,7 +1989,7 @@ const CRONOGRAMAS = [
    },
    {
     "name": "Lehen olatua: sufragismoa",
-    "color": "#3fa7c9"
+    "color": "#d9c11a"
    },
    {
     "name": "Bigarren olatua: berdintasuna",
@@ -1997,7 +1997,7 @@ const CRONOGRAMAS = [
    },
    {
     "name": "Diferentzia, intersekzionalitatea eta generoa",
-    "color": "#b44fc4"
+    "color": "#e377c2"
    },
    {
     "name": "Justizia, zaintzak eta ekofeminismoa",
