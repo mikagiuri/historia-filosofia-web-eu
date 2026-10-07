@@ -91,7 +91,7 @@ const JUEGO_ARIS = {
     ],
     [
      7,
-     "sendoa"
+     "irmoa"
     ],
     [
      99,
@@ -110,7 +110,7 @@ const JUEGO_ARIS = {
     ],
     [
      4,
-     "isila"
+     "apala"
     ],
     [
      7,
@@ -156,7 +156,7 @@ const JUEGO_ARIS = {
    "niveles": [
     [
      3,
-     "bulkadakoa"
+     "oldarkorra"
     ],
     [
      6,
@@ -182,7 +182,7 @@ const JUEGO_ARIS = {
    "phr": 8,
    "virtud": "Borondatezko pobrezia",
    "virtudT": "Diruak ez dio askorik axola: diruak kostatzen dionean, ohi denaren erdia galtzen du.",
-   "debilidad": "Ulertu gabea",
+   "debilidad": "Gaizki ulertua",
    "debilidadT": "Jendaurrean esandako egia bakoitzak besteei baino etsai gehiago ekartzen dizkio.",
    "mods": {
     "verdad": {
@@ -196,7 +196,7 @@ const JUEGO_ARIS = {
    },
    "perfil": "Pobrea, soldadu bat bezain osasuntsua eta oso zuhurra; hiriak jakintsutzat baino gogaikarritzat ezagutzen du gehiago.",
    "frase": "Ez dakidala besterik ez dakit.",
-   "destino": "K.a. 399an zikuta edatera kondenatu zuten, erlijiogabekeriaz eta gazteak ustelzeaz salatuta; kartzelatik ihes egiteari uko egin zion."
+   "destino": "K.a. 399an zikuta edatera kondenatu zuten, erlijiogabekeriaz eta gazteak ustelteaz salatuta; kartzelatik ihes egiteari uko egin zion."
   },
   {
    "id": "hipatia",
@@ -222,7 +222,7 @@ const JUEGO_ARIS = {
      "up": 1.5
     }
    },
-   "perfil": "Familia eroso bateko maistra errespetatua; ospeak babestu egiten du… eta agerian uzten.",
+   "perfil": "Familia dirudun bateko irakasle errespetatua; ospeak babestu egiten du… eta agerian uzten.",
    "frase": "Ezagutza da nire indarra.",
    "destino": "415ean kristau-jendetza batek hil zuen Alexandrian, Zirilo apezpikuaren eta Orestes prefektuaren arteko liskarraren erdian."
   },
@@ -277,7 +277,7 @@ const JUEGO_ARIS = {
    },
    "perfil": "Greziako sofistarik ospetsuena eta ordainduena; Periklesen laguna eta debotoentzat susmagarria.",
    "frase": "Gizakia da gauza guztien neurria.",
-   "destino": "Periklesek Turioi kolonia berriaren legeak idazteko eskatu zion. Tradizioaren arabera, erlijiogabekeriaz salatu zuten Jainkoei buruz liburuagatik, haren liburuak agoran erre zituzten eta itsasontzi-hondamendi batean hil zen Atenasetik ihesi zihoala."
+   "destino": "Periklesek Turioi koloniaren legeak idazteko eskatu zion. Tradizioaren arabera, erlijiogabekeriaz salatu zuten «Jainkoei buruz» liburuagatik, haren liburuak agoran erre zituzten eta itsasontzi-hondamendi batean hil zen Atenasetik ihesi zihoala."
   },
   {
    "id": "diogenes",
@@ -292,7 +292,7 @@ const JUEGO_ARIS = {
    "sinImg": true,
    "noRuina": true,
    "virtud": "Autarkia",
-   "virtudT": "Ia ezer ez du behar: dirurik gabe geratzeak ez du jokotik kanpo uzten, eta besteek baino erdia galtzen du.",
+   "virtudT": "Ia ezer ez du behar: dirurik gabe geratzeak ez du jokotik kanpo uzten, eta besteek galtzen dutenaren erdia galtzen du.",
    "debilidad": "Lotsagabekeria (anaídeia)",
    "debilidadT": "Denei egiten die burla: jendaurrean esandako egia bakoitzak etsaiak ekartzen dizkio eta ospea kentzen dio.",
    "mods": {
@@ -320,7 +320,7 @@ const JUEGO_ARIS = {
    "rep": 5,
    "ene": 2,
    "phr": 6,
-   "virtud": "Hitz-jarioa",
+   "virtud": "Elokuentzia",
    "virtudT": "Haren hitzaldiek konbentzitu egiten dute: errazago irabazten du ospea.",
    "debilidad": "Mendekotasuna",
    "debilidadT": "Atzerritarra eta emakumea izanik, babesleen mende dago: ospea galtzen duenean, bikoitza galtzen du.",
@@ -344,9 +344,9 @@ const JUEGO_ARIS = {
    "rep": 6,
    "ene": 2,
    "phr": 5,
-   "virtud": "Zorrotztasuna eta satira",
+   "virtud": "Asmamena eta satira",
    "virtudT": "Jendaurrean egiak esateak ospea ematen dio…",
-   "debilidad": "Mingaintasuna",
+   "debilidad": "Mihi zorrotza",
    "debilidadT": "…baita etsaiak ere.",
    "mods": {
     "verdad": {
@@ -454,7 +454,7 @@ const JUEGO_ARIS = {
    "virtud": "Herri-oratoria",
    "virtudT": "Ospea irabazten duenean, bikoitza irabazten du…",
    "debilidad": "Demagogia",
-   "debilidadT": "…eta galtzen duenean, bikoitza galtzen du hura ere.",
+   "debilidadT": "…eta galtzen duenean ere bikoitza galtzen du.",
    "mult": {
     "rep": {
      "up": 2,
@@ -485,7 +485,7 @@ const JUEGO_ARIS = {
      "ene": 1
     }
    },
-   "perfil": "Aristokrata aberatsa, jantzia eta demokraziarekin amorratua.",
+   "perfil": "Aristokrata aberatsa, jantzia eta demokraziaren aurka erresumindua.",
    "frase": "Ordenak nagusitu behar du.",
    "destino": "Hogeita Hamar Tiranoen burua K.a. 404an; hurrengo urtean hil zen Munikian demokraten aurka borrokan."
   },
@@ -576,7 +576,7 @@ const JUEGO_ARIS = {
      "tags": [
       "fuerza"
      ],
-     "r": "Ausartaren ospea irabazten duzu… eta zenbait orbain alferrikako."
+     "r": "Ausartaren ospea irabazten duzu… eta alferrikako orbainen bat."
     },
     {
      "t": "Gaueko zaintzak aprobetxatu beste efebo batzuekin irakurri eta eztabaidatzeko.",
@@ -591,7 +591,7 @@ const JUEGO_ARIS = {
    "id": "maestro",
    "etapa": "j",
    "virtue": "Zuhurtzia (phrónesis)",
-   "sit": "Prestatu nahi duzu. Agoran, sofista batek garesti kobratzen du auziak irabazten irakasteagatik; filosofo batek ez du kobratzen, baina boteretsuak deseroso jartzen dituzten galderak egiten ditu.",
+   "sit": "Zeure burua hezi nahi duzu. Agoran, sofista batek garesti kobratzen du auziak irabazten irakasteagatik; filosofo batek ez du kobratzen, baina boteretsuak deseroso jartzen dituzten galderak egiten ditu.",
    "hist": "Protagorasek 100 mina kobratu izan zituen ikastaro bategatik; Sokratesek harro esaten zuen ez zuela inoiz kobratzen.",
    "opts": [
     {
@@ -672,7 +672,7 @@ const JUEGO_ARIS = {
      },
      "lose": {
       "rep": -2,
-      "r": "Harroputz batentzat hartzen zaituzte eta txistuka hartzen."
+      "r": "Pedante batentzat hartzen zaituzte eta txistuka hartzen."
      }
     }
    ]
@@ -728,7 +728,7 @@ const JUEGO_ARIS = {
    "id": "aval",
    "etapa": "j",
    "virtue": "Adiskidetasuna (philía)",
-   "sit": "Haurtzaroko lagun batek bere itsas negozioarentzako mailegu izugarri baten abalista izateko eskatzen dizu.",
+   "sit": "Haurtzaroko lagun batek bere itsas negozioarentzako mailegu izugarri baten abala emateko eskatzen dizu.",
    "opts": [
     {
      "t": "Oso-osorik abalatu: lagunek dena dute komunean.",
@@ -751,7 +751,7 @@ const JUEGO_ARIS = {
      "r": "Zure lagunak ulertzen du… erdizka."
     },
     {
-     "t": "Porrotera eraman gabe gal dezakezuna baino ez utzi.",
+     "t": "Hondatu gabe gal dezakezuna baino ez utzi.",
      "hac": -2,
      "car": 1,
      "phr": 1,
@@ -770,7 +770,7 @@ const JUEGO_ARIS = {
      },
      "lose": {
       "hac": -4,
-      "r": "Porrot egiten du, eta gainera zure lagunak gorroto dizu."
+      "r": "Porrot egiten du, eta gainera zure lagunak herra dizu."
      }
     }
    ]
@@ -780,7 +780,7 @@ const JUEGO_ARIS = {
    "etapa": "j",
    "virtue": "Ausardia (andreía)",
    "sit": "Lehen gudua hoplita gisa. Falangea amore ematen hasten da eta ezkerrean zenuen gizona zauritua erortzen da.",
-   "hist": "Delioneko guduan (K.a. 424), Alkibiadesek Oturuntzan kontatzen duenez, Sokrates lasaitasuna galdu gabe erretiratu zen eta bere kideak babestu zituen.",
+   "hist": "Delioneko guduan (K.a. 424), Altzibiadesek Oturuntzan kontatzen duenez, Sokrates lasaitasuna galdu gabe erretiratu zen eta bere kideak babestu zituen.",
    "opts": [
     {
      "t": "Ezkutua bota eta korrika egin.",
@@ -871,7 +871,7 @@ const JUEGO_ARIS = {
      }
     },
     {
-     "t": "Uko egin ikasteari ekiteko.",
+     "t": "Utzi, ikasketetan aritzeko.",
      "phr": 1,
      "rep": -1,
      "r": "Zure familiak ez du ulertzen."
@@ -963,7 +963,7 @@ const JUEGO_ARIS = {
      },
      "lose": {
       "ene": 3,
-      "r": "Morroi batek ikusi zaitu. Orain zaindu egiten zaituzte."
+      "r": "Morroi batek ikusi zaitu. Orain zelatatu egiten zaituzte."
      }
     },
     {
@@ -1100,7 +1100,7 @@ const JUEGO_ARIS = {
      "risk": true,
      "win": {
       "rep": 2,
-      "r": "Gutxi horietako bat zara itzultzen dena, ohoreekin."
+      "r": "Itzultzen diren gutxien artean zaude, ohoreekin."
      },
      "lose": {
       "sal": -4,
@@ -1141,7 +1141,7 @@ const JUEGO_ARIS = {
    "id": "peste",
    "etapa": "m",
    "virtue": "Eskuzabaltasuna (eleutheriótes)",
-   "sit": "Izurritea lehertzen da Atenasen. Gari- eta sendagai-biltegiak dituzu.",
+   "sit": "Izurritea zabaltzen da Atenasen. Gari- eta sendagai-biltegiak dituzu.",
    "hist": "K.a. 430eko izurriteak atenastarren herena hil zuen agian, haien artean Perikles. Tuzididesek jasan eta deskribatu zuen.",
    "opts": [
     {
@@ -1223,7 +1223,7 @@ const JUEGO_ARIS = {
      "win": {
       "car": 1,
       "rep": 2,
-      "r": "Tiranoak lege batzuk leuntzen ditu. Gutxi da, baina ez da ezer ez."
+      "r": "Tiranoak legeren bat leuntzen du. Gutxi da, baina ez da ezer ez."
      },
      "lose": {
       "hac": -4,
@@ -1254,7 +1254,7 @@ const JUEGO_ARIS = {
    "id": "impiedad",
    "etapa": "m",
    "virtue": "Adiskidetasuna (philía)",
-   "sit": "Zure maisu ohia erlijiogabekeriaz salatzen dute eguzkia harri goriztatu bat dela esateagatik.",
+   "sit": "Zure maisu ohia erlijiogabekeriaz salatzen dute eguzkia harri gori bat dela esateagatik.",
    "hist": "Anaxagoras horregatik bertatik salatu zuten erlijiogabekeriaz, K.a. 430 inguruan; Periklesek Atenasetik irteten lagundu zion.",
    "opts": [
     {
@@ -1334,7 +1334,7 @@ const JUEGO_ARIS = {
      "r": "Ez aberatsak ez pobreak ez dira guztiz pozik geratzen. Seinale ona."
     },
     {
-     "t": "Zorrak usurari bati saldu onartu aurretik.",
+     "t": "Zorrak usurari bati saldu, legea onartu aurretik.",
      "hac": 1,
      "car": -2,
      "rep": -1,
@@ -1363,7 +1363,7 @@ const JUEGO_ARIS = {
      "r": "Txalotu egiten zaituzte. Mila pertsona hilko dira."
     },
     {
-     "t": "Erruduna denari bakarrik zigortzeko eskatu.",
+     "t": "Errudunak bakarrik zigortzeko eskatu.",
      "car": 2,
      "rep": -1,
      "risk": true,
@@ -1499,7 +1499,7 @@ const JUEGO_ARIS = {
    "etapa": "m",
    "virtue": "Ausardia (andreía)",
    "sit": "Gerra zibila hirian: demokratak eta oligarkak kaleetan hiltzen ari dira elkar, eta bi aldeek aukeratzeko exijitzen dizute.",
-   "hist": "Soloni egotzitako lege batek eskubideak kentzen zizkion gerra zibil batean alderdirik hartzen ez zuen herritarrari. Tuzididesek Korzirako stásis morala oro amaitzea bezala deskribatzen du.",
+   "hist": "Soloni egotzitako lege batek eskubideak kentzen zizkion gerra zibil batean alderdirik hartzen ez zuen herritarrari. Tuzididesek Korzirako stásis-a moral ororen amaiera bezala deskribatzen du.",
    "opts": [
     {
      "t": "Oligarkekin bat egin.",
@@ -1549,7 +1549,7 @@ const JUEGO_ARIS = {
    "etapa": "m",
    "virtue": "Justizia (dikaiosýne)",
    "sit": "Ostrazismo bat bozkatzen da. Arerio batek zuen jarraitzaileak batzea proposatzen dizu hirugarren bat erbesteratu eta haren boterea banatzeko.",
-   "hist": "K.a. 416an, Alkibiades eta Nizias ados jarri ziren Hiperbolo erbesteratua izan zedin. Atenasko azken ostrazismoa izan zen.",
+   "hist": "K.a. 416an, Altzibiades eta Nizias ados jarri ziren Hiperbolo erbesteratua izan zedin. Atenasko azken ostrazismoa izan zen.",
    "opts": [
     {
      "t": "Ituna onartu.",
@@ -1559,7 +1559,7 @@ const JUEGO_ARIS = {
      "tags": [
       "pacto"
      ],
-     "r": "Hirugarrena hamar urterako joaten da. Zure arerioak eta zuk elkar zaintzen duzue."
+     "r": "Hirugarrena hamar urterako joaten da. Zure arerioak eta zuk elkar zelatatzen duzue."
     },
     {
      "t": "Uko egin eta benetan arriskutsutzat duzuna bozkatu.",
@@ -1636,7 +1636,7 @@ const JUEGO_ARIS = {
    ],
    "virtue": "Egiazkotasuna (alétheia)",
    "sit": "Zure liburuak dio jainkoei buruz ezin dela jakin existitzen diren ala ez. Lagun batek ez argitaratzeko aholkatzen dizu.",
-   "hist": "Protagorasek horrela hasi zuen Jainkoei buruz bere lana; tradizioaren arabera, haren liburuak agoran erre zituzten.",
+   "hist": "Protagorasek horrela hasi zuen bere «Jainkoei buruz» lana; tradizioaren arabera, haren liburuak agoran erre zituzten.",
    "opts": [
     {
      "t": "Dagoen bezala argitaratu.",
@@ -1712,7 +1712,7 @@ const JUEGO_ARIS = {
      "rep": 2,
      "ene": 1,
      "car": -1,
-     "r": "Zure ikasleek gobernatuko dute hiria. Besteek gorroto dizute."
+     "r": "Zure ikasleek gobernatuko dute hiria. Besteek herra dizute."
     }
    ]
   },
@@ -1774,7 +1774,7 @@ const JUEGO_ARIS = {
    ],
    "virtue": "Adiskidetasuna (philía)",
    "sit": "Gazte distiratsu, aberats eta harro batek zure ikasle izan nahi du gobernatzen ikasteko.",
-   "hist": "Alkibiades Sokratesen ikaslea eta laguna izan zen. K.a. 399ko epaiketan, askok gogoratzen zuten.",
+   "hist": "Altzibiades Sokratesen ikaslea eta laguna izan zen. K.a. 399ko epaiketan, askok gogoratzen zuten.",
    "opts": [
     {
      "t": "Irakatsi, aldatzen ez bada ere.",
@@ -1815,7 +1815,7 @@ const JUEGO_ARIS = {
    ],
    "virtue": "Egiazkotasuna (alétheia)",
    "sit": "Hiriko politikaririk boteretsuena barregarri uzten duen obra bat prestatzen ari zara.",
-   "hist": "K.a. 426an, Kleonek Kontseiluaren aurrera eraman zuen Aristofanes Babiloniarrak obragatik; bi urte geroago, Aristofanesek berriro barregarri utzi zuen Zaldunak lanean.",
+   "hist": "K.a. 426an, Kleonek Kontseiluaren aurrera eraman zuen Aristofanes «Babiloniarrak» obragatik; bi urte geroago, Aristofanesek berriro barregarri utzi zuen «Zaldunak» lanean.",
    "opts": [
     {
      "t": "Dagoen bezala estreinatu.",
@@ -1929,7 +1929,7 @@ const JUEGO_ARIS = {
      "r": "Hutsetik hasten zara beste nonbait."
     },
     {
-     "t": "Kontraerasoa jo zure salatzaileak salatuz.",
+     "t": "Kontraeraso egin zure salatzaileak salatuz.",
      "ene": 3,
      "rep": 1,
      "tags": [
@@ -1947,7 +1947,7 @@ const JUEGO_ARIS = {
    ],
    "virtue": "Neurritasuna (sophrosýne)",
    "sit": "Zure jarraitzaileek gaur gauean Akropolia hartu eta zu tirano aldarrikatzea eskaintzen dizute.",
-   "hist": "Pisistratok hiru aldiz saiatu zen K.a. VI. mendean, eta hirugarrenean geratu egin zen. Zilonek, haren aurretik, porrot egin zuen eta haren jarraitzaileak hil zituzten.",
+   "hist": "Pisistrato hiru aldiz saiatu zen K.a. VI. mendean, eta hirugarrenean boterean geratu zen. Zilonek, haren aurretik, porrot egin zuen eta haren jarraitzaileak hil zituzten.",
    "opts": [
     {
      "t": "Kolpea eman.",
@@ -2061,7 +2061,7 @@ const JUEGO_ARIS = {
    ],
    "virtue": "Egiazkotasuna (alétheia)",
    "sit": "Zure espedizioaren bezperan, hiriko Hermesen estatuak moztuta agertzen dira. Zure arerioek sakrilegioa leporatzen dizute.",
-   "hist": "K.a. 415ean Alkibiades salatu zuten. Itsasoratu aurretik epaitua izatea eskatu zuen; ez zioten utzi. Bertan ez zela kondenatuta, Espartara igaro zen.",
+   "hist": "K.a. 415ean Altzibiades salatu zuten. Itsasoratu aurretik epaitua izatea eskatu zuen; ez zioten utzi. Bertan ez zegoela kondenatu zuten, eta Espartara igaro zen.",
    "opts": [
     {
      "t": "Orain epaitzeko exijitu, itsasoratu aurretik.",
@@ -2237,7 +2237,7 @@ const JUEGO_ARIS = {
      "rep": 3,
      "car": -2,
      "set": "promesa",
-     "r": "Gehiengo zapaltzaile batekin irabazten duzu."
+     "r": "Gehiengo erabatekoarekin irabazten duzu."
     },
     {
      "t": "Egia esan: gerrikoa estutu beharko da.",
@@ -2278,7 +2278,7 @@ const JUEGO_ARIS = {
     "ene": 5
    },
    "virtue": "Ausardia (andreía)",
-   "sit": "Zahartuta, gazteak ustelzea eta hiriko jainkoetan ez sinestea leporatzen dizute. 501 herritarrek osatzen dute epaimahaia.",
+   "sit": "Zahartuta, gazteak usteltea eta hiriko jainkoetan ez sinestea leporatzen dizute. 501 herritarrek osatzen dute epaimahaia.",
    "hist": "Horrelakoa izan zen Sokratesen epaiketa (K.a. 399), Platonen Apologiaren arabera. «Zigor» gisa Pritaneoan doan jatea eskatu zuen, eta heriotzara kondenatu zuten.",
    "opts": [
     {
@@ -2330,7 +2330,7 @@ const JUEGO_ARIS = {
    "urgente": true,
    "virtue": "Justizia (dikaiosýne)",
    "sit": "Kartzelan zaude exekuzioaren zain. Zure lagunek zaindaria erosi dute: gaur gauean ihes egin dezakezu.",
-   "hist": "Platonen Kritonen, Sokratesek ihes egiteari uko egiten dio: legeei bidegabekeriari bidegabekeriaz erantzutea litzateke.",
+   "hist": "Platonen «Kriton» elkarrizketan, Sokratesek ihes egiteari uko egiten dio: legeei bidegabekeria bidegabekeriaz ordaintzea litzateke.",
    "opts": [
     {
      "t": "Ihes egin: kondena bidegabea da.",
@@ -2382,7 +2382,7 @@ const JUEGO_ARIS = {
      "r": "Bizilagun batzuek erokeriatzat jotzen dute."
     },
     {
-     "t": "Dena bizitzan gastatu oturuntzetan.",
+     "t": "Bizirik zaudela, dena oturuntzetan gastatu.",
      "sal": -2,
      "hac": -3,
      "car": -1,
@@ -2424,7 +2424,7 @@ const JUEGO_ARIS = {
      "r": "Ordenaz gogoratzea ere pentsatzea da."
     },
     {
-     "t": "Sendagile ospetsu bati ordaindu sendabide miragarri baten truke.",
+     "t": "Petrikilo ospetsu bati ordaindu sendabide miragarri baten truke.",
      "hac": -3,
      "risk": true,
      "win": {
@@ -2441,7 +2441,7 @@ const JUEGO_ARIS = {
   {
    "id": "estatua",
    "etapa": "v",
-   "virtue": "Arima handitasuna (megalopsykhía)",
+   "virtue": "Arima-handitasuna (megalopsykhía)",
    "sit": "Hiriak estatua bat jaso nahi dizu agoran.",
    "hist": "Aristotelesentzat, arima handikoak badaki ohore handien merezimendua duela eta onartu egiten ditu irrikaz nahi izan gabe; harroak bilatu egiten ditu merezi gabe.",
    "opts": [
@@ -2516,7 +2516,7 @@ const JUEGO_ARIS = {
      "t": "Hiritik joan: ez dituzu ikusi nahi.",
      "rep": -1,
      "ene": -2,
-     "r": "Gorrotoak aurrezten dituzu."
+     "r": "Herrak aurrezten dituzu."
     }
    ]
   },
@@ -2721,7 +2721,7 @@ const JUEGO_ARIS = {
    ],
    "req": "alumno",
    "virtue": "Adiskidetasuna (philía)",
-   "sit": "Zure ikasle ohia etsaiarengana igaro da, eta hiriak hura ustel izanaren errua botatzen dizu.",
+   "sit": "Zure ikasle ohia etsaiarengana igaro da, eta hiriak hura usteltzearen errua botatzen dizu.",
    "opts": [
     {
      "t": "Zeure burua defendatu benetan zer irakatsi zenion azalduz.",
@@ -2850,7 +2850,7 @@ const JUEGO_ARIS = {
    "req": "traidor",
    "virtue": "Adiskidetasuna (philía)",
    "sit": "Urteak daramatzazu etsaia zerbitzatzen, eta han ere ez dute zuregan konfiantzarik. Atenasek itzultzea eskaintzen dizu garaipen bat ekartzen badiozu.",
-   "hist": "Alkibiades K.a. 407an itzuli zen Atenasera, heroi gisa txalotuta; hurrengo urtean, bere lugartenientearen porrot baten ondoren, kargutik kendu zuten.",
+   "hist": "Altzibiades K.a. 407an itzuli zen Atenasera, heroi gisa txalotuta; hurrengo urtean, bere ordezkoaren porrot baten ondoren, kargutik kendu zuten.",
    "opts": [
     {
      "t": "Garaipenarekin itzuli.",
@@ -2863,7 +2863,7 @@ const JUEGO_ARIS = {
      "lose": {
       "ene": 3,
       "sal": -2,
-      "r": "Guduak gaizki egiten du eta orain bi aldeetan gorroto zaituzte."
+      "r": "Gudua gaizki ateratzen da eta orain bi aldeetan gorroto zaituzte."
      }
     },
     {
@@ -2947,7 +2947,7 @@ const JUEGO_ARIS = {
   },
   {
    "t": "Erreforma arrakastatsua",
-   "d": "Zure neurri batek ondo egiten du.",
+   "d": "Zure neurri bat ondo ateratzen da.",
    "rep": 1,
    "hac": 1,
    "img": "azar-reforma"
@@ -3069,7 +3069,7 @@ const JUEGO_ARIS = {
    ]
   },
   "ostracismo": {
-   "t": "Ostrakismoa",
+   "t": "Ostrazismoa",
    "d": "Batzarrak zure izena idazten du ostraketan: hamar urte hiritik kanpo, nahiz eta zure ondasunak gordetzen dituzun.",
    "rep": -3,
    "hac": -1,
@@ -3089,7 +3089,7 @@ const JUEGO_ARIS = {
     },
     {
      "min": -99,
-     "t": "Hilda",
+     "t": "Erailda",
      "d": "Gauez erasotzen zaituzte Zeramikoko kale batean.",
      "muerte": true
     }

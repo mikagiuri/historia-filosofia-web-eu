@@ -7,7 +7,7 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Esperientzia konkretuaren aurretik balio duen baldintza edo egitura; ez du esan nahi sortzezko ideia edukia denik."
+  "def": "Esperientzia konkretuaren aurretik balio duen baldintza edo egitura; ez du esan nahi jaiotzetiko ideia edukia denik."
  },
  {
   "subject": "hf",
@@ -1874,7 +1874,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Ostrakismoa",
+  "t": "Ostrazismoa",
   "area": "Politika",
   "bloque": "A",
   "unidad": "A9",
@@ -2576,7 +2576,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Termino erdikoa",
+  "t": "Erdibidea",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A8",
@@ -2981,7 +2981,7 @@ const GLOSARIO_TRAMPAS = {
   ],
   [
    "Arete",
-   "Termino erdikoa"
+   "Erdibidea"
   ],
   [
    "Tirania",

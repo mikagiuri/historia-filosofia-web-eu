@@ -690,7 +690,7 @@ const CITAS = [
   "img": "media/retratos/museo/wittgenstein.jpg"
  },
  {
-  "c": "Muturreraino sinplifikatuz: “posmodernoa” metakontakizunekiko sinesgogortasuna da.",
+  "c": "Muturreraino sinplifikatuz: “postmodernoa” metakontakizunekiko sinesgogortasuna da.",
   "a": "Lyotard",
   "o": "Egoera postmodernoa (1979), Sarrera",
   "e": "contemporanea",

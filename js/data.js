@@ -620,8 +620,8 @@ const DECKS = {
    ],
    [
     "🌍",
-    "«Muturreraino sinplifikatuz: “posmodernoa” metakontakizunekiko sinesgogortasuna da.»",
-    "Lyotard — Metakontakizunekiko sinesgogortasuna (Egoera posmodernoa)"
+    "«Muturreraino sinplifikatuz: “postmodernoa” metakontakizunekiko sinesgogortasuna da.»",
+    "Lyotard — Metakontakizunekiko sinesgogortasuna (Egoera postmodernoa)"
    ],
    [
     "🌍",
@@ -1574,13 +1574,13 @@ const DECKS = {
    ],
    [
     "⚖️",
-    "Termino erdikoa",
+    "Erdibidea",
     "Bertute etikoa bi bizioren artean dago: ausardia, koldarkeriaren (gabezia) eta ausarkeriaren (gehiegikeria) artean."
    ],
    [
     "🤔",
     "Zuhurtzia",
-    "Kasu bakoitzean komeni denaz deliberatzen duen eta termino erdikoa finkatzen duen bertutea."
+    "Kasu bakoitzean komeni denaz deliberatzen duen eta erdibidea finkatzen duen bertutea."
    ],
    [
     "🐝",
@@ -1703,7 +1703,7 @@ const DECKS = {
    ],
    [
     "⚖️",
-    "Termino erdikoa",
+    "Erdibidea",
     "Bi bizioren arteko erdiko puntua (gehiegikeria eta gabezia)."
    ],
    [
@@ -1765,7 +1765,7 @@ const DECKS = {
    ],
    [
     "🗳️",
-    "Ostrakismoa",
+    "Ostrazismoa",
     "Erbeste politikoa, herri-bozketaz erabakia."
    ],
    [
@@ -1906,7 +1906,7 @@ const DECKS = {
    ],
    [
     "💡",
-    "Iluminazioa",
+    "Argiztapena",
     "Jainkoak arima argitzen du egia ezagut dezan (Agustin)."
    ],
    [
@@ -2293,7 +2293,7 @@ const DECKS = {
   ]
  },
  "posmodernidad": {
-  "name": "Posmodernitatea (23. gaia)",
+  "name": "Postmodernitatea (23. gaia)",
   "subject": "hf",
   "block": "C",
   "cards": [
@@ -5206,7 +5206,7 @@ const QUIZZES = {
   ]
  },
  "ltfh-C6": {
-  "name": "Posmodernitatea (FH · liburua)",
+  "name": "Postmodernitatea (FH · liburua)",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -5219,7 +5219,7 @@ const QUIZZES = {
      "Errealitatea modu neutroan deskribatzen duen diskurtsoa."
     ],
     "a": 2,
-    "fb": "Metakontakizunak historia eta jakintza globalki legitimatzen dituzten kontakizun handiak dira (Ilustrazioa, Hegel, marxismoa), eta posmodernitateak haien sinesgarritasuna krisian jartzen du («Lyotard» atala)."
+    "fb": "Metakontakizunak historia eta jakintza globalki legitimatzen dituzten kontakizun handiak dira (Ilustrazioa, Hegel, marxismoa), eta postmodernitateak haien sinesgarritasuna krisian jartzen du («Lyotard» atala)."
    },
    {
     "q": "Zer esan nahi du Derridaren differance kontzeptuak?",
@@ -6845,7 +6845,7 @@ const QUIZZES = {
     "fb": "Erantzun zuzena: Pentsatzen dut, beraz existitzen naiz."
    },
    {
-    "q": "Ideia sortzekoak (innatae) dira:",
+    "q": "Jaiotzetiko ideiak (innatae) dira:",
     "o": [
      "Jainkoa eta triangelua.",
      "Eguzkia eta beroa.",
@@ -15427,7 +15427,7 @@ const QUIZZES = {
   ]
  },
  "hf-c23-banco": {
-  "name": "T23 · Nietzsche eta posmodernitatea: Habermas hausleen aurrean (galdera-bilduma zabaldua)",
+  "name": "T23 · Nietzsche eta postmodernitatea: Habermas hausleen aurrean (galdera-bilduma zabaldua)",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15454,7 +15454,7 @@ const QUIZZES = {
     "fb": "Esaldia ez da Nietzscherena: Dostoievskiren eleberriko Ivanen tesia laburbiltzen du, nahiz eta bertan ez agertu horrela, hitzez hitz."
    },
    {
-    "q": "Zer esan nahi du posmodernitatea «bloke»aren aurreko «zati»aren aroa dela esateak?",
+    "q": "Zer esan nahi du postmodernitatea «bloke»aren aurreko «zati»aren aroa dela esateak?",
     "o": [
      "Filosofia gero eta espezializatuagoak diren diziplina teknikoetan banatu behar dela",
      "Gizartea interes ekonomikoengatik elkarren aurka dauden klaseetan hautsi dela",
@@ -15462,10 +15462,10 @@ const QUIZZES = {
      "Dena behin betiko azaldu nahi zuten sistema sendoak alde batera uzten direla"
     ],
     "a": 3,
-    "fb": "«Blokea» modernitatearen sistema sendoak dira; posmodernitateak, eszeptikoa baita, ikuspegi partzialak edo zatiak baino ez ditu onartzen."
+    "fb": "«Blokea» modernitatearen sistema sendoak dira; postmodernitateak, eszeptikoa baita, ikuspegi partzialak edo zatiak baino ez ditu onartzen."
    },
    {
-    "q": "Teoriaren arabera, zertan sinesten zuen modernitateak, posmodernitateari bidea ematen dion krisiaren aurretik?",
+    "q": "Teoriaren arabera, zertan sinesten zuen modernitateak, postmodernitateari bidea ematen dion krisiaren aurretik?",
     "o": [
      "Tokiko kontakizunen aniztasunean eta haien arteko tolerantzian",
      "Aurrerabidean, arrazoi unibertsal batean eta egia absolutu batean",
@@ -15473,7 +15473,7 @@ const QUIZZES = {
      "Ezagutza oro ezagutzen duenaren ikuspuntuaren menpe dagoela"
     ],
     "a": 1,
-    "fb": "Modernitateak aurrerabidean, arrazoi unibertsalean eta egia absolutuan zuen konfiantza; posmodernitatea, aldiz, eszeptizismoak definitzen du."
+    "fb": "Modernitateak aurrerabidean, arrazoi unibertsalean eta egia absolutuan zuen konfiantza; postmodernitatea, aldiz, eszeptizismoak definitzen du."
    },
    {
     "q": "Zer esan nahi du Nietzschek bere burua «dinamita» gisa deskribatzen duenean?",
@@ -15487,7 +15487,7 @@ const QUIZZES = {
     "fb": "Irudi horrekin, Nietzschek mendebaldeko tradizioaren eraispen gisa aurkezten du bere obra: haren sinesmenena, eskakizunena eta balio sakratuena."
    },
    {
-    "q": "Zergatik lotzen da Nietzscheren perspektibismoa kontakizun handiekiko mesfidantza posmodernoarekin?",
+    "q": "Zergatik lotzen da Nietzscheren perspektibismoa kontakizun handiekiko mesfidantza postmodernoarekin?",
     "o": [
      "Zientziak bakarrik eskaintzen duela ikuspuntu neutral eta seguru bat baieztatzen duelako",
      "Historia guztiok partekatzen dugun helburu baterantz doala defendatzen duelako",
@@ -15509,7 +15509,7 @@ const QUIZZES = {
     "fb": "Lyotardentzat ez dago helburua duen «Historia Handi» bat, tokiko kontakizun txiki eta anitzak baizik."
    },
    {
-    "q": "Zer esaldik laburbiltzen du Lyotardek posmodernitateaz eman zuen definizioa?",
+    "q": "Zer esaldik laburbiltzen du Lyotardek postmodernitateaz eman zuen definizioa?",
     "o": [
      "«Ez dago ezer testutik kanpo»",
      "«Mapak lurraldea ordeztu du»",
@@ -15517,7 +15517,7 @@ const QUIZZES = {
      "«Jakintza orok boterea sortzen du»"
     ],
     "a": 2,
-    "fb": "Lyotardek posmodernitatea «metakontakizunekiko sinesgabetasun» gisa definitu zuen, hau da, kontakizun globalekiko sinesgabetasun gisa."
+    "fb": "Lyotardek postmodernitatea «metakontakizunekiko sinesgabetasun» gisa definitu zuen, hau da, kontakizun globalekiko sinesgabetasun gisa."
    },
    {
     "q": "Teoriaren arabera, zer egoera historikok azaltzen dute historiak helbururik duela jada ez sinestea?",
@@ -15531,7 +15531,7 @@ const QUIZZES = {
     "fb": "Mundu-gerren eta totalitarismoen ondoren, historia aurrerabide baterantz doalako konfiantza galtzen da."
    },
    {
-    "q": "Teoriako taularen arabera, nola ulertzen du posmodernitateak egia?",
+    "q": "Teoriako taularen arabera, nola ulertzen du postmodernitateak egia?",
     "o": [
      "Arrazoiak ezagutzera iritsi daitekeen zerbait objektibo gisa",
      "Zientziaren aurrerabideak daraman helburu gisa",
@@ -15539,10 +15539,10 @@ const QUIZZES = {
      "Zerbait eraiki eta interpretatibo gisa, ez objektibo eta ezagugarri gisa"
     ],
     "a": 3,
-    "fb": "Modernitatearen egia objektibo eta ezagugarriaren aurrean, posmodernitateak eraikitako eta interpretatiboa den zerbait gisa ikusten du."
+    "fb": "Modernitatearen egia objektibo eta ezagugarriaren aurrean, postmodernitateak eraikitako eta interpretatiboa den zerbait gisa ikusten du."
    },
    {
-    "q": "Teoriako taularen arabera, zer kontraste dago nortasunean modernitatearen eta posmodernitatearen artean?",
+    "q": "Teoriako taularen arabera, zer kontraste dago nortasunean modernitatearen eta postmodernitatearen artean?",
     "o": [
      "Subjektu sendo batetik («ni naiz») subjektu likido batera («neure burua eraikitzen dut») igarotzen da",
      "Subjektu kolektibo batetik komunitaterik gabeko gizabanako isolatu batera igarotzen da",
@@ -15550,7 +15550,7 @@ const QUIZZES = {
      "Ni arrazional batetik fedeak eta sentimenduak soilik mugitutako ni batera igarotzen da"
     ],
     "a": 0,
-    "fb": "Modernitateak subjektu sendo bat pentsatzen du; posmodernitateak, bere burua eraikitzen duen subjektu likido bat."
+    "fb": "Modernitateak subjektu sendo bat pentsatzen du; postmodernitateak, bere burua eraikitzen duen subjektu likido bat."
    },
    {
     "q": "Zein da Habermasen jarrera modernitatearen aurrean?",
@@ -21285,7 +21285,7 @@ const QUIZZES = {
   ]
  },
  "hf-t23-repaso": {
-  "name": "Nietzsche eta posmodernitatea (HF · T23 · errepasoa)",
+  "name": "Nietzsche eta postmodernitatea (HF · T23 · errepasoa)",
   "subject": "hf",
   "block": "C",
   "items": [

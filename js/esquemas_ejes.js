@@ -173,7 +173,7 @@ const EA_EJES = {
     "c": [
      "Arrazionalistak: Descartes, Spinoza eta Leibniz; enpiristak: Bacon (aurrekaria), Locke, Berkeley eta Hume.",
      "Descartes: Jainko ez-engainatzaileak ideia argi eta bereiziak eta mundua bermatzen ditu; Hume: esperientziak mugatzen du metafisika; Berkeley: izatea hautemana izatea da.",
-     "Jatorria: arrazoia eta ideia sortzekoak ala esperientzia eta inpresioak; kausalitatea, arrazoiarentzat ebidentea ala ohituraren emaitza; ziurtasuna ala probabilitatea.",
+     "Jatorria: arrazoia eta jaiotzetiko ideiak ala esperientzia eta inpresioak; kausalitatea, arrazoiarentzat ebidentea ala ohituraren emaitza; ziurtasuna ala probabilitatea.",
      "Nia: gauza pentsatzailea eta lehen ziurtasuna (Descartes) ala pertzepzioen multzoa (Hume); Descartes: errorea adimenetik haratago doan borondatetik dator.",
      "Descartes: zuhurtziazko behin-behineko morala; Hume: sentimenduaren eta sinpatiaren morala (emotibismoa); Humeren legea: «da»-tik ezin da «behar» ondorioztatu.",
      "Matematika, dedukzioa eta lau arauak (ebidentzia, analisia, sintesia, berrikuspena) ala behaketa eta indukzioa; Hume: indukzioa ezin da logikoki frogatu.",
@@ -298,7 +298,7 @@ const EA_EJES = {
      "Esklaboen morala eta balioen transmutazioa; Jainkoaren heriotzaren ondoren, nihilismoa; pentsamendu ahula eta tolerantziaren etika (Vattimo).",
      "Ezagutza orok boterea sortzen du: panoptikoa eta biopolitika (Foucault); simulakroa eta hipererrealitatea (Baudrillard); esfera publikoa eta hizketa-egoera ideala (Habermas).",
      "Metodo genealogikoa: «egiazko mundua» Platonen eta kristautasunaren fikzioa da; modernitatearen metakontakizunekiko sinesgabetasuna.",
-     "Aniztasuna eta diferentzia egia unibertsalen aurrean; Habermas: modernitatea, konpondu beharreko amaitu gabeko proiektua; albiste faltsuak eta sareak."
+     "Aniztasuna eta diferentzia egia unibertsalen aurrean; Habermas: modernitatea, konpondu beharreko proiektu osatugabea; albiste faltsuak eta sareak."
     ]
    },
    {

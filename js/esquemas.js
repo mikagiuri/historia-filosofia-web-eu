@@ -2675,7 +2675,7 @@ const ESQUEMAS = {
       },
       {
        "rel": "bertute etikoa hau da",
-       "t": "Termino erdikoa",
+       "t": "Erdibidea",
        "k": true,
        "d": "Bi bizioren artean: ausardia, koldarkeriaren eta ausarkeriaren artean. Zuhurtziak finkatzen du."
       }
@@ -2689,7 +2689,7 @@ const ESQUEMAS = {
      "a": "Sokrates: intelektualismo morala"
     },
     {
-     "de": "Termino erdikoa",
+     "de": "Erdibidea",
      "rel": "zuhurtziak finkatzen du, ez Ideia batek:",
      "a": "Platon: bertutea eta arazketa"
     }
@@ -3018,7 +3018,7 @@ const ESQUEMAS = {
       },
       {
        "rel": "honen bidez ezagutzen du",
-       "t": "Iluminazioa",
+       "t": "Argiztapena",
        "d": "Jainkoak arima argitzen du, betiereko egiak ezagut ditzan."
       }
      ]
@@ -4246,7 +4246,7 @@ const ESQUEMAS = {
      "a": "Aniztasuna eta diferentzia"
     }
    ],
-   "idea": "Nietzschek Mendebaldeko egia, metafisika eta morala eraisten ditu bizitzari baietz esateko; posmodernitateak haren susmoa jasotzen du, eta Habermasek erantzuten du arrazoia, dialogikoa bada, oraindik salba daitekeela."
+   "idea": "Nietzschek Mendebaldeko egia, metafisika eta morala eraisten ditu bizitzari baietz esateko; postmodernitateak haren susmoa jasotzen du, eta Habermasek erantzuten du arrazoia, dialogikoa bada, oraindik salba daitekeela."
   }
  },
  "ds-C7": {

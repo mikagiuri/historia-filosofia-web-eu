@@ -1302,7 +1302,7 @@ const INFOGRAFIAS = {
     "items": [
      {
       "emoji": "🔦",
-      "t": "Iluminazioa",
+      "t": "Argiztapena",
       "p": "Jainkoak egia pizten du gogoan, eguzkiak argia ematen duen bezala."
      },
      {
@@ -2215,7 +2215,7 @@ const INFOGRAFIAS = {
     "type": "quote",
     "label": "Diagnostikoa",
     "big": "Kontakizun handien amaiera",
-    "text": "<b>Lyotardentzat</b>, posmodernitatea historiari zentzu bakarra agintzen zioten «metakontakizunen» (aurrerapena, arrazoia, iraultza) aurreko <b>sinesgogortasuna</b> da. Jada ez ditugu sinesten."
+    "text": "<b>Lyotardentzat</b>, postmodernitatea historiari zentzu bakarra agintzen zioten «metakontakizunen» (aurrerapena, arrazoia, iraultza) aurreko <b>sinesgogortasuna</b> da. Jada ez ditugu sinesten."
    },
    {
     "type": "tiles",
@@ -2282,7 +2282,7 @@ const INFOGRAFIAS = {
      {
       "h": "Habermas",
       "tag": "aurka",
-      "p": "Modernitatea amaitu gabeko proiektua da, ez agortua."
+      "p": "Modernitatea proiektu osatugabea da, ez agortua."
      },
      {
       "h": "Arriskua",

@@ -468,7 +468,7 @@ const ESQUEMAS_AUTOR = [
       "d": "Adimenarenak ikasi egiten dira; izaerarenak ekintzak errepikatuz eskuratzen dira."
      },
      {
-      "t": "Termino erdikoa",
+      "t": "Erdibidea",
       "d": "Bi bizioren artean: ausardia, koldarkeriaren eta ausarkeriaren artean. Zuhurtziak finkatzen du."
      }
     ],
@@ -688,7 +688,7 @@ const ESQUEMAS_AUTOR = [
       "d": "«Gizakiaren barnean bizi da egia»: arima Jainkoarengana igotzen da."
      },
      {
-      "t": "Iluminazioa",
+      "t": "Argiztapena",
       "d": "Jainkoak arima argitzen du, betiereko egiak ezagut ditzan."
      }
     ],
@@ -1503,7 +1503,7 @@ const ESQUEMAS_AUTOR = [
     "a": "Habermas"
    }
   ],
-  "idea": "Nietzschek Mendebaldeko egia, metafisika eta morala eraisten ditu bizitzari baietz esateko; posmodernitateak haren susmoa jasotzen du, eta Habermasek erantzuten du arrazoia, dialogikoa bada, oraindik salba daitekeela."
+  "idea": "Nietzschek Mendebaldeko egia, metafisika eta morala eraisten ditu bizitzari baietz esateko; postmodernitateak haren susmoa jasotzen du, eta Habermasek erantzuten du arrazoia, dialogikoa bada, oraindik salba daitekeela."
  },
  {
   "title": "Hizkuntzaren filosofia",

@@ -175,7 +175,7 @@ function renderAriStart(){
         '<li><i>Eudaimonia</i> bizitza oso lortu bat da, ez une on bat: horregatik epaitzen da amaieran. «Enara batek ez du uda egiten».</li>' +
         '<li>Batez ere arimaren jarduera da bertutearekin bat: balantzean, izaerak bikoitza balio du.</li>' +
         '<li>Baina kanpoko ondasunak behar ditu (osasuna, baliabideak, lagunak, izen ona). Zorigaitzean amaitzen duena, Priamo bezala, ez da zoriontsu deitzen.</li>' +
-        '<li>Bertutea «guri dagokigun» erdibide bat da: Alkibiadesi ez zaio Sokratesi beste kostatzen. Horregatik pertsonaia bakoitzak bere ezaugarriak ditu.</li>' +
+        '<li>Bertutea «guri dagokigun» erdibide bat da: Altzibiadesi ez zaio Sokratesi beste kostatzen. Horregatik pertsonaia bakoitzak bere ezaugarriak ditu.</li>' +
         '<li><i>Phrónesis</i> kasu zehatz bakoitzean zer egitea komeni den jakitea da.</li>' +
       '</ul></details>' +
     '<div class="ari-col-h">Aukeratu zure pertsonaia</div>' +

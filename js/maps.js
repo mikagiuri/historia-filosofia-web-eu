@@ -134,9 +134,9 @@ const MAPS = {
  },
  "map-postmodernidad": {
   "subject": "hf",
-  "tema": "Filosofiaren Historia · Posmodernitatea",
-  "title": "Nietzsche eta posmodernitatea",
-  "md": "# Posmodernitatea\n## Sustraia: Nietzsche\n- **Egia objektiboaren** kritika (perspektibismoa)\n- **Metafisikaren** eta dualismoen kritika\n## Ezaugarri posmodernoak\n- **Kontakizun handien** amaiera (Lyotard)\n- **Aniztasuna** eta desberdintasuna unibertsalaren aurrean\n- **Aurrerabidearen** eta arrazoi ilustratuaren aurreko susmoa\n- **Dekonstrukzioa** (Derrida); botere-jakintza (Foucault)\n## Habermas — modernitatearen defentsa\n- Modernitatea **proiektu amaitugabea** da, ez agortua\n- **Arrazoi komunikatiboa** — elkarrizketaren bidezko akordioa\n- Erlatibismoaren aurrean, arrazionaltasun **intersubjektiboa**"
+  "tema": "Filosofiaren Historia · Postmodernitatea",
+  "title": "Nietzsche eta postmodernitatea",
+  "md": "# Postmodernitatea\n## Sustraia: Nietzsche\n- **Egia objektiboaren** kritika (perspektibismoa)\n- **Metafisikaren** eta dualismoen kritika\n## Ezaugarri postmodernoak\n- **Kontakizun handien** amaiera (Lyotard)\n- **Aniztasuna** eta desberdintasuna unibertsalaren aurrean\n- **Aurrerabidearen** eta arrazoi ilustratuaren aurreko susmoa\n- **Dekonstrukzioa** (Derrida); botere-jakintza (Foucault)\n## Habermas — modernitatearen defentsa\n- Modernitatea **proiektu amaitugabea** da, ez agortua\n- **Arrazoi komunikatiboa** — elkarrizketaren bidezko akordioa\n- Erlatibismoaren aurrean, arrazionaltasun **intersubjektiboa**"
  },
  "map-filosofia-lenguaje": {
   "subject": "hf",
