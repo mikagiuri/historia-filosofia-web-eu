@@ -1902,19 +1902,9 @@ const CRONOGRAMAS = [
     "end": 1855
    },
    {
-    "name": "Beldurra eta dardara",
-    "start": 1843,
-    "end": 1843
-   },
-   {
     "name": "Ortega y Gasset",
     "start": 1883,
     "end": 1955
-   },
-   {
-    "name": "Kixoteari buruzko meditazioak",
-    "start": 1914,
-    "end": 1914
    },
    {
     "name": "Heidegger",
@@ -1922,19 +1912,9 @@ const CRONOGRAMAS = [
     "end": 1976
    },
    {
-    "name": "Izatea eta denbora",
-    "start": 1927,
-    "end": 1927
-   },
-   {
     "name": "Camus",
     "start": 1913,
     "end": 1960
-   },
-   {
-    "name": "Sisiforen mitoa",
-    "start": 1942,
-    "end": 1942
    },
    {
     "name": "Sartre",
@@ -1942,24 +1922,9 @@ const CRONOGRAMAS = [
     "end": 1980
    },
    {
-    "name": "Izatea eta ezereza",
-    "start": 1943,
-    "end": 1943
-   },
-   {
-    "name": "Existentzialismoa humanismo bat da",
-    "start": 1946,
-    "end": 1946
-   },
-   {
     "name": "Beauvoir",
     "start": 1908,
     "end": 1986
-   },
-   {
-    "name": "Bigarren sexua",
-    "start": 1949,
-    "end": 1949
    }
   ],
   "events": []
