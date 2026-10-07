@@ -1909,7 +1909,7 @@ const CRONOGRAMAS = [
     "start": 1844,
     "end": 1900,
     "colors": [
-     "#d95f02"
+     "#2e9e6b"
     ]
    },
    {
@@ -1925,8 +1925,8 @@ const CRONOGRAMAS = [
     "start": 1883,
     "end": 1955,
     "colors": [
-     "#d95f02",
-     "#2e9e6b"
+     "#2e9e6b",
+     "#d9c11a"
     ]
    },
    {
@@ -1934,7 +1934,7 @@ const CRONOGRAMAS = [
     "start": 1889,
     "end": 1976,
     "colors": [
-     "#d95f02",
+     "#2e9e6b",
      "#7b61d9"
     ]
    },
@@ -1944,7 +1944,7 @@ const CRONOGRAMAS = [
     "end": 1960,
     "colors": [
      "#2f6fd6",
-     "#d95f02",
+     "#2e9e6b",
      "#7b61d9"
     ]
    },
@@ -1954,7 +1954,7 @@ const CRONOGRAMAS = [
     "end": 1980,
     "colors": [
      "#2f6fd6",
-     "#d95f02",
+     "#2e9e6b",
      "#7b61d9"
     ]
    },
@@ -1964,13 +1964,13 @@ const CRONOGRAMAS = [
     "end": 1986,
     "colors": [
      "#2f6fd6",
-     "#d95f02",
+     "#2e9e6b",
      "#7b61d9"
     ]
    }
   ],
   "events": [],
-  "nota": "Koloreak: urdina, Kierkegaard; laranja, Nietzsche; arrosa, Unamuno. Kolore-gradazioek eraginak erakusten dituzte: Ortega (berdea) eta Heidegger (morea) Nietzscheren laranjatik abiatzen dira, eta Sartrek, Beauvoirrek eta Camusek Kierkegaarden urdina, Nietzscheren laranja eta Heideggerren morea biltzen dituzte."
+  "nota": "Koloreak: urdina, Kierkegaard; berdea, Nietzsche; arrosa, Unamuno. Kolore-gradazioek eraginak erakusten dituzte: Ortega (horia) eta Heidegger (morea) Nietzscheren berdetik abiatzen dira, eta Sartrek, Beauvoirrek eta Camusek Kierkegaarden urdina, Nietzscheren berdea eta Heideggerren morea biltzen dituzte."
  },
  {
   "id": "C9-KRO-01",
