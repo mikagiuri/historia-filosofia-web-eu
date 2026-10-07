@@ -752,5 +752,446 @@ const CITAS = [
   "e": "contemporanea",
   "id": "bauman",
   "img": "media/retratos/ilustres/bauman.jpg"
+ },
+ {
+  "c": "Edukirik gabeko pentsamenduak hutsak dira; kontzepturik gabeko intuizioak, itsuak.",
+  "a": "Immanuel Kant",
+  "o": "Arrazoimen hutsaren kritika (1781), Logika transzendentala, Sarrera, I (A 51 / B 75)",
+  "e": "modernoa",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Ilustrazioa gizakia bere errudun adin-txikitasunetik ateratzea da. Adin-txikitasuna norbere adimena beste baten gidaritzarik gabe erabiltzeko ezintasuna da.",
+  "a": "Immanuel Kant",
+  "o": "Galderari erantzuna: Zer da Ilustrazioa? (1784), § 1 (Ak VIII, 35)",
+  "e": "modernoa",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Ofizialak dio: ez arrazoitu, egin instrukzioa! Zerga-biltzaileak: ez arrazoitu, ordaindu! Apaizak: ez arrazoitu, sinetsi! […] Munduan jaun bakar batek dio: arrazoitu nahi beste eta nahi duzuen guztiaz, baina obeditu.",
+  "a": "Immanuel Kant",
+  "o": "Galderari erantzuna: Zer da Ilustrazioa? (1784) (Ak VIII, 36-37)",
+  "e": "modernoa",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Ez munduan, ezta, oro har, haren kanpoan ere, ezin da pentsatu murrizketarik gabe ontzat har daitekeen ezer, nahimen on bat izan ezik.",
+  "a": "Immanuel Kant",
+  "o": "Ohituren metafisikaren oinarritzea (1785) I (Ak IV, 393)",
+  "e": "modernoa",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Ez dago fenomeno moralik; fenomenoen interpretazio moral bat baino ez dago.",
+  "a": "Friedrich Nietzsche",
+  "o": "Ongiaz eta gaizkiaz haraindi (1886), 108. §",
+  "e": "contemporanea",
+  "id": "nietzsche",
+  "img": "media/retratos/museo/nietzsche.jpg"
+ },
+ {
+  "c": "Egiak ilusioak dira, eta ahaztu egin zaigu ilusioak direla; higatu eta indar sentigarria galdu duten metaforak, irudia galdu duten txanponak […].",
+  "a": "Friedrich Nietzsche",
+  "o": "Egiaz eta gezurraz zentzu ez-moralean (1873), 1. §",
+  "e": "contemporanea",
+  "id": "nietzsche",
+  "img": "media/retratos/museo/nietzsche.jpg"
+ },
+ {
+  "c": "Zer da ona? Gizakiarengan botere-sentimendua, boterearen nahimena, boterea bera goratzen duen guztia. Zer da txarra? Ahultasunetik datorren guztia.",
+  "a": "Friedrich Nietzsche",
+  "o": "Antikristo (1888), 2. §",
+  "e": "contemporanea",
+  "id": "nietzsche",
+  "img": "media/retratos/museo/nietzsche.jpg"
+ },
+ {
+  "c": "Giza gizartean ez dago ezer naturalik.",
+  "a": "Simone de Beauvoir",
+  "o": "Bigarren sexua (1949), II. liburukia, Ondorioa",
+  "e": "contemporanea",
+  "id": "beauvoir",
+  "img": "media/retratos/museo/beauvoir.jpg"
+ },
+ {
+  "c": "Zapalkuntza orok gerra-egoera sortzen du.",
+  "a": "Simone de Beauvoir",
+  "o": "Bigarren sexua (1949), II. liburukia, Ondorioa",
+  "e": "contemporanea",
+  "id": "beauvoir",
+  "img": "media/retratos/museo/beauvoir.jpg"
+ },
+ {
+  "c": "Baina zer naiz, bada? Pentsatzen duen gauza bat. Eta zer da hori? Zalantza egiten duen, ulertzen duen, baieztatzen duen, ukatzen duen, nahi duen, nahi ez duen, irudikatzen ere duen eta sentitzen duen gauza bat.",
+  "a": "René Descartes",
+  "o": "Meditazio metafisikoak (1641) II (AT VII, 28)",
+  "e": "modernoa",
+  "id": "descartes",
+  "img": "media/retratos/museo/descartes.jpg"
+ },
+ {
+  "c": "Gure gorputzen antza duten eta gure ekintzak imitatzen dituzten makinak balira, bi bide oso ziur izango genituzke horregatik benetako gizakiak ez liratekeela ezagutzeko.",
+  "a": "René Descartes",
+  "o": "Metodoaren diskurtsoa (1637) V (AT VI, 56)",
+  "e": "modernoa",
+  "id": "descartes",
+  "img": "media/retratos/museo/descartes.jpg"
+ },
+ {
+  "c": "Ba al du kantitateari edo zenbakiari buruzko arrazoiketa abstrakturik? Ez. Ba al du gertakarien gaineko arrazoiketa esperimentalik […]? Ez. Bota dezagun, beraz, sutara, sofisteria eta ilusioa besterik ezin baitu eduki.",
+  "a": "David Hume",
+  "o": "Giza adimenari buruzko ikerketa (1748), XII. atala, 3. zatia",
+  "e": "modernoa",
+  "id": "hume",
+  "img": "media/retratos/museo/hume.jpg"
+ },
+ {
+  "c": "Berdin esan genezake gizon batek, ontzi batean geratzeagatik, kapitainaren nagusitasuna askatasunez onartzen duela, nahiz eta lo zegoela eraman zuten ontzira […].",
+  "a": "David Hume",
+  "o": "«Jatorrizko kontratuaz» (1748), in Saiakera moral, politiko eta literarioak",
+  "e": "modernoa",
+  "id": "hume",
+  "img": "media/retratos/museo/hume.jpg"
+ },
+ {
+  "c": "Demagun, bada, gogoa, esan ohi dugunez, paper zuri bat dela, inolako karakteretik gabea, ideiarik gabea. Nola betetzen da? […] Horri hitz bakar batez erantzuten diot: esperientziatik.",
+  "a": "John Locke",
+  "o": "Giza adimenari buruzko saiakera (1690) II, 1, 2. §",
+  "e": "modernoa",
+  "id": "locke",
+  "img": "media/retratos/museo/locke.jpg"
+ },
+ {
+  "c": "Filosofoen artean onartua den axioma hura jarriko didate aurrez: arimak ez duela zentzumenetatik ez datorren ezer. Baina arima bera eta haren afekzioak salbuetsi behar dira.",
+  "a": "Leibniz",
+  "o": "Giza adimenari buruzko saiakera berriak (1704; arg. 1765) II, 1, 2. §",
+  "e": "modernoa"
+ },
+ {
+  "c": "Haien izatea hautemanak izatea da, eta ezin dute inolako existentziarik izan hautematen dituzten gogo edo gauza pentsatzaileetatik kanpo.",
+  "a": "Berkeley",
+  "o": "Giza ezagutzaren printzipioei buruzko tratatua (1710) I, 3. §",
+  "e": "modernoa"
+ },
+ {
+  "c": "Argiak bere burua eta iluntasuna agerian jartzen dituen bezala, egia bere buruaren eta faltsuaren araua da.",
+  "a": "Spinoza",
+  "o": "Etika (1677) II, 43. proposizioa, eskolioa",
+  "e": "modernoa"
+ },
+ {
+  "c": "Dena ez dela esatea, edo ez dena dela esatea, faltsua da; dena dela eta ez dena ez dela esatea, egiazkoa da.",
+  "a": "Aristoteles",
+  "o": "Metafisika IV, 7, 1011b26-27",
+  "e": "antigua",
+  "id": "aristoteles",
+  "img": "media/retratos/museo/aristoteles.jpg"
+ },
+ {
+  "c": "Etxeak eraikiz egiten dira eraikitzaile, eta zitara joz, zitarajole. Era berean, justizia praktikatuz egiten gara zuzen; neurritasuna praktikatuz, neurritsu; eta ausardia praktikatuz, ausart.",
+  "a": "Aristoteles",
+  "o": "Nikomakorentzako etika II, 1, 1103a33-b2",
+  "e": "antigua",
+  "id": "aristoteles",
+  "img": "media/retratos/museo/aristoteles.jpg"
+ },
+ {
+  "c": "Askok, haietako bakoitza gizon bertutetsua ez izan arren, elkartuta haiek baino hobeak izan daitezke, ez banaka, multzoan baizik […].",
+  "a": "Aristoteles",
+  "o": "Politika III, 11, 1281a42-b3",
+  "e": "antigua",
+  "id": "aristoteles",
+  "img": "media/retratos/museo/aristoteles.jpg"
+ },
+ {
+  "c": "Agerikoa da batzuk berez askeak direla eta beste batzuk berez esklaboak; eta azken horientzat esklabotza zuzena bezain onuragarria dela.",
+  "a": "Aristoteles",
+  "o": "Politika I, 5, 1255a1-3",
+  "e": "antigua",
+  "id": "aristoteles",
+  "img": "media/retratos/museo/aristoteles.jpg"
+ },
+ {
+  "c": "Egia ez den zerbait esaten badut gustura ezeztatuko luketenetakoa naiz, eta hori esaten duena gustura ezeztatuko luketenetakoa […].",
+  "a": "Platon",
+  "o": "Gorgias 458a (Sokratesek dio)",
+  "e": "antigua",
+  "id": "platon",
+  "img": "media/retratos/museo/platon.jpg"
+ },
+ {
+  "c": "Horrelako bi eraztun balira, eta bata zuzenak eta bestea bidegabeak jarriko balu, inor ez litzateke, dirudienez, justizian irauteko bezain altzairuzkoa izango.",
+  "a": "Platon",
+  "o": "Errepublika II, 360b (Glaukonek dio)",
+  "e": "antigua",
+  "id": "platon",
+  "img": "media/retratos/museo/platon.jpg"
+ },
+ {
+  "c": "Marinelak ontziaren gobernuagatik liskarrean ari dira elkarren artean, eta bakoitzak uste du berak gidatu behar duela, artea inoiz ikasi gabe […].",
+  "a": "Platon",
+  "o": "Errepublika VI, 488b",
+  "e": "antigua",
+  "id": "platon",
+  "img": "media/retratos/museo/platon.jpg"
+ },
+ {
+  "c": "Idazkeraren gauza larria, Fedro, benetan pinturaren antza duela da: haren sorkariak ere bizirik baleude bezala agertzen dira, baina zerbait galdetuz gero, isilik geratzen dira solemnitate osoz.",
+  "a": "Platon",
+  "o": "Fedro 275d",
+  "e": "antigua",
+  "id": "platon",
+  "img": "media/retratos/museo/platon.jpg"
+ },
+ {
+  "c": "Gerra gauza guztien aita da eta guztien errege: batzuk jainko gisa erakutsi zituen, beste batzuk gizaki gisa; batzuk esklabo egin zituen, beste batzuk aske.",
+  "a": "Heraklito",
+  "o": "DK 22 B53 zatia",
+  "e": "antigua",
+  "id": "heraclito",
+  "img": "media/retratos/museo2/heraclito.jpg"
+ },
+ {
+  "c": "Dena sortu gabea eta galezina da, osoa, bakarra, higiezina eta mugarik gabea. Ez zen inoiz, ez da izango, orain baita, dena batera, bat, jarraitua.",
+  "a": "Parmenides",
+  "o": "DK 28 B8 zatia, 3-6",
+  "e": "antigua",
+  "id": "parmenides",
+  "img": "media/retratos/museo2/parmenides.jpg"
+ },
+ {
+  "c": "Hitzarmenez gozoa eta hitzarmenez mingotsa; hitzarmenez beroa, hitzarmenez hotza, hitzarmenez kolorea; baina egiaz, atomoak eta hutsa.",
+  "a": "Demokrito",
+  "o": "DK 68 B9 zatia (Sexto Enpirikoa, Matematikarien aurka VII, 135)",
+  "e": "antigua"
+ },
+ {
+  "c": "Hitza agintari ahaltsua da: gorputz txiki-txikiaz eta guztiz ikusezinaz egintza jainkotiarrak burutzen ditu; beldurra geldiarazi, pena kendu, poza sortu eta errukia areagotu dezake.",
+  "a": "Gorgias",
+  "o": "Helenaren laudorioa, 8 (DK 82 B11)",
+  "e": "antigua"
+ },
+ {
+  "c": "Inork ez dezala, gaztea delako, filosofatzea atzeratu, ezta, zaharra delako, filosofatzeaz nekatu ere. Arimaren osasunerako inor ez da goizegi edo beranduegi iristen.",
+  "a": "Epikuro",
+  "o": "Menekeori gutuna, 122 (Diogenes Laertziokoa, Bizitzak X)",
+  "e": "antigua",
+  "id": "epicuro",
+  "img": "media/retratos/museo/epicuro.jpg"
+ },
+ {
+  "c": "Ezjakinari dagokio besteei errua botatzea gauzak gaizki doazkionean; ikasten hasi denari, bere buruari; eta jada ikasia denari, ez besteari ez bere buruari.",
+  "a": "Epikteto",
+  "o": "Eskuliburua (Enkheiridion) 5",
+  "e": "antigua",
+  "img": "media/retratos/citas/epicteto.jpg"
+ },
+ {
+  "c": "Filosofia ez da herri-ofizio bat, ezta erakusteko egina ere; ez dago hitzetan, egintzetan baizik. […] Arima moldatu eta eraikitzen du, bizitza antolatzen du, ekintzak gidatzen ditu.",
+  "a": "Seneka",
+  "o": "Luziliori gutunak 16, 3",
+  "e": "antigua"
+ },
+ {
+  "c": "Erlaldearentzat onuragarria ez dena ez da erlearentzat ere onuragarria.",
+  "a": "Marko Aurelio",
+  "o": "Gogoetak VI, 54",
+  "e": "antigua"
+ },
+ {
+  "c": "Ez zara zu hilkorra, gorputz hau baizik; ezta zure forma horrek erakusten duena ere: bakoitzaren gogoa da bakoitza, eta ez hatzaz seinala daitekeen irudi hori.",
+  "a": "Zizeron",
+  "o": "Errepublikaz VI, 26 («Eszipionen ametsa»)",
+  "e": "antigua"
+ },
+ {
+  "c": "Ez irten kanpora; itzuli zeure baitara: barneko gizakiarengan bizi da egia. Eta zeure izaera aldakorra dela aurkitzen baduzu, gainditu zeure burua ere.",
+  "a": "San Agustin",
+  "o": "Egiazko erlijioaz (390-391) XXXIX, 72",
+  "e": "medieval",
+  "id": "agustin",
+  "img": "media/retratos/museo/agustin.jpg"
+ },
+ {
+  "c": "Enpirikoek, inurriaren erara, metatu eta metatutakoa erabili baino ez dute egiten; arrazionalek, armiarmen erara, beren baitatik ateratzen dute sarea. Erleak bitarteko bidea du.",
+  "a": "Francis Bacon",
+  "o": "Novum Organum (1620) I, 95. aforismoa",
+  "e": "modernoa",
+  "id": "francis_bacon",
+  "img": "media/retratos/museo2/bacon.jpg"
+ },
+ {
+  "c": "Eta guztietan okerrena, etengabeko beldurra eta heriotza bortitzaren arriskua; eta gizakiaren bizitza, bakartia, pobrea, desatsegina, basatia eta laburra.",
+  "a": "Thomas Hobbes",
+  "o": "Leviatan (1651) I, 13",
+  "e": "modernoa",
+  "id": "hobbes",
+  "img": "media/retratos/museo2/hobbes.jpg"
+ },
+ {
+  "c": "Hori da Leviatan handi haren sorrera, edo hobeto esanda —begirune handiagoz mintzatuz— jainko hilkor harena; berari zor dizkiogu, Jainko hilezkorraren azpian, gure bakea eta gure defentsa.",
+  "a": "Thomas Hobbes",
+  "o": "Leviatana (1651) II, 17",
+  "e": "modernoa",
+  "id": "hobbes",
+  "img": "media/retratos/museo2/hobbes.jpg"
+ },
+ {
+  "c": "Gizakia aske jaiotzen da, eta hala ere nonahi dago kateatuta.",
+  "a": "Rousseau",
+  "o": "Gizarte-kontratua (1762) I, 1",
+  "e": "modernoa",
+  "id": "rousseau",
+  "img": "media/retratos/museo/rousseau.jpg"
+ },
+ {
+  "c": "Lur-sail bat hesitu ondoren «hau nirea da» esatea bururatu zitzaion eta hura sinesteko bezain xaloa zen jendea aurkitu zuen lehena izan zen gizarte zibilaren benetako sortzailea.",
+  "a": "Rousseau",
+  "o": "Gizakien arteko desberdintasunaren jatorriari eta oinarriei buruzko diskurtsoa (1755), bigarren zatia",
+  "e": "modernoa",
+  "id": "rousseau",
+  "img": "media/retratos/museo/rousseau.jpg"
+ },
+ {
+  "c": "Beraz, emakumeen hezkuntza osoak gizonei begira egon behar du. Haiei atsegin ematea, haientzat baliagarri izatea, haiek maitatuak eta ohoratuak izatea […]: horra emakumeen betebeharrak garai guztietan.",
+  "a": "Rousseau",
+  "o": "Emile edo hezkuntzaz (1762) V",
+  "e": "modernoa",
+  "id": "rousseau",
+  "img": "media/retratos/museo/rousseau.jpg"
+ },
+ {
+  "c": "Bata eta bestea izan nahiko litzateke; baina, biak batzea zaila denez, askoz seguruagoa da beldurra eragitea maitatua izatea baino, bietako bat falta behar denean.",
+  "a": "Makiavelo",
+  "o": "Printzea (1513) XVII",
+  "e": "modernoa",
+  "id": "maquiavelo",
+  "img": "media/retratos/museo2/maquiavelo.jpg"
+ },
+ {
+  "c": "Adabakiak gara denok, eta hain ehundura itxuragabe eta askotarikoa dugu, ezen pieza bakoitzak, une bakoitzak, bere jokoa egiten baitu. Eta gu eta geu artean gu eta beste baten artean bezainbesteko aldea dago.",
+  "a": "Montaigne",
+  "o": "Saiakerak (1580) II, 1",
+  "e": "modernoa"
+ },
+ {
+  "c": "Klase menderatzailearen ideiak dira garai bakoitzean ideia menderatzaileak; hau da, gizartearen botere material menderatzailea den klasea da, aldi berean, haren botere espiritual menderatzailea.",
+  "a": "Karl Marx",
+  "o": "Ideologia alemana (1845-1846, F. Engelsekin), I, «Feuerbach»",
+  "e": "contemporanea",
+  "id": "marx",
+  "img": "media/retratos/museo/marx.jpg"
+ },
+ {
+  "c": "Jainkoaren kontzientzia gizakiaren autokontzientzia da; Jainkoaren ezagutza, gizakiak bere buruaz duen ezagutza.",
+  "a": "Feuerbach",
+  "o": "Kristautasunaren esentzia (1841), Sarrera, 2",
+  "e": "contemporanea"
+ },
+ {
+  "c": "Errukia da justizia aske ororen eta hurkoarekiko benetako maitasun ororen oinarri erreala.",
+  "a": "Schopenhauer",
+  "o": "Moralaren oinarriaz (1840), 16. §",
+  "e": "contemporanea"
+ },
+ {
+  "c": "Bere buruaren gainean, bere gorputzaren eta bere gogoaren gainean, norbanakoa subiranoa da.",
+  "a": "John Stuart Mill",
+  "o": "Askatasunaz (1859), I. kap.",
+  "e": "contemporanea",
+  "id": "mill",
+  "img": "media/retratos/museo/mill.jpg"
+ },
+ {
+  "c": "Gizarte zibilizatu bateko kide baten gainean, haren borondatearen aurka, boterea zilegiz erabiltzeko helburu bakarra besteei kalte egitea saihestea da.",
+  "a": "John Stuart Mill",
+  "o": "Askatasunaz (1859), I. kap.",
+  "e": "contemporanea",
+  "id": "mill",
+  "img": "media/retratos/museo/mill.jpg"
+ },
+ {
+  "c": "Eskubide naturalak zentzugabekeria hutsa dira; eskubide natural eta preskribaezinak, zentzugabekeria erretorikoa, zankoen gaineko zentzugabekeria.",
+  "a": "Jeremy Bentham",
+  "o": "Falazia anarkikoak (1796an idatzia; arg. 1843), II. artikulua",
+  "e": "modernoa",
+  "id": "bentham",
+  "img": "media/retratos/museo2/bentham.jpg"
+ },
+ {
+  "c": "Ustez besterenezinak ziren Gizakiaren Eskubideak aplikaezinak zirela frogatu zen —baita konstituzioak haietan oinarritzen zituzten herrialdeetan ere— inongo Estatu subiranoren hiritar ez ziren pertsonak agertu bezain laster.",
+  "a": "Arendt",
+  "o": "Totalitarismoaren jatorriak (1951), II. zatia, 9. kap.",
+  "e": "contemporanea",
+  "id": "arendt",
+  "img": "media/retratos/museo/arendt.jpg"
+ },
+ {
+  "c": "Egin lan gaitz zehatzak ezabatzeko, eta ez ongi abstraktuak gauzatzeko.",
+  "a": "Karl Popper",
+  "o": "«Utopia eta indarkeria» (1947), in Aieruak eta ezeztapenak (1963), 18. kap.",
+  "e": "contemporanea",
+  "id": "popper",
+  "img": "media/retratos/museo/popper.jpg"
+ },
+ {
+  "c": "Ez izan beldur zure iritzietan bitxia izateko, gaur onartua den iritzi oro bitxia izan baitzen behinola.",
+  "a": "Bertrand Russell",
+  "o": "«The Best Answer to Fanaticism: Liberalism», The New York Times Magazine (1951-12-16), «Dekalogo liberala», 7",
+  "e": "contemporanea",
+  "id": "russell",
+  "img": "media/retratos/museo2/russell.jpg"
+ },
+ {
+  "c": "Mundua nolakoa izan behar den irakasteari buruz beste hitz bat esateko: horretarako filosofia beti iristen da beranduegi. […] Minervaren hontzak ez du hegan egiten ilunabarra iritsi arte.",
+  "a": "Hegel",
+  "o": "Zuzenbidearen filosofiaren oinarriak (1820), Hitzaurrea",
+  "e": "contemporanea",
+  "id": "hegel",
+  "img": "media/retratos/museo/hegel.jpg"
+ },
+ {
+  "c": "Gizakiak ez du naturarik; duena… historia da.",
+  "a": "José Ortega y Gasset",
+  "o": "Historia sistema gisa (1935)",
+  "e": "contemporanea",
+  "id": "ortega",
+  "img": "media/retratos/museo/ortega.jpg"
+ },
+ {
+  "c": "Poesian zuzenean aurkitzen dugu gizaki zehatza, banakoa. Filosofian, gizakia bere historia unibertsalean.",
+  "a": "María Zambrano",
+  "o": "Filosofia eta poesia (1939)",
+  "e": "contemporanea"
+ },
+ {
+  "c": "Bidegabekeria halakoa bada, non beste baten aurkako bidegabekeriaren eragile izatea eskatzen baitizu, orduan zera diotsut: hautsi legea.",
+  "a": "Thoreau",
+  "o": "Desobedientzia zibila (1849)",
+  "e": "contemporanea"
+ },
+ {
+  "c": "Zoritxarrekoek ez dute mundu honetan beste ezer behar, arreta jartzeko gai diren gizakiak baizik. […] Hurkoarekiko maitasunaren betetasuna, besterik gabe, hau galdetzeko gai izatean datza: «Zein da zure oinazea?».",
+  "a": "Simone Weil",
+  "o": "«Eskola-ikasketen erabilera onari buruzko gogoetak, Jainkoaren maitasuna lantzeko bide gisa» (1942), in Jainkoaren zain",
+  "e": "contemporanea"
+ },
+ {
+  "c": "Gizon guztiak aske jaiotzen badira, nola da posible emakume guztiak esklabo jaiotzea?",
+  "a": "Mary Astell",
+  "o": "Ezkontzari buruzko gogoeta batzuk, 3. argitalpenaren hitzaurrea (1706)",
+  "e": "modernoa"
+ },
+ {
+  "c": "Goi-kargudunen txostenekin konformatzen den errege absolutu baten moduan jokatzen duzu […]. Sartu zeure baitan, zeure sakonera, eta ikasi lehenik zeure burua ezagutzen.",
+  "a": "Freud",
+  "o": "«Psikoanalisiaren zailtasun bat» (1917)",
+  "e": "contemporanea",
+  "id": "freud",
+  "img": "media/retratos/museo2/freud.jpg"
  }
 ];
