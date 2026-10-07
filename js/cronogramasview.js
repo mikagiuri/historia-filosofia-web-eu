@@ -137,7 +137,9 @@ function cronoSvg(c){
     svg += '<text class="lane-lbl" x="8" y="' + (y + rowH / 2 + 4) + '">' + escapeCrono(nm) + '</text>';
     if (a.start != null && a.end != null && a.end >= a.start){
       const bx = xOf(a.start), bw = Math.max(4, xOf(a.end) - xOf(a.start));
-      svg += '<rect class="cbar" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colOf(a, i) + '">' +
+      // (07-10) barra con blanco (o casi): borde fino para que se vea sobre el fondo claro
+      const claro = (a.colors || []).some(k => /^#f[0-9a-f]f[0-9a-f]f[0-9a-f]$|^#fff$/i.test(k));
+      svg += '<rect class="cbar' + (claro ? ' cbar-claro' : '') + '" x="' + bx.toFixed(1) + '" y="' + (y + (rowH - barH) / 2) + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + colOf(a, i) + '">' +
         (a.note ? '<title>' + escapeCrono(a.note) + '</title>' : '') + '</rect>';
       // años SIEMPRE visibles: a la derecha de la barra, o a la izquierda si no cabe (nunca recortados)
       const lbl = cronoYear(a.start) + '–' + (a.vive ? '' : cronoYear(a.end)), lblW = lbl.length * 6;   // (01-10) «vive»: rótulo abierto
