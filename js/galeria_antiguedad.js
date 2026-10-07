@@ -85,7 +85,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_stamnos_birmingham.jpg",
-  "t": "Del mito al logos",
+  "t": "Mitotik logosera",
   "pie": "Ánfora o stamnos griego de figuras rojas (Birmingham Museum & Art Gallery) · Birmingham Museums Trust · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/BruUCfahWbM",
   "bloque": "A",
@@ -94,7 +94,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_hidria_sicilia.jpg",
-  "t": "Del mito al logos",
+  "t": "Mitotik logosera",
   "pie": "Hidria de figuras rojas de Sicilia (400-200 a. C.; Birmingham Museum & Art Gallery) · Birmingham Museums Trust · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/VOidydLVduA",
   "bloque": "A",

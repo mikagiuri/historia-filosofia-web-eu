@@ -87,7 +87,7 @@ const GALERIA_TEMAS2 = [
  },
  {
   "f": "media/galeria_museo/temas2/mito_logos_MET_Terracotta_psykter_vase_for_cooling_wine.jpg",
-  "t": "Del mito al logos",
+  "t": "Mitotik logosera",
   "pie": "Terracotta psykter (vase for cooling wine) · Oltos · ca. 520–510 BCE · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",

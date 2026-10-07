@@ -70,7 +70,7 @@ const GALERIA_EPOCAS = [
  },
  {
   "f": "media/galeria_museo/epocas/mito_logos_Attic_Red_Figure_Calyx_Krater_Fragment_by_Euphronios_Getty_103TF4.jpg",
-  "t": "Del mito al logos",
+  "t": "Mitotik logosera",
   "pie": "Attic Red-Figure Calyx Krater Fragment, by Euphronios (Getty 103TF4) · Euphronios · 2024-08-28 15:01:47 · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Contexto histórico · museo (dominio público)",
@@ -338,7 +338,7 @@ const GALERIA_EPOCAS = [
  },
  {
   "f": "media/galeria_museo/epocas/ilustracion_Encyclop_die_ou_Dictionnaire_raisonn_des_sciences_des_arts_et_des_m_tiers_fron.jpg",
-  "t": "La Ilustración",
+  "t": "Ilustrazioa",
   "pie": "Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers frontispice titre 1751 · Unknown author Unknown author · 1751 · PD · Wikimedia Commons",
   "bloque": "C",
   "unidad": "Contexto histórico · museo (dominio público)",
@@ -346,7 +346,7 @@ const GALERIA_EPOCAS = [
  },
  {
   "f": "media/galeria_museo/epocas/ilustracion_Encyclopedie_de_D_Alembert_et_Diderot_Premiere_Page_ENC_1_NA5.jpg",
-  "t": "La Ilustración",
+  "t": "Ilustrazioa",
   "pie": "Encyclopedie de D'Alembert et Diderot - Premiere Page - ENC 1-NA5 · Long List of Contributors to the Encyclopédie · circa 1751 date QS:P,+1751-00-00T00:00:00Z/9,P1480,Q5727902 · PD · Wikimedia Commons",
   "bloque": "C",
   "unidad": "Contexto histórico · museo (dominio público)",
@@ -354,7 +354,7 @@ const GALERIA_EPOCAS = [
  },
  {
   "f": "media/galeria_museo/epocas/ilustracion_Encyclopedie_frontispice_full.jpg",
-  "t": "La Ilustración",
+  "t": "Ilustrazioa",
   "pie": "Encyclopedie frontispice full · Benoît-Louis Prévost / Charles-Nicolas Cochin · 1764 (pinx) &amp; 1772 (sculp.) · PD · Wikimedia Commons",
   "bloque": "C",
   "unidad": "Contexto histórico · museo (dominio público)",

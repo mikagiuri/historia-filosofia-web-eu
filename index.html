@@ -74,14 +74,14 @@
           <button data-view="cronogramas">Kronogramak</button>
           <button data-view="genealogias">Genealogiak</button>
           <button data-view="esquemas">Eskemak</button>
-          <button data-view="esqautor">Esquemas de autor</button>
+          <button data-view="esqautor">Egileen eskemak</button>
         </div>
       </div>
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Ariketak</span>
         <div class="navmenu">
           <button data-view="pau">Probaren gida</button>
-          <button data-view="comentario">Comentario de texto</button>
+          <button data-view="comentario">Testu-iruzkina</button>
           <button data-view="disertaciones">Disertazioak</button>
           <button data-view="lecturas">Irakurgaiak</button>
           <button data-view="dilemas">Dilema etikoak</button>
@@ -141,7 +141,7 @@
     <div class="filterbar" id="lecturafilter" role="group" aria-label="Iragazi irakurgaiak"></div>
     <div class="chips" id="lecturachips" role="group" aria-label="Aukeratu irakurgaia"></div>
     <div class="toolrow" id="comentariolink" style="display:none">
-      <button class="btn" data-go="comentario">✍️ Comentar este texto (método guiado) →</button>
+      <button class="btn" data-go="comentario">✍️ Iruzkindu testu hau (metodo gidatua) →</button>
     </div>
     <div class="theory-layout">
       <nav class="toc" id="ltoc" aria-label="Irakurgaiaren aurkibidea"></nav>
@@ -181,7 +181,7 @@
   <section class="view" id="comentario">
     <p class="eyebrow">USE</p>
     <h1 class="title">Testu-komentarioa, gidatua</h1>
-    <p class="lead">El método paso a paso para comentar un texto de Historia de la Filosofía (Ejercicio 1 de la PAU): del problema a la tesis, con rúbrica, plantilla imprimible y <strong>ejemplos resueltos</strong> (Platón, Descartes, Kant, Nietzsche, Beauvoir).</p>
+    <p class="lead">Filosofiaren Historiako testu bat komentatzeko urratsez urratseko metodoa (EBGren 1. ariketa): arazotik tesiraino, errubrikarekin, inprimatzeko txantiloiarekin eta <strong>ebatzitako adibideekin</strong> (Platon, Descartes, Kant, Nietzsche, Beauvoir).</p>
     <div class="chips" id="comentariochips" role="group" aria-label="Aukeratu komentario-gida"></div>
     <div class="theory-layout">
       <nav class="toc" id="comtoc" aria-label="Gidaren aurkibidea"></nav>
@@ -239,7 +239,7 @@
   <!-- ESQUEMAS DE AUTOR -->
   <section class="view" id="esqautor">
     <p class="eyebrow">Bisuala</p>
-    <h1 class="title">Esquemas de autor</h1>
+    <h1 class="title">Egileen eskemak</h1>
     <p class="lead"><strong>25 esquemas por tema/autor</strong> del temario (del departamento), en formato textual limpio e imprimible —un autor, una página de repaso para la PAU—. Complementan los grafos de <strong>Eskemak</strong>.</p>
     <div class="filterbar" id="eafilter" role="group" aria-label="Filtrar esquemas de autor"></div>
     <div id="eabody"></div>
@@ -299,7 +299,7 @@
             <span class="side">Anverso</span>
             <div class="emoji" id="fcemoji" aria-hidden="true"></div>
             <div class="front-t" id="fcfront"></div>
-            <div class="hint">Pulsa para ver la respuesta</div>
+            <div class="hint">Sakatu erantzuna ikusteko</div>
           </div>
           <div class="face back">
             <span class="side">Reverso</span>
@@ -332,7 +332,7 @@
   <section class="view" id="reto">
     <p class="eyebrow">Tresna</p>
     <h1 class="title">Juego · Reto</h1>
-    <p class="lead">Repasa jugando: contrarreloj, con puntos por velocidad y racha. Tu mejor marca se guarda en este navegador.</p>
+    <p class="lead">Errepasatu jolasean: denboraren aurka, abiaduragatiko eta segidagatiko puntuekin. Zure markarik onena nabigatzaile honetan gordetzen da.</p>
     <div id="retobox"></div>
   </section>
 
@@ -355,7 +355,7 @@
   <section class="view" id="parejas">
     <p class="eyebrow">Tresna</p>
     <h1 class="title">Bikoteak</h1>
-    <p class="lead">Empareja cada término del glosario con su definición, contrarreloj. Suma puntos y racha; se guarda tu mejor marca en este navegador.</p>
+    <p class="lead">Lotu glosarioko termino bakoitza bere definizioarekin, denboraren aurka. Batu puntuak eta segida; zure markarik onena nabigatzaile honetan gordetzen da.</p>
     <div id="parbox"></div>
   </section>
 
@@ -372,15 +372,15 @@
 
   <section class="view" id="eudaimonia">
     <p class="eyebrow">Jokoa</p>
-    <h1 class="title">Eudaimonía · el juego de la ética de Aristóteles</h1>
-    <p class="lead">Encarna a un pensador griego y afronta dilemas morales: tus decisiones, la prudencia y el azar deciden si alcanzas la buena vida.</p>
+    <h1 class="title">Eudaimonia · Aristotelesen etikaren jokoa</h1>
+    <p class="lead">Izan zaitez pentsalari greko bat eta egin aurre dilema moralei: zure erabakiek, zuhurtziak eta zoriak erabakitzen dute bizitza ona lortzen duzun ala ez.</p>
     <div id="aribox"></div>
   </section>
 
   <section class="view" id="republica">
     <p class="eyebrow">Jokoa</p>
-    <h1 class="title">La República · el juego de la ciudad de Platón</h1>
-    <p class="lead">Reparte la población en las tres clases (guardianes, guerreros, productores) y mantén la armonía frente a los peligros de cada turno.</p>
+    <h1 class="title">Errepublika · Platonen hiriaren jokoa</h1>
+    <p class="lead">Banatu biztanleria hiru klaseetan (zaindariak, gerlariak, ekoizleak) eta mantendu harmonia txanda bakoitzeko arriskuen aurrean.</p>
     <div id="repbox"></div>
   </section>
 

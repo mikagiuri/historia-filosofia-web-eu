@@ -1,5 +1,5 @@
 "use strict";
-/* ===== Vista "Esquemas de autor" ===== depende de: esquemas_autor.js =====
+/* ===== Vista "Egileen eskemak" ===== depende de: esquemas_autor.js =====
    Muestra los esquemas por tema/autor (mapas ds-* del departamento) en formato
    textual limpio, imprimible. Complementa la vista "Eskemak" (grafos mermaid). */
 
