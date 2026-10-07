@@ -92,3 +92,4 @@
 #logica .lg-marca{ fill:var(--bad); fill-opacity:.6; stroke:var(--ink); stroke-width:1.5 }
 #logica .lg-z2 th:nth-child(n+4), #logica .lg-z2 td:nth-child(n+4){ white-space:normal; font-family:var(--sans); text-align:left; min-width:8.5rem }
 #logica .lg-par{ scroll-margin-top:5.5rem }   /* (07-10) enlace profundo a una ficha: que la cabecera fija no tape el título */
+#logica .lg-intro{ margin:.2rem 0 1rem; max-width:62rem; line-height:1.55 }   /* (08-10) introducción breve de cada pestaña */

@@ -1814,7 +1814,9 @@ const ILUSTRES = {
   "idea": "Guztiaz metodikoki zalantza eginez, egia zalantzaezin batera iristen da, «pentsatzen dut, beraz banaiz», eta hortik abiatuta arrazoiak ziurtasunez berreraikitzen du ezagutza osoa.",
   "bio": "<p>René Descartes Frantziako familia noble batean jaio zen, eta La Flècheko jesuiten ikastetxean ikasi zuen; han, matematika baino ez zitzaion iruditu jakintza segurua. Soldadu boluntario gisa aritu ondoren, 1628tik 1649ra Herbehereetan bizi izan zen, askatasun intelektual handiagoa baitzuen han, eta bertan idatzi zituen bere lan nagusiak. Suediako Kristina erreginak gonbidatuta, Stockholmen hil zen 1650ean.</p>\n<p>Descartes <strong>arrazionalismoaren</strong> sortzailea da. Zientzia guztietarako metodo bakarra bilatzen du, matematikan inspiratua. <strong>Zalantza metodikoa</strong> aplikatzen du: zentzumenek, ametsak eta jeinu gaiztoaren hipotesiak guztiaz zalantza eragiten dute, egia bakar batez izan ezik: <strong>cogito</strong>a (pentsatzen dut, beraz banaiz). Hortik ateratzen du ziurtasun-irizpidea: argi eta bereizi hautematen dena da egiazkoa. Jainkoak, haren existentzia frogatzen baitu, bermatzen du ezagutza hori. Errealitatea hiru substantziaz osatuta dago: Jainkoa, <em>res cogitans</em> edo substantzia pentsatzailea eta <em>res extensa</em> edo materia. <strong>Dualismo</strong> horrek irekita uzten du arima eta gorputza nola erlazionatzen diren, eta berak guruin pinealean kokatu zuen erlazio hori.</p>\n<p>Descartes filosofia modernoaren aitatzat hartzen da, egia subjektu pentsatzailearen ebidentzian kokatzen duelako. Spinoza, Malebranche eta Leibniz haren dualismoa ebazten saiatu ziren; enpiristek, Lockek eta Humek adibidez, haren jaiotzetiko ideiak baztertu zituzten, eta Kantek bi korronteen arteko sintesia bilatu zuen.</p>",
   "obras": [
-   "Metodoaren diskurtsoa (1637)",
+   "Espiritua gidatzeko arauak (1628 inguruan; 1701ean argitaratua)",
+   "Mundua (1633; Galileoren kondenaren ondoren argitaratzeari uko egin zion)",
+   "Metodoaren diskurtsoa, Dioptrika, Meteoroak eta Geometria saiakerekin (1637)",
    "Meditazio metafisikoak (1641)",
    "Filosofiaren printzipioak (1644)",
    "Arimaren grinak (1649)"
@@ -1824,12 +1826,46 @@ const ILUSTRES = {
   "tradicion": false,
   "vida": [
    {
+    "a": 1604,
+    "b": 1612,
+    "t": "La Flèche-ko jesuiten ikastetxean ikasten du"
+   },
+   {
+    "a": 1616,
+    "t": "Zuzenbidean lizentziatzen da Poitiersen"
+   },
+   {
+    "a": 1618,
+    "t": "Soldadu boluntarioa Herbehereetan; Beeckman ezagutzen du"
+   },
+   {
+    "a": 1619,
+    "t": "Azaroaren 10eko hiru ametsak"
+   },
+   {
+    "a": 1628,
+    "b": 1649,
+    "t": "Herbehereetan bizi da"
+   },
+   {
+    "a": 1633,
+    "t": "Galileoren kondenaren ondoren, Mundua argitaratzeari uko egiten dio"
+   },
+   {
     "a": 1637,
     "t": "Metodoaren diskurtsoa"
    },
    {
     "a": 1641,
     "t": "Meditazio metafisikoak"
+   },
+   {
+    "a": 1644,
+    "t": "Filosofiaren printzipioak"
+   },
+   {
+    "a": 1649,
+    "t": "Arimaren grinak; Kristina erreginak gonbidatuta, Suediara doa"
    }
   ],
   "block": "ren",

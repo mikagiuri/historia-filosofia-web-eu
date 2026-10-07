@@ -5,6 +5,10 @@
 
 let eaBlock = "all";
 const EA_BLOCKS = { A: "Antzinakoa", B: "Erdi Arokoa-Modernoa", C: "Garaikidea" };
+/* (07-10) formato: esquema (listas), tabla por autor o tabla sinóptica del bloque (una fila por autor) */
+let eaFmt = "esq";
+try { const f = localStorage.getItem("eaFmt"); if (f === "tab" || f === "sin") eaFmt = f; } catch (e) {}
+const EA_FMTS = { esq: "Eskemak", tab: "Taulak", sin: "Sinoptikoa" };
 
 const EA_CSS = `
 #esqautor .ea-actions{display:flex;align-items:center;gap:12px;margin:6px 0 16px;flex-wrap:wrap}
@@ -25,6 +29,17 @@ const EA_CSS = `
 #esqautor .ea-d{margin:0 0 6px;font-size:.94rem}
 #esqautor .ea-a{color:var(--muted);font-style:italic}
 #esqautor .ea-idea{margin:14px 0 0;padding:10px 12px;border-left:4px solid var(--hf);background:var(--surface-2);border-radius:8px;font-size:.94rem}
+#esqautor .ea-tw{overflow-x:auto;margin:4px 0 0}
+#esqautor table.ea-tab{width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.45}
+#esqautor table.ea-tab th,#esqautor table.ea-tab td{border:1px solid var(--line);padding:7px 9px;vertical-align:top;text-align:left}
+#esqautor table.ea-tab thead th{background:var(--surface-2);color:var(--ink);font-weight:600}
+#esqautor table.ea-tab td:first-child{font-weight:600;color:var(--hf);width:20%}
+#esqautor table.ea-tab ul{list-style:none;margin:0;padding:0;display:grid;gap:3px}
+#esqautor table.ea-tab li{padding-left:0}
+#esqautor table.ea-tab li::before{display:none}
+#esqautor table.ea-sin{min-width:760px}
+#esqautor table.ea-sin td:first-child{width:16%}
+#esqautor table.ea-sin td:nth-child(2){width:22%;font-style:italic;color:var(--muted)}
 /* Solo cuando esta vista es la activa: este script se carga en todas las vistas y un
    body *{visibility:hidden} sin acotar dejaba en blanco la impresión de las demás. */
 @media print{
@@ -46,9 +61,15 @@ function renderEAFilter(){
   box.innerHTML = '<div class="fgroup"><span class="flabel">Blokea</span>' +
     ["all", "A", "B", "C"].map(function (b){
       return '<button class="fbtn" data-eb="' + b + '" aria-pressed="' + (b === eaBlock) + '">' +
-        (b === "all" ? "Guztiak" : EA_BLOCKS[b]) + '</button>'; }).join("") + '</div>';
+        (b === "all" ? "Guztiak" : EA_BLOCKS[b]) + '</button>'; }).join("") + '</div>' +
+    '<div class="fgroup"><span class="flabel">Formatua</span>' +
+    Object.keys(EA_FMTS).map(function (f){
+      return '<button class="fbtn" data-ef="' + f + '" aria-pressed="' + (f === eaFmt) + '">' + EA_FMTS[f] + '</button>'; }).join("") + '</div>';
   box.querySelectorAll("[data-eb]").forEach(function (b){ b.addEventListener("click", function (){
     eaBlock = b.dataset.eb; renderEAFilter(); renderEABody(); }); });
+  box.querySelectorAll("[data-ef]").forEach(function (b){ b.addEventListener("click", function (){
+    eaFmt = b.dataset.ef; try { localStorage.setItem("eaFmt", eaFmt); } catch (e) {}
+    renderEAFilter(); renderEABody(); }); });
 }
 
 function renderEABody(){
@@ -62,7 +83,32 @@ function renderEABody(){
       (i.a ? ' <span class="ea-a">(' + eaEsc(i.a) + ')</span>' : '') +
       (Array.isArray(i.c) && i.c.length ? '<ul>' + i.c.map(item).join("") + '</ul>' : '') + '</li>';
   }
+  /* Sinóptica: una fila por autor/tema del bloque (o de todos), columnas comunes */
+  if (eaFmt === "sin"){
+    box.innerHTML = '<article class="easchema"><div class="ea-tw"><table class="ea-tab ea-sin"><thead><tr>' +
+      '<th>Egilea edo gaia</th><th>Galdera</th><th>Atalak</th><th>Ideia gakoa</th></tr></thead><tbody>' +
+      list.map(function (sch){
+        const heads = (sch.sections || []).filter(function (s){ return s.heading; }).map(function (s){
+          return '<li><strong>' + eaEsc(s.heading) + '</strong>' + (s.d ? ': ' + eaEsc(s.d) : '') + '</li>'; }).join("");
+        return '<tr><td>' + eaEsc(sch.title) + '</td><td>' + eaEsc(sch.pregunta || "") + '</td><td>' +
+          (heads ? '<ul>' + heads + '</ul>' : '') + '</td><td>' + eaEsc(sch.idea || "") + '</td></tr>';
+      }).join("") + '</tbody></table></div></article>';
+    eaIlu();
+    return;
+  }
   box.innerHTML = list.map(function (sch){
+    if (eaFmt === "tab"){   /* tabla por autor: una fila por apartado */
+      const rows = (sch.sections || []).map(function (s){
+        const items = (s.items || []).map(item).join("");
+        return '<tr><td>' + eaEsc(s.heading || "") + '</td><td>' + (s.d ? eaEsc(s.d) : '') +
+          (s.a ? ' <span class="ea-a">(' + eaEsc(s.a) + ')</span>' : '') + '</td><td>' + (items ? '<ul>' + items + '</ul>' : '') + '</td></tr>';
+      }).join("");
+      return '<article class="easchema"><h2>' + eaEsc(sch.title) + '</h2>' +
+        (sch.pregunta ? '<p class="ea-q">' + eaEsc(sch.pregunta) + '</p>' : '') +
+        '<div class="ea-tw"><table class="ea-tab"><thead><tr><th>Atala</th><th>Ideia</th><th>Kontzeptuak eta egileak</th></tr></thead><tbody>' +
+        rows + '</tbody></table></div>' +
+        (sch.idea ? '<p class="ea-idea"><strong>Ideia gakoa:</strong> ' + eaEsc(sch.idea) + '</p>' : '') + '</article>';
+    }
     const secs = (sch.sections || []).map(function (s){
       const h = s.heading ? '<h3>' + eaEsc(s.heading) + '</h3>' : '';
       const d = s.d || s.a ? '<p class="ea-d">' + (s.d ? eaEsc(s.d) : '') + (s.a ? ' <span class="ea-a">(' + eaEsc(s.a) + ')</span>' : '') + '</p>' : '';
