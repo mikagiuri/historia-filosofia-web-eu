@@ -745,7 +745,7 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Iraganeko esperientzietatik etorkizunari buruzko ondorio orokorrak ateratzeko joera da; Humerentzat ezin da logikoki frogatu, ohiturak eta probabilitateak sostengatzen dute."
+  "def": "Indukzioa justifikatzeko zailtasuna: zerbait beti gertatu izanak ez du logikoki bermatzen gertatzen jarraituko duenik. Humerentzat, itxaropen hori ez du arrazoiak oinarritzen, ohiturak baizik."
  },
  {
   "subject": "hf",
