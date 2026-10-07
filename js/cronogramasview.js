@@ -119,7 +119,17 @@ function cronoSvg(c){
   if (start < 0 && end > 0){ const xz = xOf(0); svg += '<line class="zero" x1="' + xz.toFixed(1) + '" y1="' + (padTop - 8) + '" x2="' + xz.toFixed(1) + '" y2="' + (H - 8) + '"/>'; }
 
   const colors = ["var(--accent)", "var(--accent-2)", "var(--fil)", "var(--hf)", "var(--ipc)"];
-  const colOf = (a, i) => grps && a.grp != null ? cronoGrpColor(a.grp, grps[a.grp]) : colors[i % colors.length];
+  // (07-10) «colors» en una fila: un color propio o, con varios, un degradado (influencias: del maestro al discípulo)
+  let defs = "";
+  const colOf = (a, i) => {
+    if (a.colors && a.colors.length > 1){
+      const gid = "cg-" + String(c.id).replace(/\W/g, "") + "-" + i, n = a.colors.length - 1;
+      defs += '<linearGradient id="' + gid + '">' + a.colors.map((k, j) => '<stop offset="' + (j / n * 100).toFixed(0) + '%" stop-color="' + k + '"/>').join("") + '</linearGradient>';
+      return "url(#" + gid + ")";
+    }
+    if (a.colors && a.colors.length) return a.colors[0];
+    return grps && a.grp != null ? cronoGrpColor(a.grp, grps[a.grp]) : colors[i % colors.length];
+  };
   axes.forEach((a, i) => {
     const y = padTop + i * rowH;
     svg += '<rect class="lane-bg" x="0" y="' + (y + (rowH - barH) / 2 - 2) + '" width="' + W + '" height="' + (barH + 4) + '" rx="4" opacity="' + (i % 2 ? ".5" : ".22") + '"/>';
@@ -142,8 +152,10 @@ function cronoSvg(c){
       svg += '<text class="bar-yr" x="' + (xOf(a.start) + 9).toFixed(1) + '" y="' + (y + rowH / 2 + 4) + '" text-anchor="start">' + (a.fl ? CRONO_FL : "") + cronoYear(a.start) + '</text>';
     }
   });
+  if (defs) svg = svg.replace(/^(<svg[^>]*>)/, "$1<defs>" + defs + "</defs>");
   svg += '</svg>';
   if (hasFl && axes.some(a => a.fl)) svg += '<p class="crono-leg-note">' + CRONO_FL_NOTE + '</p>';
+  if (c.nota) svg += '<p class="crono-leg-note">' + escapeCrono(c.nota) + '</p>';   // (07-10) nota propia del cronograma (p. ej. qué significan los colores)
   return legend + svg;
 }
 /* botones de escuela (color + nombre) y de periodo: pulsado = visible; «Todas/Todos» y «Ninguna/Ninguno» para empezar de cero */
