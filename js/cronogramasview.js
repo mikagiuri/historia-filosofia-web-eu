@@ -88,11 +88,24 @@ function cronoSvg(c){
   // orden cronológico (por año de inicio, luego de fin): la línea se lee de arriba a abajo en el tiempo
   const key = v => (v == null ? 1e9 : v);
   axes = axes.slice().sort((a, b) => (c.porGrupo ? key(a.grp) - key(b.grp) : 0) || key(a.start) - key(b.start) || key(a.end) - key(b.end));   // (01-10) «porGrupo»: filas juntas por grupo (p. ej. por países)
-  // (29-09) con escuelas (c.groups) y periodos (c.periods): solo lo activo; la escala no cambia al ocultar
+  // (29-09) con escuelas (c.groups) y periodos (c.periods): solo lo activo
   const grps = c.groups || null, pers = c.periods || null;
   if (cronoHiddenFor !== c.id){ cronoHidden = new Set(); cronoHiddenFor = c.id; }
   const hasFl = axes.some(a => a.fl);
+  const total = axes.length;
   axes = axes.filter(a => !(grps && cronoHidden.has("g:" + a.grp)) && !(pers && cronoHidden.has("p:" + a.per)));
+  // (07-10) con algo oculto, la escala se ajusta a lo visible (redondeada al paso del eje); con todo visible, la de siempre
+  if (axes.length && axes.length < total){
+    let vs = Infinity, ve = -Infinity;
+    axes.forEach(a => { if (a.start != null){ vs = Math.min(vs, a.start); ve = Math.max(ve, a.end != null ? a.end : a.start); } });
+    if (isFinite(vs)){
+      const st = niceStep(Math.max(ve - vs, 10));
+      // redondeado al paso, pero sin salirse del intervalo completo (p. ej. no pasar de hoy)
+      const s0 = start, e0 = end;
+      start = Math.max(s0, Math.floor(vs / st) * st); end = Math.min(e0, Math.ceil(ve / st) * st);
+      if (end <= start){ start = s0; end = e0; }
+    }
+  }
   const legend = (pers ? cronoLegend("p", CRONO_PERIODOS, pers, CRONO_TODOS, CRONO_NINGUNO) : "") +
     (grps ? cronoLegend("g", c.groupsLabel || (grps.some(g => g.color) ? CRONO_EPOCAS : CRONO_ESCUELAS), grps, CRONO_TODAS, CRONO_NINGUNA) : "");   // (01-10) «groupsLabel»: rótulo propio de la leyenda
   if (!axes.length) return legend + '<p class="lead crono-none">' + CRONO_NONE + '</p>';
