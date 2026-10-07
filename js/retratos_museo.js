@@ -482,6 +482,19 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File%3ARosalind_Franklin_CC-BY-SA.png"
  },
  {
+  "slug": "cassirer",
+  "name": "Ernst Cassirer",
+  "aliases": [
+   "Ernst Cassirer",
+   "Cassirer"
+  ],
+  "file": "media/retratos/museo/cassirer.jpg",
+  "title": "Ernst Cassirer",
+  "artist": "Center for Advanced Research in Phenomenology - CARP http://www.phenomenologycenter.org",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File%3AErnst_Cassirer.jpg"
+ },
+ {
   "slug": "popper",
   "name": "Karl Popper",
   "aliases": [

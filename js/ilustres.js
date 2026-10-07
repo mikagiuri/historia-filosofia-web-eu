@@ -479,7 +479,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-preso"
+   "hf-preso",
+   "hf-helenismo"
   ]
  },
  "hipias": {
@@ -705,7 +706,9 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-mito",
+   "hf-sofistas",
    "hf-aa",
+   "hf-platon",
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
@@ -751,7 +754,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-helenismo"
+  ]
  },
  "pirron": {
   "name": "Pirron Elisekoa",
@@ -1247,6 +1252,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-aa",
+   "hf-antropologia",
+   "hf-medieval",
    "hf-fe-razon"
   ]
  },
@@ -1350,6 +1357,7 @@ const ILUSTRES = {
   "temas": [
    "hf-historicidad",
    "hf-aa",
+   "hf-antropologia",
    "hf-medieval",
    "hf-fe-razon"
   ]
@@ -1684,7 +1692,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-racionalismo"
+  ]
  },
  "galileo": {
   "name": "Galileo Galilei",
@@ -2034,6 +2044,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-racionalismo",
    "hf-metafisica",
    "hf-descartes-makro"
   ]
@@ -2264,7 +2275,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-metafisica"
+  ]
  },
  "smith": {
   "name": "Adam Smith",
@@ -2471,6 +2484,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-modernidad",
+   "hf-etica-deber",
    "hf-sospecha"
   ]
  },
@@ -2577,6 +2591,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
+   "hf-metafisica",
    "hf-ilustracion",
    "hf-etica-deber",
    "hf-sospecha",
@@ -2769,6 +2784,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-racionalismo",
    "hf-analitica"
   ]
  },
@@ -2863,6 +2879,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-historicidad",
    "hf-analitica"
   ]
  },
@@ -3036,6 +3053,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-platon",
+   "hf-politica",
+   "hf-sospecha",
    "hf-capitalismo",
    "hf-analitica"
   ]
@@ -3194,6 +3214,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-metafisica",
    "hf-descartes-makro"
   ]
  },
@@ -3549,7 +3570,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-utilitarismo",
-   "hf-etica-deber"
+   "hf-etica-deber",
+   "hf-analitica"
   ]
  },
  "ingham": {

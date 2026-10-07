@@ -542,6 +542,13 @@ const CITAS = [
   "img": "media/retratos/citas/dussel.jpg"
  },
  {
+  "c": "Gizakia animalia sinbolikoa da.",
+  "a": "Ernst Cassirer",
+  "o": "Antropologia filosofikoa (1944), II. kap.",
+  "e": "contemporanea",
+  "img": "media/retratos/museo/cassirer.jpg"
+ },
+ {
   "c": "Jakintza ez dago ulertzeko egina, ebakitzeko baizik.",
   "a": "Foucault",
   "o": "«Nietzsche, genealogia, historia» (1971)",
