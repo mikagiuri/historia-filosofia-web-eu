@@ -1388,7 +1388,8 @@ const CRONOGRAMAS = [
     "name": "Positibismoa"
    },
    {
-    "name": "Antiidealismoa (irrazionalismoa, bitalismoa)"
+    "name": "Antiidealismoa (irrazionalismoa, bitalismoa)",
+    "color": "#d9c11a"
    },
    {
     "name": "Postidealismoa (marxismoa eta anarkismoa)"
