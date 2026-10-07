@@ -199,7 +199,7 @@ function loadIlustre(id){
     if (typeof window.loadTheory === "function") window.loadTheory(b.dataset.th);
   }));
   const img = box.querySelector(".ilu-portrait img");
-  if (img) img.addEventListener("click", () => { if (typeof openLightbox === "function") openLightbox(img.src); });
+  if (img) img.addEventListener("click", () => { if (typeof openLightbox === "function") openLightbox(img.src, img.alt); });
   window.scrollTo(0, 0);
 }
 

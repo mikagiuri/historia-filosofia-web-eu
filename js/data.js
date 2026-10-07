@@ -17586,7 +17586,7 @@ const QUIZZES = {
     "fb": "Logosak beharrezkotasuna dakar: fenomenoak gertatu behar direlako gertatzen dira, ez izaki apartekoen kapritxoz."
    },
    {
-    "q": "Nork formulatu zuen indarrez mitoaren eta logosaren artean jarraitutasuna dagoela, «mitoaren edukia pentsamendua» delako?",
+    "q": "Nork formulatu zuen indarrez mitoaren eta logosaren artean jarraitutasuna dagoela, mitoaren edukia pentsamendua delako jada?",
     "o": [
      "Aristoteles",
      "Bertrand Russell",
