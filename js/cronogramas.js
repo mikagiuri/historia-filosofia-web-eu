@@ -1977,38 +1977,194 @@ const CRONOGRAMAS = [
   "code": "C9-KRO-01",
   "title": "Feminismoaren kronograma (C9)",
   "type": "timeline",
-  "start": 1790,
+  "start": 1740,
   "end": 2026,
-  "axes": [
+  "groupsLabel": "Olatuak eta korronteak",
+  "porGrupo": true,
+  "groups": [
    {
-    "name": "Lehen feminismo modernoa",
-    "start": 1792,
-    "end": 1920
+    "name": "Feminismo ilustratua",
+    "color": "#2f6fd6"
    },
    {
-    "name": "Sufragismoa",
-    "start": 1848,
-    "end": 1928
+    "name": "Lehen olatua: sufragismoa",
+    "color": "#3fa7c9"
+   },
+   {
+    "name": "Bigarren olatua: berdintasuna",
+    "color": "#7b61d9"
+   },
+   {
+    "name": "Diferentzia, intersekzionalitatea eta generoa",
+    "color": "#b44fc4"
+   },
+   {
+    "name": "Justizia, zaintzak eta ekofeminismoa",
+    "color": "#2e9e6b"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Olympe de Gouges",
+    "start": 1748,
+    "end": 1793,
+    "grp": 0
+   },
+   {
+    "name": "Mary Wollstonecraft",
+    "start": 1759,
+    "end": 1797,
+    "grp": 0
+   },
+   {
+    "name": "John Stuart Mill",
+    "start": 1806,
+    "end": 1873,
+    "grp": 0
+   },
+   {
+    "name": "Harriet Taylor Mill",
+    "start": 1807,
+    "end": 1858,
+    "grp": 0
+   },
+   {
+    "name": "Elizabeth Cady Stanton",
+    "start": 1815,
+    "end": 1902,
+    "grp": 1
+   },
+   {
+    "name": "Concepción Arenal",
+    "start": 1820,
+    "end": 1893,
+    "grp": 1
+   },
+   {
+    "name": "Emmeline Pankhurst",
+    "start": 1858,
+    "end": 1928,
+    "grp": 1
+   },
+   {
+    "name": "Virginia Woolf",
+    "start": 1882,
+    "end": 1941,
+    "grp": 1
+   },
+   {
+    "name": "Clara Campoamor",
+    "start": 1888,
+    "end": 1972,
+    "grp": 1
    },
    {
     "name": "Simone de Beauvoir",
     "start": 1908,
-    "end": 1986
+    "end": 1986,
+    "grp": 2
    },
    {
-    "name": "Bigarren olatua",
-    "start": 1960,
-    "end": 1980
+    "name": "Betty Friedan",
+    "start": 1921,
+    "end": 2006,
+    "grp": 2
    },
    {
-    "name": "Judith Butler eta generoaren teoria",
-    "start": 1990,
-    "end": 2026
+    "name": "Kate Millett",
+    "start": 1934,
+    "end": 2017,
+    "grp": 2
    },
    {
-    "name": "Justizia eta gaitasunen ikuspegia",
-    "start": 1999,
-    "end": 2026
+    "name": "Celia Amorós",
+    "start": 1944,
+    "end": 2026,
+    "vive": true,
+    "grp": 2
+   },
+   {
+    "name": "Amelia Valcárcel",
+    "start": 1950,
+    "end": 2026,
+    "vive": true,
+    "grp": 2
+   },
+   {
+    "name": "Angela Davis",
+    "start": 1944,
+    "end": 2026,
+    "vive": true,
+    "grp": 3
+   },
+   {
+    "name": "Donna Haraway",
+    "start": 1944,
+    "end": 2026,
+    "vive": true,
+    "grp": 3
+   },
+   {
+    "name": "bell hooks",
+    "start": 1952,
+    "end": 2021,
+    "grp": 3
+   },
+   {
+    "name": "Judith Butler",
+    "start": 1956,
+    "end": 2026,
+    "vive": true,
+    "grp": 3
+   },
+   {
+    "name": "Paul B. Preciado",
+    "start": 1970,
+    "end": 2026,
+    "vive": true,
+    "grp": 3
+   },
+   {
+    "name": "Silvia Federici",
+    "start": 1942,
+    "end": 2026,
+    "vive": true,
+    "grp": 4
+   },
+   {
+    "name": "Martha Nussbaum",
+    "start": 1947,
+    "end": 2026,
+    "vive": true,
+    "grp": 4
+   },
+   {
+    "name": "Nancy Fraser",
+    "start": 1947,
+    "end": 2026,
+    "vive": true,
+    "grp": 4
+   },
+   {
+    "name": "Vandana Shiva",
+    "start": 1952,
+    "end": 2026,
+    "vive": true,
+    "grp": 4
+   },
+   {
+    "name": "Alicia Puleo",
+    "start": 1952,
+    "end": 2026,
+    "vive": true,
+    "grp": 4
+   },
+   {
+    "name": "Yayo Herrero",
+    "start": 1965,
+    "end": 2026,
+    "vive": true,
+    "grp": 4
    }
   ],
   "events": []
