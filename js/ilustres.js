@@ -198,6 +198,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-preso",
+   "hf-ap",
    "hf-platon"
   ]
  },
@@ -222,6 +223,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-preso",
+   "hf-ap",
    "hf-platon"
   ]
  },
@@ -427,6 +429,8 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-sofistas",
+   "hf-ap",
+   "hf-aa",
    "hf-platon",
    "hf-platon-superficie",
    "hf-antropologia",
@@ -602,6 +606,8 @@ const ILUSTRES = {
    "hf-metodos",
    "hf-preso",
    "hf-sofistas",
+   "hf-ap",
+   "hf-aa",
    "hf-platon",
    "hf-platon-superficie",
    "hf-platon-prejuicio",
@@ -699,6 +705,7 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-mito",
+   "hf-aa",
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
@@ -1239,6 +1246,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-aa",
    "hf-fe-razon"
   ]
  },
@@ -1259,7 +1267,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-aa"
+  ]
  },
  "alberto_magno": {
   "name": "Alberto Handia",
@@ -1339,6 +1349,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-historicidad",
+   "hf-aa",
    "hf-medieval",
    "hf-fe-razon"
   ]
@@ -1697,6 +1708,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-aa",
    "hf-modernidad",
    "hf-metafisica",
    "hf-analitica",
@@ -1907,6 +1919,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-aa",
    "hf-medieval",
    "hf-racionalismo",
    "hf-metafisica",
@@ -1961,6 +1974,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-aa",
    "hf-modernidad",
    "hf-metafisica",
    "hf-ilustracion",
