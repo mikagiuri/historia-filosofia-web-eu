@@ -40,6 +40,10 @@ const EA_CSS = `
 #esqautor table.ea-sin{min-width:760px}
 #esqautor table.ea-sin td:first-child{width:16%}
 #esqautor table.ea-sin td:nth-child(2){width:22%;font-style:italic;color:var(--muted)}
+#esqautor table.ea-ejes{min-width:1100px;table-layout:fixed}
+#esqautor table.ea-ejes td:first-child{width:11%}
+#esqautor table.ea-ejes td:nth-child(2){width:auto;font-style:normal;color:var(--ink)}
+#esqautor table.ea-ejes td,#esqautor table.ea-ejes th{font-size:.84rem}
 /* Solo cuando esta vista es la activa: este script se carga en todas las vistas y un
    body *{visibility:hidden} sin acotar dejaba en blanco la impresión de las demás. */
 @media print{
@@ -84,6 +88,20 @@ function renderEABody(){
       (Array.isArray(i.c) && i.c.length ? '<ul>' + i.c.map(item).join("") + '</ul>' : '') + '</li>';
   }
   /* Sinóptica: una fila por autor/tema del bloque (o de todos), columnas comunes */
+  /* (08-10) con ejes comunes (esquemas_ejes.js): una tabla por bloque, una fila por tema y una columna por eje */
+  if (eaFmt === "sin" && typeof EA_EJES !== "undefined"){
+    box.innerHTML = ["A", "B", "C"].filter(function (b){ return (eaBlock === "all" || eaBlock === b) && EA_EJES[b]; }).map(function (b){
+      const E = EA_EJES[b];
+      return '<article class="easchema"><h2>' + eaEsc(EA_BLOCKS[b]) + '</h2><div class="ea-tw"><table class="ea-tab ea-sin ea-ejes"><thead><tr><th>Gaia</th>' +
+        E.ejes.map(function (x){ return '<th>' + eaEsc(x) + '</th>'; }).join("") + '</tr></thead><tbody>' +
+        E.filas.map(function (f){
+          const sch = ESQUEMAS_AUTOR[f.i] || {};
+          return '<tr><td>' + eaEsc(sch.title || "") + '</td>' + f.c.map(function (x){ return '<td>' + eaEsc(x) + '</td>'; }).join("") + '</tr>';
+        }).join("") + '</tbody></table></div></article>';
+    }).join("");
+    eaIlu();
+    return;
+  }
   if (eaFmt === "sin"){
     box.innerHTML = '<article class="easchema"><div class="ea-tw"><table class="ea-tab ea-sin"><thead><tr>' +
       '<th>Egilea edo gaia</th><th>Galdera</th><th>Atalak</th><th>Ideia gakoa</th></tr></thead><tbody>' +
