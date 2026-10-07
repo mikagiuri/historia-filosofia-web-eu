@@ -2,7 +2,8 @@
 /* ===== «Rincón de lógica» (01-10, Filosofía 1.º · tema 4) =====
    Tres pestañas: tablas de verdad (y validez de argumentos), silogismos (modos, reglas y diagrama de
    Venn) y puertas lógicas (cada puerta, y la fórmula dibujada como circuito). Notación de la teoría:
-   ¬ ∧ ∨ → ↔, V/F en las tablas y 1/0 en los circuitos. Enlace profundo: #logica/tablas|silogismos|puertas. */
+   ¬ ∧ ∨ → ↔, V/F en las tablas y 1/0 en los circuitos. (07-10) Cuarta pestaña: paradojas (datos en paradojas.js).
+   Enlace profundo: #logica/tablas|silogismos|puertas|paradojas|ejercicios|clasicos[/ficha]. */
 
 /* textos de interfaz: cadenas enteras (así los traduce web_i18n/ui/<lang>.json) */
 const LOG_TXT = {
@@ -58,11 +59,14 @@ const LOG_TXT = {
   gXOR: "XOR (edo esklusiboa): sarrerak desberdinak direnean ematen du 1. «Bata edo bestea, baina ez biak» da.",
   gXNOR: "XNOR: sarrerak berdinak direnean ematen du 1. Bibaldintzazkoa da, ↔.",
   circuito: "Formula zirkuitu gisa", circAyuda: "Sakatu aldagaiak haien balioa aldatzeko. Piztutako kableek 1 bat daramate. p → q baldintzazkoa ¬p ∨ q gisa eraikitzen da, eta bibaldintzazkoa XNOR ate batekin.",
-  lampara: "Lanpara", tablaPuerta: "Atearen taula"
+  lampara: "Lanpara", tablaPuerta: "Atearen taula",
+  tabParad: "Paradoxak", tabEjerc: "Ariketak", tabClasicos: "Argudio klasikoak", parTodas: "Guztiak", parGrupo: "Erakutsi", parProblema: "Non dago arazoa?", parSalidas: "Proposatu diren irtenbideak",
+  parForma: "Forma logikoa", parEuler: "Esaldia Euler diagrama gisa", parConting: "Kontingentea: errenkada faltsu bat, eremu huts bat", parEscala: "Esaldia eskala batean", parDice: "Zer dioen, zer ematen duen aldez aurretik onartutzat eta zer ez duen esaten", parPensar: "Pentsatzeko:", parTabla: "Ikusi egia-taulan",
+  parIntro: "Paradoxa bat onargarria den zerbaitetik abiatu eta, zuzenak diruditen urratsekin, ondorio onartezin edo kontraesankor batera iristen den arrazoibidea da. Irakurri bakoitza eta pentsatu non huts egiten duen azalpenak ireki aurretik."
 };
 const logT = (k, v) => String(LOG_TXT[k] || k).replace(/\{(\w+)\}/g, (_, x) => (v && v[x] != null ? v[x] : ""));
 const logEsc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const LOG = { tab: "tablas", formula: "(p → q) ∧ p → q", prem: "p → q; p", concl: "q",
+const LOG = { parGrupo: "all", tab: "tablas", formula: "(p → q) ∧ p → q", prem: "p → q; p", concl: "q",
   sil: { S: "", P: "", M: "", may: "A", men: "A", con: "A", fig: 1 }, gate: "AND", gA: 1, gB: 0, circ: {} };
 const logBox = () => document.getElementById("logicabox");
 
@@ -373,12 +377,61 @@ function logRenderPuertas(){
     '<div id="lg-circ" class="lg-scroll">' + logCircuitoHtml() + "</div></div>";
 }
 
+/* ---------- pestaña 4: paradojas (07-10) ---------- */
+/* fórmula que se abre en la pestaña de tablas: p = «la frase es verdadera», «el barbero se afeita», «es heterológica»… */
+const LOG_PAR_F = { mentiroso: "p ↔ ¬p", barbero: "p ↔ ¬p", grelling: "p ↔ ¬p", epimenides: "p → ¬p", infelices: "(p ∧ q) → ¬r", tanto: "(q ∨ s) → p", monica: "((q ∧ r) → p) ∧ (¬q ∧ r → ¬p)", agustin: "p → q", agustin2: "p → q ∧ r", contrafactico: "q ∧ r → p" };
+/* diagrama de Euler de una frase (campo euler de paradojas.js): mismas clases que los de la pestaña de silogismos */
+function logParEuler(e){
+  const c = e.circulos.filter(k => k.r).map(k => '<circle cx="' + k.cx + '" cy="' + k.cy + '" r="' + k.r + '" class="lg-circ ' + k.cls + '"/>').join("");
+  const t = e.circulos.filter(k => k.etq).map(k => '<text x="' + k.ex + '" y="' + k.ey + '" text-anchor="middle" class="lg-vt">' + logEsc(k.etq) + "</text>").join("");
+  const x = (e.cruces || []).map(([a, b]) => '<text x="' + a + '" y="' + (b + 7) + '" text-anchor="middle" class="lg-x">✕</text>').join("") +
+    (e.dudas || []).map(([a, b]) => '<text x="' + a + '" y="' + (b + 7) + '" text-anchor="middle" class="lg-x lg-duda">?</text>').join("");
+  return '<figure class="lg-euler lg-par-euler"><svg viewBox="' + e.vista + '" role="img" aria-label="' + logEsc(logT("parEuler")) + '">' + c + t + x + "</svg></figure>" + (e.lectura || "") +
+    (e.contingencia ? '<p class="lg-label">' + (e.contTitulo || logT("parConting")) + "</p>" + e.contingencia : "");
+}
+/* frases de grados (campo escala de paradojas.js): eje, franja en que la frase es verdadera (borde izquierdo
+   discontinuo: el límite vago) y punto de referencia; los textos llevan su posición */
+function logParEscala(e){
+  const [x1, x2, y] = e.eje, [b1, b2] = e.banda;
+  const svg = '<rect x="' + b1 + '" y="' + (y - 14) + '" width="' + (b2 - b1) + '" height="28" class="lg-banda"/>' +
+    '<line x1="' + x1 + '" y1="' + y + '" x2="' + x2 + '" y2="' + y + '" class="lg-eje"/>' +
+    '<path d="M' + (x2 - 8) + "," + (y - 5) + " L" + x2 + "," + y + " L" + (x2 - 8) + "," + (y + 5) + '" class="lg-eje"/>' +
+    '<path d="M' + (x1 + 8) + "," + (y - 5) + " L" + x1 + "," + y + " L" + (x1 + 8) + "," + (y + 5) + '" class="lg-eje"/>' +
+    '<line x1="' + b1 + '" y1="' + (y - 30) + '" x2="' + b1 + '" y2="' + (y + 20) + '" class="lg-vago"/>' +
+    '<line x1="' + e.marca + '" y1="' + 42 + '" x2="' + e.marca + '" y2="' + y + '" class="lg-eje"/><circle cx="' + e.marca + '" cy="' + y + '" r="6" class="lg-marca"/>' +
+    e.textos.map(t => '<text x="' + t.x + '" y="' + t.y + '" text-anchor="' + t.align + '" class="lg-vt">' + logEsc(t.t) + "</text>").join("");
+  return '<figure class="lg-euler lg-par-euler lg-par-escala"><svg viewBox="' + e.vista + '" role="img" aria-label="' + logEsc(logT("parEscala")) + '">' + svg + "</svg></figure>" + (e.lectura || "") +
+    (e.contingencia ? '<p class="lg-label">' + (e.contTitulo || logT("parConting")) + "</p>" + e.contingencia : "");
+}
+const LOG_PAR_VISTAS = ["paradojas", "ejercicios", "clasicos"];
+/* (07-10) pestañas «Paradojas», «Ejercicios» y «Argumentos clásicos»: los mismos datos, repartidos por el campo view de cada grupo.
+   En las dos últimas, los plegables son «Forma lógica» y «Qué dice…»; el desplegable de grupos solo sale si hay más de uno. */
+function logRenderParadojas(vista){
+  vista = vista || "paradojas";
+  const grupos = (typeof PARADOJAS_GRUPOS !== "undefined" ? PARADOJAS_GRUPOS : []).filter(g => (g.view || "paradojas") === vista), todas = typeof PARADOJAS !== "undefined" ? PARADOJAS : [];
+  const analisis = vista !== "paradojas";
+  /* un desplegable y no una fila de botones: seis grupos con títulos largos serían una nube de chips (regla de diseño) */
+  const g0 = grupos.some(g => g.id === LOG.parGrupo) ? LOG.parGrupo : "all", filtro = grupos.length < 2 ? "" : '<label class="lg-label lg-pargrupos">' + logT("parGrupo") + '<select id="lg-pargrupo" class="lg-sel">' + [["all", logT("parTodas")], ...grupos.map(g => [g.id, g.titulo])].map(([k, l]) =>
+    '<option value="' + k + '"' + (g0 === k ? " selected" : "") + ">" + l + "</option>").join("") + "</select></label>";
+  const tarjeta = p => '<article class="lg-panel lg-par" id="par-' + p.id + '"><h3>' + p.titulo + '</h3><p class="lg-nota">' + p.origen + '</p><p class="lg-enun">' + p.enunciado + "</p>" +
+    '<details><summary>' + logT(analisis ? "parForma" : "parProblema") + "</summary><p>" + p.problema + "</p>" +
+    (LOG_PAR_F[p.id] ? '<p><button type="button" class="btn ghost" data-parf="' + logEsc(LOG_PAR_F[p.id]) + '">' + logT("parTabla") + " · " + logEsc(LOG_PAR_F[p.id]) + " →</button></p>" : "") +
+    (p.euler ? '<p class="lg-label">' + (p.euler.titulo || logT("parEuler")) + "</p>" + logParEuler(p.euler) : "") +
+    (p.euler2 ? '<p class="lg-label">' + (p.euler2.titulo || logT("parEuler")) + "</p>" + logParEuler(p.euler2) : "") +
+    (p.escala ? '<p class="lg-label">' + logT("parEscala") + "</p>" + logParEscala(p.escala) : "") + "</details>" +
+    '<details><summary>' + logT(analisis ? "parDice" : "parSalidas") + "</summary>" + p.salidas + "</details>" +
+    '<p class="lg-pensar"><strong>' + logT("parPensar") + "</strong> " + p.pensar + "</p></article>";
+  return (vista === "paradojas" ? '<div class="lg-panel"><p class="lg-nota">' + logT("parIntro") + "</p>" + filtro + "</div>" : (filtro ? '<div class="lg-panel">' + filtro + "</div>" : "")) +
+    grupos.filter(g => g0 === "all" || g.id === g0).map(g => '<section class="lg-pargrupo"><h2>' + g.titulo + '</h2><p class="lg-nota">' + g.intro + "</p>" +
+      todas.filter(p => p.grupo === g.id).map(tarjeta).join("") + "</section>").join("");
+}
+
 /* ---------- montaje y eventos ---------- */
 function logRender(){
   const box = logBox(); if (!box) return;
-  const tabs = [["tablas", "tabTablas"], ["silogismos", "tabSilog"], ["puertas", "tabPuertas"]];
+  const tabs = [["tablas", "tabTablas"], ["silogismos", "tabSilog"], ["puertas", "tabPuertas"], ["paradojas", "tabParad"], ["ejercicios", "tabEjerc"], ["clasicos", "tabClasicos"]];
   box.innerHTML = '<div class="fgroup lg-tabs" role="tablist">' + tabs.map(([k, l]) => '<button type="button" class="fbtn" data-lgtab="' + k + '" aria-pressed="' + (LOG.tab === k) + '">' + logT(l) + "</button>").join("") + "</div>" +
-    '<div class="lg-cuerpo">' + (LOG.tab === "silogismos" ? logRenderSil() : LOG.tab === "puertas" ? logRenderPuertas() : logRenderTablas()) + "</div>";
+    '<div class="lg-cuerpo">' + (LOG.tab === "silogismos" ? logRenderSil() : LOG.tab === "puertas" ? logRenderPuertas() : LOG_PAR_VISTAS.includes(LOG.tab) ? logRenderParadojas(LOG.tab) : logRenderTablas()) + "</div>";
 }
 function logInsertar(input, txt){
   const a = input.selectionStart != null ? input.selectionStart : input.value.length, b = input.selectionEnd != null ? input.selectionEnd : a;
@@ -394,12 +447,13 @@ function logWire(){
   box.dataset.lgWired = "1";
   box.addEventListener("click", ev => {
     const b = ev.target.closest("button, .lg-pin"); if (!b) return;
-    if (b.dataset.lgtab){ LOG.tab = b.dataset.lgtab; logRender(); return; }
+    if (b.dataset.lgtab){ LOG.tab = b.dataset.lgtab; LOG.parGrupo = "all"; logRender(); return; }
     if (b.dataset.tecla){ const inp = document.getElementById(b.parentElement.dataset.para); if (inp) logInsertar(inp, b.dataset.tecla); return; }
     if (b.dataset.ejf != null){ LOG.formula = b.dataset.ejf; logRender(); return; }
     if (b.dataset.eja != null){ LOG.prem = b.dataset.eja; LOG.concl = b.dataset.ejc; logRender(); return; }
     if (b.dataset.ejs){ const [m, f] = b.dataset.ejs.split("-"); Object.assign(LOG.sil, { may: m[0], men: m[1], con: m[2], fig: +f }); logRender(); return; }
     if (b.dataset.diag){ LOG.sil.diag = b.dataset.diag; logRefrescar("lg-sil"); return; }
+    if (b.dataset.parf){ LOG.formula = b.dataset.parf; LOG.tab = "tablas"; logRender(); const t = document.getElementById("lg-tabla"); if (t) t.scrollIntoView({ block: "center" }); return; }
     if (b.dataset.gate){ LOG.gate = b.dataset.gate; logRender(); return; }
     if (b.dataset.pin){ LOG["g" + b.dataset.pin] = LOG["g" + b.dataset.pin] ? 0 : 1; logRefrescar("lg-puerta"); return; }
     if (b.dataset.var){ LOG.circ[b.dataset.var] = !LOG.circ[b.dataset.var]; logRefrescar("lg-circ"); return; }
@@ -418,10 +472,16 @@ function logWire(){
   box.addEventListener("change", ev => {
     const t = ev.target, k = { "lg-may": "may", "lg-men": "men", "lg-con": "con", "lg-fig": "fig" }[t.id];
     if (k){ LOG.sil[k] = k === "fig" ? +t.value : t.value; logRefrescar("lg-sil"); }
+    else if (t.id === "lg-pargrupo"){ LOG.parGrupo = t.value; logRender(); }
   });
 }
 function loadLogica(arg){
-  if (arg && ["tablas", "silogismos", "puertas"].includes(arg)) LOG.tab = arg;
+  /* (07-10) #logica/<paradojas|ejercicios|clasicos>/<id>: abre la pestaña de esa ficha, en su grupo, y la lleva a la vista */
+  const m = /^(?:paradojas|ejercicios|clasicos)\/([\w-]+)$/.exec(arg || ""), ficha = m && typeof PARADOJAS !== "undefined" ? PARADOJAS.find(p => p.id === m[1]) : null;
+  const grupo = ficha && typeof PARADOJAS_GRUPOS !== "undefined" ? PARADOJAS_GRUPOS.find(g => g.id === ficha.grupo) : null;
+  if (ficha){ LOG.tab = (grupo && grupo.view) || "paradojas"; LOG.parGrupo = ficha.grupo; }
+  else if (arg && ["tablas", "silogismos", "puertas", ...LOG_PAR_VISTAS].includes(arg)){ LOG.tab = arg; LOG.parGrupo = "all"; }
   logRender(); logWire();
+  if (ficha){ const el = document.getElementById("par-" + ficha.id); if (el) el.scrollIntoView({ block: "start" }); }
 }
 if (logBox()){ logRender(); logWire(); }
