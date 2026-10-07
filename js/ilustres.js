@@ -1839,6 +1839,7 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-medieval",
+   "hf-platon-agustin",
    "hf-fe-razon",
    "hf-modernidad",
    "hf-racionalismo",
@@ -2648,6 +2649,7 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-platon-superficie",
+   "hf-platon-agustin",
    "hf-ilustracion",
    "hf-etica-deber",
    "hf-sospecha",
