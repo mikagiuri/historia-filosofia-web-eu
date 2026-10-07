@@ -1,467 +1,3156 @@
-// Datos del juego «Eudaimonía» (Aristóteles) — rediseño 25-09-2026 sobre la idea original del material de
-// gamificación del Gabriel Aresti BHI (BATX 2). Arte de cartas en media/juegos/aristoteles/.
-// Modelo (números ocultos durante la partida; se revelan al final):
-//   sal = salud 🏋️ · hac = hacienda 💰 · car = carácter 🧠 · rep = reputación 🏛️ · ene = enemigos ⚔️ · phr = prudencia 🧭
-//   Salud o hacienda a 0 → eliminado (muerte / ruina). Enemigos altos → tirada de peligro cada ronda
-//   (juicio, ostracismo, atentado), igual para el incorruptible que para el ambicioso.
-//   Eudaimonía final = 2·carácter + prudencia + salud (máx. 8) + hacienda (máx. 8) + reputación (máx. 6).
-// Opciones: efectos numéricos, tags (activan los rasgos del personaje), risk (dado con win/lose; la prudencia
-// ayuda; pBase cambia la probabilidad base), muerte (probabilidad de morir en el acto), set (marca que desencadena
-// un dilema posterior), r (resultado). Equilibrado con tools/sim_eudaimonia.js: revisar tras tocar números.
-// Dilemas: etapa j/m/v (juventud, madurez, vejez), orient (solo esas orientaciones), req (necesita una marca),
-// cond (mínimos de estadística para que salga), urgente (sale en la ronda siguiente, aunque alargue la partida),
-// hist (nota histórica que se muestra tras decidir). Etapas: paso = rentas y desgaste al entrar en la etapa.
+// Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/juego_aristoteles.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const JUEGO_ARIS = {
-  meta: { imgBase: "media/juegos/aristoteles/", etapas: [
-    { id:"j", label:"Juventud", rondas:3 },
-    { id:"m", label:"Madurez", rondas:6, paso:{ hac:3, t:"Pasan los años: tus tierras y tu trabajo rinden." } },
-    { id:"v", label:"Vejez", rondas:3, paso:{ hac:1, sal:-1, t:"Llega la vejez: rentas ahorradas, pero el cuerpo se resiente." } } ] },
-  stats: [
-    { k:"sal", em:"🏋️", label:"Salud",      niveles:[[2,"al límite"],[4,"frágil"],[7,"buena"],[99,"robusta"]] },
-    { k:"hac", em:"💰", label:"Hacienda",   niveles:[[2,"al borde de la ruina"],[4,"escasa"],[7,"holgada"],[99,"rica"]] },
-    { k:"car", em:"🧠", label:"Carácter",   niveles:[[2,"degradado"],[4,"vacilante"],[7,"firme"],[99,"ejemplar"]] },
-    { k:"rep", em:"🏛️", label:"Reputación", niveles:[[2,"despreciada"],[4,"discreta"],[7,"respetada"],[99,"famosa"]] },
-    { k:"ene", em:"⚔️", label:"Enemigos",   niveles:[[1,"ninguno"],[3,"algunos"],[5,"muchos"],[7,"poderosos"],[99,"te quieren muerto"]] },
-    { k:"phr", em:"🧭", label:"Prudencia",  niveles:[[3,"impulsiva"],[6,"sensata"],[99,"muy prudente"]] }
-  ],
-  chars: [
-    { id:"socrates", name:"Sócrates", orient:"Contemplativa", sal:8, hac:4, car:8, rep:4, ene:2, phr:8,
-      virtud:"Pobreza voluntaria", virtudT:"El dinero le importa poco: pierde la mitad de lo normal cuando le cuesta dinero.",
-      debilidad:"Incomprendido", debilidadT:"Cada verdad dicha en público le gana más enemigos que a los demás.",
-      mods:{ verdad:{ ene:1 } }, mult:{ hac:{ down:0.5 } },
-      perfil:"Pobre, sano como un soldado y muy prudente; la ciudad lo conoce más por molesto que por sabio.", frase:"Solo sé que no sé nada.",
-      destino:"Condenado a beber cicuta en 399 a. C., acusado de impiedad y de corromper a los jóvenes; rechazó huir de la cárcel." },
-    { id:"hipatia", name:"Hipatia", orient:"Contemplativa", sal:6, hac:6, car:8, rep:7, ene:2, phr:7,
-      virtud:"Prestigio", virtudT:"Sus alumnos la respetan: gana reputación con más facilidad.",
-      debilidad:"Desconfianza social", debilidadT:"Todo lo que hace a la vista de todos le gana enemigos.",
-      mods:{ publico:{ ene:1 } }, mult:{ rep:{ up:1.5 } },
-      perfil:"Maestra respetada de una familia acomodada; su fama la protege… y la expone.", frase:"El conocimiento es mi fuerza.",
-      destino:"Asesinada en 415 por una turba de cristianos en Alejandría, en pleno enfrentamiento entre el obispo Cirilo y el prefecto Orestes." },
-    { id:"platon", name:"Platón", orient:"Contemplativa", sal:7, hac:8, car:7, rep:6, ene:1, phr:7,
-      virtud:"Idealismo", virtudT:"Actuar con justicia le fortalece el carácter más que a otros.",
-      debilidad:"Rigidez", debilidadT:"Los pactos y componendas le desgastan el carácter.",
-      mods:{ justo:{ car:1 }, pacto:{ car:-1 } },
-      perfil:"Aristócrata rico y bien relacionado, con pocos enemigos y un proyecto: que gobiernen los sabios.", frase:"Que gobierne quien ama la sabiduría.",
-      destino:"Viajó tres veces a Siracusa para educar a sus tiranos y, según la tradición, en uno de esos viajes lo vendieron como esclavo. Murió anciano en Atenas, al frente de la Academia." },
-    { id:"protagoras", name:"Protágoras", orient:"Discursiva", sal:6, hac:8, car:6, rep:8, ene:2, phr:6, sinImg:true,
-      virtud:"Maestro de retórica", virtudT:"Cobra caro por enseñar: todo lo que hace a la vista de todos le da dinero.",
-      debilidad:"Agnóstico", debilidadT:"Lo que dice de los dioses escandaliza: cada verdad incómoda le gana más enemigos.",
-      mods:{ publico:{ hac:1 }, verdad:{ ene:1 } },
-      perfil:"El sofista más famoso y mejor pagado de Grecia; amigo de Pericles y sospechoso para los devotos.", frase:"El hombre es la medida de todas las cosas.",
-      destino:"Pericles le encargó las leyes de la colonia de Turios. Según la tradición, lo acusaron de impiedad por su libro Sobre los dioses, quemaron sus libros en el ágora y murió en un naufragio al huir de Atenas." },
-    { id:"diogenes", name:"Diógenes", orient:"Contemplativa", sal:8, hac:2, car:7, rep:4, ene:2, phr:6, sinImg:true, noRuina:true,
-      virtud:"Autarquía", virtudT:"No necesita casi nada: quedarse sin dinero no lo elimina, y lo pierde a la mitad que los demás.",
-      debilidad:"Desvergüenza (anaídeia)", debilidadT:"Se burla de todos: cada verdad dicha en público le gana enemigos y le quita reputación.",
-      mods:{ verdad:{ ene:1, rep:-1 } }, mult:{ hac:{ down:0.5 } },
-      perfil:"Vive en una tinaja, pide limosna y se ríe de las convenciones. Es sano y libre, y casi no tiene nada que perder.", frase:"Apártate, que me quitas el sol.",
-      destino:"Vivió en Atenas y en Corinto, pobre por elección y burlándose de las convenciones. Murió muy anciano en Corinto hacia 323 a. C.; según la tradición, el mismo año que Alejandro." },
-    { id:"aspasia", name:"Aspasia", orient:"Discursiva", sal:6, hac:6, car:6, rep:5, ene:2, phr:6,
-      virtud:"Elocuencia", virtudT:"Sus discursos convencen: gana reputación con más facilidad.",
-      debilidad:"Dependencia", debilidadT:"Extranjera y mujer, depende de protectores: cuando pierde reputación, pierde el doble.",
-      mult:{ rep:{ up:1.5, down:2 } },
-      perfil:"Extranjera culta y elocuente en una ciudad que no deja votar a las mujeres; su posición depende de otros.", frase:"Las palabras también tienen poder.",
-      destino:"Compañera de Pericles. Según Plutarco, la acusaron de impiedad y Pericles lloró ante el jurado para salvarla." },
-    { id:"aristofanes", name:"Aristófanes", orient:"Discursiva", sal:6, hac:6, car:5, rep:6, ene:2, phr:5,
-      virtud:"Ingenio y sátira", virtudT:"Decir verdades en público le da fama…",
-      debilidad:"Mordacidad", debilidadT:"…y también enemigos.",
-      mods:{ verdad:{ rep:1, ene:1 } },
-      perfil:"Comediógrafo de éxito, ni rico ni pobre, con una lengua que la ciudad aplaude y los poderosos temen.", frase:"La risa también dice la verdad.",
-      destino:"Cleón lo denunció por ridiculizar a Atenas ante los extranjeros; siguió escribiendo comedias hasta la vejez." },
-    { id:"pericles", name:"Pericles", orient:"Política", sal:7, hac:8, car:6, rep:9, ene:4, phr:7, sinImg:true, riesgo:0.1,
-      virtud:"Prudencia política", virtudT:"Aristóteles lo pone como ejemplo de hombre prudente: sus decisiones arriesgadas salen bien más a menudo.",
-      debilidad:"Blanco de sus rivales", debilidadT:"Como no pueden con él, atacan a los suyos: todo lo que hace en público le gana enemigos.",
-      mods:{ publico:{ ene:1 } },
-      perfil:"Aristócrata rico, elegido general año tras año; el político más poderoso de Atenas, rodeado de amigos… y de acusaciones contra ellos.", frase:"Amamos la belleza con sencillez y el saber sin blandura.",
-      destino:"Dirigió Atenas durante unos treinta años, que se conocen como el «siglo de Pericles». Sus rivales acusaron a Fidias, a Anaxágoras y a Aspasia. Murió en 429 a. C. de la peste, al comienzo de la guerra del Peloponeso." },
-    { id:"aristides", name:"Arístides", orient:"Política", sal:7, hac:6, car:9, rep:7, ene:3, phr:6, sinImg:true, ostracismo:0.7,
-      virtud:"El Justo", virtudT:"Actuar con justicia le da fama, y actuar injustamente le pesa más que a nadie.",
-      debilidad:"Justicia sin concesiones", debilidadT:"Cada acto justo le gana enemigos, y la ciudad se cansa de oír llamarlo «el Justo»: si tiene mucha fama, el ostracismo le amenaza el doble.",
-      mods:{ justo:{ rep:1, ene:1 }, injusto:{ car:-1 } },
-      perfil:"Aristócrata de fortuna modesta y general en Maratón. Toda Atenas lo llama «el Justo», y a algunos eso ya les molesta.", frase:"Nada sería más provechoso… ni más injusto.",
-      destino:"Condenado al ostracismo en 482 a. C. Según Plutarco, un campesino que no sabía escribir le pidió que grabara él mismo «Arístides» en el óstrakon, porque estaba harto de oír llamarlo «el Justo». Volvió en 480 para luchar en Salamina y Platea, fijó con equidad el tributo de la Liga de Delos y murió tan pobre que la ciudad dotó a sus hijas." },
-    { id:"alcibiades", name:"Alcibíades", orient:"Política", sal:8, hac:9, car:4, rep:8, ene:3, phr:3,
-      virtud:"Carisma y audacia", virtudT:"Gana reputación con más facilidad que nadie.",
-      debilidad:"Hedonismo", debilidadT:"Los placeres le dañan más el carácter y la salud.",
-      mods:{ placer:{ car:-1, sal:-1 } }, mult:{ rep:{ up:1.5 } },
-      perfil:"Joven, rico, guapo y famoso; poco prudente y rodeado de envidias.", frase:"Mi brillo guiará a los demás.",
-      destino:"Acusado de sacrilegio, se pasó a Esparta, luego a Persia y volvió a Atenas; murió asesinado en Frigia en 404 a. C." },
-    { id:"cleon", name:"Cleón", orient:"Política", sal:6, hac:7, car:3, rep:7, ene:3, phr:3,
-      virtud:"Oratoria popular", virtudT:"Cuando gana reputación, gana el doble…",
-      debilidad:"Demagogia", debilidadT:"…y cuando la pierde, también pierde el doble.",
-      mult:{ rep:{ up:2, down:2 } },
-      perfil:"Comerciante enriquecido que manda en la asamblea a gritos; poco carácter y mucha ambición.", frase:"El pueblo quiere firmeza.",
-      destino:"Murió en 422 a. C. en la batalla de Anfípolis, al frente del ejército ateniense." },
-    { id:"critias", name:"Critias", orient:"Política", sal:6, hac:8, car:3, rep:5, ene:3, phr:4,
-      virtud:"Astucia política", virtudT:"Imponerse por la fuerza le rinde más dinero…",
-      debilidad:"Tiranía", debilidadT:"…pero le crea más enemigos.",
-      mods:{ fuerza:{ hac:1, ene:1 } },
-      perfil:"Aristócrata rico, culto y resentido con la democracia.", frase:"El orden se impone.",
-      destino:"Jefe de los Treinta Tiranos en 404 a. C.; murió al año siguiente luchando contra los demócratas en Muniquia." },
-    { id:"trasimaco", name:"Trasímaco", orient:"Política", sal:6, hac:7, car:4, rep:5, ene:2, phr:3,
-      virtud:"Astucia", virtudT:"Gana dinero con facilidad cuando juega sucio…",
-      debilidad:"Cinismo moral", debilidadT:"…pero, como no cree en la justicia, actuar bien le fortalece la mitad.",
-      mods:{ injusto:{ hac:1 } }, mult:{ car:{ up:0.5 } },
-      perfil:"Sofista de éxito que cobra caro; piensa que la justicia es lo que conviene al más fuerte.", frase:"La justicia sirve al poderoso.",
-      destino:"Sofista de Calcedonia conocido sobre todo por la República de Platón; apenas sabemos cómo terminó su vida." },
-    { id:"alejandro", name:"Alejandro Magno", orient:"Política", sal:9, hac:10, car:4, rep:8, ene:4, phr:4,
-      virtud:"Ambición y mando", virtudT:"Imponerse por la fuerza le da fama.",
-      debilidad:"Desmesura", debilidadT:"No es capaz de elegir las opciones de término medio en las que otros se refugian.",
-      mods:{ fuerza:{ rep:1 } }, bloquea:["medida"],
-      perfil:"Heredero de un reino, riquísimo, fuerte y famoso, con enemigos desde la cuna.", frase:"El mundo no basta.",
-      destino:"Conquistó un imperio hasta la India y murió en Babilonia en 323 a. C., con 32 años." }
-  ],
-
-  dilemmas: [
-    /* ===================== JUVENTUD ===================== */
-    { id:"efebo", etapa:"j", virtue:"Valor (andreía)", sit:"Tienes dieciocho años y empiezas tu servicio como efebo: dos años de guardia en las fronteras del Ática.", opts:[
-      { t:"Entrenar a fondo y hacer amigos en la guarnición.", sal:2, rep:1, tags:["medida"], r:"Vuelves fuerte y con amigos que te defenderán." },
-      { t:"Conseguir un destino cómodo gracias a los contactos de tu familia.", rep:-1, car:-1, hac:1, r:"Te ahorras frío y marchas, pero los demás lo saben." },
-      { t:"Demostrar tu valor buscando peleas con los pastores de la frontera.", sal:-2, rep:1, ene:1, car:-1, tags:["fuerza"], r:"Ganas fama de bravo… y alguna cicatriz innecesaria." },
-      { t:"Aprovechar las guardias nocturnas para leer y discutir con otros efebos.", phr:2, car:1, sal:-1, r:"Duermes poco, pero aprendes a pensar antes de actuar." } ] },
-    { id:"maestro", etapa:"j", virtue:"Prudencia (phrónesis)", sit:"Quieres formarte. En el ágora, un sofista cobra caro por enseñarte a ganar pleitos; un filósofo no cobra, pero hace preguntas que incomodan a los poderosos.",
-      hist:"Protágoras llegó a cobrar 100 minas por un curso; Sócrates presumía de no cobrar nunca.", opts:[
-      { t:"Pagar al sofista: la retórica abre todas las puertas.", hac:-3, rep:2, phr:1, r:"Aprendes a convencer a cualquiera. Tu bolsa lo nota." },
-      { t:"Seguir al filósofo, aunque te vean con alguien mal visto.", car:1, phr:2, ene:1, tags:["verdad"], r:"Aprendes a examinarte a ti mismo; algunos padres ya no quieren que sus hijos te traten." },
-      { t:"Ni uno ni otro: aprender el oficio de tu familia.", hac:2, phr:1, rep:-1, r:"Ganas dinero y oficio, pero en el ágora nadie sabe quién eres." },
-      { t:"Los dos a la vez, trabajando de día para pagar al sofista.", hac:-2, sal:-2, phr:2, rep:1, r:"Lo aprendes todo… y acabas agotado." } ] },
-    { id:"simposio", etapa:"j", virtue:"Templanza (sophrosýne)", sit:"En un simposio en casa de un rico, el vino corre sin mezclar con agua y te retan a beber hasta el amanecer.",
-      hist:"Los griegos consideraban bárbaro beber el vino sin mezclar; en el Banquete de Platón, Sócrates bebe toda la noche sin emborracharse.", opts:[
-      { t:"Aceptar el reto y ganarlo.", sal:-2, rep:2, car:-1, tags:["placer"], r:"Eres la leyenda de la noche; tu hígado no opina lo mismo." },
-      { t:"Beber poco y quedarte a la conversación.", car:1, phr:1, tags:["medida"], r:"Sales con la cabeza clara y dos amigos nuevos." },
-      { t:"Irte diciendo en voz alta lo que piensas de esas fiestas.", rep:-2, ene:1, car:-1, r:"Aristóteles también llamaría vicio a esa insensibilidad: te toman por un amargado." },
-      { t:"Pedir ser el simposiarca y marcar tú cuánto se mezcla el vino.", phr:1, risk:true, win:{ rep:2, car:1, r:"Diriges la noche con gracia: todos quieren volver a invitarte." }, lose:{ rep:-2, r:"Te toman por un pedante y te abuchean." } } ] },
-    { id:"herencia", etapa:"j", virtue:"Generosidad (eleutheriótes)", sit:"Muere tu padre. Te deja unos olivares en el Ática y deudas con varios vecinos.", opts:[
-      { t:"Pagar primero todas las deudas, aunque te quedes con poco.", hac:-2, car:2, rep:1, tags:["justo"], r:"Quedas corto de dinero, pero con palabra." },
-      { t:"Vender los olivares y vivir de rentas en la ciudad.", hac:1, rep:1, phr:-1, r:"Vida cómoda en la ciudad; los acreedores tendrán que esperar." },
-      { t:"Pedir más préstamos para comprar un barco mercante.", risk:true, win:{ hac:5, r:"El barco vuelve cargado de trigo del mar Negro." }, lose:{ hac:-4, r:"El barco se hunde frente a Eubea con toda la carga." } },
-      { t:"No pagar a los vecinos más pobres: no pueden pleitear contra ti.", hac:2, car:-3, ene:2, tags:["injusto"], r:"Ganas unas dracmas y pierdes a tus vecinos." } ] },
-    { id:"aval", etapa:"j", virtue:"Amistad (philía)", sit:"Un amigo de la infancia te pide que avales un préstamo enorme para su negocio naval.", opts:[
-      { t:"Avalarlo entero: los amigos lo tienen todo en común.", car:1, risk:true, win:{ rep:1, hac:1, r:"El negocio sale bien y tu amigo te lo agradece toda la vida." }, lose:{ hac:-5, r:"El negocio quiebra y el acreedor viene a por ti." } },
-      { t:"Negarte: la amistad no debe mezclarse con el dinero.", car:-1, rep:-1, r:"Tu amigo lo entiende… a medias." },
-      { t:"Prestarle solo lo que puedas perder sin arruinarte.", hac:-2, car:1, phr:1, tags:["medida"], r:"No lo salva del todo, pero no le fallas." },
-      { t:"Avalarlo a cambio de quedarte con la mitad del negocio.", car:-1, risk:true, win:{ hac:3, r:"Buen negocio… aunque la amistad ya no es la misma." }, lose:{ hac:-4, r:"Quiebra, y encima tu amigo te guarda rencor." } } ] },
-    { id:"delion", etapa:"j", virtue:"Valor (andreía)", sit:"Primera batalla como hoplita. La falange empieza a ceder y el hombre que tenías a la izquierda cae herido.",
-      hist:"En la batalla de Delión (424 a. C.), según cuenta Alcibíades en el Banquete, Sócrates se retiró sin perder la calma y cubrió a sus compañeros.", opts:[
-      { t:"Tirar el escudo y correr.", rep:-3, car:-2, r:"Salvas la vida, pero en Atenas no hay mayor deshonra que perder el escudo." },
-      { t:"Cargar tú solo contra el enemigo.", tags:["fuerza"], muerte:0.12, muerteT:"Caes atravesado por una lanza tebana.", risk:true, win:{ rep:3, car:1, r:"Rompes la línea enemiga y todos cantan tu nombre." }, lose:{ sal:-4, r:"Te cercan; sales vivo de milagro." } },
-      { t:"Retirarte con orden, cubriendo al herido.", sal:-1, car:2, rep:1, tags:["medida"], r:"Llevas al herido a salvo. Así, y no de otra forma, se es valiente." },
-      { t:"Quedarte quieto con el escudo en alto, esperando órdenes que no llegan.", sal:-2, r:"Sobrevives sin gloria y con una herida en el brazo." } ] },
-    { id:"olimpia", etapa:"j", virtue:"Templanza (sophrosýne)", sit:"Te seleccionan para competir en Olimpia. Un entrenador te propone una dieta extrema; otro, pagar a los jueces.",
-      hist:"Con las multas a los tramposos se levantaban en Olimpia estatuas de Zeus, los Zanes, con el nombre del tramposo grabado.", opts:[
-      { t:"Entrenar duro, pero con descanso.", sal:1, rep:1, tags:["medida"], r:"No ganas, pero haces un buen papel." },
-      { t:"Dieta extrema y entrenamiento sin descanso.", risk:true, win:{ rep:3, r:"¡Corona de olivo! Tu ciudad te dará de comer gratis toda la vida." }, lose:{ sal:-3, r:"Te lesionas antes de la final." } },
-      { t:"Sobornar a los jueces.", car:-2, tags:["injusto"], risk:true, win:{ rep:3, hac:-2, r:"Ganas… y sabes cómo." }, lose:{ rep:-4, hac:-3, ene:1, r:"Te descubren: tu nombre queda grabado en una estatua de la vergüenza." } },
-      { t:"Renunciar para dedicarte a estudiar.", phr:1, rep:-1, r:"Tu familia no lo entiende." } ] },
-
-    /* ===================== MADUREZ (comunes) ===================== */
-    { id:"arginusas", etapa:"m", virtue:"Justicia (dikaiosýne)", sit:"Te toca por sorteo presidir la asamblea. La multitud exige juzgar a la vez, en una sola votación, a los generales que no rescataron a los náufragos. Es ilegal.",
-      hist:"Arginusas, 406 a. C.: Sócrates, que presidía ese día, se negó a someterlo a votación. Los generales fueron ejecutados igualmente.", opts:[
-      { t:"Someterlo a votación: el pueblo es soberano.", rep:1, car:-3, r:"Los generales son ejecutados. Al año siguiente, la ciudad se arrepiente." },
-      { t:"Negarte a votar algo ilegal, aunque te amenacen.", car:3, ene:3, rep:-1, tags:["justo","publico"], r:"Te gritan traidor. No cedes." },
-      { t:"Fingirte enfermo y dejar que presida otro.", car:-1, rep:-1, r:"Te salvas del lío, pero no de tu conciencia." },
-      { t:"Proponer juicios separados con argumentos legales.", phr:1, tags:["justo"], risk:true, win:{ car:2, rep:2, ene:1, r:"Consigues calmar a la asamblea… por un día." }, lose:{ ene:2, rep:-1, r:"Nadie te escucha y te anotan en la lista de sospechosos." } } ] },
-    { id:"leon", etapa:"m", virtue:"Justicia (dikaiosýne)", sit:"El gobierno oligárquico te ordena detener a León de Salamina, un inocente, para quedarse con sus bienes. Quiere mancharte las manos.",
-      hist:"En 404 a. C. los Treinta dieron esa orden a Sócrates y a otros cuatro. Los otros fueron; Sócrates se fue a casa.", opts:[
-      { t:"Obedecer: órdenes son órdenes.", hac:2, car:-3, set:"colaborador", r:"León muere. Te pagan con parte de sus bienes." },
-      { t:"Irte a casa sin decir nada.", car:2, ene:3, rep:-1, tags:["justo"], r:"No detienes a nadie. Los Treinta toman nota de tu nombre." },
-      { t:"Avisar a León en secreto para que huya.", car:2, ene:1, risk:true, win:{ r:"León escapa y nadie sabe que fuiste tú." }, lose:{ ene:3, r:"Un criado te ha visto. Ahora te vigilan." } },
-      { t:"Denunciar la orden ante todos en el ágora.", car:3, ene:5, rep:2, tags:["justo","publico","verdad"], muerte:0.12, muerteT:"Esa misma noche, los hombres de los Treinta vienen a buscarte.", r:"La ciudad te admira en voz baja. Los Treinta, en voz alta, te odian." } ] },
-    { id:"jurado", etapa:"m", virtue:"Justicia (dikaiosýne)", sit:"Eres jurado en un pleito. Un comerciante poderoso te ofrece dinero por votar contra un meteco sin recursos.", opts:[
-      { t:"Aceptar el dinero.", hac:3, car:-3, set:"corrupto", tags:["injusto"], r:"El meteco lo pierde todo. Tú ganas un secreto." },
-      { t:"Rechazarlo y votar en conciencia.", car:1, ene:1, tags:["justo"], r:"El comerciante no olvida." },
-      { t:"Rechazarlo y denunciar el soborno ante el tribunal.", car:2, rep:1, ene:3, tags:["justo","publico"], r:"El comerciante es multado y jura vengarse." },
-      { t:"Aceptar el dinero y votar en conciencia igualmente.", hac:3, car:-1, ene:3, phr:-1, r:"Has engañado a un hombre poderoso. Eso se paga." } ] },
-    { id:"trierarca", etapa:"m", virtue:"Magnificencia (megaloprépeia)", sit:"La ciudad te nombra trierarca: durante un año debes pagar y mandar un trirreme de guerra.",
-      hist:"Las liturgias eran los servicios públicos que pagaban los ricos. Con la antídosis podías retar a otro a hacerse cargo… o a cambiar su fortuna por la tuya.", opts:[
-      { t:"Pagar lo necesario y cumplir bien.", hac:-2, rep:1, car:1, tags:["medida"], r:"Un buen barco y un deber cumplido." },
-      { t:"Gastarte una fortuna para tener el mejor barco de la flota.", hac:-5, rep:3, r:"Tu trirreme es la envidia del Pireo. Tu administrador llora." },
-      { t:"Recurrir a la antídosis: que pague otro más rico.", ene:2, risk:true, win:{ r:"El otro acepta pagar. Te has librado, y has ganado un enemigo." }, lose:{ hac:-3, rep:-1, r:"El tribunal te da la razón a medias: pagas igual, y además las costas." } },
-      { t:"Ahorrar en remeros y velas.", hac:-1, rep:-2, risk:true, win:{ r:"El barco aguanta el año." }, lose:{ sal:-3, rep:-2, r:"Una tormenta hunde el barco mal equipado: nadas hasta la costa." } } ] },
-    { id:"sicilia", etapa:"m", virtue:"Valor (andreía)", sit:"La asamblea, entusiasmada, vota invadir Sicilia. Te ofrecen el mando de una parte de la flota.",
-      hist:"La expedición a Sicilia (415-413 a. C.) terminó en desastre: la mayoría murió o acabó en las canteras de Siracusa. Nicias había hablado en contra.", opts:[
-      { t:"Aceptar el mando y la gloria.", rep:3, hac:2, ene:2, tags:["fuerza"], muerte:0.15, muerteT:"Mueres en las canteras de Siracusa, como tantos atenienses.", risk:true, win:{ rep:2, r:"Vuelves de los pocos, con honores." }, lose:{ sal:-4, hac:-2, r:"Vuelves derrotado, enfermo y sin nada." } },
-      { t:"Hablar en contra, aunque te llamen cobarde.", car:2, rep:-2, ene:2, tags:["verdad","publico"], r:"Pierdes la votación. Tenías razón, pero eso no consuela a nadie." },
-      { t:"Votar a favor, pero quedarte en casa.", car:-1, r:"Ni gloria ni riesgo." },
-      { t:"Encargarte de los suministros y quedarte una parte.", hac:4, car:-3, ene:1, set:"corrupto", tags:["injusto"], r:"La flota zarpa con menos grano del que debía." } ] },
-    { id:"peste", etapa:"m", virtue:"Generosidad (eleutheriótes)", sit:"Estalla la peste en Atenas. Tienes almacenes de grano y medicinas.",
-      hist:"La peste de 430 a. C. mató quizá a un tercio de los atenienses, entre ellos a Pericles. Tucídides la sufrió y la describió.", opts:[
-      { t:"Venderlo caro: nunca valdrá tanto.", hac:4, car:-3, ene:2, rep:-2, tags:["injusto"], r:"Te haces rico mientras la ciudad entierra a sus muertos." },
-      { t:"Repartirlo gratis tú mismo.", hac:-4, car:3, rep:2, risk:true, win:{ r:"Sales ileso de entre los enfermos." }, lose:{ sal:-4, r:"Te contagias." } },
-      { t:"Huir al campo con tu familia.", rep:-2, car:-1, sal:1, r:"Te salvas. Nadie olvida que te fuiste." },
-      { t:"Organizar con otros un reparto a precio justo.", hac:-1, car:2, rep:1, phr:1, tags:["justo","medida"], risk:true, win:{ r:"El sistema funciona y te salvas." }, lose:{ sal:-2, r:"Enfermas, pero sobrevives." } } ] },
-    { id:"tirano", etapa:"m", virtue:"Prudencia (phrónesis)", sit:"El tirano de Siracusa te invita a su corte: quiere que lo conviertas en un gobernante filósofo.",
-      hist:"Platón fue tres veces a Siracusa para educar a Dionisio I y a Dionisio II. Fracasó las tres.", opts:[
-      { t:"Aceptar por la influencia y el dinero.", hac:3, car:-2, set:"colaborador", r:"Vives en un palacio y aconsejas a un hombre que no te escucha." },
-      { t:"Rechazar la invitación.", car:1, r:"Te quedas en casa. Siracusa sigue igual." },
-      { t:"Ir e intentar educarlo de verdad.", car:1, risk:true, win:{ car:1, rep:2, r:"El tirano modera alguna ley. Es poco, pero no es nada." }, lose:{ hac:-4, ene:2, sal:-1, r:"Se cansa de ti y te vende como esclavo; unos amigos pagan tu rescate." } },
-      { t:"Ir y pasar información a sus enemigos.", car:-1, ene:2, hac:1, risk:true, win:{ rep:1, r:"Los demócratas de Siracusa te lo agradecen." }, lose:{ sal:-3, ene:3, r:"Te descubren. Huyes de noche en un barco de pescadores." } } ] },
-    { id:"impiedad", etapa:"m", virtue:"Amistad (philía)", sit:"Acusan de impiedad a tu antiguo maestro por decir que el sol es una piedra incandescente.",
-      hist:"A Anaxágoras lo acusaron de impiedad por eso mismo, hacia 430 a. C.; Pericles le ayudó a salir de Atenas.", opts:[
-      { t:"Testificar a su favor.", car:2, ene:3, rep:-1, tags:["verdad","publico"], r:"Tu maestro te abraza. La acusación apunta tu nombre." },
-      { t:"Callar.", car:-1, r:"Lo condenan. Nadie te pregunta nada." },
-      { t:"Ayudarle a huir de noche.", car:1, ene:2, hac:-1, risk:true, win:{ r:"Llega a salvo a Lámpsaco." }, lose:{ ene:2, rep:-2, r:"Os descubren en el puerto." } },
-      { t:"Testificar contra él para salvarte tú.", car:-4, ene:-2, rep:1, set:"delator", r:"Los acusadores te consideran uno de los suyos." } ] },
-    { id:"deudas", etapa:"m", virtue:"Justicia (dikaiosýne)", sit:"Los campesinos, ahogados por las deudas, piden que se perdonen. Muchos te deben dinero a ti.",
-      hist:"Solón (594 a. C.) hizo la seisákhtheia, «la sacudida de cargas»: canceló deudas y prohibió la esclavitud por deudas.", opts:[
-      { t:"Exigir que te paguen hasta el último óbolo.", hac:2, ene:2, rep:-2, car:-1, r:"Cobras. Los campesinos no olvidan." },
-      { t:"Perdonar tú primero las deudas que te deben.", hac:-4, car:2, rep:2, r:"Pierdes mucho, y ganas a una comarca entera." },
-      { t:"Proponer una ley que perdone parte, como Solón.", hac:-2, car:2, rep:1, ene:1, phr:1, tags:["justo","medida"], r:"Ni los ricos ni los pobres quedan del todo contentos. Buena señal." },
-      { t:"Vender las deudas a un usurero antes de que se aprueben.", hac:1, car:-2, rep:-1, tags:["injusto"], r:"Te libras del problema, y se lo pasas a otros." } ] },
-    { id:"mitilene", etapa:"m", virtue:"Mansedumbre (praótes)", sit:"Una ciudad aliada se ha rebelado. El pueblo, furioso, quiere matar a todos sus hombres. Te toca hablar en la asamblea.",
-      hist:"Mitilene, 427 a. C.: Cleón pidió la matanza; Diódoto convenció a la asamblea al día siguiente, y un segundo trirreme llegó a tiempo de evitarla.", opts:[
-      { t:"Pedir la matanza: el pueblo te lo agradecerá.", rep:3, car:-3, ene:1, tags:["fuerza"], r:"Te aclaman. Mil personas van a morir." },
-      { t:"Pedir que se castigue solo a los culpables.", car:2, rep:-1, risk:true, win:{ rep:2, r:"Convences a la asamblea. Un trirreme sale a toda prisa a detener la matanza." }, lose:{ ene:2, r:"Te acusan de estar comprado por los rebeldes." } },
-      { t:"No hablar.", car:-1, rep:-1, r:"Otros deciden por ti." },
-      { t:"Pedir el castigo máximo en público y votar en contra en secreto.", car:-1, phr:-1, ene:1, r:"Ni tú sabes ya qué piensas." } ] },
-    { id:"rumor", etapa:"m", virtue:"Veracidad (alétheia)", sit:"Circula un rumor falso sobre ti. Puedes probar que lo empezó tu rival, pero para eso tendrías que revelar un secreto de un amigo.", opts:[
-      { t:"Revelar el secreto de tu amigo.", rep:2, car:-2, ene:1, r:"Tu reputación se salva. Tu amistad, no." },
-      { t:"Aguantar el rumor en silencio.", rep:-3, car:1, r:"Pierdes fama. Tu amigo nunca sabrá lo que hiciste por él." },
-      { t:"Difundir tú un rumor peor sobre tu rival.", rep:1, car:-2, ene:2, tags:["injusto"], r:"Empate en el barro." },
-      { t:"Hablar en privado con tu rival y negociar.", phr:1, tags:["pacto"], risk:true, win:{ rep:1, ene:-1, r:"Llegáis a un acuerdo: él desmiente y tú olvidas." }, lose:{ rep:-2, r:"Usa la conversación contra ti." } } ] },
-    { id:"prestamo", etapa:"m", virtue:"Generosidad (eleutheriótes)", sit:"Te proponen un préstamo marítimo: si el barco vuelve del mar Negro, doblas tu dinero; si se hunde, lo pierdes.",
-      hist:"Aristóteles distinguía la administración de la casa, que busca lo necesario, de la crematística, que busca acumular dinero sin límite.", opts:[
-      { t:"Invertir toda tu fortuna.", risk:true, win:{ hac:6, r:"El barco vuelve. Eres rico." }, lose:{ hac:-7, r:"El barco no vuelve." } },
-      { t:"Invertir una parte.", risk:true, win:{ hac:2, r:"Buena ganancia." }, lose:{ hac:-2, r:"Pierdes lo invertido." } },
-      { t:"No invertir: tienes lo que necesitas.", phr:1, tags:["medida"], r:"Duermes tranquilo." },
-      { t:"Invertir y pagar al capitán para que no pase por aguas peligrosas.", hac:-1, car:-1, risk:true, win:{ hac:3, r:"El barco vuelve." }, lose:{ hac:-3, r:"El capitán se queda tu dinero y desaparece." } } ] },
-    { id:"stasis", etapa:"m", virtue:"Valor (andreía)", sit:"Guerra civil en la ciudad: demócratas y oligarcas se matan en las calles, y los dos bandos te exigen que elijas.",
-      hist:"Una ley atribuida a Solón quitaba los derechos al ciudadano que no tomara partido en una guerra civil. Tucídides describe la stásis de Corcira como el fin de toda moral.", opts:[
-      { t:"Unirte a los oligarcas.", hac:2, ene:3, tags:["fuerza"], set:"oligarca", r:"Tu bando gana… por ahora." },
-      { t:"Unirte a los demócratas.", rep:1, ene:3, r:"Luchas en el Pireo con los remeros y los artesanos." },
-      { t:"Encerrarte en casa hasta que pase.", rep:-2, ene:1, car:-1, r:"Los dos bandos te desprecian." },
-      { t:"Mediar entre los dos bandos.", phr:1, muerte:0.08, muerteT:"Un exaltado te mata en plena negociación.", risk:true, win:{ car:2, rep:3, ene:-2, r:"Logras una tregua. Te deben la paz." }, lose:{ ene:3, sal:-2, r:"Los dos bandos te acusan de traidor." } } ] },
-    { id:"ostrakon", etapa:"m", virtue:"Justicia (dikaiosýne)", sit:"Se vota un ostracismo. Un rival te propone unir vuestros partidarios para desterrar a un tercero y repartiros su poder.",
-      hist:"En 416 a. C., Alcibíades y Nicias se pusieron de acuerdo para que el desterrado fuera Hipérbolo. Fue el último ostracismo de Atenas.", opts:[
-      { t:"Aceptar el pacto.", rep:2, ene:2, car:-2, tags:["pacto"], r:"El tercero se va diez años. Tu rival y tú os vigiláis." },
-      { t:"Rechazarlo y votar a quien creas de verdad peligroso.", car:1, ene:1, r:"Votas con tu conciencia; tu rival se lo toma mal." },
-      { t:"Avisar a la víctima del complot.", car:1, ene:2, rep:1, r:"El complot fracasa. Ya sabes quién te odia." },
-      { t:"No votar.", rep:-1, r:"Otros deciden." } ] },
-    { id:"mina", etapa:"m", virtue:"Justicia (dikaiosýne)", sit:"Te ofrecen arrendar una concesión en las minas de plata del Laurión. Es muy rentable si no te importa cómo trabajan los esclavos en las galerías.", opts:[
-      { t:"Arrendarla y exprimir al máximo.", hac:4, car:-3, tags:["injusto"], r:"La plata fluye. Mejor no bajar a ver cómo." },
-      { t:"Arrendarla, pero con turnos y comida decentes.", hac:2, car:1, phr:1, tags:["medida"], r:"Ganas menos que otros, pero ganas." },
-      { t:"No entrar en ese negocio.", car:1, r:"Otro lo arrienda en tu lugar." },
-      { t:"Arrendarla y endeudarte para abrir más galerías.", car:-2, risk:true, win:{ hac:6, r:"Encuentras una veta riquísima." }, lose:{ hac:-5, sal:-1, r:"La galería se hunde." } } ] },
-
-    /* ===================== MADUREZ · CONTEMPLATIVA ===================== */
-    { id:"libro", etapa:"m", orient:["Contemplativa","Discursiva"], virtue:"Veracidad (alétheia)", sit:"Tu libro dice que de los dioses no se puede saber si existen. Un amigo te aconseja no publicarlo.",
-      hist:"Protágoras abrió así su obra Sobre los dioses; según la tradición, sus libros se quemaron en el ágora.", opts:[
-      { t:"Publicarlo tal cual.", car:1, rep:2, ene:4, tags:["verdad","publico"], r:"Se lee en toda Grecia. Y en los templos." },
-      { t:"Publicarlo con un lenguaje más prudente.", phr:1, rep:1, ene:1, tags:["medida"], r:"Dice lo mismo, pero hay que saber leerlo." },
-      { t:"Leerlo solo a tus discípulos.", phr:1, r:"Tus ideas circulan en voz baja." },
-      { t:"Quemarlo tú mismo.", car:-2, phr:-1, r:"Nadie te acusará de nada. Nadie sabrá lo que pensabas." } ] },
-    { id:"escuela", etapa:"m", orient:["Contemplativa"], virtue:"Generosidad (eleutheriótes)", sit:"Fundas una escuela. ¿Cómo la vas a mantener?", opts:[
-      { t:"Cobrar mucho, como los sofistas.", hac:4, rep:1, car:-1, r:"La escuela es rica; los alumnos, también." },
-      { t:"No cobrar y vivir de donaciones.", hac:-2, car:1, rep:1, r:"Vives con lo justo, rodeado de gente que quiere aprender." },
-      { t:"Cobrar a cada uno según lo que pueda pagar.", hac:1, car:1, phr:1, tags:["medida","justo"], r:"Pagan los ricos por los pobres, y todos aprenden." },
-      { t:"Aceptar solo a hijos de familias poderosas.", hac:2, rep:2, ene:1, car:-1, r:"Tus alumnos gobernarán la ciudad. Los demás te guardan rencor." } ] },
-    { id:"alejandria", etapa:"m", orient:["Contemplativa"], virtue:"Prudencia (phrónesis)", sit:"El obispo y el prefecto de la ciudad se enfrentan; a tus clases vienen alumnos de los dos bandos.",
-      hist:"Alejandría, 415: Hipatia era amiga y consejera del prefecto Orestes. La turba que la mató la culpaba de impedir la reconciliación.", opts:[
-      { t:"Apoyar en público al prefecto: tiene razón.", rep:1, ene:4, tags:["publico"], muerte:0.1, muerteT:"Una turba te arrastra por las calles.", r:"El prefecto te lo agradece. El bando del obispo te señala." },
-      { t:"Seguir enseñando como siempre, sin opinar.", ene:1, r:"Tu silencio también es interpretado." },
-      { t:"Dejar de enseñar en público una temporada.", rep:-2, ene:-2, hac:-1, r:"Te olvidan un poco. Mejor así." },
-      { t:"Intentar reconciliar a los dos.", phr:1, risk:true, win:{ rep:2, car:2, ene:-1, r:"Una tregua frágil, pero tregua." }, lose:{ ene:3, r:"Cada bando cree que trabajas para el otro." } } ] },
-    { id:"alumno", etapa:"m", orient:["Contemplativa"], virtue:"Amistad (philía)", sit:"Un joven brillante, rico y arrogante quiere ser tu discípulo para aprender a gobernar.",
-      hist:"Alcibíades fue discípulo y amigo de Sócrates. En el juicio de 399 a. C., muchos lo recordaban.", opts:[
-      { t:"Enseñarle, aunque no cambie.", rep:1, set:"alumno", r:"Te escucha, te admira… y hace lo que quiere." },
-      { t:"Rechazarlo.", rep:-1, r:"Busca a otro maestro, uno menos exigente." },
-      { t:"Enseñarle y criticarle en público cuando se equivoque.", car:1, ene:1, tags:["verdad"], set:"alumno", r:"Te respeta más que a nadie; su familia, menos." },
-      { t:"Usarlo para ganar influencia.", hac:2, rep:2, car:-2, set:"alumno", r:"Te abre las puertas de las mejores casas." } ] },
-
-    /* ===================== MADUREZ · DISCURSIVA ===================== */
-    { id:"comedia", etapa:"m", orient:["Discursiva"], virtue:"Veracidad (alétheia)", sit:"Preparas una obra que ridiculiza al político más poderoso de la ciudad.",
-      hist:"En 426 a. C., Cleón llevó a Aristófanes ante el Consejo por Los babilonios; dos años después, Aristófanes lo volvió a ridiculizar en Los caballeros.", opts:[
-      { t:"Estrenarla tal cual.", rep:3, ene:4, tags:["verdad","publico"], r:"Todo el teatro ríe. Él no." },
-      { t:"Suavizarla.", rep:1, tags:["medida"], r:"Buena acogida. Nadie se ofende demasiado." },
-      { t:"Ridiculizar mejor a un filósofo que no tiene poder.", rep:2, car:-2, r:"Éxito fácil. Años después, el público recordará tu caricatura en un juicio." },
-      { t:"Guardarla en un cajón.", rep:-2, r:"Este año no estrenas." } ] },
-    { id:"logografo", etapa:"m", orient:["Discursiva"], virtue:"Veracidad (alétheia)", sit:"Un hombre rico te paga para que le escribas el discurso de defensa. Sabes que es culpable.", opts:[
-      { t:"Escribir el mejor discurso posible por mucho dinero.", hac:3, car:-1, rep:1, r:"Lo absuelven. Tu fama de logógrafo sube." },
-      { t:"Rechazar el encargo.", car:1, r:"Otro lo escribirá por ti." },
-      { t:"Escribirlo, pero sin mentir en nada.", hac:1, phr:1, tags:["medida"], r:"Un discurso honrado para una causa dudosa." },
-      { t:"Escribirlo y pasar la verdad a la acusación.", hac:2, car:-1, ene:2, r:"Lo condenan. Tu cliente sospecha de ti." } ] },
-    { id:"acusacion", etapa:"m", orient:["Discursiva"], virtue:"Valor (andreía)", sit:"Para atacar a tu protector político, te acusan a ti de impiedad.",
-      hist:"Según Plutarco, a Aspasia la acusó de impiedad el comediógrafo Hermipo, y Pericles lloró ante el jurado para salvarla.", opts:[
-      { t:"Defenderte tú misma ante el tribunal.", tags:["publico"], risk:true, win:{ rep:2, ene:-2, r:"Tu defensa es tan buena que la citan durante años." }, lose:{ ene:2, rep:-2, hac:-2, r:"Te condenan a una multa enorme." } },
-      { t:"Pedir a tu protector que hable por ti.", rep:-1, ene:-1, r:"Te salva, pero ahora le debes la vida." },
-      { t:"Huir de la ciudad.", hac:-3, rep:-2, ene:-3, r:"Empiezas de cero en otra parte." },
-      { t:"Contraatacar acusando a tus acusadores.", ene:3, rep:1, tags:["fuerza"], r:"Guerra abierta en los tribunales." } ] },
-
-    /* ===================== MADUREZ · POLÍTICA ===================== */
-    { id:"golpe", etapa:"m", orient:["Política"], virtue:"Templanza (sophrosýne)", sit:"Tus partidarios te ofrecen tomar esta noche la Acrópolis y proclamarte tirano.",
-      hist:"Pisístrato lo intentó tres veces en el siglo VI a. C. y a la tercera se quedó. Cilón, antes que él, fracasó y sus partidarios fueron asesinados.", opts:[
-      { t:"Dar el golpe.", car:-3, tags:["fuerza","injusto"], muerte:0.2, muerteT:"El golpe fracasa: te matan en la Acrópolis.", risk:true, win:{ rep:3, hac:4, ene:5, set:"tirano", r:"Amaneces siendo el amo de la ciudad." }, lose:{ ene:4, hac:-3, r:"Fracasa. Escapas de milagro." } },
-      { t:"Negarte y avisar al Consejo.", car:2, ene:3, rep:1, tags:["justo"], r:"El golpe se desarma. Tus antiguos partidarios te odian." },
-      { t:"Negarte en silencio.", car:1, ene:1, r:"Nadie sabe nada. De momento." },
-      { t:"Proponer reformas legales para lo que piden.", phr:1, car:1, rep:1, ene:1, tags:["medida"], r:"Algunos se conforman; otros te llaman blando." } ] },
-    { id:"melos", etapa:"m", orient:["Política"], virtue:"Justicia (dikaiosýne)", sit:"Como general, has rendido una pequeña isla neutral. La asamblea te pregunta qué hacer con los vencidos.",
-      hist:"Melos, 416 a. C.: Atenas mató a los hombres y esclavizó a mujeres y niños. Tucídides lo narra en el «diálogo de los melios».", opts:[
-      { t:"Matar a los hombres y esclavizar al resto, como escarmiento.", hac:3, rep:1, car:-4, ene:1, tags:["fuerza","injusto"], r:"Nadie más se atreverá a ser neutral." },
-      { t:"Pedir clemencia.", car:2, rep:-2, ene:1, r:"Te acusan de blando." },
-      { t:"Instalar colonos y cobrar tributo, sin matanza.", car:1, hac:1, phr:1, tags:["medida"], r:"Una conquista, pero sin sangre inútil." },
-      { t:"Quedarte con el botín antes de que llegue la orden.", hac:4, car:-3, ene:2, set:"corrupto", tags:["injusto"], r:"Nadie contó bien las ánforas." } ] },
-    { id:"hermes", etapa:"m", orient:["Política"], virtue:"Veracidad (alétheia)", sit:"La víspera de tu expedición aparecen mutiladas las estatuas de Hermes de la ciudad. Tus rivales te acusan de sacrilegio.",
-      hist:"En 415 a. C. acusaron a Alcibíades. Pidió ser juzgado antes de zarpar; no le dejaron. Condenado en ausencia, se pasó a Esparta.", opts:[
-      { t:"Exigir que te juzguen ahora, antes de zarpar.", tags:["publico"], risk:true, win:{ rep:2, ene:-2, r:"Te absuelven y zarpas limpio." }, lose:{ ene:3, r:"Aplazan el juicio: te juzgarán cuando no estés." } },
-      { t:"Zarpar y dejar que te juzguen en ausencia.", ene:4, rep:-1, r:"Te condenan a muerte en ausencia." },
-      { t:"Sobornar a los testigos.", hac:-3, car:-2, risk:true, win:{ ene:-1, r:"Los testigos se desdicen." }, lose:{ ene:4, rep:-2, r:"Uno de ellos lo cuenta todo." } },
-      { t:"Pasarte al enemigo antes de que te detengan.", car:-3, rep:-3, ene:3, hac:2, set:"traidor", r:"Esparta te recibe con los brazos abiertos. Atenas, con una condena a muerte." } ] },
-    { id:"flota", etapa:"m", orient:["Política"], virtue:"Justicia (dikaiosýne)", sit:"Tu rival te cuenta en secreto su plan: incendiar la flota de los aliados, fondeada en el puerto. Atenas dominaría el mar sin competencia. La asamblea te encarga juzgarlo.",
-      hist:"Según Plutarco, Temístocles propuso algo así y la asamblea encargó a Arístides examinarlo. Arístides dijo que nada sería más provechoso ni más injusto, y los atenienses lo rechazaron sin conocerlo.", opts:[
-      { t:"Apoyarlo: lo que conviene a Atenas es lo justo.", hac:2, rep:1, car:-3, ene:1, tags:["injusto","fuerza"], r:"La flota aliada arde. Atenas manda en el mar, y nadie vuelve a fiarse de ella." },
-      { t:"Decir a la asamblea que es muy provechoso… y muy injusto.", car:2, ene:2, tags:["justo","publico","verdad"], risk:true, win:{ rep:2, r:"La asamblea lo rechaza sin pedir detalles. Tu rival no te lo perdona." }, lose:{ rep:-1, ene:1, r:"Te acusan de poner la moral por delante de la patria." } },
-      { t:"Avisar en secreto a los aliados.", car:1, ene:3, rep:-2, r:"Los aliados se salvan. En Atenas, alguien sospecha de ti." },
-      { t:"Proponer, en cambio, una liga con los aliados y un tributo justo.", car:1, rep:1, phr:1, tags:["justo","medida"], r:"Los aliados confían en ti para fijar lo que paga cada ciudad." } ] },
-    { id:"hifasis", etapa:"m", orient:["Política"], virtue:"Templanza (sophrosýne)", sit:"Tu ejército está agotado tras años de campaña y quiere volver a casa. Tú quieres seguir hasta el fin del mundo.",
-      hist:"A orillas del río Hífasis (326 a. C.), los soldados de Alejandro se negaron a seguir. Volvió, pero por el desierto de Gedrosia, donde murieron miles.", opts:[
-      { t:"Ordenar seguir adelante.", rep:1, sal:-2, ene:3, car:-1, tags:["fuerza"], r:"Te obedecen de mala gana." },
-      { t:"Volver a casa.", rep:-1, car:1, tags:["medida"], r:"Tus soldados te bendicen." },
-      { t:"Ejecutar a los que protestan.", ene:4, car:-3, tags:["fuerza","injusto"], r:"Se hace el silencio. Un silencio peligroso." },
-      { t:"Volver por el desierto más duro, para demostrar tu valor.", sal:-4, rep:1, car:-1, r:"Llegas. Muchos no." } ] },
-    { id:"demagogo", etapa:"m", orient:["Política","Discursiva"], virtue:"Veracidad (alétheia)", sit:"La ciudad pasa hambre. Puedes ganar las elecciones a general prometiendo trigo barato que no podrás conseguir.", opts:[
-      { t:"Prometerlo todo.", rep:3, car:-2, set:"promesa", r:"Ganas con una mayoría aplastante." },
-      { t:"Decir la verdad: habrá que apretarse el cinturón.", car:2, rep:-2, tags:["verdad","publico"], r:"Pierdes. Pero nadie podrá reprocharte nada." },
-      { t:"Prometer lo que de verdad puedes cumplir.", rep:1, car:1, phr:1, tags:["medida"], r:"Ganas por poco." },
-      { t:"Culpar del hambre a los metecos.", rep:2, car:-3, ene:2, tags:["injusto"], r:"Funciona. Siempre funciona." } ] },
-
-    /* ===================== VEJEZ ===================== */
-    { id:"juicio", etapa:"v", cond:{ ene:5 }, virtue:"Valor (andreía)", sit:"Ya anciano, te acusan de corromper a los jóvenes y de no creer en los dioses de la ciudad. El jurado lo forman 501 ciudadanos.",
-      hist:"Así fue el juicio de Sócrates (399 a. C.), según la Apología de Platón. Pidió como «castigo» comer gratis en el Pritaneo, y lo condenaron a muerte.", opts:[
-      { t:"Llorar y suplicar al jurado.", car:-3, ene:-2, rep:-1, r:"Te absuelven por pena. Tú sabes lo que has hecho." },
-      { t:"Defender tu vida con orgullo, sin pedir clemencia.", car:3, tags:["verdad","publico"], risk:true, pBase:0, win:{ rep:2, r:"Te absuelven por pocos votos. Ha sido la mejor defensa que se recuerda." }, lose:{ set:"preso", r:"Te condenan a muerte. Te llevan a la cárcel a esperar la ejecución." } },
-      { t:"Proponer tú mismo el destierro como pena.", hac:-3, rep:-2, ene:-3, r:"Aceptan. Acabarás tus días lejos de la ciudad." },
-      { t:"Huir antes del juicio.", hac:-2, rep:-2, ene:-2, car:-1, r:"Te vas antes de que te juzguen. Algunos te llaman cobarde." } ] },
-    { id:"carcel", etapa:"v", req:"preso", urgente:true, virtue:"Justicia (dikaiosýne)", sit:"Estás en la cárcel esperando la ejecución. Tus amigos han sobornado al guardia: puedes escapar esta noche.",
-      hist:"En el Critón de Platón, Sócrates rechaza escapar: sería devolver a las leyes injusticia por injusticia.", opts:[
-      { t:"Escapar: la condena es injusta.", car:-1, hac:-2, rep:-1, r:"Vives, desterrado y en boca de todos." },
-      { t:"Quedarte: no se responde a una injusticia con otra.", car:3, muerte:1, muerteT:"Cumples la sentencia. Tus discípulos no dejarán de hablar de ti." },
-      { t:"Escapar y seguir enseñando desde el extranjero.", hac:-2, rep:1, ene:1, r:"Sigues enseñando en otra ciudad." } ] },
-    { id:"testamento", etapa:"v", virtue:"Generosidad (eleutheriótes)", sit:"Llega la hora de hacer testamento.",
-      hist:"Aristóteles dispuso en su testamento la liberación de varios de sus esclavos, según Diógenes Laercio.", opts:[
-      { t:"Dejarlo todo a tus hijos.", r:"Tu familia queda protegida." },
-      { t:"Fundar una biblioteca o una escuela con tus bienes.", hac:-4, rep:2, car:1, r:"Tu nombre seguirá en la puerta durante siglos." },
-      { t:"Liberar a tus esclavos y repartir una parte entre ellos.", hac:-2, car:2, tags:["justo"], r:"Algunos vecinos lo consideran una locura." },
-      { t:"Gastarlo todo en vida en banquetes.", sal:-2, hac:-3, car:-1, tags:["placer"], r:"Que paguen los herederos." } ] },
-    { id:"retiro", etapa:"v", virtue:"Prudencia (phrónesis)", sit:"El médico te aconseja dejar la vida pública y retirarte al campo.", opts:[
-      { t:"Seguir en la asamblea hasta el final.", rep:1, sal:-2, ene:1, r:"Te respetan, y te agotas." },
-      { t:"Retirarte al campo.", sal:2, rep:-1, ene:-2, tags:["medida"], r:"Tus enemigos te olvidan. Tus olivos, no." },
-      { t:"Retirarte y escribir tus memorias.", sal:1, phr:1, rep:1, r:"Recordar ordenadamente también es pensar." },
-      { t:"Pagar a un curandero famoso por un remedio milagroso.", hac:-3, risk:true, win:{ sal:2, r:"Por casualidad o no, te encuentras mejor." }, lose:{ sal:-2, r:"El remedio era peor que la enfermedad." } } ] },
-    { id:"estatua", etapa:"v", virtue:"Magnanimidad (megalopsykhía)", sit:"La ciudad quiere levantarte una estatua en el ágora.",
-      hist:"Para Aristóteles, el magnánimo se sabe digno de grandes honores y los acepta sin desearlos con ansia; el vanidoso los busca sin merecerlos.", opts:[
-      { t:"Aceptarla y pagarla tú.", hac:-3, rep:2, r:"Una estatua digna." },
-      { t:"Rechazarla con falsa modestia.", car:-1, r:"Todos saben que te morías de ganas." },
-      { t:"Aceptarla y pedir que el dinero sobrante vaya a los huérfanos de guerra.", car:2, rep:1, tags:["medida"], r:"La estatua es pequeña, y el gesto, grande." },
-      { t:"Exigir que sea más grande que la de tu rival.", rep:1, ene:2, car:-1, r:"Ahora hay dos estatuas que no se hablan." } ] },
-    { id:"amnistia", etapa:"v", virtue:"Mansedumbre (praótes)", sit:"Los que te persiguieron han caído. Ahora te toca decidir qué se hace con ellos.",
-      hist:"En 403 a. C., tras la caída de los Treinta, Atenas votó una amnistía: prohibido «recordar los males pasados». Es una de las primeras de la historia.", opts:[
-      { t:"Vengarte: que paguen lo que hicieron.", ene:3, hac:2, car:-2, tags:["fuerza"], r:"Justicia, dicen algunos. Venganza, dicen otros." },
-      { t:"Apoyar una amnistía general.", car:2, rep:2, ene:-3, tags:["justo"], r:"La ciudad respira." },
-      { t:"Pedir juicio solo para los que mataron.", car:1, ene:-1, phr:1, tags:["medida","justo"], r:"Una justicia difícil, pero justicia." },
-      { t:"Irte de la ciudad: no quieres verlos.", rep:-1, ene:-2, r:"Te ahorras rencores." } ] },
-    { id:"herederos", etapa:"v", virtue:"Justicia (dikaiosýne)", sit:"Tus hijos se pelean por el negocio familiar. Uno quiere vendérselo a un comprador conocido por maltratar a sus trabajadores.", opts:[
-      { t:"Vender al mejor postor.", hac:3, car:-2, r:"Dinero rápido. Mejor no preguntar." },
-      { t:"No vender y repartirlo entre tus hijos.", hac:-1, car:1, r:"Se pelearán igual, pero sin vender." },
-      { t:"Vender, pero poniendo condiciones en el contrato.", hac:1, phr:1, tags:["medida"], r:"El comprador las acepta a regañadientes." },
-      { t:"Quedártelo y apretar tú a los trabajadores.", hac:3, car:-3, ene:1, tags:["injusto"], r:"Si hay que exprimir a alguien, que la ganancia sea tuya." } ] },
-
-    /* ===================== CONSECUENCIAS (se activan con marcas) ===================== */
-    { id:"c-colaborador", etapa:["m","v"], req:"colaborador", virtue:"Justicia (dikaiosýne)", sit:"Ha caído el gobierno al que serviste. Ahora te juzgan por colaborar con él.", opts:[
-      { t:"Echar la culpa a otros.", car:-2, risk:true, win:{ ene:-2, r:"Te creen." }, lose:{ ene:3, rep:-2, r:"Los otros te acusan a ti con pruebas." } },
-      { t:"Asumir tu parte y acogerte a la amnistía.", car:2, rep:-1, hac:-2, ene:-1, r:"Pagas una multa. Puedes mirar a la cara a tus vecinos." },
-      { t:"Huir con lo que puedas llevar.", hac:-3, rep:-3, ene:-2, r:"Una vida nueva, lejos y sin nombre." },
-      { t:"Comprar testigos.", hac:-4, car:-2, risk:true, win:{ ene:-2, r:"Te absuelven." }, lose:{ ene:4, rep:-3, r:"Se descubre la compra." } } ] },
-    { id:"c-corrupto", etapa:["m","v"], req:"corrupto", virtue:"Veracidad (alétheia)", sit:"Un antiguo cómplice amenaza con contar tu corrupción si no le pagas.", opts:[
-      { t:"Pagarle.", hac:-3, r:"Volverá a pedir." },
-      { t:"Confesar tú primero y devolver lo que tomaste.", rep:-3, car:3, hac:-3, r:"Escándalo, multa… y alivio." },
-      { t:"Amenazarlo tú a él.", ene:3, car:-1, r:"Ahora tenéis un secreto y un odio en común." },
-      { t:"Hacer que lo callen para siempre.", car:-5, tags:["fuerza","injusto"], risk:true, win:{ r:"Nunca volverás a oír hablar de él." }, lose:{ ene:5, rep:-3, r:"El asesino a sueldo habla." } } ] },
-    { id:"c-tirano", etapa:["m","v"], req:"tirano", virtue:"Templanza (sophrosýne)", sit:"Llevas años gobernando como tirano. Te llega el rumor de una conjura para matarte en la próxima procesión.",
-      hist:"Harmodio y Aristogitón mataron a Hiparco, hijo de Pisístrato, en las Panateneas de 514 a. C.; Atenas les levantó una estatua como tiranicidas.", opts:[
-      { t:"Guardia personal y ejecuciones preventivas.", ene:2, car:-3, hac:-2, tags:["fuerza"], r:"Sobrevives. La ciudad te teme más que nunca." },
-      { t:"Renunciar al poder y devolver las leyes.", car:3, rep:2, ene:-4, hac:-2, r:"Pocos tiranos lo hicieron. Te recordarán por eso." },
-      { t:"Negociar en secreto con los conjurados.", phr:1, risk:true, win:{ ene:-3, r:"Llegáis a un acuerdo." }, lose:{ ene:2, sal:-3, r:"Era una trampa: te hieren en la procesión." } },
-      { t:"No hacer caso: nadie se atreverá.", muerte:0.4, muerteT:"Los conjurados te apuñalan en la procesión.", r:"No pasa nada. Esta vez." } ] },
-    { id:"c-alumno", etapa:["m","v"], req:"alumno", virtue:"Amistad (philía)", sit:"Tu antiguo discípulo se ha pasado al enemigo, y la ciudad te culpa de haberlo corrompido.", opts:[
-      { t:"Defenderte explicando lo que de verdad le enseñaste.", phr:1, tags:["verdad","publico"], risk:true, win:{ ene:-2, r:"Algunos lo entienden." }, lose:{ ene:3, r:"Nadie quiere escuchar matices." } },
-      { t:"Renegar de él en público.", car:-1, ene:-1, r:"Te salvas a medias. Él se entera." },
-      { t:"Callar.", ene:2, r:"El que calla otorga, dicen." },
-      { t:"Irte una temporada de la ciudad.", hac:-2, ene:-3, rep:-1, r:"Cuando vuelvas, habrá otro culpable." } ] },
-    { id:"c-delator", etapa:["m","v"], req:"delator", virtue:"Amistad (philía)", sit:"El maestro contra el que testificaste ha muerto en el exilio. Sus discípulos te señalan por la calle.", opts:[
-      { t:"Pedir perdón en público.", car:2, rep:-1, r:"Algunos te perdonan; tú no." },
-      { t:"Justificarte: hiciste lo que había que hacer.", car:-1, ene:2, r:"Nadie te cree, ni siquiera tú." },
-      { t:"Pagar la educación de sus discípulos pobres.", hac:-3, car:2, rep:1, r:"No borra nada, pero algo repara." },
-      { t:"Denunciar también a sus discípulos.", car:-3, ene:3, tags:["injusto"], r:"Ya no hay vuelta atrás." } ] },
-    { id:"c-oligarca", etapa:["m","v"], req:"oligarca", virtue:"Justicia (dikaiosýne)", sit:"Los demócratas han recuperado la ciudad. Tu bando ha perdido.", opts:[
-      { t:"Resistir en Eleusis con los últimos oligarcas.", ene:3, tags:["fuerza"], muerte:0.15, muerteT:"Caes en la última escaramuza.", r:"Una causa perdida, pero tuya." },
-      { t:"Acogerte a la amnistía.", ene:-3, rep:-1, r:"Vuelves a ser un ciudadano más." },
-      { t:"Delatar a tus antiguos compañeros a cambio de perdón.", car:-3, ene:-2, r:"Te perdonan. Ellos, no." },
-      { t:"Exiliarte con tu fortuna.", hac:-2, rep:-2, ene:-2, r:"Una vida cómoda en el destierro." } ] },
-    { id:"c-traidor", etapa:["m","v"], req:"traidor", virtue:"Amistad (philía)", sit:"Llevas años sirviendo al enemigo, y allí tampoco se fían de ti. Atenas te ofrece volver si le traes una victoria.",
-      hist:"Alcibíades volvió a Atenas en 407 a. C., aclamado como un héroe; al año siguiente, tras una derrota de su lugarteniente, lo destituyeron.", opts:[
-      { t:"Volver con la victoria.", risk:true, win:{ rep:4, ene:-2, r:"Vuelves como un héroe." }, lose:{ ene:3, sal:-2, r:"La batalla sale mal y ahora te odian en los dos bandos." } },
-      { t:"Quedarte donde estás.", ene:1, r:"Extranjero en todas partes." },
-      { t:"Irte a Persia y vivir de tu fama.", hac:1, rep:-1, ene:1, r:"Un sátrapa te acoge, de momento." },
-      { t:"Retirarte a una fortaleza con tus hombres.", hac:-2, ene:-1, r:"Solo, pero a salvo." } ] },
-    { id:"c-promesa", etapa:["m","v"], req:"promesa", virtue:"Veracidad (alétheia)", sit:"El trigo barato que prometiste no ha llegado. El pueblo empieza a gritar tu nombre, y no para aplaudir.", opts:[
-      { t:"Pagarlo de tu bolsillo.", hac:-5, rep:2, r:"Cumples, aunque te arruines." },
-      { t:"Culpar a los ricos y confiscarles el grano.", ene:4, rep:1, tags:["fuerza"], r:"El pueblo come. Los ricos conspiran." },
-      { t:"Reconocer que prometiste lo imposible.", car:2, rep:-3, r:"Honesto, tarde y caro." },
-      { t:"Inventar un enemigo exterior.", car:-3, rep:1, ene:2, tags:["injusto"], r:"La guerra hace olvidar el hambre… un tiempo." } ] }
-  ],
-
-  // Cartas de azar: la fortuna no cambia el carácter, pero sí todo lo demás.
-  chance: [
-    { t:"Apoyo del pueblo", d:"El pueblo se pone de tu lado.", rep:2, ene:-1, img:"azar-apoyo" },
-    { t:"Discurso sutil", d:"Tus palabras logran un equilibrio admirable.", rep:1, phr:1, img:"azar-sutil" },
-    { t:"Reforma exitosa", d:"Una medida tuya sale bien.", rep:1, hac:1, img:"azar-reforma" },
-    { t:"Inspiración", d:"Encuentras una claridad que ordena tu juicio.", phr:2, img:"azar-inspiracion" },
-    { t:"Tratado de paz", d:"Se firma la paz y la ciudad respira.", sal:1, hac:1, ene:-1, img:"azar-paz" },
-    { t:"Golpe de suerte", d:"La fortuna sonríe por una vez.", hac:3, img:"azar-suerte" },
-    { t:"Resistencia de las élites", d:"Los poderosos bloquean tu iniciativa.", hac:-2, ene:2, img:"azar-elites", bad:true },
-    { t:"Reacción de los fanáticos", d:"Recibes una respuesta violenta.", sal:-2, ene:1, img:"azar-fanaticos", bad:true },
-    { t:"La peste", d:"Una epidemia asola la ciudad.", sal:-3, img:"azar-peste", bad:true },
-    { t:"Ruina económica", d:"Una mala inversión te deja sin recursos.", hac:-3, img:"azar-ruina", bad:true },
-    { t:"Traición", d:"Alguien de confianza te vende.", rep:-2, ene:2, hac:-1, img:"azar-traicion", bad:true },
-    { t:"Guerra civil", d:"El conflicto interno lo devora todo.", sal:-2, hac:-2, img:"azar-guerra", bad:true },
-    { t:"Escándalo público", d:"Tu nombre se arrastra por el fango.", rep:-3, img:"azar-escandalo", bad:true }
-  ],
-  chanceProb: 0.35,
-
-  // Peligro: si tienes muchos enemigos, cada ronda pueden venir a por ti.
-  peligro: {
-    umbral: 4, porPunto: 0.06, max: 0.5,
-    juicio: { t:"Te llevan a juicio", img:null, em:"⚖️",
-      salidas: [
-        { min:0.7,  t:"Absuelto", d:"El jurado te absuelve por pocos votos.", ene:-2 },
-        { min:0.45, t:"Multa y cárcel", d:"Te condenan a una multa que no puedes pagar entera: unos meses en prisión.", hac:-2, sal:-1, ene:-2 },
-        { min:0.22, t:"Destierro", d:"Te condenan al destierro: pierdes casa, amigos y bienes.", hac:-2, rep:-2, ene:-4, img:"azar-destierro" },
-        { min:-99,  t:"Condena a muerte", d:"El jurado te condena a muerte.", muerte:true } ] },
-    ostracismo: { t:"Ostracismo", d:"La asamblea escribe tu nombre en los óstraka: diez años fuera de la ciudad, aunque conservas tus bienes.", rep:-3, hac:-1, ene:-4, img:"azar-destierro" },
-    atentado: { t:"Atentado", img:"azar-fanaticos",
-      salidas: [
-        { min:0.15, t:"Sobrevives a un atentado", d:"Te asaltan de noche; sales herido.", sal:-3, ene:-1 },
-        { min:-99, t:"Asesinado", d:"Te asaltan de noche en una calle del Cerámico.", muerte:true } ] }
-  },
-
-  finales: {
-    muerte_noble:  { emoji:"🕯️", label:"Vida noble truncada", texto:"Mueres fiel a ti mismo. Aristóteles admiraría tu carácter, pero no te llamaría feliz: la eudaimonía es una vida entera lograda, y la tuya se ha cortado." },
-    muerte:        { emoji:"💀", label:"Vida malograda", texto:"Mueres sin haber llegado a ser quien podías ser. Ni la virtud ni la fortuna han acompañado." },
-    ruina_noble:   { emoji:"🥀", label:"Virtuoso en la miseria", texto:"Conservas el carácter, pero te has quedado sin nada. Para Aristóteles, la virtud sola no basta: sin bienes no se puede actuar bien ni vivir bien." },
-    ruina:         { emoji:"🪨", label:"Arruinado", texto:"Lo has perdido todo, y con ello la posibilidad de participar en la vida de la ciudad." },
-    prospero:      { emoji:"🪙", label:"Próspero pero no feliz", texto:"Tienes riqueza y fama, pero un carácter degradado. Para Aristóteles, los bienes externos son medios: sin virtud no hay eudaimonía." }
-  },
-  bands: [
-    { min:46, emoji:"🌿", label:"Vida feliz y excelente" },
-    { min:38, emoji:"⚖️", label:"Vida equilibrada" },
-    { min:28, emoji:"⚠️", label:"Vida conflictiva" },
-    { min:-999, emoji:"🥀", label:"Vida al borde del fracaso" }
-  ],
-  reflect: [
-    "Si tu personaje murió siendo virtuoso, ¿fue feliz? ¿Qué diría Aristóteles, que recuerda que a Príamo nadie lo llama feliz?",
-    "¿Qué ha pesado más en tu vida: tu carácter, tus bienes o la fortuna?",
-    "Aristóteles dice que la virtud es un término medio «relativo a nosotros». ¿Te ha costado lo mismo actuar bien que a otros personajes?",
-    "¿Merece la pena ser incorruptible si eso te puede costar la vida?",
-    "¿Qué distingue la vida política, la discursiva y la contemplativa? ¿Cuál es, según Aristóteles, la más feliz?",
-    "¿Por qué es tan importante la phrónesis (prudencia) para vivir bien?"
+ "meta": {
+  "imgBase": "media/juegos/aristoteles/",
+  "etapas": [
+   {
+    "id": "j",
+    "label": "Gaztaroa",
+    "rondas": 3
+   },
+   {
+    "id": "m",
+    "label": "Heldutasuna",
+    "rondas": 6,
+    "paso": {
+     "hac": 3,
+     "t": "Urteak igarotzen dira: zure lurrek eta zure lanak etekina ematen dute."
+    }
+   },
+   {
+    "id": "v",
+    "label": "Zahartzaroa",
+    "rondas": 3,
+    "paso": {
+     "hac": 1,
+     "sal": -1,
+     "t": "Zahartzaroa iristen da: errenta aurreztuak, baina gorputzak sufritu egiten du."
+    }
+   }
   ]
+ },
+ "stats": [
+  {
+   "k": "sal",
+   "em": "🏋️",
+   "label": "Osasuna",
+   "niveles": [
+    [
+     2,
+     "mugan"
+    ],
+    [
+     4,
+     "hauskorra"
+    ],
+    [
+     7,
+     "ona"
+    ],
+    [
+     99,
+     "sendoa"
+    ]
+   ]
+  },
+  {
+   "k": "hac",
+   "em": "💰",
+   "label": "Ondasunak",
+   "niveles": [
+    [
+     2,
+     "porrotaren atarian"
+    ],
+    [
+     4,
+     "urria"
+    ],
+    [
+     7,
+     "oparoa"
+    ],
+    [
+     99,
+     "aberatsa"
+    ]
+   ]
+  },
+  {
+   "k": "car",
+   "em": "🧠",
+   "label": "Izaera",
+   "niveles": [
+    [
+     2,
+     "hondatua"
+    ],
+    [
+     4,
+     "zalantzakorra"
+    ],
+    [
+     7,
+     "sendoa"
+    ],
+    [
+     99,
+     "eredugarria"
+    ]
+   ]
+  },
+  {
+   "k": "rep",
+   "em": "🏛️",
+   "label": "Ospea",
+   "niveles": [
+    [
+     2,
+     "mespretxatua"
+    ],
+    [
+     4,
+     "isila"
+    ],
+    [
+     7,
+     "errespetatua"
+    ],
+    [
+     99,
+     "ospetsua"
+    ]
+   ]
+  },
+  {
+   "k": "ene",
+   "em": "⚔️",
+   "label": "Etsaiak",
+   "niveles": [
+    [
+     1,
+     "bat ere ez"
+    ],
+    [
+     3,
+     "batzuk"
+    ],
+    [
+     5,
+     "asko"
+    ],
+    [
+     7,
+     "boteretsuak"
+    ],
+    [
+     99,
+     "hilda nahi zaituzte"
+    ]
+   ]
+  },
+  {
+   "k": "phr",
+   "em": "🧭",
+   "label": "Zuhurtzia",
+   "niveles": [
+    [
+     3,
+     "bulkadakoa"
+    ],
+    [
+     6,
+     "zentzuduna"
+    ],
+    [
+     99,
+     "oso zuhurra"
+    ]
+   ]
+  }
+ ],
+ "chars": [
+  {
+   "id": "socrates",
+   "name": "Sokrates",
+   "orient": "Kontenplatiboa",
+   "sal": 8,
+   "hac": 4,
+   "car": 8,
+   "rep": 4,
+   "ene": 2,
+   "phr": 8,
+   "virtud": "Borondatezko pobrezia",
+   "virtudT": "Diruak ez dio askorik axola: diruak kostatzen dionean, ohi denaren erdia galtzen du.",
+   "debilidad": "Ulertu gabea",
+   "debilidadT": "Jendaurrean esandako egia bakoitzak besteei baino etsai gehiago ekartzen dizkio.",
+   "mods": {
+    "verdad": {
+     "ene": 1
+    }
+   },
+   "mult": {
+    "hac": {
+     "down": 0.5
+    }
+   },
+   "perfil": "Pobrea, soldadu bat bezain osasuntsua eta oso zuhurra; hiriak jakintsutzat baino gogaikarritzat ezagutzen du gehiago.",
+   "frase": "Ez dakidala besterik ez dakit.",
+   "destino": "K.a. 399an zikuta edatera kondenatu zuten, erlijiogabekeriaz eta gazteak ustelzeaz salatuta; kartzelatik ihes egiteari uko egin zion."
+  },
+  {
+   "id": "hipatia",
+   "name": "Hipatia",
+   "orient": "Kontenplatiboa",
+   "sal": 6,
+   "hac": 6,
+   "car": 8,
+   "rep": 7,
+   "ene": 2,
+   "phr": 7,
+   "virtud": "Prestigioa",
+   "virtudT": "Ikasleek errespetatu egiten dute: errazago irabazten du ospea.",
+   "debilidad": "Gizarte-mesfidantza",
+   "debilidadT": "Denen aurrean egiten duen guztiak etsaiak ekartzen dizkio.",
+   "mods": {
+    "publico": {
+     "ene": 1
+    }
+   },
+   "mult": {
+    "rep": {
+     "up": 1.5
+    }
+   },
+   "perfil": "Familia eroso bateko maistra errespetatua; ospeak babestu egiten du… eta agerian uzten.",
+   "frase": "Ezagutza da nire indarra.",
+   "destino": "415ean kristau-jendetza batek hil zuen Alexandrian, Zirilo apezpikuaren eta Orestes prefektuaren arteko liskarraren erdian."
+  },
+  {
+   "id": "platon",
+   "name": "Platon",
+   "orient": "Kontenplatiboa",
+   "sal": 7,
+   "hac": 8,
+   "car": 7,
+   "rep": 6,
+   "ene": 1,
+   "phr": 7,
+   "virtud": "Idealismoa",
+   "virtudT": "Zuzentasunez jokatzeak besteei baino gehiago sendotzen dio izaera.",
+   "debilidad": "Zurruntasuna",
+   "debilidadT": "Itunek eta tratuek izaera higatzen diote.",
+   "mods": {
+    "justo": {
+     "car": 1
+    },
+    "pacto": {
+     "car": -1
+    }
+   },
+   "perfil": "Aristokrata aberatsa eta harreman onekoa, etsai gutxirekin eta egitasmo batekin: jakintsuek gobernatzea.",
+   "frase": "Jakinduria maite duenak gobernatu dezala.",
+   "destino": "Hiru aldiz bidaiatu zuen Sirakusara bertako tiranoak hezteko, eta, tradizioaren arabera, bidaia horietako batean esklabo gisa saldu zuten. Zahartuta hil zen Atenasen, Akademiaren buru."
+  },
+  {
+   "id": "protagoras",
+   "name": "Protagoras",
+   "orient": "Diskurtsiboa",
+   "sal": 6,
+   "hac": 8,
+   "car": 6,
+   "rep": 8,
+   "ene": 2,
+   "phr": 6,
+   "sinImg": true,
+   "virtud": "Erretorika-maisua",
+   "virtudT": "Garesti kobratzen du irakasteagatik: denen aurrean egiten duen guztiak dirua ematen dio.",
+   "debilidad": "Agnostikoa",
+   "debilidadT": "Jainkoei buruz esaten duenak eskandalua sortzen du: egia deseroso bakoitzak etsai gehiago ekartzen dizkio.",
+   "mods": {
+    "publico": {
+     "hac": 1
+    },
+    "verdad": {
+     "ene": 1
+    }
+   },
+   "perfil": "Greziako sofistarik ospetsuena eta ordainduena; Periklesen laguna eta debotoentzat susmagarria.",
+   "frase": "Gizakia da gauza guztien neurria.",
+   "destino": "Periklesek Turioi kolonia berriaren legeak idazteko eskatu zion. Tradizioaren arabera, erlijiogabekeriaz salatu zuten Jainkoei buruz liburuagatik, haren liburuak agoran erre zituzten eta itsasontzi-hondamendi batean hil zen Atenasetik ihesi zihoala."
+  },
+  {
+   "id": "diogenes",
+   "name": "Diogenes",
+   "orient": "Kontenplatiboa",
+   "sal": 8,
+   "hac": 2,
+   "car": 7,
+   "rep": 4,
+   "ene": 2,
+   "phr": 6,
+   "sinImg": true,
+   "noRuina": true,
+   "virtud": "Autarkia",
+   "virtudT": "Ia ezer ez du behar: dirurik gabe geratzeak ez du jokotik kanpo uzten, eta besteek baino erdia galtzen du.",
+   "debilidad": "Lotsagabekeria (anaídeia)",
+   "debilidadT": "Denei egiten die burla: jendaurrean esandako egia bakoitzak etsaiak ekartzen dizkio eta ospea kentzen dio.",
+   "mods": {
+    "verdad": {
+     "ene": 1,
+     "rep": -1
+    }
+   },
+   "mult": {
+    "hac": {
+     "down": 0.5
+    }
+   },
+   "perfil": "Tina batean bizi da, limosna eskatzen du eta ohiturei barre egiten die. Osasuntsua eta askea da, eta ia ez du ezer galtzeko.",
+   "frase": "Kendu hortik, eguzkia kentzen didazu eta.",
+   "destino": "Atenasen eta Korinton bizi izan zen, pobre bere aukeraz eta ohiturei burla eginez. Oso zahartuta hil zen Korinton, K.a. 323 inguruan; tradizioaren arabera, Alexandroren urte berean."
+  },
+  {
+   "id": "aspasia",
+   "name": "Aspasia",
+   "orient": "Diskurtsiboa",
+   "sal": 6,
+   "hac": 6,
+   "car": 6,
+   "rep": 5,
+   "ene": 2,
+   "phr": 6,
+   "virtud": "Hitz-jarioa",
+   "virtudT": "Haren hitzaldiek konbentzitu egiten dute: errazago irabazten du ospea.",
+   "debilidad": "Mendekotasuna",
+   "debilidadT": "Atzerritarra eta emakumea izanik, babesleen mende dago: ospea galtzen duenean, bikoitza galtzen du.",
+   "mult": {
+    "rep": {
+     "up": 1.5,
+     "down": 2
+    }
+   },
+   "perfil": "Atzerritar jantzia eta hizlari trebea, emakumeei bozkatzen uzten ez dien hiri batean; haren egoera besteen mende dago.",
+   "frase": "Hitzek ere badute boterea.",
+   "destino": "Periklesen bikotekidea. Plutarkoren arabera, erlijiogabekeriaz salatu zuten, eta Periklesek negar egin zuen epaimahaiaren aurrean hura salbatzeko."
+  },
+  {
+   "id": "aristofanes",
+   "name": "Aristofanes",
+   "orient": "Diskurtsiboa",
+   "sal": 6,
+   "hac": 6,
+   "car": 5,
+   "rep": 6,
+   "ene": 2,
+   "phr": 5,
+   "virtud": "Zorrotztasuna eta satira",
+   "virtudT": "Jendaurrean egiak esateak ospea ematen dio…",
+   "debilidad": "Mingaintasuna",
+   "debilidadT": "…baita etsaiak ere.",
+   "mods": {
+    "verdad": {
+     "rep": 1,
+     "ene": 1
+    }
+   },
+   "perfil": "Arrakastako komedia-idazlea, ez aberatsa ez pobrea, hiriak txalotzen duen eta boteretsuek beldur dioten mihiarekin.",
+   "frase": "Barreak ere egia esaten du.",
+   "destino": "Kleonek salatu zuen Atenas atzerritarren aurrean barregarri uzteagatik; zahartu arte komediak idazten jarraitu zuen."
+  },
+  {
+   "id": "pericles",
+   "name": "Perikles",
+   "orient": "Politika",
+   "sal": 7,
+   "hac": 8,
+   "car": 6,
+   "rep": 9,
+   "ene": 4,
+   "phr": 7,
+   "sinImg": true,
+   "riesgo": 0.1,
+   "virtud": "Zuhurtzia politikoa",
+   "virtudT": "Aristotelesek gizon zuhurraren eredutzat jartzen du: haren erabaki arriskutsuak maizago ateratzen dira ondo.",
+   "debilidad": "Arerioen jomuga",
+   "debilidadT": "Harekin ezin dutenez, bereei erasotzen diete: jendaurrean egiten duen guztiak etsaiak ekartzen dizkio.",
+   "mods": {
+    "publico": {
+     "ene": 1
+    }
+   },
+   "perfil": "Aristokrata aberatsa, urtez urte jeneral hautatua; Atenasko politikaririk boteretsuena, lagunez inguratua… eta haien aurkako salaketez.",
+   "frase": "Edertasuna maite dugu soiltasunez eta jakintza, bigunkeriarik gabe.",
+   "destino": "Hogeita hamar bat urtez zuzendu zuen Atenas, «Periklesen mendea» deritzena. Haren arerioek Fidias, Anaxagoras eta Aspasia salatu zituzten. K.a. 429an hil zen izurriteak jota, Peloponesoko gerraren hasieran."
+  },
+  {
+   "id": "aristides",
+   "name": "Aristides",
+   "orient": "Politika",
+   "sal": 7,
+   "hac": 6,
+   "car": 9,
+   "rep": 7,
+   "ene": 3,
+   "phr": 6,
+   "sinImg": true,
+   "ostracismo": 0.7,
+   "virtud": "Zuzena",
+   "virtudT": "Zuzentasunez jokatzeak ospea ematen dio, eta bidegabeki jokatzeak inori baino gehiago pisatzen dio.",
+   "debilidad": "Amore ematen ez duen justizia",
+   "debilidadT": "Egintza zuzen bakoitzak etsaiak ekartzen dizkio, eta hiria nekatu egiten da «Zuzena» deitzen entzuteaz: ospe handia badu, ostrazismoak bikoitz mehatxatzen du.",
+   "mods": {
+    "justo": {
+     "rep": 1,
+     "ene": 1
+    },
+    "injusto": {
+     "car": -1
+    }
+   },
+   "perfil": "Ondasun xumeko aristokrata eta jenerala Maratonen. Atenas osoak «Zuzena» deitzen dio, eta batzuei hori gogaikarria egiten zaie jada.",
+   "frase": "Ezer ez litzateke onuragarriagoa… ezta bidegabeagoa ere.",
+   "destino": "K.a. 482an ostrazismora kondenatu zuten. Plutarkoren arabera, idazten ez zekien nekazari batek «Aristides» bera grabatzeko eskatu zion ostrakonean, «Zuzena» deitzen entzuteaz aspertuta zegoelako. 480an itzuli zen Salaminan eta Plataian borrokatzeko, Delosko Ligaren zerga ekitatez ezarri zuen eta hain pobre hil zen, ezen hiriak ezkonsaria eman baitzien alabei."
+  },
+  {
+   "id": "alcibiades",
+   "name": "Altzibiades",
+   "orient": "Politika",
+   "sal": 8,
+   "hac": 9,
+   "car": 4,
+   "rep": 8,
+   "ene": 3,
+   "phr": 3,
+   "virtud": "Karisma eta ausardia",
+   "virtudT": "Inork baino errazago irabazten du ospea.",
+   "debilidad": "Hedonismoa",
+   "debilidadT": "Plazerek kalte handiagoa egiten diote izaerari eta osasunari.",
+   "mods": {
+    "placer": {
+     "car": -1,
+     "sal": -1
+    }
+   },
+   "mult": {
+    "rep": {
+     "up": 1.5
+    }
+   },
+   "perfil": "Gaztea, aberatsa, ederra eta ospetsua; ez oso zuhurra eta inbidiaz inguratua.",
+   "frase": "Nire distirak gidatuko ditu besteak.",
+   "destino": "Sakrilegioaz salatuta, Espartara igaro zen, gero Persiara, eta Atenasera itzuli zen; Frigian hil zuten, K.a. 404an."
+  },
+  {
+   "id": "cleon",
+   "name": "Kleon",
+   "orient": "Politika",
+   "sal": 6,
+   "hac": 7,
+   "car": 3,
+   "rep": 7,
+   "ene": 3,
+   "phr": 3,
+   "virtud": "Herri-oratoria",
+   "virtudT": "Ospea irabazten duenean, bikoitza irabazten du…",
+   "debilidad": "Demagogia",
+   "debilidadT": "…eta galtzen duenean, bikoitza galtzen du hura ere.",
+   "mult": {
+    "rep": {
+     "up": 2,
+     "down": 2
+    }
+   },
+   "perfil": "Aberastutako merkataria, batzarrean oihuka agintzen duena; izaera gutxi eta handinahi handia.",
+   "frase": "Herriak irmotasuna nahi du.",
+   "destino": "K.a. 422an hil zen Anfipoliseko guduan, Atenasko armadaren buru."
+  },
+  {
+   "id": "critias",
+   "name": "Kritias",
+   "orient": "Politika",
+   "sal": 6,
+   "hac": 8,
+   "car": 3,
+   "rep": 5,
+   "ene": 3,
+   "phr": 4,
+   "virtud": "Maltzurkeria politikoa",
+   "virtudT": "Indarrez nagusitzeak diru gehiago ematen dio…",
+   "debilidad": "Tirania",
+   "debilidadT": "…baina etsai gehiago sortzen dizkio.",
+   "mods": {
+    "fuerza": {
+     "hac": 1,
+     "ene": 1
+    }
+   },
+   "perfil": "Aristokrata aberatsa, jantzia eta demokraziarekin amorratua.",
+   "frase": "Ordenak nagusitu behar du.",
+   "destino": "Hogeita Hamar Tiranoen burua K.a. 404an; hurrengo urtean hil zen Munikian demokraten aurka borrokan."
+  },
+  {
+   "id": "trasimaco",
+   "name": "Trasimako",
+   "orient": "Politika",
+   "sal": 6,
+   "hac": 7,
+   "car": 4,
+   "rep": 5,
+   "ene": 2,
+   "phr": 3,
+   "virtud": "Maltzurkeria",
+   "virtudT": "Erraz irabazten du dirua joko zikina egiten duenean…",
+   "debilidad": "Zinismo morala",
+   "debilidadT": "…baina, justizian sinesten ez duenez, ondo jokatzeak erdia baino ez dio sendotzen.",
+   "mods": {
+    "injusto": {
+     "hac": 1
+    }
+   },
+   "mult": {
+    "car": {
+     "up": 0.5
+    }
+   },
+   "perfil": "Arrakastako sofista, garesti kobratzen duena; justizia indartsuenari komeni zaiona dela uste du.",
+   "frase": "Justizia boteretsuaren zerbitzura dago.",
+   "destino": "Kaltzedoniako sofista, batez ere Platonen Errepublikagatik ezaguna; ia ez dakigu nola amaitu zuen bere bizitza."
+  },
+  {
+   "id": "alejandro",
+   "name": "Alexandro Handia",
+   "orient": "Politika",
+   "sal": 9,
+   "hac": 10,
+   "car": 4,
+   "rep": 8,
+   "ene": 4,
+   "phr": 4,
+   "virtud": "Handinahia eta agintea",
+   "virtudT": "Indarrez nagusitzeak ospea ematen dio.",
+   "debilidad": "Neurrigabekeria",
+   "debilidadT": "Ez da gai besteek babesleku gisa hartzen dituzten erdiko aukerak hautatzeko.",
+   "mods": {
+    "fuerza": {
+     "rep": 1
+    }
+   },
+   "bloquea": [
+    "medida"
+   ],
+   "perfil": "Erresuma baten oinordekoa, oso aberatsa, indartsua eta ospetsua, sehaskatik etsaiekin.",
+   "frase": "Mundua ez da nahikoa.",
+   "destino": "Indiaraino iristen zen inperio bat konkistatu zuen eta Babilonian hil zen K.a. 323an, 32 urterekin."
+  }
+ ],
+ "dilemmas": [
+  {
+   "id": "efebo",
+   "etapa": "j",
+   "virtue": "Ausardia (andreía)",
+   "sit": "Hemezortzi urte dituzu eta efebo gisa hasten zara zerbitzuan: bi urteko zaintza Atikako mugetan.",
+   "opts": [
+    {
+     "t": "Gogor entrenatu eta goarnizioan lagunak egin.",
+     "sal": 2,
+     "rep": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Indartsu itzultzen zara, defendatuko zaituzten lagunekin."
+    },
+    {
+     "t": "Zure familiaren harremanei esker toki eroso bat lortu.",
+     "rep": -1,
+     "car": -1,
+     "hac": 1,
+     "r": "Hotza eta martxak aurrezten dituzu, baina besteek badakite."
+    },
+    {
+     "t": "Zure ausardia erakutsi mugako artzainekin liskarrak bilatuz.",
+     "sal": -2,
+     "rep": 1,
+     "ene": 1,
+     "car": -1,
+     "tags": [
+      "fuerza"
+     ],
+     "r": "Ausartaren ospea irabazten duzu… eta zenbait orbain alferrikako."
+    },
+    {
+     "t": "Gaueko zaintzak aprobetxatu beste efebo batzuekin irakurri eta eztabaidatzeko.",
+     "phr": 2,
+     "car": 1,
+     "sal": -1,
+     "r": "Gutxi lo egiten duzu, baina ekin aurretik pentsatzen ikasten duzu."
+    }
+   ]
+  },
+  {
+   "id": "maestro",
+   "etapa": "j",
+   "virtue": "Zuhurtzia (phrónesis)",
+   "sit": "Prestatu nahi duzu. Agoran, sofista batek garesti kobratzen du auziak irabazten irakasteagatik; filosofo batek ez du kobratzen, baina boteretsuak deseroso jartzen dituzten galderak egiten ditu.",
+   "hist": "Protagorasek 100 mina kobratu izan zituen ikastaro bategatik; Sokratesek harro esaten zuen ez zuela inoiz kobratzen.",
+   "opts": [
+    {
+     "t": "Sofistari ordaindu: erretorikak ate guztiak irekitzen ditu.",
+     "hac": -3,
+     "rep": 2,
+     "phr": 1,
+     "r": "Edonor konbentzitzen ikasten duzu. Zure poltsak nabaritzen du."
+    },
+    {
+     "t": "Filosofoari jarraitu, gaizki ikusita dagoen norbaitekin ikusten bazaituzte ere.",
+     "car": 1,
+     "phr": 2,
+     "ene": 1,
+     "tags": [
+      "verdad"
+     ],
+     "r": "Zeure burua aztertzen ikasten duzu; guraso batzuek ez dute nahi beren seme-alabek zurekin harremanik izatea."
+    },
+    {
+     "t": "Ez bata ez bestea: zure familiaren ofizioa ikasi.",
+     "hac": 2,
+     "phr": 1,
+     "rep": -1,
+     "r": "Dirua eta ofizioa irabazten dituzu, baina agoran inork ez daki nor zaren."
+    },
+    {
+     "t": "Biak batera, egunez lan eginez sofistari ordaintzeko.",
+     "hac": -2,
+     "sal": -2,
+     "phr": 2,
+     "rep": 1,
+     "r": "Dena ikasten duzu… eta lehertuta amaitzen duzu."
+    }
+   ]
+  },
+  {
+   "id": "simposio",
+   "etapa": "j",
+   "virtue": "Neurritasuna (sophrosýne)",
+   "sit": "Aberats baten etxeko sinposio batean, ardoa urarekin nahastu gabe dabil eta egunsentira arte edateko erronka botatzen dizute.",
+   "hist": "Grekoek basatitzat jotzen zuten ardoa nahastu gabe edatea; Platonen Oturuntzan, Sokratesek gau osoa ematen du edaten, mozkortu gabe.",
+   "opts": [
+    {
+     "t": "Erronka onartu eta irabazi.",
+     "sal": -2,
+     "rep": 2,
+     "car": -1,
+     "tags": [
+      "placer"
+     ],
+     "r": "Gaueko kondaira zara; zure gibelak ez du gauza bera uste."
+    },
+    {
+     "t": "Gutxi edan eta elkarrizketan geratu.",
+     "car": 1,
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Burua argi duzula irteten zara, bi lagun berrirekin."
+    },
+    {
+     "t": "Joan, ozen esanez zer pentsatzen duzun jai horiei buruz.",
+     "rep": -2,
+     "ene": 1,
+     "car": -1,
+     "r": "Aristotelesek ere bizio deituko lioke sentikortasun-falta horri: garratz batentzat hartzen zaituzte."
+    },
+    {
+     "t": "Sinposiarka izatea eskatu eta zuk erabaki ardoa zenbat nahasten den.",
+     "phr": 1,
+     "risk": true,
+     "win": {
+      "rep": 2,
+      "car": 1,
+      "r": "Grazia handiz zuzentzen duzu gaua: denek nahi dute berriro gonbidatu."
+     },
+     "lose": {
+      "rep": -2,
+      "r": "Harroputz batentzat hartzen zaituzte eta txistuka hartzen."
+     }
+    }
+   ]
+  },
+  {
+   "id": "herencia",
+   "etapa": "j",
+   "virtue": "Eskuzabaltasuna (eleutheriótes)",
+   "sit": "Zure aita hiltzen da. Olibondo batzuk uzten dizkizu Atikan eta zorrak hainbat bizilagunekin.",
+   "opts": [
+    {
+     "t": "Zor guztiak ordaindu lehenik, gutxirekin geratzen bazara ere.",
+     "hac": -2,
+     "car": 2,
+     "rep": 1,
+     "tags": [
+      "justo"
+     ],
+     "r": "Diru gutxirekin geratzen zara, baina hitza beteta."
+    },
+    {
+     "t": "Olibondoak saldu eta hirian errentetatik bizi.",
+     "hac": 1,
+     "rep": 1,
+     "phr": -1,
+     "r": "Bizitza erosoa hirian; hartzekodunek itxaron beharko dute."
+    },
+    {
+     "t": "Mailegu gehiago eskatu merkataritza-ontzi bat erosteko.",
+     "risk": true,
+     "win": {
+      "hac": 5,
+      "r": "Ontzia Itsaso Beltzeko gariz beteta itzultzen da."
+     },
+     "lose": {
+      "hac": -4,
+      "r": "Ontzia Eubearen parean hondoratzen da, zama osoarekin."
+     }
+    },
+    {
+     "t": "Bizilagun pobreenei ez ordaindu: ezin dizute auzirik jarri.",
+     "hac": 2,
+     "car": -3,
+     "ene": 2,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Drakma batzuk irabazten dituzu eta bizilagunak galtzen."
+    }
+   ]
+  },
+  {
+   "id": "aval",
+   "etapa": "j",
+   "virtue": "Adiskidetasuna (philía)",
+   "sit": "Haurtzaroko lagun batek bere itsas negozioarentzako mailegu izugarri baten abalista izateko eskatzen dizu.",
+   "opts": [
+    {
+     "t": "Oso-osorik abalatu: lagunek dena dute komunean.",
+     "car": 1,
+     "risk": true,
+     "win": {
+      "rep": 1,
+      "hac": 1,
+      "r": "Negozioa ondo ateratzen da eta zure lagunak bizitza osoan eskertzen dizu."
+     },
+     "lose": {
+      "hac": -5,
+      "r": "Negozioak porrot egiten du eta hartzekoduna zure bila dator."
+     }
+    },
+    {
+     "t": "Uko egin: adiskidetasuna ez da diruarekin nahastu behar.",
+     "car": -1,
+     "rep": -1,
+     "r": "Zure lagunak ulertzen du… erdizka."
+    },
+    {
+     "t": "Porrotera eraman gabe gal dezakezuna baino ez utzi.",
+     "hac": -2,
+     "car": 1,
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Ez duzu guztiz salbatzen, baina ez diozu huts egiten."
+    },
+    {
+     "t": "Abalatu, negozioaren erdia zuretzat geratzearen truke.",
+     "car": -1,
+     "risk": true,
+     "win": {
+      "hac": 3,
+      "r": "Negozio ona… nahiz eta adiskidetasuna jada ez den berdina."
+     },
+     "lose": {
+      "hac": -4,
+      "r": "Porrot egiten du, eta gainera zure lagunak gorroto dizu."
+     }
+    }
+   ]
+  },
+  {
+   "id": "delion",
+   "etapa": "j",
+   "virtue": "Ausardia (andreía)",
+   "sit": "Lehen gudua hoplita gisa. Falangea amore ematen hasten da eta ezkerrean zenuen gizona zauritua erortzen da.",
+   "hist": "Delioneko guduan (K.a. 424), Alkibiadesek Oturuntzan kontatzen duenez, Sokrates lasaitasuna galdu gabe erretiratu zen eta bere kideak babestu zituen.",
+   "opts": [
+    {
+     "t": "Ezkutua bota eta korrika egin.",
+     "rep": -3,
+     "car": -2,
+     "r": "Bizia salbatzen duzu, baina Atenasen ez dago ezkutua galtzea baino lotsa handiagorik."
+    },
+    {
+     "t": "Zu bakarrik oldartu etsaiaren aurka.",
+     "tags": [
+      "fuerza"
+     ],
+     "muerte": 0.12,
+     "muerteT": "Lantza teban batek zeharkatuta erortzen zara.",
+     "risk": true,
+     "win": {
+      "rep": 3,
+      "car": 1,
+      "r": "Etsaiaren lerroa hausten duzu eta denek zure izena kantatzen dute."
+     },
+     "lose": {
+      "sal": -4,
+      "r": "Inguratu egiten zaituzte; mirariz ateratzen zara bizirik."
+     }
+    },
+    {
+     "t": "Ordenan erretiratu, zauritua babestuz.",
+     "sal": -1,
+     "car": 2,
+     "rep": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Zauritua salbu eramaten duzu. Horrela, eta ez beste inola, da norbait ausarta."
+    },
+    {
+     "t": "Geldirik geratu ezkutua jasota, iristen ez diren aginduen zain.",
+     "sal": -2,
+     "r": "Aintzarik gabe bizirik irauten duzu, besoan zauri batekin."
+    }
+   ]
+  },
+  {
+   "id": "olimpia",
+   "etapa": "j",
+   "virtue": "Neurritasuna (sophrosýne)",
+   "sit": "Olinpian lehiatzeko hautatzen zaituzte. Entrenatzaile batek dieta muturrekoa proposatzen dizu; beste batek, epaileei ordaintzea.",
+   "hist": "Tranpatiei jarritako isunekin Zeusen estatuak jasotzen ziren Olinpian, Zanes izenekoak, tranpatiaren izena grabatuta.",
+   "opts": [
+    {
+     "t": "Gogor entrenatu, baina atsedenarekin.",
+     "sal": 1,
+     "rep": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Ez duzu irabazten, baina paper ona egiten duzu."
+    },
+    {
+     "t": "Dieta muturrekoa eta atsedenik gabeko entrenamendua.",
+     "risk": true,
+     "win": {
+      "rep": 3,
+      "r": "Olibondo-koroa! Zure hiriak doan emango dizu jaten bizitza osoan."
+     },
+     "lose": {
+      "sal": -3,
+      "r": "Finalaren aurretik lesionatzen zara."
+     }
+    },
+    {
+     "t": "Epaileak erosi.",
+     "car": -2,
+     "tags": [
+      "injusto"
+     ],
+     "risk": true,
+     "win": {
+      "rep": 3,
+      "hac": -2,
+      "r": "Irabazi egiten duzu… eta badakizu nola."
+     },
+     "lose": {
+      "rep": -4,
+      "hac": -3,
+      "ene": 1,
+      "r": "Harrapatu egiten zaituzte: zure izena lotsaren estatua batean grabatuta geratzen da."
+     }
+    },
+    {
+     "t": "Uko egin ikasteari ekiteko.",
+     "phr": 1,
+     "rep": -1,
+     "r": "Zure familiak ez du ulertzen."
+    }
+   ]
+  },
+  {
+   "id": "arginusas",
+   "etapa": "m",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Zozketaz egokitu zaizu batzarra zuzentzea. Jendetzak eskatzen du, aldi berean eta bozketa bakar batean, itsasoan galdutakoak erreskatatu ez zituzten jeneralak epaitzea. Legez kontrakoa da.",
+   "hist": "Arginusak, K.a. 406: egun hartan batzarra zuzentzen zuen Sokratesek uko egin zion bozkatzera eramateari. Jeneralak exekutatu zituzten hala ere.",
+   "opts": [
+    {
+     "t": "Bozkatzera eraman: herria burujabea da.",
+     "rep": 1,
+     "car": -3,
+     "r": "Jeneralak exekutatzen dituzte. Hurrengo urtean, hiria damutu egiten da."
+    },
+    {
+     "t": "Legez kontrakoa dena bozkatzeari uko egin, mehatxatzen bazaituzte ere.",
+     "car": 3,
+     "ene": 3,
+     "rep": -1,
+     "tags": [
+      "justo",
+      "publico"
+     ],
+     "r": "Traidore oihukatzen dizute. Ez duzu amore ematen."
+    },
+    {
+     "t": "Gaixo zaudela itxura egin eta beste bati utzi zuzentzen.",
+     "car": -1,
+     "rep": -1,
+     "r": "Nahasmenetik salbatzen zara, baina ez zure kontzientziatik."
+    },
+    {
+     "t": "Epaiketa bereiziak proposatu argudio legalekin.",
+     "phr": 1,
+     "tags": [
+      "justo"
+     ],
+     "risk": true,
+     "win": {
+      "car": 2,
+      "rep": 2,
+      "ene": 1,
+      "r": "Batzarra lasaitzea lortzen duzu… egun baterako."
+     },
+     "lose": {
+      "ene": 2,
+      "rep": -1,
+      "r": "Inork ez dizu kasurik egiten eta susmagarrien zerrendan apuntatzen zaituzte."
+     }
+    }
+   ]
+  },
+  {
+   "id": "leon",
+   "etapa": "m",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Gobernu oligarkikoak Salaminako Leon atxilotzeko agintzen dizu, errugabe bat, haren ondasunak bereganatzeko. Zure eskuak zikindu nahi ditu.",
+   "hist": "K.a. 404an Hogeita Hamarrek agindu hori eman zieten Sokratesi eta beste lau lagunei. Besteak joan ziren; Sokrates etxera joan zen.",
+   "opts": [
+    {
+     "t": "Obeditu: aginduak aginduak dira.",
+     "hac": 2,
+     "car": -3,
+     "set": "colaborador",
+     "r": "Leon hil egiten da. Haren ondasunen zati batekin ordaintzen dizute."
+    },
+    {
+     "t": "Etxera joan ezer esan gabe.",
+     "car": 2,
+     "ene": 3,
+     "rep": -1,
+     "tags": [
+      "justo"
+     ],
+     "r": "Ez duzu inor atxilotzen. Hogeita Hamarrek zure izena apuntatzen dute."
+    },
+    {
+     "t": "Leoni ezkutuan abisatu ihes egin dezan.",
+     "car": 2,
+     "ene": 1,
+     "risk": true,
+     "win": {
+      "r": "Leonek ihes egiten du eta inork ez daki zu izan zinenik."
+     },
+     "lose": {
+      "ene": 3,
+      "r": "Morroi batek ikusi zaitu. Orain zaindu egiten zaituzte."
+     }
+    },
+    {
+     "t": "Agindua salatu agoran denen aurrean.",
+     "car": 3,
+     "ene": 5,
+     "rep": 2,
+     "tags": [
+      "justo",
+      "publico",
+      "verdad"
+     ],
+     "muerte": 0.12,
+     "muerteT": "Gau horretan bertan, Hogeita Hamarren gizonak zure bila datoz.",
+     "r": "Hiriak ahopeka miresten zaitu. Hogeita Hamarrek, ozen, gorroto zaituzte."
+    }
+   ]
+  },
+  {
+   "id": "jurado",
+   "etapa": "m",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Auzi bateko epaimahaikide zara. Merkatari boteretsu batek dirua eskaintzen dizu baliabiderik gabeko meteko baten aurka bozkatzeagatik.",
+   "opts": [
+    {
+     "t": "Dirua onartu.",
+     "hac": 3,
+     "car": -3,
+     "set": "corrupto",
+     "tags": [
+      "injusto"
+     ],
+     "r": "Metekoak dena galtzen du. Zuk sekretu bat irabazten duzu."
+    },
+    {
+     "t": "Uko egin eta kontzientziaz bozkatu.",
+     "car": 1,
+     "ene": 1,
+     "tags": [
+      "justo"
+     ],
+     "r": "Merkatariak ez du ahazten."
+    },
+    {
+     "t": "Uko egin eta eroskeria auzitegiaren aurrean salatu.",
+     "car": 2,
+     "rep": 1,
+     "ene": 3,
+     "tags": [
+      "justo",
+      "publico"
+     ],
+     "r": "Merkatariari isuna jartzen diote eta mendeku hartuko duela zin egiten du."
+    },
+    {
+     "t": "Dirua onartu eta, hala ere, kontzientziaz bozkatu.",
+     "hac": 3,
+     "car": -1,
+     "ene": 3,
+     "phr": -1,
+     "r": "Gizon boteretsu bat engainatu duzu. Hori ordaindu egiten da."
+    }
+   ]
+  },
+  {
+   "id": "trierarca",
+   "etapa": "m",
+   "virtue": "Handitasuna (megaloprépeia)",
+   "sit": "Hiriak trierarka izendatzen zaitu: urtebetez gerrako trirreme bat ordaindu eta agindu behar duzu.",
+   "hist": "Liturgiak aberatsek ordaintzen zituzten zerbitzu publikoak ziren. Antidosiarekin beste bati erronka bota zeniezaiokeen hura bere gain har zezan… edo bere ondasunak zureekin truka zitzan.",
+   "opts": [
+    {
+     "t": "Beharrezkoa ordaindu eta ondo bete.",
+     "hac": -2,
+     "rep": 1,
+     "car": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Ontzi ona eta betebeharra beteta."
+    },
+    {
+     "t": "Fortuna bat gastatu flotako ontzirik onena izateko.",
+     "hac": -5,
+     "rep": 3,
+     "r": "Zure trirremea Pireoaren inbidia da. Zure administratzaileak negar egiten du."
+    },
+    {
+     "t": "Antidosira jo: beste aberatsago batek ordain dezala.",
+     "ene": 2,
+     "risk": true,
+     "win": {
+      "r": "Besteak ordaintzea onartzen du. Libratu zara, eta etsai bat irabazi duzu."
+     },
+     "lose": {
+      "hac": -3,
+      "rep": -1,
+      "r": "Auzitegiak arrazoia ematen dizu erdizka: berdin ordaintzen duzu, eta gainera kostuak."
+     }
+    },
+    {
+     "t": "Arraunlarietan eta beletan aurreztu.",
+     "hac": -1,
+     "rep": -2,
+     "risk": true,
+     "win": {
+      "r": "Ontziak urtean zehar eusten dio."
+     },
+     "lose": {
+      "sal": -3,
+      "rep": -2,
+      "r": "Ekaitz batek gaizki hornitutako ontzia hondoratzen du: igerian iristen zara kostaraino."
+     }
+    }
+   ]
+  },
+  {
+   "id": "sicilia",
+   "etapa": "m",
+   "virtue": "Ausardia (andreía)",
+   "sit": "Batzarrak, gogotsu, Sizilia inbaditzea bozkatzen du. Flotaren zati baten agintea eskaintzen dizute.",
+   "hist": "Siziliarako espedizioa (K.a. 415-413) hondamendian amaitu zen: gehienak hil ziren edo Sirakusako harrobietan amaitu zuten. Niziasek aurka hitz egin zuen.",
+   "opts": [
+    {
+     "t": "Agintea eta aintza onartu.",
+     "rep": 3,
+     "hac": 2,
+     "ene": 2,
+     "tags": [
+      "fuerza"
+     ],
+     "muerte": 0.15,
+     "muerteT": "Sirakusako harrobietan hiltzen zara, beste atenastar asko bezala.",
+     "risk": true,
+     "win": {
+      "rep": 2,
+      "r": "Gutxi horietako bat zara itzultzen dena, ohoreekin."
+     },
+     "lose": {
+      "sal": -4,
+      "hac": -2,
+      "r": "Garaituta, gaixorik eta ezer gabe itzultzen zara."
+     }
+    },
+    {
+     "t": "Aurka hitz egin, koldar deitzen badizute ere.",
+     "car": 2,
+     "rep": -2,
+     "ene": 2,
+     "tags": [
+      "verdad",
+      "publico"
+     ],
+     "r": "Bozketa galtzen duzu. Arrazoia zenuen, baina horrek ez du inor kontsolatzen."
+    },
+    {
+     "t": "Alde bozkatu, baina etxean geratu.",
+     "car": -1,
+     "r": "Ez aintzarik ez arriskurik."
+    },
+    {
+     "t": "Hornikuntzaz arduratu eta zati bat zuretzat gorde.",
+     "hac": 4,
+     "car": -3,
+     "ene": 1,
+     "set": "corrupto",
+     "tags": [
+      "injusto"
+     ],
+     "r": "Flota behar baino gari gutxiagorekin irteten da."
+    }
+   ]
+  },
+  {
+   "id": "peste",
+   "etapa": "m",
+   "virtue": "Eskuzabaltasuna (eleutheriótes)",
+   "sit": "Izurritea lehertzen da Atenasen. Gari- eta sendagai-biltegiak dituzu.",
+   "hist": "K.a. 430eko izurriteak atenastarren herena hil zuen agian, haien artean Perikles. Tuzididesek jasan eta deskribatu zuen.",
+   "opts": [
+    {
+     "t": "Garesti saldu: ez du inoiz horrenbeste balioko.",
+     "hac": 4,
+     "car": -3,
+     "ene": 2,
+     "rep": -2,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Aberasten zara hiriak bere hildakoak lurperatzen dituen bitartean."
+    },
+    {
+     "t": "Zuk zeuk doan banatu.",
+     "hac": -4,
+     "car": 3,
+     "rep": 2,
+     "risk": true,
+     "win": {
+      "r": "Gaixoen artetik onik ateratzen zara."
+     },
+     "lose": {
+      "sal": -4,
+      "r": "Kutsatu egiten zara."
+     }
+    },
+    {
+     "t": "Landara ihes egin zure familiarekin.",
+     "rep": -2,
+     "car": -1,
+     "sal": 1,
+     "r": "Salbatu egiten zara. Inork ez du ahazten alde egin zenuenik."
+    },
+    {
+     "t": "Beste batzuekin batera prezio zuzeneko banaketa bat antolatu.",
+     "hac": -1,
+     "car": 2,
+     "rep": 1,
+     "phr": 1,
+     "tags": [
+      "justo",
+      "medida"
+     ],
+     "risk": true,
+     "win": {
+      "r": "Sistemak funtzionatzen du eta salbatu egiten zara."
+     },
+     "lose": {
+      "sal": -2,
+      "r": "Gaixotu egiten zara, baina bizirik irauten duzu."
+     }
+    }
+   ]
+  },
+  {
+   "id": "tirano",
+   "etapa": "m",
+   "virtue": "Zuhurtzia (phrónesis)",
+   "sit": "Sirakusako tiranoak bere gortera gonbidatzen zaitu: gobernari filosofo bihurtzea nahi du.",
+   "hist": "Platon hiru aldiz joan zen Sirakusara Dionisio I.a eta Dionisio II.a hezteko. Hiruetan porrot egin zuen.",
+   "opts": [
+    {
+     "t": "Onartu, eraginagatik eta diruagatik.",
+     "hac": 3,
+     "car": -2,
+     "set": "colaborador",
+     "r": "Jauregi batean bizi zara eta kasurik egiten ez dizun gizon bati aholkatzen diozu."
+    },
+    {
+     "t": "Gonbidapena baztertu.",
+     "car": 1,
+     "r": "Etxean geratzen zara. Sirakusak berdin jarraitzen du."
+    },
+    {
+     "t": "Joan eta benetan hezten saiatu.",
+     "car": 1,
+     "risk": true,
+     "win": {
+      "car": 1,
+      "rep": 2,
+      "r": "Tiranoak lege batzuk leuntzen ditu. Gutxi da, baina ez da ezer ez."
+     },
+     "lose": {
+      "hac": -4,
+      "ene": 2,
+      "sal": -1,
+      "r": "Zutaz nekatu eta esklabo gisa saltzen zaitu; lagun batzuek zure erreskatea ordaintzen dute."
+     }
+    },
+    {
+     "t": "Joan eta haren etsaiei informazioa pasatu.",
+     "car": -1,
+     "ene": 2,
+     "hac": 1,
+     "risk": true,
+     "win": {
+      "rep": 1,
+      "r": "Sirakusako demokratek eskertu egiten dizute."
+     },
+     "lose": {
+      "sal": -3,
+      "ene": 3,
+      "r": "Harrapatu egiten zaituzte. Gauez ihes egiten duzu arrantzale-ontzi batean."
+     }
+    }
+   ]
+  },
+  {
+   "id": "impiedad",
+   "etapa": "m",
+   "virtue": "Adiskidetasuna (philía)",
+   "sit": "Zure maisu ohia erlijiogabekeriaz salatzen dute eguzkia harri goriztatu bat dela esateagatik.",
+   "hist": "Anaxagoras horregatik bertatik salatu zuten erlijiogabekeriaz, K.a. 430 inguruan; Periklesek Atenasetik irteten lagundu zion.",
+   "opts": [
+    {
+     "t": "Haren alde lekukotza eman.",
+     "car": 2,
+     "ene": 3,
+     "rep": -1,
+     "tags": [
+      "verdad",
+      "publico"
+     ],
+     "r": "Zure maisuak besarkatu egiten zaitu. Salaketak zure izena apuntatzen du."
+    },
+    {
+     "t": "Isilik geratu.",
+     "car": -1,
+     "r": "Kondenatu egiten dute. Inork ez dizu ezer galdetzen."
+    },
+    {
+     "t": "Gauez ihes egiten lagundu.",
+     "car": 1,
+     "ene": 2,
+     "hac": -1,
+     "risk": true,
+     "win": {
+      "r": "Salbu iristen da Lampsakora."
+     },
+     "lose": {
+      "ene": 2,
+      "rep": -2,
+      "r": "Portuan harrapatzen zaituzte."
+     }
+    },
+    {
+     "t": "Haren aurka lekukotza eman zeure burua salbatzeko.",
+     "car": -4,
+     "ene": -2,
+     "rep": 1,
+     "set": "delator",
+     "r": "Salatzaileek beretakotzat hartzen zaituzte."
+    }
+   ]
+  },
+  {
+   "id": "deudas",
+   "etapa": "m",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Nekazariek, zorrek itota, haiek barkatzeko eskatzen dute. Askok dirua zor dizute zuri.",
+   "hist": "Solonek (K.a. 594) seisákhtheia egin zuen, «zamen astindua»: zorrak ezeztatu eta zorrengatiko esklabotza debekatu zuen.",
+   "opts": [
+    {
+     "t": "Azken oboloraino ordaintzeko exijitu.",
+     "hac": 2,
+     "ene": 2,
+     "rep": -2,
+     "car": -1,
+     "r": "Kobratu egiten duzu. Nekazariek ez dute ahazten."
+    },
+    {
+     "t": "Zuk lehenik barkatu zor dizkizuten zorrak.",
+     "hac": -4,
+     "car": 2,
+     "rep": 2,
+     "r": "Asko galtzen duzu, eta eskualde oso bat irabazten."
+    },
+    {
+     "t": "Zati bat barkatzen duen lege bat proposatu, Solonek bezala.",
+     "hac": -2,
+     "car": 2,
+     "rep": 1,
+     "ene": 1,
+     "phr": 1,
+     "tags": [
+      "justo",
+      "medida"
+     ],
+     "r": "Ez aberatsak ez pobreak ez dira guztiz pozik geratzen. Seinale ona."
+    },
+    {
+     "t": "Zorrak usurari bati saldu onartu aurretik.",
+     "hac": 1,
+     "car": -2,
+     "rep": -1,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Arazotik libratzen zara, eta besteei pasatzen diezu."
+    }
+   ]
+  },
+  {
+   "id": "mitilene",
+   "etapa": "m",
+   "virtue": "Otzantasuna (praótes)",
+   "sit": "Hiri aliatu bat matxinatu da. Herriak, amorruz, haren gizon guztiak hil nahi ditu. Batzarrean hitz egitea egokitzen zaizu.",
+   "hist": "Mitilene, K.a. 427: Kleonek sarraskia eskatu zuen; Diodotok hurrengo egunean konbentzitu zuen batzarra, eta bigarren trirreme bat garaiz iritsi zen hura saihesteko.",
+   "opts": [
+    {
+     "t": "Sarraskia eskatu: herriak eskertuko dizu.",
+     "rep": 3,
+     "car": -3,
+     "ene": 1,
+     "tags": [
+      "fuerza"
+     ],
+     "r": "Txalotu egiten zaituzte. Mila pertsona hilko dira."
+    },
+    {
+     "t": "Erruduna denari bakarrik zigortzeko eskatu.",
+     "car": 2,
+     "rep": -1,
+     "risk": true,
+     "win": {
+      "rep": 2,
+      "r": "Batzarra konbentzitzen duzu. Trirreme bat presaka irteten da sarraskia geldiarazteko."
+     },
+     "lose": {
+      "ene": 2,
+      "r": "Matxinoek erosita zaudela salatzen zaituzte."
+     }
+    },
+    {
+     "t": "Ez hitz egin.",
+     "car": -1,
+     "rep": -1,
+     "r": "Beste batzuek erabakitzen dute zure ordez."
+    },
+    {
+     "t": "Jendaurrean zigorrik gogorrena eskatu eta ezkutuan aurka bozkatu.",
+     "car": -1,
+     "phr": -1,
+     "ene": 1,
+     "r": "Zuk zeuk ere ez dakizu jada zer pentsatzen duzun."
+    }
+   ]
+  },
+  {
+   "id": "rumor",
+   "etapa": "m",
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Zuri buruzko zurrumurru faltsu bat dabil. Zure arerioak hasi zuela froga dezakezu, baina horretarako lagun baten sekretu bat agerian utzi beharko zenuke.",
+   "opts": [
+    {
+     "t": "Zure lagunaren sekretua agerian utzi.",
+     "rep": 2,
+     "car": -2,
+     "ene": 1,
+     "r": "Zure ospea salbatzen da. Zure adiskidetasuna, ez."
+    },
+    {
+     "t": "Zurrumurrua isilik jasan.",
+     "rep": -3,
+     "car": 1,
+     "r": "Ospea galtzen duzu. Zure lagunak ez du inoiz jakingo zer egin zenuen haren alde."
+    },
+    {
+     "t": "Zuk zabaldu zure arerioari buruzko zurrumurru okerrago bat.",
+     "rep": 1,
+     "car": -2,
+     "ene": 2,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Berdinketa lokatzetan."
+    },
+    {
+     "t": "Zure arerioarekin pribatuan hitz egin eta negoziatu.",
+     "phr": 1,
+     "tags": [
+      "pacto"
+     ],
+     "risk": true,
+     "win": {
+      "rep": 1,
+      "ene": -1,
+      "r": "Akordio batera iristen zarete: hark ezeztatu egiten du eta zuk ahaztu."
+     },
+     "lose": {
+      "rep": -2,
+      "r": "Elkarrizketa zure aurka erabiltzen du."
+     }
+    }
+   ]
+  },
+  {
+   "id": "prestamo",
+   "etapa": "m",
+   "virtue": "Eskuzabaltasuna (eleutheriótes)",
+   "sit": "Itsas mailegu bat proposatzen dizute: ontzia Itsaso Beltzetik itzultzen bada, zure dirua bikoizten duzu; hondoratzen bada, galdu egiten duzu.",
+   "hist": "Aristotelesek bereizi egiten zituen etxearen administrazioa, beharrezkoa bilatzen duena, eta krematistika, dirua mugarik gabe metatzea bilatzen duena.",
+   "opts": [
+    {
+     "t": "Zure fortuna osoa inbertitu.",
+     "risk": true,
+     "win": {
+      "hac": 6,
+      "r": "Ontzia itzultzen da. Aberatsa zara."
+     },
+     "lose": {
+      "hac": -7,
+      "r": "Ontzia ez da itzultzen."
+     }
+    },
+    {
+     "t": "Zati bat inbertitu.",
+     "risk": true,
+     "win": {
+      "hac": 2,
+      "r": "Irabazi ona."
+     },
+     "lose": {
+      "hac": -2,
+      "r": "Inbertitutakoa galtzen duzu."
+     }
+    },
+    {
+     "t": "Ez inbertitu: behar duzuna baduzu.",
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Lasai egiten duzu lo."
+    },
+    {
+     "t": "Inbertitu eta kapitainari ordaindu ur arriskutsuetatik pasa ez dadin.",
+     "hac": -1,
+     "car": -1,
+     "risk": true,
+     "win": {
+      "hac": 3,
+      "r": "Ontzia itzultzen da."
+     },
+     "lose": {
+      "hac": -3,
+      "r": "Kapitainak zure dirua hartu eta desagertu egiten da."
+     }
+    }
+   ]
+  },
+  {
+   "id": "stasis",
+   "etapa": "m",
+   "virtue": "Ausardia (andreía)",
+   "sit": "Gerra zibila hirian: demokratak eta oligarkak kaleetan hiltzen ari dira elkar, eta bi aldeek aukeratzeko exijitzen dizute.",
+   "hist": "Soloni egotzitako lege batek eskubideak kentzen zizkion gerra zibil batean alderdirik hartzen ez zuen herritarrari. Tuzididesek Korzirako stásis morala oro amaitzea bezala deskribatzen du.",
+   "opts": [
+    {
+     "t": "Oligarkekin bat egin.",
+     "hac": 2,
+     "ene": 3,
+     "tags": [
+      "fuerza"
+     ],
+     "set": "oligarca",
+     "r": "Zure aldeak irabazten du… oraingoz."
+    },
+    {
+     "t": "Demokratekin bat egin.",
+     "rep": 1,
+     "ene": 3,
+     "r": "Pireoan borrokatzen zara arraunlari eta artisauekin."
+    },
+    {
+     "t": "Etxean itxita geratu igaro arte.",
+     "rep": -2,
+     "ene": 1,
+     "car": -1,
+     "r": "Bi aldeek mespretxatzen zaituzte."
+    },
+    {
+     "t": "Bi aldeen artean bitartekari aritu.",
+     "phr": 1,
+     "muerte": 0.08,
+     "muerteT": "Amorratu batek negoziazioaren erdian hiltzen zaitu.",
+     "risk": true,
+     "win": {
+      "car": 2,
+      "rep": 3,
+      "ene": -2,
+      "r": "Su-eten bat lortzen duzu. Bakea zor dizute."
+     },
+     "lose": {
+      "ene": 3,
+      "sal": -2,
+      "r": "Bi aldeek traidoretzat salatzen zaituzte."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ostrakon",
+   "etapa": "m",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Ostrazismo bat bozkatzen da. Arerio batek zuen jarraitzaileak batzea proposatzen dizu hirugarren bat erbesteratu eta haren boterea banatzeko.",
+   "hist": "K.a. 416an, Alkibiades eta Nizias ados jarri ziren Hiperbolo erbesteratua izan zedin. Atenasko azken ostrazismoa izan zen.",
+   "opts": [
+    {
+     "t": "Ituna onartu.",
+     "rep": 2,
+     "ene": 2,
+     "car": -2,
+     "tags": [
+      "pacto"
+     ],
+     "r": "Hirugarrena hamar urterako joaten da. Zure arerioak eta zuk elkar zaintzen duzue."
+    },
+    {
+     "t": "Uko egin eta benetan arriskutsutzat duzuna bozkatu.",
+     "car": 1,
+     "ene": 1,
+     "r": "Zure kontzientziaren arabera bozkatzen duzu; zure arerioak gaizki hartzen du."
+    },
+    {
+     "t": "Konplotaren biktimari abisatu.",
+     "car": 1,
+     "ene": 2,
+     "rep": 1,
+     "r": "Konplotak porrot egiten du. Badakizu orain nork gorroto zaituen."
+    },
+    {
+     "t": "Ez bozkatu.",
+     "rep": -1,
+     "r": "Beste batzuek erabakitzen dute."
+    }
+   ]
+  },
+  {
+   "id": "mina",
+   "etapa": "m",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Laurioneko zilar-meategietako emakida bat errentan hartzea eskaintzen dizute. Oso errentagarria da, esklaboek galerietan nola lan egiten duten axola ez bazaizu.",
+   "opts": [
+    {
+     "t": "Errentan hartu eta ahalik eta gehien estutu.",
+     "hac": 4,
+     "car": -3,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Zilarra isurtzen da. Hobe ez jaitsi nola den ikustera."
+    },
+    {
+     "t": "Errentan hartu, baina txanda eta janari duinekin.",
+     "hac": 2,
+     "car": 1,
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Beste batzuek baino gutxiago irabazten duzu, baina irabazi egiten duzu."
+    },
+    {
+     "t": "Negozio horretan ez sartu.",
+     "car": 1,
+     "r": "Beste batek hartzen du errentan zure ordez."
+    },
+    {
+     "t": "Errentan hartu eta zorpetu galeria gehiago irekitzeko.",
+     "car": -2,
+     "risk": true,
+     "win": {
+      "hac": 6,
+      "r": "Zain oso aberats bat aurkitzen duzu."
+     },
+     "lose": {
+      "hac": -5,
+      "sal": -1,
+      "r": "Galeria erori egiten da."
+     }
+    }
+   ]
+  },
+  {
+   "id": "libro",
+   "etapa": "m",
+   "orient": [
+    "Kontenplatiboa",
+    "Diskurtsiboa"
+   ],
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Zure liburuak dio jainkoei buruz ezin dela jakin existitzen diren ala ez. Lagun batek ez argitaratzeko aholkatzen dizu.",
+   "hist": "Protagorasek horrela hasi zuen Jainkoei buruz bere lana; tradizioaren arabera, haren liburuak agoran erre zituzten.",
+   "opts": [
+    {
+     "t": "Dagoen bezala argitaratu.",
+     "car": 1,
+     "rep": 2,
+     "ene": 4,
+     "tags": [
+      "verdad",
+      "publico"
+     ],
+     "r": "Grezia osoan irakurtzen da. Baita tenpluetan ere."
+    },
+    {
+     "t": "Hizkera zuhurrago batekin argitaratu.",
+     "phr": 1,
+     "rep": 1,
+     "ene": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Gauza bera dio, baina irakurtzen jakin behar da."
+    },
+    {
+     "t": "Zure ikasleei bakarrik irakurri.",
+     "phr": 1,
+     "r": "Zure ideiak ahopeka zabaltzen dira."
+    },
+    {
+     "t": "Zuk zeuk erre.",
+     "car": -2,
+     "phr": -1,
+     "r": "Inork ez zaitu ezertaz salatuko. Inork ez du jakingo zer pentsatzen zenuen."
+    }
+   ]
+  },
+  {
+   "id": "escuela",
+   "etapa": "m",
+   "orient": [
+    "Kontenplatiboa"
+   ],
+   "virtue": "Eskuzabaltasuna (eleutheriótes)",
+   "sit": "Eskola bat sortzen duzu. Nola mantenduko duzu?",
+   "opts": [
+    {
+     "t": "Asko kobratu, sofistek bezala.",
+     "hac": 4,
+     "rep": 1,
+     "car": -1,
+     "r": "Eskola aberatsa da; ikasleak ere bai."
+    },
+    {
+     "t": "Ez kobratu eta dohaintzetatik bizi.",
+     "hac": -2,
+     "car": 1,
+     "rep": 1,
+     "r": "Behar adina baino ez duzu bizitzeko, ikasi nahi duen jendez inguratuta."
+    },
+    {
+     "t": "Bakoitzari ordain dezakeenaren arabera kobratu.",
+     "hac": 1,
+     "car": 1,
+     "phr": 1,
+     "tags": [
+      "medida",
+      "justo"
+     ],
+     "r": "Aberatsek ordaintzen dute pobreen ordez, eta denek ikasten dute."
+    },
+    {
+     "t": "Familia boteretsuetako seme-alabak bakarrik onartu.",
+     "hac": 2,
+     "rep": 2,
+     "ene": 1,
+     "car": -1,
+     "r": "Zure ikasleek gobernatuko dute hiria. Besteek gorroto dizute."
+    }
+   ]
+  },
+  {
+   "id": "alejandria",
+   "etapa": "m",
+   "orient": [
+    "Kontenplatiboa"
+   ],
+   "virtue": "Zuhurtzia (phrónesis)",
+   "sit": "Hiriko apezpikua eta prefektua liskarrean daude; zure eskoletara bi aldeetako ikasleak datoz.",
+   "hist": "Alexandria, 415: Hipatia Orestes prefektuaren laguna eta aholkularia zen. Hura hil zuen jendetzak adiskidetzea eragozteaz errudun jotzen zuen.",
+   "opts": [
+    {
+     "t": "Prefektua jendaurrean babestu: arrazoia du.",
+     "rep": 1,
+     "ene": 4,
+     "tags": [
+      "publico"
+     ],
+     "muerte": 0.1,
+     "muerteT": "Jendetza batek kaleetan zehar arrastaka eramaten zaitu.",
+     "r": "Prefektuak eskertu egiten dizu. Apezpikuaren aldekoek seinalatu egiten zaituzte."
+    },
+    {
+     "t": "Betiko moduan irakasten jarraitu, iritzirik eman gabe.",
+     "ene": 1,
+     "r": "Zure isiltasuna ere interpretatu egiten da."
+    },
+    {
+     "t": "Denboraldi batez jendaurrean irakasteari utzi.",
+     "rep": -2,
+     "ene": -2,
+     "hac": -1,
+     "r": "Pixka bat ahazten zaituzte. Hobe horrela."
+    },
+    {
+     "t": "Biak adiskidetzen saiatu.",
+     "phr": 1,
+     "risk": true,
+     "win": {
+      "rep": 2,
+      "car": 2,
+      "ene": -1,
+      "r": "Su-eten hauskorra, baina su-etena."
+     },
+     "lose": {
+      "ene": 3,
+      "r": "Alde bakoitzak uste du bestearentzat lan egiten duzula."
+     }
+    }
+   ]
+  },
+  {
+   "id": "alumno",
+   "etapa": "m",
+   "orient": [
+    "Kontenplatiboa"
+   ],
+   "virtue": "Adiskidetasuna (philía)",
+   "sit": "Gazte distiratsu, aberats eta harro batek zure ikasle izan nahi du gobernatzen ikasteko.",
+   "hist": "Alkibiades Sokratesen ikaslea eta laguna izan zen. K.a. 399ko epaiketan, askok gogoratzen zuten.",
+   "opts": [
+    {
+     "t": "Irakatsi, aldatzen ez bada ere.",
+     "rep": 1,
+     "set": "alumno",
+     "r": "Entzun egiten dizu, miretsi egiten zaitu… eta nahi duena egiten du."
+    },
+    {
+     "t": "Baztertu.",
+     "rep": -1,
+     "r": "Beste maisu bat bilatzen du, hain zorrotza ez dena."
+    },
+    {
+     "t": "Irakatsi eta jendaurrean kritikatu oker dabilenean.",
+     "car": 1,
+     "ene": 1,
+     "tags": [
+      "verdad"
+     ],
+     "set": "alumno",
+     "r": "Inor baino gehiago errespetatzen zaitu; haren familiak, gutxiago."
+    },
+    {
+     "t": "Eragina irabazteko erabili.",
+     "hac": 2,
+     "rep": 2,
+     "car": -2,
+     "set": "alumno",
+     "r": "Etxerik onenetako ateak irekitzen dizkizu."
+    }
+   ]
+  },
+  {
+   "id": "comedia",
+   "etapa": "m",
+   "orient": [
+    "Diskurtsiboa"
+   ],
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Hiriko politikaririk boteretsuena barregarri uzten duen obra bat prestatzen ari zara.",
+   "hist": "K.a. 426an, Kleonek Kontseiluaren aurrera eraman zuen Aristofanes Babiloniarrak obragatik; bi urte geroago, Aristofanesek berriro barregarri utzi zuen Zaldunak lanean.",
+   "opts": [
+    {
+     "t": "Dagoen bezala estreinatu.",
+     "rep": 3,
+     "ene": 4,
+     "tags": [
+      "verdad",
+      "publico"
+     ],
+     "r": "Antzoki osoa barrez ari da. Hura ez."
+    },
+    {
+     "t": "Leundu.",
+     "rep": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Harrera ona. Inor ez da gehiegi mintzen."
+    },
+    {
+     "t": "Hobe boterorik ez duen filosofo bat barregarri utzi.",
+     "rep": 2,
+     "car": -2,
+     "r": "Arrakasta erraza. Urte batzuk geroago, publikoak zure karikatura gogoratuko du epaiketa batean."
+    },
+    {
+     "t": "Tiradera batean gorde.",
+     "rep": -2,
+     "r": "Aurten ez duzu estreinatzen."
+    }
+   ]
+  },
+  {
+   "id": "logografo",
+   "etapa": "m",
+   "orient": [
+    "Diskurtsiboa"
+   ],
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Gizon aberats batek ordaintzen dizu bere defentsa-hitzaldia idazteko. Badakizu errudun dela.",
+   "opts": [
+    {
+     "t": "Ahalik eta hitzaldirik onena idatzi diru askoren truke.",
+     "hac": 3,
+     "car": -1,
+     "rep": 1,
+     "r": "Absolbitu egiten dute. Logografo gisa duzun ospea igo egiten da."
+    },
+    {
+     "t": "Enkargua baztertu.",
+     "car": 1,
+     "r": "Beste batek idatziko du zure ordez."
+    },
+    {
+     "t": "Idatzi, baina ezertan gezurrik esan gabe.",
+     "hac": 1,
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Hitzaldi zintzoa kausa zalantzagarri baterako."
+    },
+    {
+     "t": "Idatzi eta egia akusazioari pasatu.",
+     "hac": 2,
+     "car": -1,
+     "ene": 2,
+     "r": "Kondenatu egiten dute. Zure bezeroak zutaz susmatzen du."
+    }
+   ]
+  },
+  {
+   "id": "acusacion",
+   "etapa": "m",
+   "orient": [
+    "Diskurtsiboa"
+   ],
+   "virtue": "Ausardia (andreía)",
+   "sit": "Zure babesle politikoari erasotzeko, zu salatzen zaituzte erlijiogabekeriaz.",
+   "hist": "Plutarkoren arabera, Hermipo komedia-idazleak salatu zuen Aspasia erlijiogabekeriaz, eta Periklesek negar egin zuen epaimahaiaren aurrean hura salbatzeko.",
+   "opts": [
+    {
+     "t": "Zeure burua defendatu auzitegiaren aurrean.",
+     "tags": [
+      "publico"
+     ],
+     "risk": true,
+     "win": {
+      "rep": 2,
+      "ene": -2,
+      "r": "Zure defentsa hain da ona, ezen urteetan zehar aipatzen baitute."
+     },
+     "lose": {
+      "ene": 2,
+      "rep": -2,
+      "hac": -2,
+      "r": "Isun izugarri batera kondenatzen zaituzte."
+     }
+    },
+    {
+     "t": "Zure babesleari zure alde hitz egiteko eskatu.",
+     "rep": -1,
+     "ene": -1,
+     "r": "Salbatu egiten zaitu, baina orain bizia zor diozu."
+    },
+    {
+     "t": "Hiritik ihes egin.",
+     "hac": -3,
+     "rep": -2,
+     "ene": -3,
+     "r": "Hutsetik hasten zara beste nonbait."
+    },
+    {
+     "t": "Kontraerasoa jo zure salatzaileak salatuz.",
+     "ene": 3,
+     "rep": 1,
+     "tags": [
+      "fuerza"
+     ],
+     "r": "Gerra irekia auzitegietan."
+    }
+   ]
+  },
+  {
+   "id": "golpe",
+   "etapa": "m",
+   "orient": [
+    "Politika"
+   ],
+   "virtue": "Neurritasuna (sophrosýne)",
+   "sit": "Zure jarraitzaileek gaur gauean Akropolia hartu eta zu tirano aldarrikatzea eskaintzen dizute.",
+   "hist": "Pisistratok hiru aldiz saiatu zen K.a. VI. mendean, eta hirugarrenean geratu egin zen. Zilonek, haren aurretik, porrot egin zuen eta haren jarraitzaileak hil zituzten.",
+   "opts": [
+    {
+     "t": "Kolpea eman.",
+     "car": -3,
+     "tags": [
+      "fuerza",
+      "injusto"
+     ],
+     "muerte": 0.2,
+     "muerteT": "Kolpeak porrot egiten du: Akropolian hiltzen zaituzte.",
+     "risk": true,
+     "win": {
+      "rep": 3,
+      "hac": 4,
+      "ene": 5,
+      "set": "tirano",
+      "r": "Hiriaren jabe zarela esnatzen zara."
+     },
+     "lose": {
+      "ene": 4,
+      "hac": -3,
+      "r": "Porrot egiten du. Mirariz egiten duzu ihes."
+     }
+    },
+    {
+     "t": "Uko egin eta Kontseiluari abisatu.",
+     "car": 2,
+     "ene": 3,
+     "rep": 1,
+     "tags": [
+      "justo"
+     ],
+     "r": "Kolpea desegiten da. Zure jarraitzaile ohiek gorroto zaituzte."
+    },
+    {
+     "t": "Isilik uko egin.",
+     "car": 1,
+     "ene": 1,
+     "r": "Inork ez daki ezer. Oraingoz."
+    },
+    {
+     "t": "Eskatzen dutenerako lege-erreformak proposatu.",
+     "phr": 1,
+     "car": 1,
+     "rep": 1,
+     "ene": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Batzuk konformatzen dira; beste batzuek bigun deitzen dizute."
+    }
+   ]
+  },
+  {
+   "id": "melos",
+   "etapa": "m",
+   "orient": [
+    "Politika"
+   ],
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Jeneral gisa, uharte neutral txiki bat menderatu duzu. Batzarrak galdetzen dizu zer egin garaituekin.",
+   "hist": "Melos, K.a. 416: Atenasek gizonak hil eta emakumeak eta haurrak esklabo bihurtu zituen. Tuzididesek «meliarren elkarrizketan» kontatzen du.",
+   "opts": [
+    {
+     "t": "Gizonak hil eta gainerakoak esklabo bihurtu, ikasgai gisa.",
+     "hac": 3,
+     "rep": 1,
+     "car": -4,
+     "ene": 1,
+     "tags": [
+      "fuerza",
+      "injusto"
+     ],
+     "r": "Beste inor ez da neutral izatera ausartuko."
+    },
+    {
+     "t": "Errukia eskatu.",
+     "car": 2,
+     "rep": -2,
+     "ene": 1,
+     "r": "Bigun izatea leporatzen dizute."
+    },
+    {
+     "t": "Kolonoak ezarri eta zerga kobratu, sarraskirik gabe.",
+     "car": 1,
+     "hac": 1,
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Konkista bat, baina alferrikako odolik gabe."
+    },
+    {
+     "t": "Harrapakina zuretzat gorde agindua iritsi aurretik.",
+     "hac": 4,
+     "car": -3,
+     "ene": 2,
+     "set": "corrupto",
+     "tags": [
+      "injusto"
+     ],
+     "r": "Inork ez zituen anforak ondo zenbatu."
+    }
+   ]
+  },
+  {
+   "id": "hermes",
+   "etapa": "m",
+   "orient": [
+    "Politika"
+   ],
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Zure espedizioaren bezperan, hiriko Hermesen estatuak moztuta agertzen dira. Zure arerioek sakrilegioa leporatzen dizute.",
+   "hist": "K.a. 415ean Alkibiades salatu zuten. Itsasoratu aurretik epaitua izatea eskatu zuen; ez zioten utzi. Bertan ez zela kondenatuta, Espartara igaro zen.",
+   "opts": [
+    {
+     "t": "Orain epaitzeko exijitu, itsasoratu aurretik.",
+     "tags": [
+      "publico"
+     ],
+     "risk": true,
+     "win": {
+      "rep": 2,
+      "ene": -2,
+      "r": "Absolbitu egiten zaituzte eta garbi itsasoratzen zara."
+     },
+     "lose": {
+      "ene": 3,
+      "r": "Epaiketa atzeratzen dute: zu ez zaudenean epaituko zaituzte."
+     }
+    },
+    {
+     "t": "Itsasoratu eta zu gabe epaitzen utzi.",
+     "ene": 4,
+     "rep": -1,
+     "r": "Bertan ez zaudela heriotzara kondenatzen zaituzte."
+    },
+    {
+     "t": "Lekukoak erosi.",
+     "hac": -3,
+     "car": -2,
+     "risk": true,
+     "win": {
+      "ene": -1,
+      "r": "Lekukoek atzera egiten dute."
+     },
+     "lose": {
+      "ene": 4,
+      "rep": -2,
+      "r": "Haietako batek dena kontatzen du."
+     }
+    },
+    {
+     "t": "Etsaiarengana igaro atxilotu aurretik.",
+     "car": -3,
+     "rep": -3,
+     "ene": 3,
+     "hac": 2,
+     "set": "traidor",
+     "r": "Espartak beso zabalik hartzen zaitu. Atenasek, heriotza-zigor batekin."
+    }
+   ]
+  },
+  {
+   "id": "flota",
+   "etapa": "m",
+   "orient": [
+    "Politika"
+   ],
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Zure arerioak bere plana kontatzen dizu ezkutuan: portuan ainguratuta dagoen aliatuen flota erretzea. Atenasek itsasoa menderatuko luke lehiakiderik gabe. Batzarrak hura epaitzeko eskatzen dizu.",
+   "hist": "Plutarkoren arabera, Temistoklesek horrelako zerbait proposatu zuen eta batzarrak Aristidesi eskatu zion aztertzeko. Aristidesek esan zuen ezer ez litzatekeela onuragarriagoa ezta bidegabeagoa ere, eta atenastarrek baztertu egin zuten ezagutu gabe.",
+   "opts": [
+    {
+     "t": "Babestu: Atenasi komeni zaiona da zuzena.",
+     "hac": 2,
+     "rep": 1,
+     "car": -3,
+     "ene": 1,
+     "tags": [
+      "injusto",
+      "fuerza"
+     ],
+     "r": "Flota aliatua sutan dago. Atenasek agintzen du itsasoan, eta inork ez du berriro harengan konfiantzarik."
+    },
+    {
+     "t": "Batzarrari esan oso onuragarria dela… eta oso bidegabea.",
+     "car": 2,
+     "ene": 2,
+     "tags": [
+      "justo",
+      "publico",
+      "verdad"
+     ],
+     "risk": true,
+     "win": {
+      "rep": 2,
+      "r": "Batzarrak baztertu egiten du xehetasunik eskatu gabe. Zure arerioak ez dizu barkatzen."
+     },
+     "lose": {
+      "rep": -1,
+      "ene": 1,
+      "r": "Morala aberriaren aurretik jartzea leporatzen dizute."
+     }
+    },
+    {
+     "t": "Aliatuei ezkutuan abisatu.",
+     "car": 1,
+     "ene": 3,
+     "rep": -2,
+     "r": "Aliatuak salbatzen dira. Atenasen, norbait zutaz susmatzen hasten da."
+    },
+    {
+     "t": "Horren ordez, aliatuekin liga bat eta zerga zuzen bat proposatu.",
+     "car": 1,
+     "rep": 1,
+     "phr": 1,
+     "tags": [
+      "justo",
+      "medida"
+     ],
+     "r": "Aliatuek zuregan konfiantza dute hiri bakoitzak zer ordaintzen duen finkatzeko."
+    }
+   ]
+  },
+  {
+   "id": "hifasis",
+   "etapa": "m",
+   "orient": [
+    "Politika"
+   ],
+   "virtue": "Neurritasuna (sophrosýne)",
+   "sit": "Zure armada lehertuta dago urteetako kanpainaren ondoren eta etxera itzuli nahi du. Zuk munduaren amaieraraino jarraitu nahi duzu.",
+   "hist": "Hifasis ibaiaren ertzean (K.a. 326), Alexandroren soldaduek uko egin zioten aurrera jarraitzeari. Itzuli egin zen, baina Gedrosiako basamortutik, eta milaka hil ziren.",
+   "opts": [
+    {
+     "t": "Aurrera jarraitzeko agindu.",
+     "rep": 1,
+     "sal": -2,
+     "ene": 3,
+     "car": -1,
+     "tags": [
+      "fuerza"
+     ],
+     "r": "Gogoz kontra obeditzen dizute."
+    },
+    {
+     "t": "Etxera itzuli.",
+     "rep": -1,
+     "car": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Zure soldaduek bedeinkatu egiten zaituzte."
+    },
+    {
+     "t": "Protesta egiten dutenak exekutatu.",
+     "ene": 4,
+     "car": -3,
+     "tags": [
+      "fuerza",
+      "injusto"
+     ],
+     "r": "Isiltasuna nagusitzen da. Isiltasun arriskutsua."
+    },
+    {
+     "t": "Basamortu gogorrenetik itzuli, zure ausardia erakusteko.",
+     "sal": -4,
+     "rep": 1,
+     "car": -1,
+     "r": "Iristen zara. Asko ez."
+    }
+   ]
+  },
+  {
+   "id": "demagogo",
+   "etapa": "m",
+   "orient": [
+    "Politika",
+    "Diskurtsiboa"
+   ],
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Hiria gosez dago. Jeneral-hauteskundeak irabaz ditzakezu lortu ezin izango duzun gari merkea aginduz.",
+   "opts": [
+    {
+     "t": "Dena agindu.",
+     "rep": 3,
+     "car": -2,
+     "set": "promesa",
+     "r": "Gehiengo zapaltzaile batekin irabazten duzu."
+    },
+    {
+     "t": "Egia esan: gerrikoa estutu beharko da.",
+     "car": 2,
+     "rep": -2,
+     "tags": [
+      "verdad",
+      "publico"
+     ],
+     "r": "Galdu egiten duzu. Baina inork ezin izango dizu ezer leporatu."
+    },
+    {
+     "t": "Benetan bete dezakezuna agindu.",
+     "rep": 1,
+     "car": 1,
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Gutxigatik irabazten duzu."
+    },
+    {
+     "t": "Gosearen errua metekoei bota.",
+     "rep": 2,
+     "car": -3,
+     "ene": 2,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Funtzionatzen du. Beti funtzionatzen du."
+    }
+   ]
+  },
+  {
+   "id": "juicio",
+   "etapa": "v",
+   "cond": {
+    "ene": 5
+   },
+   "virtue": "Ausardia (andreía)",
+   "sit": "Zahartuta, gazteak ustelzea eta hiriko jainkoetan ez sinestea leporatzen dizute. 501 herritarrek osatzen dute epaimahaia.",
+   "hist": "Horrelakoa izan zen Sokratesen epaiketa (K.a. 399), Platonen Apologiaren arabera. «Zigor» gisa Pritaneoan doan jatea eskatu zuen, eta heriotzara kondenatu zuten.",
+   "opts": [
+    {
+     "t": "Negar egin eta epaimahaiari erregutu.",
+     "car": -3,
+     "ene": -2,
+     "rep": -1,
+     "r": "Errukiz absolbitzen zaituzte. Zuk badakizu zer egin duzun."
+    },
+    {
+     "t": "Zure bizitza harrotasunez defendatu, errukirik eskatu gabe.",
+     "car": 3,
+     "tags": [
+      "verdad",
+      "publico"
+     ],
+     "risk": true,
+     "pBase": 0,
+     "win": {
+      "rep": 2,
+      "r": "Boto gutxirengatik absolbitzen zaituzte. Gogoratzen den defentsarik onena izan da."
+     },
+     "lose": {
+      "set": "preso",
+      "r": "Heriotzara kondenatzen zaituzte. Kartzelara eramaten zaituzte exekuzioaren zain."
+     }
+    },
+    {
+     "t": "Zuk zeuk proposatu erbestea zigor gisa.",
+     "hac": -3,
+     "rep": -2,
+     "ene": -3,
+     "r": "Onartu egiten dute. Hiritik urrun amaituko dituzu zure egunak."
+    },
+    {
+     "t": "Epaiketaren aurretik ihes egin.",
+     "hac": -2,
+     "rep": -2,
+     "ene": -2,
+     "car": -1,
+     "r": "Epaitu aurretik joaten zara. Batzuek koldar deitzen dizute."
+    }
+   ]
+  },
+  {
+   "id": "carcel",
+   "etapa": "v",
+   "req": "preso",
+   "urgente": true,
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Kartzelan zaude exekuzioaren zain. Zure lagunek zaindaria erosi dute: gaur gauean ihes egin dezakezu.",
+   "hist": "Platonen Kritonen, Sokratesek ihes egiteari uko egiten dio: legeei bidegabekeriari bidegabekeriaz erantzutea litzateke.",
+   "opts": [
+    {
+     "t": "Ihes egin: kondena bidegabea da.",
+     "car": -1,
+     "hac": -2,
+     "rep": -1,
+     "r": "Bizi zara, erbesteratuta eta denen ahotan."
+    },
+    {
+     "t": "Geratu: bidegabekeria bati ez zaio beste batekin erantzuten.",
+     "car": 3,
+     "muerte": 1,
+     "muerteT": "Epaia betetzen duzu. Zure ikasleek ez diote utziko zutaz hitz egiteari."
+    },
+    {
+     "t": "Ihes egin eta atzerritik irakasten jarraitu.",
+     "hac": -2,
+     "rep": 1,
+     "ene": 1,
+     "r": "Beste hiri batean irakasten jarraitzen duzu."
+    }
+   ]
+  },
+  {
+   "id": "testamento",
+   "etapa": "v",
+   "virtue": "Eskuzabaltasuna (eleutheriótes)",
+   "sit": "Testamentua egiteko ordua iristen da.",
+   "hist": "Aristotelesek testamentuan bere esklabo batzuk askatzea xedatu zuen, Diogenes Laertzioren arabera.",
+   "opts": [
+    {
+     "t": "Dena zure seme-alabei utzi.",
+     "r": "Zure familia babestuta geratzen da."
+    },
+    {
+     "t": "Zure ondasunekin liburutegi edo eskola bat sortu.",
+     "hac": -4,
+     "rep": 2,
+     "car": 1,
+     "r": "Zure izenak atean jarraituko du mendeetan zehar."
+    },
+    {
+     "t": "Zure esklaboak askatu eta zati bat haien artean banatu.",
+     "hac": -2,
+     "car": 2,
+     "tags": [
+      "justo"
+     ],
+     "r": "Bizilagun batzuek erokeriatzat jotzen dute."
+    },
+    {
+     "t": "Dena bizitzan gastatu oturuntzetan.",
+     "sal": -2,
+     "hac": -3,
+     "car": -1,
+     "tags": [
+      "placer"
+     ],
+     "r": "Oinordekoek ordain dezatela."
+    }
+   ]
+  },
+  {
+   "id": "retiro",
+   "etapa": "v",
+   "virtue": "Zuhurtzia (phrónesis)",
+   "sit": "Medikuak bizitza publikoa utzi eta landara erretiratzeko aholkatzen dizu.",
+   "opts": [
+    {
+     "t": "Batzarrean jarraitu azkenera arte.",
+     "rep": 1,
+     "sal": -2,
+     "ene": 1,
+     "r": "Errespetatu egiten zaituzte, eta agortu egiten zara."
+    },
+    {
+     "t": "Landara erretiratu.",
+     "sal": 2,
+     "rep": -1,
+     "ene": -2,
+     "tags": [
+      "medida"
+     ],
+     "r": "Zure etsaiek ahaztu egiten zaituzte. Zure olibondoek, ez."
+    },
+    {
+     "t": "Erretiratu eta zure oroitzapenak idatzi.",
+     "sal": 1,
+     "phr": 1,
+     "rep": 1,
+     "r": "Ordenaz gogoratzea ere pentsatzea da."
+    },
+    {
+     "t": "Sendagile ospetsu bati ordaindu sendabide miragarri baten truke.",
+     "hac": -3,
+     "risk": true,
+     "win": {
+      "sal": 2,
+      "r": "Kasualitatez edo ez, hobeto sentitzen zara."
+     },
+     "lose": {
+      "sal": -2,
+      "r": "Sendabidea gaixotasuna bera baino okerragoa zen."
+     }
+    }
+   ]
+  },
+  {
+   "id": "estatua",
+   "etapa": "v",
+   "virtue": "Arima handitasuna (megalopsykhía)",
+   "sit": "Hiriak estatua bat jaso nahi dizu agoran.",
+   "hist": "Aristotelesentzat, arima handikoak badaki ohore handien merezimendua duela eta onartu egiten ditu irrikaz nahi izan gabe; harroak bilatu egiten ditu merezi gabe.",
+   "opts": [
+    {
+     "t": "Onartu eta zuk ordaindu.",
+     "hac": -3,
+     "rep": 2,
+     "r": "Estatua duin bat."
+    },
+    {
+     "t": "Apaltasun faltsuz baztertu.",
+     "car": -1,
+     "r": "Denek dakite irrikaz zeundela."
+    },
+    {
+     "t": "Onartu eta soberan dagoen dirua gerrako umezurtzentzat izatea eskatu.",
+     "car": 2,
+     "rep": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Estatua txikia da, eta keinua, handia."
+    },
+    {
+     "t": "Zure arerioarena baino handiagoa izatea exijitu.",
+     "rep": 1,
+     "ene": 2,
+     "car": -1,
+     "r": "Orain elkarri hitz egiten ez dioten bi estatua daude."
+    }
+   ]
+  },
+  {
+   "id": "amnistia",
+   "etapa": "v",
+   "virtue": "Otzantasuna (praótes)",
+   "sit": "Jazarri zintuztenak erori dira. Orain zuri dagokizu haiekin zer egin erabakitzea.",
+   "hist": "K.a. 403an, Hogeita Hamarrak erori ondoren, Atenasek amnistia bat bozkatu zuen: debekatuta «iraganeko gaiztakeriak gogoratzea». Historiako lehenetako bat da.",
+   "opts": [
+    {
+     "t": "Mendeku hartu: egin zutena ordain dezatela.",
+     "ene": 3,
+     "hac": 2,
+     "car": -2,
+     "tags": [
+      "fuerza"
+     ],
+     "r": "Justizia, diote batzuek. Mendekua, beste batzuek."
+    },
+    {
+     "t": "Amnistia orokor bat babestu.",
+     "car": 2,
+     "rep": 2,
+     "ene": -3,
+     "tags": [
+      "justo"
+     ],
+     "r": "Hiriak arnasa hartzen du."
+    },
+    {
+     "t": "Hil zutenentzat bakarrik eskatu epaiketa.",
+     "car": 1,
+     "ene": -1,
+     "phr": 1,
+     "tags": [
+      "medida",
+      "justo"
+     ],
+     "r": "Justizia zaila, baina justizia."
+    },
+    {
+     "t": "Hiritik joan: ez dituzu ikusi nahi.",
+     "rep": -1,
+     "ene": -2,
+     "r": "Gorrotoak aurrezten dituzu."
+    }
+   ]
+  },
+  {
+   "id": "herederos",
+   "etapa": "v",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Zure seme-alabak familiako negozioagatik liskarrean ari dira. Batek bere langileak tratu txarrez hartzeagatik ezaguna den erosle bati saldu nahi dio.",
+   "opts": [
+    {
+     "t": "Eskaintzarik onena egiten duenari saldu.",
+     "hac": 3,
+     "car": -2,
+     "r": "Diru azkarra. Hobe ez galdetu."
+    },
+    {
+     "t": "Ez saldu eta zure seme-alaben artean banatu.",
+     "hac": -1,
+     "car": 1,
+     "r": "Berdin liskarrean ibiliko dira, baina saldu gabe."
+    },
+    {
+     "t": "Saldu, baina kontratuan baldintzak jarriz.",
+     "hac": 1,
+     "phr": 1,
+     "tags": [
+      "medida"
+     ],
+     "r": "Erosleak gogoz kontra onartzen ditu."
+    },
+    {
+     "t": "Zuretzat gorde eta zuk estutu langileak.",
+     "hac": 3,
+     "car": -3,
+     "ene": 1,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Norbait estutu behar bada, irabazia zurea izan dadila."
+    }
+   ]
+  },
+  {
+   "id": "c-colaborador",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "colaborador",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Zerbitzatu zenuen gobernua erori da. Orain harekin lankidetzan aritzeagatik epaitzen zaituzte.",
+   "opts": [
+    {
+     "t": "Errua besteei bota.",
+     "car": -2,
+     "risk": true,
+     "win": {
+      "ene": -2,
+      "r": "Sinetsi egiten dizute."
+     },
+     "lose": {
+      "ene": 3,
+      "rep": -2,
+      "r": "Besteek zu salatzen zaituzte frogekin."
+     }
+    },
+    {
+     "t": "Zure zatia onartu eta amnistiari heldu.",
+     "car": 2,
+     "rep": -1,
+     "hac": -2,
+     "ene": -1,
+     "r": "Isun bat ordaintzen duzu. Zure bizilagunei aurpegira begira diezaiekezu."
+    },
+    {
+     "t": "Eraman dezakezunarekin ihes egin.",
+     "hac": -3,
+     "rep": -3,
+     "ene": -2,
+     "r": "Bizitza berri bat, urrun eta izenik gabe."
+    },
+    {
+     "t": "Lekukoak erosi.",
+     "hac": -4,
+     "car": -2,
+     "risk": true,
+     "win": {
+      "ene": -2,
+      "r": "Absolbitu egiten zaituzte."
+     },
+     "lose": {
+      "ene": 4,
+      "rep": -3,
+      "r": "Erosketa agerian geratzen da."
+     }
+    }
+   ]
+  },
+  {
+   "id": "c-corrupto",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "corrupto",
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Konplize ohi batek zure ustelkeria kontatuko duela mehatxatzen du ordaintzen ez badiozu.",
+   "opts": [
+    {
+     "t": "Ordaindu.",
+     "hac": -3,
+     "r": "Berriro eskatuko du."
+    },
+    {
+     "t": "Zuk lehenik aitortu eta hartutakoa itzuli.",
+     "rep": -3,
+     "car": 3,
+     "hac": -3,
+     "r": "Eskandalua, isuna… eta lasaitasuna."
+    },
+    {
+     "t": "Zuk mehatxatu hura.",
+     "ene": 3,
+     "car": -1,
+     "r": "Orain sekretu bat eta gorroto bat dituzue komunean."
+    },
+    {
+     "t": "Betiko isilarazi.",
+     "car": -5,
+     "tags": [
+      "fuerza",
+      "injusto"
+     ],
+     "risk": true,
+     "win": {
+      "r": "Ez duzu inoiz berriro haren berri izango."
+     },
+     "lose": {
+      "ene": 5,
+      "rep": -3,
+      "r": "Hiltzaile kontratatuak hitz egiten du."
+     }
+    }
+   ]
+  },
+  {
+   "id": "c-tirano",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "tirano",
+   "virtue": "Neurritasuna (sophrosýne)",
+   "sit": "Urteak daramatzazu tirano gisa gobernatzen. Hurrengo prozesioan zu hiltzeko konspirazio baten zurrumurrua iristen zaizu.",
+   "hist": "Harmodiok eta Aristogitonek Hiparko hil zuten, Pisistratoren semea, K.a. 514ko Panatenaietan; Atenasek estatua bat jaso zien tiranohiltzaile gisa.",
+   "opts": [
+    {
+     "t": "Bizkartzainak eta exekuzio prebentiboak.",
+     "ene": 2,
+     "car": -3,
+     "hac": -2,
+     "tags": [
+      "fuerza"
+     ],
+     "r": "Bizirik irauten duzu. Hiriak inoiz baino beldur handiagoa dizu."
+    },
+    {
+     "t": "Botereari uko egin eta legeak itzuli.",
+     "car": 3,
+     "rep": 2,
+     "ene": -4,
+     "hac": -2,
+     "r": "Tirano gutxik egin zuten hori. Horregatik gogoratuko zaituzte."
+    },
+    {
+     "t": "Konspiratzaileekin ezkutuan negoziatu.",
+     "phr": 1,
+     "risk": true,
+     "win": {
+      "ene": -3,
+      "r": "Akordio batera iristen zarete."
+     },
+     "lose": {
+      "ene": 2,
+      "sal": -3,
+      "r": "Tranpa bat zen: prozesioan zauritu egiten zaituzte."
+     }
+    },
+    {
+     "t": "Kasurik ez egin: inor ez da ausartuko.",
+     "muerte": 0.4,
+     "muerteT": "Konspiratzaileek prozesioan sastakatzen zaituzte.",
+     "r": "Ez da ezer gertatzen. Oraingoan."
+    }
+   ]
+  },
+  {
+   "id": "c-alumno",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "alumno",
+   "virtue": "Adiskidetasuna (philía)",
+   "sit": "Zure ikasle ohia etsaiarengana igaro da, eta hiriak hura ustel izanaren errua botatzen dizu.",
+   "opts": [
+    {
+     "t": "Zeure burua defendatu benetan zer irakatsi zenion azalduz.",
+     "phr": 1,
+     "tags": [
+      "verdad",
+      "publico"
+     ],
+     "risk": true,
+     "win": {
+      "ene": -2,
+      "r": "Batzuek ulertzen dute."
+     },
+     "lose": {
+      "ene": 3,
+      "r": "Inork ez du ñabardurarik entzun nahi."
+     }
+    },
+    {
+     "t": "Jendaurrean hari uko egin.",
+     "car": -1,
+     "ene": -1,
+     "r": "Erdizka salbatzen zara. Hark jakin egiten du."
+    },
+    {
+     "t": "Isilik geratu.",
+     "ene": 2,
+     "r": "Isilik dagoenak baietz dio, esaten dute."
+    },
+    {
+     "t": "Denboraldi batez hiritik joan.",
+     "hac": -2,
+     "ene": -3,
+     "rep": -1,
+     "r": "Itzultzen zarenean, beste errudun bat egongo da."
+    }
+   ]
+  },
+  {
+   "id": "c-delator",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "delator",
+   "virtue": "Adiskidetasuna (philía)",
+   "sit": "Haren aurka lekukotza eman zenuen maisua erbestean hil da. Haren ikasleek kalean seinalatzen zaituzte.",
+   "opts": [
+    {
+     "t": "Jendaurrean barkamena eskatu.",
+     "car": 2,
+     "rep": -1,
+     "r": "Batzuek barkatu egiten dizute; zuk, ez."
+    },
+    {
+     "t": "Zeure burua justifikatu: egin beharrekoa egin zenuen.",
+     "car": -1,
+     "ene": 2,
+     "r": "Inork ez dizu sinesten, ezta zuk zeuk ere."
+    },
+    {
+     "t": "Haren ikasle pobreen hezkuntza ordaindu.",
+     "hac": -3,
+     "car": 2,
+     "rep": 1,
+     "r": "Ez du ezer ezabatzen, baina zerbait konpontzen du."
+    },
+    {
+     "t": "Haren ikasleak ere salatu.",
+     "car": -3,
+     "ene": 3,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Ez dago atzera bueltarik."
+    }
+   ]
+  },
+  {
+   "id": "c-oligarca",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "oligarca",
+   "virtue": "Justizia (dikaiosýne)",
+   "sit": "Demokratek hiria berreskuratu dute. Zure aldeak galdu du.",
+   "opts": [
+    {
+     "t": "Eleusisen eutsi azken oligarkekin.",
+     "ene": 3,
+     "tags": [
+      "fuerza"
+     ],
+     "muerte": 0.15,
+     "muerteT": "Azken liskarrean erortzen zara.",
+     "r": "Kausa galdua, baina zurea."
+    },
+    {
+     "t": "Amnistiari heldu.",
+     "ene": -3,
+     "rep": -1,
+     "r": "Berriro herritar bat gehiago zara."
+    },
+    {
+     "t": "Zure kide ohiak salatu barkamenaren truke.",
+     "car": -3,
+     "ene": -2,
+     "r": "Barkatu egiten dizute. Haiek, ez."
+    },
+    {
+     "t": "Zure fortunarekin erbesteratu.",
+     "hac": -2,
+     "rep": -2,
+     "ene": -2,
+     "r": "Bizitza erosoa erbestean."
+    }
+   ]
+  },
+  {
+   "id": "c-traidor",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "traidor",
+   "virtue": "Adiskidetasuna (philía)",
+   "sit": "Urteak daramatzazu etsaia zerbitzatzen, eta han ere ez dute zuregan konfiantzarik. Atenasek itzultzea eskaintzen dizu garaipen bat ekartzen badiozu.",
+   "hist": "Alkibiades K.a. 407an itzuli zen Atenasera, heroi gisa txalotuta; hurrengo urtean, bere lugartenientearen porrot baten ondoren, kargutik kendu zuten.",
+   "opts": [
+    {
+     "t": "Garaipenarekin itzuli.",
+     "risk": true,
+     "win": {
+      "rep": 4,
+      "ene": -2,
+      "r": "Heroi gisa itzultzen zara."
+     },
+     "lose": {
+      "ene": 3,
+      "sal": -2,
+      "r": "Guduak gaizki egiten du eta orain bi aldeetan gorroto zaituzte."
+     }
+    },
+    {
+     "t": "Zauden lekuan geratu.",
+     "ene": 1,
+     "r": "Atzerritarra leku guztietan."
+    },
+    {
+     "t": "Persiara joan eta zure ospetik bizi.",
+     "hac": 1,
+     "rep": -1,
+     "ene": 1,
+     "r": "Satrapa batek hartu egiten zaitu, oraingoz."
+    },
+    {
+     "t": "Zure gizonekin gotorleku batera erretiratu.",
+     "hac": -2,
+     "ene": -1,
+     "r": "Bakarrik, baina salbu."
+    }
+   ]
+  },
+  {
+   "id": "c-promesa",
+   "etapa": [
+    "m",
+    "v"
+   ],
+   "req": "promesa",
+   "virtue": "Egiazkotasuna (alétheia)",
+   "sit": "Agindu zenuen gari merkea ez da iritsi. Herria zure izena oihukatzen hasi da, eta ez txalotzeko.",
+   "opts": [
+    {
+     "t": "Zure poltsikotik ordaindu.",
+     "hac": -5,
+     "rep": 2,
+     "r": "Betetzen duzu, hondatzen bazara ere."
+    },
+    {
+     "t": "Aberatsei errua bota eta garia konfiskatu.",
+     "ene": 4,
+     "rep": 1,
+     "tags": [
+      "fuerza"
+     ],
+     "r": "Herriak jaten du. Aberatsek konspiratu egiten dute."
+    },
+    {
+     "t": "Ezinezkoa agindu zenuela onartu.",
+     "car": 2,
+     "rep": -3,
+     "r": "Zintzoa, berandu eta garesti."
+    },
+    {
+     "t": "Kanpoko etsai bat asmatu.",
+     "car": -3,
+     "rep": 1,
+     "ene": 2,
+     "tags": [
+      "injusto"
+     ],
+     "r": "Gerrak gosea ahazten du… denbora batez."
+    }
+   ]
+  }
+ ],
+ "chance": [
+  {
+   "t": "Herriaren babesa",
+   "d": "Herria zure alde jartzen da.",
+   "rep": 2,
+   "ene": -1,
+   "img": "azar-apoyo"
+  },
+  {
+   "t": "Hitzaldi fina",
+   "d": "Zure hitzek oreka miragarria lortzen dute.",
+   "rep": 1,
+   "phr": 1,
+   "img": "azar-sutil"
+  },
+  {
+   "t": "Erreforma arrakastatsua",
+   "d": "Zure neurri batek ondo egiten du.",
+   "rep": 1,
+   "hac": 1,
+   "img": "azar-reforma"
+  },
+  {
+   "t": "Inspirazioa",
+   "d": "Zure iritzia ordenatzen duen argitasun bat aurkitzen duzu.",
+   "phr": 2,
+   "img": "azar-inspiracion"
+  },
+  {
+   "t": "Bake-ituna",
+   "d": "Bakea sinatzen da eta hiriak arnasa hartzen du.",
+   "sal": 1,
+   "hac": 1,
+   "ene": -1,
+   "img": "azar-paz"
+  },
+  {
+   "t": "Zorte-ukaldia",
+   "d": "Fortunak irribarre egiten du behingoz.",
+   "hac": 3,
+   "img": "azar-suerte"
+  },
+  {
+   "t": "Eliteen erresistentzia",
+   "d": "Boteretsuek zure ekimena blokeatzen dute.",
+   "hac": -2,
+   "ene": 2,
+   "img": "azar-elites",
+   "bad": true
+  },
+  {
+   "t": "Fanatikoen erreakzioa",
+   "d": "Erantzun bortitza jasotzen duzu.",
+   "sal": -2,
+   "ene": 1,
+   "img": "azar-fanaticos",
+   "bad": true
+  },
+  {
+   "t": "Izurritea",
+   "d": "Epidemia batek hiria suntsitzen du.",
+   "sal": -3,
+   "img": "azar-peste",
+   "bad": true
+  },
+  {
+   "t": "Hondamendi ekonomikoa",
+   "d": "Inbertsio txar batek baliabiderik gabe uzten zaitu.",
+   "hac": -3,
+   "img": "azar-ruina",
+   "bad": true
+  },
+  {
+   "t": "Traizioa",
+   "d": "Konfiantzako norbaitek saldu egiten zaitu.",
+   "rep": -2,
+   "ene": 2,
+   "hac": -1,
+   "img": "azar-traicion",
+   "bad": true
+  },
+  {
+   "t": "Gerra zibila",
+   "d": "Barne-gatazkak dena irensten du.",
+   "sal": -2,
+   "hac": -2,
+   "img": "azar-guerra",
+   "bad": true
+  },
+  {
+   "t": "Eskandalu publikoa",
+   "d": "Zure izena lokatzetan arrastaka dabil.",
+   "rep": -3,
+   "img": "azar-escandalo",
+   "bad": true
+  }
+ ],
+ "chanceProb": 0.35,
+ "peligro": {
+  "umbral": 4,
+  "porPunto": 0.06,
+  "max": 0.5,
+  "juicio": {
+   "t": "Epaiketara eramaten zaituzte",
+   "img": null,
+   "em": "⚖️",
+   "salidas": [
+    {
+     "min": 0.7,
+     "t": "Absolbitua",
+     "d": "Epaimahaiak boto gutxirengatik absolbitzen zaitu.",
+     "ene": -2
+    },
+    {
+     "min": 0.45,
+     "t": "Isuna eta kartzela",
+     "d": "Osorik ordaindu ezin duzun isun batera kondenatzen zaituzte: hilabete batzuk kartzelan.",
+     "hac": -2,
+     "sal": -1,
+     "ene": -2
+    },
+    {
+     "min": 0.22,
+     "t": "Erbestea",
+     "d": "Erbestera kondenatzen zaituzte: etxea, lagunak eta ondasunak galtzen dituzu.",
+     "hac": -2,
+     "rep": -2,
+     "ene": -4,
+     "img": "azar-destierro"
+    },
+    {
+     "min": -99,
+     "t": "Heriotza-zigorra",
+     "d": "Epaimahaiak heriotzara kondenatzen zaitu.",
+     "muerte": true
+    }
+   ]
+  },
+  "ostracismo": {
+   "t": "Ostrakismoa",
+   "d": "Batzarrak zure izena idazten du ostraketan: hamar urte hiritik kanpo, nahiz eta zure ondasunak gordetzen dituzun.",
+   "rep": -3,
+   "hac": -1,
+   "ene": -4,
+   "img": "azar-destierro"
+  },
+  "atentado": {
+   "t": "Atentatua",
+   "img": "azar-fanaticos",
+   "salidas": [
+    {
+     "min": 0.15,
+     "t": "Atentatu batetik bizirik ateratzen zara",
+     "d": "Gauez erasotzen zaituzte; zaurituta ateratzen zara.",
+     "sal": -3,
+     "ene": -1
+    },
+    {
+     "min": -99,
+     "t": "Hilda",
+     "d": "Gauez erasotzen zaituzte Zeramikoko kale batean.",
+     "muerte": true
+    }
+   ]
+  }
+ },
+ "finales": {
+  "muerte_noble": {
+   "emoji": "🕯️",
+   "label": "Bizitza noble etena",
+   "texto": "Zeure buruari leial hiltzen zara. Aristotelesek zure izaera miretsiko luke, baina ez zintuzke zoriontsu deituko: eudaimonia bizitza oso lortu bat da, eta zurea moztu egin da."
+  },
+  "muerte": {
+   "emoji": "💀",
+   "label": "Bizitza alferrik galdua",
+   "texto": "Izan zintezkeena izatera iritsi gabe hiltzen zara. Ez bertuteak ez fortunak ez zaituzte lagundu."
+  },
+  "ruina_noble": {
+   "emoji": "🥀",
+   "label": "Bertutetsua miserian",
+   "texto": "Izaera gordetzen duzu, baina ezer gabe geratu zara. Aristotelesentzat, bertutea bakarrik ez da nahikoa: ondasunik gabe ezin da ondo jokatu ezta ondo bizi ere."
+  },
+  "ruina": {
+   "emoji": "🪨",
+   "label": "Hondatua",
+   "texto": "Dena galdu duzu, eta harekin batera hiriko bizitzan parte hartzeko aukera."
+  },
+  "prospero": {
+   "emoji": "🪙",
+   "label": "Oparoa baina ez zoriontsua",
+   "texto": "Aberastasuna eta ospea dituzu, baina izaera hondatua. Aristotelesentzat, kanpoko ondasunak bitartekoak dira: bertuterik gabe ez dago eudaimoniarik."
+  }
+ },
+ "bands": [
+  {
+   "min": 46,
+   "emoji": "🌿",
+   "label": "Bizitza zoriontsu eta bikaina"
+  },
+  {
+   "min": 38,
+   "emoji": "⚖️",
+   "label": "Bizitza orekatua"
+  },
+  {
+   "min": 28,
+   "emoji": "⚠️",
+   "label": "Bizitza gatazkatsua"
+  },
+  {
+   "min": -999,
+   "emoji": "🥀",
+   "label": "Porrotaren ertzeko bizitza"
+  }
+ ],
+ "reflect": [
+  "Zure pertsonaia bertutetsu izanik hil bada, zoriontsua izan al zen? Zer esango luke Aristotelesek, Priamo inork ez duela zoriontsu deitzen gogorarazten duenak?",
+  "Zerk pisatu du gehiago zure bizitzan: zure izaerak, zure ondasunek ala fortunak?",
+  "Aristotelesek dio bertutea «guri dagokigun» erdibide bat dela. Beste pertsonaiei bezainbeste kostatu zaizu ondo jokatzea?",
+  "Merezi al du ustelezina izatea horrek bizia kosta badiezazuke?",
+  "Zerk bereizten ditu bizitza politikoa, diskurtsiboa eta kontenplatiboa? Zein da, Aristotelesen arabera, zoriontsuena?",
+  "Zergatik da hain garrantzitsua phrónesis (zuhurtzia) ondo bizitzeko?"
+ ]
 };

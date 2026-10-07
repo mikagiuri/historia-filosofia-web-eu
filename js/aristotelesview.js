@@ -73,8 +73,8 @@ function ariEApply(S, d){
 function ariEMuere(S, tipo, texto){ S.over = { tipo, texto }; }
 function ariEChequeo(S){
   if(S.over) return;
-  if(S.st.sal <= 0) ariEMuere(S, "muerte", "Tu salud no aguanta más.");
-  else if(S.st.hac <= 0 && !S.char.noRuina) ariEMuere(S, "ruina", "Te has quedado sin nada: la ruina te aparta de la vida de la ciudad.");
+  if(S.st.sal <= 0) ariEMuere(S, "muerte", "Zure osasunak ez du gehiago eusten.");
+  else if(S.st.hac <= 0 && !S.char.noRuina) ariEMuere(S, "ruina", "Ezer gabe geratu zara: hondamenak hiriko bizitzatik baztertzen zaitu.");
 }
 function ariPExito(S, o){ return Math.min(0.85 + (S.char.riesgo || 0), (o.pBase == null ? 0.3 : o.pBase) + S.st.phr * 0.06 + (S.char.riesgo || 0)); }
 
@@ -160,25 +160,25 @@ function renderAriStart(){
         '<div class="ari-trait"><span class="ari-deb">' + ariEsc(c.debilidad) + '</span> ' + ariEsc(c.debilidadT) + '</div>' +
         '<div class="ari-frase">«' + c.frase + '»</div></div>' +
     '</button>').join("");
-  const et = ariEtapas().map(e => e.label.toLowerCase()), etTxt = et.slice(0, -1).join(", ") + " y " + et[et.length-1] + ": " + ariTotalRondas() + " decisiones en total";
+  const et = ariEtapas().map(e => e.label.toLowerCase()), etTxt = et.slice(0, -1).join(", ") + " eta " + et[et.length-1] + ": " + ariTotalRondas() + " erabaki guztira";
   box.innerHTML = '<div class="ari-wrap">' +
-    '<details class="ari-intro" open><summary>Cómo se juega</summary>' +
+    '<details class="ari-intro" open><summary>Nola jokatzen den</summary>' +
       '<ul>' +
-        '<li>Elige un personaje y vive su vida en tres etapas, ' + etTxt + '.</li>' +
-        '<li>No verás números: solo cómo andan tu <b>salud</b> 🏋️, tu <b>hacienda</b> 💰, tu <b>carácter</b> 🧠, tu <b>reputación</b> 🏛️, tus <b>enemigos</b> ⚔️ y tu <b>prudencia</b> 🧭. Los números se revelan al final.</li>' +
-        '<li>Si tu salud o tu hacienda se agotan, la partida termina.</li>' +
-        '<li>Si acumulas enemigos, cada ronda pueden llevarte a juicio, desterrarte, encarcelarte o matarte. Da igual que sea por ambición desmedida o por no dejarte corromper.</li>' +
-        '<li>La prudencia no te libra del peligro, pero te ayuda a salir mejor de los juicios y de las decisiones arriesgadas 🎲.</li>' +
+        '<li>Aukeratu pertsonaia bat eta bizi haren bizitza hiru alditan, ' + etTxt + '.</li>' +
+        '<li>Ez duzu zenbakirik ikusiko: zure <b>osasuna</b> 🏋️, zure <b>ondasunak</b> 💰, zure <b>izaera</b> 🧠, zure <b>ospea</b> 🏛️, zure <b>etsaiak</b> ⚔️ eta zure <b>zuhurtzia</b> 🧭 nola dabiltzan baino ez. Zenbakiak amaieran agertzen dira.</li>' +
+        '<li>Zure osasuna edo zure ondasunak agortzen badira, partida amaitu egiten da.</li>' +
+        '<li>Etsaiak metatzen badituzu, txanda bakoitzean epaiketara eraman, erbesteratu, espetxeratu edo hil zaitzakete. Berdin du neurrigabeko handinahiagatik izan edo ustel ez uzteagatik.</li>' +
+        '<li>Zuhurtziak ez zaitu arriskutik libratzen, baina epaiketetatik eta erabaki arriskutsuetatik hobeto ateratzen laguntzen dizu 🎲.</li>' +
       '</ul>' +
-      '<p class="ari-intro-h">¿Qué tiene que ver con Aristóteles?</p>' +
+      '<p class="ari-intro-h">Zer ikusi du Aristotelesekin?</p>' +
       '<ul>' +
-        '<li>La <i>eudaimonía</i> es una vida entera lograda, no un buen momento: por eso se juzga al final. «Una golondrina no hace verano».</li>' +
-        '<li>Es ante todo actividad del alma de acuerdo con la virtud: en el balance, el carácter cuenta el doble.</li>' +
-        '<li>Pero necesita bienes externos (salud, recursos, amigos, buena fama). Quien acaba en la desgracia, como Príamo, no es llamado feliz.</li>' +
-        '<li>La virtud es un término medio «relativo a nosotros»: a Alcibíades no le cuesta lo mismo que a Sócrates. Por eso cada personaje tiene sus propios rasgos.</li>' +
-        '<li>La <i>phrónesis</i> es saber qué conviene hacer en cada caso concreto.</li>' +
+        '<li><i>Eudaimonia</i> bizitza oso lortu bat da, ez une on bat: horregatik epaitzen da amaieran. «Enara batek ez du uda egiten».</li>' +
+        '<li>Batez ere arimaren jarduera da bertutearekin bat: balantzean, izaerak bikoitza balio du.</li>' +
+        '<li>Baina kanpoko ondasunak behar ditu (osasuna, baliabideak, lagunak, izen ona). Zorigaitzean amaitzen duena, Priamo bezala, ez da zoriontsu deitzen.</li>' +
+        '<li>Bertutea «guri dagokigun» erdibide bat da: Alkibiadesi ez zaio Sokratesi beste kostatzen. Horregatik pertsonaia bakoitzak bere ezaugarriak ditu.</li>' +
+        '<li><i>Phrónesis</i> kasu zehatz bakoitzean zer egitea komeni den jakitea da.</li>' +
       '</ul></details>' +
-    '<div class="ari-col-h">Elige tu personaje</div>' +
+    '<div class="ari-col-h">Aukeratu zure pertsonaia</div>' +
     '<div class="ari-chars">' + cards + '</div>' +
     '<p class="ia-note">AArekin sortutako ilustrazioak</p></div>';
   box.querySelectorAll("[data-char]").forEach(b => b.addEventListener("click", () => ariStart(b.dataset.char)));
@@ -191,18 +191,18 @@ function ariHud(){
   const pills = JUEGO_ARIS.stats.map(s => '<span class="ari-pill' + (ariAlerta(s.k, S.st[s.k]) ? " warn" : "") + '" title="' + s.label + '">' + s.em + ' ' + s.label + ': <b>' + ariNivel(s.k, S.st[s.k]) + '</b></span>').join("");
   return '<div class="ari-hud">' +
     '<span class="ari-who">' + ariRetrato(S.char, "ari-mini") + ' ' + S.char.name + '</span>' +
-    '<span class="ari-stat">' + et.label + ' · decisión <b>' + (S.round + 1) + '</b>/' + Math.max(ariTotalRondas(), S.round + 1) + '</span></div>' +
+    '<span class="ari-stat">' + et.label + ' · erabakia <b>' + (S.round + 1) + '</b>/' + Math.max(ariTotalRondas(), S.round + 1) + '</span></div>' +
     '<div class="ari-pills">' + pills + '</div>';
 }
 
 // pistas cualitativas (sin números) para cada opción
 function ariHints(o){
   const S = ARI.S, eff = ariEEff(S, o, o.tags), h = [];
-  if(o.muerte) h.push("☠️ te juegas la vida");
-  if(o.risk) h.push("🎲 incierto");
-  if((eff.ene || 0) >= 2 || (o.lose && (o.lose.ene || 0) >= 3)) h.push("⚔️ te ganarás enemigos");
-  if((eff.hac || 0) <= -3) h.push("💰 costoso");
-  if((eff.sal || 0) <= -2) h.push("🏋️ duro para el cuerpo");
+  if(o.muerte) h.push("☠️ bizia jokoan duzu");
+  if(o.risk) h.push("🎲 ziurgabea");
+  if((eff.ene || 0) >= 2 || (o.lose && (o.lose.ene || 0) >= 3)) h.push("⚔️ etsaiak egingo dituzu");
+  if((eff.hac || 0) <= -3) h.push("💰 garestia");
+  if((eff.sal || 0) <= -2) h.push("🏋️ gogorra gorputzarentzat");
   return h.length ? '<span class="ari-hints">' + h.map(x => '<span>' + x + '</span>').join("") + '</span>' : "";
 }
 
@@ -213,7 +213,7 @@ function ariRenderDilemma(){
   const opts = d.opts.map((o,i) => {
     const bl = ariBlocked(S, o);
     return '<button class="ari-opt" data-i="' + i + '"' + (bl ? " disabled" : "") + '><span class="k">' + "ABCD"[i] + '</span><span class="ari-ot">' + ariEsc(o.t) +
-      (bl ? ' <span class="ari-blk">Tu desmesura no te lo permite.</span>' : ariHints(o)) + '</span></button>';
+      (bl ? ' <span class="ari-blk">Zure neurrigabekeriak ez dizu uzten.</span>' : ariHints(o)) + '</span></button>';
   }).join("");
   ariBox().innerHTML = '<div class="ari-wrap">' + ariHud() +
     (S.ultimoPaso ? '<p class="ari-hist">⏳ ' + ariEsc(S.ultimoPaso.t) + '</p>' + ariArrows(S.ultimoPaso.real) : '') +
@@ -251,19 +251,19 @@ function ariChoose(i){
   let html = '';
   ev.forEach(e => {
     if(e.tipo === "decision") html += (o.r ? '<p class="ari-line">' + ariEsc(o.r) + '</p>' : '') + ariArrows(e.real);
-    else if(e.tipo === "dado") html += '<div class="ari-dado ' + (e.ok ? "win" : "lose") + '">🎲 <b>' + (e.ok ? "Sale bien" : "Sale mal") + '.</b> ' + ariEsc(e.r || "") + (e.prudente ? ' <span class="ari-hint">(tu prudencia te ha dado ventaja)</span>' : '') + ariArrows(e.real) + '</div>';
-    else if(e.tipo === "muerte") html += ariCard("bad", null, "☠️", "Muerte", "Has muerto", e.t, {});
-    else if(e.tipo === "azar") html += ariCard(e.card.bad ? "bad" : "good", e.card.img, e.card.bad ? "🃏" : "🎴", "🎲 Carta de azar", e.card.t, e.card.d, e.real);
-    else if(e.tipo === "peligro") html += ariCard("bad", e.img, e.em || "⚔️", "⚔️ Tus enemigos actúan", e.t, e.d, e.real);
+    else if(e.tipo === "dado") html += '<div class="ari-dado ' + (e.ok ? "win" : "lose") + '">🎲 <b>' + (e.ok ? "Ondo atera da" : "Gaizki atera da") + '.</b> ' + ariEsc(e.r || "") + (e.prudente ? ' <span class="ari-hint">(zure zuhurtziak abantaila eman dizu)</span>' : '') + ariArrows(e.real) + '</div>';
+    else if(e.tipo === "muerte") html += ariCard("bad", null, "☠️", "Heriotza", "Hil egin zara", e.t, {});
+    else if(e.tipo === "azar") html += ariCard(e.card.bad ? "bad" : "good", e.card.img, e.card.bad ? "🃏" : "🎴", "🎲 Zorizko karta", e.card.t, e.card.d, e.real);
+    else if(e.tipo === "peligro") html += ariCard("bad", e.img, e.em || "⚔️", "⚔️ Zure etsaiak ekiten ari dira", e.t, e.d, e.real);
   });
   if(d.hist) html += '<p class="ari-hist">📜 ' + ariEsc(d.hist) + '</p>';
-  if(S.over && S.over.tipo === "muerte" && !ev.some(e => e.tipo === "muerte" || (e.tipo === "peligro" && e.muerte))) html += ariCard("bad", null, "☠️", "Muerte", "Has muerto", S.over.texto, {});
-  if(S.over && S.over.tipo === "ruina") html += ariCard("bad", "azar-ruina", "🪨", "Ruina", "Te has arruinado", S.over.texto, {});
+  if(S.over && S.over.tipo === "muerte" && !ev.some(e => e.tipo === "muerte" || (e.tipo === "peligro" && e.muerte))) html += ariCard("bad", null, "☠️", "Heriotza", "Hil egin zara", S.over.texto, {});
+  if(S.over && S.over.tipo === "ruina") html += ariCard("bad", "azar-ruina", "🪨", "Hondamena", "Hondatu egin zara", S.over.texto, {});
   const res = document.getElementById("ariRes"); res.innerHTML = html; res.classList.add("show");
   const hud = document.querySelector("#aribox .ari-pills"); if(hud){ const tmp = document.createElement("div"); tmp.innerHTML = ariHud(); hud.replaceWith(tmp.querySelector(".ari-pills")); }
   const nx = document.getElementById("ariNext");
   const fin = S.over || !ariHayMas(S);
-  nx.textContent = S.over ? "Ver el final ✝" : fin ? "Ver el balance de tu vida" : "Hurrengoa →";
+  nx.textContent = S.over ? "Ikusi amaiera ✝" : fin ? "Ikusi zure bizitzaren balantzea" : "Hurrengoa →";
   nx.hidden = false;
 }
 function ariHayMas(S){ return S.round < ariTotalRondas() || JUEGO_ARIS.dilemmas.some(d => d.urgente && d.req && S.flags.has(d.req) && !S.used.has(d.id)); }
@@ -278,11 +278,11 @@ function ariResult(){
   const q = JUEGO_ARIS.reflect[Math.floor(Math.random() * JUEGO_ARIS.reflect.length)];
   const filas = JUEGO_ARIS.stats.map(s => '<tr><td>' + s.em + ' ' + s.label + '</td><td>' + S.ini[s.k] + '</td><td><b>' + S.st[s.k] + '</b></td><td>' + ariNivel(s.k, S.st[s.k]) + '</td></tr>').join("");
   const P = F.parts;
-  const formula = '2 × carácter (' + P.car + ') + prudencia (' + P.phr + ') + salud (' + P.sal + ') + hacienda (' + P.hac + ') + reputación (' + P.rep + ') = <b>' + F.eud + '</b>';
+  const formula = '2 × izaera (' + P.car + ') + zuhurtzia (' + P.phr + ') + osasuna (' + P.sal + ') + ondasunak (' + P.hac + ') + ospea (' + P.rep + ') = <b>' + F.eud + '</b>';
   const log = S.log.map(r => {
     if(r.paso) return '<li class="paso"><b>' + ariEsc(r.etapa) + '.</b> ' + ariEsc(r.t) + ' <span class="ari-log-c">' + ariFmt(r.real) + '</span></li>';
     const cambios = r.cambios.map(e => {
-      const lbl = e.tipo === "decision" ? "decisión" : e.tipo === "dado" ? "🎲 " + (e.ok ? "sale bien" : "sale mal") : e.tipo === "azar" ? "azar: " + e.card.t : e.tipo === "peligro" ? "⚔️ " + e.t : "☠️ muerte";
+      const lbl = e.tipo === "decision" ? "erabakia" : e.tipo === "dado" ? "🎲 " + (e.ok ? "ondo atera da" : "gaizki atera da") : e.tipo === "azar" ? "zoria: " + e.card.t : e.tipo === "peligro" ? "⚔️ " + e.t : "☠️ heriotza";
       return '<span class="ari-log-c">' + ariEsc(lbl) + ' ' + ariFmt(e.real) + '</span>';
     }).join("");
     return '<li><div class="ari-log-h"><b>' + r.n + '. ' + ariEsc(r.etapa) + ' · ' + ariEsc(r.d.virtue) + '</b></div><div class="ari-log-s">' + ariEsc(r.d.sit) + '</div><div class="ari-log-o">→ ' + ariEsc(r.o.t) + '</div><div class="ari-log-cs">' + cambios + '</div></li>';
@@ -292,16 +292,16 @@ function ariResult(){
     '<div class="ari-badge">' + F.band.emoji + '</div>' +
     '<div class="ari-rank">' + F.band.label + '</div>' +
     (F.band.texto ? '<p class="ari-band-t">' + ariEsc(F.band.texto) + '</p>' : '') +
-    (S.over ? '<p class="ari-stats2">' + c.name + ' · ' + ariEsc(S.over.texto) + ' (decisión ' + S.round + ')</p>' : '') +
-    '<div class="ari-final">' + F.eud + ' <span>eudaimonía</span></div>' +
+    (S.over ? '<p class="ari-stats2">' + c.name + ' · ' + ariEsc(S.over.texto) + ' (' + S.round + '. erabakia)</p>' : '') +
+    '<div class="ari-final">' + F.eud + ' <span>eudaimonia</span></div>' +
     '<p class="ari-formula">' + formula + '</p>' +
-    '<p class="ari-stats2">' + (record ? '¡Tu mejor vida con ' + c.name + '! 🎉' : (prev ? 'Mejor vida con ' + c.name + ': ' + Math.max(prev, S.over ? 0 : F.eud) : '')) + '</p>' +
-    '<table class="ari-reveal"><thead><tr><th></th><th>Al empezar</th><th>Al final</th><th></th></tr></thead><tbody>' + filas + '</tbody></table>' +
-    '<div class="ari-destino"><b>Lo que le pasó de verdad a ' + c.name + ':</b> ' + ariEsc(c.destino) + '</div>' +
-    '<details class="ari-log"><summary>Tu vida, decisión a decisión (con los números)</summary><ol>' + log + '</ol></details>' +
-    '<blockquote class="ari-reflect">Para pensar: ' + ariEsc(q) + '</blockquote>' +
-    '<div class="ari-actions"><button class="btn2 primary" id="ariAgain">Otra vida</button>' +
-      '<button class="btn2" id="ariHome">Cambiar de personaje</button></div>' +
+    '<p class="ari-stats2">' + (record ? 'Zure bizitzarik onena ' + c.name + ' gisa! 🎉' : (prev ? 'Bizitzarik onena ' + c.name + ' gisa: ' + Math.max(prev, S.over ? 0 : F.eud) : '')) + '</p>' +
+    '<table class="ari-reveal"><thead><tr><th></th><th>Hasieran</th><th>Amaieran</th><th></th></tr></thead><tbody>' + filas + '</tbody></table>' +
+    '<div class="ari-destino"><b>Benetan gertatu zitzaiona (' + c.name + '):</b> ' + ariEsc(c.destino) + '</div>' +
+    '<details class="ari-log"><summary>Zure bizitza, erabakiz erabaki (zenbakiekin)</summary><ol>' + log + '</ol></details>' +
+    '<blockquote class="ari-reflect">Pentsatzeko: ' + ariEsc(q) + '</blockquote>' +
+    '<div class="ari-actions"><button class="btn2 primary" id="ariAgain">Beste bizitza bat</button>' +
+      '<button class="btn2" id="ariHome">Pertsonaiaz aldatu</button></div>' +
   '</div></div>';
   document.getElementById("ariAgain").addEventListener("click", () => ariStart(c.id));
   document.getElementById("ariHome").addEventListener("click", renderAriStart);
