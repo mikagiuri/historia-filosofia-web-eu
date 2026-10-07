@@ -180,7 +180,7 @@ function renderAriStart(){
       '</ul></details>' +
     '<div class="ari-col-h">Elige tu personaje</div>' +
     '<div class="ari-chars">' + cards + '</div>' +
-    '<p class="ia-note">IAz sortutako ilustrazioak</p></div>';
+    '<p class="ia-note">AArekin sortutako ilustrazioak</p></div>';
   box.querySelectorAll("[data-char]").forEach(b => b.addEventListener("click", () => ariStart(b.dataset.char)));
 }
 
