@@ -17363,5 +17363,4851 @@ const QUIZZES = {
     "fb": "Aporiak galdetzen du ea, onura lehenesten duen sistema batean, gure zaurgarritasuna eta besteen beharra aitortzea ahulezia den ala erresistentzia-modurik handiena."
    }
   ]
+ },
+ "hf-t1-repaso": {
+  "name": "Historikotasuna eta unibertsaltasuna (HF · T1 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Gaiaren arabera, «klasikotzat» hartzen diren autore eta obren multzoak izen hau du…",
+    "o": [
+     "historikotasuna",
+     "unibertsaltasuna",
+     "kanona",
+     "transmisioa"
+    ],
+    "a": 2,
+    "fb": "Kanona «klasikotzat» hartzen diren autore eta obren multzoa da, eta haren hautaketa ez da neutroa."
+   },
+   {
+    "q": "Gaiaren arabera, pentsamendua beti hemen kokatuta dago…",
+    "o": [
+     "hizkuntza batean, nazio batean eta erlijio batean",
+     "garai batean, gizarte batean eta kultura batean",
+     "autore batean, eskola batean eta kanon batean",
+     "galdera batean, erantzun batean eta metodo batean"
+    ],
+    "a": 1,
+    "fb": "Historikotasunak dio pentsamendua beti garai, gizarte eta kultura jakin batean kokatuta dagoela."
+   },
+   {
+    "q": "Platonek, Tomas Akinokoak eta Rawlsek modu desberdinean erantzuten dute, baina hirurek arazo berari egiten diote aurre. Zein da?",
+    "o": [
+     "bizikidetza modu justuan antolatzea",
+     "Jainkoaren existentzia frogatzea",
+     "gizakiaren esentzia definitzea",
+     "fedea eta arrazoia bateratzea"
+    ],
+    "a": 0,
+    "fb": "Hirurek arazo komun bati erantzuten diote: bizikidetza modu justuan nola antolatu."
+   },
+   {
+    "q": "Gaiaren arabera, zer botere-harremanek erabaki dute, neurri handi batean, zer den «klasikoa» eta zer ez?",
+    "o": [
+     "demokratikoek eta liberalek",
+     "erlijiosoek eta monastikoek",
+     "ekonomikoek eta merkataritzakoek",
+     "patriarkalek eta kolonialistek"
+    ],
+    "a": 3,
+    "fb": "Botere-harreman patriarkalek eta kolonialistek erabaki dute, neurri handi batean, zer den «klasikoa» eta zer ez."
+   },
+   {
+    "q": "Gaiaren arabera, testuak eta ideiak eskola eta erakundeen bidez kopiatu, iruzkindu eta kontserbatzen diren prozesuak izen hau du…",
+    "o": [
+     "kanona",
+     "historikotasuna",
+     "transmisioa",
+     "unibertsaltasuna"
+    ],
+    "a": 2,
+    "fb": "Transmisioa testuak eta ideiak kopiatu, iruzkindu eta kontserbatzen diren prozesua da."
+   },
+   {
+    "q": "Gaiaren arabera, Akademiarekin, Lizeoarekin, monasterioekin eta unibertsitateekin batera, zer komunitate daude testuak transmititu zituzten erakundeen artean?",
+    "o": [
+     "estoikoak eta epikurearrak",
+     "pitagorikoak eta orfikoak",
+     "militarrak eta merkataritzakoak",
+     "erregeenak eta aristokratikoak"
+    ],
+    "a": 0,
+    "fb": "Komunitate estoikoak eta epikurearrak, Akademiarekin, Lizeoarekin, monasterioekin, unibertsitateekin eta itzulpen-zentroekin batera, testuak transmititu zituzten erakundeen artean daude."
+   },
+   {
+    "q": "Gaiaren arabera, filosofiaren historiak hau egitera behartzen du…",
+    "o": [
+     "antzinako galderak behin betiko erantzunekin ordeztea",
+     "autoreak zerrenda kronologiko batean ordenatzea",
+     "erantzun itxirik ez duten ideiak baztertzea",
+     "galderak metodo eta kontzeptu berriekin berrantolatzea"
+    ],
+    "a": 3,
+    "fb": "Historiak galdera filosofikoak metodo eta kontzeptu berriekin berrantolatzera behartzen du."
+   },
+   {
+    "q": "Antzinako testu bat gaur arte iritsi da eskola batek mendeetan zehar kopiatu eta iruzkindu zuelako. Gaiaren zer kontzeptuk deskribatzen du ondoen prozesu hori?",
+    "o": [
+     "kanona",
+     "transmisioa",
+     "historikotasuna",
+     "unibertsaltasuna"
+    ],
+    "a": 1,
+    "fb": "Transmisioa testuak eskola eta erakundeen bidez kopiatu, iruzkindu eta kontserbatzen diren prozesua da."
+   },
+   {
+    "q": "Kontzeptuaren eta edukiaren arteko lotura hauetatik zein da zuzena, gaiaren arabera?",
+    "o": [
+     "historikotasuna: garai batean kokatutako pentsamendua; unibertsaltasuna: berriro agertzen diren galderak",
+     "historikotasuna: berriro agertzen diren galderak; unibertsaltasuna: kokatutako pentsamendua",
+     "kanona: testuen kontserbazioa; transmisioa: klasikoen hautaketa",
+     "unibertsaltasuna: klasikoen hautaketa; kanona: berriro agertzen diren galderak"
+    ],
+    "a": 0,
+    "fb": "Historikotasunak pentsamendua garai, gizarte eta kultura batean kokatzen du; unibertsaltasunak berriro agertzen diren galderei egiten die erreferentzia."
+   },
+   {
+    "q": "Antzinako Grezian natura eta kosmosa izan ziren ardatza; Erdi Aroan, Jainkoaren existentzia; Ilustrazioan, giza autonomia. Gaiaren zer kontzeptuk azaltzen du interes-gunearen lekualdatze hori?",
+    "o": [
+     "unibertsaltasuna",
+     "historikotasuna",
+     "kanona",
+     "transmisioa"
+    ],
+    "a": 1,
+    "fb": "Garai bakoitzak bere kezka nagusiak izan zituen: horrek historikotasuna erakusten du, pentsamendua bere testuinguruan kokatzen baitu."
+   },
+   {
+    "q": "Gaiaren arabera, beste garai batzuetako ideiek «gaur ere interpelatzen gaituztela» esateak hau esan nahi du…",
+    "o": [
+     "orain formulatzen ditugunen berdin-berdinak direla",
+     "behin betiko ebatzita geratu direla",
+     "oraindik zentzua dutela eta orainaldian galderak planteatzen dituztela",
+     "historialari espezializatuei bakarrik interesatzen zaizkiela"
+    ],
+    "a": 2,
+    "fb": "Gaur ere interpelatzen gaituztela esateak esan nahi du oraindik zentzua dutela eta orainaldirako esanahia duten galderak planteatzen dizkigutela."
+   },
+   {
+    "q": "Filosofia-eskuliburu batek dozena bat autore inguru bakarrik aztertzen ditu, eta gainerakoak kanpoan uzten ditu. Gaiaren zer kontzeptuk ahalbidetzen du hautaketa hori deskribatzea?",
+    "o": [
+     "historikotasuna",
+     "unibertsaltasuna",
+     "kanona",
+     "transmisioa"
+    ],
+    "a": 2,
+    "fb": "Kanona «klasikotzat» hartzen diren autore eta obren multzoa da; nor sartzen den eta nor geratzen den kanpoan erabakitzea hautaketa ez-neutroa da."
+   },
+   {
+    "q": "Gaiaren arabera, ideia batzuek bizirik iraun dute eskola batek…",
+    "o": [
+     "baztertu, ez ikusi edo ahaztu zituelako",
+     "itzuli, saldu edo artxibatu zituelako",
+     "kopiatu, sinatu edo argitaratu zituelako",
+     "defendatu, irakatsi edo berrinterpretatu zituelako"
+    ],
+    "a": 3,
+    "fb": "Eskola batek defendatu, irakatsi edo berrinterpretatu ahal izan zituen; sare hori gabe, beste ideia batzuk ahuldu edo desagertu egin ziren."
+   },
+   {
+    "q": "Gaiaren arabera, nori dagokio kanona zabaltzeko eta berrikusteko betebeharra?",
+    "o": [
+     "gobernuei eta parlamentuei",
+     "filosofiara dedikatzen direnei",
+     "hizkuntza-akademiei",
+     "arte-historialariei"
+    ],
+    "a": 1,
+    "fb": "Kanona zabaltzea eta berrikustea filosofiara dedikatzen garenon betebeharra da."
+   },
+   {
+    "q": "Gaiaren arabera, emakume filosofoen eta Europaz kanpoko pentsalarien ideiak ez ziren kasualitatez galdu, baizik eta…",
+    "o": [
+     "beste ideia zorrotzago batzuek gainditu zituzten",
+     "hizkuntza gutxituetan bakarrik gorde ziren",
+     "argudiorik ez zutelako baztertu zituzten",
+     "aktiboki baliogabetu eta ahaztu zituzten"
+    ],
+    "a": 3,
+    "fb": "Ideia horiek aktiboki baliogabetu eta ahaztu zituzten."
+   }
+  ]
+ },
+ "hf-t3-repaso": {
+  "name": "Mitotik logosera (HF · T3 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Gaian, nola deitzen zaio guztia sortzen den printzipioari?",
+    "o": [
+     "Arkhea",
+     "Polisa",
+     "Isegoria",
+     "Logosa"
+    ],
+    "a": 0,
+    "fb": "Arkhea guztiaren jatorri den printzipioa edo hasiera da: lehen filosofoek kausak natura bertan bilatzean sartzen duten nozioa."
+   },
+   {
+    "q": "Gaiaren arabera, zer da physisa?",
+    "o": [
+     "Olerkariek jainkoei buruz egindako kontakizun tradizionala",
+     "Hiritarrek batzarrean hitz egiteko duten eskubide berdina",
+     "Hiria eta haren komunitate politikoa",
+     "Natura bera, kausak bilatzen diren lekua"
+    ],
+    "a": 3,
+    "fb": "Physisa natura bera da: bertan, eta ez jainkoen borondatean, bilatzen dituzte kausak lehen filosofoek."
+   },
+   {
+    "q": "Gaian, physisa kaos gisa ulertzeari utzi eta honela ulertzen da…",
+    "o": [
+     "mito gisa, hau da, kontakizun sakratu gisa",
+     "logos gisa, hau da, diskurtso gisa",
+     "kosmos gisa, hau da, ordena gisa",
+     "polis gisa, hau da, hiri gisa"
+    ],
+    "a": 2,
+    "fb": "Physisa kosmos gisa ulertzean, lehen filosofoek ordena gisa hartzen dute, eta ez kaos gisa."
+   },
+   {
+    "q": "Logosarekin, gauzak ez dira jada kapritxoz gertatzen, baizik eta…",
+    "o": [
+     "jainko batek une oro hala erabakitzen duelako",
+     "olerkariek horrela kontatu dutelako",
+     "nahitaez gertatu behar direlako",
+     "batzarrak onartu duelako"
+    ],
+    "a": 2,
+    "fb": "Logosak beharrezkotasuna dakar: fenomenoak gertatu behar direlako gertatzen dira, ez izaki apartekoen kapritxoz."
+   },
+   {
+    "q": "Nork formulatu zuen indarrez mitoaren eta logosaren artean jarraitutasuna dagoela, «mitoaren edukia pentsamendua» delako?",
+    "o": [
+     "Aristoteles",
+     "Bertrand Russell",
+     "Xenofanes Kolofongoa",
+     "Hegel"
+    ],
+    "a": 3,
+    "fb": "Hegelek dio greziar mitoak bazuela jada egia bat eta lehen filosofoek hartatik abiatuta pentsatzen dutela."
+   },
+   {
+    "q": "Hegelen ustez, logosak mitoa gainditzea hau da…",
+    "o": [
+     "mitoa erabat ezabatzea eta beste kontakizun batekin ordeztea",
+     "eduki hori kontserbatzea, ukatzea eta goratzea",
+     "mitoa errepikatzea, inolako aldaketarik egin gabe",
+     "mitoa onartzea eta eztabaidatu gabe transmititzea"
+    ],
+    "a": 1,
+    "fb": "Gainditzeak mitoaren edukia kontserbatzen du, haren forma desegokia ukatzen du eta kontzeptura goratzen du."
+   },
+   {
+    "q": "Ordenaren jatorriari buruzko baieztapen hauetatik zein da zuzena, gaiaren arabera?",
+    "o": [
+     "Mitoarentzat, ordena physisetik bertatik dator.",
+     "Filosofiarentzat, ordena jainkozko borondatetik eta patutik dator.",
+     "Mitoarentzat, ordena jainkozko borondatetik dator.",
+     "Filosofiarentzat, ordena olerkarien kontakizunetik dator."
+    ],
+    "a": 2,
+    "fb": "Mitoan ordena jainkozko borondatetik eta patutik dator; logosean, berriz, physisetik bertatik."
+   },
+   {
+    "q": "Gaiaren arabera, azalpen filosofiko eta zientifikoak galdera honi erantzuten dio…",
+    "o": [
+     "«nork egin zuen?»",
+     "«noiztik kontatzen da horrela?»",
+     "«zergatik gertatzen da nahitaez?»",
+     "«nola kontatzen dute olerkariek?»"
+    ],
+    "a": 2,
+    "fb": "Azalpen filosofiko eta zientifikoak ez du galdetzen nork egin zuen, baizik eta zergatik gertatzen den nahitaez; horrela, azalpen mota aldatu egiten da."
+   },
+   {
+    "q": "Gaiak honela ezaugarritzen ditu pentsamendu mitikoaren erantzunak:…",
+    "o": [
+     "arrazoituak, behagarriak eta egiaztagarriak",
+     "pertsonagabeak, erregularrak eta nahitaezkoak",
+     "kritikoak, publikoak eta eztabaidagarriak",
+     "irudimenezkoak, magikoak eta arbitrarioak"
+    ],
+    "a": 3,
+    "fb": "Pentsamendu mitikoak erantzun irudimenezko, magiko eta arbitrarioak ematen ditu, izaki apartekoen apetaren ondorio."
+   },
+   {
+    "q": "Hegelen ustez, mito grekoak bazuen egia bat, nahiz eta forma desegokian adierazita egon, honen bidez:…",
+    "o": [
+     "arrazoi eta argudio publikoak",
+     "irudiak, kontakizunak eta jainkoak",
+     "zenbakiak eta proportzioak",
+     "batzarraren legeak eta dekretuak"
+    ],
+    "a": 1,
+    "fb": "Hegelen ustez, mitoaren egia irudi, kontakizun eta jainkoen bidez adierazita zegoen, eta logosak kontzeptura jasotzen du."
+   },
+   {
+    "q": "Gaiaren arabera, zerk ematen zien hiritarrei ikasteko denbora librea?",
+    "o": [
+     "Esklaboen lanak",
+     "Jainkoei egindako sakrifizioek",
+     "Idazkera alfabetikoa",
+     "Itsasoz haraindiko koloniek"
+    ],
+    "a": 0,
+    "fb": "Esklaboen lanak ematen zien hiritarrei ikasteko denbora librea, klasetan banatutako gizarte batean."
+   },
+   {
+    "q": "Mythosetik logoserako igarobidean, zer baliabide uzten da alde batera, gaiaren arabera?",
+    "o": [
+     "Ordena baten bilaketa",
+     "Aurkakoen egitura",
+     "Naturaz gaindikoa eta arbitrarioa",
+     "Naturaren behaketa"
+    ],
+    "a": 2,
+    "fb": "Aurkakoen egitura eta ordena baten bilaketa gordetzen dira, baina naturaz gaindikora eta arbitrariora jotzea baztertzen da."
+   },
+   {
+    "q": "Gaiaren glosarioan, polisa honela definitzen da:…",
+    "o": [
+     "hiria eta komunitate politikoa",
+     "batzarrean hitz egiteko eskubide berdina",
+     "guztia bertatik datorren printzipioa",
+     "natura, osotasun ordenatu gisa ulertuta"
+    ],
+    "a": 0,
+    "fb": "Polisa hiria eta komunitate politikoa da: eztabaidaren, legearen eta parte-hartzearen esparrua."
+   },
+   {
+    "q": "Ikasle batek dio ura dela guztia bertatik datorrena eta guztiari eusten diona. Gaiaren zer nozio erabiltzen ari da?",
+    "o": [
+     "Isonomia",
+     "Arkhea",
+     "Physisa",
+     "Isegoria"
+    ],
+    "a": 1,
+    "fb": "Guztia bertatik datorren eta guztiari eusten dion printzipio bat bilatzea arkhearen nozioa da."
+   },
+   {
+    "q": "Gaiaren arabera, filosofiaren jaiotza ikusi zuen gizartea honelakoa zen:…",
+    "o": [
+     "teokratikoa, apaizen menpekoa eta dogmatikoa",
+     "berdinzalea, baketsua eta alfabetatua",
+     "nomada, artzaina eta ahozkoa",
+     "aristokratikoa, nekazaria eta gerrazalea"
+    ],
+    "a": 3,
+    "fb": "Filosofia gizarte aristokratiko, nekazari eta gerrazale batean sortu zen, gizarte-klasetan banatuta."
+   },
+   {
+    "q": "Joniako kolonia grekoez gain, gaiak hemen kokatzen du filosofiaren jaiotza:…",
+    "o": [
+     "Afrika iparraldean",
+     "iberiar penintsulan",
+     "Asia erdialdean",
+     "Magna Grezian"
+    ],
+    "a": 3,
+    "fb": "Filosofia Joniako kolonia grekoetan eta Magna Grezian jaio zen."
+   }
+  ]
+ },
+ "hf-t4-repaso": {
+  "name": "Presokratikoak (HF · T4 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Zergatik dio Tales Miletokoak ura dela existitzen den guztiaren printzipioa?",
+    "o": [
+     "Bizidun orok behar duelako eta hartatik sortzen delako.",
+     "Inoiz itxuraz aldatzen ez den elementu bakarra delako.",
+     "Kondentsatzean gainerako elementuak sortzen dituelako.",
+     "Unibertsoko substantziarik ugariena delako."
+    ],
+    "a": 0,
+    "fb": "Talesek printzipio natural bat aukeratu eta justifikatu egiten du: bizidun orok behar du ura eta hartatik sortzen da; horregatik proposatzen du arkhe gisa."
+   },
+   {
+    "q": "Anaximandroren arabera, zer harreman dute gauzek apeironarekin?",
+    "o": [
+     "Batak bestearekin batuz osatzen dute.",
+     "Hartatik ateratzen dira eta, galtzean, hartara itzultzen dira.",
+     "Beti harekin berdin-berdinak izaten jarraitzen dute.",
+     "Begiratzen diote, baina ezin dute inoiz atzeman."
+    ],
+    "a": 1,
+    "fb": "Apeirona zehaztugabea eta mugagabea da; gauzak hartatik ateratzen dira eta hartara itzultzen dira: hartatik jaiotzen dira eta hartara bueltatzen dira."
+   },
+   {
+    "q": "Zer diote pitagorikoek arimari buruz?",
+    "o": [
+     "Gorputzaren zati bat dela eta harekin batera desagertzen dela.",
+     "Ez dela existitzen, zenbakiak eta proportzioak baino ez baitaude.",
+     "Hilezkorra dela eta gorputz batetik bestera transmigratzen dela.",
+     "Gorputzak mugitzen diren hutsa dela."
+    ],
+    "a": 2,
+    "fb": "Pitagorikoentzat arima hilezkorra da eta gorputz batetik bestera igarotzen da; gainera, gorputza haren kartzela da."
+   },
+   {
+    "q": "Esaldi hauetatik zeinek jasotzen du presokratikoek abiarazten duten azaltzeko modu berria?",
+    "o": [
+     "Azaltzea gertaera bakoitza nork eragin zuen kontatzea da.",
+     "Azaltzea tradizioak lehendik kontatu duena errepikatzea da.",
+     "Azaltzea jainkoek horrela nahi izan dutela erakustea da.",
+     "Azaltzea zerbait zergatik gertatzen den nahitaez esatea da."
+    ],
+    "a": 3,
+    "fb": "Urrats erabakigarria da nork egin zuen kontatzeari uztea eta zergatik gertatzen den nahitaez adieraztera igarotzea, hau da, kausa ematea."
+   },
+   {
+    "q": "Lehen filosofoentzat, natura osoa kosmos bat da. Zer adierazten du ideia horrek?",
+    "o": [
+     "Ordena bat dela, eta ez desordena.",
+     "Ez duela inolako printzipio bateratzailerik.",
+     "Erabat jainkoen borondatearen menpe dagoela.",
+     "Elkarren artean loturarik gabeko zatiz osatuta dagoela."
+    ],
+    "a": 0,
+    "fb": "Osotasunari kosmos deitzeak esan nahi du osotasun hori ordena bat dela, kaosaren edo desordenaren aurrean."
+   },
+   {
+    "q": "Parmenidesentzat, zer da benetan irauten duena pertsona batengan bere bizitza osoan?",
+    "o": [
+     "Gorputza, beti materia bera gordetzen baitu.",
+     "Pentsamendua, aldatzen ez den gauza bakarra baita.",
+     "Oroitzapenak, iragana aldatu gabe finkatzen baitute.",
+     "Zentzumenak, errealitatea den bezala atzematen baitute."
+    ],
+    "a": 1,
+    "fb": "Parmenidesek dio gugan aldatzen ez den gauza bakarra pentsamendua dela; beraz, benetako nia arrazoia da, ez gorputza ez zentzumenak."
+   },
+   {
+    "q": "Nola ezaugarritzen ditu Anaxagorasek bere haziak edo homeomeriak?",
+    "o": [
+     "Bakoitza zatiezina da eta ez du beste ezer barnean.",
+     "Lau baino ez daude, elementu bakoitzeko bat.",
+     "Gauza bakoitzean gainerako guztien zatiak daude.",
+     "Berez mugitzen dira, inolako kausarik gabe."
+    ],
+    "a": 2,
+    "fb": "Homeomeriak Anaxagorasen haziak dira: gauza bakoitzean gainerako guztien zatiak daude."
+   },
+   {
+    "q": "Zertan datza pluralismoa arkhearen arazoari emandako erantzun gisa?",
+    "o": [
+     "Aldaketaren atzean inolako printzipiorik dagoela ukatzean.",
+     "Oinarrizko printzipio bakar eta aldaezin bat aldarrikatzean.",
+     "Errealitate osoa substantzia bakar batera murriztean.",
+     "Nahasten diren hainbat printzipio betiereko onartzean."
+    ],
+    "a": 3,
+    "fb": "Pluralismoak, monismoaren aurrean, nahasten eta bereizten diren hainbat printzipio betiereko eta aldaezin jartzen ditu."
+   },
+   {
+    "q": "Arkhea kausa gisa ulertzen denean, zer funtzio esleitzen zaio?",
+    "o": [
+     "Gauzen eraldaketak azaltzea.",
+     "Guztia bertatik datorrena izatea.",
+     "Guztia osatzen duena izatea.",
+     "Izaki bakoitzari izena ematea."
+    ],
+    "a": 0,
+    "fb": "Arkhea kausa ere bada: gauzen eraldaketak azaltzen dituena."
+   },
+   {
+    "q": "Zer funtzio betetzen du hutsak atomisten proposamenean?",
+    "o": [
+     "Atomoak osatzen dituen materia da.",
+     "Partikulei mugitzea ahalbidetzen die.",
+     "Partikulak ordenatzen dituen gogoa da.",
+     "Gauzak elkarrekin lotuta mantentzen dituen indarra da."
+    ],
+    "a": 1,
+    "fb": "Atomisten arabera, hutsa beteta ez dagoen espazioa da, mugimendua eta aniztasuna ahalbidetzen dituena."
+   },
+   {
+    "q": "Baieztapen hauetatik zeinek adierazten du kausalitateaz presokratikoek zuten ikuspegia?",
+    "o": [
+     "Jainkoek beren apetaz erabakitzen dute gertaera bakoitza.",
+     "Giza gaiek bakarrik jarraitzen dituzte legeak.",
+     "Ondorio bakoitza kausa natural eta nahitaezko bati zor zaio.",
+     "Zoriak gobernatzen du gertatzen den guztia."
+    ],
+    "a": 2,
+    "fb": "Presokratikoentzat kosmosa ez dago jainkoen apetaren menpe: ondorio orok kausa natural eta nahitaezko bat du."
+   },
+   {
+    "q": "Zertan bereizten da Anaxagoras Enpedoklesengandik errealitatearen printzipioak finkatzerakoan?",
+    "o": [
+     "Printzipio guztiak material bakar batera murrizten ditu.",
+     "Hutsean mugitzen diren atomoak sartzen ditu.",
+     "Printzipioen ordez jainkozko gogo bakar bat jartzen du.",
+     "Sustraiak ugaritzen ditu, hazi infinitu bihurtu arte."
+    ],
+    "a": 3,
+    "fb": "Anaxagorasek muturrera eramaten du proposamen pluralista: Enpedoklesen lau sustraien ordez, hazi edo homeomeria infinituez hitz egiten du."
+   },
+   {
+    "q": "Teoriaren arabera, pitagorikoen zer ideiak eragingo dio zuzenean Platoni?",
+    "o": [
+     "Arimaren eta gorputzaren dualismoa, gorputza kartzelatzat hartuta.",
+     "Dena etenik gabe isurtzen dela dioen tesia.",
+     "Izatea bakarra eta aldaezina dela dioen baieztapena.",
+     "Atomoen eta hutsaren doktrina."
+    ],
+    "a": 0,
+    "fb": "Pitagorikoek irakasten dute arima hilezkorra dela eta gorputza haren kartzela; ideia horiek zuzenean eragingo diote Platoni."
+   },
+   {
+    "q": "Anaximenesen azalpenean, zer gertatzen da airea arintzen denean?",
+    "o": [
+     "Ur eta lur bihurtzen da.",
+     "Su bihurtzen da.",
+     "Apeiron zehaztugabe bihurtzen da.",
+     "Atomotan zatitzen da."
+    ],
+    "a": 1,
+    "fb": "Anaximenesek mekanismo baten bidez azaltzen du aldaketa: kondentsazioz airea ur eta lur bihurtzen da, eta arintzez su bihurtzen da."
+   },
+   {
+    "q": "«Maitasunak, haiek batzen dituenak, eta Gorrotoak, haiek bereizten dituenak, oreka osatzen dute.» Zer filosoforena da ideia hori?",
+    "o": [
+     "Pitagoras.",
+     "Anaxagoras.",
+     "Demokrito.",
+     "Enpedokles."
+    ],
+    "a": 3,
+    "fb": "Enpedoklesek bi indarren bidez azaltzen ditu lau sustraien nahasketa eta bereizketa: Maitasuna, batzen duena, eta Gorrotoa, bereizten duena."
+   }
+  ]
+ },
+ "hf-t5-repaso": {
+  "name": "Sofistak, Sokrates eta Aspasia (HF · T5 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Zer esan nahi zuen «isonomia» hitzak Atenas demokratikoan?",
+    "o": [
+     "Hiritar guztien berdintasuna legearen aurrean.",
+     "Hiritar guztiek batzarrean hitz egiteko zuten eskubidea.",
+     "Magistratuen botere absolutua herriaren gainean.",
+     "Emakumeak etxeko esparruan giltzapetzea."
+    ],
+    "a": 0,
+    "fb": "Isonomia hiritar guztien berdintasuna da legearen aurrean, hiritartasun atenastarraren ezaugarrietako bat."
+   },
+   {
+    "q": "Zer izendatzen zuen «isegoria» hitzak demokrazia atenastarrean?",
+    "o": [
+     "Hiritar guztien berdintasuna legearen aurrean.",
+     "Hiritarrek batzarrean berdintasunez hitz egiteko eskubidea.",
+     "Filosofo bat zikuta edatera kondenatzea.",
+     "Oratoria diruaren truke irakastea."
+    ],
+    "a": 1,
+    "fb": "Isegoria hiritarrek batzarrean hitz egiteko duten eskubide berdina da; isonomia, berriz, legearen aurreko berdintasuna da."
+   },
+   {
+    "q": "Metodo sokratikoan, nola deitzen da solaskidea bere ezjakintasuna aitortzean iristen den kale itsua?",
+    "o": [
+     "Maieutika.",
+     "Eristika.",
+     "Aporia.",
+     "Erretorika."
+    ],
+    "a": 2,
+    "fb": "Aporia ironiak eramaten duen kale itsua da, solaskideak bere ezjakintasuna aurkitzen duenean."
+   },
+   {
+    "q": "Zer da erretorika, gai honetan aurkezten den moduan?",
+    "o": [
+     "Solaskidearen iritziak urratsez urrats gezurtatzeko artea.",
+     "Guztientzat baliozkoak diren definizioen bilaketa.",
+     "Norberaren bizitzaren eta ezjakintasunaren azterketa.",
+     "Hitzaren bidez konbentzitzeko artea."
+    ],
+    "a": 3,
+    "fb": "Erretorika hitzaren bidez konbentzitzeko artea da, batzar demokratikoan esku hartzeko erabakigarria."
+   },
+   {
+    "q": "Zer desberdintasun dago sofisten erlatibismoaren eta konbentzionalismoaren artean?",
+    "o": [
+     "Lehenak egia bakar oro ukatzen du; bigarrenak legeak adostasun gisa ikusten ditu.",
+     "Lehenak natura finko eta aldaezin bat dagoela dio; bigarrenak hori baztertzen du.",
+     "Lehena Sokratesen tesi bat da; bigarrena Gorgiasena da.",
+     "Lehenak guztientzat baliozko justizia natural bat defendatzen du; bigarrenak ukatu egiten du."
+    ],
+    "a": 0,
+    "fb": "Erlatibismoak dio ez dagoela egia ez justizia bakarrik; konbentzionalismoak, berriz, legeak eta balioak giza adostasuna (nomos) direla baieztatzen du."
+   },
+   {
+    "q": "Sofisten aldean, zer prozedurak bereizten du Sokrates?",
+    "o": [
+     "Batzarrari zuzendutako diskurtso jarraitua.",
+     "Solaskidearekin galderak eta erantzunak trukatzea.",
+     "Bi tesi kontrajarri aldi berean defendatzea.",
+     "Ikasleei kobratutako irakaskuntza."
+    ],
+    "a": 1,
+    "fb": "Sokratesek elkarrizketa (galderak eta erantzunak) erabiltzen du, eta ez diskurtsoa, sofistek ez bezala."
+   },
+   {
+    "q": "Hipiasen arabera, nolakoak dira lege naturalak gizabanakoek ezarritakoen aldean?",
+    "o": [
+     "Aldakorrak eta komunitate bakoitzean bakarrik baliozkoak.",
+     "Hiritarren arteko adostasunaren emaitza.",
+     "Aldaezinak eta unibertsalak.",
+     "Batzarraren botoaren menpekoak."
+    ],
+    "a": 2,
+    "fb": "Hipiasek bereizi egiten ditu lege naturalak, aldaezinak eta unibertsalak, eta konbentzionalak, aldakorrak eta komunitate bakoitzean bakarrik baliozkoak."
+   },
+   {
+    "q": "Kausa filosofikoaz gain, zer faktore politiko-sozialek bultzatu zuen bira antropologikoa?",
+    "o": [
+     "Itsas merkataritzaren atzerakada Egeoan.",
+     "Presokratikoek naturari buruz egindako azterketa.",
+     "Erretorikaren desagerpena bizitza publikoan.",
+     "Demokrazia, eztabaida eta hitza erabakigarri bihurtu zituena."
+    ],
+    "a": 3,
+    "fb": "Demokrazia deliberazioan eta eztabaida publikoan oinarritzen da; beraz, erretorika eta argudiaketa erabakigarri bihurtzen dira."
+   },
+   {
+    "q": "Zertan bereizten dira erretorika eta eristika?",
+    "o": [
+     "Lehenak konbentzitu egiten du; bigarrenak eztabaidatzearren bakarrik eztabaidatzen du.",
+     "Lehena Sokratesen teknika esklusiboa da; bigarrena, Hipiasena.",
+     "Lehenak erabat ukatzen du egia; bigarrenak baieztatu egiten du.",
+     "Lehena pribatuan lantzen da; bigarrena, batzarrean bakarrik."
+    ],
+    "a": 0,
+    "fb": "Erretorika hitzaren bidez konbentzitzeko artea da; eristika, berriz, eztabaidatzearren eztabaidatzeko artea, Gorgiasi lotua."
+   },
+   {
+    "q": "K.a. 399an kondenatua izan ondoren, nola bete zuen Sokratesek bere zigorra?",
+    "o": [
+     "Atenasetik ihes eginez bere ikasleekin.",
+     "Zikuta berak edanez.",
+     "Auzitegiari isun bat ordainduz.",
+     "Bere ideiei publikoki uko eginez."
+    ],
+    "a": 1,
+    "fb": "Sokrates heriotzara kondenatu zuten, eta berak bete zuen zigorra zikuta edanez."
+   },
+   {
+    "q": "Aspasia Miletokoaren zer alderdik desafiatzen zituen bere garaiko konbentzioak?",
+    "o": [
+     "Bizitza publikoan esku hartzeari uko egitea.",
+     "Etxeko esparruari soilik eskainia egotea.",
+     "Espazio publiko eta politikoan zuen jarduera eta eragina.",
+     "Oratoriaz eta erretorikaz ezer ez jakitea."
+    ],
+    "a": 2,
+    "fb": "Aspasia hizlari gisa nabarmendu zen eta eragin handia izan zuen botere-zirkuluetan, emakumea esparru publikotik baztertzeari desafio eginez."
+   },
+   {
+    "q": "Zer erreformatzailerekin lotzen da Atenasen demokrazia ezartzea?",
+    "o": [
+     "Perikles eta Aspasia.",
+     "Gorgias eta Protagoras.",
+     "Sokrates eta Platon.",
+     "Solon eta Klistenes."
+    ],
+    "a": 3,
+    "fb": "Solonen eta Klistenesen erreformekin ezarri zen demokrazia Atenasen."
+   },
+   {
+    "q": "Nola deskribatzen ditu teoriak sofistak, haien egoerari dagokionez?",
+    "o": [
+     "Maisu ibiltariak, sarritan atzerritarrak, kobratu egiten zutenak.",
+     "Doan irakasten zuten hiritar atenastarrak.",
+     "Delfosko tenpluari lotutako apaizak.",
+     "Sokratesen ikasle iraunkorrak Atenasen."
+    ],
+    "a": 0,
+    "fb": "Sofistak maisu ibiltariak ziren, sarritan atzerritarrak, eta kobratu egiten zuten hitzaren menderatzea irakasteagatik."
+   },
+   {
+    "q": "Zer pentsalarik egin zien aurre aldi berean sofisten erlatibismoari eta eszeptizismoari?",
+    "o": [
+     "Protagoras.",
+     "Sokrates.",
+     "Gorgias.",
+     "Hipias."
+    ],
+    "a": 1,
+    "fb": "Sokratesek sofistekin partekatzen du gizakiarekiko interesa, baina erlatibismoari zein eszeptizismoari erasotzen die."
+   },
+   {
+    "q": "Zer ordenatan datoz metodo sokratikoaren bi zatiak?",
+    "o": [
+     "Lehenik maieutika eta, gero bakarrik, ironia.",
+     "Biak aldi berean aplikatzen dira, inolako ordenarik gabe.",
+     "Lehenik ironia eta, ondoren, maieutika.",
+     "Ironiak eraiki egiten du eta maieutikak suntsitu."
+    ],
+    "a": 2,
+    "fb": "Metodo sokratikoak bi zati ditu: lehenik ironia (suntsitzailea) eta gero maieutika (eraikitzailea)."
+   },
+   {
+    "q": "Sokratesen arabera, zein da ezagutzaren abiapuntua?",
+    "o": [
+     "Konbentzitzeko artea menderatzea.",
+     "Bi tesi kontrajarri aldi berean defendatzea.",
+     "Emandako irakaspenengatik kobratzea.",
+     "Norberaren ezjakintasuna aitortzea."
+    ],
+    "a": 3,
+    "fb": "Sokratesen abiapuntua norberaren ezjakintasuna aitortzea da («Ezer ez dakidala baino ez dakit»)."
+   },
+   {
+    "q": "Atenas klasikoan, emakume aske batek batzarrean hitz egin nahi du proposamen bat defendatzeko. Zerk eragozten zion, teoriaren arabera?",
+    "o": [
+     "Hiritar gizonezkoek bakarrik zuten hitza hartzeko eskubidea.",
+     "Legeak heldu guztiei uzten zien hitz egiten, bereizketarik gabe.",
+     "Atzerritarrei bakarrik zitzaien debekatuta hitza erabiltzea.",
+     "Foro hori apaizentzat eta magistratuentzat gordeta zegoen."
+    ],
+    "a": 0,
+    "fb": "Hiritartasuna eta agoran hitz egiteko eskubidea (isegoria) gizonezko askeek bakarrik zituzten; emakumeak esparru pribatura baztertuta geratzen ziren."
+   }
+  ]
+ },
+ "hf-t6-repaso": {
+  "name": "Platon: Ideiak eta Errepublika (HF · T6 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Norengandik jasotzen du Platonek mundu sentigarria etengabeko aldaketan dagoela dioen ideia?",
+    "o": [
+     "Parmenidesengandik",
+     "Pitagorikoengandik",
+     "Sokratesengandik",
+     "Heraklitorengandik"
+    ],
+    "a": 3,
+    "fb": "Teoriak Heraklitori egozten dio sentigarria etengabeko aldaketan dagoela dioen tesia; Platonek bere egiten du, bi mundu bereizteko."
+   },
+   {
+    "q": "Platonentzat, mundu sentigarriko gauzak, Ideiekiko, hauxe dira:…",
+    "o": [
+     "eredu horien kopia akastunak",
+     "eredu betiereko eta aldaezinak",
+     "gogoak sortutako abstrakzioak",
+     "zientziaren objektu bakarra"
+    ],
+    "a": 0,
+    "fb": "Mundu sentigarriak gauza zehatz, aldakor eta anitzak biltzen ditu, Ideien kopia akastunak direnak."
+   },
+   {
+    "q": "Platonen arabera, zer aurkitzen du arrazoiak mundu adigarrian?",
+    "o": [
+     "etengabe aldatzen diren gauza zehatzak",
+     "Ideiak, eredu betiereko eta unibertsalak",
+     "gauzen itzalak eta islak",
+     "gehiengoarengandik jasotako iritziak"
+    ],
+    "a": 1,
+    "fb": "Mundu adigarria Ideien edo Formen mundua da: eredu betiereko, aldaezin eta unibertsalak, benetan erreala dena."
+   },
+   {
+    "q": "Iritziaren barruan, Platonek bi maila bereizten ditu. Zein da haien arteko desberdintasuna?",
+    "o": [
+     "lehena zientzia irmoa da eta bigarrena, baliorik gabeko iritzia",
+     "lehenak Ideiak ditu gai eta bigarrenak, zenbakiak",
+     "lehenak itzalei eta irudiei begiratzen die eta bigarrenak, gauza fisikoei",
+     "biek berdin ezagutzen dituzte Ideia betiereko eta aldaezinak"
+    ],
+    "a": 2,
+    "fb": "Doxan, irudimena irudi eta itzaletan geratzen da; sinesmenak, berriz, gauza fisikoak ditu gai."
+   },
+   {
+    "q": "Lerroaren analogian, zertan bereizten dira ezagutzaren bi maila gorenak?",
+    "o": [
+     "beheragokoak Ideia hutsak kontenplatzen ditu eta goragokoak, irudiak bakarrik",
+     "biak hipotesietatik abiatzen dira eta bietako batek ere ez ditu erabat gainditzen",
+     "beheragokoa printzipio ez-hipotetikora igotzen da eta goragokoa figuretan geratzen da",
+     "beheragokoa justifikatu gabeko suposizioetatik abiatzen da eta goragokoa printzipio ez-hipotetikora igotzen da"
+    ],
+    "a": 3,
+    "fb": "Pentsamendu matematikoak hipotesiak erabiltzen ditu, haien azken arrazoirik eman gabe; dialektika printzipio ez-hipotetikoraino igotzen da."
+   },
+   {
+    "q": "Teoriaren arabera, zer egiten du garbitu behar den arima hilezkorrak?",
+    "o": [
+     "gorputz batetik bestera transmigratzen da",
+     "gorputza hiltzen denean desegiten da",
+     "Ongiaren Ideiara igotzen da ahaleginik gabe",
+     "gorputz batean betiko finkatuta geratzen da"
+    ],
+    "a": 0,
+    "fb": "Platonek pitagorikoengandik jasotzen du gorputz batetik bestera transmigratzen den eta garbitu behar den arima hilezkor baten ideia."
+   },
+   {
+    "q": "Platonentzat, gorputza, arima hilezkorrari dagokionez, hauxe da:…",
+    "o": [
+     "haren ezagutzeko tresna",
+     "haren kartzela",
+     "haren jatorria eta oinarria",
+     "haren kopia perfektua"
+    ],
+    "a": 1,
+    "fb": "Dualismo antropologikoak gizakia gorputz hilkor bati lotutako arima hilezkor gisa ulertzen du; gorputza haren kartzela bezalakoa da."
+   },
+   {
+    "q": "Zein bertute datza sabelaren apetituak menderatzean?",
+    "o": [
+     "kemena",
+     "zuhurtzia",
+     "neurritasuna",
+     "jakinduria"
+    ],
+    "a": 2,
+    "fb": "Neurritasuna zati gutiziatsuaren bertutea da, sabelean kokatua: apetituak menderatzean datza."
+   },
+   {
+    "q": "Zer bertute dagokio arimaren zati arrazionalari?",
+    "o": [
+     "neurritasuna",
+     "kemena",
+     "justizia",
+     "zuhurtzia"
+    ],
+    "a": 3,
+    "fb": "Zati arrazionalaren bertutea zuhurtzia (edo jakinduria) da, eta horri esker gainerakoak gobernatzen ditu."
+   },
+   {
+    "q": "Hirian, zertan datza justizia Platonentzat?",
+    "o": [
+     "klase bakoitzak bere funtzioa betetzean, besteenean sartu gabe",
+     "guztiek gobernuaren erabakietan berdin parte hartzean",
+     "gehiengoak beti bere iritzia gutxiengoari inposatzean",
+     "hiritar guztien arteko aberastasun-berdintasunean"
+    ],
+    "a": 0,
+    "fb": "Hiriko justizia klase bakoitzak dagokiona egitean datza, besteen eginkizunean sartu gabe."
+   },
+   {
+    "q": "Pertsona batek asmatu egiten du ekintza bat justua dela esatean, baina ez daki zergatik azaltzen. Teoriaren arabera, haren iritzia…",
+    "o": [
+     "zientzia osoa da, asmatzen duelako",
+     "oinarririk gabea da, egiazkoa izan arren",
+     "dialektikaren berdina da",
+     "Ongiaren Ideia kontenplatu du dagoeneko"
+    ],
+    "a": 1,
+    "fb": "Iritzi zuzena baliagarria izan daiteke, baina oinarririk (logosik) ez du; dialektikak bakarrik darama Ideietara."
+   },
+   {
+    "q": "Platonen arabera, baieztapen hauetatik zein da zuzena?",
+    "o": [
+     "Mundu sentigarria arrazoiaren bidez ezagutzen da, eta betierekoa da",
+     "Ideiak zentzumenen bidez hautematen dira, gauzak bezala",
+     "Ezagutzea sentigarritik Ideietara igotzea da",
+     "Iritzia zientzia baino sendoagoa da"
+    ],
+    "a": 2,
+    "fb": "Platonek ezagutza sentigarritik Ideietarainoko igoera gisa ulertzen du; gainerako aukerek haren eskema irauli egiten dute."
+   },
+   {
+    "q": "Norengandik hartzen du Platonek egia matematikoa jakintzaren eredua delako ideia?",
+    "o": [
+     "Sokratesengandik",
+     "Parmenidesengandik",
+     "Heraklitorengandik",
+     "Pitagorikoengandik"
+    ],
+    "a": 3,
+    "fb": "Platonek pitagorikoengandik hartzen du egia matematikoa jakintzaren eredu gisa, bai eta transmigratzen duen arima hilezkorraren ideia ere."
+   },
+   {
+    "q": "Ideietan partaide izateaz gain, gauza sentigarriek…",
+    "o": [
+     "imitatu egiten dituzte",
+     "sortu egiten dituzte",
+     "beren barnean dauzkate",
+     "ordezkatu egiten dituzte"
+    ],
+    "a": 0,
+    "fb": "Gauza sentigarriak Ideietan partaide dira eta haiek imitatzen dituzte; horregatik, gauza eder ugariek Edertasunaren Ideiara garamatzate."
+   },
+   {
+    "q": "Bi mundu bereiztean, Platonek dio Ideiak…",
+    "o": [
+     "gauza bakoitzaren barruan daudela, beste propietate bat bezala",
+     "sentigarritik bereizitako maila batean existitzen direla",
+     "bakoitzaren adimenak asmatuak direla",
+     "haiek imitatzen dituen gauza bakoitzarekin aldatzen direla"
+    ],
+    "a": 1,
+    "fb": "Bi mundu bereizteak Ideiak mundu sentigarritik bereizten ditu: ez dira gauzen beste propietate bat, benetan erreala dena baizik."
+   },
+   {
+    "q": "Platonen arabera, Ideiak ezagutzen dira…",
+    "o": [
+     "zentzumenen bidez, ez arrazoiaren bidez",
+     "irudimenaren eta zentzumenen bidez",
+     "haurtzaroko oroimenaren bidez",
+     "arrazoiaren bidez, ez zentzumenen bidez"
+    ],
+    "a": 3,
+    "fb": "Ideiak betierekoak eta aldaezinak dira, eta arrazoiak bakarrik atzematen ditu, zentzumenen bidez hautematen dugun mundu sentigarriaren aurrean."
+   }
+  ]
+ },
+ "hf-t7-repaso": {
+  "name": "Antropologia klasikoa (HF · T7 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Bira antropologikoaren aurretik, zertaz arduratzen zen batez ere filosofia greziarra?",
+    "o": [
+     "Naturaz eta kosmosaz.",
+     "Arimaren eta haren zatien azterketaz.",
+     "Hiriaren antolaketa justuaz.",
+     "Zoriontasuna lortzeko metodoaz."
+    ],
+    "a": 0,
+    "fb": "Sokrates baino lehen, filosofiak physis-az (kosmosaz) galdetzen zuen; birarekin, gizakiarengana itzultzen da."
+   },
+   {
+    "q": "Zer adierazten du «ez dakidala bakarrik dakit» esaldiak?",
+    "o": [
+     "Norberaren jakintzan erabateko konfiantza.",
+     "Norberaren ezjakintasuna onartzea.",
+     "Ezagutza mota oro baztertzea.",
+     "Praktikak teoriaren gainean duen nagusitasuna."
+    ],
+    "a": 1,
+    "fb": "Esaldiak norberaren ezjakintasunaren kontzientzia sokratikoa adierazten du, haren metodoaren abiapuntua."
+   },
+   {
+    "q": "Zertan datza ironia sokratikoa?",
+    "o": [
+     "Besteak barruan daraman egia argitara ematen laguntzean.",
+     "Aurkaria argudio sendoen bidez ezeztatzean.",
+     "Besteari erakustean ez dakiela zekiela uste zuena.",
+     "Kontzeptu baten definizio unibertsala bilatzean."
+    ],
+    "a": 2,
+    "fb": "Ironia metodoaren lehen unea da: solaskideari erakustea ez dakiela zekiela uste zuena."
+   },
+   {
+    "q": "Irakasle batek, azaldu beharrean, galderak egiten ditu ikasleek erantzuna beren kabuz aurki dezaten. Metodo sokratikoaren zein une praktikatzen du?",
+    "o": [
+     "Ironia, bestearen ezjakintasuna erakusten duena.",
+     "Besteen iritziak ezeztatzea.",
+     "Definizio unibertsalen bilaketa.",
+     "Maieutika, egia argitara ematen laguntzen duena."
+    ],
+    "a": 3,
+    "fb": "Maieutikak galderen bidez gidatzen du, besteak barruan daraman egia «argitara eman» dezan."
+   },
+   {
+    "q": "Zer hiru zati bereizten ditu Platonek arimaren baitan?",
+    "o": [
+     "Arrazionala, suminkorra eta irrikatsua.",
+     "Begetatiboa, sentikorra eta arrazionala.",
+     "Suminkorra, sentikorra eta gutiziatsua.",
+     "Begetatiboa, arrazionala eta gutiziatsua."
+    ],
+    "a": 0,
+    "fb": "Platonek zati arrazionala (gurdizaina), suminkorra (zaldi noblea) eta gutiziatsua (zaldi errebeldea) bereizten ditu."
+   },
+   {
+    "q": "Platonen arabera, noiz da pertsona bat justua?",
+    "o": [
+     "Bere desirak eta gogoak erabat asetzen direnean.",
+     "Arrazoiak beste bi zatiak gobernatzen dituenean.",
+     "Kemenak beldurra eta koldarkeria menderatzen dituenean.",
+     "Desira bakoitza bere aurkakoarekin orekatzen denean."
+    ],
+    "a": 1,
+    "fb": "Pertsona justua arrazoiak arimaren beste bi zatiak gobernatzen dituen hura da."
+   },
+   {
+    "q": "Zer dute komunean oroitzapenak eta metempsikosiak?",
+    "o": [
+     "Biek arimaren eta hiriaren arteko harremana deskribatzen dute.",
+     "Biek arima arrazionalaren bertuteei egiten diete erreferentzia.",
+     "Biek gorputzaren aurretik existitzen den arima hilezkorra suposatzen dute.",
+     "Biek azaltzen dute nola eratzen den ezagutza zentzumenetatik abiatuta."
+    ],
+    "a": 2,
+    "fb": "Bi doktrinek arima hilezkorra aurresuposatzen dute: gogoratzea (oroitzapena) eta transmigratzea (metempsikosia)."
+   },
+   {
+    "q": "Zer hiru funtzio edo maila bereizten ditu Aristotelesek arimaren baitan?",
+    "o": [
+     "Arrazionala, suminkorra eta irrikatsua.",
+     "Sentikorra, suminkorra eta begetatiboa.",
+     "Gutiziazkoa, begetatiboa eta arrazionala.",
+     "Begetatiboa, sentikorra eta arrazionala."
+    ],
+    "a": 3,
+    "fb": "Aristotelesek funtzio begetatiboa, sentikorra (animaliak) eta arrazionala (gizakiarena soilik) bereizten ditu."
+   },
+   {
+    "q": "Aristotelesen arabera, zer gaitasun hartzen ditu arima sentikorrak?",
+    "o": [
+     "Pertzepzioa, desira eta mugimendua.",
+     "Nutrizioa, hazkuntza eta ugalketa.",
+     "Adimena eta borondatea.",
+     "Oroimena, hizkuntza eta abstrakzioa."
+    ],
+    "a": 0,
+    "fb": "Arima sentikorrak, animalien berezkoak, pertzepzioa, desira eta mugimendua gehitzen dizkio begetatiboari."
+   },
+   {
+    "q": "Aristotelesen arabera, arimaren zein maila da gizakiarena soilik?",
+    "o": [
+     "Sentikorra, animaliek ere badutena.",
+     "Arrazionala, adimena eta borondatea dituena.",
+     "Begetatiboa, landareek ere badutena.",
+     "Suminkorra, kemena eta adorea erregulatzen dituena."
+    ],
+    "a": 1,
+    "fb": "Arima arrazionala bakarrik, adimena eta borondatea dituena, da gizakiaren berezkoa."
+   },
+   {
+    "q": "Platonen arabera, zerekin distraitzen du gorputzak arima?",
+    "o": [
+     "Bizitza kontenplatiboaren plazerekin.",
+     "Hilezkortasunaren bilaketarekin.",
+     "Desirekin, beldurrekin eta gaixotasunekin.",
+     "Boterearen eta ohoreen asmo handiarekin."
+    ],
+    "a": 2,
+    "fb": "Gorputzak, «kartzela» den aldetik, desirekin, beldurrekin eta gaixotasunekin distraitzen du arima, egia lortzea eragotziz."
+   },
+   {
+    "q": "Zein filosofok ulertzen du arima hilezkor eta gorputzaren aurreko gisa?",
+    "o": [
+     "Aristotelesek, gorputzaren forma gisa ulertzen baitu.",
+     "Sokratesek, ezagutzarekin identifikatzen baitu.",
+     "Aristotelesek, gorputzetik banaezina dela uste baitu.",
+     "Platonek, ikuspegi dualista baten aldezleak."
+    ],
+    "a": 3,
+    "fb": "Aristotelesen aurrean, Platonek arima hilezkor eta gorputzaren aurreko gisa ulertzen du, eta gorputza haren kartzela da."
+   },
+   {
+    "q": "Nork dio gizakia materiaz eta formaz osatutako substantzia dela?",
+    "o": [
+     "Aristotelesek, hilemorfismoa deitzen baitio.",
+     "Platonek, arima eta gorputza bereizten baititu.",
+     "Sokratesek, arima arrazoira murrizten baitu.",
+     "Platonek, gorputza kartzelatzat baitu."
+    ],
+    "a": 0,
+    "fb": "Aristotelesentzat gizakia materia (gorputza) gehi forma (arima) da: hilemorfismoa."
+   },
+   {
+    "q": "Gaiaren glosategiaren arabera, zertan datza aldaketa?",
+    "o": [
+     "Materiaren eta formaren batasunean.",
+     "Potentziatik ekintzarako igarotzean.",
+     "Arima gorputz batetik bestera transmigratzean.",
+     "Arima filosofiaren bidez araztean."
+    ],
+    "a": 1,
+    "fb": "Glosategiak aldaketa honela definitzen du: potentziatik (izateko aukera) ekintzarako (haren gauzatzea) igarotzea."
+   },
+   {
+    "q": "Noiz kokatzen du teoriak filosofiaren bira antropologikoa?",
+    "o": [
+     "K.a. VI. mendean, presokratikoekin.",
+     "K.a. IV. mendean, Aristotelesekin.",
+     "K.a. V. mendean, Sokratesekin.",
+     "K.a. III. mendean, helenismoarekin."
+    ],
+    "a": 2,
+    "fb": "Gaiak K.a. V. mendean kokatzen du bira, Sokratesen eskutik."
+   }
+  ]
+ },
+ "hf-t8-repaso": {
+  "name": "Etika klasikoa (HF · T8 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Gaiaren teoriaren arabera, zer da etika?",
+    "o": [
+     "Ondo bizitzeari eta zoriontasuna lortzeari buruzko hausnarketa arrazionala",
+     "Naturaren eta kosmosaren mugimenduaren azterketa",
+     "Herri-batzarrean limurtzeko eta irabazteko teknika",
+     "Inoiz ondoriorik atera gabe eztabaidatzeko artea"
+    ],
+    "a": 0,
+    "fb": "Etika ondo bizitzeari, zuzen jokatzeari eta zoriontasuna lortzeari buruzko hausnarketa arrazionala da."
+   },
+   {
+    "q": "Nork lotzen ditu zuhurtzia, ausardia eta neurritasuna arimaren hiru zatiekin?",
+    "o": [
+     "Sokrates",
+     "Platon",
+     "Aristoteles",
+     "Sofistak"
+    ],
+    "a": 1,
+    "fb": "Platonek bertuteak arimaren hiru zatiekin lotzen ditu: zuhurtzia arrazionalarekin, ausardia suminkorrarekin eta neurritasuna gutiziatsuarekin."
+   },
+   {
+    "q": "Politikari batek hautesleei gezurra esaten die, horrela irabazten duela sinetsita. Intelektualismo sokratikotik, nola azaltzen da haren jokabidea?",
+    "o": [
+     "Jakinaren gainean jokatzen du bere ongiaren aurka, hura ezagutu arren",
+     "Haren arrazoia osasuntsu dago, baina borondate ahul batek menderatzen du",
+     "Ezjakintasunez jokatzen du, bere benetako ongia itxurazko irabazi batekin nahastean",
+     "Gaizki jokatzen du gaiztakeria hutsagatik, inolako akatsik egin gabe"
+    ],
+    "a": 2,
+    "fb": "Sokratesentzat, inork ez du gaizkia jakinaren gainean aukeratzen: gaizki jokatzen duenak ezjakintasunez egiten du, gaizki hori beretzat ongia dela sinetsita."
+   },
+   {
+    "q": "Anek gainditzeko ikasten du, lan egiteko gainditzen du, etxe bat erosteko lan egiten du eta etxea lasai bizitzeko nahi du, haratago ezer bilatu gabe. Aristotelesen arabera, zer adierazten du «lasai bizitzeak» kate horretan?",
+    "o": [
+     "Are goragoko beste helburu bati begira dagoen bitarteko bat",
+     "Uneko plazer iragankor bat",
+     "Ongiaren Ideiaren kontenplazioa",
+     "Bere baitarako bilatzen den helburu bat, eta ez beste zerbaitengatik"
+    ],
+    "a": 3,
+    "fb": "Aristotelesek ohartarazten du helburu guztiak azken helburu batera ordenatzen direla, eta hori bere baitarako bilatzen dela, ez beste zerbaitengatik."
+   },
+   {
+    "q": "Labana ona da ondo mozten duenean, eta begia ondo ikusten duenean. Aristotelesen zer ideia argitzen du arrazoibide horrek?",
+    "o": [
+     "Gauza bakoitzaren ongia bere eginkizun propioa betetzean datza",
+     "Bertutea bi bizioren arteko erdibidean dago",
+     "Zoriontasuna luzatu ezin den plazer bat da",
+     "Arima hilezkorra da eta gorputz batetik bestera transmigratzen du"
+    ],
+    "a": 0,
+    "fb": "Aristotelesek dio gauza bakoitzaren ongia bere eginkizuna betetzea dela: labanarena moztea da, eta begiarena ikustea."
+   },
+   {
+    "q": "Zertan bereizten da Platon bere maisuarengandik ongiaren ezagutzari dagokionez?",
+    "o": [
+     "Bertutea ez da ezagutza, errepikapenaren bidez eskuratutako ohitura baizik",
+     "Bertutea beharrezkoa da jakinduriarako, baina ez da harekin nahasten",
+     "Jakinduria eta bertutea zehazki gauza bera dira",
+     "Ez dute inolako harremanik elkarren artean"
+    ],
+    "a": 1,
+    "fb": "Sokratesek ez bezala, Platonek ez ditu erabat identifikatzen jakinduria eta bertutea: bertutea beharrezkoa da jakinduriarako, baina ez da harekin nahasten."
+   },
+   {
+    "q": "Hauetatik zein da bertute etiko bat Aristotelesen arabera?",
+    "o": [
+     "Jakinduria",
+     "Zuhurtzia",
+     "Eskuzabaltasuna",
+     "Ausarkeria"
+    ],
+    "a": 2,
+    "fb": "Eskuzabaltasuna bertute etikoa da, ekintzak ongirantz bideratzen dituen ohitura; jakinduria eta zuhurtzia dianoetikoak dira, eta ausarkeria bizio bat da."
+   },
+   {
+    "q": "Aristotelesen arabera, nola eskuratzen dira bertute dianoetikoak?",
+    "o": [
+     "Ekintzak errepikatuz",
+     "Arima araztuz",
+     "Ongiaren Ideia kontenplatuz",
+     "Irakaskuntzaren bidez"
+    ],
+    "a": 3,
+    "fb": "Bertute dianoetikoek adimena hobetzen dute eta irakaskuntzaren bidez eskuratzen dira."
+   },
+   {
+    "q": "Nork ulertzen du bertutea ekintzak errepikatuz eskuratzen den ohitura gisa?",
+    "o": [
+     "Aristoteles",
+     "Sokrates",
+     "Platon",
+     "Gorgias"
+    ],
+    "a": 0,
+    "fb": "Aristotelesentzat, bertute etikoak ekintzak errepikatuz eskuratutako ohiturak dira, Sokratesen eta Platonen intelektualismoak ez bezala."
+   },
+   {
+    "q": "Baieztapen hauetatik zeinek adierazten du zuzen zoriontasunaren ideia aristotelikoa?",
+    "o": [
+     "Behin eta berriz errepikatzen den uneko plazer bat da",
+     "Arimak bizitza osoan zehar bertutearen araberako jarduera da",
+     "Ongiaren Ideia betierekoaren eta aldaezinaren kontenplazioa da",
+     "Arima gorputzaren desiretatik araztea da"
+    ],
+    "a": 1,
+    "fb": "Aristotelesentzat, zoriontasuna arimak bizitza oso batean zehar bertutearen arabera duen jarduera da, ez plazer iragankor bat."
+   },
+   {
+    "q": "Bertute aristotelikoei buruzko baieztapen hauetatik zein da zuzena?",
+    "o": [
+     "Bertute dianoetikoak ekintzak errepikatuz eskuratzen dira",
+     "Bertute etikoak irakaskuntzaren bidez eskuratzen dira",
+     "Bertute etikoak ekintzak errepikatuz eskuratzen dira",
+     "Bertute dianoetikoek grinak eta ekintzak erregulatzen dituzte"
+    ],
+    "a": 2,
+    "fb": "Bertute etikoak ekintzak errepikatuz eskuratzen diren ohiturak dira; dianoetikoak, berriz, irakaskuntzaren bidez eskuratzen dira."
+   },
+   {
+    "q": "Nola definitzen du glosategiak «erdibidea»?",
+    "o": [
+     "Bi kopururen artean kalkulatzen den batez besteko aritmetikoa",
+     "Arimaren eta gorputzaren artean gertatzen den oreka",
+     "Arrazoiak agintzen duenaren eta desiraren arteko bat-etortze osoa",
+     "Bi bizioren arteko tarteko puntua, gehiegizkoa eta urrikoa"
+    ],
+    "a": 3,
+    "fb": "Erdibidea bi bizioren arteko tarteko puntua da, bata gehiegizkoa eta bestea urrikoa."
+   },
+   {
+    "q": "Aristotelesen arabera, zer bi bizioren artean kokatzen da ausardia?",
+    "o": [
+     "Koldarkeria eta ausarkeria",
+     "Koldarkeria eta zuhurtzia",
+     "Ausarkeria eta neurritasuna",
+     "Beldurra eta plazera"
+    ],
+    "a": 0,
+    "fb": "Ausardia koldarkeriaren (gabezia) eta ausarkeriaren (gehiegikeria) arteko erdibidea da."
+   },
+   {
+    "q": "Zein dira, Aristotelesentzat, bi bertute dianoetikoak?",
+    "o": [
+     "Ausardia eta neurritasuna",
+     "Jakinduria eta zuhurtzia",
+     "Eskuzabaltasuna eta justizia",
+     "Fedea eta itxaropena"
+    ],
+    "a": 1,
+    "fb": "Bertute dianoetikoek adimena hobetzen dute, eta jakinduria eta zuhurtzia dira."
+   },
+   {
+    "q": "Nork dio bertutea ezagutza dela, ongia ezagutzen duenak ongi jokatzen duela, alegia?",
+    "o": [
+     "Aristoteles",
+     "Protagoras",
+     "Sokrates",
+     "Gorgias"
+    ],
+    "a": 2,
+    "fb": "Sokratesek dio bertutea ezagutza dela: ongia zer den benetan ezagutzen duenak ongi jokatzen du."
+   },
+   {
+    "q": "Bertuteari buruzko baieztapen hauetatik zein da zuzena?",
+    "o": [
+     "Sokratesek errepikapenaren bidez eskuratutako ohitura gisa ulertzen du",
+     "Platonek bi bizioren arteko erdibide gisa ulertzen du",
+     "Aristotelesek ezagutza eta arimaren arazketa gisa ulertzen du",
+     "Aristotelesek bi bizioren artean kokatutako ohitura gisa ulertzen du"
+    ],
+    "a": 3,
+    "fb": "Aristotelesentzat, bertutea bi bizioren arteko erdibidean datzan ohitura da; ezagutza eta arazketa Sokratesi eta Platoni dagozkie."
+   }
+  ]
+ },
+ "hf-t9-repaso": {
+  "name": "Politika klasikoa (HF · T9 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Aristotelesen arabera, nola deitzen da pertsona bakar batek guztien mesedetan gobernatzen duen erregimena?",
+    "o": [
+     "Monarkia",
+     "Tirania",
+     "Oligarkia",
+     "Aristokrazia"
+    ],
+    "a": 0,
+    "fb": "Aristotelesentzat, monarkia bakar baten gobernu justua da; bakar hori bere interesaren bila dabilenean, tirania bihurtzen da."
+   },
+   {
+    "q": "Buruzagi batek botere guztia biltzen du eta aberasteko eta karguan iraunarazteko bakarrik egiten ditu legeak. Aristotelesen arabera, zer erregimen da hau?",
+    "o": [
+     "Oligarkia",
+     "Tirania",
+     "Demagogia",
+     "Monarkia"
+    ],
+    "a": 1,
+    "fb": "Tirania monarkiaren endekapena da: bakar baten gobernua norberaren intereserako, ez ongi komunerako."
+   },
+   {
+    "q": "Aristotelesen sailkapenean, nola deitzen da pertsona talde txiki batek egiten duen gobernu justua?",
+    "o": [
+     "Oligarkia",
+     "Monarkia",
+     "Aristokrazia",
+     "Errepublika"
+    ],
+    "a": 2,
+    "fb": "Aristokrazia gutxi batzuen (onenen) gobernu justua da; haren endekapena oligarkia da."
+   },
+   {
+    "q": "Aristotelesek gobernu-forma justu bakoitza bere endekapenarekin parekatzen du. Zein da segida zuzena?",
+    "o": [
+     "Monarkia eta tirania; aristokrazia eta oligarkia; errepublika eta demagogia",
+     "Monarkia eta oligarkia; aristokrazia eta tirania; errepublika eta demagogia",
+     "Monarkia eta demagogia; aristokrazia eta tirania; errepublika eta oligarkia",
+     "Monarkia eta tirania; aristokrazia eta demagogia; errepublika eta oligarkia"
+    ],
+    "a": 0,
+    "fb": "Forma justu bakoitza bere kontrako forman endekatzen da: monarkia tiranian, aristokrazia oligarkian eta errepublika demagogian."
+   },
+   {
+    "q": "Zer ordenatan aurkezten ditu Aristotelesek komunitatearen mailak, sinpleenetik perfektuenera?",
+    "o": [
+     "Herrixka, familia, polis",
+     "Familia, herrixka, polis",
+     "Polis, familia, herrixka",
+     "Familia, polis, herrixka"
+    ],
+    "a": 1,
+    "fb": "Komunitatea familian (eguneroko bizitza), herrixkan (familien batasuna) eta polisean (ondo bizitzea bilatzen duen komunitate perfektua) antolatzen da."
+   },
+   {
+    "q": "Zein baieztapen da zuzena Platonek eta Aristotelesek jendetzak agintzen duen gobernua nola baloratzen duten jakiteko?",
+    "o": [
+     "Lehenak justutzat jotzen du; bigarrenak bere endekapen-zikloan kokatzen du.",
+     "Lehenak forma endekatuen artean sartzen du; bigarrenak errepublika eta demagogia bereizten ditu.",
+     "Biek gobernu-forma guztien artean onena dela uste dute.",
+     "Biek erabat alde batera uzten dute erregimenen sailkapenetan."
+    ],
+    "a": 1,
+    "fb": "Platonentzat demokrazia desordenan amaitzen den endekapen-zikloaren etapa bat da; Aristotelesek errepublikarako gordetzen du forma justua, eta demagogia deitzen dio haren ustelkeriari."
+   },
+   {
+    "q": "Aristotelesentzat, nor da gai hiritik kanpo bizitzeko?",
+    "o": [
+     "Filosofoa, kontenplazioarekin aski duena.",
+     "Batzarrean parte hartzen duen hiritarra.",
+     "Piztia bat edo jainko bat.",
+     "Esklaboa, bere nagusiari men egiten diona."
+    ],
+    "a": 2,
+    "fb": "Gizakiak komunitatean bakarrik bizi daiteke erabat; hura gabe egiten duena ez da hiriko kide, piztia edo jainko bat baizik."
+   },
+   {
+    "q": "Zer helbururekin diseinatzen du Platonek bere hiri ideala Errepublikan?",
+    "o": [
+     "Hartan justizia posible izan dadin.",
+     "Atenasen botere militarra handitzeko.",
+     "Aberastasuna guztien artean berdin banatzeko.",
+     "Bere garaiko demokrazia imitatzeko."
+    ],
+    "a": 0,
+    "fb": "Platonek hiri ideal bat (utopia bat) diseinatzen du, hartan justizia posible izan dadin."
+   },
+   {
+    "q": "Platonen endekapen-zikloan, zerk bereizten du timokrazia oligarkiatik?",
+    "o": [
+     "Lehena militarrek osatzen dute, eta bigarrena, aberatsek.",
+     "Lehena justua da, eta bigarrena, endekatua.",
+     "Lehena bakar batek egiten du, eta bigarrena, askok.",
+     "Lehena forma txarrena da, eta bigarrena, onena."
+    ],
+    "a": 0,
+    "fb": "Ziklo platonikoan, timokrazia militarren gobernua da eta oligarkia aberatsena, bakoitza aurrekoa baino okerragoa."
+   },
+   {
+    "q": "K.a. 399. urteko zer gertaerak markatu zituen sakonki Platon eta ondorengo filosofia politikoa?",
+    "o": [
+     "Akademiaren sorrerak.",
+     "Sokratesen heriotza-zigorra.",
+     "Atenasek Espartaren gainean lortutako garaipenak.",
+     "Aristotelesen Atenastik erbesteratzeak."
+    ],
+    "a": 1,
+    "fb": "Sokratesen heriotza-zigorrak (K.a. 399) markatu zuen Platon, eta gizarte-ordenarik onenari buruzko galdera ireki zuen, zeinari hark eta, geroago, Aristotelesek erantzungo dioten."
+   },
+   {
+    "q": "Aristotelesen sailkapenean, monarkia eta aristokrazia forma justuak dira biak. Zerk bereizten ditu?",
+    "o": [
+     "Bata heredatua dela eta bestea hautatua.",
+     "Batak ongi komuna bilatzen duela eta besteak ez.",
+     "Gobernatzen dutenen kopuruak: bat, gutxi batzuen aurrean.",
+     "Bata erdiko klasean oinarritzen dela eta bestea ez."
+    ],
+    "a": 2,
+    "fb": "Biek ongi komuna bilatzen dute; bereizten dituena da zenbatek gobernatzen duten: monarkia batena da eta aristokrazia gutxi batzuena."
+   },
+   {
+    "q": "Zenbat gobernu-forma bereizten ditu Aristotelesek guztira, nork gobernatzen duen eta norentzat gurutzatzean?",
+    "o": [
+     "Hiru, gizarte-klase bakoitzeko bat.",
+     "Lau, bi justu eta bi endekatu.",
+     "Sei, hiru justu eta hiru endekatu.",
+     "Bi, bat justua eta bat endekatua."
+    ],
+    "a": 2,
+    "fb": "Nork gobernatzen duen (bat, gutxi, asko) eta norentzat (ongi komuna edo norberaren interesa) gurutzatzean, Aristotelesek sei forma lortzen ditu: hiru justu eta hiru endekatu."
+   },
+   {
+    "q": "Zer dute komunean tiraniak, oligarkiak eta demagogiak Aristotelesen sailkapenean?",
+    "o": [
+     "Guztiek norberaren interesa bilatzen dutela, eta ez ongi komuna.",
+     "Guztiak pertsona bakar batek egiten dituela.",
+     "Guztiak gobernu-forma justuak direla.",
+     "Denak klase ertainean oinarritzen direla."
+    ],
+    "a": 0,
+    "fb": "Hirurak forma zuzenen endekapenak dira, eta bat datoz honetan: gobernatzen dutenek beren interesa bilatzen dute, ongi komuna bilatu beharrean."
+   },
+   {
+    "q": "Aristotelesen arabera komunitatea antolatzeko moduan, zer da herrixka?",
+    "o": [
+     "Ondo bizitzea bilatzen duen komunitate perfektua.",
+     "Hainbat familiaren batasuna.",
+     "Militarren gobernua.",
+     "Legeak egiteko hiritarren elkartea."
+    ],
+    "a": 1,
+    "fb": "Herrixka komunitatearen bigarren maila da: hainbat familiaren batasuna, polisaren aurrekoa."
+   }
+  ]
+ },
+ "hf-t10-repaso": {
+  "name": "Helenismoa (HF · T10 · errepasoa)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "Zein eskola helenistikok du autarkia ideal gisa?",
+    "o": [
+     "Zinismoak",
+     "Estoizismoak",
+     "Epikureismoak",
+     "Eszeptizismoak"
+    ],
+    "a": 0,
+    "fb": "Autarkia, kanpoko ezeren mende ez egoteko burujabetasuna, zinismoaren ideal berezkoa da."
+   },
+   {
+    "q": "Nork sortu zuen zinismoa?",
+    "o": [
+     "Zenon Zitiokoa",
+     "Antistenes",
+     "Pirron Elisekoa",
+     "Epikuro"
+    ],
+    "a": 1,
+    "fb": "Zinismoa Antistenesek sortu zuen, eta Diogenes Sinopekoak muturreraino eraman zuen."
+   },
+   {
+    "q": "Nork eraman zuen zinismoa muturreraino?",
+    "o": [
+     "Zenon Zitiokoa",
+     "Antistenes",
+     "Diogenes Sinopekoa",
+     "Pirron Elisekoa"
+    ],
+    "a": 2,
+    "fb": "Diogenes Sinopekoak zinismoa muturreraino eraman zuen, gutxienekoarekin bizita."
+   },
+   {
+    "q": "Nork sortu zuen estoizismoa?",
+    "o": [
+     "Antistenes",
+     "Epikuro",
+     "Pirron Elisekoa",
+     "Zenon Zitiokoa"
+    ],
+    "a": 3,
+    "fb": "Estoizismoa Zenon Zitiokoak sortu zuen."
+   },
+   {
+    "q": "Gaiaren glosarioan, zer da koiné?",
+    "o": [
+     "Ezkutuan bizitzearen ideala",
+     "Helenismoaren greziera komuna",
+     "Kosmosa ordenatzen duen arrazoi jainkotiarra",
+     "Jakintsuaren burujabetasuna"
+    ],
+    "a": 1,
+    "fb": "Koiné helenismoan hitz egin zen greziera komuna da."
+   },
+   {
+    "q": "Epikurok plazera minik eta asaldurarik eza bezala definitzen du. Zeri dagokio bi gabezia horietako bakoitza?",
+    "o": [
+     "Lehenengoa arimari eta bigarrena gorputzari",
+     "Biak gorputzari",
+     "Lehenengoa gorputzari eta bigarrena arimari",
+     "Biak arimari"
+    ],
+    "a": 2,
+    "fb": "Gorputzean minik eza aponia da, eta arimako asaldurarik eza, ataraxia."
+   },
+   {
+    "q": "Zinismoarentzat, zer esan nahi du naturarekin bat bizitzeak?",
+    "o": [
+     "Ondasunak metatzea, inoren mende ez egoteko",
+     "Bakardadean gogoeta egitera erretiratzea",
+     "Kosmosaren fisika aztertzea",
+     "Beharrizanak ezinbestekora mugatzea"
+    ],
+    "a": 3,
+    "fb": "Naturarekin bat bizitzea beharrizanak erabat naturala denera murriztea eta artifiziala gutxiestea da."
+   },
+   {
+    "q": "Diogenesen bizitzako zein xehetasunek erakusten du haren burujabetasun-ideala?",
+    "o": [
+     "Upel batean bizi zela",
+     "Alexandrian eskola bat zuzentzen zuela",
+     "Estoizismoa sortu zuela",
+     "Inperio bat gobernatzen zuela"
+    ],
+    "a": 0,
+    "fb": "Diogenes upel batean bizi zen, eta bere adibidearekin erakusten zuen ia ez zuela kanpoko ezer behar."
+   },
+   {
+    "q": "Jakintsu estoikoak apatia eta ataraxia lortzen ditu. Zer desberdintasun dago bien artean?",
+    "o": [
+     "Biak gertatzen den guztiaren aurreko axolagabekeria dira",
+     "Lehenengoa asaldatzen duten grinarik eza da; bigarrena, barne-bakea",
+     "Lehenengoa gorputzeko min bat da, eta bigarrena arimaren asaldura bat",
+     "Lehenengoa judizioaren etetea da, eta bigarrena burujabetasuna"
+    ],
+    "a": 1,
+    "fb": "Apatia asaldatzen duten grinarik eza da, eta ataraxia barne-bakea; ez dira axolagabekeria."
+   },
+   {
+    "q": "Zer da logosa, estoizismoaren arabera?",
+    "o": [
+     "Judizioaren etetea",
+     "Gorputzean minik eza",
+     "Unibertsoa ordenatzen duen arrazoi jainkotiarra",
+     "Greziera komuna"
+    ],
+    "a": 2,
+    "fb": "Logosa unibertso osoa ordenatzen duen arrazoi jainkotiarra da, estoizismoaren arabera."
+   },
+   {
+    "q": "Tetrafarmakoaren arabera, baieztapen hauetako zein da zuzena?",
+    "o": [
+     "Jainkoen beldur izan behar da",
+     "Ongia lortzen zaila da",
+     "Gaizkia jasaten zaila da",
+     "Ez da heriotzaren beldur izan behar"
+    ],
+    "a": 3,
+    "fb": "Tetrafarmakoak irakasten du ez dela jainkoen ez heriotzaren beldur izan behar, eta ongia erraz lortzen dela eta gaizkia erraz jasaten."
+   },
+   {
+    "q": "Beharrizan naturalak asetzeaz gain, zer gomendatzen du Epikurok asaldurarik gabe bizitzeko?",
+    "o": [
+     "Gehiegikerietara ematea",
+     "Aberastasunak metatzea",
+     "Ospea bilatzea",
+     "Beldurra saihestea"
+    ],
+    "a": 3,
+    "fb": "Epikurok beharrizan natural eta beharrezkoak asetzea eta beldurra saihestea gomendatzen du."
+   },
+   {
+    "q": "Eskolen idealei buruzko baieztapen hauetako zein da zuzena?",
+    "o": [
+     "Zinismoak apatia bilatzen du",
+     "Eszeptizismoak ataraxia bilatzen du",
+     "Epikureismoak epokhe bilatzen du",
+     "Estoizismoak plazera bilatzen du"
+    ],
+    "a": 1,
+    "fb": "Taula konparatiboaren arabera, eszeptizismoaren ideala ataraxia da, epokhe-aren bidez lortua."
+   }
+  ]
+ },
+ "hf-t11-repaso": {
+  "name": "Erdi Aroko filosofia eta unibertsalak (HF · T11 · errepasoa)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Gaiaren arabera, zein da Erdi Aroko filosofia osoa definitzen duen arazo berria?",
+    "o": [
+     "Fedearen eta arrazoiaren arteko harremana",
+     "Jainkoaren existentziaren frogapena",
+     "Hizkuntzaren eta haren zeinuen jatorria",
+     "Botere politikoaren eta elizakoaren kritika"
+    ],
+    "a": 0,
+    "fb": "Erdi Aroko filosofia ez da egutegi baten bidez definitzen, arazo berri baten bidez baizik: ea arrazoiak erlijioak errebelatzen dituen egiak uler, justifika edo sakon ditzakeen."
+   },
+   {
+    "q": "Printzipio abstraktu baten ideiaren aurrean, nola aurkezten du kristautasunak Jainkoa?",
+    "o": [
+     "Kosmosa mugitzen duen energia inpertsonal gisa",
+     "Betiereko, transzendente eta pertsonal gisa",
+     "Dena datorren materia gisa",
+     "Izaki mugatu eta hilkorren antzeko gisa"
+    ],
+    "a": 1,
+    "fb": "Kristautasunak Jainkoa betiereko, transzendente eta pertsonal gisa aurkezten du, ez printzipio abstraktu edo indar anonimo gisa."
+   },
+   {
+    "q": "Zer dio kristautasunak munduaren jatorriari buruz?",
+    "o": [
+     "Inork sortu ez duen betiereko materia dela",
+     "Ezerezetik zoriz sortu zela",
+     "Jainkoak sortu duela",
+     "Jainkotasunaren berdina dela"
+    ],
+    "a": 2,
+    "fb": "Kristautasunarentzat mundua ez da betiereko materia: Jainkoak sortu du eta bere probidentziaren barruan mantentzen du."
+   },
+   {
+    "q": "Nola ulertzen du kristautasunak gizakia?",
+    "o": [
+     "Materia arrotz batean harrapatutako arima huts gisa",
+     "Sena soilik gidari duen animalia gisa",
+     "Gorputzarekin loturarik gabeko adimen gisa",
+     "Gorputzaren eta arimaren batasun gisa, Jainkoaren irudi"
+    ],
+    "a": 3,
+    "fb": "Kristautasunak ez du gizakia arima hutstzat hartzen, Jainkoaren irudira egindako gorputzaren eta arimaren batasuntzat baizik, ongia gaizkitik bereizteko gai eta bere egintzen erantzule."
+   },
+   {
+    "q": "Agustinentzat gaitza zer da?",
+    "o": [
+     "Ongi baten falta, ez substantzia bat",
+     "Jainkoak sortutako substantzia bat",
+     "Materiaren ondorio saihestezina",
+     "Ongiaren pareko eta aurkako indar bat"
+    ],
+    "a": 0,
+    "fb": "Agustinek gaizkia gabezia gisa ulertzen du: ez da substantzia bat, ongi baten falta baizik, borondate desordenatu batetik sortua."
+   },
+   {
+    "q": "Non bizi da denbora, Agustinen arabera?",
+    "o": [
+     "Izarren mugimendu erregularrean",
+     "Barnean, oroimen, arreta eta itxaropen gisa",
+     "Errepikatzen den segida ziklikoan",
+     "Erlojuen kanpoko neurrian"
+    ],
+    "a": 1,
+    "fb": "Agustinentzat denbora ez da kanpoan neurtzen, subjektuaren barnean bizi da, oroimen, arreta eta itxaropen gisa."
+   },
+   {
+    "q": "Agustinen esaldiaren arabera, zer sortzen dute «bi maitasunek»?",
+    "o": [
+     "Jainkoaren hiria eta lurreko hiria",
+     "Atenas eta Jerusalem",
+     "Patristika eta eskolastika",
+     "Erromatar Inperioa eta Bizantziar Inperioa"
+    ],
+    "a": 0,
+    "fb": "Agustinek dio bi maitasunek bi hiri sortu zituztela: Jainkoarenganako maitasunak Jainkoaren Hiria sortzen du, eta norberarenganako maitasun desordenatuak lurreko hiria."
+   },
+   {
+    "q": "Nola ulertzen du Agustinek historia?",
+    "o": [
+     "Amaierarik gabe errepikatzen den ziklo gisa",
+     "Mugarik eta helmugarik gabeko aurrerapen gisa",
+     "Jatorri perfektu batetik etengabeko gainbehera gisa",
+     "Hasiera, erdigune eta amaiera dituen lerro gisa"
+    ],
+    "a": 3,
+    "fb": "Ziklo greziarraren aurrean, Agustinek historia lineala dela uste du, hasiera (kreazioa), erdigunea (enkarnazioa) eta amaiera (azken judizioa) dituena."
+   },
+   {
+    "q": "Agustinen arabera, zer behar du adimenak betiereko egiak ezagutzeko?",
+    "o": [
+     "Jainkoak argiztatua izatea",
+     "Jaio aurretik ikusitakoa gogoratzea",
+     "Zentzumenetatik datu gehiago jasotzea",
+     "Aurretiko sinesmen orotatik askatzea"
+    ],
+    "a": 0,
+    "fb": "Agustinentzat arrazoia ez da bere buruarentzat nahikoa: adimenak Jainkoaren argia behar du, hau da, argiztapena, betiereko egiak ezagutzeko."
+   },
+   {
+    "q": "Guztiz ulertzen ez duen dogma baten aurrean, fededun batek lehenik onartzea erabakitzen du, gero hobeto ulertu ahal izateko. Zein printzipio agustindar aplikatzen du?",
+    "o": [
+     "Zalantza metodikoa",
+     "«Sinetsi ulertzeko»",
+     "Egia bikoitza",
+     "Fedearen eta arrazoiaren arteko bereizketa"
+    ],
+    "a": 1,
+    "fb": "Agustinek fedearen eta arrazoiaren arteko lankidetza «sinetsi ulertzeko» esaldian laburbiltzen du: fedeak bideratzen du eta arrazoiak ulertzen, beraz lehenik onartzeak gero ulertzea ahalbidetzen du."
+   },
+   {
+    "q": "Agustinen arabera, zergatik ez da nahikoa egia irakastea?",
+    "o": [
+     "Egia guztiz ezin ezagutuzkoa delako",
+     "Zentzumenetako datuak falta direlako",
+     "Borondatea zaurituta dagoelako eta salbatu egin behar delako",
+     "Ezagutza oroitzapena besterik ez delako"
+    ],
+    "a": 2,
+    "fb": "Ez da nahikoa irakastea, giza borondatea jatorrizko bekatuak zauritua eta gaizkira makurtua dagoelako: ezagutzeaz gain salbatu egin behar da, eta grazia Jainkoaren ekimena da."
+   },
+   {
+    "q": "Zein planotan zabaltzen da Agustinek Platonengandik jasotako dualismoa?",
+    "o": [
+     "Fisikoan, kimikoan eta biologikoan",
+     "Logikoan, erretorikoan eta gramatikalean",
+     "Indibidualean, sozialean eta politikoan",
+     "Teologikoan, moralean eta historikoan"
+    ],
+    "a": 3,
+    "fb": "Dualismo agustindarra hiru planotan zabaltzen da: teologikoan (Jainkoa eta kreatura), moralean (caritas eta cupiditas) eta historikoan (kreazioa, enkarnazioa eta amaiera)."
+   },
+   {
+    "q": "Nortzuk izan ziren apologetak?",
+    "o": [
+     "Kristautasuna salaketen aurrean defendatu zuten egileak",
+     "Antzinako eskuizkribuak kopiatzen zituzten fraideak",
+     "Lehen unibertsitateetako maisuak",
+     "Inperioko auzitegietako epaileak"
+    ],
+    "a": 0,
+    "fb": "Apologetak kristautasuna salaketa politiko eta erlijiosoen aurrean defendatu zuten egileak dira, logosa, arima, kreazioa edo justizia bezalako kontzeptuak berrirakurriz."
+   },
+   {
+    "q": "Zer ziren trivium eta quadrivium?",
+    "o": [
+     "Fraide eskaleen bi ordenak",
+     "Curriculum eskolastikoko zazpi arte liberalak",
+     "Bibliaren bi testamentuak",
+     "Patristikako bi eskola aurkari"
+    ],
+    "a": 1,
+    "fb": "Triviumak (gramatika, erretorika eta dialektika) eta quadriviumak (aritmetika, geometria, astronomia eta musika) zazpi arte liberalak osatzen zituzten, eskolastikaren oinarrizko curriculuma."
+   },
+   {
+    "q": "Eskolastikari buruz, baieztapen hauetako zein da zuzena?",
+    "o": [
+     "Fedearen eta arrazoiaren arteko gerra irekia izan zen",
+     "Filosofia hitz-joko huts bihurtu zuen",
+     "Fedea eta arrazoia modu sistematikoan batzeko ahalegina da",
+     "Arrazoiari uko egin zion, fedearekin bakarrik geratzeko"
+    ],
+    "a": 2,
+    "fb": "Eskolastika ez zen fedearen eta arrazoiaren arteko gerra izan, biak modu sistematikoan batzeko ahalegina baizik; gerratzat hartzea ohiko akatsa da."
+   },
+   {
+    "q": "Errealismo moderatuaren arabera, non daude unibertsalak?",
+    "o": [
+     "Aparteko mundu batean, gauzetatik bereizita",
+     "Adimenean soilik, kontzeptu huts gisa",
+     "Hizkuntzan soilik, izen huts gisa",
+     "Gauzetan, eta adimenak abstrakzioaren bidez ateratzen ditu"
+    ],
+    "a": 3,
+    "fb": "Errealismo moderatuarentzat (Aristoteles, Tomas Akinokoa) unibertsalak gauzetan bertan daude, eta adimenak abstrakzioaren bidez ateratzen ditu."
+   },
+   {
+    "q": "Salbazioarekin batera, zer jartzen du kristautasunak bere mezuaren erdigunean?",
+    "o": [
+     "Enkarnazioa eta maitasuna eredu gisa",
+     "Ideien kontenplazioa",
+     "Heroi klasikoen imitazioa",
+     "Grinen kontrol arrazionala"
+    ],
+    "a": 0,
+    "fb": "Jesukristoren irudiak salbazioa, enkarnazioa eta maitasuna eredu gisa jartzen ditu erdigunean, ez kontenplazio hutsa ezta bertute heroikoa ere."
+   },
+   {
+    "q": "Zer da probidentzia?",
+    "o": [
+     "Gertaerak gobernatzen dituen zoria",
+     "Historia bere helbururantz ordenatzen duen jainkozko plana",
+     "Munduak bere sortzailearekiko duen autonomia",
+     "Kosmosaren betiereko zikloa"
+    ],
+    "a": 1,
+    "fb": "Probidentzia historia bere helbururantz ordenatzen duen jainkozko plana da; ziklo greziarraren aurrean, historiak hasiera, erdigunea eta amaiera ditu."
+   },
+   {
+    "q": "Jainkoak sortua den heinean, mundua, gaiaren arabera...",
+    "o": [
+     "Ordenatu beharreko zentzurik gabeko kaosa da",
+     "Jainkotasunaren berdin-berdina da",
+     "Adigarria eta ona da",
+     "Zentzumenek sortutako ilusio bat da"
+    ],
+    "a": 2,
+    "fb": "Mundua ez da Jainkoa ezta kaosa ere: sortua den heinean, adigarria eta ona da, eta probidentziaren barruan mantentzen da."
+   },
+   {
+    "q": "Hildegardaren pentsamenduan, zer da bekatua?",
+    "o": [
+     "Ongia ezagutzen ez duen arimaren ezjakintasuna",
+     "Espiritua preso hartzen duen materia",
+     "Komunitateak ezartzen duen zigorra",
+     "Kosmosaren harmoniaren galera"
+    ],
+    "a": 3,
+    "fb": "Hildegardarentzat bekatua ez da arau moral bat haustea soilik, harmonia kosmikoa galtzea ere bada; horregatik osasuna, etika eta espiritualtasuna elkarri lotuta doaz."
+   },
+   {
+    "q": "Nola hartzen du Hildegardak giza gorputza?",
+    "o": [
+     "Kreazioaren zati gisa, ez arimaren kartzela gisa",
+     "Arimak ihes egin behar duen kartzela gisa",
+     "Benetako jakintza ororen oztopo gisa",
+     "Naturatik kanpoko zerbait gisa"
+    ],
+    "a": 0,
+    "fb": "Hildegardak ez du gorputza arimaren kartzelatzat hartzen: kreazioaren parte da, eta haren osasuna naturaren erritmoekin eta bizitza espiritualarekin lotzen da."
+   }
+  ]
+ },
+ "hf-t12-repaso": {
+  "name": "Fedea eta arrazoia (HF · T12 · errepasoa)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Zer da patristika, gaiaren arabera?",
+    "o": [
+     "Elizaren lehen pentsalarien tradizioa, fedea greziar eta erromatar hizkerarekin azaltzen duena.",
+     "Erdi Aroko unibertsitateen metodoa, galderetan, argudioetan eta objekzioetan oinarritua.",
+     "Platon Plotinoren bitartez berrirakurtzen duen korrontea, Jainkoaren transzendentzia pentsatzeko.",
+     "Kristautasuna Inperioaren salaketen aurrean defendatu zuten egileen multzoa."
+    ],
+    "a": 0,
+    "fb": "Glosarioak patristika honela definitzen du: Elizaren lehen pentsalarien tradizioa, fede kristaua greziar eta erromatar kontzeptu-hizkerarekin azaltzen saiatzen dena; Agustin da haren gailurretako bat."
+   },
+   {
+    "q": "Nola definitzen da eskolastika gaian?",
+    "o": [
+     "Doktrina beste interpretazio batzuen aurrean finkatu zuten lehen pentsalari kristauen lana.",
+     "Erdi Aroko unibertsitateen pentsamendu-metodoa, egia galderen, argudioen eta objekzioen bidez bilatzen duena.",
+     "Fedea arrazoitik bereizi eta teologia zientziatik kanpo uzten duen korrontea.",
+     "Aristotelesen filosofia kristautasunean txertatzen duen Tomas Akinokoaren sistema."
+    ],
+    "a": 1,
+    "fb": "Eskolastika Erdi Aroko unibertsitateen pentsamendu-metodo gisa definitzen da, egia galdera, argudio, objekzio eta erantzun sistematikoen bidez bilatzen duena."
+   },
+   {
+    "q": "Bost bideei buruzko baieztapen hauetako zein da zuzena?",
+    "o": [
+     "Zientzia esperimental modernoaren frogak dira, esperimentu baten irismen bera dutenak.",
+     "Jainkoaren existentzia kontzeptu hutsetik abiatuta frogatzen dute, mundura begiratu gabe.",
+     "Izaki finituen, aldaketaren eta ordenaren azken azalpena bilatzen duten argudio metafisikoak dira.",
+     "Trinitatea edo Enkarnazioa bezalako egiak erabat frogatzen dituzte."
+    ],
+    "a": 2,
+    "fb": "Gaiak azpimarratzen du ez direla zientzia esperimental modernoaren frogatzat hartu behar, izaki finituen, aldaketaren eta ordenaren azken azalpena bilatzen duten argudio metafisikotzat baizik."
+   },
+   {
+    "q": "Tomasen arabera, zein egia ezagut daiteke bai arrazoiaren bidez bai fedearen bidez?",
+    "o": [
+     "Trinitatea, arrazoiak berez, laguntzarik gabe, frogatzen duena.",
+     "Enkarnazioa, errebelazioaren bidez soilik eskuragarria.",
+     "Naturaz gaindiko egia oro, salbuespenik gabe.",
+     "Jainkoaren existentzia, bi bideetatik lor daitekeena."
+    ],
+    "a": 3,
+    "fb": "Gaiak egia naturalak eta naturaz gaindikoak bereizten ditu, eta adierazten du batzuk, Jainkoaren existentzia esaterako, bi bideetatik ezagut daitezkeela: arrazoiaren eta fedearen bidez."
+   },
+   {
+    "q": "Zer adierazten du Tomasen «graziak ez du natura suntsitzen» ideiak?",
+    "o": [
+     "Fedeak ez duela arrazoia ezabatzen, betetasunera eramaten baizik.",
+     "Arrazoiak erabat menpekotu behar duela fedearen agintearen aurrean.",
+     "Natura graziak ezabatu behar duen oztopo bat dela.",
+     "Fedea eta arrazoia bi egia independente eta elkarrengandik arrotzak direla."
+    ],
+    "a": 0,
+    "fb": "Formulak haren sintesiaren oreka adierazten du: graziak (fedeak) ez du natura (arrazoia) ezabatzen, perfekzionatu egiten du; horregatik fedeak eta arrazoiak elkarlanean jarduten dute."
+   },
+   {
+    "q": "Zer jarrera hartzen du Tomasek naturaren azterketaren aurrean?",
+    "o": [
+     "Bekatuaren hondakintzat hartzen du, fedearentzat inolako baliorik gabea.",
+     "Ez du fedearen etsaitzat hartzen: arrazoiak bere bidea du mundua aztertzeko.",
+     "Debekatu egiten du, fedeak dena errebelazioaren bidez azaltzen duelako.",
+     "Teologiaz ordezkatzen du, jakintza zilegi bakarraz."
+    ],
+    "a": 1,
+    "fb": "Tomasentzat natura aztertzea ez da fedearen etsaia: arrazoiak bere bidea du eta, esperientziatik abiatuta, ordena, mugimendua eta kausak azter ditzake."
+   },
+   {
+    "q": "Tomasen arabera, zer irismen dute bost bideek?",
+    "o": [
+     "Jainko kristaua bere osotasunean deskribatzen dute, bere misterio guztiekin.",
+     "Beren ondorioa esperientziatik abiatu gabe frogatzen dute, fedetik soilik.",
+     "Lehen printzipio bat ezartzen dute, baina ez Trinitatea edo Enkarnazioa bezalako egiak.",
+     "Errebelazioa eta teologia erabat ordezkatzen dituzte."
+    ],
+    "a": 2,
+    "fb": "Bideek lehen eragile mugiezin batean, lehen kausa batean edo izaki beharrezko batean amaitzen dute, baina Trinitatea edo Enkarnazioa bezalako egiak errebelazioari dagozkio, eta arrazoiak ezin ditu berez frogatu."
+   },
+   {
+    "q": "Tomasen arabera, zertan bereizten dira berak harmonizatzen dituen ezagutzaren bi bideak?",
+    "o": [
+     "Biak errebelaziotik abiatzen dira eta estiloan soilik bereizten dira.",
+     "Lehenengoak egia errebelatua jasotzen du eta bigarrenak arrazoiekin frogatzen du.",
+     "Elkar kontraesaten duten bi egia dira, ezin bateratuzkoak.",
+     "Batek egia arrazionala bilatzen du arrazoiaren bidez; besteak egia errebelatua jasotzen du fedearen bidez."
+    ],
+    "a": 3,
+    "fb": "Tomasen asmoa biak harmonizatzea da: filosofiak egia arrazionala bilatzen du arrazoiaren bidez, eta teologiak egia errebelatua jasotzen du fedearen bidez, elkar ukatu beharrik gabe."
+   },
+   {
+    "q": "Tomasen sintesiaren arabera, zer gertatzen da arrazoibide batek fedea kontraesaten duela badirudi?",
+    "o": [
+     "Gaizki planteatuta dago, egia bakarra delako.",
+     "Bi egia desberdin onartu behar dira, eremu bakoitzarentzat bat.",
+     "Fedeak beti amore eman behar dio arrazoiaren ondorioari.",
+     "Arrazoiak isildu eta argudiatzeari uko egin behar dio."
+    ],
+    "a": 0,
+    "fb": "Tomasentzat arrazoi naturalak eta fedeak ezin dute elkar kontraesan, egia bakarra delako; horregatik itxurazko kontraesan batek arrazoibidean akats bat dagoela erakusten du."
+   },
+   {
+    "q": "Tomasen sintesiaren arabera, zer arrisku dakar fideismoak?",
+    "o": [
+     "Fedea erabat arrazoiaren aginduen menpe jartzea.",
+     "Arrazoia baztertzea eta haren ekarpenari uko egitea.",
+     "Bi egia kontraesankor eta bereizi baieztatzea.",
+     "Naturaz gaindiko egiarik dagoenik ukatzea."
+    ],
+    "a": 1,
+    "fb": "Tomasek adierazten du fideismoak arrazoia baztertzeko arriskua duela, eta arrazionalismo teologikoak, berriz, fedea erabat arrazoiaren menpe jartzekoa; bi muturrak saihestu nahi ditu."
+   },
+   {
+    "q": "Zer defendatzen zuen manikeismoak, Agustinek baztertu zuen doktrinak?",
+    "o": [
+     "Gaizkia ongiaren gabezia edo usteltze hutsa dela.",
+     "Printzipio jainkotiar bakar batek errealitate osoa gobernatzen duela.",
+     "Kontrako bi printzipio, ongia eta gaizkia, ia bi indar kosmiko bezala.",
+     "Giza borondateak ez duela parte hartzen gaizkiaren agerpenean."
+    ],
+    "a": 2,
+    "fb": "Manikeismoak kontrako bi printzipio proposatzen zituen, ongia eta gaizkia, ia bi indar kosmiko bezala; Agustinek ikuspegi hori baztertzen du, haren ustez gaizkia ez delako izaki positiboa, ongiaren gabezia baizik."
+   },
+   {
+    "q": "Ockhamen nominalismoaren arabera, zer dago benetan?",
+    "o": [
+     "Unibertsalak, gauzetatik independentea den errealitatea dutenak.",
+     "Jainkoaren adimenean dauden ideia eredugarriak.",
+     "Gauza singular bakoitzaren barruan dauden forma orokorrak.",
+     "Gizabanakoak bakarrik; kontzeptu orokorrak adimenaren izenak dira."
+    ],
+    "a": 3,
+    "fb": "Ockhamek nabarmentzen du «gizakia» edo «zalditasuna» ez daudela gauzetatik aparte: izenak edo kontzeptu orokorrak dira, eta benetan daudenak gizabanakoak dira."
+   },
+   {
+    "q": "Zer jarrera egozten dio gaiak Avizenari fedearen eta arrazoiaren arteko harremanaren aurrean?",
+    "o": [
+     "«Sinesten dut absurdoa delako»: fedeak ez du arrazoiaren beharrik.",
+     "Fedeak gidatzen du, eta arrazoiak dagoeneko sinetsitakoa ulertzen du.",
+     "Fedea eta arrazoia bereizi egiten dira: arrazoia ez da fedearen egietara iristen.",
+     "Arrazoiak izaki beharrezko bat frogatzen du: metafisika Jainkoa ulertzeko baliatzen da."
+    ],
+    "a": 3,
+    "fb": "Jarreren taulan, Avizenari egozten zaio arrazoiak izaki beharrezko bat frogatzen duela, eta, beraz, metafisika Jainkoa ulertzeko baliatzen dela."
+   },
+   {
+    "q": "Ikasle batek dio «gizateria» berez existitzen dela, pertsona zehatz bakoitzaz gain. Ockhamen arabera, zer erantzungo lioke?",
+    "o": [
+     "Arrazoi duela: pertsonetatik independentea den errealitatea da.",
+     "Ez dagoela pertsona zehatzetatik aparte: izen edo kontzeptu orokor bat da.",
+     "Jainkoaren adimenean dagoen ideia eredugarri bat dela.",
+     "Arazoa ezin dela arrazoiaren bidez ebatzi, fedearen bidez bakarrik."
+    ],
+    "a": 1,
+    "fb": "Ockhamentzat, benetan daudenak gizabanakoak dira; «gizateria» ez dago pertsona zehatzetatik aparte, gure adimenaren eta gure hizkuntzaren izen edo kontzeptu orokor bat baizik."
+   }
+  ]
+ },
+ "hf-t13-repaso": {
+  "name": "Errenazimendua eta iraultza zientifikoa (HF · T13 · errepasoa)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Testuak argitzen du errenazimenduko antropozentrismoa ez dela soilik «gizakia erdigunean jartzea», baizik eta...",
+    "o": [
+     "haren askatasuna, sormena eta erantzukizuna beste modu batera pentsatzea",
+     "bizitza publikoan fedea erabat arrazoiaz ordeztea",
+     "Erdi Aroko kulturaren ondare oro baztertzea",
+     "kosmosa Lurraren inguruan biratzen dela frogatzea"
+    ],
+    "a": 0,
+    "fb": "Testuaren arabera, antropozentrismoa ez da gizakia erdigunean jartzera mugatzen, baizik eta haren askatasuna, sormena eta erantzukizuna beste modu batera pentsatzean datza."
+   },
+   {
+    "q": "Errenazimenduko zein egilek defendatu zuen gizakia gai dela bere patua aukeratzeko?",
+    "o": [
+     "Erasmo Rotterdamgoa",
+     "Pico della Mirandola",
+     "Tomas Moro",
+     "Francis Bacon"
+    ],
+    "a": 1,
+    "fb": "Pico della Mirandolak gizakia bere patua aukeratzeko gai den izaki gisa aurkeztu zuen Gizakiaren duintasunari buruzko hitzaldia lanean (1486)."
+   },
+   {
+    "q": "Nork kritikatu zituen dogmatismoa eta ustelkeria errenazimenduko humanismoan?",
+    "o": [
+     "Pico della Mirandola",
+     "Tomas Moro",
+     "Erasmo Rotterdamgoa",
+     "Nikolas Makiavelo"
+    ],
+    "a": 2,
+    "fb": "Erasmok dogmatismoa eta ustelkeria kritikatu zituen; Picok, berriz, gizakiaren askatasuna defendatu zuen, eta Morek gizarte-desberdintasuna aztertu zuen."
+   },
+   {
+    "q": "Zer lanen bidez aztertu zuen Tomas Morek gizarte-desberdintasuna?",
+    "o": [
+     "Gizakiaren duintasunari buruzko hitzaldia",
+     "Printzea",
+     "Novum Organum",
+     "Utopia"
+    ],
+    "a": 3,
+    "fb": "Tomas Morek gizarte-desberdintasuna Utopia (1516) lanaren bidez aztertu zuen; errenazimenduko humanismoaren lan bereizgarria da."
+   },
+   {
+    "q": "Zer adierazten du «dignitas hominis» latinezko esapideak?",
+    "o": [
+     "Gizakiaren duintasuna, errenazimenduko humanismoaren erdigunea",
+     "Fededunak Idazteunaz egiten duen interpretazio librea",
+     "Agintariaren kemena zoriaren aurrean",
+     "Antzinateko jatorrizko testuetara itzultzea"
+    ],
+    "a": 0,
+    "fb": "«Dignitas hominis» esapideak gizakiaren duintasuna esan nahi du, errenazimenduko humanismoak bere hausnarketaren erdigunean jarri zuena."
+   },
+   {
+    "q": "Zer ekarri zuen humanistek garatutako «kontzientzia historikoak»?",
+    "o": [
+     "Testu klasikoak transmititu ziren bezalaxe errepikatzea",
+     "Antzinako egileak beren benetako testuinguruan eta garaian ulertzea",
+     "Latina eta grekoa herri-hizkuntzez ordeztea",
+     "Platon eta Aristoteles izen trukagarritzat hartzea"
+    ],
+    "a": 1,
+    "fb": "Humanistek egile klasikoak beren benetako testuinguruan ulertu nahi izan zituzten, ez izen huts gisa, eta horregatik garatu zuten kontzientzia historikoa."
+   },
+   {
+    "q": "Zer ekarri zion Keplerrek kosmosaren irudi berriari?",
+    "o": [
+     "Eguzkia sistemaren erdigunean jartzea",
+     "Teleskopioarekin Jupiterren sateliteak behatzea",
+     "Planeten orbita eliptikoak deskribatzea",
+     "Fisika grabitazio unibertsalarekin bateratzea"
+    ],
+    "a": 2,
+    "fb": "Keplerrek planeten orbita eliptikoak deskribatu zituen; heliozentrismoa Kopernikorena da, teleskopioa Galileorena eta grabitazio unibertsala Newtonena."
+   },
+   {
+    "q": "Galileok finkatzen duen fisikan, zer propietate jotzen dira objektiboagotzat?",
+    "o": [
+     "Sentikorrak, zaporea edo kolorea bezala",
+     "Sinbolikoak, kosmosaren helburuei lotuak",
+     "Kualitatiboak, hierarkia naturalari dagozkionak",
+     "Kuantitatiboak, neurgarriak eta kalkulagarriak"
+    ],
+    "a": 3,
+    "fb": "Galileorekin propietate kuantitatiboak sentikorrak (zaporea edo kolorea, adibidez) baino objektiboagotzat jo ziren."
+   },
+   {
+    "q": "Zer sekuentziak laburbiltzen du Galileorekin finkatzen den zientzia modernoaren eredua?",
+    "o": [
+     "Behatu, neurtu, formulatu eta egiaztatu",
+     "Sinetsi, dedukitu, frogatu eta obeditu",
+     "Agertu, interpretatu, predikatu eta zabaldu",
+     "Imitatu, buruz ikasi, errepikatu eta transmititu"
+    ],
+    "a": 0,
+    "fb": "Galileorekin zientzia modernoaren eredua finkatu zen: behatzea, neurtzea, formulatzea eta egiaztatzea."
+   },
+   {
+    "q": "Zer azpimarratu zuen Francis Baconek zientzia modernoaren sorreran?",
+    "o": [
+     "Aristotelesen autoritatea egiaren irizpide gisa",
+     "Esperientziaren eta metodoaren garrantzia",
+     "Matematika hutsen nagusitasuna behaketaren gainetik",
+     "Geozentrismoari eusteko beharra"
+    ],
+    "a": 1,
+    "fb": "Baconek esperientziaren eta metodoaren garrantzia azpimarratu zuen, antzinako autoritatean soilik oinarritzearen aurka."
+   },
+   {
+    "q": "Testuaren arabera, modernitatearen sorrerako lekualdaketetako bat hau da...",
+    "o": [
+     "natura matematizatutik kosmos kualitatibora",
+     "metodotik eta esperimentutik autoritate bakarrera",
+     "interpretazio kritikotik tradiziora",
+     "Jainkoarengandik gizakiaren ekiteko gaitasunera"
+    ],
+    "a": 3,
+    "fb": "Testuak lau lekualdaketa aipatzen ditu, eta horien artean Jainkoarengandik gizakiaren ekiteko gaitasunera doana; gainerako aukerek aldaketaren benetako norabidea alderantzikatzen dute."
+   },
+   {
+    "q": "Testuaren arabera, zer tentsio dator modernitatearen sorrerarekin batera Erreformaren ondoren?",
+    "o": [
+     "Askatasun handiagoa zabaltzen da, baina zatiketa eta gatazka gehiago agertzen dira",
+     "Europa osoa erlijio-agintaritza bakar baten pean bateratzen da",
+     "Konfesioen arteko gatazkak erabat desagertzen dira",
+     "Interpretazioaren arazoa behin betiko alde batera uzten da"
+    ],
+    "a": 0,
+    "fb": "Erreformak askatasun handiagoa zabaldu zuen, baina, aldi berean, zatiketa eta gatazka gehiago ekarri zituen, modernitatearen sorrera gatazkatsuaren parte direnak."
+   },
+   {
+    "q": "Zergatik ez da Errenazimendua Erdi Arotik erabateko etena balitz bezala kontatu behar?",
+    "o": [
+     "Aurreko garaiko erlijioa eta teknika erabat baztertzen dituelako",
+     "Bertan jarraitutasunak eta hausturak batera bizi direlako, elementu nahasiekin",
+     "Antzinate klasikora itzulera berdin-berdina delako",
+     "Erdi Aroko jakintzaren praktika guztiak ukitu gabe uzten dituelako"
+    ],
+    "a": 1,
+    "fb": "Errenazimenduan jarraitutasunak eta hausturak batera bizi dira: erlijioa, magia naturala, teknika, filologia eta zientzia berria nahasian agertzen dira; beraz, ez da eten garbia."
+   },
+   {
+    "q": "Testuaren arabera, Aro Modernoa ez da bat-batean sartzen, baizik eta...",
+    "o": [
+     "Erdi Aroko guztiaren erabateko arbuiotik jaiotzen da",
+     "aurrekaririk gabeko bat-bateko esnatze hutsa da",
+     "Erdi Aroaren barne-krisietatik prestatzen da",
+     "eskolastikaren eskolak aldaketarik gabe errepikatzen ditu"
+    ],
+    "a": 2,
+    "fb": "Aro Modernoa Erdi Aroaren barne-krisietatik prestatzen da, hala nola Ockhamen nominalismotik edo esperientziari ematen zaion gero eta balio handiagotik."
+   },
+   {
+    "q": "Testuaren arabera, zer urrats erabakigarri ematen du Makiavelok modernitatearen sorreran?",
+    "o": [
+     "Politika moral teologikoari lotzea",
+     "Heliozentrismoa defendatzea geozentrismoaren aurrean",
+     "Latin eta greko klasikoak berreskuratzea",
+     "Politika moral teologikoaren mendekotasunetik askatzea"
+    ],
+    "a": 3,
+    "fb": "Makiavelok urrats erabakigarria ematen du politika moral teologikoaren mendekotasunetik askatuz; testuak Errenazimenduko aldaketen artean kokatzen du hori."
+   },
+   {
+    "q": "Galileok finkatzen duen fisikan, nola ulertzen da mugimendua?",
+    "o": [
+     "Egoera natural gisa, ez etengabeko kausa bat eskatzen duen zerbait gisa",
+     "Kualitate sentikor gisa, zaporea edo kolorea bezala",
+     "Helburuen hierarkia bateko sinbolo gisa",
+     "Jainkoaren borondateak gorputzen gainean duenaren froga gisa"
+    ],
+    "a": 0,
+    "fb": "Fisika berriarekin mugimendua egoera natural gisa pentsatu zen, eta inertziaren printzipioak pisua hartu zuen."
+   },
+   {
+    "q": "Testuaren arabera, nola irakurtzen da «naturaren liburua» iraultza zientifikoaren ondoren?",
+    "o": [
+     "Elizak bakarrik interpreta dezakeen testu gisa",
+     "Hizkuntza matematikoan idatzita balego bezala",
+     "Helburu hierarkikoak dituzten sinboloen bilduma gisa",
+     "Giza arrazoiak aztertu ezin duen lan gisa"
+    ],
+    "a": 1,
+    "fb": "Iraultza zientifikoaren ondoren, naturaren liburua hizkuntza matematikoan idatzita balego bezala irakurtzen da."
+   },
+   {
+    "q": "Zer bilatzen zuen humanismoaren «iturrietara» itzultzeak (ad fontes)?",
+    "o": [
+     "Iragana iritsi zen bezalaxe zintzo errepikatzea",
+     "Antzinako testuak erabat alde batera uztea",
+     "Jatorrizko testuak berriro irakurtzea eta autoritatea beste modu batera erabiltzea",
+     "Idazteunaren irakurketa dogmatiko bakarra ezartzea"
+    ],
+    "a": 2,
+    "fb": "Iturrietara itzultzeak ez zuen iragana errepikatu nahi, jatorrizko testuak berriro irakurri eta autoritatea beste modu batera erabili baizik."
+   },
+   {
+    "q": "Zer indartu zuen humanistek iraganarekin zuten harreman zorrotzagoak?",
+    "o": [
+     "Elizaren autoritate bakarra kulturaren gainean",
+     "Geozentrismoa eta Aristotelesen fisika",
+     "Jasotako tradizioaren errepikapen literala",
+     "Hezkuntza, filologia eta pentsamendu kritikoa"
+    ],
+    "a": 3,
+    "fb": "Humanisten jarrerak hezkuntza, filologia eta pentsamendu kritikoa indartu zituen, iturriak modu zorrotzagoan landu zituztelako."
+   }
+  ]
+ },
+ "hf-t14-repaso": {
+  "name": "Arrazionalismoa eta enpirismoa (HF · T14 · errepasoa)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Bere sistema filosofikoa eraikitzen duen bitartean, Descartesek behin-behineko moral bat proposatzen du. Maxima hauetako zein da horren parte?",
+    "o": [
+     "Norberaren herrialdeko legeak eta ohiturak betetzea",
+     "Arau oro zalantzan jartzea ziurtasun ebidente bat aurkitu arte",
+     "Edozein erabaki praktikoren aurrean judizioa etetea",
+     "Pasioen aginduei soilik jarraitzea"
+    ],
+    "a": 0,
+    "fb": "Bere sistema eraikitzen duen bitartean irizpide praktikorik gabe ez geratzeko, Descartesek, lehen maxima gisa, norberaren herrialdeko legeak eta ohiturak betetzea gomendatzen du."
+   },
+   {
+    "q": "Descartesen ezagutzaren egituran, zer eginkizun dute, hurrenez hurren, intuizioak eta dedukzioak?",
+    "o": [
+     "Lehenak zentzumenak aztertzen ditu; bigarrenak, jaiotzetiko ideiak",
+     "Lehenak printzipioak ematen ditu; bigarrenak, ondorioak",
+     "Lehena beti da zalantzagarria; bigarrena, beti zalantzaezina",
+     "Lehena moralari aplikatzen zaio; bigarrena, fisikari"
+    ],
+    "a": 1,
+    "fb": "Intuizioak printzipioen argi intelektual zuzena ematen du, eta dedukzioak haietatik ondorioak ateratzen ditu kate logiko baten bidez."
+   },
+   {
+    "q": "Zein da Descartesek cogitoarekin batera aurkitzen duen ziurtasun-irizpidea?",
+    "o": [
+     "Jakintsu gehienek onartzen dutena da egia",
+     "Esperimentu sentikorrek berresten dutena da egia",
+     "Nahasmenik gabe eta garbitasunez hautematen dena da egia",
+     "Antzinakoen autoritateak agintzen duena da egia"
+    ],
+    "a": 2,
+    "fb": "Cogitoa ziurra da argi eta bereiz hautematen delako; horregatik, Descartesek argitasun eta bereizitasun hori egiaren irizpide orokor bihurtzen du."
+   },
+   {
+    "q": "Zer erantzun ematen dio Malebranchek arimak eta gorputzak elkarren artean nola harremanetan jartzen diren arazoari?",
+    "o": [
+     "Garunean kokatutako organo baten bidez komunikatzen dira",
+     "Ez dago inolako arazorik, substantzia bakarra dagoelako",
+     "Jainkoak hasieratik sinkronizatu zituen, bi erloju bezala",
+     "Jainkoak une bakoitzean dagokion ondorioa sortzen du"
+    ],
+    "a": 3,
+    "fb": "Malebranchek ukatu egiten du substantziek elkarrengan zuzenean eragiten dutenik: haren ustez kausa bakarra Jainkoa da, ondorio bakoitza bere unean sortzen duena."
+   },
+   {
+    "q": "Sistema kartesiarrean, nola definitzen da substantzia?",
+    "o": [
+     "Beste ezeren beharrik gabe existitzen dena",
+     "Zentzumenen bidez atzematen dugun propietatea",
+     "Giza adimena betetzen duten ideien multzoa",
+     "Behatzen ditugun aldaketen kausa ezkutua"
+    ],
+    "a": 0,
+    "fb": "Descartesentzat, substantzia existitzeko beste ezeren beharrik ez duen moduan existitzen dena da; horregatik, Jainkoa da substantzia bikaina."
+   },
+   {
+    "q": "XVII. mendeko egile batek natura osoa hedaduraren, irudiaren eta mugimenduaren bidez azaltzen du, helburuetara edo indar ezkutuetara jo gabe. Zer ikuskera defendatzen ari da?",
+    "o": [
+     "Innatismoa",
+     "Mekanizismoa",
+     "Okasionalismoa",
+     "Emotibismoa"
+    ],
+    "a": 1,
+    "fb": "Natura materiara eta mugimendura murrizte hori, forma substantzialik eta azken kausarik gabe, Descartesen fisika inspiratzen duen mekanizismoa da, hain zuzen."
+   },
+   {
+    "q": "Cogitoak aurrekari zuzena du Agustin Hiponakoaren formula batean. Zein da?",
+    "o": [
+     "Jainkoa, hau da, Natura",
+     "Ezagutu zeure burua",
+     "Oker banago, existitzen naiz",
+     "Ezer ez dakidala baino ez dakit"
+    ],
+    "a": 2,
+    "fb": "Agustinek si fallor, sum idatzi zuen («engainatzen banaiz, existitzen naiz»): zalantza eginda edo oker egonda ere, subjektuak ezin du bere izatea ukatu; Descartesek ideia hori muturreraino eramaten du cogitoan."
+   },
+   {
+    "q": "Ikasle batek sirena bat irudikatzen du emakume baten irudia arrain batenarekin batuz. Descartesentzat, zer ideia mota da hori?",
+    "o": [
+     "Ideia adbentizio bat",
+     "Jaiotzetiko ideia bat",
+     "Ideia sinple bat",
+     "Ideia faktizio bat"
+    ],
+    "a": 3,
+    "fb": "Ideia faktizioak adimenak berak beste batzuk konbinatuz eraikitzen dituenak dira, sirena edo zaldi hegaduna bezala; ez datoz kanpotik, eta arrazoiak ez ditu berez."
+   },
+   {
+    "q": "Humerentzat, zer da benetan substantziaren ideia?",
+    "o": [
+     "Jatorri duen inpresio argirik ez duen kontzeptu bat",
+     "Gainerako guztiari eusten dion oinarrizko errealitatea",
+     "Giza arrazoiaren jaiotzetiko printzipio bat",
+     "Materiaren oinarri beharrezkoa"
+    ],
+    "a": 0,
+    "fb": "Humerentzat kontzeptu bakoitza zer inpresiotatik datorren galdetu behar da; substantziak ez du oinarri zuzenik esperientzian, eta, beraz, kontzeptu susmagarria da, ni iraunkorra bezala, pertzepzio-sorta bat besterik ez baita."
+   },
+   {
+    "q": "Descartesek jakintza zuhaitz batekin konparatzen du. Irudi horretan, zer adierazten dute sustraiek?",
+    "o": [
+     "Fisika",
+     "Metafisika",
+     "Morala",
+     "Medikuntza"
+    ],
+    "a": 1,
+    "fb": "Jakintzaren zuhaitzean, sustraiak metafisika dira, enborra fisika, eta adarrak zientzia partikularrak, hala nola medikuntza, mekanika edo morala."
+   },
+   {
+    "q": "Descartesen arabera, nola tratatu behar dira pasioak kaltegarriak izan ez daitezen?",
+    "o": [
+     "Arimatik erabat errotik atera behar dira",
+     "Tradizioaren autoritatearen mende jarri behar dira",
+     "Arrazoiaren gidaritzapean jarri behar dira",
+     "Beren berezko bidean utzi behar dira, galgarik gabe"
+    ],
+    "a": 2,
+    "fb": "Pasioak ez dira berez onak ez txarrak; Descartesentzat haien arriskua saihesten da arrazoiaren gidaritzapean jarriz."
+   },
+   {
+    "q": "Zer dira, Leibnizentzat, monadak?",
+    "o": [
+     "Ziurtasuna lortzeko metodoaren arauak",
+     "Giza adimenaren jaiotzetiko ideiak",
+     "Substantziaren hiru maila kartesiarrak",
+     "Substantzia sinpleak, aktiboak eta zatiezinak"
+    ],
+    "a": 3,
+    "fb": "Leibnizek errealitatea monada infinituz osatua ikusten du: substantzia sinpleak, aktiboak eta zatiezinak, kanpotik eraginik jasotzen ez dutenak."
+   },
+   {
+    "q": "Zertan bereizten da Descartesen zalantza eszeptikoarenetik?",
+    "o": [
+     "Descartesengan bitarteko bat da; eszeptikoarengan, helburu bat",
+     "Descartesengan behin betikoa da; eszeptikoarengan, behin-behinekoa",
+     "Descartesengan zentzumenetatik abiatzen da; eszeptikoarengan, arrazoitik",
+     "Descartesengan moralari eragiten dio; eszeptikoarengan, fisikari"
+    ],
+    "a": 0,
+    "fb": "Zalantza kartesiarra metodikoa da: oinarri sendo bat aurkitzeko tresna da. Eszeptikoarentzat, aldiz, judizioaren etenaldia da dagoeneko bere ondorioa."
+   },
+   {
+    "q": "Descartesengan, zer tradiziotatik dator jakintza kanpotik ez datorrela, arimak barruan daramala, dioen uste sendoa?",
+    "o": [
+     "Locken enpirismotik",
+     "Platonen anamnesitik",
+     "Malebrancheren okasionalismotik",
+     "Hobbesen materialismotik"
+    ],
+    "a": 1,
+    "fb": "Platonek zioen arimak lehendik zekiena gogoratzen duela (anamnesia); hortik dator Descartesengan arrazoiak egiak ez dituela zentzumenetatik jasotzen dioen ideia."
+   },
+   {
+    "q": "Zer helbururekin sartzen du Descartesek jeinu gaizto baten hipotesia?",
+    "o": [
+     "Izaki ahaltsu eta gaizto bat existitzen dela frogatzeko",
+     "Matematiken fidagarritasuna frogatzeko",
+     "Zalantza muturreraino eramateko eta zerk eusten dion ikusteko",
+     "Erlijioari obeditzea justifikatzeko"
+    ],
+    "a": 2,
+    "fb": "Jeinu gaiztoa ez da Descartesen tesi bat, esperimentu teoriko bat baizik: zalantza gehienera eramatea, zalantzaezina den zerbait geratzen den egiaztatzeko."
+   },
+   {
+    "q": "Descartesen metodoaren bigarren arauak, analisiak, hau agintzen du...",
+    "o": [
+     "Argi eta bereiz agertzen dena soilik onartzea",
+     "Pentsamendua sinpletik konplexura gidatzea",
+     "Zenbaketa osoak egitea ezer ez ahazteko",
+     "Arazo bakoitza bere zatirik txikienetan banatzea"
+    ],
+    "a": 3,
+    "fb": "Analisiak zailtasun bakoitza bere zatirik txikienetan deskonposatzea agintzen du; beste aukerak ebidentziari, sintesiari eta berrikuspenari dagozkie."
+   },
+   {
+    "q": "Zertan oinarritzen da Descartesek Jainkoa frogatzeko erabiltzen duen kausalitatearen argudioa?",
+    "o": [
+     "Finituak ezin duela infinituaren ideia sortu",
+     "Existentzia izaki perfektuaren perfekzio bat dela",
+     "Munduaren ordenak hura egingo duen artisau bat eskatzen duela",
+     "Herri guztiek jainkoren batean sinetsi dutela"
+    ],
+    "a": 0,
+    "fb": "Jainkoaren ideiak errealitate infinitua du, eta izaki finitu batek ezin du hura sortu; horregatik, izaki infinitu batek jarri behar izan du nigan."
+   },
+   {
+    "q": "Humeren arabera, zerk bereizten ditu inpresioak ideietatik?",
+    "o": [
+     "Haien jatorri matematikoak edo esperimentalak",
+     "Haien indar- eta bizitasun-mailak",
+     "Haien izaera beharrezkoak edo kontingenteak",
+     "Haien funtzio moralak edo teorikoak"
+    ],
+    "a": 1,
+    "fb": "Inpresioak pertzepzio bizi eta zuzenak dira; ideiak, haien kopia ahulagoak. Haiek bereizten dituena, hain zuzen, indarra eta bizitasuna da."
+   },
+   {
+    "q": "Zergatik dio Descartesek cogitoa ez dela silogismo luze baten ondorioa?",
+    "o": [
+     "Zentzumenen esperientzian oinarritzen delako",
+     "Antzinakoen autoritatearen menpe dagoelako",
+     "Pentsatzen ari denaren intuizio zuzena delako",
+     "Arrazoibide dedukzio oso luzea eskatzen duelako"
+    ],
+    "a": 2,
+    "fb": "Cogitoa ez da premisa orokor batetik abiatzen kasu bati aplikatzeko: intuizio zuzena da, zalantza egiten duenak ezin baitu bere pentsatzea ukatu pentsatzen ari den bitartean."
+   },
+   {
+    "q": "Descartesen errealitatearen egituran, zer da res infinita?",
+    "o": [
+     "Nia osatzen duen substantzia pentsatzailea",
+     "Gorputzak osatzen dituen substantzia hedatua",
+     "Arimaren eta gorputzaren arteko lotune-puntua",
+     "Substantzia jainkotiarra, ezeren menpe ez dagoena"
+    ],
+    "a": 3,
+    "fb": "Res infinita Jainkoa da, bere existentzia beste ezeren menpe ez duen substantzia infinitua; harengandik bereizten dira res cogitans eta res extensa."
+   }
+  ]
+ },
+ "hf-t15-repaso": {
+  "name": "Dualismoa eta materialismoa (HF · T15 · errepasoa)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Gai honetako terminoen taularen arabera, zerk ezaugarritzen du errealitatearen azken oinarria metafisika modernoan?",
+    "o": [
+     "Bere kabuz existitu ahal izateak, beste ezeren beharrik gabe",
+     "Jainkoak adimenean grabatutako jaiotzetiko ideia bat izateak",
+     "Objektuen bigarren mailako kualitate bat izateak",
+     "Natura bakarraren modu zehatz bat izateak"
+    ],
+    "a": 0,
+    "fb": "Substantzia bere kabuz existitzen dena da, eta gainerako gauzen azken oinarri gisa balio du."
+   },
+   {
+    "q": "Nola azaltzen du natura ikuspegi mekanizistak, azalpen teleologiko zaharren aurrean?",
+    "o": [
+     "Helburuek eta asmoek gobernatutako mundu gisa",
+     "Gorputzen, mugimenduaren eta lege matematikoen bidez azaldutako mundu gisa",
+     "Gertaera bakoitzean Jainkoaren esku-hartzeak gobernatutako mundu gisa",
+     "Hautemandako ideia hutsetara murriztutako mundu gisa"
+    ],
+    "a": 1,
+    "fb": "Mekanizismoak natura gorputzen, mugimenduaren eta lege matematikoen bidez azaltzen du, eta azalpen teleologiko zaharrak baztertzen ditu."
+   },
+   {
+    "q": "Zer forma ematen dio Spinozak bere Etikari, bere sistema aurkezteko?",
+    "o": [
+     "Hainbat pertsonaia eztabaidan ari diren elkarrizketa bat",
+     "Esperimentuetan eta behaketetan oinarritutako tratatu bat",
+     "Definizioen, axiomen eta frogapenen kate bat",
+     "Arau moralen eta aholkuen bilduma bat"
+    ],
+    "a": 2,
+    "fb": "Spinozak Etika metodo geometrikoaz idazten du, definizio, axioma, proposizio eta frogapenen bidez."
+   },
+   {
+    "q": "Spinozaren arabera, nola ulertu behar da Jainkoa?",
+    "o": [
+     "Mundutik kanpo esku hartzen duen sortzaile gisa",
+     "Hedadurarekin batera dagoen substantzia finitu gisa",
+     "Ideien egiaren kanpoko berme gisa",
+     "Errealitate osoaren barneko ordena beharrezko gisa"
+    ],
+    "a": 3,
+    "fb": "Spinozarentzat, Jainkoa ez da mundutik kanpoko sortzaile antropomorfiko bat, errealitate osoaren barneko ordena beharrezkoa baizik."
+   },
+   {
+    "q": "Nola saihesten du Spinozak arimaren eta gorputzaren arteko elkarreraginaren arazoa?",
+    "o": [
+     "Biak errealitate beraren bi adierazpen paralelo bihurtuz",
+     "Elkar ukitzen ez duten bi substantziatan bereiziz",
+     "Aldi bakoitzean Jainkoari koordinatzeko eskatuz",
+     "Gorputzaren existentzia errealitate gisa ukatuz"
+    ],
+    "a": 0,
+    "fb": "Spinozak dio arimak eta gorputzak ez dutela elkarreragin misteriotsurik behar, errealitate beraren bi adierazpen paralelo direlako."
+   },
+   {
+    "q": "Nola deskribatzen du Lockek adimena jaiotzen garen unean?",
+    "o": [
+     "Jaiotzetiko ideiaz betetako biltegi gisa",
+     "Esperientziak pixkanaka betetzen duen orri zuri gisa",
+     "Jada osatuta dagoen substantzia pentsatzaile gisa",
+     "Aldez aurretiko printzipio logikoen multzo gisa"
+    ],
+    "a": 1,
+    "fb": "Lockek dio jaiotzean adimena tabula rasa dela, esperientziak idazten duen orri zuri bat."
+   },
+   {
+    "q": "Zer argudio erabiltzen du Lockek jaiotzetiko ideiak ukatzeko?",
+    "o": [
+     "Arrazoia dela jakintzaren iturri seguru bakarra",
+     "Jainkoak zuzenean bermatzen dituela",
+     "Ez dagoela haiei buruzko adostasun unibertsalik",
+     "Irudimenak esperientziarik gabe fabrikatzen dituela"
+    ],
+    "a": 2,
+    "fb": "Lockek jaiotzetiko ideiak ukatzen ditu adostasun unibertsalik ez dagoela adieraziz: haurrek eta beste herri batzuek ez dituzte."
+   },
+   {
+    "q": "Lockeren arabera, zer bi iturritatik dator adimenaren eduki guztia?",
+    "o": [
+     "Arrazoitik eta fedetik",
+     "Oroimenetik eta irudimenetik",
+     "Intuiziotik eta dedukziotik",
+     "Sentsaziotik eta hausnarketatik"
+    ],
+    "a": 3,
+    "fb": "Esperientziaren bi iturriak sentsazioa (kanpoko mundua) eta hausnarketa (adimenaren barne-eragiketak) dira."
+   },
+   {
+    "q": "Zer egiteko du adimenak ideia soil baten aurrean eta ideia konplexu baten aurrean, hurrenez hurren?",
+    "o": [
+     "Pasiboa soilaren aurrean eta aktiboa konplexuaren aurrean",
+     "Aktiboa soilaren aurrean eta pasiboa konplexuaren aurrean",
+     "Pasiboa bi kasuetan",
+     "Aktiboa bi kasuetan"
+    ],
+    "a": 0,
+    "fb": "Adimenak ideia soilak pasiboki jasotzen ditu, eta konplexuak aktiboki eraikitzen ditu, konbinatuz, alderatuz eta abstrahituz."
+   },
+   {
+    "q": "Non kokatzen ditu Lockek kolorea, soinua edo beroa bezalako kualitateak?",
+    "o": [
+     "Objektuan bertan, hautematen dugun bezala",
+     "Gure pertzepzioan, efektu subjektibo gisa",
+     "Substantzia pentsatzailean, jaiotzetiko ideia gisa",
+     "Naturan, propietate objektibo gisa"
+    ],
+    "a": 1,
+    "fb": "Bigarren mailako kualitateak ez daude objektuan, gure pertzepzioan baizik; gure zentzumenetan sortzen diren efektuak dira."
+   },
+   {
+    "q": "Lockeren arabera, propietate hauetatik zein litzateke lehen mailako kualitate bat?",
+    "o": [
+     "Horma baten zuritasuna",
+     "Arrosa baten usaina",
+     "Mahai baten hedadura",
+     "Izotzaren hotza"
+    ],
+    "a": 2,
+    "fb": "Hedadura lehen mailako kualitate bat da, objektuak berak bere baitan duen propietate objektiboa, kolorea edo usaina ez bezala."
+   },
+   {
+    "q": "Lockeren ezagutzaren hiru mailetatik, zein da seguruena eta zein ziurtasun txikienekoa?",
+    "o": [
+     "Sentsitiboa da seguruena eta intuitiboa ziurtasun txikienekoa",
+     "Demostratiboa da seguruena eta sentsitiboa ziurtasun txikienekoa",
+     "Intuitiboa da seguruena eta demostratiboa ziurtasun txikienekoa",
+     "Intuitiboa da seguruena eta sentsitiboa ziurtasun txikienekoa"
+    ],
+    "a": 3,
+    "fb": "Lockek ezagutza intuitiboa (berehalakoa eta seguruena), demostratiboa eta sentsitiboa (ziurtasun txikienekoa) bereizten ditu."
+   },
+   {
+    "q": "Zer ondorio erradikal ateratzen du Berkeleyk enpirismotik?",
+    "o": [
+     "Materia ez dela substantzia independente gisa existitzen",
+     "Ezagutza matematikoa jaiotzetikoa dela",
+     "Arima substantzia materiala dela",
+     "Materia eta mugimendua baino ez daudela"
+    ],
+    "a": 0,
+    "fb": "Berkeleyk inmaterialismoa defendatzen du: existitzen direnak hautemandako ideiak eta haiek hautematen dituzten adimenak dira, ez materia."
+   },
+   {
+    "q": "Lockeren filosofia politikoan, nondik dator gobernuaren boterea?",
+    "o": [
+     "Dinastiaren herentziatik",
+     "Herriaren adostasunetik",
+     "Monarkaren jainkozko eskubidetik",
+     "Estatuaren indar militarretik"
+    ],
+    "a": 1,
+    "fb": "Lockerentzat gobernuaren boterea mugatua da, eta herriaren adostasunetik dator; herriak bere oinarrizko eskubide naturalak gordetzen ditu."
+   },
+   {
+    "q": "Nola ulertzen du Lockek naturazko egoera, Hobbesekin alderatuta?",
+    "o": [
+     "Guztien guztien aurkako gerra gisa",
+     "Elizak ezarritako ordena gisa",
+     "Izaki arrazoidunen arteko bake erlatibo gisa",
+     "Inolako eskubide naturalik gabeko kaos gisa"
+    ],
+    "a": 2,
+    "fb": "Lockek naturazko egoera baketsu eta arrazoizkoa irudikatzen du, Hobbesek deskribatzen duen «guztien guztien aurkako gerra»ren aurrean."
+   },
+   {
+    "q": "Arazo metafisiko modernoari emandako hiru erantzun handiei buruz, baieztapen hauetatik zein da zuzena?",
+    "o": [
+     "Monismoak errealitate bakarra defendatzen du, eta pentsamendua eta gorputza haren adierazpenak dira",
+     "Materialismoak pentsamendua eta hedadura bi eremutan bereizten ditu",
+     "Dualismoak erreala den guztia materiara eta mugimendura murrizten du",
+     "Hirurak bat datoz materia bakarrik dagoela esatean"
+    ],
+    "a": 0,
+    "fb": "Monismoaren arabera errealitate bakarra dago, eta pentsamendua eta gorputza haren adierazpen edo ikuspegi desberdinak dira."
+   },
+   {
+    "q": "Lockek defendatutako erlijio-tolerantziari buruz, baieztapen hauetatik zein da zuzena?",
+    "o": [
+     "Estatuak erlijio egiazkoa ezarri behar du",
+     "Erlijioak botere politikoa gobernatu behar du",
+     "Estatuak ez die hiritarrei erlijiorik ezarri behar",
+     "Tolerantziak sinesmen oro ezabatzera behartzen du"
+    ],
+    "a": 2,
+    "fb": "Lockek erlijio-tolerantzia defendatzen du: Estatuak ez du erlijiorik ezarri behar, nahiz eta tolerantziari muga batzuk jartzen dizkion."
+   },
+   {
+    "q": "Ikasle batek bereizi egiten ditu kanpotik iristen zaiona eta bere adimenaren barrura begiratuz jasotzen duena. Lockeren zer bi iturriri dagozkie?",
+    "o": [
+     "Intuizioari eta dedukzioari",
+     "Oroimenari eta irudimenari",
+     "Jaiotzetiko ideiei eta ideia abentizioei",
+     "Sentsazioari eta hausnarketari"
+    ],
+    "a": 3,
+    "fb": "Sentsazioak kanpoko munduko ideiak dakartza zentzumenen bidez; hausnarketa adimenaren barne-eragiketen kontzientzia da."
+   }
+  ]
+ },
+ "hf-t16-repaso": {
+  "name": "Gizartea eta boterea: gizarte-kontratua (HF · T16 · errepasoa)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Unitate honen arabera, zer behar du botere batek legitimoa izateko?",
+    "o": [
+     "Jatorri natural edo jainkozko bat",
+     "Segurtasuna, eskubideak eta adostasuna",
+     "Ahalik eta indar eraginkorrena",
+     "Antzinatik datorren ohitura bat"
+    ],
+    "a": 1,
+    "fb": "Botere legitimoa agintzeko arrazoi publikoa duena da; horretarako, segurtasuna, eskubideak eta adostasuna behar ditu."
+   },
+   {
+    "q": "«Zoon politikón» ideia, gizakia izaeraz soziala dela dioena, honi egozten zaio...",
+    "o": [
+     "Makiavelo",
+     "Hobbes",
+     "Aristoteles",
+     "Rousseau"
+    ],
+    "a": 2,
+    "fb": "Aristotelesek esan zuen gizakia izaeraz soziala dela; kontraktualista modernoek ideia horrekin hausten dute."
+   },
+   {
+    "q": "Zer pentsalariri zor zaio botereak boterea geldiarazi behar duela, botereen banaketaren bidez, dioen intuizioa?",
+    "o": [
+     "Hobbes",
+     "Locke",
+     "Rousseau",
+     "Montesquieu"
+    ],
+    "a": 3,
+    "fb": "Montesquieuk laburbiltzen du ideia hori: botere legegilea, betearazlea eta judiziala bereiztea askatasun politikoaren baldintza da."
+   },
+   {
+    "q": "Hobbesen arabera, zer gertatzen da botere komun indartsurik ez badago?",
+    "o": [
+     "Hitzak hutsik geratzen dira eta legeak ez du inor behartzen",
+     "Legea bere kabuz bihurtzen da zuzenago",
+     "Gizabanakoek modu naturalean lankidetzan aritzen dira",
+     "Gizarteak azkenean bakea lortzen du"
+    ],
+    "a": 0,
+    "fb": "Hobbesek dio botere komun indartsurik gabe hitzak hutsik gera daitezkeela eta legeak indarrik ez duela; horregatik da beharrezkoa Leviatana."
+   },
+   {
+    "q": "Gaiaren arabera, zein da Hobbesen ereduaren arrisku nagusia?",
+    "o": [
+     "Legea ezartzeko indarra falta izatea",
+     "Botereak dena irenstea azkenean",
+     "Hiritarrek obeditzeari uztea",
+     "Jabetza babesik gabe geratzea"
+    ],
+    "a": 1,
+    "fb": "Hobbesen ekarpena indarra da; haren arriskua, botereak dena irenstea."
+   },
+   {
+    "q": "Lockeren arabera, zer zeregin du gobernuak eskubide naturalekiko?",
+    "o": [
+     "Sortu eta nahierara banatzen ditu",
+     "Haien jabe legitimo gisa ditu",
+     "Zaindari gisa babesten ditu, ez jabe gisa",
+     "Botere absolutu bati transferitzen dizkio"
+    ],
+    "a": 2,
+    "fb": "Lockerentzat gobernua ez da eskubideen jabea, haien zaindaria baizik: bizitza, askatasuna eta jabetza babestu behar ditu."
+   },
+   {
+    "q": "Lockeren arabera, noiz galtzen du gobernuak bere legitimitatea?",
+    "o": [
+     "Denbora luzea daramanean gobernatzen",
+     "Gehiengoaren aldekotasuna galtzen duenean",
+     "Herriak hari beldur izateari uzten dionean",
+     "Babestu behar dituen eskubideak urratzen dituenean"
+    ],
+    "a": 3,
+    "fb": "Gobernuak bizitza, askatasuna eta jabetza babesteko helburua hausten badu, legitimitatea galtzen du."
+   },
+   {
+    "q": "Rousseaurentzat, non dago subiranotasuna?",
+    "o": [
+     "Herrian",
+     "Hautatutako agintarian",
+     "Botere absolutu batean",
+     "Arbitro neutral batean"
+    ],
+    "a": 0,
+    "fb": "Rousseaurengan subiranotasuna herrian dago: herri-subiranotasuna da, eta ez da eskuordetzen."
+   },
+   {
+    "q": "Zertarako erabiltzen dute kontraktualistek naturazko egoera?",
+    "o": [
+     "Egiaztatutako gertaera historiko bat kontatzeko",
+     "Boterea zergatik behar den pentsatzeko esperimentu gisa",
+     "Lehen gizakien bizitza deskribatzeko",
+     "Gizartearen jainkozko jatorria oinarritzeko"
+    ],
+    "a": 1,
+    "fb": "Naturazko egoera ez da historia, esperimentu filosofiko bat baizik: hortik ikusten da zergatik behar den boterea eta zergatik den arriskutsua gehiegi hazten denean."
+   },
+   {
+    "q": "Unitate honen arabera, zer egin behar du botereak inposizio hutsa ez izateko?",
+    "o": [
+     "Bere indarra kontrolik gabe biderkatu",
+     "Jainkozko jatorri batean oinarritu",
+     "Zerbait babestu eta muga jakin batzuk onartu",
+     "Baldintzarik gabeko obedientzia eskatu"
+    ],
+    "a": 2,
+    "fb": "Boterea ez da legitimoa berez: zerbait babestu eta muga jakin batzuk onartu behar ditu."
+   },
+   {
+    "q": "Segurtasunaren izenean askatasunak mugatzen dituen neurri baten aurrean, zer komeni da galdetzea gaiaren azken irizpidearen arabera?",
+    "o": [
+     "Neurria gehiengoaren gustukoa den",
+     "Agintariak beharrezkotzat jotzen duen",
+     "Alternatiba baino merkeagoa den",
+     "Zer egoeratan geratzen diren eskubideak eta kontrolak"
+    ],
+    "a": 3,
+    "fb": "Azken irizpidea ez da soilik nork agintzen duen, baizik eta aginteak justifikazio publikoa, babes eraginkorra eta kontrol partekatua dituen; horregatik begiratu behar da zer gertatzen den eskubideekin eta kontrolekin."
+   },
+   {
+    "q": "Zertan bereizten da borondate orokorra interes partikularren baturatik?",
+    "o": [
+     "Komunitatearen ongi komuna bilatzen du",
+     "Beti bat dator gehiengoak eskatzen duenarekin",
+     "Gizabanako bakoitzaren nahia adierazten du",
+     "Agintariaren erabakiaren mende dago"
+    ],
+    "a": 0,
+    "fb": "Borondate orokorra ez da interes partikularren batura, interes komuna baizik."
+   },
+   {
+    "q": "Zerk bereizten du Makiavelo haren ondorengo kontraktualistengandik?",
+    "o": [
+     "Itun bat sinatzen du subiranoaren boterea mugatzeko",
+     "Boterea den bezala deskribatzen du, justifikatzera iritsi gabe",
+     "Boterearen jatorria adostasunean kokatzen du",
+     "Botereen banaketa defendatzen du gehiegikerien aurka"
+    ],
+    "a": 1,
+    "fb": "Makiavelok boterea den bezala deskribatzen du, baina oraindik ez du boterea justifikatuko duen kontraturik bilatzen; galdera hori geroago irekiko dute kontraktualistek."
+   },
+   {
+    "q": "Modernitate politikoaren zer tentsio nagusi erakusten dute Hobbesen, Lockeren eta Rousseauren ereduek?",
+    "o": [
+     "Morala erlijiotik bereizten duena",
+     "Lana eta kapitala kontrajartzen dituena",
+     "Segurtasuna eta askatasuna aurrez aurre jartzen dituena",
+     "Naturala jainkozkotik bereizten duena"
+    ],
+    "a": 2,
+    "fb": "Hobbesek ordena lehenesten du, Lockek eskubideak eta Rousseauk askatasun zibila; elkarrekin, segurtasunaren eta askatasunaren, jabetzaren eta berdintasunaren, ordezkaritzaren eta parte-hartzearen arteko tentsioa erakusten dute."
+   },
+   {
+    "q": "Lockeren arabera, zein da legearen helburua?",
+    "o": [
+     "Askatasuna deuseztatzea ordena ezartzeko",
+     "Agintarien askatasuna murriztea",
+     "Askatasuna segurtasunaz ordeztea",
+     "Askatasuna gordetzea eta zabaltzea"
+    ],
+    "a": 3,
+    "fb": "Lockek dio legearen helburua ez dela askatasuna deuseztatzea edo murriztea, hura gordetzea eta zabaltzea baizik."
+   },
+   {
+    "q": "Eskakizun hauetatik zein da boterearen legitimitate-probaren parte?",
+    "o": [
+     "Adostasuna, eskubideen babesa eta kontrol instituzionala",
+     "Indarra nahikoa izatea obedientzia justifikatzeko",
+     "Segurtasuna beti askatasunaren gainetik egotea",
+     "Boterea bere buruaren epaile izatea"
+    ],
+    "a": 0,
+    "fb": "Legitimitate-probak adostasuna jatorrian, eskubideen babesa eta kontrol instituzionala eskatzen ditu; kontrakoak erantzun okerrak dira."
+   },
+   {
+    "q": "Modernitatean, Erdi Aroarekin alderatuta, zertara lekualdatzen da boterearen justifikazioa?",
+    "o": [
+     "Hierarkia erlijioso eta teologikora",
+     "Adostasunera, eskubideetara eta herriaren borondatera",
+     "Gauzen ordena natural eta aldaezinera",
+     "Eztabaidarik gabe transmititutako ohiturara"
+    ],
+    "a": 1,
+    "fb": "Modernitatean boterearen justifikazioa adostasunera, eskubideetara, segurtasunera eta herriaren borondatera lekualdatzen da."
+   },
+   {
+    "q": "Nork idatzi zuen «Leviatana» (1651), subirano absolutu bat defendatzen duen obra?",
+    "o": [
+     "Locke",
+     "Rousseau",
+     "Hobbes",
+     "Makiavelo"
+    ],
+    "a": 2,
+    "fb": "Thomas Hobbesek idatzi zuen Leviatana (1651); bertan, gizabanakoek beren botere guztia subirano absolutu bati lagatzen diote."
+   },
+   {
+    "q": "Zer jarrera hartzen du Montesquieuk kontraktualistekiko?",
+    "o": [
+     "Ez du itun batetik abiatzen, baina gehiegikeriak nola geldiarazi bilatzen du",
+     "Itun bat sinatzen du, Hobbesek, Lockek eta Rousseauk bezala",
+     "Ukatu egiten du boterea mugatu behar denik",
+     "Naturazko egoera ideal gisa defendatzen du"
+    ],
+    "a": 0,
+    "fb": "Montesquieu ez da kontratu batetik abiatzen, baina haiekin bat egiten du boterearen gehiegikeriak nola geldiarazi pentsatuz."
+   }
+  ]
+ },
+ "hf-t17-repaso": {
+  "name": "Utilitarismoa eta liberalismoa (HF · T17 · errepasoa)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Nork egin zuen ospetsu «zoriontasunik handiena kopururik handienarentzat» formula?",
+    "o": [
+     "Jeremy Bentham",
+     "John Stuart Mill",
+     "Adam Smith",
+     "John Locke"
+    ],
+    "a": 0,
+    "fb": "Benthamek egin zuen ospetsu formula hori, zuzena eta okerra neurtzeko irizpide gisa; Millek geroago jaso zuen zoriontasun handienaren printzipio gisa."
+   },
+   {
+    "q": "Baieztapen hauetatik zeinek deskribatzen du liberalismoaren ikuspegi antropologikoa, gaiaren arabera?",
+    "o": [
+     "Gizakia izaeraz ona da, eta gizarteak usteltzen du.",
+     "Gizakia batez ere interes berekoiek mugitzen dute.",
+     "Gizakia hirian bakarrik gauzatzen da animalia politiko gisa.",
+     "Gizakia izaeraz lankidea eta solidarioa da."
+    ],
+    "a": 1,
+    "fb": "Liberalismoa mugimendu laiko eta enpirista da, ikuspegi ezkorrekoa: gizakia, batez ere, interes berekoiek mugitzen dutela uste du."
+   },
+   {
+    "q": "Liberalismoaren planoen eskeman, zer planok jorratzen ditu jabetza eta truke askea?",
+    "o": [
+     "Politikoak",
+     "Utilitaristak",
+     "Ekonomikoak",
+     "Kooperatiboak"
+    ],
+    "a": 2,
+    "fb": "Plano ekonomikoak jabetza eta truke askea defendatzen ditu; politikoak, eskubideak eta botere mugatua."
+   },
+   {
+    "q": "Estatuak ahalik eta gutxien esku hartzea defendatzen badu ere, zer zeregin gordetzen dizkio Adam Smithek?",
+    "o": [
+     "Osasuna, hezkuntza eta pentsioak",
+     "Prezioak, soldatak eta kanpo-merkataritza",
+     "Morala, erlijioa eta kultura",
+     "Defentsa, justizia eta herri-lanak"
+    ],
+    "a": 3,
+    "fb": "Smithek defentsa, justizia eta herri-lanak gordetzen dizkio Estatuari; gainerakoa merkatuaren esku utzi behar da."
+   },
+   {
+    "q": "Gaiaren arabera, zer behar du merkatuak, lehiaz gain, funtzionatzeko?",
+    "o": [
+     "Konfiantza, arau moralak eta lankidetza",
+     "Prezio guztiak finkatuko dituen agintaritza bat",
+     "Arauketa oro ezabatzea",
+     "Gizabanakoak isolatzea"
+    ],
+    "a": 0,
+    "fb": "Merkatuak aukerak sor ditzake, baina konfiantza, arau moralak eta lankidetza behar ditu; ez da lehiaren mekanika hutsa."
+   },
+   {
+    "q": "Ikasle batek hezkuntzarako eskubidea aitortua du, baina ezin ditu materialak ordaindu eta ikasketak uzten ditu. Liberalismo politikoaren zer muga erakusten du kasu honek?",
+    "o": [
+     "Estatuak ongiaren ideia bakarra ezarri behar duela.",
+     "Askatasun juridikoak ez duela berez berdintasun materiala sortzen.",
+     "Soziabilitatea aukeratua dela eta ez naturala.",
+     "Kaltearen printzipioak edozein jokabide murrizteko aukera ematen duela."
+    ],
+    "a": 1,
+    "fb": "Eskubide bat izateak ez du beti esan nahi benetako aukera izatea: askatasun juridikoak ez du berez berdintasun materiala sortzen."
+   },
+   {
+    "q": "Zer obratan ulertzen du Adam Smithek gizakia sinpatiaren eta harreman sozialen bidez?",
+    "o": [
+     "Nazioen aberastasuna",
+     "Askatasunaz",
+     "Sentimendu moralen teoria",
+     "Gizarte-kontratua"
+    ],
+    "a": 2,
+    "fb": "Sentimendu moralen teorian (1759) Smithek gizakia sinpatiaren, onespenaren eta harreman sozialen bidez azaltzen du, merkatuaz haratago."
+   },
+   {
+    "q": "Benthamen arabera, zer egin beharko lukete moralak eta legeek, tradizioa errepikatzera mugatu beharrean?",
+    "o": [
+     "Ondorioak aztertu",
+     "Antzinako ohiturak kopiatu",
+     "Agintaritza erlijiosoari obeditu",
+     "Arauak deduzitu emaitzei begiratu gabe"
+    ],
+    "a": 0,
+    "fb": "Benthamek dio moralak eta legeek ondorioak aztertu behar dituztela, eta ez tradizioa errepikatzera mugatu."
+   },
+   {
+    "q": "Gaiaren irizpide-taularen arabera, zer arrisku dakar merkatuari buruzko galderak?",
+    "o": [
+     "Gutxiengoak sakrifikatzea",
+     "Desberdintasuna naturalizatzea",
+     "Kaltea ez ikustea",
+     "Kalkulu hutsera murriztea"
+    ],
+    "a": 1,
+    "fb": "Merkatuaren irizpideak galdetzen du ea aukerak zabaltzen dituen; haren alarma-seinalea desberdintasuna naturalizatzea da."
+   },
+   {
+    "q": "Kalkulu utilitaristaren aurrean, zer gogorarazten du liberalismo politikoak pertsonari buruz?",
+    "o": [
+     "Haren balioa gizarte-erabilgarritasunera murrizten dela",
+     "Ongizatearen baturaren mende jarri behar dela",
+     "Eskubideak, askatasuna eta duintasuna dituela",
+     "Haren zoriontasuna merkatuaren mende bakarrik dagoela"
+    ],
+    "a": 2,
+    "fb": "Liberalismo politikoak gogorarazten du pertsona ez dela gizarte-kalkuluaren pieza hutsa: eskubideak, askatasuna eta duintasuna ditu."
+   },
+   {
+    "q": "Heldu batek bizimodu arriskutsua eraman nahi du, bera bakarrik ukitzen duena, eta agintari batek debekatu nahi dio «bere onerako». Zer esango luke Millek?",
+    "o": [
+     "Debekatu egin behar diola, segurtasuna beste guztiaren gainetik dagoelako",
+     "Ezin dela debekatu, besteei kalterik ez egiteko soilik hertsa daitekeelako",
+     "Debekatu egin behar diola, gehiengoak hala bozkatzen badu",
+     "Debekatu egin behar diola, boterea izaeraz paternala delako"
+    ],
+    "a": 1,
+    "fb": "Millentzat hertsatzeko arrazoi legitimo bakarra norbaitek besteei kalterik egitea eragoztea da, ez bere onerako dena egitera behartzea."
+   },
+   {
+    "q": "Gaiaren arabera, zertarako balio dute utilitarismoak eta liberalismoak teoria moral pribatu izateaz harago?",
+    "o": [
+     "Pertsona bakoitzaren barne-bizitza deskribatzeko",
+     "Zuzenbidea eta ekonomia ordezkatzeko",
+     "Legeak, erakundeak, merkatuak eta politika publikoak epaitzeko",
+     "Erlijio zibil bat oinarritzeko"
+    ],
+    "a": 2,
+    "fb": "Biek legeak, erakundeak, merkatuak eta politika publikoak epaitzeko hizkuntza bat eskaintzen dute, ez soilik moral pribaturako."
+   },
+   {
+    "q": "Gaiaren erabaki-probaren arabera, zer alarma-seinale doa justiziari buruzko galderarekin batera?",
+    "o": [
+     "Galera ikusezinak ez zenbatzea",
+     "Paternalismoa sartzea babesaren izenean",
+     "Zama beti talde berari uztea",
+     "Desberdintasuna naturalizatzea"
+    ],
+    "a": 2,
+    "fb": "Kostua nork ordaintzen duen galdetzean, alarma-seinalea zama beti talde berari uztea da."
+   }
+  ]
+ },
+ "hf-t18-repaso": {
+  "name": "Ilustrazioa (HF · T18 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Arrazoi ilustratuaren zer ezaugarrik esan nahi du teologiaren eta autoritatearen mende ez egotea?",
+    "o": [
+     "Izaera enpirikoa",
+     "Izaera kritikoa",
+     "Izaera autonomoa",
+     "Izaera analitikoa"
+    ],
+    "a": 2,
+    "fb": "Teoriak arrazoi ilustratua autonomotzat jotzen du, hain zuzen ere, teologiaren eta autoritatearen mende ez dagoelako."
+   },
+   {
+    "q": "Nola deitzen dio teoriak egiak kritikaren menpe jarri gabe onartzeko jarrerari?",
+    "o": [
+     "Deismoa",
+     "Dogmatismoa",
+     "Fanatismoa",
+     "Sekularizazioa"
+    ],
+    "a": 1,
+    "fb": "Dogmatismoa egiak kritikaren menpe jarri gabe onartzea da, arrazoi kritikoaren guztiz kontrakoa."
+   },
+   {
+    "q": "Ilustrazioak uste zuen gizartea etengabe hobetzen dela jakintzari eta aurrerapenari esker. Zer ezaugarrik deskribatzen du uste hori?",
+    "o": [
+     "Ezkortasun historikoa",
+     "Dogmatismoa",
+     "Aurrerabidea eta baikortasuna",
+     "Sekularizazioa"
+    ],
+    "a": 2,
+    "fb": "Teoriak dio Ilustrazioak etengabeko aurrerabidean sinesten duela, Entziklopedia bezalako proiektuetan ikus daitekeen bezala."
+   },
+   {
+    "q": "Teoriaren arabera, zergatik babestu behar du tolerantziak desberdinen arteko bizikidetza?",
+    "o": [
+     "Erlijio bakar batek baino ez duelako egia osoa",
+     "Inork ezin duelako egia osoaren jabetza pribatua aldarrikatu",
+     "Bizikidetzak dogma bakarra eskatzen duelako",
+     "Botereak sinesmen bakarra inposatu behar duelako"
+    ],
+    "a": 1,
+    "fb": "Inork ezin badu egia osoa beretzat aldarrikatu, desberdin pentsatzen dutenen arteko bizikidetza babestu behar da."
+   },
+   {
+    "q": "Ilustrazioak bere egiten duen naturaren ikuspegi mekanizistari buruz, honako baieztapen hauetatik zein da zuzena?",
+    "o": [
+     "Fenomenoak legeen bidez azaltzen ditu, Jainkoaren beharrik gabe",
+     "Jainkoarengana jotzen du fenomeno bakoitza azaltzeko",
+     "Ukatu egiten du natura iker daitekeenik",
+     "Testu sakratuetara itzultzea eskatzen du"
+    ],
+    "a": 0,
+    "fb": "Newtonen fisikari esker, natura legeek gobernatua agertzen da; beraz, jada ez da beharrezkoa Jainkoarengana jotzea fenomenoak azaltzeko."
+   },
+   {
+    "q": "Zer kontzeptu politikok dio boterea hiritar guztien multzoan dagoela, eta ez monarkarengan?",
+    "o": [
+     "Botere-banaketa",
+     "Eskubide naturalak",
+     "Errugabetasun-presuntzioa",
+     "Herri-subiranotasuna"
+    ],
+    "a": 3,
+    "fb": "Herri-subiranotasunaren ondorioz, boterea herriari dagokio, eta ez monarka absolutu bati."
+   },
+   {
+    "q": "Teoriaren arabera, zeren aurka hartzen du indarra eskubide naturalen hizkuntzak?",
+    "o": [
+     "Zientziaren aurrerapenaren aurka",
+     "Estamentuen pribilegioen aurka",
+     "Jakintzaren hedapenaren aurka",
+     "Espazio publikoaren aurka"
+    ],
+    "a": 1,
+    "fb": "Eskubide naturalen hizkuntzak estamentuen pribilegioen aurka hartzen du indarra, absolutismoarekiko hausturaren testuinguruan."
+   },
+   {
+    "q": "Zer egilek esan zuen gizonek ezin dutela esan beren askatasuna osoa denik emakumeak eskubide politikoetatik baztertzen dituzten bitartean?",
+    "o": [
+     "Condorcet",
+     "Montesquieu",
+     "Voltaire",
+     "Locke"
+    ],
+    "a": 0,
+    "fb": "Condorcetek koherentzia hori azpimarratzen du: askatasuna ez da osoa emakumeak eskubide politikoetatik baztertzen badira."
+   },
+   {
+    "q": "Zer desberdintasun ezartzen du teoriak arrazoi kritikoaren eta dogmatismoaren artean?",
+    "o": [
+     "Arrazoi kritikoak ohiturak errepikatzen ditu; dogmatismoak epaitu egiten ditu",
+     "Biek onartzen dituzte egiak azterketaren menpe jarri gabe",
+     "Arrazoi kritikoak tradizioak kontserbatzeko baino ez du balio",
+     "Arrazoi kritikoak autoritateak eta aurreiritziak epaitzen ditu; dogmatismoak kritikarik gabe onartzen du"
+    ],
+    "a": 3,
+    "fb": "Arrazoi kritikoak autoritateak, tradizioak eta norberaren aurreiritziak epaitzen ditu; dogmatismoak, berriz, egiak kritikaren menpe jarri gabe onartzen ditu."
+   },
+   {
+    "q": "Gaia ixtean, teoriak ohartarazten du herentzia ilustratua ez dela dogma bihurtu behar. Baieztapen hauetatik zeinek jasotzen du ideia hori?",
+    "o": [
+     "Arrazoiak bere burua aztertzeari uko eginez gero baino ez du askatzen",
+     "Kritika dena ukatzea da",
+     "Askatu nahi duen arrazoiak bere mugak ere aztertu behar ditu",
+     "Herentzia ilustratua eztabaidarik gabe onartu behar da"
+    ],
+    "a": 2,
+    "fb": "Arrazoiak askatu nahi badu, bere mugak ere aztertu behar ditu, dogma berri bihurtu beharrean."
+   },
+   {
+    "q": "Ilustrazioarentzat, arrazoiak ematea eta norberaren adimena erabiltzeak esan nahi du botere orok...",
+    "o": [
+     "besteen aurrean justifikatu behar duela bere burua",
+     "jaiotzaz soilik heredatu behar dela",
+     "indarraren bidez inposatu behar dela",
+     "azterketa ororen kanpo geratu behar duela"
+    ],
+    "a": 0,
+    "fb": "Norberaren adimena erabiltzeak eta arrazoiak emateak esan nahi du onartzea botere orok justifikatu behar duela bere burua."
+   },
+   {
+    "q": "Baieztapen hauetatik zeinek bereizten ditu zuzen deismoa eta dogmatismoa?",
+    "o": [
+     "Deismoak egiak kritikarik gabe onartzen ditu; dogmatismoa mirakulurik gabeko erlijio arrazionala da",
+     "Deismoa dogmarik eta mirakulurik gabeko erlijio arrazionala da; dogmatismoak egiak kritikarik gabe onartzen ditu",
+     "Deismoak autoritateak epaitzen ditu; dogmatismoak ohiturak errepikatzen ditu",
+     "Biak dira mirakuluak baztertzen dituzten erlijio arrazionalak"
+    ],
+    "a": 1,
+    "fb": "Deismoa dogmarik eta mirakulurik gabeko erlijio arrazionala da; dogmatismoa, berriz, egiak kritikaren menpe jarri gabe onartzea da."
+   }
+  ]
+ },
+ "hf-t19-repaso": {
+  "name": "Kant: kritika eta metafisika (HF · T19 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Zer egilek erakutsi zion Kanti aurrerabide sozial eta kulturalak berez ez dituela askatasuna eta duintasuna bermatzen, haren etikari bidea prestatuz?",
+    "o": [
+     "Rousseau",
+     "Hume",
+     "Descartes",
+     "Newton"
+    ],
+    "a": 0,
+    "fb": "Rousseauk erakutsi zion zibilizazioak mendekotasun berriak sor ditzakeela, eta horrek autonomia moralaren eskakizun kantiarra prestatzen du."
+   },
+   {
+    "q": "Kantentzat, zer esan nahi du arrazoimena «kritika» baten menpe jartzeak?",
+    "o": [
+     "Ezagutza oro ukatzea zerotik hasteko",
+     "Haren gaitasunak, mugak eta erabilera legitimoak aztertzea",
+     "Pentsamendua baino ez dagoela frogatzea",
+     "Arimari eta munduari buruzko sistema oso bat eraikitzea"
+    ],
+    "a": 1,
+    "fb": "Kritika ez da dena ukatzea, baizik eta arrazoimenak egin dezakeenaren eta ezin duenaren muga legitimoak bereiztea, epaitzea eta finkatzea."
+   },
+   {
+    "q": "Arrazoimenak arima substantzia sinple eta iraunkorra dela frogatu nahi duenean, zer akats motatan erortzen da, Kanten arabera?",
+    "o": [
+     "Antinomia batean",
+     "Zentzumenen ilusio batean",
+     "Judizio sintetiko a priori batean",
+     "Paralogismo batean"
+    ],
+    "a": 3,
+    "fb": "Arima substantzia sinple eta iraunkor gisa frogatzeko saiakerek paralogismoak sortzen dituzte: ideia bat ezagutza-objektu ustezko bihurtzen duten arrazoiketa engainagarriak."
+   },
+   {
+    "q": "Kantentzat, zein dira arrazoimenak baldintzagabea bilatzeko erabiltzen dituen hiru ideiak?",
+    "o": [
+     "Arima, mundua osotasun gisa eta Jainkoa",
+     "Espazioa, denbora eta kausalitatea",
+     "Subjektua, objektua eta ezagutza",
+     "Materia, forma eta fenomenoa"
+    ],
+    "a": 0,
+    "fb": "Baldintzatuaren atzean arrazoimenak baldintzagabea bilatzen du, eta hortik sortzen dira hiru ideia transzendentalak: arima, mundua osotasun gisa eta Jainkoa."
+   },
+   {
+    "q": "Arrazoimenaren ideiak objektu gisa ezagutu ezin badira ere, Kantentzat ez dira alferrikakoak. Zer funtzio betetzen dute?",
+    "o": [
+     "Esperientzia zehatz bakoitzaren edukia zehaztea",
+     "Pentsamendua eta ikerketa batasunerantz bideratzea",
+     "Kanpoko errealitatearen existentzia frogatzea",
+     "Zientziaren barruan kategoriak ordezkatzea"
+    ],
+    "a": 1,
+    "fb": "Ideiek funtzio erregulatzailea dute: ikerketa ordenatzen dute, batasuna bilatzera bultzatzen dute eta pentsamendua bideratzen dute, fenomenoak bezalako objektutzat hartu gabe."
+   },
+   {
+    "q": "Kantek bereizten dituen metafisikaren erabileretatik, zeinek sortzen ditu ilusioak esperientziatik kanpoko objektuak ezagutu nahi izateagatik?",
+    "o": [
+     "Erabilera kritikoak",
+     "Erabilera erregulatzaileak",
+     "Erabilera dogmatikoak",
+     "Erabilera praktikoak"
+    ],
+    "a": 2,
+    "fb": "Erabilera dogmatikoak fenomenoen mugatik kanpoko objektuak ezagutuko balitu bezala jokatzen du, eta horrek ilusioak sortzen ditu; erabilera kritikoa eta erregulatzailea legitimoak dira."
+   },
+   {
+    "q": "Zer izen ematen dio Kantek kontzeptu hutsa eta intuizio sentigarria batzen dituen bitartekoari, kategoriak fenomenoei denboraren bidez aplikatuz?",
+    "o": [
+     "Sentimena",
+     "Noumenoa",
+     "Antinomia",
+     "Eskematismoa"
+    ],
+    "a": 3,
+    "fb": "Eskematismoa kategoriak fenomenoei denboraren bidez aplikatzea ahalbidetzen duen bitartekoa da, kontzeptu hutsa eta intuizio sentigarria batuz."
+   },
+   {
+    "q": "Kantentzat, «gorputz guztiak hedatuak dira» enuntziatua honako judizio honen adibidea da…",
+    "o": [
+     "Sintetiko a posteriori",
+     "Sintetiko a priori",
+     "Analitiko",
+     "Kontraesankor"
+    ],
+    "a": 2,
+    "fb": "Judizio honetan predikatua subjektuaren kontzeptuan jasota dago jada: ez du ezagutza zabaltzen, kontzeptuak barne hartzen zuena argitu baino ez du egiten."
+   },
+   {
+    "q": "Nola sailkatuko luke Kantek «lerro zuzena da bi punturen arteko laburrena» enuntziatua?",
+    "o": [
+     "Analitiko",
+     "Sintetiko a posteriori",
+     "Kontraesankor",
+     "Sintetiko a priori"
+    ],
+    "a": 3,
+    "fb": "Ezagutza zabaltzen du eta, aldi berean, beharrezkoa da esperientziaren mende egon gabe: horregatik da judizio sintetiko a prioriaren adibidea."
+   },
+   {
+    "q": "Baieztapen hauetatik zeinek kontraesaten du Kanten idealismo transzendentala?",
+    "o": [
+     "Fenomenoak ezagutzen ditugu, ez gauzak beren baitan",
+     "Subjektuak mundua bere gustura sortzen du",
+     "Objektua subjektuaren egituretara egokitzen da",
+     "Ezagutzen duguna errealitatea da, agertzen den bezala"
+    ],
+    "a": 1,
+    "fb": "Idealismo transzendentalak ez du esaten subjektuak mundua bere gogara asmatzen duenik: ezagutzen duguna fenomenoa da, subjektuaren egiturek antolatua."
+   },
+   {
+    "q": "Kantek jakintza mugatu zuela dioenean «fedeari lekua egiteko», zer esan nahi du «fede» horrekin?",
+    "o": [
+     "Erlijio-dogma zehatz bat onartzea",
+     "Ezagutza zientifiko orori uko egitea",
+     "Arrazoimen praktikoak behar dituen horizonteak bereiztea",
+     "Metafisika zientzia izatera iritsiko delako konfiantza"
+    ],
+    "a": 2,
+    "fb": "«Fede» hori ez da dogma bat onartzea: ezagutza teorikoaren muga onartu ondoren, arrazoimen praktikoak behar dituen horizonteak bereizten dira."
+   },
+   {
+    "q": "«Izan ausardia zure adimen propioaz baliatzeko!» («Sapere aude») esaldia, teoriaren arabera, honena da…",
+    "o": [
+     "Rousseau",
+     "Descartes",
+     "Hume",
+     "Kant"
+    ],
+    "a": 3,
+    "fb": "Kantek Zer da Ilustrazioa? galderari erantzuna (1784) lanean jasotzen duen goiburua da, norberaren adimena erabiltzera deituz."
+   },
+   {
+    "q": "Kantek deskribatzen duen ezagutzaren arkitekturaren arabera, zer hiru maila koordinatzen dira ezagutzeko?",
+    "o": [
+     "Sentimena, adimena eta arrazoimena",
+     "Materia, forma eta esentzia",
+     "Objektua, subjektua eta natura",
+     "Espazioa, denbora eta noumenoa"
+    ],
+    "a": 0,
+    "fb": "Ezagutza ez da osagai bakarra: sentimenak datuak ematen ditu, adimenak kategorien bidez pentsatzen ditu eta arrazoimenak batasuna bilatzen du."
+   },
+   {
+    "q": "Kantentzat, egitura batzuei «a priori» deitzeak ez du esan nahi jaiotzetiko ideiak direnik. Zer esan nahi du benetan?",
+    "o": [
+     "Esperientzia errepikatuaren bidez ikasten direla",
+     "Esperientzia zehatzaren aurretik balio duten egiturak direla",
+     "Gizabanako bakoitzak libreki asmatzen dituela",
+     "Subjektutik kanpoko gauza gisa existitzen direla"
+    ],
+    "a": 1,
+    "fb": "«A priori»-k esperientzia zehatzaren aurretik balio duen baldintza edo egitura bat izendatzen du, ez eduki bat edo jaiotzetiko ideia bat."
+   }
+  ]
+ },
+ "hf-t20-repaso": {
+  "name": "Zoriontasunaren eta betebeharraren etikak (HF · T20 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Kanten sistema kritikoko zer galdera arduratzen da moralaren esparruaz?",
+    "o": [
+     "Zer egin behar dut?",
+     "Zer jakin dezaket?",
+     "Zer itxaron dezaket?",
+     "Zer da gizakia?"
+    ],
+    "a": 0,
+    "fb": "Bigarren galderak, «zer egin behar dut?», ekintza morala, autonomia eta lege unibertsala aztertzen ditu."
+   },
+   {
+    "q": "Nor jotzen da utilitarismo klasikoaren sortzailetzat?",
+    "o": [
+     "John Stuart Mill",
+     "Immanuel Kant",
+     "Jeremy Bentham",
+     "Auguste Comte"
+    ],
+    "a": 2,
+    "fb": "Jeremy Bentham da utilitarismo klasikoaren sortzailea; Millek geroago zuzendu zuen, plazeraren kalitatea gehituz."
+   },
+   {
+    "q": "Zerk bereizten du inperatibo hipotetikoa kategorikotik?",
+    "o": [
+     "Lehenak guztientzat balio du; bigarrenak, nahi duenarentzat soilik",
+     "Bigarrena batzuetan betetzen da; lehena, egoera guztietan",
+     "Bigarrenak bitartekoak agintzen ditu; lehenak, helburuak",
+     "Lehena nahi den helburu baten mende dago; bigarrenak baldintzarik gabe behartzen du"
+    ],
+    "a": 3,
+    "fb": "Inperatibo hipotetikoa baldintzazkoa da («helburu bat nahi baduzu, egin hau»); kategorikoa baldintzagabea da eta nahiak alde batera utzita agintzen du."
+   },
+   {
+    "q": "Kantentzat, zertan datza heteronomia?",
+    "o": [
+     "Ekintzaren printzipioa norberaz kanpo jartzean",
+     "Norberari bere lege morala ematean",
+     "Inolako printzipio edo araurik gabe jardutean",
+     "Arrazoimenaren lege unibertsala jarraitzean"
+    ],
+    "a": 0,
+    "fb": "Heteronomia ekintzaren printzipioa kanpoan jartzean datza: interesetan, sarian, ohituran edo autoritatean."
+   },
+   {
+    "q": "Kanten arabera, zerk bereizten du pertsona bat gauza huts batetik?",
+    "o": [
+     "Pertsona balio bereko beste batez ordezka daiteke",
+     "Pertsonak ez du preziorik eta ezin da ordezkatu; gauza, bai",
+     "Gauzak berez balio du eta ez du onartzen trukatua izatea",
+     "Gauza helburu bat da eta pertsona, bitarteko erabilgarri hutsa"
+    ],
+    "a": 1,
+    "fb": "Pertsonak ez du preziorik eta ezin da beste gauza batez ordezkatu; gauzek, aldiz, prezioa dute eta truka daitezke."
+   },
+   {
+    "q": "Zer dira arrazoimen praktikoaren postulatuak Kantengan?",
+    "o": [
+     "Izaki jainkotiar baten existentzia frogatzen duten proba zientifikoak",
+     "Plazera eta mina neurtu eta batzeko arauak",
+     "Moralak behar dituen baldintzak, frogatu ezin baditu ere",
+     "Lege unibertsal bihur daitezkeen maximak"
+    ],
+    "a": 2,
+    "fb": "Askatasuna, Jainkoa eta hilezkortasuna postulatuak dira: ez dira teorikoki frogatzen, baina moralak behar ditu zentzua izateko."
+   },
+   {
+    "q": "Zergatik hitz egiten da arrazoimen praktikoaren lehentasunaz Kanten etikan?",
+    "o": [
+     "Moralak zientziak ezeztatzen duena frogatu dezakeelako",
+     "Betebeharrak ezagutza erabat ordezkatzen duelako",
+     "Jardutea beti delako pentsatzea baino fidagarriagoa",
+     "Praktikak teoriak frogatu ezin duena behar duelako"
+    ],
+    "a": 3,
+    "fb": "Arrazoimen teorikoak ezin ditu askatasuna, Jainkoa eta hilezkortasuna frogatu; arrazoimen praktikoak behar ditu morala ulertzeko."
+   },
+   {
+    "q": "Kantek gizakiarengan bereizten dituen hiru joeretatik, zeinek markatzen du berez morala dena?",
+    "o": [
+     "Nortasunak, lege morala errespetatzeari lotua",
+     "Animaliatasunak, kontserbazio-senari lotua",
+     "Gizatasunak, gizarteko bizitzari lotua",
+     "Arrazionaltasunak, interesen kalkuluari lotua"
+    ],
+    "a": 0,
+    "fb": "Hirugarren joera, nortasuna, lege morala errespetatzeko gaitasuna da; bertan datza duintasuna."
+   },
+   {
+    "q": "Zer ulertzen du Kantek gizakiaren «soziabilitate asoziala»z?",
+    "o": [
+     "Inola ere bakean elkarrekin bizi ezina",
+     "Elkarrekin bizitzeko eta, aldi berean, lehiatzeko joera",
+     "Antolaketa politiko ororen errefusa naturala",
+     "Besteengandik erabat isolatzeko nahia"
+    ],
+    "a": 1,
+    "fb": "Gizakiak gizartean bizitzeko joera du, baina, aldi berean, lehiatu, bereizi eta nagusitu nahi du."
+   },
+   {
+    "q": "Zer baldintza proposatzen ditu Kantek Betiko bakerantz lanean bake iraunkor bat lortzeko?",
+    "o": [
+     "Konkista militarra eta auzokoak menderatzea",
+     "Antolaketa juridiko eta politiko oro alde batera uztea",
+     "Konstituzio errepublikano bat eta Estatuen federazio bat",
+     "Bi potentziaren artean soilik sinatutako merkataritza-itun bat"
+    ],
+    "a": 2,
+    "fb": "Betiko bakerantz lanean konstituzio errepublikano bat, Estatu askeen federazio bat eta zuzenbide kosmopolita bat pentsatzen ditu."
+   },
+   {
+    "q": "Kanten arabera, zer harreman izan behar du erlijioak moralarekin?",
+    "o": [
+     "Erlijioak bere dogmak inposatu behar dizkio moralari",
+     "Moralak erlijio-autoritatearen menpe egon behar du",
+     "Moralak eta erlijioak ez dute inolako harremanik",
+     "Erlijioak moralaren zerbitzura jarri behar du"
+    ],
+    "a": 3,
+    "fb": "Moralak ez du erlijioaren agindu heteronomorik behar; erlijioak, zentzurik badu, moralaren zerbitzura jarri behar du."
+   },
+   {
+    "q": "Nola hasten da Kanten metodo kritikoa arazo baten aurrean?",
+    "o": [
+     "Arrazoimenaren baldintzak eta mugak aztertuz",
+     "Zer nahi den eta zer lortzea komeni den galdetuz",
+     "Gure ordez erabakiko duen autoritate bat bilatuz",
+     "Ondorio onuragarriak eta kaltegarriak batuz"
+    ],
+    "a": 0,
+    "fb": "Arazo baten aurrean, metodo kritikoak lehenik galdetzen du zer baldintzatan den posible ezagutza eta zer muga dituen arrazoimenak."
+   },
+   {
+    "q": "Zein da ohiko akats bat Kanten autonomia interpretatzean?",
+    "o": [
+     "Norberaren legea ematea bezala ulertzea",
+     "Norberari gogoak ematen diona egitearekin nahastea",
+     "Norberaren maximak epaitzearekin lotzea",
+     "Arrazoimenaren erantzukizunari lotzea"
+    ],
+    "a": 1,
+    "fb": "Autonomia ez da nahi dudana egitea: maximak lege moralaren arabera epaitzea da; askatasuna ez da kapritxoaren izena."
+   },
+   {
+    "q": "Joxe Azurmendiren arabera, zein da gaizkiaren jatorria?",
+    "o": [
+     "Erlatibismoa, balio guztiak desegiten dituena",
+     "Oinarri erlijioso sendo baten falta",
+     "Dogmatismoa, eta ez erlatibismoa",
+     "Ondorioen kalkulu berekoia"
+    ],
+    "a": 2,
+    "fb": "Azurmendik erlatibismoa defendatzen du hura gaitzesten dutenen aurrean: gaizkiaren jatorria dogmatismoa da, ez erlatibismoa."
+   },
+   {
+    "q": "Zer pentsalarik kritikatu zuen forma moralaren abstrakzioa, baldintza materialak kontuan hartu gabe duintasunaz hitz egitea arriskutsua dela adieraziz?",
+    "o": [
+     "Friedrich Nietzsche",
+     "John Stuart Mill",
+     "Jeremy Bentham",
+     "Karl Marx"
+    ],
+    "a": 3,
+    "fb": "Marxek forma moralaren abstrakzioa kritikatu zuen: arriskutsua da duintasunaz hitz egitea baldintza materialak kontuan hartu gabe."
+   },
+   {
+    "q": "Ikuspegi kantiarraren arabera, nahikoa al da norbaitek baldintza batzuk onartzea haren erabakia benetan autonomoa izan dadin?",
+    "o": [
+     "Ez, benetan ulertu eta bere kabuz erabaki behar duelako",
+     "Bai, zerbait onartzeak legitimo bihurtzen duelako",
+     "Bai, gehiengoaren ongiak justifikatzen duelako",
+     "Ez, erabakiak beti Estatuak hartzen dituelako"
+    ],
+    "a": 0,
+    "fb": "Adostasun formala ez da nahikoa: erabakia autonomoa da subjektuak benetan ulertzen badu zer onartzen duen eta bere kabuz erabaki badezake."
+   },
+   {
+    "q": "Zergatik baztertzen ditu Kantek sentimenduak moralaren azken oinarri gisa?",
+    "o": [
+     "Sentimenduak benetan ez daudelako gizakiarengan",
+     "Aldakorrak direlako eta moralak unibertsaltasuna eskatzen duelako",
+     "Jende gehienak sentitzen duena baino ez delako garrantzitsua",
+     "Moralak jasotako ohituran oinarritu behar duelako"
+    ],
+    "a": 1,
+    "fb": "Sentimenduak aldakorrak eta enpirikoak dira; moralak unibertsaltasuna behar badu, arrazoimen praktikoaren legean oinarritu behar du."
+   },
+   {
+    "q": "Ikasle batek ez du azterketa batean kopiatzen kanporatzeari beldur diolako, ez konbentzimenduz. Nola kalifikatuko luke Kantek haren ekintza mugitzen duen printzipioa?",
+    "o": [
+     "Autonomoa, araua bera errespetatzen duelako",
+     "Formala, arauaren forma jarraitzen duelako",
+     "Heteronomoa, sari edo zigor batek mugitzen duelako",
+     "Kategorikoa, baldintzarik gabe obeditzen duelako"
+    ],
+    "a": 2,
+    "fb": "Heteronomiak ekintzaren printzipioa norberaz kanpo jartzen du: sarian edo zigorrean, ez norberaren arrazoimenean."
+   },
+   {
+    "q": "Gizakiari dagokionez, baieztapen hauetatik zein da zuzena Kanten arabera?",
+    "o": [
+     "Haren ezagutza mugagabea da eta haren morala esperientzian oinarritzen da",
+     "Errealitate osoa ezagutzen du eta ez du inolako legeren beharrik",
+     "Haren ekintza plazera eta mina kalkulatzera mugatzen da",
+     "Mugekin ezagutzen du, baina lege moralaren subjektu izateko gai da"
+    ],
+    "a": 3,
+    "fb": "Gizakia ezagutza mugatuko izakia da, baina lege moralaren subjektu izateko gai."
+   },
+   {
+    "q": "Tratamendu mediko bat eraginkorra da, baina gaixoari jakinarazi gabe eta hura kontuan hartu gabe aplikatzen da. Ikuspegi kantiarraren arabera, zergatik da arazotsua?",
+    "o": [
+     "Subjektuak bere bizitzari buruz duen erabakia aintzat hartzen ez duelako",
+     "Ez duelako zoriontasunik handiena sortzen kopururik handienarentzat",
+     "Plazer fisikoa intelektuala baino handiagoa delako",
+     "Mina murriztu beharrean handitu egiten duelako"
+    ],
+    "a": 0,
+    "fb": "Tratamenduak gaixoaren borondate informatua alde batera uzten badu, onura biologikoak ez du arazo morala ezabatzen."
+   }
+  ]
+ },
+ "hf-t21-repaso": {
+  "name": "Susmoaren filosofoak (HF · T21 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Auguste Comtek izena ematen dio XIX. mendeko korronteari, zeinak zientzian jartzen baitu konfiantza jakintza baliodun bakar gisa eta espekulazio metafisikoa baztertzen baitu. Nola du izena korronte horrek?",
+    "o": [
+     "Positibismoa",
+     "Erromantizismoa",
+     "Bitalismoa",
+     "Existentzialismoa"
+    ],
+    "a": 0,
+    "fb": "Comtek positibismoa zientzian jarritako muturreko konfiantza gisa definitzen du: behaketa enpirikoan eta egiazta daitezkeen gertakarietan oinarritutako ezagutza baino ez da egiazkoa."
+   },
+   {
+    "q": "Kultura batek dio ekaitzak jainkoek bidalitako zigorra direla. Comteren hiru estadioen legearen arabera, zein fasetan dago?",
+    "o": [
+     "Positiboan",
+     "Teologikoan",
+     "Metafisikoan",
+     "Zientifikoan"
+    ],
+    "a": 1,
+    "fb": "Estadio teologikoan gertakariak jainkoen borondatearen bidez azaltzen dira; ondoren, metafisikoa dator eta, azkenik, positiboa."
+   },
+   {
+    "q": "Comteren arabera, zer diziplina sortu zen metodo zientifikoa gizartearen azterketari aplikatzetik?",
+    "o": [
+     "Psikologia",
+     "Antropologia",
+     "Soziologia",
+     "Ekonomia politikoa"
+    ],
+    "a": 2,
+    "fb": "Comtek defendatu zuen gizartea zientifikoki aztertu behar zela; ideia horretatik sortu zen soziologia."
+   },
+   {
+    "q": "Feuerbachen arabera, zer da Jainkoa?",
+    "o": [
+     "Moralaren oinarri objektiboa",
+     "Unibertsoaren lehen kausa",
+     "Apaizek asmatutako ilusio bat",
+     "Gizakiaren beraren proiekzio bat"
+    ],
+    "a": 3,
+    "fb": "Feuerbachek erlijioa proiekzio gisa ulertzen du: gizakiak bere indarrak, desioak eta idealak Jainkoarengan jartzen ditu, eta gero sorkuntza horren menpe geratzen da."
+   },
+   {
+    "q": "Zer da darwinismo soziala, Darwinen teoriatik bereizita?",
+    "o": [
+     "Desberdintasuna justifikatzen duen erabilera ideologiko bat",
+     "Espezieen aldaketari buruzko teoria biologikoa",
+     "Gizakia erdigunea ez dela dioen tesia",
+     "Errukian oinarritutako doktrina moral bat"
+    ],
+    "a": 0,
+    "fb": "Darwinen teoria biologikoa da; darwinismo sozialak, berriz, «biziraupenaren aldeko borroka» arau moral bihurtzen du boterea eta desberdintasuna justifikatzeko."
+   },
+   {
+    "q": "Schopenhauerren ustez, zer dago errealitatearen hondoan?",
+    "o": [
+     "Ilustrazioaren arrazoi gardena",
+     "Nahimen itsu eta aseezin bat",
+     "Historian garatzen den espiritua",
+     "Substantzia material bat"
+    ],
+    "a": 1,
+    "fb": "Schopenhauerren arabera, gauza bere baitan ez da arrazoi argi bat, nahimen itsu bat baizik: ase ezin daitezkeen nahi eta bulkada bat."
+   },
+   {
+    "q": "Zer da praxia Marxentzat?",
+    "o": [
+     "Historiaren interpretazio interesgabea",
+     "Kapitalaren azterketa ekonomikoa",
+     "Gizartearen kritika morala",
+     "Teoriaren eta eraldaketaren batasuna"
+    ],
+    "a": 3,
+    "fb": "Praxiak teoria eta ekintza historikoa batzen ditu: gizartea ulertzeak subjektuei beren egoera ikusteko eta aldatzeko aukera irekitzen die."
+   },
+   {
+    "q": "Merkatuan, gauzek berez balioa dutela dirudi, baina, egiaz, balio hori pertsonen arteko lan-harremanetatik dator. Zer kontzeptuk izendatzen du itxura hori?",
+    "o": [
+     "Fetitxismoa",
+     "Gainbalioa",
+     "Alienazioa",
+     "Ideologia"
+    ],
+    "a": 0,
+    "fb": "Merkantziaren fetitxismoak gizarte-harremanak gauzen propietate natural gisa agerrarazten ditu, eta atzean dagoen lana ezkutatzen du."
+   },
+   {
+    "q": "Zer funtzio betetzen du betiereko itzulerak Nietzscherengan?",
+    "o": [
+     "Unibertsoaren ziklo kosmikoa deskribatzea",
+     "Bizitza zer indarrez baieztatzen den neurtzea",
+     "Gizakia sufrimenduaren aurrean kontsolatzea",
+     "Historiaren amaiera iragartzea"
+    ],
+    "a": 1,
+    "fb": "Betiereko itzulera proba existentziala da: bizitza behin eta berriro biziko ote genukeen galderak baieztapenaren indarra neurtzen du."
+   },
+   {
+    "q": "Zaratustraren espirituaren hiru eraldaketetan, zer irudik adierazten ditu «ez»-a eta balio zaharren aurreko askapena?",
+    "o": [
+     "Gameluak",
+     "Haurrak",
+     "Lehoiak",
+     "Gaingizakia"
+    ],
+    "a": 2,
+    "fb": "Lehoiak «ez» esaten ikasten du: kanpoko agintea baztertzen du eta bere buruarentzako espazio bat irekitzen du, nahiz eta oraindik balio berririk sortzen ez duen."
+   },
+   {
+    "q": "Freudek dio lapsusak, ametsak eta sintomak ez direla zarata hutsak, zentzu baten aztarnak baizik. Zer printzipio ondorioztatzen da horretatik?",
+    "o": [
+     "Gizakia guztiz askea dela bere egintzetan",
+     "Sintomak esanahirik gabeko zaratak direla",
+     "Kontzientziak bizitza psikiko osoa kontrolatzen duela",
+     "Bizitza psikikoan ezer ez dela zoriz gertatzen"
+    ],
+    "a": 3,
+    "fb": "Freudentzat, lapsusak, ametsak eta sintomak ez dira kasualak: zentzu baten aztarnak izan daitezke; beraz, bizitza psikikoan ezer ez da zori hutsa."
+   },
+   {
+    "q": "Bulkada bat zuzenean ase ezin denean eta artera edo jakintzara bideratzen denean, nola deitzen dio Freudek prozesu horri?",
+    "o": [
+     "Sublimazioa",
+     "Errepresioa",
+     "Kondentsazioa",
+     "Desplazamendua"
+    ],
+    "a": 0,
+    "fb": "Sublimazioak bulkada ase gabe bat artea edo jakintza bezalako jardueretara bideratzen du; kultura, neurri batean, energia bulkadazkoaren eraldaketa hori da."
+   },
+   {
+    "q": "Freuden arabera, zer dago amets baten eduki agerikoaren azpian?",
+    "o": [
+     "Amesten duguna eta esnatzean gogoratzen duguna",
+     "Ametsak mozorrotzen duen desio errepresioa",
+     "Gaixoak terapian kontatzen duen kontakizuna",
+     "Nahi gabe esandako hitz bat"
+    ],
+    "a": 1,
+    "fb": "Eduki agerikoa gogoratzen dena da; eduki ezkutua, berriz, ametsak modu mozorrotuan adierazten duen desio errepresioa."
+   },
+   {
+    "q": "Zer da hura (id) Freuden bigarren topikan?",
+    "o": [
+     "Errealitatearekin bitartekari lana egiten duen arrazoia",
+     "Barneratutako arau moralak",
+     "Asebetetzea bilatzen duen bulkaden eremua",
+     "Subjektuaren kontzientzia gardena"
+    ],
+    "a": 2,
+    "fb": "Hura (id) bulkaden eta sena-joeren eremua da, plazer-printzipioari eta berehalako asebetetzearen bilaketari lotua."
+   },
+   {
+    "q": "Marxentzat, zer da Estatua?",
+    "o": [
+     "Klaseen arteko epaile neutral bat",
+     "Berdintasun juridikoaren bermatzailea",
+     "Gizabanakoen arteko kontratuaren emaitza",
+     "Klase jabearen menderakuntza-tresna bat"
+    ],
+    "a": 3,
+    "fb": "Marxentzat Estatua ez da neutrala: haren legeek eta erakundeek egitura ekonomikoari eta klase menderatzailearen interesei eusten laguntzen dute."
+   },
+   {
+    "q": "Zer da klase-kontzientzia Marxentzat?",
+    "o": [
+     "Norberaren arazoak egitura komun baten ondorio gisa ikustea, ez porrot pertsonal gisa",
+     "Klase jabearen interesen defentsa",
+     "Langileek lanpostua galtzeko duten beldurra",
+     "Langileen arteko lehia lanpostu baten truke"
+    ],
+    "a": 0,
+    "fb": "Klase-kontzientzia langileek beren arazoa porrot pertsonal gisa ikusteari uzten diotenean sortzen da, eta egitura komun baten ondorio gisa ulertzen dutenean."
+   },
+   {
+    "q": "Zer aztertzen du Marxen materialismo historikoak?",
+    "o": [
+     "Kosmosaren substantzia materiala",
+     "Gizarteak, haien ekoizpen-moduetatik abiatuta",
+     "Kontzientziaren ideia hutsak",
+     "Gizakiaren izaera biologikoa"
+    ],
+    "a": 1,
+    "fb": "Materialismo historikoak gizarteak haien ekoizpen-moduetatik abiatuta ulertzen ditu; ez da kosmosaren substantziari buruzko tesi bat, materialismo metafisikoa bezala."
+   }
+  ]
+ },
+ "hf-t22-repaso": {
+  "name": "Kapitalismoaren kritika: Marxengandik Rawlsengana (HF · T22 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "«Orain arteko gizarte guztien historia klase-borroken historia da»: nori egozten zaio tesi hau?",
+    "o": [
+     "Friedrich Engelsi eta Karl Marxi",
+     "Jürgen Habermasi eta Karl Popperri",
+     "Hannah Arendti eta John Rawlsi",
+     "Theodor Adornori eta Max Horkheimerri"
+    ],
+    "a": 0,
+    "fb": "Formula Alderdi Komunistaren Manifestutik (1848) dator, Marxek eta Engelsek sinatua."
+   },
+   {
+    "q": "Frankfurteko Eskolaren arabera, zerk bereizten du teoria kritikoa teoria tradizionaletik?",
+    "o": [
+     "Mundua dagoen bezala deskribatzera mugatzen dela",
+     "Ezagutza posible oro baztertzen duela",
+     "Menderakuntza agerian uzten duela hura eraldatzeko",
+     "Gertakari ekonomikoak baino ez dituela aztertzen"
+    ],
+    "a": 2,
+    "fb": "Teoria kritikoa ez da gizartea deskribatzearekin konformatzen: haren menderakuntza-formak argitara ateratzen ditu, haiek eraldatzeko eta gizarte askeago bat eraikitzeko."
+   },
+   {
+    "q": "Marcuseren arabera, kontsumo-gizarteak sozialki fabrikatutako desioak sortzen ditu, eta subjektuak bereak balira bezala bizi ditu. Nola deitzen die?",
+    "o": [
+     "Errepresio gehigarria",
+     "Behar faltsuak",
+     "Gizarte unidimentsionala",
+     "Industria kulturala"
+    ],
+    "a": 1,
+    "fb": "Marcusek behar faltsuak deitzen die merkatuak sortutako desioei, gizabanakoa kontsumora lotzen dutenei, nahiz eta hark bere gisa sentitu."
+   },
+   {
+    "q": "Walter Benjaminek aztertu zuen nola ahultzen duten argazkigintzak eta zinemak artelanaren presentzia bakar eta errepikaezina. Zer izen ematen dio presentzia horri?",
+    "o": [
+     "Historiaren aingerua",
+     "Dialektika negatiboa",
+     "Ekintza",
+     "Aura"
+    ],
+    "a": 3,
+    "fb": "Benjaminek aura deitzen dio bakarra izatearen distirari, hemen eta orain, erreprodukzio teknikoak ahultzen duenari; horrekin batera, artearen zentzu soziala aldatzen da."
+   },
+   {
+    "q": "Benjaminek kritikatu egiten du aurrerapenaren ideia, hobera daraman bide lasai gisa. Zer irudi erabiltzen du aurrerapena hondamendien metaketa gisa irudikatzeko?",
+    "o": [
+     "Historiaren aingerua",
+     "Dialektika negatiboa",
+     "Aura",
+     "Gizarte unidimentsionala"
+    ],
+    "a": 0,
+    "fb": "Historiaren aingeruak, Paul Kleeren Angelus Novus-etik hartuak, iraganeko hondakinei begiratzen die, aurrerapenaren ekaitzak etorkizunera bultzatzen duen bitartean."
+   },
+   {
+    "q": "Habermasek ezagutzaren hiru interes bereizten ditu. Haren ustez, zein da nagusia eta beste biak orientatu behar dituena?",
+    "o": [
+     "Interes teknikoa",
+     "Interes praktikoa",
+     "Interes emantzipatzailea",
+     "Interes ekonomikoa"
+    ],
+    "a": 2,
+    "fb": "Habermasentzat, interes emantzipatzailea —gizaki oro aske eta autonomo egitea— da nagusia, eta beste biak orientatu behar ditu."
+   },
+   {
+    "q": "Elkarrizketa bat baliozkoa izan dadin, Habermasek baldintza bat eskatzen du: denek berdintasunean, askatasunez eta hertsadurarik gabe argudiatzea. Nola deitzen dio baldintza horri?",
+    "o": [
+     "Esfera publikoa",
+     "Ekintza estrategikoa",
+     "Gizarte irekia",
+     "Hizketa-egoera ideala"
+    ],
+    "a": 3,
+    "fb": "Habermasek hizketa-egoera ideala deitzen dio denek berdintasunean eta askatasunez argudiatzen duten baldintzari, non argudio onenaren indarra nagusitzen baita, ez boterea."
+   },
+   {
+    "q": "Habermasek deliberazio demokratikoa hiritarrek boterea kritikatzen eta arau komunak justifikatzen dituzten espazio batean kokatzen du. Nola deitzen dio espazio horri?",
+    "o": [
+     "Abangoardiako alderdia",
+     "Esfera publikoa",
+     "Masa-gizartea",
+     "Jatorrizko posizioa"
+    ],
+    "a": 1,
+    "fb": "Esfera publikoa hiritarrek gai komunak eztabaidatzen eta iritzi arrazoitua osatzen duten espazio soziala eta politikoa da."
+   },
+   {
+    "q": "Leninek dio zapalkuntzaren esperientzia ez dela berez estrategia politiko bihurtzen. Zer tresna defendatzen du langile-klasearen borroka sakabanatua artikulatzeko?",
+    "o": [
+     "Masa-greba",
+     "Esfera publikoa",
+     "Alderdi iraultzailea",
+     "Gizarte irekia"
+    ],
+    "a": 2,
+    "fb": "Leninek alderdi iraultzailea defendatzen du langile-klasearen borroka sakabanatuari norabide politikoa emateko tresna gisa."
+   },
+   {
+    "q": "Leninen arabera, kapitalismo aurreratuak merkatu, lehengai eta eragin-gune berriak behar dituenean, esplotazioa ez da nazio baten barruko klaseetara mugatzen. Zer kontzeptuk deskribatzen du hedapen global hori?",
+    "o": [
+     "Inperialismoa",
+     "Deskolonizazioa",
+     "Kontsumoaren faxismoa",
+     "Hegemonia kulturala"
+    ],
+    "a": 0,
+    "fb": "Leninek inperialismoa deitzen dio kapitalismo aurreratuaren hedapen globalari, mundu-mailako mendekotasunak sortzen baititu merkatuen, lehengaien, kolonien eta botere finantzarioaren bidez."
+   },
+   {
+    "q": "«Askatasuna beti da bestela pentsatzen duenaren askatasuna»: nori egozten zaio esaldi hau?",
+    "o": [
+     "Clara Zetkini",
+     "Hannah Arendti",
+     "Frantz Fanoni",
+     "Rosa Luxemburgi"
+    ],
+    "a": 3,
+    "fb": "Esaldia Rosa Luxemburgen Errusiar Iraultza (1918) lanean ageri da; hark ohartarazi zuen alderdi baten diktadurak iraultza traizionatu zezakeela."
+   },
+   {
+    "q": "Nork proposatu zuen 1910ean Emakumeen Nazioarteko Eguna ospatzea, azkenean martxoaren 8an finkatuko zena?",
+    "o": [
+     "Rosa Luxemburgek",
+     "Clara Zetkinek",
+     "Hannah Arendt",
+     "Simone de Beauvoir"
+    ],
+    "a": 1,
+    "fb": "Clara Zetkinek proposatu zuen 1910ean Emakumeen Nazioarteko Eguna, emakumeen askapena eta klase-borroka batuz."
+   },
+   {
+    "q": "Fanonek dio kolonizatuari lurra ez ezik, haren hizkuntza, gorputza eta bere buruaz duen irudia ere markatuta geratzen zaizkiola. Zer ondorioztatzen du horretatik?",
+    "o": [
+     "Askatzeko nahikoa dela bandera eta gobernua aldatzea",
+     "Kolonialismoa atzerriko administrazio hutsa besterik ez dela",
+     "Zapalkuntza materiala subjektibotasunari lotuta doala",
+     "Klase-borrokak erabat azaltzen duela arazo koloniala"
+    ],
+    "a": 2,
+    "fb": "Fanonentzat, kolonialismoak subjektuaren duintasuna eta bere buruaz duen irudia ere zauritzen ditu; beraz, zapalkuntza materiala eta subjektibotasuna elkarri lotuta doaz."
+   },
+   {
+    "q": "Pasolinik dio kontsumo-gizarteak desioak, hizkuntzak eta bizimoduak berdindu ditzakeela liluraren eta publizitatearen bidez, ez debekuaren bidez bakarrik. Zer ideia erabiltzen du botere hori izendatzeko?",
+    "o": [
+     "Kontsumoaren faxismoa",
+     "Gizarte unidimentsionala",
+     "Soberako errepresioa",
+     "Kultura-industria"
+    ],
+    "a": 0,
+    "fb": "Pasolinik kontsumoaren faxismoaz hitz egiten du kontsumo-gizarteak subjektuak modu leun baina sakonean homogeneizatzeko duen boterea izendatzeko."
+   },
+   {
+    "q": "Arendten arabera, zertan bereizten da totalitarismoa tirania klasikotik, despotismotik edo diktaduratik?",
+    "o": [
+     "Oposizio politikoa zapaltzen duelako",
+     "Boterea pertsona bakar batengan biltzen duelako",
+     "Indarra erabiltzen duelako bere etsaien aurka",
+     "Gizabanakoaren erabateko menderakuntza bilatzen duelako"
+    ],
+    "a": 3,
+    "fb": "Arendtek dio totalitarismoa ez dela tirania klasiko bat, botere-forma berri bat baizik, gizabanakoa erabat xurgatzen eta kontrolatzen duena ideologia totalizatzaile baten izenean."
+   },
+   {
+    "q": "Arendten arabera, terroreak erregimen totalitarioan duen eginkizunari buruz, zein baieztapen da zuzena?",
+    "o": [
+     "Buruzagiaren boterea gordetzeko tresna hutsa da",
+     "Biztanleriaren erabateko kontrola lortzeko bitartekoa da",
+     "Krisi-garaietan agertzen den salbuespenezko baliabidea da",
+     "Propagandaren ustekabeko ondorioa da"
+    ],
+    "a": 1,
+    "fb": "Arendtentzat, terrorea ez da boterea mantentzeko tresna bat bakarrik: erabateko kontrola lortzeko mekanismoa da, beldurra eta isolamendua ereinez."
+   },
+   {
+    "q": "Eichmannen epaiketan, Arendtek ikusi zuen ez zela munstro sadiko bat, aginduak betetzera mugatzen zen burokrata bat baizik. Zer ondorio atera zuen horretatik?",
+    "o": [
+     "Gaizkia beti nahita gaiztoa den asmo batetik sortzen dela",
+     "Fanatiko ideologikoek baino ez dituztela ankerkeriak egiten",
+     "Gaizkia pentsatzen ez duten pertsona arruntengandik sor daitekeela",
+     "Burokraziak erantzukizun pertsonal oro ezabatzen duela"
+    ],
+    "a": 2,
+    "fb": "Arendtek gaizkiaren hutsaltasuna deitzen dio gaizkia batzuetan pentsatzeari uko egiten dioten pertsona arruntek egiteari, Eichmannek bezala."
+   },
+   {
+    "q": "Vita activa-ri buruzko teorian, Arendtek giza jarduera hiru bereizten ditu. Zein egiten da besteekin batera, hitzaren bidez, espazio publikoan?",
+    "o": [
+     "Lana",
+     "Lana",
+     "Jaiotza (natalitatea)",
+     "Ekintza"
+    ],
+    "a": 3,
+    "fb": "Arendtek ekintza gordetzen du besteekin batera hitzaren bidez espazio publikoan jarduteko; lana biologikoa da, eta ekoizpenak mundu artifiziala sortzen du."
+   },
+   {
+    "q": "Ezjakintasunaren beloaren esperimentutik, Rawlsek bi printzipio ateratzen ditu. Zer ezartzen du lehenengoak?",
+    "o": [
+     "Aukera-berdintasun eraginkorra",
+     "Oinarrizko askatasun gorenak guztientzat",
+     "Aberastasunaren erabateko birbanaketa",
+     "Desberdintasun oro ezabatzea"
+    ],
+    "a": 1,
+    "fb": "Rawlsen lehen printzipioa askatasunarena da: oinarrizko askatasun gorenak guztientzat; eta ondoren bakarrik aplikatzen da berdintasunarena."
+   }
+  ]
+ },
+ "hf-t23-repaso": {
+  "name": "Nietzsche eta posmodernitatea (HF · T23 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Zer ideia dakar Foucaultek «biopolitika» terminoarekin?",
+    "o": [
+     "Erakundeek osasuna edo jaiotza-tasa bezalako prozesu kolektiboak administratzen dituztela",
+     "Boterea zigor-legeak eta debekuak ematera mugatzen dela",
+     "Bizitza intimoak erregulazio orori erabat ihes egiten diola",
+     "Estatu modernoak biztanleriaz arduratzeari uzten diola"
+    ],
+    "a": 0,
+    "fb": "Foucaultek dio botere modernoak bizitza ere administratzen duela: biztanleriak, osasuna, sexualitatea eta demografia kudeatzen ditu, ez du debekatu bakarrik egiten."
+   },
+   {
+    "q": "Zertan bereizten dira Habermasek kontrajartzen dituen arrazoiaren bi formak?",
+    "o": [
+     "Bata adituena da; bestea, jende arruntarena",
+     "Batak dena bitartekoen kalkulura murrizten du; besteak elkar ulertzea bilatzen du",
+     "Bata erlijioari dagokio soilik; bestea, politikari",
+     "Bata beti da morala; bestea, beti inmorala"
+    ],
+    "a": 1,
+    "fb": "Habermasek bitarteko eraginkorrak soilik kalkulatzen dituen arrazoia kontrajartzen dio elkarrizketan elkar ulertzea bilatzen duenari, eta lehena bigarrenaz ordezkatzea proposatzen du."
+   },
+   {
+    "q": "Zer irudi kontrajartzen diote Deleuzek eta Guattarik zuhaitzarenari, loturak pentsatzeko?",
+    "o": [
+     "Hasiera eta amaiera markatuak dituen kate lineal bat",
+     "Sustrai eta enbor bakarra dituen hierarkia zurrun bat",
+     "Lotura anitz eta aldakorren sare bat, erdigune finkorik gabea",
+     "Lotura berri oro baztertzen duen sistema itxi bat"
+    ],
+    "a": 2,
+    "fb": "Errizomak norabide askotako loturak iradokitzen ditu, sustrai nagusirik eta erdigune bakarrik gabe, zuhaitz hierarkikoa ez bezala."
+   },
+   {
+    "q": "Nola ulertzen dute Deleuzek eta Guattarik desioa, gabezia soil baten ideiaren aurrean?",
+    "o": [
+     "Kontsumituz bakarrik asetzen den hutsune pribatu gisa",
+     "Beti errepresiopean jarri behar den bulkada gisa",
+     "Kapitalismoak erabat askatzen duen zerbait gisa",
+     "Harremanak, irudiak eta erakundeak sortzen dituen indar gisa"
+    ],
+    "a": 3,
+    "fb": "Desioa ez da gabezia pribatu bat bakarrik: ekoizlea da, harremanak, irudiak eta erakundeak sortzen ditu, nahiz eta kapitalismoak merkatuan harrapatzen duen."
+   },
+   {
+    "q": "Zer zaintzea proposatzen du Richard Rortyk demokrazia liberalean, egia absolutu bat bilatu beharrean?",
+    "o": [
+     "Elkarrizketa, ironia eta elkartasuna",
+     "Oinarri metafisiko sendo eta eztabaidaezin bat",
+     "Azken hiztegi bakar eta sakratu bat",
+     "Hizkuntza publikoarekiko erabateko haustura"
+    ],
+    "a": 0,
+    "fb": "Rortyk nahiago du elkarrizketa, ironia eta elkartasuna zaindu azken oinarri metafisiko bat bilatu baino, egia eta justizia hiztegi sakratu batean itxi gabe."
+   },
+   {
+    "q": "Zeri deitzen dio Lyotardek «legitimazio-krisia»?",
+    "o": [
+     "Bere burua inoren laguntzarik gabe justifikatzea lortzen duen zientziari",
+     "Diskurtso guztiei zentzua emango liekeen epaile bakar baten galerari",
+     "Kontakizun global eta behin betiko baten garaipenari",
+     "Gizartearen isiltasun absolutuari kontakizunen aurrean"
+    ],
+    "a": 1,
+    "fb": "Lyotardek legitimazio-krisia deitzen dio diskurtso guztiei zentzua emango liekeen epaile bakar eta goren bat jada ez egoteari; zientzia ere ezin da legitimatu egia bilatze hutsarekin."
+   },
+   {
+    "q": "Zer dio Foucaultek boterearen eta erresistentziaren arteko harremanari buruz?",
+    "o": [
+     "Erresistentziak botere oro erabat deuseztatzen du",
+     "Boterea erresistentziarik ez dagoen tokian bakarrik dago",
+     "Boterea dagoen tokian erresistentzia ere sortzen da",
+     "Erresistentzia botere-forma oro baino lehenagokoa da"
+    ],
+    "a": 2,
+    "fb": "Foucaultek baieztatzen du boterea dagoen tokian erresistentzia dagoela: biak batera doaz, eta boterea ez da inoiz erabat ezabatzera iristen."
+   },
+   {
+    "q": "Zer irakurketa eskaintzen du Vattimok nihilismoaz?",
+    "o": [
+     "Mendebaldeko metafisika sendora itzultzea",
+     "Balio guztien hondamen eta desagerpen hutsa",
+     "Interpretazio posible ororen ukazioa",
+     "Mundua azken oinarri batekin ixteko ezintasuna"
+    ],
+    "a": 3,
+    "fb": "Vattimorentzat nihilismoa ez da balioen hondamena bakarrik: erakusten du mundua ezin dela oinarri bakar batekin itxi; hortik dator pentsamendu ahula."
+   },
+   {
+    "q": "Zer gogorarazten du hermeneutikak interpretazio neutral baten asmoaren aurrean?",
+    "o": [
+     "Badagoela aurreiritzi eta historia orotatik libre dagoen begirada bat",
+     "Beti tradizio eta hizkuntza baten barruan ulertzen dugula",
+     "Egitura sakonak baino ez direla garrantzitsuak, ez interpretatzen duena",
+     "Testua bere kabuz azaltzen dela, inolako irakurlerik gabe"
+    ],
+    "a": 1,
+    "fb": "Hermeneutikaren arabera, ulertzea ez da ikuspegi neutral bat hartzea: tradizio, hizkuntza eta aurreiritzi historiko batzuen barruan interpretatzen dugu."
+   },
+   {
+    "q": "Habermasen arabera, zerk egiten du arau bat baliozko?",
+    "o": [
+     "Egia errebelatu eta finko batekin bat etortzeak",
+     "Aginte legitimo batek ezartzeak",
+     "Eragindako guztiek eztabaida aske batean onartzeak",
+     "Bitarteko eraginkorrak kalkulatzeko baliagarria izateak"
+    ],
+    "a": 2,
+    "fb": "Habermasentzat, baliozkoa da eragindako guztiek elkarrizketa aske eta behartze gabeko batean onar lezaketena: egia, adostasun gisa ulertuta."
+   },
+   {
+    "q": "Zein pentsamendu-korrontek jarri zuen bere kritikaren ardatzean arrazoia menderakuntza bihurtzea?",
+    "o": [
+     "Hermeneutikak",
+     "Estrukturalismoak",
+     "Nietzscheren perspektibismoak",
+     "Frankfurteko Eskola"
+    ],
+    "a": 3,
+    "fb": "Frankfurteko Eskolak zorroztu egiten du arrazoi instrumentalari buruzko galdera: arrazoia bitartekoen kalkulura murrizten denean, gizakia eta natura kontrolatu beharreko objektu bihurtzen dira."
+   },
+   {
+    "q": "Zer dira «ihes-lerroak» Deleuze eta Guattariren pentsamenduan?",
+    "o": [
+     "Beste lotura eta bizimodu batzuk irekitzen diren arrakalak",
+     "Sistemaren kontrola indartzen duten bideak",
+     "Subjektuak beren lekuan finkatzen dituzten hierarkiak",
+     "Lotura oro ordenatzen duten gune bakarrak"
+    ],
+    "a": 0,
+    "fb": "Sistema batek subjektuak eta praktikak finkatu nahi dituenean, ihes-lerroek beste lotura eta bizimodu batzuk irekitzen dituzte; ez dira ihes pribatu hutsa."
+   },
+   {
+    "q": "Metakontakizunen artean, zein kontakizun handi egozten dio teoriak Hegeli?",
+    "o": [
+     "Klaserik gabeko gizarte baten promesa",
+     "Kontzientziak askatasunerantz duen garapena",
+     "Arrazoi ilustratuaren bidezko emantzipazioa",
+     "Zientziaren mugarik gabeko aurrerapena"
+    ],
+    "a": 1,
+    "fb": "Metakontakizunen artean, teoriak Hegeli askatasunaren kontzientziaren garapena egozten dio; arrazoiaren bidezko emantzipazioa Ilustrazioari dagokio, eta klaserik gabeko gizartea marxismoari."
+   },
+   {
+    "q": "Habermasi egotzitako bi formula hurbilen artean, zer bereizketa egiten du teoriak?",
+    "o": [
+     "«Komunikazio-komunitate ideala» Habermasena da; bestea, Lyotardena",
+     "Biak Habermasenak dira eta gauza bera esan nahi dute zehazki",
+     "Habermasek «hizketa-egoera ideala» aipatzen du; «komunikazio-komunitate ideala» Apelena da",
+     "«Hizketa-egoera ideala» Baudrillardek proposatu zuen lehenik"
+    ],
+    "a": 2,
+    "fb": "Zehazki esanda, Habermasek «hizketa-egoera ideala» aipatzen du; «komunikazio-komunitate ideala» formula haren lankide Karl-Otto Apelena da."
+   },
+   {
+    "q": "Zer bilatzen du estrukturalismoak subjektuaren atzean?",
+    "o": [
+     "Oinarri metafisiko sendo bat",
+     "Kontzientzia aske eta autonomoa",
+     "Hizkuntza, sistemak eta egitura sakonak",
+     "Historiaren interpretazio neutrala"
+    ],
+    "a": 2,
+    "fb": "Estrukturalismoak, subjektuaren atzean, hizkuntza, sistemak eta egitura sakonak bilatzen ditu, eta zalantzan jartzen du subjektu autonomo eta gardenaren mitoa."
+   },
+   {
+    "q": "Zer alde dago Rortyren eta Habermasen artean?",
+    "o": [
+     "Habermasek praktika historiko bat nahiago du; Rortyk, baldintza unibertsalak",
+     "Habermasek baldintza unibertsalak bilatzen ditu; Rortyk, praktika historikoago bat",
+     "Rortyk metafisika sendo bat defendatzen du; Habermasek, elkarrizketa alde batera uztea",
+     "Biek azken hiztegi sakratu bat proposatzen dute"
+    ],
+    "a": 1,
+    "fb": "Habermasek arrazoi komunikatiboaren baldintza unibertsalak bilatzen ditu; Rortyk, berriz, praktika historikoago bat proposatzen du: sufrimendua murriztea eta ahots gehiago entzutea."
+   }
+  ]
+ },
+ "hf-t24-repaso": {
+  "name": "Filosofia analitikoa (HF · T24 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "J. L. Austinek ohartarazi zuen esaldi guztiak ez direla mundua deskribatzera mugatzen. Zerk bereizten ditu, ahoskatzean, ekintza bat egiten dutenak?",
+    "o": [
+     "Egiazkoak edo faltsuak direla, gertakariekin bat datozen ala ez",
+     "Ondo ateratzen direla edo huts egiten dutela, egiazkoak edo faltsuak izan beharrean",
+     "Ezin direnez egiaztatu, inolako esanahirik ez dutela",
+     "Eduki enpirikorik gabeko tautologia logikoak direla"
+    ],
+    "a": 1,
+    "fb": "Austinek enuntziatu konstatatiboak (egiazkoak edo faltsuak) eta performatiboak kontrajartzen ditu; azken hauek ez dute deskribatzen, ekintza bat egiten dute baizik, eta, horregatik, ondo ateratzen dira edo huts egiten dute."
+   },
+   {
+    "q": "Austinek abiatutako hizketa-ekintzen teoria beste hizkuntzaren filosofo batek sistematizatu eta garatu zuen. Nork?",
+    "o": [
+     "Ludwig Wittgenstein",
+     "Bertrand Russell",
+     "John Searlek",
+     "Karl Popper"
+    ],
+    "a": 2,
+    "fb": "John Searlek Austinek abiatutako hizketa-ekintzen teoria sistematizatu zuen Hizketa-ekintzak (1969) lanean."
+   },
+   {
+    "q": "Zeremonia batean «zin egiten dut» esatean, hiztunak ez du gertakari bat adierazten: zin egiteko ekintza burutzen du. Austinek sortutako zein kontzeptuk jasotzen du fenomeno hori?",
+    "o": [
+     "Performatibitatea",
+     "Egiaztagarritasuna",
+     "Isomorfismoa",
+     "Neurtezintasuna"
+    ],
+    "a": 0,
+    "fb": "Austinek performatibo deitzen die ekintza bat egiten duten esaldiei: «zin egiten dut» esatea zin egitea da, ez zerbait deskribatzea."
+   },
+   {
+    "q": "Austinek hiru maila bereizten ditu hizketa-ekintza orotan: lokutiboa, ilokutiboa eta perlokutiboa. Zer adierazten du azken horrek?",
+    "o": [
+     "Ahoskatzen diren hitzak berak",
+     "Hitz egitean egiten dena, agintzea edo hitz ematea, adibidez",
+     "Esaldiaren egitura logiko ezkutua",
+     "Esandakoak entzuleari eragiten dion efektua"
+    ],
+    "a": 3,
+    "fb": "Ekintza perlokutiboa entzulearengan sortzen den efektua da, eta ez da ez lokutiboa (hitzak esatea) ez ilokutiboa (hitz egitean zerbait egitea)."
+   },
+   {
+    "q": "Tractatus-ean, Wittgensteinek dio hizkuntzaren egiturak eta gertakarienak forma bera izan dezaketela. Nola deitzen zaio bat etortze horri?",
+    "o": [
+     "Hizkuntza-jokoa",
+     "Isomorfismoa",
+     "Faltsabilitatea",
+     "Performatibitatea"
+    ],
+    "a": 1,
+    "fb": "Isomorfismoa hizkuntzaren egitura logikoaren eta munduko gertakarien egituraren arteko forma-bat etortzea da; horregatik da hizkuntza munduaren irudi logikoa."
+   },
+   {
+    "q": "Wittgensteinek «min» hitzaren adibidea jartzen du: ez du zentzurik hartzen barne-sentsazio bati begiratuz, baizik eta hura adierazteko eta horri erantzuteko praktika partekatuetan. Zer tesi argitzen du adibide horrek?",
+    "o": [
+     "Hizkuntza munduko gertakarien ispilua dela",
+     "Enpirikoki egiazta daitekeenak bakarrik duela zentzua",
+     "Ezin dela hizkuntza pribaturik egon",
+     "Oinarrizko proposizio bakoitzari gertakari soil bat dagokiola"
+    ],
+    "a": 2,
+    "fb": "«Minaren» adibidearekin, Wittgensteinek hizkuntza pribatuaren ideia kritikatzen du: esanahia ez da barne-objektu batera murrizten, komunitate baten praktika partekatuen mende dago baizik."
+   },
+   {
+    "q": "Nor da «nire hizkuntzaren mugak nire munduaren mugak dira» baieztapen ospetsuaren egilea?",
+    "o": [
+     "Ludwig Wittgenstein",
+     "Bertrand Russell",
+     "J. L. Austin",
+     "John Searlek"
+    ],
+    "a": 0,
+    "fb": "Esaldia Ludwig Wittgensteinen Tractatus logico-philosophicus lanaren 5.6 proposizioa da."
+   },
+   {
+    "q": "Zein egilek defendatu zuen ez dagoela metodo zientifiko unibertsalik, bere jarrera «edozerk balio du» lelopean laburbilduz?",
+    "o": [
+     "Karl Popper",
+     "Thomas Kuhn",
+     "Paul Feyerabendek",
+     "Imre Lakatosek"
+    ],
+    "a": 2,
+    "fb": "Paul Feyerabendek anarkismo metodologikoa defendatzen du: ez dago metodo unibertsalik, eta aurrerapen handiak arauak hautsiz lortu ziren; bere leloa «edozerk balio du» da."
+   },
+   {
+    "q": "Thomas Kuhnen arabera, denbora gehienean zientzialariek ez dute teoria nagusia eraisten saiatzen, haren barruan arazoak ebazten baizik. Nola deitzen dio eguneroko jarduera horri?",
+    "o": [
+     "Iraultza zientifikoa",
+     "Faltsazioa",
+     "Anarkismo metodologikoa",
+     "Zientzia normala"
+    ],
+    "a": 3,
+    "fb": "Kuhnek zientzia normala deitzen dio paradigma baten barruan buru-hausgarriak ebazteko lanari, krisi baten ondoren paradigma hori ordezten duen iraultzatik bereizita."
+   },
+   {
+    "q": "Kuhnek adierazten du «planeta» bezalako terminoek ez dutela gauza bera esan nahi Ptolomeoren sisteman eta Kopernikorenean. Zein kontzeptuk izendatzen du bi paradigma neurri berarekin alderatu ezin izate hori?",
+    "o": [
+     "Neurtezintasuna",
+     "Isomorfismoa",
+     "Egiaztagarritasuna",
+     "Performatibitatea"
+    ],
+    "a": 0,
+    "fb": "Inkonmentsurabilitatea da paradigma desberdinetako terminoak ezin direla elkarren artean zuzenean itzuli ez alderatu dioen ideia."
+   },
+   {
+    "q": "Vienako Zirkuluaren egiaztagarritasun-irizpideak barne-muga bat zuen: «esaldi batek zentzua du egiaztagarria bada» baieztapena bera ezin da enpirikoki egiaztatu. Zer agerian uzten du horrek?",
+    "o": [
+     "Esaldi egiaztagarri oro automatikoki egiazkoa dela",
+     "Irizpideak ezin zuela bere burua egiaztatu",
+     "Metafisikak esanahi zientifiko osoa duela",
+     "Zientziaren legeak beti faltsuak direla"
+    ],
+    "a": 1,
+    "fb": "Egiaztagarritasunaren printzipioa bera ez da egiaztagarria: printzipio metafisikoa da; horregatik iritsi zen positibismo logikoa autokritikara eta galdu zuen indarra."
+   },
+   {
+    "q": "Txillardegik dio hizkuntza bakoitzak mundua ikusteko eta antolatzeko modu oso bat daramala. Zein termino alemaniarrek jasotzen du ikuspegi hori?",
+    "o": [
+     "Volksgeist",
+     "Sprachspiel",
+     "Weltanschauung",
+     "Sinnlos"
+    ],
+    "a": 2,
+    "fb": "Txillardegik mundu-ikuskeraren (Weltanschauung) ideia erabiltzen du: hizkuntza bakoitzak mundua antolatzeko modu bat darama berekin, eta hura galtzeak errealitatea ordenatzeko modu bat galtzea dakar."
+   },
+   {
+    "q": "Txillardegirentzat, hizkuntza baten erabilera sozial osoa berreskuratzeak hezkuntzari, administrazioari eta prestigioari eragiten die, ez gramatikari bakarrik. Nola deitzen da prozesu hori?",
+    "o": [
+     "Diglosia",
+     "Egiaztapena",
+     "Iraultza zientifikoa",
+     "Hizkuntza-normalizazioa"
+    ],
+    "a": 3,
+    "fb": "Hizkuntza-normalizazioa da hizkuntza batek bere erabilera sozial osoa berreskuratzeko edo indartzeko prozesua; ez da gramatika-kontu hutsa."
+   },
+   {
+    "q": "Txillardegiren arabera, hizkuntza ez da pentsatu «ondoren» erabiltzen dugun zerbait: haren egiturak zehazten du nola antolatzen dugun errealitatea. Zer eginkizun ematen dio?",
+    "o": [
+     "Egituratzaile inkontziente batena",
+     "Gertakarien ispilu neutral batena",
+     "Tautologia multzo batena",
+     "Egiaztapen-irizpide batena"
+    ],
+    "a": 0,
+    "fb": "Txillardegik dio hizkuntzak egituratzaile inkontziente gisa jarduten duela: zehazten du nola antolatzen dugun errealitatea, hizkuntza dugulako pentsatzen baitugu."
+   },
+   {
+    "q": "«Eguzkia egunero ateratzen da» zientifikoa da, egunen batean aterako ez balitz ezeztatuta geratuko litzatekeelako; «Jainkoak sortu zuen mundua», berriz, ez. Zein irizpidek bereizten du hemen zientzia?",
+    "o": [
+     "Egiaztagarritasunak",
+     "Faltsagarritasunak",
+     "Inkonmentsurabilitateak",
+     "Performatibotasunak"
+    ],
+    "a": 1,
+    "fb": "Popperren arabera, teoria bat zientifikoa da esperientziak ezeztatzeko arriskua onartzen badu: «Jainkoak sortu zuen mundua» ezin du inolako gertakari posiblek ezeztatu."
+   },
+   {
+    "q": "Lakatosen arabera, ikerketa-programa bat aurrerakoia da, baldin eta...",
+    "o": [
+     "edozein anomaliaren aurrean bere gune gogorra uzten badu",
+     "bere babes-gerrikoa a posteriori doitzera mugatzen bada",
+     "ezeztatua izateko inolako arriskurik onartzen ez badu",
+     "gertakari berriak etengabe aurresaten baditu"
+    ],
+    "a": 3,
+    "fb": "Programa bat aurrerakoia da gertakari berriak etengabe aurresaten baditu, eta endekatzailea, bere babes-gerrikoa a posteriori doitu besterik egiten ez badu."
+   },
+   {
+    "q": "Popperrek dio aldeko milaka kasu metatzeak ez diola teoria bati segurtasun osoa ematen, beti ager baitaiteke kontraadibide bat. Horregatik, zein metodo jotzen du nahikoa ez dena?",
+    "o": [
+     "Indukzioa",
+     "Dedukzioa",
+     "Faltsazioa",
+     "Performatibotasunak"
+    ],
+    "a": 0,
+    "fb": "Popperrek indukzioa kritikatzen du: ez du segurtasun osoa ematen; horregatik, faltsagarritasuna proposatzen du irizpide gisa."
+   }
+  ]
+ },
+ "hf-t25-repaso": {
+  "name": "Existentzialismoa (HF · T25 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Nor jotzen da existentzialismoaren aitzindari handitzat, norbanakoaren erabakia sistemaren gainetik jarri zuelako?",
+    "o": [
+     "Kierkegaard",
+     "Husserl",
+     "Camus",
+     "Zambrano"
+    ],
+    "a": 0,
+    "fb": "Kierkegaardek sistema-filosofiaren aurka egin zuen, eta existentzialismoaren aitzindari handitzat jotzen da norbanakoaren erabakia, fedea eta larritasuna sistemaren gainetik jarri zituelako."
+   },
+   {
+    "q": "Existentziaren arazoari ematen dion irtenbidearen arabera, zein bi adarretan banatzen da existentzialismoa?",
+    "o": [
+     "Arrazionalista batean eta enpirista batean",
+     "Erlijioso batean eta ateo batean",
+     "Idealista batean eta materialista batean",
+     "Politiko batean eta estetiko batean"
+    ],
+    "a": 1,
+    "fb": "Teoriak Kierkegaarden existentzialismo erlijiosoa eta Sartreren edo Camusen existentzialismo ateoa bereizten ditu; arazoa partekatzen dute, baina ez irtenbide bera."
+   },
+   {
+    "q": "Fenomenologiaren zein ezaugarrik adierazten du kontzientzia beti «zerbaiten kontzientzia» dela, objektu batera zuzendua?",
+    "o": [
+     "Larritasuna",
+     "Heriotzarako-izateak",
+     "Intentzionalitateak",
+     "Fede txarra"
+    ],
+    "a": 2,
+    "fb": "Intentzionalitatea fenomenologiaren oinarrizko ezaugarria da: kontzientzia beti da zerbaiten kontzientzia, objektu batera zuzendua."
+   },
+   {
+    "q": "Heideggerri buruzko baieztapen hauetatik zein da zuzena?",
+    "o": [
+     "Existentzialismoa eskola itxi gisa sortu zuen",
+     "Izateari buruzko galdera erabat baztertu zuen",
+     "Ukatu egin zuen gizakia munduan kokatuta dagoenik",
+     "Korronte horretan eragin zuen, haren partetzat jo gabe bere burua"
+    ],
+    "a": 3,
+    "fb": "Izatea eta denbora (1927) lanak eragin handia izan zuen existentzialismoan, baina Heideggerrek ez zuen bere burua existentzialistatzat jo."
+   },
+   {
+    "q": "Sartreren arabera, zertan bereizten dira gauzak eta kontzientzia?",
+    "o": [
+     "Gauzak itxiak eta osoak dira; kontzientziak bere buruarekiko distantzia hartzen du",
+     "Gauzek askatasunez hautatzen dute; kontzientzia finkatuta dago jada",
+     "Gauzek proiektu bat dute; kontzientzia objektu amaitua da",
+     "Gauzek etengabe gainditzen dute beren burua; kontzientzia zehazki dena da"
+    ],
+    "a": 0,
+    "fb": "Gauzak berez-izatea dira (itxiak, osoak); kontzientzia beretzat-izatea da, bere buruarekiko distantzia hartzen duen eta etengabe gainditzen den errealitatea."
+   },
+   {
+    "q": "Nola deitzen dio Camusek gizakiak zentzua bilatzearen eta erantzunik ematen ez duen mundu baten arteko talkari?",
+    "o": [
+     "Larritasuna",
+     "Absurdua",
+     "Goragalea",
+     "Agonia"
+    ],
+    "a": 1,
+    "fb": "Camusek absurdoa deitzen dio gizakiak zentzua, batasuna eta arrazoia eskatzearen eta erantzun argirik ematen ez duen mundu baten arteko talkari."
+   },
+   {
+    "q": "Zein arazo jotzen du Camusek filosofiaren benetan serio bakartzat?",
+    "o": [
+     "Hilezkortasuna",
+     "Larritasuna",
+     "Suizidioa",
+     "Fede txarra"
+    ],
+    "a": 2,
+    "fb": "Camusek dio arazo filosofiko benetan serio bakarra dagoela: suizidioa."
+   },
+   {
+    "q": "Zertan datza Camusek aipatzen duen errebeldia?",
+    "o": [
+     "Errealitatetik ihes egitean, zentzu faltsu bat asmatuz",
+     "Bizitzari amaiera ematean, zentzurik ez duela ohartzean",
+     "Ezarritako ordenari men egitean, kaosa saihesteko",
+     "Menpekotasunari uko egitean eta bizitza dena den baieztatzean"
+    ],
+    "a": 3,
+    "fb": "Errebeldia menpekotasunari uko egitea da, eta ez amore ematea ez mundua gezur batekin estaltzea; zentzua ez dago bermatuta, baina bizitza baieztatuz erantzun daiteke."
+   },
+   {
+    "q": "Zentzu grekoan, zer esan nahi du «agoniak» Unamunoren pentsamenduan?",
+    "o": [
+     "Barne-borroka bat, ez heriotzaren atari",
+     "Bizitzaren saihetsezineko amaiera",
+     "Ezezagunaren beldurra",
+     "Askatasunak sortzen duen zorabioa"
+    ],
+    "a": 0,
+    "fb": "Unamunok «agonia» borrokaren zentzu grekoan erabiltzen du: ez heriotzaren atari gisa, arrazoiaren eta bihotzaren arteko barne-borroka gisa baizik."
+   },
+   {
+    "q": "Zein pentsalari espainiarrek ordezkatzen du existentzialismo kristaua?",
+    "o": [
+     "José Ortega y Gasset",
+     "Miguel de Unamuno",
+     "María Zambrano",
+     "Albert Camus"
+    ],
+    "a": 1,
+    "fb": "Teoriak adierazten duenez, Miguel de Unamunok ordezkatzen du existentzialismo kristaua."
+   },
+   {
+    "q": "Zein bi jarrera gainditu nahi ditu Ortegak bizi-arrazoiaren bidez?",
+    "o": [
+     "Enpirismoa eta idealismoa",
+     "Materialismoa eta espiritualismoa",
+     "Arrazionalismo hutsa eta bitalismo irrazionala",
+     "Eszeptizismoa eta dogmatismoa"
+    ],
+    "a": 2,
+    "fb": "Ortegak bizi-arrazoiaren bidez gainditu nahi ditu bai arrazionalismo hutsa, bai bitalismo irrazionala."
+   },
+   {
+    "q": "Zer harreman du Zambranoren arrazoi poetikoak Ortegaren pentsamenduarekin?",
+    "o": [
+     "Haren eragina jasotzen du, baina ez da jarraipen mekaniko bat",
+     "Haren ideien kopia zehatza da",
+     "Erabat baztertzen du, harengandik ezer jaso gabe",
+     "Ilustrazioaren arrazoi hutsarekin ordezten du"
+    ],
+    "a": 0,
+    "fb": "Zambranok Ortegaren eragina jaso zuen, baina haren proposamena ez da jarraipen mekaniko bat."
+   },
+   {
+    "q": "Zer ekarri zuen Nietzschek existentzialismoaren aitzindari gisa?",
+    "o": [
+     "Izatearen eta izakien arteko bereizketa",
+     "Gizakiaren esentzia finko baten defentsa",
+     "Balio tradizionalen krisia eta norberaren sorkuntza",
+     "Bizi-arrazoia bizitzaren tresna gisa proposatzea"
+    ],
+    "a": 2,
+    "fb": "Nietzschek balio tradizionalen krisia eta norberaren sorkuntza azpimarratu zituen, existentzialismoaren aitzindari gisa."
+   },
+   {
+    "q": "Camusen arabera, zer jarrera proposatzen du absurdoaren kontzientziaren aurrean?",
+    "o": [
+     "Bizitzari baietz esatea hura ukatu gabe, zentzu faltsuak baztertuz",
+     "Bizitza ukatzea, zentzu bermaturik ez duelako",
+     "Zentzu faltsu bat asmatzea, ez sufritzeko",
+     "Etsipenari amore ematea"
+    ],
+    "a": 0,
+    "fb": "Camusen bidea zentzu faltsuen kontsolamendua baztertzea da, eta, hala ere, bizitzari baietz esatea."
+   },
+   {
+    "q": "Sartreren arabera, zer gertatzen da pertsona batek hautatzen duenean?",
+    "o": [
+     "Bere naturan jada finkatuta zegoen esentzia bat aurkitzen du",
+     "Aldi berean, gizakia zer izan daitekeen irudi bat proposatzen du",
+     "Jainkoak berarentzat marraztutako plana jarraitzera mugatzen da",
+     "Besteekiko erantzukizun ororen aske geratzen da"
+    ],
+    "a": 1,
+    "fb": "Hautatzean ez dugu geure burua bakarrik egiten: gizakiaren irudi bat ere proposatzen dugu, eta horrek larritasuna eta erantzukizuna sortzen ditu."
+   },
+   {
+    "q": "Kierkegaarden arabera, nola kokatzen da norbanakoa azken erabakiaren aurrean?",
+    "o": [
+     "Haren ordez erabakitzen duen masak babestuta",
+     "Erantzuna ematen dion sistema batek gidatuta",
+     "Erantzukizun ororen aske",
+     "Bakarrik Jainkoaren aurrean, existentziaren tentsioa agerian utziz"
+    ],
+    "a": 3,
+    "fb": "Kierkegaardentzat, Jainkoaren aurrean dagoen norbanakoa bakarrik dago azken erabakiaren aurrean, eta bakardade horrek existentziaren tentsioa erakusten du."
+   }
+  ]
+ },
+ "hf-t26-repaso": {
+  "name": "Feminismoa (HF · T26 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Beauvoirrek dio emakumeei buruzko zenbait kontakizunek —«emakumea misterio bat da» edo «emakumea amatasunerako deitua dago», adibidez— funtzio bat betetzen dutela. Zein?",
+    "o": [
+     "Berez historikoa dena natural bihurtzea",
+     "Emakumeak nola jokatzen duten zehatz deskribatzea",
+     "Femeninotasunaren azterketan zientzia ordeztea",
+     "Emakumeak eskubide gehiago eskatzera gonbidatzea"
+    ],
+    "a": 0,
+    "fb": "Mitoek funtzio ideologikoa dute: historikoa dena natural gisa aurkezten dute, eta, horrela, zapalkuntza naturalizatzen dute."
+   },
+   {
+    "q": "Zergatik ezin da feminismoaren historia liburu eta egileen zerrenda huts gisa ulertu?",
+    "o": [
+     "Aldaketarik gabe transmititzen den doktrina itxia delako",
+     "Haren testu nagusiak denborarekin galdu direlako",
+     "Protesta eta aldarrikapena batzen dituen gizarte-mugimendua delako",
+     "Unibertsitateetako adituek bakarrik ikertzen dutelako"
+    ],
+    "a": 2,
+    "fb": "Feminismoa, batez ere, gizarte-mugimendu bat da: antolakuntza, protesta, eskubideen aldarrikapena eta hizkera berriak batzen ditu."
+   },
+   {
+    "q": "Zerk bereizten ditu berdintasun formala eta berdintasun materiala?",
+    "o": [
+     "Lehenak baliabideak dituztenak bakarrik babesten ditu, eta bigarrenak guztiak berdin",
+     "Lehena juridikoa da; bigarrenak denbora, baliabideak eta aitorpena eskatzen ditu",
+     "Lehena erlijiotik dator, eta bigarrena politika modernotik",
+     "Lehena demokrazian aplikatzen da, eta bigarrena gainerako erregimenetan"
+    ],
+    "a": 1,
+    "fb": "Legeak aukera bera aitor dezake, baina hura benetan erabiltzeko denborarik, baliabiderik edo aitorpenik ez badago, desberdintasuna erreproduzitu egiten da."
+   },
+   {
+    "q": "Teoriaren arabera, zer galdera nagusi planteatzen du Martha Nussbaumek justiziaz aritzean?",
+    "o": [
+     "Norbanako bakoitzak bere bizitzan zenbat ondasun metatu dituen",
+     "Zer eskubide jasotzen diren herrialde bakoitzeko konstituzioetan",
+     "Nola banatu lana gizonen eta emakumeen artean",
+     "Pertsona bakoitzak benetan zer egin eta zer izan dezakeen"
+    ],
+    "a": 3,
+    "fb": "Nussbaumek gaitasunen ikuspegia erabiltzen du: pertsona bakoitzak benetan zer egin eta zer izan dezakeen galdetzen du, ez bakarrik paperean zer eskubide dituen."
+   },
+   {
+    "q": "Nussbaumen arabera, zergatik erreproduzi ditzake desberdintasunak itxuraz neutroa den lege batek?",
+    "o": [
+     "Egitean genero-ikuspegia kontuan hartzen ez duelako",
+     "Lege oro, berez, nahitaez bidegabea delako",
+     "Legeek gizonak babesteko bakarrik balio dutelako",
+     "Emakumeek, printzipioz, arauketa oro baztertzen dutelako"
+    ],
+    "a": 0,
+    "fb": "Nussbaumek defendatzen du legeak egitean genero-ikuspegia kontuan hartu behar dela, itxurazko neutraltasunak askotan desberdintasunak erreproduzitzen dituelako."
+   },
+   {
+    "q": "Nancy Fraserrek genero-bidegabekeriaren bi mota bereizten ditu. Hauetatik zein da sinbolikoa?",
+    "o": [
+     "Emakumeen eta gizonen arteko soldata-arrakala",
+     "Ezkontzaren barruko mendekotasun ekonomikoa",
+     "Ez entzuna ez serio hartua izatea",
+     "Enpleguaren prekarietatea"
+    ],
+    "a": 2,
+    "fb": "Fraserrentzat sinbolikoak dira mespretxua, isilaraztea edo serio hartua ez izatea; materialak, berriz, soldata-arrakala edo prekarietatea."
+   },
+   {
+    "q": "Nola ulertzen du Beauvoirrek giza existentziaren anbiguotasuna?",
+    "o": [
+     "Ona denaren eta txarra denaren arteko nahasmen gisa",
+     "Patu bakoitza zehazten duen esentzia itxi gisa",
+     "Inolako mugarik gabeko askatasun huts gisa",
+     "Aldi berean aske eta baldintzatuta egotea bezala"
+    ],
+    "a": 3,
+    "fb": "Beauvoirren ustez, gizakia aske eta baldintzatua da aldi berean: existentzia ez da esentzia itxia, ezta askatasun huts eta mugagabea ere."
+   },
+   {
+    "q": "Zer ideia adierazten du Beauvoirrek «egoera» terminoarekin?",
+    "o": [
+     "Subjektuak ez duela ezerezetik hautatzen, bere gorputzetik eta bere baldintzetatik baizik",
+     "Askatasuna norberaren gorputzari jaramonik ez egitean datzala",
+     "Pertsona bakoitza patu finko batekin jaiotzen dela",
+     "Gizarte-harremanek ez dutela erabakietan eraginik"
+    ],
+    "a": 0,
+    "fb": "Egoerak adierazten du subjektuak ez duela ezerezetik hautatzen: bere gorputzak, bere garaiko baldintzek eta gizarte-harremanek kokatzen dute."
+   },
+   {
+    "q": "Zer gehitzen dio Judith Butlerrek emakumearen eraikuntzari buruzko Beauvoirren tesiari?",
+    "o": [
+     "Gorputza datu natural hutsa eta aldaezina dela",
+     "Generoa bakarrik eraikitzen dela, eta sexuak bere horretan dirauela",
+     "Sexua ere ez dela kulturaren aurreko datu neutroa",
+     "Desberdintasun sexuala erabat desagertzen dela"
+    ],
+    "a": 2,
+    "fb": "Butlerrek Beauvoir erradikalizatzen du: gorputzak medikuntzaren, hizkuntzaren, legearen eta gizarte-arauen bidez sailkatzen dira; sexua ere kulturalki irakurtzen da."
+   },
+   {
+    "q": "Nondik hartzen du Butlerrek deskribatu ez, baizik eta esaten dutena egiten duten enuntziatuak badirela dioen ideia?",
+    "o": [
+     "Freuden psikoanalisitik",
+     "Austinen hizketa-egintzen teoriatik",
+     "Marxen materialismo historikotik",
+     "Hegelen dialektikatik"
+    ],
+    "a": 1,
+    "fb": "Butler Austinen hizketa-egintzetatik abiatzen da: badira deskribatu ez, baizik eta esaten dutena egiten duten enuntziatuak, eta generoa horrela sortzen da, performatiboki."
+   },
+   {
+    "q": "Zer adierazten du «queer» terminoak teoriaren barruan, Butlerren arabera?",
+    "o": [
+     "Identitate sexual bakar eta egonkor baten defentsa",
+     "Lehendik dagoen zerrendari gehitzen zaion identitate berri bat",
+     "Kategorien analisi oro baztertzea",
+     "Identitate eta genero-kategoria finkoen aurkako jarrera"
+    ],
+    "a": 3,
+    "fb": "Queer terminoak identitate sexualen eta genero-kategoria finkoen aurkako jarrera adierazten du; ez du beste identitate bat gehitzen, kategoriak nola sortzen diren aztertzen baizik."
+   },
+   {
+    "q": "Zer bilatzen du Butlerrek «generoa desegin» proposamenarekin?",
+    "o": [
+     "Imitatzeko identitate original eta garbirik ez dagoela erakustea",
+     "Genero-eredu bat beste zurrunago batekin ordeztea",
+     "Sexuaren eta generoaren arteko bereizketa tradizionala berrezartzea",
+     "Emakume-identitate unibertsal bakarra ezartzea"
+    ],
+    "a": 0,
+    "fb": "Butlerrek ez du beste identitate finko bat sortu nahi: haren ustez ez dago genero-identitate egiazko edo originalik; generoa arauak errepikatuz sortzen da."
+   },
+   {
+    "q": "Zer dio Butlerrek emakume edo gizon izateko eredu bitar eta heterosexualari buruz?",
+    "o": [
+     "Existitzeko modu natural eta baliozko bakarra dela",
+     "Gorde egin behar dela, gizarte-desordena saihesteko",
+     "Eredu horretatik haratago beste identitate-modu batzuk sor daitezkeela",
+     "Identitate finko baten bidez soilik gaindi daitekeela"
+    ],
+    "a": 2,
+    "fb": "Butlerren ustez, identitatea ez da nahitaez eredu bitar eta heterosexualaren arabera eraiki behar; beste identitate-modu batzuk sor daitezke."
+   },
+   {
+    "q": "Zer muga historiko egozten dio teoriak feminismoaren lehen olatuari?",
+    "o": [
+     "Boto-eskubidea erabat baztertu zuela",
+     "Emakume burges eta zurien esperientzia jarri zuela erdigunean",
+     "Emakumeei hezkuntzarako sarbidea ukatu ziela",
+     "Eguneroko bizitzaren kritikara mugatu zela"
+    ],
+    "a": 1,
+    "fb": "Lehen olatuak eskubide politikoak jarri zituen erdigunean, baina askotan emakume burges eta zurietan zentratu zen, eta bigarren mailan utzi zituen emakume langileak eta arrazializatuak."
+   },
+   {
+    "q": "Zer adierazten du Beauvoirrek etxeko lanari buruz?",
+    "o": [
+     "Inolako baliorik ez duela, eta horregatik desagertu egin behar duela",
+     "Emakumearentzako transzendentzia-bide bakarra dela",
+     "Emakumeak askatasunez eta presiorik gabe hautatzen duela",
+     "Produktiboa dela, baina ez duela estatusik ez balio ekonomikorik jasotzen"
+    ],
+    "a": 3,
+    "fb": "Beauvoirrek ohartarazi zuen etxeko lana produktiboa dela, baina ez dela aitortzen: ez du gizarte-estatusik ez balio ekonomiko argirik, eta immanentziara bultzatzen du."
+   },
+   {
+    "q": "Nola hartzen du Beauvoirrek emakumeak patu finkoa duelako ideia?",
+    "o": [
+     "Askatasunak hauts dezakeen eraikuntza historiko gisa ulertzen du",
+     "Aldatu ezin den lege biologiko gisa onartzen du",
+     "Emakume bakoitzaren borondateari egozten dio",
+     "Zori-kontu hutsera murrizten du"
+    ],
+    "a": 0,
+    "fb": "Beauvoirren ustez, emakumearen patua ez dute biologiak ez tradizioak erabakitzen: eraikuntza historikoa da, eta askatasunak hauts dezake."
+   },
+   {
+    "q": "Zer bi arrisku saihestu behar ditu feminismoak, intersekzionalitatearen teoriaren arabera?",
+    "o": [
+     "Gizonak baztertzea eta politika uztea",
+     "Historia aintzat ez hartzea eta filosofia alde batera uztea",
+     "Esperientzia bakar batez hitz egitea, edo ekintza komuna eragozteraino zatitzea",
+     "Gizonezkoen eredua kopiatzea eta lege-eskubideak ahaztea"
+    ],
+    "a": 2,
+    "fb": "Intersekzionalitateak bi arrisku saihesten ditu: emakume guztiek esperientzia bera balute bezala hitz egitea, eta desberdintasunak hainbeste zatitzea, non ekintza komuna ezinezko bihurtzen baita."
+   },
+   {
+    "q": "Giza bizitzaren zer errealitate jartzen du lehen planoan zaintzaren etikak?",
+    "o": [
+     "Banako autonomoen arteko lehia",
+     "Besteen lanaren beharra izatera garamatzan elkarmendekotasuna",
+     "Pertsona heldu bakoitzaren erabateko independentzia",
+     "Merkatuaren neutraltasuna etxeko bizitzan"
+    ],
+    "a": 1,
+    "fb": "Benetako bizitza elkarmendekotasunez egina dago: haurtzaroan, gaixotasunean edo zahartzaroan beste pertsona batzuen lan ikusezina behar dugu."
+   },
+   {
+    "q": "Beauvoirren arabera, zer mekanismoren bidez eraiki da maskulinoaren eta femeninoaren arteko bereizketa?",
+    "o": [
+     "Europako nazioen artean adostutako itun politiko baten bidez",
+     "Gizarte-errealitatearen behaketa interesgabe eta neutroaren bidez",
+     "Inongo gizartek alda ezin dezakeen lege jainkotiar baten bidez",
+     "Arrazionala eta indartsua gizonarentzat gordetzen duten oposizioen bidez"
+    ],
+    "a": 3,
+    "fb": "Beauvoirrek oposizioen logika bat deskribatzen du: positiboa gizonarentzat, negatiboa emakumearentzat; horrela, emakumeak ezin du subjektu unibertsalaren lekua bete."
+   }
+  ]
+ },
+ "hf-t27-repaso": {
+  "name": "XXI. mendeko erronkak (HF · T27 · errepasoa)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "Gaiaren arabera, Noam Chomskyren ekarpena bi eremutan garatzen da. Zein dira?",
+    "o": [
+     "Ekonomia eta ekologia",
+     "Biologia eta medikuntza",
+     "Hizkuntzalaritza eta politika",
+     "Estetika eta metafisika"
+    ],
+    "a": 2,
+    "fb": "Chomskyren ekarpena bikoitza da: hizkuntza-gaitasunaren egiturak aztertzen ditu, eta, politikan, iritzi publikoa nola moldatzen den salatzen du."
+   },
+   {
+    "q": "«Propaganda demokraziarentzat porra Estatu totalitarioarentzat dena da» esaldiaren egilea…",
+    "o": [
+     "Byung-Chul Han",
+     "Zygmunt Bauman",
+     "Naomi Klein",
+     "Noam Chomsky"
+    ],
+    "a": 3,
+    "fb": "Chomskyren aipua da, Media Control lanekoa; bertan, propagandak demokrazietan duen zeregina porrak totalitarismoan duenarekin alderatzen du."
+   },
+   {
+    "q": "Hanen arabera, diziplina-gizartea honen inguruan antolatzen zen…",
+    "o": [
+     "debekuak eta kanpoko aginduak",
+     "hobetzeko eta ekoizteko etengabeko agindua",
+     "norbera borondatez erakustea",
+     "subjektuaren autoesplotazioa"
+    ],
+    "a": 0,
+    "fb": "Diziplina-gizarteak debekuen eta kanpoko aginduen menpe jartzen zuen subjektua; errendimendu-gizartea, berriz, autoexijentzian oinarritzen da."
+   },
+   {
+    "q": "«Errendimenduaren subjektuak bere burua esplotatzen du.» Zein egilerena da ideia nagusi hau?",
+    "o": [
+     "Martha Nussbaum",
+     "Byung-Chul Han",
+     "Judith Butler",
+     "Noam Chomsky"
+    ],
+    "a": 1,
+    "fb": "Byung-Chul Hanen ideia nagusia da, Nekearen gizartea lanean: gaur egungo subjektuak bere burua bultzatzen du gehiago errenditzera, kanpoko zaindariaren beharrik gabe."
+   },
+   {
+    "q": "Gaiaren arabera, gaitasunen ikuspegiak ez du onartzen ongizatea murriztea…",
+    "o": [
+     "batez besteko ekonomiko batera edo kontsumo-ahalmen hutsera",
+     "pertsona bakoitzaren zoriontasun subjektibora",
+     "parte-hartze politikora",
+     "gaitasunen garapenera"
+    ],
+    "a": 0,
+    "fb": "Nussbaumen ikuspegiak erakusten du ongizatea ezin dela batez besteko ekonomiko batera ez kontsumo-ahalmen hutsera murriztu, benetako gaitasunetara baizik."
+   },
+   {
+    "q": "Nussbaumek bizitza duin baterako beharrezkotzat jotzen dituen gaitasunen artean dago…",
+    "o": [
+     "aberastasunaren metaketa mugagabea",
+     "ingurunearekiko harreman egokia",
+     "luxuzko ondasunen kontsumoa",
+     "arrakasta profesionala edozein preziotan"
+    ],
+    "a": 1,
+    "fb": "Nussbaumen gaitasunen zerrendak, besteak beste, «ingurunearekiko harreman egokia» jasotzen du, bizitzarekin, osasunarekin, jolasarekin edo afiliazioarekin batera."
+   },
+   {
+    "q": "Butlerrek azaltzen du «normal» gisa aurkezten dena ez dela natural hutsa, errepikatutako arau baten emaitza baizik. Nola deitzen dio gaiak arau horri?",
+    "o": [
+     "biopolitika",
+     "kontrasexualitatea",
+     "heteroaraua",
+     "psikopolitika"
+    ],
+    "a": 2,
+    "fb": "Gaiak «heteroaraua» deitzen dio normal gisa aurkezten denari, Butlerren arabera ez baita naturala, errepikatutako arau baten emaitza baizik."
+   },
+   {
+    "q": "Gaiaren glosarioaren arabera, zer da performatibitatea?",
+    "o": [
+     "Sexuaren esentzia biologiko eta aldaezina",
+     "Gizarte-rolen kanpoko debekua",
+     "Gorputzen sailkapen naturala",
+     "Generoa egintza errepikatu gisa"
+    ],
+    "a": 3,
+    "fb": "Performatibitateak generoa egintza errepikatu gisa izendatzen du: keinuak, arropa eta hitz egiteko moduak errepikatuz egiten dugun zerbait."
+   },
+   {
+    "q": "Glosarioaren arabera, ekomendekotasunaren ideiak dio…",
+    "o": [
+     "gizakia naturatik kanpo dagoen subjektu subiranoa dela",
+     "ekonomiak biosferatik at funtzionatzen duela",
+     "giza bizitza naturaren baldintza material eta energetikoen mende dagoela",
+     "landa-gizarteak soilik daudela ingurunearen mende"
+    ],
+    "a": 2,
+    "fb": "Ekomendekotasunak dio giza bizitza naturaren baldintza material eta energetikoen mende dagoela: ez dago ekonomiarik biosferatik kanpo."
+   },
+   {
+    "q": "«Bizitzaren aurka gerran» dagoen sistema baten aurrean, zer proposatzen du Yayo Herrerok?",
+    "o": [
+     "hazkunde ekonomikoa mugarik gabe azkartzea",
+     "politikaren zeregina ahalik eta gehien murriztea",
+     "merkatuak bere burua erregulatuko duelakoan fidatzea",
+     "bizitza eta zaintzak politikaren erdigunean jartzea"
+    ],
+    "a": 3,
+    "fb": "Herrerok bizitza eta zaintzak politikaren erdigunean jartzea proposatzen du, kapital-metaketaren ordez, mugak ukatzen dituen sistema baten aurrean."
+   },
+   {
+    "q": "Gaiak dioenez, bizitza sostengatzen duten lan eta gorputz asko…",
+    "o": [
+     "ikusezin bihurtu dira, eta askotan ez dira behar bezala aitortzen",
+     "ekonomiaren atalik baloratu eta aitortuena dira",
+     "jarduera ekonomiko orotatik guztiz kanpo geratzen dira",
+     "merkatuaren ardura esklusiboa dira"
+    ],
+    "a": 0,
+    "fb": "Zaintzek, gizarte-erreprodukzioak eta komunitate-loturek ekonomia sostengatzen dute, baina ikusezin bihurtu dira, eta askotan ez dira behar bezala aitortzen."
+   },
+   {
+    "q": "Gaiaren arabera, zer behar du esparru publikoak demokraziak benetan funtziona dezan?",
+    "o": [
+     "etengabeko abiadura, eskandalua eta polarizazioa",
+     "publizitate oldarkorragoa",
+     "informazio fidagarria, eztabaida arrazoitua eta arreta partekatua",
+     "hedabide guztiak desagertzea"
+    ],
+    "a": 2,
+    "fb": "Esparru publikoak informazio fidagarria, eztabaida arrazoitua eta arreta partekatua behar ditu; plataformen logikak baldintza horiek ahultzen ditu sarritan."
+   },
+   {
+    "q": "Langileak hautatzeko sistema automatiko batek auzo jakin batzuetako hautagaiak baztertzen ditu, datu historiko alboratuetatik ikasten duelako. Glosarioko zer kontzeptuk azaltzen du hori ondoen?",
+    "o": [
+     "Diskriminazio algoritmikoa",
+     "Adostasunaren fabrikazioa",
+     "Nekearen gizartea",
+     "Aro farmakopornografikoa"
+    ],
+    "a": 0,
+    "fb": "Diskriminazio algoritmikoa da: sistema automatizatuak entrenatzeko erabili ziren datu historikoetan dauden desberdintasunak errepikatu eta indartzen ditu."
+   }
+  ]
  }
 };
