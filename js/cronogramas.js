@@ -1382,16 +1382,16 @@ const CRONOGRAMAS = [
   "end": 1945,
   "groups": [
    {
-    "name": "Idealismo alemana"
+    "name": "Idealismoa"
    },
    {
-    "name": "Positibismoa eta eboluzionismoa"
+    "name": "Positibismoa"
    },
    {
-    "name": "Ezker hegeldarra, marxismoa eta anarkismoa"
+    "name": "Antiidealismoa (irrazionalismoa, bitalismoa)"
    },
    {
-    "name": "Nahimena, existentzia eta bizitza"
+    "name": "Postidealismoa (marxismoa eta anarkismoa)"
    },
    {
     "name": "Psikoanalisia"
@@ -1432,43 +1432,43 @@ const CRONOGRAMAS = [
     "name": "Ludwig Feuerbach",
     "start": 1804,
     "end": 1872,
-    "grp": 2
+    "grp": 3
    },
    {
     "name": "Karl Marx",
     "start": 1818,
     "end": 1883,
-    "grp": 2
+    "grp": 3
    },
    {
     "name": "Friedrich Engels",
     "start": 1820,
     "end": 1895,
-    "grp": 2
+    "grp": 3
    },
    {
     "name": "Piotr Kropotkin",
     "start": 1842,
     "end": 1921,
-    "grp": 2
+    "grp": 3
    },
    {
     "name": "Arthur Schopenhauer",
     "start": 1788,
     "end": 1860,
-    "grp": 3
+    "grp": 2
    },
    {
     "name": "Søren Kierkegaard",
     "start": 1813,
     "end": 1855,
-    "grp": 3
+    "grp": 2
    },
    {
     "name": "Friedrich Nietzsche",
     "start": 1844,
     "end": 1900,
-    "grp": 3
+    "grp": 2
    },
    {
     "name": "Sigmund Freud",
