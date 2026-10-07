@@ -4,7 +4,7 @@
 const GALERIA_MUSEO = [
  {
   "f": "media/retratos/museo/alcibiades.jpg",
-  "t": "Alcibíades",
+  "t": "Altzibiades",
   "pie": "Academische studie naar prent buste van Alcibiades 1806 Dominique Cool · Dominique Cools / After Alexandre Chaponnier · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -12,7 +12,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/alejandro.jpg",
-  "t": "Alejandro Magno",
+  "t": "Alexandro Handia",
   "pie": "Alejandro Magno Alexander The Great Bust Alexander BM 1857 cropped · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -20,7 +20,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/aristoteles.jpg",
-  "t": "Aristóteles",
+  "t": "Aristoteles",
   "pie": "Aristotle Altemps Inv8575 · After Lysippos · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -36,7 +36,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/diogenes.jpg",
-  "t": "Diógenes",
+  "t": "Diogenes",
   "pie": "Diogenes statue Sinop enhanced · Diogenes-statue-Sinop.JPG: Tony f derivative work: Singinglemon (talk) · CC BY 3.0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Diogenes-statue-Sinop-enhanced.jpg",
   "bloque": "A",
@@ -45,7 +45,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/delfos.jpg",
-  "t": "El oráculo de Delfos",
+  "t": "Delfosko orakulua",
   "pie": "Voorbereiding tot het raadplegen van het orakel van Delphi Voorbereydi · Rijksmuseum · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -53,7 +53,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/epicuro.jpg",
-  "t": "Epicuro",
+  "t": "Epikuro",
   "pie": "Epicurus Massimo Inv197306 · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -61,7 +61,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/hipatia.jpg",
-  "t": "Hipatia de Alejandría",
+  "t": "Hipatia Alexandriakoa",
   "pie": "Hypatia Charles William Mitchell · Charles William Mitchell · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -69,7 +69,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/academia.jpg",
-  "t": "La Academia de Platón",
+  "t": "Platonen Akademia",
   "pie": "MANNapoli 124545 plato s academy mosaic · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -77,7 +77,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/escuela-atenas.jpg",
-  "t": "La Escuela de Atenas",
+  "t": "Atenasko Eskola",
   "pie": "The School of Athens by Raffaello Sanzio da Urbino · Raphael · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -85,7 +85,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/caverna.jpg",
-  "t": "La alegoría de la caverna",
+  "t": "Kobazuloaren alegoria",
   "pie": "Platon Cave Sanraedam 1604 · Jan Saenredam / After Cornelis van Haarlem · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -93,7 +93,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/muerte-socrates.jpg",
-  "t": "La muerte de Sócrates",
+  "t": "Sokratesen heriotza",
   "pie": "David The Death of Socrates · Jacques-Louis David · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -101,7 +101,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/marco-aurelio.jpg",
-  "t": "Marco Aurelio",
+  "t": "Marko Aurelio",
   "pie": "Head Marcus Aurelius archmus Heraklion · Jebulon · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -109,7 +109,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/platon.jpg",
-  "t": "Platón",
+  "t": "Platon",
   "pie": "Plato bust · Jpergrc · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -117,7 +117,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/seneca.jpg",
-  "t": "Séneca",
+  "t": "Seneka",
   "pie": "Bust of Pseudo Seneca MET DP359039 · Peter Paul Rubens · CC0 · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -125,7 +125,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/socrates.jpg",
-  "t": "Sócrates",
+  "t": "Sokrates",
   "pie": "Bust Socrates Musei Capitolini MC1163 · Public Domain · Wikimedia Commons",
   "bloque": "A",
   "unidad": "Antigua · museo (dominio público)",
@@ -133,7 +133,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/agustin.jpg",
-  "t": "Agustín de Hipona",
+  "t": "Agustin Hiponakoa",
   "pie": "Saint Augustine of Hippo Engraving Wellcome V0031651 · Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_of_Hippo._Engraving._Wellcome_V0031651.jpg",
   "bloque": "B",
@@ -190,7 +190,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/aquino.jpg",
-  "t": "Tomás de Aquino",
+  "t": "Tomas Akinokoa",
   "pie": "St thomas aquinas · Carlo Crivelli · Public Domain · Wikimedia Commons",
   "bloque": "B",
   "unidad": "Medieval-Moderna · museo (dominio público)",

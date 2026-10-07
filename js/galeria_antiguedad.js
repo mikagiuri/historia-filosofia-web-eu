@@ -4,7 +4,7 @@
 const GALERIA_ANTIGUEDAD = [
  {
   "f": "media/galeria_museo/antiguedad/atenas_acropolis_filopapo.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "La Acrópolis de Atenas, con el Partenón y el Erecteion, vista desde la colina de Filopapo · Constantinos Kollias · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/yqBvJJ8jGBQ",
   "bloque": "A",
@@ -13,7 +13,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_acropolis_ladera.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "La Acrópolis de Atenas desde su ladera · Dawid Tkocz · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/wKn3xiRS_jo",
   "bloque": "A",
@@ -22,7 +22,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_partenon.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "El Partenón (447-432 a. C.), templo de Atenea en la Acrópolis · Tânia Mousinho · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/6oql77OCcU0",
   "bloque": "A",
@@ -31,7 +31,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_partenon_friso.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "Columnas dóricas y entablamento del Partenón · Luca Dugaro · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/Ze8qCV3gOb0",
   "bloque": "A",
@@ -40,7 +40,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_erecteion_cariatides.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "El pórtico de las Cariátides del Erecteion, en la Acrópolis · Moises Gonzalez · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/mxe_pvx9CeA",
   "bloque": "A",
@@ -49,7 +49,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_capitel_jonico.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "Voluta de un capitel jónico (Atenas) · Content Pixie · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/T9atF7iWhxw",
   "bloque": "A",
@@ -58,7 +58,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_odeon_herodes.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "El Odeón de Herodes Ático, al pie de la Acrópolis (época romana, 161 d. C.) · Dawid Tkocz · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/obJ8qNPdmwU",
   "bloque": "A",
@@ -67,7 +67,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_atenea_parthenos.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "Reconstrucción a tamaño real de la Atenea Parthenos de Fidias (Alan LeQuire, 1990; Partenón de Nashville) · Dean Dixon (foto) · FAL · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Athena_Parthenos_LeQuire.jpg",
   "bloque": "A",
@@ -76,7 +76,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/atenas_richmond_agamenon.jpg",
-  "t": "Atenas y la democracia",
+  "t": "Atenas eta demokrazia",
   "pie": "William Blake Richmond, «El público en Atenas durante el Agamenón de Esquilo» (1884) · Birmingham Museums Trust · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/JaGi2pVPOp0",
   "bloque": "A",
@@ -103,7 +103,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_heracles_leon.jpg",
-  "t": "Heracles y el león de Nemea",
+  "t": "Herakles eta Nemeako lehoia",
   "pie": "Ánfora con Heracles y el león de Nemea ante Atenea (lámina de 1883) · The New York Public Library · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/c-uRAdJF70w",
   "bloque": "A",
@@ -112,7 +112,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_odiseo_pretendientes.jpg",
-  "t": "Odiseo y los pretendientes",
+  "t": "Odiseo eta pretendenteak",
   "pie": "Odiseo mata a los pretendientes, pintura de vaso (lámina de 1883) · The New York Public Library · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/HFJ5C1-PDpw",
   "bloque": "A",
@@ -121,7 +121,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_jason_eetes.jpg",
-  "t": "Jasón y el vellocino de oro",
+  "t": "Jason eta urrezko larrua",
   "pie": "Jasón, en busca del vellocino de oro, en la corte de Eetes (lámina de 1862-1864) · The New York Public Library · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/N-qcvpRlNU8",
   "bloque": "A",
@@ -130,7 +130,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_griego_amazona.jpg",
-  "t": "Griegos contra amazonas (amazonomaquia)",
+  "t": "Grekoak amazonen aurka (amazonomakia)",
   "pie": "Ánfora ática: un griego lucha contra una amazona (lámina de 1883) · The New York Public Library · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/XUlyS4W0JG4",
   "bloque": "A",
@@ -139,7 +139,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_atenea_encelado.jpg",
-  "t": "Atenea contra los gigantes (gigantomaquia)",
+  "t": "Atenea erraldoien aurka (gigantomakia)",
   "pie": "Atenea ataca al gigante Encélado (lámina de 1844-1861) · The New York Public Library · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/1J_gu3-ojH0",
   "bloque": "A",
@@ -148,7 +148,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_harpias.jpg",
-  "t": "Las Harpías",
+  "t": "Harpiak",
   "pie": "Las Harpías (lámina de 1878) · The New York Public Library · Dominio público · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/-vxGGeFgS2Q",
   "bloque": "A",
@@ -157,7 +157,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_zeus_olimpico.jpg",
-  "t": "Zeus de Olimpia",
+  "t": "Olinpiako Zeus",
   "pie": "El Zeus de Olimpia de Fidias imaginado por Quatremère de Quincy («Le Jupiter olympien», 1815) · Quatremère de Quincy · Dominio público · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Le_Jupiter_Olympien_ou_l%27art_de_la_sculpture_antique.jpg",
   "bloque": "A",
@@ -166,7 +166,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_delfos.jpg",
-  "t": "El oráculo de Delfos",
+  "t": "Delfosko orakulua",
   "pie": "El santuario de Apolo en Delfos, sede del oráculo, al amanecer · Saara Sanamo · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/SgQJoLH1PU8",
   "bloque": "A",
@@ -184,7 +184,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/mito_hades_cerbero.jpg",
-  "t": "Hades y Cerbero",
+  "t": "Hades eta Zerbero",
   "pie": "Hades (Plutón) con el perro Cerbero, en el Plutonio de Hierápolis (Turquía, época romana) · Unma Desai · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/Fbm5nuxceng",
   "bloque": "A",
@@ -193,7 +193,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_egina_laomedonte.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "Guerrero herido (Laomedonte) del frontón del templo de Afaya en Egina (h. 480 a. C.; Gliptoteca de Múnich) · Anónimo (foto) · CC0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Aphaia_pediment_Laomedon_E-XI_Glyptothek_Munich_85_n2.jpg",
   "bloque": "A",
@@ -202,7 +202,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_kritios.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "El Efebo de Kritios (h. 480 a. C.; Museo de la Acrópolis): del kouros arcaico al estilo clásico · Marsyas · CC BY-SA 2.5 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:ACMA_698_Kritios_boy_1.JPG",
   "bloque": "A",
@@ -211,7 +211,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_auriga_delfos.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "El Auriga de Delfos, bronce (h. 478-474 a. C.; Museo de Delfos) · Jebulon · CC0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Aurige._Mus%C3%A9e_Delphes._Gr%C3%A8ce.png",
   "bloque": "A",
@@ -220,7 +220,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_zeus_artemision.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "Zeus o Poseidón del cabo Artemision, bronce (h. 460 a. C.; Museo Arqueológico Nacional de Atenas) · Jebulon · CC0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Bronze_Zeus_or_Poseidon_NAMA_X_15161_Athens_Greece.jpg",
   "bloque": "A",
@@ -229,7 +229,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_discobolo.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "El Discóbolo de Mirón (copia romana del original de h. 450 a. C.; Palazzo Massimo, Roma) · Livioandronico2013 · CC BY-SA 4.0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG",
   "bloque": "A",
@@ -238,7 +238,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_efebo_maraton.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "El Efebo de Maratón, bronce (s. IV a. C.; Museo Arqueológico Nacional de Atenas) · Jebulon · CC0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Bronze_athlete_NAMA_X15118_Athens_Greece_01.jpg",
   "bloque": "A",
@@ -247,7 +247,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_hermes_praxiteles.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "Hermes con Dioniso niño, atribuido a Praxíteles (s. IV a. C.; Museo de Olimpia) · Dennis G. Jarvis · CC BY-SA 2.0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Hermes_and_the_Infant_Dionysus_10_04_2005.jpg",
   "bloque": "A",
@@ -256,7 +256,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/arte_luchadores.jpg",
-  "t": "Arte griego: el cuerpo y la medida",
+  "t": "Arte grekoa: gorputza eta neurria",
   "pie": "Luchadores en la base de un kouros funerario (h. 510 a. C.; Museo Arqueológico Nacional de Atenas) · Jebulon · CC0 · Wikimedia Commons",
   "page": "https://commons.wikimedia.org/wiki/File:Wrestlers_3476_NAMAthens_Greece.jpg",
   "bloque": "A",
@@ -265,7 +265,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/helenismo_sidon_batalla.jpg",
-  "t": "Alejandro y el helenismo",
+  "t": "Alexandro eta helenismoa",
   "pie": "Relieve de batalla de un sarcófago de la necrópolis real de Sidón (Museos Arqueológicos de Estambul) · Tugce Gul · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/gcKnSqLxod4",
   "bloque": "A",
@@ -274,7 +274,7 @@ const GALERIA_ANTIGUEDAD = [
  },
  {
   "f": "media/galeria_museo/antiguedad/helenismo_sidon_templo.jpg",
-  "t": "Alejandro y el helenismo",
+  "t": "Alexandro eta helenismoa",
   "pie": "Sarcófago en forma de templo de la necrópolis real de Sidón (Museos Arqueológicos de Estambul) · Tugce Gul · Unsplash (licencia Unsplash)",
   "page": "https://unsplash.com/photos/UsHG_RkQzHo",
   "bloque": "A",
