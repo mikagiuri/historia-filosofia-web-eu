@@ -172,13 +172,13 @@ const PISTAS = [
       "etiqueta": "Ezagutza eta politika",
       "titulo": "Filosofoaren itzulera",
       "definicion": [
-       "Askatua itzuli egiten da eta, argira ohituta, gaizki ikusten du ilunpean: presoek barre egiten diote eta, ahal izanez gero, hil egingo lukete. <strong>Sokratesen</strong> kondenari egindako aipamena da.",
+       "Askatua itzuli egiten da eta, argira ohituta, gaizki ikusten du ilunpean: presoek barre egiten diote eta, ahal izanez gero, hil egingo lukete. Itzultzen dena <strong>Sokrates</strong> da, eta presoak, haren <strong>hiritarkide atenastarrak</strong>, K.a. 399an heriotzara kondenatu zutenak.",
        "Platonentzat, ondo gobernatzeko Ongiaren Ideia ezagutu behar da. Horregatik, hiri justuan <strong>filosofoek</strong> gobernatzen dute, nahiz eta nahiago luketen kontenplatzen geratu.",
        "Alegoriak hiru gai lotzen ditu: ezagutza (Ideietarako igoera), hezkuntza (irteera) eta politika (gobernatzeko itzulera)."
       ],
       "comprobacion": {
        "boton": "Egiaztatuz amaitu",
-       "pregunta": "Norengana egiten du aipamena presoen erreakzio bortitzak?",
+       "pregunta": "Norengana egiten du aipamena presoek hil nahi duten askatuak?",
        "opciones": [
         [
          "Sokratesengana, Atenasek heriotzara kondenatu zuena.",
@@ -192,7 +192,7 @@ const PISTAS = [
         [
          "Sofistekin.",
          false,
-         "Sofistak ez zituzten kondenatu: Platon bere maisuaz ari da."
+         "Ez. Itzultzen dena ez da sofista bat, eta sofistek ez zuten inor kondenatu. Hura baztertzen dutenak presoak dira, Atenasko jende arrunta; hiltzen dena Platonen maisua da."
         ],
         [
          "Inorengana zehazki.",
