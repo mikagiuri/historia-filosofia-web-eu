@@ -108,7 +108,7 @@ const REP_EVENTS = [
     threat:"Ekoizpen-tarte zabalik gabe (soberakina < biztanleriaren % 10), gosea eta heriotzak daude.",
     effect:()=>{ const margin=repPop()*0.1, surplus=repProd()-repPop(); if(surplus<margin){ const x=F((margin-surplus)/3)||1, k=repKill("E",F(Math.max(0,-surplus)/6)); return { d:-x, msg:"Gosea: −"+x+(k?" eta "+k+" ekoizle hiltzen dira.":".") }; } return { d:0, msg:"Ekoizpenak hiria elikatzen du." }; } },
   { id:"menguada", name:"Hiri txikitua", src:"Pol. I", img:"ev-ataque",
-    threat:"Polis txiki bat ez da bere buruaz nahikoa: 30 biztanletik behera, zenbat eta gutxiago, okerrago (÷2).",
+    threat:"Polis txiki bat ez da bere kabuz moldatzen: 30 biztanletik behera, zenbat eta gutxiago, okerrago (÷2).",
     effect:()=>{ const x=F(Math.max(0,REP_TARGET-repPop())/2); return { d:-x, msg:x?("Ahultasuna ("+repPop()+" biz.): −"+x):"Hiri autosufizientea." }; } },
   // — positivos —
   { id:"alianza", name:"Merkataritza-aliantza", src:"Errep.", img:"ev-corrupcion",
@@ -134,11 +134,11 @@ const REP_EVENTS = [
     threat:"Hiriak bere gizonik jakintsuena epaitzen du. Guztiz jakintsua den zaindaririk gabe (JJ 5), kondenatu egiten du.",
     effect:()=>{ return rep.t.Z.max>=5 ? { d:1, msg:"Jakinduriak absolbitzen du: +1." } : { d:-2, msg:"Jakintsuena kondenatzen dute: −2." }; } },
   { id:"pericles", name:"Periklesen handinahia", src:"Historia", img:"ev-pericles",
-    threat:"Buruzagi distiratsu batek obra handiak abiatzen ditu. Zaindari neurritsuekin (batez besteko neurritasuna ≥4,5) urrezko mendea da; neurririk gabe, hybris.",
-    effect:()=>{ const tavg=rep.t.Z.t/Math.max(1,rep.t.Z.n); return tavg>=4.5 ? { d:2, msg:"Periklesen urrezko mendea: +2." } : { d:-2, msg:"Handinahi neurrigabea (hybris): −2." }; } },
+    threat:"Buruzagi bikain batek obra handiei ekiten die. Zaindari neurritsuekin (batez besteko neurritasuna ≥4,5) urrezko aroa da; neurririk gabe, hybris.",
+    effect:()=>{ const tavg=rep.t.Z.t/Math.max(1,rep.t.Z.n); return tavg>=4.5 ? { d:2, msg:"Periklesen urrezko aroa: +2." } : { d:-2, msg:"Handinahi neurrigabea (hybris): −2." }; } },
   { id:"sofistas", name:"Sofisten gorakada", src:"Gorgias", img:"ev-sofistas",
     threat:"Erretorikaren maisuek gazteria liluratzen dute. Zure zaindarien 3/4 baino gutxiago guztiz zuzenak badira, irabazi egiten dute.",
-    effect:()=>{ return rep.t.Z.just >= rep.t.Z.n*0.75 ? { d:1, msg:"Filosofoek gezurtatzen dituzte: +1." } : { d:-2, msg:"Erlatibismoak usteltzen du: −2." }; } },
+    effect:()=>{ return rep.t.Z.just >= rep.t.Z.n*0.75 ? { d:1, msg:"Filosofoek gezurtatzen dituzte: +1." } : { d:-2, msg:"Erlatibismoak hiria usteltzen du: −2." }; } },
   { id:"timocracia", name:"Timokrazia", src:"Errep. VIII", img:"ev-timocracia",
     threat:"Gerlariek zaindariak 1,5× gainditzen badituzte, ohoreak arrazoia ordezkatzen du.",
     effect:()=>{ return rep.t.G.n > rep.t.Z.n*1.5 ? { d:-2, msg:"Hiria timokrazian endekatzen da: −2." } : { d:1, msg:"Arrazoiak agintzen jarraitzen du: +1." }; } },
@@ -408,7 +408,7 @@ function repResult(){
   repBox().innerHTML='<div class="rep-wrap"><div class="rep-result">'+
     '<div class="rep-badge">'+emoji+'</div><div class="rep-rank">'+rank+'</div>'+
     '<div class="rep-final">'+repFmt(Math.max(0,a))+' <span>harmonia</span></div>'+
-    '<p class="rep-pop">'+rep.log.length+' txanda bizi dira · azken hiria '+rep.t.Z.n+'/'+rep.t.G.n+'/'+rep.t.E.n+' · '+(rep.acciones==="si"?"ekintzekin":"ekintzarik gabe")+' · '+(record?"zure errepublikarik onena! 🎉":"marka onena: "+repFmt(Math.max(best,a)))+'</p>'+
+    '<p class="rep-pop">'+rep.log.length+' bizitako txanda · azken hiria '+rep.t.Z.n+'/'+rep.t.G.n+'/'+rep.t.E.n+' · '+(rep.acciones==="si"?"ekintzekin":"ekintzarik gabe")+' · '+(record?"zure errepublikarik onena! 🎉":"marka onena: "+repFmt(Math.max(best,a)))+'</p>'+
     '<div class="rep-name"><label for="repName">🏷️ Partida honen izena</label><input id="repName" type="text" maxlength="40" value="'+repEsc(rep.gameName)+'" placeholder="Jarri izena zure errepublikari"></div>'+
     '<div class="rep-chronicle"><div class="rep-cr-title">📜 Zure errepublikaren kronika</div><ol class="rep-cr-list">'+chronicle+'</ol></div>'+
     '<div class="rep-save"><button class="btn2" id="repSave">💾 Gorde kronika (.txt)</button><button class="btn2" id="repCopy">📋 Kopiatu kronika</button><button class="btn2" id="repHistView">📚 Ikusi historiala</button></div>'+
