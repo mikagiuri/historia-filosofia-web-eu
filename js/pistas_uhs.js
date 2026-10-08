@@ -190,7 +190,7 @@ const PISTAS = [
          "Irakurri berriro azalpenaren lehen paragrafoa."
         ],
         [
-         "Sofistekin.",
+         "Sofista batengana.",
          false,
          "Ez. Itzultzen dena ez da sofista bat, eta sofistek ez zuten inor kondenatu. Hura baztertzen dutenak presoak dira, Atenasko jende arrunta; hiltzen dena Platonen maisua da."
         ],
