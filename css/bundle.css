@@ -1855,6 +1855,16 @@ ol.itin-temas li.temas-extra .temas-t{font-size:.95rem;color:var(--muted)}
 #logica .lg-z2 th:nth-child(n+4), #logica .lg-z2 td:nth-child(n+4){ white-space:normal; font-family:var(--sans); text-align:left; min-width:8.5rem }
 #logica .lg-par{ scroll-margin-top:5.5rem }   /* (07-10) enlace profundo a una ficha: que la cabecera fija no tape el título */
 #logica .lg-intro{ margin:.2rem 0 1rem; max-width:62rem; line-height:1.55 }   /* (08-10) introducción breve de cada pestaña */
+/* (09-10) guía plegada de cada pestaña: cómo se usa y para qué sirve */
+#logica .lg-guia{ max-width:62rem; margin:-.4rem 0 1rem; border:1px solid var(--line); border-radius:var(--radius); background:var(--surface); line-height:1.55 }
+#logica .lg-panel .lg-guia{ margin:.6rem 0 .8rem; background:var(--bg) }
+#logica .lg-guia > summary{ cursor:pointer; padding:.6rem .9rem; font-weight:600; color:var(--r-log, var(--accent)) }
+#logica .lg-guia[open] > summary{ border-bottom:1px solid var(--line) }
+#logica .lg-guia > :not(summary){ margin-left:.9rem; margin-right:.9rem }
+#logica .lg-guia h3{ font-size:1rem; margin:.9rem .9rem .3rem }
+#logica .lg-guia ol, #logica .lg-guia ul{ padding-left:1.4rem }
+#logica .lg-guia li{ margin:.25rem 0 }
+#logica .lg-guia > :last-child{ margin-bottom:.9rem }
 
 
 /* ==== css/leibniz.css ==== */
