@@ -29,10 +29,10 @@ const REP_ROSTER = {
        { id:"z_sabio", name:"Zaindari jakintsuak", sj:5,v:4,t:4, note:"jakinduria-justizia gehiago" },
        { id:"z_pleno", name:"Zaindari osoak", sj:5,v:5,t:5, note:"bertute gorena" } ],
   G: [ { id:"g_tropa", name:"Gerlariak", sj:1,v:4,t:4, note:"oinarrizkoa" },
-       { id:"g_vet", name:"Beteranoak", sj:2,v:5,t:4, note:"trebatuak" },
+       { id:"g_vet", name:"Beteranoak", sj:2,v:5,t:4, note:"eskarmentudunak" },
        { id:"g_heroe", name:"Heroiak", sj:3,v:5,t:5, note:"onenak" } ],
   E: [ { id:"labriego", name:"Nekazariak", sj:1,v:1,t:4, note:"lan egiten duen herria" },
-       { id:"diligente", name:"Ekoizle langileak", sj:2,v:2,t:5, note:"neurtuak eta langileak" } ]
+       { id:"diligente", name:"Ekoizle saiatuak", sj:2,v:2,t:5, note:"neurritsuak eta langileak" } ]
 };
 const REP_IMG = "media/juegos/platon/";
 const REP_ACTS = [
@@ -100,7 +100,7 @@ const REP_EVENTS = [
   // — Aristóteles / muertes / tamaño —
   { id:"ataque", name:"Kanpoko erasoa", src:"Pol. VII", img:"ev-ataque",
     threat:"Defendatzaile gutxi badaude (gerlariak < ekoizleak ÷ 2,5), etsaia sartu eta hil egiten du.",
-    effect:()=>{ if(repNGeff() < rep.t.E.n/2.5){ const k=repKill("G",F(rep.t.G.n/4))+repKill("E",F(rep.t.E.n/12)); return { d:-2, msg:"Inbasioa: −2"+(k?" eta "+k+" herritar hiltzen dira.":".") }; } return { d:0, msg:"Defentsak eusten dio." }; } },
+    effect:()=>{ if(repNGeff() < rep.t.E.n/2.5){ const k=repKill("G",F(rep.t.G.n/4))+repKill("E",F(rep.t.E.n/12)); return { d:-2, msg:"Inbasioa: −2"+(k?" eta "+k+" herritar hiltzen dira.":".") }; } return { d:0, msg:"Defentsak eutsi egiten du." }; } },
   { id:"peste", name:"Izurritea", src:"Patua", img:"ev-hambruna", fate:true,
     threat:"Epidemia batek jendetza jotzen du: ekoizle eta gerlarien zati bat hiltzen du.",
     effect:()=>{ const k=repKill("E",F(rep.t.E.n/5))+repKill("G",F(rep.t.G.n/8)); return { d:-2, msg:"Izurritea: −2 eta "+k+" herritar hiltzen dira." }; } },
@@ -129,12 +129,12 @@ const REP_EVENTS = [
     effect:()=>{ return repNGeff() >= rep.t.E.n/2.5 ? { d:2, msg:"Aliatuen zerga: +2." } : { d:-1, msg:"Aliatuak altxatu egiten dira: −1." }; } },
   { id:"esparta", name:"Espartaren inbasioa", src:"Peloponesoko gerra", img:"ev-esparta",
     threat:"Espartak soroak suntsitzen ditu. Defendatzaileak urriak badira (gerlariak < ekoizleak ÷ 3), sarraski bat da.",
-    effect:()=>{ if(repNGeff() < rep.t.E.n/3){ const k=repKill("E",F(rep.t.E.n/8))+repKill("G",F(rep.t.G.n/6)); return { d:-3, msg:"Suntsipena: −3 eta "+k+" herritar hiltzen dira." }; } return { d:-1, msg:"Harresien atzean eusten diozu: −1." }; } },
+    effect:()=>{ if(repNGeff() < rep.t.E.n/3){ const k=repKill("E",F(rep.t.E.n/8))+repKill("G",F(rep.t.G.n/6)); return { d:-3, msg:"Suntsipena: −3 eta "+k+" herritar hiltzen dira." }; } return { d:-1, msg:"Harresien atzean eusten duzu: −1." }; } },
   { id:"socrates", name:"Sokratesen epaiketa", src:"Apologia", img:"ev-socrates",
     threat:"Hiriak bere gizonik jakintsuena epaitzen du. Guztiz jakintsua den zaindaririk gabe (JJ 5), kondenatu egiten du.",
     effect:()=>{ return rep.t.Z.max>=5 ? { d:1, msg:"Jakinduriak absolbitzen du: +1." } : { d:-2, msg:"Jakintsuena kondenatzen dute: −2." }; } },
   { id:"pericles", name:"Periklesen handinahia", src:"Historia", img:"ev-pericles",
-    threat:"Buruzagi distiratsu batek obra handiak abiatzen ditu. Zaindari neurtuekin (batez besteko neurritasuna ≥4,5) urrezko mendea da; neurririk gabe, hybris.",
+    threat:"Buruzagi distiratsu batek obra handiak abiatzen ditu. Zaindari neurritsuekin (batez besteko neurritasuna ≥4,5) urrezko mendea da; neurririk gabe, hybris.",
     effect:()=>{ const tavg=rep.t.Z.t/Math.max(1,rep.t.Z.n); return tavg>=4.5 ? { d:2, msg:"Periklesen urrezko mendea: +2." } : { d:-2, msg:"Handinahi neurrigabea (hybris): −2." }; } },
   { id:"sofistas", name:"Sofisten gorakada", src:"Gorgias", img:"ev-sofistas",
     threat:"Erretorikaren maisuek gazteria liluratzen dute. Zure zaindarien 3/4 baino gutxiago guztiz zuzenak badira, irabazi egiten dute.",
@@ -197,7 +197,7 @@ function drawRepSummary(){
     '<div class="rep-sum-classes"><span>🦉 '+s.nZ+'</span><span>🛡️ '+s.nG+'</span><span>🌾 '+s.nE+'</span></div>'+
     '<div class="rep-sum-row"><span>🌾 Ekoizpena</span><b class="'+(fed?"ok":"bad")+'">'+s.prod+' <small>vs '+s.pop+' jaten dute</small></b></div>'+
     (m.ratio?'<div class="rep-sum-row"><span>Proportzioa</span><b class="'+(s.nE>=2*(s.nZ+s.nG)?"ok":"bad")+'">ekoiz. ≥ 2×elitea</b></div>':'')+
-    '<div class="rep-fate-note">🎴 Kontuz: mundua zorrotza da. Diseinu txarra zigortzen duten gertaerez gain (orain gogorragoak), sortak <b>patuaren kartak</b> dakartza —izurritea, gerra, lurrikara, sortzailearen heriotza—, edozein hiri jotzen dutenak. Diseinu perfektua ere ez dago salbu; <b>ekintzak</b> dira zure salbabidea.</div>'+
+    '<div class="rep-fate-note">🎴 Kontuz: mundua zorrotza da. Diseinu txarra zigortzen duten gertaerez gain (orain gogorragoak), karta-sortak <b>patuaren kartak</b> dakartza —izurritea, gerra, lurrikara, sortzailearen heriotza—, edozein hiri jotzen dutenak. Diseinu perfektua ere ez dago salbu; <b>ekintzak</b> dira zure salbabidea.</div>'+
     (ok?'<button class="rep-play" id="repPlay">Errepublika sortu →</button>':'<ul class="rep-errs">'+errs.map(e=>'<li>'+e+'</li>').join("")+'</ul>');
   const p=document.getElementById("repPlay"); if(p) p.addEventListener("click",repStart);
 }
@@ -387,7 +387,7 @@ function repCopyChronicle(btn){
 }
 function repResult(){
   const a=rep.armonia; let emoji,rank;
-  if(a<=0||repPop()<3){ emoji="💥"; rank="Errepublika erori egiten da"; }
+  if(a<=0||repPop()<3){ emoji="💥"; rank="Errepublika hondoratu egiten da"; }
   else if(a>=8){ emoji="🏛️"; rank="Errepublika harmoniatsua"; }
   else if(a>=5){ emoji="⚖️"; rank="Errepublika egonkorra"; }
   else { emoji="⚠️"; rank="Errepublika hauskorra, baina zutik"; }
@@ -398,7 +398,7 @@ function repResult(){
   const ts=Date.now(); let fecha; try{ fecha=new Date(ts).toLocaleString("eu-ES",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}); }catch(e){ fecha=new Date(ts).toLocaleString(); }
   repHistPush({ ts, date:fecha, name:rep.gameName, emoji, rank, mode:REP_MODES[rep.mode].name, acc:rep.acciones, arm:repFmt(Math.max(0,a)), turns:rep.log.length, text:repChronicleText() });
   const qs=["Zer erakusten du joko honek Platonen gizartean orekaren beharrari buruz?",
-    "Zer arrisku dakartza gizarte-klase bakoitzaren gehiegizko boterea?",
+    "Zer arrisku dakartza gizarte-klase bakoitzaren gehiegizko botereak?",
     "Egia al da, Platonek zioen bezala, gobernari filosoforik gabe gizartea ezin dela salbatu?",
     "Merezi al du hiri zuzen batek, hura lortzeko klaseen arteko berdintasunari uko egin behar bada?"];
   const chronicle=rep.log.map(e=>{ const s=e.after-e.before, cls=s<0?"bad":s>0?"good":"ok";
@@ -411,7 +411,7 @@ function repResult(){
     '<p class="rep-pop">'+rep.log.length+' txanda bizi dira · azken hiria '+rep.t.Z.n+'/'+rep.t.G.n+'/'+rep.t.E.n+' · '+(rep.acciones==="si"?"ekintzekin":"ekintzarik gabe")+' · '+(record?"zure errepublikarik onena! 🎉":"marka onena: "+repFmt(Math.max(best,a)))+'</p>'+
     '<div class="rep-name"><label for="repName">🏷️ Partida honen izena</label><input id="repName" type="text" maxlength="40" value="'+repEsc(rep.gameName)+'" placeholder="Jarri izena zure errepublikari"></div>'+
     '<div class="rep-chronicle"><div class="rep-cr-title">📜 Zure errepublikaren kronika</div><ol class="rep-cr-list">'+chronicle+'</ol></div>'+
-    '<div class="rep-save"><button class="btn2" id="repSave">💾 Gorde kronika (.txt)</button><button class="btn2" id="repCopy">📋 Kopiatu kronika</button><button class="btn2" id="repHistView">📚 Ikusi historia</button></div>'+
+    '<div class="rep-save"><button class="btn2" id="repSave">💾 Gorde kronika (.txt)</button><button class="btn2" id="repCopy">📋 Kopiatu kronika</button><button class="btn2" id="repHistView">📚 Ikusi historiala</button></div>'+
     '<blockquote class="rep-reflect">Pentsatzeko: '+qs[Math.floor(Math.random()*qs.length)]+'</blockquote>'+
     '<div class="rep-actions2"><button class="btn2 primary" id="repAgain">Beste hiri bat diseinatu</button></div></div></div>';
   document.getElementById("repAgain").addEventListener("click",renderRepStart);
