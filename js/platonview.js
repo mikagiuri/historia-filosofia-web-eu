@@ -134,7 +134,7 @@ const REP_EVENTS = [
     threat:"Hiriak bere gizonik jakintsuena epaitzen du. Guztiz jakintsua den zaindaririk gabe (JJ 5), kondenatu egiten du.",
     effect:()=>{ return rep.t.Z.max>=5 ? { d:1, msg:"Jakinduriak absolbitzen du: +1." } : { d:-2, msg:"Jakintsuena kondenatzen dute: −2." }; } },
   { id:"pericles", name:"Periklesen handinahia", src:"Historia", img:"ev-pericles",
-    threat:"Buruzagi bikain batek obra handiei ekiten die. Zaindari neurritsuekin (batez besteko neurritasuna ≥4,5) urrezko aroa da; neurririk gabe, hybris.",
+    threat:"Buruzagi bikain batek obra handiei ekiten die. Zaindari neurtuekin (batez besteko neurritasuna ≥4,5) urrezko aroa da; neurririk gabe, hybris.",
     effect:()=>{ const tavg=rep.t.Z.t/Math.max(1,rep.t.Z.n); return tavg>=4.5 ? { d:2, msg:"Periklesen urrezko aroa: +2." } : { d:-2, msg:"Handinahi neurrigabea (hybris): −2." }; } },
   { id:"sofistas", name:"Sofisten gorakada", src:"Gorgias", img:"ev-sofistas",
     threat:"Erretorikaren maisuek gazteria liluratzen dute. Zure zaindarien 3/4 baino gutxiago guztiz zuzenak badira, irabazi egiten dute.",
