@@ -13,6 +13,12 @@ const PARADOJAS_GRUPOS = [
   "intro": "Zenon Eleakoak, Parmenidesen ikasleak, argudioak asmatu zituen erakusteko mugimendua, arretaz pentsatuz gero, ezinezkoa dirudiela."
  },
  {
+  "id": "regreso",
+  "view": "paradojas",
+  "titulo": "Atzerakada eta begiztak",
+  "intro": "Azalpen batek beste azalpen bat behar duenean, eta horrek beste bat, eta horrela behin eta berriz, hiru irtenbide besterik ez daude: amaierarik gabe jarraitu (atzerakada infinitua), azaltzen ez den zerbaitetan gelditu (absolutu bat, lehen printzipio bat) edo abiapuntura itzuli (begizta edo zirkulua). Zirkulu batzuk zirkulu biziotsuak dira eta beste batzuk ez; absolutu batzuek azaldu egiten dute eta beste batzuek galdetzeari uzten diote, besterik ez. Marrazki ospetsu batek laburbiltzen du: <em>Marrazten ari diren eskuak</em> (1948), M. C. Escherrena, non esku bakoitzak bestea marrazten duen."
+ },
+ {
   "id": "vaguedad",
   "view": "paradojas",
   "titulo": "Lausotasuna eta identitatea",
@@ -23,6 +29,12 @@ const PARADOJAS_GRUPOS = [
   "view": "paradojas",
   "titulo": "Ekintzaren eta politikaren paradoxak",
   "intro": "Ez dira kontraesan logikoak, baizik eta egoerak non bitartekoak helburuaren aurka doala dirudien, edo arrazoia ez den nahikoa erabakitzeko."
+ },
+ {
+  "id": "colectivo",
+  "view": "paradojas",
+  "titulo": "Bat eta guztiak",
+  "intro": "Bakoitzarentzat ona edo egia dena ez da hala izaten guztiek batera egiten dutenean. Baturaren paradoxak dira: urrats bakoitzean ez dago akatsik; akatsa «bat»etik «guztiak»era igarotzean dago."
  },
  {
   "id": "razonar",
@@ -213,6 +225,166 @@ const PARADOJAS = [
   "problema": "Sor badezake, badago egin ezin duen zerbait: altxatzea. Ezin badu sortu, badago egin ezin duen zerbait: sortzea. Bi kasuetan, ez da ahalguztiduna.",
   "salidas": "<ul><li><strong>Tomas Akinokoa</strong>: ahalguztiduna izatea <em>posible</em> den guztia egin ahal izatea da. Kontraesana dakarrena («dena ahal duenak altxatu ezin duen harria») ez da egin ezin den gauza bat, zentzurik gabeko esaldi bat baizik, «zirkulu karratu» bat bezala.</li><li>Beste batzuen ustez, paradoxak erakusten du inolako mugarik gabeko ahalmenaren ideia ez dela koherentea.</li></ul>",
   "pensar": "Muga bat al da kontraesankorra dena egin ezin izatea?"
+ },
+ {
+  "id": "berry",
+  "grupo": "autorref",
+  "titulo": "Berryren paradoxa",
+  "origen": "Russellek argitaratu zuen 1908an, eta G. G. Berryri egotzi zion, Oxfordeko Unibertsitateko liburuzainari.",
+  "enunciado": "Pentsa «hamabost hitz baino gutxiagorekin izendatu ezin den zenbaki arrunt txikiena». Badira horrelako zenbakiak, hamabost hitz baino gutxiagorekin esaldi kopuru mugatu bat baino ezin baita osatu, eta zenbakiak ez dira inoiz amaitzen; eta horien artean bat izango da txikiena. Baina komatxo arteko esaldiak hamar hitz ditu.",
+  "problema": "Esaldiak hamar hitzekin izendatzen du zenbaki hori; beraz, zenbakia hamabost hitz baino gutxiagorekin izendatu daiteke: ez da bilatzen genuena. Eta hura ez bada, zein da? Ez du bere buruaz hitz egiten gezurtiak bezala, baina «izendatu» hitza erabiltzen du izenda daitekeen guztiaz hitz egiteko, bera barne.",
+  "salidas": "<ul><li>Gezurtiarenean bezala, mailak bereizten dira: «hizkuntza honetan izendagarria» ezin da hizkuntza horren beraren barruan definitu.</li><li>Ideia matematikan erabili zen gero: Gregory Chaitinek erabili zuen frogatzeko badirela zenbakien konplexutasunari buruzko egiak, inolako arau-sistemak froga ezin ditzakeenak.</li></ul>",
+  "pensar": "Zergatik ez dago paradoxarik «hamabost»en ordez «bost» jartzen badugu?"
+ },
+ {
+  "id": "agripa",
+  "grupo": "regreso",
+  "titulo": "Münchhausenen trilema",
+  "origen": "Agripa, greziar eszeptikoa (I. mendea), Sexto Enpirikoak jasoa <em>Esbozos pirrónicos</em> lanean (I. liburua). Izena Hans Albertena da (1968), Münchhausen baroiagatik, zeinak kontatzen baitzuen zingira batetik bere burua atera zuela ilean tiraka.",
+  "enunciado": "—Nola dakizu hori egia dela? —Arrazoi honengatik. —Eta nola dakizu arrazoi hori egia dela? —Beste honengatik. —Eta hori? … Galdetzen jarraitzen badugu, hiru amaiera besterik ez daude.",
+  "problema": "<ul><li><strong>Atzerakada infinitua</strong>: arrazoi bakoitzak beste bat behar du, amaierarik gabe. Ez dugu inoiz ezer justifikatzen amaitzen.</li><li><strong>Etena</strong>: uneren batean esaten dugu «hau ez da justifikatzen, horrela da». Baina orduan gainerako guztia arrazoirik gabe onartu dugun zerbaiten gainean dago.</li><li><strong>Zirkulua</strong>: katea lehen erabilitako arrazoi batera itzultzen da. Baina orduan frogatu nahi genuena bere burua frogatzeko erabiltzen da.</li></ul><p>Hiruretako bat ere ez dirudi benetako justifikazioa.</p>",
+  "salidas": "<ul><li><strong>Fundazionalismoa</strong>: badira frogarik behar ez duten egiak, ebidenteak direlako. Descartesentzat, «pentsatzen dut, beraz banaiz»; Aristotelesentzat, lehen printzipioak, kontraesanik ezaren printzipioa kasu.</li><li><strong>Koherentismoa</strong>: sinesmenek ez dute kate bat osatzen, sare bat baizik, eta elkarri eusten diote, arku bateko harriek bezala.</li><li><strong>Falibilismoa</strong> (Popper, Albert): ez dago azken oinarririk. Arrazoiak onartzen ditugu kritikei eusten dieten bitartean, oker egon gaitezkeela jakinda.</li></ul>",
+  "pensar": "Behin eta berriz «eta zergatik?» galdetzen duen haur batek edonoren pazientzia agortzen du. Hiru irtenbideetatik zein erabiltzen dute helduek gehienetan hura gelditzeko?"
+ },
+ {
+  "id": "tortugas",
+  "grupo": "regreso",
+  "titulo": "Dortokak behera arte",
+  "origen": "John Lockek, <em>Ensayo sobre el entendimiento humano</em> lanean (1690, II. liburua, 23. kap.), elefantearen eta dortokaren bertsioa kontatzen du. Dortoka infinituena hainbat zientzialariri egozten zaien pasadizo bat da; Stephen Hawkingek <em>Historia del tiempo</em> (1988) hasteko erabiltzen du.",
+  "enunciado": "Jakintsu batek azaltzen du Lurra elefante baten gainean dagoela, eta elefantea dortoka baten gainean. —Eta dortoka, zeren gainean dago? —Beste dortoka baten gainean. —Eta hori? —Alferrik da, gazte: dortokak dira behera arte.",
+  "problema": "Euskarri bakoitzak beste euskarri bat behar du. «Dortokak behera arte» erantzunak ez dio galderari erantzuten: betiko atzeratzen du. Ezerk ez badio eusten azken dortokari, ez dagoelako, zerk eusten dio multzoari?",
+  "salidas": "<ul><li>Lockek <strong>substantzia</strong>ren ideiaz trufatzeko erabiltzen du: esaten dugu gauzen kualitateak «zerbaiten» gainean daudela, baina ez dakigu zer den zerbait hori, jakintsuak bere dortokarekin bezala.</li><li>Fisika modernoak galdera aldatzen du: Lurra ez dago ezeren gainean, «behera» ez baita norabide absolutua; orbitan dago, Eguzkiaren inguruan etengabe erortzen.</li><li>Azaltzen duen atzerakada baten eta azalpena <strong>atzeratu</strong> besterik egiten ez duen baten arteko aldea erakusten du; lehenak <strong>azaldu</strong> egiten du.</li></ul>",
+  "pensar": "Gauza bera al da dortoken kate infinitu bat eta arbasoen kate infinitu bat? Zergatik iruditzen zaigu bata absurdoa eta bestea ez hainbeste?"
+ },
+ {
+  "id": "primermotor",
+  "grupo": "regreso",
+  "titulo": "Lehen kausa: absolutu batean gelditzen den atzerakada",
+  "origen": "Aristoteles, <em>Física</em> (VIII. liburua) eta <em>Metafísica</em> (XII. liburua); Tomas Akinokoa, <em>Suma teológica</em> laneko «bost bideak» (I, 2. galdera, 3. artikulua).",
+  "enunciado": "Mugitzen den guztia beste batek mugitzen du. Beste hori, aldi berean, beste batek mugitzen du. Baina ezin da horrela jarraitu infinituraino, orduan ez bailitzateke lehen eragilerik izango eta ezer ez litzateke mugituko. Beraz, badago ezerk mugitzen ez duen lehen eragile bat, «eta hori da guztiek Jainkotzat ulertzen dutena».",
+  "problema": "Atzerakada eteteko <strong>absolutu</strong> bat jartzen da: gainerakoa azaltzen duen baina azalpenik behar ez duen zerbait. Eragozpena berehalakoa da: dena kausa bat badu, nork eragin zuen lehen kausa? Eta zerbait kausarik gabe egon badaiteke, zergatik ez mundua bera?",
+  "salidas": "<ul><li><strong>Tomasek</strong> bi kate bereizten ditu. Aita-semeen serie infinitu bat ez zaio ezinezkoa iruditzen. Ezinezkoa da katebegi bakoitzak <em>orain</em> aurrekoari esker jarduten duen katea, harria mugitzen duen makila mugitzen duen eskua bezala: lehenengoa gabe, ez litzateke bat ere mugituko.</li><li><strong>Spinozak</strong> absolutu horri <em>bere buruaren kausa</em> deitzen dio: bere izaerak existitzea barne hartzen duena.</li><li><strong>Kant</strong> (<em>Crítica de la razón pura</em>, 1781): arrazoiak beti bilatzen du baldintzatuta ez dagoen baldintza bat, eta horregatik iristen da absolutu batera. Baina ezin dugu jakin existitzen den: galdera esperientzia posible ororen mugetatik haratago doa.</li><li><strong>Russellek</strong>, Coplestonekin irratian izandako eztabaida batean (1948), baztertu egiten du: «unibertsoa hor dago, besterik gabe, eta kitto».</li></ul>",
+  "pensar": "Atzerakada bat «azalpenik behar ez duen» zerbaitean gelditzea, azaltzea al da ala galdetzeari uztea? Gauza bera egiten al du «hala delako» erantzuten duen haur batek?"
+ },
+ {
+  "id": "carroll",
+  "grupo": "regreso",
+  "titulo": "Dortokak Akilesi esan ziona",
+  "origen": "Lewis Carroll, <em>Alicia en el país de las maravillas</em> liburuaren egilea eta logika irakaslea, <em>Mind</em> aldizkarian (1895).",
+  "enunciado": "Akilesek arrazoibide bat erakusten dio dortokari: «Euria egiten badu, lurra bustitzen da. Euria egiten du. Beraz, lurra bustitzen da». Dortokak bi premisak onartzen ditu, baina ez ondorioa, araua ere idazten den arte: «Egia bada euria egiten badu lurra bustitzen dela, eta egia bada euria egiten duela, orduan lurra bustitzen da». Akilesek gehitu egiten du. Dortokak beste arau bat eskatzen du orduan, esango duena hiru horiekin ondorioa ateratzen dela. Eta horrela beti.",
+  "problema": "Ondorio bat ateratzeko arau bakoitza premisa gehiago gisa gehitu behar bada, beste arau bat beharko da premisa hori erabiltzeko, eta beste bat… Ez genuke inoiz ezer ondorioztatuko, ezta modus ponens-arekin ere, arrazoibiderik errazena baita.",
+  "salidas": "<ul><li>Inferentzia-arau bat ez da premisa bat gehiago: premisekin <strong>egiten</strong> dena da. Arrazoitzen jakitea egiten jakitea da, ez esaldi bat gehiago idatzita edukitzea.</li><li><em>(p ∧ (p → q)) → q</em> formula tautologia bat da, egiazko taulako errenkada guztietan egiazkoa. Baina egiazkoa izatea ez da nahikoa <em>q</em> ateratzeko: erabili egin behar da.</li><li>Wittgensteinek antzeko zerbaitera itzultzen du: arau bati jarraitzea ezin da beti hura interpretatzen duen beste arau baten mende egon; uneren batean, jardun egiten dugu, besterik gabe.</li></ul>",
+  "pensar": "Zer erantzungo zenioke dortokari arauak eskatzeari utz diezaion?"
+ },
+ {
+  "id": "tercerhombre",
+  "grupo": "regreso",
+  "titulo": "Hirugarren gizona",
+  "origen": "Platonek bere buruari planteatzen dio <em>Parménides</em> lanean (132a); izena Aristotelesena da (<em>Metafísica</em>, I. liburua).",
+  "enunciado": "Sokrates, Platon eta Fedon gizakiak dira, guztiek Gizakiaren Ideian parte hartzen dutelako. Baina Gizakiaren Ideiak eta gizaki zehatzek zerbaitetan antza dute: guztiak dira «gizaki». Antzekotasun hori azaltzeko beste Ideia bat beharko litzateke haien gainetik: «hirugarren gizaki» bat. Eta hirugarren gizaki horrek aurrekoen antza izango luke, eta laugarren Ideia bat beharko luke…",
+  "problema": "Ideiak sartzen dira azaltzeko zergatik duten gauza askok zerbait komunean. Baina Ideiak gauzen antza badu, bera ere gauza horietako bat gehiago bihurtzen da, eta beste Ideia bat behar da. Gauza mota bakoitzeko Ideia bat izan beharrean, infinitu egongo lirateke.",
+  "salidas": "<ul><li>Ideia ez da ale bat gehiago, beste gizakien ondoan jarritako gizaki perfektu bat bezala. Ez <em>du</em> gizatasuna, gizatasuna <em>da</em>, eta horregatik ez da gizakiekin maila berean konparatzen.</li><li><strong>Aristotelesek</strong> argudioa Platonen aurka erabiltzen du: formak ez daude bereizita, gauzetan bertan baizik.</li><li>Absolutu batean gelditzen ez den atzerakada da: proposatutako absolutuak (Ideiak) berriz behar du azalpena, azaltzen duen horren plano berean jartzen dugun bezain laster.</li></ul>",
+  "pensar": "Zure argazki batek zure antza al du zuk beste pertsona batena duzun modu berean?"
+ },
+ {
+  "id": "custodes",
+  "grupo": "regreso",
+  "titulo": "Nork zaintzen du zaintzailea?",
+  "origen": "Juvenal, <em>Sátiras</em> (VI, 347-348): <em>quis custodiet ipsos custodes?</em> Platonek <em>República</em> lanean planteatzen du jada (III, 403e).",
+  "enunciado": "Gehiegikeriak saihesteko zaintzaile bat jartzen dugu. Baina zaintzaileak ere gehiegikeriak egin ditzake; beraz, norbait behar da hura zaintzeko. Eta nork zaintzen du hori?",
+  "problema": "Atzerakada politikoa da. Bi modu baino ez dirudi daudela amaitzeko: <strong>absolutu</strong> batean gelditzea, inork zaintzen ez duen azken botere batean, edo <strong>begizta</strong> batean ixtea, non zaintzaileek elkar zaintzen duten.",
+  "salidas": "<ul><li><strong>Absolutua</strong>: Hobbesek, <em>Leviatán</em> lanean (1651), berak emandako legeen mende ez dagoen subirano bat jartzen du. Horrela amaitzen da katea, baina subiranoak gehiegikeriak egiten baditu, inork ezin du gelditu.</li><li><strong>Begizta</strong>: Montesquieuk, <em>Del espíritu de las leyes</em> lanean (1748), proposatzen du «botereak boterea geldi dezala». Legegileak, betearazleak eta judizialak elkar kontrolatzen badute, ez da azken zaintzailerik behar. Zirkulua da, baina ez biziotsua: inork ez du bere burua justifikatzen, bakoitzak besteak mugatzen ditu.</li><li>Platonek hezkuntzarekin erantzuten zuen: ondo hezitako zaintzaileak ez du zaintzailerik behar. Barregarria litzateke, dio, zaintzaile batek beste zaintzaile bat behar izatea.</li></ul>",
+  "pensar": "Azterketa batean, nork zuzentzen du zuzentzen duena? Zein mekanismok (berrikuspena, erreklamazioa, ikuskapena) osatzen dute begizta, eta zeinek amaitzen dute azken hitz batean?"
+ },
+ {
+  "id": "huevo",
+  "grupo": "regreso",
+  "titulo": "Zer izan zen lehenago, arrautza ala oiloa?",
+  "origen": "Plutarkok eztabaidatzen du galdera <em>Charlas de sobremesa</em> lanean (II. liburua, 3), I-II. mendean.",
+  "enunciado": "Oilo oro arrautza batetik ateratzen da, eta oilo-arrautza oro oilo batek erruten du. Beraz, edozein oiloren aurretik arrautza bat egon zen, eta arrautza horren aurretik, oilo bat… Zein izan zen lehena?",
+  "problema": "Begizta da: osagai bakoitza bestearen mende dago. Atzera egiten badugu, edo bueltaka ibiliko gara amaierarik gabe (atzerakada), edo bi arauetako bat hautsi beharko dugu: edo arrautza batetik atera ez zen oilo bat egon zen, edo oilo batek erruna ez zuen arrautza bat.",
+  "salidas": "<ul><li><strong>Aristotelesek</strong> oiloa erantzuten du: egintzan dagoena (oiloa) ahalmenean baino ez dagoena (arrautza, oilo bihur daitekeena) baino lehenagokoa da.</li><li><strong>Eboluzioak</strong> begizta hausten du: espezieak pixkanaka aldatzen dira. Uneren batean, ia oiloa zen hegazti batek arrautza bat errun zuen, eta handik atera zena oiloa deitzen dugu dagoeneko. Beraz, arrautza izan zen lehenago, baina guztiz oiloa ez zen zerbaitek errun zuen. Begizta, egiaz, <strong>espiral</strong> bat zen: itzuli bakoitza aurrekoa ez bezalakoa da pixka bat.</li><li>Lausotasun kasu bat ere bada, sorites-a bezala: «oiloa» hitzak ez du muga zehatzik.</li></ul>",
+  "pensar": "Bilatu mota honetako beste begizta batzuk: esperientzia eta lana (ez zaituzte kontratatzen esperientziarik gabe, eta ez duzu esperientziarik lanik gabe). Nola hausten dira bizitza errealean?"
+ },
+ {
+  "id": "diccionario",
+  "grupo": "regreso",
+  "titulo": "Hiztegiaren begizta",
+  "origen": "Hizkuntzaren filosofiako arazo klasikoa; erabiltzen du, adibidez, Wittgensteinek <em>Investigaciones filosóficas</em> lanean (1953).",
+  "enunciado": "Hiztegi batean «handi» bilatzen duzu, eta honelako zerbait dio: «ohikoa baino tamaina handiagokoa». «Tamaina» bilatzen duzu: «gauza baten magnitudea». «Magnitude» bilatzen duzu: «tamaina edo handitasuna». Hasierara itzuli zara.",
+  "problema": "Hitz bakoitza beste hitz batzuekin definitzen da. Hiztegiak hitz kopuru mugatua duenez, lehenago edo geroago definizioek begiztak osatzen dituzte. Orduan, nola iristen da horietako edozein zerbait esan nahi izatera, bakoitzak beste batzuetara bidaltzen badu?",
+  "salidas": "<ul><li>Begiztak saihetsezinak dira, baina ez dute hiztegia alferrikako bihurtzen: hitz <strong>batzuk</strong> ezagutzen dituenarentzat baino ez da baliagarria.</li><li>Lehen hitzak ez dira definizioekin ikasten, <strong>seinalatuz</strong> eta erabiliz baizik: «hau gorria da», «hori handia da». Definizio ostentsiboa da, atzerakada hizkuntzatik kanpo eteten duena.</li><li>Wittgensteinek gehitzen du seinalatzeko keinua ere ez dela nahikoa berez: jakin behar da zer seinalatzen den (kolorea?, forma?, kopurua?). Esanahia erabileran dago, bizimodu baten barruan.</li></ul>",
+  "pensar": "Nola azalduko zenioke zer den «gorria» koloreak ikusten ez dituen norbaiti? Eta zer den «ondoren»?"
+ },
+ {
+  "id": "yablo",
+  "grupo": "regreso",
+  "titulo": "Yabloren paradoxa: autoerreferentziarik gabeko gezurtia",
+  "origen": "Stephen Yablo, <em>Analysis</em> aldizkarian (1993).",
+  "enunciado": "Imajinatu esaldien zerrenda infinitu bat. 1. esaldiak dio: «Nire ondoren datozen esaldi guztiak faltsuak dira». 2. esaldiak gauza bera dio, eta 3.ak, eta horrela amaierarik gabe. Bat ere ez da bere buruaz ari.",
+  "problema": "Esaldiren bat egiazkoa balitz, hurrengo guztiak faltsuak lirateke. Baina hurrengoa faltsua bada, haren ondoren datozenetako bat egiazkoa da, eta horrek aurrekoa kontraesaten du. Beraz, guztiak dira faltsuak. Baina 1. esaldiaren ondorengo guztiak faltsuak badira, 1. esaldia egiazkoa da. Kontraesana, eta bere buruaz ari den esaldirik gabe.",
+  "salidas": "<ul><li>Bazirudien gezurtia konpontzen zela esaldi batek bere buruaz hitz egitea debekatuz. Yablok erakusten du ez dela nahikoa: <strong>atzerakada infinitu</strong> batek <strong>begizta</strong> batek bezalako paradoxa sortzen du.</li><li>Logikari batzuek (Graham Priest) erantzuten dute autoerreferentzia ezkutatu bat dagoela: zerrenda osoa ulertzeko zerrendari egin behar zaio erreferentzia, eta zerrendak esaldi bakoitza barne hartzen du.</li></ul>",
+  "pensar": "Zer dute komunean begizta batek (bere buruaz ari den esaldi batek) eta kate infinitu batek (beti hurrengoez ari diren esaldiek)?"
+ },
+ {
+  "id": "distintos",
+  "grupo": "colectivo",
+  "titulo": "«Denok desberdinak izan nahi badugu, orduan denok berdinak gara»",
+  "origen": "Modei buruz asko errepikatzen den ideia. Georg Simmelek aztertu zuen <em>Filosofía de la moda</em> lanean (1905); Monty Pythonek zinemara eraman zuen <em>La vida de Brian</em> filmean (1979), non jendetza batek koruan erantzuten duen denak direla norbanakoak.",
+  "enunciado": "Denok izan nahi dugu besteengandik desberdinak. Baina denok gauza bera nahi badugu, horretan berdinak gara. Eta, izan ere, modatik ihes egiten dutenek denek berdin janzten dute azkenean.",
+  "problema": "<ul><li><strong>Hitz-joko bat dago</strong>. «Berdinak» hitzak zentzua aldatzen du premisatik ondoriora. Denok <em>nahi bera</em> izateak (desberdinak izatea) ez du esan nahi <em>ezaugarri berak</em> ditugunik. Anbiguotasunaren falazia da: maila bat (nahi duguna) beste batekin (garena) nahasten da.</li><li><strong>Baina badago zerbait egiazkoa</strong>. Desberdina izatea erlazio bat da: beti zerbait<em>engandik</em> da desberdina. Denok gauza bera hartzen badugu erreferentziatzat (gehiengoak egiten duena) eta aldi berean horretatik urruntzen bagara, norabide berean elkarrekin joaten gara azkenean. Jonathan Touboul matematikariak <strong>hipster efektua</strong> deitu zion (2014): antikonformistek elkarren antza hartzen dute azkenean.</li></ul>",
+  "salidas": "<ul><li><strong>Simmel</strong>: modak kontrako bi nahi batzen ditu. Imitatu nahi dugu, talde batekoak izateko, eta bereizi, hartan ez galtzeko. Moda bakoitza bereizteko jaiotzen da eta denek imitatzen dutenean hiltzen da.</li><li><strong>Logikoki ez dago kontraesanik</strong>: posible da denok denengandik desberdinak izatea aldi berean. Ezinezkoa beste gauza bat da: denok batez bestekoaren gainetik egotea, edo denok «gehiengoa baino originalagoak» izatea.</li><li>2019an aldizkari batek hipster efektuari buruzko artikulu bat ilustratu zuen bizardun eta txanodun gizon baten argazkiarekin. Irakurle batek haserre idatzi zuen, haren argazkia baimenik gabe erabili zutelako. Ez zen bera: haren antz handia zuen beste gizon bat zen.</li></ul>",
+  "pensar": "Izan al daiteke mundu guztia originala aldi berean? Eta egon al daiteke mundu guztia batez bestekoaren gainetik? Zergatik da desberdina erantzuna?"
+ },
+ {
+  "id": "concierto",
+  "grupo": "colectivo",
+  "titulo": "Zutik kontzertuan",
+  "origen": "Ekonomiako eskuliburuetako adibide klasikoa, <strong>konposizioaren falazia</strong> azaltzeko. Izena Aristotelesengandik dator (<em>Refutaciones sofísticas</em>), nahiz eta hark zertxobait bestela ulertzen zuen.",
+  "enunciado": "Kontzertu batean, pertsona bat zutik jartzen bada, hobeto ikusten du. Beraz, publiko osoa zutik jartzen bada, denek hobeto ikusiko dute.",
+  "problema": "Premisa egiazkoa da eta ondorioa faltsua: denak altxatzen badira, denek lehen bezala ikusten dute, baina erosotasun gutxiagorekin. Bakoitzarentzat bere aldetik balio duenak ez du zertan denentzat batera balio, bakoitzaren abantaila besteek hori <em>ez</em> egitearen mende baitzegoen.",
+  "salidas": "<ul><li><strong>Konposizioaren falaziak</strong> zatietatik osotasunera igarotzen da («pieza bakoitza arina da, beraz makina arina da»). <strong>Zatiketarenak</strong> alderantzizkoa egiten du («taldea onena da, beraz jokalari bakoitza onena da»).</li><li>Zatietatik osotasunera igarotzea ez da beti falazia: adreilu bakoitza gorria bada, horma gorria da. Begiratu behar da ea propietatea besteekiko erlazioaren mende dagoen.</li></ul>",
+  "pensar": "Gauza bera gertatzen al da gainerakoek baino nota hobea ateratzeko gehiago ikastearekin, edo ilarara lehenago iristearekin?"
+ },
+ {
+  "id": "ahorro",
+  "grupo": "colectivo",
+  "titulo": "Aurrezpenaren paradoxa",
+  "origen": "John Maynard Keynes, <em>Teoría general del empleo, el interés y el dinero</em> (1936), Mandeville eta haren <em>Fábula de las abejas</em> (1714) gogora ekartzen dituena.",
+  "enunciado": "Aurreztea ona da familia batentzat: irabazten duena baino gutxiago gastatzen badu, dirua izango du behar duenerako. Beraz, krisi batean familia guztiek gehiago aurrezten badute, herrialdea hobeto egongo da.",
+  "problema": "Denek aldi berean gutxiago gastatzen badute, dendek eta enpresek gutxiago saltzen dute, langileak kaleratzen dituzte, eta familia horiek gutxiago irabazten dute eta gutxiago aurrez dezakete. Denen aurrezteko ahaleginak aurrezpen gutxiagorekin eta langabezia gehiagorekin amai dezake. Batentzat zuhurra dena kaltegarria da guztientzat.",
+  "salidas": "<ul><li>Konposizioaren falaziaren beste kasu bat da: baten gastua beste baten diru-sarrera da, eta hori ez da ikusten familia bakar bati begiratzen bazaio.</li><li>Keynesek ondorioztatzen du krisi batean Estatuak gastatu behar duela familiek ezin dutenean. Beste ekonomialari batzuek eztabaidatzen dute noiz eta zenbat balio duen ideia horrek.</li></ul>",
+  "pensar": "Kantek galdetzen du zer gertatuko litzatekeen denek maxima beraren arabera jardungo balute. Proba horrek etikatik kanpo ere balio al du, hemen bezala?"
+ },
+ {
+  "id": "comunes",
+  "grupo": "colectivo",
+  "titulo": "Komunalen tragedia",
+  "origen": "William Forster Lloyd (1833); Garrett Hardinek ospetsu egin zuen <em>Science</em> aldizkarian (1968).",
+  "enunciado": "Larre bat herriko artzain guztiena da. Artzain bakoitzari ardi bat gehiago sartzea komeni zaio: onura osoa beretzat da, eta larreari egindako kaltea guztien artean banatzen da. Denek berdin arrazoitzen dutenez, larrea agortu egiten da eta inork ezin du erabili.",
+  "problema": "Erabaki bakoitza arrazionala da hartzen duenarentzat, eta emaitza txarra da guztientzat, baita bakoitzarentzat ere. Ez dago akatsik artzain bakoitzaren kalkuluan; arazoa baturan dago.",
+  "salidas": "<ul><li><strong>Hardinek</strong> bi irtenbide proposatzen zituen: larrea jabetza pribatu gisa banatzea edo Estatuak kontrolatzea.</li><li><strong>Elinor Ostromek</strong> (Ekonomiako Nobel saria 2009an) mendeak daramatzaten herriak aztertu zituen larreak, basoak edo ureztatzeak agortu gabe partekatzen. Haiek berek jarritako arauekin, elkarren arteko zaintzarekin eta zigor mailakatuekin lortzen dute. Adibidez, Valentziako Uren Auzitegia.</li><li>Klima, arrain-bankuak edo liburutegi bateko isiltasuna ere «komunalak» dira.</li></ul>",
+  "pensar": "Zer «komunal» daude zure gelan edo zure institutuan? Zer arauk babesten dituzte?"
+ },
+ {
+  "id": "moore",
+  "grupo": "razonar",
+  "titulo": "Mooreren paradoxa: «Euria ari du, baina ez dut sinesten»",
+  "origen": "G. E. Moorek planteatu zuen XX. mendeko 40ko hamarkadan; Wittgensteinek eman zion izena.",
+  "enunciado": "«Euria ari du, baina ez dut sinesten euria ari duenik.»",
+  "problema": "Esaldia ez da kontraesana: egia izan daiteke euria egitea eta nik ez sinestea (leihorik gabeko soto batean nago). Beste batek esanda («euria ari du, baina hark ez du sinesten») guztiz normala da. Eta, hala ere, nik esanda absurdoa dirudi. Zergatik, kontraesankorra ez bada?",
+  "salidas": "<ul><li>Zerbait <strong>baieztatzean</strong>, sinesten dudala adierazten dut. Beraz, «euria ari du» esatean, inplizituki «euria ari duela uste dut» esaten ari naiz, eta gero ukatu egiten dut. Kontraesana ez dago esaldiak dioenean, esaldiaren eta hura esateko ekintzaren artean baizik.</li><li>Wittgensteinek hemen ikusi zuen «uste dut…» esaldiak ez duela beti nire egoera bat deskribatzen: askotan baieztatzeko modu zuhur bat da.</li></ul>",
+  "pensar": "Eta «ez dut uste euria ari duenik, baina agian oker nago» esaldia? Absurdoa al da hori ere?"
+ },
+ {
+  "id": "prefacio",
+  "grupo": "razonar",
+  "titulo": "Hitzaurrearen paradoxa",
+  "origen": "David Makinson, <em>Analysis</em> aldizkarian (1965).",
+  "enunciado": "Egile batek arretaz berrikusi du bere liburua, eta idatzi dituen esaldi guztiak sinesten ditu. Baina hitzaurrean jartzen du: «Ziur liburu honetan akatsen bat dagoela, eta barkamena eskatzen dut». Hori ere sinesten du, liburu luze guztiek baitituzte akatsak.",
+  "problema": "Sinesten du 1. esaldia egiazkoa dela, 2.a egiazkoa dela… eta azkena egiazkoa dela. Eta aldi berean sinesten du batenbat faltsua dela. Haren sinesmenak, elkarrekin, ezin dira denak egiazkoak izan. Eta, hala ere, badirudi arrazoizkoa dela denak sinestea: arrazoizkoagoa bere liburua perfektua dela pentsatzea baino.",
+  "salidas": "<ul><li>Agian bateraezinak diren gauzak sinestea ez da beti irrazionala, sinesmen bakar batean biltzen ez diren bitartean («nire liburu osoa egia da»).</li><li>Beste irtenbide bat: ez dugu esaldi bakoitza % 100ean sinesten, konfiantza-maila batekin baizik. Esaldi bakoitza % 99an probablea bada, mila esaldiko liburu batek ia ziur du faltsuren bat. Horrela ez dago kontraesanik.</li></ul>",
+  "pensar": "Uste duzu zure iritzi guztiak egiazkoak direla? Eta uste duzu horietakoren bat faltsua dela? Kontraesana iruditzen zaizu?"
  },
  {
   "id": "infelices",
