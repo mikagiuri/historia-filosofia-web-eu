@@ -3,6 +3,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "A priori",
+  "et": "Latinezko *a priori*: «aurretik doanetik», esperientziaren aurretik.",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CK",
@@ -12,6 +13,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Abstrakzioa",
+  "et": "Latinezko *abstrahere* hitzetik: «kanpora arrastatu, bereizi» (*abs-* «kanpora» + *trahere* «arrastatu»).",
   "area": "Epistemologia",
   "bloque": "A",
   "unidad": "AA",
@@ -21,6 +23,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Aktua eta potentzia",
+  "et": "Latinezko *actus*, «ekintza, egitate», eta *potentia*, «ahalmena, gaitasuna». Grezierazko ἐνέργεια (*enérgeia*) eta δύναμις (*dýnamis*) itzultzen dituzte: hortik *energia* eta *dinamika*.",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",
@@ -39,6 +42,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Alienazioa",
+  "et": "Latinezko *alienatio* hitzetik, *alienus*, «arrotza, besterena»: norbere buruari arrotz bihurtzea.",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "CM",
@@ -48,6 +52,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Alteritatea",
+  "et": "Latinezko *alter*: «bestea» (bitik).",
   "area": "Feminismoa",
   "bloque": "C",
   "unidad": "C9",
@@ -57,6 +62,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Anarkismo metodologikoa",
+  "et": "*Anarkia*, grezierazko ἀναρχία (*anarkhía*) hitzetik: ἀν- (*an-*) «gabe» + ἀρχή (*arkhé*) «agintea».",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "C7",
@@ -66,6 +72,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Angustia",
+  "et": "Latinezko *angustia*, «estutasuna», *angustus*, «estua»: arnasa falta zaizunaren sentipena.",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -75,6 +82,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Antikapitalismoa",
+  "et": "*Kapitala*, latinezko *capitalis* hitzetik, *caput*, «burua»: zor baten edo ondasun batzuen zati nagusia.",
   "area": "Ekonomia",
   "bloque": "C",
   "unidad": "C5A",
@@ -84,6 +92,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Antinomia",
+  "et": "Grezierazko ἀντινομία (*antinomía*): ἀντί (*antí*) «aurka» + νόμος (*nómos*) «legea»: talka egiten duten bi lege.",
   "area": "Metafisika",
   "bloque": "C",
   "unidad": "CK",
@@ -93,6 +102,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Apatheia",
+  "et": "Grezierazko ἀπάθεια (*apátheia*): ἀ- (*a-*) «gabe» + πάθος (*páthos*) «grina, jasaten dena». Hortik *apatia*.",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A10",
@@ -102,6 +112,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Apologetak",
+  "et": "Grezierazko ἀπολογία (*apología*), «defentsa» epaitegi baten aurrean: apologetek kristautasuna defendatzen zuten salatzaileen aurrean.",
   "area": "Erlijioa",
   "bloque": "B",
   "unidad": "B1",
@@ -111,6 +122,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Aponia",
+  "et": "Grezierazko ἀπονία (*aponía*): ἀ- (*a-*) «gabe» + πόνος (*pónos*) «mina, nekea».",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A10",
@@ -120,6 +132,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Aporia",
+  "et": "Grezierazko ἀπορία (*aporía*): ἀ- (*a-*) «gabe» + πόρος (*póros*) «igarobidea, bidea»: «irteerarik gabe».",
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A5",
@@ -129,6 +142,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arete",
+  "et": "Grezierazko ἀρετή (*areté*), «bikaintasuna»: zerbait edo norbait izan daitekeen onena. Lotu ohi da ἄριστος (*áristos*) hitzarekin, «onena», eta hortik dator *aristokrazia*.",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A8",
@@ -138,6 +152,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Argudio ontologikoa",
+  "et": "*Ontologikoa*, grezierazko ὄν, ὄντος (*on, óntos*), «dena», eta λόγος (*lógos*), «arrazoia, azterketa»: Jainkoa zer den soilik abiapuntu hartzen duen argudioa.",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "BD",
@@ -147,6 +162,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arkhé",
+  "et": "Grezierazko ἀρχή (*arkhé*): «printzipioa, jatorria» eta baita «agintea» ere. Hortik *arkeologia* eta *monarkia*.",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
@@ -156,6 +172,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ataraxia",
+  "et": "Grezierazko ἀταραξία (*ataraxía*): ἀ- (*a-*) «gabe» + ταράσσειν (*tarássein*) «astindu, nahasi».",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A10",
@@ -165,6 +182,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Aura",
+  "et": "Grezierazko αὔρα (*aúra*): «haize leuna, arnasa».",
   "area": "Estetika",
   "bloque": "C",
   "unidad": "C5A",
@@ -174,6 +192,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Autarkia",
+  "et": "Grezierazko αὐτάρκεια (*autárkeia*): αὐτός (*autós*) «norbera» + ἀρκεῖν (*arkéin*) «nahikoa izan»: «bere buruarekin nahikoa izatea».",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A10",
@@ -183,6 +202,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Autonomia",
+  "et": "Grezierazko αὐτός (*autós*) «norbera» + νόμος (*nómos*) «legea»: «norberak bere buruari legea ematea».",
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
@@ -192,6 +212,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Gaizkiaren hutsalkeria",
+  "et": "*Banala*, frantsesezko *banal* hitzetik: hasieran, jaurerri bateko auzokide guztiek batera erabiltzen zutena (labea, errota); hortik, «arrunta, hutsala».",
   "area": "Etika",
   "bloque": "C",
   "unidad": "C5B",
@@ -201,6 +222,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Biopolitika",
+  "et": "Grezierazko βίος (*bíos*) «bizitza» + πολιτική (*politiké*) «hiriari dagokiona».",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C6",
@@ -219,6 +241,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kategoria",
+  "et": "Grezierazko κατηγορία (*kategoría*), «salaketa», κατηγορεῖν (*kategoréin*) aditzetik, «salatu, norbaiti buruz zerbait esan». Aristotelesek zerbaiti buruz zerbait esateko moduetarako erabili zuen.",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CK",
@@ -228,6 +251,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Zinismoa",
+  "et": "Grezierazko κυνικός (*kynikós*), «zakurraren antzekoa», κύων (*kýon*), «txakurra»: hala deitzen zieten Diogenesi eta bere jarraitzaileei, lotsarik eta ohiturarik gabe bizi zirelako.",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A10",
@@ -237,6 +261,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Zirkunstantzia",
+  "et": "Latinezko *circumstantia*: *circum* «inguruan» + *stare* «egon»: nire inguruan dagoena.",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -264,6 +289,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Cogito",
+  "et": "Latinezko *cogito*, «pentsatzen dut», *cogitare* aditzetik (*co-* + *agitare*): «zerbaiti buruan bueltak ematea».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "BD",
@@ -273,6 +299,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Fede-arrazoi lankidetza",
+  "et": "*Fedea*, latinezko *fides*, «konfiantza». *Arrazoia*, latinezko *ratio*, «kalkulua, kontua».",
   "area": "Erlijioa",
   "bloque": "B",
   "unidad": "B1",
@@ -282,6 +309,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kolonialismoa",
+  "et": "*Kolonia*, latinezko *colonus*, «nekazaria», *colere* aditzetik, «landu, bizi».",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C5A",
@@ -291,6 +319,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kontsumismoa",
+  "et": "Latinezko *consumere*: «gastatu, agortu».",
   "area": "Ekonomia",
   "bloque": "C",
   "unidad": "C10",
@@ -309,6 +338,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kontratu soziala",
+  "et": "*Kontratua*, latinezko *contractus*, *contrahere* aditzetik, «elkartu, tratu bat itxi».",
   "area": "Politika",
   "bloque": "B",
   "unidad": "B6",
@@ -318,6 +348,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Konbertsioa",
+  "et": "Latinezko *conversio*, *convertere* aditzetik: «buelta eman, beste norabide batera biratu».",
   "area": "Erlijioa",
   "bloque": "B",
   "unidad": "B1",
@@ -327,6 +358,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kosmopolitismoa",
+  "et": "Grezierazko κοσμοπολίτης (*kosmopolítes*): κόσμος (*kósmos*) «mundua» + πολίτης (*polítes*) «herritarra». Diogenesek bere burua «munduko herritar» deitzen zuen.",
   "area": "Politika",
   "bloque": "C",
   "unidad": "CK",
@@ -336,6 +368,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Krisi ekologikoa",
+  "et": "*Krisia*, grezierazko κρίσις (*krísis*), «erabakia, une erabakigarria». *Ekologia*, grezierazko οἶκος (*oîkos*) «etxea» + λόγος (*lógos*) «azterketa».",
   "area": "Ekologia",
   "bloque": "C",
   "unidad": "C10",
@@ -345,6 +378,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kritizismoa",
+  "et": "Grezierazko κρίνειν (*krínein*): «bereizi, epaitu, erabaki». Kritikak bereizten du arrazoiak ezagutu dezakeena eta ezin duena.",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "B4",
@@ -354,6 +388,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kritika",
+  "et": "Grezierazko κρίνειν (*krínein*): «bereizi, epaitu, erabaki».",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "CK",
@@ -381,6 +416,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dasein",
+  "et": "Alemanezko *da* «hor» + *sein* «izan»: «hor-izatea». Eguneroko alemanez «existentzia» esan nahi du.",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -390,6 +426,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Betebeharra",
+  "et": "Latinezko *debere* (*de-* + *habere*, «eduki»): besteren batengandik zerbait jaso eta itzultzera behartuta egotea.",
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
@@ -417,6 +454,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Eskubide naturalak",
+  "et": "*Zuzenbidea* gaztelaniaz *derecho* da, latinezko *directum*, «zuzena». *Naturala*, *natura* hitzetik, eta hau *nasci* aditzetik, «jaio».",
   "area": "Politika",
   "bloque": "B",
   "unidad": "B6",
@@ -435,6 +473,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Deskolonizazioa",
+  "et": "*Kolonia*, latinezko *colonus*, «nekazaria», *colere* aditzetik, «landu, bizi».",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C5A",
@@ -471,6 +510,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Deus sive Natura",
+  "et": "Latinez: «Jainkoa, hau da, Natura» (*sive*, «hau da»).",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "BS",
@@ -480,6 +520,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dialektika",
+  "et": "Grezierazko διαλεκτική (*dialektiké*), διαλέγεσθαι (*dialégesthai*) aditzetik, «solasean aritu»: elkarrizketaren artea.",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "CXIX",
@@ -489,6 +530,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dialektika materialista",
+  "et": "*Dialektika*, grezierazko διαλέγεσθαι (*dialégesthai*) aditzetik, «solasean aritu»: elkarrizketaren artea.",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "CM",
@@ -498,6 +540,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dialektika negatiboa",
+  "et": "*Dialektika*, grezierazko διαλέγεσθαι (*dialégesthai*) aditzetik, «solasean aritu»: elkarrizketaren artea.",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "C5A",
@@ -507,6 +550,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Differance",
+  "et": "Derridak asmatutako hitza: frantsesezko *différence*, «desberdintasuna», eta *différer*, «atzeratu», nahasten ditu. *A* hori idaztean bakarrik nabaritzen da; entzutean *différence* bezala ahoskatzen da.",
   "area": "Hizkuntza",
   "bloque": "C",
   "unidad": "C6",
@@ -516,6 +560,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Duintasuna",
+  "et": "Latinezko *dignitas*, *dignus* hitzetik, «merezi duena».",
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
@@ -525,11 +570,12 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dignitas hominis",
+  "et": "Latinez: «gizakiaren duintasuna». *Dignitas* *dignus* hitzetik dator, «merezi duena».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "B3",
   "tema": "Errenazimentua eta zientzia",
-  "def": "Gizakiaren duintasuna (lat.): Errenazimentuko humanismoak (Pico della Mirandola) defendatu zuen gizakiak ez duela izaera finkorik, bere burua askatasunez eraikitzeko gai den izakia dela."
+  "def": "Gizakiaren duintasuna: Errenazimentuko humanismoak (Pico della Mirandola) defendatu zuen gizakiak ez duela izaera finkorik, bere burua askatasunez eraikitzeko gai den izakia dela."
  },
  {
   "subject": "hf",
@@ -552,6 +598,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Doxa",
+  "et": "Grezierazko δόξα (*dóxa*), «iritzia, iruditzea», δοκεῖν (*dokéin*) aditzetik, «iruditu». Hortik *ortodoxo* eta *paradoxa*.",
   "area": "Epistemologia",
   "bloque": "A",
   "unidad": "AP",
@@ -561,6 +608,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dualismoa",
+  "et": "Latinezko *duo*: «bi».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "B5",
@@ -570,6 +618,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dualismo ontologikoa",
+  "et": "*Dualismoa*, latinezko *duo*, «bi». *Ontologikoa*, grezierazko ὄν, ὄντος (*on, óntos*), «dena», eta λόγος (*lógos*), «azterketa».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AP",
@@ -579,6 +628,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Zalantza metodikoa",
+  "et": "*Zalantza* gaztelaniaz *duda* da, latinezko *dubitare*, *duo*, «bi», hitzarekin ahaidetua: bi aukeraren artean egotea. *Metodoa*, grezierazko μέθοδος (*méthodos*), «bidea».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BD",
@@ -588,6 +638,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ekodependentzia",
+  "et": "*Eko-*, grezierazko οἶκος (*oîkos*), «etxea»: Lurra etxe komun gisa.",
   "area": "Ekologia",
   "bloque": "C",
   "unidad": "C10",
@@ -606,6 +657,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Absurdua",
+  "et": "Latinezko *absurdus*: «gaizki entzuten dena, desafinatua» (*ab-* + *surdus*, «gorra»).",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -642,6 +694,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Medikuntzaren Kanona",
+  "et": "*Kanona*, grezierazko κανών (*kanón*), «neurtzeko makila, araua».",
   "area": "Zientzia",
   "bloque": "B",
   "unidad": "BAV",
@@ -651,6 +704,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Agintearen irizpidea",
+  "et": "*Irizpidea*, grezierazko κριτήριον (*kritérion*), «epaitzeko balio duena». *Autoritatea*, latinezko *auctoritas*, *auctor* hitzetik, «hazten laguntzen duena, egilea».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "B3",
@@ -678,6 +732,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Genio maltzurra",
+  "et": "*Jeinua*, latinezko *genius*, pertsona bakoitzari laguntzen dion espiritua. *Gaiztoa* gaztelaniaz *maligno* da, latinezko *malus*, «txarra».",
   "area": "Metodoa",
   "bloque": "B",
   "unidad": "BD",
@@ -696,6 +751,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Lizeoa",
+  "et": "Grezierazko Λύκειον (*Lýkeion*): Atenasko gimnasioa, Apolo Likeoren tenpluaren ondoan, non Aristotelesek irakasten zuen. Hortik *lizeo*, «ikastetxea».",
   "area": "Hezkuntza",
   "bloque": "A",
   "unidad": "AA",
@@ -714,6 +770,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kobazuloaren mitoa",
+  "et": "*Mitoa*, grezierazko μῦθος (*mýthos*), «kontakizuna, narrazioa».",
   "area": "Epistemologia",
   "bloque": "A",
   "unidad": "AP",
@@ -732,6 +789,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Bizi-mundua (Lebenswelt)",
+  "et": "Alemanezko *Leben* «bizitza» + *Welt* «mundua».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -741,6 +799,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Indukzioaren arazoa",
+  "et": "*Indukzioa*, latinezko *inductio*, *inducere* aditzetik, «-rantz eraman»: kasuetatik arauera. Grezierazko ἐπαγωγή (*epagogé*) itzultzen du.",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BH",
@@ -822,6 +881,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Emotibismoa",
+  "et": "*Emozioa*, latinezko *emovere*, «bere lekutik atera, hunkitu».",
   "area": "Etika",
   "bloque": "B",
   "unidad": "BH",
@@ -831,6 +891,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Enpirismoa",
+  "et": "Grezierazko ἐμπειρία (*empeiría*), «esperientzia», πεῖρα (*peîra*) hitzetik, «proba, saiakera».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "B4",
@@ -840,6 +901,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Episteme",
+  "et": "Grezierazko ἐπιστήμη (*epistéme*): «ezagutza sendoa, zientzia». Hortik *epistemologia*.",
   "area": "Epistemologia",
   "bloque": "A",
   "unidad": "AP",
@@ -858,6 +920,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Eskolastika",
+  "et": "Grezierazko σχολή (*skholé*), «aisia, denbora librea», gero «ikasteko lekua» esan nahi izan zuena. Hortik *eskola*.",
   "area": "Metodoa",
   "bloque": "B",
   "unidad": "BT",
@@ -885,6 +948,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Espiritu objektiboa",
+  "et": "*Espiritua*, latinezko *spiritus*, «arnasa, hatsa». Alemanezko *Geist* itzultzen du.",
   "area": "Politika",
   "bloque": "C",
   "unidad": "CXIX",
@@ -894,6 +958,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Eskematismoa",
+  "et": "Grezierazko σχῆμα (*skhêma*): «forma, irudia».",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CK",
@@ -912,15 +977,17 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Faltsukeria",
+  "et": "Latinezko *fallacia*, «engainua», *fallere* aditzetik, «engainatu».",
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A1-A2",
   "tema": "Filosofiaren atarian",
-  "def": "Etimologia: latinez fallacia, engainua.\nDefinizioa: Itxuraz sendoa dirudien baina ondorioa behar bezala justifikatzen ez duen arrazoiketa."
+  "def": "Sendoa dirudien baina bere ondorioa behar bezala justifikatzen ez duen arrazoibidea."
  },
  {
   "subject": "hf",
   "t": "Faltsabilitatea",
+  "et": "Latinezko *falsus*: «engainagarria, faltsua».",
   "area": "Zientzia",
   "bloque": "C",
   "unidad": "C7",
@@ -939,6 +1006,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Feminismoa",
+  "et": "Latinezko *femina*: «emakumea».",
   "area": "Feminismoa",
   "bloque": "C",
   "unidad": "C9",
@@ -948,6 +1016,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Fenomenismoa",
+  "et": "Grezierazko φαινόμενον (*phainómenon*), «agertzen dena», φαίνεσθαι (*phaínesthai*) aditzetik, «agertu, erakutsi».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BH",
@@ -957,6 +1026,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Fenomenoa",
+  "et": "Grezierazko φαινόμενον (*phainómenon*), «agertzen dena», φαίνεσθαι (*phaínesthai*) aditzetik, «agertu».",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CK",
@@ -966,6 +1036,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Fetitxismoa",
+  "et": "*Fetitxea*, portugesezko *feitiço*, «sorginkeria, objektu magikoa», eta hau latinezko *facticius* hitzetik, «eskuz egina, artifiziala».",
   "area": "Ekonomia",
   "bloque": "C",
   "unidad": "CM",
@@ -975,6 +1046,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Moralaren genealogia",
+  "et": "*Genealogia*, grezierazko γενεά (*geneá*) «leinua» + λόγος (*lógos*) «azterketa»: zerbait nondik datorren bilatzea.",
   "area": "Politika",
   "bloque": "C",
   "unidad": "CN",
@@ -984,6 +1056,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Bira antropologikoa",
+  "et": "*Antropologikoa*, grezierazko ἄνθρωπος (*ánthropos*), «gizakia», eta λόγος (*lógos*), «azterketa».",
   "area": "Antropologia",
   "bloque": "A",
   "unidad": "A5",
@@ -1002,6 +1075,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Globalizazioa",
+  "et": "Latinezko *globus*: «bola».",
   "area": "Gizartea",
   "bloque": "C",
   "unidad": "C10",
@@ -1020,6 +1094,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Pertzepzioen multzoa",
+  "et": "*Pertzepzioa*, latinezko *perceptio*, *percipere* aditzetik (*per-* + *capere* «hartu»): «atzeman».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "BH",
@@ -1029,6 +1104,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Hegemonia kulturala",
+  "et": "*Hegemonia*, grezierazko ἡγεμονία (*hegemonía*), «zuzendaritza», ἡγεμών (*hegemón*) hitzetik, «gidatzen duena, aurretik doana».",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C5A",
@@ -1038,6 +1114,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Helenismoa",
+  "et": "Grezierazko Ἕλλην (*Héllen*), «greziarra»: greziarrek heleno deitzen zioten euren buruari.",
   "area": "Historia",
   "bloque": "A",
   "unidad": "A10",
@@ -1047,6 +1124,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Hermeneutika",
+  "et": "Grezierazko ἑρμηνευτική (*hermeneutiké*), ἑρμηνεύειν (*hermeneúein*) aditzetik, «interpretatu, itzuli». Hermesekin lotu ohi da, jainkoen mezulariarekin, baina lotura hori zalantzazkoa da.",
   "area": "Hizkuntza",
   "bloque": "C",
   "unidad": "C4",
@@ -1056,6 +1134,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Hilemorfismoa",
+  "et": "Grezierazko ὕλη (*hýle*) «materia» (hasieran, «egurra») + μορφή (*morphé*) «forma».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",
@@ -1065,15 +1144,17 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Hilozoismoa",
+  "et": "Grezierazko ὕλη (*hýle*) «materia» + ζωή (*zoé*) «bizitza»: «materia bizia».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "Materia berez bizia eta mugimenduz hornitua dela dioen ikuspegia (gr. hýlē, materia + zōḗ, bizia). Miletoko fisikariek arkhea bizidun gisa ulertu zuten, bizia eta materia bereizi gabe."
+  "def": "Materia berez bizia eta mugimenduz hornitua dela dioen ikuspegia. Miletoko fisikariek arkhea bizidun gisa ulertu zuten, bizia eta materia bereizi gabe."
  },
  {
   "subject": "hf",
   "t": "Historikotasuna",
+  "et": "*Historia*, grezierazko ἱστορία (*historía*), «ikerketa, bilaketa».",
   "area": "Historia",
   "bloque": "A",
   "unidad": "A1-A2",
@@ -1092,6 +1173,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Homeomeriak",
+  "et": "Grezierazko ὅμοιος (*hómoios*) «antzekoa» + μέρος (*méros*) «zatia»: «zati antzekoak».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
@@ -1110,6 +1192,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Humanismoa",
+  "et": "Latinezko *humanitas*, *humanus* hitzetik. *Homo*, «gizakia», *humus* hitzarekin ahaidetua dago, «lurra».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "B3",
@@ -1119,6 +1202,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ohitura",
+  "et": "Latinezko *habitus*, «izateko modua», *habere* aditzetik, «eduki».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BH",
@@ -1137,6 +1221,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ideia argi eta bereiziak",
+  "et": "*Ideia*, grezierazko ἰδέα (*idéa*), «itxura, forma ikusgarria». *Bereizia* gaztelaniaz *distinto* da, latinezko *distinctus*, gainerakotik «bereizia».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BD",
@@ -1146,6 +1231,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ideologia",
+  "et": "Grezierazko ἰδέα (*idéa*) + λόγος (*lógos*): Destutt de Tracyk asmatu zuen hitza 1796an, «ideien zientzia» izendatzeko.",
   "area": "Gizartea",
   "bloque": "C",
   "unidad": "CM",
@@ -1164,6 +1250,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Inperialismoa",
+  "et": "Latinezko *imperium*: «agintea».",
   "area": "Ekonomia",
   "bloque": "C",
   "unidad": "C5A",
@@ -1173,6 +1260,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Inpresioa",
+  "et": "Latinezko *impressio*, *imprimere* aditzetik, «gainean estutu, marka utzi», argizarian zigilu batek bezala.",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BH",
@@ -1182,6 +1270,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Neurtezintasuna",
+  "et": "Latinezko *in-* «ez» + *commensurabilis* «neurri berarekin neur daitekeena»: neurri komunik gabe.",
   "area": "Zientzia",
   "bloque": "C",
   "unidad": "C7",
@@ -1191,6 +1280,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Industria kulturala",
+  "et": "*Industria*, latinezko *industria*, «jarduera, langiletasuna».",
   "area": "Estetika",
   "bloque": "C",
   "unidad": "C5A",
@@ -1200,6 +1290,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Azpiegitura / gainegitura",
+  "et": "Latinezko *infra* «azpian» eta *super* «gainean» + *structura*, *struere* aditzetik, «eraiki».",
   "area": "Gizartea",
   "bloque": "C",
   "unidad": "CM",
@@ -1209,6 +1300,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Immaterialismoa",
+  "et": "*Materia*, latinezko *materia*, «egurra, eraikuntzako materiala», *mater*, «ama», hitzarekin ahaidetua.",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "BL",
@@ -1218,6 +1310,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Innatismoa",
+  "et": "Latinezko *innatus*: «barruan jaioa» (*in* + *nasci* «jaio»).",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BD",
@@ -1227,6 +1320,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Intelektualismo morala",
+  "et": "*Adimena* gaztelaniaz *intelecto* da, latinezko *intellectus*, *intellegere* aditzetik, «ulertu» (hitzez hitz, «artean aukeratu»).",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A5",
@@ -1236,6 +1330,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Intentzionalitatea",
+  "et": "Latinezko *intendere*: «-rantz jo»; kontzientzia beti zerbaiti begira dago.",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "C8",
@@ -1245,6 +1340,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Barrentasuna",
+  "et": "Latinezko *interior*: «barrurago».",
   "area": "Erlijioa",
   "bloque": "B",
   "unidad": "B1",
@@ -1254,6 +1350,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Intersekzionalitatea",
+  "et": "Latinezko *intersectio*, *inter* «artean» + *secare* «moztu»: bi lerro gurutzatzen diren puntua.",
   "area": "Feminismoa",
   "bloque": "C",
   "unidad": "C9",
@@ -1263,6 +1360,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Intuizio puruak",
+  "et": "*Intuizioa*, latinezko *intuitus*, *intueri* aditzetik, «arretaz begiratu».",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CK",
@@ -1272,6 +1370,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ironia sokratikoa",
+  "et": "Grezierazko εἰρωνεία (*eironeía*), «disimulua»: ez dakizula itxurak egitea.",
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A5",
@@ -1281,6 +1380,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Isegoria",
+  "et": "Grezierazko ἰσηγορία (*isegoría*): ἴσος (*ísos*) «berdina» + ἀγορεύειν (*agoreúein*) «batzarrean hitz egin», ἀγορά (*agorá*) delakoan: hitza hartzeko eskubide bera.",
   "area": "Politika",
   "bloque": "A",
   "unidad": "A3",
@@ -1290,6 +1390,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Isomorfismoa",
+  "et": "Grezierazko ἴσος (*ísos*) «berdina» + μορφή (*morphé*) «forma».",
   "area": "Hizkuntza",
   "bloque": "C",
   "unidad": "C7",
@@ -1299,6 +1400,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Isonomia",
+  "et": "Grezierazko ἰσονομία (*isonomía*): ἴσος (*ísos*) «berdina» + νόμος (*nómos*) «legea»: legearen aurreko berdintasuna.",
   "area": "Politika",
   "bloque": "A",
   "unidad": "A3",
@@ -1326,6 +1428,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Justizia",
+  "et": "Latinezko *iustitia*, *ius* hitzetik, «zuzenbidea».",
   "area": "Politika",
   "bloque": "A",
   "unidad": "AP",
@@ -1335,11 +1438,12 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Koine",
+  "et": "Grezierazko κοινὴ διάλεκτος (*koiné diálektos*): «hizkuntza komuna».",
   "area": "Historia",
   "bloque": "A",
   "unidad": "A10",
   "tema": "Helenismoa",
-  "def": "Aro helenistikoan Mediterraneo ekialdean hedatu zen greziera komuna (gr. koinḗ). Hizkuntza partekatu horrek jakintza, merkataritza eta kultura kosmopolita ahalbidetu zituen Alexandroren ondorengo munduan."
+  "def": "Aro helenistikoan Mediterraneo ekialdean hedatu zen greziera komuna. Hizkuntza partekatu horrek jakintza, merkataritza eta kultura kosmopolita ahalbidetu zituen Alexandroren ondorengo munduan."
  },
  {
   "subject": "hf",
@@ -1353,6 +1457,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Akademia",
+  "et": "Grezierazko Ἀκαδήμεια (*Akadémeia*): Akademo heroiari eskainitako Atenasko lorategia, non Platonek bere eskola sortu zuen.",
   "area": "Hezkuntza",
   "bloque": "A",
   "unidad": "AP",
@@ -1371,6 +1476,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kosmosaren harmonia",
+  "et": "*Harmonia*, grezierazko ἁρμονία (*harmonía*), «doikuntza, mihiztadura». *Kosmosa*, grezierazko κόσμος (*kósmos*), «ordena» eta baita «apaingarria» ere: hortik *kosmetika*.",
   "area": "Psikologia",
   "bloque": "B",
   "unidad": "BHvB",
@@ -1407,6 +1513,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Esistentzia lehenago",
+  "et": "*Existentzia*, latinezko *exsistere* (*ex-* «kanpora» + *sistere* «jarri»): «atera, sortu».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -1416,6 +1523,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Gehienen zoriona",
+  "et": "*Zoriontasuna* gaztelaniaz *felicidad* da, latinezko *felicitas*, *felix* hitzetik, lehenik «emankorra» eta gero «zorioneko» esan nahi zuena.",
   "area": "Etika",
   "bloque": "B",
   "unidad": "B7",
@@ -1488,6 +1596,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Barne-egia",
+  "et": "*Egia* gaztelaniaz *verdad* da, latinezko *veritas*, *verus*, «egiazkoa». Greziarrek ἀλήθεια (*alétheia*) esaten zuten, «ezkutuan ez dagoena».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "BD",
@@ -1515,6 +1624,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Totalitarismoaren sustraiak",
+  "et": "*Totalitarioa*, latinezko *totus*, «dena».",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C5B",
@@ -1524,6 +1634,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arimaren hiru atalak",
+  "et": "*Arima*, latinezko *anima*, «arnasa, hatsa», grezierazko ψυχή (*psykhé*) bezala. Hortik *psikologia*.",
   "area": "Antropologia",
   "bloque": "A",
   "unidad": "AP",
@@ -1533,11 +1644,12 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Lathe biosas",
+  "et": "Grezierazko λάθε βιώσας (*láthe biósas*): «bizi ezkutuan», bizitza publikotik aldentzeko Epikuroren aholkua.",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A10",
   "tema": "Helenismoa",
-  "def": "Epikuroren bizi-aholkua: «bizi ezkutuan» (gr. láthe biṓsas). Bizitza politiko nahasitik aldenduta, lagunarte txikian eta plazer neurtuan bilatzen da lasaitasuna (ataraxia)."
+  "def": "Epikuroren bizi-aholkua: «bizi ezkutuan». Bizitza politiko nahasitik aldenduta, lagunarte txikian eta plazer neurtuan bilatzen da lasaitasuna (ataraxia)."
  },
  {
   "subject": "hf",
@@ -1560,6 +1672,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Liberalismo politikoa",
+  "et": "Latinezko *liber*: «librea».",
   "area": "Politika",
   "bloque": "B",
   "unidad": "B7",
@@ -1569,6 +1682,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Apolineoa",
+  "et": "Apolotik, Ἀπόλλων (*Apóllon*), argiaren, neurriaren eta formaren jainkoa.",
   "area": "Estetika",
   "bloque": "C",
   "unidad": "CN",
@@ -1578,6 +1692,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dionisiakoa",
+  "et": "Dionisotik, Διόνυσος (*Diónysos*), ardoaren, mozkortasunaren eta jaiaren jainkoa.",
   "area": "Estetika",
   "bloque": "C",
   "unidad": "CN",
@@ -1587,6 +1702,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Logosa",
+  "et": "Grezierazko λόγος (*lógos*): «hitza, arrazoia, diskurtsoa» eta baita «kontua, kalkulua» ere, λέγειν (*légein*) aditzetik, «esan, bildu». Hortik *logika* eta *-logia* amaiera duten hitz guztiak.",
   "area": "Historia",
   "bloque": "A",
   "unidad": "A3",
@@ -1596,6 +1712,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Logos pharmakon",
+  "et": "Grezierazko φάρμακον (*phármakon*): aldi berean «sendagaia» eta «pozoia» esan nahi zuen. Hortik *farmazia*.",
   "area": "Hizkuntza",
   "bloque": "A",
   "unidad": "A5",
@@ -1614,6 +1731,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arrazoiaren mugak",
+  "et": "*Arrazoia*, latinezko *ratio*, «kalkulua, kontua», *reri* aditzetik, «kalkulatu, pentsatu».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BOC",
@@ -1623,6 +1741,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Klase-borroka",
+  "et": "*Klasea*, latinezko *classis*: Erroman, herritarrak aberastasunaren arabera banatzen ziren taldeetako bakoitza.",
   "area": "Politika",
   "bloque": "C",
   "unidad": "CM",
@@ -1641,6 +1760,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Susmoaren maisuak",
+  "et": "*Susmoa* gaztelaniaz *sospecha* da, latinezko *suspectare*, *suspicere* aditzetik, «behetik gora begiratu».",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "C4",
@@ -1650,6 +1770,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Materialismoa",
+  "et": "*Materia*, latinezko *materia*, «egurra, eraikuntzako materiala», *mater*, «ama», hitzarekin ahaidetua.",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "B5",
@@ -1659,6 +1780,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Materialismo historikoa",
+  "et": "*Materia*, latinezko *materia*, «egurra, eraikuntzako materiala», *mater*, «ama», hitzarekin ahaidetua.",
   "area": "Historia",
   "bloque": "C",
   "unidad": "CM",
@@ -1668,6 +1790,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Maieutika",
+  "et": "Grezierazko μαιευτικὴ τέχνη (*maieutiké tékhne*), «emaginaren artea», μαῖα (*maîa*) hitzetik, «emagina»: Sokratesen ama emagina zen.",
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A5",
@@ -1677,15 +1800,17 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Mekanizismoa",
+  "et": "Grezierazko μηχανή (*mekhané*): «makina, tresna».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "B5",
   "tema": "Eztabaida metafisiko modernoa",
-  "def": "(gr. mēchanē, makina) Natura gorputz, mugimendu eta lege matematikoen arabera azaltzen duen ikuspegia; azalpen teleologiko zaharrak bigarren mailara eramaten ditu. Antonimoa: teleologia."
+  "def": "Natura gorputz, mugimendu eta lege matematikoen arabera azaltzen duen ikuspegia; azalpen teleologiko zaharrak bigarren mailara eramaten ditu. Antonimoa: teleologia."
  },
  {
   "subject": "hf",
   "t": "Metakontakizuna",
+  "et": "*Meta-*, grezierazko μετά (*metá*), «haratago»: gainerako kontakizunen gainetik dagoen kontakizuna.",
   "area": "Hizkuntza",
   "bloque": "C",
   "unidad": "C6",
@@ -1695,6 +1820,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Modernitate osatugabea",
+  "et": "*Modernoa*, latin berantiarreko *modernus*, *modo* hitzetik, «oraintxe bertan».",
   "area": "Historia",
   "bloque": "C",
   "unidad": "C6",
@@ -1704,6 +1830,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Modernitate likidoa",
+  "et": "*Modernoa*, latin berantiarreko *modernus*, *modo* hitzetik, «oraintxe bertan».",
   "area": "Gizartea",
   "bloque": "C",
   "unidad": "C10",
@@ -1713,6 +1840,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Modua",
+  "et": "Latinezko *modus*: «neurria, modua».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "BS",
@@ -1731,6 +1859,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Mundu sentikorra",
+  "et": "*Sentikorra* gaztelaniaz *sensible* da, latinezko *sentire*, «zentzumenen bidez hauteman».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AP",
@@ -1740,6 +1869,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Metodo kritikoa",
+  "et": "*Kritika*, grezierazko κρίνειν (*krínein*), «bereizi, epaitu, erabaki».",
   "area": "Sintesia",
   "bloque": "C",
   "unidad": "CK",
@@ -1749,6 +1879,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Metodo esperimentala",
+  "et": "*Esperimentua*, latinezko *experiri*, «probatu, saiatu».",
   "area": "Metodoa",
   "bloque": "B",
   "unidad": "B3",
@@ -1758,15 +1889,17 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Metodo filosofikoa",
+  "et": "*Metodoa*, grezierazko μέθοδος (*méthodos*): μετά (*metá*) «ondoren, zehar» + ὁδός (*hodós*) «bidea». *Filosofia*: φίλος (*phílos*) «laguna» + σοφία (*sophía*) «jakinduria».",
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A1-A2",
   "tema": "Filosofiaren atarian",
-  "def": "Etimologia: grezieraz methodos, bidea edo jarraitzeko modua.\nDefinizioa: Arazo bat lantzeko galdera, kontzeptu eta argudioak antolatzen dituen prozedura."
+  "def": "Galderak, kontzeptuak eta argudioak antolatzen dituen prozedura, arazo bat lantzeko."
  },
  {
   "subject": "hf",
   "t": "Metodo geometrikoa",
+  "et": "*Geometria*, grezierazko γεωμετρία (*geometría*): γῆ (*ge*) «lurra» + μέτρον (*métron*) «neurria».",
   "area": "Metodoa",
   "bloque": "B",
   "unidad": "BS",
@@ -1776,6 +1909,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Monadak",
+  "et": "Grezierazko μονάς (*monás*), «unitatea», μόνος (*mónos*) hitzetik, «bakarra».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "B4",
@@ -1785,6 +1919,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Jaiotza / Natalitatea",
+  "et": "Latinezko *natalis*, *nasci* aditzetik, «jaio».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C5B",
@@ -1803,6 +1938,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Neoplatonismoa",
+  "et": "*Neo-*, grezierazko νέος (*néos*), «berria».",
   "area": "Erlijioa",
   "bloque": "B",
   "unidad": "B1",
@@ -1812,6 +1948,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Nihilismoa",
+  "et": "Latinezko *nihil*: «ezer ez».",
   "area": "Etika",
   "bloque": "C",
   "unidad": "CN",
@@ -1821,6 +1958,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Nominalismoa",
+  "et": "Latinezko *nomen*, «izena»: nominalismoarentzat, unibertsalak izenak besterik ez dira.",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BOC",
@@ -1830,6 +1968,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Nomos",
+  "et": "Grezierazko νόμος (*nómos*): «legea, araua, ohitura». Hortik *autonomia*.",
   "area": "Politika",
   "bloque": "A",
   "unidad": "A5",
@@ -1848,6 +1987,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Nous",
+  "et": "Grezierazko νοῦς (*noûs*): «adimena, gogoa».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
@@ -1857,6 +1997,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Noumenoa",
+  "et": "Grezierazko νοούμενον (*nooúmenon*), «pentsatua», νοεῖν (*noéin*) aditzetik, «pentsatu»: pentsatu bakarrik egin daitekeena, ez ikusi.",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CK",
@@ -1866,6 +2007,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Okasionalismoa",
+  "et": "Latinezko *occasio*, «aukera», *ob-* + *cadere* aditzetik, «erori»: une jakin batean agertzen dena.",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "B4",
@@ -1875,6 +2017,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ostrazismoa",
+  "et": "Grezierazko ὄστρακον (*óstrakon*), «zeramika zatia»: horretan idazten zuten atenastarrek erbesteratu nahi zutenaren izena.",
   "area": "Politika",
   "bloque": "A",
   "unidad": "A9",
@@ -1884,6 +2027,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Panta rei",
+  "et": "Grezierazko πάντα ῥεῖ (*pánta rheî*): «dena dabil jarioan».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
@@ -1893,6 +2037,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Paradigma",
+  "et": "Grezierazko παράδειγμα (*parádeigma*), «eredua, adibidea», παραδεικνύναι (*paradeiknýnai*) aditzetik, «ondoan erakutsi».",
   "area": "Zientzia",
   "bloque": "C",
   "unidad": "C7",
@@ -1902,6 +2047,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Partaidetza (méthesis)",
+  "et": "Grezierazko μέθεξις (*méthexis*), «partaidetza», μετέχειν (*metékhein*) aditzetik, «zerbaitetan parte izan». Latinez, *participatio*, *pars* «zatia» + *capere* «hartu».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AP",
@@ -1911,6 +2057,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Alderdi abangoardista",
+  "et": "*Abangoardia*, frantsesezko *avant-garde*, armada baten «aurreko guardia».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C5A",
@@ -1920,6 +2067,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Patristika",
+  "et": "Latinezko *pater, patris*, «aita»: Elizaren Aitak.",
   "area": "Erlijioa",
   "bloque": "B",
   "unidad": "B1",
@@ -1938,6 +2086,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Performatibitatea",
+  "et": "Ingelesezko *to perform*: «gauzatu, burutu».",
   "area": "Hizkuntza",
   "bloque": "C",
   "unidad": "C7",
@@ -1956,6 +2105,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Perspektibismoa",
+  "et": "Latinezko *perspicere*: «zeharka begiratu».",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CN",
@@ -1965,6 +2115,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Physis",
+  "et": "Grezierazko φύσις (*phýsis*), «natura», φύειν (*phýein*) aditzetik, «ernatu, hazi». Hortik *fisika*.",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
@@ -1983,6 +2134,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Plusbalioa",
+  "et": "Latinezko *plus* «gehiago» + *valor*. Alemanezko *Mehrwert* itzultzen du, «gehiegizko balioa».",
   "area": "Ekonomia",
   "bloque": "C",
   "unidad": "CM",
@@ -2001,6 +2153,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Botere legitimoa",
+  "et": "*Legitimoa*, latinezko *legitimus*, *lex, legis* hitzetik, «legea»: «legearen araberakoa».",
   "area": "Politika",
   "bloque": "B",
   "unidad": "B6",
@@ -2019,6 +2172,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Polis-a",
+  "et": "Grezierazko πόλις (*pólis*), «hiria». Hortik *politika*.",
   "area": "Politika",
   "bloque": "A",
   "unidad": "A3",
@@ -2037,6 +2191,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Positibotasuna",
+  "et": "Latinezko *positivus*, *ponere* aditzetik, «jarri»: jarria, emana.",
   "area": "Gizartea",
   "bloque": "C",
   "unidad": "C10",
@@ -2046,6 +2201,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Postmodernitatea",
+  "et": "Latinezko *post* «ondoren» + *modernus*, *modo* hitzetik, «oraintxe bertan».",
   "area": "Historia",
   "bloque": "C",
   "unidad": "C6",
@@ -2055,6 +2211,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Praxia",
+  "et": "Grezierazko πρᾶξις (*prâxis*): «ekintza».",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "CM",
@@ -2064,6 +2221,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Prekarietatea",
+  "et": "Latinezko *precarius*, «erreguz lortua» (*prex*, «otoitza»): mesedez uzten dizutena eta ken diezazuketena.",
   "area": "Ekonomia",
   "bloque": "C",
   "unidad": "C10",
@@ -2082,6 +2240,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kontraesanik ezaren printzipioa",
+  "et": "*Kontraesana* gaztelaniaz *contradicción* da, latinezko *contradicere*, «aurka esan».",
   "area": "Logika",
   "bloque": "A",
   "unidad": "AA",
@@ -2109,6 +2268,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Propaganda",
+  "et": "Latinezko *propaganda*, «zabaldu behar dena»: fedea zabaltzeko 1622an sortutako Elizaren kongregazioaren izenetik dator (*de propaganda fide*).",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C5B",
@@ -2118,6 +2278,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Psikopolitika",
+  "et": "Grezierazko ψυχή (*psykhé*) «arima, gogoa» + πολιτική (*politiké*).",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C10",
@@ -2127,6 +2288,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arrazionalismoa",
+  "et": "Latinezko *ratio*, «arrazoia», lehenik «kalkulua, kontua» esan nahi zuena.",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "B4",
@@ -2145,6 +2307,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arrazoi kritikoa",
+  "et": "*Kritika*, grezierazko κρίνειν (*krínein*), «bereizi, epaitu, erabaki».",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "C1",
@@ -2163,6 +2326,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arrazoi poetikoa",
+  "et": "*Poetikoa*, grezierazko ποίησις (*póiesis*), «sorkuntza, zerbait egitea».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -2172,6 +2336,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Errealismoa",
+  "et": "Latinezko *res*, «gauza»: *erreala* gauza gisa existitzen dena da, ez soilik gogoan.",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",
@@ -2208,6 +2373,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Errepresentazioa",
+  "et": "Latinezko *repraesentare*: «berriro presente egin».",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CN",
@@ -2217,6 +2383,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Errepresioa",
+  "et": "Latinezko *reprimere*: «atzera bultzatu, eutsi».",
   "area": "Psikologia",
   "bloque": "C",
   "unidad": "C4",
@@ -2226,6 +2393,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Errepresio gehigarria",
+  "et": "*Errepresioa*, latinezko *reprimere*, «atzera bultzatu, eutsi».",
   "area": "Psikologia",
   "bloque": "C",
   "unidad": "C5A",
@@ -2235,6 +2403,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Res cogitans",
+  "et": "Latinez: «pentsatzen duen gauza».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "BD",
@@ -2244,6 +2413,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ressentiment",
+  "et": "Frantsesezko *re-* + *sentir*: irain bat behin eta berriz «berriro sentitzea».",
   "area": "Etika",
   "bloque": "C",
   "unidad": "CN",
@@ -2253,6 +2423,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Erriza",
+  "et": "Grezierazko ῥίζωμα (*rhízoma*), «sustrai multzoa», ῥίζα (*rhíza*) hitzetik, «sustraia».",
   "area": "Metafisika",
   "bloque": "C",
   "unidad": "C6",
@@ -2271,6 +2442,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Sentsazioa eta hausnarketa",
+  "et": "*Hausnarketa* gaztelaniaz *reflexión* da, latinezko *reflectere*, «atzera tolestu»: bere buruaren gainera itzultzen den gogoa.",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "BL",
@@ -2289,6 +2461,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Sentimendu tragikoa",
+  "et": "*Tragedia*, grezierazko τραγῳδία (*tragoidía*): azalpen zabalduenaren arabera, τράγος (*trágos*) «aker» + ᾠδή (*oidé*) «kantua».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C8",
@@ -2316,6 +2489,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Silogismoa",
+  "et": "Grezierazko συλλογισμός (*syllogismós*): σύν (*syn*) «batera» + λόγος (*lógos*) «arrazoia, kalkulua»: premisak «batzen dituen arrazoiketa».",
   "area": "Logika",
   "bloque": "A",
   "unidad": "AA",
@@ -2325,6 +2499,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Simulakroa",
+  "et": "Latinezko *simulacrum*, «irudia, kopia», *simulare* aditzetik, «imitatu».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C6",
@@ -2343,6 +2518,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Subiranotasuna",
+  "et": "Latin berantiarreko *superanus*, *super* hitzetik, «gainean»: gainetik beste botererik ez duen boterea.",
   "area": "Politika",
   "bloque": "B",
   "unidad": "B6",
@@ -2352,6 +2528,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Masa-gizartea",
+  "et": "*Masa*, latinezko *massa*, «ore, pila».",
   "area": "Gizartea",
   "bloque": "C",
   "unidad": "C5B",
@@ -2370,6 +2547,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Sofistak",
+  "et": "Grezierazko σοφιστής (*sophistés*), «aditua, jakintsua», σοφία (*sophía*) hitzetik, «jakinduria». «Tranpatia» esanahia geroago etorri zen.",
   "area": "Hezkuntza",
   "bloque": "A",
   "unidad": "A5",
@@ -2388,6 +2566,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Solidaritatea",
+  "et": "Latinezko *in solidum*, «osoagatik»: zor bakar baten erantzule hainbat batera direnean.",
   "area": "Gizartea",
   "bloque": "C",
   "unidad": "C6",
@@ -2397,6 +2576,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Solipsismoa",
+  "et": "Latinezko *solus* «bakarrik» + *ipse* «norbera»: «ni bakarrik».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "BD",
@@ -2406,6 +2586,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Susmoa",
+  "et": "Latinezko *suspectare*, *suspicere* aditzetik, «behetik gora begiratu».",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "CXIX",
@@ -2415,6 +2596,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Subjektibismoa",
+  "et": "*Subjektua*, latinezko *subiectum*, «azpian dagoena».",
   "area": "Epistemologia",
   "bloque": "A",
   "unidad": "A5",
@@ -2424,6 +2606,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Gainditzea (Aufhebung)",
+  "et": "Alemanezko *aufheben*: aldi berean «ezabatu», «gorde» eta «goratu» esan nahi du; Hegelek hiru esanahiak baliatzen ditu.",
   "area": "Metodoa",
   "bloque": "C",
   "unidad": "CXIX",
@@ -2433,6 +2616,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Gaingizakia",
+  "et": "Alemanezko *Übermensch*: *über* «gainetik» + *Mensch* «gizakia».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "CN",
@@ -2442,6 +2626,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Substantzia (klasikoa)",
+  "et": "Latinezko *substantia*: *sub* «azpian» + *stare* «egon»: ezaugarrien «azpian dagoena». Grezierazko οὐσία (*ousía*) itzultzen du.",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",
@@ -2451,6 +2636,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Substantzia (modernoa)",
+  "et": "Latinezko *substantia*: *sub* «azpian» + *stare* «egon»: ezaugarrien «azpian dagoena».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "B5",
@@ -2460,6 +2646,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Teleologia",
+  "et": "Grezierazko τέλος (*télos*) «helburua, xedea» + λόγος (*lógos*) «azterketa».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",
@@ -2469,6 +2656,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Teoria kritikoa",
+  "et": "*Teoria*, grezierazko θεωρία (*theoría*), «kontenplazioa, begirada». *Kritika*, κρίνειν (*krínein*) aditzetik, «bereizi, epaitu».",
   "area": "Historia",
   "bloque": "C",
   "unidad": "C5A",
@@ -2487,6 +2675,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Ideien teoria",
+  "et": "*Teoria*, grezierazko θεωρία (*theoría*), «kontenplazioa, begirada». *Ideia*, grezierazko ἰδέα (*idéa*), «itxura, forma ikusgarria», ἰδεῖν (*idéin*) aditzetik, «ikusi».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AP",
@@ -2523,6 +2712,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Tirania",
+  "et": "Grezierazko τύραννος (*týrannos*), «jaun absolutua»: hasieran, titulu legitimorik gabe boterea hartzen zuena, ona izan ala txarra.",
   "area": "Politika",
   "bloque": "A",
   "unidad": "A9",
@@ -2532,6 +2722,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Totalitarismoa",
+  "et": "Latinezko *totus*: «dena».",
   "area": "Politika",
   "bloque": "C",
   "unidad": "C5B",
@@ -2541,6 +2732,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arimaren transmigrazioa",
+  "et": "Latinezko *trans* «beste aldera» + *migrare* «lekuz aldatu». Grezieraz, μετεμψύχωσις (*metempsýkhosis*): μετά (*metá*) «aldaketa» + ἐν (*en*) «-n» + ψυχή (*psykhé*) «arima».",
   "area": "Antropologia",
   "bloque": "A",
   "unidad": "AP",
@@ -2559,6 +2751,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Transzendentala",
+  "et": "Latinezko *transcendere* (*trans* «beste aldera» + *scandere* «igo»): «haratago igaro».",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "CK",
@@ -2568,6 +2761,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Trivium eta quadrivium",
+  "et": "Latinez: «hiru bide» eta «lau bide» (*via*, «bidea»).",
   "area": "Hezkuntza",
   "bloque": "B",
   "unidad": "BOC",
@@ -2577,6 +2771,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Erdibidea",
+  "et": "Grezieraz, μεσότης (*mesótes*), μέσος (*mésos*) hitzetik, «erdikoa».",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A8",
@@ -2595,6 +2790,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Utilitarismoa",
+  "et": "Latinezko *utilitas*, «erabilgarritasuna», *uti* aditzetik, «erabili».",
   "area": "Etika",
   "bloque": "B",
   "unidad": "B7",
@@ -2604,6 +2800,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Egiaztagarritasuna",
+  "et": "Latinezko *verus* «egiazkoa» + *facere* «egin»: «egiazko egin», egiaztatu.",
   "area": "Epistemologia",
   "bloque": "C",
   "unidad": "C7",
@@ -2613,6 +2810,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Viriditas",
+  "et": "Latinez: «berdetasuna», *viridis* hitzetik, «berdea».",
   "area": "Erlijioa",
   "bloque": "B",
   "unidad": "BHvB",
@@ -2622,6 +2820,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Bertutea",
+  "et": "Latinezko *virtus*, «kemena, indarra», *vir* hitzetik, «gizonezkoa». Grezierazko ἀρετή (*areté*) itzultzen du.",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A8",
@@ -2631,6 +2830,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Virtù",
+  "et": "Makiaveloren italieratik, eta hau latinezko *virtus* hitzetik, «kemena, indarra», *vir*, «gizonezkoa».",
   "area": "Politika",
   "bloque": "B",
   "unidad": "B3",
@@ -2640,6 +2840,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Vita activa",
+  "et": "Latinez: «bizitza aktiboa».",
   "area": "Antropologia",
   "bloque": "C",
   "unidad": "C5B",
@@ -2649,6 +2850,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Volk",
+  "et": "Alemanez: «herria».",
   "area": "Historia",
   "bloque": "C",
   "unidad": "CXIX",
@@ -2667,6 +2869,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Botere-nahia",
+  "et": "Alemanezko *Wille zur Macht*.",
   "area": "Politika",
   "bloque": "C",
   "unidad": "CN",
@@ -2676,6 +2879,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Apeiron",
+  "et": "Grezierazko ἄπειρον (*ápeiron*): ἀ- (*a-*) «gabe» + πέρας (*péras*) «muga»: «mugagabea».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
@@ -2685,6 +2889,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Atomo",
+  "et": "Grezierazko ἄτομος (*átomos*): ἀ- (*a-*) «gabe» + τέμνειν (*témnein*) «moztu»: «moztu ezin dena».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "A4",
@@ -2694,6 +2899,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Etika",
+  "et": "Grezierazko ἦθος (*êthos*), «izaera, izateko modua», ἔθος (*éthos*), «ohitura», hitzarekin ahaidetua. *Morala* latinezko *mos, moris* hitzetik dator, «ohitura».",
   "area": "Etika",
   "bloque": "A",
   "unidad": "A8",
@@ -2703,6 +2909,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Zaintzaren etika",
+  "et": "*Zaintza* gaztelaniaz *cuidado* da, eta latinezko *cogitatus* hitzetik dator, «pentsatua»: norbait zaintzea, jatorriz, hartaz pentsatzea da.",
   "area": "Feminismoa",
   "bloque": "C",
   "unidad": "C9",
@@ -2712,6 +2919,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arrazoiaren autonomia",
+  "et": "*Autonomia*, grezierazko αὐτός (*autós*) «norbera» + νόμος (*nómos*) «legea»: «norberak bere buruari legea ematea».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2721,15 +2929,17 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Arrazionalismoa",
+  "et": "Latinezko *ratio*, «arrazoia», lehenik «kalkulua, kontua» esan nahi zuena.",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Etimologia: latinez ratio, arrazoia. Definizioa: Arrazoiari giza ezagutza guztien iturri, oinarri eta irizpide bakarra izatea aitortzen dion joera filosofikoa. XVII. mendean, Descartes, Spinoza eta Leibnizen eskutik, korronte filosofiko zehatz bihurtu zen."
+  "def": "Arrazoiari giza ezagutza guztien iturri, oinarri eta irizpide bakarra izatea aitortzen dion joera filosofikoa. XVII. mendean, Descartes, Spinoza eta Leibnizen eskutik, korronte filosofiko zehatz bihurtu zen."
  },
  {
   "subject": "hf",
   "t": "Innatismoa",
+  "et": "Latinezko *innatus*: «barruan jaioa» (*in* + *nasci* «jaio»).",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2739,6 +2949,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Intuizioa",
+  "et": "Latinezko *intuitus*, *intueri* aditzetik, «arretaz begiratu».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2748,6 +2959,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dedukzioa",
+  "et": "Latinezko *deducere*: «-tik eraman, -tik atera».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2757,6 +2969,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Zalantza metodikoa",
+  "et": "*Zalantza* gaztelaniaz *duda* da, latinezko *dubitare*, *duo*, «bi», hitzarekin ahaidetua: bi aukeraren artean egotea. *Metodoa*, grezierazko μέθοδος (*méthodos*), «bidea».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2766,6 +2979,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Jeinu maltzurra",
+  "et": "*Jeinua*, latinezko *genius*, pertsona bakoitzari laguntzen dion espiritua. *Gaiztoa* gaztelaniaz *maligno* da, latinezko *malus*, «txarra».",
   "area": "Metodoa",
   "bloque": "B",
   "unidad": "DM",
@@ -2775,15 +2989,17 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Cogito",
+  "et": "Latinezko *cogito*, «pentsatzen dut», *cogitare* aditzetik (*co-* + *agitare*): «zerbaiti buruan bueltak ematea».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Etimologia: latinez cogito, pentsatzen dut. Definizioa: \"Pentsatzen dut; beraz, banaiz\". Descartes-en filosofiaren lehen egia eta oinarria: zalantzan ari den subjektuaren existentzia ezin da ukatu."
+  "def": "\"Pentsatzen dut; beraz, banaiz\". Descartes-en filosofiaren lehen egia eta oinarria: zalantzan ari den subjektuaren existentzia ezin da ukatu."
  },
  {
   "subject": "hf",
   "t": "Ideia argi eta bereiziak",
+  "et": "*Ideia*, grezierazko ἰδέα (*idéa*), «itxura, forma ikusgarria». *Bereizia* gaztelaniaz *distinto* da, latinezko *distinctus*, gainerakotik «bereizia».",
   "area": "Epistemologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2793,6 +3009,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Errealitate objektiboa",
+  "et": "*Objektua*, latinezko *obiectum*, «aurrean jarria» (*ob-* «aurrean» + *iacere* «jaurti»).",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2811,6 +3028,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Substantzia",
+  "et": "Latinezko *substantia*: *sub* «azpian» + *stare* «egon»: ezaugarrien «azpian dagoena».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2820,6 +3038,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Atributua",
+  "et": "Latinezko *attributum*, *attribuere* aditzetik, «esleitu».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2829,6 +3048,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Modua",
+  "et": "Latinezko *modus*: «neurria, modua».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2838,6 +3058,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Res cogitans",
+  "et": "Latinez: «pentsatzen duen gauza».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2847,6 +3068,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Res extensa",
+  "et": "Latinez: «gauza hedatua», lekua betetzen duena (*extendere*, «hedatu»).",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2856,6 +3078,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Guruin pineala",
+  "et": "*Pineala*, latinezko *pinea*, «pinaburua», bere formagatik. *Guruina* gaztelaniaz *glándula* da, latinezko *glans* hitzetik, «ezkurra».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2865,6 +3088,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Dualismoa",
+  "et": "Latinezko *duo*: «bi».",
   "area": "Antropologia",
   "bloque": "B",
   "unidad": "DM",
@@ -2874,6 +3098,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Mekanizismoa",
+  "et": "Grezierazko μηχανή (*mekhané*): «makina, tresna».",
   "area": "Fisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2883,6 +3108,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Okasionalismoa",
+  "et": "Latinezko *occasio*, «aukera», *ob-* + *cadere* aditzetik, «erori»: une jakin batean agertzen dena.",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2892,6 +3118,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Panteismoa",
+  "et": "Grezierazko πᾶν (*pan*) «dena» + θεός (*theós*) «jainkoa».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
@@ -2901,15 +3128,17 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Monada",
+  "et": "Grezierazko μονάς (*monás*), «unitatea», μόνος (*mónos*) hitzetik, «bakarra».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Etimologia: grezieraz monas, unitatea. Definizioa: Leibniz-en arabera, substantzia sinplea, aktiboa eta zatiezina. Monadek ez dute leihorik."
+  "def": "Leibniz-en arabera, substantzia sinplea, aktiboa eta zatiezina. Monadek ez dute leihorik."
  },
  {
   "subject": "hf",
   "t": "Harmonia aurrez ezarria",
+  "et": "*Harmonia*, grezierazko ἁρμονία (*harmonía*): piezen «doikuntza, mihiztadura».",
   "area": "Metafisika",
   "bloque": "B",
   "unidad": "DM",
