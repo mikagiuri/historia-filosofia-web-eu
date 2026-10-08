@@ -1962,6 +1962,52 @@ ol.itin-temas li.temas-extra .temas-t{font-size:.95rem;color:var(--muted)}
 @media (max-width:640px){ #leibniz .lz-retrato-p{ width:5.5rem; margin-left:.9rem } }
 
 
+/* ==== css/rescritura.css ==== */
+/* «Rescritura» (09-10, Bachillerato): distinguir rescritura de copia, sinonimia y malinterpretación (rescrituraview.js) */
+#rescritura .res-guia{ max-width:62rem; margin:0 0 1rem; border:1px solid var(--line); border-radius:var(--radius); background:var(--surface); line-height:1.55 }
+#rescritura .res-guia > summary{ cursor:pointer; padding:.6rem .9rem; font-weight:600; color:var(--accent) }
+#rescritura .res-guia[open] > summary{ border-bottom:1px solid var(--line) }
+#rescritura .res-guia > :not(summary){ margin-left:.9rem; margin-right:.9rem }
+#rescritura .res-guia h3{ font-size:1rem; margin:.9rem .9rem .3rem }
+#rescritura .res-guia ol, #rescritura .res-guia ul{ padding-left:1.4rem }
+#rescritura .res-guia > :last-child{ margin-bottom:.9rem }
+#rescritura .res-tipos{ display:grid; grid-template-columns:repeat(auto-fit, minmax(13rem, 1fr)); gap:.6rem; margin:0 0 1rem }
+#rescritura .res-tipo{ background:var(--surface); border:1px solid var(--line); border-top:4px solid var(--line); border-radius:var(--radius); padding:.6rem .75rem; font-size:.92rem; line-height:1.45 }
+#rescritura .res-tipo strong{ display:block; margin-bottom:.2rem }
+#rescritura .res-t-rescritura{ border-top-color:var(--ok) }
+#rescritura .res-t-copia{ border-top-color:var(--bad) }
+#rescritura .res-t-sinonimia{ border-top-color:var(--accent) }
+#rescritura .res-t-malinterpretacion{ border-top-color:var(--muted) }
+#rescritura .res-tabs{ margin:0 0 .8rem }
+#rescritura .res-panel{ background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:1rem 1.1rem }
+#rescritura .res-sel{ display:block; max-width:22rem; margin:0 0 .8rem; font-size:.92rem; color:var(--muted) }
+#rescritura .res-sel .lg-sel{ display:block; width:100%; margin-top:.25rem; padding:.45rem .5rem; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--ink); font:inherit }
+#rescritura .res-eti{ display:block; font-size:.78rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:.2rem 0 .3rem }
+#rescritura .res-original blockquote{ margin:0; padding:.7rem .9rem; background:var(--surface-2); border-left:4px solid var(--accent); border-radius:8px; line-height:1.6 }
+#rescritura .res-ref{ font-size:.85rem; color:var(--muted); margin:.35rem 0 1rem }
+#rescritura .res-version{ border:1px solid var(--line); border-radius:var(--radius); padding:.7rem .9rem; margin:0 0 .7rem; background:var(--bg); line-height:1.55 }
+#rescritura .res-version.res-ok{ border-color:var(--ok); background:var(--ok-bg) }
+#rescritura .res-version.res-mal{ border-color:var(--bad); background:var(--bad-bg) }
+#rescritura .res-opc{ margin:.4rem 0 0 }
+#rescritura .res-fb{ margin:.6rem 0 0; font-size:.93rem }
+#rescritura .res-acciones{ display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin:.8rem 0 0 }
+#rescritura .res-aviso{ color:var(--bad); font-weight:600 }
+#rescritura .res-terminos, #rescritura .res-ayuda{ font-size:.9rem; color:var(--muted) }
+#rescritura .res-area{ width:100%; box-sizing:border-box; font:inherit; line-height:1.55; padding:.6rem .7rem; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--ink); resize:vertical }
+#rescritura .res-area:focus{ outline:2px solid var(--accent); outline-offset:1px }
+#rescritura #res-resultado h3{ font-size:1rem; margin:1rem 0 .3rem }
+#rescritura .res-diag{ padding:.6rem .8rem; border-radius:8px; border-left:4px solid var(--line); background:var(--surface-2) }
+#rescritura .res-vBien{ border-left-color:var(--ok) }
+#rescritura .res-vCopia{ border-left-color:var(--bad); background:var(--bad-bg) }
+#rescritura .res-vSinon, #rescritura .res-vMezcla{ border-left-color:var(--accent) }
+#rescritura .res-tuyo{ padding:.6rem .8rem; background:var(--bg); border:1px dashed var(--line); border-radius:8px; line-height:1.6 }
+#rescritura .res-tuyo mark{ background:var(--bad-bg); color:var(--ink); border-bottom:2px solid var(--bad); padding:0 .1em }
+#rescritura .res-lista{ list-style:none; padding-left:0 }
+#rescritura .res-lista li{ margin:.3rem 0 }
+#rescritura .res-modelo{ margin:.8rem 0; border:1px solid var(--line); border-radius:8px; padding:.4rem .8rem }
+#rescritura .res-modelo > summary{ cursor:pointer; font-weight:600 }
+
+
 /* ==== css/retratos.css ==== */
 /* ===== Retratos de museo integrados en la teoría ===== usa los tokens de styles.css ===== */
 .museo-strip{ margin:2.4rem 0 .5rem; padding-top:1.2rem; border-top:1px solid var(--line); }
