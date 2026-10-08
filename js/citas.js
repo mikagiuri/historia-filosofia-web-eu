@@ -208,6 +208,13 @@ const CITAS = [
   "img": "media/retratos/museo2/adam-smith.jpg"
  },
  {
+  "c": "Gizakia kanabera bat besterik ez da, naturako ahulena, baina pentsatzen duen kanabera bat da.",
+  "a": "Blaise Pascal",
+  "o": "Pentsamenduak, 200. zatia (Lafuma arg.) / 347 (Brunschvicg arg.)",
+  "e": "modernoa",
+  "img": "media/retratos/museo2/pascal.jpg"
+ },
+ {
   "c": "Arrazoia grinen esklabo da, eta halakoa besterik ez luke izan behar.",
   "a": "David Hume",
   "o": "Giza naturari buruzko tratatua II, 3, 3",
@@ -1076,6 +1083,12 @@ const CITAS = [
   "c": "Adabakiak gara denok, eta hain ehundura itxuragabe eta askotarikoa dugu, ezen pieza bakoitzak, une bakoitzak, bere jokoa egiten baitu. Eta gu eta geu artean gu eta beste baten artean bezainbesteko aldea dago.",
   "a": "Montaigne",
   "o": "Saiakerak (1580) II, 1",
+  "e": "modernoa"
+ },
+ {
+  "c": "Ez dago ezer zuzen edo bidegaberik klimaz aldatzean bere izaera aldatzen ez duenik. […] Justizia barregarria, ibai batek mugatzen duena! Egia Pirinioen alde honetan, errorea bestean.",
+  "a": "Blaise Pascal",
+  "o": "Pentsamenduak, 60. zatia (Lafuma arg.) / 294 (Brunschvicg arg.)",
   "e": "modernoa"
  },
  {
