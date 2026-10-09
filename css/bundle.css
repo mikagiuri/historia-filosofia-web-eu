@@ -2008,6 +2008,55 @@ ol.itin-temas li.temas-extra .temas-t{font-size:.95rem;color:var(--muted)}
 #rescritura .res-modelo > summary{ cursor:pointer; font-weight:600 }
 
 
+/* ==== css/nudos.css ==== */
+/* «Nudos: ¿encajan tus razones?» (09-10, Bachillerato): tensiones entre tus respuestas que se deshacen escribiendo (nudosview.js) */
+#nudos .nud-guia{ max-width:62rem; margin:0 0 1rem; border:1px solid var(--line); border-radius:var(--radius); background:var(--surface); line-height:1.55 }
+#nudos .nud-guia > summary{ cursor:pointer; padding:.6rem .9rem; font-weight:600; color:var(--accent) }
+#nudos .nud-guia[open] > summary{ border-bottom:1px solid var(--line) }
+#nudos .nud-guia > :not(summary){ margin-left:.9rem; margin-right:.9rem }
+#nudos .nud-guia h3{ font-size:1rem; margin:.9rem .9rem .3rem }
+#nudos .nud-guia ol, #nudos .nud-guia ul{ padding-left:1.4rem }
+#nudos .nud-guia > :last-child{ margin-bottom:.9rem }
+#nudos .nud-card{ max-width:62rem; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:1rem 1.1rem; margin:0 0 1rem; line-height:1.55 }
+#nudos .nud-muted{ color:var(--muted) }
+#nudos .nud-small{ font-size:.86rem }
+#nudos .nud-mods{ display:grid; grid-template-columns:repeat(auto-fit, minmax(15rem, 1fr)); gap:.8rem; max-width:62rem }
+#nudos .nud-mod{ text-align:left; display:flex; flex-direction:column; gap:.35rem; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:.9rem 1rem; font:inherit; color:var(--ink); cursor:pointer }
+#nudos .nud-mod:hover{ border-color:var(--accent-2) }
+#nudos .nud-mod strong{ font-family:var(--serif); font-size:1.1rem }
+#nudos .nud-stmt{ font-family:var(--serif); font-size:1.3rem; line-height:1.35; margin:.3rem 0 .9rem }
+#nudos .nud-fs{ border:0; margin:0; padding:0 }
+#nudos .nud-fs legend{ margin-bottom:.5rem }
+#nudos .nud-opts{ display:flex; flex-wrap:wrap; gap:.6rem; margin-bottom:.7rem }
+#nudos .nud-opt{ position:relative }
+#nudos .nud-opt input{ position:absolute; opacity:0 }
+#nudos .nud-opt span{ display:inline-block; padding:.5rem 1rem; border:1px solid var(--line); border-radius:999px; background:var(--surface-2); cursor:pointer }
+#nudos .nud-opt input:checked + span{ background:var(--accent); color:var(--on-accent); border-color:var(--accent) }
+#nudos .nud-opt input:focus-visible + span{ outline:2.5px solid var(--accent-2); outline-offset:2px }
+#nudos textarea{ width:100%; min-height:5rem; font:inherit; color:var(--ink); background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:.6rem }
+#nudos .nud-reto{ min-height:7.5rem }
+#nudos .nud-lab{ display:block; font-weight:600; margin:.7rem 0 .35rem }
+#nudos .nud-count{ font-size:.8rem; color:var(--muted) }
+#nudos .nud-row{ display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin:.8rem 0 0 }
+#nudos .nud-knot{ border-left:5px solid var(--hf) }
+#nudos .nud-knot.nud-ap{ border-left-color:var(--accent-2) }
+#nudos .nud-tag{ display:inline-block; font-size:.74rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; padding:.15rem .6rem; border-radius:999px; margin-bottom:.4rem; background:var(--bad-bg); color:var(--bad) }
+#nudos .nud-ap .nud-tag{ background:var(--ok-bg); color:var(--ok) }
+#nudos .nud-knot h3{ font-size:1.15rem; margin:.1rem 0 .6rem }
+#nudos .nud-pair{ display:grid; gap:.5rem; margin:.6rem 0 }
+#nudos .nud-pair > div{ background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:.55rem .75rem }
+#nudos .nud-pair strong{ font-weight:600 }
+#nudos .nud-choices{ display:grid; gap:.5rem; margin-top:.6rem }
+#nudos .nud-choice{ text-align:left; background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:.55rem .75rem; font:inherit; color:var(--ink); cursor:pointer }
+#nudos .nud-choice[aria-pressed="true"]{ border-color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent) }
+#nudos .nud-hint{ background:var(--surface-2); border-left:3px solid var(--accent-2); border-radius:8px; padding:.5rem .75rem; font-size:.92rem; margin:.7rem 0 0 }
+#nudos .nud-src{ font-size:.84rem; color:var(--muted); margin:.8rem 0 0 }
+#nudos .nud-cuaderno h4{ font-family:var(--serif); font-size:1.05rem; margin:1rem 0 .4rem }
+#nudos .nud-log li{ margin-bottom:.6rem }
+@media (max-width:520px){ #nudos .nud-stmt{ font-size:1.12rem } }
+@media print{ #nudos .nud-noprint, #nudos .nud-guia, #nudos .nud-mods{ display:none } #nudos .nud-card{ border-color:#bbb } }
+
+
 /* ==== css/retratos.css ==== */
 /* ===== Retratos de museo integrados en la teoría ===== usa los tokens de styles.css ===== */
 .museo-strip{ margin:2.4rem 0 .5rem; padding-top:1.2rem; border-top:1px solid var(--line); }
