@@ -505,7 +505,7 @@ const RESCRITURA_TEXTOS = [
  {
   "id": "buenavoluntad",
   "autor": "Immanuel Kant",
-  "obra": "<em>Ohituren metafisikaren funtsapena</em>, lehen kapitulua (1785)",
+  "obra": "<em>Ohituren metafisikaren oinarriak</em>, lehen kapitulua (1785)",
   "original": "Ez munduan ez, oro har, haren kanpoan ere ezin da pentsatu mugarik gabe ontzat jo daitekeen ezer, borondate ona bakarrik izan ezik. Adimena, zorroztasuna, judizioa egiteko gaitasuna, eta espirituaren talentuak nahi den bezala deituta, edo ausardia, erabakitasuna eta asmoetan iraunkortasuna, tenperamentuaren ezaugarri gisa, onak eta desiragarriak dira zalantzarik gabe alderdi askotan; baina oso txarrak eta kaltegarriak ere bihur daitezke, naturaren dohain horiek erabili behar dituen borondatea, eta horregatik izaera deitzen zaion haren eraketa berezia, ona ez bada. Gauza bera gertatzen da zoriaren dohainekin. Botereak, aberastasunak, ohoreak, baita osasunak eta ongizate osoak eta norberaren egoerarekiko pozak ere, zoriona izenpean, adorea ematen dute eta askotan baita harrokeria ere, ez badago borondate onik haien eragina zuzendu eta helburu unibertsaletara bideratzen duenik. […] Borondate ona ez da ona egiten edo lortzen duenagatik, ezta proposatutako helburuen bat lortzeko duen gaitasunagatik ere, nahiagatik bakarrik; hau da, berez da ona. Bere baitan hartuta, konparaziorik gabe baloratu behar da haren bidez isuriren baten alde, edo isuri guztien baturaren alde ere, lor litekeen guztiaren oso gainetik. Nahiz eta, patuaren zorigaitz berezi batengatik edo natura amaorde baten zekenkeriagatik, borondate horri bere asmoa aurrera ateratzeko gaitasuna erabat faltako litzaiokeen; nahiz eta bere ahaleginik handienarekin ezer lortuko ez lukeen eta borondate ona bakarrik geratuko litzatekeen, ez desio huts gisa, gure esku dauden bitarteko guztien erabilera gisa baizik, bere kabuz distiratuko luke harribitxi batek bezala, bere baitan balio osoa duen zerbaitek bezala. Erabilgarritasunak edo erabilgarritasun ezak ezin diote ezer gehitu edo kendu balio horri.",
   "terminos": [
    "borondate ona",
@@ -568,6 +568,40 @@ const RESCRITURA_TEXTOS = [
     "tipo": "malinterpretacion",
     "texto": "Aristotelesek dio gizakiak erleak bezalakoak garela: sena dela-eta bizi gara gizartean, talde-animalia guztiak bezala. Horregatik, bakarrik bizi dena, ermitau bat bezala, goragoko izaki bat da, ia jainko bat, sen horretatik askatzea lortu duelako.",
     "porque": "Testuak ukatzen dituen bi gauza dio. Aristotelesek gizakia erleengandik bereizten du, hain zuzen ere, hitzagatik eta justiziaren zentzuagatik; ez du haiekin berdintzen. Eta naturaz hiritik kanpo bizi dena «piztia edo jainko bat» da, ez askatu delako miresgarria den norbait."
+   }
+  ]
+ },
+ {
+  "id": "canibales",
+  "autor": "Michel de Montaigne",
+  "obra": "<em>Saiakerak</em>, I. liburua, 31. kapitulua, «Kanibalez» (1580). Brasilgo herri indigenez ari da.",
+  "original": "Iruditzen zait ez dagoela ezer barbaroa edo basatia nazio horretan, kontatu didatenaren arabera, baizik eta bakoitzak barbarie deitzen diola bere ohitura ez denari. Badirudi, egiaz, ez dugula egiaren eta arrazoiaren beste neurririk bizi garen herrialdeko iritzi eta usarioen eredua eta ideia baino: han dago beti erlijio perfektua, gobernu perfektua, gauza guztien erabilera perfektu eta osoa. Basatiak dira naturak berez eta bere ohiko bidean sortu dituen fruituei basati deitzen diegun modu berean; egiaz, gure artifizioz aldatu eta ordena arruntetik desbideratu ditugunei deitu beharko genieke, hobeto, basati.",
+  "terminos": [
+   "barbaroa",
+   "barbarie",
+   "basatia",
+   "natura"
+  ],
+  "versiones": [
+   {
+    "tipo": "rescritura",
+    "texto": "Montaignek susmatzen du, beste herri batzuei barbaro deitzean, gu bezala bizi ez direla esaten ari garela, besterik ez. Gure herrialdeko ohiturak eta sinesmenak egiazkoaren eta arrazoizkoaren eredutzat hartzen ditugu, eta horregatik iruditzen zaizkigu beti onenak gure erlijioa, gure legeak eta gure moduak. Gainera, «basati» hitzarekin jolasten du: basatia berez hazten dena bada, landako fruta bezala, herri horiek zentzu onean dira basatiak; benetan naturatik aldendu dena, eta basati deitu beharko litzaiokeena, guk geure artifizioz desitxuratu duguna da.",
+    "porque": "Bi ideiak azaltzen ditu (besteak geure ohituren neurriz epaitzen ditugu; «basati» hitzaren zentzu bikoitza) esaldi propioekin, eta hitz-jokoa agerian uzten du, testuaren gakoa baita."
+   },
+   {
+    "tipo": "copia",
+    "texto": "Nazio horretan ez dago ezer barbaroa edo basatia, baizik eta bakoitzak barbarie deitzen diola bere ohitura ez denari. Ez dugu egiaren eta arrazoiaren beste neurririk bizi garen herrialdeko iritzi eta usarioen eredua eta ideia baino: han dago beti erlijio perfektua, gobernu perfektua. Basatiak dira naturak berez sortu dituen fruituei basati deitzen diegun modu berean, gure artifizioz aldatu ditugunei deitu beharko genizkiekeenean basati.",
+    "porque": "Jatorrizkoa da, zati batzuk kenduta. Esaldirik ospetsuena, «bakoitzak barbarie deitzen dio bere ohitura ez denari», erabil daiteke, baina komatxo artean."
+   },
+   {
+    "tipo": "sinonimia",
+    "texto": "Ematen dit ez dagoela ezer zibilizatu gabea edo primitiboa herri horretan, azaldu didatenaren arabera, baizik eta bakoitzak zibilizazio eza deitzen diola bere ohikeria ez denari. Ematen du, benetan, ez dugula ziurraren eta zentzuzkoaren beste irizpiderik bizi garen lurraldeko ustemen eta praktiken lagina eta nozioa baino: hor dago beti fede perfektua, administrazio perfektua, gai guztien praktika perfektu eta betea. Primitiboak dira inguruneak berez eta bere ohiko ibilbidean sorrarazi dituen produktuei primitibo deitzen diegun era berean; benetan, gure teknikaz moldatu eta ordena orokorretik aldendu ditugunei deitu beharko genieke, hobeto, primitibo.",
+    "porque": "Testua esaldiz esaldi kalkatzen du. Eta argudioari eusten dion hitz-jokoa hausten du: Montaignek «basati» bi zentzutan erabiltzen du (zibilizatu gabea eta berezkoa, fruta bezala), eta «primitibo» hitzak ez du bigarren zentzu hori. Gainera, «natura» ez da «ingurunea»."
+   },
+   {
+    "tipo": "malinterpretacion",
+    "texto": "Montaignek defendatzen du Amerikako herri indigenak europarrak baino hobeak zirela guztian, eta onena zibilizazioa utzi eta haiek bezala bizitzera itzultzea litzatekeela, natura hutsean.",
+    "porque": "Gehiegikeriaz dio eta gehitzen du. Testuak kritikatzen du besteak geure ohituren neurriz epaitzea, eta «basati» hitzari buelta ematen dio; ez du esaten herri horiek guztian hobeak direnik, ezta zibilizazioa utzi behar denik ere."
    }
   ]
  }

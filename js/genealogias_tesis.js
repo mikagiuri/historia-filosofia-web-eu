@@ -124,7 +124,7 @@ const GEN_TESIS = {
    "id": "ock-navaja",
    "ilustre": "ockham",
    "t": "Ez dira izakiak beharrik gabe ugaldu behar.",
-   "ref": "«Ockhamen labaina»; bere obretan: «ez da aniztasunik ezarri behar beharrik gabe» (Ordinatio I, d. 30, q. 1)",
+   "ref": "«Ockhamen labana»; bere obretan: «ez da aniztasunik ezarri behar beharrik gabe» (Ordinatio I, d. 30, q. 1)",
    "forma": "formula tradizionala"
   },
   {
@@ -392,7 +392,7 @@ const GEN_TESIS = {
   {
    "k": "ock-navaja|pla-ideas",
    "tipo": "desacuerdo",
-   "por": "Ockhamen labainak alferrikako izakiak mozteko balio du, eta Ideien mundu bereizi bat da soberan dagoenaren adibide klasikoa."
+   "por": "Ockhamen labanak alferrikako izakiak mozteko balio du, eta Ideien mundu bereizi bat da soberan dagoenaren adibide klasikoa."
   },
   {
    "k": "tom-vias|nie-dios",

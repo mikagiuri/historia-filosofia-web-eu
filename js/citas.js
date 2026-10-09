@@ -321,7 +321,7 @@ const CITAS = [
  {
   "c": "Jokatu ezazu gizateria —bai zeure baitan, bai beste edonoren baitan— beti helburu gisa eta inoiz ez soilik baliabide gisa tratatzeko moduan.",
   "a": "Immanuel Kant",
-  "o": "Ohituren metafisikaren funtsapena (1785) II (Ak IV, 429)",
+  "o": "Ohituren metafisikaren oinarriak (1785) II (Ak IV, 429)",
   "e": "modernoa",
   "id": "kant",
   "img": "media/retratos/museo/kant.jpg"
@@ -353,7 +353,7 @@ const CITAS = [
  {
   "c": "Jokatu soilik aldi berean lege unibertsal bihur dadin nahi izan dezakezun maxima haren arabera.",
   "a": "Immanuel Kant",
-  "o": "Ohituren metafisikaren funtsapena (1785) II (Ak IV, 421)",
+  "o": "Ohituren metafisikaren oinarriak (1785) II (Ak IV, 421)",
   "e": "modernoa",
   "id": "kant",
   "img": "media/retratos/museo/kant.jpg"
@@ -787,7 +787,7 @@ const CITAS = [
  {
   "c": "Ez munduan, ezta, oro har, haren kanpoan ere, ezin da pentsatu murrizketarik gabe ontzat har daitekeen ezer, nahimen on bat izan ezik.",
   "a": "Immanuel Kant",
-  "o": "Ohituren metafisikaren oinarritzea (1785) I (Ak IV, 393)",
+  "o": "Ohituren metafisikaren oinarriak (1785) I (Ak IV, 393)",
   "e": "modernoa",
   "id": "kant",
   "img": "media/retratos/museo/kant.jpg"
