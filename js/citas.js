@@ -1227,5 +1227,209 @@ const CITAS = [
   "e": "contemporanea",
   "id": "freud",
   "img": "media/retratos/museo2/freud.jpg"
+ },
+ {
+  "c": "Arrazoia hizkuntza da, logos.",
+  "a": "Johann Georg Hamann",
+  "o": "Herderri gutuna, 1784ko abuztuaren 6a",
+  "e": "modernoa",
+  "id": "hamann",
+  "img": "media/retratos/ilustres/hamann.jpg"
+ },
+ {
+  "c": "Animalia den aldetik ere, gizakiak badu hizkuntza.",
+  "a": "Johann Gottfried Herder",
+  "o": "Hizkuntzaren jatorriari buruzko tratatua (1772), lehen esaldia",
+  "e": "modernoa",
+  "id": "herder",
+  "img": "media/retratos/ilustres/herder.jpg"
+ },
+ {
+  "c": "Neure baitara itzultzen naiz eta mundu bat aurkitzen dut.",
+  "a": "Johann Wolfgang von Goethe",
+  "o": "Werther gaztearen sufrimenduak (1774), maiatzaren 22ko gutuna",
+  "e": "modernoa",
+  "id": "goethe",
+  "img": "media/retratos/ilustres/goethe.jpg"
+ },
+ {
+  "c": "Hasieran ekintza zen.",
+  "a": "Johann Wolfgang von Goethe",
+  "o": "Fausto I (1808), lan-gelako eszena",
+  "e": "modernoa",
+  "id": "goethe",
+  "img": "media/retratos/ilustres/goethe.jpg"
+ },
+ {
+  "c": "Gizakiak hitzaren zentzu betean gizaki denean baino ez du jolasten, eta jolasten duenean baino ez da erabat gizaki.",
+  "a": "Friedrich Schiller",
+  "o": "Gizakiaren hezkuntza estetikoari buruzko gutunak (1795), 15. gutuna",
+  "e": "modernoa",
+  "id": "schiller",
+  "img": "media/retratos/ilustres/schiller.jpg"
+ },
+ {
+  "c": "Hori ez da esperientzia bat, ideia bat da.",
+  "a": "Friedrich Schiller",
+  "o": "Goetheri emandako erantzuna jatorrizko landareari buruz (1794), Goetheren arabera, Gertaera zoriontsua (1817)",
+  "e": "modernoa",
+  "id": "schiller",
+  "img": "media/retratos/ilustres/schiller.jpg"
+ },
+ {
+  "c": "Jenioa arteari araua ematen dion talentua (natura-dohaina) da.",
+  "a": "Immanuel Kant",
+  "o": "Judizioaren kritika (1790), § 46",
+  "e": "modernoa",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Poesia erromantikoa poesia unibertsal progresiboa da.",
+  "a": "Friedrich Schlegel",
+  "o": "Athenaeum (1798), 116. zatia",
+  "e": "contemporanea",
+  "id": "schlegel",
+  "img": "media/retratos/ilustres/schlegel.jpg"
+ },
+ {
+  "c": "Gizartean ezer ez da izango inorena bereziki ez jabetzan, unean bertan erabiltzen dituen gauzak izan ezik.",
+  "a": "Étienne-Gabriel Morelly",
+  "o": "Naturaren kodea (1755), lehen oinarrizko legea",
+  "e": "modernoa",
+  "id": "morelly"
+ },
+ {
+  "c": "Frantziako Iraultza beste iraultza baten aitzindaria besterik ez da, askoz handiagoa, askoz solemneagoa, eta azkena izango dena.",
+  "a": "Sylvain Maréchal",
+  "o": "Berdinen Manifestua (1796), Babeufen konspiraziorako idatzia",
+  "e": "modernoa"
+ },
+ {
+  "c": "Edozein izaera orokor, onenetik txarrenera, edozein komunitateri eman dakioke, baita mundu osoari ere, bitarteko egokiak aplikatuz.",
+  "a": "Robert Owen",
+  "o": "Gizartearen ikuspegi berri bat (1813), lehen saiakera",
+  "e": "contemporanea",
+  "id": "owen",
+  "img": "media/retratos/ilustres/owen.jpg"
+ },
+ {
+  "c": "Gizarte-aurrerapenak emakumeek askatasunerantz egiten duten aurrerapenaren arabera gertatzen dira.",
+  "a": "Charles Fourier",
+  "o": "Lau mugimenduen teoria (1808)",
+  "e": "contemporanea",
+  "id": "fourier",
+  "img": "media/retratos/ilustres/fourier.jpg"
+ },
+ {
+  "c": "Jabetza lapurreta da.",
+  "a": "Pierre-Joseph Proudhon",
+  "o": "Zer da jabetza? (1840), 1. kap.",
+  "e": "contemporanea",
+  "id": "proudhon",
+  "img": "media/retratos/ilustres/proudhon.jpg"
+ },
+ {
+  "c": "Gizakia inguruabarrek eratzen badute, inguruabarrak gizatasunez eratu behar dira.",
+  "a": "Marx & Engels",
+  "o": "Familia santua (1845), VI. kap.",
+  "e": "contemporanea",
+  "id": "marx",
+  "img": "media/retratos/museo/marx.jpg"
+ },
+ {
+  "c": "Estatuaren benetako helburua askatasuna da.",
+  "a": "Spinoza",
+  "o": "Tratatu teologiko-politikoa (1670), 20. kap.",
+  "e": "modernoa",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
+ },
+ {
+  "c": "Zoriontasuna ez da bertutearen saria, bertutea bera baizik.",
+  "a": "Spinoza",
+  "o": "Etika (1677), V, 42. proposizioa",
+  "e": "modernoa",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
+ },
+ {
+  "c": "Inork ez du orain arte zehaztu gorputzak zer ahal duen.",
+  "a": "Spinoza",
+  "o": "Etika (1677), III, 2. proposizioa, eskolioa",
+  "e": "modernoa",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
+ },
+ {
+  "c": "Spinozismoak zuzenean darama exaltaziora.",
+  "a": "Immanuel Kant",
+  "o": "Zer esan nahi du pentsamenduan orientatzeak? (1786), AA VIII 143, oharra",
+  "e": "modernoa",
+  "id": "kant",
+  "img": "media/retratos/museo/kant.jpg"
+ },
+ {
+  "c": "Bitartean, spinozista bihurtu naiz.",
+  "a": "Friedrich Wilhelm Joseph Schelling",
+  "o": "Hegeli gutuna, 1795eko otsailaren 4a",
+  "e": "contemporanea",
+  "id": "schelling",
+  "img": "media/retratos/ilustres/schelling.jpg"
+ },
+ {
+  "c": "Spinozaren Jainkoarengan sinesten dut, existitzen den guztiaren harmonian agertzen denarengan, eta ez gizakien patuaz eta ekintzez arduratzen den Jainko batengan.",
+  "a": "Albert Einstein",
+  "o": "Herbert S. Goldstein errabinoari telegrama, 1929ko apirila",
+  "e": "contemporanea",
+  "id": "einstein",
+  "img": "media/retratos/museo/einstein.jpg"
+ },
+ {
+  "c": "Filosofo orok bi filosofia ditu: berea eta Spinozarena.",
+  "a": "Henri Bergson",
+  "o": "egotzia; Léon Brunschvicgi gutuna, Spinozaren heriotzaren 250. urteurrena dela eta",
+  "e": "contemporanea",
+  "img": "media/galeria_museo/spinoza_universal/bergson.jpg"
+ },
+ {
+  "c": "Osotasunaren zati txiki eta isolatu bati betiko kateatuta, gizakia bera ere zati gisa baino ez da eratzen.",
+  "a": "Friedrich Schiller",
+  "o": "Gizakiaren hezkuntza estetikoari buruzko gutunak (1795), 6. gutuna",
+  "e": "modernoa",
+  "id": "schiller",
+  "img": "media/retratos/ilustres/schiller.jpg"
+ },
+ {
+  "c": "Bere aberastasun-gehiegikeria guztiarekin ere, gizarte zibila ez da aski aberatsa pobrezia-gehiegikeria eta plebearen sorrera eragozteko.",
+  "a": "Hegel",
+  "o": "Zuzenbidearen filosofia (1820), § 245",
+  "e": "contemporanea",
+  "id": "hegel",
+  "img": "media/retratos/museo/hegel.jpg"
+ },
+ {
+  "c": "Itxurazko arrazoirik gabeko fortuna handien sekretua ahaztutako krimen bat da, txukun egin zelako.",
+  "a": "Honoré de Balzac",
+  "o": "Goriot aita (1835), Vautrinen hitzak",
+  "e": "contemporanea",
+  "id": "balzac",
+  "img": "media/retratos/ilustres/balzac.jpg"
+ },
+ {
+  "c": "Bakea txabolei! Gerra jauregiei!",
+  "a": "Georg Büchner",
+  "o": "Hesseko landa-mezularia (1834), Friedrich Ludwig Weidigekin; Frantziako Iraultzaren leloa",
+  "e": "contemporanea",
+  "id": "buchner",
+  "img": "media/retratos/ilustres/buchner.jpg"
+ },
+ {
+  "c": "Erlijio-sutasunaren ikara sakratuak, zaldun-gogo sutsua eta burges txikien sentimentalismoa kalkulu berekoiaren ur izoztuetan ito ditu.",
+  "a": "Marx & Engels",
+  "o": "Alderdi Komunistaren Manifestua (1848), I. kap., burgesiari buruz",
+  "e": "contemporanea",
+  "id": "marx",
+  "img": "media/retratos/museo/marx.jpg"
  }
 ];

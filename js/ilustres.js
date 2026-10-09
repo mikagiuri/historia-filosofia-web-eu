@@ -2665,6 +2665,7 @@ const ILUSTRES = {
    "hf-utilitarismo",
    "hf-etica-deber",
    "hf-marx-biblioteca",
+   "hf-corazon-piedra",
    "hf-posmodernidad"
   ]
  },
@@ -2716,7 +2717,8 @@ const ILUSTRES = {
   "temas": [
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
-   "hf-kant-poetas"
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "roux": {
@@ -2783,7 +2785,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-corazon-piedra"
   ]
  },
  "hebert": {
@@ -2832,7 +2835,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-corazon-piedra"
   ]
  },
  "schiller": {
@@ -2858,7 +2862,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-kant-poetas"
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "babeuf": {
@@ -3015,6 +3020,7 @@ const ILUSTRES = {
    "hf-spinoza-universal",
    "hf-kant-poetas",
    "hf-sospecha",
+   "hf-corazon-piedra",
    "hf-capitalismo",
    "hf-posmodernidad",
    "hf-beauvoir"
@@ -3322,7 +3328,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-spinoza-universal"
+   "hf-spinoza-universal",
+   "hf-corazon-piedra"
   ]
  },
  "comte": {
@@ -3350,6 +3357,33 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-etica-deber",
    "hf-sospecha"
+  ]
+ },
+ "balzac": {
+  "name": "Honoré de Balzac",
+  "dates": "1799 – 1850",
+  "born": 1799,
+  "died": 1850,
+  "place": "Tours (Frantzia)",
+  "role": "eleberrigilea",
+  "idea": "Eleberriak gizarte oso bat erretrata dezake, eta gizarte modernoan dirua da ia pertsonaia guztiak mugiarazten dituena.",
+  "bio": "<p>Honoré de Balzac Toursen jaio zen 1799an. Zuzenbidea ikasi zuen Parisen eta abokatu-bulego batean lan egin zuen, baina idazle izan nahi zuen. Arrakasta lortu aurretik, porrot egin zuen argitaratzaile eta inprimatzaile gisa, eta negozio hark bizitza osoan atzetik izan zituen zorrak utzi zizkion. Bere izenarekin sinatutako lehen eleberria, <em>Txuanak</em>, 1829an argitaratu zen. Handik aurrera atsedenik gabe idatzi zuen, gauez eta kafea edanez, dozenaka eleberri. 1850ean Ewelina Hańska kondesa poloniarrarekin ezkondu zen, ia hogei urtez gutunak trukatu zituenarekin, eta bost hilabete geroago hil zen Parisen.</p>\n<p>Balzacek <em>Giza komedia</em> izenburupean bildu zituen bere lanak: laurogeita hamar eleberri eta kontakizun baino gehiago, non pertsonaia berberak liburu batetik bestera agertzen diren berriro, benetako gizarte batean bezala. Bere garaiko «idazkaria» izan nahi zuen, eta bankariak, lukurreroak, kazetariak, nekazariak eta funtzionarioak deskribatu. <strong>Errealismoaren</strong> maisu handia da. Politikoki monarkikoa eta katolikoa zen, baina burgesiaren erretratua hain zen zehatza, ezen Engelsek, 1888ko gutun batean, idatzi baitzuen garaiko historialari, ekonomialari eta estatistikari guztiengandik batera baino gehiago ikasi zuela harengandik. Engelsek <strong>errealismoaren garaipena</strong> deitu zion horri: eleberrigileak bere garaiko egia ikusi zuen, baita bere sinpatia politikoen aurka ere.</p>",
+  "obras": [
+   "Xagrin-larrua (1831)",
+   "Eugénie Grandet (1833)",
+   "Goriot aita (1835)",
+   "Ilusio galduak (1837-1843)"
+  ],
+  "anecdota": "<p>Balzacek bizitza erdia eman zuen hartzekodunei ihesi. 1840ko urriaren 1ean etxe bat alokatu zuen Passyn, orduan Parisko kanpoaldeko herri bat, baina ez bere izenean: kontratua bere etxezainaren, Louise Breugnolen, izenean zegoen, eta bera «Breugnol jauna» bezala aurkezten zen. Aurreko etxean, des Batailles kalean, «Durand alarguna» deitzen zioten. Passyko etxea malda batean eraikita zegoen eta bi kaletatik zuen sarrera: kontatzen denez, kobratzaile batek goiko atean jotzen bazuen, Balzacek eskailerak jaitsi eta beheko atetik ateratzen zen, gaur egungo Berton kalera. Hańska andreari idatzi zion han zegoela «denbora batez ezkutatuta». Zazpi urte egon zen bertan, eta han berrikusi zuen <em>Giza komedia</em>. Gaur egun Maison de Balzac da, museo bat.</p>",
+  "fuente": "Alokairu-kontratua (1840) eta Balzacek Ewelina Hańskari idatzitako gutuna (1840ko azaroaren 16a); Maison de Balzac (Paris)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "feuerbach": {
@@ -3532,6 +3566,60 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "dickens": {
+  "name": "Charles Dickens",
+  "dates": "1812 – 1870",
+  "born": 1812,
+  "died": 1870,
+  "place": "Portsmouth (Ingalaterra)",
+  "role": "eleberrigilea eta kazetaria",
+  "idea": "Datuak, irabaziak eta erabilgarritasuna baino kontatzen ez dituen gizarteak pertsonak ahazten ditu, batez ere haurrak eta pobreak.",
+  "bio": "<p>Charles Dickens Portsmouthen jaio zen 1812an. Bere familia beti zorpetuta bizi zen, eta txikitan gertutik ezagutu zuen pobrezia. Takigrafia ikasi zuen eta parlamentuko kazetari gisa hasi zen, harik eta <em>Pickwick klubaren paper postumoak</em> (1836-1837) lanak ospetsu egin zuen arte. Eleberriak zatika argitaratzen zituen, eta hala milioika irakurle kapitulu bakoitzaren zain egoten ziren. Heldutasunean Britainia Handia eta Estatu Batuak zeharkatu zituen irakurketa publikoak eginez, eta haietan bere pertsonaiak antzezten zituen. 1870ean hil zen Kenteko Gad's Hill etxean, eta Westminsterko abadian ehortzi zuten.</p>\n<p>Haren eleberriek ahotsa ematen diete haur abandonatuei, pobreen aterpetxeei, zorrengatiko kartzelei eta <strong>Industria Iraultzako</strong> langile-auzoei. Dickensek ez zuen iraultzarik nahi, irakurleen errukia piztu baizik, gizartea erreformatzeko. <em>Garai gogorrak</em> eleberrian (1854), Thomas Carlyleri eskainian, Benthamen <strong>utilitarismoaren</strong> eta ekonomia politikoaren bertsiorik estuena erasotzen du: neur daitekeena bakarrik kontatzen den eskola eta hiri industriala, non langileak «besoak» besterik ez diren. Eleberriak ez du zientzia baztertzen, irudimena eta sentimenduak ahazten dituen pentsatzeko modu bat baizik. Gai honek Marxekin batera aztertzen duen mundu burgesaren aurkako susmoaren forma literarioetako bat da.</p>",
+  "obras": [
+   "Oliver Twist (1837-1839)",
+   "Gabonetako ipuina (1843)",
+   "David Copperfield (1849-1850)",
+   "Garai gogorrak (1854)"
+  ],
+  "anecdota": "<p>1824an, Charlesek hamabi urte zituela, aita zorrengatik espetxeratu zuten Londresko Marshalsea kartzelan. Haurrak eskola utzi eta lanean hasi behar izan zuen Warren'sen, Tamesis ondoko zapata-betun fabrika batean. Egunean hamar orduz etiketak itsasten zituen poteetan, arratoien artean, astean sei txelinen truke. Aita kartzelatik atera eta jabearekin haserretu zenean, mutikoak eskolara itzultzerik izan zuen, baina amak fabrikan jarraitzea nahi zuen, eta Dickensek ez zion inoiz barkatu. Bizitza osoan gorde zuen sekretua: John Forster lagunari bakarrik kontatu zion, eta hark idazlea hil ondoren argitaratu zuen, bere biografian. Esperientzia haren zati bat <em>David Copperfield</em> eleberrira igaro zen.</p>",
+  "fuente": "Dickensen zati autobiografikoa, John Forsterrek Charles Dickensen bizitza (1872-1874) lanean jasoa",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
+  ]
+ },
+ "buchner": {
+  "name": "Georg Büchner",
+  "dates": "1813 – 1837",
+  "born": 1813,
+  "died": 1837,
+  "place": "Goddelau (Alemania)",
+  "role": "dramaturgoa, medikua eta iraultzailea",
+  "idea": "Natura ez da helburuen arabera jarduten: existitzen den guztia bere baitarako dago hor, eta zientziak haren legeak bilatu behar ditu, zertarako balio duen galdetu beharrean.",
+  "bio": "<p>Georg Büchner 1813an jaio zen Goddelaun, Hesseko Dukerri Handian, mediku baten semea. Medikuntza ikasi zuen Estrasburgon eta Giessenen. 1834an liburuxka iraultzaile bat idatzi zuen nekazarientzat, eta, poliziak atzetik zuela, Estrasburgora ihes egin zuen 1835ean. Ihes egin aurretik, bost bat astean idatzi zuen <em>Dantonen heriotza</em> drama. Erbestean <em>Lenz</em> kontakizuna, <em>Leonce eta Lena</em> komedia eta <em>Woyzeck</em> lanaren zirriborroa idatzi zituen. Arrain baten, barboaren, nerbio-sistemari buruzko azterlan batekin doktoratu zen, eta 1836an Zurichera joan zen unibertsitateko irakasle. Han hil zen tifusak jota 1837ko otsailean, hogeita hiru urte zituela.</p>\n<p>Büchner zientzialaria eta filosofoa ere izan zen. 1836ko azaroaren 5ean Zurichen eman zuen bere proba-eskola, <em>Garezurreko nerbioei buruz</em>. Bertan, azalpen <strong>teleologikoa</strong> baztertzen du, organo bakoitza bere erabilgarritasunaren arabera ulertzen duena, makina baten pieza bat bezala, eta «filosofiko» deitzen duen beste bat defendatzen du: naturak ez du helbururik bilatzen, existitzen den guztia bere baitarako dago hor, eta haren legea bilatu behar da. Ideia hori <strong>Spinozaren</strong> pentsamendutik hurbil dago; Büchnerrek sakon aztertu zuen Spinoza, Descartesekin batera: 1836an biei buruzko eskolak prestatu zituen Descartesez geroztiko filosofia alemanari buruzko ikastaro baterako. Bere dramatan, helbururik gabeko begirada hori susmo sozial bihurtzen da: haren pertsonaia pobreak ez dira pieza erabilgarriak, gizaki zapalduak baizik.</p>",
+  "obras": [
+   "Dantonen heriotza (1835)",
+   "Lenz (1835-1836)",
+   "Leonce eta Lena (1836)",
+   "Woyzeck (1836-1837)"
+  ],
+  "anecdota": "<p>1835eko ekainaren 13an, Büchner hiru hilabete zeramanean Estrasburgon salbu, Hesseko instrukzio-epaileak bilatu eta atxilotzeko agindua sinatu zuen haren aurka, «goi-traizioko ekintzetan parte hartzeagatik». Iragarkia hainbat aldiz argitaratu zen Darmstadteko eta Frankfurteko prentsan, eta herrialde barruko eta kanpoko agintariei eskatzen zien atxilotzeko. Iheslariaren deskribapen bat zekarren: hogeita bat urte, ile eta bizar horiak, kopeta oso ganbila, begi grisak, sudur sendoa, aho txikia, aurpegi obalatua eta gorputz sendo eta lirraina. Ezaugarri berezi gisa, bakarra: miopea zen. Iragarki horri esker gordetzen dugu idazle gaztearen erretratu «ofizial» gutxietako bat, atzetik zebilkion poliziak egina.</p>",
+  "fuente": "Georgi epaileak sinatutako bilatu eta atxilotzeko agindua (Darmstadt, 1835eko ekainaren 13a), Großherzoglich Hessische Zeitung egunkarian argitaratua (1835eko ekainaren 18a); Georg Büchner Portal",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
+  ]
+ },
  "marx": {
   "name": "Karl Marx",
   "dates": "1818 – 1883",
@@ -3559,9 +3647,11 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-marx-biblioteca",
+   "hf-corazon-piedra",
    "hf-capitalismo"
   ]
  },
