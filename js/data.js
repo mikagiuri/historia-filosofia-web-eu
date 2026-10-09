@@ -581,7 +581,7 @@ const DECKS = {
    [
     "🌍",
     "«Jainkoa hil da! Jainkoak hilik dirau! Eta guk hil dugu!»",
-    "Nietzsche — Jainkoaren heriotza (Jakintza alaia §125)"
+    "Nietzsche — Jainkoaren heriotza (Zientzia alaia §125)"
    ],
    [
     "🌍",
