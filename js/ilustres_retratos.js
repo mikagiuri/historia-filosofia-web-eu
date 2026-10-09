@@ -236,6 +236,11 @@ const ILUSTRES_RETRATOS = {
   "pie": "Justus Sustermans - Portrait of Galileo Galilei, 1636 · Justus Sustermans · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3AJustus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg"
  },
+ "campanella": {
+  "f": "media/retratos/ilustres/campanella.jpg",
+  "pie": "Portrait of Tommaso Campanella (by Francesco Cozza) · Francesco Cozza · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Tommaso_Campanella_(by_Francesco_Cozza).jpg"
+ },
  "kepler": {
   "f": "media/retratos/museo2/kepler.jpg",
   "pie": "Kepler (Dietz) · Wellcome Collection · Public Domain Mark"
@@ -299,6 +304,11 @@ const ILUSTRES_RETRATOS = {
   "pie": "Portrait de Julien Offray de La Mettrie · Georg Friedrich Schmidt · Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Julien_Offray_de_La_Mettrie.jpg"
  },
+ "mably": {
+  "f": "media/retratos/ilustres/mably.jpg",
+  "pie": "Gabriel Bonnot de Mably · After François Bonneville · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Gabriel_Bonnot_de_Mably.jpg"
+ },
  "hume": {
   "f": "media/retratos/museo/hume.jpg",
   "pie": "Allan Ramsay David Hume 1711 1776 Historian and philosopher PG 3521 Na · Allan Ramsay · Public Domain",
@@ -331,10 +341,35 @@ const ILUSTRES_RETRATOS = {
   "pie": "Immanuel Kant Gemaelde 1 · Johann Gottlieb Becker (1720-1782) · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg"
  },
+ "lessing": {
+  "f": "media/retratos/ilustres/lessing.jpg",
+  "pie": "Portret van Gotthold Ephraim Lessing, RP-P-OB-13.019 · Rijksmuseum · CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Gotthold_Ephraim_Lessing,_RP-P-OB-13.019.jpg"
+ },
+ "mendelssohn": {
+  "f": "media/retratos/ilustres/mendelssohn.jpg",
+  "pie": "Portret van Moses Mendelssohn, RP-P-1937-1200 · Rijksmuseum · CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Moses_Mendelssohn,_RP-P-1937-1200.jpg"
+ },
+ "hamann": {
+  "f": "media/retratos/ilustres/hamann.jpg",
+  "pie": "Johann Georg Hamann Portrait · Paul Ortwin Rave, Das Geistige Deutschland im Bildnis: Das Jahrhundert Goethes, Berlin 1949 · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Johann_Georg_Hamann_Portrait.jpg"
+ },
+ "jacobi": {
+  "f": "media/retratos/ilustres/jacobi.jpg",
+  "pie": "Friedrich Heinrich Jacobi portrait · Unidentified painter · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Heinrich_Jacobi_portrait.jpg"
+ },
  "lamarck": {
   "f": "media/retratos/ilustres/lamarck.jpg",
   "pie": "Jean-Baptiste de Lamarck · Charles Thévenin · Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_de_Lamarck.jpg"
+ },
+ "herder": {
+  "f": "media/retratos/ilustres/herder.jpg",
+  "pie": "Johann Gottfried Herder 2 · Anton Graff · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Johann_Gottfried_Herder_2.jpg"
  },
  "bentham": {
   "f": "media/retratos/museo2/bentham.jpg",
@@ -345,15 +380,110 @@ const ILUSTRES_RETRATOS = {
   "pie": "Olympe de Gouges · Anónimo · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3AOlympe_de_Gouges.jpg"
  },
+ "goethe": {
+  "f": "media/retratos/ilustres/goethe.jpg",
+  "pie": "Goethe (Stieler 1828) · Joseph Karl Stieler · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Goethe_(Stieler_1828).jpg"
+ },
+ "godwin": {
+  "f": "media/retratos/ilustres/godwin.jpg",
+  "pie": "WilliamGodwin · James Northcote · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:WilliamGodwin.jpg"
+ },
+ "hebert": {
+  "f": "media/retratos/ilustres/hebert.jpg",
+  "pie": "Jacques-René Hébert (1757-1794) portrait · Unknown authorUnknown author · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Jacques-Ren%C3%A9_H%C3%A9bert_(1757-1794)_portrait.jpg"
+ },
  "wollstonecraft": {
   "f": "media/retratos/museo/wollstonecraft.jpg",
   "pie": "Mary Wollstonecraft by John Opie (c. 1797) · John Opie · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3AMary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg"
  },
+ "schiller": {
+  "f": "media/retratos/ilustres/schiller.jpg",
+  "pie": "Anton Graff - Friedrich Schiller · Anton Graff · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Anton_Graff_-_Friedrich_Schiller.jpg"
+ },
+ "babeuf": {
+  "f": "media/retratos/ilustres/babeuf.jpg",
+  "pie": "François-Noël Babeuf · François Bonneville · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois-No%C3%ABl_Babeuf.jpg"
+ },
+ "saint-simon": {
+  "f": "media/retratos/ilustres/saint-simon.jpg",
+  "pie": "Portrait de Claude-Henri de Rouvroy comte de Saint-Simon · After Adélaïde Labille-Guiard · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Claude-Henri_de_Rouvroy_comte_de_Saint-Simon.jpg"
+ },
+ "buonarroti": {
+  "f": "media/retratos/ilustres/buonarroti.jpg",
+  "pie": "Portrait de Filippo-Michele Buonarroti (1761-1837), révolutionnaire italien, S255 · David d'Angers, Pierre-Jean (Angers, 12–03–1788 - Paris, 05–01–1856), sculpteur · CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Filippo-Michele_Buonarroti_(1761-1837),_r%C3%A9volutionnaire_italien,_S255.jpg"
+ },
+ "fichte": {
+  "f": "media/retratos/ilustres/fichte.jpg",
+  "pie": "Johann Gottlieb Fichte by Friedrich Bury · Albrecht Fürchtegott Schultheiß · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Johann_Gottlieb_Fichte_by_Friedrich_Bury.jpg"
+ },
+ "schleiermacher": {
+  "f": "media/retratos/ilustres/schleiermacher.jpg",
+  "pie": "Portret van Friedrich Ernst Daniel Schleiermacher (cropped) · Rijksmuseum · CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Friedrich_Ernst_Daniel_Schleiermacher_(cropped).jpg"
+ },
  "hegel": {
   "f": "media/retratos/museo/hegel.jpg",
   "pie": "Hegel portrait by Schlesinger 1831 · Jakob Schlesinger (1792-1855) · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:Hegel_portrait_by_Schlesinger_1831.jpg"
+ },
+ "holderlin": {
+  "f": "media/retratos/ilustres/holderlin.jpg",
+  "pie": "FK Hiemer - Friedrich Hölderlin (Pastell 1792) · Franz Carl Hiemer · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:FK_Hiemer_-_Friedrich_H%C3%B6lderlin_(Pastell_1792).jpg"
+ },
+ "owen": {
+  "f": "media/retratos/ilustres/owen.jpg",
+  "pie": "Portrait of Robert Owen (4674544) · Henry Thomas Ryall · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Robert_Owen_(4674544).jpg"
+ },
+ "fourier": {
+  "f": "media/retratos/ilustres/fourier.jpg",
+  "pie": "Portrait de Charles Fourier (1772–1837), par Jean Gigoux · Jean Gigoux · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Charles_Fourier_(1772%E2%80%931837),_par_Jean_Gigoux.jpg"
+ },
+ "novalis": {
+  "f": "media/retratos/ilustres/novalis.jpg",
+  "pie": "Novalis-1 · Franz Gareis · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Novalis-1.jpg"
+ },
+ "schlegel": {
+  "f": "media/retratos/ilustres/schlegel.jpg",
+  "pie": "Franz Gareis Portrait Friedrich Schlegel · Franz Gareis · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Franz_Gareis_Portrait_Friedrich_Schlegel.jpg"
+ },
+ "laborde": {
+  "f": "media/retratos/ilustres/laborde.jpg",
+  "pie": "Portret van Alexandre de Laborde, RP-P-1911-1941 · Rijksmuseum · CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Alexandre_de_Laborde,_RP-P-1911-1941.jpg"
+ },
+ "schelling": {
+  "f": "media/retratos/ilustres/schelling.jpg",
+  "pie": "Nb pinacoteca stieler friedrich wilhelm joseph von schelling · Joseph Karl Stieler · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Nb_pinacoteca_stieler_friedrich_wilhelm_joseph_von_schelling.jpg"
+ },
+ "lamennais": {
+  "f": "media/retratos/ilustres/lamennais.jpg",
+  "pie": "Lamennais · Jean-Baptiste Paulin Guérin · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Lamennais.jpg"
+ },
+ "cabet": {
+  "f": "media/retratos/ilustres/cabet.jpg",
+  "pie": "Etienne Cabet (1849) · Charles Marville · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Etienne_Cabet_(1849).jpg"
+ },
+ "heine": {
+  "f": "media/retratos/ilustres/heine.jpg",
+  "pie": "Heinrich Heine-Oppenheim · Moritz Daniel Oppenheim · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Heinrich_Heine-Oppenheim.jpg"
  },
  "comte": {
   "f": "media/retratos/museo2/comte.jpg",
@@ -368,10 +498,20 @@ const ILUSTRES_RETRATOS = {
   "pie": "John Stuart Mill by John Watkins 1865 · John Watkins · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_John_Watkins,_1865.jpg"
  },
+ "considerant": {
+  "f": "media/retratos/ilustres/considerant.jpg",
+  "pie": "Considerant, Victor · Charles Philippe Auguste Carey · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Considerant,_Victor.jpg"
+ },
  "darwin": {
   "f": "media/retratos/museo/darwin.jpg",
   "pie": "Charles Darwin seated crop · Henry Maull · Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3ACharles_Darwin_seated_crop.jpg"
+ },
+ "proudhon": {
+  "f": "media/retratos/ilustres/proudhon.jpg",
+  "pie": "Pierre Joseph Proudhon · Gustave Courbet · Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pierre_Joseph_Proudhon.jpg"
  },
  "boole": {
   "f": "media/retratos/ilustres/boole.jpg",

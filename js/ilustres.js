@@ -21,7 +21,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-mito"
+   "hf-mito",
+   "hf-kant-poetas"
   ]
  },
  "hesiodo": {
@@ -224,7 +225,8 @@ const ILUSTRES = {
   "temas": [
    "hf-preso",
    "hf-ap",
-   "hf-platon"
+   "hf-platon",
+   "hf-montaigne-ensayos"
   ]
  },
  "anaxagoras": {
@@ -436,6 +438,8 @@ const ILUSTRES = {
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
+   "hf-montaigne-ensayos",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha"
   ]
@@ -619,7 +623,9 @@ const ILUSTRES = {
    "hf-platon-agustin",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
+   "hf-kant-poetas",
    "hf-sospecha",
    "hf-descartes-makro"
   ]
@@ -715,6 +721,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-contrato",
    "hf-utilitarismo",
    "hf-descartes-makro"
@@ -777,6 +784,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-helenismo",
+   "hf-montaigne-ensayos",
    "hf-descartes-makro"
   ]
  },
@@ -802,7 +810,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-helenismo"
+   "hf-helenismo",
+   "hf-montaigne-ensayos"
   ]
  },
  "straton": {
@@ -926,6 +935,32 @@ const ILUSTRES = {
   ],
   "temas": []
  },
+ "seneca": {
+  "name": "Seneka",
+  "dates": "K.a. 4 ing. – K.o. 65",
+  "born": -4,
+  "died": 65,
+  "place": "Kordoba (Hispania)",
+  "role": "filosofo estoiko erromatarra",
+  "idea": "Ez dugu kontrolatzen gertatzen zaiguna, baina bai nola egiten diogun aurre; jakinduria grinak menderatzean eta bizitzako denbora ondo aprobetxatzean datza.",
+  "bio": "<p>Luzio Anneo Seneka Kordoban jaio zen, Hispania erromatar probintzian, eta Erroman hezi zen; han erretorika eta filosofia ikasi zituen. Abokatua, senataria eta idazle arrakastatsua izan zen. Zenbait urtez Korsikara erbesteratua, itzuli zenean <strong>Neron</strong> enperadore gaztearen tutore eta aholkulari bihurtu zen, eta botere handia izatera iritsi zen haren ondoan. Geroago bizitza publikotik erretiratu zen. 65. urtean, Neronen aurkako konspirazio batean parte hartzea leporatuta, bere buruaz beste egiteko agindua jaso zuen, eta bete egin zuen.</p>\n<p>Seneka da <strong>estoizismo</strong> erromatarraren ordezkari handia. Fisika edo logika baino gehiago, etika praktikoa interesatzen zaio: nola bizi ondo. Haren ustez, ez dugu kontrolatzen gertatzen dena, baina bai horren aurrean dugun erreakzioa. Horregatik proposatzen du <strong>autodomeinua</strong>: haserrea bezalako emozioak kontrolatzea, aldatu ezin dena onartzea eta heriotzari lasaitasunez aurre egitea. <em>Bizitzaren laburtasunaz</em> lanean defendatzen du bizitza ez dela laburra, guk alferrik galtzen dugula baizik, eta denbora benetan garrantzitsua denari eskaini behar zaiola.</p>\n<p>Tragediak eta gutun moral ugari ere idatzi zituen. Erdi Aroan eta Errenazimenduan asko irakurria, Montaignerengan eta moralista askorengan eragin zuen, eta Espainian bertako pentsalaritzat hartu zuten, «senekismoaz» hitz egiteraino. Gaur egun ere, haren lanak Zenon Zitiokoaren filosofia estoikora sartzeko biderik ezagunenetako bat dira.</p>",
+  "obras": [
+   "Luziliori gutunak",
+   "Bizitzaren laburtasunaz",
+   "Haserreaz",
+   "Zoriontasunaz"
+  ],
+  "anecdota": "<p><em>Haserreaz</em> lanean, Senekak Sextio filosofoarengandik hartutako ohitura bat deskribatzen du. Gauero, argiontzia kentzen zutenean eta emaztea isildua zenean, egun osoa errepasatzen zuen: zer egin zuen gaizki, zertan amore eman zion haserreari, zer hobe zezakeen. Bere buruaren aurreko epaile bat bezala, egun hartan zein akatsetatik sendatu zen galdetzen zion bere buruari. Azterketa horren ondoren lo lasai eta sakona egiten zuela zioen. Estoizismoa eguneroko praktika gisa ulertzearen adibidea da: filosofia ez da teoria soilik, baizik eta norbera gobernatzeko <strong>ariketa</strong> bat.</p>",
+  "fuente": "Seneka, Haserreaz III",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-montaigne-ensayos"
+  ]
+ },
  "tertuliano": {
   "name": "Tertuliano",
   "dates": "155 ing. – 220 ing.",
@@ -1022,6 +1057,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-platon-agustin",
    "hf-fe-razon",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-descartes-makro"
   ]
@@ -1254,7 +1290,8 @@ const ILUSTRES = {
    "hf-aa",
    "hf-antropologia",
    "hf-medieval",
-   "hf-fe-razon"
+   "hf-fe-razon",
+   "hf-montaigne-ensayos"
   ]
  },
  "maimonides": {
@@ -1359,7 +1396,8 @@ const ILUSTRES = {
    "hf-aa",
    "hf-antropologia",
    "hf-medieval",
-   "hf-fe-razon"
+   "hf-fe-razon",
+   "hf-montaigne-ensayos"
   ]
  },
  "llull": {
@@ -1725,6 +1763,30 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "campanella": {
+  "name": "Tommaso Campanella",
+  "dates": "1568 – 1639",
+  "born": 1568,
+  "died": 1639,
+  "place": "Stilo (Kalabria, Italia)",
+  "role": "fraide dominikarra, filosofoa eta idazle utopikoa",
+  "idea": "Gizarte justu batean ez legoke jabetza pribaturik: ondasunak komunak lirateke eta denek egunean ordu gutxi batzuk lan egingo lukete.",
+  "bio": "<p>Tommaso Campanella Stilon jaio zen, Kalabrian, 1568an. Oso gazterik sartu zen dominikarren ordenan, eta laster egin zuen talka Elizarekin bere ideia filosofikoengatik, Aristotelesen aurkakoak baitziren. 1599an atxilotu zuten Kalabrian Espainiaren menderakuntzaren aurkako konspirazio batean parte hartzeagatik, eta 27 bat urte eman zituen Napoliko kartzeletan. Han idatzi zuen bere lanaren zati handi bat. 1626an askatu zuten, eta azkenean Frantzian hartu zuen babesa; Parisen hil zen 1639an.</p>\n<p>Bere lanik ezagunena <em>Eguzkiaren hiria</em> da, kartzelan idatzia 1602an eta latinez argitaratua 1623an. <strong>Jabetza pribaturik</strong> gabeko hiri ideal bat deskribatzen du: dena da komuna, inor ez da aberatsa ez pobrea, eta denek egunean lau bat ordu lan egiten dute, ikasteko denbora gera dakien. Platonen <em>Errepublikaren</em> eta Tomas Mororen <em>Utopiaren</em> tradizioari jarraitzen dio. Horregatik <strong>komunismo utopikoaren</strong> klasikoen artean sartzen da: XIX. mendeko sozialistek, Marxek adibidez, jabetza pribaturik gabeko gizarte bat jada irudikatu zuen aitzindari gisa irakurri zuten.</p>",
+  "obras": [
+   "Eguzkiaren hiria (1602; 1623an argitaratua)",
+   "Galileoren apologia (1622)"
+  ],
+  "anecdota": "<p>1600ean, Campanella konspirazioa eta heresia leporatuta zegoen, eta sutan erre zezaketen. Legeak ez zuenez zoro bat exekutatzea onartzen, burua galdu zuela itxurak egiten hasi zen: zentzurik gabe hitz egiten zuen, eta bere lastairari su ere eman zion. Epaileek itxurak egiten ote zituen egiaztatu nahi izan zuten, eta 1601ean «kandela» izeneko torturapean jarri zuten: 36 bat ordu eman zituen zintzilik eta lo egin gabe. Bere papera utzi gabe eutsi zion. Horri esker salbatu zuen bizia, nahiz eta bizi osorako kartzela-zigorra ezarri zioten.</p>",
+  "fuente": "Napoliko prozesuaren aktak (1601); haietan oinarritutako Campanellaren biografiak",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "kepler": {
   "name": "Johannes Kepler",
   "dates": "1571 – 1630",
@@ -1878,9 +1940,11 @@ const ILUSTRES = {
    "hf-platon-agustin",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-descartes-simulacion",
    "hf-metafisica",
+   "hf-spinoza-sistema",
    "hf-kant",
    "hf-capitalismo",
    "hf-existencialismo",
@@ -1939,8 +2003,12 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-medieval",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
    "hf-descartes-makro"
   ]
  },
@@ -1970,6 +2038,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-contrato",
    "hf-utilitarismo",
    "hf-ilustracion",
@@ -2055,6 +2124,7 @@ const ILUSTRES = {
   "temas": [
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-kant",
    "hf-descartes-makro"
   ]
@@ -2132,6 +2202,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-spinoza-universal",
    "hf-ilustracion"
   ]
  },
@@ -2157,6 +2228,31 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metafisica"
+  ]
+ },
+ "mably": {
+  "name": "Gabriel Bonnot de Mably",
+  "dates": "1709 – 1785",
+  "born": 1709,
+  "died": 1785,
+  "place": "Grenoble (Frantzia)",
+  "role": "abadea, historialaria eta pentsalari politikoa",
+  "idea": "Ondasunen desberdintasuna da gizarte-gaitzen iturria; herritarren berdintasunak eta bertuteak aberastasunak baino gehiago balio dute.",
+  "bio": "<p>Gabriel Bonnot de Mably Grenoblen jaio zen 1709an. Condillac filosofoaren anaia zaharragoa zen. Parisko Saint-Sulpice seminarioan ikasi zuen, baina ez zen apaiz izatera iritsi, nahiz eta beti «abadea» deitu zioten. Tencin kardinalaren, Luis XV.aren ministroaren, aholkulari politiko gisa lan egin zuen, harekin hautsi zuen arte. Ordutik apalki bizi izan zen, historia eta politika idazten. Parisen hil zen 1785ean.</p>\n<p>Mablyk Esparta eta Erromako antzinako errepublikak miresten zituen, eta uste zuen aberastasunen <strong>desberdintasunak</strong> herritarrak usteltzen dituela eta askatasuna suntsitzen duela. Horregatik kritikatu zituen fisiokratak, jabetza pribatua gizartearen «ordena natural» baten oinarritzat defendatzen zuten ekonomialariak. <em>Filosofo ekonomistei proposatutako zalantzak</em> (1768) lanean defendatzen du <strong>ondasunen komunitatea</strong> litzatekeela naturarekin bat egokiena, nahiz eta onartzen duen oso zaila litzatekeela hartara itzultzea, eta aberastasuna mugatzen duten legeekin konformatzen da. Bere liburuak asko irakurri ziren Frantziako Iraultzan, eta, Morellyrenak bezala, Babeufen komunismoaren iturrien artean daude.</p>",
+  "obras": [
+   "Filosofo ekonomistei proposatutako zalantzak, gizarte politikoen ordena natural eta funtsezkoari buruz (1768)",
+   "Legegintzaz edo legeen printzipioez (1776)",
+   "Hiritarraren eskubide eta betebeharrez (1758an idatzia; 1789an argitaratua)"
+  ],
+  "anecdota": "<p>Mablyk ohoreak onartzen ez zituenaren fama zuen. Haren lehen biografoek kontatu zutenez, Richelieuko mariskalak hainbeste tematu zen Frantziako Akademiara aurkez zedin, ezen Mablyk ez baitzuen ezetz esateko ausardiarik izan. Baina elkarrizketatik irten bezain laster, bere anaia Condillacengana joan zen korrika, zer edo zer gertatuta ere konpromisotik libra zezan. Arrazoia: akademiko berriek Richelieu kardinalaren, Akademiaren sortzailearen, laudorio bat egin behar zuten, eta Mablyk ez zuen goretsi nahi bere ideiak arbuiatzen zituen politikari bat. Ez zen inoiz akademiko izatera iritsi.</p>",
+  "fuente": "XVIII. mendearen amaierako Mablyren biografiak, geroko hiztegi biografikoetan bilduak (adibidez, Chalmersena)",
+  "tradicion": true,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
   ]
  },
  "hume": {
@@ -2192,8 +2288,10 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-modernidad",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-kant",
    "hf-descartes-makro"
   ]
@@ -2221,6 +2319,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-medieval",
+   "hf-montaigne-ensayos",
    "hf-contrato",
    "hf-ilustracion",
    "hf-kant"
@@ -2249,7 +2348,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-marx-biblioteca"
   ]
  },
  "helvetius": {
@@ -2269,7 +2369,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
  },
  "dalembert": {
   "name": "Jean le Rond d'Alembert",
@@ -2295,6 +2397,30 @@ const ILUSTRES = {
    "hf-ilustracion"
   ]
  },
+ "morelly": {
+  "name": "Étienne-Gabriel Morelly",
+  "dates": "1717 ing. – 1778 ing.",
+  "born": 1717,
+  "died": 1778,
+  "place": "Frantzia (seguruenik Paris)",
+  "role": "Ilustrazioko idazle eta pentsalari komunista",
+  "idea": "Jabetza pribatua bizio guztien sustraia da; naturaren araberako gizarte batean, ezer ez litzateke inorena bereziki.",
+  "bio": "<p>Étienne-Gabriel Morellyri buruz oso gutxi dakigu. 1717 inguruan jaio zen, ziurrenik Parisen, eta haurtzaroa Vitry-le-François-n eman zuen, Frantziaren ipar-ekialdean. Gizakiari, hezkuntzari eta politikari buruzko hainbat liburu argitaratu zituen, eta 1755etik aurrera haren arrastoa ia galdu egiten da. Haren bizitzako datak gutxi gorabeherakoak dira: 1778 ematen da normalean heriotza-urte gisa, baina ez da ziurra.</p>\n<p>Haren lan nagusia <em>Naturaren kodea</em> (1755) da. Morellyren ustez, gizakia ez da gaiztoa izaeraz: <strong>jabetza pribatuak</strong> usteltzen du, diru-goseak pizten baititu eta gainerako bizioak sortzen baititu. Horregatik, lege batzuk proposatzen ditu: ondasunak komunak izatea, hiritar bakoitzak bere indarren arabera lan egitea eta biltegi publikotik behar duena jasotzea. Lehenago antzeko ideiak eleberri moduan azaldu zituen, <em>Basiliada</em> lanean (1753). Liburuak eragina izan zuen Babeufengan eta Berdinen konspirazioan; horregatik du lekua <strong>komunismo modernoaren</strong> jatorrian: ondasunen banaketa komuna lege zehatzen programa bihurtu zuen lehenetako bat da.</p>",
+  "obras": [
+   "Uharte flotagarrien naufragioa edo Basiliada (1753)",
+   "Naturaren kodea (1755)"
+  ],
+  "anecdota": "<p><em>Naturaren kodea</em> egilearen izenik gabe argitaratu zen, eta mende erdi batez ia mundu guztiak uste izan zuen Diderotek idatzi zuela, <em>Entziklopedia</em>ren zuzendariak. Akatsa Diderotren lanen edizioetan ere sartu zen. Babeufek ere hala uste zuen: 1797ko epaiketan, liburua aipatu zuen bere burua defendatzeko, Diderotena balitz bezala, bere ideiek filosofo handi baten babesa zutela erakusteko. XIX. mendearen hasieran baino ez zuten bibliografoek frogatu egilea Morelly zela, ia ezezaguna zen idazle bat.</p>",
+  "fuente": "Babeufen defentsa Vendômeko auzitegiaren aurrean (1797); Antoine-Alexandre Barbier, Lan anonimoen hiztegia",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "holbach": {
   "name": "Holbach baroia",
   "dates": "1723 – 1789",
@@ -2313,7 +2439,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-metafisica"
+   "hf-metafisica",
+   "hf-marx-biblioteca"
   ]
  },
  "smith": {
@@ -2364,13 +2491,153 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-metodos",
+   "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-metafisica",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
    "hf-ilustracion",
    "hf-kant",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-descartes-makro"
+  ]
+ },
+ "lessing": {
+  "name": "Gotthold Ephraim Lessing",
+  "dates": "1729 – 1781",
+  "born": 1729,
+  "died": 1781,
+  "place": "Kamenz (Alemania)",
+  "role": "dramaturgoa, kritikaria eta filosofo ilustratua",
+  "idea": "Erlijio batek ere ezin du frogatu egia osoa duenik; haren balioa praktikatzen dutenen jokabidean ikusten da, batez ere tolerantzian.",
+  "bio": "<p>Gotthold Ephraim Lessing 1729an jaio zen Kamenzen, Saxonian, artzain protestante baten semea. Teologia eta Medikuntza ikasi zituen Leipzigen, baina idazteari eman zion bere burua: lumatik bizitzen saiatu ziren lehen alemanetako bat izan zen. Antzerki alemana berritu zuen <em>Minna von Barnhelm</em> bezalako komedia eta dramekin, eta, kritikari gisa, Shakespeare defendatu zuen antzerki frantsesaren arauen aurrean. 1770etik aurrera Brunswickeko dukearen liburuzaina izan zen Wolfenbüttelen. Brunswicken hil zen 1781ean.</p>\n<p>Lessingen ustez, egia eduki baino gehiago bilatu egiten da. Biblia kritikatzen zuen eskuizkribu anonimo baten zatiak argitaratu zituen, Hermann Samuel Reimarusen lana, eta horrek Goeze artzainaren aurka jarri zuen. <em>Natan jakintsua</em> lanean <strong>erlijio-tolerantzia</strong> defendatzen du hiru eraztunen parabolarekin, eta <em>Giza generoaren hezkuntza</em> lanean erlijioak gizateriaren ikaskuntzaren etapa gisa aurkezten ditu. Natanen pertsonaiarako, bere lagun Moses Mendelssohn izan zuen inspirazio. Hil ondoren, Jacobik kontatu zuen 1780an Lessingek aitortu ziola Spinozaren aldekoa zela, «Hen kai pan» formula grekoarekin, «bat eta dena». Jacobik 1785ean argitaratu zuenean, <strong>panteismoaren polemika</strong> lehertu zen.</p>",
+  "obras": [
+   "Laokoonte (1766)",
+   "Minna von Barnhelm (1767)",
+   "Natan jakintsua (1779)",
+   "Giza generoaren hezkuntza (1780)"
+  ],
+  "anecdota": "<p>Goeze artzainarekin izandako polemikan, Lessingek hain azkar eta hain ironia handiz idazten zuen, ezen bere aurkariak agintariengana jo baitzuten. 1778ko udan, Brunswickeko dukeak zentsurarik gabe argitaratzeko baimena kendu zion eta erlijioaz idazten jarraitzea debekatu zion. Lessingek ez zuen amore eman. 1778ko irailean Elise Reimarusi idatzitako gutun batean, zatien egilearen alabari, azaldu zuen probatuko zuela ea behintzat bere antzinako pulpitutik lasai predikatzen uzten zioten: antzokitik. Hurrengo urtean <em>Natan jakintsua</em> argitaratu zuen, judu bati, sultan musulman bati eta zaldun kristau bati buruzko bertsozko drama bat. Zentsurak teologiaren atea itxi zion, eta bera eszenatokiaren atetik sartu zen.</p>",
+  "fuente": "Lessingek Elise Reimarusi idatzitako gutuna (1778ko irailaren 6a)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "mendelssohn": {
+  "name": "Moses Mendelssohn",
+  "dates": "1729 – 1786",
+  "born": 1729,
+  "died": 1786,
+  "place": "Dessau (Alemania)",
+  "role": "Ilustrazio juduko filosofoa",
+  "idea": "Arrazoiak Jainkoaren existentzia eta arimaren hilezkortasuna frogatu ditzake, eta Estatuak ez du inor behartu behar sinesmenen arloan.",
+  "bio": "<p>Moses Mendelssohn 1729an jaio zen Dessaun, testu erlijioso juduen kopiatzaile xume baten semea. Hamalau urterekin, bere maisua, David Fränkel errabinoa, jarraitu zuen Berlinera. Han etxe-irakaslea izan zen, eta gero zetazko lantegi bateko kontularia eta bazkidea, bere kabuz alemana, latina, matematika eta filosofia ikasten zituen bitartean. Lessingekin izan zuen adiskidetasunak hiriko bizitza literarioa ireki zion. Judua zelako ez zuen inoiz eskubide osorik izan: 1771n Berlingo Akademiak kide hautatu zuen, baina Federiko II.a erregeak ez zuen izendapena berretsi. Berlinen hil zen 1786an.</p>\n<p>«Sokrates alemana» deitu zioten bere <em>Fedon</em> lanagatik, Platonen erara idatzitako elkarrizketa bat, <strong>arimaren hilezkortasuna</strong> defendatzen duena. <em>Jerusalem</em> lanean Estatuaren eta erlijioaren arteko bereizketa eta <strong>kontzientzia-askatasuna</strong> eskatu zituen, eta Moisesen bost liburuak alemanera itzuli zituen juduak Europako kulturara hurbiltzeko. Jacobik Lessingen ustezko spinozismoaren berri eman zionean, Mendelssohnek <em>Goizeko orduak</em> lanarekin erantzun zuen (1785): bere laguna salbatzen saiatu zen, «panteismo araztu» baten defendatzaile gisa aurkeztuz, erlijioarekin bateragarria. Kantek hurrengo urtean hartu zuen parte eztabaidan, <em>Zer esan nahi du pentsamenduan orientatzeak?</em> saiakerarekin.</p>",
+  "obras": [
+   "Elkarrizketa filosofikoak (1755)",
+   "Fedon (1767)",
+   "Jerusalem (1783)",
+   "Goizeko orduak (1785)"
+  ],
+  "anecdota": "<p>1763an, Berlingo Zientzia Akademiak lehiaketa bat deitu zuen galdera zail batekin: metafisikaren egiak matematikarenak bezain ebidenteak izan daitezke? Saria unibertsitate-ikasketarik gabeko gizon batek irabazi zuen, zetazko lantegi batean bizimodua ateratzen zuenak: Moses Mendelssohnek. Bigarren geratu zen saiakera Königsbergeko irakasle oraindik ezezagun samar batek sinatzen zuen: Immanuel Kantek. Akademiak bi lanak elkarrekin argitaratu zituen. Urte berean, Mendelssohnek erregearengandik «judu babestuaren» estatutua lortu zuen, Berlinen kanporatua izateko beldurrik gabe bizitzeko aukera ematen ziona. Kantek eta biek elkarrekiko errespetuz betetako gutun-trukea izan zuten gero.</p>",
+  "fuente": "Berlingo Zientzia Akademiaren lehiaketa (1763) eta Kanten eta Mendelssohnen arteko gutun-trukea",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "hamann": {
+  "name": "Johann Georg Hamann",
+  "dates": "1730 – 1788",
+  "born": 1730,
+  "died": 1788,
+  "place": "Königsberg (gaur egun Kaliningrad, Errusia)",
+  "role": "pentsalari erlijiosoa, «Iparraldeko Magoa»",
+  "idea": "Ez dago hizkuntzatik, tradiziotik eta historiatik bereizitako arrazoimen hutsik: beti heredatutako hitzekin pentsatzen dugu.",
+  "bio": "<p>Johann Georg Hamann Königsbergen jaio zen 1730ean, zirujau-bizargin baten semea. Bere hiriko unibertsitatean ikasi zuen, graduatzera iritsi gabe, eta etxe-irakasle aritu zen Baltikoko etxe nobleetan. Londresen krisi pertsonal bat igaro ondoren Königsbergera itzuli zen, eta han eman zuen ia bizitza osoa aduana-administrazioko langile xume gisa. Estu bizi zen eta testu laburrak idazten zituen, aipamenez eta zeharkako erreferentziez beteak, hain ilunak non garaikide batek «Iparraldeko Magoa» deitu baitzion. Münsterren hil zen 1788an, lagunak bisitatzeko egin zuen bidaia batean, haien artean Jacobi.</p>\n<p>Hamann Kanten laguna eta auzokidea izan zen eta, aldi berean, haren kritikari zorrotzena. Ilustrazioaren aurka <strong>fedea</strong> eta sentimendua defendatu zituen, eta <strong>arrazoimena hizkuntza dela</strong> esan zuen: ez dago pentsatzeko erabiltzen diren hitzetatik eta historiatik bereiz daitekeen arrazoimen hutsik. Horregatik idatzi zuen <em>Arrazoimen hutsaren kritikaren</em> aurka <em>Metakritika</em> bat (1784), hil ondoren argitaratua. Herderren maisua izan zen eta Sturm und Drang mugimendua inspiratu zuen. <em>Golgota eta Scheblimini</em> lanean (1784) Mendelssohnen <em>Jerusalem</em> kritikatu zuen, eta panteismoaren polemikan Jacobi babestu zuen bere gutunekin.</p>",
+  "obras": [
+   "Sokratikoki gogoangarriak (1759)",
+   "Filologoaren gurutzadak (1762)",
+   "Golgota eta Scheblimini (1784)",
+   "Arrazoimenaren purismoari buruzko metakritika (1784)"
+  ],
+  "anecdota": "<p>1757an, Rigako merkataritza-etxe batek Londresera bidali zuen Hamann gaztea merkataritza-zeregin batekin. Erabat huts egin zuen. Hirian bakarrik, dirua arropetan, dibertsioetan eta lagun txarretan xahutu zuen, zorpetu egin zen eta gaixorik eta isolatuta amaitu zuen ostatu batean. 1758ko martxoan, zer egin ez zekiela, Biblia hasieratik bukaeraraino irakurtzen hasi zen. Gero kontatu zuen irakurketa hark irakurtzen ari zen istorioan bere burua ikusarazi ziola eta handik konbertituta atera zela. <em>Nire bizitzaren ibilbideari buruzko gogoetak</em> idazkian utzi zuen jasota. Königsbergera itzuli zenean ez zen jada ilustratu bat: Kant, arrakastarik gabe, arrazoimenera itzultzen saiatuko zen fededuna zen.</p>",
+  "fuente": "Hamann, Nire bizitzaren ibilbideari buruzko gogoetak (1758)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-sospecha"
+  ]
+ },
+ "jacobi": {
+  "name": "Friedrich Heinrich Jacobi",
+  "dates": "1743 – 1819",
+  "born": 1743,
+  "died": 1819,
+  "place": "Düsseldorf (Alemania)",
+  "role": "filosofoa eta eleberrigilea, Ilustrazioaren kritikaria",
+  "idea": "Arrazoia, azkeneraino eramanda, Spinozarengan eta askatasunaren ukapenean amaitzen da; fedearen jauzi batek bakarrik ematen dizkigu Jainkoa eta pertsona askea.",
+  "bio": "<p>Friedrich Heinrich Jacobi Düsseldorfen jaio zen 1743an, merkatari aberats baten semea. Merkataritzarako prestatu zen Frankfurten eta Genevan, non Rousseau ezagutu zuen, eta gero Jülich-Bergeko dukerriko ogasun-funtzionarioa izan zen. Pempelforteko landetxea, Düsseldorf ondoan, idazleen topagunea izan zen. Bi eleberri filosofiko idatzi zituen, <em>Allwill</em> eta <em>Woldemar</em>. Frantziako Iraultzaren armadetatik ihesi, Alemaniako iparraldean kokatu zen eta, 1805etik aurrera, Munichen, non Bavariako Zientzia Akademiako lehendakaria izan zen. Han hil zen 1819an.</p>\n<p>Jacobi Ilustrazioaren kritikari filosofiko handia izan zen. <em>Spinozaren doktrinaz</em> lanean (1785), Mendelssohni zuzendutako gutun moduan idatzia, Lessingekin izandako elkarrizketa kontatu zuen eta defendatu zuen filosofia arrazional oro, koherentea bada, Spinozaren sisteman amaitzen dela: Jainko inpertsonal bat eta askatasunik gabeko mundu bat. Irtenbidea <strong>heriotza-jauzi</strong> bat da <strong>fedearen</strong> aldera, frogatzen ez den ziurtasun zuzen bat. Kant ere kritikatu zuen: aurpegiratu zion «gauza bere baitan» behar zuela bere sisteman sartzeko, baina ezin zuela haren barruan mantendu. Eta Fichteri idatzitako gutun irekian (1799) <strong>nihilismoa</strong> deitu zion dena niara murrizten duen filosofiari.</p>",
+  "obras": [
+   "Woldemar (1779)",
+   "Spinozaren doktrinaz, Moses Mendelssohn jaunari idatzitako gutunetan (1785)",
+   "David Hume fedeaz, edo idealismoa eta errealismoa (1787)",
+   "Fichteri gutuna (1799)"
+  ],
+  "anecdota": "<p>1774ko uztailean, Goethe, <em>Werther</em> argitaratu berri zuela, Rhin ibaian zehar bidaiatzen ari zen eta egun batzuk eman zituen Jacobirekin. Berehala ulertu zuten elkar. Kolonian Jabach familiaren etxe zaharra bisitatu zuten, eta Goethek bere azken baladak errezitatu zizkien lagunei, haien artean «Thuleko erregea». Gau hartan, lotara erretiratuta zeudela, Goethe Jacobiren bila joan zen hizketan jarraitzeko. Berak kontatu zuenez, ilargiaren argia dardaraka zegoen Rhin zabalaren gainean, haiek leiho ondoan solasean ari ziren bitartean. Goethek aitortu zuen Jacobi bera baino askoz aurreratuago zegoela Spinozaren azterketan. Hamaika urte geroago, Spinoza izango zen Jacobik piztutako polemikaren erdigunea.</p>",
+  "fuente": "Goethe, Poesia eta egia, XIV. liburua",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "herder": {
+  "name": "Johann Gottfried Herder",
+  "dates": "1744 – 1803",
+  "born": 1744,
+  "died": 1803,
+  "place": "Mohrungen (gaur egun Morąg, Polonia)",
+  "role": "hizkuntzaren eta historiaren filosofoa",
+  "idea": "Herri eta garai bakoitzak bere hizkuntza, bere kultura eta bere balioa ditu; historia ez da Europa ilustratura daraman eskailera bat.",
+  "bio": "<p>Johann Gottfried Herder 1744an jaio zen Mohrungenen, Ekialdeko Prusian, familia xume batean. 1762 eta 1764 artean Teologia ikasi zuen Königsbergen, non Kanten ikaslea eta Hamannen laguna izan zen. Maisu eta predikari aritu zen Rigan, Goethe ezagutu zuen Estrasburgon 1770ean eta gorteko predikaria izan zen Bückeburgen. 1776an, Goetheri esker, Weimarren kokatu zen dukerriko Eliza protestantearen agintari goren gisa. Han hil zen 1803an.</p>\n<p>Herderrek defendatu zuen <strong>hizkuntza</strong> giza izaeratik bertatik sortzen dela eta herri bakoitzak bere hizkuntzaren bidez pentsatzen eta sentitzen duela. Horregatik baloratu zuen herri-poesia, herrialde askotako kantak bildu zituen eta kultura bakoitzak bere balioa duela defendatu zuen. Gaztaroko maisuaren aurkari bihurtu zen azkenean: Kantek haren <em>Ideiak</em> kritikatu zituen 1785ean, eta Herderrek urte batzuk geroago erantzun zion <em>Arrazoimen hutsaren kritikaren</em> aurkako <em>Metakritika</em> batekin. Panteismoaren polemikan ere sartu zen. <em>Jainkoa. Elkarrizketa batzuk</em> lanean (1787) Spinoza defendatu zuen, natura osoan <strong>indar</strong> bizi gisa presente dagoen Jainko baten filosofo gisa irakurtzen baitzuen.</p>",
+  "obras": [
+   "Hizkuntzaren jatorriari buruzko tratatua (1772)",
+   "Historiaren beste filosofia bat (1774)",
+   "Gizateriaren historiaren filosofiarako ideiak (1784-1791)",
+   "Jainkoa. Elkarrizketa batzuk (1787)"
+  ],
+  "anecdota": "<p>1769an, hogeita lau urterekin, Herder Rigaz nazkatuta zegoen. Maisu eta predikari karguari uko egin zion eta Frantziara zihoan merkataritza-ontzi batean itsasoratu zen, plan argirik gabe. Asteetan, itsaso zabalean, libururik eta betebeharrik gabe, pentsatzeari eta idazteari eman zion bere burua. Bere bidaia-egunerokoan eskolaren erreformak, liburu-proiektuak eta gizateriaren historia bat irudikatzen ditu. Orduraino paperen artean, benetako bizitzatik urrun, bizi izana ere aurpegiratzen dio bere buruari. Ontzia Nantesera iritsi zen, eta handik Parisera jarraitu zuen Herderrek. Haren <em>1769ko nire bidaiaren egunerokoa</em> ez zen argitaratu hil eta askoz geroago arte.</p>",
+  "fuente": "Herder, 1769ko nire bidaiaren egunerokoa",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
+   "hf-sospecha"
   ]
  },
  "bentham": {
@@ -2397,6 +2664,7 @@ const ILUSTRES = {
   "temas": [
    "hf-utilitarismo",
    "hf-etica-deber",
+   "hf-marx-biblioteca",
    "hf-posmodernidad"
   ]
  },
@@ -2423,6 +2691,58 @@ const ILUSTRES = {
    "hf-ilustracion"
   ]
  },
+ "goethe": {
+  "name": "Johann Wolfgang von Goethe",
+  "dates": "1749 – 1832",
+  "born": 1749,
+  "died": 1832,
+  "place": "Frankfurt am Main (Alemania)",
+  "role": "poeta, eleberrigilea, naturalista eta ministroa",
+  "idea": "Unibertsala ez da gauzetatik urrunduz lortzen, arretaz begiratuz baizik: partikularrean, ondo behatuta, legea ikusten da.",
+  "bio": "<p>Johann Wolfgang Goethe 1749an jaio zen Frankfurt am Mainen, familia aberats batean. Zuzenbidea ikasi zuen Leipzigen eta Estrasburgon, non Herder ezagutu zuen, eta <em>Werther gaztearen sufrimenduak</em> lanarekin egin zen ospetsu. 1775ean Weimarren kokatu zen, eta han dukearen ministroa, antzokiko zuzendaria eta Jenako unibertsitateko arduraduna izan zen. 1782an noble titulua jaso zuen. Italiara egindako bidaiak klasizismora eraman zuen, eta Schillerrekin izan zuen adiskidetasunak, 1794tik aurrera, Weimarko klasizismoa sortu zuen. Weimarren hil zen 1832an.</p>\n<p>Goethe ez zen sistema-filosofo bat eta abstrakzioez mesfidati zen, baina asko pentsatu zuen naturaz. Landareen, hezurren eta koloreen <strong>metamorfosia</strong> aztertu zuen, beti bizidunetan errepikatzen den forma komunaren bila. Gaztetan Spinozaren <em>Etika</em> irakurri zuen, eta, berak kontatu zuenez, lasaitu egin zuen; 1784-1785ean itzuli zen hartara. Spinozarengandik hartu zuen <strong>naturan</strong> presente dagoen eta harengandik bereizita ez dagoen Jainko baten ideia. Haren <em>Prometeo</em> olerkia panteismoaren polemikaren jatorrian egon zen. Kantengandik, batez ere <em>Judizioaren kritika</em> interesatu zitzaion, artea eta izaki biziak elkarrekin aztertzen zituelako.</p>",
+  "obras": [
+   "Werther gaztearen sufrimenduak (1774)",
+   "Landareen metamorfosia (1790)",
+   "Wilhelm Meisterren ikasketa-urteak (1795-1796)",
+   "Fausto (1808 eta 1832)"
+  ],
+  "anecdota": "<p>Goetheren garaian esaten zen gizakiaren eta gainerako ugaztunen arteko desberdintasun bat zela guk ez genuela hezur intermaxilarra, animalietan goiko ebakortzak eusten dituena. Goethek susmatzen zuen naturak ez duela halako jauzirik egiten. 1784ko martxoan, Jenan Loder anatomistarekin garezurrak alderatzen ari zela, hezur horren arrastoak aurkitu zituen giza garezurrean. Berehala idatzi zion Herderri, gogo biziz: ez zuen urrerik ez zilarrik aurkitu, poz esanezina ematen zion zerbait baizik. Harentzat, animalia guztiek plan bera betetzen dutela frogatzen zuen. Ez zen deskribatu zuen lehena izan, baina bere kabuz iritsi zen hartara.</p>",
+  "fuente": "Goethek Herderri idatzitako gutuna (1784ko martxoaren 27a)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "roux": {
+  "name": "Jacques Roux",
+  "dates": "1752 – 1794",
+  "born": 1752,
+  "died": 1794,
+  "place": "Pranzac (Frantzia)",
+  "role": "apaiz eta iraultzaile «enragé»",
+  "idea": "Askatasuna ilusio bat da pertsona-klase batek beste bat gosez hil badezake; metatzaileak zigortu eta prezioak finkatu behar dira.",
+  "bio": "<p>Jacques Roux Pranzacen jaio zen, Frantziaren mendebaldean, 1752an. Apaiz egin zen eta seminarioko irakasle izan zen. Iraultzarekin, kleroaren Konstituzio zibil berriari zin egin zion eta Parisen kokatu zen, langile-auzo batean, eta han pobreen alde predikatzen zuen: «apaiz gorria» deitu zioten. Parisko Komunarako hautatu zuten, eta Leclerc eta Varletekin batera <strong>«enragés»</strong> («amorratuak») taldea zuzendu zuen. 1793an atxilotu zuten, eta bere buruaz beste egin zuen Bicêtreko espetxean, 1794ko otsailean.</p>\n<p>1793ko ekainaren 25ean, <em>Enragésen manifestua</em> izenez ezagutzen den testua irakurri zuen Konbentzioaren aurrean. Bertan dio askatasunak eta berdintasunak ez dutela ezer esan nahi aberatsek elikagaiak metatu eta prezioak igo ditzaketen bitartean. Horregatik, <strong>espekulatzaileen</strong> aurkako legeak eta oinarrizko produktuentzako gehienezko prezioak eskatzen ditu. Diputatuek aretotik kanporatu zuten. Rouxek ez zuen ondasunen komunitatea defendatzen, baina gizarte-arazoa erdigunean jarri zuen. Marxek, <em>Familia santua</em> lanean (1845), Leclercekin batera sartzen du Babeufengan amaitu eta <strong>ideia komunista</strong> sortu zuen mugimendu iraultzailean.</p>",
+  "obras": [
+   "Enragésen manifestua (1793)",
+   "Frantziako Errepublikaren publizista (egunkaria, 1793)"
+  ],
+  "anecdota": "<p>1793ko urtarrilaren 21ean, Parisko Komunak Rouxi agindu zion, bere kontseiluko kide gisa, Luis XVI.a gillotinaraino laguntzeko. Irten aurretik, erregeak bere testamentua zeraman pakete bat eman nahi izan zion, Komunari eta bere familiari helarazteko. Rouxek berak egun hartan idatzi zuen txostenaren arabera, komisarioek erantzun zioten haien eginkizun bakarra urkamendira eramatea zela. Orduan, erregeak beste komisario bati eman zion paketea. Eszena horrek, monarkikoen begietan, iraultzaren gogortasunaren ikur bihurtu zuen Roux.</p>",
+  "fuente": "Jacques Rouxen txostena Parisko Komunaren Kontseilu Nagusiari (1793ko urtarrilaren 21a)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "hamilton": {
   "name": "Alexander Hamilton",
   "dates": "1755 ing. – 1804",
@@ -2440,6 +2760,54 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": []
+ },
+ "godwin": {
+  "name": "William Godwin",
+  "dates": "1756 – 1836",
+  "born": 1756,
+  "died": 1836,
+  "place": "Wisbech (Ingalaterra)",
+  "role": "filosofo politikoa eta eleberrigilea",
+  "idea": "Gobernuek eta metatutako jabetzak pertsonak usteltzen dituzte; arrazoiak gidatutako gizarte bat Estaturik gabe bizi liteke eta ondasunak beharren arabera bana litzake.",
+  "bio": "<p>William Godwin Wisbechen jaio zen, Ingalaterraren ekialdean, 1756an, artzain protestante baten semea. Bera ere artzain izan zen urte batzuez, fedea galdu eta Londresen idazteari ekin zion arte. 1797an Mary Wollstonecraft filosofoarekin ezkondu zen, eta hura urte berean hil zen alaba erditu ondoren; alaba hori Mary Shelley eleberrigilea izango zen gero. Asko idatzi zuen, baina ia beti diru-estuasunetan bizi izan zen. Londresen hil zen 1836an.</p>\n<p><em>Justizia politikoari buruzko ikerketa</em> lanean (1793) dio arrazoiak mugarik gabe hobe dezakeela gizakia. Gobernuek, legeek eta esku gutxitan metatutako <strong>jabetza pribatuak</strong> aurrerapen hori eragozten dute, desberdintasuna eta menpekotasuna sortzen baitituzte. Gizarte justu batean, bakoitzak bere soberako ondasunak behar dituenari emango lizkioke, eta Estatua beharrezkoa ez izatera iritsiko litzateke. Horregatik, <strong>anarkismoaren</strong> aitzindaritzat hartzen da, eta jabetzari egin zion kritikak XIX. mendeko sozialisten interesa piztu zuen. Haren <em>Caleb Williams</em> eleberriak (1794) erakusten du gizon boteretsu batek nola jazar dezakeen morroi errugabe bat legeen laguntzaz.</p>",
+  "obras": [
+   "Justizia politikoari buruzko ikerketa (1793)",
+   "Caleb Williams (1794)",
+   "«Emakumearen eskubideen aldarrikapena» lanaren egilearen oroitzapenak (1798)"
+  ],
+  "anecdota": "<p>Godwinek eta Mary Wollstonecraftek ezkontza kritikatu zuten, pertsonak kateatzen dituen erakunde gisa. Hala ere, hura haurdun geratu zenean, 1797ko martxoan ezkondu ziren haurra babesteko, eta lagun askok iseka egin zieten haien inkoherentziagatik. Orduan, beste modu batera bizitzea erabaki zuten: Londresko Somers Town auzoko etxe batean kokatu ziren, baina Godwinek, gainera, pisu bat alokatu zuen kale batzuk harago, bakarrik lan egiteko. Egunean zehar ohar laburrak idazten zizkioten elkarri, etxe batetik bestera zihoazenak, eta arratsaldean elkartzen ziren. Ohar horietako asko gordetzen dira.</p>",
+  "fuente": "Godwinen eta Wollstonecraften arteko gutunak (1796-1797); Godwin, «Emakumearen eskubideen aldarrikapena» lanaren egilearen oroitzapenak (1798)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "hebert": {
+  "name": "Jacques-René Hébert",
+  "dates": "1757 – 1794",
+  "born": 1757,
+  "died": 1794,
+  "place": "Alençon (Frantzia)",
+  "role": "kazetari eta politikari iraultzailea",
+  "idea": "Iraultzak herri xehearen hizkuntzan hitz egin behar du eta bere etsaiak errukirik gabe zigortu.",
+  "bio": "<p>Jacques-René Hébert Alençonen jaio zen, Normandian, 1757an. Dirurik gabe iritsi zen Parisera, eta lan xumeekin bizirauten zuen, besteak beste antzoki batean. Iraultzarekin kazetari gisa egin zen ezagun, eta Parisko Komunako eta Kordeleroen klubeko buruzagi izatera iritsi zen. 1794an Robespierrerekin talka egin zuen, Errepublikaren aurka konspiratzea leporatu zioten eta urte berean gillotinatu zuten Parisen, bere jarraitzaileekin batera, «hebertistak» deitutakoekin.</p>\n<p>Haren egunkaria, <em>Duchesne Aita</em> (1790-1794), Pariskoa zen ezagunena. Berogailu-egile ahozikin bat hizketan ari balitz bezala idatzita zegoen, irain eta kaleko esamoldeekin, langileengana eta artisauengana iristeko, <strong>sans-culottes</strong> deitutakoengana. Hébertek aberats metatzaileen zigorra, susmagarrientzako gillotina eta Frantziaren <strong>deskristautzea</strong> eskatzen zituen. Sozialismoaren historiarako duen interesa da Parisko herri-klaseei ahots politikoa eman ziela, nahiz eta haren programa ez zen komunista: zigorrak eta prezioen kontrola eskatzen zituen, ez ondasunen komunitatea.</p>",
+  "obras": [
+   "Duchesne Aita (egunkaria, 1790-1794)"
+  ],
+  "anecdota": "<p>Hilabeteetan, <em>Duchesne Aita</em>k heriotzara kondenatuei iseka egin zien gillotinari buruzko txiste makabroekin, eta exekuzio bakoitza ospatzen zuen. 1794ko martxoaren 24an Héberti iritsi zitzaion txanda. Lekukoen arabera, kemen guztia galdu zuen: hainbat aldiz zorabiatu zen gurdian urkamendirainoko bidean. Lehen haren egunkaria erosten zuen jendetzak iraindu egin zuen eta burlak oihukatu zizkion, Duchesne Aitaren beraren estiloa imitatuz. Gillotina gehien txalotu zuen gizona izan zen gillotinari okerren aurre egin ziotenetako bat.</p>",
+  "fuente": "Hebertisten exekuzioari buruzko garaikideen kontakizunak (1794ko martxoa)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
  },
  "wollstonecraft": {
   "name": "Mary Wollstonecraft",
@@ -2463,7 +2831,157 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-marx-biblioteca"
+  ]
+ },
+ "schiller": {
+  "name": "Friedrich Schiller",
+  "dates": "1759 – 1805",
+  "born": 1759,
+  "died": 1805,
+  "place": "Marbach am Neckar (Alemania)",
+  "role": "dramaturgoa, poeta eta historialaria",
+  "idea": "Gizakia ez da guztiz askea arrazoimena eta sentsibilitatea borrokan aritzeari uzten dioten arte, eta edertasuna da harmonia horretan hezteko bidea.",
+  "bio": "<p>Friedrich Schiller 1759an jaio zen Marbachen, Württembergeko dukerrian. Karlos Eugenio dukearen aginduz, haren akademia militarrean sartu behar izan zuen, eta han Zuzenbidea eta gero Medikuntza ikasi zituen. Erregimentu bateko medikua izan zen, baina dramaturgo gisa egin zuen arrakasta <em>Lapurrak</em> lanarekin (1781), eta 1782an dukerritik ihes egin zuen idatzi ahal izateko. 1789an Historiako irakaslea izan zen Jenan, 1794an Goetherekin adiskidetasuna hasi zuen eta 1799an Weimarren kokatu zen. Han idatzi zituen bere drama handiak, <em>Wilhelm Tell</em> bezalakoak, 1805ean hil zen arte.</p>\n<p>Schiller Kant irakurriz filosofo bihurtu zen poeta da. Giza <strong>askatasuna</strong> eta duintasuna onartu zituen, baina betebeharraren etika kantiarra eztabaidatu zuen: <em>Graziaz eta duintasunaz</em> lanean <strong>arima ederraren</strong> ideala proposatu zuen, non betebeharra eta joera jada ez diren borrokan aritzen. <em>Gizakiaren hezkuntza estetikoari buruzko gutunetan</em>, Frantziako Iraultzaren Izuaren ondoren idatziak, defendatu zuen edertasunak askatasun politikorako hezten duela. Beethovenek musika jarri zion bere <em>Pozari</em> odari (1785) Bederatzigarren sinfonian, eta melodia hori da gaur egun Europar Batasunaren ereserkia.</p>",
+  "obras": [
+   "Lapurrak (1781)",
+   "Graziaz eta duintasunaz (1793)",
+   "Gizakiaren hezkuntza estetikoari buruzko gutunak (1795)",
+   "Wilhelm Tell (1804)"
+  ],
+  "anecdota": "<p>1792ko abuztuaren 26an, Frantziako Batzar Legegileak ohorezko herritar izendatu zituen askatasunaren lagun jotzen zituen hainbat atzerritar. Haien artean zegoen Schiller, Parisen <em>Lapurrak</em> lanagatik ezaguna zena. Baina dokumentua galdu egin zen: «Monsieur Gille» deitutako norbaiti zuzenduta zegoen, eta inork ez zekien nor zen. Diploma ez zen Weimarrera iritsi 1798ko martxora arte, ia sei urte geroago. Ordurako, sinatu zuten iraultzaile batzuk, Danton edo Roland kasu, Izuaren garaian hilak ziren. Schillerrek, Iraultzaren bilakaera bortitza kritikatua zuenak, horrela jaso zuen Iraultzak berak irentsitako gizonek sinatutako herritartasun-titulu bat.</p>",
+  "fuente": "Frantziako Batzar Legegilearen dekretua (1792ko abuztuaren 26a); diploma 1798ko martxoan iritsi zen Weimarrera",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas"
+  ]
+ },
+ "babeuf": {
+  "name": "François-Noël Babeuf",
+  "dates": "1760 – 1797",
+  "born": 1760,
+  "died": 1797,
+  "place": "Saint-Quentin (Frantzia)",
+  "role": "kazetari eta iraultzailea",
+  "idea": "Iraultza ez da amaituko benetako berdintasunik ez dagoen bitartean: lurra eta haren fruituak guztienak izan behar dute.",
+  "bio": "<p>François-Noël Babeuf Saint-Quentin ondoan jaio zen, Frantziaren iparraldean, 1760an, familia pobre batean. Iraultzaren aurretik nobleentzat lan egin zuen, nekazarien gaineko eskubide feudalak finkatzen zituzten agiri zaharrak berrikusten, eta han hurbiletik ikusi zuen nola funtzionatzen zuen desberdintasunak. Iraultzarekin kazetari egin zen, eta hainbat aldiz espetxeratu zuten. Robespierre erori ondoren, «Gracchus» izena hartu zuen, Graco anaien omenez, lurra banatu nahi izan zuten tribuno erromatarren omenez, eta <em>Herriaren tribunoa</em> egunkaria argitaratu zuen.</p>\n<p>Babeufen ustez, legearen aurreko berdintasuna ez da nahikoa: <strong>benetako berdintasuna</strong> behar da, lurra eta ondasunak komunean izanik. 1796an, beste batzuekin batera, <strong>Berdinen konspirazioa</strong> antolatu zuen, Direktorioaren gobernua eraisteko asmoz. Infiltratu batek salatu zuen, eta Babeuf atxilotu, Vendômen epaitu eta gillotinatu zuten 1797an. Marxek, <em>Familia santua</em> lanean (1845), <strong>ideia komunista</strong> sortu zuen mugimendu iraultzailearen amaieran kokatzen du Babeufen konspirazioa, eta <em>Manifestu komunista</em>k (1848) haren idazkiak lehen mugimendu proletarioaren literatura gisa aipatzen ditu.</p>",
+  "obras": [
+   "Herriaren tribunoa (egunkaria, 1794-1796)"
+  ],
+  "anecdota": "<p>1797ko maiatzaren 26an, Vendômeko auzitegiak epaia irakurri zuen: Babeuf eta haren kide Darthé heriotzara kondenatu zituzten. Une hartan, biek ezkutatuta zituzten puñal batzuk atera eta sartu zizkieten beren buruei, urkamendian ez hiltzeko. Ez zuten lortu beren burua hiltzea. Gau hartan, Babeufek agur-gutun bat idatzi zien emazteari eta seme-alabei. Hurrengo goizean, zaurituta eta odoletan, gillotinara eraman zituzten. Haren lagun Buonarrotik, akusatuen artean zegoenak eta libratu zenak, urte batzuk geroago kontatu zuen eszena.</p>",
+  "fuente": "Filippo Buonarroti, Babeufena deritzon berdintasunaren aldeko konspirazioa (1828); Vendômeko prozesuaren aktak",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "saint-simon": {
+  "name": "Henri de Saint-Simon",
+  "dates": "1760 – 1825",
+  "born": 1760,
+  "died": 1825,
+  "place": "Paris",
+  "role": "gizarte-pentsalaria eta erreformatzailea",
+  "idea": "Gizarte modernoa ekoizten dutenek zuzendu behar dute, zientzialariek, industrialek eta langileek, eta klase pobreenaren bizitza hobetzeko antolatu behar da.",
+  "bio": "<p>Claude-Henri de Rouvroy, Saint-Simongo kondea, Parisen jaio zen 1760an, familia noble batean. Hamazazpi urterekin soldadu sartu zen Ameriketako Estatu Batuen Independentzia Gerran borrokatzeko. Frantziako Iraultzan aberastu egin zen ondasun nazionalak erosiz, denboraldi bat igaro zuen espetxean susmagarri gisa, eta azkenean bere fortuna galdu zuen. Bizitzaren gainerakoa idazteari eman zion, ia beti diru-estuasunetan. Parisen hil zen 1825ean.</p>\n<p>Saint-Simonek ikusi zuen Iraultzak aro berri bat ireki zuela: <strong>gizarte industrialarena</strong>. Bertan, agindu behar dutenak ekoizleak dira, hau da, jakintsuak, industrialak, artisauak eta langileak, eta ez nobleak, militarrak eta gortesauak, alferrak iruditzen baitzitzaizkion. Politika ekoizpenaren administrazio bihurtu behar zen. Bere azken liburuan, <em>Kristautasun berria</em>, gizarte osoa klase pobreenaren egoera hobetzeko antola zedin eskatu zuen. Haren ikasleek <strong>saintsimonismoa</strong> sortu zuten, oso eragin handiko mugimendua. <em>Manifestu komunista</em>k (1848) Fourier eta Owenekin batera sartzen du <strong>sozialismo kritiko-utopikoan</strong>: beren garaiko gizartea zuzen kritikatu zuten, baina plan idealetan jarri zuten konfiantza, langile-klasearen borrokan baino gehiago.</p>",
+  "obras": [
+   "Genevako biztanle baten gutunak bere garaikideei (1803)",
+   "Antolatzailea (1819-1820)",
+   "Industrialen katixima (1823-1824)",
+   "Kristautasun berria (1825)"
+  ],
+  "anecdota": "<p>1819an, Saint-Simonek «parabola» bat argitaratu zuen bere <em>Antolatzailea</em> aldizkarian. Irudikatzeko proposatzen zuen Frantziak bat-batean galduko balitu bere hiru mila zientzialari, artista eta artisau onenak: herrialdea hondoratuta geratuko litzateke belaunaldi oso batez. Gero irudikatzen zuen errege-familiako kideak galduko balitu, haien artean Berryko dukea, eta ministroak, apezpikuak eta jabe handiak: gizatasunagatik sentituko lukete, baina herrialdeak berdin-berdin funtzionatzen jarraituko luke. 1820ko otsailean Berryko dukea hil zuten, eta Saint-Simon epaitu egin zuten, haren testuak krimena bultzatu izan balu bezala. Auzitegiak absolbitu egin zuen.</p>",
+  "fuente": "Saint-Simon, Antolatzailea (1819); auzitegi kriminalaren aurreko prozesua (1820)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "buonarroti": {
+  "name": "Filippo Buonarroti",
+  "dates": "1761 – 1837",
+  "born": 1761,
+  "died": 1837,
+  "place": "Pisa (Italia)",
+  "role": "iraultzaile eta idazlea",
+  "idea": "Berdintasun perfektua, ondasunak komunean izanik, da iraultzaren helburua; hura lortzeko, gutxiengo antolatu eta erabakitsu bat behar da.",
+  "bio": "<p>Filippo Buonarroti Pisan jaio zen 1761ean, Michelangelorekin ahaidetutako familia noble batean. Zuzenbidea ikasi zuen eta Frantziako Iraultzarekin sutsu agertu zen: Korsikara joan zen, eta han egunkari iraultzaile bat sortu zuen eta Bonaparte familiarekin harremanak izan zituen; 1793an, Konbentzioak Frantziako hiritartasuna eman zion. Espetxean Babeuf ezagutu zuen, eta harekin batera parte hartu zuen 1796ko Berdinen konspirazioan. Gillotinatik libratu zen, baina urteak eman zituen preso edo zainpean. Gero erbestean bizi izan zen Genevan eta Bruselan, eta Parisen hil zen 1837an.</p>\n<p>Haren lan handia <em>Babeufena deritzon berdintasunaren aldeko konspirazioa</em> (1828) da; bertan, Berdinen historia kontatzen du eta haien ideiak azaltzen ditu: <strong>ondasunen komunitatea</strong> eta erakunde sekretu batek prestatutako iraultza baten beharra. Liburua zubia izan zen Frantziako Iraultzaren eta XIX. mendeko sozialisten artean. Hari esker, Blanqui bezalako iraultzaileek Babeufen ideiak ezagutu zituzten, eta horregatik da funtsezko pieza <strong>komunismoaren</strong> historian: Buonarroti gabe, Berdinen konspirazioa ia ahaztuta geratuko zen.</p>",
+  "obras": [
+   "Babeufena deritzon berdintasunaren aldeko konspirazioa (1828)"
+  ],
+  "anecdota": "<p>Buonarrotik bere bizitzaren zati handi bat eman zien elkarte sekretuei. Erbestetik, Genevan eta gero Bruselan, hamarkadetan zuzendu zuen talde klandestinoen sare bat; taldeek posta zifratuaren bidez komunikatzen ziren eta maila desberdinak zituzten: beheko kideek ez zekizkiten goikoen azken helburuak, komunistak baitziren. Elkarte horietako batzuek logia masonikoak erabili zituzten estalki gisa. Aurkitu gabe konspiratzeko trebetasun horregatik, Bakunin anarkistak «bere garaiko konspiratzailerik handiena» deitu zion.</p>",
+  "fuente": "Buonarrotiri buruzko azterlan historikoak (Elizabeth Eisenstein, The First Professional Revolutionist, 1959); Bakuninen lekukotasuna",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "fichte": {
+  "name": "Johann Gottlieb Fichte",
+  "dates": "1762 – 1814",
+  "born": 1762,
+  "died": 1814,
+  "place": "Rammenau (Alemania)",
+  "role": "filosofo idealista",
+  "idea": "Dena niaren jardueratik abiatzen da: niak bere burua jartzen du eta bere aurrean mundua jartzen du, bere askatasuna gauzatzen duen oztopo gisa.",
+  "bio": "<p>Johann Gottlieb Fichte 1762an jaio zen Rammenaun, Saxoniako herri batean, ehule pobreen familia batean. Eskualdeko noble batek ordaindu zizkion ikasketak, eta gero urte luzez etxe-irakasle aritu zen. 1790 inguruan Kant irakurri zuen, eta irakurketa horrek bizitza aldatu zion. Haren lehen liburua, <em>Errebelazio ororen kritika baten saiakera</em> (1792), bere izenik gabe agertu zen, eta askok Kanten obratzat hartu zuten. 1794an Jenako katedra bat lortu zuen, eta 1799an galdu egin zuen, ateismoa leporatuta. Berlinen kokatu zen eta han hil zen 1814an.</p>\n<p>Fichtek Kanten jarraitzailetzat aurkeztu zuen bere burua, baina Kantek eman nahi izan ez zuen urrats bat eman zuen: gauza bere baitan ezabatzea. Harentzat dena <strong>nitik</strong> abiatzen da, ez gauza gisa ulertuta, baizik eta bere burua jartzen duen eta bere aurrean mundua, ez-nia, jartzen duen jarduera aske gisa, bere askatasuna gauzatzen duen oztopo gisa. Horrela jaiotzen da <strong>idealismo alemana</strong>. Kantek publikoki baztertu zuen filosofia hori 1799an. Frantziarren okupazioan, Fichtek <em>Nazio alemanari hitzaldiak</em> eman zituen Berlinen (1807-1808), eta horiek nazionalismo alemanaren irudi bihurtu zuten.</p>",
+  "obras": [
+   "Errebelazio ororen kritika baten saiakera (1792)",
+   "Zientziaren doktrina osoaren oinarria (1794-1795)",
+   "Gizakiaren xedea (1800)",
+   "Nazio alemanari hitzaldiak (1808)"
+  ],
+  "anecdota": "<p>1791n, Fichtek Königsbergera bidaiatu zuen Kant ezagutzeko, eta bisitak etsipena eman zion: irakasle zaharrak hotz hartu zuen. Haren arreta erakartzeko, aste gutxitan errebelazioari buruzko saiakera bat idatzi zuen filosofia kritikoa aplikatuz, eta bidali egin zion. Handik gutxira, etxera itzultzeko dirurik gabe, mailegu bat eskatzera ausartu zen. Kantek ez zion eman, baina eskuizkribua bere argitaratzailearekin argitaratzen lagundu zion. Liburua 1792an atera zen egilearen izenik eta hitzaurrerik gabe, eta Jenako aldizkari batek Kantena zela eman zuen ziurtzat. Kantek publikoki argitu zuenean egilea Fichte izeneko bat zela, etxe-irakasle ezezagun hura gau batetik goizera egin zen ospetsu.</p>",
+  "fuente": "Fichteren eta Kanten arteko gutun-trukea (1791); Kanten adierazpena Jenako Allgemeine Literatur-Zeitung aldizkarian (1792)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas"
+  ]
+ },
+ "schleiermacher": {
+  "name": "Friedrich Schleiermacher",
+  "dates": "1768 – 1834",
+  "born": 1768,
+  "died": 1834,
+  "place": "Breslau (gaur egun Wrocław, Polonia)",
+  "role": "teologoa, filosofoa eta itzultzailea",
+  "idea": "Erlijioa ez da jakiteko modu bat ezta moral bat ere, finituan infinituaren sentimendua eta intuizioa baizik.",
+  "bio": "<p>Friedrich Schleiermacher Breslaun jaio zen 1768an, kapilau militar protestante baten semea. Moraviako Anaien artean hezi zen, komunitate oso jainkozalea, baina zalantzek Halleko Unibertsitatean ikastera eraman zuten, eta han sakon irakurri zuen Kant. Predikaria izan zen Berlinen, non erromantikoekin harremanetan egon zen, bereziki Friedrich Schlegelekin. Berlingo Unibertsitatea sortzen lagundu zuen, eta bertan Teologia irakatsi zuen, eta Platonen elkarrizketa gehienak alemanera itzuli zituen. Berlinen hil zen 1834an.</p>\n<p>1799an, sinadurarik gabe argitaratu zituen <em>Erlijioari buruzko hitzaldiak, haren mespretxatzaile jantziei</em>. Harentzat erlijioa ez da doktrina-multzo bat, metafisikarentzat bezala, ezta moralaren euskarri bat ere, Kantengan bezala, baizik eta <strong>unibertsoaren sentimendua eta intuizioa</strong>: finituan infinituaren esperientzia. Horregatik eskatu zien irakurleei ohoretu zezaten «Spinoza santu eta baztertua», askok ateotzat zutena. Geroago erlijioa <strong>menpekotasun absolutuaren sentimendu</strong> gisa definitu zuen. <strong>Hermeneutika</strong> modernoaren sortzailea ere bada, testuak interpretatzeko artea.</p>",
+  "obras": [
+   "Erlijioari buruzko hitzaldiak, haren mespretxatzaile jantziei (1799)",
+   "Bakarrizketak (1800)",
+   "Fede kristaua (1821-1822)"
+  ],
+  "anecdota": "<p>1797ko azaroaren 21ean, Schleiermacherrek hogeita bederatzi urte bete zituen, eta Berlingo lagun erromantikoek festa bat antolatu zioten. Friedrich Schlegelek, orduan berarekin bizi zenak, ospakizuna baliatu zuen hitzeman bat ateratzeko: hogeita hamar bete aurretik bere liburu bat idatzi behar zuen. Schleiermacher, ordura arte bere-berea zen ia ezer argitaratu ez zuena, hilabetez aritu zen erresistentzian; Charlotte arrebari 1798an idatzitako gutun batean aitortzen zuen ez zuela uste ezer luzerik aurrera ateratzeko gai zenik. Baina azkenean bete egin zuen. Liburua <em>Erlijioari buruzko hitzaldiak</em> izan zen, 1799an haren izenik gabe agertu eta Alemania osoan ospea eman ziona.</p>",
+  "fuente": "Schleiermacherrek Charlotte arrebari idatzitako gutunak (1797-1798)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
   ]
  },
  "hegel": {
@@ -2492,10 +3010,319 @@ const ILUSTRES = {
    "hf-historicidad",
    "hf-metodos",
    "hf-mito",
+   "hf-montaigne-ensayos",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
    "hf-sospecha",
    "hf-capitalismo",
    "hf-posmodernidad",
    "hf-beauvoir"
+  ]
+ },
+ "holderlin": {
+  "name": "Friedrich Hölderlin",
+  "dates": "1770 – 1843",
+  "born": 1770,
+  "died": 1843,
+  "place": "Lauffen am Neckar (Alemania)",
+  "role": "poeta",
+  "idea": "Gizakiak galdu egin du greziarrek bizi izan zuten naturarekiko batasuna, eta poesiak hura berreskuratzen lagun dezake.",
+  "bio": "<p>Friedrich Hölderlin 1770ean jaio zen Lauffen am Neckarren, Württemberg-en. Amak artzain protestante izatea nahi zuen, eta horregatik Tübingengo seminarioan ikasi zuen, non Hegelen eta Schellingen gela-kidea izan zen. Han elkarrekin irakurri zituzten Platon, Kant eta Spinoza. 1791ko otsailean, Hölderlinek Hegelen albumean idatzi zuen «Hen kai pan» formula grekoa, «bat eta dena», Spinozari egotzitako panteismoa laburbiltzen zuena. Etxe-irakasle aritu zen hainbat etxetan; Frankfurten Susette Gontardez maitemindu zen, bere ikaslearen amaz, eta Diotima deitu zion bere obran.</p>\n<p>Bere <em>Hyperion</em> eleberrian (1797-1799), greziar gazte bat antzinakoek bizi izan zuten eta gizaki modernoak galdu duen <strong>naturarekiko batasuna</strong> berreskuratu nahian dabil. Hölderlinek Kant miresten zuen, eta anaiari idatzitako gutun batean «gure nazioaren Moises» deitu zion, baina uste zuen arrazoimena bakarrik ez dela nahikoa: <strong>edertasunak</strong> eta poesiak filosofiak bereizten duena sentitzea ahalbidetzen dute. 1806tik aurrera buru-gaixotasun larri bat izan zuen, eta bere bizitzako azken hogeita hamasei urteak Tübingenen eman zituen, eta han hil zen 1843an.</p>",
+  "obras": [
+   "Hyperion edo ermitaua Grezian (1797-1799)",
+   "Enpedoklesen heriotza (1797-1800, amaitu gabea)",
+   "Sofoklesen Edipo errege eta Antigonaren itzulpenak (1804)"
+  ],
+  "anecdota": "<p>1807an, Tübingengo klinika batetik atera ondoren, Ernst Zimmer arotzak hartu zuen Hölderlin, <em>Hyperion</em>en miresle batek, eta gela bat eman zion Neckar ibaiaren ondoko dorre batean. Han bizi izan zen hogeita hamasei urtez, Zimmer familiak zainduta. Pianoa jotzen zuen, lorategian paseatzen zen eta ikasle eta poeta jakin-minez beteak hartzen zituen, Eduard Mörike kasu. Urtaroei buruzko olerki labur eta lasaiak idazten jarraitzen zuen, asmatutako izen batez sinatzen zituenak, Scardanelli, eta urte ezinezkoekin datatzen zituenak, mende bat lehenagokoak edo mende bat geroagokoak. Dorrea, gaur egun Hölderlinturm izenez ezaguna, bisita daiteke Tübingenen.</p>",
+  "fuente": "Ernst Zimmerren eta Wilhelm Waiblingerren lekukotzak; dorreko olerkien eskuizkribuak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "leclerc": {
+  "name": "Théophile Leclerc",
+  "dates": "1771 – 1820",
+  "born": 1771,
+  "died": 1820,
+  "place": "Lézigneux (Frantzia)",
+  "role": "kazetari iraultzaile «enragé»",
+  "idea": "Iraultzak aurrera jarraitu behar du pobreen alde, aberatsekin konpromisoetan gelditu gabe.",
+  "bio": "<p>Jean-Théophile-Victoire Leclerc Lézigneux-n jaio zen, Frantziaren erdialdean, 1771n. Oso gazterik Martinika uhartera bidaiatu zuen; han, tokiko iraultzaileen alde jarri zen, eta 1791n kanporatu egin zuten. Frantziara itzulita, soldadu izan zen eta Jemappesko guduan borrokatu zuen (1792). 1793an Lyonen zegoen, eta handik Parisera iritsi zen hiriko iraultzaile erradikalen ordezkari gisa. Urte berean Pauline Léonekin ezkondu zen, Hiritar Errepublikano Iraultzaileen Elkartearen sortzaileetako batekin. Haren geroko bizitza ez da ondo ezagutzen; uste da 1820an hil zela.</p>\n<p>Parisen Jacques Roux eta Varletekin bat egin zuen <strong>«enragés»</strong> taldean. 1793ko uztailean Marat hil ondoren, <em>Herriaren laguna</em> argitaratu zuen, haren egunkariari jarraipena eman nahi ziona. Elikagaientzako gehienezko prezioak, armadaren purga eta susmagarriekiko esku gogorra eskatzen zituen. Jakobinoek kanporatu egin zuten, erradikalegia zelako. Marxek, <em>Familia santua</em> lanean (1845), <strong>Leclerc eta Roux</strong> aipatzen ditu, Zirkulu sozialetik Babeufenganaino ideia komunista sortu zuen mugimendu iraultzailearen kate-maila gisa.</p>",
+  "obras": [
+   "Herriaren laguna, Leclercena (egunkaria, 1793)"
+  ],
+  "anecdota": "<p>Leclerc eta haren emaztea, Pauline Léon, bikote iraultzaile ez ohikoa izan ziren. Emakumeak 1791n eskatu zuen emakumeek armak hartu ahal izatea Iraultza defendatzeko, eta 1793an emakume errepublikanoen klub bat sortu zuen. Gizonak Parisko egunkaririk erradikalena idazten zuen. 1793ko azaroan ezkondu ziren, «enragés»ak jakobinoek jazartzen zituztenean. 1794ko apirilean biak atxilotu zituzten, eta zenbait hilabete eman zituzten espetxean. Abuztuan irten ziren, Robespierre erori ondoren, eta orduz geroztik politikatik erretiratu ziren.</p>",
+  "fuente": "1794ko polizia- eta epai-agiriak; Pauline Léonek espetxean egindako deklarazioa",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "owen": {
+  "name": "Robert Owen",
+  "dates": "1771 – 1858",
+  "born": 1771,
+  "died": 1858,
+  "place": "Newtown (Gales)",
+  "role": "enpresaburu eta erreformatzaile sozialista",
+  "idea": "Pertsonen izaera bizi diren inguruabarrek eratzen dute; inguruabar horiek hobetzen badira, hezkuntzarekin eta lan duinarekin, pertsonak hobetzen dira.",
+  "bio": "<p>Robert Owen Newtownen jaio zen, Galesen, 1771n, artisau baten semea. Hamar urterekin oihalgile-ikastun gisa hasi zen lanean, eta hogei urte eta gutxirekin Manchesterreko irule-fabrika bat zuzentzen zuen jada. 1800ean Eskoziako New Lanarkeko kotoi-fabriken zuzendaritza hartu zuen, eta Europa osoan ospetsua egin zen eredu bihurtu zituen. Bere jaioterrian hil zen 1858an.</p>\n<p>New Lanarken, Owenek lanaldia murriztu zuen, haur txikiak enplegatzeari utzi zion, etxebizitzak hobetu zituen eta eskolak ireki zituen, horien artean adin oso txikiko haurrentzako lehenetako bat. Ideia batetik abiatzen zen: <strong>izaera</strong> ez dago norbanako bakoitzaren menpe, hazten den <strong>inguruabarren</strong> menpe baizik. 1825ean New Harmony komunitatea sortu zuen Estatu Batuetan, eta bi urtean porrot egin zuen. Ondoren, <strong>kooperatibak</strong> eta Britainia Handiko langile-sindikatuak bultzatu zituen. <em>Manifestu komunista</em>k (1848) Saint-Simon eta Fourierrekin batera sartzen du <strong>sozialismo kritiko-utopikoan</strong>, eta Engelsek miretsi egin zuen Ingalaterran langile-klasearen alde gehien egin zuen erreformatzaile gisa.</p>",
+  "obras": [
+   "Gizartearen ikuspegi berri bat (1813)",
+   "Lanarkeko konderriari txostena (1821)",
+   "Mundu moral berriaren liburua (1836-1844)",
+   "Robert Owenen bizitza (1857)"
+  ],
+  "anecdota": "<p>1806an, Estatu Batuek Britainia Handira kotoia bidaltzeari utzi zioten, eta fabrika askok gelditu behar izan zuten. New Lanarkekoak lau hilabetez ia lanik gabe geratu ziren. Normalena langileak kaleratzea edo haiei ordaintzeari uztea izango zatekeen, baina Owenek bere bazkideak konbentzitu zituen denbora horretan guztian soldata osoak ordaintzen jarraitzeko, makinak garbi eta txukun mantentzeko soilik. Keinu horrek langileen konfiantza irabazi zion, ordura arte haren mesfidati baitziren, eta bere erreformak aurrera eramateko aukera eman zion.</p>",
+  "fuente": "Robert Owen, Robert Owenen bizitza, berak idatzia (1857)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "fourier": {
+  "name": "Charles Fourier",
+  "dates": "1772 – 1837",
+  "born": 1772,
+  "died": 1837,
+  "place": "Besançon (Frantzia)",
+  "role": "pentsalari sozialista utopikoa",
+  "idea": "Lana atsegina izan daiteke gizartea giza grinen arabera antolatzen bada, falansterio deritzen komunitate libreetan.",
+  "bio": "<p>Charles Fourier Besançonen jaio zen 1772an, oihal-saltzaile baten semea. Bere herentziaren zati handi bat galdu zuen 1793ko Lyongo setioan, Iraultzan, eta ia beti enplegatu eta merkataritza-bidaiari gisa irabazi zuen bizimodua, gorroto zuen ogibidea. Bakarrik eta baliabide gutxirekin bizi izan zen, bere garaian gutxi irakurri ziren liburuak idazten. Parisen hil zen 1837an.</p>\n<p>Fourierrek bere garaiko gizartea salatu zuen, «zibilizazioa» deitzen ziona, merkataritzaren desordena eta iruzurrarengatik eta aberastasunaren ondoan sortzen zuen miseriagatik. Haren ordez, 1.600 bat pertsonako komunitateak proposatu zituen, <strong>falansterioak</strong>; haietan bakoitzak egunean hainbat aldiz aldatuko zuen zeregina, bere gustuen arabera. Horrela, lana zigor izateari utzi eta <strong>lan erakargarri</strong> bihurtuko zen. Emakumeen askatasuna ere defendatu zuen, eta esan zuen emakumearen emantzipazio-mailak neurtzen duela gizarte baten aurrerapena. <em>Manifestu komunista</em>k (1848) Saint-Simon eta Owenekin batera kokatzen du <strong>sozialismo kritiko-utopikoan</strong>; haren jarraitzaileek, Victor Considerant buru zutela, Europan eta Amerikan zabaldu zituzten haren ideiak.</p>",
+  "obras": [
+   "Lau mugimenduen teoria (1808)",
+   "Etxe- eta nekazaritza-elkarteari buruzko tratatua (1822)",
+   "Mundu industrial eta elkartekide berria (1829)",
+   "Industria faltsua (1835)"
+  ],
+  "anecdota": "<p>Fourierrek kontatu zuen bere aurkikuntza handia sagar batekin hasi zela. Rouendik Parisera iritsi berria, jatetxe batean ikusi zuen sagar bakar bat askoz garestiago ordaintzen zela landan sagar-pila batek balio zuena baino. Hori froga iruditu zitzaion merkataritza sistema absurdua zela, bitartekariak guztien kontura aberasten zituena. Ordutik aurrera historiako lau sagar ospetsuez hitz egiten zuen: Adan eta Evarena, Parisena, Troiako gerra eragin zuena, Newtonena… eta berea, gizartearen desordena agerian utzi ziona.</p>",
+  "fuente": "Fourierren eskuizkribuak, haren eskolak hura hil ondoren argitaratuak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "novalis": {
+  "name": "Novalis",
+  "dates": "1772 – 1801",
+  "born": 1772,
+  "died": 1801,
+  "place": "Oberwiederstedt (Alemania)",
+  "role": "lehen erromantizismoko poeta eta pentsalaria",
+  "idea": "Mundua erromantizatu egin behar da: gauza arruntei beren misterioa itzuli behar zaie eta finituan infinitua aurkitu.",
+  "bio": "<p>Friedrich von Hardenberg, bere obrak Novalis izenez sinatu zituena, 1772an jaio zen Oberwiederstedten, noblezia txikiko familia batean. Zuzenbidea ikasi zuen Jenan, non Schillerren ikaslea izan zen, eta gero Leipzigen eta Wittenbergen. Geroago meatzaritza ikasi zuen Saxoniako Freibergen eta gatzagen ikuskatzaile aritu zen. Hogeita bi urterekin Sophie von Kühnekin ezkontza-hitza eman zuen, hamahiru urte zituena. Haren heriotzak, 1797an, bere obra osoa markatu zuen. Tuberkulosiz hil zen Weissenfelsen 1801ean, hogeita zortzi urte besterik ez zituela.</p>\n<p>Novalisek sakon aztertu zuen Fichte, baina haratago joan nahi izan zuen: niak mundua sortzen badu, irudimenarekin eralda dezake. <strong>Mundua erromantizatzea</strong> proposatu zuen, hau da, finituan infinitua eta egunerokoan misterioa aurkitzea. Harentzat, poesiak, filosofiak eta zientziak jakintza bakar bat osatu behar zuten. Spinoza miresten zuen, eta «Jainkoaz mozkortutako gizona» deitu zion. Bere <em>Gauari ereserkiak</em> lanean, gaua eta heriotza ez dira amaiera, bizitza goragoko baterako igarobidea baizik. <em>Heinrich von Ofterdingen</em> eleberri amaitu gabeak <strong>lore urdina</strong> irrika erromantikoaren ikur bihurtu zuen.</p>",
+  "obras": [
+   "Polena (1798)",
+   "Gauari ereserkiak (1800)",
+   "Kristautasuna edo Europa (1799, 1826an argitaratua)",
+   "Heinrich von Ofterdingen (1802, hil ondorengoa)"
+  ],
+  "anecdota": "<p>Sophie von Kühn 1797ko martxoan hil zen, hamabost urte bete eta bi egunera. Novalisek orduan egunerokoa hasi zuen, haren heriotzaz geroztiko egunak zenbatzen zituena, eta maiz bisitatzen zuen haren hilobia Grüningenen. 1797ko maiatzaren 13an idatzi zuen, ilunabarrean, hilobiaren ondoan, poz esanezina sentitu zuela: iruditu zitzaion hilobia hauts bihurtuta desegiten zela, mendeak une batean bezala igarotzen zirela eta hura hurbil sentitzen zuela. Esperientzia hori, aldaketa gutxirekin, <em>Gauari ereserkiak</em> lanera igaro zen. Hurrengo urtean, ordea, Novalisek beste neska gazte batekin eman zuen ezkontza-hitza, Julie von Charpentierrekin.</p>",
+  "fuente": "Novalisen egunerokoa (1797)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "schlegel": {
+  "name": "Friedrich Schlegel",
+  "dates": "1772 – 1829",
+  "born": 1772,
+  "died": 1829,
+  "place": "Hannover (Alemania)",
+  "role": "kritikaria, filosofoa eta erromantizismoaren teorialaria",
+  "idea": "Poesia erromantikoa poesia unibertsal progresiboa da: genero guztiak batzen ditu, poesia eta filosofia batzen ditu, eta ez da inoiz amaitzen.",
+  "bio": "<p>Friedrich Schlegel Hannoverren jaio zen 1772an. Zuzenbidea ikasi zuen, baina greziar literaturari, kritikari eta filosofiari eman zion bere burua. Haren lehen idazki politikoak, <em>Errepublikanismoaren kontzeptuari buruzko saiakerak</em> (1796), Kanten <em>Betiko bakerantz</em> lanari erantzuten zion. August Wilhelm anaiarekin <em>Athenaeum</em> aldizkaria sortu zuen (1798-1800), Jenako talde erromantikoaren gunea. Geroago sanskritoa ikasi zuen, 1808an katolizismora konbertitu zen eta Vienan lan egin zuen Austriako gobernuaren zerbitzura. Dresdenen hil zen 1829an.</p>\n<p>Schlegel lehen erromantizismoaren teorialari handia da. Obra klasiko, perfektu eta itxiaren aurrean, <strong>zatikia</strong> defendatzen du, obra irekia eta beti amaitu gabea. Haren <strong>ironia erromantikoaren</strong> kontzeptuak sortzen duen eta, aldi berean, sortzen duenarekiko distantzia hartzen duen artistaren jarrera deskribatzen du, obra batek ere ezin baitu infinitua bere baitan hartu. <em>Poesiari buruzko elkarrizketa</em> lanean (1800) mitologia berri bat eskatu zuen eta Spinoza poetentzako inspirazio-iturri gisa aurkeztu zuen. Indiako hizkuntzari buruzko liburuak hizkuntzalaritza konparatuari ireki zion bidea.</p>",
+  "obras": [
+   "Errepublikanismoaren kontzeptuari buruzko saiakera (1796)",
+   "Lucinde (1799)",
+   "Poesiari buruzko elkarrizketa (1800)",
+   "Indiarren hizkuntzaz eta jakinduriaz (1808)"
+  ],
+  "anecdota": "<p>1797an, Berlinen, Friedrich Schlegelek saloi literario batean ezagutu zuen Dorothea Veit, Moses Mendelssohn filosofoaren alaba, bankari batekin ezkonduta zegoena. Maitemindu egin ziren, eta hark dibortzioa eskatu zuen harekin bizitzeko. 1799an Schlegelek <em>Lucinde</em> argitaratu zuen, maitasun aske eta sutsuari buruzko eleberri bat, non mundu guztiak ezagutu zuen bikotea. Eskandalua izugarria izan zen: irakurle askok lizuntzat jo zuten, eta haren lagun batzuek ere kritikatu zuten. Schleiermacherrek, Schlegelek Berlinen etxebizitza partekatu zuenak, haren defentsan atera zen <em>Lucinderi buruzko gutun konfidentzialak</em> lanarekin (1800). Friedrich eta Dorothea 1804an ezkondu ziren.</p>",
+  "fuente": "Schleiermacher, Schlegelen Lucinderi buruzko gutun konfidentzialak (1800); Jenako taldearen gutun-trukea",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas"
+  ]
+ },
+ "laborde": {
+  "name": "Alexandre de Laborde",
+  "dates": "1773 – 1842",
+  "born": 1773,
+  "died": 1842,
+  "place": "Paris",
+  "role": "arkeologo, bidaiari eta politikari liberala",
+  "idea": "Pertsonen eta haien kapitalen elkarte librea da komunitate osoaren bizitza hobetzeko modurik onena.",
+  "bio": "<p>Alexandre de Laborde Parisen jaio zen 1773an, gorteko bankari aberats baten semea; aita 1794an gillotinatu zuten. Iraultza lehertu zenean, familiak Austriara bidali zuen, eta ofizial gisa aritu zen Austriako armadan. Frantziara itzuli zen, Espainiara bidaiatu zuen Luziano Bonaparteren enbaxadarekin 1800ean, eta goi-funtzionario izan zen Napoleonekin. Geroago diputatu liberala izan zen ia hogei urtez. Parisen hil zen 1842an.</p>\n<p>Laborde batez ere bidaia-liburu ilustratuengatik da ezaguna, hala nola <em>Espainian zeharreko bidaia pintoreskoa eta historikoa</em> (1807-1818), penintsula osoko monumentuen grabatuekin. 1818an <em>Elkartzeko espirituaz, komunitatearen interes guztietan</em> argitaratu zuen. Liburu horretan defendatzen du pertsonen eta kapitalen <strong>elkarte</strong> libreak, enpresetan, aurrezki-kutxetan edo laguntza-erakundeetan, industria eta langileen bizitza hobe ditzakeela. Ez zen sozialista, liberal erreformista baizik, baina elkartearen gaia funtsezkoa izan zen lehen sozialista frantsesentzat, <strong>lehia</strong> lankidetzaz ordezkatu nahi baitzuten.</p>",
+  "obras": [
+   "Espainian zeharreko bidaia pintoreskoa eta historikoa (1807-1818)",
+   "Espainiako ibilbide deskribatzailea (1809)",
+   "Elkartzeko espirituaz, komunitatearen interes guztietan (1818)"
+  ],
+  "anecdota": "<p>1830eko uztailean, Karlos X.a erregeak prentsa-askatasuna ezabatzen eta boto-eskubidea murrizten zuten ordenantza batzuk sinatu zituen. Uztailaren 26an, Labordek, jada 56 urte zituela, hamabost bat diputatu liberal bildu zituen bere etxean zer egin erabakitzeko. Biharamunean matxinada lehertu zen Parisen, eta Laborde bat egin zuen harekin: barrikadetan egon zen, eta <em>Le National</em> egunkari liberalaren erredakzioan txalotu zuten. Iraultzak garaitu ondoren, uztailaren 29an Senako prefektu izendatu zuten, Paris gobernatzen zuen kargua.</p>",
+  "fuente": "1830eko uztaileko egunen kronikak; Archives parlementaires",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "thompson": {
+  "name": "William Thompson",
+  "dates": "1775 – 1833",
+  "born": 1775,
+  "died": 1833,
+  "place": "Cork (Irlanda)",
+  "role": "ekonomialari eta pentsalari sozialista irlandarra",
+  "idea": "Lan egiten duenak eskubidea du ekoizten duen guztirako; jabeek lanik egin gabe beretzat hartzen duten aberastasuna bidegabekeria da.",
+  "bio": "<p>William Thompson Corken jaio zen, Irlandan, 1775ean, merkatari-familia aberats batean. Aita hil zenean, merkataritza-flota bat eta lur batzuk heredatu zituen Corkeko konderriaren mendebaldean, eta han bizi izan zen bere errentarien artean; haien hezkuntza eta laborantza-metodoak hobetzen saiatu zen. Jeremy Benthamen laguna izan zen, eta haren Londresko etxean bizi izan zen denboraldi batez. Ez zen inoiz ezkondu. Rosscarberyn hil zen, Cork ondoan, 1833an.</p>\n<p>Thompson utilitarista gisa hasi zen, baina ondorioztatu zuen zoriontasun handiena ahalik eta jende gehienarentzat ezinezkoa zela langileek <strong>beren lanaren produktu osoa</strong> jasotzen ez zuten bitartean. Aztertu zuen nola kapitalaren jabeek besteek ekoizten dutenaren zati bat beretzat hartzen duten, eta lehia <strong>komunitate kooperatiboez</strong> ordezkatzea proposatu zuen. Anna Wheeler lagunarekin batera, <strong>emakumeen eskubide politikoen</strong> aldeko alegatu bat idatzi zuen, James Millen aurka, botoa gizonentzat gorde nahi baitzuen. Marxek <em>Filosofiaren miseria</em> (1847) eta <em>Kapitala</em> lanetan irakurri eta aipatu zituen ekonomialari sozialista ingelesetako bat da.</p>",
+  "obras": [
+   "Aberastasunaren banaketaren printzipioei buruzko ikerketa (1824)",
+   "Giza arrazaren erdi baten, emakumeen, deia beste erdiaren, gizonen, uzien aurka (1825)",
+   "Lana sarituta (1827)"
+  ],
+  "anecdota": "<p>Thompsonek nahi zuen bere heriotzak ere bere ideiei balio ziezaien. Testamentuan, bere fortunaren zatirik handiena mugimendu kooperatiboari utzi zion, eta bere gorpua zientziari emateko eskatu zuen. Iloba batek, ordea, hileta kristau batekin lurperatu zuen, eta horrek eskandalizatu egin zituen hura ateo gisa ezagutzen zutenak; haren gorpuzkiak lurpetik atera behar izan zituzten haren nahia betetzeko. Haren anai-arrebek testamentua aurkaratu zuten, zoratuta zegoela alegatuz. Auziak hogeita bost bat urte iraun zuen, eta epaiketaren gastuek herentzia jan zuten: ez familiak ez kooperatibek ez zuten ezer jaso.</p>",
+  "fuente": "Thompsonen testamentua eta ondorengo auzia; Corkeko tokiko prentsa",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "schelling": {
+  "name": "Friedrich Wilhelm Joseph Schelling",
+  "dates": "1775 – 1854",
+  "born": 1775,
+  "died": 1854,
+  "place": "Leonberg (Alemania)",
+  "role": "filosofo idealista",
+  "idea": "Natura eta espiritua errealitate absolutu beraren bi aurpegi dira: natura oraindik bere burua ezagutzen ez duen espiritua da.",
+  "bio": "<p>Friedrich Wilhelm Joseph Schelling Leonbergen jaio zen, Württemberg-en, 1775ean. Ikasle goiztiarra izan zen: hamabost urterekin sartu zen Tübingengo seminarioan, non Hegelekin eta Hölderlinekin partekatu zuen gela. 1795ean Hegeli idatzi zion: «Spinozista egin naiz», eta aldea azaldu zion: Spinozarentzat mundua zen dena; berarentzat, nia. Hogeita hiru urte besterik ez zituela, Jenako irakasle izendatu zuten. Gero Würzburgen, Munichen eta Berlinen irakatsi zuen, eta 1854an hil zen Bad Ragaz bainuetxe suitzarrean.</p>\n<p>Schelling Fichtetik abiatu zen, baina laster aurpegiratu zion natura niarentzako oztopo huts batera murrizten zuela. Harentzat, natura bizirik dago eta bere historia du: <strong>espiritu lotan</strong> dago, gizakiarengan esnatu eta bere burua ezagutzera iristen dena. Horregatik defendatu zituen <strong>naturaren filosofia</strong> eta naturaren eta espirituaren arteko funtsezko <strong>identitatea</strong>. Gainera, artean ikusi zuen absolutura iristeko modurik gorena, erromantikoak liluratu zituen ideia. Heldutasunean giza askatasunaz, gaizkiaz eta erlijioaz arduratu zen.</p>",
+  "obras": [
+   "Naturaren filosofia baterako ideiak (1797)",
+   "Idealismo transzendentalaren sistema (1800)",
+   "Giza askatasunaren esentziari buruzko ikerketa filosofikoak (1809)"
+  ],
+  "anecdota": "<p>1841ean, Hegel hil ondoren, Prusiako erregeak Schelling deitu zuen Berlinera hegeldarren eragina orekatzeko. Haren lehen ikasgaiak gertaera bat izan ziren: ikasgelan elkartu ziren Kierkegaard, Engels, Bakunin eta Jacob Burckhardt historialaria. Kierkegaardek Kopenhagetik bidaiatu zuen hura entzuteko soilik. Hasieran gogotsu idatzi zuen Schellingek «errealitatea» hitza esan zuenean pozez dardaratu zela. Hilabete gutxi geroago, lagun bati idatzitako gutunetan, kexu zen Schellingek zentzugabekeria jasanezinak esaten zituela, eta Danimarkara itzuli zen ikastaroa amaitu aurretik. Engelsek, bere aldetik, haren aurkako liburuxkak idatzi zituen.</p>",
+  "fuente": "Søren Kierkegaarden gutunak eta egunerokoak (1841-1842)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
+ "lamennais": {
+  "name": "Félicité de Lamennais",
+  "dates": "1782 – 1854",
+  "born": 1782,
+  "died": 1854,
+  "place": "Saint-Malo (Frantzia)",
+  "role": "apaiz eta idazle politikoa",
+  "idea": "Ebanjelioak askatasuna eta justizia eskatzen ditu herriarentzat; Elizak erregeen boteretik bereizi eta pobreen alde jarri behar du.",
+  "bio": "<p>Félicité Robert de Lamennais Saint-Malon jaio zen, Bretainian, 1782an, armadore baten semea. 1816an apaiz egin zen, eta ospetsu egin zen bere <em>Erlijio-gaietako axolagabekeriari buruzko saiakera</em> lanarekin, Elizaren defentsa sutsua. Parisen hil zen 1854an.</p>\n<p>Denborarekin, Lamennais <strong>Elizaren eta Estatuaren arteko bereizketa</strong> eta prentsa-, irakaskuntza- eta kontzientzia-askatasuna defendatzera iritsi zen. 1830ean <em>Etorkizuna</em> egunkaria sortu zuen, Gregorio XVI.a aita santuak 1832an kondenatu zuena. Lamennaisek azkenean Elizarekin hautsi zuen, eta 1834an <em>Fededun baten hitzak</em> argitaratu zuen, Biblia balitz bezala idatzitako liburu laburra, erregeek eta aberatsek pobreei egiten dieten zapalkuntza salatzen duena. Arrakasta izugarria izan zuen, eta aita santuak beste entziklika batean kondenatu zuen. 1841ean urtebete eman zuen espetxean Gobernuaren aurkako liburuxka batengatik, eta 1848an diputatu hautatu zuten. <strong>Sozialismo kristauaren</strong> eta demokrazia kristauaren funtsezko pertsonaia da, nahiz eta komunismoa baztertzen zuen. Langileengan zuen eragina hain zen handia, ezen Dézamy bezalako komunistek liburuak idatzi baitzituzten hura gezurtatzeko.</p>",
+  "obras": [
+   "Erlijio-gaietako axolagabekeriari buruzko saiakera (1817-1823)",
+   "Fededun baten hitzak (1834)",
+   "Herriaren liburua (1837)"
+  ],
+  "anecdota": "<p>Lamennais Parisen hil zen 1854ko otsailean, Elizarekin adiskidetu gabe. Jarraibide oso argiak utzi zituen: bere gorpua hilerrira joatea nahi zuen, inongo elizatatik igaro gabe, eta hobi komunean lurperatzea «pobreen artean», pobreak lurperatzen ziren bezala, bere hilobiaren gainean harri bat ere jarri gabe. Hala egin zen, Père-Lachaiseko hilerrian. Poliziak, istiluen beldurrez, hileta zaindu zuen, eta laguntzera joan nahi izan zuen jendetza sakabanatu egin zuten.</p>",
+  "fuente": "Lamennaisen testamentua; haren hiletari buruzko kronikak (1854ko martxoaren 1a)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "cabet": {
+  "name": "Étienne Cabet",
+  "dates": "1788 – 1856",
+  "born": 1788,
+  "died": 1856,
+  "place": "Dijon (Frantzia)",
+  "role": "abokatu eta politikari komunista",
+  "idea": "Bidegabekeria jabetza pribatutik sortzen da; ondasunen komunitate batek, bide baketsuz lortuak, berdintasuna eta senidetasuna ekarriko lituzke.",
+  "bio": "<p>Étienne Cabet Dijonen jaio zen 1788an, upelgile baten semea. Abokatu eta politikari errepublikanoa izan zen, eta 1831n diputatu hautatu zuten. 1833an <em>Herrikoia</em> egunkaria sortu zuen, eta hurrengo urtean bi urteko espetxe-zigorra ezarri zioten Luis Felipe erregearen aurkako artikuluengatik. Zigorra ez betetzeko, Ingalaterrara erbesteratu zen, eta han Tomas Mororen <em>Utopia</em> eta Robert Owenen ideiak irakurri zituen. San Luisen (Estatu Batuak) hil zen 1856an.</p>\n<p>Frantziara itzulita, 1840an <em>Ikarian zeharreko bidaia</em> argitaratu zuen, herrialde imajinario bat deskribatzen duen eleberria: bertan ez dago jabetza pribaturik, dena komunean ekoizten eta banatzen da, eta Estatuak bizitza osoa antolatzen du. Cabetek <strong>komunismo baketsua</strong> defendatzen zuen, propagandaren eta adibidearen bidez lortua, ez indarkeriaz, eta benetako kristautasun gisa aurkezten zuen. Haren ideiek, «<strong>ikariarrek</strong>», jarraitzaile asko izan zituzten 1840ko hamarkadako langile frantsesen artean, eta horrek azaltzen du Marxek bere zerrendan sartu izana. Hala ere, haren lankide erradikalenek, Théodore Dézamyk adibidez, harekin hautsi zuten, moderatua eta erlijiosoa zelako.</p>",
+  "obras": [
+   "Ikarian zeharreko bidaia (1840)",
+   "Benetako kristautasuna Jesukristoren arabera (1846)"
+  ],
+  "anecdota": "<p>Cabetek Ikaria benetan sortzea erabaki zuen Amerikan. 1848ko otsailaren 3an, Luis Felipe eraitsi zuen iraultza baino aste gutxi lehenago, 69 kolonoko aurrealdi bat irten zen Le Havreko portutik Texas aldera. Lurrak denetik urrun zeuden, ibilaldia nekagarria izan zen eta malariak haietako zenbait hil zituen. Bizirik atera zirenak New Orleansera erretiratu ziren. 1849an Cabetek Nauvoora eraman zituen, Illinoisen, mormoiek utzi berria zuten hiri batera. Han komunitateak zenbait urte iraun zuen, kolonoek berek haren autoritarismoaren aurka matxinatu ziren arte.</p>",
+  "fuente": "Kolonia ikariarraren historia; prentsa ikariarra (Herrikoia)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "heine": {
+  "name": "Heinrich Heine",
+  "dates": "1797 – 1856",
+  "born": 1797,
+  "died": 1856,
+  "place": "Düsseldorf (Alemania)",
+  "role": "poeta eta kazetaria",
+  "idea": "Filosofia alemana, Kantetik Hegelera, pentsamenduko iraultza bat izan zen, politikan Frantziako Iraultza bezain sakona.",
+  "bio": "<p>Heinrich Heine 1797an jaio zen Düsseldorfen, merkatari juduen familia batean. Zuzenbidea ikasi zuen, eta Berlinen Hegelen klaseetara joan zen. 1825ean protestante gisa bataiatu zen, juduei lanbide asko ixten zitzaizkielako. Haren <em>Kantuen liburuak</em> (1827) poeta gisa ospetsu egin zuen. 1831n Parisera joan zen, eta han bizi izan zen bizitza osoan korrespontsal eta idazle gisa, beti Alemaniako zentsurak jazarrita. 1848tik aurrera gaixotasun batek ohean etzanda utzi zuen, eta Parisen hil zen 1856an.</p>\n<p>Frantziarrei Alemania azaltzeko <em>Alemaniako erlijioaren eta filosofiaren historia</em> idatzi zuen (1834). Bertan Kanten <strong>Arrazoimen hutsaren kritika</strong> Frantziako Iraultzarekin alderatzen du: Kantek teologia zaharrari lepoa moztu zion, iraultzaileek erregeari bezala. Ironiaz kontatzen du haren bizitza hain zela erregularra, non auzokideek erlojuak orduan jartzen baitzituzten hura paseatzen ikusten zutenean, eta gero Jainkoa itzuli zuela bere morroi zahar Lamperekiko errukiz. Heinek miresmenezko orrialdeak eskaini zizkien Spinozari eta naturan presente dagoen Jainko baten ideiari ere, <strong>panteismoari</strong>, Alemaniaren erlijio sekretutzat zuena.</p>",
+  "obras": [
+   "Kantuen liburua (1827)",
+   "Alemaniako erlijioaren eta filosofiaren historia (1834)",
+   "Alemania. Neguko ipuin bat (1844)",
+   "Romancero (1851)"
+  ],
+  "anecdota": "<p>Bere <em>Romancero</em> lanaren epilogoan (1851), Heinek kalera egin zuen azken irteera kontatzen du. 1848ko maiatzean izan zen, gaixotasunak ia ibiltzen uzten ez zionean. Herrestan iritsi zen Louvre Museora Miloko Venusi agur esateko, eta haren aurrera iristean, erori egin zen. Dioenez, denbora luzez egon zen negarrez haren oinetan, eta jainkosak errukiz begiratzen zion, baina lagundu ezinik, besorik ez zuelako. Harrezkero zortzi urte bizi izan zen etzanda, berak «koltxoi-hilobia» deitu zuen horretan. Adituen ustez, Heinek eszena apaindu edo asmatu egin zuen greziar jainkoei agur sinboliko gisa.</p>",
+  "fuente": "Heine, Romancero lanaren epilogoa (1851)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
   ]
  },
  "comte": {
@@ -2548,6 +3375,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-sospecha",
+   "hf-marx-biblioteca",
    "hf-capitalismo"
   ]
  },
@@ -2579,6 +3407,80 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "gay": {
+  "name": "Jules Gay",
+  "dates": "1807 – 1887",
+  "born": 1807,
+  "died": 1887,
+  "place": "Paris",
+  "role": "argitaratzaile eta propagandista komunista",
+  "idea": "Robert Owenek proposatzen zuen ondasunen komunitatea da gizarte-berdintasuna eta gizonen eta emakumeen arteko berdintasuna lortzeko bidea.",
+  "bio": "<p>Jules Gay Parisen jaio zen 1807an, argitaratzaile baten semea. 1835ean Robert Owenen ikasle egin zen, eta haren egunkari ingelesetan idatzi zuen. 1837an Owenen lan bat itzuli zuen frantsesera, eta Londresen ezkondu zen Désirée Véretekin, jostun eta militante feministarekin. 1840an senar-emazteak haur txikientzako eskola bat irekitzen saiatu ziren Paris ondoan, eta porrot egin zuen diru faltagatik. Bruselan hil zen 1887an.</p>\n<p>Gay Owenen ideiak zabaldu zituen frantses gutxietako bat izan zen: <strong>ondasunen komunitatea</strong>, hezkuntza eta <strong>sexuen arteko berdintasuna</strong>. Marxek, <em>Familia santua</em> lanean (1845), Dézamyrekin batera aipatzen du <strong>materialismoa</strong> komunismoaren oinarri logiko gisa garatu zuten komunista frantsesen artean. 1849an <em>Komunista</em> izeneko aldizkari baten ale bakarra argitaratu zuen. Gero argitalpenari eman zion bere burua, eta bibliografo ezaguna izatera iritsi zen, nahiz eta haren liburuek hainbat prozesu eta lizentziaren galera ekarri zizkioten. 1864an Frantziatik alde egin zuen, eta Belgikan, Suitzan eta Italian bizi izan zen. Erbestean Langileen Nazioarteko Elkartean sartu zen.</p>",
+  "obras": [
+   "Ondasunen komunitatearen gizarte-sistemaren oinarrizko proposizioak (Owenen itzulpena, 1837)",
+   "Sozialismo arrazionala eta sozialismo autoritarioa (1868)"
+  ],
+  "anecdota": "<p>Jules Gayk bere ideiak bere bizitzara eraman zituen. Haren emaztea, Désirée Véret, jostun gazte saintsimoniarra izan zen, eta 1832an emakumeek soilik idatzitako egunkari baten sorreran parte hartu zuen. Londresen ezkondu ziren 1837an, giro owenista betean, eta Julesek haren militantzia feminista babestu zuen, emakumeak bizitza osoan mantendu zuena. Erreformatzaile ingelesarekiko miresmena hain zen handia, ezen 1842an bigarren semea jaio zenean Owen jarri baitzioten izena. Désirée, bere aldetik, ez zen inoiz borrokatik aldendu: 1866an Langileen Nazioarteko Elkarteko emakumeen ataleko lehendakaria zen.</p>",
+  "fuente": "Jules eta Désirée Gayren biografiak (Frantziako langile-mugimenduaren hiztegi biografikoa)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "considerant": {
+  "name": "Victor Considerant",
+  "dates": "1808 – 1893",
+  "born": 1808,
+  "died": 1893,
+  "place": "Salins (Frantzia)",
+  "role": "ingeniari eta politikari sozialista fourierista",
+  "idea": "Gizartea modu baketsuan eralda daiteke kapitala, lana eta talentua elkartuz, iraultza bortitzik behar izan gabe.",
+  "bio": "<p>Victor Considerant Salinsen jaio zen, Frantziako Juran, 1808an. Parisko Eskola Politeknikoan ikasi zuen, eta ingeniari militarren ofiziala izan zen, baina armada utzi zuen Charles Fourierren ideiak zabaltzeko. Bere maisua 1837an hil zenean, eskola fourieristaren buru bihurtu zen. Parisen hil zen 1893an. Berak azpimarratzen zuen bere abizena azentu-markarik gabe idazten zela.</p>\n<p>Considerantek mugimendu antolatu bihurtu zuen fourierismoa, egunkariekin, hala nola 1843an sortutako <em>Demokrazia baketsua</em> egunkariarekin. <strong>Demokrazia baketsua</strong> defendatzen zuen: gizartea erreformatzea kapitalaren, lanaren eta talentuaren <strong>elkartearen</strong> bidez, indarkeriarik gabe. 1848an diputatu hautatu zuten, eta 1849ko ekainaren 13an Luis Napoleon Bonaparteren aurkako protestan parte hartu ondoren, Belgikara eta gero Estatu Batuetara erbesteratu behar izan zuen. 1869an Frantziara itzuli zen eta Parisko Komuna babestu zuen. 1840ko hamarkadan Fourierren eskolako bozeramailerik ezagunena zen, eta eskola horri zuzentzen dizkio <em>Manifestu komunista</em>k (1848) <strong>sozialismo kritiko-utopikoari</strong> egindako kritikak.</p>",
+  "obras": [
+   "Gizarte-patua (1834)",
+   "Sozialismoaren printzipioak. XIX. mendeko demokraziaren manifestua (1847)",
+   "Texasen (1855)"
+  ],
+  "anecdota": "<p>Erbestean, Considerantek Fourierren ametsa Texasen gauzatzea erabaki zuen. 1855ean, Trinity ibaiaren ondoan, Dallas hiri txikitik gertu, La Reunión kolonia sortu zuen, eta berrehun bat kolono frantses, belgikar eta suitzar iritsi ziren hara. Asko artisauak, artistak edo intelektualak ziren, eta ez zekiten lurra lantzen; lurzorua pobrea zen eta klima, gogorra. Kolonia urte gutxiren buruan desegin zen. Kolono haietako asko Dallasen geratu ziren, eta hiri bihurtzen lagundu zuten.</p>",
+  "fuente": "Considerant, Texasen; La Reunión koloniaren historia (Dallas)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
+ "dezamy": {
+  "name": "Théodore Dézamy",
+  "dates": "1808 – 1850",
+  "born": 1808,
+  "died": 1850,
+  "place": "Luçon (Frantzia)",
+  "role": "maisu eta teorialari komunista",
+  "idea": "Komunismoak arrazoian eta materialismoan oinarritu behar du, ez erlijioan: ondo antolatutako ondasunen komunitate batek alferrikako bihurtuko lituzke bizioak eta delituak.",
+  "bio": "<p>Théodore Dézamy Luçonen jaio zen, Vendéen, 1808an. Eskola-maisu izan zen bere eskualdean, eta gero zaintzaile Parisko barnetegi batean. Han errepublikanoen elkarte sekretuetan sartu zen, eta Étienne Cabeten idazkari izan zen, haren egunkarian idatziz. 1850ean hil zen, berrogeita bi urte besterik ez zituela.</p>\n<p>Dézamyk laster kritikatu zuen Cabet, haren moderazioagatik eta komunismoa kristautasunaren forma gisa aurkezteagatik, eta 1841aren amaieran harekin hautsi zuen. 1842an <em>Komunitatearen kodea</em> argitaratu zuen; bertan, xehetasunez deskribatzen du jabetza pribaturik gabeko gizarte bat, XVIII. mendeko filosofo <strong>materialista</strong> frantsesetan inspiratua. Haren ustez, <strong>komunismoak</strong> ez du fedean oinarritu beharrik, arrazoian eta giza izaeraren ezagutzan baizik. 1848ko iraultzan, Blanquirekin batera elkarte errepublikano bat sortu zuen eta hauteskundeetara aurkeztu zen. Marxek, <em>Familia santua</em> lanean (1845), Jules Gayrekin batera aipatzen du <strong>materialismoa</strong> komunismoaren oinarri logiko gisa garatu zuten komunista frantsesen artean.</p>",
+  "obras": [
+   "Lamennais jauna bere buruak gezurtatua (1841)",
+   "Komunitatearen kodea (1842)",
+   "Askatasunaren eta ongizate unibertsalaren antolaketa (1846)"
+  ],
+  "anecdota": "<p>1840ko Frantzian bilera politikoak debekatuta zeuden, baina oturuntzak ez. Horregatik, urte hartako uztailaren 1ean, Dézamyk eta Jean-Jacques Pillotek oturuntza handi bat antolatu zuten Bellevillen, garai hartan Parisko kanpoaldeko herri bat zenean. 1.200 bat lagun joan ziren, gehienak langileak. Hitzaldiak topa gisa mozorrotzen ziren, eta topa bakoitza, egiaz, hitzaldi txiki bat zen. Frantzian ekitaldi publiko bat argi eta garbi komunista gisa aurkezten zen lehen aldia izan zen, eta poliziak ondo hartu zuen antolatzaileen berri.</p>",
+  "fuente": "Bellevilleko oturuntza komunistaren kronikak (1840)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
+  ]
+ },
  "darwin": {
   "name": "Charles Darwin",
   "dates": "1809 – 1882",
@@ -2602,6 +3504,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-sospecha"
+  ]
+ },
+ "proudhon": {
+  "name": "Pierre-Joseph Proudhon",
+  "dates": "1809 – 1865",
+  "born": 1809,
+  "died": 1865,
+  "place": "Besançon (Frantzia)",
+  "role": "pentsalari sozialista eta anarkista",
+  "idea": "Besteen lanetik bizitzea ahalbidetzen duen jabetza lapurreta da; gizarte justua ekoizleen arteko akordio libreetan oinarritzen da, haiek menperatzen dituen Estaturik gabe.",
+  "bio": "<p>Pierre-Joseph Proudhon Besançonen jaio zen 1809an, familia oso apal batean. Txikitan behiak zaindu zituen, eta ikasketak utzi behar izan zituen tipografo lan egiteko; ogibide horretan bere kabuz ikasi zuen, liburuak konposatu eta zuzentzen zituen bitartean. Besançongo Akademiaren beka bati esker ikasteari eman ahal izan zion bere burua. Parisen hil zen 1865ean.</p>\n<p>1840an <em>Zer da jabetza?</em> argitaratu zuen, ospetsu egin zen erantzun batekin: «jabetza lapurreta da». Lan egin gabe errentak eta irabaziak kobratzea ahalbidetzen duen jabetzari buruz ari zen. Liburu horretan <strong>anarkista</strong> deklaratu zuen bere burua: ekoizleen arteko akordio libreetan oinarritutako gobernurik gabeko gizarte baten aldekoa, <strong>mutualismoa</strong>. Marxek lan hori goraipatu zuen <em>Familia santua</em> lanean (1845), baina gogor kritikatu zuen haren <em>Miseriaren filosofia</em> (1846), eta <em>Filosofiaren miseria</em> lanarekin (1847) erantzun zion; <em>Manifestu komunista</em>k <strong>sozialismo kontserbadore edo burges</strong> baten adibide gisa aurkezten du. 1848an diputatu hautatu zuten, eta gero hiru urte eman zituen espetxean Luis Napoleon Bonaparteren aurkako artikuluengatik. Langile-mugimenduan, batez ere anarkistan, izan zuen eragina izugarria izan zen.</p>",
+  "obras": [
+   "Zer da jabetza? (1840)",
+   "Kontraesan ekonomikoen sistema edo Miseriaren filosofia (1846)",
+   "XIX. mendeko iraultzaren ideia orokorra (1851)",
+   "Langile-klaseen gaitasun politikoaz (1865)"
+  ],
+  "anecdota": "<p>1846an, Marxek Proudhoni idatzi zion hainbat herrialdetako korrespontsal sozialisten sare batean parte hartzera gonbidatzeko. Proudhonek onartu egin zuen, baina baldintza batekin. Lyonetik erantzun zion prest zegoela gizartearen legeak elkarrekin bilatzeko, baina ez zuela nahi intolerantzia berri baten buru bihurtzerik, ez erlijio berri baten apostolu gisa aurkezterik, nahiz eta arrazoiaren erlijioa izan. Gutun hark haustura iragartzen zuen: hilabete gutxi geroago, Marxek haren liburu berriari eraso zion <em>Filosofiaren miseria</em> lanarekin.</p>",
+  "fuente": "Proudhonen gutuna Marxi (Lyon, 1846ko maiatzaren 17a)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marx-biblioteca"
   ]
  },
  "marx": {
@@ -2629,9 +3557,11 @@ const ILUSTRES = {
   "temas": [
    "hf-metodos",
    "hf-metafisica",
+   "hf-spinoza-universal",
    "hf-ilustracion",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-marx-biblioteca",
    "hf-capitalismo"
   ]
  },
@@ -2686,7 +3616,11 @@ const ILUSTRES = {
    "hf-metodos",
    "hf-platon-superficie",
    "hf-platon-agustin",
+   "hf-montaigne-ensayos",
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-posmodernidad",
@@ -2826,6 +3760,32 @@ const ILUSTRES = {
    "hf-analitica"
   ]
  },
+ "einstein": {
+  "name": "Albert Einstein",
+  "dates": "1879 – 1955",
+  "born": 1879,
+  "died": 1955,
+  "place": "Ulm (Alemania)",
+  "role": "fisikari teorikoa",
+  "idea": "Erlatibitatearen teoriaren bidez erakutsi zuen espazioa eta denbora ez direla absolutuak, behatzailearen eta materiaren eta energiaren presentziaren araberakoak baizik.",
+  "bio": "<p>Albert Einstein Ulmen jaio zen, familia judu batean, eta Zürichen ikasi zuen. Berneko patente-bulegoan lanean ari zela, fisika eraldatu zuten hainbat artikulu argitaratu zituen 1905ean. Pragan, Zürichen eta Berlinen izan zen irakasle, eta 1921eko Fisikako Nobel saria jaso zuen efektu fotoelektrikoaren azalpenagatik. 1933an, naziak boterera iritsi zirenean, Estatu Batuetara emigratu zuen, eta Princetonen lan egin zuen hil arte.</p>\n<p>Haren ekarpen handia <strong>erlatibitatearen teoria</strong> da: berezia (1905) eta orokorra (1915). Horien arabera, espazioa eta denbora ez dira absolutuak, eta grabitatea espazio-denboraren kurbadura bat da. Gai-zerrendan <strong>iraultza zientifiko</strong>aren adibide gisa agertzen da, Kuhnen zentzuan: haren fisikak Newtonen <strong>paradigma</strong> ordezkatu zuen, bi mende baino gehiagoz nagusi izan zena.</p>",
+  "obras": [
+   "Erlatibitate bereziaren teoria (1905)",
+   "Erlatibitate orokorraren teoria (1915)"
+  ],
+  "anecdota": "<p>Lau edo bost urte zituela eta gaixorik ohean zegoela, Einsteinen aitak iparrorratz bat oparitu zion. Haurra liluratuta geratu zen: orratzak beti norabide berera seinalatzen zuen, indar ikusezin batek gidatuko balu bezala, ezerk ukitu gabe. Urte asko geroago, bere ohar autobiografikoetan, une hura arrasto sakona utzi zion harridura gisa gogoratu zuen: ulertu zuen gauzen atzean «zerbait sakonki ezkutatua» egon behar zuela. Natura gobernatzen duten indar ikusezinekiko jakin-min horrek erlatibitatearen teoriaraino lagundu zion.</p>",
+  "fuente": "Einstein, Ohar autobiografikoak (1949)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas"
+  ]
+ },
  "schlick": {
   "name": "Moritz Schlick",
   "dates": "1882 – 1936",
@@ -2918,6 +3878,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-historicidad",
+   "hf-montaigne-ensayos",
    "hf-analitica"
   ]
  },
@@ -3121,6 +4082,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-montaigne-ensayos",
    "hf-capitalismo"
   ]
  },

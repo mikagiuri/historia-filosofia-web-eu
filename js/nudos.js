@@ -52,6 +52,31 @@ const NUDOS = [
     "fuente": "Agustin Hiponakoa, Gezurrari buruz (De mendacio, 395 inguruan): gezurrak sailkatzen ditu, eta zuriak ere gaitzesten ditu."
    },
    {
+    "k": "M1=D|M9=A",
+    "tipo": "real",
+    "por": "Gezurra esatea engainatzeko modu bat da. Esaten duzun guztia egia izanda ere engainatzea txarra bada, txarra ez da faltsutasuna, baizik eta besteari ez dena sinetsaraztea. Orduan, zergatik ez litzateke gezurra esatea berez txarra, beti hori bera bilatzen badu?",
+    "distinguir": "Pista: agian txarra nahasteko asmoa da, ez esaten denaren faltsutasuna. Baina orduan, ez al du asmo hori gezur zuriak ere? Pentsatu opariari buruz eman duzun erantzunarekin batera.",
+    "fuente": "Bernard Williams, Truth and Truthfulness (2002), 5. kap., gezurrari eta engainatzeko beste moduei buruz."
+   },
+   {
+    "k": "M4=A|M5=D",
+    "tipo": "aparente",
+    "por": "Talka egiten dutela dirudi: gezur zuriak balio du, eta gobernuarenak, «herritarren onerako» izanda ere, ez, nahiz eta biak bestearen onaren izenean justifikatzen diren. Baina ez da kontraesana alde esanguratsuak badaude: gezurra esaten duenaren boterea, eskala, engainatuak ezin izatea ez egiaztatu ez onartu, eta jokoan dagoena, konfiantza publikoa.",
+    "fuente": "Platon, Errepublika III (414b-415d), «gezur noblea»; Sissela Bok, Lying: Moral Choice in Public and Private Life (1978), gobernuen gezurrei buruz."
+   },
+   {
+    "k": "M6=A|M4=A",
+    "tipo": "aparente",
+    "por": "Talka egiten dutela dirudi: onartzen duzu denek komeni zaienean gezurra esango balute inork ezingo lukeela inorengan fidatu (Kanten unibertsalizazioaren premisa), baina gezur zuria onartzen duzu, eta Kantek baztertu egingo luke. Ez da kontraesana «komeni denean gezurra esatea» ez bada mugatutako kasu ezagungarrietan gezurra esatearen gauza bera, opari baten aurreko adeitasuna bezala, konfiantza suntsitzen ez dutenak.",
+    "fuente": "Kant, Ohituren metafisikaren oinarriak (1785), AA IV 422: promesa faltsuaren adibidea."
+   },
+   {
+    "k": "M6=A|M3=A",
+    "tipo": "aparente",
+    "por": "Talka egiten dutela dirudi: Kanten premisa onartzen duzu (denek komeni zaienean gezurra esango balute, inork ezingo lukeela inorengan fidatu) eta haren ondorioa baztertzen duzu (hiltzaileari ere ezin zaio gezurrik esan). Ez da kontraesana unibertsalizatzen duzun araua ez bada «komeni denean gezurra esatea», baizik eta «egia kalte egiteko erabili nahi duenari gezurra esatea», fede oneko pertsonen arteko konfiantza suntsitzen ez duena.",
+    "fuente": "Kant, «Gizakiarenganako maitasunagatik gezurra esateko ustezko eskubide bati buruz» (1797), AA VIII 425-430; Christine Korsgaard, «The Right to Lie: Kant on Dealing with Evil» (1986)."
+   },
+   {
     "k": "M2=A|M6=A",
     "tipo": "aparente",
     "por": "Talka egiten dutela dirudi («ondorioak bakarrik dira kontuan hartzekoak», gezurrik ez esateko printzipiozko arrazoi baten aurrean), baina ez da kontraesana: konfiantzari buruzko baieztapena argudio kontsekuentzialista bat da, hain zuzen. Gezurra esatearen txarra konfiantza suntsitzen duela litzateke, eta hori ondorio bat da.",

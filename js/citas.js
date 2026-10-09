@@ -876,19 +876,25 @@ const CITAS = [
   "c": "Filosofoen artean onartua den axioma hura jarriko didate aurrez: arimak ez duela zentzumenetatik ez datorren ezer. Baina arima bera eta haren afekzioak salbuetsi behar dira.",
   "a": "Leibniz",
   "o": "Giza adimenari buruzko saiakera berriak (1704; arg. 1765) II, 1, 2. §",
-  "e": "modernoa"
+  "e": "modernoa",
+  "id": "leibniz",
+  "img": "media/retratos/museo2/leibniz.jpg"
  },
  {
   "c": "Haien izatea hautemanak izatea da, eta ezin dute inolako existentziarik izan hautematen dituzten gogo edo gauza pentsatzaileetatik kanpo.",
   "a": "Berkeley",
   "o": "Giza ezagutzaren printzipioei buruzko tratatua (1710) I, 3. §",
-  "e": "modernoa"
+  "e": "modernoa",
+  "id": "berkeley",
+  "img": "media/retratos/museo2/berkeley.jpg"
  },
  {
   "c": "Argiak bere burua eta iluntasuna agerian jartzen dituen bezala, egia bere buruaren eta faltsuaren araua da.",
   "a": "Spinoza",
   "o": "Etika (1677) II, 43. proposizioa, eskolioa",
-  "e": "modernoa"
+  "e": "modernoa",
+  "id": "spinoza",
+  "img": "media/retratos/museo/spinoza.jpg"
  },
  {
   "c": "Dena ez dela esatea, edo ez dena dela esatea, faltsua da; dena dela eta ez dena ez dela esatea, egiazkoa da.",
@@ -974,13 +980,17 @@ const CITAS = [
   "c": "Hitzarmenez gozoa eta hitzarmenez mingotsa; hitzarmenez beroa, hitzarmenez hotza, hitzarmenez kolorea; baina egiaz, atomoak eta hutsa.",
   "a": "Demokrito",
   "o": "DK 68 B9 zatia (Sexto Enpirikoa, Matematikarien aurka VII, 135)",
-  "e": "antigua"
+  "e": "antigua",
+  "id": "democrito",
+  "img": "media/retratos/museo2/democrito.jpg"
  },
  {
   "c": "Hitza agintari ahaltsua da: gorputz txiki-txikiaz eta guztiz ikusezinaz egintza jainkotiarrak burutzen ditu; beldurra geldiarazi, pena kendu, poza sortu eta errukia areagotu dezake.",
   "a": "Gorgias",
   "o": "Helenaren laudorioa, 8 (DK 82 B11)",
-  "e": "antigua"
+  "e": "antigua",
+  "id": "gorgias",
+  "img": "media/retratos/museo2/gorgias.jpg"
  },
  {
   "c": "Inork ez dezala, gaztea delako, filosofatzea atzeratu, ezta, zaharra delako, filosofatzeaz nekatu ere. Arimaren osasunerako inor ez da goizegi edo beranduegi iristen.",
@@ -1001,13 +1011,16 @@ const CITAS = [
   "c": "Filosofia ez da herri-ofizio bat, ezta erakusteko egina ere; ez dago hitzetan, egintzetan baizik. […] Arima moldatu eta eraikitzen du, bizitza antolatzen du, ekintzak gidatzen ditu.",
   "a": "Seneka",
   "o": "Luziliori gutunak 16, 3",
-  "e": "antigua"
+  "e": "antigua",
+  "id": "seneca",
+  "img": "media/retratos/museo/seneca.jpg"
  },
  {
   "c": "Erlaldearentzat onuragarria ez dena ez da erlearentzat ere onuragarria.",
   "a": "Marko Aurelio",
   "o": "Gogoetak VI, 54",
-  "e": "antigua"
+  "e": "antigua",
+  "img": "media/retratos/museo/marco-aurelio.jpg"
  },
  {
   "c": "Ez zara zu hilkorra, gorputz hau baizik; ezta zure forma horrek erakusten duena ere: bakoitzaren gogoa da bakoitza, eta ez hatzaz seinala daitekeen irudi hori.",
@@ -1083,13 +1096,15 @@ const CITAS = [
   "c": "Adabakiak gara denok, eta hain ehundura itxuragabe eta askotarikoa dugu, ezen pieza bakoitzak, une bakoitzak, bere jokoa egiten baitu. Eta gu eta geu artean gu eta beste baten artean bezainbesteko aldea dago.",
   "a": "Montaigne",
   "o": "Saiakerak (1580) II, 1",
-  "e": "modernoa"
+  "e": "modernoa",
+  "img": "media/retratos/museo2/montaigne.jpg"
  },
  {
   "c": "Ez dago ezer zuzen edo bidegaberik klimaz aldatzean bere izaera aldatzen ez duenik. […] Justizia barregarria, ibai batek mugatzen duena! Egia Pirinioen alde honetan, errorea bestean.",
   "a": "Blaise Pascal",
   "o": "Pentsamenduak, 60. zatia (Lafuma arg.) / 294 (Brunschvicg arg.)",
-  "e": "modernoa"
+  "e": "modernoa",
+  "img": "media/retratos/museo2/pascal.jpg"
  },
  {
   "c": "Klase menderatzailearen ideiak dira garai bakoitzean ideia menderatzaileak; hau da, gizartearen botere material menderatzailea den klasea da, aldi berean, haren botere espiritual menderatzailea.",
@@ -1103,13 +1118,16 @@ const CITAS = [
   "c": "Jainkoaren kontzientzia gizakiaren autokontzientzia da; Jainkoaren ezagutza, gizakiak bere buruaz duen ezagutza.",
   "a": "Feuerbach",
   "o": "Kristautasunaren esentzia (1841), Sarrera, 2",
-  "e": "contemporanea"
+  "e": "contemporanea",
+  "id": "feuerbach",
+  "img": "media/retratos/museo2/feuerbach.jpg"
  },
  {
   "c": "Errukia da justizia aske ororen eta hurkoarekiko benetako maitasun ororen oinarri erreala.",
   "a": "Schopenhauer",
   "o": "Moralaren oinarriaz (1840), 16. §",
-  "e": "contemporanea"
+  "e": "contemporanea",
+  "img": "media/retratos/museo/schopenhauer.jpg"
  },
  {
   "c": "Bere buruaren gainean, bere gorputzaren eta bere gogoaren gainean, norbanakoa subiranoa da.",
@@ -1179,7 +1197,9 @@ const CITAS = [
   "c": "Poesian zuzenean aurkitzen dugu gizaki zehatza, banakoa. Filosofian, gizakia bere historia unibertsalean.",
   "a": "María Zambrano",
   "o": "Filosofia eta poesia (1939)",
-  "e": "contemporanea"
+  "e": "contemporanea",
+  "id": "zambrano",
+  "img": "media/retratos/museo/zambrano.jpg"
  },
  {
   "c": "Bidegabekeria halakoa bada, non beste baten aurkako bidegabekeriaren eragile izatea eskatzen baitizu, orduan zera diotsut: hautsi legea.",
@@ -1191,7 +1211,8 @@ const CITAS = [
   "c": "Zoritxarrekoek ez dute mundu honetan beste ezer behar, arreta jartzeko gai diren gizakiak baizik. […] Hurkoarekiko maitasunaren betetasuna, besterik gabe, hau galdetzeko gai izatean datza: «Zein da zure oinazea?».",
   "a": "Simone Weil",
   "o": "«Eskola-ikasketen erabilera onari buruzko gogoetak, Jainkoaren maitasuna lantzeko bide gisa» (1942), in Jainkoaren zain",
-  "e": "contemporanea"
+  "e": "contemporanea",
+  "img": "media/retratos/museo2/weil.jpg"
  },
  {
   "c": "Gizon guztiak aske jaiotzen badira, nola da posible emakume guztiak esklabo jaiotzea?",
