@@ -49,6 +49,7 @@
           <button data-view="glosario">Glosarioa</button>
           <button data-view="ilustres">Ospetsuak</button>
           <button data-view="citas">Esaldiak</button>
+          <button data-view="adagios">Adagioak</button>
         </div>
       </div>
       <div class="navsec">
@@ -286,6 +287,16 @@
     <div id="citasbody"></div>
   </section>
 
+  <section class="view" id="adagios">
+    <!-- (09-10) Adagios: lemas clásicos como lenguaje común, al modo de los lugares comunes del Renacimiento
+         (adagios.js + adagiosview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">Erreferentzia</p>
+    <h1 class="title">Adagioak: filosofiaren hizkuntza komuna</h1>
+    <p class="lead">Filosofoek mendeak daramatzate aipatzen goiburu latindar eta greziarrak: zer dioten, nondik datozen eta noiz erabili. Ikas itzazu Errenazimentuko ikasle baten moduan.</p>
+    <div class="filterbar" id="adagiosfilter" role="group" aria-label="Iragazi adagioak"></div>
+    <div id="adagiosbox"></div>
+  </section>
+
   <!-- TARJETAS -->
   <section class="view" id="tarjetas">
     <p class="eyebrow">Tresna</p>
@@ -450,14 +461,25 @@
         <li>Immanuel Kant, <em>Zer da Ilustrazioa?</em>: Roberto R. Aramayoren (Alianza) eta Eugenio Ímazen itzulpenak.</li>
         <li>Friedrich Nietzsche, <em>Ecce homo</em>: Andrés Sánchez Pascualen itzulpena (Alianza).</li>
         <li>Simone de Beauvoir, <em>Bigarren sexua</em>: Alicia Martorellen itzulpena (Cátedra).</li>
-        <li>Gainerako aipuak eta irakurgai laburrak domeinu publikoko itzulpenetatik datoz, egokituta.</li>
-        <li>Tesien sarea (Genealogiak): hautaketa, erreferentziak eta harremanak geuk eginak dira; tesiak, eta ez egileak, adostasunaren edo desadostasunaren arabera lotzeko ideia <em>History of Philosophy — Summarized &amp; Visualized</em> proiektutik dator (denizcemonduygu.com/philo, Deniz Cem Önduygu).</li>
+        <li>Esaldiak: aipu bakoitzak bere egilea, lana eta lekua adierazten ditu, eta hitzez hitzekoak ez direnak parafrasi, formula tradizional edo egotzitako gisa markatzen dira. Itzulpena ez da aipuz aipu identifikatzen: bertsio propioak edo egokituak dira; beraz, lan batean aipatzeko, komeni da edizio batekin alderatzea. XX. eta XXI. mendeetako egileenak aipu labur gisa ematen dira, egilearekin eta lanarekin.</li>
+        <li>Genealogiak: lerroen planoa (tradizioak, pentsalariak eta aurkakotasunak) geuk egina da, nahita gutxi gorabeherako harremanekin. Tesien sarea (Genealogiak): hautaketa, erreferentziak eta harremanak geuk eginak dira; tesiak, eta ez egileak, adostasunaren edo desadostasunaren arabera lotzeko ideia <em>History of Philosophy — Summarized &amp; Visualized</em> proiektutik dator (denizcemonduygu.com/philo, Deniz Cem Önduygu).</li>
+        <li>Adagioak: domeinu publikoko testu latindar eta grekoak; itzulpen eta iruzkin propioak. Hautaketak eta erreferentzia-zenbakiek Erasmo Rotterdamgoaren <em>Adagia</em> (1500etik 1536ra bitarteko edizioak) eta <em>Collected Works of Erasmus</em> bildumaren ingelesezko itzulpen oharduna (University of Toronto Press, 31-36. liburukiak) jarraitzen dituzte.</li>
         <li>Korapiloak eta zine-fitxak (eszena, galderak eta irakurketa-tranpa): norberak egindakoak. Erantzuten duenaren erantzunen arteko tentsioak seinalatzeko ideia <em>Philosophy Experiments</em> webgunetik dator (philosophyexperiments.com, Jeremy Stangroom).</li>
-        <li>Berridazketa: Platon, Aristoteles, Epikuro, Hobbes, Descartes, Hume, Rousseau, Kant, Mill eta Marxen zatiak jatorrizkoetatik abiatutako bertsio propioak dira, jabari publikokoak; bakoitzaren lau bertsioak lan propioa dira.</li>
-        <li>«Poetak eta filosofoak» esplorazioa (19. gaia): Kant, Hamann, Goethe, Schiller eta Friedrich Schlegelen zatiak eta <em>Idealismo alemanaren programa sistematiko zaharrena</em>-ren zatiak jatorrizko alemanetik egindako itzulpen propioak dira, jabari publikokoak.</li>
-        <li>«Marxek argitaratu nahi izan zuen liburutegia» esplorazioa (21. gaia): «Atzerriko idazle sozialista onenen liburutegia»-ren plana (Marxen koadernoa, 1845eko martxoa) eta Engelsek Marxi 1845eko martxoaren 17an idatzitako gutuna, <em>Marx-Engels Collected Works</em> bildumako 4. eta 38. liburukietan (Lawrence &amp; Wishart); Marx eta Engels, <em>Familia Santua</em> (1845) eta <em>Alderdi Komunistaren Manifestua</em> (1848). Morelly, Maréchal, Owen, Fourier, Proudhon, Marx eta Engelsen zatiak jatorrizkoetatik egindako itzulpen propioak dira, jabari publikokoak.</li>
+        <li>Berridazketa: Platon, Aristoteles, Epikuro, Hobbes, Descartes, Hume, Rousseau, Kant, Mill eta Marxen zatiak jatorrizkoetatik abiatutako bertsio propioak dira (jatorrizkoak jabari publikokoak dira); bakoitzaren lau bertsioak lan propioa dira.</li>
+        <li>«Azala eta sakontasuna» esplorazioa (6. gaia): Platonen (<em>Apologia</em> 38a; <em>Errepublika</em> VI, 510a) eta Nietzscheren (<em>Zientzia alaia</em>, hitzaurrea, 4) hitzez hitzeko aipuen itzulpena ez dago identifikatuta; Platonen gainerako pasarteak (<em>Errepublika</em> VII eta X, <em>Sofista</em>, <em>Gorgias</em>, <em>Fedro</em>, <em>Oturuntza</em>) geure hitzekin laburbiltzen dira, irakaslearen abiapuntuko testu batean oinarrituta.</li>
+        <li>«Aurreiritzia, iritzia eta axioma» esplorazioa (6. gaia): hitzez hitzeko aipurik gabe; Platonek iritziaz, zientziaz eta hipotesiez dituen tesiak geure hitzekin laburbiltzen dira.</li>
+        <li>«Platon eta San Agustin» esplorazioa (11. gaia): Hiponako Agustinen aipuen (<em>Aitorkizunak</em> I, 1; <em>Jainkoaren Hiria</em> XIV, 28) itzulpena ez dago identifikatuta; «Lau pentsalari aurrez aurre» taula irakaslearen lan propioa da, jatorriz euskaraz idatzia; gainerakoa geure hitzekin laburbiltzen da.</li>
+        <li>«Montaigne eta <em>Saiakerak</em>» esplorazioa (13. gaia): iruzkindutako zazpi testuak eta <em>Saiakeren</em> aipu laburrak Constantino Román y Salameroren gaztelaniazko itzulpenetik hartuak dira (Garnier, Paris, 1898), eta itzulpen hori jabari publikokoa da; iruzkineko bi esaldi solte, bata Montaignerena (II, 1) eta bestea Pascalena, ez datoz itzulpen horretatik, eta haien itzulpena ez dago identifikatuta.</li>
+        <li>«Simulazioa, solipsismoa eta Cogitoa» esplorazioa (14. gaia): hitzez hitzeko aipurik gabe, «pienso, luego existo» («pentsatzen dut, beraz banaiz») izan ezik, Manuel García Morenteren gaztelaniazko itzulpenean; <em>Meditazio metafisikoak</em> geure hitzekin laburbiltzen dira, irakaslearen abiapuntuko testu batean oinarrituta.</li>
+        <li>«Spinoza: filosofia sistema gisa» esplorazioa (Filosofia 1., 1. gaia; Filosofiaren Historia, 15. gaia): «Spinoza kontra…» koadroetako pasarteak (<em>Etika</em> I, eranskina; II, 35, eskolioa; III, hitzaurrea; IV, 45, eskolioa; 56. gutuna; <em>Tratatu teologiko-politikoa</em>, hitzaurrea; <em>Tratatu politikoa</em> I, 1) latinezko jatorrizkotik egindako bertsio propioak dira; Spinozaren gainerako esaldi laburren (<em>Etika</em> II, 7; IV, 67; V, 42; <em>Tratatu teologiko-politikoa</em>, 20) itzulpena ez dago identifikatuta.</li>
+        <li>Leibnizen tailerra: testuak geuk eginak dira; aipuak eta datuak hauetan egiaztatu dira: C. I. Gerhardt (arg.), <em>Die philosophischen Schriften von G. W. Leibniz</em>, VII. liburukia («kalkula dezagun»), <em>Monadologia</em> (§ 17), Joachim Bouvetek Leibnizi 1701eko azaroaren 4an idatzitako gutuna eta kalkulu-makinaren gordetako alea (Hannoverreko liburutegia).</li>
+        <li>«Arrazoien dueloa»-ren eztabaidetako irakurgaiak (Platon, Descartes, Spinoza, La Mettrie, Kant, Hegel eta Fichte): bertsio propio laburtuak, ez itzulpen literalak; komatxo arteko esaldiek pasartea laburbiltzen dute. Hautaketa eta gidak lan propioak dira.</li>
+        <li><em>Errepublikako</em> justiziari buruzko irakurgaia: I. liburua (Trasimako eta Sokrates), bertsio propio laburtuan; VII. liburuko pasartea (519e-520a), Patricio de Azcárateri egotzitako itzulpen batean, haren 1872ko edizioarekin erkatu gabe.</li>
+        <li>San Agustin, <em>Bizitza zoriontsuaz</em> (2. kap.): irakaslearen euskarazko bertsiotik abiatutako gaztelaniazko itzulpena.</li>
+        <li>«Poetak eta filosofoak» esplorazioa (19. gaia): Kant, Hamann, Goethe, Schiller eta Friedrich Schlegelen zatiak eta <em>Idealismo alemanaren programa sistematiko zaharrena</em>-ren zatiak jatorrizko alemanetik egindako itzulpen propioak dira (jatorrizkoak jabari publikokoak dira).</li>
+        <li>«Marxek argitaratu nahi izan zuen liburutegia» esplorazioa (21. gaia): «Atzerriko idazle sozialista onenen liburutegia»-ren plana (Marxen koadernoa, 1845eko martxoa) eta Engelsek Marxi 1845eko martxoaren 17an idatzitako gutuna, <em>Marx-Engels Collected Works</em> bildumako 4. eta 38. liburukietan (Lawrence &amp; Wishart); Marx eta Engels, <em>Familia Santua</em> (1845) eta <em>Alderdi Komunistaren Manifestua</em> (1848). Morelly, Maréchal, Owen, Fourier, Proudhon, Marx eta Engelsen zatiak jatorrizkoetatik egindako itzulpen propioak dira (jatorrizkoak jabari publikokoak dira).</li>
         <li>«Spinoza unibertsala» esplorazioa (15. gaia): 1656ko heremaren, Spinozaren, Kanten (<em>Zer esan nahi du pentsamenduan orientatzeak?</em>, AA VIII, 143, oharra), Schellingen, Nietzscheren eta Einsteinen zatiak jatorrizkoetatik egindako itzulpen propioak dira; pasarte bat laburbiltzen dutenak hala adierazten dira.</li>
-        <li>«Harrizko bihotza» esplorazioa (21. gaia): Schiller, Hegel, Goethe, Dickens, Balzac, Büchner, Heine eta <em>Manifestu komunistaren</em> zatiak jatorrizkoetatik egindako itzulpen propioak dira, jabari publikokoak.</li>
+        <li>«Harrizko bihotza» esplorazioa (21. gaia): Schiller, Hegel, Goethe, Dickens, Balzac, Büchner, Heine eta <em>Manifestu komunistaren</em> zatiak jatorrizkoetatik egindako itzulpen propioak dira (jatorrizkoak jabari publikokoak dira).</li>
       </ul>
       <h2>Agiri ofizialak</h2>
       <ul>
@@ -472,11 +494,15 @@
         <li>Eukeni Acebal, Areté bilduma: <em>Filosofia</em>, <em>Filosofiaren historia</em> eta <em>Preparación de la PAU</em> (CC BY-SA 4.0).</li>
         <li>Iruzkinerako eta disertaziorako gida irekiak: <em>El taller de Filosofía</em>, <em>La lechuza de Minerva</em>, <em>Suma-T</em> eta selectividadfilosofia.com.</li>
         <li>Rafael Robles irakaslearen webgunea: 2025eko azterketa-eredu bateko disertazioa, iruzkintzeko estekatuta.</li>
-        <li>«Poetak eta filosofoak» eranskinerako: Rüdiger Safranski, <em>Goethe y Schiller. Historia de una amistad</em> eta <em>Romanticismo. Una odisea del espíritu alemán</em> (Tusquets); Isaiah Berlin, <em>Las raíces del romanticismo</em> (Taurus) eta <em>El mago del norte. J. G. Hamann y el origen del irracionalismo moderno</em> (Tecnos); Frederick C. Beiser, <em>The Fate of Reason. German Philosophy from Kant to Fichte</em> (Harvard University Press); Philippe Lacoue-Labarthe eta Jean-Luc Nancy, <em>El absoluto literario. Teoría de la literatura del romanticismo alemán</em> (Eterna Cadencia); Immanuel Kant, <em>Crítica del discernimiento</em>, Roberto R. Aramayo eta Salvador Masen edizioa (Alianza).</li>
-        <li>«Spinoza unibertsala» eranskinerako: Steven Nadler, <em>Spinoza</em> (Acento, 2004); Jonathan Israel, <em>La Ilustración radical</em> (Fondo de Cultura Económica, 2012); Gilles Deleuze, <em>Spinoza: filosofía práctica</em> (Tusquets); Spinoza, <em>Etika</em>, Vidal Peñaren itzulpena (Alianza); Gabriel Albiac, <em>La sinagoga vacía</em> (Hiperión).</li>
-        <li>«Harrizko bihotza» eranskinerako: Michael Löwy eta Robert Sayre, <em>Rebelión y melancolía. El romanticismo como contracorriente de la modernidad</em> (Nueva Visión); Raymond Williams, <em>Cultura y sociedad, 1780-1950</em> (Nueva Visión); Marshall Berman, <em>Todo lo sólido se desvanece en el aire</em> (Siglo XXI).</li>
+        <li>«Simulazioa, solipsismoa eta Cogitoa» esploraziorako, hauek iruzkintzen dira: Nick Bostrom, «Are You Living in a Computer Simulation?» (<em>Philosophical Quarterly</em>, 2003), David J. Chalmers, <em>Realidad+</em> (2022), eta Hilary Putnam, <em>Razón, verdad e historia</em> (1981), 1. kap.</li>
+        <li>«Azala eta sakontasuna» esploraziorako: Byung-Chul Han, <em>La salvación de lo bello</em>, iruzkintzen da.</li>
+        <li>Pistak: ibilbideak geuk eginak dira; pista mailakatuen formatua, lausoenetik zehatzenera, bideojokoen gidetako <em>Universal Hint System</em>-etik (UHS) dator.</li>
+        <li>Logikaren txokoa: paradoxak, ariketak eta argudio klasikoak, geuk landuak; paradoxa bakoitzaren jatorria bere fitxan adierazten da.</li>
+        <li>«Poetak eta filosofoak» esploraziorako: Rüdiger Safranski, <em>Goethe y Schiller. Historia de una amistad</em> eta <em>Romanticismo. Una odisea del espíritu alemán</em> (Tusquets); Isaiah Berlin, <em>Las raíces del romanticismo</em> (Taurus) eta <em>El mago del norte. J. G. Hamann y el origen del irracionalismo moderno</em> (Tecnos); Frederick C. Beiser, <em>The Fate of Reason. German Philosophy from Kant to Fichte</em> (Harvard University Press); Philippe Lacoue-Labarthe eta Jean-Luc Nancy, <em>El absoluto literario. Teoría de la literatura del romanticismo alemán</em> (Eterna Cadencia); Immanuel Kant, <em>Crítica del discernimiento</em>, Roberto R. Aramayo eta Salvador Masen edizioa (Alianza).</li>
+        <li>«Spinoza unibertsala» esploraziorako: Steven Nadler, <em>Spinoza</em> (Acento, 2004); Jonathan Israel, <em>La Ilustración radical</em> (Fondo de Cultura Económica, 2012); Gilles Deleuze, <em>Spinoza: filosofía práctica</em> (Tusquets); Spinoza, <em>Etika</em>, Vidal Peñaren itzulpena (Alianza); Gabriel Albiac, <em>La sinagoga vacía</em> (Hiperión).</li>
+        <li>«Harrizko bihotza» esploraziorako: Michael Löwy eta Robert Sayre, <em>Rebelión y melancolía. El romanticismo como contracorriente de la modernidad</em> (Nueva Visión); Raymond Williams, <em>Cultura y sociedad, 1780-1950</em> (Nueva Visión); Marshall Berman, <em>Todo lo sólido se desvanece en el aire</em> (Siglo XXI).</li>
         <li>John Cottingham, <em>Descartes</em> (Alianza), eta Bernard Williams, <em>Descartes. El proyecto de la investigación pura</em> (Cátedra).</li>
-        <li>Gabriel Aresti BHIko gamifikazio-materiala, «Eudaimonía» jokoaren jatorrizko ideia.</li>
+        <li>Gabriel Aresti BHIko gamifikazio-materiala (Batxilergoko 2. maila): «Eudaimonía» eta «Errepublika» jokoen jatorrizko ideia eta «Eudaimonía» jokoaren karten artea.</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>Oharrak eta erreferentziak gaika</h2>
@@ -890,6 +916,7 @@
         <li>Wikimedia Commonseko eta museo eta liburutegietako artelanak eta erretratuak (Metropolitan Museum, Rijksmuseum, LACMA, Wellcome Collection, New York Public Library, Library of Congress, Walters Art Museum), domeinu publikoan edo CC0, CC BY eta CC BY-SA lizentziekin. Irudi bakoitzak bere kreditua du.</li>
         <li>«Poetak eta filosofoak» esplorazioa: Wikimedia Commonseko erretratuak, lehen edizioak, koadroak eta ikuspegiak, jabari publikoan edo CC0 eta CC BY lizentziekin; Photoglob Zürich-en 1900 inguruko fotokromoak (Library of Congress), Daniel Chodowieckiren grabatua (Rijksmuseum) eta H.-P. Haacken argazkia, <em>Lapurrak</em> lanaren lehen edizioarena.</li>
         <li>«Marxek argitaratu nahi izan zuen liburutegia» esplorazioa eta Ospetsuak: Wikimedia Commonseko erretratuak, azalak eta grabatuak, jabari publikoan edo CC0 lizentziarekin (Rijksmuseum, Paris Musées, National Library of Wales).</li>
+        <li>Adagioak: Wikimedia Commonseko margolanak, grabatuak, azalak eta mosaikoak, domeinu publikoan edo CC0 lizentziarekin (Prado Museoa, Londresko National Gallery, British Library, British Museum, Rijksmuseum, Walters Art Museum, Frantziako Liburutegi Nazionala, besteak beste); Montaigneren goiburua eta domina bat.</li>
         <li>«Spinoza unibertsala» esplorazioa: Wikimedia Commonseko erretratuak, grabatuak, azalak eta argazkiak, jabari publikoan edo CC0 lizentziarekin (Herzog August Bibliothek, Rijksmuseum, Library of Congress, besteak beste).</li>
         <li>«Harrizko bihotza» esplorazioa: Goya, Loutherbourg, Turner, Daumier, Hübner, Kollwitz eta beste batzuen lanak, eta garaiko ilustrazioak, Wikimedia Commonsetik, jabari publikoan edo CC0 lizentziarekin (Londresko National Gallery, Washingtongo National Gallery of Art, Statens Museum for Kunst, besteak beste).</li>
         <li>Unsplasheko argazkiak.</li>
@@ -967,6 +994,8 @@
 <script src="js/rescrituraview.js"></script>
 <script src="js/nudos.js"></script>
 <script src="js/nudosview.js"></script>
+<script src="js/adagios.js"></script>
+<script src="js/adagiosview.js"></script>
 <script src="js/juego_aristoteles.js"></script>
 <script src="js/aristotelesview.js"></script>
 <script src="js/platonview.js"></script>
