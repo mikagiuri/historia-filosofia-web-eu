@@ -442,17 +442,17 @@ const GEN_TESIS = {
   {
    "k": "kan-sapere|soc-examen",
    "tipo": "acuerdo",
-   "por": "Norberak pentsatzea eta norberaren bizitza aztertzea: Ilustrazioak ezer aztertu gabe ez onartzeko ideal sokratikoa berreskuratzen du."
+   "por": "Norberak pentsatzea eta norberaren bizitza aztertzea: ezer ez onartzea aztertu gabe. Kantek berak Sokratesekin alderatzen du bere burua: filosofiak ez dio arrazoimen arruntari ezer berririk irakasten, bere printzipioari erreparatzea baino ez (Oinarriak, AA IV 404). Aldea: Sokratesek besteekin solasean aztertzen du; Kantek norberaren adimena besteren gidaritzarik gabe erabiltzeko ausardia eskatzen du."
   },
   {
    "k": "des-cogito|mar-conciencia",
    "tipo": "desacuerdo",
-   "por": "Descartes mundua baino lehen bere burua ezagutzen duen kontzientzia batetik abiatzen da; Marxentzat kontzientzia baldintza material eta sozialen emaitza da."
+   "por": "Ez da eztabaida zuzena (Marxek Hegel eta Feuerbachekin eztabaidatzen du), baina abiapuntuan talka egiten dute. Descartes pentsatzen duen eta existitzen dela dakien ni batetik abiatzen da, mundua edo besteak ezagutu aurretik; Marxentzat ez dago ni isolatu hori: kontzientzia eta bere ideiak bizitza material eta sozialetik sortzen dira, giza esentzia «gizarte-harremanen multzoa» delako (Feuerbachi buruzko tesiak, VI)."
   },
   {
    "k": "mar-tesis|pla-rey",
    "tipo": "desacuerdo",
-   "por": "Platonek nahi du egia kontenplatzen duenak gobernatzea; Marxek kontenplatu eta interpretatu besterik egiten ez duen filosofia kritikatzen du: garrantzitsua eraldatzen duen praxia da."
+   "por": "Platon ere ez da interpretatzearekin konformatzen: filosofiak hiria aldatzea nahi du. Desadostasuna nork eraldatzen duen da. Platonentzat, Ongia ezagutzen duten gutxi batzuek gobernatzen dituzte besteak; Marxek baztertu egiten du gizartea dakitenen eta hezten dutenen eta hezten direnen artean banatzea, «hezitzaileak berak ere hezia izan behar duelako» (Feuerbachi buruzko tesiak, III): aldaketa langileen beren praktikaren lana da."
   },
   {
    "k": "pla-ideas|nie-fabula",
