@@ -6,12 +6,19 @@
    oposiciones clave, en rojo discontinuo. Botones para mostrar u ocultar líneas y oposiciones;
    al ocultar líneas, el plano se recoloca y se compacta. */
 const GEN_T = { lineas: "Lerroak", todas: "Guztiak", ninguna: "Bat ere ez", op: "Aurkakotasunak",
-  none: "Ez dago lerrorik aktibo: sakatu bat ikusteko.", hint: "Irristatu historian barrena ibiltzeko →" };
+  none: "Ez dago lerrorik aktibo: sakatu bat ikusteko.", hint: "Irristatu historian barrena ibiltzeko →",
+  mLineas: "Lerroen planoa", mTesis: "Tesien sarea", mVR: "Berdea ala gorria?" };   // (09-10) modos: plano, red de tesis y ejercicio (genealogias_tesisview.js)
 const GEN_EPOCAS = [["ant", "Antzinakoa"], ["med", "Erdi Arokoa"], ["ren", "Errenazimentua"], ["mod", "Modernoa"], ["ilu", "Ilustrazioa"], ["con", "Garaikidea"]];
 /* (30-09) al entrar, solo dos líneas activas (con todas a la vez el plano abruma); «Todas» sigue a un clic */
 const GEN_DEFECTO = ["idea", "dual"];
 function genDefecto(){ return new Set(typeof GENEALOGIAS === "undefined" ? [] : GENEALOGIAS.lineas.filter(l => !GEN_DEFECTO.includes(l.id)).map(l => "l:" + l.id)); }
 let genHidden = genDefecto();
+let genModo = "lineas";   // "lineas" | "tesis" | "verde-roja"
+function genModos(){
+  if (typeof GEN_TESIS === "undefined") return "";
+  return '<div class="fgroup gen-modos" role="group">' + [["lineas", GEN_T.mLineas], ["tesis", GEN_T.mTesis], ["verde-roja", GEN_T.mVR]]
+    .map(([k, l]) => '<button type="button" class="fbtn" data-gmodo="' + k + '" aria-pressed="' + (genModo === k) + '">' + l + "</button>").join("") + "</div>";
+}
 
 function genEsc(s){ return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
 function genPerson(id){ return typeof ILUSTRES !== "undefined" && ILUSTRES[id] ? ILUSTRES[id] : null; }
@@ -98,13 +105,18 @@ function genShort(n, id){
 
 function drawGenea(){
   const box = document.getElementById("geneabox"); if (!box || typeof GENEALOGIAS === "undefined") return;
+  if (genModo !== "lineas" && typeof genTesisRender === "function"){
+    box.innerHTML = genModos() + '<div id="gentesisbox" data-modo="' + genModo + '"></div>'; genTesisRender(genModo); return;
+  }
   const keep = box.querySelector(".gen-scroll"), sl = keep ? keep.scrollLeft : 0;
-  box.innerHTML = genLegend() + '<p class="gen-hint">' + GEN_T.hint + '</p><div class="gen-scroll">' + genSvg() + '</div>';
+  box.innerHTML = genModos() + genLegend() + '<p class="gen-hint">' + GEN_T.hint + '</p><div class="gen-scroll">' + genSvg() + '</div>';
   const sc = box.querySelector(".gen-scroll"); if (sc) sc.scrollLeft = sl;
 }
-/* enlace profundo #genealogias/<línea>: solo esa línea visible */
+/* enlace profundo #genealogias/<línea>: solo esa línea visible; #genealogias/tesis y #genealogias/verde-roja: los otros modos */
 function loadGenea(k){
   if (typeof GENEALOGIAS === "undefined") return;
+  if (k === "tesis" || k === "verde-roja"){ genModo = k; drawGenea(); return; }
+  genModo = "lineas";
   genHidden = new Set();
   if (k && GENEALOGIAS.lineas.some(l => l.id === k)) GENEALOGIAS.lineas.forEach(l => { if (l.id !== k) genHidden.add("l:" + l.id); });
   else genHidden = genDefecto();
@@ -112,6 +124,8 @@ function loadGenea(k){
 }
 
 document.addEventListener("click", e => {
+  const m = e.target.closest && e.target.closest("#geneabox [data-gmodo]");
+  if (m){ genModo = m.dataset.gmodo; drawGenea(); if (typeof setDeepHash === "function") setDeepHash("genealogias", genModo === "lineas" ? "" : genModo); const again = document.querySelector('#geneabox [data-gmodo="' + genModo + '"]'); if (again) again.focus(); return; }
   const b = e.target.closest && e.target.closest("#geneabox [data-gfil]");
   if (b){
     const k = b.dataset.gfil;
@@ -143,7 +157,7 @@ document.addEventListener("mouseout", e => {
   if (svg && !(e.relatedTarget && e.relatedTarget.closest && e.relatedTarget.closest("#geneabox .gen-svg"))) svg.classList.remove("gen-focus");
 });
 
-function initGenea(){ if (document.getElementById("geneabox") && !document.querySelector("#geneabox .gen-legend")) drawGenea(); }
+function initGenea(){ const b = document.getElementById("geneabox"); if (b && !b.firstChild) drawGenea(); }
 document.addEventListener("DOMContentLoaded", initGenea);
 (function(){ const nav = document.getElementById("tabs"); if (nav) nav.addEventListener("click", e => {
   const b = e.target.closest("button"); if (b && b.dataset.view === "genealogias") initGenea();

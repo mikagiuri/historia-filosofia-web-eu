@@ -536,5 +536,39 @@ const RESCRITURA_TEXTOS = [
     "porque": "Bi norabidetan dio gehiegikeriaz. Kant ez da desio huts batez ari, «gure esku dauden bitarteko guztiak» jartzen dituen borondate batez baizik. Eta ez du esaten talentuak edo zoriona txarrak direnik: alderdi askotan onak direla dio, baina ez baldintzarik gabe."
    }
   ]
+ },
+ {
+  "id": "politica",
+  "autor": "Aristoteles",
+  "obra": "<em>Politika</em>, I. liburua, 2. kapitulua (K. a. IV. mendea)",
+  "original": "Horren guztiaren ondorioz, argi dago hiria naturaz existitzen diren gauzetako bat dela, eta gizakia naturaz animalia politikoa dela. Eta naturaz, eta ez zoriz, hiritik kanpo bizi dena gizakia baino izaki apalagoa edo goragokoa da. Gizakia edozein erle edo taldean bizi den edozein animalia baino maila handiagoan animalia politikoa izatearen arrazoia argia da: naturak, esaten dugun bezala, ez du ezer alferrik egiten, eta gizakia da hitza duen animalia bakarra. Ahotsa minaren eta atseginaren zeinua da, eta horregatik dute beste animaliek ere, haien natura mina eta atsegina sentitzera eta elkarri jakinaraztera iristen baita. Baina hitza komeni dena eta kaltegarria dena adierazteko dago, baita zuzena eta bidegabea ere. Eta hau da gizakiari beste animalien aurrean dagokiona: ongiaren eta gaizkiaren, zuzenaren eta bidegabearen, eta mota horretako gainerako gauzen pertzepzioa duen bakarra izatea. Gauza horien komunitateak osatzen ditu etxea eta hiria. Komunitatean bizi ezin dena, edo bere buruarekin aski duelako ezer behar ez duena, ez da hiriko kide, piztia edo jainko bat baizik.",
+  "terminos": [
+   "hiria",
+   "animalia politikoa",
+   "hitza",
+   "natura"
+  ],
+  "versiones": [
+   {
+    "tipo": "rescritura",
+    "texto": "Aristotelesentzat, hiri batean bizitzea ez da asmakizun bat ezta itun bat ere, giza naturari dagokion zerbait baizik: animalia politikoak gara. Erleak eta talde-animaliak baino gehiago gara, eta froga da guk bakarrik dugula hitza. Gainerako animaliek ahotsa dute, eta horrekin aski dute sufriarazten edo gozarazten dien hori adierazi eta partekatzeko. Hitzak, ordea, zerbait gehiagotarako balio du: zer komeni zaigun eta zer kaltetzen gaituen, zer den zuzena eta zer bidegabea esateko. Naturak ezer ez duenez helbururik gabe ematen, hitza eman badigu, ongiaren eta justiziaren ideia hori parteka dezagun da, eta horixe da familiaren eta hiriaren jatorria. Horregatik, benetan besteekin bizitzeko gai ez dena, edo haien beharrik batere ez duena, gizatasunaren azpitik dago, piztia bat bezala, edo gainetik, jainko bat bezala.",
+    "porque": "Argudio osoari jarraitzen dio (hiria naturala da, hitzaren froga, ahotsaren eta hitzaren arteko aldea, ondorioa) beste ordena batean eta esaldi propioekin, eta «animalia politikoa», «hitza» eta «hiria» terminoak gordetzen ditu."
+   },
+   {
+    "tipo": "copia",
+    "texto": "Hiria naturaz existitzen diren gauzetako bat da, eta gizakia naturaz animalia politikoa da, edozein erle edo taldean bizi den edozein animalia baino maila handiagoan, naturak ez baitu ezer alferrik egiten eta gizakia baita hitza duen animalia bakarra. Ahotsa minaren eta atseginaren zeinua da, eta horregatik dute beste animaliek ere; baina hitza komeni dena eta kaltegarria dena adierazteko dago, baita zuzena eta bidegabea ere. Gauza horien komunitateak osatzen ditu etxea eta hiria. Komunitatean bizi ezin dena ez da hiriko kide, piztia edo jainko bat baizik.",
+    "porque": "Jatorrizkoaren esaldi osoak komaz lotzen ditu eta gainerakoak saltatzen ditu. Laburpen ona dirudi, baina ez dago esaldi propio bakar bat ere."
+   },
+   {
+    "tipo": "sinonimia",
+    "texto": "Aurreko guztitik argi ondorioztatzen da polisa berez ematen diren errealitateetako bat dela, eta giza izakia berez izaki soziala dela. Eta berez, eta ez kasualitatez, polisetik kanpo bizi dena giza izakia baino ente apalagoa edo goragokoa da. Giza izakia edozein erle edo artaldeko edozein abere baino neurri handiagoan izaki soziala izatearen zergatia nabaria da: berezko izaerak, baieztatzen dugun bezala, ez du ezer alferrikakoan egiten, eta giza izakia da mintzaira duen izaki bizidun bakarra. Soinua sufrimenduaren eta gozamenaren seinalea da, eta horregatik dute gainerako izaki bizidunek ere, haien berezko izaera sufrimendua eta gozamena hautematera eta elkarri helaraztera iristen baita. Baina mintzaira onuragarria eta kaltegarria adierazteko dago, baita bidezkoa eta bidegabekeria ere. Eta hau da giza izakiaren bereizgarria gainerako izaki bizidunen aurrean: onaren eta txarraren, bidezkoaren eta bidegabekeriaren, eta mota horretako gainerako kontuen nozioa duen bakarra izatea. Kontu horietako partaidetzak eratzen ditu etxebizitza eta polisa. Gizartean bizi ezin dena, edo autonomoa delako ezer behar ez duena, ez da polisaren partaide, basapiztia edo jainkosa bat baizik.",
+    "porque": "Testu bera, esaldiz esaldi, sinonimoekin. Eta gako-kontzeptuak hondatzen ditu: «animalia politikoa» ez da «izaki soziala» (erleak ere sozialak dira; politikoak hitza eta justizia eskatzen ditu), «natura» ez da «berezko izaera» eta «hitza» ez da edozein «mintzaira»."
+   },
+   {
+    "tipo": "malinterpretacion",
+    "texto": "Aristotelesek dio gizakiak erleak bezalakoak garela: sena dela-eta bizi gara gizartean, talde-animalia guztiak bezala. Horregatik, bakarrik bizi dena, ermitau bat bezala, goragoko izaki bat da, ia jainko bat, sen horretatik askatzea lortu duelako.",
+    "porque": "Testuak ukatzen dituen bi gauza dio. Aristotelesek gizakia erleengandik bereizten du, hain zuzen ere, hitzagatik eta justiziaren zentzuagatik; ez du haiekin berdintzen. Eta naturaz hiritik kanpo bizi dena «piztia edo jainko bat» da, ez askatu delako miresgarria den norbait."
+   }
+  ]
  }
 ];

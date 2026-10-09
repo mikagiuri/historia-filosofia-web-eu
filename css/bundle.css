@@ -1068,6 +1068,59 @@ ol.itin-temas li.temas-extra .temas-t{font-size:.95rem;color:var(--muted)}
 :root[data-theme="dark"] #genealogias{ --e-ant:#E3B23C; --e-med:#C48ABF; --e-ren:#F07A66; --e-mod:#5BC3EA; --e-ilu:#A9A2F2; --e-con:#6FCBA6; }
 :root[data-theme="dark"] #genealogias .gen-era-lbl{ fill:#111; }
 
+/* ===== (09-10) Modos y «Red de tesis» / «¿Verde o roja?» (genealogias_tesisview.js) ===== */
+#genealogias .gen-modos{ margin:4px 0 10px; }
+#genealogias{ --gt-ok:#2f8a4f; --gt-no:#d23b30; }
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) #genealogias{ --gt-ok:#6fcf8e; --gt-no:#f0796e; } }
+:root[data-theme="dark"] #genealogias{ --gt-ok:#6fcf8e; --gt-no:#f0796e; }
+#genealogias .gt-intro{ color:var(--muted); font-size:.92rem; max-width:62rem; margin:0 0 8px; }
+#genealogias .gt-filtros{ display:flex; gap:6px; flex-wrap:wrap; margin:0 0 10px; }
+#genealogias .gt-fil i{ width:18px; height:4px; border-radius:2px; }
+#genealogias .gt-acuerdo i{ background:var(--gt-ok); }
+#genealogias .gt-desacuerdo i{ background:var(--gt-no); }
+#genealogias .gt-wrap{ position:relative; display:grid; grid-template-columns:minmax(0,1fr) 170px; max-width:62rem; }
+#genealogias .gt-arcs{ width:170px; display:block; overflow:visible; }
+#genealogias .gt-arc{ fill:none; stroke-width:1.6; opacity:.55; }
+#genealogias .gt-arc.gt-acuerdo{ stroke:var(--gt-ok); }
+#genealogias .gt-arc.gt-desacuerdo{ stroke:var(--gt-no); stroke-dasharray:5 3; }
+#genealogias .gt-focus .gt-arc{ opacity:.12; }
+#genealogias .gt-focus .gt-arc.on{ opacity:1; stroke-width:2.6; }
+#genealogias .gt-autor{ border-left:4px solid var(--e-ant); padding:2px 0 6px 10px; margin:0 0 6px; }
+#genealogias .gt-autor[data-b="med"]{ border-left-color:var(--e-med); }
+#genealogias .gt-autor[data-b="ren"]{ border-left-color:var(--e-ren); }
+#genealogias .gt-autor[data-b="mod"]{ border-left-color:var(--e-mod); }
+#genealogias .gt-autor[data-b="ilu"]{ border-left-color:var(--e-ilu); }
+#genealogias .gt-autor[data-b="con"]{ border-left-color:var(--e-con); }
+#genealogias .gt-nombre{ background:none; border:0; padding:0; font:700 .95rem var(--serif); color:var(--ink); cursor:pointer; }
+#genealogias .gt-nombre:hover{ color:var(--accent); }
+#genealogias .gt-tesis{ margin:3px 0; }
+#genealogias .gt-t{ display:block; width:100%; text-align:left; background:var(--surface); border:1px solid var(--line-soft); border-radius:10px;
+  padding:6px 10px; font:inherit; font-size:.92rem; line-height:1.4; color:var(--ink); cursor:pointer; }
+#genealogias .gt-t:hover{ border-color:var(--accent-2); }
+#genealogias .gt-tesis.sel > .gt-t{ border-color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent); }
+#genealogias .gt-focus .gt-tesis:not(.sel) > .gt-t{ opacity:.6; }
+#genealogias .gt-ref{ display:block; font-size:.76rem; color:var(--muted); margin:2px 10px 0; }
+#genealogias .gt-enl{ margin:6px 0 4px 10px; padding:8px 10px; border-left:2px solid var(--line); }
+#genealogias .gt-enl ul{ list-style:none; margin:0 0 6px; padding:0; }
+#genealogias .gt-enl li{ margin:0 0 8px; }
+#genealogias .gt-enl-tit{ font-size:.74rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; margin:4px 0; }
+#genealogias .gt-enl-tit.gt-acuerdo{ color:var(--gt-ok); }
+#genealogias .gt-enl-tit.gt-desacuerdo{ color:var(--gt-no); }
+#genealogias .gt-salto{ background:none; border:0; padding:0; text-align:left; font:inherit; font-size:.9rem; color:var(--ink); cursor:pointer; }
+#genealogias .gt-salto:hover{ color:var(--accent); text-decoration:underline; }
+#genealogias .gt-por{ display:block; font-size:.86rem; color:var(--muted); line-height:1.45; margin-top:2px; }
+#genealogias .gt-vr{ display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr)); gap:10px; max-width:62rem; margin:0 0 10px; }
+#genealogias .gt-vr-t{ background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:10px 12px; }
+#genealogias .gt-vr-t p{ font-family:var(--serif); font-size:1.08rem; line-height:1.4; margin:4px 0; }
+#genealogias .gt-vr-elige{ display:flex; gap:6px; flex-wrap:wrap; margin:0 0 8px; }
+#genealogias .gt-lab{ display:block; font-weight:600; margin:6px 0 4px; }
+#genealogias .gt-razon{ width:100%; max-width:62rem; min-height:5rem; font:inherit; color:var(--ink); background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:8px; }
+#genealogias .gt-acc{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:6px 0; }
+#genealogias .gt-cnt{ font-size:.8rem; color:var(--muted); }
+#genealogias .gt-vr-res{ max-width:62rem; border-left:4px solid var(--gt-ok); background:var(--surface); border-radius:10px; padding:8px 12px; }
+#genealogias .gt-vr-res.gt-desacuerdo{ border-left-color:var(--gt-no); }
+@media (max-width:760px){ #genealogias .gt-wrap{ grid-template-columns:minmax(0,1fr); } #genealogias .gt-arcs{ display:none; } }
+
 
 /* ==== css/parejas.css ==== */
 /* ===== Parejas: juego de emparejar término ↔ definición (glosario) ===== usa tokens de styles.css ===== */
