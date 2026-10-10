@@ -8,7 +8,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Esperientzia konkretuaren aurretik balio duen baldintza edo egitura; ez du esan nahi jaiotzetiko ideia edukia denik."
+  "def": "Esperientzia konkretuaren aurretik balio duen baldintza edo egitura; ez du esan nahi jaiotzetiko ideia edukia denik.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -18,7 +21,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Gauza partikularretatik abiatuta adimenak forma edo egitura orokorra bereizteko prozesua da."
+  "def": "Gauza partikularretatik abiatuta adimenak forma edo egitura orokorra bereizteko prozesua da.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -28,7 +34,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Potentzia izateko aukera da; aktua, aukera hori gauzatuta dagoen egoera. Aldaketa bien arteko igarobide gisa ulertzen da."
+  "def": "Potentzia izateko aukera da; aktua, aukera hori gauzatuta dagoen egoera. Aldaketa bien arteko igarobide gisa ulertzen da.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -47,7 +56,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Langilea arrotz bihurtzen da bere produktuarengandik, lan-jarduerarengandik, besteengandik eta bere gaitasun sortzaileengandik."
+  "def": "Langilea arrotz bihurtzen da bere produktuarengandik, lan-jarduerarengandik, besteengandik eta bere gaitasun sortzaileengandik.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -97,7 +109,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Arrazoimenak esperientziaren mugatik kanpo mundu osoaz baieztapen kontrajarriak frogatu nahi dituenean sortzen den gatazka."
+  "def": "Arrazoimenak esperientziaren mugatik kanpo mundu osoaz baieztapen kontrajarriak frogatu nahi dituenean sortzen den gatazka.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -117,7 +132,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Agustin Hiponakoa",
-  "def": "Kristautasun goiztiarra defendatu zuten egileak dira. Fedea ez zuten soilik predikatu: arrazoien bidez azaldu nahi izan zuten, inperioaren akusazioen eta filosofia klasikoaren aurrean."
+  "def": "Kristautasun goiztiarra defendatu zuten egileak dira. Fedea ez zuten soilik predikatu: arrazoien bidez azaldu nahi izan zuten, inperioaren akusazioen eta filosofia klasikoaren aurrean.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -157,7 +175,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Jainko perfektuaren ideiak existentzia bere baitan darama: perfekzio batek ezin du existentzia falta. Beraz, Jainkoa existitzen da bere definizioz."
+  "def": "Jainko perfektuaren ideiak existentzia bere baitan darama: perfekzio batek ezin du existentzia falta. Beraz, Jainkoa existitzen da bere definizioz.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -207,7 +228,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Subjektu arrazionalak bere buruari lege unibertsal gisa eman diezaiokeen printzipioaren arabera jokatzea."
+  "def": "Subjektu arrazionalak bere buruari lege unibertsal gisa eman diezaiokeen printzipioaren arabera jokatzea.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -217,7 +241,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Gaizkia ez da beti asmo gaizto batetik sortzen; batzuetan pentsatzeari uko egitearen ondorioa da. Eichmann da adibide klasikoa: burokrazia zale, obedientzia itsua."
+  "def": "Gaizkia ez da beti asmo gaizto batetik sortzen; batzuetan pentsatzeari uko egitearen ondorioa da. Eichmann da adibide klasikoa: burokrazia zale, obedientzia itsua.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -236,7 +263,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C9",
   "tema": "Feminismoa",
-  "def": "Nussbaumentzat, gaitasunak pertsona batek benetan egin eta izan ditzakeen aukerak dira. Justizia ez da eskubideak aitortzea bakarrik; aukera horiek errealitate bihurtzeko baldintzak bermatzea ere bada."
+  "def": "Nussbaumentzat, gaitasunak pertsona batek benetan egin eta izan ditzakeen aukerak dira. Justizia ez da eskubideak aitortzea bakarrik; aukera horiek errealitate bihurtzeko baldintzak bermatzea ere bada.",
+  "ilustre": [
+   "nussbaum"
+  ]
  },
  {
   "subject": "hf",
@@ -246,7 +276,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Adimenaren kontzeptu purua; esperientziatik ez dator, baina esperientzia objektibo gisa pentsatzeko beharrezkoa da."
+  "def": "Adimenaren kontzeptu purua; esperientziatik ez dator, baina esperientzia objektibo gisa pentsatzeko beharrezkoa da.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -266,7 +299,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Ortegarengan, bizitza konkretua osatzen duten baldintza historiko, sozial, material eta pertsonalen multzoa da. Ez da dekoratua: niaren parte da."
+  "def": "Ortegarengan, bizitza konkretua osatzen duten baldintza historiko, sozial, material eta pertsonalen multzoa da. Ez da dekoratua: niaren parte da.",
+  "ilustre": [
+   "ortega"
+  ]
  },
  {
   "subject": "hf",
@@ -284,7 +320,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A9",
   "tema": "Politika klasikoa",
-  "def": "Aristotelesentzat polisaren egonkortasuna indartzen duen talde soziala da, muturreko interesak leuntzen dituelako."
+  "def": "Aristotelesentzat polisaren egonkortasuna indartzen duen talde soziala da, muturreko interesak leuntzen dituelako.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -294,7 +333,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "\"Pentsatzen dut; beraz, banaiz\" formulak adierazten duen lehen ziurtasuna: zalantzan ari den subjektua ezin da bere pentsatzea ukatuz desegin."
+  "def": "\"Pentsatzen dut; beraz, banaiz\" formulak adierazten duen lehen ziurtasuna: zalantzan ari den subjektua ezin da bere pentsatzea ukatuz desegin.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -304,7 +346,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Agustin Hiponakoa",
-  "def": "Agustinentzat fedeak eta arrazoimenak elkar bultzatzen dute: arrazoiak bilatzen du, fedeak orientatzen du, eta arrazoiak berriro sakontzen du."
+  "def": "Agustinentzat fedeak eta arrazoimenak elkar bultzatzen dute: arrazoiak bilatzen du, fedeak orientatzen du, eta arrazoiak berriro sakontzen du.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -324,7 +369,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C10",
   "tema": "XXI. mendeko erronkak",
-  "def": "Kontsumoa beharrak asetzeko jarduera izatetik identitatea, prestigioa eta desira antolatzeko logika sozial bihurtzen denean agertzen da. Kleinen kritikan, markek eta publizitateak botere ekonomiko hori naturalizatzen dute."
+  "def": "Kontsumoa beharrak asetzeko jarduera izatetik identitatea, prestigioa eta desira antolatzeko logika sozial bihurtzen denean agertzen da. Kleinen kritikan, markek eta publizitateak botere ekonomiko hori naturalizatzen dute.",
+  "ilustre": [
+   "klein"
+  ]
  },
  {
   "subject": "hf",
@@ -353,7 +401,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Agustin Hiponakoa",
-  "def": "Agustinengan ez da iritzi aldaketa hutsa. Bizitzaren norabide osoa berrantolatzea da: egia, borondatea eta Jainkoaren bilaketa elkarrekin lotzen dira."
+  "def": "Agustinengan ez da iritzi aldaketa hutsa. Bizitzaren norabide osoa berrantolatzea da: egia, borondatea eta Jainkoaren bilaketa elkarrekin lotzen dira.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -363,7 +414,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Gizakiak ez dira estatu baten kide hutsak; mundu komun batean eskubide eta betebehar partekatuak dituzte."
+  "def": "Gizakiak ez dira estatu baten kide hutsak; mundu komun batean eskubide eta betebehar partekatuak dituzte.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -383,7 +437,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B4",
   "tema": "Arrazionalismoa eta enpirismoa",
-  "def": "Kantengan, arrazoimenaren ahalmena eta mugak aztertzen dituen jarrera; dogmatismoa eta eszeptizismoa gainditu nahi ditu."
+  "def": "Kantengan, arrazoimenaren ahalmena eta mugak aztertzen dituen jarrera; dogmatismoa eta eszeptizismoa gainditu nahi ditu.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -393,7 +450,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Arrazoimenaren ahalmena, muga eta erabilera legitimoak aztertzea; ez suntsiketa hutsa, baizik eta epai arduratsua."
+  "def": "Arrazoimenaren ahalmena, muga eta erabilera legitimoak aztertzea; ez suntsiketa hutsa, baizik eta epai arduratsua.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -402,7 +462,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Ideiak, legeak eta instituzioak beren baldintza ekonomiko eta historikoekin lotuta aztertzea."
+  "def": "Ideiak, legeak eta instituzioak beren baldintza ekonomiko eta historikoekin lotuta aztertzea.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -411,7 +474,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "XIX. mendeko pentsamendua",
-  "def": "Darwinen azalpen biologikoa gizarte-desberdintasuna, kolonialismoa edo lehia ekonomiko basatia justifikatzeko erabiltzen duen ideologia da."
+  "def": "Darwinen azalpen biologikoa gizarte-desberdintasuna, kolonialismoa edo lehia ekonomiko basatia justifikatzeko erabiltzen duen ideologia da.",
+  "ilustre": [
+   "darwin"
+  ]
  },
  {
   "subject": "hf",
@@ -421,7 +487,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Heideggerrek erabiltzen duen terminoak gizakia izendatzen du, baina ez objektu biologiko huts gisa: bere izateaz galde dezakeen eta munduan kokaturik dagoen izakia da."
+  "def": "Heideggerrek erabiltzen duen terminoak gizakia izendatzen du, baina ez objektu biologiko huts gisa: bere izateaz galde dezakeen eta munduan kokaturik dagoen izakia da.",
+  "ilustre": [
+   "heidegger"
+  ]
  },
  {
   "subject": "hf",
@@ -431,7 +500,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Lege moralarekiko errespetuagatik jokatzea; ez soilik arauarekin bat etortzea, baizik eta motibazio moral egokia izatea."
+  "def": "Lege moralarekiko errespetuagatik jokatzea; ez soilik arauarekin bat etortzea, baizik eta motibazio moral egokia izatea.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -449,7 +521,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A9",
   "tema": "Politika klasikoa",
-  "def": "Platonek deskribatzen duen kate politikoa da: aristokraziatik timokraziara, oligarkiara, demokraziara eta tiraniara."
+  "def": "Platonek deskribatzen duen kate politikoa da: aristokraziatik timokraziara, oligarkiara, demokraziara eta tiraniara.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -459,7 +534,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B6",
   "tema": "Gizartea eta boterea",
-  "def": "Estatua baino lehen pertsonari dagozkion eskubideak; Lockeren kasuan, bizitza, askatasuna eta jabetza."
+  "def": "Estatua baino lehen pertsonari dagozkion eskubideak; Lockeren kasuan, bizitza, askatasuna eta jabetza.",
+  "ilustre": [
+   "locke"
+  ]
  },
  {
   "subject": "hf",
@@ -496,7 +574,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C9",
   "tema": "Feminismoa",
-  "def": "Butlerren proposamena da genero-kategoria bitarrak naturalak balira bezala ez onartzea, baizik eta haien izaera performatiboa eta historikoa agerian uztea."
+  "def": "Butlerren proposamena da genero-kategoria bitarrak naturalak balira bezala ez onartzea, baizik eta haien izaera performatiboa eta historikoa agerian uztea.",
+  "ilustre": [
+   "butler"
+  ]
  },
  {
   "subject": "hf",
@@ -515,7 +596,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BS",
   "tema": "Spinoza",
-  "def": "\"Jainkoa edo Natura\": Spinozaren formula nagusia. Substantzia bakarra dago, eta gauza guztiak haren modu edo adierazpenak dira."
+  "def": "\"Jainkoa edo Natura\": Spinozaren formula nagusia. Substantzia bakarra dago, eta gauza guztiak haren modu edo adierazpenak dira.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -535,7 +619,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Kontraesan historikoak baldintza materialetan kokatzea: lana, jabetza, ekoizpena eta klase-harremanak."
+  "def": "Kontraesan historikoak baldintza materialetan kokatzea: lana, jabetza, ekoizpena eta klase-harremanak.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -545,7 +632,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Adornoren proposamenean, pentsamenduak ez du errealitatea formula baketsu batean ixteko presarik izan behar. Kontzeptuek guztiz harrapatzen ez dutena entzuten saiatzen da."
+  "def": "Adornoren proposamenean, pentsamenduak ez du errealitatea formula baketsu batean ixteko presarik izan behar. Kontzeptuek guztiz harrapatzen ez dutena entzuten saiatzen da.",
+  "ilustre": [
+   "adorno"
+  ]
  },
  {
   "subject": "hf",
@@ -555,7 +645,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "Postmodernitatea",
-  "def": "Derridaren kontzeptuak adierazten du esanahia ez dela inoiz guztiz presente egoten, baizik eta diferentzia eta atzerapen jokoan beti geratzen dela. Zentzua ez da metafisikoki finkatzen."
+  "def": "Derridaren kontzeptuak adierazten du esanahia ez dela inoiz guztiz presente egoten, baizik eta diferentzia eta atzerapen jokoan beti geratzen dela. Zentzua ez da metafisikoki finkatzen.",
+  "ilustre": [
+   "derrida"
+  ]
  },
  {
   "subject": "hf",
@@ -565,7 +658,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Pertsonaren balio absolutua; ez da prezioa, erabilgarritasuna edo ordezkagarritasuna."
+  "def": "Pertsonaren balio absolutua; ez da prezioa, erabilgarritasuna edo ordezkagarritasuna.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -575,7 +671,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Errenazimentua eta zientzia",
-  "def": "Gizakiaren duintasuna: Errenazimentuko humanismoak (Pico della Mirandola) defendatu zuen gizakiak ez duela izaera finkorik, bere burua askatasunez eraikitzeko gai den izakia dela."
+  "def": "Gizakiaren duintasuna: Errenazimentuko humanismoak (Pico della Mirandola) defendatu zuen gizakiak ez duela izaera finkorik, bere burua askatasunez eraikitzeko gai den izakia dela.",
+  "ilustre": [
+   "pico"
+  ]
  },
  {
   "subject": "hf",
@@ -593,7 +692,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C9",
   "tema": "Feminismoa",
-  "def": "Tradizio feministak sexua datu biologiko gisa eta generoa eraikuntza kultural gisa bereizi izan ditu. Butlerrek bereizketa hori problematizatzen du, sexua bera ere arau sozialen bidez eraikitzen dela argudiatuz."
+  "def": "Tradizio feministak sexua datu biologiko gisa eta generoa eraikuntza kultural gisa bereizi izan ditu. Butlerrek bereizketa hori problematizatzen du, sexua bera ere arau sozialen bidez eraikitzen dela argudiatuz.",
+  "ilustre": [
+   "butler"
+  ]
  },
  {
   "subject": "hf",
@@ -603,7 +705,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Iritzia edo uste arrunta da. Zentzumenen eta itxuren eremuan mugitzen da, eta ez du episteme-ren sendotasuna."
+  "def": "Iritzia edo uste arrunta da. Zentzumenen eta itxuren eremuan mugitzen da, eta ez du episteme-ren sendotasuna.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -623,7 +728,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Errealitatea bi mailatan bereiztea da: mundu sentikor aldakorra eta Ideien mundu inteligible eta aldaezina."
+  "def": "Errealitatea bi mailatan bereiztea da: mundu sentikor aldakorra eta Ideien mundu inteligible eta aldaezina.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -633,7 +741,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Ziurtasun sendoa aurkitzeko erabiltzen den zalantza sistematikoa da; ez du ezagutza suntsitu nahi, baizik eta oinarri segurua bilatu."
+  "def": "Ziurtasun sendoa aurkitzeko erabiltzen den zalantza sistematikoa da; ez du ezagutza suntsitu nahi, baizik eta oinarri segurua bilatu.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -662,7 +773,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Camusentzat, gizakiak zentzu, ordena eta argitasuna nahi ditu, baina munduak ez du eskakizun hori automatikoki asetzen. Bien arteko talkatik sortzen da absurdua."
+  "def": "Camusentzat, gizakiak zentzu, ordena eta argitasuna nahi ditu, baina munduak ez du eskakizun hori automatikoki asetzen. Bien arteko talkatik sortzen da absurdua.",
+  "ilustre": [
+   "camus"
+  ]
  },
  {
   "subject": "hf",
@@ -671,7 +785,11 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "XIX. mendeko pentsamendua",
-  "def": "Hegelen dialektika ospetsua: bi autokontzientziaren arteko aitortza-borroka. Morroiak, lanaren bidez, askatasunerako bidea irekitzen du; eragin handia Marxengan eta existentzialismoan."
+  "def": "Hegelen dialektika ospetsua: bi autokontzientziaren arteko aitortza-borroka. Morroiak, lanaren bidez, askatasunerako bidea irekitzen du; eragin handia Marxengan eta existentzialismoan.",
+  "ilustre": [
+   "hegel",
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -680,7 +798,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Ideien hierarkiaren gailurra da. Ezagutza eta izatea argitzen dituen printzipio gorena da, kobazuloaren alegorian eguzkiaren bidez irudikatua."
+  "def": "Ideien hierarkiaren gailurra da. Ezagutza eta izatea argitzen dituen printzipio gorena da, kobazuloaren alegorian eguzkiaren bidez irudikatua.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -699,7 +820,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BAV",
   "tema": "Avizena",
-  "def": "al-Qanun fi al-Tibb. Avicenaren mediku-entziklopedia, mendeetan zehar Europako eta mundu islamikoaren erreferentziazko testuliburua izan zena."
+  "def": "al-Qanun fi al-Tibb. Avicenaren mediku-entziklopedia, mendeetan zehar Europako eta mundu islamikoaren erreferentziazko testuliburua izan zena.",
+  "ilustre": [
+   "avicena"
+  ]
  },
  {
   "subject": "hf",
@@ -718,7 +842,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Beauvoirrek kritikatzen duen ideia da: emakumeak bere patua biologikoak edo tradizio sozialak erabakita duela. Haren ustez, patu hori eraikuntza historikoa da, eta askatasunak hautsi dezake."
+  "def": "Beauvoirrek kritikatzen duen ideia da: emakumeak bere patua biologikoak edo tradizio sozialak erabakita duela. Haren ustez, patu hori eraikuntza historikoa da, eta askatasunak hautsi dezake.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -727,7 +854,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "XIX. mendeko pentsamendua",
-  "def": "Espiritu objektiboaren gailurra: askatasun arrazionala erakunde komunean gauzatzen den eremua, familia eta gizarte zibilaren gainetik."
+  "def": "Espiritu objektiboaren gailurra: askatasun arrazionala erakunde komunean gauzatzen den eremua, familia eta gizarte zibilaren gainetik.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -737,7 +867,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Zalantza muturrera eramateko hipotesia da: subjektuak pentsatzen duen guztia engainagarria balitz ere, zalantzan ari den subjektua bera ezin da ezabatu."
+  "def": "Zalantza muturrera eramateko hipotesia da: subjektuak pentsatzen duen guztia engainagarria balitz ere, zalantzan ari den subjektua bera ezin da ezabatu.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -746,7 +879,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BAV",
   "tema": "Avizena",
-  "def": "Avicenaren buruko esperimentua: arimaren autokontzientzia gorputzaren pertzepziotik independientea dela frogatzeko argudioa."
+  "def": "Avicenaren buruko esperimentua: arimaren autokontzientzia gorputzaren pertzepziotik independientea dela frogatzeko argudioa.",
+  "ilustre": [
+   "avicena"
+  ]
  },
  {
   "subject": "hf",
@@ -756,7 +892,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Aristotelesek Atenasen sortutako eskola da. Ikerketa sistematikoa, sailkapena, behaketa eta arrazoibide logikoa uztartzen zituen."
+  "def": "Aristotelesek Atenasen sortutako eskola da. Ikerketa sistematikoa, sailkapena, behaketa eta arrazoibide logikoa uztartzen zituen.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -775,7 +914,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Gizaki arrunten egoera sinbolizatzen duen alegoria: itxuretan (itzaletan) bizi dira, askatu arte. Igoera dialektikoaren eta hezkuntzaren irudia da."
+  "def": "Gizaki arrunten egoera sinbolizatzen duen alegoria: itxuretan (itzaletan) bizi dira, askatu arte. Igoera dialektikoaren eta hezkuntzaren irudia da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -784,7 +926,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Amatasuna sarritan emakumearen helburu natural gisa aurkezten da; Beauvoirrek erakusten du mito horrek zainketa-lanaren banaketa desorekatua naturalizatzen duela."
+  "def": "Amatasuna sarritan emakumearen helburu natural gisa aurkezten da; Beauvoirrek erakusten du mito horrek zainketa-lanaren banaketa desorekatua naturalizatzen duela.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -804,7 +949,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Indukzioa justifikatzeko zailtasuna: zerbait beti gertatu izanak ez du logikoki bermatzen gertatzen jarraituko duenik. Humerentzat, itxaropen hori ez du arrazoiak oinarritzen, ohiturak baizik."
+  "def": "Indukzioa justifikatzeko zailtasuna: zerbait beti gertatu izanak ez du logikoki bermatzen gertatzen jarraituko duenik. Humerentzat, itxaropen hori ez du arrazoiak oinarritzen, ohiturak baizik.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -813,7 +961,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Platonen dualismoak galdera bat uzten du: Ideien mundua eta gauza sentikorrak nola lotzen dira? Aristotelesek formak gauzetan bertan kokatuz erantzuten dio."
+  "def": "Platonen dualismoak galdera bat uzten du: Ideien mundua eta gauza sentikorrak nola lotzen dira? Aristotelesek formak gauzetan bertan kokatuz erantzuten dio.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -822,7 +973,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Aristotelesek kritikatzen du formak gauzetatik aparte kokatzea; horrek errealitatea bikoizten duela uste du."
+  "def": "Aristotelesek kritikatzen du formak gauzetatik aparte kokatzea; horrek errealitatea bikoizten duela uste du.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -831,7 +985,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BT",
   "tema": "Tomas Akinokoa",
-  "def": "Tomasen metafisikan funtsezko ardatza; izaki finitek parte hartzen duten errealitate-maila ulertzeko giltza."
+  "def": "Tomasen metafisikan funtsezko ardatza; izaki finitek parte hartzen duten errealitate-maila ulertzeko giltza.",
+  "ilustre": [
+   "tomas"
+  ]
  },
  {
   "subject": "hf",
@@ -840,7 +997,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "Bakarra, etengabea, osoa, aldaezina, betierekoa. Zentzumenek ematen duten aldaketa itxura hutsa da. Arrazoimenaren bidez bakarrik ezagutzen da."
+  "def": "Bakarra, etengabea, osoa, aldaezina, betierekoa. Zentzumenek ematen duten aldaketa itxura hutsa da. Arrazoimenaren bidez bakarrik ezagutzen da.",
+  "ilustre": [
+   "parmenides"
+  ]
  },
  {
   "subject": "hf",
@@ -849,7 +1009,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BAV",
   "tema": "Avizena",
-  "def": "Bere existentzia bere esentziarekin bat datorren izakia. Avicenarentzat, izaki kontingenteen kateak eskatzen du lehen oinarri hau."
+  "def": "Bere existentzia bere esentziarekin bat datorren izakia. Avicenarentzat, izaki kontingenteen kateak eskatzen du lehen oinarri hau.",
+  "ilustre": [
+   "avicena"
+  ]
  },
  {
   "subject": "hf",
@@ -858,7 +1021,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Ideien teoriari egindako kritika da: gauza eta Ideia antzekoak badira, haien antzekotasuna azaltzeko beste Ideia bat beharko litzateke, eta horrek erregresio amaigabea sortuko luke."
+  "def": "Ideien teoriari egindako kritika da: gauza eta Ideia antzekoak badira, haien antzekotasuna azaltzeko beste Ideia bat beharko litzateke, eta horrek erregresio amaigabea sortuko luke.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -867,7 +1033,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "Atomistentzat mugimendua ahalbidetzen duen espazio ez-betea da. Parmenidesen aurrean, hutsaren onarpena urrats erabakigarria da."
+  "def": "Atomistentzat mugimendua ahalbidetzen duen espazio ez-betea da. Parmenidesen aurrean, hutsaren onarpena urrats erabakigarria da.",
+  "ilustre": [
+   "parmenides"
+  ]
  },
  {
   "subject": "hf",
@@ -876,7 +1045,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Benjaminen irudia: aurrerapena ez da hobekuntza lasaia, hondamendien metaketa baizik; aingeruak iraganari begiratu nahi dio, baina \"aurrerapenaren\" ekaitzak aurrera bultzatzen du."
+  "def": "Benjaminen irudia: aurrerapena ez da hobekuntza lasaia, hondamendien metaketa baizik; aingeruak iraganari begiratu nahi dio, baina \"aurrerapenaren\" ekaitzak aurrera bultzatzen du.",
+  "ilustre": [
+   "benjamin"
+  ]
  },
  {
   "subject": "hf",
@@ -886,7 +1058,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Hume: epai moralak ez datoz arrazoimenetik, sentimendutik baizik. «Ona» edo «gaizkia» esatean, onespen edo gaitzespen-sentimendu bat adierazten dugu, ez gertaera objektibo bat."
+  "def": "Hume: epai moralak ez datoz arrazoimenetik, sentimendutik baizik. «Ona» edo «gaizkia» esatean, onespen edo gaitzespen-sentimendu bat adierazten dugu, ez gertaera objektibo bat.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -906,7 +1081,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Benetako ezagutza da. Arrazoimenak Ideiak eta haien arteko loturak ulertzen dituenean lortzen da."
+  "def": "Benetako ezagutza da. Arrazoimenak Ideiak eta haien arteko loturak ulertzen dituenean lortzen da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -925,7 +1103,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BT",
   "tema": "Tomas Akinokoa",
-  "def": "Erdi Aroko unibertsitateetan garatutako pentsamendu-metodoa da: galdera, argudio, aurkako iritzi eta erantzun sistematikoen bidez egia bilatzen du."
+  "def": "Erdi Aroko unibertsitateetan garatutako pentsamendu-metodoa da: galdera, argudio, aurkako iritzi eta erantzun sistematikoen bidez egia bilatzen du.",
+  "ilustre": [
+   "tomas"
+  ]
  },
  {
   "subject": "hf",
@@ -943,7 +1124,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Eztabaida politikorako eta ekintzarako lekua, non herritarrek hitz egiten duten eta elkarri entzuten dioten. Boterea bertan sortzen da."
+  "def": "Eztabaida politikorako eta ekintzarako lekua, non herritarrek hitz egiten duten eta elkarri entzuten dioten. Boterea bertan sortzen da.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -953,7 +1137,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "XIX. mendeko pentsamendua",
-  "def": "Hegelen sisteman askatasuna erakundeetan gauzatzen den maila da: zuzenbidea, moralitatea, familia, gizarte zibila eta Estatua."
+  "def": "Hegelen sisteman askatasuna erakundeetan gauzatzen den maila da: zuzenbidea, moralitatea, familia, gizarte zibila eta Estatua.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -963,7 +1150,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Kategoriak denboraren bidez fenomenoei aplikatzeko bitartekoa; kontzeptu hutsa eta intuizio sentikorra lotzen ditu."
+  "def": "Kategoriak denboraren bidez fenomenoei aplikatzeko bitartekoa; kontzeptu hutsa eta intuizio sentikorra lotzen ditu.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -992,7 +1182,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Hizkuntza eta Zientzia",
-  "def": "Teoria bat zientifikoa da, baldin eta gertaera posible batzuek gezurtatzeko aukera ematen badute. Popperren zientzia-irizpide nagusia da."
+  "def": "Teoria bat zientifikoa da, baldin eta gertaera posible batzuek gezurtatzeko aukera ematen badute. Popperren zientzia-irizpide nagusia da.",
+  "ilustre": [
+   "popper"
+  ]
  },
  {
   "subject": "hf",
@@ -1021,7 +1214,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Gauzez dakigun guztia haiek agertzen zaizkigun moduari (fenomenoei) dagokio; agerpenen atzean zer dagoen ezin dugu ezagutu."
+  "def": "Gauzez dakigun guztia haiek agertzen zaizkigun moduari (fenomenoei) dagokio; agerpenen atzean zer dagoen ezin dugu ezagutu.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1031,7 +1227,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Esperientzian agertzen zaigun errealitatea, sentikortasunaren eta adimenaren baldintzek egituratua."
+  "def": "Esperientzian agertzen zaigun errealitatea, sentikortasunaren eta adimenaren baldintzek egituratua.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1041,7 +1240,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Pertsonen arteko lan- eta botere-harremanak gauzen arteko harreman natural moduan agertzen direnean gertatzen da."
+  "def": "Pertsonen arteko lan- eta botere-harremanak gauzen arteko harreman natural moduan agertzen direnean gertatzen da.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1051,7 +1253,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Balio moralak jatorri historiko, afektibo eta boterezkoen arabera aztertzeko metodo kritikoa da."
+  "def": "Balio moralak jatorri historiko, afektibo eta boterezkoen arabera aztertzeko metodo kritikoa da.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1099,7 +1304,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Ni iraunkorra substantzia bakar gisa ulertu beharrean, pertzepzio eta esperientzia aldakorren multzo gisa ulertzeko joera da."
+  "def": "Ni iraunkorra substantzia bakar gisa ulertu beharrean, pertzepzio eta esperientzia aldakorren multzo gisa ulertzeko joera da.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1139,7 +1347,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Izaki konkretuak materiaz eta formaz osatuta daudela dioen teoria da. Forma ez dago gauzetatik kanpo; gauzaren egitura bera da."
+  "def": "Izaki konkretuak materiaz eta formaz osatuta daudela dioen teoria da. Forma ez dago gauzetatik kanpo; gauzaren egitura bera da.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -1178,7 +1389,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "Anaxagorasen arabera, errealitatea osatzen duten hazi edo zati infinituki txikiak, bakoitzak gauza guztien zerbait daukana. Nous-ak (adimenak) antolatzen ditu hasierako nahastetik mundua sortzeko."
+  "def": "Anaxagorasen arabera, errealitatea osatzen duten hazi edo zati infinituki txikiak, bakoitzak gauza guztien zerbait daukana. Nous-ak (adimenak) antolatzen ditu hasierako nahastetik mundua sortzeko.",
+  "ilustre": [
+   "anaxagoras"
+  ]
  },
  {
   "subject": "hf",
@@ -1207,7 +1421,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Gertakari batzuk behin eta berriz batera ikusi ondoren sortzen den igurikapena da. Humerentzat, kausalitatearen sinesmen praktikoa ohituratik dator."
+  "def": "Gertakari batzuk behin eta berriz batera ikusi ondoren sortzen den igurikapena da. Humerentzat, kausalitatearen sinesmen praktikoa ohituratik dator.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1216,7 +1433,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Ez da ezagutza teorikoaren objektua, baina pentsamendua eta ikerketa orientatzeko balio du."
+  "def": "Ez da ezagutza teorikoaren objektua, baina pentsamendua eta ikerketa orientatzeko balio du.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1226,7 +1446,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Adimenari nahasmendurik gabe eta ebidentziaz aurkezten zaizkion ideiak dira; Descartesentzat egia-irizpidearen nukleoa osatzen dute."
+  "def": "Adimenari nahasmendurik gabe eta ebidentziaz aurkezten zaizkion ideiak dira; Descartesentzat egia-irizpidearen nukleoa osatzen dute.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1236,7 +1459,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Harreman historiko eta sozialak naturalak, bidezkoak edo aldaezinak balira bezala aurkezten dituen kontzientzia-forma."
+  "def": "Harreman historiko eta sozialak naturalak, bidezkoak edo aldaezinak balira bezala aurkezten dituen kontzientzia-forma.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1265,7 +1491,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Esperientziako pertzepzio bizi eta indartsua da: ikustea, entzutea, sentitzea, mina edo plazera. Ideiak inpresioen kopia ahulagoak dira."
+  "def": "Esperientziako pertzepzio bizi eta indartsua da: ikustea, entzutea, sentitzea, mina edo plazera. Ideiak inpresioen kopia ahulagoak dira.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1295,7 +1524,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Oinarri ekonomikoaren eta haren gainean eraikitzen diren forma juridiko, politiko eta kulturalen arteko lotura."
+  "def": "Oinarri ekonomikoaren eta haren gainean eraikitzen diren forma juridiko, politiko eta kulturalen arteko lotura.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1305,7 +1537,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BL",
   "tema": "Locke",
-  "def": "Berkeleyren tesia: materia ez da existitzen substantzia independiente gisa; existitzen dena hautematen diren ideiak eta haiek hautematen dituzten gogoak dira. Bere printzipioa «esse est percipi» da («izatea hautemana izatea da»). Enpirismoaren ondorio erradikala."
+  "def": "Berkeleyren tesia: materia ez da existitzen substantzia independiente gisa; existitzen dena hautematen diren ideiak eta haiek hautematen dituzten gogoak dira. Bere printzipioa «esse est percipi» da («izatea hautemana izatea da»). Enpirismoaren ondorio erradikala.",
+  "ilustre": [
+   "locke",
+   "berkeley"
+  ]
  },
  {
   "subject": "hf",
@@ -1315,7 +1551,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Ideia eta printzipio batzuk adimenak berak ditu jaiotzetik, esperientziatik kanpo. Arrazionalismoaren oinarria; Platonen anamnesiarekin lotura du."
+  "def": "Ideia eta printzipio batzuk adimenak berak ditu jaiotzetik, esperientziatik kanpo. Arrazionalismoaren oinarria; Platonen anamnesiarekin lotura du.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1325,7 +1564,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sofistak, Aspasia eta Sokrates",
-  "def": "Sokratesen arabera, ongia benetan ezagutzen duenak ez luke nahita gaizki jokatuko. Gaitzaren erroa ezjakintasuna da."
+  "def": "Sokratesen arabera, ongia benetan ezagutzen duenak ez luke nahita gaizki jokatuko. Gaitzaren erroa ezjakintasuna da.",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1345,7 +1587,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Agustin Hiponakoa",
-  "def": "Egiaren bilaketan subjektuaren barne-esperientziara jotzea da, baina norberaren iritzi hutsetan gelditu gabe."
+  "def": "Egiaren bilaketan subjektuaren barne-esperientziara jotzea da, baina norberaren iritzi hutsetan gelditu gabe.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -1365,7 +1610,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Espazioa eta denbora: sentikortasunak fenomenoak jasotzeko dituen forma a prioriak."
+  "def": "Espazioa eta denbora: sentikortasunak fenomenoak jasotzeko dituen forma a prioriak.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1375,7 +1623,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sofistak, Aspasia eta Sokrates",
-  "def": "Sokratesek ez dakiela aitortzen du eta solaskidearen uste sendoak proban jartzen ditu."
+  "def": "Sokratesek ez dakiela aitortzen du eta solaskidearen uste sendoak proban jartzen ditu.",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1395,7 +1646,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Hizkuntza eta Zientzia",
-  "def": "Lehen Wittgensteinen arabera, hizkuntzaren egitura logikoak eta munduko gertakarien egiturak forma bera parteka dezaketela dioen ideia da. Horrela, hizkuntza munduaren irudi logikoa da."
+  "def": "Lehen Wittgensteinen arabera, hizkuntzaren egitura logikoak eta munduko gertakarien egiturak forma bera parteka dezaketela dioen ideia da. Horrela, hizkuntza munduaren irudi logikoa da.",
+  "ilustre": [
+   "wittgenstein"
+  ]
  },
  {
   "subject": "hf",
@@ -1414,7 +1668,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Hizkuntza eta Zientzia",
-  "def": "Hizkuntzaren erabilera testuinguru jakin batean, bere arau propioekin. Bigarren Wittgensteinen arabera, esanahia erabilerarekin lotzen da, ez erreferentzia finko batekin."
+  "def": "Hizkuntzaren erabilera testuinguru jakin batean, bere arau propioekin. Bigarren Wittgensteinen arabera, esanahia erabilerarekin lotzen da, ez erreferentzia finko batekin.",
+  "ilustre": [
+   "wittgenstein"
+  ]
  },
  {
   "subject": "hf",
@@ -1423,7 +1680,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sofistak, Aspasia eta Sokrates",
-  "def": "Sokratesen epaiketak galdera zorrotza uzten du: legea bete behar da beti, ala kontzientziak lege bidegabe baten aurrean beste erantzukizun bat eskatzen du?"
+  "def": "Sokratesen epaiketak galdera zorrotza uzten du: legea bete behar da beti, ala kontzientziak lege bidegabe baten aurrean beste erantzukizun bat eskatzen du?",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1433,7 +1693,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Platonentzat, justizia ez da kanpoko legea bakarrik. Arimaren eta hiriaren atal bakoitzak bere funtzioa behar bezala betetzen duenean sortzen den harmonia da."
+  "def": "Platonentzat, justizia ez da kanpoko legea bakarrik. Arimaren eta hiriaren atal bakoitzak bere funtzioa behar bezala betetzen duenean sortzen den harmonia da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1462,7 +1725,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Platonek Atenasen sortutako eskola filosofikoa da. Hezkuntza matematikoa, dialektika eta gobernurako prestakuntza lotzen zituen."
+  "def": "Platonek Atenasen sortutako eskola filosofikoa da. Hezkuntza matematikoa, dialektika eta gobernurako prestakuntza lotzen zituen.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1471,7 +1737,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Beauvoirrentzat gizakia aldi berean askea eta baldintzatua da. Horregatik, existentzia ez da ez esentzia itxi bat, ez askatasun huts eta mugarik gabea."
+  "def": "Beauvoirrentzat gizakia aldi berean askea eta baldintzatua da. Horregatik, existentzia ez da ez esentzia itxi bat, ez askatasun huts eta mugarik gabea.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -1481,7 +1750,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarda Bingengoa",
-  "def": "Unibertsoa ez kaos hutsa gisa, baizik eta ordena, esanahia eta lotura dituen egitura bizi gisa ulertzea."
+  "def": "Unibertsoa ez kaos hutsa gisa, baizik eta ordena, esanahia eta lotura dituen egitura bizi gisa ulertzea.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -1499,7 +1771,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A9",
   "tema": "Politika klasikoa",
-  "def": "Platonentzat hiriaren atal bakoitzak bere funtzioa ondo betetzen duenean sortzen den ordena politikoa da."
+  "def": "Platonentzat hiriaren atal bakoitzak bere funtzioa ondo betetzen duenean sortzen den ordena politikoa da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1508,7 +1783,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Beauvoirrek iradokitzen du emakume izatea ez dela datu biologiko hutsa. Gizarteak, hezkuntzak eta botere harremanek egiten dute emakume paper jakin batean sartzea."
+  "def": "Beauvoirrek iradokitzen du emakume izatea ez dela datu biologiko hutsa. Gizarteak, hezkuntzak eta botere harremanek egiten dute emakume paper jakin batean sartzea.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -1518,7 +1796,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Sartrek dio gizakia ez dela fabrikatutako objektu bat: lehenbizi existitu egiten da, eta gero bere ekintzen bidez eratzen du bere burua."
+  "def": "Sartrek dio gizakia ez dela fabrikatutako objektu bat: lehenbizi existitu egiten da, eta gero bere ekintzen bidez eratzen du bere burua.",
+  "ilustre": [
+   "sartre"
+  ]
  },
  {
   "subject": "hf",
@@ -1537,7 +1818,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Descartesentzat, Jainko perfektuak ez gaitu modu sistematikoan engainatzen; horregatik ideia argi eta bereiziek egia-balioa izan dezakete."
+  "def": "Descartesentzat, Jainko perfektuak ez gaitu modu sistematikoan engainatzen; horregatik ideia argi eta bereiziek egia-balioa izan dezakete.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1555,7 +1839,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Balio absolutuen eta oinarri transzendenteen gainbehera adierazten duen formula da. Horrek nihilismoaren arazoa irekitzen du."
+  "def": "Balio absolutuen eta oinarri transzendenteen gainbehera adierazten duen formula da. Horrek nihilismoaren arazoa irekitzen du.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1564,7 +1851,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarda Bingengoa",
-  "def": "Hildegarden figurak erakusten du emakumeek ere ekoizpen intelektual eta espiritual handia izan zutela, nahiz eta egitura sozialek mugatu."
+  "def": "Hildegarden figurak erakusten du emakumeek ere ekoizpen intelektual eta espiritual handia izan zutela, nahiz eta egitura sozialek mugatu.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -1573,7 +1863,11 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Adimena aktuan hutsik badago ere, bertan izakien formak idazteko potentziala dauka. Aristotelesen arabera, ezagutza esperientziatik dator, baina adimenak formak jasotzeko gaitasuna du. (Geroago Lockek «tabula rasa» gisa berreskuratuko du.)"
+  "def": "Adimena aktuan hutsik badago ere, bertan izakien formak idazteko potentziala dauka. Aristotelesen arabera, ezagutza esperientziatik dator, baina adimenak formak jasotzeko gaitasuna du. (Geroago Lockek «tabula rasa» gisa berreskuratuko du.)",
+  "ilustre": [
+   "aristoteles",
+   "locke"
+  ]
  },
  {
   "subject": "hf",
@@ -1582,7 +1876,11 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Beauvoirren eta Ortega y Gasseten ildotik, subjektuak ez du hutsetik aukeratzen: bere gorputzak, garaiko baldintzek eta harreman sozialek kokatzen dute."
+  "def": "Beauvoirren eta Ortega y Gasseten ildotik, subjektuak ez du hutsetik aukeratzen: bere gorputzak, garaiko baldintzek eta harreman sozialek kokatzen dute.",
+  "ilustre": [
+   "ortega",
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -1601,7 +1899,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Agustinen ideia: egia gizakiaren barnean aurkitzen da, ez kanpoan. Descartesen subjektura biraren aurrekari nagusia."
+  "def": "Agustinen ideia: egia gizakiaren barnean aurkitzen da, ez kanpoan. Descartesen subjektura biraren aurrekari nagusia.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1610,7 +1911,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Kausa materiala, formala, eraginkorra eta finala bereizten ditu Aristotelesek gauzak osoago azaltzeko."
+  "def": "Kausa materiala, formala, eraginkorra eta finala bereizten ditu Aristotelesek gauzak osoago azaltzeko.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -1629,7 +1933,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Arendten arabera, XX. mendeko totalitarismoek erro bikoitza dute: antisemitismo modernoa (Dreyfus auzia) eta inperialismoa. Biek estatu-nazioaren krisia eta masen atomizazioa prestatu zuten."
+  "def": "Arendten arabera, XX. mendeko totalitarismoek erro bikoitza dute: antisemitismo modernoa (Dreyfus auzia) eta inperialismoa. Biek estatu-nazioaren krisia eta masen atomizazioa prestatu zuten.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -1639,7 +1946,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Arrazoizkoa, oldarkorra eta desiratsua bereizten dituen egitura antropologikoa; etikaren eta politikaren arteko zubia ere bada."
+  "def": "Arrazoizkoa, oldarkorra eta desiratsua bereizten dituen egitura antropologikoa; etikaren eta politikaren arteko zubia ere bada.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1649,7 +1959,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A10",
   "tema": "Helenismoa",
-  "def": "Epikuroren bizi-aholkua: «bizi ezkutuan». Bizitza politiko nahasitik aldenduta, lagunarte txikian eta plazer neurtuan bilatzen da lasaitasuna (ataraxia)."
+  "def": "Epikuroren bizi-aholkua: «bizi ezkutuan». Bizitza politiko nahasitik aldenduta, lagunarte txikian eta plazer neurtuan bilatzen da lasaitasuna (ataraxia).",
+  "ilustre": [
+   "epicuro"
+  ]
  },
  {
   "subject": "hf",
@@ -1658,7 +1971,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "XIX. mendeko pentsamendua",
-  "def": "Comteren arabera, gizadiak azalpen teologikotik metafisikora eta handik estadio positibora igarotzen da; azken honetan gertakariak eta legeak dira nagusi."
+  "def": "Comteren arabera, gizadiak azalpen teologikotik metafisikora eta handik estadio positibora igarotzen da; azken honetan gertakariak eta legeak dira nagusi.",
+  "ilustre": [
+   "comte"
+  ]
  },
  {
   "subject": "hf",
@@ -1667,7 +1983,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BT",
   "tema": "Tomas Akinokoa",
-  "def": "Giza arrazoimenak naturaren eta giza helburuen ordenan antzeman dezakeen arau moralaren oinarria da."
+  "def": "Giza arrazoimenak naturaren eta giza helburuen ordenan antzeman dezakeen arau moralaren oinarria da.",
+  "ilustre": [
+   "tomas"
+  ]
  },
  {
   "subject": "hf",
@@ -1687,7 +2006,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Argitasuna, forma, neurria, irudia eta banakotasuna adierazten dituen indarra da. Tragedian dionisiakoarekin batera agertzen da."
+  "def": "Argitasuna, forma, neurria, irudia eta banakotasuna adierazten dituen indarra da. Tragedian dionisiakoarekin batera agertzen da.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1697,7 +2019,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Neurrigabetasuna, gorputza, bulkada, kaos sortzailea eta bizitzaren batasun tragikoa adierazten ditu."
+  "def": "Neurrigabetasuna, gorputza, bulkada, kaos sortzailea eta bizitzaren batasun tragikoa adierazten ditu.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1717,7 +2042,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sofistak, Aspasia eta Sokrates",
-  "def": "Gorgiasen inguruko ideia: hitza sendagai eta pozoia izan daiteke batera; azaldu ez ezik, eragin ere egiten du."
+  "def": "Gorgiasen inguruko ideia: hitza sendagai eta pozoia izan daiteke batera; azaldu ez ezik, eragin ere egiten du.",
+  "ilustre": [
+   "gorgias"
+  ]
  },
  {
   "subject": "hf",
@@ -1726,7 +2054,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Habermasen arabera, ezagutza beti dago interes bati lotuta: teknikoa (mundua menderatzea), praktikoa (zentzua aurkitzea) eta emantzipatzailea (gizakia askatzea). Azkena da nagusia."
+  "def": "Habermasen arabera, ezagutza beti dago interes bati lotuta: teknikoa (mundua menderatzea), praktikoa (zentzua aurkitzea) eta emantzipatzailea (gizakia askatzea). Azkena da nagusia.",
+  "ilustre": [
+   "habermas"
+  ]
  },
  {
   "subject": "hf",
@@ -1736,7 +2067,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BOC",
   "tema": "Ockham",
-  "def": "Filosofiak ezin dituela fedeak edo errebelazioak ematen dituen egia guztiak bere kabuz frogatu dioen ideia."
+  "def": "Filosofiak ezin dituela fedeak edo errebelazioak ematen dituen egia guztiak bere kabuz frogatu dioen ideia.",
+  "ilustre": [
+   "ockham"
+  ]
  },
  {
   "subject": "hf",
@@ -1746,7 +2080,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Ekoizpen-modu batean interes kontrajarriak dituzten klaseen arteko gatazka historikoa."
+  "def": "Ekoizpen-modu batean interes kontrajarriak dituzten klaseen arteko gatazka historikoa.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1765,7 +2102,12 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C4",
   "tema": "Susmoaren maisuak",
-  "def": "Marx, Nietzsche eta Freud elkarrekin biltzen dituen izendapena da. Hirurek kontzientziaren gardentasuna apurtzen dute, baina maila eta helburu desberdinetan."
+  "def": "Marx, Nietzsche eta Freud elkarrekin biltzen dituen izendapena da. Hirurek kontzientziaren gardentasuna apurtzen dute, baina maila eta helburu desberdinetan.",
+  "ilustre": [
+   "marx",
+   "nietzsche",
+   "freud"
+  ]
  },
  {
   "subject": "hf",
@@ -1785,7 +2127,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Ekoizpen-moduek, klase-harremanek eta baldintza materialek historia nola baldintzatzen duten aztertzen duen teoria."
+  "def": "Ekoizpen-moduek, klase-harremanek eta baldintza materialek historia nola baldintzatzen duten aztertzen duen teoria.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1795,7 +2140,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sofistak, Aspasia eta Sokrates",
-  "def": "Galderen bidez pentsamendua argitzen laguntzen duen metodoa da; Sokratesek solaskidea bilaketara eramaten du."
+  "def": "Galderen bidez pentsamendua argitzen laguntzen duen metodoa da; Sokratesek solaskidea bilaketara eramaten du.",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1815,7 +2163,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "Postmodernitatea",
-  "def": "Historia, zientzia edo politika modu globalean legitimatzen duen kontakizun handia da. Adibideak: Ilustrazioaren aurrerapen-kontakizuna, Hegel-en Espirituaren garapena, marxismoaren klase-gabetasuna."
+  "def": "Historia, zientzia edo politika modu globalean legitimatzen duen kontakizun handia da. Adibideak: Ilustrazioaren aurrerapen-kontakizuna, Hegel-en Espirituaren garapena, marxismoaren klase-gabetasuna.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -1825,7 +2176,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "Postmodernitatea",
-  "def": "Definizioa: Ilustrazioaren askatasun eta arrazoi promesak baztertu gabe kritikoki berreraiki behar direla dioen Habermasen ideia."
+  "def": "Definizioa: Ilustrazioaren askatasun eta arrazoi promesak baztertu gabe kritikoki berreraiki behar direla dioen Habermasen ideia.",
+  "ilustre": [
+   "habermas"
+  ]
  },
  {
   "subject": "hf",
@@ -1835,7 +2189,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C10",
   "tema": "XXI. mendeko erronkak",
-  "def": "Baumanen arabera, gizartearen egiturak, loturak eta identitateak gero eta malguago eta ezegonkorrago bihurtzen diren egoera historikoa da."
+  "def": "Baumanen arabera, gizartearen egiturak, loturak eta identitateak gero eta malguago eta ezegonkorrago bihurtzen diren egoera historikoa da.",
+  "ilustre": [
+   "bauman"
+  ]
  },
  {
   "subject": "hf",
@@ -1845,7 +2202,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BS",
   "tema": "Spinoza",
-  "def": "Substantzia bakarraren adierazpen zehatza da. Izaki partikularrak ez dira substantzia independenteak, modu mugatuak baizik."
+  "def": "Substantzia bakarraren adierazpen zehatza da. Izaki partikularrak ez dira substantzia independenteak, modu mugatuak baizik.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -1854,7 +2214,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Mugimenduaren lehen printzipioa da: bera aldatu gabe beste guztia kausa final gisa erakartzen duen ekintza hutsa."
+  "def": "Mugimenduaren lehen printzipioa da: bera aldatu gabe beste guztia kausa final gisa erakartzen duen ekintza hutsa.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -1864,7 +2227,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Aldakorra, iragankorra eta itxurazkoa den eremua; bere kasa ez du egiazko ezagutzaren sendotasuna ematen."
+  "def": "Aldakorra, iragankorra eta itxurazkoa den eremua; bere kasa ez du egiazko ezagutzaren sendotasuna ematen.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1874,7 +2240,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Arazo bakoitzean baldintzak, mugak eta erabilera zilegia bereizteko modua; ez da errezeta, orientazio arrazionala baizik."
+  "def": "Arazo bakoitzean baldintzak, mugak eta erabilera zilegia bereizteko modua; ez da errezeta, orientazio arrazionala baizik.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1884,7 +2253,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Errenazimentua eta zientzia",
-  "def": "Behaketa, hipotesia, neurketa eta froga uztartzen dituen ikerketa modua; Galileoren lanarekin zientzia modernoaren erdigunean jarri zen."
+  "def": "Behaketa, hipotesia, neurketa eta froga uztartzen dituen ikerketa modua; Galileoren lanarekin zientzia modernoaren erdigunean jarri zen.",
+  "ilustre": [
+   "galileo"
+  ]
  },
  {
   "subject": "hf",
@@ -1904,7 +2276,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BS",
   "tema": "Spinoza",
-  "def": "Filosofia definizio, axioma eta proposizioen kate zorrotz baten bidez aurkezteko modua da; Spinozak Etikan erabiltzen du sistema osoaren koherentzia erakusteko."
+  "def": "Filosofia definizio, axioma eta proposizioen kate zorrotz baten bidez aurkezteko modua da; Spinozak Etikan erabiltzen du sistema osoaren koherentzia erakusteko.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -1914,7 +2289,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B4",
   "tema": "Arrazionalismoa eta enpirismoa",
-  "def": "Leibnizen arabera, errealitatea osatzen duten substantzia sinple, zatiezin eta espiritualak. Monada bakoitzak unibertso osoa islatzen du bere ikuspegitik, eta «harmonia aurrezarriari» esker bat datoz."
+  "def": "Leibnizen arabera, errealitatea osatzen duten substantzia sinple, zatiezin eta espiritualak. Monada bakoitzak unibertso osoa islatzen du bere ikuspegitik, eta «harmonia aurrezarriari» esker bat datoz.",
+  "ilustre": [
+   "leibniz"
+  ]
  },
  {
   "subject": "hf",
@@ -1924,7 +2302,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Gizakiak mundura zerbait berria ekartzen du, berritasunaren aukera sortzen du. Askatasun politikoa jaiotzarekin lotuta dago."
+  "def": "Gizakiak mundura zerbait berria ekartzen du, berritasunaren aukera sortzen du. Askatasun politikoa jaiotzarekin lotuta dago.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -1943,7 +2324,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Agustin Hiponakoa",
-  "def": "Platonen herentzia berrirakurtzen duen korrontea da. Agustinentzat garrantzitsua izan zen egia, arima eta Jainkoaren transzendentzia pentsatzeko."
+  "def": "Platonen herentzia berrirakurtzen duen korrontea da. Agustinentzat garrantzitsua izan zen egia, arima eta Jainkoaren transzendentzia pentsatzeko.",
+  "ilustre": [
+   "platon",
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -1953,7 +2338,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Balio gorenen oinarria erortzen denean sortzen den krisia da. Pasiboa izan daiteke, etsipenezkoa, edo aktiboa, balio berriak sortzeko aukera."
+  "def": "Balio gorenen oinarria erortzen denean sortzen den krisia da. Pasiboa izan daiteke, etsipenezkoa, edo aktiboa, balio berriak sortzeko aukera.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1963,7 +2351,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BOC",
   "tema": "Ockham",
-  "def": "Unibertsalek ez dutela errealitate independentea defendatzen duen ikuspegia da; izen orokorrak dira, banako gauzak izendatzeko erabiltzen ditugunak."
+  "def": "Unibertsalek ez dutela errealitate independentea defendatzen duen ikuspegia da; izen orokorrak dira, banako gauzak izendatzeko erabiltzen ditugunak.",
+  "ilustre": [
+   "ockham"
+  ]
  },
  {
   "subject": "hf",
@@ -1992,7 +2383,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "Anaxagorasen arabera, unibertsoa ordenatzen eta mugiarazten duen adimen edo printzipio gidaria da."
+  "def": "Anaxagorasen arabera, unibertsoa ordenatzen eta mugiarazten duen adimen edo printzipio gidaria da.",
+  "ilustre": [
+   "anaxagoras"
+  ]
  },
  {
   "subject": "hf",
@@ -2002,7 +2396,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Gauza bere baitan pentsatzeko muga-kontzeptua; ez da fenomeno baten moduan ezagutzen."
+  "def": "Gauza bere baitan pentsatzeko muga-kontzeptua; ez da fenomeno baten moduan ezagutzen.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -2012,7 +2409,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B4",
   "tema": "Arrazionalismoa eta enpirismoa",
-  "def": "Malebrancheren doktrina: gorputzak eta arimak ezin dute zuzenean elkarri eragin; Jainkoa da kausa bakarra, eta gertaera bakoitza Haren esku-hartzearen «okasioa» da. Descartesen gorputz-arima dualismoari emandako erantzuna."
+  "def": "Malebrancheren doktrina: gorputzak eta arimak ezin dute zuzenean elkarri eragin; Jainkoa da kausa bakarra, eta gertaera bakoitza Haren esku-hartzearen «okasioa» da. Descartesen gorputz-arima dualismoari emandako erantzuna.",
+  "ilustre": [
+   "descartes",
+   "malebranche"
+  ]
  },
  {
   "subject": "hf",
@@ -2032,7 +2433,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "\"Dena jariatzen da\" formula da; Heraklitoren arabera, errealitatea etengabeko bilakabide eta mugimendua da."
+  "def": "\"Dena jariatzen da\" formula da; Heraklitoren arabera, errealitatea etengabeko bilakabide eta mugimendua da.",
+  "ilustre": [
+   "heraclito"
+  ]
  },
  {
   "subject": "hf",
@@ -2052,7 +2456,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Gauza sentikorrek ideietan parte hartuz jasotzen duten egitura eta zentzua. Ideia da eredua (arkhetipoa), eta gauza sentikorra haren imitazio (mimesi) edo kopia da."
+  "def": "Gauza sentikorrek ideietan parte hartuz jasotzen duten egitura eta zentzua. Ideia da eredua (arkhetipoa), eta gauza sentikorra haren imitazio (mimesi) edo kopia da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2072,7 +2479,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Agustin Hiponakoa",
-  "def": "Elizako lehen pentsalarien tradizio filosofiko-teologikoa da. Kristau fedea Greziako eta Erromako hizkuntza kontzeptualekin azaltzen saiatzen da; Agustin Mendebaldeko patristikaren gailurretako bat da."
+  "def": "Elizako lehen pentsalarien tradizio filosofiko-teologikoa da. Kristau fedea Greziako eta Erromako hizkuntza kontzeptualekin azaltzen saiatzen da; Agustin Mendebaldeko patristikaren gailurretako bat da.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -2081,7 +2491,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "Postmodernitatea",
-  "def": "Vattimok proposatzen duen pentsamenduak uko egiten die egia absolutu, metafisika sendo eta legitimazio osoei. Ez da pentsamendu hutsala, baizik eta bere burua indar totalizatzaile gisa ez inposatzeko ahalegina."
+  "def": "Vattimok proposatzen duen pentsamenduak uko egiten die egia absolutu, metafisika sendo eta legitimazio osoei. Ez da pentsamendu hutsala, baizik eta bere burua indar totalizatzaile gisa ez inposatzeko ahalegina.",
+  "ilustre": [
+   "vattimo"
+  ]
  },
  {
   "subject": "hf",
@@ -2100,7 +2513,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarda Bingengoa",
-  "def": "Gizakia, natura eta sakratua bereizi ezin diren osotasun batean ulertzeko joera."
+  "def": "Gizakia, natura eta sakratua bereizi ezin diren osotasun batean ulertzeko joera.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -2110,7 +2526,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Ezagutza oro kokatua dagoela azpimarratzen du. Ez du esan nahi iritzi guztiak berdin direnik, baina bai diskurtso absolutuek beren burua mozorrotzen dutela."
+  "def": "Ezagutza oro kokatua dagoela azpimarratzen du. Ez du esan nahi iritzi guztiak berdin direnik, baina bai diskurtso absolutuek beren burua mozorrotzen dutela.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2129,7 +2548,11 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "Errealitatea hainbat elementu eta printzipio jatorrizkotik sortzen dela dioen doktrina. Enpedokles, Anaxagoras eta atomistak pluralistak ziren."
+  "def": "Errealitatea hainbat elementu eta printzipio jatorrizkotik sortzen dela dioen doktrina. Enpedokles, Anaxagoras eta atomistak pluralistak ziren.",
+  "ilustre": [
+   "anaxagoras",
+   "empedocles"
+  ]
  },
  {
   "subject": "hf",
@@ -2139,7 +2562,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Langileak sortzen duen baina soldatan jasotzen ez duen balio soberakina; kapitalaren metaketaren oinarrietako bat."
+  "def": "Langileak sortzen duen baina soldatan jasotzen ez duen balio soberakina; kapitalaren metaketaren oinarrietako bat.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -2148,7 +2574,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "Postmodernitatea",
-  "def": "Foucaultrentzat boterea eta egia ezin dira banandu. Gizarte batek zer den normala edo egiazkoa erabakitzen duen unean, boterea ere ari da lanean. Ezagutza ez da inoiz neutroa."
+  "def": "Foucaultrentzat boterea eta egia ezin dira banandu. Gizarte batek zer den normala edo egiazkoa erabakitzen duen unean, boterea ere ari da lanean. Ezagutza ez da inoiz neutroa.",
+  "ilustre": [
+   "foucault"
+  ]
  },
  {
   "subject": "hf",
@@ -2167,7 +2596,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Arendten arabera ez dira gauza bera. Boterea jendeak elkarrekin jardutean sortzen da; indarkeria, berriz, botere hori ordezkatzeko edo haren hutsunea estaltzeko tresna izan daiteke."
+  "def": "Arendten arabera ez dira gauza bera. Boterea jendeak elkarrekin jardutean sortzen da; indarkeria, berriz, botere hori ordezkatzeko edo haren hutsunea estaltzeko tresna izan daiteke.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2216,7 +2648,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Teoria eta eraldaketa praktikoa lotzen dituen jarduera historikoa."
+  "def": "Teoria eta eraldaketa praktikoa lotzen dituen jarduera historikoa.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -2245,7 +2680,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Gauza bera ezin da aldi berean eta zentzu berean izan eta ez izan; definizioaren, eztabaidaren eta zientziaren baldintza da."
+  "def": "Gauza bera ezin da aldi berean eta zentzu berean izan eta ez izan; definizioaren, eztabaidaren eta zientziaren baldintza da.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2254,7 +2692,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B7",
   "tema": "Utilitarismoa eta liberalismoa",
-  "def": "Millen arabera, askatasuna indarrez mugatzeko arrazoi nagusia beste bati kaltea egitea saihestea da."
+  "def": "Millen arabera, askatasuna indarrez mugatzeko arrazoi nagusia beste bati kaltea egitea saihestea da.",
+  "ilustre": [
+   "mill"
+  ]
  },
  {
   "subject": "hf",
@@ -2273,7 +2714,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Kontzientzia eta iruditeria politikoa masiboki bideratzeko tresna."
+  "def": "Kontzientzia eta iruditeria politikoa masiboki bideratzeko tresna.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2302,7 +2746,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Elkarrizketa askean, argudioetan eta adostasun arrazoituan oinarritzen den arrazoia da. Habermasentzat, modernitatearen potentzial emantzipatzailea hortik dator."
+  "def": "Elkarrizketa askean, argudioetan eta adostasun arrazoituan oinarritzen den arrazoia da. Habermasentzat, modernitatearen potentzial emantzipatzailea hortik dator.",
+  "ilustre": [
+   "habermas"
+  ]
  },
  {
   "subject": "hf",
@@ -2331,7 +2778,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Zambranoren kontzeptua da: arrazoia ez da kalkulu edo definizio hutsera murrizten, baizik eta bizipenaren, oroimenaren eta barne-argitasunaren bidez ere pentsatzen du."
+  "def": "Zambranoren kontzeptua da: arrazoia ez da kalkulu edo definizio hutsera murrizten, baizik eta bizipenaren, oroimenaren eta barne-argitasunaren bidez ere pentsatzen du.",
+  "ilustre": [
+   "zambrano"
+  ]
  },
  {
   "subject": "hf",
@@ -2341,7 +2791,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Aristotelesen ikuspegian, formak eta esentziak ez daude gauzetatik kanpo; gauza konkretuetan bertan aurkitu eta ulertu behar dira."
+  "def": "Aristotelesen ikuspegian, formak eta esentziak ez daude gauzetatik kanpo; gauza konkretuetan bertan aurkitu eta ulertu behar dira.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2350,7 +2803,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "XIX. mendeko pentsamendua",
-  "def": "Bestearengandik norbera subjektu libre eta berdin gisa onartua izatea. Hegelentzat askatasunaren baldintza soziala da."
+  "def": "Bestearengandik norbera subjektu libre eta berdin gisa onartua izatea. Hegelentzat askatasunaren baldintza soziala da.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -2359,7 +2815,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Fraserren arabera, genero-justiziak bi ardatz behar ditu: baliabide, denbora eta aukera sozialen birbanaketa; eta, aldi berean, subjektu zapalduen duintasun eta ahotsaren aitortza."
+  "def": "Fraserren arabera, genero-justiziak bi ardatz behar ditu: baliabide, denbora eta aukera sozialen birbanaketa; eta, aldi berean, subjektu zapalduen duintasun eta ahotsaren aitortza.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -2368,7 +2827,11 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Joxe Azurmendiren jarrera etikoa: balio absolutuei uko egitea, baina nihilismoan erori gabe; konbentzimenduaren (printzipioak) eta erantzukizunaren (ondorioak) etikak uztartzea, bietako bati ere balio absoluturik aitortu gabe."
+  "def": "Joxe Azurmendiren jarrera etikoa: balio absolutuei uko egitea, baina nihilismoan erori gabe; konbentzimenduaren (printzipioak) eta erantzukizunaren (ondorioak) etikak uztartzea, bietako bati ere balio absoluturik aitortu gabe.",
+  "ilustre": [
+   "kant",
+   "azurmendi"
+  ]
  },
  {
   "subject": "hf",
@@ -2378,7 +2841,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Mundua subjektuarentzat agertzen den modua da. Ez dugu gauza bere baitana zuzenean ezagutzen, baizik eta gure ezagutza-formetan agertzen den mundua."
+  "def": "Mundua subjektuarentzat agertzen den modua da. Ez dugu gauza bere baitana zuzenean ezagutzen, baizik eta gure ezagutza-formetan agertzen den mundua.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2408,7 +2874,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Substantzia pentsatzailea da; haren ezaugarria ez da hedadura, baizik eta pentsatzea, zalantza egitea, nahi izatea eta kontzientzia izatea."
+  "def": "Substantzia pentsatzailea da; haren ezaugarria ez da hedadura, baizik eta pentsatzea, zalantza egitea, nahi izatea eta kontzientzia izatea.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2418,7 +2887,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Ezintasunetik sortutako mendeku ezkutua da; indartsua gaizto bihurtu eta ahultasuna bertute gisa aurkezten du."
+  "def": "Ezintasunetik sortutako mendeku ezkutua da; indartsua gaizto bihurtu eta ahultasuna bertute gisa aurkezten du.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2437,7 +2909,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarda Bingengoa",
-  "def": "Jakintza teorikoa, esperientzia praktikoa, gorputzaren zaintza, sinboloa eta komunitatearen bizitza bereizi gabe pentsatzeko modua da."
+  "def": "Jakintza teorikoa, esperientzia praktikoa, gorputzaren zaintza, sinboloa eta komunitatearen bizitza bereizi gabe pentsatzeko modua da.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -2447,7 +2922,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BL",
   "tema": "Locke",
-  "def": "Esperientziaren bi iturburuak. Sentsazioa: kanpoko mundutik zentzumenen bidez jasotzen ditugun ideiak (koloreak, soinuak). Hausnarketa: adimenaren barne-eragiketen gaineko kontzientzia (pentsatzea, nahi izatea)."
+  "def": "Esperientziaren bi iturburuak. Sentsazioa: kanpoko mundutik zentzumenen bidez jasotzen ditugun ideiak (koloreak, soinuak). Hausnarketa: adimenaren barne-eragiketen gaineko kontzientzia (pentsatzea, nahi izatea).",
+  "ilustre": [
+   "locke"
+  ]
  },
  {
   "subject": "hf",
@@ -2466,7 +2944,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Unamunorengan, gizakiak hiltzekoa dela jakin arren zentzu, iraunkortasun eta fede bila jarraitzen duen tentsio existentziala da."
+  "def": "Unamunorengan, gizakiak hiltzekoa dela jakin arren zentzu, iraunkortasun eta fede bila jarraitzen duen tentsio existentziala da.",
+  "ilustre": [
+   "unamuno"
+  ]
  },
  {
   "subject": "hf",
@@ -2475,7 +2956,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Heideggerren ideia honek adierazten du gizakiak bere bizitza aukera finituz osatzen duela, eta bere heriotza dela aukera horien muga propio eta saihestezina."
+  "def": "Heideggerren ideia honek adierazten du gizakiak bere bizitza aukera finituz osatzen duela, eta bere heriotza dela aukera horien muga propio eta saihestezina.",
+  "ilustre": [
+   "heidegger"
+  ]
  },
  {
   "subject": "hf",
@@ -2484,7 +2968,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Sartreren arabera, kontzientzia ez da gauza itxi bat; bere burutik distantzia hartu, aukeratu eta proiektu gisa eratzen den existentzia da."
+  "def": "Sartreren arabera, kontzientzia ez da gauza itxi bat; bere burutik distantzia hartu, aukeratu eta proiektu gisa eratzen den existentzia da.",
+  "ilustre": [
+   "sartre"
+  ]
  },
  {
   "subject": "hf",
@@ -2494,7 +2981,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Bi premisatatik ondorio beharrezko bat ateratzen duen arrazoibide-forma da; Aristotelesen logikaren oinarria."
+  "def": "Bi premisatatik ondorio beharrezko bat ateratzen duen arrazoibide-forma da; Aristotelesen logikaren oinarria.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2533,7 +3023,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Banakoak iritzi eta desiraren fabrikazio mekanismo handietan txertatzen diren egoera."
+  "def": "Banakoak iritzi eta desiraren fabrikazio mekanismo handietan txertatzen diren egoera.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2561,7 +3054,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Arendtentzat totalitarismoaren oinarrietako bat da. Gizabanakoa lotura komunetatik askatzen denean, propaganda eta obedientziaren aurrean babesgabeago geratzen da."
+  "def": "Arendtentzat totalitarismoaren oinarrietako bat da. Gizabanakoa lotura komunetatik askatzen denean, propaganda eta obedientziaren aurrean babesgabeago geratzen da.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2581,7 +3077,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Norberaren kontzientzia (cogito) dela ziurtasun bakarra ondorioztatzean sortzen den arriskua: kanpoko mundua eta beste gogamenak existitzen direla ezin frogatu, eta nia bakarrik dela erreala pentsatzea. Descartesek Jainkoaren bermearen bidez gainditu nahi du."
+  "def": "Norberaren kontzientzia (cogito) dela ziurtasun bakarra ondorioztatzean sortzen den arriskua: kanpoko mundua eta beste gogamenak existitzen direla ezin frogatu, eta nia bakarrik dela erreala pentsatzea. Descartesek Jainkoaren bermearen bidez gainditu nahi du.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2601,7 +3100,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sofistak, Aspasia eta Sokrates",
-  "def": "Egia eta balioak subjektuaren araberakoak direla dioen jarrera: norberaren hautematea eta interesa dira neurria. Erlatibismoaren forma bat da, norbanakoari aplikatua (Protagoras: «gizakia gauza guztien neurri»)."
+  "def": "Egia eta balioak subjektuaren araberakoak direla dioen jarrera: norberaren hautematea eta interesa dira neurria. Erlatibismoaren forma bat da, norbanakoari aplikatua (Protagoras: «gizakia gauza guztien neurri»).",
+  "ilustre": [
+   "protagoras"
+  ]
  },
  {
   "subject": "hf",
@@ -2621,7 +3123,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Balio berriak sortzeko gai den bizi-indar sortzailea da. Ez da karikatura politiko bat, gizakia gainditzeko irudia baizik."
+  "def": "Balio berriak sortzeko gai den bizi-indar sortzailea da. Ez da karikatura politiko bat, gizakia gainditzeko irudia baizik.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2631,7 +3136,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Gauza konkretua da, berez dena. Aristotelesentzat, gainerako ezaugarriak substantziari dagozkio."
+  "def": "Gauza konkretua da, berez dena. Aristotelesentzat, gainerako ezaugarriak substantziari dagozkio.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2651,7 +3159,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "(telos + logia) Izaki guztiek —natura barne— helburu bat daukatela proposatzen duen teoria filosofikoa. Sinonimoa: finalismoa."
+  "def": "(telos + logia) Izaki guztiek —natura barne— helburu bat daukatela proposatzen duen teoria filosofikoa. Sinonimoa: finalismoa.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2670,7 +3181,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Hizkuntza eta Zientzia",
-  "def": "Definizioa: Esaldi baten azaleko gramatikaren azpian dagoen egitura logikoa argitzeko Russellen analisia."
+  "def": "Definizioa: Esaldi baten azaleko gramatikaren azpian dagoen egitura logikoa argitzeko Russellen analisia.",
+  "ilustre": [
+   "russell"
+  ]
  },
  {
   "subject": "hf",
@@ -2680,7 +3194,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Benetako errealitatea ez dago zentzumenek ematen duten aldakortasunean, baizik eta ideia edo formen maila egonkorrean."
+  "def": "Benetako errealitatea ez dago zentzumenek ematen duten aldakortasunean, baizik eta ideia edo formen maila egonkorrean.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2707,7 +3224,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Begetatiboa, sentikorra eta arrazionala bereizten ditu; bizidunen mailaketa ulertzeko tresna dira."
+  "def": "Begetatiboa, sentikorra eta arrazionala bereizten ditu; bizidunen mailaketa ulertzeko tresna dira.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2727,7 +3247,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Botere politikoaren forma XX. mendean, zeinak ideologia totalizatzaile baten bidez gizabanakoa erabat xurgatzen duen, terrorea erabiliz eta masa-gizartea sortuz. Ez da tirania klasikoa."
+  "def": "Botere politikoaren forma XX. mendean, zeinak ideologia totalizatzaile baten bidez gizabanakoa erabat xurgatzen duen, terrorea erabiliz eta masa-gizartea sortuz. Ez da tirania klasikoa.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2737,7 +3260,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Arima hilezkorra da, gorputzez aldatzen da (beste gorputz batean birjaiotzen da) eta heriotzaren ondoren Ideien mundura itzultzeko purifikatu behar da."
+  "def": "Arima hilezkorra da, gorputzez aldatzen da (beste gorputz batean birjaiotzen da) eta heriotzaren ondoren Ideien mundura itzultzeko purifikatu behar da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2746,7 +3272,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Bizitza ukatzen duten balio zaharrak gainditu eta bizitzaren indarra, sormena eta auto-gainditzea baieztatzen dituzten balio berriak sortzeko prozesua da."
+  "def": "Bizitza ukatzen duten balio zaharrak gainditu eta bizitzaren indarra, sormena eta auto-gainditzea baieztatzen dituzten balio berriak sortzeko prozesua da.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2756,7 +3285,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Ezagutza objektiboa posible egiten duten baldintzei buruzkoa; ez gauza bere baitan, baizik eta esperientziaren egitura."
+  "def": "Ezagutza objektiboa posible egiten duten baldintzei buruzkoa; ez gauza bere baitan, baizik eta esperientziaren egitura.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -2766,7 +3298,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BOC",
   "tema": "Ockham",
-  "def": "Erdi Aroko zazpi arte liberalak: trivium-a (gramatika, erretorika, dialektika) eta quadrivium-a (aritmetika, geometria, astronomia, musika). Eskolastikaren oinarrizko curriculuma osatzen zuten unibertsitateetan."
+  "def": "Erdi Aroko zazpi arte liberalak: trivium-a (gramatika, erretorika, dialektika) eta quadrivium-a (aritmetika, geometria, astronomia, musika). Eskolastikaren oinarrizko curriculuma osatzen zuten unibertsitateetan.",
+  "ilustre": [
+   "ockham"
+  ]
  },
  {
   "subject": "hf",
@@ -2785,7 +3320,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "Kanten filosofia",
-  "def": "Arrazoia publikoaren aurrean erabiltzea: argudiatu, eztabaidatu eta erakundeak kritikatzeko gaitasuna."
+  "def": "Arrazoia publikoaren aurrean erabiltzea: argudiatu, eztabaidatu eta erakundeak kritikatzeko gaitasuna.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -2815,7 +3353,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarda Bingengoa",
-  "def": "Hildegardengan bizitzaren berdetasuna, indarra eta emankortasuna adierazten duen kontzeptua da. Natura, osasuna eta Jainkoaren bizi-indarra lotzen ditu."
+  "def": "Hildegardengan bizitzaren berdetasuna, indarra eta emankortasuna adierazten duen kontzeptua da. Natura, osasuna eta Jainkoaren bizi-indarra lotzen ditu.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -2835,7 +3376,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Errenazimentua eta zientzia",
-  "def": "Machiavellirengan, gobernariak fortunari (zoriari) aurre egiteko behar duen kemena eta erabakitasuna. Ez da bertute morala, baizik eta egoera politikoa bere alde menderatzeko gaitasun eraginkorra."
+  "def": "Machiavellirengan, gobernariak fortunari (zoriari) aurre egiteko behar duen kemena eta erabakitasuna. Ez da bertute morala, baizik eta egoera politikoa bere alde menderatzeko gaitasun eraginkorra.",
+  "ilustre": [
+   "maquiavelo"
+  ]
  },
  {
   "subject": "hf",
@@ -2845,7 +3389,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Giza jarduera hiru mailatan antolatzen duen Arendten teoria: lana (biologikoa), egitea (artifiziala) eta ekintza (politikoa)."
+  "def": "Giza jarduera hiru mailatan antolatzen duen Arendten teoria: lana (biologikoa), egitea (artifiziala) eta ekintza (politikoa).",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2864,7 +3411,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Schopenhauerrentzat errealitatearen sakonean ez dago arrazoi gardenik, baizik eta helburu arrazionalik gabeko bulkada eta nahi asezina."
+  "def": "Schopenhauerrentzat errealitatearen sakonean ez dago arrazoi gardenik, baizik eta helburu arrazionalik gabeko bulkada eta nahi asezina.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2874,7 +3424,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Nietzscheren kontzeptuak ez du dominazio gordina soilik esan nahi. Bizitzaren indar sortzailea, forma berriak ezartzeko gaitasuna eta bere burua gainditzeko bulkada adierazten ditu."
+  "def": "Nietzscheren kontzeptuak ez du dominazio gordina soilik esan nahi. Bizitzaren indar sortzailea, forma berriak ezartzeko gaitasuna eta bere burua gainditzeko bulkada adierazten ditu.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2884,7 +3437,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Lehen filosofoak",
-  "def": "Anaximandroren arabera, printzipioa ez da elementu zehatz bat, baizik eta mugagabea, zehaztugabea eta neurgaitza den oinarria."
+  "def": "Anaximandroren arabera, printzipioa ez da elementu zehatz bat, baizik eta mugagabea, zehaztugabea eta neurgaitza den oinarria.",
+  "ilustre": [
+   "anaximandro"
+  ]
  },
  {
   "subject": "hf",
@@ -2924,7 +3480,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Aro Modernoaren ezaugarririk nagusiena. Arrazoiaren jarduna ez dago mugatua kanpoko intzidentzia batek ere ez (ez tradizioak, ez autoritateak, ez fedeak). Arrazoia printzipioa eta auzitegi gorena da, egiazkoaren gainean epaitzeko."
+  "def": "Aro Modernoaren ezaugarririk nagusiena. Arrazoiaren jarduna ez dago mugatua kanpoko intzidentzia batek ere ez (ez tradizioak, ez autoritateak, ez fedeak). Arrazoia printzipioa eta auzitegi gorena da, egiazkoaren gainean epaitzeko.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2934,7 +3493,12 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Arrazoiari giza ezagutza guztien iturri, oinarri eta irizpide bakarra izatea aitortzen dion joera filosofikoa. XVII. mendean, Descartes, Spinoza eta Leibnizen eskutik, korronte filosofiko zehatz bihurtu zen."
+  "def": "Arrazoiari giza ezagutza guztien iturri, oinarri eta irizpide bakarra izatea aitortzen dion joera filosofikoa. XVII. mendean, Descartes, Spinoza eta Leibnizen eskutik, korronte filosofiko zehatz bihurtu zen.",
+  "ilustre": [
+   "descartes",
+   "spinoza",
+   "leibniz"
+  ]
  },
  {
   "subject": "hf",
@@ -2944,7 +3508,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Oinarrizko ideia batzuk adimenak jaiotzetik dituela dioen teoria. Arrazionalismoaren arabera, esperientziatik independenteko printzipioak dira ezagutza segururako oinarria."
+  "def": "Oinarrizko ideia batzuk adimenak jaiotzetik dituela dioen teoria. Arrazionalismoaren arabera, esperientziatik independenteko printzipioak dira ezagutza segururako oinarria.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2954,7 +3521,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Adimen argi eta atentu baten hautemate zuzena, zalantzarik gabea. Descartes-en arabera, ezagutza ziurraren abiapuntua."
+  "def": "Adimen argi eta atentu baten hautemate zuzena, zalantzarik gabea. Descartes-en arabera, ezagutza ziurraren abiapuntua.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2964,7 +3534,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Printzipio ziurretatik ondorio beharrezkoak ateratzea, kate logiko baten bidez."
+  "def": "Printzipio ziurretatik ondorio beharrezkoak ateratzea, kate logiko baten bidez.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2974,7 +3547,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Dena zalantzan jartzea oinarri ziur bat aurkitzeko. Tresna bat da, ez helburu bat."
+  "def": "Dena zalantzan jartzea oinarri ziur bat aurkitzeko. Tresna bat da, ez helburu bat.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2984,7 +3560,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Zalantzaren 3. mailako hipotesia: subjektuak pentsatzen duen guztia engainagarria balitz ere, zalantzan ari den subjektua bera ezin da ezabatu."
+  "def": "Zalantzaren 3. mailako hipotesia: subjektuak pentsatzen duen guztia engainagarria balitz ere, zalantzan ari den subjektua bera ezin da ezabatu.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2994,7 +3573,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "\"Pentsatzen dut; beraz, banaiz\". Descartes-en filosofiaren lehen egia eta oinarria: zalantzan ari den subjektuaren existentzia ezin da ukatu."
+  "def": "\"Pentsatzen dut; beraz, banaiz\". Descartes-en filosofiaren lehen egia eta oinarria: zalantzan ari den subjektuaren existentzia ezin da ukatu.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3004,7 +3586,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Argia da ideia bat adimen atentibo bati berehalakoa eta nabarmena denean. Bereizia da beste guztietatik banandua dagoenean. Cogitotik ateratako egia-irizpidea."
+  "def": "Argia da ideia bat adimen atentibo bati berehalakoa eta nabarmena denean. Bereizia da beste guztietatik banandua dagoenean. Cogitotik ateratako egia-irizpidea.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3014,7 +3599,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Ideia batek ordezkatzen duen gauzaren errealitate-maila. Kausalitate-printzipioa aplikatuz, ideia baten errealitate objektiboak kausa bat behar du errealitate formal berdina edo handiagoa duena."
+  "def": "Ideia batek ordezkatzen duen gauzaren errealitate-maila. Kausalitate-printzipioa aplikatuz, ideia baten errealitate objektiboak kausa bat behar du errealitate formal berdina edo handiagoa duena.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3023,7 +3611,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Descartesentzat, Jainko perfektuak ez gaitu modu sistematikoan engainatzen; horregatik ideia argi eta bereiziek egia-balioa izan dezakete."
+  "def": "Descartesentzat, Jainko perfektuak ez gaitu modu sistematikoan engainatzen; horregatik ideia argi eta bereiziek egia-balioa izan dezakete.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3033,7 +3624,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Bere baitan existitzen dena eta existitzeko ez duen beste ezertxoren beharrik. Descartes-en arabera, zentzu hertsian Jainkoa da substantzia bakarra."
+  "def": "Bere baitan existitzen dena eta existitzeko ez duen beste ezertxoren beharrik. Descartes-en arabera, zentzu hertsian Jainkoa da substantzia bakarra.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3043,7 +3637,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Substantziaren ezaugarri funtsezkoa, bertatik bereiz ezin daitekeena. Res cogitansarena pentsamendua da; res extensarena hedadura."
+  "def": "Substantziaren ezaugarri funtsezkoa, bertatik bereiz ezin daitekeena. Res cogitansarena pentsamendua da; res extensarena hedadura.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3053,7 +3650,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Atributuaren moldaketa partikular bat. Adibidez, ulertzea eta nahi izatea pentsamenduaren moduak dira; forma eta mugimendua hedaduraren moduak."
+  "def": "Atributuaren moldaketa partikular bat. Adibidez, ulertzea eta nahi izatea pentsamenduaren moduak dira; forma eta mugimendua hedaduraren moduak.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3063,7 +3663,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Substantzia pentsatzailea da; haren ezaugarria ez da hedadura, baizik eta pentsatzea, zalantza egitea, nahi izatea eta kontzientzia izatea."
+  "def": "Substantzia pentsatzailea da; haren ezaugarria ez da hedadura, baizik eta pentsatzea, zalantza egitea, nahi izatea eta kontzientzia izatea.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3073,7 +3676,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Gorputzen eta naturaren eremua da: hedadura, figura, kokapena eta mugimenduaren bidez azal daitekeen errealitatea."
+  "def": "Gorputzen eta naturaren eremua da: hedadura, figura, kokapena eta mugimenduaren bidez azal daitekeen errealitatea.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3083,7 +3689,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Descartesek arimaren eta gorputzaren arteko lotura-puntu gisa proposatu zuen egitura; arazoa izendatzen du, baina ez du behin betiko konpontzen."
+  "def": "Descartesek arimaren eta gorputzaren arteko lotura-puntu gisa proposatu zuen egitura; arazoa izendatzen du, baina ez du behin betiko konpontzen.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3093,7 +3702,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Errealitatea bi substantzia independentetan banatzen duen ikuspegia: res cogitans (pentsamendua) eta res extensa (hedadura)."
+  "def": "Errealitatea bi substantzia independentetan banatzen duen ikuspegia: res cogitans (pentsamendua) eta res extensa (hedadura).",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3103,7 +3715,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Natura materia eta mugimendu mekanikoaren bidez azaltzen duen ikuspegia. Descartes-en arabera, unibertsoak zurrunbilo handien bidez funtzionatzen du."
+  "def": "Natura materia eta mugimendu mekanikoaren bidez azaltzen duen ikuspegia. Descartes-en arabera, unibertsoak zurrunbilo handien bidez funtzionatzen du.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3113,7 +3728,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Malebranche-ren doktrina: substantziek ez diote elkarri eragiten, Jainkoa da kausa bakarra."
+  "def": "Malebranche-ren doktrina: substantziek ez diote elkarri eragiten, Jainkoa da kausa bakarra.",
+  "ilustre": [
+   "descartes",
+   "malebranche"
+  ]
  },
  {
   "subject": "hf",
@@ -3123,7 +3742,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Jainkoa eta Natura gauza bera. Spinoza: Deus sive Natura. Substantzia bakarra existitzen da."
+  "def": "Jainkoa eta Natura gauza bera. Spinoza: Deus sive Natura. Substantzia bakarra existitzen da.",
+  "ilustre": [
+   "descartes",
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -3133,7 +3756,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Leibniz-en arabera, substantzia sinplea, aktiboa eta zatiezina. Monadek ez dute leihorik."
+  "def": "Leibniz-en arabera, substantzia sinplea, aktiboa eta zatiezina. Monadek ez dute leihorik.",
+  "ilustre": [
+   "descartes",
+   "leibniz"
+  ]
  },
  {
   "subject": "hf",
@@ -3143,7 +3770,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes eta arrazionalismoa: makro-unitatea",
-  "def": "Leibniz-en doktrina: Jainkoak mundua sortzean substantziak betirako sinkronizatu zituen, kanpo-eraginik gabe."
+  "def": "Leibniz-en doktrina: Jainkoak mundua sortzean substantziak betirako sinkronizatu zituen, kanpo-eraginik gabe.",
+  "ilustre": [
+   "descartes",
+   "leibniz"
+  ]
  }
 ];
 const GLOSARIO_TRAMPAS = {
