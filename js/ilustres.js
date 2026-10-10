@@ -111,7 +111,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-preso"
+   "hf-preso",
+   "hf-kant-juicios"
   ]
  },
  "anaximenes": {
@@ -150,7 +151,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-preso"
+   "hf-preso",
+   "hf-renacimiento-magia"
   ]
  },
  "jenofanes": {
@@ -200,7 +202,8 @@ const ILUSTRES = {
   "temas": [
    "hf-preso",
    "hf-ap",
-   "hf-platon"
+   "hf-platon",
+   "hf-kant-juicios"
   ]
  },
  "parmenides": {
@@ -226,7 +229,8 @@ const ILUSTRES = {
    "hf-preso",
    "hf-ap",
    "hf-platon",
-   "hf-montaigne-ensayos"
+   "hf-montaigne-ensayos",
+   "hf-kant-juicios"
   ]
  },
  "anaxagoras": {
@@ -314,7 +318,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
-   "hf-sofistas"
+   "hf-sofistas",
+   "hf-kant-juicios"
   ]
  },
  "gorgias": {
@@ -379,7 +384,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-kant-juicios"
+  ]
  },
  "filolao": {
   "name": "Filolao Krotonakoa",
@@ -446,6 +453,7 @@ const ILUSTRES = {
    "hf-aristoteles-arabe",
    "hf-montaigne-ensayos",
    "hf-kant-poetas",
+   "hf-kant-juicios",
    "hf-etica-deber",
    "hf-sospecha"
   ]
@@ -490,7 +498,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-preso",
-   "hf-helenismo"
+   "hf-helenismo",
+   "hf-kant-juicios"
   ]
  },
  "hipias": {
@@ -636,8 +645,10 @@ const ILUSTRES = {
    "hf-toledo-traductores",
    "hf-modernidad",
    "hf-montaigne-ensayos",
+   "hf-renacimiento-magia",
    "hf-racionalismo",
    "hf-kant-poetas",
+   "hf-kant-juicios",
    "hf-sospecha",
    "hf-descartes-makro"
   ]
@@ -741,8 +752,10 @@ const ILUSTRES = {
    "hf-judios-andalus",
    "hf-modernidad",
    "hf-montaigne-ensayos",
+   "hf-renacimiento-magia",
    "hf-contrato",
    "hf-utilitarismo",
+   "hf-kant-juicios",
    "hf-descartes-makro"
   ]
  },
@@ -765,7 +778,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-aristoteles-arabe"
+   "hf-aristoteles-arabe",
+   "hf-kant-juicios"
   ]
  },
  "crates": {
@@ -938,7 +952,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-kant-juicios"
+  ]
  },
  "carneades": {
   "name": "Karneades Zirenekoa",
@@ -1084,6 +1100,7 @@ const ILUSTRES = {
    "hf-islam-ideas",
    "hf-toledo-traductores",
    "hf-montaigne-ensayos",
+   "hf-renacimiento-magia",
    "hf-racionalismo",
    "hf-descartes-makro"
   ]
@@ -1157,7 +1174,9 @@ const ILUSTRES = {
    "hf-verdad-no-contradice",
    "hf-islam-ideas",
    "hf-toledo-traductores",
-   "hf-judios-andalus"
+   "hf-judios-andalus",
+   "hf-renacimiento-magia",
+   "hf-kant-juicios"
   ]
  },
  "anselmo": {
@@ -1208,7 +1227,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-medieval"
+   "hf-medieval",
+   "hf-kant-juicios"
   ]
  },
  "avempace": {
@@ -1354,7 +1374,8 @@ const ILUSTRES = {
    "hf-aristoteles-arabe",
    "hf-verdad-no-contradice",
    "hf-islam-ideas",
-   "hf-judios-andalus"
+   "hf-judios-andalus",
+   "hf-renacimiento-magia"
   ]
  },
  "alberto_magno": {
@@ -1465,7 +1486,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-renacimiento-magia"
+  ]
  },
  "dante": {
   "name": "Dante Alighieri",
@@ -1665,10 +1688,10 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-modernidad",
+   "hf-renacimiento-magia",
    "hf-sospecha",
    "hf-analitica",
-   "hf-descartes-makro",
-   "hf-renacimiento-magia"
+   "hf-descartes-makro"
   ]
  },
  "tomas_moro": {
@@ -1789,8 +1812,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-racionalismo",
-   "hf-renacimiento-magia"
+   "hf-renacimiento-magia",
+   "hf-racionalismo"
   ]
  },
  "galileo": {
@@ -1843,6 +1866,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-renacimiento-magia",
    "hf-marx-biblioteca"
   ]
  },
@@ -1869,8 +1893,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-modernidad",
-   "hf-descartes-makro",
-   "hf-renacimiento-magia"
+   "hf-renacimiento-magia",
+   "hf-descartes-makro"
   ]
  },
  "harvey": {
@@ -2003,6 +2027,7 @@ const ILUSTRES = {
    "hf-fe-razon",
    "hf-modernidad",
    "hf-montaigne-ensayos",
+   "hf-renacimiento-magia",
    "hf-racionalismo",
    "hf-descartes-simulacion",
    "hf-metafisica",
@@ -2072,6 +2097,7 @@ const ILUSTRES = {
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
    "hf-kant-poetas",
+   "hf-kant-juicios",
    "hf-descartes-makro"
   ]
  },
@@ -2157,13 +2183,13 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-aa",
    "hf-modernidad",
+   "hf-renacimiento-magia",
    "hf-metafisica",
    "hf-ilustracion",
    "hf-kant",
    "hf-marxismos",
    "hf-analitica",
-   "hf-descartes-makro",
-   "hf-renacimiento-magia"
+   "hf-descartes-makro"
   ]
  },
  "leibniz": {
@@ -2194,6 +2220,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-kant",
+   "hf-kant-juicios",
    "hf-descartes-makro"
   ]
  },
@@ -2272,7 +2299,30 @@ const ILUSTRES = {
   "temas": [
    "hf-beefs",
    "hf-spinoza-universal",
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-kant-juicios"
+  ]
+ },
+ "euler": {
+  "name": "Leonhard Euler",
+  "dates": "1707 – 1783",
+  "born": 1707,
+  "died": 1783,
+  "place": "Basilea (Suitza)",
+  "role": "matematikari suitzarra",
+  "idea": "Klaseen arteko harremanak zirkuluen arteko harreman gisa ikus daitezke: bata bestearen barruan, bereizita edo gurutzatuta.",
+  "bio": "<p>Leonhard Euler Basilean jaio zen, eta Johann Bernoulli matematikariarekin ikasi zuen. Bizitza ia osoa bi zientzia-akademiaren zerbitzuan eman zuen: San Petersburgokoa (1727-1741 eta, berriro, 1766tik hil zen arte) eta Berlingoa (1741-1766). Historiako matematikaririk emankorrenetako bat da: analisiari, zenbakiei, mekanikari, optikari eta astronomiari buruz idatzi zuen. Begi bateko ikusmena galdu zuen 1740 inguruan, eta San Petersburgora itzuli ondoren ia itsu geratu zen; lanean jarraitu zuen, bere kalkuluak diktatuz.</p>\n<p>Filosofiarentzat batez ere <em>Alemaniako printzesa bati gutunak</em> lanagatik da garrantzitsua: Berlinen idatzi zituen, bere garaiko zientzia ikasle gazte bati azaltzeko, eta hiru liburukitan argitaratu ziren (1768-1772). Logikari eskainitako gutunetan (102.etik 108.era, 1761ekoak) proposizioak <strong>zirkuluekin</strong> irudikatu zituen: zirkulu bat beste baten barruan «guztiak» adierazteko, bereizita «bat ere ez» adierazteko, eta gurutzatuta «batzuk» adierazteko.</p>\n<p>Marrazki horiek, <strong>Euler diagramak</strong>, hain egin ziren ezagun, ezen oraindik ere silogismoa irakasteko erabiltzen baitira. Mende bat geroago, John Vennek eraldatu egin zituen, klaseak nola dauden kokatuta ez dakigunean ere balio zezaten.</p>",
+  "obras": [
+   "Infinituen analisirako sarrera (1748)",
+   "Alemaniako printzesa bati gutunak (1768-1772)"
+  ],
+  "fuente": "J. J. O'Connor eta E. F. Robertson, «Leonhard Euler», MacTutor History of Mathematics",
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-juicios"
   ]
  },
  "lamettrie": {
@@ -2364,6 +2414,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-kant",
+   "hf-kant-juicios",
    "hf-descartes-makro"
   ]
  },
@@ -2572,6 +2623,7 @@ const ILUSTRES = {
    "hf-ilustracion",
    "hf-kant",
    "hf-kant-poetas",
+   "hf-kant-juicios",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-descartes-makro"
@@ -2788,6 +2840,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-renacimiento-magia",
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
    "hf-kant-poetas",
@@ -3091,9 +3144,11 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-mito",
    "hf-montaigne-ensayos",
+   "hf-renacimiento-magia",
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
    "hf-kant-poetas",
+   "hf-kant-juicios",
    "hf-sospecha",
    "hf-corazon-piedra",
    "hf-capitalismo",
@@ -3328,6 +3383,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-renacimiento-magia",
    "hf-spinoza-universal",
    "hf-kant-poetas"
   ]
@@ -3697,6 +3753,30 @@ const ILUSTRES = {
    "hf-corazon-piedra"
   ]
  },
+ "boole": {
+  "name": "George Boole",
+  "dates": "1815 – 1864",
+  "born": 1815,
+  "died": 1864,
+  "place": "Lincoln (Ingalaterra)",
+  "role": "matematikari eta logikari britainiarra",
+  "idea": "Logika aljebra gisa landu daiteke: 1 egiazkoarentzat eta 0 faltsuarentzat erabiliz, konektiboak kalkulu-eragiketa bihurtzen dira.",
+  "bio": "<p>George Boole Lincolnen jaio zen, baliabide urriko zapatari baten semea. Ezin izan zen unibertsitatera joan, eta neurri handi batean <strong>autodidakta</strong> izan zen: bere kabuz ikasi zituen hizkuntza klasikoak eta matematika. Hamasei urterekin maisu lanetan ari zen familiari laguntzeko, eta geroago bere eskola ireki zuen. Matematikako artikuluek ospea eman zioten, eta 1849an matematikako irakasle izendatu zuten Corkeko (Irlanda) Queen's College-n, non hil arte irakatsi zuen, 49 urterekin.</p>\n<p>Haren ekarpen handia izan zen erakustea arrazoiketa logikoa ikurren eta kalkulu-arauen bidez adieraz zitekeela, aljebra bezala. <em>Pentsamenduaren legeak</em> lanean (1854) proposatu zuen 1 idaztea «egiazkoa»ren ordez eta 0 «faltsua»ren ordez. Horrela, konjuntzioak biderketa gisa funtzionatzen du eta disjuntzioak batuketa gisa. Gaur <strong>Booleren aljebra</strong> deitzen duguna da.</p>\n<p>Boole <strong>logika sinboliko</strong> modernoaren sortzaileetako bat da; Fregek handik gutxira garatuko zuen predikatu-logikarekin. Haren ondarea filosofiatik haratago iritsi zen: 1938an Claude Shannonek erakutsi zuen haren eragiketak zirkuitu elektrikoekin eraiki zitezkeela, <strong>ate logikoekin</strong>. Horregatik, haren aljebra elektronika digitalaren eta ordenagailu guztien oinarria da. Harekin, Aristotelesek sortutako logika kalkulu bihurtu zen, eta gero teknologia.</p>",
+  "obras": [
+   "Logikaren analisi matematikoa (1847)",
+   "Pentsamenduaren legeak (1854)"
+  ],
+  "anecdota": "<p>Hamalau urte eskas zituela, Boolek Meleagro egile klasikoaren olerki bat itzuli zuen grezieratik, eta aitak Lincolngo egunkari batean argitaratu zuen. Itzulpena hain ona zen, non inguruko maisu batek egunkarira idatzi baitzuen, adin horretako mutil batek, zapatari baten semeak eta ikasketarik gabeak, hura egin ahal izan zuela ukatuz. Eztabaida, familiak esku hartu behar izan zuena, funtsean haren talentuaren lehen aitortza publikoa izan zen. Autodidakta hark logika kalkulu matematiko bihurtuko zuen azkenean.</p>",
+  "fuente": "Desmond MacHale, George Boole: His Life and Work",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-juicios"
+  ]
+ },
  "marx": {
   "name": "Karl Marx",
   "dates": "1818 – 1883",
@@ -3819,6 +3899,32 @@ const ILUSTRES = {
    "hf-sospecha",
    "hf-posmodernidad",
    "hf-existencialismo"
+  ]
+ },
+ "frege": {
+  "name": "Gottlob Frege",
+  "dates": "1848 – 1925",
+  "born": 1848,
+  "died": 1925,
+  "place": "Wismar (Mecklenburg)",
+  "role": "matematikari, logikari eta filosofoa",
+  "idea": "Ikurrez osatutako hizkuntza formal baten bidez, logikak hizkuntza arruntaren anbiguotasunak ezaba ditzake eta aritmetika osoaren oinarri izan daiteke.",
+  "bio": "<p>Gottlob Frege Wismarren jaio zen, Alemaniako iparraldean. Matematika, fisika eta filosofia ikasi zituen Jenan eta Göttingenen, eta Jenako Unibertsitateko matematika-irakaslea izan zen ibilbide osoan. Bizi zela haren obra gutxi ezagutu zen, nahiz eta Bertrand Russell eta Ludwig Wittgenstein bezalako pentsalariek arretaz irakurri zuten.</p>\n<p>Bere <em>Kontzeptografia</em> lanean (1879) ikurrezko hizkuntza formal bat sortu zuen arrazoiketak hizkuntza arruntaren anbiguotasunik gabe adierazteko. Harekin <strong>lehen mailako logika</strong> edo predikatu-logika sortu zuen, «guztiak» edo «batzuk» bezalako kuantifikatzaileak dituzten enuntziatuak aztertzeko aukera ematen duena. Gaur egungo logikaren oinarria da, eta Aristotelesez geroztik diziplina honetan izandako aurrerapenik handiena izan zen. Fregek, gainera, <strong>logizismoa</strong> defendatu zuen: aritmetika logikatik erator daiteke. 1902an Russellek idatzi zion haren sistemari eragiten zion paradoxa bat erakusteko, eta horrek proiektua berraztertzera behartu zuen. <strong>Zentzua</strong> eta <strong>erreferentzia</strong> ere bereizi zituen: «goizeko izarra» eta «arratsaldeko izarra» adierazpenek zentzu desberdina dute, baina objektu berari egiten diote erreferentzia, Artizarra planetari.</p>\n<p>Frege <strong>filosofia analitikoaren</strong> aitatzat hartzen da. Russellek eta Whiteheadek haren programa jarraitu zuten <em>Principia Mathematica</em> lanean, eta haren obrak eragina izan zuen Wittgensteinengan. Booleren aljebrarekin batera, haren logika sinbolikoa informatikaren oinarrietako bat da.</p>",
+  "obras": [
+   "Kontzeptografia (1879)",
+   "Aritmetikaren oinarriak (1884)",
+   "Zentzuaz eta erreferentziaz (1892)",
+   "Aritmetikaren oinarrizko legeak (1893-1903)"
+  ],
+  "anecdota": "<p>1911n, Ludwig Wittgenstein izeneko ingeniari austriar gazte bat Jenara joan zen Fregeri logikaren oinarriei buruzko bere ideiak erakustera. Urte batzuk geroago, Wittgensteinek gogoratzen zuen Fregek erraztasunez gezurtatu zituela bere argudio guztiak, baina, agur esatean, itzultzera animatu zuela. Hark aholkatu zion Cambridgera joateko Bertrand Russellekin ikastera. Horrela, ia ezezaguna zen irakasle hark XX. mendeko filosofo garrantzitsuenetako bat bideratu zuen, eta honek beti aitortu zion zorra <em>Tractatus</em>-aren hitzaurrean.</p>",
+  "fuente": "Peter Geachek jasotako Wittgensteinen lekukotasuna; Tractatus logico-philosophicus-en hitzaurrea",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-juicios"
   ]
  },
  "freud": {

@@ -91,6 +91,131 @@ const ESQUEMAS = {
    "idea": "Aristotelesentzat, aldatzea potentziatik ekintzara igarotzea da, eta aldaketa bat erabat azalduta geratzeko lau kausak behar dira: zerez, zer, nork eta zertarako. Naturan dena helburu baterantz doa."
   }
  },
+ "B1-REL-01": {
+  "subject": "hf",
+  "block": "B",
+  "tema": "Agustin Hiponakoa",
+  "title": "Agustin Hiponakoa: gizakia bi maitasunen artean",
+  "mermaid": "flowchart TD\n  n0[\"AGUSTIN HIPONAKOA: GIZAKIA BI MAITASUNEN ARTEAN\"]:::axis\n  n1[\"Gorputza\"]\n  n2[\"Maitasun desordenatua\"]\n  n3[\"Borondate askea\"]:::key\n  n4[\"Bekatua eta gaizkia\"]\n  n5[\"Grazia\"]\n  n6[\"Barnetasuna\"]:::key\n  n7[\"Engainatzen banaiz, existitzen naiz\"]\n  n8[\"Argiztapena\"]\n  n9[\"Benetako zoriontasuna\"]\n  n10[\"Bi hiriak\"]:::key\n  n11[\"Lurreko hiria\"]\n  n12[\"Jainkoaren hiria\"]\n  n13[\"Probidentzia\"]\n  n14[\"Jainko sortzailea\"]\n  n15[\"Ideia eredugarriak\"]\n  n16[\"Denbora\"]\n  n0 -->|badu| n1\n  n1 -->|eraman dezake| n2\n  n0 -->|aukeratzen du bere| n3\n  n3 -->|Jainkoagandik aldentzean| n4\n  n3 -->|zauritua, behar du| n5\n  n0 -->|bilatzen du| n6\n  n6 -->|lehen ziurtasuna| n7\n  n6 -->|ezagutzen du| n8\n  n6 -->|aurkitzen du| n9\n  n0 -->|historian bizi da| n10\n  n10 -->|norberaren maitasuna| n11\n  n10 -->|Jainkoaren maitasuna| n12\n  n10 -->|nahasiak, gidari dutela| n13\n  n0 -->|dena dator| n14\n  n14 -->|kontuan hartuta| n15\n  n14 -->|munduarekin sortzen du| n16",
+  "v2": {
+   "pregunta": "Zergatik bilatzen du gizakiak, zoriontasunaren bila dabilenak, hainbestetan ez dagoen tokian?",
+   "raiz": "AGUSTIN HIPONAKOA: GIZAKIA BI MAITASUNEN ARTEAN",
+   "raiz_d": "«Zeuretzat egin gintuzun, eta gure bihotza geldiezin dago zuregan atseden hartu arte» (Aitorkizunak I 1,1). Bere filosofia osoak egonezin hori eta haren irtenbidea azaltzen ditu.",
+   "ramas": [
+    {
+     "rel": "badu",
+     "t": "Gorputza",
+     "d": "Jainkoak sortua eta, beraz, ona. Ez da kartzela bat, ezta gaizkiaren jatorria ere.",
+     "c": [
+      {
+       "rel": "eraman dezake",
+       "t": "Maitasun desordenatua",
+       "d": "Ondasun txikiagoak, sentigarriak eta iragankorrak nahiago izatea, azken helburua balira bezala. Txarra ez da ondasunak, maitasunaren ordena baizik."
+      }
+     ]
+    },
+    {
+     "rel": "aukeratzen du bere",
+     "t": "Borondate askea",
+     "k": true,
+     "d": "Borondatea Jainkoarengana itzul daiteke edo harengandik aldendu.",
+     "c": [
+      {
+       "rel": "Jainkoagandik aldentzean",
+       "t": "Bekatua eta gaizkia",
+       "d": "Gaizkia ez da substantzia bat: ongiaren gabezia da. Ongi aldaezinetik aldentzen den borondatetik sortzen da (Aitorkizunak VII 12,18 eta 16,22; Enchiridion 11-12)."
+      },
+      {
+       "rel": "zauritua, behar du",
+       "t": "Grazia",
+       "d": "Jatorrizko bekatuaren ondoren, borondateak ezin du bere kabuz Jainkoarengana itzuli (Pelagioren aurka). Salbazioa Jainkoaren esku dago: hori da predestinazioaren arazoa."
+      }
+     ]
+    },
+    {
+     "rel": "bilatzen du",
+     "t": "Barrentasuna",
+     "k": true,
+     "d": "«Ez irten kanpora, itzuli zeure baitara; barneko gizakian bizi da egia» (De vera religione 39,72).",
+     "c": [
+      {
+       "rel": "lehen ziurtasuna",
+       "t": "Engainatzen banaiz, existitzen naiz",
+       "d": "Si fallor, sum (Jainkoaren Hiria XI 26): zalantza egiten duena edo oker dabilena dagoeneko existitzen da. Descartesen cogitoaren aurrekari bat da."
+      },
+      {
+       "rel": "honen bidez ezagutzen du",
+       "t": "Argiztapena",
+       "d": "Gogoak egia betierekoak ikusten ditu Jainkoarengandik datorren argi bati esker (De Trinitate XII 15,24). Eztabaidatzen da laguntza berezi bat den ala gogoak jainkozko gogoan duen partaidetza naturala."
+      },
+      {
+       "rel": "aurkitzen du",
+       "t": "Benetako zoriontasuna",
+       "d": "Jainkoa, galdu ezin den Ongi Gorena, duena baino ez da zoriontsu."
+      }
+     ]
+    },
+    {
+     "rel": "historian bizi da",
+     "t": "Bi hiriak",
+     "k": true,
+     "d": "«Bi maitasunek bi hiri sortu zituzten» (Jainkoaren Hiria XIV 28).",
+     "c": [
+      {
+       "rel": "norberarekiko maitasuna",
+       "t": "Lurreko hiria",
+       "d": "Norberaren maitasuna, Jainkoa mespretxatzeraino. Bere botere politikoak ordena eta bakea eman ditzake, ez salbazioa."
+      },
+      {
+       "rel": "Jainkoaren maitasuna",
+       "t": "Jainkoaren hiria",
+       "d": "Jainkoaren maitasuna, norbera mespretxatzeraino. Ez da Eliza ikusgarria, ezta toki bat ere: Jainkoa maite dutenen komunitatea da."
+      },
+      {
+       "rel": "nahasiak, gidari dutela",
+       "t": "Probidentzia",
+       "d": "Bi hiriak nahasian bizi dira denboren amaierara arte (Jainkoaren Hiria I 35); Jainkoak gidatzen du historia."
+      }
+     ]
+    },
+    {
+     "rel": "dena dator",
+     "t": "Jainko sortzailea",
+     "d": "Mundua ezerezetik sortzen du, askatasunez.",
+     "c": [
+      {
+       "rel": "kontuan hartuta",
+       "t": "Ideia eredugarriak",
+       "d": "Gauza guztien ereduak Jainkoaren gogoan daude: Platonen Ideiak dira, Jainkoarengan kokatuak (83 galdera desberdinei buruz, q. 46)."
+      },
+      {
+       "rel": "munduarekin sortzen du",
+       "t": "Denbora",
+       "d": "Mundua ez zen denboran sortu, denborarekin baizik. «Zer da, bada, denbora? Inork galdetzen ez badit, badakit; galdetzen didanari azaldu nahi badiot, ez dakit» (Aitorkizunak XI 14,17)."
+      }
+     ]
+    }
+   ],
+   "cruces": [
+    {
+     "de": "Maitasun desordenatua",
+     "rel": "oinarritzen du",
+     "a": "Lurreko hiria"
+    },
+    {
+     "de": "Grazia",
+     "rel": "eramaten du",
+     "a": "Jainkoaren hiria"
+    },
+    {
+     "de": "Ideia eredugarriak",
+     "rel": "ezagutzen dira",
+     "a": "Argiztapena"
+    }
+   ],
+   "idea": "Gizakia libre da maitatzeko: Jainkoa dena baino gehiago maite badu, bere barnean aurkitzen ditu egia eta zoriontasuna; bere burua eta ondasun txikiagoak helburutzat maite baditu, gaizkira erortzen da. Bi maitasun horiek historia bi hiritan banatzen dute, eta dena Jainkoarengandik dator, mundua bere ideien arabera sortzen baitu."
+  }
+ },
  "BH-REL-01": {
   "subject": "hf",
   "block": "B",
