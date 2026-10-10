@@ -1873,6 +1873,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-descartes-makro"
   ]
  },
@@ -2137,6 +2138,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-ilustracion",
    "hf-kant",
+   "hf-marxismos",
    "hf-analitica",
    "hf-descartes-makro"
   ]
@@ -3277,7 +3279,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-marxismos"
   ]
  },
  "schelling": {
@@ -3703,8 +3706,32 @@ const ILUSTRES = {
    "hf-etica-deber",
    "hf-sospecha",
    "hf-marx-biblioteca",
+   "hf-marxismos",
    "hf-corazon-piedra",
    "hf-capitalismo"
+  ]
+ },
+ "mendel": {
+  "name": "Gregor Mendel",
+  "dates": "1822 – 1884",
+  "born": 1822,
+  "died": 1884,
+  "place": "Heinzendorf (Silesia, gaur Txekiar Errepublika)",
+  "role": "fraide agustindarra eta naturalista",
+  "idea": "Ezaugarri heredagarriak unitate bereizien bidez transmititzen dira, gaur gene deituak, eta belaunaldiz belaunaldi konbinatzen dira proportzio erregular eta aurreikusgarriei jarraituz.",
+  "bio": "<p>Gregor Mendel Silesia austriarreko nekazari-familia batean jaio zen. Brnoko monasterio agustindarrean sartu zen (orduan Brünn, Moravian), eta horri esker Vienako Unibertsitatean zientziak ikasi ahal izan zituen. Monasterioko baratzean urte askoz egin zituen gurutzatze-esperimentuak ilar-landare milaka batzuekin. 1868an abade hautatu zuten, eta karguaren eginkizunek ikerketatik aldendu zuten.</p>\n<p>Mendelek <strong>herentziaren legeak</strong> aurkitu zituen: ezaugarriak gurasoengandik seme-alabengana igarotzen dira proportzio erregularrei jarraituz konbinatzen diren unitate bereizien bidez. Haren lana ia oharkabean igaro zen 1900ean berriro aurkitu zuten arte. Gai-zerrendan agertzen da <strong>genetikak</strong> azaldu zuelako nola transmititzen diren eboluzioak hautatzen dituen aldaerak; Darwinen teoriarekin bat eginda, teoria sintetikoa edo neodarwinismoa sortu zen.</p>",
+  "obras": [
+   "Landare-hibridazioari buruzko esperimentuak (1866)"
+  ],
+  "anecdota": "<p>Ilarrekin egindako esperimentuak argitaratu ondoren, Mendelek bere lana Carl von Nägeliri bidali zion, bere garaiko botanikaririk ospetsuenetako bati, babesa jasotzeko itxaropenez. Nägelik halako eszeptizismoz erantzun zion eta gurutzaketak beste landare batekin errepikatzeko iradoki zion, <em>Hieracium</em> generoko belar batekin. Mendel urteetan saiatu zen, baina emaitzak ez zetozen bat bere legeekin: gaur badakigu landare hori askotan ernalketarik gabe ugaltzen dela. Adorea galduta eta abade gisa lanpetuta, ikerketa utzi zuen, eta haren legeek 1900. urtera arte itxaron behar izan zuten.</p>",
+  "fuente": "Mendelek Carl von Nägelirekin izandako korrespondentzia",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos"
   ]
  },
  "kropotkin": {
@@ -3848,7 +3875,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-etica-deber"
+   "hf-etica-deber",
+   "hf-marxismos"
   ]
  },
  "russell": {
@@ -4103,6 +4131,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4128,6 +4157,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4230,6 +4260,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-montaigne-ensayos",
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4283,6 +4314,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-marxismos",
    "hf-existencialismo",
    "hf-beauvoir"
   ]
@@ -4574,6 +4606,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-marxismos",
    "hf-capitalismo",
    "hf-posmodernidad"
   ]
