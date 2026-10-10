@@ -37,7 +37,8 @@ const ADAGIOS = [
   "t": [
    "hf-sofistas",
    "hf-antropologia",
-   "fil-t2"
+   "fil-t2",
+   "hf-montaigne-ensayos"
   ]
  },
  {
@@ -697,6 +698,439 @@ const ADAGIOS = [
   "e": "mod",
   "t": [
    "hf-metafisica"
+  ]
+ },
+ {
+  "id": "examen",
+  "img": "media/galeria_museo/adagios/examen.jpg",
+  "pie": "Sokratesen bustoa, K.a. IV. mendeko jatorrizko greziar baten kopia erromatarra (Vatikanoko Museoak)",
+  "la": "Ho anexétastos bíos ou biotós",
+  "gr": "Ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+  "tr": "ho de anexétastos bíos ou biotós anthrópoi",
+  "es": "Aztertu gabeko bizitzak ez du bizitzea merezi.",
+  "o": "Platon, Sokratesen apologia 38a",
+  "sen": "Sokratesek epaitzen duen auzitegiaren aurrean esaten du: nahiago du hil, bere burua eta besteak aztertzeari utzi baino. Gizaki gisa bizitzea zergatik egiten dugun egiten duguna galdetzea da.",
+  "uso": "Filosofia zertarako den azaltzeko edo Sokrates aurkezteko.",
+  "trampa": "Ez du esaten filosofatzen ez duenaren bizitzak gutxiago balio duenik, baizik eta norbere burua aztertzea ondo bizitzearen parte dela. Sokratesek ez du tratatuak idazteko eskatzen: galderak egiteko eskatzen du.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-sofistas",
+   "hf-antropologia",
+   "fil-t1"
+  ]
+ },
+ {
+  "id": "geometria",
+  "img": "media/galeria_museo/adagios/geometria.jpg",
+  "pie": "Platonen Akademiaren mosaikoa, Ponpeiako villa batekoa (I. mendea; Napoliko Museo Arkeologikoa)",
+  "la": "Ageometretos medeis eisito",
+  "gr": "Ἀγεωμέτρητος μηδεὶς εἰσίτω",
+  "tr": "ageométretos medéis eisíto",
+  "es": "Ez dadila sartu geometriarik ez dakien inor.",
+  "o": "Tradizioak Platonen Akademiaren sarreran kokatzen duen idazkuna; VI. mendeko Aristotelesen iruzkingileek jasotzen dute, hala nola Joan Filoponok eta Eliasek",
+  "sen": "Platonentzat, matematikak adimena hezten du begiz ikusten ez dena pentsatzeko: Ideietara iristeko aurreko urratsa dira.",
+  "uso": "Platonerako, Ideien teoriarako eta lerro zatituaren irudirako.",
+  "trampa": "Ez dago inolako frogarik idazkuna Platonen garaian zegoenik: ia mila urte geroago agertzen da. Platonena dena, berriz, matematikak filosofoaren heziketan duen tokia da (Errepublika VII).",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-platon",
+   "hf-ap"
+  ]
+ },
+ {
+  "id": "arche",
+  "img": "media/galeria_museo/adagios/arche.jpg",
+  "pie": "Biante Prienekoaren bustoa, bere izena grezieraz duela, kopia erromatarra (Vatikanoko Museoak)",
+  "la": "Magistratus virum indicat",
+  "gr": "Ἀρχὴ ἄνδρα δείκνυσι",
+  "tr": "arkhé ándra deíknysi",
+  "es": "Karguak erakusten du nor den bakoitza.",
+  "er": "I, x, 76",
+  "o": "Biante Prienekoari, Zazpi Jakintsuetako bati, egotzitako esaldia; Aristotelesek aipatzen du, Nikomakorentzako etika V, 1, 1130a",
+  "sen": "Boterea ez duen bitartean, edonor dirudi zuzena. Agintzen duenean, bere erabakiek besteei eragiten dietenean, ikusten da benetan nolakoa den pertsona bat.",
+  "uso": "Justiziarako, politikarako edo Gigesen eraztunaren mitorako.",
+  "amb": "politica",
+  "e": "ant",
+  "t": [
+   "hf-etica",
+   "hf-politica",
+   "fil-t6"
+  ]
+ },
+ {
+  "id": "primum",
+  "img": "media/galeria_museo/adagios/primum.jpg",
+  "pie": "Nekazarien ezteietako otordua, Pieter Bruegel Zaharrarena (1568 inguruan; Kunsthistorisches Museum, Viena)",
+  "la": "Primum vivere, deinde philosophari",
+  "es": "Lehenik bizi, gero filosofatu.",
+  "o": "Formula tradizionala, batzuetan Hobbesi egotzia, baieztapenik gabe; antzeko ideia bat agertzen da Fozilides poeta greziarrarengan: «bilatu lehenik bizibidea, eta gero bertutea»",
+  "sen": "Pentsatu aurretik jan egin behar da: filosofiak oinarrizko beharrak beteta egotea behar du. Aristotelesek esana zuen filosofia aisialdia egon zenean jaio zela.",
+  "uso": "Filosofiaren jatorrirako edo baldintza materialen eta pentsamenduaren arteko harremanerako (Marx).",
+  "trampa": "Ez du esan nahi filosofatzea luxu alferrikakoa denik. Askotan kontrakoa esateko erabiltzen da: duintasunez bizi denak soilik pentsa dezakeela askatasunez.",
+  "amb": "humano",
+  "e": "mod",
+  "t": [
+   "hf-mito",
+   "hf-sospecha",
+   "fil-t1"
+  ]
+ },
+ {
+  "id": "ancilla",
+  "img": "media/galeria_museo/adagios/ancilla.jpg",
+  "pie": "Tomas Akinokoaren garaipena, Benozzo Gozzolirena (1470 inguruan; Louvre Museoa): Aristoteles eta Platon alboetan, Averroes oinetan",
+  "la": "Philosophia ancilla theologiae",
+  "es": "Filosofia teologiaren mirabea da.",
+  "o": "Formula eskolastikoa; irudia Filon eta Klemente Alexandriakoarengandik dator eta Pedro Damianori egozten zaio (XI. mendea), nahiz eta formula zehatza askoz geroago zabaldu",
+  "sen": "Arrazoia fedearen zerbitzura dago: sinesten dena azaltzeko eta defendatzeko balio du, ez epaitzeko.",
+  "uso": "Erdi Aroko fedea eta arrazoia gairako.",
+  "trampa": "Erdi Aroko guztiek ez zuten horrela pentsatzen. Tomas Akinokoak filosofiari bere eremu propioa aitortzen dio, eta Averroesek defendatzen zuen arrazoiaren egiak ez duela fedearen egiaren kontra egiten.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-fe-razon",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "gratia",
+  "img": "media/galeria_museo/adagios/gratia.jpg",
+  "pie": "Tomas Akinokoaren garaipena heretikoen gainean, Filippino Lippirena (1489-1491; Carafa kapera, Santa Maria sopra Minerva, Erroma)",
+  "la": "Gratia non tollit naturam, sed perficit",
+  "es": "Graziak ez du natura suntsitzen, osatu baizik.",
+  "o": "Tomas Akinokoa, Summa Theologiae I, q. 1, a. 8, ad 2",
+  "sen": "Jainkoak fedearen bidez ematen duenak ez du ezabatzen gizakiak bere kabuz arrazoiaren bidez lortzen duena, osatu egiten du baizik. Fedeak eta arrazoiak elkarlanean jarduten dute.",
+  "uso": "Tomas Akinokoak Aristotelesen eta kristautasunaren artean egindako sintesirako.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-fe-razon",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "adaequatio",
+  "img": "media/galeria_museo/adagios/adaequatio.jpg",
+  "pie": "Tomas Akinokoa, Carlo Crivellirena (1476; National Gallery, Londres)",
+  "la": "Veritas est adaequatio rei et intellectus",
+  "es": "Egia gauzaren eta adimenaren arteko egokitasuna da.",
+  "o": "Tomas Akinokoa, De veritate q. 1, a. 1, Isaak Israeliri egozten diona; ideia Aristotelesengandik dator, Metafisika IV, 7",
+  "sen": "Enuntziatu bat egiazkoa da pentsatzen duguna gauzak direnarekin bat datorrenean. Egia korrespondentzia gisa ulertzen duen teoria da.",
+  "uso": "Ezagutzaren teoriako egiaren teorietarako.",
+  "trampa": "Ez da definizio posible bakarra: badira egia koherentzia edo adostasun gisa ulertzen duten teoriak, eta pragmatistek funtzionatzen duena bezala ulertzen dute.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "fil-t3",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "recipitur",
+  "img": "media/galeria_museo/adagios/recipitur.jpg",
+  "pie": "Esne-saltzailea, Johannes Vermeerrena (1660 inguruan; Rijksmuseum, Amsterdam): esneak ontziaren forma hartzen du",
+  "la": "Quidquid recipitur ad modum recipientis recipitur",
+  "es": "Jasotzen den guztia jasotzen duenaren eran jasotzen da.",
+  "o": "Axioma eskolastikoa; Tomas Akinokoa, Summa Theologiae I, q. 75, a. 5; jatorria Kausen liburuaren neoplatonismoan dago",
+  "sen": "Zerbait jasotzen duenak bere izaeraren arabera eraldatzen du, likidoak ontziaren forma hartzen duen bezala. Ezagutzarekin gauza bera gertatzen da: bakoitzak bere gaitasunaren arabera ulertzen du.",
+  "uso": "Ezagutzaren teoriarako, eskolastikatik Kantera, edo obra bat nola jasotzen den hitz egiteko.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "fil-t3",
+   "hf-kant",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "parendo",
+  "img": "media/galeria_museo/adagios/parendo.jpg",
+  "pie": "Francis Bacon, Paul van Somerri egotzitako erretratua (1617)",
+  "la": "Natura non nisi parendo vincitur",
+  "es": "Natura obedituz bakarrik menderatzen da.",
+  "o": "Francis Bacon, Novum Organum I, 3 (1620)",
+  "sen": "Natura menderatzeko, haren legeak ezagutu eta errespetatu behar dira. Jakitea eta ahal izatea elkarrekin doaz.",
+  "uso": "Baconerako, iraultza zientifikorako edo teknikarako.",
+  "trampa": "Ez da natura zentzu ekologistan errespetatzeko deia: Baconek hobeto menderatzeko ezagutu nahi zuen.",
+  "amb": "saber",
+  "e": "ren",
+  "t": [
+   "hf-modernidad",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "etsi",
+  "img": "media/galeria_museo/adagios/etsi.jpg",
+  "pie": "Hugo Grozio, Michiel van Miereveltena (1631)",
+  "la": "Etsi Deus non daretur",
+  "es": "Jainkorik ez balego ere.",
+  "o": "Hugo Grozio, Gerraren eta bakearen zuzenbideaz (1625), Prolegomenoak, 11: «Jainkorik ez dagoela onartuko bagenu ere [...]»; formula laburra geroagokoa da",
+  "sen": "Justiziaren oinarrizko arauek balioko lukete Jainkorik ez balego ere, giza naturan eta arrazoian oinarritzen baitira. Zuzenbide natural modernoaren abiapuntua da.",
+  "uso": "Zuzenbide naturalerako, gizarte-kontraturako edo laikotasunerako.",
+  "trampa": "Grozio fededuna zen: ez du Jainkoa ukatzen, baizik eta erakusten du zuzenbidea ez dagoela bakoitzaren fedearen mende. Gehitzen du Jainkorik ez dagoela suposatzea bekatu larria litzatekeela.",
+  "amb": "politica",
+  "e": "mod",
+  "t": [
+   "hf-contrato",
+   "fil-t6",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "aeternitatis",
+  "img": "media/galeria_museo/adagios/aeternitatis.jpg",
+  "pie": "Spinozaren erretratua, holandar anonimoa (1665-1666 inguruan)",
+  "la": "Sub specie aeternitatis",
+  "es": "Betikotasunaren ikuspegitik.",
+  "o": "Spinoza, Etika II, 44. proposizioa, 2. korolarioa («sub quadam aeternitatis specie»), eta Etika V",
+  "sen": "Arrazoiari dagokio gauzak beharrezko gisa ikustea, ez uneko gertakizun gisa. Horrela begiratzeak grinetatik askatzen du eta poz lasaia ematen du.",
+  "uso": "Spinozarako edo berehalakoarekiko distantzia hartzeaz hitz egiteko.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica"
+  ]
+ },
+ {
+  "id": "saltus",
+  "img": "media/galeria_museo/adagios/saltus.jpg",
+  "pie": "Linnoren Philosophia botanica-ren azala (Stockholm, 1751), latinezko formula agertzen den lekua",
+  "fit": "contain",
+  "la": "Natura non facit saltus",
+  "es": "Naturak ez du jauzirik egiten.",
+  "o": "Leibniz, Giza adimenari buruzko saiakera berriak, hitzaurrea: «naturak ez du inoiz jauzirik egiten»; latinezko formula Linnorengan dago, Philosophia botanica (1751)",
+  "sen": "Naturan dena pixkanaka aldatzen da, etenik gabe: bi egoeraren artean beti daude tarteko egoerak. Leibnizen jarraitutasunaren legea da.",
+  "uso": "Leibnizerako, izaki bizidunen sailkapenerako edo Darwinen eboluziorako, hark errepikatzen baitu.",
+  "trampa": "XX. mendeko fisikak zalantzan jartzen du: mekanika kuantikoan energia jauzika aldatzen da.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica",
+   "fil-metafisica"
+  ]
+ },
+ {
+  "id": "determinatio",
+  "img": "media/galeria_museo/adagios/determinatio.jpg",
+  "pie": "Hegel, Jakob Schlesingerrena (1831)",
+  "la": "Omnis determinatio est negatio",
+  "es": "Determinazio oro ezeztapen bat da.",
+  "o": "Spinoza, Jarig Jellesi idatzitako 50. gutuna (1674): «determinatio negatio est»; Hegelek formula bihurtu zuen, «omnis» gehituta",
+  "sen": "Zerbait zer den esateak zer ez den esatea dakar: definitzea mugak jartzea da. Hegelentzat, ezeztapena pentsamenduaren eta errealitatearen motorra da.",
+  "uso": "Spinozarako, Hegelerako eta dialektikarako, baita Marxenerako ere.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica",
+   "hf-sospecha",
+   "fil-metafisica"
+  ]
+ },
+ {
+  "id": "carro",
+  "img": "media/galeria_museo/adagios/carro.jpg",
+  "pie": "«Mundua buruz behera», Flandriako aleluia (Turnhout, 1880 inguruan): idi batek belarra ebakitzen du eta oilar batek arrautzak txitatzen ditu",
+  "fit": "contain",
+  "la": "Currus bovem trahit",
+  "es": "Gurdia zaldiaren aurrean jarri.",
+  "er": "I, vii, 28",
+  "o": "«Gurdiak tiratzen dio idiari», alderantziz egiten denari buruzko esaera",
+  "sen": "Gauzak ordena okerrean egitea, amaieratik hastea. Logikan, kausa eta ondorioa alderantzikatzea da, edo frogatu nahi dena frogatutzat ematea.",
+  "uso": "Argudiaketarako eta falazietarako: kausa eta ondorioa nahastea, edo printzipio-eskea.",
+  "trampa": "Gaztelaniaz «idien aurrean» ere esaten da, eta hori da Erasmoren irudia: animaliek arrastaka eraman beharrean haiei tiraka ari den gurdia.",
+  "amb": "saber",
+  "e": "ren",
+  "t": [
+   "fil-t4",
+   "hf-metodos"
+  ]
+ },
+ {
+  "id": "necesidad",
+  "img": "media/galeria_museo/adagios/necesidad.jpg",
+  "pie": "Nova reperta («Asmakizun berriak») lanaren azala, Jan van der Straeten araberako grabatua (1590 inguruan)",
+  "la": "Necessitas magistra",
+  "es": "Beharra da asmakuntzaren ama.",
+  "er": "IV, vi, 55",
+  "o": "Ideia Platonengan dago, Errepublika II, 369c, non Sokratesek hiriaz esaten duen «gure beharrak sortuko duela»; Persio poeta erromatarrak urdailari «arteen maisua» deitzen dio (Satirak, hitzaurrea)",
+  "sen": "Teknikak, ofizioak eta baita hiriak ere beharrak asetzeko sortzen dira: zerbait falta zaigunean, lortzeko bideak asmatzen ditugu.",
+  "uso": "Teknikaren, gizartearen edo Platonen hiriaren jatorrirako.",
+  "trampa": "«Ama» duen esaldia ez da Platonena: XIX. mendeko ingelesezko itzulpen batek egin zuen ospetsu, Benjamin Jowettenak.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-politica",
+   "hf-platon",
+   "fil-t6"
+  ]
+ },
+ {
+  "id": "hecho",
+  "img": "media/galeria_museo/adagios/hecho.jpg",
+  "pie": "Hutsalkeria, Philippe de Champaignerena (1646; Tessé Museoa, Le Mans): tulipa bat, garezur bat eta harea-erloju bat",
+  "la": "Quod factum est, infectum fieri non potest",
+  "gr": "μόνου γὰρ αὐτοῦ καὶ θεὸς στερίσκεται, ἀγένητα ποιεῖν ἅσσ᾽ ἂν ᾖ πεπραγμένα",
+  "tr": "mónou gar autoú kai theós sterísketai, agéneta poiéin háss' an ei pepragména",
+  "es": "Egindakoari, aurpegi eman.",
+  "er": "II, iii, 72",
+  "o": "Gaztelaniazko esaerak aurrekari bat du Agaton poetarengan, Aristotelesek aipatua, Nikomakorentzako etika VI, 2, 1139b: «hau bakarrik zaio ukatua Jainkoari ere: egindakoa gertatu ez izana egitea»; latinez, Plauto, Aulularia 741",
+  "sen": "Egindakoa ezin da desegin; beraz, haren ondorioak onartu behar dira. Aristotelesek bertsoa aipatzen du azaltzeko etorkizunaz bakarrik deliberatzen dugula, ez iraganaz.",
+  "uso": "Erantzukizun moralerako, Aristotelesen deliberaziorako edo Jainkoak iragana alda dezakeen ala ez eztabaidarako.",
+  "trampa": "Esaerak ondorioak onartzeko eskatzen du; bertso greziarrak zerbait indartsuagoa dio: ahalguztidunak ere ezin du iragana aldatu.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-etica",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "habito",
+  "img": "media/galeria_museo/adagios/habito.jpg",
+  "pie": "San Frantzisko meditazioan, Francisco de Zurbaránena (1639; National Gallery, Londres)",
+  "la": "Cucullus non facit monachum",
+  "es": "Abituak ez du fraidea egiten.",
+  "o": "Jatorri ziurgabeko Erdi Aroko latinezko esaera; Shakespearek aipatzen du Hamabigarren gaua lanean (I, 5) eta Neurria neurriaren truke lanean (V, 1)",
+  "sen": "Itxurak ez du aldatzen nor den bakoitza: fraide-jantzia janzteak ez du inor santu egiten. Egintzen arabera epaitu behar da, ez irudiaren arabera.",
+  "uso": "Itxuraren eta errealitatearen arteko bereizketarako edo hipokresiaren kritikarako.",
+  "trampa": "Ez du esan nahi itxurak batere axola ez duenik: ez dela nahikoa ohartarazten du.",
+  "amb": "humano",
+  "e": "med",
+  "t": [
+   "hf-platon",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "oro",
+  "img": "media/galeria_museo/adagios/oro.jpg",
+  "pie": "Alkimista, David Teniers Gaztearena (1640-1650 inguruan; Mauritshuis, Haga)",
+  "la": "Non teneas aurum totum quod splendet ut aurum",
+  "es": "Distira egiten duen guztia ez da urrea.",
+  "o": "Alain Lillekoa, Parabolen liburua (XII. mendea): «ez hartu urrea bezala distiratzen duen guztia urretzat»",
+  "sen": "Baliotsua dirudiena ez da beti baliotsua. Itxurek engainatzen dute, eta fidatu aurretik aztertu egin behar da.",
+  "uso": "Itxuraren eta errealitatearen arteko alderako, Platonen kobazulorako edo informazioaren aurreko pentsamendu kritikorako.",
+  "trampa": "Ez du esaten distira egiten duen ezer ez dela urrea, baizik eta dena ez dela. Ondorio zuhurra aztertzea da, ez gutxiestea.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-platon",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "taurum",
+  "img": "media/galeria_museo/adagios/taurum.jpg",
+  "pie": "Moskoforoa, txahal bat bizkarrean daraman gizon baten estatua (K.a. 570 inguruan), Atenasko Akropolian lurpetik atera berria (1865 inguruko argazkia)",
+  "la": "Taurum tollet, qui vitulum sustulerit",
+  "es": "Txahala eraman duenak zezena eramango du.",
+  "er": "I, ii, 51",
+  "o": "Erasmok jasotako antzinako esaera; Montaignek Entseiuak I, 23 («Ohituraz») lanean nekazari emakume baten kasua kontatzen du: txahal bat besoetan eramaten ohituta, idi bihurtu zenean ere eramaten jarraitzen zuen",
+  "sen": "Ohiturak ezinezkoa zirudiena posible egiten du: pixkanaka, egunero, egiten dena naturala iruditzen zaigu azkenean. Horregatik da hain indartsua ohitura Montaignerentzat, onerako eta txarrerako.",
+  "uso": "Ohituraren eta usarioen indarrerako (Aristoteles, Hume) edo Montaignerako.",
+  "trampa": "Montaignek ez du kontatzen ahaleginaren laudorio gisa, ohartarazpen gisa baizik: ohiturak zentzugabekeriara ere ohitzen gaitu eta hura ikustea eragozten digu.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-racionalismo",
+   "fil-t2"
+  ]
+ },
+ {
+  "id": "mores",
+  "img": "media/galeria_museo/adagios/mores.jpg",
+  "pie": "Nemesis edo Fortuna handia, Albrecht Dürerren grabatua (1501-1502 inguruan)",
+  "fit": "contain",
+  "la": "Sui cuique mores fingunt fortunam",
+  "es": "Bakoitzari bere izaerak egiten dio fortuna.",
+  "er": "II, iv, 30",
+  "o": "Kornelio Nepotek aipatzen duen bertsoa, Atikoren bizitza 11; Erasmok luze iruzkintzen du, eta Montaignek harekin ixten du I, 42 entseiua («Gure arteko desberdintasunaz»)",
+  "sen": "Bakoitzaren zoria izaeraren mende dago zoriaren mende baino gehiago. Montaignek desberdintasunari buruzko entseiua baten amaieran erabiltzen du: pertsona batzuk besteengandik benetan bereizten dituena ez da haien aberastasuna ezta kargua ere, direna baizik.",
+  "uso": "Etikako izaerarako eta fortunarako (estoikoak, Makiavelo) edo Montaignerako.",
+  "trampa": "Ez du esan nahi bakoitzak merezi duena duenik: Montaignek hain zuzen ere kritikatzen du pertsonak kanpoko fortunaren arabera epaitzea.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-etica",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "sellis",
+  "img": "media/galeria_museo/adagios/sellis.jpg",
+  "pie": "Flandriako esaerak, Pieter Bruegel Zaharrarena (1559; Gemäldegalerie, Berlin): margotutako ehun esaera baino gehiagoren artean, bi aulkitxoren artean errautsetan amaitzen denarena dago",
+  "la": "Duabus sedere sellis",
+  "es": "Bi aulkiren artean eserita egotea.",
+  "er": "I, vii, 2",
+  "o": "Erasmok jasotako antzinako esaera; Montaignek Entseiuak I, 54 («Zehaztasun hutsalez») lanean erabiltzen du erdi-jakintsuentzat, «bi aulkiren artean» geratu direnentzat",
+  "sen": "Bi jarreraren artean erabakitzen ez duena bat ere gabe geratzen da. Montaignek jakintzari aplikatzen dio: nekazari xumeak eta benetako filosofoak jende zintzoa dira; kalte egiten dutenak ezjakintasun naturala utzi eta jakinduriara iritsi ez direnak dira.",
+  "uso": "Zalantzarako, gaizki ulertutako erdibiderako edo Montaignek pedanteei egiten dien kritikarako.",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "lucernam",
+  "img": "media/galeria_museo/adagios/lucernam.jpg",
+  "pie": "Astronomoa kandela-argitan, Gerrit Dourena (1656-1659 inguruan; Getty Museum)",
+  "la": "Olet lucernam",
+  "es": "Lanpara usaina du.",
+  "er": "I, vii, 71",
+  "o": "Plutarko, Demostenesen bizitza 8: aurkari batek esaten zuen Demostenesen hitzaldiek lanpara usaina zutela; Erasmok jasotzen du, eta Montaignek Entseiuak I, 10 («Azkar edo poliki hitz egiteaz») lanean erabiltzen du",
+  "sen": "«Lanpara usaina» duen obra batek gehiegi erakusten du gaueko lanaren ahalegina: zurruna, ez oso naturala sumatzen da. Montaignek nahiago zuen berezkoa dirudien hitza.",
+  "uso": "Estilorako, entseiuak idazteko edo inprobisazioaren eta prestaketaren arteko kontrasterako.",
+  "trampa": "Montaignek ez du lana gutxiesten: dio badirela prestatu beharra duten adimenak eta inprobisatuz distira egiten dutenak, eta bakoitzak berea ezagutu behar duela.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos"
+  ]
+ },
+ {
+  "id": "crastinum",
+  "img": "media/galeria_museo/adagios/crastinum.jpg",
+  "pie": "Plutarko, 1565eko grabatu batean. Montaignek haren Bizitzak Jacques Amyoten frantsesezko itzulpenean irakurtzen zituen",
+  "la": "In crastinum seria",
+  "es": "Gai serioak, biharko.",
+  "er": "IV, vii, 60",
+  "o": "Plutarko, Pelopidasen bizitza 10: Arkiasek esan zuen, Tebasko tiranoak, bere aurkako konspirazioaz ohartarazten zion gutuna ireki gabe utzi zuenean; Erasmok jasotzen du, eta Montaignek harekin izendatzen du II, 4 entseiua («Biharko gaiak»)",
+  "sen": "Premiazkoa biharko uzteak garestia izan daiteke: Arkias gau hartan bertan hil zen. Montaignek ñabartzen du jakintsu batek albiste bat atzera dezakeela adeitasunagatik edo gai garrantzitsuago batengatik, baina ez bere plazerragatik.",
+  "uso": "Zuhurtziarako, garrantzitsua atzeratzeko joerarako edo Montaigneren entseiurako.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-etica"
+  ]
+ },
+ {
+  "id": "stultitia",
+  "img": "media/galeria_museo/adagios/stultitia.jpg",
+  "pie": "Montaigneren Entseiuen orrialde bat, 1595eko edizioan",
+  "fit": "contain",
+  "la": "In nihil sapiendo iucundissima vita",
+  "gr": "Ἐν τῷ φρονεῖν γὰρ μηδὲν ἥδιστος βίος",
+  "tr": "en to phronéin gar medén hédistos bíos",
+  "es": "Bizitzarik gozoena ezer ez jakitea da.",
+  "er": "II, x, 81",
+  "o": "Sofokles, Aiax 554. Erasmok adagio honen azpian biltzen ditu adibideak eta aipuak, eta Montaignek ia bloke osoan kopiatzen ditu «Raimundo Sabunderen apologia»n (Entseiuak II, 12). Montaignek hain ondo ezagutzen zituen Adagioak, ezen idatzi baitzuen Erasmo ikusi izan balu adagiotzat hartuko zukeela hark bere morroiari esandako guztia (III, 2)",
+  "sen": "Ez dakienak eta susmatzen ez duenak ez du sufritzen: batzuetan ezjakintasunak jakinduriak baino zoriontsuagoa dirudi. Montaignek kontatzen du Pireora iristen ziren ontzi guztien jabe zela uste zuen gizon baten kasua, sendatu zutela deitoratu zuena.",
+  "uso": "Montaigneren eszeptizismorako, «Apologia»rako edo jakiteak zoriontsu egiten duen ala ez eztabaidarako (Eklesiastes: «jakinduria handian, atsekabe handia»).",
+  "trampa": "Montaignek ez du ezjakintasunaren laudorio hutsik egiten: arrazoi harroari harrotasuna jaisteko erabiltzen du. Eta esaldia Aiaxek esaten du tragedia batean, ez filosofo batek.",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-helenismo",
+   "fil-t1"
   ]
  }
 ];
