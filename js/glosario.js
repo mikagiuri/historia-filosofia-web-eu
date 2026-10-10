@@ -385,7 +385,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Kontratu soziala",
+  "t": "Gizarte-kontratua",
   "et": "*Kontratua*, latinezko *contractus*, *contrahere* aditzetik, «elkartu, tratu bat itxi».",
   "area": "Politika",
   "bloque": "B",
@@ -409,7 +409,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Kosmopolitismoa",
-  "et": "Grezierazko κοσμοπολίτης (*kosmopolítes*): κόσμος (*kósmos*) «mundua» + πολίτης (*polítes*) «herritarra». Diogenesek bere burua «munduko herritar» deitzen zuen.",
+  "et": "Grezierazko κοσμοπολίτης (*kosmopolítes*): κόσμος (*kósmos*) «mundua» + πολίτης (*polítes*) «hiritarra». Diogenesek bere burua «munduko hiritar» deitzen zuen.",
   "area": "Politika",
   "bloque": "C",
   "unidad": "CK",
@@ -1166,7 +1166,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Faltsukeria",
+  "t": "Falazia",
   "et": "Latinezko *fallacia*, «engainua», *fallere* aditzetik, «engainatu».",
   "area": "Metodoa",
   "bloque": "A",
@@ -2075,7 +2075,7 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "t": "Klase-borroka",
-  "et": "*Klasea*, latinezko *classis*: Erroman, herritarrak aberastasunaren arabera banatzen ziren taldeetako bakoitza.",
+  "et": "*Klasea*, latinezko *classis*: Erroman, hiritarrak aberastasunaren arabera banatzen ziren taldeetako bakoitza.",
   "area": "Politika",
   "bloque": "C",
   "unidad": "CM",
@@ -2556,7 +2556,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Plusbalioa",
+  "t": "Gainbalioa",
   "et": "Latinezko *plus* «gehiago» + *valor*. Alemanezko *Mehrwert* itzultzen du, «gehiegizko balioa».",
   "area": "Ekonomia",
   "bloque": "C",
@@ -3936,7 +3936,7 @@ const GLOSARIO_TRAMPAS = {
    "Materialismo historikoa"
   ],
   [
-   "Plusbalioa",
+   "Gainbalioa",
    "Fetitxismoa"
   ],
   [

@@ -16,7 +16,7 @@ const EA_EJES = {
     "c": [
      "Sokrates (elkarrizketa), Platon (dialektika) eta Aristoteles (tratatua); geroago, Descartes, Kant, Hegel, Marx eta Nietzsche.",
      "Presokratikoek kosmosaren azalpen arrazionala bilatzen dute; Aristotelesek definitu, sailkatu eta kausak bilatzen ditu.",
-     "Premisekin argudiatu eta faltsukeriak antzeman; karitate-printzipioa; galdera mugatu, kontzeptuak argitu eta jarrera arrazoitu bat eraiki.",
+     "Premisekin argudiatu eta falaziak antzeman; karitate-printzipioa; galdera mugatu, kontzeptuak argitu eta jarrera arrazoitu bat eraiki.",
      "Historikotasuna: pentsamendu oro garai, gizarte eta kultura jakin batean kokatuta sortzen da; berriro agertzen diren galdera unibertsalak daude.",
      "Sokratesek eta Platonek elkarrizketaren bidez lantzen dituzte justizia eta egia: galdetu, gezurtatu eta Ideietara igo.",
      "Kanona ez da neutroa: botere-harreman patriarkalek eta kolonialistek kanpoan utzi dituzte emakumeak eta pentsalari ez-europarrak.",
@@ -234,7 +234,7 @@ const EA_EJES = {
     "c": [
      "Kant; Diderot eta D'Alembert; Locke, Montesquieu, Rousseau, Voltaire; Olympe de Gouges, Mary Wollstonecraft eta Condorcet.",
      "Arrazoi kritiko eta autonomoa: «sapere aude», adin-txikitasunetik irtetea; azterketapean jartzen ditu erlijioa, politika, zientzia eta bere burua.",
-     "Menekotik eskubide naturalak dituen hiritarrera; baina nor sartzen da subjektu unibertsalean? Emakumeak, esklaboak eta herri kolonizatuak kanpoan geratzen dira.",
+     "Menekotik eskubide naturalak dituen herritarrera; baina nor sartzen da subjektu unibertsalean? Emakumeak, esklaboak eta herri kolonizatuak kanpoan geratzen dira.",
      "Tolerantzia fanatismoaren aurka, kontzientzia- eta adierazpen-askatasuna; Wollstonecraft: arrazoiak ez du sexurik, eta bertutea ez da gizonen pribilegioa.",
      "Absolutismoaren aurka: Estatua baino lehenagoko eskubideak (Locke), botere-banaketa (Montesquieu), herri-subiranotasuna (Rousseau) eta 1789ko Adierazpena.",
      "Tradizioaren, superstizioaren eta autoritate itsuaren aurka; deismoa, dogmarik eta mirarik gabea; lehen feminismoak Ilustrazioa barrutik jartzen du proban.",
@@ -272,7 +272,7 @@ const EA_EJES = {
      "Kontzientzia ez da gardena: ideologia eta kontzientzia faltsua (Marx), perspektibismoa (Nietzsche); kontzientzia, icebergaren punta baino ez (Freud).",
      "Subjektua ez da «bere etxeko jabe»: langile alienatua (Marx), botere-nahia (Nietzsche), Elloa, Nia eta Supernia (Freud).",
      "Morala gainegitura gisa (Marx); esklaboen morala eta balioen transmutazioa (Nietzsche); Supernia, barneratutako arau moralak (Freud).",
-     "Azpiegitura ekonomikoa, klase-borroka, plusbalioa eta alienazioa (Marx); kulturaren ondoeza: zibilizazioak desirak erreprimitzea eskatzen du (Freud).",
+     "Azpiegitura ekonomikoa, klase-borroka, gainbalioa eta alienazioa (Marx); kulturaren ondoeza: zibilizazioak desirak erreprimitzea eskatzen du (Freud).",
      "«Jainkoa hil da»: balio gorenak erortzen dira; genealogia Platonen eta kristautasunaren aurka; modernitatearen subjektu gardenaren aurka.",
      "Klaserik gabeko iraultza, gaingizakia, osasun mentala eta norberaren ezagutza; postmodernitatea prestatzen dute; Ricoeur: susmoaren ondoren, hermeneutika."
     ]
@@ -284,7 +284,7 @@ const EA_EJES = {
      "Arrazoi instrumentala: eraginkortasuna eta kalkulua, helburuez galdetu gabe; Habermas: arrazoi komunikatiboa eta ezagutzaren interes emantzipatzailea.",
      "Langile alienatua; behar faltsuak dituen kontsumitzaile pasiboa (Marcuse); masa atomizatua (Arendt); duintasunean zauritutako kolonizatua (Fanon).",
      "Gaizkiaren hutsalkeria: pentsatzeari uko egitea (Arendt); justizia ekitate gisa: ezjakintasunaren estalkia eta diferentziaren printzipioa (Rawls).",
-     "Plusbalioa eta iraultza; hegemonia kulturala, industria kulturala, inperialismoa, totalitarismoa; demokrazia deliberatiboa, ingeniaritza zatikakoa eta ongizate-estatua.",
+     "Gainbalioa eta iraultza; hegemonia kulturala, industria kulturala, inperialismoa, totalitarismoa; demokrazia deliberatiboa, ingeniaritza zatikakoa eta ongizate-estatua.",
      "Ilustrazioaren dialektika: arrazoia menderakuntza bihurtzen da; Popper historizismoaren aurka; Arendt Hegelen eta Marxen kontakizun teleologikoen aurka.",
      "Plataforma digitalak, kontsumoa eta sareak; esfera publikoa populismoaren aurrean; Rawlsek oinarri morala ematen dio ongizate-estatuari: ez da karitatea, justizia baizik."
     ]

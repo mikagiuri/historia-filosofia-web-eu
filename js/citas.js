@@ -1154,7 +1154,7 @@ const CITAS = [
   "img": "media/retratos/museo2/bentham.jpg"
  },
  {
-  "c": "Ustez besterenezinak ziren Gizakiaren Eskubideak aplikaezinak zirela frogatu zen —baita konstituzioak haietan oinarritzen zituzten herrialdeetan ere— inongo Estatu subiranoren hiritar ez ziren pertsonak agertu bezain laster.",
+  "c": "Ustez besterenezinak ziren Gizakiaren Eskubideak aplikaezinak zirela frogatu zen —baita konstituzioak haietan oinarritzen zituzten herrialdeetan ere— inongo Estatu subiranoren herritar ez ziren pertsonak agertu bezain laster.",
   "a": "Arendt",
   "o": "Totalitarismoaren jatorriak (1951), II. zatia, 9. kap.",
   "e": "contemporanea",

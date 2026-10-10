@@ -546,7 +546,7 @@ const RAYUELA_HF = {
     "m-riqueza-total"
    ],
    "titulo": "Kontsumoa kritikatu, eta merkatuaz fidatu?",
-   "texto": "Erantzun batean kritikatzen duzu merkatuak kontsumitzaile nahi gaituela eta ez hiritar, edo markak erosten ditugula eta ez gauzak; beste batean, merkatuaren irabazia merezia dela, edo justizia aberastasun osoaren arabera edo bakoitzak aukeratzeko duen askatasunaren arabera neurtzen dela. Baina aukeratzen duguna publizitateak ere moldatzen du. Baumanek esango luke kontsumoaren gizartean aukeratzeko askatasuna erosteko betebehar bihurtu dela."
+   "texto": "Erantzun batean kritikatzen duzu merkatuak kontsumitzaile nahi gaituela eta ez herritar, edo markak erosten ditugula eta ez gauzak; beste batean, merkatuaren irabazia merezia dela, edo justizia aberastasun osoaren arabera edo bakoitzak aukeratzeko duen askatasunaren arabera neurtzen dela. Baina aukeratzen duguna publizitateak ere moldatzen du. Baumanek esango luke kontsumoaren gizartean aukeratzeko askatasuna erosteko betebehar bihurtu dela."
   },
   {
    "id": "t-callar-poetica",
@@ -1750,7 +1750,7 @@ const RAYUELA_HF = {
      "marca": "m-precariedad"
     },
     {
-     "t": "Negozio gisa: merkatuak kontsumitzaile nahi gaitu, ez hiritar.",
+     "t": "Negozio gisa: merkatuak kontsumitzaile nahi gaitu, ez herritar.",
      "to": "28",
      "marca": "m-consumidores"
     }
@@ -3829,7 +3829,7 @@ const RAYUELA_HF = {
     0.9
    ],
    "titulo": "Borondate orokorra",
-   "texto": "Zuretzat boterea herriarena da: lege bat borondate orokorra adierazten badu bakarrik da legitimoa. Rousseauk bezala, uste duzu gizarteak usteldu dezakeela, baina kontratu on batek hiritar libre egiten gaituela ere bai.",
+   "texto": "Zuretzat boterea herriarena da: lege bat borondate orokorra adierazten badu bakarrik da legitimoa. Rousseauk bezala, uste duzu gizarteak usteldu dezakeela, baina kontratu on batek herritar libre egiten gaituela ere bai.",
    "abierto": "Zer gertatzen da borondate orokorrarekin ados ez dagoen gutxiengoarekin?",
    "reflexion": "Zerk egiten du legitimo lege bat?",
    "autores": [

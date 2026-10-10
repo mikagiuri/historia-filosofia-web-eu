@@ -116,7 +116,7 @@ const NUDOS = [
    {
     "k": "C5=A|C2=A",
     "tipo": "real",
-    "por": "Zerbait faltsua dela frogatu ezin izateak ez du frogatzen egiazkoa denik (ezjakintasunari deiaren faltsukeria). Hura sinestea arrazoizkoa balitz, arrazoizkoa litzateke, halaber, ezeztatu ezin diren beste gauza askoren kontrakoa sinestea.",
+    "por": "Zerbait faltsua dela frogatu ezin izateak ez du frogatzen egiazkoa denik (ezjakintasunari deiaren falazia). Hura sinestea arrazoizkoa balitz, arrazoizkoa litzateke, halaber, ezeztatu ezin diren beste gauza askoren kontrakoa sinestea.",
     "distinguir": "Pista: axola du nork frogatu behar duen (frogatzeko zama)? Eta sakon bilatu bada eta ezer aurkitu ez bada?",
     "fuente": "Bertrand Russell, zeruko tetera («Ba al dago Jainkorik?», 1952)."
    },
@@ -132,7 +132,7 @@ const NUDOS = [
     "tipo": "real",
     "por": "Mendeetan zehar ia mundu guztiak uste izan zuen Eguzkiak Lurraren inguruan biratzen zuela. Gehiengoa arrazoi ona balitz, arrazoizkoa izango zen hori sinestea; baina beste baieztapenak dio egia ez dagoela zenbatek sinesten duten mende.",
     "distinguir": "Pista: arrazoizkoa izan daiteke zerbait faltsua sinestea, arrazoiak garai hartan onak baziren? Bereizi «egiazkoa» eta «arrazoizkoa».",
-    "fuente": "Gehiengoari deiaren faltsukeria; Galileoren kasua."
+    "fuente": "Gehiengoari deiaren falazia; Galileoren kasua."
    },
    {
     "k": "C2=A|C8=A",

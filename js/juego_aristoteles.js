@@ -1499,7 +1499,7 @@ const JUEGO_ARIS = {
    "etapa": "m",
    "virtue": "Ausardia (andreía)",
    "sit": "Gerra zibila hirian: demokratak eta oligarkak kaleetan hiltzen ari dira elkar, eta bi aldeek aukeratzeko exijitzen dizute.",
-   "hist": "Soloni egotzitako lege batek eskubideak kentzen zizkion gerra zibil batean alderdirik hartzen ez zuen herritarrari. Tuzididesek Korzirako stásis-a moral ororen amaiera bezala deskribatzen du.",
+   "hist": "Soloni egotzitako lege batek eskubideak kentzen zizkion gerra zibil batean alderdirik hartzen ez zuen hiritarrari. Tuzididesek Korzirako stásis-a moral ororen amaiera bezala deskribatzen du.",
    "opts": [
     {
      "t": "Oligarkekin bat egin.",
@@ -2278,7 +2278,7 @@ const JUEGO_ARIS = {
     "ene": 5
    },
    "virtue": "Ausardia (andreía)",
-   "sit": "Zahartuta, gazteak usteltea eta hiriko jainkoetan ez sinestea leporatzen dizute. 501 herritarrek osatzen dute epaimahaia.",
+   "sit": "Zahartuta, gazteak usteltea eta hiriko jainkoetan ez sinestea leporatzen dizute. 501 hiritarrek osatzen dute epaimahaia.",
    "hist": "Horrelakoa izan zen Sokratesen epaiketa (K.a. 399), Platonen Apologiaren arabera. «Zigor» gisa Pritaneoan doan jatea eskatu zuen, eta heriotzara kondenatu zuten.",
    "opts": [
     {

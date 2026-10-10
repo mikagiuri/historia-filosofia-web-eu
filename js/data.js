@@ -1390,7 +1390,7 @@ const DECKS = {
    ],
    [
     "⚠️",
-    "Faltsukeria",
+    "Falazia",
     "Sendoa dirudien baina bere ondorioa behar bezala justifikatzen ez duen arrazoibidea."
    ],
    [
@@ -2047,7 +2047,7 @@ const DECKS = {
   "cards": [
    [
     "📜",
-    "Kontratu soziala",
+    "Gizarte-kontratua",
     "Banakoek Estatua sortzeko egiten duten akordioa."
    ],
    [
@@ -2220,7 +2220,7 @@ const DECKS = {
    ],
    [
     "💰",
-    "Plusbalioa",
+    "Gainbalioa",
     "Langileak sortu bai baina jasotzen ez duen balioa."
    ],
    [
@@ -3162,7 +3162,7 @@ const QUIZZES = {
     "o": [
      "Bizitzaren indarra, berdetasuna eta emankortasuna.",
      "Substantzia pentsatzaile hutsa.",
-     "Kontratu sozialaren sinadura.",
+     "Gizarte-kontratuaren sinadura.",
      "Kausalitatearen ohitura psikologikoa."
     ],
     "a": 0,
@@ -3184,7 +3184,7 @@ const QUIZZES = {
     "o": [
      "Hizkuntza-jokoak eta paradigma zientifikoak soilik.",
      "Atomoak eta hutsa bakarrik.",
-     "Merkatua eta plusbalioa.",
+     "Merkatua eta gainbalioa.",
      "Jainkoa, natura, gorputza, osasuna eta komunitatea."
     ],
     "a": 3,
@@ -3206,7 +3206,7 @@ const QUIZZES = {
     "o": [
      "Natura, osasuna eta Jainkoaren indarra lotzen dituen berdetasuna eta indar bizia.",
      "Substantzia pentsatzaile hutsa.",
-     "Kontratu sozialaren sinadura.",
+     "Gizarte-kontratuaren sinadura.",
      "Judizioaren etetea."
     ],
     "a": 0,
@@ -3401,7 +3401,7 @@ const QUIZZES = {
    {
     "q": "Zein da Tomasen proiektu nagusia?",
     "o": [
-     "Kontratu sozial modernoa formulatzea.",
+     "Gizarte-kontratu modernoa formulatzea.",
      "Esperientzia oro ukatzea eta fideismoa ezartzea.",
      "Aristotelesen filosofia eta kristautasuna sintesi batean ulertzea.",
      "Kausalitatea ohitura hutsera murriztea."
@@ -3425,7 +3425,7 @@ const QUIZZES = {
     "o": [
      "Jainkoaren kontzeptu edo definizio hutsetik soilik, esperientziarik gabe.",
      "Munduko mugimendu, kausa, kontingentzia, perfekzio eta helburutasunetik.",
-     "Hiritarren arteko gizarte-kontratuaren ideia hipotetikotik abiatuta.",
+     "Herritarren arteko gizarte-kontratuaren ideia hipotetikotik abiatuta.",
      "Norberaren barneko inpresio eta sentimendu psikologiko hutsetatik abiatuta."
     ],
     "a": 1,
@@ -3605,7 +3605,7 @@ const QUIZZES = {
      "Mitoa, erritua, ohitura eta autoritatea.",
      "Ebidentzia, analisia, sintesia eta berrikuspena.",
      "Plazera, mina, ohitura eta fortuna.",
-     "Klasea, ideologia, plusbalioa eta alienazioa."
+     "Klasea, ideologia, gainbalioa eta alienazioa."
     ],
     "a": 1,
     "fb": "Descartesek eredu matematikotik hartutako metodoaren lau arau finkatzen ditu: ebidentzia, analisia, sintesia eta berrikuspena."
@@ -3732,7 +3732,7 @@ const QUIZZES = {
     "o": [
      "Substantzia independente eta infinitua.",
      "Substantzia bakarraren adierazpen zehatza.",
-     "Kontratu sozialaren sinadura.",
+     "Gizarte-kontratuaren sinadura.",
      "Inpresio bizi bat."
     ],
     "a": 1,
@@ -4170,7 +4170,7 @@ const QUIZZES = {
     "fb": "B6 botere politikoaren jatorrian eta legitimitatean zentratzen da: zergatik eta noiz den legitimoa agintea obeditzea."
    },
    {
-    "q": "Zer da kontratu soziala unitate honetan?",
+    "q": "Zer da gizarte-kontratua unitate honetan?",
     "o": [
      "Zientzia mekanikoaren lege fisiko bat.",
      "Historialariek aurkitu duten dokumentu bakarra.",
@@ -4178,7 +4178,7 @@ const QUIZZES = {
      "Botere legitimoa adostasun edo hitzarmen teoriko baten bidez azaltzeko eredua."
     ],
     "a": 3,
-    "fb": "Gizarte-kontratua ez da gertaera historiko bat, botere legitimoa hiritarren adostasunaren bidez azaltzen duen eredu teoriko bat baizik."
+    "fb": "Gizarte-kontratua ez da gertaera historiko bat, botere legitimoa herritarren adostasunaren bidez azaltzen duen eredu teoriko bat baizik."
    },
    {
     "q": "Zer azpimarratzen du Hobbesen ereduak?",
@@ -4189,7 +4189,7 @@ const QUIZZES = {
      "Herritarrek lege guztiak beti zuzenean idatzi behar dituztela."
     ],
     "a": 1,
-    "fb": "Hobbesek segurtasuna azpimarratzen du: beldurraren eta gatazkaren aurrean, hiritarrek beren indarra botere komun indartsu bati lagatzen diote, Leviatani."
+    "fb": "Hobbesek segurtasuna azpimarratzen du: beldurraren eta gatazkaren aurrean, herritarrek beren indarra botere komun indartsu bati lagatzen diote, Leviatani."
    },
    {
     "q": "Zer defendatzen du Lockeren gobernu mugatuak?",
@@ -4205,7 +4205,7 @@ const QUIZZES = {
    {
     "q": "Zergatik da garrantzitsua botere banaketa?",
     "o": [
-     "Kontratu soziala metafisika bihurtzeko.",
+     "Gizarte-kontratua metafisika bihurtzeko.",
      "Estatua guztiz desagerrarazteko.",
      "Herritarrek eskubiderik ez dutela frogatzeko.",
      "Boterearen gehiegikeria mugatzeko eta askatasun politikoa babesteko."
@@ -4270,7 +4270,7 @@ const QUIZZES = {
      "Rawlsen biografia osoa azaltzea.",
      "Ongizatea, askatasuna eta justizia batera pentsatzea.",
      "Kapitalismoa naturala dela frogatzea.",
-     "B6ko kontratu soziala berriro errepikatzea."
+     "B6ko gizarte-kontratua berriro errepikatzea."
     ],
     "a": 1,
     "fb": "B7ren ardatza ongizatea, askatasuna eta justizia batera pentsatzea da, arazo beraren hiru aurpegi gisa."
@@ -4591,7 +4591,7 @@ const QUIZZES = {
      "Eskubide modernoen unibertsaltasuna proban jartzen duelako, emakumeak herritar oso gisa aitortzea eskatuz."
     ],
     "a": 3,
-    "fb": "Sufragismoak eskubide modernoen unibertsaltasuna probatzen du, emakumeak hiritar oso gisa aitor daitezen eskatzean."
+    "fb": "Sufragismoak eskubide modernoen unibertsaltasuna probatzen du, emakumeak herritar oso gisa aitor daitezen eskatzean."
    },
    {
     "q": "Zerk lotzen du XIX. mendeko pentsamendua?",
@@ -4607,7 +4607,7 @@ const QUIZZES = {
    {
     "q": "Zergatik da garrantzitsua sufragismoa?",
     "o": [
-     "Eskubideen unibertsaltasuna probatzen du, emakumeentzat hiritartasun osoa eskatuz.",
+     "Eskubideen unibertsaltasuna probatzen du, emakumeentzat herritartasun osoa eskatuz.",
      "Darwinismo soziala babesten du.",
      "Ilustrazioa ukatzen du.",
      "Gizonen botoa soilik bilatzen du."
@@ -4656,7 +4656,7 @@ const QUIZZES = {
     "fb": "Azpiegitura oinarri ekonomikoa da, eta gainegitura, haren gainean eraikitzen diren forma juridiko, politiko eta ideologikoak."
    },
    {
-    "q": "Zer da plusbalioa?",
+    "q": "Zer da gainbalioa?",
     "o": [
      "Langileak soldatan jasotzen duen guztia.",
      "Langileak sortu baina soldatan jasotzen ez duen balio soberakina.",
@@ -5580,7 +5580,7 @@ const QUIZZES = {
     "fb": "Metodo filosofiko bat galderak, kontzeptuak eta argudioak arazo bat lantzeko antolatzen dituen prozedura bat da, ez trikimailu erretoriko bat, ezta buruz ikasteko teknika bat ere."
    },
    {
-    "q": "Zer da faltsukeria bat?",
+    "q": "Zer da falazia bat?",
     "o": [
      "Filosofikoki defendatzen den edozein iritzi.",
      "Sinesgarria den argudio faltsua.",
@@ -5588,7 +5588,7 @@ const QUIZZES = {
      "Inork ulertzen ez duen baieztapen ilun bat."
     ],
     "a": 1,
-    "fb": "Faltsukeria sendoa dirudien eta konbentzigarria den arrazoibide bat da, baina bere ondorioa behar bezala justifikatzen ez duena."
+    "fb": "Falazia sendoa dirudien eta konbentzigarria den arrazoibide bat da, baina bere ondorioa behar bezala justifikatzen ez duena."
    },
    {
     "q": "Zergatik esaten da historikotasunak filosofia kokatzen duela, baina ez duela ixten?",
@@ -7343,7 +7343,7 @@ const QUIZZES = {
     "fb": "Argudio on batek ondoriorainoko bidea, erabiltzen dituen kontzeptuak eta bere puntu ahula non egon daitekeen erakusten ditu."
    },
    {
-    "q": "Gaiaren arabera, zerk egiten du faltsukeria bat arrazoibide ontzat har daitekeela?",
+    "q": "Gaiaren arabera, zerk egiten du falazia bat arrazoibide ontzat har daitekeela?",
     "o": [
      "Sendoa dirudiela, nahiz eta bere ondorioa ondo justifikatzen ez duen",
      "Beti inork egiaztatzen ez dituen premisa faltsuetatik abiatzen dela",
@@ -7351,7 +7351,7 @@ const QUIZZES = {
      "Oso ezaguna den autore baten iritzian oinarritzen dela"
     ],
     "a": 0,
-    "fb": "Faltsukeriak engainatu egiten du sendotasun-itxura duelako, baina ez du bere ondorioa behar bezala justifikatzen."
+    "fb": "Falaziak engainatu egiten du sendotasun-itxura duelako, baina ez du bere ondorioa behar bezala justifikatzen."
    },
    {
     "q": "Karitatearen printzipioak autore baten bertsiorik sendoena berreraikitzea eskatzen du. Zer argitzen du gaiak printzipio horri buruz?",
@@ -7541,15 +7541,15 @@ const QUIZZES = {
     "fb": "Modernitateak ziurtasunaz galdetzen du; XX-XXI. mendeek, hizkuntzaz, boterez edo generoaz, hermeneutika edo analisia bezalako metodoekin."
    },
    {
-    "q": "Zer dute komunean argudio batek eta faltsukeria batek, eta zertan bereizten dira?",
+    "q": "Zer dute komunean argudio batek eta falazia batek, eta zertan bereizten dira?",
     "o": [
-     "Biak dira iritziak; argudioa faltsukeria baino sendoagoa da",
+     "Biak dira iritziak; argudioa falazia baino sendoagoa da",
      "Biak dira arrazoiketak; argudioak bakarrik justifikatzen du ondo bere ondorioa",
-     "Biak dira generoak; faltsukeria diskurtso erretorikoari dagokio",
-     "Biek justifikatzen dute beren ondorioa; faltsukeriak premisa gutxiagorekin"
+     "Biak dira generoak; falazia diskurtso erretorikoari dagokio",
+     "Biek justifikatzen dute beren ondorioa; falaziak premisa gutxiagorekin"
     ],
     "a": 1,
-    "fb": "Biak dira arrazoiketak, baina faltsukeria sendoa dirudi soilik: ez du bere ondorioa behar bezala justifikatzen."
+    "fb": "Biak dira arrazoiketak, baina falazia sendoa dirudi soilik: ez du bere ondorioa behar bezala justifikatzen."
    },
    {
     "q": "Ados ez dagoen artikulu bat kritikatu aurretik, pertsona batek berriro irakurtzen du haren tesia ahalik eta modurik sinesgarrienean azaltzeko. Zer ari da aplikatzen?",
@@ -7578,7 +7578,7 @@ const QUIZZES = {
     "o": [
      "Teknologiari aplikatutako zalantza metodikoaren adibide gisa",
      "Argudio sendo gisa, egiazta daitekeen gertaera batetik abiatzen delako",
-     "Faltsukeria gisa: sendoa dirudi, baina ez du bere ondorioa justifikatzen",
+     "Falazia gisa: sendoa dirudi, baina ez du bere ondorioa justifikatzen",
      "Karitatearen printzipioaren aplikazio zuzen gisa"
     ],
     "a": 2,
@@ -12963,7 +12963,7 @@ const QUIZZES = {
     "fb": "Rousseauren borondate orokorrak interes komuna bilatzen du, ez auzokide bakoitzaren interes partikularren batura."
    },
    {
-    "q": "Hiritar batek bere askatasunaren murrizketa handiak onartzen ditu, trukean boterea bermatzen diolako inork ez diola kalterik egingo. Obedientziaren zer justifikazio erabiltzen ari da?",
+    "q": "Herritar batek bere askatasunaren murrizketa handiak onartzen ditu, trukean boterea bermatzen diolako inork ez diola kalterik egingo. Obedientziaren zer justifikazio erabiltzen ari da?",
     "o": [
      "Rousseaurena: norberak bere buruari emandako legea betetzen da.",
      "Hobbesena: babesaren eta segurtasunaren truke obeditzen da.",
@@ -12974,7 +12974,7 @@ const QUIZZES = {
     "fb": "Hobbesek beldurraren eta babes-beharraren bidez justifikatzen du subiranoari zor zaion obedientzia: askatasuna lagatzen da segurtasunaren truke."
    },
    {
-    "q": "Auzitegi batek ministro bat zigortzen du ustelkeriagatik, beste edozein hiritarri bezala lege berberak aplikatuta. Zer printzipio betetzen da?",
+    "q": "Auzitegi batek ministro bat zigortzen du ustelkeriagatik, beste edozein herritarri bezala lege berberak aplikatuta. Zer printzipio betetzen da?",
     "o": [
      "Subiranotasun absolutua.",
      "Errealismo politikoa.",
@@ -13162,7 +13162,7 @@ const QUIZZES = {
      "Norberaren interesak gizartea suntsitzen du, Estatuak zapaltzen ez badu",
      "Gizarte-ongizateak norberaren interesari erabat uko egitea eskatzen du",
      "Norberaren interesa bilatzeak, nahi gabe, ongizate komunera darama",
-     "Biak bat datoz hiritarren arteko itun esplizitu bati esker bakarrik"
+     "Biak bat datoz herritarren arteko itun esplizitu bati esker bakarrik"
     ],
     "a": 2,
     "fb": "Smithentzat norberaren interesaren bilaketak, nahi gabe, gizartearen ongizatera darama, merkatuaren esku ikusezinari esker."
@@ -13214,7 +13214,7 @@ const QUIZZES = {
    {
     "q": "Zer eginkizun ematen dio gaiak jabetza pribatuari?",
     "o": [
-     "Estatuak hiritarrei egindako emakida errebokagarria",
+     "Estatuak herritarrei egindako emakida errebokagarria",
      "Lankidetzarako oztopo bat, ezabatu beharrekoa",
      "Eskubide natural bat eta kapitalismoaren oinarria",
      "XX. mendeko neoliberalismoaren asmakizun berri bat"
@@ -13344,7 +13344,7 @@ const QUIZZES = {
     "fb": "Millen ustez, plazer psikikoak goragokoak dira eta benetako zoriontasuna dira; fisikoek, berriz, asebetetzea baino ez dute ematen."
    },
    {
-    "q": "Hiritar batek dio Gobernuak ez diola esan behar zein erlijio edo bizimodu den hobea, baizik eta aukeratzeko duen askatasuna babestu. Zer printzipio defendatzen du?",
+    "q": "Herritar batek dio Gobernuak ez diola esan behar zein erlijio edo bizimodu den hobea, baizik eta aukeratzeko duen askatasuna babestu. Zer printzipio defendatzen du?",
     "o": [
      "Estatu liberalaren neutraltasuna",
      "Zoriontasunik handienaren printzipioa",
@@ -13538,7 +13538,7 @@ const QUIZZES = {
     "fb": "Unibertsoa legeek gobernatzen badute, Newtonen fisikak erakusten duen bezala, fenomenoak Jainkoarengana jo gabe azaltzen dira."
    },
    {
-    "q": "Pentsamendu politiko ilustratuaren arabera, zerk bereizten du hiritarra menpekotik?",
+    "q": "Pentsamendu politiko ilustratuaren arabera, zerk bereizten du herritarra menpekotik?",
     "o": [
      "Estatuari zergak ordaintzen dizkiola; menpekoa, berriz, salbuetsita dago.",
      "Nobleziakoa dela; menpekoa, berriz, herri xehekoa da.",
@@ -13546,7 +13546,7 @@ const QUIZZES = {
      "Boterean parte hartzen duela eta legitimatu egiten duela, itsuan obeditu ordez."
     ],
     "a": 3,
-    "fb": "Menpekoak itsuan obeditzen du; hiritarrak boterean parte hartzen du, eta hura da boterea legitimatzen duena."
+    "fb": "Menpekoak itsuan obeditzen du; herritarrak boterean parte hartzen du, eta hura da boterea legitimatzen duena."
    },
    {
     "q": "Lockeren arabera, zer harreman dago eskubide naturalen eta Estatuaren artean?",
@@ -13706,7 +13706,7 @@ const QUIZZES = {
     "q": "Mutil batek bere influencer gogokoenak esaten duen guztia errepikatzen du, inoiz bere kabuz pentsatzeko gelditu gabe. Nola deskribatuko luke Kantek?",
     "o": [
      "Ausardia faltagatik adin-txikitasunean jarraitzen duen norbait bezala.",
-     "Bere iritziarekin boterea legitimatzen duen hiritar bat bezala.",
+     "Bere iritziarekin boterea legitimatzen duen herritar bat bezala.",
      "Arrazionala ez den aginte oro baztertzen duen deista bat bezala.",
      "Beti gertaeretatik abiatzen den arrazoi enpirikoaren adibide bat bezala."
     ],
@@ -17063,7 +17063,7 @@ const QUIZZES = {
      "Identitate sendo eta tradizionalei atxikitzen zaionari"
     ],
     "a": 2,
-    "fb": "Baumanentzat, modernitate likidoan hiritarra kontsumitzaile bihurtzen da, eta merkatuarentzat erabilgarria ez dena «giza hondakin» bihurtzen da."
+    "fb": "Baumanentzat, modernitate likidoan herritarra kontsumitzaile bihurtzen da, eta merkatuarentzat erabilgarria ez dena «giza hondakin» bihurtzen da."
    },
    {
     "q": "«Likidoa denbora luzez bere forma gordetzen ez duena da.» Nor da esaldi honen egilea?",
@@ -17088,7 +17088,7 @@ const QUIZZES = {
     "fb": "Baumanek modernitate bat deskribatzen du non loturak, lanpostuak eta identitateak jada ez diren sendoak, baizik eta prekarioak eta aldakorrak."
    },
    {
-    "q": "«Hiritarra kontsumitzaile bihurtzen da» tesia nori dagokio?",
+    "q": "«Herritarra kontsumitzaile bihurtzen da» tesia nori dagokio?",
     "o": [
      "Zygmunt Bauman",
      "Martha Nussbaum",
@@ -17096,7 +17096,7 @@ const QUIZZES = {
      "Yayo Herrero"
     ],
     "a": 0,
-    "fb": "Baumanek dio modernitate likidoan hiritarra kontsumitzaile bihurtzen dela."
+    "fb": "Baumanek dio modernitate likidoan herritarra kontsumitzaile bihurtzen dela."
    },
    {
     "q": "Kontsumoari buruz, zer ideia dute komunean Baumanek eta «No Logo»-ko Kleinek?",
@@ -17107,7 +17107,7 @@ const QUIZZES = {
      "Kontsumoak objektuei eragiten diela, ez pertsonei"
     ],
     "a": 1,
-    "fb": "Baumanentzat hiritarra kontsumitzaile bihurtzen da, eta Kleinentzat markek bizimoduak saltzen dituzte: bi kasuetan kontsumoak identitatea moldatzen du."
+    "fb": "Baumanentzat herritarra kontsumitzaile bihurtzen da, eta Kleinentzat markek bizimoduak saltzen dituzte: bi kasuetan kontsumoak identitatea moldatzen du."
    },
    {
     "q": "Byung-Chul Hanen arabera, zerk bereizten du errendimenduaren gizartea gizarte diziplinariotik?",
@@ -17280,7 +17280,7 @@ const QUIZZES = {
      "Gerrak negozioa egiteko baliatzen dituela",
      "Generoa esentzia biologiko gisa inposatzen duela",
      "Planeta infinitua balitz bezala jokatzen duela",
-     "Hiritar bakoitza kontsumitzaile bihurtzen duela"
+     "Herritar bakoitza kontsumitzaile bihurtzen duela"
     ],
     "a": 2,
     "fb": "Herrerok onura lehenesten duen eta planetako baliabideak infinituak balira bezala jokatzen duen sistema kritikatzen du, ekomendekoak garela ahaztuta."
@@ -19962,7 +19962,7 @@ const QUIZZES = {
     "o": [
      "Estatuak erlijio egiazkoa ezarri behar du",
      "Erlijioak botere politikoa gobernatu behar du",
-     "Estatuak ez die hiritarrei erlijiorik ezarri behar",
+     "Estatuak ez die herritarrei erlijiorik ezarri behar",
      "Tolerantziak sinesmen oro ezabatzera behartzen du"
     ],
     "a": 2,
@@ -20408,7 +20408,7 @@ const QUIZZES = {
     "fb": "Newtonen fisikari esker, natura legeek gobernatua agertzen da; beraz, jada ez da beharrezkoa Jainkoarengana jotzea fenomenoak azaltzeko."
    },
    {
-    "q": "Zer kontzeptu politikok dio boterea hiritar guztien multzoan dagoela, eta ez monarkarengan?",
+    "q": "Zer kontzeptu politikok dio boterea herritar guztien multzoan dagoela, eta ez monarkarengan?",
     "o": [
      "Botere-banaketa",
      "Eskubide naturalak",
@@ -21151,7 +21151,7 @@ const QUIZZES = {
     "fb": "Habermasek hizketa-egoera ideala deitzen dio denek berdintasunean eta askatasunez argudiatzen duten baldintzari, non argudio onenaren indarra nagusitzen baita, ez boterea."
    },
    {
-    "q": "Habermasek deliberazio demokratikoa hiritarrek boterea kritikatzen eta arau komunak justifikatzen dituzten espazio batean kokatzen du. Nola deitzen dio espazio horri?",
+    "q": "Habermasek deliberazio demokratikoa herritarrek boterea kritikatzen eta arau komunak justifikatzen dituzten espazio batean kokatzen du. Nola deitzen dio espazio horri?",
     "o": [
      "Abangoardiako alderdia",
      "Esfera publikoa",
@@ -21159,7 +21159,7 @@ const QUIZZES = {
      "Jatorrizko posizioa"
     ],
     "a": 1,
-    "fb": "Esfera publikoa hiritarrek gai komunak eztabaidatzen eta iritzi arrazoitua osatzen duten espazio soziala eta politikoa da."
+    "fb": "Esfera publikoa herritarrek gai komunak eztabaidatzen eta iritzi arrazoitua osatzen duten espazio soziala eta politikoa da."
    },
    {
     "q": "Leninek dio zapalkuntzaren esperientzia ez dela berez estrategia politiko bihurtzen. Zer tresna defendatzen du langile-klasearen borroka sakabanatua artikulatzeko?",

@@ -132,7 +132,7 @@ const CRONOGRAMAS = [
     "end": 1762,
     "grp": 2,
     "per": 3,
-    "note": "Hobbesen Leviatanetik (1651) Rousseauren Kontratu sozialera (1762)"
+    "note": "Hobbesen Leviatanetik (1651) Rousseauren Gizarte-kontratura (1762)"
    },
    {
     "name": "Historia",

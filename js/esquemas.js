@@ -678,7 +678,7 @@ const ESQUEMAS = {
       },
       {
        "rel": "hortik",
-       "t": "Plusbalioa",
+       "t": "Gainbalioa",
        "d": "Langileak sortu bai baina jasotzen ez duen balioa."
       },
       {
@@ -710,7 +710,7 @@ const ESQUEMAS = {
     {
      "de": "Lan-balioa",
      "rel": "hau azaltzeko aukera ematen dio",
-     "a": "Plusbalioa"
+     "a": "Gainbalioa"
     },
     {
      "de": "Alienazioa",
@@ -2015,7 +2015,7 @@ const ESQUEMAS = {
      "c": [
       {
        "rel": "hauteman behar du",
-       "t": "Faltsukeria",
+       "t": "Falazia",
        "d": "Sendoa dirudien baina bere ondorioa justifikatzen ez duen arrazoiketa."
       }
      ]
@@ -3416,7 +3416,7 @@ const ESQUEMAS = {
  "ds-B6": {
   "subject": "hf",
   "block": "B",
-  "tema": "Kontratu soziala",
+  "tema": "Gizarte-kontratua",
   "title": "Gizarte-kontratua",
   "mermaid": "flowchart TD\n  center[\"GIZARTE-KONTRATUA\"]:::axis\n  idea[\"Naturazko egoeratik gizartera<br>itun baten bidez\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"tesi komuna\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"«homo homini lupus»\"]\n  hob -->|\"ematen duen ituna\"| h2[\"Leviatan:<br>monarkia absolutua\"]\n  loc --> l1[\"eskubide naturalak:<br>bizitza, askatasuna, jabetza\"]\n  loc -->|\"ematen duen ituna\"| l2[\"monarkia parlamentarioa<br>+ botere-banaketa\"]\n  rou --> r1[\"borondate orokorra\"]\n  rou -->|\"ematen duen ituna\"| r2[\"batzar-demokrazia\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
   "v2": {
@@ -3678,7 +3678,7 @@ const ESQUEMAS = {
       {
        "rel": "lege bihurtzen dira hemen",
        "t": "1789ko Adierazpena",
-       "d": "Gizakiaren eta Hiritarraren Eskubideen Adierazpena."
+       "d": "Gizakiaren eta Herritarraren Eskubideen Adierazpena."
       }
      ]
     },
@@ -3720,7 +3720,7 @@ const ESQUEMAS = {
      "a": "1789ko Adierazpena"
     }
    ],
-   "idea": "Arrazoi ilustratuak eskubide naturalak oinarritzen ditu eta menekoa hiritar bihurtzen du; baina, arrazoia unibertsala bada, emakumeak baztertzea inkoherentzia da, eta lehen olatu feministak salatu egiten du."
+   "idea": "Arrazoi ilustratuak eskubide naturalak oinarritzen ditu eta menekoa herritar bihurtzen du; baina, arrazoia unibertsala bada, emakumeak baztertzea inkoherentzia da, eta lehen olatu feministak salatu egiten du."
   }
  },
  "ds-C2": {
@@ -4057,7 +4057,7 @@ const ESQUEMAS = {
      "c": [
       {
        "rel": "honetan oinarritzen da",
-       "t": "Plusbalioa",
+       "t": "Gainbalioa",
        "d": "Kapitalistak langileak sortzen duen eta jasotzen ez duen balioaz jabetzen da."
       },
       {

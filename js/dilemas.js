@@ -105,7 +105,7 @@ const DILEMAS = [
    {
     "quien": "Estoikoak",
     "elige": "A",
-    "porque": "Munduko herritarrak gara eta betebeharrak (kathekon) hirian jardutea agintzen du; Marko Aureliok inperio bat gobernatu zuen Etika eskuan zuela. Jaistea natura arrazionala betetzea da."
+    "porque": "Munduko hiritarrak gara eta betebeharrak (kathekon) hirian jardutea agintzen du; Marko Aureliok inperio bat gobernatu zuen Etika eskuan zuela. Jaistea natura arrazionala betetzea da."
    },
    {
     "quien": "Nietzsche",
@@ -618,7 +618,7 @@ const DILEMAS = [
    {
     "quien": "Marx",
     "elige": "B",
-    "porque": "Baina beloa motz geratzen da: ekoizpen-bideen jabetza pribatua onartzen du, eta beraz esplotazioa; plusbalioa hobeto banatzen du, ezabatu beharrean. Benetako justizia da «bakoitzak bere gaitasunaren arabera, bakoitzari bere beharraren arabera»."
+    "porque": "Baina beloa motz geratzen da: ekoizpen-bideen jabetza pribatua onartzen du, eta beraz esplotazioa; gainbalioa hobeto banatzen du, ezabatu beharrean. Benetako justizia da «bakoitzak bere gaitasunaren arabera, bakoitzari bere beharraren arabera»."
    },
    {
     "quien": "Joxe Azurmendi",

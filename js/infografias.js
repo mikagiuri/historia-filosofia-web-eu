@@ -523,7 +523,7 @@ const INFOGRAFIAS = {
      },
      {
       "emoji": "💰",
-      "t": "Plusbalioa",
+      "t": "Gainbalioa",
       "p": "Kapitalistak lanaren ordaindu gabeko balioa bereganatzen du."
      }
     ]

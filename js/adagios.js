@@ -199,7 +199,7 @@ const ADAGIOS = [
   "er": "I, i, 70",
   "sen": "Ezezagunen artean, babesten gaituen legerik gabe, bestea mehatxu bat da. Hobbesek naturazko egoera deskribatzeko erabiltzen du.",
   "uso": "Naturazko egoerarako eta gizarte-kontraturako.",
-  "trampa": "Esaldia ez da Hobbesena, Plautorena baizik, eta gutun berean Hobbesek kontrakoa jartzen du: «gizakia jainkoa da gizakiarentzat» (legeen pean bizi diren hiritarren artean). Plautorengan, gainera, esaldiak dio gizakia otsoa dela ezagutzen ez duenarentzat.",
+  "trampa": "Esaldia ez da Hobbesena, Plautorena baizik, eta gutun berean Hobbesek kontrakoa jartzen du: «gizakia jainkoa da gizakiarentzat» (legeen pean bizi diren herritarren artean). Plautorengan, gainera, esaldiak dio gizakia otsoa dela ezagutzen ez duenarentzat.",
   "amb": "politica",
   "e": "ant",
   "t": [

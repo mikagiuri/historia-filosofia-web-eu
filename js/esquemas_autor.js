@@ -34,7 +34,7 @@ const ESQUEMAS_AUTOR = [
     "heading": "Argudiaketa",
     "items": [
      {
-      "t": "Faltsukeria",
+      "t": "Falazia",
       "d": "Sendoa dirudien baina bere ondorioa justifikatzen ez duen arrazoiketa."
      }
     ],
@@ -1127,7 +1127,7 @@ const ESQUEMAS_AUTOR = [
      },
      {
       "t": "1789ko Adierazpena",
-      "d": "Gizakiaren eta Hiritarraren Eskubideen Adierazpena."
+      "d": "Gizakiaren eta Herritarraren Eskubideen Adierazpena."
      }
     ],
     "d": "Jaiotzez ditugun eskubideak, Estatua baino lehenagokoak: absolutismoarekin hausten da."
@@ -1153,7 +1153,7 @@ const ESQUEMAS_AUTOR = [
     "d": "Berdintasuna unibertsaltzat aldarrikatzen da, baina emakumeak kanpoan uzten ditu."
    }
   ],
-  "idea": "Arrazoi ilustratuak eskubide naturalak oinarritzen ditu eta menekoa hiritar bihurtzen du; baina, arrazoia unibertsala bada, emakumeak baztertzea inkoherentzia da, eta lehen olatu feministak salatu egiten du."
+  "idea": "Arrazoi ilustratuak eskubide naturalak oinarritzen ditu eta menekoa herritar bihurtzen du; baina, arrazoia unibertsala bada, emakumeak baztertzea inkoherentzia da, eta lehen olatu feministak salatu egiten du."
  },
  {
   "title": "Kanten filosofia kritikoa",
@@ -1373,7 +1373,7 @@ const ESQUEMAS_AUTOR = [
     "heading": "Esplotazioa eta alienazioa",
     "items": [
      {
-      "t": "Plusbalioa",
+      "t": "Gainbalioa",
       "d": "Kapitalistak langileak sortzen duen eta jasotzen ez duen balioaz jabetzen da."
      },
      {
