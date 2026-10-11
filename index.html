@@ -50,9 +50,17 @@
           <button data-view="reto">Erronka</button>
           <button data-view="parejas">Bikoteak</button>
           <button data-view="glosario">Glosarioa</button>
-          <button data-view="ilustres">Ospetsuak</button>
           <button data-view="citas">Esaldiak</button>
           <button data-view="adagios">Adagioak</button>
+        </div>
+      </div>
+      <div class="navsec">
+        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Historia</span>
+        <div class="navmenu">
+          <button data-view="ilustres">Ospetsuak</button>
+          <button data-view="epocas">Aroak</button>
+          <button data-view="cronogramas">Kronogramak</button>
+          <button data-view="genealogias">Genealogiak</button>
           <button data-view="polemicas">Polemikak</button>
           <button data-view="perseguidos">Jazarriak</button>
           <button data-view="comunidades">Komunitateak</button>
@@ -77,8 +85,6 @@
           <button data-view="infografias">Infografiak</button>
           <button data-view="galeria">Galeria</button>
           <button data-view="mapas">Kontzeptu-mapak</button>
-          <button data-view="cronogramas">Kronogramak</button>
-          <button data-view="genealogias">Genealogiak</button>
           <button data-view="esquemas">Eskemak</button>
         </div>
       </div>
@@ -279,7 +285,7 @@
 
   <!-- ILUSTRES -->
   <section class="view" id="ilustres">
-    <p class="eyebrow">Erreferentzia</p>
+    <p class="eyebrow">Historia</p>
     <h1 class="title">Ospetsuak</h1>
     <p class="lead">Teorian agertzen diren pentsalarien biografiak, sokrates aurrekoetatik gaur egunera arte: nor izan ziren, zer pentsatu zuten eta zein gaitan ikasten ditugun. Iragazi <strong>garaiaren</strong> arabera edo bilatu izenez, lanez edo ideiaz.</p>
     <div class="filterbar" id="ilufilter" role="group" aria-label="Iragazi ospetsuak"></div>
@@ -305,10 +311,18 @@
     <div id="duelobox"></div>
   </section>
 
+  <section class="view" id="epocas">
+    <!-- (12-10) Índice de las fichas de época (epocas_fichas.js), que antes solo se abrían desde Ilustres; cada tarjeta lleva el cosmos de su época. -->
+    <p class="eyebrow">Historia</p>
+    <h1 class="title">Aroak</h1>
+    <p class="lead">Zazpi fitxa, Antzinako Greziatik gaur egunera: aro bakoitzean zer aldatu zen gizartean, politikan, zientzian, artean eta pentsamenduan, eta nola irudikatzen zen kosmosa.</p>
+    <div id="epocasbox"></div>
+  </section>
+
   <section class="view" id="polemicas">
     <!-- (11-10) Polémicas: pensadores coetáneos que se enfrentaron cara a cara, por cartas, con libros o desde escuelas rivales
          (polemicas.js + polemicasview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
-    <p class="eyebrow">Ikasi</p>
+    <p class="eyebrow">Historia</p>
     <h1 class="title">Polemikak: aurrez aurre</h1>
     <p class="lead">Garai berean bizi izan ziren eta benetan elkarren aurka aritu ziren filosofoak. Aukeratu norekin zoazen, eman zure arrazoia eta begiratu beste aldeko argudiorik onena.</p>
     <div class="filterbar" id="polemicasfilter" role="group" aria-label="Iragazi polemikak"></div>
@@ -318,7 +332,7 @@
   <section class="view" id="perseguidos">
     <!-- (11-10) Perseguidos por sus ideas y Comunidades de filósofos: fichas (perseguidos.js, comunidades.js + casosview.js, casos.css).
          Solo Bachillerato: la web de ESO no las lleva (build_eso.js). -->
-    <p class="eyebrow">Ikasi</p>
+    <p class="eyebrow">Historia</p>
     <h1 class="title">Beren ideiengatik jazarriak</h1>
     <p class="lead">Pentsatzeko moduak bizia, askatasuna edo aberria kostatu zien filosofoak eta zientzialariak.</p>
     <div class="filterbar" id="perseguidosfilter" role="group" aria-label="Iragazi jazarriak"></div>
@@ -326,7 +340,7 @@
   </section>
 
   <section class="view" id="comunidades">
-    <p class="eyebrow">Ikasi</p>
+    <p class="eyebrow">Historia</p>
     <h1 class="title">Filosofo-komunitateak</h1>
     <p class="lead">Pentsalarien eskolak, zirkuluak eta taldeak, eta biltzen ziren lekuak: lorategiak, gimnasioak, etxeak eta ikasgelak.</p>
     <div class="filterbar" id="comunidadesfilter" role="group" aria-label="Iragazi komunitateak"></div>
@@ -396,7 +410,7 @@
   </section>
 
   <section class="view" id="cronogramas">
-    <p class="eyebrow">Bisuala</p>
+    <p class="eyebrow">Historia</p>
     <h1 class="title">Kronogramak</h1>
     <p class="lead">Ikasturteko ardatz kronologikoa (aldiak, gertakariak eta egileak) eta Filosofiaren Historiako liburuaren kronogramak: bloke bakoitzeko bizitzak eta aldiak urteen ardatz batean.</p>
     <div class="crono-filter" id="cronofilter" role="group" aria-label="Blokearen arabera iragazi"></div>
@@ -405,7 +419,7 @@
   </section>
 
   <section class="view" id="genealogias">
-    <p class="eyebrow">Bisuala</p>
+    <p class="eyebrow">Historia</p>
     <h1 class="title">Genealogiak</h1>
     <p class="lead">Pentsamenduaren ildo handiak historian zehar, metro-plano baten moduan: tradizio bakoitza lerro bat da, eta haren geltokiak hura jarraitzen duten pentsalariak dira, bizi izan ziren ordenan. Bi lerrok pentsalari bat partekatzen duten lekuan korrespondentzia bat dago; gorriz, aurkakotasun nagusiak. Kronogramek erakusten dute nor den garaikide; Genealogiek, nola igarotzen diren ideiak batzuengandik besteengana. Sakatu izen bat haren fitxa ikusteko.</p>
     <div id="geneabox"></div>
