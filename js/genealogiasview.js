@@ -7,7 +7,7 @@
    al ocultar líneas, el plano se recoloca y se compacta. */
 const GEN_T = { lineas: "Lerroak", todas: "Guztiak", ninguna: "Bat ere ez", op: "Aurkakotasunak",
   none: "Ez dago lerrorik aktibo: sakatu bat ikusteko.", hint: "Irristatu historian barrena ibiltzeko →",
-  mLineas: "Lerroen planoa", mTesis: "Tesien sarea", mVR: "Berdea ala gorria?",
+  mLineas: "Lerroen planoa", mTesis: "Tesien sarea", mVR: "Berdea ala gorria?", mCara: "Aurrez aurre",
   ruta: "Zure ibilbidea Txingokan: {n} pentsalari {m} lerrotan. Bidaiatu duzun lerroak ikusten dira (zure pentsalarietatik bi gutxienez dituztenak); puntuzko lerroak zure bidaiaren ordena jarraitzen du.",
   quitarRuta: "Kendu ibilbidea" };   // (09-10) modos: plano, red de tesis y ejercicio (genealogias_tesisview.js)
 const GEN_EPOCAS = [["ant", "Antzinakoa"], ["med", "Erdi Arokoa"], ["ren", "Errenazimentua"], ["mod", "Modernoa"], ["ilu", "Ilustrazioa"], ["con", "Garaikidea"]];
@@ -20,7 +20,7 @@ let genModo = "lineas";   // "lineas" | "tesis" | "verde-roja"
 let genRuta = null;
 function genModos(){
   if (typeof GEN_TESIS === "undefined") return "";
-  return '<div class="fgroup gen-modos" role="group">' + [["lineas", GEN_T.mLineas], ["tesis", GEN_T.mTesis], ["verde-roja", GEN_T.mVR]]
+  return '<div class="fgroup gen-modos" role="group">' + [["lineas", GEN_T.mLineas], ["tesis", GEN_T.mTesis], ["verde-roja", GEN_T.mVR]].concat(typeof window.polGenea === "function" ? [["cara-a-cara", GEN_T.mCara]] : [])
     .map(([k, l]) => '<button type="button" class="fbtn" data-gmodo="' + k + '" aria-pressed="' + (genModo === k) + '">' + l + "</button>").join("") + "</div>";
 }
 
@@ -115,6 +115,8 @@ function genShort(n, id){
 
 function drawGenea(){
   const box = document.getElementById("geneabox"); if (!box || typeof GENEALOGIAS === "undefined") return;
+  /* (11-10) «Cara a cara»: las polémicas entre coetáneos (polemicasview.js) */
+  if (genModo === "cara-a-cara" && typeof window.polGenea === "function"){ box.innerHTML = genModos() + window.polGenea(); return; }
   if (genModo !== "lineas" && typeof genTesisRender === "function"){
     box.innerHTML = genModos() + '<div id="gentesisbox" data-modo="' + genModo + '"></div>'; genTesisRender(genModo); return;
   }
@@ -130,7 +132,7 @@ function drawGenea(){
 /* enlace profundo #genealogias/<línea>: solo esa línea visible; #genealogias/tesis y #genealogias/verde-roja: los otros modos */
 function loadGenea(k){
   if (typeof GENEALOGIAS === "undefined") return;
-  if (k === "tesis" || k === "verde-roja"){ genModo = k; drawGenea(); return; }
+  if (k === "tesis" || k === "verde-roja" || (k === "cara-a-cara" && typeof window.polGenea === "function")){ genModo = k; drawGenea(); return; }
   /* (11-10) #genealogias/tesis/<id>: la Red de tesis con esa tesis abierta (enlaces desde Nudos y Rayuela) */
   const mt = /^tesis\/([\w-]+)$/.exec(k || "");
   if (mt && typeof GT !== "undefined" && typeof GEN_TESIS !== "undefined" && GEN_TESIS.tesis.some(t => t.id === mt[1])){

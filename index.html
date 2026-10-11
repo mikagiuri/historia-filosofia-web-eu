@@ -53,12 +53,13 @@
           <button data-view="ilustres">Ospetsuak</button>
           <button data-view="citas">Esaldiak</button>
           <button data-view="adagios">Adagioak</button>
+          <button data-view="polemicas">Polemikak</button>
         </div>
       </div>
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Jokoak</span>
         <div class="navmenu">
-          <a class="gamelink" href="media/juego_duelo_de_razones_eu.html#hf" target="_blank" rel="noopener">Arrazoien dueloa ↗</a>
+          <button data-view="duelo">Arrazoien dueloa</button>
           <button data-view="eudaimonia">Eudaimonia</button>
           <button data-view="republica">Errepublika</button>
           <button data-view="rayuela">Txingoka filosofikoa</button>
@@ -291,6 +292,25 @@
     <p class="lead">Filosofiaren esaldi ospetsuak, Antzinatetik gaur egunera: bakoitza bere <strong>egilearekin</strong> eta bere <strong>obrarekin</strong>. Iragazi <strong>garaiaren</strong> arabera.</p>
     <div class="filterbar" id="citasfilter" role="group" aria-label="Iragazi esaldiak garaiaren arabera"></div>
     <div id="citasbody"></div>
+  </section>
+
+  <section class="view" id="duelo">
+    <!-- (11-10) Duelo de razones: antes juego aparte (media/juego_duelo_de_razones*.html, cinco copias); ahora sección (duelo.js + dueloview.js).
+         En todas las webs: cada una muestra los debates de su nivel (eso | fil | hf). -->
+    <p class="eyebrow">Jokoak</p>
+    <h1 class="title">Arrazoien dueloa</h1>
+    <div class="due-top"><button type="button" class="due-proybtn" id="dueproy">Proiektore modua</button></div>
+    <div id="duelobox"></div>
+  </section>
+
+  <section class="view" id="polemicas">
+    <!-- (11-10) Polémicas: pensadores coetáneos que se enfrentaron cara a cara, por cartas, con libros o desde escuelas rivales
+         (polemicas.js + polemicasview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">Ikasi</p>
+    <h1 class="title">Polemikak: aurrez aurre</h1>
+    <p class="lead">Garai berean bizi izan ziren eta benetan elkarren aurka aritu ziren filosofoak. Aukeratu norekin zoazen, eman zure arrazoia eta begiratu beste aldeko argudiorik onena.</p>
+    <div class="filterbar" id="polemicasfilter" role="group" aria-label="Iragazi polemikak"></div>
+    <div id="polemicasbox"></div>
   </section>
 
   <section class="view" id="adagios">
@@ -541,6 +561,7 @@
       <h2>Itzulpenen terminologia</h2>
       <ul>
         <li>Euskara: terminologia-erabakiak <em>Euskaltzaindiaren Hiztegia</em>rekin hartzen dira, eta kontsulta bakoitza hemen estekatzen da. 2026-10-11: «época», aldi historiko gisa, «aro» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=aro" target="_blank" rel="noopener">aro</a>, 4. adiera: denbora historikoa banatzen den zatietako bakoitza), ez «garai» (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=garai" target="_blank" rel="noopener">garai</a>, denbora-bitartea oro har); «falacia» «falazia» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=falazia" target="_blank" rel="noopener">falazia</a>), ez «faltsukeria», horrek «gezurra, egia eza» esan nahi baitu.</li>
+        <li>Euskara, 2026-10-12: «libre albedrío» «borondate askea» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=borondate" target="_blank" rel="noopener">borondate</a>, 1. adiera: nahi izateko, askatasunez zerbait egiteko edo ez egiteko edo hautatzeko ahalmena), webguneak lehendik erabiltzen duen forma.</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>Oharrak eta erreferentziak gaika</h2>
@@ -965,6 +986,7 @@
         <li>«Harrizko bihotza» esplorazioa: Goya, Loutherbourg, Turner, Daumier, Hübner, Kollwitz eta beste batzuen lanak, eta garaiko ilustrazioak, Wikimedia Commonsetik, jabari publikoan edo CC0 lizentziarekin (Londresko National Gallery, Washingtongo National Gallery of Art, Statens Museum for Kunst, besteak beste).</li>
         <li>Unsplasheko argazkiak.</li>
         <li>Adimen artifizialarekin sortutako ilustrazioak (Googleren Gemini eta Nano Banana, eta FLUX).</li>
+        <li>Infografiak norberak eginak dira, adimen artifizialeko tresnen laguntzaz, eta irakasleak berrikusiak.</li>
       </ul>
       <h2>Zinema, telesailak eta bideoak</h2>
       <ul>
@@ -976,10 +998,15 @@
         <li>Mermaid eta Markmap (MIT lizentzia), eskemetarako eta mapetarako.</li>
         <li>Spectral, IBM Plex eta Fraunces tipografiak (SIL Open Font License).</li>
       </ul>
+      <h2>Lizentzia</h2>
+      <ul>
+        <li>Web honetako material propioa (testuak, jarduerak, galdetegiak, eskemak eta infografiak) <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.eu" rel="license">Creative Commons Aitortu-EzKomertziala-PartekatuBerdin 4.0 Nazioartekoa (CC BY-NC-SA 4.0)</a> lizentziarekin argitaratzen da: kopiatu eta egokitu daiteke, jatorria aipatuta, helburu komertzialik gabe eta lizentzia berarekin partekatuta.</li>
+        <li>Lizentzia honetatik kanpo geratzen dira USEko testuak, argitaletxeek argitaratutako itzulpenak eta hirugarrenen irudiak eta testuak; horiek beren lizentzia dute, orri honetan eta kreditu bakoitzean adierazita.</li>
+      </ul>
     </article>
   </section>
 </main>
-<footer class="wrap sitefoot"><a href="#mapa">Webgunearen mapa</a> · <a href="#fuentes">Iturriak eta oharra</a></footer>
+<footer class="wrap sitefoot"><a href="#mapa">Webgunearen mapa</a> · <a href="#fuentes">Iturriak eta oharra</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">CC BY-NC-SA 4.0</a></footer>
 
 <script src="js/store.js"></script>
 <script src="js/data.js"></script>
@@ -1042,6 +1069,10 @@
 <script src="js/nudosview.js"></script>
 <script src="js/adagios.js"></script>
 <script src="js/adagiosview.js"></script>
+<script src="js/polemicas.js"></script>
+<script src="js/polemicasview.js"></script>
+<script src="js/duelo.js"></script>
+<script src="js/dueloview.js"></script>
 <script src="js/juego_aristoteles.js"></script>
 <script src="js/aristotelesview.js"></script>
 <script src="js/platonview.js"></script>
