@@ -104,37 +104,37 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Academia Antigua",
+    "nom": "Akademia Zaharra",
     "a": "K.a. 387 inguru – 268 inguru",
     "q": "Platon, Espeusipo, Xenokrates, Polemon eta Krates",
     "d": "Platonen ideiak garatzen dituzte matematikan, metafisikan eta etikan. Polemonekin ikasi zuen Zenon Zitiokoak, geroago estoizismoa sortuko zuenak."
    },
    {
-    "n": "Academia escéptica",
+    "nom": "Akademia eszeptikoa",
     "a": "K.a. 268 – 241 inguru",
     "q": "Arkesilao",
     "d": "Ez dakiela dakien Sokratesengana itzultzen da: estoikoen aurrean, ziurtasunik ez dagoenean judizioa etetea defendatzen du."
    },
    {
-    "n": "Academia Nueva",
+    "nom": "Akademia Berria",
     "a": "K.a. II. mendea",
     "q": "Karneades eta Klitomako",
     "d": "Eszeptizismo moderatua: ez dago ziurtasunik, baina bai bizitza gidatzeko nahikoak diren ideia sinesgarriago edo ez hain sinesgarriak."
    },
    {
-    "n": "Filón y Antíoco",
+    "nom": "Filon eta Antioko",
     "a": "K.a. 110 – 79 inguru",
     "q": "Filon Larisakoa eta Antioko Askalongoa",
     "d": "Filon, ezagutzen den azken zuzendaria, Erromara ihes egin zuen Mitridatesen aurkako gerran. Haren ikasle Antiokok eszeptizismoa utzi zuen, eta platonikoek, aristotelikoek eta estoikoek funtsean gauza bera esaten zutela defendatu zuen; horrek eskola estoizismora hurbildu zuen."
    },
    {
-    "n": "Platonismo en la Atenas romana",
+    "nom": "Platonismoa Atenas erromatarrean",
     "a": "K.a. I. mendea – K.o. IV. mendea",
     "q": "Maisu platonikoak, eskola jarraiturik gabe",
     "d": "K.a. 86ko gerraren ondoren Platon irakasten jarraitzen da Atenasen, baina jada ez erakunde berean. 176an Marko Aurelio enperadoreak katedra ordainduak sortzen ditu hirian platonikoentzat, aristotelikoentzat, estoikoentzat eta epikureoentzat."
    },
    {
-    "n": "Escuela neoplatónica de Atenas",
+    "nom": "Atenasko eskola neoplatonikoa",
     "a": "400 inguru – 529",
     "q": "Plutarko Atenaskoa, Siriano, Proklo eta Damaskio",
     "d": "Platonen «oinordeko» deitzen diote beren buruari, eta haren elkarrizketak irakurtzen dituzte, Plotinoren ildoan, Bat-erako bide gisa. Justinianok irakastea debekatzen die 529an, eta Damaskio eta beste batzuk Persian babesten dira denbora batez."
@@ -234,25 +234,25 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Aristóteles",
+    "nom": "Aristoteles",
     "a": "K.a. 335 – 323",
     "q": "Aristoteles, Teofrasto, Eudemo, Aristoxeno eta Dikearko",
     "d": "Bazkide gisa lan egiten duten ikertzaile-talde bat: datuak biltzen dituzte, eztabaidatzen dute eta ia jakintza guztiei buruz idazten dute."
    },
    {
-    "n": "Teofrasto y Estratón",
+    "nom": "Teofrasto eta Straton",
     "a": "K.a. 322 – 269 inguru",
     "q": "Teofrasto eta Straton Lampsakokoa",
     "d": "Teofrastok landareen azterketa antolatzen du, eta lur-sailak eta eraikinak erosten ditu eskolarentzat. Stratonek norabide naturalistagoa ematen dio fisikari."
    },
    {
-    "n": "Decadencia",
+    "nom": "Gainbehera",
     "a": "K.a. 269 inguru – 86",
     "q": "Likon, Ariston Keoskoa, Kritolao eta beste batzuk",
     "d": "Eskolak jarraitzen du, baina ideia berri handirik gabe: estoizismoak eta epikureismoak gehiago erakartzen dute. K.a. 86ko gerrak amaiera ematen dio."
    },
    {
-    "n": "Los comentaristas",
+    "nom": "Iruzkingileak",
     "a": "K.a. I. mendea – K.o. III. mendea",
     "q": "Androniko Rodaskoa eta Alexandro Afrodisiaskoa",
     "d": "Jada ez da Aristotelesen lana zabaltzea, baizik eta argitaratzea, azaltzea eta defendatzea. Tradizio hori filosofo arabiarrengana eta Erdi Aro latindarrera igaroko da."
@@ -436,19 +436,19 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Estoa antigua",
+    "nom": "Estoa zaharra",
     "a": "K.a. 300 inguru – II. mendearen erdialdea",
     "q": "Zenon, Kleantes, Krisipo, Diogenes Babiloniakoa eta Antipatro",
     "d": "Sistema eraikitzen da: logika, fisika eta etika. Krisipo da haren antolatzaile handia. Egile horiengandik beste batzuek aipatutako zatiak baino ez dira geratzen."
    },
    {
-    "n": "Estoa media",
+    "nom": "Erdi Estoa",
     "a": "K.a. II. – I. mendeak",
     "q": "Panezio eta Posidonio",
     "d": "Platonekin eta Aristotelesekin elkarrizketan aritzen dira, eta estoizismoa erromatarrengana eramaten dute. Zizeron Panezioz inspiratzen da bere Betebeharrez lanerako. Gunea Atenasetik Rodasera aldatzen da."
    },
    {
-    "n": "Estoicismo romano",
+    "nom": "Estoizismo erromatarra",
     "a": "I. mendea – III. mendea",
     "q": "Musonio Rufo, Seneka, Epikteto eta Marko Aurelio",
     "d": "Bizitzeko filosofia praktikoa: gutunak, elkarrizketak eta ohar pertsonalak. Osorik gordetzen diren lan estoiko bakarrak dira."
@@ -760,25 +760,25 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Los comienzos",
+    "nom": "Hasierak",
     "a": "1923 – 1930",
     "q": "Felix Weil, Carl Grünberg eta Friedrich Pollock",
     "d": "Alemaniako unibertsitate bateko lehen ikerketa-zentro marxista, oraindik nahiko klasikoa eta akademikoa zen marxismo batekin."
    },
    {
-    "n": "Horkheimer y el exilio",
+    "nom": "Horkheimer eta erbestea",
     "a": "1930 – 1950",
     "q": "Horkheimer, Adorno, Marcuse, Fromm, Löwenthal eta Pollock; Benjamin laguntzaile gisa",
     "d": "«Teoria kritikoa» jaiotzen da. Nazismoarekin, Institutuak Genevara ihes egiten du eta gero New Yorkera eta Kaliforniara, non Ilustrazioaren dialektika idazten den."
    },
    {
-    "n": "El regreso",
+    "nom": "Itzulera",
     "a": "1951 – 1969",
     "q": "Horkheimer (1958ra arte zuzendari) eta Adorno (1969ra arte)",
     "d": "Horkheimer, Adorno eta Pollock bakarrik itzultzen dira. Institutuak soziologo berriak prestatzen ditu gerraosteko Alemanian, eta azkenean ikasle-mugimenduarekin talka egiten du."
    },
    {
-    "n": "La segunda generación y después",
+    "nom": "Bigarren belaunaldia eta gero",
     "a": "hirurogeiko hamarkadatik aurrera",
     "q": "Jürgen Habermas eta, geroago, Axel Honneth",
     "d": "Habermasek komunikazioa eta elkarrizketa arrazionala jartzen ditu erdigunean; Honnethek, aitortzaren aldeko borroka."
