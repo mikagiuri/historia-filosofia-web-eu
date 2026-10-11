@@ -183,6 +183,27 @@ const ILUSTRES = {
    "hf-preso"
   ]
  },
+ "lao_zi": {
+  "name": "Lao Zi",
+  "dates": "K.a. VI-IV. mendeak (tradizioaren arabera)",
+  "born": -570,
+  "died": -480,
+  "place": "Chu estatua (Txina)",
+  "role": "jakintsu txinatarra, Daodejing liburua egozten zaiona",
+  "idea": "Daoak, naturaren bideak, behartu gabe jarduten du: jakintsuak adibide horri jarraitzen dio, apala eta malgua nahiago ditu, eta ahalik eta gutxien esku hartuz gobernatzen du (wu wei).",
+  "bio": "<p>Lao Zi izenak (Laozi edo Lao Tse ere idazten da) «maisu zaharra» esan nahi du. Tradizioaren arabera, Zhou gorteko artxibozaina izan zen, Konfuzio baino zertxobait zaharragoa, eta hura hartu omen zuen. Baina historialariek zalantzan jartzen dute pertsona zehatz gisa existitu ote zen: egozten zaion liburua, <em>Daodejing</em> (<em>Bidearen eta bertutearen liburua</em>), K.a. IV-III. mendeen inguruan bere forma hartu zuen esaera-bilduma bat dirudi. <strong>Taoismoaren</strong> testu sortzaileetako bat da, eta munduan gehien itzuli diren liburuetako bat.</p>\n<p>Erdigunean <strong>Daoa</strong> dago, «bidea»: gauza guztien izenik gabeko jatorria, hitzez definitu ezin dena. Jakintsuak Daoa imitatzen du <strong>wu wei</strong> delakoa, «ez-ekintza», praktikatuz: ez da geldirik egotea, behartu gabe jardutea baizik, ura bezala, zeina munduko gauzarik bigunena izanik ere harria higatzen baitu. Malguak zurruna garaitzen du. Erritoetan eta hezkuntzan konfiantza duen Konfuzioren aurrean, Lao Zi arauez eta gobernu-gehiegikeriaz mesfidatzen da: zenbat eta lege eta debeku gehiago, orduan eta lapur gehiago egongo dira. Horregatik irakurri izan da batzuetan naturaren eta xumetasunaren laudorio gisa, zibilizazioaren aurrean.</p>",
+  "obras": [
+   "Daodejing edo Tao Te Ching (egotzia)"
+  ],
+  "anecdota": "<p>Sima Qian historialariak kontatzen du Lao Zik, gortearen gainbehera ikusita, mendebalderantz alde egitea erabaki zuela. Mugako igarobidera iristean, zaindariak, Yin Xik, eskatu zion ez joateko bere jakinduria idatziz utzi gabe. Orduan Lao Zik bost mila karaktere inguruko liburu bat idatzi zuen, bi zatitan, bideari eta bertuteari buruz, eta alde egin zuen; inork ez zekien non amaitu zituen bere egunak. Geroko tradizioak gehitu zuen idi baten gainean zihoala. Kondaira bat da, baina azaltzen du txinatarrek mendeetan zehar <em>Daodejing</em> liburuari egotzi zioten jatorria.</p>",
+  "fuente": "Sima Qian, Oroitzapen historikoak, 63. kap. (K.a. I. m.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "confucio": {
   "name": "Konfuzio",
   "dates": "K.a. 551 – 479",
@@ -416,6 +437,27 @@ const ILUSTRES = {
    "hf-preso",
    "hf-kant-juicios"
   ]
+ },
+ "buda": {
+  "name": "Siddhartha Gautama, Buda",
+  "dates": "K.a. V. mendea (data ziurgabeak)",
+  "born": -480,
+  "died": -400,
+  "place": "Lumbini (gaur egungo Nepal)",
+  "role": "maisu espiritual indiarra, budismoaren sortzailea",
+  "idea": "Bizitza sufrimenduak zeharkatzen du, eta sufrimendu hori desiratik eta atxikimendutik sortzen da; sufrimendu hori itzal daiteke bizimodu zuzen eta neurritsu bati jarraituz.",
+  "bio": "<p>Siddhartha Gautama Indiaren iparraldean jaio zen, sakya klaneko familia noble batean. Haren datak ziurgabeak dira: tradizioak K.a. VI. mendean kokatzen du, eta gaur egun historialari askok V.aren inguruan. Kontakizun tradizionalen arabera, 29 urterekin jauregiko bizitza utzi zuen, sufrimenduaren amaiera bilatzeko; urte askoan muturreko aszetismoa probatu zuen, gosez ia hil arte, eta gero baztertu egin zuen, plazeraren eta mortifikazioaren arteko <strong>erdibidearen</strong> alde. Bodh Gayan zuhaitz baten azpian meditatzen ari zela, «esnatzea» lortu zuen: «Buda» hitzak «esnatua» esan nahi du. Bizitzaren gainerakoa irakasten eman zuen, eta 80 urte inguru zituela hil zen.</p>\n<p>Haren irakaspena <strong>lau egia nobleetan</strong> laburbiltzen da: bizitza sufrimenduak markatzen du (<em>dukkha</em>); sufrimendu hori desiratik eta atxikimendutik sortzen da; itzal daiteke (<strong>nirvana</strong>); eta hori lortzeko bide bat dago, zortzi urratseko bide noblea (ulermen, asmo, hitz, ekintza eta bizimodu zuzenak, ahalegina, arreta eta kontzentrazioa). Dena da <strong>iragankorra</strong>, eta ez dago ni finko eta iraunkorrik ere, hari heltzeko. Budak ez zuen ezer idatzi; haren hitzaldiak buruz transmititu ziren, eta mende batzuk geroago jarri ziren idatziz. Haren pentsamendua XIX. mendean iritsi zen Europara, eta eragin handia izan zuen Schopenhauerrengan.</p>",
+  "obras": [
+   "Ez zuen ezer idatzi: haren irakaspenak Pali Kanonean (Tripitaka) eta Dhammapadan biltzen dira"
+  ],
+  "anecdota": "<p>Kondairaren arabera, aitak luxuz inguratuta hazi zuen, minik inoiz ezagut ez zezan. Baina egun batean, jauregitik irtetean, Siddharthak agure bat ikusi zuen, gero gaixo bat eta ondoren gorpu bat, eta ulertu zuen zahartzaroa, gaixotasuna eta heriotza guztion zain daudela. Azkenik, aszeta lasai batekin egin zuen topo, eta bide hari jarraitzea erabaki zuen. «Lau topaketak» dira: haren bizitza baino askoz geroagoko kontakizuna, datu historiko bat baino gehiago haren irakaspenaren abiapuntua adierazten duena.</p>",
+  "fuente": "Asvaghosa, Budaren bizitza (Buddhacarita, K.o. I-II. m.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "filolao": {
   "name": "Filolao Krotonakoa",
@@ -1706,6 +1748,30 @@ const ILUSTRES = {
    "hf-renacimiento-magia"
   ]
  },
+ "leonardo": {
+  "name": "Leonardo da Vinci",
+  "dates": "1452 – 1519",
+  "born": 1452,
+  "died": 1519,
+  "place": "Vinci (Toskana, Italia)",
+  "role": "Errenazimentuko artista, ingeniari eta ikertzailea",
+  "idea": "Esperientzia da ezagutzaren ama: natura ulertzeko, behatu, neurtu eta marraztu egin behar da, liburuez bakarrik fidatu beharrean.",
+  "bio": "<p>Leonardo Vincin jaio zen, notario baten seme ez-legitimoa, eta Verrocchio margolariaren tailerrean ikastun gisa trebatu zen, Florentzian. Medicitarrentzat lan egin zuen, Ludovico Sforzarentzat Milanen, Zesar Borgiarentzat eta, bizitzaren amaieran, Frantziako Frantzisko I.a erregearentzat, zeinaren gortean hil baitzen. <em>Azken afaria</em> eta <em>Gioconda</em> bezalako lanak margotu zituen, baina lan asko amaitu gabe utzi zituen: ikertzea margotzea bezainbeste interesatzen zitzaion.</p>\n<p>Leonardok «letrarik gabeko gizona» deitzen zion bere buruari, ez baitzuen latina ikasi unibertsitatean. Hain zuzen ere horregatik, liburuen autoritateaz mesfidatzen zen eta <strong>esperientzia</strong> defendatzen zuen: behatzea, esperimentatzea eta marraztea. Milaka koaderno-orritan aztertu zituen giza anatomia (gorpuak disekatu zituen), txorien hegaldia, uraren mugimendua, optika eta mekanika, eta inoiz eraiki ez ziren makinak diseinatu zituen. Ez zen zentzu modernoko zientzialaria izan, ez baitzuen ezer argitaratu ezta lege matematikorik formulatu ere, baina begia, eskua eta arrazoia uztartzeko zuen moduak Galileorekin etorriko zen zientzia iragartzen du.</p>",
+  "obras": [
+   "Azken afaria (1495-1498)",
+   "Vitruvioren gizakia (1490 ing.)",
+   "Gioconda (1503-1519 ing.)",
+   "Ohar-koadernoak (Codex Atlanticus, Codex Leicester eta beste batzuk)"
+  ],
+  "anecdota": "<p>Leonardok bere ohar ia guztiak alderantziz idazten zituen, eskuinetik ezkerrera eta letrak alderantzikatuta; beraz, eroso irakurtzeko ispilu baten aurrean jarri behar dira. Denbora luzez esan zen bere asmakizunak isilpean gordetzeko egiten zuela, baina azalpenik probableena sinpleagoa da: ezkertia zen, eta horrela idazteak aukera ematen zion tinta eskuarekin ez zikintzeko.</p>",
+  "fuente": "Leonardoren koadernoak (Codex Atlanticus, Milango Ambrosiana Liburutegia)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "pico": {
   "name": "Giovanni Pico della Mirandola",
   "dates": "1463 – 1494",
@@ -2472,6 +2538,29 @@ const ILUSTRES = {
    "hf-ilustracion",
    "hf-kant-juicios"
   ]
+ },
+ "du_chatelet": {
+  "name": "Émilie du Châtelet",
+  "dates": "1706 – 1749",
+  "born": 1706,
+  "died": 1749,
+  "place": "Paris (Frantzia)",
+  "role": "Ilustrazioko matematikaria, fisikaria eta filosofoa",
+  "idea": "Newtonen fisika haren oinarriei buruzko gogoeta filosofiko batekin osatu behar da; eta jakintza, emakumeentzat ere, zoriontasunaren iturrietako bat da.",
+  "bio": "<p>Gabrielle Émilie Le Tonnelier de Breteuil, du Châtelet markesa, Parisko familia noble batean jaio zen. Aitak hezkuntza ezohikoa eman zion, garai hartako emakume batentzat: latina, hizkuntzak eta, batez ere, matematika, eta heldua zela ere matematika ikasten jarraitu zuen, Maupertuis bezalako matematikariekin. Hamabost urtez Voltairerekin partekatu zituen bizitza eta lana Cireyko gazteluan, liburutegi eta laborategidun ikerketa-zentro txiki bihurtua.</p>\n<p>Bere <em>Fisikako instituzioak</em> lanean (1740) Newtonen fisikari oinarri filosofikoak ematen saiatu zen, Leibnizen ideiak hartuz, eta defendatu zuen, 's Gravesanderen esperimentuetan oinarrituta, mugitzen ari den gorputz baten «indar bizia» haren abiaduraren karratuaren araberakoa dela; gaur egun energia zinetikoa deitzen dugunetik hurbil dagoen ideia da. Haren lan handia <strong>Newtonen <em>Principia</em> lanaren frantsesezko itzulpen iruzkindua</strong> da, gaur egun ere frantsesezko erreferentziazko bertsioa dena. <em>Zoriontasunari buruzko diskurtsoa</em> lanean dio ikasteko zaletasuna dela norberaren mende gehien dagoen grina, batez ere emakumeentzat, beste bide ia guztiak itxita baitzituzten. 42 urterekin hil zen, erditu eta egun gutxira.</p>",
+  "obras": [
+   "Fisikako instituzioak (1740)",
+   "Zoriontasunari buruzko diskurtsoa (1746-1747 inguruan idatzia, 1779an argitaratua)",
+   "Newtonen Filosofia naturalaren printzipio matematikoak, itzulpena eta iruzkina (1759an argitaratua)"
+  ],
+  "anecdota": "<p>1749an, 42 urterekin haurdun zegoela, Émilie du Châteletek bazekien erditzeak bizia kosta ziezaiokeela. Horregatik tematu zen Newtonen itzulpena garaiz amaitzen: gauean berandu arte lan egiten zuen eta oso gutxi lo egiten zuen. Iraila hasieran eskuizkribua Erregearen Liburutegira bidali zuen, salbu gera zedin. Neskato bat izan zuen, eta egun batzuk geroago hil zen. Itzulpena, haren iruzkinarekin, hamar urte geroago argitaratu zen, Voltaireren hitzaurre batekin.</p>",
+  "fuente": "Émilie du Châteleten gutunak (1749); Voltaireren hitzaurrea 1759ko edizioari",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "euler": {
   "name": "Leonhard Euler",
@@ -4180,6 +4269,59 @@ const ILUSTRES = {
    "hf-posmodernidad"
   ]
  },
+ "bergson": {
+  "name": "Henri Bergson",
+  "dates": "1859 – 1941",
+  "born": 1859,
+  "died": 1941,
+  "place": "Paris (Frantzia)",
+  "role": "iraupenaren eta bizitzaren filosofo frantsesa",
+  "idea": "Denbora bizitua, iraupena, ezin da erlojuena bezala neurtu: intuizioak bakarrik atzematen du aldatzen eta isurtzen dena, eta bizitza bulkada sortzaile bat da.",
+  "bio": "<p>Henri Bergson Parisen jaio zen, musikari judu poloniar baten eta ama ingeles baten semea. Matematikan bikaina zen, baina filosofia aukeratu zuen. Collège de France-n irakaslea izan zen, eta han haren eskolek hiri osoko entzulez betetzen zituzten ikasgelak; 1927an Literaturako Nobel Saria jaso zuen. Naziek okupatutako Parisen hil zen, 1941eko urtarrilean.</p>\n<p>Haren abiapuntua <strong>denbora</strong> da. Fisikaren eta erlojuen denbora denbora «espazializatua» da, zenbatu daitezkeen une berdinetan zatitua. Baina barrutik bizi dugun denbora, <strong>iraupena</strong>, etengabeko isurtze bat da, non iragana orainean luzatzen den, melodia baten notak bezala. Inteligentziak, errealitatea zatitan mozten duenak hura manipulatu ahal izateko, teknikarako balio du; aldatzen dena atzemateko <strong>intuizioa</strong> behar da. <em>Bilakaera sortzailea</em> lanean (1907) bizitza <strong>bizi-bulkada</strong> (<em>élan vital</em>) gisa aurkezten du, forma berriak sortzen dituena, eta <em>Moralaren eta erlijioaren bi iturriak</em> lanean (1932) bi moral bereizten ditu: moral itxia, taldearen presioarena, eta moral irekia, maitasuna gizateria osora zabaltzen duten pertsonena.</p>",
+  "obras": [
+   "Kontzientziaren datu berehalakoei buruzko saiakera (1889)",
+   "Materia eta memoria (1896)",
+   "Barrea (1900)",
+   "Bilakaera sortzailea (1907)",
+   "Moralaren eta erlijioaren bi iturriak (1932)"
+  ],
+  "anecdota": "<p>1922ko apirilaren 6an, Einsteinek Parisera egindako bisita batean, Bergson eta biak Frantziako Filosofia Elkartearen saio batean elkartu ziren. Bergsonek defendatu zuen fisikariek neurtzen duten denboraz gain badagoela denbora bizitu bat, erlatibitatearen teoriak ezabatu ezin duena. Einsteinek ospetsu bihurtu zen esaldi batekin erantzun zion: «Filosofoen denbora ez da existitzen». Bien arteko talkak hamarkadetan markatu zuen filosofiaren eta fisikaren arteko harremana.</p>",
+  "fuente": "Frantziako Filosofia Elkartearen Buletina (1922)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
+  ]
+ },
+ "husserl": {
+  "name": "Edmund Husserl",
+  "dates": "1859 – 1938",
+  "born": 1859,
+  "died": 1938,
+  "place": "Prossnitz (Moravia, gaur egun Prostějov, Txekiar Errepublika)",
+  "role": "filosofo alemana, fenomenologiaren sortzailea",
+  "idea": "«Gauzetara beretara itzuli» behar da: aurreiritzirik gabe deskribatu nola agertzen diren gauzak kontzientzian, kontzientzia beti baita zerbaiten kontzientzia.",
+  "bio": "<p>Edmund Husserl Moraviako familia judu batean jaio zen, eta matematika ikasten hasi zen. Franz Brentanoren eraginez filosofiara igaro zen, eta Göttingenen eta Friburgon irakasle izan zen; Friburgon Edith Stein eta Martin Heidegger izan zituen ikasle eta laguntzaile. Naziak boterera iritsi zirenean, jatorri juduagatik, unibertsitatetik baztertu zuten eta proskribatu bat bezala tratatu; Friburgon hil zen 1938an.</p>\n<p>Husserlek <strong>fenomenologia</strong> sortzen du, filosofia zorrotza izan nahi duena, aurresuposiziorik gabea. Haren leloa «gauzetara beretara itzultzea» da: gauzak esperientzian nola ematen zaizkigun arretaz deskribatzea. Gakoa <strong>intentzionalitatea</strong> da: kontzientzia oro <em>zerbaiten</em> kontzientzia da; ikustea zerbait ikustea da, desiratzea zerbait desiratzea. Harreman hori aztertzeko <strong>epokhe</strong> praktikatu behar da: munduari buruzko gure ohiko usteak «parentesi artean jartzea», ukatu gabe, mundua nola agertzen den erreparatzeko. Azken aldian <strong>bizi-munduaz</strong> hitz egiten du, berez ulertzen dugun eguneroko munduaz, eta zientziei leporatzen die ahaztu egin dutela, dena zenbakietara murriztean. Haren metodoak eragina izan zuen Heideggerrengan, Sartrerengan, Merleau-Pontyrengan eta XX. mendeko filosofiaren zati handi batean.</p>",
+  "obras": [
+   "Ikerketa logikoak (1900-1901)",
+   "Fenomenologia huts baterako ideiak (1913)",
+   "Gogoeta kartesiarrak (1931)",
+   "Europako zientzien krisia eta fenomenologia transzendentala (1936)"
+  ],
+  "anecdota": "<p>Hil zenean, Husserlek 40.000 orrialde inguru utzi zituen eskuizkribuetan, takigrafian idatziak, ia denak argitaragabeak. 1938an arriskuan zegoen altxor bat ziren: naziek suntsi zitzaketen, egile judu batenak zirelako. Herman Van Breda frantziskotar belgikar gazteak Alemaniatik ezkutuan ateratzea lortu zuen, Belgikako enbaxadaren bidez, eta Lovainara eramatea. Han sortu zen Husserl Artxiboa, gaur egun ere eskuizkribu horiek aztertu eta argitaratzen dituena.</p>",
+  "fuente": "H. L. Van Breda, «Husserlen ondarearen salbamena» (1959)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-existencialismo"
+  ]
+ },
  "unamuno": {
   "name": "Miguel de Unamuno",
   "dates": "1864 – 1936",
@@ -4361,6 +4503,30 @@ const ILUSTRES = {
    "hf-beauvoir"
   ]
  },
+ "jaspers": {
+  "name": "Karl Jaspers",
+  "dates": "1883 – 1969",
+  "born": 1883,
+  "died": 1969,
+  "place": "Oldenburg (Alemania)",
+  "role": "psikiatra eta filosofo existentzialista alemana",
+  "idea": "Muga-egoeretan (heriotza, sufrimendua, borroka, errua) pertsonak bere existentzia eta askatasuna aurkitzen ditu, eta besteekin benetan komunikatzen ikasten du.",
+  "bio": "<p>Karl Jaspersek medikuntza ikasi zuen eta psikiatra gisa lan egin zuen Heidelbergen; haren <em>Psikopatologia orokorra</em> (1913) erreferentziazko liburua izan zen psikiatrian. Gero filosofiari eman zion bere burua. Gertrud Mayerrekin ezkondua zegoen, familia judu batekoa, eta naziek katedratik bota zuten 1937an eta argitaratzea debekatu zioten. Gerraren ondoren unibertsitatera itzuli zen, <em>Erruaren auzia</em> (1946) idatzi zuen alemanen erantzukizunari buruz, eta 1948an Basileara joan zen, Suitzara, eta han bizi izan zen hil arte. Hannah Arendten maisua eta laguna izan zen.</p>\n<p>Jaspers existentziaren filosofiaren sortzaileetako bat da. Zientziak mundua azaltzen du, baina ezin digu esan nor garen ezta nola bizi. Hori <strong>muga-egoeretan</strong> aurkitzen dugu, ihes egin ezin diegun egoera horietan: heriotza, sufrimendua, borroka, errua. Haien aurrean pertsona bere existentziaz eta askatasunaz jabetzen da. Jaspersentzat egia besteekiko <strong>komunikazioan</strong> lortzen da, eta ez bakardadean. <strong>Ardatz-aroaren</strong> ideia ere sortu zuen: K.a. 800. eta 200. urteen artean, Txinan, Indian, Persian, Israelen eta Grezian, ia aldi berean agertu ziren Konfuzio eta Lao Zi, Buda, profetak eta filosofo greziarrak, eta haiekin batera gizakiari buruzko galdera handiak.</p>",
+  "obras": [
+   "Psikopatologia orokorra (1913)",
+   "Filosofia (1932)",
+   "Erruaren auzia (1946)",
+   "Historiaren jatorria eta helburua (1949)"
+  ],
+  "anecdota": "<p>Gerraren azken urteetan, Jaspers eta haren emazte Gertrud Heidelbergen bizi ziren, emaztea esterminio-esparru batera deportatuko zuten beldur etengabean. Erabakita zuten, haren bila etortzen baziren, elkarrekin emango ziotela bere buruari heriotza, eta pozoia gordetzen zuten etxean une horretarako. Jakin zuten haren deportazioa 1945eko apirilaren erdialderako aurreikusita zegoela. Martxoaren 30ean, tropa estatubatuarrak Heidelbergen sartu ziren, eta hura ez zen gertatu.</p>",
+  "fuente": "K. Jaspers, Autobiografia filosofikoa (1957); Hannah Arendtekin izandako gutunak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "sapir": {
   "name": "Edward Sapir",
   "dates": "1884 – 1939",
@@ -4539,6 +4705,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-analitica"
+  ]
+ },
+ "marcuse": {
+  "name": "Herbert Marcuse",
+  "dates": "1898 – 1979",
+  "born": 1898,
+  "died": 1979,
+  "place": "Berlin (Alemania)",
+  "role": "Frankfurteko Eskolako filosofoa",
+  "idea": "Industria-gizarte aurreratuak behar faltsuak sortzen ditu eta aske sentiarazten gaitu sisteman integratzen gaituen bitartean; horrela, beste bizimodu bat irudikatzeko gaitasuna galtzen da.",
+  "bio": "<p>Herbert Marcuse Berlingo familia judu batean jaio zen. Husserl eta Heideggerrekin ikasi zuen Friburgon, eta Frankfurteko Gizarte Ikerketarako Institutuarekin bat egin zuen. Naziak iritsi zirenean, 1934an Estatu Batuetara erbesteratu zen, eta han, gerran, estatubatuar informazio-zerbitzuentzat lan egin zuen, Alemania nazia aztertuz. Gero hainbat unibertsitatetan izan zen irakasle, azkena Kalifornian.</p>\n<p><em>Eros eta zibilizazioa</em> lanean (1955) Marx eta Freud uztartzen ditu: gizarteak desirak behar baino gehiago erreprimitzen ditu, lana eta ordena mantentzeko. <em>Gizaki unidimentsionala</em> lanean (1964) dio kontsumo-gizarteak <strong>behar faltsuak</strong> sortzen dituela eta protesta bera ere xurgatzen duela; horrela, pertsonek jada ez dute alternatibarik irudikatzen. <strong>Tolerantzia errepresiboari</strong> buruzko saiakerak (1965) defendatzen zuen, berdintasunik gabeko gizarteetan, ideia guztiak berdin tratatzen dituen tolerantzia batek boteretsuen alde egiten duela. Haren ideiek 1968ko ikasle-mugimenduaren zati bat inspiratu zuten, baina kritika serioak ere jaso zituzten: liberal askok tesi horretan desberdin pentsatzen duenari hitza ukatzeko justifikazio bat ikusi zuten, eta ezkerreko beste pentsalari batzuek ezkorregia edo abstraktuegia izatea leporatu zioten. Tolerantziaren mugei buruzko eztabaida bat da, oraindik irekita dagoena.</p>",
+  "obras": [
+   "Arrazoia eta iraultza (1941)",
+   "Eros eta zibilizazioa (1955)",
+   "Gizaki unidimentsionala (1964)",
+   "«Tolerantzia errepresiboa» (1965)"
+  ],
+  "anecdota": "<p>1968ko ikasle-protestetan, Europan eta Estatu Batuetan, manifestari batzuek «hiru M»-ak oihukatzen eta hormetan margotzen zituzten: Marx, Mao eta Marcuse. 70 urteko irakaslea harritu egin zen ikur bihurtuta ikustean, eta ez zuen beti bere burua ezagutu haren izenean esaten zenean. Kalifornian izan zituen ikasleen artean Angela Davis zegoen, gero aktibista ezaguna bihurtuko zena.</p>",
+  "fuente": "1968ko prentsa; Marcuseri egindako elkarrizketak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos",
+   "hf-capitalismo"
   ]
  },
  "ryle": {

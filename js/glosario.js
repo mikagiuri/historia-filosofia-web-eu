@@ -1030,7 +1030,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Husserlen «bizi-mundua» (al. Lebenswelt): zientziaren aurretik eta azpian dagoen esperientzia-mundu bizitua, eguneroko zentzuz betea. Existentzialismoa hortik abiatzen da gizakia munduan kokatua dagoela azaltzeko."
+  "def": "Husserlen «bizi-mundua» (al. Lebenswelt): zientziaren aurretik eta azpian dagoen esperientzia-mundu bizitua, eguneroko zentzuz betea. Existentzialismoa hortik abiatzen da gizakia munduan kokatua dagoela azaltzeko.",
+  "ilustre": [
+   "husserl"
+  ]
  },
  {
   "subject": "hf",
@@ -1184,7 +1187,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Marcusek desira ez du arrisku pribatu gisa soilik ulertzen. Gorputzak, irudimenak eta arteak eguneroko normaltasunaren aurkako indar kritikoa izan dezakete."
+  "def": "Marcusek desira ez du arrisku pribatu gisa soilik ulertzen. Gorputzak, irudimenak eta arteak eguneroko normaltasunaren aurkako indar kritikoa izan dezakete.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",
@@ -1668,7 +1674,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "Existentzialismoa",
-  "def": "Fenomenologiaren oinarrizko ezaugarria (Husserl): kontzientzia beti da «zerbaiten kontzientzia», beti zerbaitetara zuzendua. Pentsatzeak, nahi izateak edo beldur izateak beti dute objektu bat."
+  "def": "Fenomenologiaren oinarrizko ezaugarria (Husserl): kontzientzia beti da «zerbaiten kontzientzia», beti zerbaitetara zuzendua. Pentsatzeak, nahi izateak edo beldur izateak beti dute objektu bat.",
+  "ilustre": [
+   "husserl"
+  ]
  },
  {
   "subject": "hf",
@@ -3034,7 +3043,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Marcuseren arabera, zibilizazio orok behar ditu muga batzuk, baina gizarte kapitalistak beharrezko muga horiei soberako diziplina soziala gehitzen die, lanaren, kontsumoaren eta obedientziaren mesedetan."
+  "def": "Marcuseren arabera, zibilizazio orok behar ditu muga batzuk, baina gizarte kapitalistak beharrezko muga horiei soberako diziplina soziala gehitzen die, lanaren, kontsumoaren eta obedientziaren mesedetan.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",
@@ -3218,7 +3230,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Marcuserentzat, kritika eta alternatiba politikoak sistemaren barruan xurgatzen direnean sortzen den gizartea da. Desadostasuna bera merkatuaren estilo bihur daiteke."
+  "def": "Marcuserentzat, kritika eta alternatiba politikoak sistemaren barruan xurgatzen direnean sortzen den gizartea da. Desadostasuna bera merkatuaren estilo bihur daiteke.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",
