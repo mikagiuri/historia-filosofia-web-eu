@@ -1422,7 +1422,7 @@ const DECKS = {
    ],
    [
     "🌫️",
-    "Mundu sentikorra",
+    "Mundu sentigarrira",
     "Gauza zehatz, aldakor eta anitzena."
    ],
    [
@@ -5902,7 +5902,7 @@ const QUIZZES = {
     "o": [
      "Gobernariak filosofoak izan behar direla.",
      "Ezagutza oro oroitzapena dela.",
-     "Mundu sentikorra ez dela aztertu behar.",
+     "Mundu sentigarrira ez dela aztertu behar.",
      "Formak gauzetan bertan ulertu behar direla."
     ],
     "a": 3,
@@ -6218,6 +6218,50 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Zuzenenaren kondenak Platoni erakutsi zion jakintzarik gabeko politikak, iritzi aldakorrak menderatuta, justizia usteltzen duela; hortik dator ezagutzak gidatutako hiri baten bere proiektua."
+   },
+   {
+    "q": "Zer bi esperientzia kontatzen ditu Platonek VII. gutunean bere garaiko politikarekiko mesfidantza azaltzeko?",
+    "o": [
+     "Mediko gerretako garaipena eta Periklesen heriotza.",
+     "Hogeita Hamar Tiranoen gobernu bortitza eta berrezarritako demokraziak Sokratesi ezarritako kondena.",
+     "Egiptora egindako bidaia eta Espartan egindako egonaldia.",
+     "Lizeoaren sorrera eta Alexandroren heriotza."
+    ],
+    "a": 1,
+    "fb": "Platonek desengainu bikoitza kontatzen du: Hogeita Hamar Tiranoena, Sokrates beren krimenetan nahastu nahi izan zutenak, eta berrezarritako demokraziarena, hura heriotzara kondenatu zuena."
+   },
+   {
+    "q": "Platonek Errepublikan proposatzen duen gobernarien hezkuntzan, zer ikasten da 30 eta 35 urte bitartean?",
+    "o": [
+     "Gimnasia eta musika.",
+     "Dialektika.",
+     "Batzarrean hitz egiteko erretorika.",
+     "Ezer ez: soldadutzaren garaia da."
+    ],
+    "a": 1,
+    "fb": "Hamar urtez matematikak ikasi ondoren, hautaketa berri baten bidez bost urteko dialektikara igarotzen da, arrazoiaren bidez Ideietara iristeko bidea; ondoren, hamabost urtez kargu praktikoak betetzen dira."
+   },
+   {
+    "q": "Platonen arabera, zergatik erortzen da oligarkia?",
+    "o": [
+     "Gerlariek ohorea bilatzen dutelako.",
+     "Hiria bitan zatitzen delako, aberatsak eta pobreak, eta pobreak matxinatzen direlako.",
+     "Filosofoek hezkuntza zabartzen dutelako.",
+     "Tirano batek kanpotik konkistatzen duelako."
+    ],
+    "a": 1,
+    "fb": "Oligarkiak dirua baloratzen du eta hiria aberatsetan eta pobreetan zatitzen du; pobreen matxinadak demokraziari ematen dio bide."
+   },
+   {
+    "q": "Zer erakusten du Aristotelesek gonbidatu bakoitzak plater bat daraman bazkariaren adibidearekin?",
+    "o": [
+     "Jabetzak komuna izan behar duela.",
+     "Askok, elkarrekin, gutxi batzuek baino hobeto epai dezaketela, nahiz eta haietako bat bera ere bikaina ez izan bakarka.",
+     "Erregimenik onena tirania dela.",
+     "Familia polisa baino lehenagokoa dela."
+    ],
+    "a": 1,
+    "fb": "Politikan (III, 11) Aristotelesek defendatzen du askoren zuhurtziaren baturak gutxi batzuena gaindi dezakeela: horregatik herriak gobernariak hautatu eta haiei kontuak eska diezazkieke."
    }
   ]
  },

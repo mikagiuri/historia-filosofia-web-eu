@@ -728,7 +728,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Errealitatea bi mailatan bereiztea da: mundu sentikor aldakorra eta Ideien mundu inteligible eta aldaezina.",
+  "def": "Errealitatea bi mailatan bereiztea da: mundu sentigarri aldakorra eta Ideien mundu inteligible eta aldaezina.",
   "ilustre": [
    "platon"
   ]
@@ -961,7 +961,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Platonen dualismoak galdera bat uzten du: Ideien mundua eta gauza sentikorrak nola lotzen dira? Aristotelesek formak gauzetan bertan kokatuz erantzuten dio.",
+  "def": "Platonen dualismoak galdera bat uzten du: Ideien mundua eta gauza sentigarrirak nola lotzen dira? Aristotelesek formak gauzetan bertan kokatuz erantzuten dio.",
   "ilustre": [
    "aristoteles"
   ]
@@ -2221,7 +2221,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Mundu sentikorra",
+  "t": "Mundu sentigarrira",
   "et": "*Sentikorra* gaztelaniaz *sensible* da, latinezko *sentire*, «zentzumenen bidez hauteman».",
   "area": "Metafisika",
   "bloque": "A",
@@ -2417,6 +2417,59 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Paideia",
+  "et": "Grezierazko παιδεία (*paideía*) hitzetik, «hazkuntza, hezkuntza», eta hau παῖς (*país*) hitzetik, «haurra».",
+  "area": "Politika",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Politika klasikoa",
+  "def": "Hezkuntza zentzu zabalean: izaeraren eta adimenaren prestakuntza. Platonengan, hiriaren eginkizun nagusia; hiriak gobernariak hautatzen ditu, ikasketa eta proba ibilbide luze baten ondoren.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Timokrazia",
+  "et": "Grezierazko τιμή (*timḗ*), «ohorea», eta κράτος (*krátos*), «boterea», hitzetatik.",
+  "area": "Politika",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Politika klasikoa",
+  "def": "Platonengan, gerlarien gobernua, ohorea eta garaipena baloratzen dituztenena; hiri idealaren endekapenaren lehen urratsa, oligarkiaren, demokraziaren eta tiraniaren aurretik.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Metekoa",
+  "et": "Grezierazko μέτοικος (*métoikos*) hitzetik, «elkarrekin bizi dena», «egoiliarra».",
+  "area": "Politika",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Politika klasikoa",
+  "def": "Atenasen bizi zen atzerritarra: zergak ordaintzen zituen eta armadan zerbitzatu zezakeen, baina ez zuen eskubide politikorik, eta ezin zuen lurrik izan.",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Hogeita Hamar Tiranoak",
+  "et": "Haien etsaiek jarri zieten izen hori; haiek beren burua onenen gobernu gisa aurkezten zuten.",
+  "area": "Politika",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "Politika klasikoa",
+  "def": "Atenasen, Espartaren laguntzarekin, Peloponesoko gerrako porrotaren ondoren ezarritako gobernu oligarkikoa (K.a. 404-403). Haien artean zeuden Kritias eta Karmides, Platonen senideak.",
+  "ilustre": [
+   "platon",
+   "socrates"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Ostrazismoa",
   "et": "Grezierazko ὄστρακον (*óstrakon*), «zeramika zatia»: horretan idazten zuten atenastarrek erbesteratu nahi zutenaren izena.",
   "area": "Politika",
@@ -2456,7 +2509,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Gauza sentikorrek ideietan parte hartuz jasotzen duten egitura eta zentzua. Ideia da eredua (arkhetipoa), eta gauza sentikorra haren imitazio (mimesi) edo kopia da.",
+  "def": "Gauza sentigarrirek ideietan parte hartuz jasotzen duten egitura eta zentzua. Ideia da eredua (arkhetipoa), eta gauza sentigarrira haren imitazio (mimesi) edo kopia da.",
   "ilustre": [
    "platon"
   ]
@@ -3820,7 +3873,7 @@ const GLOSARIO_TRAMPAS = {
    "Ideien teoria"
   ],
   [
-   "Mundu sentikorra",
+   "Mundu sentigarrira",
    "Partaidetza (méthesis)"
   ],
   [

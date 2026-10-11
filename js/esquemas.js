@@ -1,5 +1,12 @@
 // Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/esquemas.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const ESQUEMAS = {
+ "AP-REL-01": {
+  "subject": "hf",
+  "block": "A",
+  "tema": "Platon",
+  "title": "Platon: gobernuen endekatze-zikloa",
+  "mermaid": "flowchart TD\n  n0[\"PLATON: GOBERNUEN ENDEKATZE-ZIKLOA\"]:::axis\n  a[\"Aristokrazia: filosofoek gobernatzen dute\"]:::key\n  a2[\"arrazoia eta Ongia baloratzen ditu\"]\n  b[\"Timokrazia: gerlariek gobernatzen dute\"]:::key\n  b2[\"ohorea baloratzen du\"]\n  c[\"Oligarkia: aberatsek gobernatzen dute\"]:::key\n  c2[\"dirua baloratzen du\"]\n  d[\"Demokrazia: guztiek gobernatzen dute\"]:::key\n  d2[\"mugarik gabeko askatasuna baloratzen du\"]\n  e[\"Tirania: bakar batek gobernatzen du bere onerako\"]:::key\n  e2[\"bere desiren esklaboa\"]\n  n0 --> a\n  a -->|\"hezkuntza zabartzen da\"| b\n  b -->|\"aberastasunak pilatzen dira\"| c\n  c -->|\"pobreak matxinatzen dira\"| d\n  d -->|\"desordenak salbatzaile bat eskatzen du\"| e\n  a --- a2\n  b --- b2\n  c --- c2\n  d --- d2\n  e --- e2\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
  "AA-REL-02": {
   "subject": "hf",
   "block": "A",

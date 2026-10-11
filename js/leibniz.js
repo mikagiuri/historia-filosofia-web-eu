@@ -167,6 +167,72 @@ const LEIBNIZ = {
   "lineas": "Lerroak (Leibnizek bakarrik)",
   "puente": "Landu silogismo askoz gehiago <a href=\"#logica/silogismos\">Logikaren txokoan</a>."
  },
+ "calculo": {
+  "titulo": "Kalkulua: Leibnizek ∫ eta d ikurrak asmatzen ditu",
+  "partes": [
+   {
+    "h": "Bi arazo zahar",
+    "texto": [
+     "Arkimedesez geroztik, matematikariek bi arazori egin behar zieten aurre. Bata, kurba baten <strong>ukitzailea</strong> puntu jakin batean aurkitzea zen, hau da, haren malda: hortik ateratzen da, adibidez, une bakoitzeko abiadura. Bestea, kurba batek mugatzen duen <strong>azalera</strong> aurkitzea zen, «koadratura» deritzona. XVII. mendean, Cavalierik, Fermatek, Pascalek edo Barrowk kasu asko ebatzi zituzten, bakoitzak bere trikimailuarekin. Bi gauza falta ziren: metodo orokor bat, edozein kurbatarako balioko zuena, eta bi arazoak bata bestearen alderantzizkoa direla konturatzea. Newtonek eta Leibnizek lortu zuten, bakoitzak bere aldetik."
+    ]
+   },
+   {
+    "h": "Paris, 1672-1676: diferentziak batzea",
+    "texto": [
+     "Leibniz 1672an iritsi zen Parisera, matematika modernoaz oso gutxi zekiela, eta Christiaan Huygens fisikari holandarrak egin zion maisu-lana. Proba egiteko, zenbaki triangeluarren alderantzizkoak batzeko eskatu zion: 1 + 1/3 + 1/6 + 1/10 + … Leibnizek ikusi zuen gai bakoitza diferentzia baten bikoitza dela, 2 × (1/n − 1/(n+1)); beraz, batzean ia dena ezeztatzen da, eta emaitza 2 da.",
+     "Hortik atera zuen bere kalkulu osoa gidatzen duen ideia: <strong>diferentziak batzeak diferentzia desegiten du</strong>. Zerbait pixkanaka aldatzen bada, haren aldaketa txiki guztien batura da guztira aldatu dena. Kalkulu infinitesimala ideia bera da, aldaketa infinitu txikietara eramana."
+    ]
+   },
+   {
+    "h": "Triangelu karakteristikoa eta π-ren seriea",
+    "texto": [
+     "1673an, Pascal irakurtzen ari zela, Leibnizek kurbari itsatsitako triangelu txiki-txiki bati erreparatu zion: alde bat x-ren gehikuntza infinitu txiki bat da, beste bat y-rena, eta hirugarrena kurbaren beraren zatitxo bat. <strong>Triangelu karakteristikoa</strong> deitu zion. Lehen bi aldeen arteko arrazoia ukitzailearen malda da, gaur egun dy/dx idazten duguna.",
+     "Triangelu horrekin, azalera bat kalkulatzen errazagoa den beste batean bihurtzeko metodo bat asmatu zuen: <strong>transmutazio-teorema</strong> (1673-1674). Zirkuluari aplikatuta, formula harrigarri bat eman zion: π/4 = 1 − 1/3 + 1/5 − 1/7 + … 1682an argitaratu zuen, <em>Acta Eruditorum</em> aldizkarian. Geroago aitortu zuen James Gregory eskoziarra lehenago iritsi zela, eta gaur badakigu Indian, Keralan, Madhava matematikariak 1400 inguruan ezagutzen zuela."
+    ]
+   },
+   {
+    "h": "1675eko urriaren 29a: ∫ jaiotzen da",
+    "texto": [
+     "Ordura arte, lerro infinituak batu eta azalera bat lortzeko, Leibnizek <em>omn.</em> idazten zuen, <em>omnes lineae</em> («lerro guztiak») esapidetik, Cavalieriren esapidetik hain zuzen. 1675eko urriaren 29ko eskuizkribu batean hau idatzi zuen: «baliagarria izango da ∫ idaztea <em>omn.</em>-en ordez». Ikurra <strong>S luzatu bat</strong> da, <em>summa</em> hitzaren hasierakoa, integral bat infinitu txikiak diren batugai infinituen batura delako.",
+     "Hurrengo asteetan <strong>d</strong> gehitu zuen, <em>differentia</em> hitzetik, diferentzia infinitu txikiarentzat: dx, dy. Azaroaren 21erako integrala bere dx-arekin atzean idazten zuen, gaur bezala, eta eskuizkribu berean agertzen da biderkaduraren erregela: d(xy) = x dy + y dx. 1676an berreturen erregela aurkitu zuen, d(xⁿ) = n·xⁿ⁻¹ dx, berretzaile osoetarako zein zatikietarako."
+    ]
+   },
+   {
+    "h": "Oinarrizko teorema: d-k eta ∫-k elkar desegiten dute",
+    "texto": [
+     "Ideia nagusia da d-k eta ∫-k elkar desegiten dutela, batuketak eta kenketak bezala: ∫ dy = y, eta d(∫ y dx) = y dx. Hori da <strong>kalkuluaren oinarrizko teorema</strong>. Azalera bat aurkitzeko ez da benetan laukizuzen infinitu batu behar: nahikoa da ematen digutena diferentziatzat duen magnitude bat aurkitzea.",
+     "Adibidez, d(x³/3) = x² dx denez, y = x² parabolaren azpiko azalera, 0 eta 1 artean, ∫ x² dx = 1/3 da. Behean egiazta dezakezu, gero eta finagoak diren laukizuzenak batuz: batura nahi beste hurbiltzen zaio 1/3-ri.",
+     "Leibnizek froga geometriko bat argitaratu zuen 1693an, <em>Acta Eruditorum</em> aldizkarian (<em>Neurrien geometriaren osagarria</em>): azalerei buruzko arazo oro «ukitzaileen lege» jakin bat duen kurba bat aurkitzera mugatzen da. Haren froga Isaac Barrowren batekin oso antzekoa da (Barrow Newtonen maisua izan zen); Barrowk <em>Ikasgai geometrikoak</em> (1670) liburuan argitaratu zuen, eta Leibnizek Londresen lortu zuen liburu hori 1673an, baina ez zuen inoiz aipatu."
+    ]
+   },
+   {
+    "h": "Argitaratzea: sei orrialdeko enigma bat",
+    "texto": [
+     "Lehen artikulua, <em>Maximoetarako eta minimoetarako metodo berria…</em>, 1684an atera zen <em>Acta Eruditorum</em> aldizkarian: sei orrialde, d-ren erregelekin eta frogarik gabe. Jacob Bernoulliren esanetan, «azalpen bat baino gehiago, enigma bat» zen. ∫ ikurra lehen aldiz 1686an agertu zen inprimatuta, <em>Geometria ezkutuaz</em> lanean.",
+     "<strong>Integral</strong> hitza ez da Leibnizena: Jacob Bernoulli hasi zen erabiltzen 1690ean. Leibnizek «batuketa-kalkulua» nahiago zuen, baina 1696an, Johann Bernoullirekin batera, onartu zuen «kalkulu integrala» hobea zela."
+    ]
+   },
+   {
+    "h": "Zergatik nagusitu zen haren notazioa",
+    "texto": [
+     "Leibnizen ikurrek gure ordez pentsatzen dute. dy/dx ia zatiki bat bezala portatzen da: katearen erregela dy/dx = (dy/du) · (du/dx) idazten da, du-ak ezeztatuko balira bezala. Hori bera bilatzen zuen bere «karakteristika unibertsalarekin»: arrazoiketa ikusgai egiten duten ikurrak. Bernoulli anaiek eta L’Hôpital markesak, kalkuluko lehen eskuliburuaren egileak (1696), Europa osoan zabaldu zituzten.",
+     "Ingalaterran, Newtoni leial izateagatik, haren puntu-notazioari eutsi zioten, eta matematika britainiarra mende batez atzean geratu zen. 1812 inguruan, Cambridgeko ikasle batzuek, haien artean Charles Babbagek, Elkarte Analitikoa sortu zuten, Leibnizen ikurrak ekartzeko. Babbagek txantxetan lelo bat proposatu zuen: «D hutsaren printzipioak unibertsitatearen <em>dot-age</em>-aren aurka», <em>dot</em> («puntua») eta <em>dotage</em> («zahar-burutzea») hitzekin jokatuz."
+    ]
+   },
+   {
+    "h": "Zer da dx bat? Arazo filosofiko bat",
+    "texto": [
+     "dx bat ezin da zero izan, orduan dy/dx 0/0 izango litzatekeelako, baina ez da ohiko magnitude bat ere: eman dezakegun edozein zenbaki baino txikiagoa da. Leibnizek zioen magnitude infinitu txikiak «fikzio baliagarriak» direla, aljebrako erro irudikariak bezala: ez dira gauza gisa existitzen, baina ondo kalkulatzeko balio dute.",
+     "George Berkeley gotzainak iseka egin zien <em>Analista</em> lanean (1734): «desagertutako magnitudeen mamuak» omen ziren. Erantzuna XIX. mendean iritsi zen, Cauchyk eta Weierstrassek kalkulua <strong>limitearen</strong> ideiaz berreraiki zutenean, infinitesimalik gabe. Eta 1960ko hamarkadan, Abraham Robinsonek frogatu zuen, analisi ez-estandarra deritzonaren bidez, Leibnizen infinitesimalak ere zorroztasun osoz landu daitezkeela."
+    ]
+   }
+  ],
+  "rectTit": "Integrala batura bat da",
+  "rectTxt": "Mugitu kontrola: y = x² kurbaren azpiko azalera, 0 eta 1 artean, laukizuzenak batuz kalkulatzen da. Zenbat eta gehiago izan, orduan eta finagoak dira, eta orduan eta gehiago hurbiltzen zaio batura azalera zehatzari, ∫ x² dx = 1/3. Laukizuzen infinitu finen batura infinitu hori da Leibnizek S luzatu batekin idatzi zuena.",
+  "serieTit": "Leibnizen seriea",
+  "serieTxt": "Batu 1 − 1/3 + 1/5 − 1/7 + … serieko lehen gaiak eta biderkatu 4z: emaitza π-ra hurbiltzen da, baina oso poliki, alde batera eta bestera jauzika.",
+  "cuidado": "Kasu tranpa: «Leibnizek asmatu zuen kalkulua» erdizka da egia. Newtonek lehenago zeukan, 1665-1666 inguruan, argitaratu ez bazuen ere, eta emaitza solte asko Arkimedesengandik, Cavalieri, Fermat, Pascal edo Barrowrengandik zetozen. Leibnizena bakarrik notazioa da: ∫, d eta haiekin kalkulatzeko modua, gaur oraindik erabiltzen duguna."
+ },
  "calculemos": {
   "titulo": "Kalkula dezagun!",
   "cita": "Eztabaidak sortzen direnean, bi filosoforen artean ez da bi kontulariren artean baino eztabaida gehiagoren beharrik izango. Nahikoa izango da luma hartu, abakoaren aurrean eseri eta elkarri esatea (nahi izanez gero lagun bati deituta): kalkula dezagun.",
