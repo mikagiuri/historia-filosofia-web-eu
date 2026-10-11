@@ -203,10 +203,6 @@ const GLOSARIO_GRIDS = {
        "t": "Kontraesanik ezaren printzipioa"
       }
      ]
-    },
-    {
-     "rel": "bere eskola",
-     "t": "Lizeoa"
     }
    ],
    "cruces": [

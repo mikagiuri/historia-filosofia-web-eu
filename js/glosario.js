@@ -63,6 +63,45 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Arima gutiziatsua",
+  "et": "Latinezko *concupiscere* aditzetik, «bizkor desiratu». Platonek τὸ ἐπιθυμητικόν (*to epithymētikón*) deitzen dio, «desiratzen duena»; *desiratsua* ere esaten zaio.",
+  "area": "Antropologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Arimaren zati baxuena: gorputzaren desirak eta gutiziak (jan, edan, plazera, dirua). Sabelean du egoitza, eta haren bertutea neurritasuna da.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Arima suminkorra",
+  "et": "Latinezko *irascibilis* hitzetik, *irasci* aditzetik, «haserretu». Platonek τὸ θυμοειδές (*to thymoeidés*) deitzen dio, θυμός (*thymós*) hitzetik, «gogoa, adorea».",
+  "area": "Antropologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Gogoa, adorea eta haserre bidezkoa sentitzen dituen arimaren zatia; arrazoiari men egiten badio, desirak menderatzen laguntzen dio. Bularrean du egoitza, eta haren bertutea ausardia da.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Arima arrazionala",
+  "et": "*Arima* hitzaren atzean latinezko *anima* dago, «hatsa, suspirioa»; *arrazionala*, *ratio*-tik dator, «arrazoia». Platonek τὸ λογιστικόν (*to logistikón*) deitzen dio, «kalkulatzen duena».",
+  "area": "Antropologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Platonen arabera, arimaren zati gorena (*Errepublika* IV): pentsatzen du, Ideiak ezagutzen ditu eta beste bi zatiak gobernatu behar ditu. Buruan du egoitza, eta haren bertutea jakinduria da.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Alteritatea",
   "et": "Latinezko *alter*: «bestea» (bitik).",
   "area": "Feminismoa",
@@ -70,6 +109,19 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Feminismoa",
   "def": "Emakumea \"bestea\" gisa definitu izan da historian zehar, gizonezko subjektu unibertsalaren aurrean. Ez da bere kabuz definitzen, gizona ez den gisa baizik."
+ },
+ {
+  "subject": "hf",
+  "t": "Anamnesia",
+  "et": "Greziar ἀνάμνησις (*anámnēsis*) hitzetik, «oroitzapena, gogorapena», ἀναμιμνῄσκειν (*anamimnḗiskein*) aditzetik, «gogoraraztea».",
+  "area": "Epistemologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Ezagutzea oroitzea da: arimak, gorputzarekin bat egin aurretik, Ideiak kontenplatu zituen, eta sentigarriak aukera ematen dionean, gogoratu egiten ditu. Platonek *Menon* elkarrizketan azaltzen du (galderen bidez soilik geometriako teorema bat aurkitzen duen esklaboa) eta *Fedon*-en.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -613,6 +665,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Dialektika (Platon)",
+  "et": "Greziar διαλεκτική (*dialektikḗ*) hitzetik, «elkarrizketatzeko artea», διαλέγεσθαι (*dialégesthai*) aditzetik, «berriketan aritzea».",
+  "area": "Epistemologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Platonentzat, filosofiaren metodoa: hipotesiak galdera eta erantzunen bidez aztertzen dituen elkarrizketa, Ideiatik Ideiara Ongiraino igotzen dena, irudi sentigarrietan oinarritu gabe. Nóesisaren bidea da.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Dialektika materialista",
   "et": "*Dialektika*, grezierazko διαλέγεσθαι (*dialégesthai*) aditzetik, «solasean aritu»: elkarrizketaren artea.",
   "area": "Metodoa",
@@ -635,6 +700,19 @@ const GLOSARIO = [
   "def": "Adornoren proposamenean, pentsamenduak ez du errealitatea formula baketsu batean ixteko presarik izan behar. Kontzeptuek guztiz harrapatzen ez dutena entzuten saiatzen da.",
   "ilustre": [
    "adorno"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Diánoia",
+  "et": "Greziar διάνοια (*diánoia*) hitzetik, «pentsamendua, arrazoiketa».",
+  "area": "Epistemologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Lerro zatituan (*Errepublika* VI), pentsamendu diskurtsiboa: errealitate adigarriak ezagutzen ditu, aztertzen ez dituen hipotesietatik abiatuta eta irudiez lagunduta, matematikek egiten duten bezala. Epistemearen lehen maila da.",
+  "ilustre": [
+   "platon"
   ]
  },
  {
@@ -764,6 +842,19 @@ const GLOSARIO = [
   "unidad": "C1",
   "tema": "Ilustrazioa",
   "def": "Pertsona guztiak arrazoia erabiltzeko eta herritar gisa jarduteko prestatu behar direla defendatzen duen printzipioa da."
+ },
+ {
+  "subject": "hf",
+  "t": "Eikasía",
+  "et": "Greziar εἰκασία (*eikasía*) hitzetik, «aieru», εἰκών (*eikṓn*) hitzetik, «irudia». Hortik dator *ikono*.",
+  "area": "Epistemologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Lerro zatituan ezagutzaren maila baxuena (*Errepublika* VI): irudimena edo aieru, gauza sentigarrien irudiak, itzalak eta isla besterik hartzen ez dituena. Doxaren lehen maila da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1693,7 +1784,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Platonentzat, justizia ez da kanpoko legea bakarrik. Arimaren eta hiriaren atal bakoitzak bere funtzioa behar bezala betetzen duenean sortzen den harmonia da.",
+  "def": "Platonentzat, justizia ez da kanpoko legea bakarrik. Arimaren eta hiriaren atal bakoitzak bere funtzioa behar bezala betetzen duenean sortzen den harmonia da. Beste hiru bertuteak (jakinduria, ausardia eta neurritasuna) orekatzen dituenak lortzen du: horregatik da gainerako guztiak ordenatzen dituen bertutea.",
   "ilustre": [
    "platon"
   ]
@@ -2345,6 +2436,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Nóesis",
+  "et": "Greziar νόησις (*nóēsis*) hitzetik, «ulermena», νοῦς (*nous*) hitzetik, «adimena».",
+  "area": "Epistemologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Lerro zatituan ezagutzaren maila gorena: adimena, dialektikaren bidez, Ideiak berak kontenplatzen dituena Ongiraino iritsi arte, irudirik erabili gabe.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Nominalismoa",
   "et": "Latinezko *nomen*, «izena»: nominalismoarentzat, unibertsalak izenak besterik ez dira.",
   "area": "Epistemologia",
@@ -2593,6 +2697,19 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Lehen filosofoak",
   "def": "Natura da, baina ez natura objektu pasibo gisa bakarrik: sortu, hazi, aldatu eta ordenatzen den errealitate bizia."
+ },
+ {
+  "subject": "hf",
+  "t": "Pístis",
+  "et": "Greziar πίστις (*pístis*) hitzetik, «konfiantza, sinesmena».",
+  "area": "Epistemologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Lerro zatituan, sinesmena: gauza sentigarri berak ezagutzea (animaliak, landareak, eginiko objektuak). Eikasíarekin batera doxa osatzen du.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2969,6 +3086,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Jakinduria (sophía)",
+  "et": "Greziar σοφία (*sophía*) hitzetik, «jakintza, jakinduria». *Errepublika*-n Platonek *phrónesis* ere deitzen dio, «zuhurtzia».",
+  "area": "Etika",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Arimaren zati arrazionalaren bertutea: atal bakoitzari eta multzo osoari zer komeni zaion jakitea. Hiri idealean agintarien, filosofoen, bertutea da.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Sentsazioa eta hausnarketa",
   "et": "*Hausnarketa* gaztelaniaz *reflexión* da, latinezko *reflectere*, «atzera tolestu»: bere buruaren gainera itzultzen den gogoa.",
   "area": "Epistemologia",
@@ -3219,6 +3349,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Neurritasuna (sophrosýne)",
+  "et": "Latinezko *temperantia* hitzetik, «neurria». Greziar σωφροσύνη (*sōphrosýnē*) hitza ordezkatzen du, «zentzutasuna, bere buruaren jabe izatea».",
+  "area": "Etika",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Arimaren zati gutiziatsuaren bertutea: desirak arrazoiaren gidaritzari uztea. Platonentzat, zati guztien arteko adostasuna da, nork agindu behar duen erabakitzean; hirian guztiek behar dute, eta batez ere ekoizleek.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Teoria kritikoa",
   "et": "*Teoria*, grezierazko θεωρία (*theoría*), «kontenplazioa, begirada». *Kritika*, κρίνειν (*krínein*) aditzetik, «bereizi, epaitu».",
   "area": "Historia",
@@ -3387,6 +3530,19 @@ const GLOSARIO = [
   "unidad": "B7",
   "tema": "Utilitarismoa eta liberalismoa",
   "def": "Ekintza edo erakunde baten balioa haren ondorioen arabera neurtzen duen ikuspegia; helburua ongizate edo zorion handiagoa sortzea da."
+ },
+ {
+  "subject": "hf",
+  "t": "Ausardia (andreía)",
+  "et": "Greziar ἀνδρεία (*andreía*) hitzetik, «gizontasuna, adorea», ἀνήρ (*anḗr*) hitzetik, «gizonezkoa».",
+  "area": "Etika",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Arimaren zati suminkorraren bertutea: beldurraren eta plazerraren aurrean, arrazoiak zeri beldurra izan behar zaion eta zeri ez irakasten duena mantentzea. Hiri idealean zaindarien bertutea da.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -3874,8 +4030,16 @@ const GLOSARIO_TRAMPAS = {
    "Ideien teoria"
   ],
   [
-   "Mundu sentigarrira",
-   "Partaidetza (méthesis)"
+   "Diánoia",
+   "Nóesis"
+  ],
+  [
+   "Arima suminkorra",
+   "Arima gutiziatsua"
+  ],
+  [
+   "Diánoia",
+   "Nóesis"
   ],
   [
    "Aktua eta potentzia",
