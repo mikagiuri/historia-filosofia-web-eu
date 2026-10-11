@@ -3466,7 +3466,8 @@ const GLOSARIO = [
   "tema": "Nietzsche",
   "def": "Schopenhauerrentzat errealitatearen sakonean ez dago arrazoi gardenik, baizik eta helburu arrazionalik gabeko bulkada eta nahi asezina.",
   "ilustre": [
-   "nietzsche"
+   "nietzsche",
+   "schopenhauer"
   ]
  },
  {

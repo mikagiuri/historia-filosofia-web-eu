@@ -67,6 +67,7 @@ const CITAS = [
   "a": "Epikteto",
   "o": "Eskuliburua (Enkheiridion) 1, 1",
   "e": "antigua",
+  "id": "epicteto",
   "img": "media/retratos/citas/epicteto.jpg",
   "sen": "Estoikoentzat, gure mende daude gure judizioak, nahiak eta erabakiak; ez daude gure mende gorputza, ospea edo aberastasuna. Lasaitasuna lehenengoez soilik arduratzean datza.",
   "uso": "Etika estoikoa eta asaldaezintasuna azaltzeko, edo barne-askatasunari eta emozioen kontrolari buruzko disertazio batean."
@@ -273,6 +274,7 @@ const CITAS = [
   "a": "Blaise Pascal",
   "o": "Pentsamenduak, 200. zatia (Lafuma arg.) / 347 (Brunschvicg arg.)",
   "e": "modernoa",
+  "id": "pascal",
   "img": "media/retratos/museo2/pascal.jpg",
   "sen": "Gizakia hauskorra da eta edozerk suntsi dezake, baina unibertsoa baino goragokoa da, badakielako hil egiten dela. Haren duintasuna pentsamenduan dago.",
   "uso": "Pascal eta giza egoera handitasunaren eta miseriaren artean aurkezteko, edo giza duintasunari buruzko disertazio batean."
@@ -859,6 +861,7 @@ const CITAS = [
   "a": "Kierkegaard",
   "o": "Beldurra eta dardara (1843), I. arazoa",
   "e": "contemporanea",
+  "id": "kierkegaard",
   "img": "media/retratos/museo2/kierkegaard.jpg",
   "sen": "Kierkegaardentzat fedea ez da arrazoizkoa: fededuna, Abraham bezala, zuzenean harremanetan jartzen da Jainkoarekin etika unibertsalaren gainetik, eta arrazoiak ezin du hori justifikatu.",
   "uso": "Kierkegaardengan estadio erlijiosoa eta Abrahamen irudia azaltzeko, edo fedeari eta arrazoiari buruzko eztabaidetan."
@@ -1283,6 +1286,7 @@ const CITAS = [
   "a": "Epikteto",
   "o": "Eskuliburua (Enkheiridion) 5",
   "e": "antigua",
+  "id": "epicteto",
   "img": "media/retratos/citas/epicteto.jpg",
   "sen": "Epiktetorentzat, asaldatzen gaituena ez da gauzak, haiei buruz ditugun iritziak baizik. Jakintsuak ez du erruduna bilatzen: bere mende ez dagoena onartzen du eta bere mende dagoenaz arduratzen da.",
   "uso": "Estoizismoa eta gure mende dagoenaren eta gure mende ez dagoenaren arteko bereizketa azaltzeko, edo erantzukizunari buruzko eztabaidetan."
@@ -1302,6 +1306,7 @@ const CITAS = [
   "a": "Marko Aurelio",
   "o": "Gogoetak VI, 54",
   "e": "antigua",
+  "id": "marco_aurelio",
   "img": "media/retratos/museo/marco-aurelio.jpg",
   "sen": "Marko Aureliorentzat, norbanakoa komunitate arrazional baten parte da; horregatik, haren benetako ongia ezin da ongi komunaren aurka joan.",
   "uso": "Kosmopolitismo estoikoa azaltzeko, edo interes indibidualaren eta ongi komunaren arteko harremanari buruzko eztabaidetan."
@@ -1401,6 +1406,7 @@ const CITAS = [
   "a": "Montaigne",
   "o": "Saiakerak (1580) II, 1",
   "e": "modernoa",
+  "id": "montaigne",
   "img": "media/retratos/museo2/montaigne.jpg",
   "sen": "Montaignerentzat ez gara ni finko eta koherente bat, pieza aldakorren multzo bat baizik: unearen arabera modu batera edo bestera jokatzen dugu, eta batzuetan beste pertsona baten antz handiagoa dugu geure buruarena baino.",
   "uso": "Montaigneren Saiakerak eta haren eszeptizismoa aurkezteko, edo identitate pertsonalari buruzko disertazio batean: beti pertsona bera al gara?"
@@ -1410,6 +1416,7 @@ const CITAS = [
   "a": "Blaise Pascal",
   "o": "Pentsamenduak, 60. zatia (Lafuma arg.) / 294 (Brunschvicg arg.)",
   "e": "modernoa",
+  "id": "pascal",
   "img": "media/retratos/museo2/pascal.jpg",
   "sen": "Pascalek justizia unibertsal batean sinesten dutenez barre egiten du: zuzena herrialdearen arabera aldatzen da, eta ibai bat edo mendi bat bezain muga arbitrario batek nahikoa du egia bat errore bihurtzeko.",
   "uso": "Erlatibismo morala eta kulturala azaltzeko, edo guztientzat balio duen justizia natural bat ba ote dagoen buruzko disertazio batean."
@@ -1439,6 +1446,7 @@ const CITAS = [
   "a": "Schopenhauer",
   "o": "Moralaren oinarriaz (1840), 16. §",
   "e": "contemporanea",
+  "id": "schopenhauer",
   "img": "media/retratos/museo/schopenhauer.jpg",
   "sen": "Schopenhauerrentzat, ekintza batek errukitik sortzen denean bakarrik du balio morala, hau da, bestearen sufrimendua norberarena bezala sentitzetik; ez berekoikeriak ez betebehar hutsak ezin dute morala oinarritu.",
   "uso": "Schopenhauerren etika betebehar kantiarraren aurrean aurkezteko, edo morala arrazoian ala sentimenduetan oinarritzen den buruzko disertazio batean."

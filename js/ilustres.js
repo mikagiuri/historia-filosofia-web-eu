@@ -69,6 +69,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-sofistas"
   ]
  },
@@ -90,6 +91,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso"
   ]
  },
@@ -111,6 +113,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso",
    "hf-kant-juicios"
   ]
@@ -180,6 +183,27 @@ const ILUSTRES = {
    "hf-preso"
   ]
  },
+ "confucio": {
+  "name": "Konfuzio",
+  "dates": "K.a. 551 – 479",
+  "born": -551,
+  "died": -479,
+  "place": "Lu estatua (gaur egungo Qufu, Txina)",
+  "role": "maisu eta pentsalari moral txinatarra",
+  "idea": "Gizarte ona ondo hezitako pertsonengandik sortzen da: gizatasunak (ren), erritoekiko errespetuak (li) eta agintariaren adibideak zigorrak baino gehiago balio dute.",
+  "bio": "<p>Kong Qiu, ikasleek Kongzi edo Kong Fuzi deitu ziotena («Kong maisua»; hortik dator «Konfuzio»), Lu estatu txikian jaio zen, elkarren lehiakide ziren erresumetan banatutako Txinan. Txikitan aita galdu zuen eta behera etorritako familia batekoa zen; kargu xumeetan lan egin zuen eta maisu gisa ospea irabazi zuen: edozein jatorritako ikasleak onartzen zituen, ikasteko gogoa bazuten. Urte askoan beste estatu batzuetan ibili zen bere ideiak praktikan jarriko zituen agintari baten bila, baina ez zuen lortu, eta Lura itzuli zen, hil arte irakasteko.</p>\n<p>Ez zuen tratatu bakar bat ere idatzi: haren irakaspenak <em>Analektak</em> (<em>Lunyu</em>) lanaren bidez iristen zaizkigu, ikasleek bildutako esaera eta elkarrizketen bidez. Erdigunean <strong>ren</strong> dago, gizatasuna edo onginahia, eta <strong>li</strong>, elkarbizitzari bidea ematen dioten erritu eta adeitasun-moduen multzoa. Ideala <strong>junzi</strong> da, «pertsona noblea», izaeragatik noblea eta ez jatorriagatik. Bizitza osorako gida izan daitekeen hitzik ba ote dagoen galdetuta, urrezko arau batekin erantzuten du, ezezko forman: «Zuretzat nahi ez duzuna, ez egin besteei». Konfuziorentzat, agintariak bere adibidearekin gobernatu behar du, belarra makurtzen duen haizeak bezala, eta ez zigorraren beldurrarekin.</p>",
+  "obras": [
+   "Analektak (Lunyu), ikasleek bilduak"
+  ],
+  "anecdota": "<p><em>Analektak</em> lanean, Konfuziok bere bizitza lerro gutxitan laburtzen du: hamabost urterekin ikasteko asmoa hartu zuen; hogeita hamarrekin tinko zegoen; berrogeirekin ez zuen jada zalantzarik; berrogeita hamarrekin Zeruaren agindua ezagutu zuen; hirurogeirekin belarriak esanekotasunez entzuten zuen; eta hirurogeita hamarrekin bihotzaren nahiei jarrai ziezaiekeen, zuzena dena hautsi gabe. Bizitza oso bat prestakuntza-bide gisa deskribatzen duen lehenengoetako testua da.</p>",
+  "fuente": "Analektak II, 4",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "heraclito": {
   "name": "Heraklito Efesokoa",
   "dates": "K.a. 540 ing. – 480 ing.",
@@ -200,6 +224,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso",
    "hf-ap",
    "hf-platon",
@@ -226,6 +251,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso",
    "hf-ap",
    "hf-platon",
@@ -319,6 +345,7 @@ const ILUSTRES = {
   "temas": [
    "hf-beefs",
    "hf-sofistas",
+   "hf-etica",
    "hf-kant-juicios"
   ]
  },
@@ -346,7 +373,8 @@ const ILUSTRES = {
   "temas": [
    "hf-beefs",
    "hf-sofistas",
-   "hf-platon-superficie"
+   "hf-platon-superficie",
+   "hf-etica"
   ]
  },
  "meliso": {
@@ -385,6 +413,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-preso",
    "hf-kant-juicios"
   ]
  },
@@ -440,6 +469,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-metodos",
    "hf-beefs",
    "hf-sofistas",
@@ -498,6 +528,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-preso",
+   "hf-sofistas",
    "hf-helenismo",
    "hf-kant-juicios"
   ]
@@ -623,9 +654,11 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-historicidad",
+   "hf-comunidades-perseguidos",
    "hf-euskal-herria",
    "hf-metodos",
    "hf-beefs",
+   "hf-mito",
    "hf-preso",
    "hf-sofistas",
    "hf-ap",
@@ -636,6 +669,7 @@ const ILUSTRES = {
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
+   "hf-helenismo",
    "hf-medieval",
    "hf-platon-agustin",
    "hf-fe-razon",
@@ -672,6 +706,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-preso",
    "hf-helenismo"
   ]
  },
@@ -734,15 +769,18 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-metodos",
    "hf-beefs",
    "hf-mito",
+   "hf-preso",
    "hf-sofistas",
    "hf-aa",
    "hf-platon",
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
+   "hf-helenismo",
    "hf-medieval",
    "hf-fe-razon",
    "hf-aristoteles-arabe",
@@ -757,6 +795,29 @@ const ILUSTRES = {
    "hf-utilitarismo",
    "hf-kant-juicios",
    "hf-descartes-makro"
+  ]
+ },
+ "mencio": {
+  "name": "Mentzio",
+  "dates": "K.a. 372 ing. – 289",
+  "born": -372,
+  "died": -289,
+  "place": "Zou estatua (Txina)",
+  "role": "pentsalari konfuziar txinatarra",
+  "idea": "Gizakia ona da berez: guztiok daramatzagu barruan errukiaren eta justiziaren kimuak, eta hezkuntzak hazi egiten ditu.",
+  "bio": "<p>Meng Ke, Mengzi («Meng maisua») deitua, Konfuzio hil eta mende bat baino gehiago geroago jaio zen, Erresuma Borrokalarien aroan. Eskola konfuziarrean hezi zen eta, bere maisuak bezala, gortez gorte ibili zen erregeei aholkuak ematen, arrakasta praktiko handirik gabe. Haren elkarrizketak eta argudioak bere izena daraman liburuan bildu ziren, <em>Mentzio</em> izenekoan.</p>\n<p>Haren tesirik ezagunena da giza natura <strong>ona</strong> dela. Adibide batekin argudiatzen du: putzu batera erortzear dagoen haur bat ikusten duen edonork errukizko ikara bat sentitzen du, ez gurasoen mesedea irabazteko ezta besteek esango dutenaren beldurrez ere, berez baizik. Guztiok ditugu lau <strong>kimu</strong>: errukia, gaizkiaren aurreko lotsa, errespetua eta zuzenaren zentzua; hezkuntzak landu egin behar ditu, landareak lantzen diren bezala. Politikan, Mentziok defendatzen du agintaria herriaren onerako dagoela; tirano bihurtzen bada, Zeruaren agindua galtzen du eta benetako errege izateari uzten dio. Geroago, Xunzik kontrakoa defendatuko du: giza natura gaizkira makurtzen dela eta erritoen diziplina behar duela.</p>",
+  "obras": [
+   "Mentzio (Mengzi), haren elkarrizketen bilduma"
+  ],
+  "anecdota": "<p>Txinan oso ezaguna den istorio batek dio Mentzioren amak hiru aldiz aldatu zuela etxez semearengatik. Hilerri baten ondoan bizi ziren, eta haurra hiletetan jolasten zen; merkatu baten ondora aldatu ziren, eta erosten eta saltzen jolasten zen; azkenik, eskola baten ondoan jarri ziren bizitzen, eta erritoak eta ikasketa imitatzen hasi zen. Orduan amak han geratzea erabaki zuen. Pasadizoa hezkuntzan inguruneak duen garrantziaren adibide gisa errepikatzen da, baina askoz geroagoko bilduma batetik dator eta ez da datu historiko segurua.</p>",
+  "fuente": "Liu Xiang, Emakume eredugarrien biografiak (K.a. I. m.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-beefs"
   ]
  },
  "teofrasto": {
@@ -778,6 +839,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-preso",
    "hf-aristoteles-arabe",
    "hf-kant-juicios"
   ]
@@ -845,6 +907,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-helenismo",
    "hf-montaigne-ensayos"
   ]
@@ -970,7 +1033,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-helenismo"
+  ]
  },
  "seneca": {
   "name": "Seneka",
@@ -995,7 +1060,55 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-helenismo",
    "hf-montaigne-ensayos"
+  ]
+ },
+ "epicteto": {
+  "name": "Epikteto",
+  "dates": "50 ing. – 135 ing.",
+  "born": 50,
+  "died": 135,
+  "place": "Hierapolis (Frigia, gaur egungo Turkia)",
+  "role": "filosofo estoiko greziarra",
+  "idea": "Badira gure esku dauden gauzak, gure iritziak eta erabakiak, eta badira gure esku ez daudenak; askatasuna zoriontasuna gure esku ez dagoenaren menpe ez jartzean datza.",
+  "bio": "<p>Epikteto esklabo jaio zen; haren izenak «erosia» esan nahi du grezieraz. Erroman Epafroditorena izan zen, Neronen idazkari izandako esklabo askatu batena, eta hark Musonio Rufo estoikoarekin ikasten utzi zion. Askatasuna lortu ondoren, filosofia irakatsi zuen Erroman, harik eta, 93. urte inguruan, Domiziano enperadoreak filosofoak Italiatik kanporatu zituen arte. Orduan Nikopolisen jarri zen bizitzen, Greziako ipar-mendebaldean, eta han eskola bat ireki zuen; Inperio osoko gazteak joaten ziren bertara. Oso bizimodu xumea izan zuen. Hanka batetik herren zebilen.</p>\n<p>Epiktetok ez zuen ezer idatzi. Arriano ikasleak haren eskolen oharrak hartu eta argitaratu zituen, <em>Disertazioak</em> lanean eta laburpen batean, <em>Eskuliburua</em> (<em>Enkiridion</em>). Dena bereizketa batetik abiatzen da: <strong>gure esku dagoena</strong> (gure iritziak, nahiak eta erabakiak) eta <strong>gure esku ez dagoena</strong> (gorputza, ospea, ondasunak, besteek egiten dutena). Ez gaituzte gauzek asaldatzen, haiei buruz ditugun iritziek baizik. Bere ona kontrolatzen ez duen horretan jartzen duena esklabo baten moduan bizi da; bere iritzietan jartzen duena librea da, kateatuta egon arren. Haren eskuliburuak eragina izan zuen Marko Aureliorengan eta, mende asko geroago, Errenazimentuko humanistengan eta gaur egungo zenbait terapia psikologikotan.</p>",
+  "obras": [
+   "Disertazioak (Arrianok bilduak)",
+   "Eskuliburua edo Enkiridion (Arrianoren laburpena)"
+  ],
+  "anecdota": "<p>Origenes idazle kristauak kontatzen du Epiktetoren nagusiak, hura probatzeko, hanka bihurritzen ziola. Epiktetok lasai ohartarazi zion: «Hautsi egingo didazu». Hanka hautsi zenean, hau besterik ez zuen esan: «Ez al nizun esan?». Istorioa askotan aipatzen da lasaitasun estoikoaren adibide gisa, baina antzinako beste iturri batzuek diote haren herrena jaiotzetikoa edo erreumaren ondorioa zela; beraz, kondaira bat izan daiteke.</p>",
+  "fuente": "Origenes, Zeltsoren aurka VII, 53",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-helenismo"
+  ]
+ },
+ "marco_aurelio": {
+  "name": "Marko Aurelio",
+  "dates": "121 – 180",
+  "born": 121,
+  "died": 180,
+  "place": "Erroma",
+  "role": "enperadore erromatarra eta filosofo estoikoa",
+  "idea": "Egunero bete behar da norberaren betebeharra, lasaitasunez onartu gure esku ez dagoena eta gogoratu dena iragankorra dela.",
+  "bio": "<p>Marko Aurelio gaztetan adoptatu zuen Antonino Pio enperadoreak, eta garai hartako hezkuntzarik onena jaso zuen. Oso goiz zaletu zen filosofia estoikoaz, eta Junio Rustiko maisuak Epiktetoren irakaspenak ezagutarazi zizkion. Erromako enperadore izan zen 161. urtetik 180an hil zen arte. Haren erregealdia Danubioko mugetako gerrek eta izurrite handi batek, Antoninoren izurriak, markatu zuten; urte luzeak eman zituen kanpainan, eta horietako batean hil zen.</p>\n<p>Kanpaina horietan, grezieraz, ohar batzuk idatzi zituen bere buruarentzat, argitaratzeko asmorik gabe; gaur <em>Gogoetak</em> izenez ezagutzen ditugu (antzinako izenburua <em>Bere buruari</em> da). Pentsamenduak ordenatzeko ariketak dira: gogoratzea dena aldatzen eta igarotzen dela, heriotza naturala dela, besteek gurekin batera komunitate arrazional bat osatzen dutela eta, norbaitek iraintzen gaituenean, gorrotatu baino lehen ulertu behar dugula. Inperio bat gobernatzen duen estoiko bat da, eta arrazoiaren arabera bizitzea exijitzen dio bere buruari. Haren obrak ideal filosofikoaren eta boterearen arteko tentsioa ere erakusten du: haren erregealdian gerrek eta kristauen jazarpenak jarraitu zuten.</p>",
+  "obras": [
+   "Gogoetak edo Bere buruari (170-180 inguruan idatziak)"
+  ],
+  "anecdota": "<p><em>Gogoetak</em> lanaren I. liburua esker onen zerrenda bat da: Marko Aureliok bere bizitzako pertsona bakoitzarengandik ikasi zuena idazten du. Rustiko maisuari, besteak beste, eskertzen dio bere liburutegitik Epiktetoren eskoletako oharrak utzi izana. Eta liburu horren amaieran, edo hurrengoaren hasieran, edizioen arabera, non idazten duen jasotzen du: «Kuadoen artean, Granuaren ertzean»; hau da, kanpamentu militar batean, Hron ibaiaren ertzean, gaur egungo Eslovakian.</p>",
+  "fuente": "Marko Aurelio, Gogoetak I, 7 eta I, 17",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-helenismo"
   ]
  },
  "tertuliano": {
@@ -1123,6 +1236,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-helenismo"
   ]
  },
@@ -1341,6 +1455,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-beefs",
    "hf-aa",
    "hf-antropologia",
@@ -1765,7 +1880,33 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-descartes-makro"
+  ]
+ },
+ "montaigne": {
+  "name": "Michel de Montaigne",
+  "dates": "1533 – 1592",
+  "born": 1533,
+  "died": 1592,
+  "place": "Montaigneko gaztelua (Périgord, Frantzia)",
+  "role": "humanista eta saiakeragile frantsesa",
+  "idea": "Aztergairik onena norbera da: norberaren bizitza, aldakorra eta kontraesankorra, zintzotasunez aztertuz ikasten da zer den gizaki izatea eta zein gutxi dakigun ziurtasunez.",
+  "bio": "<p>Michel Eyquem de Montaigne Bordeleko merkatari aberastuen familia batean jaio zen. Aitak modu berezian hezi zuen: sei urte bete arte latinez baino ez zioten hitz egin, eta, horrela, latina izan zen haren lehen hizkuntza. Zuzenbidea ikasi zuen eta Bordeleko Parlamentuko kontseilari izan zen; han, Étienne de La Boétie idazlearekin adiskidetasun bat egin zuen, eta adiskidetasun horrek betiko markatu zuen. 1571n, 38 urterekin, bere gazteluko dorrera erretiratu zen irakurtzeko eta idazteko, nahiz eta bizitza publikora itzuli zen, Bordeleko alkate gisa (1581-1585) eta katolikoen eta protestanteen arteko erlijio-gerretan bitartekari gisa.</p>\n<p>Erretiroan genero berri bat asmatu zuen, <strong>saiakera</strong>: testu labur eta libreak, non bere iritzia «probatzen» duen edozein gairi buruz, adiskidetasunetik eta heriotzatik hasi eta kanibaletara, hezkuntzara edo esperientziara. Montaignek bere burua hartzen du aztergai, eta izaki aldakor eta kontraesanez betea aurkitzen du. Haren jarrera <strong>eszeptikoa</strong> da: «Zer dakit nik?» galdera hartu zuen goiburutzat, oreka-egoeran dagoen balantza batekin. Eszeptizismo horretatik sortzen dira haren tolerantzia eta krudelkeriaren aurkako kritika: «Kanibalez» saiakeran dio barbaro deitzen diogula gure ohitura ez denari. Eragina izan zuen Descartesengan, Pascalengan eta literatura moderno osoan.</p>",
+  "obras": [
+   "Saiakerak (1580; 1588an handituak; hil ondoko edizioa, 1595)",
+   "Italiarako bidaiaren egunkaria (1580-1581ean idatzia, 1774an argitaratua)"
+  ],
+  "anecdota": "<p>Bere dorrera erretiratu zenean, Montaignek berrogeita hamar esaldi baino gehiago margoarazi zituen, grezieraz eta latinez, bere liburutegiko sabaiko habeetan; Bibliatik, eszeptikoengandik, Lukreziorengandik edo Sexto Enpirikorengandik hartu zituen, irakurtzen eta idazten zuen bitartean beti begien aurrean izateko. Gaur egun ere ikus daitezke dorrean, gazteluaren ondoan gordetzen baita. Eta alboan latinezko inskripzio bat grabatuarazi zuen: 38. urtebetetze-egunean erretiratzen zela, «aspalditik gorteko morrontzaz eta kargu publikoez nekatuta», muxa jakintsuen altzora.</p>",
+  "fuente": "Montaigneren dorreko inskripzioak (1571)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-montaigne-ensayos",
+   "hf-kant-poetas"
   ]
  },
  "giordano_bruno": {
@@ -1787,6 +1928,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-renacimiento-magia"
   ]
  },
@@ -1838,6 +1980,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-aa",
    "hf-modernidad",
    "hf-metafisica",
@@ -2061,6 +2204,32 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "pascal": {
+  "name": "Blaise Pascal",
+  "dates": "1623 – 1662",
+  "born": 1623,
+  "died": 1662,
+  "place": "Clermont (Auvernia, Frantzia)",
+  "role": "matematikari, fisikari eta filosofoa",
+  "idea": "Arrazoia indartsua da, baina mugatua: gizakia ihi pentsalari bat da, hauskorra eta handia aldi berean, eta «bihotzak baditu arrazoiak, arrazoiak ezagutzen ez dituenak».",
+  "bio": "<p>Blaise Pascal haur prodigioa izan zen, eta aitak hezi zuen etxean; aita magistratua zen, zientziazalea. 16 urterekin sekzio konikoei buruzko tratatu bat idatzi zuen, eta 19rekin kalkulagailu bat asmatu zuen, <strong>pascalina</strong>, aitari zergen kontuetan laguntzeko. Hutsari eta airearen presioari buruzko esperimentu erabakigarriak egin zituen (1648an haren koinatuak, berak hala eskatuta, neurtu zuen nola jaisten zen merkurioa Puy de Dôme mendira igotzean) eta, Fermatekin izandako gutunetan, <strong>probabilitateen</strong> kalkuluaren oinarriak ezarri zituen.</p>\n<p>1654ko azaroan esperientzia erlijioso bizi bat izan zuen eta Port-Royal abadiako jansenistengana hurbildu zen, korronte katoliko zorrotz batengana. Haien defentsan <em>Probintzialak</em> idatzi zituen, jesuiten aurkako gutun satiriko batzuk. 39 urterekin hil zen, gaixorik, kristautasunaren apologia baterako milaka ohar utzita; <em>Pentsamenduak</em> izenburuarekin argitaratu ziren. Haietan gizakia bi infinituren artean aurkezten du, hilkorra dela jakiteko gai den «ihi pentsalari» gisa; defendatzen du badirela <strong>bihotzaren</strong> bidez ezagutzen diren egiak, eta <strong>apustu</strong> ospetsua planteatzen du: Jainkoa existitzen bada, sinesten duenak dena irabazten du, eta existitzen ez bada, ez du ia ezer galtzen. Descartesen arrazionalismoaren kritikari handienetako bat da.</p>",
+  "obras": [
+   "Hutsari buruzko esperientzia berriak (1647)",
+   "Probintzialak (1656-1657)",
+   "Pentsamenduak (hil ondokoa, 1670)"
+  ],
+  "anecdota": "<p>Hil ondoren, morroi batek koskor bat nabaritu zuen Pascalen jakaren forruan. Josturak desegitean paper tolestu bat aurkitu zuen, eta barruan testu beraren pergaminozko kopia bat: 1654ko azaroaren 23ko gauean dataturiko orrialde bat, «hamar eta erdietatik hamabi eta erdiak arte gutxi gorabehera», «Sua» hitzarekin hasten dena. Gau hartako esperientzia erlijiosoaren kontakizuna da. Pascalek zortzi urtez eraman zuen arropari josita, jantzi batetik bestera aldatuz, inori ezer esan gabe. Gaur <em>Memoriala</em> izenez ezagutzen da.</p>",
+  "fuente": "Pascalen Memoriala (1654), Frantziako Liburutegi Nazionalean gordea",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-judios-andalus",
+   "hf-montaigne-ensayos"
+  ]
+ },
  "spinoza": {
   "name": "Baruch Spinoza",
   "dates": "1632 – 1677",
@@ -2089,6 +2258,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-medieval",
    "hf-judios-andalus",
    "hf-montaigne-ensayos",
@@ -3437,6 +3607,33 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "schopenhauer": {
+  "name": "Arthur Schopenhauer",
+  "dates": "1788 – 1860",
+  "born": 1788,
+  "died": 1860,
+  "place": "Danzig (gaur Gdansk, Polonia)",
+  "role": "pesimismoaren filosofo alemana",
+  "idea": "Existitzen den guztiaren atzean inoiz asetzen ez den borondate itsu bat dago; horregatik, bizitza mina da batez ere, eta arteak, errukiak eta uko egiteak baino ez gaituzte apur bat askatzen.",
+  "bio": "<p>Arthur Schopenhauer merkatari aberats baten eta Johanna Schopenhauerren semea zen; ama eleberrigile arrakastatsua zen, eta harekin harreman oso zaila izan zuen. Aita hil ondoren, merkataritza utzi zuen filosofia ikasteko. 30 urterekin argitaratu zuen bere lan nagusia, <em>Mundua borondate eta irudikapen gisa</em> (1819), eta ia ez zen saldu. Berlinen irakasle gisa porrot egin zuen, herentziarekin bizi izan zen eta bere azken hamarkadak Frankfurten eman zituen, bakarrik eta mingotsik, aitortzarik ez zuelako; aitortza hori bukaeran baino ez zitzaion iritsi, <em>Parerga eta paralipomena</em> lanarekin (1851).</p>\n<p>Schopenhauer Kantengandik abiatzen da: ezagutzen dugun mundua <strong>irudikapena</strong> da, gure adimenak ordenatutako fenomenoa. Baina gaineratzen du atzean dagoenari geure barrutik begiratu ahal diogula: <strong>borondatea</strong> gara, desira. Borondate hori, itsua, helburu gabea eta asegaitza, errealitate osoaren hondoa da. Horregatik, bizitza desira ase gabearen minaren eta desira beteak dakarren asperduraren artean dabil. Hiru irtenbide daude: <strong>artearen</strong> kontenplazioa, batez ere musikarena; <strong>errukia</strong>, haren ustez moralaren oinarria dena; eta aszetaren ukoa, budismoaren eta Upanishaden ideietatik hurbil dagoena; hain zuzen, Schopenhauer izan zen haiek aztertu zituen lehen filosofo europarretako bat. Eragin erabakigarria izan zuen Nietzschengan, Wagnerengan eta Freudengan.</p>",
+  "obras": [
+   "Mundua borondate eta irudikapen gisa (1819; 1844an handitua)",
+   "Etikaren bi oinarrizko arazoak (1841)",
+   "Parerga eta paralipomena (1851)"
+  ],
+  "anecdota": "<p>1820an Schopenhauerrek Berlingo Unibertsitatean eskolak ematea lortu zuen, eta han Hegel zen figura handia. Hegel txarlatan bat zela sinetsita, bere ikastaroa Hegelen eskolen ordu berean iragarri zuen, ikasleek bien artean aukeratu behar izan zezaten. Hegel aukeratu zuten: Schopenhauerren eskoletara oso ikasle gutxi joan ziren eta ikastaroa ez zen errepikatu. Schopenhauerrek ez zion inoiz barkatu filosofia akademikoari porrot hura, eta hamarkadetan zehar Hegel erasotzen jarraitu zuen bere liburuetan.</p>",
+  "fuente": "R. Safranski, Schopenhauer eta filosofiaren urte basatiak (1987)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-beefs",
+   "hf-sospecha"
+  ]
+ },
  "heine": {
   "name": "Heinrich Heine",
   "dates": "1797 – 1856",
@@ -3568,6 +3765,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-utilitarismo",
    "hf-etica-deber",
    "hf-sospecha"
@@ -3751,6 +3949,32 @@ const ILUSTRES = {
   "temas": [
    "hf-kant-poetas",
    "hf-corazon-piedra"
+  ]
+ },
+ "kierkegaard": {
+  "name": "Søren Kierkegaard",
+  "dates": "1813 – 1855",
+  "born": 1813,
+  "died": 1855,
+  "place": "Kopenhage (Danimarka)",
+  "role": "filosofo eta teologo daniarra, existentzialismoaren aitzindaria",
+  "idea": "Garrantzia duen egia ez da sistemena, norberak bizi duena baizik: gizabanako bakoitzak bere burua aukeratu behar du, eta aukera hori larritasunez egiten da.",
+  "bio": "<p>Søren Kierkegaard merkatari aberats eta oso erlijioso baten seme gazteena izan zen; harengandik fede oinazetsu bat heredatu zuen, bai eta idazteari bizitza osoa eskaintzeko aukera eman zion fortuna bat ere. Teologia ikasi zuen Kopenhagen. 1840an Regine Olsenekin ezkontzeko hitza eman zuen, baina urtebete geroago konpromisoa hautsi zuen, hura zoriontsu egin ezin zuela sinetsita; erabaki hark bizitza osoan lagundu zion eta haren obra askotan ageri da. Liburu asko <strong>ezizenez</strong> argitaratu zituen, bakoitza ikuspegi desberdin batekin, irakurlea bere kabuz erabakitzera behartzeko. 42 urterekin hil zen, Daniako Eliza ofizialaren aurkako polemika gogor baten erdian; Eliza horri leporatzen zion kristautasuna ohitura eroso bihurtu izana.</p>\n<p>Kierkegaardek Hegelen sistema handiaren aurka egiten du, dena azaldu nahi baitzuen: sistema horretan ez dago lekurik nola bizi erabaki behar duen <strong>gizabanako</strong> zehatzarentzat. Existentziaren hiru <strong>estadio</strong> deskribatzen ditu: estetikoa, plazerarentzat eta berritasunarentzat bizi dena; etikoa, konpromisoak eta betebeharrak bere gain hartzen dituena; eta erlijiosoa, bermerik gabe fedearen jauzia egiten duena, Abraham bere semea sakrifikatzeko prest zegoenean bezala. <strong>Larritasuna</strong> askatasunak aukeren aurrean sentitzen duen zorabioa da, eta etsipena, norbera izan nahi ez izatea. Horregatik hartzen da XX. mendeko existentzialismoaren aitzindaritzat.</p>",
+  "obras": [
+   "Edo bata edo bestea (1843)",
+   "Beldurra eta ikara (1843)",
+   "Larritasunaren kontzeptua (1844)",
+   "Heriotzarako gaixotasuna (1849)"
+  ],
+  "anecdota": "<p>1846an Kierkegaardek <em>Corsaren</em> («Kortsarioa») kritikatu zuen, Kopenhageko aldizkari satiriko bat, eta aldizkariak karikatura-kanpaina batekin hartu zuen mendekua. Mehe eta makurtuta marrazten zuten, eta, batez ere, prakaren hanka bat bestea baino luzeagoa zuela. Karikaturak hain egin ziren ezagun, ezen haurrek oihuka egiten zioten kalean eta jendeak hatzarekin seinalatzen zuen pasatzean. Kierkegaardek, hirian paseatzea eta mundu guztiarekin hizketan aritzea gustuko baitzuen, umiliazio gisa bizi izan zuen hori, eta are bakartiago geratu zen.</p>",
+  "fuente": "Corsaren (1846); Kierkegaarden egunerokoak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-existencialismo"
   ]
  },
  "boole": {
