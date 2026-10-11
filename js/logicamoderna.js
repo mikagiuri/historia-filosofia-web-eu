@@ -83,7 +83,9 @@ const LOGM_REGLAS = [
 const LOGM_FALACIAS = [
   { k: "ac", n: "Atzekaria baieztatzea", p: "p → q; q", c: "p", ej: "Euria ari badu, lurra bustitzen da. Lurra bustita dago. Beraz, euria egin du.", por: "Lurra beste arrazoi batengatik egon daiteke bustita: norbaitek ureztatu du. Baldintza nahikoa ez da posible den bakarra." },
   { k: "na", n: "Aurrekaria ukatzea", p: "p → q; ¬p", c: "¬q", ej: "Ikasten baduzu, gainditu egiten duzu. Ez duzu ikasi. Beraz, ez duzu gaindituko.", por: "Arauak ez du esaten zer gertatzen den ikasten ez baduzu: agian beste arrazoi batengatik gaindituko duzu." },
-  { k: "ad", n: "Disjuntu bat baieztatzea", p: "p ∨ q; p", c: "¬q", ej: "Edo zinemara goaz edo afaltzera goaz. Zinemara goaz. Beraz, ez goaz afaltzera.", por: "Logikako «edo» inklusiboa da: bi gauzak egin daitezke. Esaldiak biak aldi berean baztertuko balitu bakarrik izango litzateke baliozkoa." }
+  { k: "ad", n: "Disjuntu bat baieztatzea", p: "p ∨ q; p", c: "¬q", ej: "Edo zinemara goaz edo afaltzera goaz. Zinemara goaz. Beraz, ez goaz afaltzera.", por: "Logikako «edo» inklusiboa da: bi gauzak egin daitezke. Esaldiak biak aldi berean baztertuko balitu bakarrik izango litzateke baliozkoa." },
+  { k: "nc", n: "Konjuntu bat ukatzea", p: "¬(p ∧ q)", c: "¬p", ej: "Ez da egia etxean eta eskolan aldi berean dagoela. Beraz, ez dago etxean.", por: "Nahikoa da bietako bat ez betetzea: etxean egon daiteke eta ez eskolan. ¬(p ∧ q) formulatik ¬p ∨ ¬q baino ez da ondorioztatzen (De Morgan)." },
+  { k: "cc", n: "Baldintzazkoa alderantzikatzea", p: "p → q", c: "q → p", ej: "Txakurra bada, ugaztuna da. Beraz, ugaztuna bada, txakurra da.", por: "p nahikoa izateak q-rako ez du esan nahi q nahikoa denik p-rako: katua ere ugaztuna da. «Baldin» eta «soilik baldin» nahastearen akats bera da." }
 ];
 const LOGM_EJ = [
   { t: "Sokrates gizakia bada, hilkorra da. Sokrates gizakia da. Beraz, Sokrates hilkorra da.", r: "mp" },
@@ -95,7 +97,9 @@ const LOGM_EJ = [
   { t: "Zalantza egiten badut, pentsatzen dut. Zalantza egiten dut. Beraz, pentsatzen dut.", r: "mp" },
   { t: "Anak Filosofia edo Historia ikasten du. Filosofia ikasten du. Beraz, ez du Historia ikasten.", r: "ad" },
   { t: "Arima materiala balitz, gorputza bezala deskonposatuko litzateke. Arima ez da deskonposatzen. Beraz, arima ez da materiala.", r: "mt" },
-  { t: "Teoria ona bada, bere iragarpenak betetzen dira. Bere iragarpenak betetzen dira. Beraz, teoria ona da.", r: "ac" }
+  { t: "Teoria ona bada, bere iragarpenak betetzen dira. Bere iragarpenak betetzen dira. Beraz, teoria ona da.", r: "ac" },
+  { t: "Euria ari badu, hodeiak daude. Beraz, hodeiak badaude, euria ari du.", r: "cc" },
+  { t: "Ez da egia akusatua erruduna dela eta bakarrik jardun duela. Beraz, akusatua ez da erruduna.", r: "nc" }
 ];
 function logmTodas(){ return LOGM_REGLAS.concat(LOGM_FALACIAS); }
 function logmForma(x){ return x.p.split(";").map(s => s.trim()).join(" · ") + " ⊢ " + x.c; }
@@ -108,6 +112,7 @@ function logRenderInferencia(){
   const T = logmTodas();
   return '<div class="lg-panel"><h2>' + logmT("validas") + '</h2><div class="lg-reglas">' + LOGM_REGLAS.map(x => logmCarta(x, false)).join("") + "</div></div>" +
     '<div class="lg-panel"><h2>' + logmT("falacias") + '</h2><div class="lg-reglas">' + LOGM_FALACIAS.map(x => logmCarta(x, true)).join("") + "</div></div>" +
+    logmPuedeNoPuede() +
     '<div class="lg-panel"><h2>' + logmT("ejTit") + '</h2><p class="lg-nota">' + logmT("ejAyuda") + "</p>" +
     LOGM_EJ.map((e, i) => {
       const r = LOG.inf[i], bien = T.find(x => x.k === e.r);
@@ -127,6 +132,10 @@ const LOGM_CQ_TXT = {
   cqNeg: "Kuantifikatzaile bat ukatzea: ¬∀x Px eta ∃x ¬Px baliokideak dira («ez guztiak» = «batzuk ez»), eta ¬∃x Px eta ∀x ¬Px ere bai («bat ere ez» = «guztiak ez»). Horregatik dira kontraesankorrak A eta O, baita E eta I ere.",
   cqMundo: "Mundu txiki bat", cqMundoAyuda: "Bost banako (a, b, c, d, e). Markatu zein diren S eta zein P, eta begiratu zer proposizio ateratzen diren egiazko.",
   cqInd: "Banakoa", cqVacio: "Probatu S hutsik uzten: orduan «S oro P da» eta «Ezein S ez da P» egiazkoak dira aldi berean, eta «S batzuk P dira» faltsua. Logika modernoan, proposizio unibertsalak ez du onartzen S-ak badirenik: 4. gaiko existentzia-konpromisoa da.",
+  cqOrdenTit: "Kuantifikatzaileen falazia bat: ordena aldatzea",
+  cqOrden: "«Mundu guztiak du ama bat» ∀x ∃y Myx da: x pertsona bakoitzarentzat badago norbait, y, haren ama dena. «Badago guztien ama bat» ∃y ∀x Myx da: badago y bat, x guztien ama dena. ∀ eta ∃ kuantifikatzaileen ordena aldatzeak esaten dena aldatzen du: lehenengotik ez da bigarrena ondorioztatzen.",
+  cqOrdenMadre: "bere ama", cqOrdenContra: "Kontraadibidea: mundu honetan bakoitzak bere ama du, beraz ∀x ∃y Myx egiazkoa da; baina bat ere ez da hiruren ama, beraz ∃y ∀x Myx faltsua da. Premisa egiazkoa eta ondorio faltsua: inferentzia ez da baliozkoa. (Alderantziz bai balio du: guztien ama bat badago, bakoitzak ama bat du).",
+  cqOrdenFilo: "Filosofian: eztabaidatzen da ea Aristotelesek jauzi hori egiten duen «Nikomakorentzako Etika»ren hasieran (I 2), ekintza orok helburu bat bilatzeak ez baitu esan nahi denek bilatzen duten helburu bakar bat dagoenik. Eta argudio kosmologikoen kritikari batzuek jauzi bera ikusten dute «gauza orok du kausa bat» esatetik «badago guztiaren kausa bat» esatera igarotzean.",
   cqTesti: "Erakusten du: {x}", cqContra: "Huts egiten du hemen: {x}", cqNadie: "ez dago bat ere", cqSinS: "egiazkoa, ez dagoelako S-rik",
   cqPresets: "Adibide-munduak:", cqP1: "S guztiak P dira", cqP2: "Ezein S ez da P", cqP3: "Batzuk bai eta beste batzuk ez", cqP4: "Ez dago S-rik",
   cqEjTit: "Zein formula da?", cqEjAyuda: "Aukeratu esaldiak dioena bera dioen formula. Letra larria predikatua da, eta letra xehea, banako zehatz bat.",
@@ -152,7 +161,9 @@ const LOGM_CQ_EJ = [
   { f: "Hiritarrek bakarrik ematen zuten botoa batzarrean.", d: "V = batzarrean botoa ematen zuen, C = hiritarra", o: ["∀x (Cx → Vx)", "∀x (Vx → Cx)", "∃x (Vx ∧ Cx)"], r: 1, por: "Kasu tranpa: «C-ak bakarrik» baldintza beharrezkoa geziaren atzean jartzen du: botoa ematen zuen oro hiritarra zen (ez hiritar orok ematen zuen botoa)." },
   { f: "Bada beste ezerk eragin ez duen zerbait.", d: "C = beste zerbaitek eragina", o: ["¬∃x Cx", "∀x ¬Cx", "∃x ¬Cx"], r: 2, por: "Badago gutxienez eragin gabeko x bat: Aristotelesen lehen mugitzailearen edo Tomas Akinokoaren lehen kausaren ideia da." },
   { f: "Sokrates hilkorra da.", d: "M = hilkorra, s = Sokrates", o: ["∃x Mx", "Ms", "∀x Mx"], r: 1, por: "Banako zehatz bat letra xehe batez idazten da (konstante bat): ez da kuantifikatzailerik behar." },
-  { f: "Pentsatzen duen oro existitzen da.", d: "P = pentsatzen du, E = existitzen da", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Baiezko unibertsala (A). «Ni existitzen naiz» ateratzeko, «nik pentsatzen dut» (Pi) premisa eta instantziazio unibertsala ere beharko lirateke, Sokratesekin bezala." }
+  { f: "Pentsatzen duen oro existitzen da.", d: "P = pentsatzen du, E = existitzen da", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Baiezko unibertsala (A). «Ni existitzen naiz» ateratzeko, «nik pentsatzen dut» (Pi) premisa eta instantziazio unibertsala ere beharko lirateke, Sokratesekin bezala." },
+  { f: "Mundu guztiak du ama bat.", d: "M = «y x-ren ama da»", o: ["∃y ∀x Myx", "∀x ∃y Myx", "∀x ∀y Myx"], r: 1, por: "Pertsona bakoitzarentzat badago amaren bat (kasu bakoitzean desberdina izan daiteke). ∃y ∀x Myx formulak esango luke badagoela guztien ama bakar bat: kuantifikatzaileen ordena aldatzea da." },
+  { f: "Badago norbait, denek miresten dutena.", d: "A = «x-k y miresten du»", o: ["∀x ∃y Axy", "∃y ∀x Axy", "∃x ∃y Axy"], r: 1, por: "Badago y bat, non denek hura miresten duten. ∀x ∃y Axy formulak esango luke bakarrik bakoitzak norbait miresten duela, agian pertsona desberdinak." }
 ];
 function logmCqEval(m){
   const ix = i => LOGM_CQ_IND[i], S = m.map(r => !!r[0]), P = m.map(r => !!r[1]), all = [0, 1, 2, 3, 4];
@@ -180,6 +191,10 @@ function logRenderCuantificadores(){
     '<div class="lg-panel"><h2>' + logmT("cqMundo") + '</h2><p class="lg-nota">' + logmT("cqMundoAyuda") + '</p><p class="lg-nota">' + logmT("cqPresets") + " " +
     [["p1", "cqP1"], ["p2", "cqP2"], ["p3", "cqP3"], ["p4", "cqP4"]].map(([k, l]) => '<button type="button" class="chip" data-cqpre="' + k + '">' + logmT(l) + "</button>").join(" ") + "</p>" +
     '<div id="lg-cq">' + logmCqMundo() + '</div><p class="lg-nota">' + logmT("cqVacio") + "</p></div>" +
+    logmGeneralizacion() +
+    /* (12-10) la falacia del cambio de orden de los cuantificadores, con su contraejemplo */
+    '<div class="lg-panel"><h2>' + logmT("cqOrdenTit") + "</h2><p>" + logmT("cqOrden") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th>x</th><th>' + logmT("cqOrdenMadre") + "</th></tr></thead><tbody>" +
+      [["a", "m1"], ["b", "m2"], ["c", "m3"]].map(([x, y]) => "<tr><td>" + x + "</td><td>" + y + "</td></tr>").join("") + '</tbody></table></div><p class="lg-nota">' + logmT("cqOrdenContra") + '</p><p class="lg-nota">' + logmT("cqOrdenFilo") + "</p></div>" +
     '<div class="lg-panel"><h2>' + logmT("cqEjTit") + '</h2><p class="lg-nota">' + logmT("cqEjAyuda") + "</p>" +
     LOGM_CQ_EJ.map((e, i) => {
       const r = ej[i];
@@ -190,6 +205,58 @@ function logRenderCuantificadores(){
 }
 
 Object.assign(LOGM_TXT, LOGM_CQ_TXT);
+
+/* ---------- (12-10) lo que faltaba: conversión ilícita, generalización apresurada y «lo que la lógica puede y no puede refutar» ---------- */
+const LOGM_EXTRA_TXT = {
+  convTit: "Konbertsioa: buelta eman dakioke proposizio bati?",
+  convIntro: "Konbertitzea subjektua eta predikatua trukatzea da. Batzuetan egia gordetzen da eta beste batzuetan ez: ezin denean buelta ematea zilegi ez den konbertsioaren falazia da.",
+  convProp: "Proposizioa", convConv: "Konbertitua", convVale: "Balio du?", convEj: "Adibidea",
+  convSi: "Sí", convNo: "Ez: zilegi ez den konbertsioa", convAcc: "«P batzuk S dira» bakarrik (S-rik badago)",
+  genTit: "Batzuetatik guztietara: orokorpen presatua",
+  gen: "∃x (Sx ∧ Px) formulatik, «S batzuk P dira», ez dator ∀x (Sx → Px), «S oro P da». Logikak kontraadibide batekin erakusten du: «Batzuk bai eta beste batzuk ez» munduan, I egiazkoa da eta A faltsua. Zuhurtziaz orokortzeko zenbat kasu behar diren jada ez da logika deduktiboaren kontua, indukzioarena baizik: kasu kopuru batek ere ez du bermatzen.",
+  genVer: "Mundu txikian ikusi",
+  lpTit: "Logikak zer errefusa dezakeen eta zer ez",
+  lpIntro: "Goiko falazia formalak formaren bidez errefusatzen dira: kontraadibide bat nahikoa da. Beste falazia batzuek ez dute formazko akatsik, baina formalizatzeak haiek ikusten laguntzen du; eta beste batzuk ezin dira logikaz errefusatu, arazoa edukian baitago.",
+  lpAyuda: "Logikak laguntzen du, baina ez da nahikoa", lpNo: "Logikak ez ditu errefusatzen", lpQueVe: "Logikak zer erakusten duen",
+  lpNoIntro: "Haien forma baliozkoa izan daiteke, edo ez da argudio bat ere: akatsa premisak egiazkoak diren ala gaiari dagozkion da. Haiek antzemateko edukiaz galdetu behar da.",
+  lpDuelo: "Landu itzazu Arrazoien dueloan →"
+};
+const LOGM_CONV = [
+  ["A", "S oro P da", "P oro S da", "no", "Txakur oro ugaztuna da; baina ugaztun oro ez da txakurra."],
+  ["E", "Ezein S ez da P", "Ezein P ez da S", "si", "Ezein arrain ez da ugaztuna; beraz, ezein ugaztun ez da arraina."],
+  ["I", "S batzuk P dira", "P batzuk S dira", "si", "Filosofo batzuk greziarrak dira; beraz, greziar batzuk filosofoak dira."],
+  ["O", "S batzuk ez dira P", "P batzuk ez dira S", "no", "Animalia batzuk ez dira txakurrak; baina ez dator txakur batzuk animaliak ez direnik."]
+];
+const LOGM_AYUDA = [
+  { n: "Ekibokoa", ej: "Gauza baten helmuga bere perfekzioa da. Heriotza bizitzaren helmuga da. Beraz, heriotza bizitzaren perfekzioa da.", ve: "Formalizatzean, «helmuga» «helburua» den aldetik eta «helmuga» «amaiera» den aldetik letra desberdinak hartzen dituzte: laugarren termino bat agertzen da eta silogismoa baliozkoa izateari uzten dio." },
+  { n: "Printzipio-eskea", ej: "Liburu honek egia dio, liburuak berak hala dioelako.", ve: "Argudioa baliozkoa da (p ⊢ p), baina ondorioa premisan zegoen jada: ez du frogatzen aurretik onartuta ez zegoen ezer." },
+  { n: "Dilema faltsua", ej: "Edo nirekin zaude edo nire aurka. Ez zaude nirekin. Beraz, nire aurka zaude.", ve: "Forma silogismo disjuntibo bat da, eta baliozkoa da. Huts egiten duena p ∨ q premisa da: aukera gehiago daude." },
+  { n: "Aldapa irristakorra", ej: "Atsedenaldian mugikorra erabiltzen uzten badugu, klasean erabiliko dute; klasean erabiltzen badute, inork ez du arretarik jarriko; inork arretarik jartzen ez badu, denek huts egingo dute azterketetan.", ve: "p → q, q → r, r → s katea baliozkoa da (silogismo hipotetikoa), baina baldintzazko bakoitza, gehienez ere, probablea da: probabilitatea galduz doa urrats bakoitzean." },
+  { n: "Entimema", ej: "Garestia da; beraz, ona izango da.", ve: "Baliozkoa izateko premisa bat falta da: «garesti den oro ona da». Formalizatzeak agerian jartzen du, eta orduan faltsua dela ikusten da." }
+];
+const LOGM_NOFORMAL = [
+  ["Pertsonaren aurkako erasoa (ad hominem)", "Hitz egiten duenari erasotzen dio, ez esaten duenari."],
+  ["Autoritate faltsua", "Ondorioa gai horretan aditua ez den norbaitengan oinarritzen du."],
+  ["Gehiengoari deia (ad populum)", "Jende askok sinesteak ez du egiazko bihurtzen."],
+  ["Errukiari edo beldurrari deia", "Emozio bat bilatzen du arrazoi bat eman beharrean."],
+  ["Lastozko gizona", "Besteak esandakoaren bertsio desitxuratu bat errefusatzen du."],
+  ["Kausa faltsua", "Zerbait ondoren gertatzeak ez du frogatzen hark eragiten duenik."]
+];
+function logmConversion(){
+  return '<div class="lg-panel"><h2>' + logmT("convTit") + '</h2><p class="lg-nota">' + logmT("convIntro") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th></th><th>' + logmT("convProp") + "</th><th>" + logmT("convConv") + "</th><th>" + logmT("convVale") + "</th><th>" + logmT("convEj") + "</th></tr></thead><tbody>" +
+    LOGM_CONV.map(([t, p, c, v, e]) => "<tr><th>" + t + "</th><td>" + logEsc(p) + "</td><td>" + logEsc(c) + '</td><td class="lg-' + (v === "si" ? "v" : "f") + '">' + logmT(v === "si" ? "convSi" : "convNo") + (t === "A" ? "<br><small>" + logmT("convAcc") + "</small>" : "") + "</td><td>" + logEsc(e) + "</td></tr>").join("") + "</tbody></table></div></div>";
+}
+function logmGeneralizacion(){
+  return '<div class="lg-panel"><h2>' + logmT("genTit") + "</h2><p>" + logmT("gen") + '</p><p><button type="button" class="btn ghost" data-cqpre="p3">' + logmT("genVer") + "</button></p></div>";
+}
+function logmPuedeNoPuede(){
+  const duelo = document.getElementById("duelo") ? '<p><button type="button" class="btn ghost" data-igo="duelo" data-iarg="">' + logmT("lpDuelo") + "</button></p>" : "";
+  return '<div class="lg-panel"><h2>' + logmT("lpTit") + '</h2><p class="lg-nota">' + logmT("lpIntro") + "</p><h3>" + logmT("lpAyuda") + '</h3><div class="lg-reglas">' +
+    LOGM_AYUDA.map(x => '<div class="lg-regla lg-medio"><h3>' + logEsc(x.n) + '</h3><p><b>' + logmT("ejemplo") + ":</b> " + logEsc(x.ej) + "</p><p><b>" + logmT("lpQueVe") + ":</b> " + logEsc(x.ve) + "</p></div>").join("") + "</div>" +
+    "<h3>" + logmT("lpNo") + '</h3><p class="lg-nota">' + logmT("lpNoIntro") + '</p><ul class="lg-nof">' + LOGM_NOFORMAL.map(([n, d]) => "<li><b>" + logEsc(n) + ":</b> " + logEsc(d) + "</li>").join("") + "</ul>" + duelo + "</div>";
+}
+Object.assign(LOGM_TXT, LOGM_EXTRA_TXT);
+
 
 /* ---------- eventos (delegados en la caja del Rincón; logicaview.js maneja los demás) ---------- */
 (function(){
@@ -203,7 +270,7 @@ Object.assign(LOGM_TXT, LOGM_CQ_TXT);
     else if (b.dataset.fzsol != null){ const i = +b.dataset.fzsol; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { sol: true }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = logmFzRes(i); }
     else if (b.dataset.infp != null){ LOG.prem = b.dataset.infp; LOG.concl = b.dataset.infc; LOG.tab = "tablas"; logRender(); const a = document.getElementById("lg-arg"); if (a) a.scrollIntoView({ block: "center" }); }
     else if (b.dataset.cqi != null){ const r = LOG.cq.m[+b.dataset.cqi]; r[+b.dataset.cqj] = r[+b.dataset.cqj] ? 0 : 1; const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
-    else if (b.dataset.cqpre){ LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
+    else if (b.dataset.cqpre){ LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c){ c.innerHTML = logmCqMundo(); if (b.closest(".lg-panel") !== c.closest(".lg-panel")) c.scrollIntoView({ block: "center" }); } }
     else if (b.dataset.cqej != null){ LOG.cq.ej[+b.dataset.cqej] = +b.dataset.cqo; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
     else if (b.dataset.infej != null){ LOG.inf[+b.dataset.infej] = b.dataset.infr; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
   });
