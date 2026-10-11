@@ -66,7 +66,7 @@ function renderIluControls(){
     (e[0] === "all" ? "" : '<i class="ilu-dot" data-b="' + e[0] + '" aria-hidden="true"></i>') + e[1] + '</button>').join("");
   box.innerHTML =
     (present.length > 1 ? '<div class="fgroup"><span class="flabel">Ikasgaia</span>' + subjBtns + '</div>' : '') +
-    '<div class="fgroup"><span class="flabel">Garaia</span>' + epBtns + '</div>' +
+    '<div class="fgroup"><span class="flabel">Aroa</span>' + epBtns + '</div>' +
     '<div class="ilu-tools"><input class="ilu-search" id="ilusearch" type="search" placeholder="Bilatu pentsalaria, lana edo ideia…" autocomplete="off" aria-label="Bilatu Ospetsuetan"></div>';
   box.querySelectorAll("[data-isub]").forEach(b => b.addEventListener("click", () => {
     iluSubject = b.dataset.isub;
@@ -202,7 +202,7 @@ function iluAbrirGlosario(t, sub){
    los pensadores de esa época en Ilustres (calculado) y el paso a la época siguiente. */
 const ILU_EPO = { ver: "Ikusi aroaren fitxa", abre: "Zerk irekitzen duen", social: "Gizartea", politico: "Politika",
   ciencia: "Zientzia eta teknika", arte: "Artea", pensamiento: "Pentsamendua", pensadores: "Aro honetako pentsalariak", rupturas: "Hausturak eta trantsizioak",
-  trampa: "Kasu tranpa", epoca: "Garaia", volver: "← Ospetsu guztiak" };
+  trampa: "Kasu tranpa", epoca: "Aroa", volver: "← Ospetsu guztiak" };
 function iluListaPlegada(items, n){
   const resto = items.slice(n);
   return items.slice(0, n).join(", ") + (resto.length ? ' <details class="ilu-conc-mas"><summary>' + ILU_REL.mas.replace("{n}", resto.length) + '</summary>' + resto.join(", ") + '</details>' : '');

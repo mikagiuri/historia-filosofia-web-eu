@@ -46,7 +46,7 @@
     const box = document.getElementById("citasfilter");
     if (!box) return;
     injectCss();
-    box.innerHTML = '<div class="fgroup"><span class="flabel">Garaia</span>' +
+    box.innerHTML = '<div class="fgroup"><span class="flabel">Aroa</span>' +
       ["all", "antigua", "medieval", "moderna", "contemporanea"].map(function (e){
         return '<button class="fbtn" data-ce="' + e + '" aria-pressed="' + (e === citEpoca) + '">' +
           (e === "all" ? "Guztiak" : EPOCAS[e]) + '</button>'; }).join("") + '</div>';

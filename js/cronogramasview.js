@@ -189,7 +189,7 @@ function cronoSvg(c){
   return legend + svg;
 }
 /* botones de escuela (color + nombre) y de periodo: pulsado = visible; «Todas/Todos» y «Ninguna/Ninguno» para empezar de cero */
-const CRONO_ESCUELAS = "Eskolak", CRONO_EPOCAS = "Garaiak", CRONO_TODAS = "Guztiak", CRONO_NINGUNA = "Bat ere ez",
+const CRONO_ESCUELAS = "Eskolak", CRONO_EPOCAS = "Aroak", CRONO_TODAS = "Guztiak", CRONO_NINGUNA = "Bat ere ez",
   CRONO_PERIODOS = "Aldiak", CRONO_TODOS = "Guztiak", CRONO_NINGUNO = "Bat ere ez",
   CRONO_NONE = "Ez dago ezer erakusteko: aktibatu eskolaren bat edo aldiren bat.";
 function cronoLegend(t, label, items, todas, ninguna){
