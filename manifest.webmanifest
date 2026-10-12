@@ -1,8 +1,8 @@
 {
   "name": "Filosofiaren Historia · 2.",
   "short_name": "Fil. Historia",
-  "description": "El taller de filosofía en una página: teoría, materiales, esquemas, tarjetas, mapas y juegos.",
-  "lang": "es",
+  "description": "Filosofia-tailerra orri bakar batean: teoria, materialak, eskemak, txartelak, mapak eta jokoak.",
+  "lang": "eu",
   "dir": "ltr",
   "start_url": "./",
   "scope": "./",
