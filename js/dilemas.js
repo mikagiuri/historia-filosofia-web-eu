@@ -486,7 +486,7 @@ const DILEMAS = [
   ],
   "ysi": "Eta zure ikaskidea, boterera iristean, taldea zela zioen bezain krudela bada? Nietzschek esango luke jauna ez dela krudela erresuminez, indar-gehiegiz baizik. Ba al dago alderik biktimarentzat?",
   "pau": "«Balio moralek historia bat dute, ala betierekoak dira?» Hausnartu 200-300 hitzetan Nietzscheren genealogiatik eta gutxienez beste jarrera batetik abiatuta (Kant, Marx edo Beauvoir), gaur egungo adibide batekin.",
-  "dato": "Nietzscheren arreba Elisabethek haren eskuizkribuak manipulatu zituen Nietzsche erotu ondoren, eta nazismoaren zerbitzura jarri zituen. Antisemitismoa eta nazionalismo alemana mespretxatzen zituen filosofoa, bere testuaren aurka, Reicharen filosofo bihurtu zen azkenean."
+  "dato": "Hamarkadaz hamarkada horrela kontatu izan da: Elisabeth, Nietzscheren arreba, haren eskuizkribuak sakeratu ezkero manipulatu zituela nazismoaren zerbitzura jartzeko. Gaur egun filologiak zuzendu du hori: ia ez zituen haren idatziak aldatu. Egin zuena, bai, hau izan zen: 1901ean, berarik gabe, ohar solteen bilduma bat argitaratu zuen, haren lan nagusia balitz bezala: «Boterearen nahimena»."
  },
  {
   "subject": "hf",
