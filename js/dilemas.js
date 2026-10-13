@@ -63,7 +63,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "K.a. V. mendea, Ilustrazio greziarra",
+   "epoca": "Siglo V a. C., la Ilustración griega",
    "texto": "«Ez al ginen gu izan sortu, hazi eta hezi zintugunak? […] Iruditzen al zaizu zure aberriarekin eskubide-berdintasunean zaudela, eta berak egiten dizuna itzuli diezaiokezula?»",
    "fuente": "Platon, Kriton, 50a-51c (Legeek Sokratesi hitz egiten diote).",
    "unidad": "hf-sofistas"
@@ -115,7 +115,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "K.a. IV. mendea",
+   "epoca": "Siglo IV a. C.",
    "texto": "«Gure zeregina da onenak Ongiaren ezagutzara iristera behartzea, aldapa malkartsu hartatik gora igotzera, eta, iritsi direnean, orain uzten zaiena ez uztea: han geratzea eta presoen ondora berriro jaitsi nahi ez izatea.»",
    "fuente": "Platon, Errepublika, VII, 519c-520a (PAUko testua).",
    "unidad": "hf-platon"
@@ -166,7 +166,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "K.a. IV-III. mendeak, helenismoa",
+   "epoca": "Siglos IV-III a. C., el helenismo",
    "texto": "«Gauzetatik, batzuk gure esku daude eta beste batzuk ez. […] Zurea ez dena zuretzat hartzen baduzu, aieneka ibiliko zara, asaldatu egingo zara eta jainkoei eta gizakiei egotziko diezu errua.»",
    "fuente": "Epikteto, Eskuliburua, 1. Epikurok Menezeori gutunean erantzuten du: «Plazera da bizitza zoriontsuaren hasiera eta helburua».",
    "unidad": "hf-helenismo"
@@ -217,7 +217,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "II-XIV. mendeak",
+   "epoca": "Siglos II-XIV",
    "texto": "«Ulertu sinesteko, sinetsi ulertzeko.» Eta Tomasek: «Fedeak ezagutza naturala aurresuposatzen du, graziak natura aurresuposatzen duen bezala».",
    "fuente": "Agustin, 43. sermoia; Tomas Akinokoa, Summa Theologiae, I, q. 2, a. 2.",
    "unidad": "hf-fe-razon"
@@ -267,7 +267,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "XIII. mendea",
+   "epoca": "Siglo XIII",
    "texto": "«Fede kristaua arrazoiaren gainetik badago ere, ezin da haien artean kontrakotasunik egon, biak Jainkoarengandik datozelako.»",
    "fuente": "Tomas Akinokoa, Summa contra gentiles, I, 7. Tempier apezpikuaren 1277ko kondenak tesi hau debekatzen du: «badira gauza batzuk egiazkoak filosofiaren arabera, fedearen arabera ez direnak».",
    "unidad": "hf-medieval"
@@ -319,7 +319,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "XVII. mendea",
+   "epoca": "Siglo XVII",
    "texto": "«Egiaren ikerketaz bakarrik arduratu nahi nuenez, pentsatu nuen erabat faltsutzat baztertu behar nuela zalantzarik txikiena irudika niezaiokeen guztia, ikusteko ea, horren ondoren, nire sinesmenean geratuko ote zen erabat zalantzarik gabekoa zen zerbait.»",
    "fuente": "Descartes, Metodoaren diskurtsoa, IV (1637).",
    "unidad": "hf-racionalismo"
@@ -370,7 +370,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "XVII-XVIII. mendeak",
+   "epoca": "Siglos XVII-XVIII",
    "texto": "«Gizakia libre jaio da, eta nonahi kateaturik dago.» Hobbesen aurrean: «Ezpatan oinarritzen ez diren itunak hitzak besterik ez dira, inor babesteko indarrik gabe».",
    "fuente": "Rousseau, Gizarte-kontratua, I, 1 (1762); Hobbes, Leviatan, XVII (1651).",
    "unidad": "hf-contrato"
@@ -422,7 +422,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "1797, Constant-Kant eztabaida",
+   "epoca": "1797, el debate Constant-Kant",
    "texto": "«Saihestu ezin diren adierazpenetan egia esatea gizakiak beste edonorekiko duen betebehar formala da, hortik berarentzat edo beste batentzat datorren kaltea handia izanik ere.»",
    "fuente": "Kant, Filantropiaz gezurra esateko ustezko eskubide bati buruz (1797), Constanti erantzunez.",
    "unidad": "hf-etica-deber"

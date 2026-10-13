@@ -347,9 +347,9 @@ const DECKS = {
   ]
  },
  "citasA": {
-  "name": "Esaldiak · Antzinakoa (A blokea)",
+  "name": "Esaldiak · Antzinakoa",
   "subject": "hf",
-  "block": "A",
+  "epoca": "ant",
   "tipo": "frases",
   "cards": [
    [
@@ -404,10 +404,10 @@ const DECKS = {
    ]
   ]
  },
- "citasB": {
-  "name": "Esaldiak · Erdi Arokoa, modernoa eta Ilustrazioa (B)",
+ "citasM": {
+  "name": "Esaldiak · Erdi Arokoa",
   "subject": "hf",
-  "block": "B",
+  "epoca": "med",
   "tipo": "frases",
   "cards": [
    [
@@ -439,7 +439,15 @@ const DECKS = {
     "💡",
     "«Errebelazioa giza gaitasunaren arabera ulertu behar da, metaforetara eta sinboloetara joz esanezina adierazteko.»",
     "Maimonides — Interpretazioaren zailtasuna (Nahasien gida I, 31)"
-   ],
+   ]
+  ]
+ },
+ "citasMo": {
+  "name": "Esaldiak · Modernoa",
+  "subject": "hf",
+  "epoca": "mod",
+  "tipo": "frases",
+  "cards": [
    [
     "💡",
     "«Ez dizut eman, oi Adam, leku finkorik, ez aurpegi propiorik, ez dohain berezirik, zuk aukeratzen dituzun lekua, aurpegia eta dohainak zureak izan daitezen zure borondatearen eta erabakiaren arabera.»",
@@ -482,6 +490,29 @@ const DECKS = {
    ],
    [
     "💡",
+    "«Askok inoiz existitu ez diren eta benetan ezagutu ez diren errepublikak eta printzerriak irudikatu dituzte; izan ere, hain da handia nola bizi den eta nola bizi beharko litzatekeen arteko tartea, non egiten dena egin beharko litzatekeenagatik uzten duenak bere hondamendia ikasten baitu, bere iraupena baino gehiago.»",
+    "Makiavelo — Virtù eta fortuna (Printzea XV)"
+   ],
+   [
+    "💡",
+    "«Naturaren egitura osoak egile adimendun bat iragartzen du; eta ikertzaile arrazionalik ezin du, hausnarketa serio baten ondoren, une batez ere bere sinesmena eten egiazko teismoaren lehen printzipioei dagokienez.»",
+    "Hume — Erlijioaren kritika (Erlijio naturalari buruzko elkarrizketak X)"
+   ],
+   [
+    "💡",
+    "«Gogoak ez du sexurik.»",
+    "Poulain de la Barre — Gogoak ez du sexurik (De l’égalité des deux sexes)"
+   ]
+  ]
+ },
+ "citasI": {
+  "name": "Esaldiak · Ilustrazioa",
+  "subject": "hf",
+  "epoca": "ilu",
+  "tipo": "frases",
+  "cards": [
+   [
+    "💡",
     "«Gutako bakoitzak bere pertsona eta bere botere guztia jartzen ditu batera, borondate orokorraren zuzendaritza gorenaren pean.»",
     "Rousseau — Borondate orokorra (Gizarte-kontratua I, 6)"
    ],
@@ -507,11 +538,6 @@ const DECKS = {
    ],
    [
     "💡",
-    "«Gogoak ez du sexurik.»",
-    "Poulain de la Barre — Gogoak ez du sexurik (De l’égalité des deux sexes)"
-   ],
-   [
-    "💡",
     "«Ez dut nahi haiek [emakumeek] gizonen gaineko boterea izatea, beren buruaren gainekoa baizik.»",
     "Wollstonecraft — Hezkuntza eta berdintasuna (Emakumearen eskubideen aldarrikapena IV)"
    ],
@@ -522,28 +548,8 @@ const DECKS = {
    ],
    [
     "💡",
-    "«Gizonik zapalduenak ere izaki bat zapal dezake: bere emaztea. Bera da proletarioaren beraren proletarioa.»",
-    "Flora Tristan — Langileen eta emakumeen emantzipazioa (Langile-batasuna)"
-   ],
-   [
-    "💡",
     "«Jokatu soilik aldi berean lege unibertsal bihur dadin nahi izan dezakezun maxima haren arabera.»",
     "Kant — Inperatibo kategorikoa (Oinarritzea, BA 52)"
-   ],
-   [
-    "💡",
-    "«Egiazkoa osotasuna da.»",
-    "Hegel — Espiritu absolutua (Espirituaren fenomenologia, Hitzaurrea)"
-   ],
-   [
-    "💡",
-    "«Askok inoiz existitu ez diren eta benetan ezagutu ez diren errepublikak eta printzerriak irudikatu dituzte; izan ere, hain da handia nola bizi den eta nola bizi beharko litzatekeen arteko tartea, non egiten dena egin beharko litzatekeenagatik uzten duenak bere hondamendia ikasten baitu, bere iraupena baino gehiago.»",
-    "Makiavelo — Virtù eta fortuna (Printzea XV)"
-   ],
-   [
-    "💡",
-    "«Naturaren egitura osoak egile adimendun bat iragartzen du; eta ikertzaile arrazionalik ezin du, hausnarketa serio baten ondoren, une batez ere bere sinesmena eten egiazko teismoaren lehen printzipioei dagokienez.»",
-    "Hume — Erlijioaren kritika (Erlijio naturalari buruzko elkarrizketak X)"
    ],
    [
     "💡",
@@ -556,22 +562,32 @@ const DECKS = {
     " — Sapere aude Kant, Zer da Ilustrazioa"
    ],
    [
-    "💡",
-    "«Arrazoiak gobernatzen du mundua.»",
-    "Hegel — Arrazoia historian (Historiaren filosofia, Sarrera)"
+    "🌍",
+    "«Ilustrazioa gizakia bere erruzko adin-txikitasunetik irtetea da.»",
+    " — Zer da Ilustrazioa Kant 1784"
    ]
   ]
  },
  "citasC": {
-  "name": "Esaldiak · Garaikidea (C blokea)",
+  "name": "Esaldiak · Garaikidea",
   "subject": "hf",
-  "block": "C",
+  "epoca": "con",
   "tipo": "frases",
   "cards": [
    [
     "🌍",
-    "«Ilustrazioa gizakia bere erruzko adin-txikitasunetik irtetea da.»",
-    " — Zer da Ilustrazioa Kant 1784"
+    "«Egiazkoa osotasuna da.»",
+    "Hegel — Espiritu absolutua (Espirituaren fenomenologia, Hitzaurrea)"
+   ],
+   [
+    "🌍",
+    "«Arrazoiak gobernatzen du mundua.»",
+    "Hegel — Arrazoia historian (Historiaren filosofia, Sarrera)"
+   ],
+   [
+    "🌍",
+    "«Gizonik zapalduenak ere izaki bat zapal dezake: bere emaztea. Bera da proletarioaren beraren proletarioa.»",
+    "Flora Tristan — Langileen eta emakumeen emantzipazioa (Langile-batasuna)"
    ],
    [
     "🌍",
