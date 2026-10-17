@@ -40,7 +40,9 @@ const LOGM_FZ = [
   { f: "Deituko dizut baldin eta soilik baldin berandu iristen bazara.", d: [["p", "deitzen dizut"], ["q", "berandu iristen zara"]], s: "p ↔ q", pista: "«Baldin eta soilik baldin» egiturak bi baldintzazko lotzen ditu: p → q eta q → p." },
   { f: "Edo ikasten duzu edo lan egiten duzu, baina ez biak.", d: [["p", "ikasten duzu"], ["q", "lan egiten duzu"]], s: "(p ∨ q) ∧ ¬(p ∧ q)", pista: "Kasu tranpa: logikako «edo» inklusiboa da; hemen gehitu egin behar da biak ez direla gertatzen." },
   { f: "Ez da egia, euria ari badu, partida bertan behera geratzen denik.", d: [["p", "euria ari du"], ["q", "partida bertan behera geratzen da"]], s: "¬(p → q)", pista: "«Ez da egia» egiturak baldintzazko osoa ukatzen du: parentesiaren aurretik doa." },
-  { f: "Epikuro: «Gu gaudenean, heriotza ez dago; eta heriotza dagoenean, gu jada ez gaude».", d: [["p", "gu gaude"], ["q", "heriotza dago"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "Bi baldintzazko dira, «eta»-k lotuak. (Menekeori gutuna, 125.)" }
+  { f: "Epikuro: «Gu gaudenean, heriotza ez dago; eta heriotza dagoenean, gu jada ez gaude».", d: [["p", "gu gaude"], ["q", "heriotza dago"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "Bi baldintzazko dira, «eta»-k lotuak. (Menekeori gutuna, 125.)" },
+  /* (17-10) caso «Mónica» con cinco letras (docs/34): la ficha de Argumentos clásicos lo formaliza con tres */
+  { f: "Monika, hitzez hitz: «Gauza onak nahi baditu eta baditu, zoriontsu da; baina gauza txarrak nahi baditu, baditu arren, zorigaiztokoa da».", d: [["p", "zoriontsu da"], ["q", "gauza onak nahi ditu"], ["r", "gauza onak ditu"], ["s", "gauza txarrak nahi ditu"], ["t", "gauza txarrak ditu"]], s: "((q ∧ r) → p) ∧ ((s ∧ t) → ¬p)", pista: "«Baina» eta «arren» ∧ gisa idazten dira: «baditu arren»-ek ez du ukatzen dituela, baieztatzen du. Konparatu Monikaren fitxako hiru letrako irakurketarekin (Argudio klasikoak): zer gertatzen da ongia eta gaizkia nahi dituenarekin, dena badu eta zoriontsu bada? Formula batek onartzen du eta besteak ez." }
 ];
 function logmEquiv(a, b){
   const vars = logVars([a, b]);
