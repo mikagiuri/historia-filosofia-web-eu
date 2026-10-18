@@ -28,13 +28,13 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Aktua eta potentzia",
+  "t": "Ekintza* eta potentzia",
   "et": "Latinezko *actus*, «ekintza, egitate», eta *potentia*, «ahalmena, gaitasuna». Grezierazko ἐνέργεια (*enérgeia*) eta δύναμις (*dýnamis*) itzultzen dituzte: hortik *energia* eta *dinamika*.",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Potentzia izateko aukera da; aktua, aukera hori gauzatuta dagoen egoera. Aldaketa bien arteko igarobide gisa ulertzen da.",
+  "def": "Potentzia izateko aukera da; ekintza, aukera hori gauzatuta dagoen egoera. Aldaketa bien arteko igarobide gisa ulertzen da.",
   "ilustre": [
    "aristoteles"
   ]
@@ -1963,7 +1963,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristoteles",
-  "def": "Adimena aktuan hutsik badago ere, bertan izakien formak idazteko potentziala dauka. Aristotelesen arabera, ezagutza esperientziatik dator, baina adimenak formak jasotzeko gaitasuna du. (Geroago Lockek «tabula rasa» gisa berreskuratuko du.)",
+  "def": "Adimena ekintzan hutsik badago ere, bertan izakien formak idazteko potentziala dauka. Aristotelesen arabera, ezagutza esperientziatik dator, baina adimenak formak jasotzeko gaitasuna du. (Geroago Lockek «tabula rasa» gisa berreskuratuko du.)",
   "ilustre": [
    "aristoteles",
    "locke"
@@ -4151,7 +4151,7 @@ const GLOSARIO_TRAMPAS = {
    "Nóesis"
   ],
   [
-   "Aktua eta potentzia",
+   "Ekintza* eta potentzia",
    "Hilemorfismoa"
   ],
   [

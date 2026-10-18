@@ -153,7 +153,7 @@ const GLOSARIO_GRIDS = {
       },
       {
        "rel": "aldaketa",
-       "t": "Aktua eta potentzia"
+       "t": "Ekintza* eta potentzia"
       },
       {
        "rel": "arima, gorputzaren forma",
@@ -207,7 +207,7 @@ const GLOSARIO_GRIDS = {
    ],
    "cruces": [
     {
-     "de": "Aktua eta potentzia",
+     "de": "Ekintza* eta potentzia",
      "rel": "ez nahastu honekin",
      "a": "Hilemorfismoa"
     },

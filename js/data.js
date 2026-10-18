@@ -1550,8 +1550,8 @@ const DECKS = {
    ],
    [
     "🌱",
-    "Aktua eta potentzia",
-    "Potentzia izateko aukera da; ekintza (aktua), haren gauzatzea. Aldaketa batetik bestera igarotzea da."
+    "Ekintza* eta potentzia",
+    "Potentzia izateko aukera da; ekintza, haren gauzatzea. Aldaketa batetik bestera igarotzea da."
    ],
    [
     "4️⃣",
@@ -1667,8 +1667,8 @@ const DECKS = {
    ],
    [
     "🌱",
-    "Aktua eta potentzia",
-    "Potentzia izateko aukera da; ekintza (aktua), haren gauzatzea. Aldaketa batetik bestera igarotzea da."
+    "Ekintza* eta potentzia",
+    "Potentzia izateko aukera da; ekintza, haren gauzatzea. Aldaketa batetik bestera igarotzea da."
    ],
    [
     "4️⃣",
@@ -5808,7 +5808,7 @@ const QUIZZES = {
     "fb": "Hilemorfismoak dio izaki zehatz oro materiaz eta formaz osatuta dagoela, gauzan bertan bat eginda."
    },
    {
-    "q": "Zer bereizten dute aktua eta potentziak?",
+    "q": "Zer bereizten dute ekintza eta potentziak?",
     "o": [
      "Arima eta gorputz independenteak.",
      "Gauzatua eta izateko aukera.",
@@ -5816,7 +5816,7 @@ const QUIZZES = {
      "Demokrazia eta tirania soilik."
     ],
     "a": 1,
-    "fb": "Potentzia izateko aukera da, eta ekintza (aktua), haren gauzatzea; hala, aldaketa batetik bestera igarotze gisa ulertzen da."
+    "fb": "Potentzia izateko aukera da, eta ekintza, haren gauzatzea; hala, aldaketa batetik bestera igarotze gisa ulertzen da."
    },
    {
     "q": "Nola hasten da ezagutza Aristotelesentzat?",
@@ -6128,7 +6128,7 @@ const QUIZZES = {
    {
     "q": "Zer lotzen ditu Platonen hiri justuaren teoriak?",
     "o": [
-     "Aktua eta potentzia.",
+     "Ekintza* eta potentzia.",
      "Esperientzia eta abstrakzioa.",
      "Arimaren ordena eta polisaren egitura.",
      "Plazera eta ataraxia."

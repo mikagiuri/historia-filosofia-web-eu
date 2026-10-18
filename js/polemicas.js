@@ -360,7 +360,7 @@ const POLEMICAS = [
    "ref": "Agustin, Aitorpenak (397-400 inguruan), X, 29, 40"
   },
   "cita_b": {
-   "t": "Ahalmena naturan jartzen dugu, nahia aukeramen askean eta izatea egintzan.",
+   "t": "Ahalmena naturan jartzen dugu, nahia aukeramen askean eta izatea ekintzan.",
    "ref": "Pelagio, Agustinek Kristoren graziaz (418) lanean aipatua, I, 4, 5"
   },
   "fuerte_a": "Askotan badakigu zer den ona, eta hala ere ez dugu egiten: borondatea zatituta dago eta sendatu beharra du. Gure indar hutsez onak izan bagintezke, Kristo adibidea ematera bakarrik etorriko zen.",
