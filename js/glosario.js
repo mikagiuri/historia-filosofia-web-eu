@@ -3076,7 +3076,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Erriza",
+  "t": "Errizoma",
   "et": "Grezierazko ῥίζωμα (*rhízoma*), «sustrai multzoa», ῥίζα (*rhíza*) hitzetik, «sustraia».",
   "area": "Metafisika",
   "bloque": "C",
@@ -4209,7 +4209,7 @@ const GLOSARIO_TRAMPAS = {
    "Postmodernitatea"
   ],
   [
-   "Erriza",
+   "Errizoma",
    "Ihes-lerroa"
   ],
   [

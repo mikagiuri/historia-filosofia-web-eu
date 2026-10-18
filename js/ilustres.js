@@ -2460,6 +2460,32 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "bayle": {
+  "name": "Pierre Bayle",
+  "dates": "1647 – 1706",
+  "born": 1647,
+  "died": 1706,
+  "place": "Le Carla (Frantzia)",
+  "role": "filosofoa eta jakintsua, Ilustrazioaren aitzindaria",
+  "idea": "Tolerantzia eta kontzientzia-askatasuna defendatu zituen, eta ateoen gizarte bat sinestunena bezain morala izan zitekeela baieztatu zuen; bere Hiztegi historiko eta kritikoak zalantza eta iturrien kritika metodo bihurtu zituen, eta Ilustrazioaren erreferentziazko lan izan zen.",
+  "bio": "<p>Pierre Bayle 1647an jaio zen Le Carlan, Frantzia hegoaldeko herri batean (gaur egun Carla-Bayle), familia hugonote batean, hau da, protestante kalbinista batean; haren aita artzaina zen. Jesuitekin ikasi zuen Toulousen, non denbora laburrez katolizismora bihurtu zen, eta handik gutxira protestantismora itzuli zen. Frantziako legeak itzulera hori delitutzat hartzen zuenez, Genevara ihes egin behar izan zuen. Filosofia-irakasle izan zen Sedango akademia protestantean eta, Luis XIV.ak 1681ean itxi zuenean, Rotterdamen kokatu zen, Herbehereetan, non Eskola Ospetsuan irakatsi zuen eta <em>Letren Errepublikako Berriak</em> aldizkaria ia bakarrik zuzendu zuen. 1693an katedra galdu zuen beste errefuxiatu hugonote batekin, Pierre Jurieu teologoarekin, izandako liskar baten ondoren, eta Rotterdamen hil zen 1706an, azkenera arte lanean.</p>\n<p>Bayle sineskeriaren, fanatismoaren eta intolerantziaren aurka borrokatzeari eskaini zion bere lana. <em>Kometari buruzko gogoeta askotarikoak</em> lanean baieztatu zuen kometek ez dutela ezbeharrik iragartzen, eta bere garairako eskandalagarria zen ideia bat defendatu zuen: <strong>ateoen gizarte</strong> bat sinestunena bezain ordenatua eta zintzoa izan zitekeela, jokabidea ez baitago sinesmen erlijiosoen mende. <em>Iruzkin filosofikoan</em> <strong>tolerantzia</strong> eta kontzientzia-askatasuna defendatu zituen, baita fede onez huts egiten duenarena ere. Bere lanik handiena <em>Hiztegi historiko eta kritikoa</em> da, artikulu laburrez eta orri-oineko <strong>ohar</strong> luze-luzeez osatua, non iturriak, erlijioak eta sistema filosofikoak zalantza eta eragozpenekin aztertzen dituen. Han, «Spinoza» artikuluan, filosofoaren bizitza zintzoa goraipatu zuen, haren doktrina gaitzesten zuen bitartean. <em>Hiztegia</em> XVIII. mendeko libururik irakurrienetako bat izan zen eta Ilustrazioaren erreferentzia handietako bat.</p>",
+  "obras": [
+   "Kometari buruzko gogoeta askotarikoak (1682)",
+   "Iruzkin filosofikoa «Behartu itzazu sartzera» hitzei buruz (1686)",
+   "Hiztegi historiko eta kritikoa (1697; 2. arg. 1702)",
+   "Letren Errepublikako Berriak (aldizkaria, 1684–1687)"
+  ],
+  "anecdota": "<p>1685ean, Rotterdametik Luis XIV.aren erlijio-politika kritikatzen zuen Pierreren idatzien ondorioz, Frantziako agintariek haren anaia nagusia, Jacob, atxilotu zuten, aita bezala artzaina zena. Jacob hilabete gutxiren buruan hil zen kartzelan, espetxealdiaren baldintza gogorren ondorioz. Bayleri ia Nantesko Ediktua indargabetu izanaren berriarekin batera iritsi zitzaion albistea; indargabetze horrek eskubiderik gabe uzten zituen Frantziako protestanteak. Jakintsu askok bere bizitzako urterik gogorrenean, urte hartan, kokatzen dute bere lanaren tonu-aldaketa bat.</p>",
+  "fuente": "Stanford Encyclopedia of Philosophy, «Pierre Bayle» (plato.stanford.edu/entries/bayle)",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
+  ]
+ },
  "berkeley": {
   "name": "George Berkeley",
   "dates": "1685 – 1753",
@@ -4370,6 +4396,30 @@ const ILUSTRES = {
    "hf-existencialismo"
   ]
  },
+ "dewey": {
+  "name": "John Dewey",
+  "dates": "1859 – 1952",
+  "born": 1859,
+  "died": 1952,
+  "place": "Burlington (Estatu Batuak)",
+  "role": "filosofo pragmatista eta hezkuntzaren erreformatzaile estatubatuarra",
+  "idea": "Pentsatzea esperientziak planteatzen dituen arazoak konpontzeko ikertzea da; horregatik, hezkuntza ez datza buruz ikastean, «eginez ikastean» baizik, eta demokrazia, batez ere, bizitza partekatzeko modu bat da.",
+  "bio": "<p>John Dewey Burlingtonen jaio zen, Vermont estatuan (Estatu Batuak), 1859an. Vermonteko Unibertsitatean ikasi zuen eta Johns Hopkins Unibertsitatean doktoratu zen. Michiganen izan zen irakasle eta, 1894tik aurrera, Chicagoko Unibertsitatean, non eskola esperimental ospetsu bat zuzendu zuen; 1904an Columbiako Unibertsitatera igaro zen, New Yorken, non bizitza osoan irakatsi zuen. Hezkuntzari, demokraziari eta eskubideei buruzko eztabaida publikoetan oso aktiboki parte hartu zuen, Japonia, Txina, Mexiko eta Sobietar Batasuna bezalako herrialdeetara bidaiatu zuen, eta New Yorken hil zen 1952an, laurogeita hamabi urte zituela.</p>\n<p>Dewey, Charles S. Peirce eta William Jamesekin batera, Estatu Batuetako <strong>pragmatismoaren</strong> figura handietako bat da; korronte horrentzat ideia baten balioa haren ondorio praktikoen arabera neurtzen da. Haren bertsioak, <strong>instrumentalismoak</strong>, pentsamendua <strong>esperientzian</strong> sortzen diren arazoak konpontzeko tresnatzat hartzen du: pentsatzea, funtsean, ikertzea da. Hortik dator haren hezkuntza-proposamen ezagunena, «eginez ikastea», memorian soilik oinarritutako irakaskuntzaren aurkakoa, eta <strong>demokraziaren</strong> aldeko haren defentsa, ez gobernu-sistema huts gisa, baizik eta pertsonek elkarlanean aritu eta elkarrekin erabakitzen duten bizimodu gisa. Gai-zerrendan pragmatismoaren ordezkari gisa agertzen da, bai eta egia, ezagutza eta hezkuntza ulertzeko Europako tradizio arrazionalistaz bestelako modu baten ordezkari gisa ere.</p>",
+  "obras": [
+   "Eskola eta gizartea (1899)",
+   "Nola pentsatzen dugun (1910)",
+   "Demokrazia eta hezkuntza (1916)",
+   "Artea esperientzia gisa (1934)"
+  ],
+  "anecdota": "<p>1896ko urtarrilean, Chicagoko Unibertsitateko irakasle zela, Deweyk eskola esperimental bat jarri zuen abian, «Eskola-Laborategia» izenez ezaguna. Ikasle eskukada batekin eta bi maistrarekin hasi zen, eta laborategi gisa funtzionatzen zuen, bere ideia pedagogikoek gelan benetan balio zuten egiaztatzeko: haurrek sukaldatuz, josiz edo gauzak eraikiz ikasten zuten, buruz ikastera mugatu beharrean. Urte gutxian, hasierako talde hartatik ehun ikasletik gorakoa izatera igaro zen. Esperientzia hura, geroago bere bi maistrek jaso zutena, XX. mendeko hezkuntza-berrikuntzako mugimenduek aipatutako eredu bihurtu zen.</p>",
+  "fuente": "K. C. Mayhew eta A. C. Edwards, The Dewey School (1936)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "unamuno": {
   "name": "Miguel de Unamuno",
   "dates": "1864 – 1936",
@@ -4424,6 +4474,33 @@ const ILUSTRES = {
    "hf-marxismos"
   ]
  },
+ "luxemburgo": {
+  "name": "Rosa Luxemburg",
+  "dates": "1871 – 1919",
+  "born": 1871,
+  "died": 1919,
+  "place": "Zamość (Polonia)",
+  "role": "pentsalari eta iraultzaile marxista",
+  "idea": "Sozialismoa eta demokrazia bereiztezinak dira: gizartea eraldatzeari uko egiten dion erreformismoa zein alderdi bakar baten boterea kritikatu zituen, eta langileen berezko ekimenean konfiantza izan zuen.",
+  "bio": "<p>Rosa Luxemburg 1871n jaio zen Zamośćen, orduan Errusiar Inperioaren mende zegoen Poloniako zatiko hiri batean, familia judu batean. Suitzara joan zen ikastera eta Estatu-zientzietan (zuzenbidea eta ekonomia) doktoratu zen Zuricheko Unibertsitatean 1897an, Poloniaren industria-garapenari buruzko tesi batekin. Ondoren Alemanian kokatu zen, non Alderdi Sozialdemokratan (SPD) sartu eta haren teoriko nabarmenenetako bat bihurtu zen. Lehen Mundu Gerraren aurka irmo agertu zen eta gerraren aurkako bere agitazioagatik kartzelan eman zuen gerraren zati handi bat. Karl Liebknechtekin batera Liga Espartakista sortu zuen eta, 1918ko azken egunetan, Alemaniako Alderdi Komunista. 1919ko urtarrilean, Berlingo altxamendu espartakistan, Freikorps-eko soldaduek atxilotu eta hil egin zuten.</p>\n<p>Luxemburg pentsalari <strong>marxista</strong> izan zen, baina ez zuen inoiz marxismoa sistema itxi gisa ulertu. <em>Gizarte-erreforma ala iraultza?</em> (1899) lanean Eduard Bernsteinekin eztabaidatu zuen, zeinak kapitalismoa eraldatu beharrean pixkanaka hobetzea proposatzen baitzuen; berak defendatu zuen erreformak ez direla nahikoa, horregatik eguneroko ekintzari uko egin gabe. <strong>Masa-grebarengan</strong>, langileen berezko ekintza kolektiboarengan, konfiantza handiagoa zuen goitik zuzendutako alderdi baten kontrolean baino. Horregatik, 1917ko Errusiako Iraultza agurtu bazuen ere, laster kritikatu zuen Leninek eta Trotskik hautatutako batzarra eta gainerako alderdiak ezabatzea: berarentzat, <strong>sozialismoa eta demokrazia</strong> ezin ziren bereizi. Filosofiaren Historiako gai-zerrendan agertzen da, Marx osteko kapitalismoaren kritikan, Lenin eta Clara Zetkinekin batera, marxismoaren barruan iraultzaren, askatasunaren eta demokraziaren arteko harremanari buruzko eztabaida ireki bat izan zela erakusteko.</p>",
+  "obras": [
+   "Gizarte-erreforma ala iraultza? (1899)",
+   "Masa-greba, alderdia eta sindikatuak (1906)",
+   "Kapitalaren metaketa (1913)",
+   "Errusiako iraultza (1918an idatzia)"
+  ],
+  "anecdota": "<p>1917ko abenduan, Breslauko kartzelan preso, Rosa Luxemburgek gutun bat idatzi zion Sofia Liebknecht bere lagunari, Errumaniatik gerra-harrapakin gisa ekarri eta karga astunak arrastaka eramatera behartutako bufalo batzuei buruz. Kontatu zuen soldadu batek zartailuaren kirtenarekin jo zuela animalietako bat odola atera arte, eta bufaloaren begiradak, babesgabe, negar eragin ziola. Eszena hartan gerraren eta zapalduen sufrimendua islatuta ikusi zuen. Gutuna kartzelatik idatzitako bere gutundiaren parte da eta bere bizitza intimoko orririk ezagunenetako bat da.</p>",
+  "fuente": "Rosa Luxemburg, Sofia Liebknechti Breslauko kartzelatik idatzitako gutuna (1917ko abenduaren erdialdea), bere Kartzelatik idatzitako gutunak lanean bilduta",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos",
+   "hf-capitalismo"
+  ]
+ },
  "russell": {
   "name": "Bertrand Russell",
   "dates": "1872 – 1970",
@@ -4448,6 +4525,32 @@ const ILUSTRES = {
   "temas": [
    "hf-mito",
    "hf-analitica"
+  ]
+ },
+ "kollontai": {
+  "name": "Aleksandra Kollontai",
+  "dates": "1872 – 1952",
+  "born": 1872,
+  "died": 1952,
+  "place": "San Petersburgo (Errusiar Inperioa)",
+  "role": "iraultzaile eta diplomazialari sovietarra",
+  "idea": "Sozialismoa eta emakumearen emantzipazioa lotu zituen: legezko berdintasuna ez da nahikoa etxeko lana, familia eta maitasun-harremanak aldatzen ez badira.",
+  "bio": "<p>Aleksandra Mijailovna Kollontai 1872an jaio zen San Petersburgon, Errusiako familia aristokratiko batean, baina laster hautsi zuen giro horrekin militantzia sozialistari ekiteko. Ekonomia ikasi zuen Zurichen eta, Europan zehar urteak erbestean eman ondoren, boltxebikeekin bat egin zuen. 1917ko iraultzaren ondoren, Gizarte Laguntzako herri-komisario izendatu zuten, emakume bat sartzen zuen munduko lehen gobernuetako batean. Ondorengo hamarkadetan, gainera, bere herrialdea misio diplomatiko baten buru gisa ordezkatu zuten lehen emakumeetako bat izan zen, Norvegian, Mexikon eta Suedian. Moskun hil zen 1952an.</p>\n<p>Kollontaik <strong>sozialismoa</strong> eta <strong>emakumearen emantzipazioa</strong> lotu zituen: botoak eta legearen aurreko berdintasunak ez direla nahikoa defendatzen zuen etxeko lana, familia eta maitasun-harremanak aldatzen ez badira. Etxeko lanak eta seme-alaben zaintza sozializatzearen alde egin zuen, eta mendekotasun ekonomikotik askatutako maitasunaren <strong>moral berri</strong> bati buruz hausnartu zuen. Alderdiaren barruan bertan <strong>Langile Oposizioa</strong> zuzendu zuen, botere sovietarraren burokratizazioa kritikatzen zuena. Gai-zerrendan marxismoa luzatu eta eztabaidatu zutenen artean agertzen da, eta bere lana erreferentzia izaten jarraitzen du feminismo sozialistentzat, berdintasun ekonomikoaren eta askatasun pertsonalaren arteko harremanari buruzko eztabaida oraindik irekian.</p>",
+  "obras": [
+   "Emakumearen auziaren oinarri sozialak (1909)",
+   "Moral berria eta langile-klasea (1918)",
+   "Langile Oposizioa (1921)",
+   "Utzi bidea Eros hegodunari! (1923)"
+  ],
+  "anecdota": "<p>1923an gobernu sovietarrak Norvegiara bidali zuen bere misio diplomatikoaren buru, eta handik gutxira ofizialki akreditatu zen: bere herrialdea legazio baten buru gisa ordezkatu zuen munduko lehen emakumeetako bat izan zen. Ia hogei urtez jarraitu zuen zerbitzu diplomatikoan, batez ere Suedian. Han, garun-isuri batek gurpil-aulkia erabiltzera behartu ostean osasuna oso ahulduta zuela, 1944an Finlandiaren eta Sobietar Batasunaren arteko gerra amaitzen lagundu zuten harremanetan parte hartu zuen.</p>",
+  "fuente": "Cathy Porter, Alexandra Kollontai. A Biography (Virago, 1980)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos"
   ]
  },
  "moore": {
@@ -4677,6 +4780,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-analitica"
+  ]
+ },
+ "gramsci": {
+  "name": "Antonio Gramsci",
+  "dates": "1891 – 1937",
+  "born": 1891,
+  "died": 1937,
+  "place": "Ales (Italia)",
+  "role": "pentsalari marxista eta politikari italiarra",
+  "idea": "Klase batek ez du indarraren bidez bakarrik menderatzen, hegemoniaren bidez baizik: kulturaren bidez (eskola, prentsa, erlijioa) lortzen duen adostasuna. Horregatik, politika ideien eta zentzu komunaren eremuan ere jokatzen da.",
+  "bio": "<p>Antonio Gramsci 1891n jaio zen Alesen, Sardiniako herri batean (Italia), familia apal eta ugari batean. Haurretik osasun ahula zuela, beka bat lortu eta hizkuntzalaritza ikasi zuen Turingo Unibertsitatean, nahiz eta karrera utzi zuen kazetaritzari eta politikari ekiteko. Turinen, fabrika handien hiri batean, langile-mugimendura hurbildu zen, prentsa sozialistan idatzi zuen eta 1919an <em>Ordena Berria</em> (<em>L'Ordine Nuovo</em>) aldizkaria sortu zuen. 1921ean Italiako Alderdi Komunistaren sortzaileetako bat izan zen eta 1924an diputatu hautatu zuten. Mussoliniren erregimen faxistak 1926an atxilotu zuen, bere parlamentu-immunitatea gorabehera, eta hogei urtetik gorako kartzela-zigorra ezarri zion. Gaixorik eta inoiz osatu gabe, Erroman hil zen 1937an, formalki aske geratu eta egun gutxira.</p>\n<p>Kartzelan bere <em>Kartzelako koadernoak</em> idatzi zituen, bizirik argitaratu ezin izan zituen milaka orrialdeko oharrak. Haren ideiarik ezagunena <strong>hegemoniarena</strong> da: gizarte-klase batek ez dio boterean eusten hertsapenaren bidez bakarrik, baizik eta bere munduaren ikuspegia gizarte osoaren <strong>zentzu komunetik</strong> igarotzea lortzen duenean eskuratzen duen adostasunaren bidez ere, eskolaren, prentsaren, erlijioaren edo kulturaren bitartez. Kultura-lan hori azaltzeko <strong>intelektual organikoez</strong> hitz egin zuen, gizarte-talde bakoitzak bere ideiei forma emateko sortzen dituen pertsonez. Gramsci mendebaldeko marxismo deituaren figura nagusietako bat da, arreta ekonomiatik kulturara eta kontzientziara lekualdatu zuena. Gai-zerrendan bloke horren barruan agertzen da, eta bere hegemonia-kontzeptua gaur egun oso zeinu politiko desberdineko eztabaidetan erabiltzen da, eta horrek bizirik eta eztabaidatua mantentzen du.</p>",
+  "obras": [
+   "Hegoaldeko auzia (1926)",
+   "Kartzelako gutunak (1926-1937an idatziak)",
+   "Kartzelako koadernoak (1929-1935ean idatziak)"
+  ],
+  "anecdota": "<p>1928an Erroman egindako epaiketan, fiskalak zigor oso gogorra eskatu zuen ospetsu egin den esaldi batekin: garun hura hogei urtez funtzionatzen jarraitzea eragotzi behar zen. Auzitegiak hogei urteko, lau hilabeteko eta bost eguneko kartzela-zigorra ezarri zion Gramsciri. Erregimenak bere ideiak isilarazi nahi zituen, baina kartzelan bertan idatzi zituen mundu osoan ezagun egingo zuten <em>Koadernoak</em>.</p>",
+  "fuente": "Giuseppe Fiori, Antonio Gramsciren bizitza (1966); 1928ko prozesuaren aktak",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos",
+   "hf-capitalismo"
   ]
  },
  "benjamin": {
@@ -4971,6 +5100,30 @@ const ILUSTRES = {
    "hf-beauvoir"
   ]
  },
+ "weil": {
+  "name": "Simone Weil",
+  "dates": "1909 – 1943",
+  "born": 1909,
+  "died": 1943,
+  "place": "Paris (Frantzia)",
+  "role": "filosofo frantsesa",
+  "idea": "Eskubideak baino lehen besteenganako betebeharrak daude; sufritzen duenari benetako arreta eskaintzea justiziaren eta haren duintasunarekiko errespetuaren forma gorena da.",
+  "bio": "<p>Simone Weil Parisen jaio zen 1909an, familia judu kultu eta aberats batean; haren anaia, André Weil, matematikari ospetsua izan zen. Ikasle bikaina, 1931n filosofiako agregazioa lortu zuen eta hainbat institututan irakatsi zuen. Langileen egoerak kezkatuta, 1934an eszedentzia bat eskatu zuen Parisko fabriketan langile gisa lan egiteko. 1936an hilabete batzuez parte hartu zuen Espainiako Gerra Zibilean, zutabe anarkista batean. Bigarren Mundu Gerran familiarekin erbestera joan zen eta Londresen amaitu zuen, Frantzia Askerekin lankidetzan. Ashforden (Ingalaterra) hil zen 1943an, 34 urte zituela, tuberkulosiak jota eta ahulduta, berak zioenez okupaziopean frantsesek jasotzen zutena baino ez baitzuen ia jaten.</p>\n<p>Weil sailkatzen zaila den pentsalaria da, filosofiaren, konpromiso politikoaren eta mistikaren artean. Defendatu zuen eskubideak baino lehen besteenganako <strong>betebeharrak</strong> daudela, eta pertsona orok errespetua merezi duela pertsona izate hutsagatik. Toki nagusia eman zion <strong>arretari</strong>: bestea benetan begiratzen jakitea, batez ere <strong>ezbeharra</strong> (berak <em>malheur</em> deitu zuena) jasaten duena, apaltzen eta isolatzen duen zoritxar bat. Lanari, zapalkuntzari eta askatasunari buruz ere hausnartu zuen, eta bere azken aldian sakratuari buruz eta komunitate batean <strong>sustraiak botatzeko</strong> beharrari buruz. Atalean agertzen da XX. mendeko pentsamenduaren ahotsik originalenetako bat delako, gogoeta etiko eta politikoa lehen pertsonan bizitako esperientziarekin lotzen duena.</p>",
+  "obras": [
+   "Askatasunaren eta gizarte-zapalkuntzaren kausei buruzko gogoetak (1934an idatzia; 1955ean argitaratua)",
+   "Grabitatea eta grazia (1947)",
+   "Sustraiak botatzea (1949)",
+   "Jainkoaren zain (1950)"
+  ],
+  "anecdota": "<p>1934an, Simone Weilek, filosofiako irakasle bikaina zenak, eszedentzia bat eskatu zuen Parisko fabriketan langile kualifikatu gabe gisa lan egiteko, haien artean Renault-eko batean. Barrutik ezagutu nahi zuen, eta ez liburuetan bakarrik, zer esan nahi zuten nekeak, muntaketa-kateak eta nagusiekiko menpekotasunak. Ia urtebetez lan nekagarri bat jasan zuen eta bizi zuena egunero idatzi zuen koaderno batean, bere «fabrikako egunerokoa». Esperientzia hark betiko markatu zuen zapalkuntza eta lanaren duintasuna pentsatzeko bere modua.</p>",
+  "fuente": "Simone Pétrement, Simone Weilen bizitza (1973); Simone Weil, Langile-egoera (fabrikako egunerokoa, 1934-1935)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "turing": {
   "name": "Alan Turing",
   "dates": "1912 – 1954",
@@ -5129,6 +5282,32 @@ const ILUSTRES = {
    "hf-posmodernidad"
   ]
  },
+ "feyerabend": {
+  "name": "Paul Feyerabendek",
+  "dates": "1924 – 1994",
+  "born": 1924,
+  "died": 1994,
+  "place": "Viena (Austria)",
+  "role": "zientziaren filosofoa",
+  "idea": "Ez dago betiko balio duen metodo zientifiko bakar bat; zientziaren aurrerapen handiak askotan arauak hautsiz lortu ziren, horregatik «dena balio du».",
+  "bio": "<p>Paul Feyerabend Vienan jaio zen 1924an. Bigarren Mundu Gerran armada alemanak mobilizatu zuen eta larri zauritu zuten frontean: bizkarrezurrean sartutako bala batek makuluarekin ibiltzera behartu zuen eta minak eragin zizkion bizitza osoan. Gerra amaitzean Vienan ikasi zuen eta zientziaren filosofiara hurbildu zen Karl Popperren eskutik, Londresen. 1958tik aurrera hamarkadetan izan zen irakasle Kaliforniako Unibertsitatean, Berkeleyn, eta Zurichen ere irakatsi zuen. Suitzan hil zen 1994an.</p>\n<p>Feyerabend bere <strong>anarkismo metodologikoagatik</strong> da ezaguna, <em>Metodoaren aurkako tratatua</em> (1975) lanean defendatua: baieztatu zuen ez dagoela metodo zientifikoaren araurik zientziak aurrera egin dezan noizbait hautsi behar izan ez denik, eta <strong>«dena balio du»</strong> lemarekin laburbildu zuen. Ez zuen zientzia gaitzetsi nahi, haren autoritatea eztabaidatu baizik: <strong>zientziaren eta Estatuaren arteko bereizketa</strong> eskatzen zuen, erlijioaren eta Estatuaren artekoa bezala, munduaren ikuspegi batek ere besteei gain ez hartzeko. Gai-zerrendan zientziaren filosofiaren katebegirik erradikalena gisa agertzen da, Popperren faltsagarritasunarekin eta Kuhnen paradigmekin eztabaidan.</p>",
+  "obras": [
+   "Metodoaren aurkako tratatua (1975)",
+   "Zientzia gizarte aske batean (1978)",
+   "Agur arrazoiari (1987)",
+   "Denbora hiltzen (autobiografia, 1995)"
+  ],
+  "anecdota": "<p>Feyerabendekin bizitza osoan egon zen mina gerratik zetorren. Bere autobiografian kontatzen duenez, 1945ean, atzera egitean armada alemaneko ofizial zela, hainbat tiroz jo zuten tropen trafikoa zuzentzen ari zela; baletako bat bizkarrezurrean sartu zitzaion. Ondorio iraunkorrekin geratu zen eta ordutik aurrera makuluarekin ibili zen. Berak kontatu zuen gertaera umore mingotsez, heroismorik gabe, bere biografia markatu zuten ustekabeetako bat gehiago bezala.</p>",
+  "fuente": "Paul Feyerabend, Denbora hiltzen (autobiografia, 1995); «dena balio du» lema Metodoaren aurkako tratatua (1975) lanean",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-analitica"
+  ]
+ },
  "bauman": {
   "name": "Zygmunt Bauman",
   "dates": "1925 – 2017",
@@ -5150,6 +5329,35 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-siglo21"
+  ]
+ },
+ "deleuze": {
+  "name": "Gilles Deleuze",
+  "dates": "1925 – 1995",
+  "born": 1925,
+  "died": 1995,
+  "place": "Paris (Frantzia)",
+  "role": "diferentziaren eta desiraren filosofo frantsesa",
+  "idea": "Filosofiak ez ditu betiko esentziak deskribatzen, kontzeptuak sortzen ditu diferentzia eta aldaketa pentsatzeko; eta desira ez da gabezia bat, loturak eta munduak sortzen dituen indar bat baizik.",
+  "bio": "<p>Gilles Deleuze Parisen jaio zen 1925ean eta bertan eman zuen ia bizitza osoa. Parisko VIII. Unibertsitateko (Vincennes) irakasle izan zen, non bere eskolak, sartu nahi zuen edonori irekiak, ospetsu bihurtu ziren. 1969tik aurrera hainbat liburu idatzi zituen Félix Guattari psikoanalistarekin batera. Urte askoan biriketako gaixo, Parisen hil zen 1995ean.</p>\n<p><em>Diferentzia eta errepikapena</em> (1968) lanean dio filosofiak gehiegizko garrantzia eman diela berdinari eta orokorrari, eta <strong>diferentzia</strong> aldarrikatzen du lehen gauza gisa, eta ez jada emandako gauzen arteko konparazio huts gisa. Guattarirekin batera defendatzen du <strong>desira</strong> ez dela gabezia pribatu bat, harremanak, irudiak eta erakundeak sortzen dituen indar bat baizik, eta <strong>errizomaren</strong> irudia proposatzen du: konexio anitzez egindako pentsatzeko modu bat, zentrorik eta hierarkia finkorik gabea, zuhaitzaren ereduaren aurrean. Gai-zerrendan postmodernitatearen ahotsetako bat gisa agertzen da (23. gaia) eta, batez ere, Spinozaren bere irakurketagatik: Deleuzerentzat, Spinoza alaitasunaren eta <strong>ahalmenaren</strong> filosofoa da, eta «zer dezake gorputz batek?» galderak laburbiltzen du etika ulertzeko bere modua.</p>",
+  "obras": [
+   "Nietzsche eta filosofia (1962)",
+   "Diferentzia eta errepikapena (1968)",
+   "Anti-Edipo (1972, Félix Guattarirekin)",
+   "Mila lautada (1980, Félix Guattarirekin)"
+  ],
+  "anecdota": "<p>1988an eta 1989an, Deleuzek Claire Parnet kazetariarekin zortzi orduko elkarrizketa luze bat grabatzea onartu zuen, abezedario gisa antolatua: hitz bat letra bakoitzeko, «Animalia»ren A-tik «Zigzag»aren Z-ra. Hasierako baldintza gisa jarri zuen hil ondoren arte ez emititzea, nahiz eta azkenean bere zabalkundea baimendu zuen: seriea, <em>Gilles Deleuzeren Abezedarioa</em> izenez ezaguna, Arte katean emititu zen 1994 eta 1995 artean, bere bizitzako azken urtean, eta bere pentsamendura hurbiltzeko modurik zabalduenetako bat bihurtu da.</p>",
+  "fuente": "François Dosse, Gilles Deleuze eta Félix Guattari. Biografia gurutzatua (2007)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-sistema",
+   "hf-spinoza-universal",
+   "hf-kant-poetas",
+   "hf-posmodernidad"
   ]
  },
  "foucault": {
@@ -5301,6 +5509,32 @@ const ILUSTRES = {
   ],
   "anecdota": "<p>1981aren amaieran Derrida Pragara joan zen Txekoslovakiako erregimen komunistaren intelektual disidenteei mintegi klandestino bat ematera. Irteeran, poliziak atxilotu egin zuen aireportuan: bere maletan droga aurkitu zutela esan zuten, benetan haiek eurek jarria. Gau bat eman zuen kartzelan eta estupefazienteen trafikoa egotzi zioten. Frantziako Gobernuaren protestak, Mitterrand presidentea buru zela, haren askatasuna eta herrialdetik kanporatzea lortu zituen. Testuei buruzko susmoaren filosofoa asmatutako espediente baten biktima izan zen azkenean.</p>",
   "fuente": "Benoît Peeters, Derrida (biografia, 2010); garai hartako prentsa",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-posmodernidad"
+  ]
+ },
+ "rorty": {
+  "name": "Richard Rorty",
+  "dates": "1931 – 2007",
+  "born": 1931,
+  "died": 2007,
+  "place": "New York (Estatu Batuak)",
+  "role": "filosofo estatubatuarra, neopragmatismoaren ordezkaria",
+  "idea": "Ez dago errealitatearen kopia zehatza den egiarik, ezta jakintzaren azken funtsik ere; demokrazia batean komeni da Egiaren bilaketa elkarrizketaz, ironiaz eta elkartasunaz ordezkatzea.",
+  "bio": "<p>Richard Rorty New Yorken jaio zen 1931n, Stalinen aurkako ezkerreko bi idazleren seme. Chicagoko eta Yaleko unibertsitateetan ikasi zuen. Filosofia irakatsi zuen Princetonen, non filosofia analitikoaren barruan prestatu zen, eta geroago Virginiako Unibertsitatean eta Stanforden, jada giza zientzietako irakasle gisa. Palo Alton, Kalifornian, hil zen 2007an.</p>\n<p>Rortyk Deweyren eta Jamesen tradizio pragmatista estatubatuarra berreskuratu zuen eta gogamena errealitatea den bezala islatzen duen <strong>ispilu</strong> bat delako ideiarekin hautsi zuen: irudi horri <em>Filosofia eta naturaren ispilua</em> (1979) eskaini zion. Berarentzat ez dago munduaren kopia zehatz gisa ulertutako <strong>egiarik</strong>, ezta ezagutzaren azken funtsik ere; egia komunitate batek frogapean jarri ondoren onartzen duena da, batez ere. <em>Kontingentzia, ironia eta elkartasuna</em> (1989) lanean baieztatu zuen, demokrazia liberal batean, funts absolutu bat bilatu baino, hobe dela <strong>elkarrizketa</strong>, ironia (norberaren hiztegia sakratua ez dela jakitea) eta <strong>elkartasuna</strong> zaintzea. Webean Filosofiako postmodernitatearen gaian agertzen da: susmoaren kritikaren ondoren, Egia nork duen auzia elkarrizketa demokratikoaz ordezkatzea proposatzen du, horregatik egiak edo justiziak axola izateari utzi gabe.</p>",
+  "obras": [
+   "Filosofia eta naturaren ispilua (1979)",
+   "Pragmatismoaren ondorioak (1982)",
+   "Kontingentzia, ironia eta elkartasuna (1989)",
+   "Gure herria eraikitzea (1998)"
+  ],
+  "anecdota": "<p>1992an Rortyk saiakera autobiografiko bat argitaratu zuen, «Trotski eta basa-orkideak», non kontatzen zuen nola haurtzaroan bat egiten ez zutela ziruditen bi gauza uztartzen saiatzen zen: gurasoengandik jasotako gizarte-justiziarekiko konpromisoa eta bere zaletasun pribatua, ia sekretua, New Jerseyko ipar-mendebaldeko mendietan basa-orkideak bilatzekoa. Urteetan, zioenez, «Trotski» eta «orkideak» batuko zituen egia bakar bat bilatu zuen, harik eta beharrezkoa ez zela pentsatzera iritsi zen arte: publikoa, hau da, elkartasuna, eta pribatua, bakoitzari axola zaion edertasuna, bide desberdinetatik joan zitezkeen. Saiakera horretatik sortu zen bere filosofiaren zati handi bat.</p>",
+  "fuente": "Richard Rorty, «Trotski eta basa-orkideak» (1992), Filosofia eta etorkizuna lanean bilduta (gaztelaniazko argitalpena: Gedisa, 2002)",
   "tradicion": false,
   "block": "con",
   "subjects": [
