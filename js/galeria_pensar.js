@@ -77,7 +77,7 @@ const GALERIA_PENSAR = [
   "t": "Ahatea ala untxia? (1892)",
   "pie": "Irudi bera, bi irakurketa: ikustea espero duguna ikusten dugu.",
   "license": "Domeinu publikoa",
-  "artist": "Unknown artistUnknown artist",
+  "artist": "Unknown author",
   "page": "https://commons.wikimedia.org/wiki/File:Kaninchen_und_Ente.png"
  },
  {

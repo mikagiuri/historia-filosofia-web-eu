@@ -305,7 +305,7 @@ const EA_EJES = {
     "i": 22,
     "c": [
      "Wittgenstein (lehena eta bigarrena); Russell, Austin eta Searle; Vienako Zirkulua, Popper, Kuhn, Lakatos eta Feyerabend; Txillardegi; Azurmendi.",
-     "Hizkuntzaren bira: hizkuntza da pentsa dezakegunaren muga; irudikapenaren teoria eta isomorfismoa; esanahia erabilera da; egiaztagarritasuna eta faltsabilitatea.",
+     "Hizkuntzaren bira: hizkuntza da pentsa dezakegunaren muga; irudikapenaren teoria eta isomorfismoa; esanahia erabilera da; egiaztagarritasuna eta ezeztagarritasuna*.",
      "Hizkuntza dugulako pentsatzen dugu: hizkuntza, egituratzaile inkontzientea (Txillardegi); arau bati jarraitzea praktika partekatua da, ez hizkuntza pribatua.",
      "Etikak eta metafisikak esan ezina esan nahi dute: mistikoa (etika, bizitzaren zentzua) ezin da esan, erakutsi egiten da.",
      "Hizkuntza-jokoak bizitza-formen barruan; esatea egitea da (Austin); euskara, komunitate baten bizkarrezurra; hizkuntza-normalizazioa auzi politiko gisa.",

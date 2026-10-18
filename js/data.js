@@ -5333,7 +5333,7 @@ const QUIZZES = {
     "fb": "Vienako Zirkuluarentzat proposizio batek zentzua du soilik egiazko edo faltsu gisa egiaztatuko luketen baldintza enpirikoak adieraz badaitezke («Positibismo logikoa» atala)."
    },
    {
-    "q": "Zer da Popperren faltsabilitatea?",
+    "q": "Zer da Popperren ezeztagarritasuna*?",
     "o": [
      "Enuntziatu guztiek esanahi bera dute.",
      "Teoria bat zientifikoa da, baldin eta inoiz ezin bada kritikatu.",
@@ -5341,7 +5341,7 @@ const QUIZZES = {
      "Zientzia datuen bilketa hutsa da."
     ],
     "a": 2,
-    "fb": "Popperrek egiaztapena faltsagarritasunaz ordezkatzen du: teoria bat zientifikoa da esperientziak errefutatua izateko arriskua bere gain hartzen badu («Popper» atala)."
+    "fb": "Popperrek egiaztapena ezeztagarritasunaz* ordezkatzen du: teoria bat zientifikoa da esperientziak errefutatua izateko arriskua bere gain hartzen badu («Popper» atala)."
    },
    {
     "q": "Zer da Kuhnen paradigma?",
@@ -21717,7 +21717,7 @@ const QUIZZES = {
      "Performatibotasunak"
     ],
     "a": 0,
-    "fb": "Popperrek indukzioa kritikatzen du: ez du segurtasun osoa ematen; horregatik, faltsagarritasuna proposatzen du irizpide gisa."
+    "fb": "Popperrek indukzioa kritikatzen du: ez du segurtasun osoa ematen; horregatik, ezeztagarritasuna* proposatzen du irizpide gisa."
    }
   ]
  },
