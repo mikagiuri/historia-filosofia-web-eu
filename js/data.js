@@ -12142,7 +12142,7 @@ const QUIZZES = {
    {
     "q": "Zergatik dira ideien arteko erlazioak egia beharrezkoak, Humeren arabera?",
     "o": [
-     "Haien ukapena kontraesankorra delako",
+     "Haien ezeztapena kontraesankorra delako",
      "Esperientziak beti berretsi dituelako",
      "Jainkoak bermatzen duelako haien egia",
      "Ohiturak gogoan finkatu dituelako"
@@ -12153,7 +12153,7 @@ const QUIZZES = {
    {
     "q": "Zerk ezaugarritzen ditu egitate-kontuak Humerengan?",
     "o": [
-     "Beharrezkoak dira eta haien ukapena kontraesankorra da",
+     "Beharrezkoak dira eta haien ezeztapena kontraesankorra da",
      "Jaiotzetikoak dira eta inolako esperientziarik gabe ezagutzen dira",
      "Kontingenteak dira eta a posteriori ezagutzen dira",
      "Egia matematikoak dira, a priori ezagutzen direnak"
@@ -21624,7 +21624,7 @@ const QUIZZES = {
     "q": "Thomas Kuhnen arabera, denbora gehienean zientzialariek ez dute teoria nagusia eraisten saiatzen, haren barruan arazoak ebazten baizik. Nola deitzen dio eguneroko jarduera horri?",
     "o": [
      "Iraultza zientifikoa",
-     "Faltsazioa",
+     "Ezeztatzea",
      "Anarkismo metodologikoa",
      "Zientzia normala"
     ],
@@ -21713,7 +21713,7 @@ const QUIZZES = {
     "o": [
      "Indukzioa",
      "Dedukzioa",
-     "Faltsazioa",
+     "Ezeztatzea",
      "Performatibotasunak"
     ],
     "a": 0,

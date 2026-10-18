@@ -73,7 +73,7 @@ const PARADOJAS = [
   "origen": "Epimenides Knososkoa (Kreta), K.a. VI. mendea. Batzuetan ateniarrekin edo beste herri batekin kontatzen da, baina bertsio zaharra kretarrarena da.",
   "enunciado": "Epimenidesek, kretarra izanik, dio: «Kretar guztiek gezurra esaten dute beti».",
   "problema": "Gezurtiaren berdina dirudi: egia bada, Epimenidesek, kretarra baita, gezurra dio hori esatean; beraz, faltsua da. Baina hemen dago tranpa: faltsua bada, ez du zertan egiazkoa izan. Faltsua izateak esan nahi du soilik kretarren <strong>batek</strong> egia esaten duela <strong>noizbait</strong>. Ondorioztatzen den bakarra da esaldia faltsua dela eta Epimenidesek gezurra diola. Ez dago paradoxarik, Epimenides kretar bakarra dela edo Kretan esan den esaldi bakarra hau dela gehitzen ez badugu. Logikan: <em>p</em>-k <em>¬p</em> inplikatzen badu, ondorioztatzen dena <em>¬p</em> da, besterik gabe.",
-  "salidas": "<ul><li>Adibide ona da ikusteko «guztiek gezurra diote»-ren ukapena ez dela «guztiek egia diote», baizik eta «batek ez du gezurrik esaten» (karratu logikoan, A baten kontraesankorra O bat da).</li><li>Epimenidesen bertsioa Biblian aipatzen da (Titori gutuna 1, 12), inolako kezka logikorik gabe: han kretarren aurkako irain gisa erabiltzen da.</li></ul>",
+  "salidas": "<ul><li>Adibide ona da ikusteko «guztiek gezurra diote»-ren ezeztapena ez dela «guztiek egia diote», baizik eta «batek ez du gezurrik esaten» (karratu logikoan, A baten kontraesankorra O bat da).</li><li>Epimenidesen bertsioa Biblian aipatzen da (Titori gutuna 1, 12), inolako kezka logikorik gabe: han kretarren aurkako irain gisa erabiltzen da.</li></ul>",
   "pensar": "Zer gehitu beharko litzaioke istorioari benetako paradoxa izan dadin, gezurtiarena bezala?"
  },
  {
