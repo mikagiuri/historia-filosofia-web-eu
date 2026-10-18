@@ -924,6 +924,359 @@ const CRONOGRAMAS = [
   "groupsLabel": "Korronteak"
  },
  {
+  "id": "B-MED-VIAS-01",
+  "code": "B-MED-VIAS-01",
+  "title": "Bost bideak eta haien aurrekariak: argudio bakoitza, Platonengandik XX. mendera",
+  "type": "timeline",
+  "groupsLabel": "Argudioak",
+  "start": -450,
+  "end": 2026,
+  "groups": [
+   {
+    "name": "1. bidea: mugimendua",
+    "color": "var(--e-ant)"
+   },
+   {
+    "name": "2. bidea: kausa",
+    "color": "var(--e-mod)"
+   },
+   {
+    "name": "3. bidea: kontingentzia",
+    "color": "var(--e-ilu)"
+   },
+   {
+    "name": "4. bidea: mailak",
+    "color": "var(--e-med)"
+   },
+   {
+    "name": "5. bidea: ordena eta diseinua",
+    "color": "var(--e-con)"
+   },
+   {
+    "name": "Argudio ontologikoa",
+    "color": "var(--e-ren)"
+   },
+   {
+    "name": "Kalam: mundua hasi egin zen",
+    "color": "var(--e-int)"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Platon",
+    "start": -427,
+    "end": -347,
+    "grp": 0,
+    "note": "Legeak X: arima da bere burua mugitzen duen gauza bakarra, mugimendu ororen jatorria"
+   },
+   {
+    "name": "Platon · mailak",
+    "start": -427,
+    "end": -347,
+    "grp": 3,
+    "note": "Ongiaren Ideia: gauza onek haren parte hartzen dute"
+   },
+   {
+    "name": "Aristoteles",
+    "start": -384,
+    "end": -322,
+    "grp": 0,
+    "note": "Fisika VIII eta Metafisika XII: mugitzaile mugiezina, maitatuak bezala mugitzen duena"
+   },
+   {
+    "name": "Aristoteles · kausa",
+    "start": -384,
+    "end": -322,
+    "grp": 1,
+    "note": "Lau kausak; eragilea sortzen duena da"
+   },
+   {
+    "name": "Aristoteles · mailak",
+    "start": -384,
+    "end": -322,
+    "grp": 3,
+    "note": "Metafisika II: egiazkoena izakiena da (4. bideak aipatzen du)"
+   },
+   {
+    "name": "Zizeron",
+    "start": -106,
+    "end": -43,
+    "grp": 4,
+    "note": "Jainkoen naturaz II: eguzki-erlojua eta Posidonioren esfera"
+   },
+   {
+    "name": "Agustin Hiponakoa",
+    "start": 354,
+    "end": 430,
+    "grp": 3,
+    "note": "Borondate askeaz II: egia gogoaren gainetik dago"
+   },
+   {
+    "name": "Boezio",
+    "start": 480,
+    "end": 524,
+    "grp": 3,
+    "note": "Filosofiaren kontsolazioa III: ongi inperfektutik perfektura"
+   },
+   {
+    "name": "Joan Damaskokoa",
+    "start": 675,
+    "end": 749,
+    "grp": 4,
+    "note": "Fedearen azalpena I, 3: munduaren ordena"
+   },
+   {
+    "name": "Al-Kindi",
+    "start": 801,
+    "end": 873,
+    "grp": 6,
+    "note": "Mundua hasi egin zen; beraz, kausa bat du"
+   },
+   {
+    "name": "Saadia Gaon",
+    "start": 882,
+    "end": 942,
+    "grp": 6,
+    "note": "Argudio bera, judaismoan"
+   },
+   {
+    "name": "Avizena · kausa",
+    "start": 980,
+    "end": 1037,
+    "grp": 1,
+    "note": "Beste baten bidez beharrezkoa dena bere kabuz eusten ez den kate baten mende dago"
+   },
+   {
+    "name": "Avizena",
+    "start": 980,
+    "end": 1037,
+    "grp": 2,
+    "note": "Sendatzearen liburua: berez posiblea eta berez beharrezkoa"
+   },
+   {
+    "name": "Anselmo · mailak",
+    "start": 1033,
+    "end": 1109,
+    "grp": 3,
+    "note": "Monologion (1076): ongiaren mailetatik guztiz onera"
+   },
+   {
+    "name": "Anselmo Canterburykoa",
+    "start": 1033,
+    "end": 1109,
+    "grp": 5,
+    "note": "Proslogion (1077-1078): ezer handiagorik pentsa ezin daitekeen hori"
+   },
+   {
+    "name": "Gaunilon (kritika)",
+    "start": 1080,
+    "end": null,
+    "fl": true,
+    "grp": 5,
+    "note": "Zentzugabearen alde: uharte galdua"
+   },
+   {
+    "name": "Al-Ghazali",
+    "start": 1058,
+    "end": 1111,
+    "grp": 6,
+    "note": "Munduak hasiera bat izan zuela defendatzen du"
+   },
+   {
+    "name": "Averroes",
+    "start": 1126,
+    "end": 1198,
+    "grp": 0,
+    "note": "Aristotelesen mugimenduaren frogara itzultzen da"
+   },
+   {
+    "name": "Maimonides",
+    "start": 1138,
+    "end": 1204,
+    "grp": 0,
+    "note": "Nahasien gida II, 1: lehen mugitzailearen froga"
+   },
+   {
+    "name": "Maimonides · kontingentzia",
+    "start": 1138,
+    "end": 1204,
+    "grp": 2,
+    "note": "Dena ezin da jaio eta hil, ezta mundu betiereko batean ere"
+   },
+   {
+    "name": "Bonabentura",
+    "start": 1217,
+    "end": 1274,
+    "grp": 6,
+    "note": "Arrazoiak frogatu dezake mundua hasi egin zela"
+   },
+   {
+    "name": "Tomas Akinokoa · 1. bidea",
+    "start": 1225,
+    "end": 1274,
+    "grp": 0,
+    "note": "Summa Theologiae I, q. 2, a. 3 (1266-1268 inguruan): lehen mugitzailea"
+   },
+   {
+    "name": "Tomas Akinokoa · 2. bidea",
+    "start": 1225,
+    "end": 1274,
+    "grp": 1,
+    "note": "Lehen kausa eragilea"
+   },
+   {
+    "name": "Tomas Akinokoa · 3. bidea",
+    "start": 1225,
+    "end": 1274,
+    "grp": 2,
+    "note": "Berez beharrezkoa dena"
+   },
+   {
+    "name": "Tomas Akinokoa · 4. bidea",
+    "start": 1225,
+    "end": 1274,
+    "grp": 3,
+    "note": "Maximoa, perfekzio ororen kausa"
+   },
+   {
+    "name": "Tomas Akinokoa · 5. bidea",
+    "start": 1225,
+    "end": 1274,
+    "grp": 4,
+    "note": "Natura ordenatzen duen adimen bat"
+   },
+   {
+    "name": "Tomas · Anselmoren aurka",
+    "start": 1225,
+    "end": 1274,
+    "grp": 5,
+    "note": "Anselmoren argudioa baztertzen du (I, q. 2, a. 1, ad 2)"
+   },
+   {
+    "name": "Tomas · kalam-aren aurka",
+    "start": 1225,
+    "end": 1274,
+    "grp": 6,
+    "note": "Ukatzen du arrazoiak frogatu dezakeenik mundua hasi egin zela (I, q. 46, a. 2)"
+   },
+   {
+    "name": "Duns Eskoto",
+    "start": 1266,
+    "end": 1308,
+    "grp": 1,
+    "note": "Lehen kausa bat, posibletik abiatuta"
+   },
+   {
+    "name": "Gilen Ockhamgoa",
+    "start": 1287,
+    "end": 1347,
+    "grp": 1,
+    "note": "Gauzei orain existentzian eusten dien kausa"
+   },
+   {
+    "name": "Descartes",
+    "start": 1596,
+    "end": 1650,
+    "grp": 5,
+    "note": "V. gogoeta (1641): izaki perfektu baten ideia"
+   },
+   {
+    "name": "Leibniz",
+    "start": 1646,
+    "end": 1716,
+    "grp": 2,
+    "note": "Arrazoi nahikoaren printzipioa: zergatik dago zerbait, eta ez ezer? (1714)"
+   },
+   {
+    "name": "Leibniz · ontologikoa",
+    "start": 1646,
+    "end": 1716,
+    "grp": 5,
+    "note": "Argudioa osatzen du: lehenik frogatu behar da Jainkoa posiblea dela"
+   },
+   {
+    "name": "Hume (kritika)",
+    "start": 1711,
+    "end": 1776,
+    "grp": 2,
+    "note": "Elkarrizketak (1779): kausalitatea ez doa esperientziatik haratago"
+   },
+   {
+    "name": "Hume · diseinua (kritika)",
+    "start": 1711,
+    "end": 1776,
+    "grp": 4,
+    "note": "Elkarrizketak: munduaren eta makina baten arteko analogia ahula da"
+   },
+   {
+    "name": "Kant (kritika)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 2,
+    "note": "Arrazoimen hutsaren kritika (1781): froga kosmologikoak ontologikoa ezkutatzen du"
+   },
+   {
+    "name": "Kant · diseinua (kritika)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 4,
+    "note": "Munduaren ordenaren bidezko froga ez da izaki perfektu batera iristen"
+   },
+   {
+    "name": "Kant · ontologikoa (krit.)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 5,
+    "note": "«Izatea ez da predikatu erreal bat»"
+   },
+   {
+    "name": "Paley",
+    "start": 1743,
+    "end": 1805,
+    "grp": 4,
+    "note": "Teologia naturala (1802): erlojua eta begia"
+   },
+   {
+    "name": "Darwin (kritika)",
+    "start": 1809,
+    "end": 1882,
+    "grp": 4,
+    "note": "Espezieen jatorria (1859): egokitzapena, diseinatzailerik gabe"
+   },
+   {
+    "name": "Russell (kritika)",
+    "start": 1872,
+    "end": 1970,
+    "grp": 2,
+    "note": "BBCko eztabaida (1948): unibertsoa hor dago, besterik gabe"
+   },
+   {
+    "name": "Copleston",
+    "start": 1907,
+    "end": 1994,
+    "grp": 2,
+    "note": "Kontingentziaren argudioa defendatzen du Russellen aurrean (1948)"
+   },
+   {
+    "name": "Plantinga",
+    "start": 1932,
+    "end": null,
+    "vive": true,
+    "grp": 5,
+    "note": "Argudioaren bertsio modala (1974)"
+   },
+   {
+    "name": "William Lane Craig",
+    "start": 1949,
+    "end": null,
+    "vive": true,
+    "grp": 6,
+    "note": "Kalam-a itzultzen da (1979)"
+   }
+  ],
+  "events": []
+ },
+ {
   "id": "B-REN-KRO-01",
   "code": "B-REN-KRO-01",
   "title": "Errenazimentua: humanismoa, Erreforma eta iraultza zientifikoa (XV-XVII. mendeak)",

@@ -366,3 +366,159 @@ const GENEALOGIAS = {
   }
  ]
 };
+const GENEALOGIAS_PLANOS = [
+ {
+  "id": "dios",
+  "name": "Jainkoaren existentziaren frogak",
+  "desc": "Jainkoari buruzko argudioak nola igaro ziren pentsalari batzuengandik besteengana, Platonengandik XX. mendera, eta nork eraso zien.",
+  "lineas": [
+   {
+    "id": "mov",
+    "name": "1. bidea: mugimendua",
+    "color": "#e0a526",
+    "desc": "Mugitzen den oro beste batek mugitzen du, eta katea ezin da infinitua izan: badago lehen mugitzaile bat.",
+    "ilustre": [
+     "platon",
+     "aristoteles",
+     "averroes",
+     "maimonides",
+     "tomas"
+    ]
+   },
+   {
+    "id": "cau",
+    "name": "2. bidea: kausa",
+    "color": "#3fa7c9",
+    "desc": "Ezer ez da bere buruaren kausa, eta lehen kausa bat gabe ez legoke bat ere: badago lehen kausa bat.",
+    "ilustre": [
+     "aristoteles",
+     "avicena",
+     "tomas",
+     "duns_escoto",
+     "ockham"
+    ]
+   },
+   {
+    "id": "con",
+    "name": "3. bidea: kontingentzia",
+    "color": "#7b61d9",
+    "desc": "Existitu gabe egon litekeenak beste zerbait behar du existitzeko: badago berez beharrezkoa den izaki bat.",
+    "ilustre": [
+     "avicena",
+     "maimonides",
+     "tomas",
+     "leibniz",
+     "copleston"
+    ]
+   },
+   {
+    "id": "gra",
+    "name": "4. bidea: mailak",
+    "color": "#b44fc4",
+    "desc": "Gauza batzuk gehiago edo gutxiago onak eta egiazkoak badira, badago maximo bat, haien neurria eta kausa dena.",
+    "ilustre": [
+     "platon",
+     "agustin",
+     "boecio",
+     "anselmo",
+     "tomas"
+    ]
+   },
+   {
+    "id": "ord",
+    "name": "5. bidea: ordena",
+    "color": "#2e9e6b",
+    "desc": "Ezagutzarik gabeko gauzek helburu baten arabera jarduten dute, gezilariak zuzentzen duen geziak bezala: badago natura ordenatzen duen adimen bat.",
+    "ilustre": [
+     "ciceron",
+     "tomas",
+     "paley"
+    ]
+   },
+   {
+    "id": "ont",
+    "name": "Argudio ontologikoa",
+    "color": "#d95f02",
+    "desc": "Jainkoaren kontzeptutik bakarrik, «ezer handiagorik pentsa ezin daitekeen hori» izanik, existitzen dela ondorioztatuko litzateke.",
+    "ilustre": [
+     "anselmo",
+     "descartes",
+     "leibniz"
+    ]
+   },
+   {
+    "id": "kal",
+    "name": "Kalam: mundua hasi egin zen",
+    "color": "#9a7b5f",
+    "desc": "Munduak hasiera bat izan zuen, eta existitzen hasten den orok kausa bat du.",
+    "ilustre": [
+     "al_kindi",
+     "al_ghazali",
+     "buenaventura"
+    ]
+   },
+   {
+    "id": "cri",
+    "name": "Kritikariak",
+    "color": "#6e6e78",
+    "desc": "Arrazoiak Jainkoaren existentzia frogatu dezakeela zalantzan jarri zutenak.",
+    "ilustre": [
+     "hume",
+     "kant",
+     "darwin",
+     "russell"
+    ]
+   }
+  ],
+  "op": [
+   {
+    "ilustre": [
+     "anselmo",
+     "tomas"
+    ]
+   },
+   {
+    "ilustre": [
+     "tomas",
+     "buenaventura"
+    ]
+   },
+   {
+    "ilustre": [
+     "avicena",
+     "averroes"
+    ]
+   },
+   {
+    "ilustre": [
+     "al_ghazali",
+     "averroes"
+    ]
+   },
+   {
+    "ilustre": [
+     "descartes",
+     "kant"
+    ]
+   },
+   {
+    "ilustre": [
+     "hume",
+     "paley"
+    ]
+   },
+   {
+    "ilustre": [
+     "paley",
+     "darwin"
+    ]
+   },
+   {
+    "ilustre": [
+     "russell",
+     "copleston"
+    ]
+   }
+  ]
+ }
+];

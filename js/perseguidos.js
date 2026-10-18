@@ -135,7 +135,9 @@ const PERSEGUIDOS = [
  },
  {
   "id": "boecio",
-  "cas_ilu": [],
+  "cas_ilu": [
+   "boecio"
+  ],
   "nombre": "Boezio",
   "fechas": "Verona eta Pavia, 523-524",
   "cas_epoca": "med",
@@ -643,7 +645,9 @@ const PERSEGUIDOS = [
  },
  {
   "id": "condorcet",
-  "cas_ilu": [],
+  "cas_ilu": [
+   "condorcet"
+  ],
   "nombre": "Nicolas de Condorcet",
   "fechas": "Paris eta Bourg-la-Reine, 1793-1794",
   "cas_epoca": "ilu",

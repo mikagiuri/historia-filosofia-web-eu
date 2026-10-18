@@ -21255,7 +21255,7 @@ const QUIZZES = {
     "fb": "Esaldia Rosa Luxemburgen Errusiar Iraultza (1918) lanean ageri da; hark ohartarazi zuen alderdi baten diktadurak iraultza traizionatu zezakeela."
    },
    {
-    "q": "Nork proposatu zuen 1910ean Emakumeen Nazioarteko Eguna ospatzea, azkenean martxoaren 8an finkatuko zena?",
+    "q": "Zein pentsalari sozialistak proposatu zuen 1910ean, Käte Dunckerrekin eta beste ordezkari batzuekin batera, urtero Emakumeen Nazioarteko Eguna ospatzea, azkenean martxoaren 8an finkatuko zena?",
     "o": [
      "Rosa Luxemburgek",
      "Clara Zetkinek",
@@ -21263,7 +21263,7 @@ const QUIZZES = {
      "Simone de Beauvoir"
     ],
     "a": 1,
-    "fb": "Clara Zetkinek proposatu zuen 1910ean Emakumeen Nazioarteko Eguna, emakumeen askapena eta klase-borroka batuz."
+    "fb": "Clara Zetkinek proposatu zuen, Käte Dunckerrekin eta beste ordezkari batzuekin batera, Kopenhageko emakume sozialisten konferentzian (1910), oraindik data finkorik gabe; horrela, emakumeen askapena eta klase-borroka batu zituen."
    },
    {
     "q": "Fanonek dio kolonizatuari lurra ez ezik, haren hizkuntza, gorputza eta bere buruaz duen irudia ere markatuta geratzen zaizkiola. Zer ondorioztatzen du horretatik?",

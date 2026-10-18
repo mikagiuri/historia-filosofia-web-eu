@@ -721,6 +721,7 @@ const ILUSTRES = {
    "hf-verdad-no-contradice",
    "hf-islam-ideas",
    "hf-toledo-traductores",
+   "hf-cinco-vias",
    "hf-modernidad",
    "hf-montaigne-ensayos",
    "hf-renacimiento-magia",
@@ -835,6 +836,7 @@ const ILUSTRES = {
    "hf-islam-ideas",
    "hf-toledo-traductores",
    "hf-judios-andalus",
+   "hf-cinco-vias",
    "hf-modernidad",
    "hf-montaigne-ensayos",
    "hf-renacimiento-magia",
@@ -1110,6 +1112,33 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "ciceron": {
+  "name": "Marko Tulio Zizeron",
+  "dates": "K.a. 106 – 43",
+  "born": -106,
+  "died": -43,
+  "place": "Arpino (Lazio, Italia)",
+  "role": "hizlari, politikari eta filosofo erromatarra",
+  "idea": "Filosofia greziarra latinez pentsa daiteke: Zizeronek erromatarrentzat itzuli zuen, eta eskolak eztabaida baten moduan azaldu zituen, irakurleak erabaki dezan.",
+  "bio": "<p>Marko Tulio Zizeron K.a. 106an jaio zen Arpinon, Erromatik ehun bat kilometrora, familia aberats batean, baina tradizio politikorik gabean. Zuzenbidea eta erretorika ikasi zituen Erroman, eta filosofia Atenasen eta Rodasen; Rodasen <strong>Posidonio</strong> estoikoa entzun zuen. Bere garaiko hizlaririk onena izan zen, eta kontsul izatera iritsi zen K.a. 63an, <strong>Katilinaren</strong> konspirazioa desegin zuenean. Konspiratzaileak epaiketarik gabe exekutatu zituelako, urte eta erdiz erbesteratu behar izan zuen.</p>\n<p>Zesarren diktadurarekin pisu politikoa galdu zuen, eta Tulia alabaren heriotzaren ondoren, K.a. 45ean, filosofian aurkitu zuen babesa. Bi urte baino gutxiagoan idatzi zuen ia bere lan filosofiko guztia: <em>Tuskulanak</em>, <em>Jainkoen naturaz</em>, <em>Igarpenari buruz</em>, <em>Betebeharrez</em>… <strong>Akademia eszeptikoaren</strong> jarraitzailetzat zuen bere burua, hau da, probablea baino ezin dela lortu uste zuen eskola platonikoarena: epikureoen, estoikoen eta akademikoen arrazoiak azaltzen ditu, eta irakurleari uzten dio epaitzen. Horretarako, latinez existitzen ez ziren hitzak sortu behar izan zituen, <em>qualitas</em> («nolakotasuna») kasu. <em>Jainkoen naturaz</em> lanean, estoiko baten ahoan jartzen du munduaren ordenaren argudioa: eguzki-erloju batek edo zerua imitatzen duen esfera batek egile bat badute, unibertsoak ere bai. Haren <em>Hortensius</em> lanak, gaur galduta dagoenak, Agustin Hiponakoa gaztea filosofiara eraman zuen.</p>",
+  "obras": [
+   "Errepublikaz",
+   "Tuskulanak",
+   "Jainkoen naturaz",
+   "Betebeharrez"
+  ],
+  "anecdota": "<p>Zesarren heriotzaren ondoren, Zizeronek Marko Antonio eraso zuen hitzaldi sorta batean, <em>Filipikak</em> izenekoan. Antoniok, Oktaviok eta Lepidok boterea banatu zutenean, Antoniok haren heriotza eskatu zuen. Soldaduek K.a. 43an harrapatu zuten, Formiako bere landetxetik gertu, litera batean ihes egiten saiatzen ari zela. Plutarkok kontatzen duenez, Antoniok haren burua eta eskuak Foroko hizlarien tribunan erakusteko agindu zuen, hainbestetan hitz egin zuen lekuan bertan.</p>",
+  "fuente": "Plutarko, Zizeronen bizitza 47-49",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-politica",
+   "hf-cinco-vias"
+  ]
+ },
  "seneca": {
   "name": "Seneka",
   "dates": "K.a. 4 ing. – K.o. 65",
@@ -1309,6 +1338,7 @@ const ILUSTRES = {
    "hf-verdad-no-contradice",
    "hf-islam-ideas",
    "hf-toledo-traductores",
+   "hf-cinco-vias",
    "hf-montaigne-ensayos",
    "hf-renacimiento-magia",
    "hf-racionalismo",
@@ -1337,6 +1367,35 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "boecio": {
+  "name": "Boezio",
+  "dates": "480 ing. – 524",
+  "born": 480,
+  "died": 524,
+  "place": "Erroma",
+  "role": "filosofo eta politikari erromatarra",
+  "idea": "Benetako zoriontasuna ez dago fortunaren ondasunetan, etorri eta joan egiten baitira, ongi perfektuan baizik, hau da, Jainkoarengan: ongi inperfektuak badaude, perfektu batek egon behar du.",
+  "bio": "<p>Anizio Manlio Severino Boezio 480. urte inguruan jaio zen Erromako familiarik nobleenetako batean, Italia errege germaniarrek gobernatzen zutenean. 510ean kontsul izan zen, eta geroago <em>magister officiorum</em>, <strong>Teodoriko</strong> errege ostrogodoaren gorteko kargu gorenetako bat, Ravennan. Platonen eta Aristotelesen lan guztiak latinera itzultzea eta ados zeudela erakustea jarri zuen helburu. Ezin izan zuen amaitu, baina Aristotelesen logika eta Porfirioren <em>Sarrera</em> itzuli eta iruzkindu zituen. Sei mendez, Europa latindarrak haren liburuekin ikasi zuen logika, eta Porfiriori egindako iruzkinaren bidez iritsi zen Erdi Arora <strong>unibertsalen arazoa</strong>.</p>\n<p>523 inguruan traizioa leporatu zioten, Konstantinoplako enperadorearekin konspiratzea susmatzen zuten senatari bat defendatzeagatik. Paviatik gertu giltzapetu eta exekutatu egin zuten. Kartzelan idatzi zuen <em>Filosofiaren kontsolazioa</em>, Erdi Aroko liburu irakurrienetako bat: Filosofiak bisitatu egiten du, eta irakasten dio fortuna biraka dabilen gurpil bat dela eta ongi gorena Jainkoa dela. III. liburuan arrazoitzen du ongi inperfektuak badaude ongi perfektu batek existitu behar duela; Anselmok eta Tomasen laugarren bideak antzeko arrazoibidea erabiliko dute.</p>",
+  "obras": [
+   "Filosofiaren kontsolazioa (524 inguruan)",
+   "Aristotelesen logikaren itzulpenak eta iruzkinak",
+   "Porfirioren Sarrerari egindako iruzkinak"
+  ],
+  "anecdota": "<p><em>Kontsolazioa</em> eszena batekin hasten da. Boeziok, kartzelan, bertso tristeak idazten ditu, poesiaren Musek lagunduta. Orduan emakume maiestatetsu bat agertzen da, altuera aldakorrekoa: batzuetan altuera arruntekoa dirudi, eta beste batzuetan buruaz zerua ukitzen du. Soineko urratua darama, eskola bakoitzak zati bat eraman baitu. Filosofia da, eta Musak kanporatu eta presoa arrazoiekin sendatzen hasten da.</p>",
+  "fuente": "Boezio, Filosofiaren kontsolazioa I, 1. eta 3. prosak",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-comunidades-perseguidos",
+   "hf-aristoteles-arabe",
+   "hf-toledo-traductores",
+   "hf-cinco-vias",
+   "hf-kant-juicios"
+  ]
+ },
  "isidoro": {
   "name": "Isidoro Sevillakoa",
   "dates": "c. 556 – 636",
@@ -1361,6 +1420,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-filosofia-espanola"
+  ]
+ },
+ "al_kindi": {
+  "name": "Al-Kindi",
+  "dates": "801 ing. – 873 ing.",
+  "born": 801,
+  "died": 873,
+  "place": "Kufa (gaur egungo Irak)",
+  "role": "filosofo eta zientzialari arabiarra",
+  "idea": "Egia onartu egin behar da, datorren lekutik datorrela, herri urrunetatik bada ere: greziarren filosofia eta islamaren fedea ez daude elkarren aurka.",
+  "bio": "<p>Abu Yusuf Yaqub ibn Ishaq al-Kindi 801. urte inguruan jaio zen Kufan, familia arabiar noble batean, eta Bagdaden bizi izan zen al-Mamun eta al-Mutasim kalifen garaian; azken honek bere semearen hezkuntza agindu zion. Arabieraz idatzi zuen lehen filosofo handia da; horregatik deitu zioten «arabiarren filosofoa». Itzultzaile talde bat zuzendu zuen, eta talde horrek lan greziarrak itzuli zituen arabierara, besteak beste Plotinoren egokitzapen bat, <em>Aristotelesen teologia</em> izenarekin zabaldu zena. Matematikaz, astronomiaz, optikaz, medikuntzaz, musikaz eta kriptografiaz idatzi zuen: mezu sekretuak deszifratzeko haren tratatua da ezagutzen den lehena, mezu bat nola deszifratu azaltzen duena, letra bakoitza zenbat aldiz agertzen den zenbatuz (maiztasun-analisia).</p>\n<p><em>Lehen filosofiaz</em> lanean defendatzen du filosofia gauzak beren kausen bidez ezagutzea dela eta haren gailurra Jainkoa ezagutzea dela, Bat egiazkoa. Aristotelesen aurka, dio mundua <strong>ez dela betierekoa</strong>: dagoeneko igarotako denbora infinitu bat ezinezkoa da; beraz, munduak hasiera bat izan zuen eta ezerezetik sortua izan zen. Joan Filopono kristau greziarrarengandik zetorren argudioa da, eta <em>kalam</em>-eko teologoek ere erabiltzen zuten, hau da, islamaren teologia arrazionalekoek.</p>",
+  "obras": [
+   "Lehen filosofiaz",
+   "Mezu zifratuak deszifratzeari buruzko tratatua",
+   "Adimenaz"
+  ],
+  "anecdota": "<p>Geroagoko biografoek kontatzen dutenez, al-Kindik etsaiak izan zituen gortean, Banu Musa anaiak, jakintsu arerioak. Al-Mutawakkil kalifaren garaian lortu zuten hura baztertzea eta haren liburutegia konfiskatzea. Geroago, anaia berek Sanad ibn Ali ingeniariaren laguntza behar izan zuten gaizki atera zitzaien ubide baterako, eta honek liburuak itzultzen bazizkioten bakarrik onartu zuen.</p>",
+  "fuente": "Ibn Abi Usaybia, Medikuen mailei buruzko albiste-iturriak (XIII. mendea)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-aristoteles-arabe",
+   "hf-verdad-no-contradice",
+   "hf-cinco-vias"
   ]
  },
  "escoto_erigena": {
@@ -1412,6 +1498,7 @@ const ILUSTRES = {
    "hf-islam-ideas",
    "hf-toledo-traductores",
    "hf-judios-andalus",
+   "hf-cinco-vias",
    "hf-renacimiento-magia",
    "hf-kant-juicios"
   ]
@@ -1440,7 +1527,40 @@ const ILUSTRES = {
   "temas": [
    "hf-medieval",
    "hf-fe-razon",
+   "hf-cinco-vias",
    "hf-racionalismo"
+  ]
+ },
+ "al_ghazali": {
+  "name": "Al-Ghazali",
+  "dates": "1058 – 1111",
+  "born": 1058,
+  "died": 1111,
+  "place": "Tus (Persia, gaur egungo Iran)",
+  "role": "teologo, jurista eta mistiko musulmana",
+  "idea": "Filosofoen arrazoiak ez ditu frogatzen frogatu nahi dituen gauza guztiak: munduaren betierekotasuna bezalako tesiak ez daude frogatuta, eta ziurtasunik sakonena barne-esperientziaren bidez dator.",
+  "bio": "<p>Abu Hamid al-Ghazali 1058an jaio zen Tusen, Persiaren ipar-ekialdean. Nishapurren ikasi zuen, al-Juwayni teologoarekin, eta 1091n Nizam al-Mulk bisirrak Bagdadeko eskola handiko, Nizamiyyako, irakasle izendatu zuen. Han sakon aztertu zituen filosofoak, batez ere Avizena. Lehenik argi laburbildu zituen <em>Filosofoen asmoak</em> lanean, eta gero kritikatu egin zituen <em>Filosofoen inkoherentzia</em> lanean (1095 inguruan). Lan horretan haien hogei tesi aztertzen ditu, eta hiru fedearen aurkakotzat jotzen ditu: mundua betierekoa dela, Jainkoak ez dituela gauza partikularrak ezagutzen eta ez dagoela gorputzen berpizkunderik. Dio filosofoek ez dutela lortzen mundua betierekoa dela frogatzea; beste lan batzuetan defendatzen du munduak hasiera bat izan zuela eta existitzen hasten den orok kausa bat duela.</p>\n<p>1095ean, ospearen gailurrean, krisi bat izan zuen: irakaskuntza eta Bagdad utzi zituen, eta hamar bat urte eman zituen erretiroan eta bidaian, Damaskon, Jerusalemen eta Mekan barrena, sufien bide mistikoa praktikatuz. Etapa horretatik atera zen <em>Erlijio-zientzien biziberritzea</em>. Nishapurren irakasten itzuli zen, eta Tusen hil zen 1111n. Averroesek <em>Inkoherentziaren inkoherentzia</em> lanarekin erantzun zion. XII. mendeko latindarrek haren <em>Asmoak</em> bakarrik itzuli zituzten (eta kritika iragartzen zuen hitzaurrerik gabe), eta Avizenaren jarraitzaile bat zela uste izan zuten, «Algazel» izenarekin.</p>",
+  "obras": [
+   "Filosofoen asmoak",
+   "Filosofoen inkoherentzia (1095 inguruan)",
+   "Erlijio-zientzien biziberritzea",
+   "Errakuntzatik salbatzen duena"
+  ],
+  "anecdota": "<p>Bere autobiografian, <em>Errakuntzatik salbatzen duena</em> lanean, al-Ghazalik kontatzen du hilabetez zalantzan egon zela bere karrera bikainarekin jarraitu ala dena utzi. Harik eta haren gorputzak erabaki zuen arte: egun batean mihia trabatu zitzaion eta ezin izan zuen eskola eman. Gosea galdu zuen, eta medikuek, hura nola sendatu jakin gabe, esan zuten gaitza bihotzean sortua zela eta bihotza larritasun horretatik askatzen bazen bakarrik sendatuko zela. Handik gutxira Bagdadetik alde egin zuen.</p>",
+  "fuente": "Al-Ghazali, Errakuntzatik salbatzen duena (kontakizun autobiografikoa)",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-beefs",
+   "hf-aristoteles-arabe",
+   "hf-verdad-no-contradice",
+   "hf-islam-ideas",
+   "hf-toledo-traductores",
+   "hf-cinco-vias",
+   "hf-kant-juicios"
   ]
  },
  "abelardo": {
@@ -1590,6 +1710,7 @@ const ILUSTRES = {
    "hf-aristoteles-arabe",
    "hf-verdad-no-contradice",
    "hf-toledo-traductores",
+   "hf-cinco-vias",
    "hf-montaigne-ensayos"
   ]
  },
@@ -1617,6 +1738,7 @@ const ILUSTRES = {
    "hf-verdad-no-contradice",
    "hf-islam-ideas",
    "hf-judios-andalus",
+   "hf-cinco-vias",
    "hf-renacimiento-magia"
   ]
  },
@@ -1642,6 +1764,32 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": []
+ },
+ "buenaventura": {
+  "name": "Bonabentura",
+  "dates": "1217 ing. – 1274",
+  "born": 1217,
+  "died": 1274,
+  "place": "Bagnoregio (Italia)",
+  "role": "teologo eta filosofo frantziskotarra",
+  "idea": "Jakintza orok Jainkoarengana eraman behar du: mundua bere egilearen arrastoz betetako liburu bat bezalakoa da, eta gogoa arrasto horietatik igotzen da, eskailera batetik bezala.",
+  "bio": "<p>Joan Fidanza 1217 inguruan jaio zen Bagnoregion, Viterbotik gertu. Tradizioaren arabera, Bonabentura izena haurtzaroan Frantzisko deunari egotzitako sendatze batetik datorkio. Parisen ikasi zuen, ordena frantziskotarrean sartu zen 1243 inguruan, eta unibertsitatean irakatsi zuen Tomas Akinokoaren urte beretan: biak 1257an aitortu zituzten maisu. Urte berean frantziskotarren ministro nagusi hautatu zuten, eta hamazazpi urtez gobernatu zuen ordena, zatiketa betean zegoela.</p>\n<p>Agustinekiko leiala, mesfidati zen fedetik bereizitako Aristotelesen filosofia batekin. <em>Gogoaren ibilbidea Jainkoarengana</em> (1259) lanean deskribatzen ditu arima munduan dauden Jainkoaren arrastoetatik harengana igotzeko sei mailak. Tomasek ez bezala, zioen arrazoiak <strong>badezakeela frogatu mundua hasi zela</strong>: mundu betiereko batek dagoeneko igarotako egun kopuru infinitu bat suposatuko luke, eta hori ezinezkoa iruditzen zitzaion. Parisko bere azken ikasgaietan (1273) aristoteliko erradikalei eraso zien, hau da, fedearen kontra egiten zuen lekuetan ere Aristotelesi jarraitzen zioten irakasleei. Urte hartan kardinal izendatu zuten, eta 1274an hil zen, Lyongo kontzilioan, Tomas baino hilabete batzuk geroago.</p>",
+  "obras": [
+   "Gogoaren ibilbidea Jainkoarengana (1259)",
+   "Sententziei buruzko iruzkina",
+   "Breviloquium",
+   "Hexameronari buruzko ikasgaiak (1273)"
+  ],
+  "anecdota": "<p>Tradizio frantziskotar batek kontatzen duenez, aitasantuaren mandatariak kardinal-kapeloa ematera iritsi zirenean, Bonabentura platerak garbitzen ari zen komentu batean. Kapeloa zuhaitz baten adarretik zintzilikatzeko eskatu zien, bera bukatu bitartean, eta gero bakarrik jaso zuen.</p>",
+  "fuente": "Geroagoko tradizio frantziskotarra (ez da agertzen bere garaiko agirietan)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-cinco-vias"
+  ]
  },
  "roger_bacon": {
   "name": "Roger Bacon",
@@ -1707,6 +1855,7 @@ const ILUSTRES = {
    "hf-verdad-no-contradice",
    "hf-toledo-traductores",
    "hf-judios-andalus",
+   "hf-cinco-vias",
    "hf-montaigne-ensayos"
   ]
  },
@@ -1795,7 +1944,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-cinco-vias"
+  ]
  },
  "ockham": {
   "name": "Gilen Ockhamgoa",
@@ -1833,6 +1984,7 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-medieval",
    "hf-fe-razon",
+   "hf-cinco-vias",
    "hf-modernidad"
   ]
  },
@@ -2534,6 +2686,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-platon-agustin",
    "hf-fe-razon",
+   "hf-cinco-vias",
    "hf-modernidad",
    "hf-montaigne-ensayos",
    "hf-renacimiento-magia",
@@ -2784,6 +2937,7 @@ const ILUSTRES = {
   "temas": [
    "hf-filosofia-espanola",
    "hf-beefs",
+   "hf-cinco-vias",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
@@ -3053,6 +3207,7 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-verdad-no-contradice",
+   "hf-cinco-vias",
    "hf-modernidad",
    "hf-montaigne-ensayos",
    "hf-racionalismo",
@@ -3264,6 +3419,7 @@ const ILUSTRES = {
    "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
+   "hf-cinco-vias",
    "hf-montaigne-ensayos",
    "hf-racionalismo",
    "hf-metafisica",
@@ -3411,6 +3567,59 @@ const ILUSTRES = {
   "temas": [
    "hf-spinoza-universal",
    "hf-kant-poetas"
+  ]
+ },
+ "paley": {
+  "name": "William Paley",
+  "dates": "1743 – 1805",
+  "born": 1743,
+  "died": 1805,
+  "place": "Peterborough (Ingalaterra)",
+  "role": "elizgizon eta filosofo ingelesa",
+  "idea": "Erloju bat aurkitzean norbaitek egin zuela ondorioztatzen badugu, begiak eta izaki bizidunen gainerako organoek, askoz konplexuagoak izanik, diseinatzaile adimendun bat eskatzen dute.",
+  "bio": "<p>William Paley 1743an jaio zen Peterborough-n, eskola bat zuzentzen zuen elizgizon baten semea. Matematika ikasi zuen Cambridgeko Christ’s College-n; han bere promozioko notarik onena atera zuen matematikako azterketetan (1763), eta gero irakasle izan zen. Ingalaterrako Elizako apaiz ordenatu zuten, eta Carlisleko artxidiakono izatera iritsi zen. Haren liburuak Cambridgeko eskuliburu izan ziren hamarkadetan. <em>Filosofia moral eta politikoaren printzipioak</em> (1785) lanak erabilgarritasunaren morala defendatzen du eta esklaboen salerosketa kritikatzen du.</p>\n<p>Haren lanik ospetsuena <em>Teologia naturala</em> da (1802). Irudi batekin hasten da: txilardi bat zeharkatzean harri batekin estropezu egiten badut, pentsa dezaket beti hor egon dela; baina erloju bat aurkitzen badut, haren piezek, denbora neurtzeko doituta daudenez, erlojugile batengan pentsatzera behartzen naute. Ondoren, Paleyk begia, artikulazioak edo hegaztien hegoak aztertzen ditu, naturak diseinu bat erakusten duela ondorioztatzeko. Mende erdi geroago, Darwinek, Cambridgeko ikastetxe berean Paley ikasia zuenak, egokitzapen hori hautespen naturalaren bidez azaldu zuen.</p>",
+  "obras": [
+   "Filosofia moral eta politikoaren printzipioak (1785)",
+   "Kristautasunaren frogen ikuspegi bat (1794)",
+   "Teologia naturala (1802)"
+  ],
+  "anecdota": "<p>Paleyren argudioa euskarririk gabe utzi zuen zientzialaria haren miresle handienetako bat ere izan zen. 1859an, <em>Espezieen jatorria</em> argitaratu zen urte berean, Charles Darwinek lagun bati idatzi zion ia inoiz ez zuela liburu bat <em>Teologia naturala</em> bezainbeste miretsi, eta gaztetan ia buruz errezitatu zezakeela.</p>",
+  "fuente": "Charles Darwinek John Lubbocki idatzitako gutuna, 1859ko azaroaren 22a (Darwin Correspondence Project)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-cinco-vias"
+  ]
+ },
+ "condorcet": {
+  "name": "Nicolas de Condorcet",
+  "dates": "1743 – 1794",
+  "born": 1743,
+  "died": 1794,
+  "place": "Ribemont (Pikardia, Frantzia)",
+  "role": "matematikaria, filosofo ilustratua eta Frantziako Iraultzako politikaria",
+  "idea": "Gizadiak aurrez finkatutako mugarik gabe aurrera egin dezake arrazoiari, zientziari eta hezkuntzari esker, eta aurrerapen horrek eskubide berberak eskatzen ditu guztientzat: baita emakumeentzat eta esklaboentzat ere.",
+  "bio": "<p>Marie Jean Antoine Nicolas de Caritat, Condorceteko markesa, 1743an jaio zen Ribemonten, Frantziako iparraldean. Bere aita, zaldizkako ofiziala, haurra zela hil zen. Jesuitekin ikasi zuen Reimsen eta Parisko Nafarroako Ikastetxean, eta matematikari eman zion bere burua: 1769an, hogeita bost urte besterik ez zituela, Zientzien Akademian sartu zen, eta 1776tik idazkari iraunkorra izan zen. D’Alemberten eta Turgoten laguna, matematikako artikuluekin lagundu zuen <em>Entziklopediaren</em> <em>Gehigarrian</em>, eta 1782an Frantziako Akademiako kide hautatu zuten. <em>Gehiengoz hartutako erabakien probabilitateari analisia aplikatzeari buruzko saiakera</em> lanean (1785) bozketak matematikaren bidez aztertu zituen, eta aurkitu zuen hiru aukera edo gehiago daudenean gehiengoaren lehentasunek zirkulu bat osa dezaketela: gehiengoak A nahiago du B baino, B nahiago du C baino eta, hala ere, C nahiago du A baino. Hori da «Condorceten paradoxa».</p>\n<p>Condorcetek bere zientzia eskubideen zerbitzura jarri zuen. 1781ean, «M. Schwartz» izengoitiarekin, <em>Beltzen esklabotzari buruzko gogoetak</em> argitaratu zituen; bertan esklabotza gaitzetsi eta pixkanaka ezabatzea proposatzen zuen. Gainera, Beltzen Lagunen Elkarteko (1788) lehen kideetako bat izan zen, eta elkarteko buru ere izan zen. 1790ean artikulu batean defendatu zuen emakumeak herritar gisa onartzea, gizonen eskubide politiko berberekin; garai hartan ia inork ez zuen hori defendatzen. Iraultzan diputatua izanik, 1792an irakaskuntza publikorako plan bat aurkeztu zuen, maila guztietan doakoa eta erlijio-irakaskuntzarik gabea, baina ez zen inoiz aplikatu; lehenago ere defendatua zuen neskek eta mutilek irakaskuntza bera jaso behar zutela. Heriotza-zigorraren aurka ere agertu zen, baita Luis XVI.aren epaiketan ere. Jakobinoen konstituzioa kritikatzeagatik, Konbentzioak atxilotzeko agindua eman zuen 1793ko uztailean. Parisen ezkutatuta, <em>Giza espirituaren aurrerapenen koadro historiko baten zirriborroa</em> idatzi zuen. 1794ko martxoan atxilotu zuten, eta egun gutxi geroago hil zen Bourg-la-Reineko espetxean.</p>",
+  "obras": [
+   "Beltzen esklabotzari buruzko gogoetak (1781)",
+   "Gehiengoz hartutako erabakien probabilitateari analisia aplikatzeari buruzko saiakera (1785)",
+   "Emakumeak herritartasun-eskubidera onartzeaz (1790)",
+   "Irakaskuntza publikoari buruzko bost txosten (1791)",
+   "Giza espirituaren aurrerapenen koadro historiko baten zirriborroa (1795, hil ondoren argitaratua)"
+  ],
+  "anecdota": "<p>1794ko martxoaren 25ean bere ezkutalekua utzi zuenean, Condorcetek bi egun eman zituen Parisko inguruetan noraezean, nekatuta eta goseak. Bere biografoek diotenez, Clamarteko ostatu batean sartu eta arrautzopil bat eskatu zuen. Zenbat arrautza nahi zituen galdetu ziotenean, «dozena bat» erantzun zuen. Kontakizunaren arabera, erantzun horrek agerian utzi zuen inoiz sukaldean aritu ez zen norbait zela, jaun bat, eta ez zela esaten zuen langilea. Gainera paperik ez zeramanez, susmoak piztu zituen eta atxilotu egin zuten. XIX. mendetik errepikatzen den eszena da, agian apainduta, baina ondo erretratatzen du liburuetatik kanpo galduta dagoen jakintsua.</p>",
+  "fuente": "XIX. mendetik bere biografoek errepikatzen duten kontakizun tradizionala; atxiloketaren xehetasunak ez daude ziurtasunez dokumentatuta",
+  "tradicion": true,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-comunidades-perseguidos",
+   "hf-ilustracion"
   ]
  },
  "herder": {
@@ -4427,6 +4636,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-cinco-vias",
    "hf-sospecha"
   ]
  },
@@ -4770,6 +4980,31 @@ const ILUSTRES = {
    "hf-posmodernidad"
   ]
  },
+ "zetkin": {
+  "name": "Clara Zetkinek",
+  "dates": "1857 – 1933",
+  "born": 1857,
+  "died": 1933,
+  "place": "Wiederau (Saxonia, Alemania)",
+  "role": "politikari, kazetari eta teorialari sozialista alemaniarra",
+  "idea": "Emakumeen emantzipazioa eta klase-borroka batu zituen: independentzia ekonomikorik gabe eta gizarte kapitalista aldatu gabe, legearen aurreko berdintasuna erdizka geratzen da.",
+  "bio": "<p>Clara Eißner 1857an jaio zen Wiederaun, Saxoniako herri batean; aita eskola-maisua zuen. Leipzigen maistra izateko ikasi zuen, eta han ezagutu zituen langile-mugimendua eta Ossip Zetkin errusiar erbesteratua; haren abizena hartu zuen, nahiz eta ez ziren inoiz ezkondu. Bismarcken lege antisozialistek iraun zuten bitartean (1878-1890), Zürichen eta gero Parisen bizi izan zen erbestean; Parisen jaio ziren bere bi semeak. 1889an, Bigarren Internazionalaren sortze-biltzarrean, defendatu zuen emakumeek gizonen baldintza berberetan lan egiteko eskubidea zutela eta haien emantzipazioa <strong>independentzia ekonomikoaren</strong> araberakoa zela.</p>\n<p>Alemaniara itzulita, hogeita bost urtez zuzendu zuen <em>Die Gleichheit</em> («Berdintasuna»), Alderdi Sozialdemokratako emakumeen aldizkaria, eta emakume sozialisten mugimendua antolatu zuen. Ez zuen <strong>feminismo burgesarekin</strong> elkarlanean aritu nahi, haren ustez gizarte zegoenaren barruko lege-berdintasuna baino ez baitzuen bilatzen; banaketa hori asko eztabaidatu zen jada bere garaian. 1910ean, Kopenhageko emakume sozialisten nazioarteko konferentzian, Käte Dunckerrekin eta beste ordezkari batzuekin batera proposatu zuen urtero emakumearen nazioarteko eguna ospatzea, oraindik data finkorik gabe; martxoaren 8a geroago nagusitu zen. Lehen Mundu Gerraren aurka agertu zen: 1915ean Bernan bildu zituen elkarren aurka zeuden herrialdeetako sozialistak gerraren aurka, eta horregatik hainbat hilabetez atxilotu zuten; 1917an zuzendaritza sozialdemokratak <em>Die Gleichheit</em>en zuzendaritza kendu zion. Urte hartan Alderdi Sozialdemokrata Independentera igaro zen, Rosa Luxemburgen eta Karl Liebknechten Liga Espartakistatik hurbil, eta 1919an Alemaniako Alderdi Komunistan sartu zen; alderdi horren diputatua izan zen Reichstagean (Alemaniako Parlamentuan) 1920tik 1933ra. 1921etik aurrera Internazional Komunistaren zuzendaritzako kide izan zen, eta azken urteak batez ere Sobietar Batasunean eman zituen; erregimen hori jendaurrean defendatu zuen, nahiz eta zuzendaritza komunistaren zenbait erabakirekin ados ez egon. Bere irudiak eztabaidagarria izaten jarraitzen du: batzuek emakumeen eskubideen eta faxismoaren aurkako borroka nabarmentzen dute; beste batzuek, Stalinen Sobietar Batasunari emandako babesa. Arkhangelskoien hil zen, Moskutik gertu, 1933ko ekainaren 20an, Hitler boterera iritsi eta hilabete gutxira. Webguneak Marxen ondorengo kapitalismoaren kritikan aztertzen du, Lenin eta Rosa Luxemburgekin batera, marxismoaren barruan emakumeen berdintasunaren eta <strong>klase-borrokaren</strong> arteko harremanari buruzko eztabaida irekia izan zela erakusteko.</p>",
+  "obras": [
+   "Emakume langileen eta emakumeen auzia gaur egun (1889)",
+   "Die Gleichheit («Berdintasuna»), 1892tik 1917ra zuzendu zuen aldizkaria",
+   "Leninen oroitzapenak (1924an idatzia)"
+  ],
+  "anecdota": "<p>1932ko abuztuan, hirurogeita hamabost urterekin, gaixorik eta ia itsu, Clara Zetkin Moskutik itzuli zen Reichstag berria irekitzeko, diputaturik zaharrena zenez irekiera-saioa zuzentzea zegokiolako. Naziak talderik handiena ziren ganbera baten aurrean, langile guztien fronte bakarra eskatu zuen faxismoaren aurka, eta amaitzeko esan zuen bizirik iraun nahi zuela Alemania sobietar baten kontseiluen lehen biltzarra irekitzeko, hura ere adinez zaharrena zelako. Saioa amaitzean, Reichstagak Hermann Göring hautatu zuen presidente.</p>",
+  "fuente": "Verhandlungen des Reichstags, VI. Wahlperiode 1932, Stenographische Berichte, 1. saioa, 1932ko abuztuaren 30a (Reichstagaren akta takigrafikoak)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-capitalismo"
+  ]
+ },
  "bergson": {
   "name": "Henri Bergson",
   "dates": "1859 – 1941",
@@ -4977,6 +5212,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-mito",
+   "hf-cinco-vias",
    "hf-analitica"
   ]
  },
@@ -5463,7 +5699,6 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-platon",
    "hf-politica",
-   "hf-utopias-autoras",
    "hf-sospecha",
    "hf-capitalismo",
    "hf-analitica"
@@ -5493,6 +5728,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-montaigne-ensayos",
+   "hf-utopias-autoras",
    "hf-marxismos",
    "hf-capitalismo"
   ]
@@ -5578,6 +5814,31 @@ const ILUSTRES = {
   "temas": [
    "hf-ilustracion",
    "hf-capitalismo"
+  ]
+ },
+ "copleston": {
+  "name": "Frederick Copleston",
+  "dates": "1907 – 1994",
+  "born": 1907,
+  "died": 1994,
+  "place": "Trull, Tauntondik gertu (Ingalaterra)",
+  "role": "apaiz jesuita eta filosofiaren historialaria",
+  "idea": "Munduan dagoen guztia existitu gabe egon ahal bada, mundua ez da bere kabuz azaltzen: bere baitatik existitzen den eta zerbait egotearen arrazoia den izaki bat behar da.",
+  "bio": "<p>Frederick Charles Copleston 1907an jaio zen Tauntondik gertu, familia anglikano batean. Hemezortzi urterekin katoliko egin zen, eta Oxforden ikasi ondoren, Jesusen Lagundian sartu zen 1930ean. Filosofia irakatsi zuen Ingalaterrako Heythrop College-n eta Erromako Unibertsitate Gregorianoan.</p>\n<p>Haren lan nagusia bederatzi liburukiko <em>Filosofiaren historia</em> da (1946-1975), argia eta orekatua; mundu osoko ikasleen belaunaldiek ikasi dute harekin, eta gaztelaniara itzuli zen. 1948an BBCko irratian eztabaidatu zuen Bertrand Russellekin Jainkoaren existentziaz. Coplestonek kontingentziaren argudioa defendatu zuen, Tomasen hirugarren bidearen oinordekoa, eta Russellek erantzun zuen unibertso osoaren kausaz galdetzeak ez duela zentzurik. Hurrengo urtean, irrati berean, A. J. Ayerrekin eztabaidatu zuen positibismo logikoaz.</p>",
+  "obras": [
+   "Filosofiaren historia (9 liburuki, 1946-1975)",
+   "Aquinas (1955)",
+   "Bertrand Russellekin Jainkoaren existentziari buruzko eztabaida (BBC, 1948)"
+  ],
+  "anecdota": "<p>1948ko eztabaidan, Russellek unibertso osoaren kausaz galdetzeak zentzurik ez zuela esan zuenean (harentzat, unibertsoa «hor dago, besterik gabe, eta kitto»), Coplestonek xakeko irudi batekin erantzun zion: norbaitek taularen aurrean esertzeari eta pieza bat mugitzeari uko egiten badio, ezinezkoa da hari xake-mate ematea. Esan nahi zuen Russellek ez zuela argudioa gezurtatzen: galdera egiteari uko egiten ziola. Russellek, bere aldetik, uste zuen galdera horrek zentzua zuela bakarrik zirudiela.</p>",
+  "fuente": "Russell-Copleston eztabaidaren transkripzioa (BBC, 1948ko urtarrilaren 28a), B. Russellen Zergatik ez naizen kristaua (1957) liburuan argitaratua",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-cinco-vias"
   ]
  },
  "beauvoir": {
