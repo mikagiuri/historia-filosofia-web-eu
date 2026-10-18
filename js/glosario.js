@@ -4000,6 +4000,100 @@ const GLOSARIO = [
    "descartes",
    "leibniz"
   ]
+ },
+ {
+  "subject": "hf",
+  "t": "Hiparkia Maroneakoa",
+  "area": "Historia",
+  "bloque": "A",
+  "unidad": "A10",
+  "tema": "Helenismoa",
+  "def": "Filosofo zinikoa (K.a. IV-III. m.), Antzinaroko emakume filosofo bakanetako bat, haren berri dugunetako bat. Aberastasunari uko egin zion naturaren arabera bizitzeko Krates ondoan, ideal zinikoa bere emakume-izaerari ere aplikatuz.",
+  "ilustre": [
+   "hiparquia"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Margarita Porete",
+  "area": "Erlijioa",
+  "bloque": "B",
+  "tema": "Erdi Aroko filosofia",
+  "def": "Mistikoa eta beginoa (c. 1250-1310). *Arima soilen ispilua* lanean arimaren eta Jainkoaren arteko batasun zuzena defendatu zuen maitasunaren eta askatasunaren bidez, kleroaren bitartekaritzarik gabe. Pariseko Inkisizioak heretiko gisa erre zuen 1310ean.",
+  "ilustre": [
+   "porete"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Christine de Pizan",
+  "area": "Feminismoa",
+  "bloque": "B",
+  "tema": "Erdi Aroko filosofia",
+  "def": "Idazlea (1364-c. 1430), Europan bere lumatik bizi izan zen lehen emakumea. *Damen hiria* lanean bere garaiko misoginia argudioekin ezeztatu zuen; «emakumeen auziaren» aitzindaritzat jotzen da.",
+  "ilustre": [
+   "pizan"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Emakumeen auzia",
+  "area": "Feminismoa",
+  "bloque": "B",
+  "tema": "Erdi Aroko filosofia",
+  "def": "Christine de Pizanek 1400 inguruan «Arrosaren auziarekin» ireki zuen polemika luzea, emakumeen duintasunaz eta gaitasun intelektualaz; Europako kulturan Frantziako Iraultzaraino luzatu zen.",
+  "ilustre": [
+   "pizan"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "María de Maeztu",
+  "area": "Hezkuntza",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "Existentzialismoa",
+  "def": "Pedagogoa (1881-1948), Unamunoren eta Ortegaren ikaslea. Residencia de Señoritas zuzendu zuen (1915-1936), espainiar gazteei unibertsitaterako eta bizitza intelektualerako sarbidea ireki ziena.",
+  "ilustre": [
+   "maeztu"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Lou Andreas-Salomé",
+  "area": "Psikologia",
+  "bloque": "C",
+  "unidad": "CN",
+  "tema": "Susmoaren filosofoak",
+  "def": "Idazlea eta psikoanalista (1861-1937), Nietzscheren, Rilkeren eta Freuden solaskidea. Nietzscheren filosofiaren lehen azterketa serioetako baten egilea eta erotismoari eta erlijiotasunari buruzko saiakerena.",
+  "ilustre": [
+   "salome"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Behar erradikalak",
+  "et": "*Erradikala*, latinezko *radix*, «sustraia»: sustraia ukitzen duena.",
+  "area": "Politika",
+  "bloque": "C",
+  "unidad": "C5A",
+  "tema": "Marxismoaren ondorengo borrokak",
+  "def": "Ágnes Hellerren arabera, kapitalismoak ase ezin dituen eta, gizarte-errealitatearekin talka egitean, aldaketa emantzipatzaile baterantz bultzatzen duten behar kualitatiboki goragokoak.",
+  "ilustre": [
+   "heller"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Ágnes Heller",
+  "area": "Politika",
+  "bloque": "C",
+  "unidad": "C5A",
+  "tema": "Marxismoaren ondorengo borrokak",
+  "def": "Filosofo hungariarra (1929-2019), Budapesteko Eskolakoa. Eguneroko bizitza eta behar erradikalak marxismotik pentsatu zituen; geroago sozialismo erreala «beharren diktadura» gisa kritikatu zuen eta demokrazia defendatu.",
+  "ilustre": [
+   "heller"
+  ]
  }
 ];
 const GLOSARIO_TRAMPAS = {

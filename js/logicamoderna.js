@@ -115,6 +115,7 @@ function logRenderInferencia(){
   return '<div class="lg-panel"><h2>' + logmT("validas") + '</h2><div class="lg-reglas">' + LOGM_REGLAS.map(x => logmCarta(x, false)).join("") + "</div></div>" +
     '<div class="lg-panel"><h2>' + logmT("falacias") + '</h2><div class="lg-reglas">' + LOGM_FALACIAS.map(x => logmCarta(x, true)).join("") + "</div></div>" +
     '<p><button type="button" class="btn ghost" data-lgtab="falacias">' + logmT("falVer") + "</button></p>" +
+    '<p><button type="button" class="btn ghost" data-lgtab="leyes">' + logmT("leyesIr") + "</button></p>" +
     '<div class="lg-panel"><h2>' + logmT("ejTit") + '</h2><p class="lg-nota">' + logmT("ejAyuda") + "</p>" +
     LOGM_EJ.map((e, i) => {
       const r = LOG.inf[i], bien = T.find(x => x.k === e.r);
@@ -281,6 +282,145 @@ function logRenderFalacias(){
 }
 
 
+/* ---------- (18-10) pestaña «Leyes lógicas»: las 70 leyes elementales y las 21 reglas derivadas de deducción ----------
+   Transcritas de dos fotocopias que trajo el profesor el 18-10 («Leyes elementales de la lógica de enunciados», 2 hojas
+   a máquina, y «Reglas derivadas de deducción», 2 hojas). Las 70 leyes se han comprobado como tautologías y las 21 reglas
+   como argumentos válidos con este mismo motor (logParse/logEval). Erratas de la hoja corregidas: en la 40 falta la
+   flecha de «(p r)». La 68 lleva (p → r), la forma habitual de la ley de ese nombre; la hoja pone (q → r), que también
+   es tautología (orden del profesor del 18-10). Las abreviaturas de los nombres se escriben enteras («Lcp» = ley de carga de premisa, regla Cpr). */
+Object.assign(LOGM_TXT, {
+  tabLeyes: "Lege logikoak",
+  introLeyes: "Lege logiko bat beti egiazkoa den formula da, bere letrek edozein balio dutela ere: tautologia bat. Hemen dituzu enuntziatuen logikako 70 lege, familiaka multzokatuta, eta haietan oinarritzen diren 21 dedukzio-arau eratorri. Sakatu «Taula» edozeinetan, zuk zeuk egiaztatzeko.",
+  leyesTit: "Enuntziatuen logikako oinarrizko legeak",
+  leyesNota: "Kortxeteak [ ] parentesiak dira: zer zeren barruan doan ikusten laguntzen dute. ↔ konektibo nagusitzat duten legeek diote bi formula baliokideak direla eta bata bestearen ordez jar daitekeela; → dutenek, berriz, batetik bestera noranzko bakarrean igarotzen uzten dute.",
+  leyTabla: "Taula",
+  derTit: "Dedukzio-arau eratorriak",
+  derNota: "Dedukzio batean, arau bakoitzak marraren gainean dauden formuletatik (premisetatik) azpian dagoenera (ondoriora) igarotzen uzten du. Marra bikoitzak esan nahi du araua bi noranzkoetan baliozkoa dela. Lasterbideak dira: bakoitza oinarrizko arauekin frogatzen da, eta goiko legeren bati dagokio.",
+  derInter: "A eta B baliokideak badira, A duen edozein C formulatan B jar daiteke haren ordez: C<sub>A</sub> A duen formula da, eta C<sub>B</sub>, formula bera B-rekin. Horregatik, ↔ duen edozein lege erabil daiteke formula baten zati bat berridazteko.",
+  leyesIr: "70 lege logikoak eta 21 arau eratorriak, «Lege logikoak» atalean →"
+});
+const LOGM_LEYES = [
+  ["Printzipioak", [
+    [1, "p ↔ p", "Identitate-printzipioa"],
+    [2, "¬(p ∧ ¬p)", "Ez-kontraesanaren printzipioa"],
+    [3, "p ∨ ¬p", "Hirugarren baztertuaren printzipioa"],
+    [4, "¬¬p ↔ p", "Ezeztapen bikoitzaren printzipioa"],
+    [5, "¬¬¬p ↔ ¬p", "Ezeztapen hirukoitzaren printzipioa"]]],
+  ["Idenpotentzia, trukakortasuna eta elkarkortasuna", [
+    [6, "(p ∧ p) ↔ p", "Konjuntzioaren idenpotentzia-legea"],
+    [7, "(p ∧ q) ↔ (q ∧ p)", "Konjuntzioaren trukatze-legea"],
+    [8, "[(p ∧ q) ∧ r] ↔ [p ∧ (q ∧ r)]", "Konjuntzioaren elkarkortasun-legea"],
+    [9, "(p ∨ p) ↔ p", "Disjuntzioaren idenpotentzia-legea"],
+    [10, "(p ∨ q) ↔ (q ∨ p)", "Disjuntzioaren trukatze-legea"],
+    [11, "[(p ∨ q) ∨ r] ↔ [p ∨ (q ∨ r)]", "Disjuntzioaren elkarkortasun-legea"]]],
+  ["Banatze-legeak", [
+    [12, "[p ∧ (q ∨ r)] ↔ [(p ∧ q) ∨ (p ∧ r)]", "Konjuntzioaren banatze-legea disjuntzioarekiko"],
+    [13, "[(p ∨ q) ∧ (r ∨ s)] ↔ [(p ∧ r) ∨ (p ∧ s) ∨ (q ∧ r) ∨ (q ∧ s)]", "Konjuntzioaren banatze-legea disjuntzioarekiko (forma zabaldua)"],
+    [14, "[p ∨ (q ∧ r)] ↔ [(p ∨ q) ∧ (p ∨ r)]", "Disjuntzioaren banatze-legea konjuntzioarekiko"],
+    [15, "[(p ∧ q) ∨ (r ∧ s)] ↔ [(p ∨ r) ∧ (p ∨ s) ∧ (q ∨ r) ∧ (q ∨ s)]", "Disjuntzioaren banatze-legea konjuntzioarekiko (forma zabaldua)"]]],
+  ["Sinplifikazioa eta gehitzea", [
+    [16, "[p ∧ (p ∧ q)] ↔ (p ∧ q)", "Konjuntzioaren 1. sinplifikazio-legea"],
+    [17, "[p ∧ (p ∨ q)] ↔ p", "Konjuntzioaren 2. sinplifikazio-legea"],
+    [18, "[p ∧ (q ∨ ¬q)] ↔ p", "Konjuntzioaren 3. sinplifikazio-legea"],
+    [19, "(p ∧ q) → p", "Konjuntzioaren 4. sinplifikazio-legea (a fortiori)"],
+    [20, "(p ∧ q) → q", "Konjuntzioaren 5. sinplifikazio-legea (a fortiori)"],
+    [21, "[p ∨ (p ∨ q)] ↔ (p ∨ q)", "Disjuntzioaren 1. sinplifikazio-legea"],
+    [22, "[p ∨ (p ∧ q)] ↔ p", "Disjuntzioaren 2. sinplifikazio-legea"],
+    [23, "[p ∨ (q ∧ ¬q)] ↔ p", "Disjuntzioaren 3. sinplifikazio-legea"],
+    [24, "p → (p ∨ q)", "Gehitze-legea"],
+    [25, "q → (p ∨ q)", "Gehitze-legea"]]],
+  ["De Morganen legeak", [
+    [26, "¬(p ∨ q) ↔ (¬p ∧ ¬q)", "De Morganen 1. legea"],
+    [27, "¬(p ∧ q) ↔ (¬p ∨ ¬q)", "De Morganen 2. legea"],
+    [28, "(p ∨ q) ↔ ¬(¬p ∧ ¬q)", "De Morganen 3. legea"],
+    [29, "(p ∧ q) ↔ ¬(¬p ∨ ¬q)", "De Morganen 4. legea"]]],
+  ["Konektiboen elkar-definizioa", [
+    [30, "(p ∧ q) ↔ ¬(p → ¬q)", "Elkar-definizioaren legea"],
+    [31, "(p ∨ q) ↔ (¬p → q)", "Elkar-definizioaren legea"],
+    [32, "(p → q) ↔ ¬(p ∧ ¬q)", "Elkar-definizioaren legea"],
+    [33, "(p → q) ↔ (¬p ∨ q)", "Elkar-definizioaren legea"],
+    [34, "(p ↔ q) ↔ [(p → q) ∧ (q → p)]", "Elkar-definizioaren legea"]]],
+  ["Esportazioa, premisen trukaketa eta silogismoa", [
+    [35, "[(p ∧ q) → r] ↔ [p → (q → r)]", "Esportazio- eta inportazio-legea"],
+    [36, "[p → (q → r)] ↔ [q → (p → r)]", "Premisen trukaketaren legea"],
+    [37, "p → [q → (p ∧ q)]", "35. eta 1. legeetatik ateratzen da"],
+    [38, "[(p → q) ∧ (q → r)] → (p → r)", "Silogismoaren legea"],
+    [39, "(p → q) → [(q → r) → (p → r)]", "Silogismoaren legea (38. eta 35. legeetatik)"],
+    [40, "(q → r) → [(p → q) → (p → r)]", "Silogismoaren legea (39. eta 36. legeetatik)"],
+    [41, "(p → q) → [(r ∨ p) → (r ∨ q)]", "Silogismoaren legea"]]],
+  ["Modus ponens, modus tollens, silogismo disjuntiboa eta dilemak", [
+    [42, "[(p → q) ∧ p] → q", "Modus ponendo ponens (1)"],
+    [43, "p → [(p → q) → q]", "Modus ponendo ponens (2)"],
+    [44, "[(p → q) ∧ ¬q] → ¬p", "Modus tollendo tollens (1)"],
+    [45, "¬q → [(p → q) → ¬p]", "Modus tollendo tollens (2)"],
+    [46, "[(p ∨ q) ∧ ¬p] → q", "Silogismo disjuntiboa"],
+    [47, "[(p ∨ q) ∧ ¬q] → p", "Silogismo disjuntiboa"],
+    [48, "[(p ∨ q) ∧ (p → r) ∧ (q → r)] → r", "Dilema eraikitzaile bakunaren legea"],
+    [49, "[(p ∨ q) ∧ (p → r) ∧ (q → s)] → (r ∨ s)", "Dilema eraikitzaile konplexuaren legea"],
+    [50, "[(¬p ∨ ¬q) ∧ (r → p) ∧ (r → q)] → ¬r", "Dilema suntsitzaile bakunaren legea"],
+    [51, "[(¬p ∨ ¬q) ∧ (r → p) ∧ (s → q)] → (¬r ∨ ¬s)", "Dilema suntsitzaile konplexuaren legea"]]],
+  ["Absurdora eramatea", [
+    [52, "(p → ¬p) → ¬p", "Absurdora eramatearen 1. legea"],
+    [53, "(¬p → p) → p", "Absurdora eramatearen 2. legea (Claviusen legea edo consequentia mirabilis)"],
+    [54, "[(p → q) ∧ (p → ¬q)] → ¬p", "Absurdora eramatearen 3. legea"],
+    [55, "[p → (q ∧ ¬q)] → ¬p", "Absurdora eramatearen 4. legea"]]],
+  ["Faltsutik edozer ondorioztatzen da (eta egiazkoa, edozertatik)", [
+    [56, "(p ∧ ¬p) → p", "Ex falso sequitur quodlibet"],
+    [57, "(p ∧ ¬p) → ¬p", "Ex falso sequitur quodlibet"],
+    [58, "(p ∧ ¬p) → q", "Ex falso sequitur quodlibet"],
+    [59, "p → (¬p → q)", "Ex falso sequitur quodlibet (58. eta 35. legeetatik)"],
+    [60, "¬p → (p → q)", "Ex falso sequitur quodlibet"],
+    [61, "[(p → q) ∧ (p ∧ ¬q)] → r", "Ex falso sequitur quodlibet"],
+    [62, "p → (q → p)", "Verum sequitur ad quodlibet (lege paradoxikoa edo premisa-kargaren legea)"]]],
+  ["Kontrapositzioa eta inplikazioa", [
+    [63, "(p → q) ↔ (¬q → ¬p)", "Baldintzazkoaren kontrapositzio-legea"],
+    [64, "(p → q) ↔ [p ↔ (p ∧ q)]", "Inplikazioaren legea"],
+    [65, "(p → q) ↔ [q ↔ (p ∨ q)]", "Inplikazioaren legea"],
+    [66, "[p → (p → q)] ↔ (p → q)", "Inplikazioaren legea"],
+    [67, "(p ∧ q) → (p → q)", "Inplikazioaren legea"],
+    [68, "[(p → q) ∧ (p → r)] → [p → (q ∧ r)]", "Atzekariaren konjuntzio-legea"],
+    [69, "[(p → q) ∧ (r → s)] → [(p ∨ r) → (q ∨ s)]", "Bi muturren disjuntzio-legea"],
+    [70, "[(p → q) ∧ (r → s)] → [(p ∧ r) → (q ∧ s)]", "Bi muturren konjuntzio-legea (praeclarum theorema, Leibniz)"]]]
+];
+/* reglas: [nº, nombre, abreviatura, formas]; cada forma = [premisas separadas por «;», conclusión, raya doble] */
+const LOGM_DERIVADAS = [
+  [1, "Silogismo hipotetikoa", "Sil", [["p → q; q → r", "p → r"]]],
+  [2, "Premisen trukaketa", "Mut", [["p → (q → r)", "q → (p → r)"]]],
+  [3, "Identitatea", "Id", [["p", "p"]]],
+  [4, "Premisa-karga", "Cpr", [["p", "q → p"]]],
+  [5, "Konjuntzioaren banatzea", "DC", [["p ∧ (q ∨ r)", "(p ∧ q) ∨ (p ∧ r)", 1]]],
+  [6, "Disjuntzioaren banatzea", "DD", [["p ∨ (q ∧ r)", "(p ∨ q) ∧ (p ∨ r)", 1]]],
+  [7, "Kontrapositzioa", "Cp", [["p → q", "¬q → ¬p", 1], ["p → ¬q", "q → ¬p", 1], ["¬p → q", "¬q → p", 1], ["¬p → ¬q", "q → p", 1]]],
+  [8, "Modus tollens", "MT", [["p → q; ¬q", "¬p"]]],
+  [9, "Ezeztapen bikoitzaren sarrera", "IDN", [["p", "¬¬p"]]],
+  [10, "Silogismo disjuntiboa", "SD", [["p ∨ q; ¬q", "p"], ["p ∨ q; ¬p", "q"]]],
+  [11, "Dilema eraikitzaile bakuna", "Dil 1", [["p ∨ q; p → r; q → r", "r"]]],
+  [12, "Dilema eraikitzaile konplexua", "Dil 2", [["p ∨ q; p → r; q → s", "r ∨ s"]]],
+  [13, "Dilema suntsitzaile bakuna", "Dil 3", [["¬p ∨ ¬q; r → p; r → q", "¬r"]]],
+  [14, "Dilema suntsitzaile konplexua", "Dil 4", [["¬p ∨ ¬q; r → p; s → q", "¬r ∨ ¬s"]]],
+  [15, "Trukatzea edo ordezkatzea", "I", null],
+  [16, "Baldintzazkoaren definizioa", "DI 1", [["p → q", "¬(p ∧ ¬q)"]]],
+  [17, "Baldintzazkoaren definizioa", "DI 2", [["p → q", "¬p ∨ q"]]],
+  [18, "Konjuntzioaren definizioa", "DfC 1", [["p ∧ q", "¬(p → ¬q)"]]],
+  [19, "Konjuntzioaren definizioa", "DfC 2", [["p ∧ q", "¬(¬p ∨ ¬q)"]]],
+  [20, "Disjuntzioaren definizioa", "DfD 1", [["p ∨ q", "¬p → q"]]],
+  [21, "Disjuntzioaren definizioa", "DfD 2", [["p ∨ q", "¬(¬p ∧ ¬q)"]]]
+];
+function logmDeduccion(p, c, doble){
+  return '<div class="lg-ded" dir="ltr">' + p.split(";").map(x => "<span>" + logEsc(x.trim()) + "</span>").join("") + '<span class="lg-ded-c' + (doble ? " lg-ded-2" : "") + '">' + logEsc(c) + "</span></div>";
+}
+function logRenderLeyes(){
+  const tit = logmT("verTabla");
+  return '<div class="lg-panel"><h2>' + logmT("leyesTit") + '</h2><p class="lg-nota">' + logmT("leyesNota") + "</p>" +
+    LOGM_LEYES.map(([g, ls], k) => '<details class="lg-leyes"' + (k ? "" : " open") + "><summary>" + logEsc(g) + " (" + ls[0][0] + "–" + ls[ls.length - 1][0] + ')</summary><ol class="lg-leyes-l">' +
+      ls.map(([n, f, nom]) => '<li value="' + n + '"><span class="lg-ley-n">' + n + '.</span><span class="lg-ley-f" dir="ltr">' + logEsc(f) + '</span><span class="lg-ley-nom">' + logEsc(nom) + '</span><button type="button" class="chip" data-ley="' + logEsc(f) + '" title="' + tit + '">' + logmT("leyTabla") + "</button></li>").join("") + "</ol></details>").join("") + "</div>" +
+    '<div class="lg-panel"><h2>' + logmT("derTit") + '</h2><p class="lg-nota">' + logmT("derNota") + '</p><div class="lg-reglas">' +
+    LOGM_DERIVADAS.map(([n, nom, ab, fs]) => '<div class="lg-regla"><h3>' + n + ". " + logEsc(nom) + " <small>(" + ab + ")</small></h3>" +
+      (fs ? '<div class="lg-ded-fila">' + fs.map(([p, c, d]) => '<div class="lg-ded-caja">' + logmDeduccion(p, c, d) + '<button type="button" class="chip" data-infp="' + logEsc(p) + '" data-infc="' + logEsc(c) + '" title="' + tit + '">' + logmT("leyTabla") + "</button></div>").join("") + "</div>"
+        : '<div class="lg-ded-fila"><div class="lg-ded-caja"><div class="lg-ded" dir="ltr"><span>A ↔ B</span><span>C<sub>A</sub></span><span class="lg-ded-c">C<sub>B</sub></span></div></div></div><p>' + logmT("derInter") + "</p>") + "</div>").join("") + "</div></div>";
+}
+
+
 /* ---------- eventos (delegados en la caja del Rincón; logicaview.js maneja los demás) ---------- */
 (function(){
   const box = document.getElementById("logicabox"); if (!box) return;
@@ -291,6 +431,7 @@ function logRenderFalacias(){
     const b = ev.target.closest("button"); if (!b) return;
     if (b.dataset.fzok != null){ const i = +b.dataset.fzok; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { hecho: true, sol: false }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = logmFzRes(i); }
     else if (b.dataset.fzsol != null){ const i = +b.dataset.fzsol; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { sol: true }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = logmFzRes(i); }
+    else if (b.dataset.ley != null){ LOG.formula = b.dataset.ley; LOG.tab = "tablas"; logRender(); const t = document.getElementById("lg-tabla"); if (t) t.scrollIntoView({ block: "center" }); }
     else if (b.dataset.infp != null){ LOG.prem = b.dataset.infp; LOG.concl = b.dataset.infc; LOG.tab = "tablas"; logRender(); const a = document.getElementById("lg-arg"); if (a) a.scrollIntoView({ block: "center" }); }
     else if (b.dataset.cqi != null){ const r = LOG.cq.m[+b.dataset.cqi]; r[+b.dataset.cqj] = r[+b.dataset.cqj] ? 0 : 1; const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
     else if (b.dataset.falsil){ const [m, f] = b.dataset.falsil.split("-"); Object.assign(LOG.sil, { may: m[0], men: m[1], con: m[2], fig: +f }); LOG.tab = "silogismos"; logRender(); const c = document.getElementById("lg-sil"); if (c) c.scrollIntoView({ block: "start" }); }

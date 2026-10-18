@@ -527,7 +527,8 @@ const ILUSTRES = {
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-etica-deber",
-   "hf-sospecha"
+   "hf-sospecha",
+   "hf-filosofas-dialogo"
   ]
  },
  "aspasia": {
@@ -548,7 +549,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-sofistas"
+   "hf-sofistas",
+   "hf-filosofas-dialogo"
   ]
  },
  "democrito": {
@@ -722,10 +724,12 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-montaigne-ensayos",
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-racionalismo",
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -812,6 +816,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
    "hf-mito",
@@ -924,7 +929,33 @@ const ILUSTRES = {
   "temas": [
    "hf-helenismo",
    "hf-montaigne-ensayos",
+   "hf-bayle-diccionario",
    "hf-descartes-makro"
+  ]
+ },
+ "hiparquia": {
+  "name": "Hiparkia Maroneakoa",
+  "dates": "K.a. 350 ingu. – 280 ingu.",
+  "born": -350,
+  "died": -280,
+  "place": "Maronea (Trazia); Atenasen bizi izan zen",
+  "role": "filosofo zinikoa",
+  "idea": "Predikatzen zuen filosofia zinikoa azkeneraino bizi izan zuen: aberastasunari eta bere garaiak emakumeei gordetzen zien paperari uko egin zien naturaren arabera bizitzeko, Krates bere bikotekidearekin berdintasunean.",
+  "bio": "<p>Hiparkia Maronean jaio zen, Trazian, familia on batean. Filosofia zinikoa bere anaia Metroklesen bidez ezagutu zuen, <strong>Krates Tebakoaren</strong> ikaslearen bidez, eta hain konbentzituta geratu zen non, bere gurasoen nahiaren aurka, Kratesen bizitza partekatzea erabaki baitzuen: borondatezko pobrezia, etxerik eta jabetzarik gabe, kalean biziz <strong>naturaren</strong> (<em>physis</em>) arabera eta ez gizarte-konbentzioaren (<em>nómos</em>) arabera.</p>\n<p>Zinikoek gizonen eta emakumeen arteko berdintasuna defendatzen zuten, baina praktikan Hiparkiak bidea ireki behar izan zuen emakumeez mesfidatzen jarraitzen zuen gizarte batean eta eskola batean. Bere koherentziarekin egin zuen: bere egintzengatik, bizitza zinikoaren ordezkaririk onena izan zen, eta Antzinaroko ezagutzen ditugun emakume filosofo gutxietako bat. Hainbat obra idatzi zituen —<em>Hipótesis filosóficas</em>, <em>Epiqueremas</em>, <em>Cuestiones a Teodoro</em>—, denak galduak, beraz batez ere Diogenes Laerziok hartaz kontatu zuenagatik ezagutzen dugu.</p>\n<p>Gaitegian zinikoekin eta <strong>helenismoaren</strong> eskolekin batera agertzen da, eta eskola haiek aldarrikatzen zuten berdintasuna benetan noraino iristen zen probatzen duen figura gisa.</p>",
+  "obras": [
+   "Hipótesis filosóficas (galdua)",
+   "Epiqueremas (galdua)",
+   "Cuestiones a Teodoro el Ateo (galdua)"
+  ],
+  "anecdota": "<p>Lisimakoren etxeko otordu batean, Teodoro Ateo filosofoak aurpegiratu zion emakume bati dagokion bezala ez jokatzea eta ehungailua utzi izana. Hiparkiak silogismo txantxetako batekin erantzun zion —Teodororengan delitu ez dena berarengan ere ez da— eta, erasoaren aurrean, inmutatu gabe erantzun zuen: gaizki iruditzen al zaio, haren ustez ehuntzen eman beharko zuen denbora ikasten eman izana?</p>",
+  "fuente": "Diógenes Laercio, *Vidas de los filósofos ilustres* VI (Krateren bizitza); bere obra galduen izenburuak *Suda*-tik datoz (s.v. Hiparkia); Antípatro Sidongoaren epigrama, *Antología Palatina* VII, 413; Lola Cabrera Trigoren *El pensamiento en femenino plural* liburutik egokitua (Erein, «En diálogo con…» saila; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "epicuro": {
@@ -1102,8 +1133,32 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-helenismo",
    "hf-montaigne-ensayos"
+  ]
+ },
+ "quintiliano": {
+  "name": "Kintiliano",
+  "dates": "K.o. 35 ingu. – 100 ingu.",
+  "born": 35,
+  "died": 100,
+  "place": "Calagurris (Hispania; gaur egun Calahorra, Errioxa)",
+  "role": "erretoriko eta pedagogo erromatarra",
+  "idea": "Hezkuntzaren helburua hizlari perfektua prestatzea da, ez dena ongi hitz egiten duena soilik, baizik eta «esaten aditua den gizon ona»: zintzotasunik gabe ez dago benetako elokuentziarik.",
+  "bio": "<p>Marco Fabio Kintiliano 35. urte inguruan jaio zen Calagurrisen, gaur egungo Calahorran (Errioxa), Hispania erromatarrean. Erroman prestatu zen eta, Hispanian itzuli-aldi baten ondoren, hiriburura itzuli zen, non erretorika-eskola bat ireki baitzuen eta abokatu jardun baitzuen. <strong>Vespasiano</strong> enperadoreak erretorikako katedra publiko bat eman zion, Estatuak ordaindua, ordura arte ikusi gabekoa: irakasteagatik altxortegitik kobratu zuten lehen maisuetako bat izan zen. Hogei bat urtez eman zuen klasea —bere ikasleen artean Plinio Gaztea dago— eta, jada erretiratuta, bere obra handia idatzi zuen.</p>\n<p><em>Instituciones oratorias</em> (<em>Institutio oratoria</em>), hamabi liburutan, Antzinaroko pedagogia-tratatu osoena da: etorkizuneko hizlariaren prestakuntza jarraitzen dute sehaskatik heldutasuneraino. Kintilianok lehen urteetan jolastuz ikastea defendatzen du, irakaskuntza haur bakoitzaren izaerara egokitzea eta <strong>zigor fisikoak</strong> baztertzen ditu, apalesgarri eta alferrekotzat jotzen dituenak. Bere ideala, Katonen esaldi batetik hartzen duena, <em>vir bonus dicendi peritus</em> da, «esaten aditua den gizon ona»: ongi erabilitako hitzak ez du ezer balio bertuterik gabe. Pizkundean asko irakurria, hezkuntzaren ideia humanistan eragin zuen.</p>",
+  "obras": [
+   "Instituciones oratorias (Institutio oratoria, edo Hizlariaren prestakuntzari buruz)"
+  ],
+  "anecdota": "<p><em>Instituciones</em>-en VI. liburuaren hitzaurrean, Kintilianok bere tratatua eteten du zoritxar pertsonal bat kontatzeko: bere emazte gaztea galdu zuen eta, handik gutxira, bere itxaropen guztiak jarri zituen bi seme txikiak. Aitortzen du obra uztear egon zela eta idazten jarraitu zuela bere minari zentzuren bat emateko soilik. Latindar literaturako pasarterik zintzoenetako bat da: jendaurrean hitz egiten irakasten zuen maisua, behingoz, aita txikitua gisa agertzen da.</p>",
+  "fuente": "Kintiliano, Instituciones oratorias VI, proemioa («vir bonus dicendi peritus» esaldia, XII, 1; latinetik itzulpen propioa)",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "epicteto": {
@@ -1282,6 +1337,32 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "isidoro": {
+  "name": "Isidoro Sevillakoa",
+  "dates": "c. 556 – 636",
+  "born": 556,
+  "died": 636,
+  "place": "Cartagena (Hispania; apezpiku Sevillan)",
+  "role": "apezpikua, entziklopedista eta Elizako Aita",
+  "idea": "Antzinaroko jakintza guztia biltzea eta antolatzea, hondamendi-garai batean salbatzeko; haren metodoa etimologia da, zeren zerbaiten izena nondik datorren jakiteak gauza bera ulertzen laguntzen baitu.",
+  "bio": "<p>Isidoro 556. urte inguruan jaio zen familia hispanoerromatar batean, ziurrenik Cartagenan, nondik bere sendia Sevillara lekualdatu baitzen. Santuen familia bat izan zen: Leandro eta Fulgentzio anaiak apezpiku izatera iritsi ziren, eta Florentina arreba, abadesa. Leandro hil zenean, 600. urte inguruan, Isidoro haren oinordeko izan zen <strong>Sevillako artzapezpiku</strong> gisa, eta kargu hori hogeita hamar urtez baino gehiagoz bete zuen errege bisigotikoen Hispanian. Kontzilio garrantzitsuak zuzendu zituen, hala nola Toledoko IV. Kontzilioa (633), zeinak erresumako Eliza eta irakaskuntza antolatu baitzituen.</p>\n<p>Mendebaldeko Erromatar Inperioa jada erori zenean eta antzinako kultura asko galtzen ari zenean bizitzea egokitu zitzaion. Hura salbatzeko <em>Etimologiak</em> (<em>Etymologiae</em> edo <em>Orígenes</em>) idatzi zituen, hogei liburutako entziklopedia bat, zekiten guztia laburbiltzen duena: gramatika, medikuntza, zuzenbidea, geografia, nekazaritza, animaliak, harriak... Haren metodoa hitzen jatorria bilatzea da, zeren —idazten baitu— «izen bat nondik sortu den ikusten duzunean, lehenago ulertzen duzu haren esanahia» (<em>Etimologiak</em> I, 29; latinetik egindako itzulpena). Lana, amaitu gabe utzi zuena eta haren adiskide Braulio Zaragozakoak antolatu zuena, Erdi Aroko libururik kopiatuenetako bat izan zen.</p>",
+  "obras": [
+   "Etimologiak (Etymologiae edo Orígenes)",
+   "Gauzen izaeraz (De natura rerum)",
+   "Godoen historia (Historia Gothorum)",
+   "Sententziak (Sententiae)"
+  ],
+  "anecdota": "<p>Laurogeita hamarreko hamarkadaren amaieran, interneteko munduko katoliko talde batek Isidoro sarearen eta informatikarien zaindari gisa proposatzen hasi zen: haren <em>Etimologiak</em>, zioten, datu-base baten gisa funtzionatzen zuten garaia baino lehen, jakintza batzuk besteekin lotzen baitzituzten gaur egun bilatzaile batek orriak lotzen dituen bezala. 2000. urtean sortu zen helburu horrekin Sevillako San Isidororen Ordena, eta 2001 inguruan Vatikanoa izendapena aztertzera iritsi zen. Inoiz ez zen erabat ofizial bihurtu, baina ideia hainbeste zabaldu zen non toki askotan, erdi serio, «interneteko santua» deitzen baitzaion.</p>",
+  "fuente": "ACI Prensa, «¿Quién es el patrono de internet?»; Word on Fire, «The Patron Saint of the Internet»; izendapena ez da ofiziala",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "escoto_erigena": {
   "name": "Joan Eskoto Eriugena",
   "dates": "810 ing. – 877 ing.",
@@ -1357,6 +1438,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
+   "hf-fe-razon",
    "hf-racionalismo"
   ]
  },
@@ -1498,6 +1581,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-aa",
    "hf-antropologia",
@@ -1527,6 +1611,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-aa",
    "hf-aristoteles-arabe",
    "hf-verdad-no-contradice",
@@ -1644,7 +1729,31 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-renacimiento-magia"
+  ]
+ },
+ "porete": {
+  "name": "Margarita Porete",
+  "dates": "c. 1250 – 1310",
+  "born": 1250,
+  "died": 1310,
+  "place": "Hainaut (gaur egun Belgika eta Frantzia iparraldearen artean)",
+  "role": "mistikoa eta beginoa",
+  "idea": "Maite duen arima Jainkoarekin bat egin daitekeela defendatu zuen maitasunaren eta askatasunaren bidez, kleroaren eta sakramentuen beharrik gabe; sutan hil zen bere liburuaz atzera egin nahi izan ez zuelako.",
+  "bio": "<p>Margarita Porete beginoa izan zen, hau da, gizonek ezarritako arauen menpeko inongo ordena monastikotan sartzen ez zen emakume erlijiosoa, baizik eta behartsuenei emana bizi zena. 1290 inguruan <em>Arima soilen ispilua</em> idatzi zuen, eta frantsesez egin zuen, latinez idazteko ohitura hautsiz: jende arruntak uler zezan nahi zuen.</p>\n<p>Liburua alegoria bat da, non Arimak, Maitasunak (Jainkoa ordezkatzen duena), Arrazoiak eta Bertuteek elkarrizketa egiten baitute. Haren tesirik ausartena da arima, maitasunak eramanik, «askatasunaren herrialde» batera irits daitekeela, non jada ez baitu ez Arrazoia bera ez Elizaren bitartekaritza behar. Jainkoarekin desiraren eta askatasunaren bidezko batasun zuzenaren ideia horrek piztu zituen auzitegien susmoak.</p>\n<p>1310ean, Pariseko Inkisizioak heretikotzat kondenatu zuen eta bizirik erre zuen bere obraz atzera egin ez zuelako. Liburuak zirkulatzen jarraitu zuen modu anonimoan edo gizon-izenpean kopiatua, eta XX. mendean bakarrik itzuli zitzaion egiletza. Ikasgaian Erdi Aroko mistikaren eta banakoaren askatasunari buruzko pentsamendu modernoaren arteko kate-begi gisa agertzen da.</p>",
+  "obras": [
+   "Arima soilen ispilua (Le Mirouer des simples âmes)"
+  ],
+  "anecdota": "<p>Bere prozesuan, Margaritak deklaratzeari eta barkamena eskatzeari uko egin zion, eta horregatik beso sekularrari entregatu eta exekutatu zuten. Haren liburuak egile-izenik gabe zirkulatu zuen gero, batzuetan gizonei egotzia, eta sei mendez inork ez zuen jakin nork idatzi zuen. 1946an bakarrik identifikatu zuen Romana Guarnieri ikertzaileak <em>Ispilu</em> anonimo hura eta 1310ean erretako Margarita Porete obra bera eta pertsona bera zirela.</p>",
+  "fuente": "Margarita Porete, *Arima soilen ispilua*; Pariseko prozesu inkisitorialaren aktak (1310); Lola Cabrera Trigoren *El pensamiento en femenino plural* lanetik egokitua (Erein, «En diálogo con…» saila; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "dante": {
@@ -1725,6 +1834,33 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-modernidad"
+  ]
+ },
+ "pizan": {
+  "name": "Christine de Pizan",
+  "dates": "1364 – 1430 ingu.",
+  "born": 1364,
+  "died": 1430,
+  "place": "Venezia; Frantziako gortean bizi izan zen",
+  "role": "idazle eta pentsalaria",
+  "idea": "Europan bere lumatik bizi izan zen lehen emakumea; *La ciudad de las damas* liburuan bere aroko misoginiari argudioekin aurre egin zion eta emakumeen duintasuna eta gaitasun intelektuala defendatu zituen.",
+  "bio": "<p>Jatorri veneziarrekoa, Christine de Pizanek Frantziako Karlos V.aren gortean eman zuen haurtzaroa, non bere aita mediku eta astrologoa baitzen. Hari esker emakumeetan ohikoa ez zen prestakuntza jaso zuen. 25 urterekin alargundu eta seme-alabak bere kargu zituela, berriz ezkondu edo komentu batean sartu beharrean, ia inoiz ikusi gabeko bidea aukeratu zuen: <strong>idazle profesional</strong> gisa bizitzea.</p>\n<p>Bere lanik ezagunena, <em>La ciudad de las damas</em> (1405), alegoria bat da, non hiru irudik —Arrazoiak, Zuzentasunak eta Justiziak— egileari laguntzen baitiote historiako emakume ospetsuz populatutako hiri sinboliko bat eraikitzen, kalumnietatik babestuta. Harekin erantzuten die, puntuz puntu eta argudioekin, emakumea izaki apaltzat aurkezten zuten testuei. Lehenago <strong>Arrosaren auzia</strong> deituaren protagonista izan zen, <em>Roman de la Rose</em>-ren misoginiaren aurkako polemika literario bat.</p>\n<p>«Emakumeen auziaren» aitzindaritzat jotzen da eta, askorentzat, baita feminismoaren aitzindaritzat ere. Erdi Aroaren azken zatiari eta emakumeek idatzitako utopien tradizioari lotuta agertzen da.</p>",
+  "obras": [
+   "La ciudad de las damas",
+   "El libro de las tres virtudes",
+   "La epístola al dios Amor",
+   "Joana Arkukoaren omenezko kanta (Ditié de Jehanne d'Arc)"
+  ],
+  "anecdota": "<p>Simone de Beauvoirrek, <em>Bigarren sexua</em>-n, nabarmentzen du Christine de Pizanen <em>Epístola al dios Amor</em>-ekin «lehen aldiz ikusten dugula emakume bat luma hartzen bere sexuaren defentsan» (parafrasia). Haren heriotzaren mendeak geroago, gizon talde batek «Arrosaren Ordena» bat sortzera iritsi zen polemika hartan bere kausa defendatzeko.</p>",
+  "fuente": "Christine de Pizan, *La ciudad de las damas*; Simone de Beauvoir, *Bigarren sexua* (sarrera); Lola Cabrera Trigoren *El pensamiento en femenino plural* liburutik egokitua (Erein, «En diálogo con…» saila; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-utopias-autoras",
+   "hf-filosofas-dialogo"
   ]
  },
  "nicolas_cusa": {
@@ -1817,6 +1953,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-modernidad"
   ]
@@ -1895,7 +2032,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad"
+   "hf-filosofia-espanola",
+   "hf-modernidad",
+   "hf-utopias-autoras"
   ]
  },
  "lutero": {
@@ -1926,6 +2065,110 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "vitoria": {
+  "name": "Francisco de Vitoria",
+  "dates": "c. 1483 – 1546",
+  "born": 1483,
+  "died": 1546,
+  "place": "Burgos edo Gasteiz",
+  "role": "teologo eta legelari dominikarra",
+  "idea": "Herri guztiei komun zaien zuzenbide bat dago, baita Amerikakoei ere: ez erlijio-desberdintasunak ez ohituren desberdintasunak ez du berez justifikatzen haiek konkistatzea edo beren lurrak kentzea.",
+  "bio": "<p>Francisco de Vitoria 1483 inguruan jaio zen (eztabaidatzen da Burgosen ala Gasteizen izan zen) eta oso gazte sartu zen <strong>dominikarren</strong> ordenan. Parisen ikasi zuen eta, 1526tik aurrera, Teologiako katedra nagusia bete zuen Salamancako Unibertsitatean, non hil zen arte irakatsi baitzuen. Haren inguruan eratu zen <strong>Salamancako Eskola</strong> deritzona, bere garaiko arazo handiak zorroztasunez eztabaidatu zituen teologo eta legelarien talde bat. Ez zuen libururik argitaratu: gorde duguna <em>errelekzioak</em> dira, ahoz esaten zituen eta ikasleek kopiatu zituzten ikasgai solemneak.</p>\n<p>Haren ekarpenik handiena Koroarentzat deserosoa zen galdera batetik sortzen da: zer eskubiderekin konkistatzen zituen Espainiak Amerikako lurraldeak? <em>Indioei buruz</em> lanean dio herri indigenak zirela beren lurren benetako jabeak eta beren burua gobernatzeko gai zirela, hala non ez beren erlijioak ez beren ohiturak ez baitziren nahikoa haiei lurrak kentzeko. Onartzen zituen, bai, espainiarren presentzia legitima zezaketen zenbait titulu, hala nola merkataritzan aritzeko eta bidaiatzeko eskubidea. Herrien arteko eskubide eta betebeharrez hausnartzeagatik, Vitoria <strong>nazioarteko zuzenbidearen aitetako</strong> bat dela jotzen da.</p>",
+  "obras": [
+   "Indioei buruz (Relectio de Indis, 1539)",
+   "Gerra-zuzenbideari buruz (Relectio de iure belli, 1539)",
+   "Errelekzio teologikoak (ikasleek jasoak)"
+  ],
+  "anecdota": "<p>Vitoriak ez zuen idatzi gaur egun famatu egiten duten liburuetako bat ere. Hitz eginez irakasten zuen, eta urtean behin <em>errelekzio</em> bat esaten zuen, unibertsitate osoaren aurreko ikasgai publiko eta solemne bat. Haren ikasleek hain arretaz hartzen zituzten apunteak, non koaderno horiei esker haren ideiak berreraiki eta argitaratu ahal izan baitira hil ondoren. Adibide ona da ikusteko nola, inprenta merkearen eta apunte digitalen aurretik, maisu baten pentsamendua bizirik iraun zezakeen soilik norbaitek ondo kopiatzeko lana hartzen bazuen.</p>",
+  "fuente": "De Indis eta De iure belli errelekzioak haren ikasleen eskuizkributatik gordetzen eta editatzen dira; Vitoriak ez zuen bizialdian argitaratu (bere Relectiones lanen edizio kritikoetan jasotako datua)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-filosofia-espanola"
+  ]
+ },
+ "las_casas": {
+  "name": "Bartolome de las Casas",
+  "dates": "c. 1484 – 1566",
+  "born": 1484,
+  "died": 1566,
+  "place": "Sevilla",
+  "role": "fraide dominikarra, Amerikako indigenen defendatzailea",
+  "idea": "Amerikako indigenak gizaki aske eta arrazionalak dira, beste edonork dituen eskubide berberekin; haiek indarrez konkistatzea eta esklabo bihurtzea injustizia bat da.",
+  "bio": "<p>Bartolome de las Casas Sevillan jaio zen 1484 inguruan eta gazterik joan zen orduantxe aurkitutako Indietara, non hasieran <strong>enkomendero</strong> izan baitzen, hau da, indigena talde baten derrigorrezko lanaren jabe. 1514 inguruan, sistema horren injustiziaz irakurri eta hausnartu ondoren, bere enkomiendari uko egin zion eta bere bizitza luzearen gainerakoa indigenak defendatzen eman zuen. Fraide dominikar egin zen, Chiapaseko apezpiku izatera iritsi zen eta Atlantikoa behin eta berriz zeharkatu zuen natiboak babesteko legeak eskatzeko. <strong>«Indioen babeslea»</strong> gisa ezagutzen da.</p>\n<p>Haren libururik famatuena, <em>Indietako suntsipenaren kontakizun laburra</em>, konkistatzaileen gehiegikeriak gordin deskribatzen ditu erregea hunkitzeko eta politika-aldaketa bat behartzeko. Las Casasek 1542ko <strong>Lege Berrietan</strong> eragina izan zuen, enkomiendak mugatzen saiatu zirenak. Haren obrak bi ondorio kontrajarri izan zituen: injustizia salatzeko balio izan zuen, baina Espainiaren herrialde arerioek ere erabili zuten <strong>«kondaira beltza»</strong> sortzeko, espainiar guztiaren irudi gehiegizko krudel bat. Haren indigenen aldeko defentsa giza eskubideen aldeko lehen oihu handi bat izan zen, edo haren kontakizunak kopuruak eta gertaerak puztu zituen, historialariek oraindik eztabaidatzen dute, bi zentzuetan argudioekin.</p>",
+  "obras": [
+   "Indietako suntsipenaren kontakizun laburra (1552)",
+   "Indietako historia",
+   "Apologia (Valladolideko eztabaidan irakurritako defentsa, 1550)"
+  ],
+  "anecdota": "<p>Las Casas ez zen hasi indigenen defendatzaile izaten: hasieran bera ere enkomendero izan zen eta haien lanaz baliatzen zen. Aldaketa, bere <em>Indietako historia</em> lanean kontatzen duenez, predikatzeko prestatzen ari zenean iritsi zen, Bibliako pasarte batean gelditu baitzen, zeinak behartsuari ogia kentzea eta jornalariari gaizki ordaintzea gaitzesten baitzuen. Hartaz hausnartuz, ondorioztatu zuen indigenekin egiten zen guztia bidegabea zela, bereei uko egin zien eta bizimodua aldatu zuen. Pentsatzeko kasu interesgarria da: geroago sistema bat salatu zuena haren parte izan zen, eta horrek ez du haren kritika baliogabetzen, baina nondik zetorren jakinda irakurtzera behartzen gaitu.</p>",
+  "fuente": "Bartolome de las Casas, Indietako historia (bere beraren bihurkundearen kontakizuna, 1514 inguruan)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola",
+   "hf-beefs"
+  ]
+ },
+ "sepulveda": {
+  "name": "Juan Gines de Sepulveda",
+  "dates": "c. 1490 – 1573",
+  "born": 1490,
+  "died": 1573,
+  "place": "Pozoblanco (Kordoba)",
+  "role": "humanista, errege-kronikagilea eta Aristotelesen itzultzailea",
+  "idea": "Aristotelesengan oinarrituz, defendatu zuen herri batzuk berez agintzeko gaiago direla eta beste batzuk obeditzeko, eta horregatik indigenen aurkako gerra bidezkoa izan zitekeela.",
+  "bio": "<p>Juan Gines de Sepulveda Kordoba inguruan jaio zen 1490 inguruan eta Italian prestatu zen, non grekoaren ezagutzaile handi eta <strong>Aristoteles</strong> latinera itzultzaile miretsia izatera iritsi baitzen. Karlos V.a enperadorearen kronikagile ofiziala izan zen eta bere garaiko espainiar humanistarik errespetatuenetako bat. Gaur egun, batez ere, Bartolome de las Casasen arerio handia izan zelako gogoratzen da Amerikaren konkistari buruzko eztabaidan, eta horrek batzuetan filologo eta itzultzaile gisa duen balioa ahaztarazten du.</p>\n<p>Bere <em>Demokrates bigarrena</em> lanean defendatu zuen indigenen aurkako gerra <strong>bidezkoa</strong> izan zitekeela. Horretarako Aristotelesen ideia erabili zuen, zeinaren arabera «berez morroi» diren pertsonak eta herriak dauden, gobernatzeko baino obeditzeko gaiagoak, eta erantsi zuen haiek menderatzeak giza sakrifizioekin amaitzeko eta kristautasuna jaso zezaten balio zuela. Haren argudioak gaur egun onartzen zailak dira, baina bere garaian oso baloratutako autoritateetan oinarritzen ziren, hala nola Aristotelesen eta gerra-zuzenbidean. Pertsona jantzi batek hura defendatu zezakeen zergatik ulertzeak, eta zer erantzun zioten jakiteak, ikusten laguntzen du ideia bidegabeak ez datozela beti jende ezjakinarengandik: horregatik arrazoiak aztertu behar dira, ez asmoak soilik.</p>",
+  "obras": [
+   "Demokrates bigarrena edo Indioen aurkako gerraren bidezko arrazoiei buruz (Democrates alter, 1544 ingurukoa)",
+   "Aristotelesen latinezko itzulpenak (Politika, besteak beste)",
+   "Karlos V.aren kronikak"
+  ],
+  "anecdota": "<p>Sepulvedak indigenen aurkako gerra defendatzen zuen liburua, <em>Demokrates bigarrena</em>, ez zen egilearen bizialdian argitaratu. Inprimatzeko baimen ofiziala eskatu zuenean, auzia Salamancako eta Alcalako unibertsitateetara bidali zen, eta teologoek <strong>ez baimentzea</strong> aholkatu zuten. Xehetasun esanguratsua da: gaur egun garai hura intolerantziarekin lotzen dugun arren, Sepulvedaren ideiek ez zituzten bere herrialdeko jakintsu guztiak ere konbentzitzen, eta Espainiaren barruan aurkaritza aurkitu zuten. Testu osoa haren heriotzaren ondoren urte askora bakarrik editatu zen.</p>",
+  "fuente": "Demokrates bigarrena lanaren zentsuraren historia: Salamancako eta Alcalako irizpenek (1548 inguruan) ez zuten haren inprimaketa gomendatu, obraren edizio modernoetan jasoa",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola",
+   "hf-beefs"
+  ]
+ },
+ "vives": {
+  "name": "Juan Luis Vives",
+  "dates": "1493 – 1540",
+  "born": 1493,
+  "died": 1540,
+  "place": "Valentzia",
+  "role": "humanista eta pedagogo valentziarra",
+  "idea": "Hezkuntzak esperientziatik eta pertsona bakoitzaren behaketatik abiatu behar du, eta emakumeengana eta behartsuengana ere iritsi, ez soilik gutxiengo jantzi batengana.",
+  "bio": "<p>Juan Luis Vives Valentzian jaio zen 1493an, kristautasunera bihurtutako juduen (konbertsoen) familia batean. Oso gazte joan zen Parisera ikastera eta ia bizitza osoa Espainiatik kanpo eman zuen, batez ere Flandesen, Brujasko hirian. <strong>Erasmo Rotterdamgoaren</strong> eta <strong>Tomas Mororen</strong> adiskide izan zen, Lovainako Unibertsitatean eta Ingalaterran irakatsi zuen, non Maria Tudor printzesaren hezitzaile izan baitzen. Ia beti latinez idatzi zuen, garaiko hizkuntza jantzian, eta Europako Errenazimenduko humanista handietako bat dela jotzen da.</p>\n<p>Vivesi batez ere <strong>hezkuntza</strong> eta gizakiaren ezagutza interesatzen zitzaizkion. <em>De disciplinis</em> lanean bere garaiko irakaskuntza errutinarioa kritikatzen du eta natura eta nork bere esperientzia behatuz ikastea proposatzen du; <em>De anima et vita</em> lanean emozioak aztertzen ditu geroko filosofo askok baino lehen. Emakumeen heziketa defendatu zuen <em>Emakume kristauaren heziketa</em> lanean eta, <em>Behartsuei laguntzea</em> lanean, Brujasko hiriari proposatu zion behartsuen arreta komunitatearen eginkizun antolatu bat izatea, eta ez noizbehinkako limosna soila. Humanismoaren, pedagogiaren eta gizarte-kezkaren nahasketa horrek egiten du oraindik gaurkoa den pentsalari bat.</p>",
+  "obras": [
+   "Emakume kristauaren heziketa (De institutione feminae christianae, 1523)",
+   "Behartsuei laguntzea (De subventione pauperum, 1526)",
+   "Diziplinei buruz (De disciplinis, 1531)",
+   "Arimaz eta bizitzaz (De anima et vita, 1538)"
+  ],
+  "anecdota": "<p>Vivesen familiak gertutik jasan zuen <strong>Inkisizioa</strong>. Konbertsoen familia bat zen, eta Valentzian auzitegiek zaintzen zituzten ezkutuan judaismoa praktikatzen jarraitzen zutelakoan susmatzen zituztenak. Haren aita prozesatu eta sutan exekutatu zuten 1524an, eta urte batzuk geroago, ama jada hilda, haren hondarrak lurpetik ateratzeko eta erretzeko agindu zuten akusazio beragatik. Gertaera horiek, mendez mende ezkutuan, XX. mendean atera ziren argitara artxibo inkisitorialak aztertzean. Lagungarriak dira ulertzeko zergatik bizi izan zen Vives beti bere lurretik urrun eta zergatik idatzi zuen hain zuhurtziaz erlijioaz. Komeni da gertaera mingarri gisa gogoratzea, oraindik historialarien artean eztabaidatzen dena, eta ez garai oso bati buruzko epai itxi gisa.</p>",
+  "fuente": "Miguel de la Pinta Llorenteren eta José María de Palacioren ikerketak Vives familiaren prozesu inkisitorialei buruz (XVI. mendeko artxiboak, 1964an argitaratuak)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "calvino": {
   "name": "Joan Kalvino",
   "dates": "1509 – 1564",
@@ -1947,7 +2190,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-descartes-makro"
+  ]
+ },
+ "servet": {
+  "name": "Miguel Servet",
+  "dates": "1511 – 1553",
+  "born": 1511,
+  "died": 1553,
+  "place": "Villanueva de Sijena (Aragoi)",
+  "role": "mediku eta teologo aragoiarra",
+  "idea": "Defendatu zuen ez dagoela oinarririk Trinitatearen dogmarako eta erlijioan pentsatzeko askatasuna aldarrikatu zuen; odola biriketatik nola pasatzen den ere deskribatu zuen.",
+  "bio": "<p>Miguel Servet 1511n jaio zen Villanueva de Sijenan, Aragoin. Adimen artega eta unibertsala izan zen: zuzenbidea, medikuntza, geografia eta teologia ikasi zituen. Mediku gisa, <em>Restitución del cristianismo</em> bere lanean odolaren <strong>birika-zirkulazioa</strong> edo «txikia» deskribatu zuen: azaldu zuen odola bihotzetik biriketara pasatzen dela, han airearekin nahasten dela eta bihotzera itzultzen dela. Europan ibilbide horren lehen deskribapenetako bat izan zen, nahiz eta ia inork irakurri ez zuen teologia-liburu batean lurperatuta geratu zen.</p>\n<p>Ospea eman ziona eta bizia kostatu zitzaiona bere ideia erlijiosoak izan ziren. Servetek <strong>Trinitatearen</strong> dogma (Jainkoa Aita, Semea eta Espiritu Santua esentzia bakarrean dela) ukatu zuen eta, bere ustez, jatorrizkoa zen kristautasun batera itzultzeko eskatu zuen. Horrek Eliza katolikoaren eta erreformatzaile protestanteen etsai bihurtu zuen. Frantziako Inkisizioak jazarrita, ihes egin eta Genevan amaitu zuen, non <strong>Joan Kalbino</strong> erreformatzailea agintzen baitzuen. Han epaitu eta <strong>sutan erre</strong> zuten 1553an. Haren heriotzak gaur egun ere axola duen eztabaida bat piztu zuen: botere batek, erlijioso edo politikoak, hil al dezake norbait pentsatzen duenagatik? Handik gutxira, Sebastián Castelliónek idatzi zuen indarrez sinestera behartzea eta ideia batengatik hiltzea ezin dela defendatu, <strong>tolerantziarako</strong> lehen dei handietako batean.</p>",
+  "obras": [
+   "Trinitatearen akatsei buruz (De Trinitatis erroribus, 1531)",
+   "Kristautasunaren berrezarpena (Christianismi restitutio, 1553)"
+  ],
+  "anecdota": "<p>Odola biriketatik zirkulatzearen deskribapena ez da medikuntza-tratatu batean agertzen, baizik eta teologia-liburu baten erdian ezkutatuta, <em>Restitución del cristianismo</em>-n. Ale ia guztiak egilearekin batera erre zituzten, eta gutxi batzuk baino ez ziren salbatu; denbora luzez zalantzan jarri zen Servetek hura benetan idatzi ote zuen, ale bakan horiek aurkitu ziren arte. Horregatik aurkikuntza zientifikoa ia oharkabean pasatu zen bere garaian: medikuntzak odolaren ibilbide bera beranduago berraurkitu behar izan zuen, beste bide batzuetatik.</p>",
+  "fuente": "Miguel Servet, Christianismi restitutio (1553), non birika-zirkulazioa deskribatzen baita; erreketatik ihes egin zuten ale bakanetakoa",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola"
   ]
  },
  "montaigne": {
@@ -1971,7 +2240,10 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-montaigne-ensayos",
+   "hf-utopias-autoras",
+   "hf-bayle-diccionario",
    "hf-kant-poetas"
   ]
  },
@@ -1998,6 +2270,31 @@ const ILUSTRES = {
    "hf-renacimiento-magia"
   ]
  },
+ "suarez": {
+  "name": "Francisco Suárez",
+  "dates": "1548 – 1617",
+  "born": 1548,
+  "died": 1617,
+  "place": "Granada",
+  "role": "teologo eta filosofo jesuita",
+  "idea": "Botere politikoa ez da Jainkoarengandik erregeagana zuzenean jaisten, baizik eta Jainkoak herrian jartzen du, eta herriak gobernatzen duenari ematen dio; horregatik botereak mugak ditu.",
+  "bio": "<p>Francisco Suárez Granadan jaio zen 1548an eta <strong>Jesusen Lagundian</strong> sartu zen. Hainbat unibertsitatetan irakasle izan zen eta Portugalgo Coimbrakoan amaitu zuen. <em>Doctor Eximius</em> («doktore bikaina») deitu zioten eta <strong>eskolastikaren</strong> azken ordezkari handietako bat izan zen, Erdi Aroko unibertsitateetan sortutako filosofia, Aristotelesen arrazoia kristau-teologiarekin batzen zuena. Haren <em>Disputa metafisikoak</em> lanak hain argi antolatu zituen metafisikaren arazoak, non mende batez baino gehiagoz ikasi baitzen Europa osoan, baita unibertsitate protestanteetan ere.</p>\n<p>Politikan, Suárezek Salamancako Eskolaren ideiei jarraitu zien. Defendatu zuen erregeak boterea ez duela Jainkoarengandik zuzenean jasotzen, zenbait monarkak defendatzen zuten bezala, baizik eta Jainkoak <strong>komunitatean</strong> uzten duela, eta komunitatea dela gobernariari halako itun baten bidez transferitzen diona. Hortik ondorioztatzen da erregearen boterea ez dela absolutua eta lege bidegabeak eztabaida daitezkeela. <em>Fede katolikoaren defentsa</em> lanean Ingalaterrako Jakue I.a erregearen asmoa arbuiatu zuen, bere menpekoen kontzientzia erlijiosoan ere agintzekoa. Boterearen jatorriari buruzko ideia hauek subiranotasunari buruzko eztabaida modernoan eragin zuten.</p>",
+  "obras": [
+   "Disputa metafisikoak (Disputationes metaphysicae, 1597)",
+   "Legeei buruz (De legibus, 1612)",
+   "Fede katolikoaren defentsa (Defensio fidei catholicae, 1613)"
+  ],
+  "anecdota": "<p>1613an Suárezek <em>Fede katolikoaren defentsa</em> argitaratu zuen Ingalaterrako <strong>Jakue I.a</strong> erregearen aurka, zeinak katolikoei beren erlijioarekin talka egiten zuen leialtasun-zin bat eskatzen baitzien. Liburuak hainbeste gogaitu zituen beren botere absolutua defendatzen zuten monarkiak, non publikoki erre baitzuten Londresen 1613an eta Parisen 1614an, azken hau Frantziako parlamentuaren aginduz. Teologia-irakasle baten liburu bat bi hiriburutan sutan amaitzeak erakusten du zein neurritaraino zen orduan «nondik dator agintzen duenaren boterea?» galdera auzi politiko lehergarri bat, eta ez eztabaida akademiko soil bat.</p>",
+  "fuente": "Suárezen biografietan eta Defensio fidei (1613) lanari buruzko ikerketetan jasotako gertaera, Londresen eta Parisen erretzera kondenatua",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "francis_bacon": {
   "name": "Francis Bacon",
   "dates": "1561 – 1626",
@@ -2021,6 +2318,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-racionalismo"
   ]
  },
@@ -2076,6 +2374,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-marx-biblioteca"
   ]
  },
@@ -2230,6 +2529,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-medieval",
    "hf-platon-agustin",
@@ -2241,10 +2541,38 @@ const ILUSTRES = {
    "hf-descartes-simulacion",
    "hf-metafisica",
    "hf-spinoza-sistema",
+   "hf-bayle-diccionario",
    "hf-kant",
+   "hf-filosofas-dialogo",
    "hf-capitalismo",
    "hf-existencialismo",
    "hf-descartes-makro"
+  ]
+ },
+ "gracian": {
+  "name": "Baltasar Gracián",
+  "dates": "1601 – 1658",
+  "born": 1601,
+  "died": 1658,
+  "place": "Belmonte de Calatayud (Aragoi)",
+  "role": "idazle eta filosofo moralista jesuita",
+  "idea": "Itxuraz eta engainuz betetako mundu batean, ondo bizitzeak zorroztasuna, zuhurtzia eta pertsonak eta nork bere burua ezagutzeko artea eskatzen ditu.",
+  "bio": "<p>Baltasar Gracián 1601ean jaio zen Calatayud ondoan, Aragoin, eta <strong>Jesusen Lagundian</strong> sartu zen. Irakasle eta predikari izan zen, baina batez ere idazle fina, <strong>kontzeptismo</strong> deitzen den estilo labur eta zorrotzaren maisua: gauza asko hitz gutxitan esatea, pentsatzera behartzen duten esaldiekin. <strong>Barroko</strong> betean bizi izan zen, itxuraz mesfidatzen zen garai desengainatu batean, eta haren obrak giro hori islatzen du: mundua engainuen antzoki bat da eta bertan mugitzen ikasi behar da garaitzen utzi gabe.</p>\n<p><em>Eskuko orakulua eta zuhurtziaren artea</em> lanean hirurehun esakune labur bildu zituen besteen artean adimenez jokatzeko; berriz modan jarri den liburua da, maltzurkeriaren eta nork bere burua ezagutzearen eskuliburu gisa. <em>El Criticón</em> lanean, haren obrarik handienean, bi pertsonaiak bizitzan zehar egindako bidaia kontatzen du eleberri moduan, errugabetasunetik desengainuaren jakinduriaraino. Graciánek ez du Descartesen estiloko sistema filosofiko bat proposatzen, baizik eta <strong>jakinduria praktiko</strong> bat: nola pentsatu, nola hitz egin eta nola jokatu jendearekin. Haren begirada argi eta batzuetan ezkorrak Schopenhauer eta Nietzsche bezalako pentsalariengan eragin zuen geroago.</p>",
+  "obras": [
+   "Heroia (1637)",
+   "Eskuko orakulua eta zuhurtziaren artea (1647)",
+   "Zorroztasuna eta adimen-artea (1648)",
+   "El Criticón (1651–1657)"
+  ],
+  "anecdota": "<p>Graciánek arazoak izan zituen bere ordenarekin. Hainbat obra argitaratu zituen jesuiten baimenik gabe eta izen faltsu batekin sinatuz, bere anaia Lorenzo Graciánen izenarekin, barne-zentsura saihesteko. <em>El Criticón</em> lanaren hirugarren zatia atera zuenean, Lagundiak erreakzionatu zuen: errieta egin zioten, bere katedratik baztertu zuten, beste etxe batera lekualdatuz itxi zuten eta berriz argitaratzea debekatu zioten. (Dibulgazioko zenbait biografiak errepikatzen duten «ogi eta uretako penitentzia» ez dago ordenaren erregistroetan dokumentatuta.) Pentsamenduaren historian ohikoa den zerbaiten adibidea da: egile bikain bat, kide den erakundearekin talka egiten duena, eta pentsatzen duena argitaratu ahal izateko inguru-minguruak bilatu behar dituena.</p>",
+  "fuente": "Jesusen Lagundiaren barne-dokumentazioa Graciáni El Criticón baimenik gabe argitaratu ondoren ezarritako zigorrei buruz, egilearen biografia modernoetan jasoa",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "isabel": {
@@ -2267,6 +2595,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -2332,6 +2661,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2361,6 +2691,7 @@ const ILUSTRES = {
   "temas": [
    "hf-aa",
    "hf-medieval",
+   "hf-utopias-autoras",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
@@ -2451,10 +2782,12 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2483,7 +2816,33 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-spinoza-universal"
+   "hf-spinoza-universal",
+   "hf-bayle-diccionario"
+  ]
+ },
+ "feijoo": {
+  "name": "Benito Jerónimo Feijoo",
+  "dates": "1676 – 1764",
+  "born": 1676,
+  "died": 1764,
+  "place": "Casdemiro (Ourense, Galizia)",
+  "role": "monje benediktarra eta saiakeragilea",
+  "idea": "Esperientziarekin eta arrazoiarekin borrokatzea ohiko akatsak, superstizioak eta mirari faltsuak: ez da zerbait sinetsi behar guztiek edo ohiturak diotelako, baizik eta frogak daudelako.",
+  "bio": "<p>Benito Jerónimo Feijoo 1676an jaio zen Casdemiron, Ourenseko (Galizia) herrixka batean, familia aitoren batean. Oso gazte sartu zen <strong>benediktarren</strong> ordenan eta ia bizitza osoa Oviedoko San Vicente monasterioan eman zuen, non unibertsitateko katedradun izan baitzen. Ia ez zen handik atera, baina Europatik iristen zen guztia irakurtzen zuen —zientzia, medikuntza, filosofia— eta espainiar publikoaren eskura jarri zuen gaztelania argi batean. 87 urte bizi izan zen eta Oviedon hil zen 1764an.</p>\n<p>Haren obra bi saiakera-bilduma handi dira, <em>Teatro crítico universal</em> (1726-1740) eta <em>Cartas eruditas y curiosas</em> (1742-1760), irakurlea «ohiko akatsez» desengainatzeko idatziak: sendalariak, mirari faltsuak, aztikeriak, erremedio absurduak. Feijoo ez zen iraultzaile bat; fraide sinestun izaten jarraitzen zuen, baina fedeak irakasten duena superstizioak soilik dioenetik bereiztea eskatzen zuen, eta <strong>esperientziaz</strong> eta <strong>arrazoiaz</strong> fidatzea. Espainian espiritu kritiko modernoa sartu zuena dela jotzen da, Ilustrazioaren hasieran. «Emakumeen defentsa» saiakeran defendatu zuen emakumearen ustezko gutxiagotasun intelektuala ez datorrela naturatik, baizik eta hezkuntza-faltatik.</p>",
+  "obras": [
+   "Teatro crítico universal (1726-1740)",
+   "Cartas eruditas y curiosas (1742-1760)",
+   "«Emakumeen defentsa» (Teatro crítico universal lanean, I. liburukia, 1726)"
+  ],
+  "anecdota": "<p>Ia hogeita bost urtez, dozenaka egilek liburuak argitaratu zituzten Feijoo erasotuz edo defendatuz: XVIII. mendeko Espainiako polemika intelektual handiena izan zen. 1750ean, hura amaitzeko, <strong>Fernando VI.a</strong> erregeak fraidearen eta haren obraren aurkako idazkiak inprimatzea debekatzen zuen agindu bat eman zuen. Ohikoa ez den kasua da: errege-botereak idazle baten defentsan ateratzen zen haren kritikarien aurrean. Neurria mende-laurden bateko erantzun eta kontra-erantzunen ondoren iritsi zen.</p>",
+  "fuente": "Fernando VI.aren 1750eko errege-agindua; polemika feijootarrari buruzko ikerketak (XVIII. mendearen Azterketetarako Zentroa, Oviedoko Unibertsitatea)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "berkeley": {
@@ -2562,6 +2921,7 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-bayle-diccionario",
    "hf-kant-juicios"
   ]
  },
@@ -2698,6 +3058,7 @@ const ILUSTRES = {
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2757,6 +3118,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
+   "hf-bayle-diccionario",
    "hf-marx-biblioteca"
   ]
  },
@@ -2802,7 +3164,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-bayle-diccionario"
   ]
  },
  "morelly": {
@@ -2898,6 +3261,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
    "hf-montaigne-ensayos",
@@ -2911,6 +3275,7 @@ const ILUSTRES = {
    "hf-kant-juicios",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -3076,6 +3441,32 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "jovellanos": {
+  "name": "Gaspar Melchor de Jovellanos",
+  "dates": "1744 – 1811",
+  "born": 1744,
+  "died": 1811,
+  "place": "Gijón (Asturias)",
+  "role": "ilustratua, legelaria, politikaria eta idazlea",
+  "idea": "Herrialde baten aurrerapena batez ere hezkuntzaren eta ekonomia itotzen duten oztopoak kentzearen mende dago: hezkuntza publikoa da gizarte-oparotasunaren lehen iturria.",
+  "bio": "<p>Gaspar Melchor de Jovellanos Gijónen jaio zen 1744an, behera etorritako familia noble batean. Zuzenbidea ikasi zuen eta magistratu izan zen Sevillan eta gero Madrilen. Espainiako Ilustrazioaren gizon nagusia, akademietako eta herrialdea modernizatu nahi zuten <strong>Herriaren Adiskideen Elkarte Ekonomikoetako</strong> kide izan zen. 1794an bere hirian Asturiasko Nautika eta Mineralogia Errege Institutua sortu zuen, irakaskuntza baliagarrien eskola bat. Grazia eta Justiziako ministro izatera iritsi zen (1797-1798), nahiz eta gutxi iraun zuen karguan.</p>\n<p>Haren idazkirik eragingarriena <em>Nekazaritza Legeari buruzko txostena</em> (1795) da: <strong>Adam Smith</strong> ekonomialariaren ideiei jarraituz, nekazaritzari askatasun gehiago ematea eta hura geldiarazten zuten oztopoak kentzea defendatzen zuen (maiorazkoak, lur amortizatuak, Mestaren pribilegioak). Hezkuntzari eta ikuskizun publikoei buruzko memoriak ere idatzi zituen, eta <em>Egunerokoak</em>, bere garaiaren erretratu handi bat direnak. Politikan erreformista moderatua izan zen: Espainia barrutik aldatu nahi zuen, legeekin eta hezkuntzarekin, ez iraultza batekin. Napoleonen aurkako gerran, errege kanpoan zegoela haren izenean gobernatu zuen Batzar Nagusiaren kide izan zen.</p>",
+  "obras": [
+   "Nekazaritza Legeari buruzko txostena (1795)",
+   "Hezkuntza publikoari buruzko memoria (1802)",
+   "Ikuskizun eta jolas publikoei buruzko memoria (1790)",
+   "Egunerokoak"
+  ],
+  "anecdota": "<p>1801ean, azpikeria politikoengatik eta epaiketarik gabe, Jovellanos atxilotu eta Mallorcako Bellver gazteluan itxi zuten, <strong>Godoy</strong> balidoaren aginduz. Han zazpi urte baino gehiago eman zituen preso, kondenarik gabe, 1808an Godoyren erorketak askatasuna itzuli zion arte. Itxialdian ez zuen ikasteari eta idazteari utzi: gazteluaren beraren eta uhartearen deskribapenak idatzi zituen. Estatuari zerbitzatu zion erreformista botere beragatik espetxeratuta amaitu zuen.</p>",
+  "fuente": "Jovellanosen Egunerokoak; erreferentziazko biografiak (Real Academia de la Historia, «Gaspar Melchor de Jovellanos»; Biblioteca Virtual Miguel de Cervantes)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "bentham": {
   "name": "Jeremy Bentham",
   "dates": "1748 – 1832",
@@ -3125,7 +3516,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-utopias-autoras",
+   "hf-ilustracion",
+   "hf-filosofas-dialogo"
   ]
  },
  "goethe": {
@@ -3272,8 +3665,10 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-utopias-autoras",
    "hf-ilustracion",
    "hf-marx-biblioteca",
+   "hf-filosofas-dialogo",
    "hf-corazon-piedra"
   ]
  },
@@ -3587,6 +3982,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-utopias-autoras",
    "hf-marx-biblioteca"
   ]
  },
@@ -3793,6 +4189,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-sospecha"
   ]
@@ -4060,6 +4457,32 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "balmes": {
+  "name": "Jaime Balmes",
+  "dates": "1810 – 1848",
+  "born": 1810,
+  "died": 1848,
+  "place": "Vic (Bartzelona, Katalunia)",
+  "role": "apaiza, filosofoa eta idazle politikoa",
+  "idea": "Ondo pentsatzea gauzen egia ikustea eta egiazkoa faltsutik bereiztea da; fedea eta arrazoia ez dira aurkakoak, baizik eta elkar behar dute.",
+  "bio": "<p>Jaime Balmes (Jaume Balmes katalanez) Vicen jaio zen 1810ean, familia apal baten semea. <strong>Apaiz</strong> ordenatu zen eta teologian doktoratu zen. Osasun ahulekoa, 37 urte baino ez zituen bizi izan, baina denbora horretan filosofiako, apologetikako eta politikako obra izugarria idatzi zuen eta eragin handiko aldizkariak sortu zituen. Tuberkulosiak jota hil zen bere jaioterrian 1848an.</p>\n<p>Haren libururik irakurriena <em>El criterio</em> (1845) da, <strong>ondo pentsatzen</strong> ikasteko gida praktiko bat, hizkuntza xume eta adibidez betea: mende batez baino gehiagoz erabili zen Espainiako eskoletan. <em>Filosofía fundamental</em> lanean ezagutzarako abiapuntu seguru bat bilatu zuen, Descartesekin elkarrizketan. Defendatu zuen fedea eta arrazoia osagarriak direla, gero neoeskolastika deituko zen filosofia kristauaren ildoan. Kazetari politiko handia ere izan zen: <em>El protestantismo comparado con el catolicismo</em> bezalako lanetan bi fedeen papera alderatu zuen Europaren historian.</p>",
+  "obras": [
+   "El criterio (1845)",
+   "Filosofía fundamental (1846)",
+   "El protestantismo comparado con el catolicismo en sus relaciones con la civilización europea (1842-1844)",
+   "Filosofía elemental (1847)"
+  ],
+  "anecdota": "<p>Balmesek <em>El protestantismo comparado con el catolicismo</em> idatzi zuen neurri batean François Guizot frantsesaren <em>Historia de la civilización en Europa</em> lanari erantzun gisa, zeinak protestantismoari egozten baitzion aurrerapen modernoaren zati handi bat. Balmesen obra laster itzuli zen frantsesera, italierara, alemanera eta ingelesera, eta Europa osoan ezagutarazi zuen hiri katalan txiki bateko apaiz bat. Bere mendeko oihartzun internazionala bizialdian izan zuten espainiar pentsalari bakanetako bat izan zen.</p>",
+  "fuente": "J. Balmes, El protestantismo comparado con el catolicismo (1842-1844); F. Guizot, Historia de la civilización en Europa (1828); erreferentziazko biografiak (Real Academia de la Historia, «Jaime Balmes»)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "dickens": {
   "name": "Charles Dickens",
   "dates": "1812 – 1870",
@@ -4187,8 +4610,10 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
+   "hf-utopias-autoras",
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-ilustracion",
@@ -4284,6 +4709,7 @@ const ILUSTRES = {
    "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-posmodernidad",
    "hf-existencialismo"
   ]
@@ -4339,6 +4765,7 @@ const ILUSTRES = {
   "temas": [
    "hf-ilustracion",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-capitalismo",
    "hf-posmodernidad"
   ]
@@ -4420,6 +4847,31 @@ const ILUSTRES = {
   ],
   "temas": []
  },
+ "salome": {
+  "name": "Lou Andreas-Salomé",
+  "dates": "1861 – 1937",
+  "born": 1861,
+  "died": 1937,
+  "place": "San Petersburgo",
+  "role": "idazlea eta psikoanalista",
+  "idea": "Jainkorik gabeko erlijiotasuna, erotismoa eta sorkuntza artistikoa pentsatu zituen; Nietzscheren, Rilkeren eta Freuden solaskidea, bere askatasuna bera pentsamendu-era bihurtu zuen.",
+  "bio": "<p>Lou San Petersburgon jaio zen 1861ean, jatorri alemaneko familia aberats batean. Gaztetan hizkuntza klasikoak, filosofia eta literatura ikasi zituen, eta Zuricheko unibertsitatera joan zen —emakumeak onartzen zituen bakanetako bat—, bere bizitza pentsamenduari eskaintzeko eta bere independentzia gordetzeko erabakita.</p>\n<p>1882an Erroman ezagutu zituen Paul Rée eta <strong>Nietzsche</strong>, zeinekin hirukote intelektual bizi bat osatu baitzuen. Bien ezkontza-proposamenak arbuiatu zituen. Haustura ondoren <em>Friedrich Nietzsche bere obretan</em> (1894) argitaratu zuen, haren filosofiaren lehen azterketa serioetako bat. Geroago <strong>Rilke</strong> poetaren adiskide eta gidari izan zen eta, mende-aldaketan jada, <strong>psikoanalisira</strong> hurbildu zen: <strong>Freud</strong> ezagutu zuen, harekin prestatu zen eta erotismoari eta emakumeen psikologiari buruz idatzi zuen.</p>\n<p>Gotingan hil zen 1937an; Gestapok haren liburutegia konfiskatu zuen handik gutxira. Ikasgaian Nietzscheren kontrapuntu gisa balio du: hark gehien miretsi zuen pentsalaria izan zen, gero haren obra nazismoaren bandera bihurtu zutenek isilarazia.</p>",
+  "obras": [
+   "Friedrich Nietzsche bere obretan",
+   "Erotismoa",
+   "Nire bizitza (memoriak)"
+  ],
+  "anecdota": "<p>Ezkondu beharrean, Salomék Nietzscheri eta Réeri proposatu zien hirurak elkarrekin bizitzea ikasketari emandako «komuna» intelektual gisa. Garai hartakoa da argazki famatua, non gurdi txiki batean posatzen baitu jostailuzko zartailu bat eskuan hartuta, bi filosofoak hura tiraka dituela. Bere buruaz zioen: «ez naiz gai ereduen arabera bizitzeko, ezta inorentzat eredu izateko ere» (parafrasia).</p>",
+  "fuente": "Lou Andreas-Salomé, *Friedrich Nietzsche bere obretan* eta *Nire bizitza*; Lola Cabrera Trigoren *El pensamiento en femenino plural* lanetik egokitua (Erein, «En diálogo con…» saila; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
+  ]
+ },
  "unamuno": {
   "name": "Miguel de Unamuno",
   "dates": "1864 – 1936",
@@ -4444,6 +4896,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-existencialismo"
   ]
  },
@@ -4606,6 +5059,29 @@ const ILUSTRES = {
    "hf-kant-poetas"
   ]
  },
+ "maeztu": {
+  "name": "María de Maeztu",
+  "dates": "1881 – 1948",
+  "born": 1881,
+  "died": 1948,
+  "place": "Vitoria-Gasteiz",
+  "role": "pedagogoa",
+  "idea": "Praktikara eraman zuen emakumeen hezkuntza-berdintasuna: Residencia de Señoritas-etik unibertsitaterako eta bere garaiko Espainiako bizitza intelektualerako sarbidea ireki zien gazteei.",
+  "bio": "<p>María de Maeztu y Whitney Vitorian jaio zen 1881ean. Maistra gisa prestatu zen eta gero filosofia ikasi zuen, <strong>Unamuno</strong>ren eta <strong>Ortega y Gasset</strong>en ikasle, eta Alemanian eta Estatu Batuetan osatu zituen ikasketak. Hainbat hizkuntza menderatzen zituen eta laster espainiar hezkuntzako figurarik errespetatuenen artean kokatu zen.</p>\n<p><strong>Institución Libre de Enseñanza</strong>ren inguruan zuzendu zuen, 1915 eta 1936 artean, <strong>Residencia de Señoritas</strong>, bere proiekturik garrantzitsuena: edozein gaztek ikasi, ostatu hartu eta unibertsitaterako presta zitekeen leku bat, espainiar emakumeek oraindik baimen bereziak behar zituzten garai batean hartara iristeko. Handik Gabriela Mistral edo María Montessori bezalako intelektualak pasatu ziren. Instituto-Escuela ere bultzatu zuen eta Liceo Club Femenino-ren lehendakari izan zen.</p>\n<p>Bere pedagogiak ikasle aktiboa defendatzen zuen, ikaskuntza memoristikotik urrun, hezkuntza gizarte-erreformaren motor gisa. Gerra Zibila lehertzean, eta bere anaia Ramiro exekutatu ostean, Argentinara erbesteratu zen, non irakasten jarraitu baitzuen hil arte, Mar del Platan, 1948an. XX. mendeko lehen herenaren espainiar pentsamenduari lotuta agertzen da, Ortegarekin eta María Zambranorekin batera.</p>",
+  "obras": [],
+  "anecdota": "<p>Residencia de Señoritas ostatu bat baino askoz gehiago izan zen: Madrilgo emakume intelektualen topagune bihurtu zen. Bere izaera laikoak sektore kontserbadoreenen erasoak ekarri zizkion, zeinak bere bazkideak «bertuterik eta errukirik gabeko emakume» gisa kalifikatzera iritsi baitziren. Frankismoarekin, Liceoaren eraikin bera Sección Femenina-k okupatu zuen azkenean, bere idealen kontrakoak zituena.</p>",
+  "fuente": "Lola Cabrera Trigoren *El pensamiento en femenino plural* liburutik egokitua (Erein, «En diálogo con…» saila; CC BY-NC-SA 4.0); datak Auñamendi Entziklopediaren (Eusko Ikaskuntza) eta EcuRed-en arabera (1948-1-7an hil zen Mar del Platan; liburuak, okerki, 1952 ematen du)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-filosofia-espanola",
+   "hf-filosofas-dialogo"
+  ]
+ },
  "schlick": {
   "name": "Moritz Schlick",
   "dates": "1882 – 1936",
@@ -4650,6 +5126,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-existencialismo",
    "hf-beauvoir"
   ]
@@ -4752,6 +5229,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-posmodernidad",
    "hf-existencialismo"
@@ -4804,6 +5282,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-marxismos",
    "hf-capitalismo"
   ]
@@ -4932,6 +5411,32 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "gaos": {
+  "name": "José Gaos",
+  "dates": "1900 – 1969",
+  "born": 1900,
+  "died": 1969,
+  "place": "Gijón (Asturias)",
+  "role": "Mexikoko espainiar erbesteko filosofo eta itzultzailea",
+  "idea": "Amerikako espainiar erbesteratuak ez ziren «desterrados» (lurretik botatakoak) hutsak, baizik eta «transterrados»: lurra aldatu zuten, baina beren lur bat izaten jarraitzen zuten, partekatutako hizkuntzagatik eta kulturagatik.",
+  "bio": "<p>José Gaos Gijónen jaio zen 1900ean eta <strong>Ortega y Gasset</strong>en ikaslea izan zen Madrilen. Filosofiako katedraduna, Madrilgo Unibertsitateko errektore izatera iritsi zen Bigarren Errepublikaren eta Gerra Zibilaren urteetan. Gerra amaitzean erbestera joan zen eta 1938an Mexikon kokatu zen, non Unibertsitate Nazionalean (UNAM) eta El Colegio de Méxicon irakatsi baitzuen hil arte, 1969an.</p>\n<p>Mexikon asmatu zuen gogoratzen den hitza: bera bezala Atlantikoaren beste aldean bizitza berregiten zuten espainiar intelektualentzat <strong>«transterrados»</strong> nahiago izan zuen «desterrados» baino, ez baitzuten beren lurra galdu, baizik eta beren hizkuntza hitz egiten zuen herrialde batera lekualdatu baitzuten. Itzultzaile erabakigarria ere izan zen: Heideggerren <em>Ser y tiempo</em> liburuaren bere bertsioa (1951) mende erdiz izan zen liburu horren sarrera gaztelaniazko mundurako. Mexikar filosofoen belaunaldi oso bat prestatu zuen eta ideien historiari eta filosofia zer den berari buruzko lan bat utzi zuen.</p>",
+  "obras": [
+   "De la filosofía",
+   "Confesiones profesionales (1958)",
+   "Historia de nuestra idea del mundo",
+   "«El ser y el tiempo»-ren itzulpena, Heideggerrena (1951)"
+  ],
+  "anecdota": "<p>Gaosek Heideggerren <em>Ser y tiempo</em> itzuli zuenean, gaztelaniaz hitzak asmatu behar izan zituen alemanak oso termino zailekin adierazten zituen ideietarako. Heideggerren <em>Dasein</em>-en bere bertsioa —gizakia «hor-izate» gisa ulertua— hamarkadetan eztabaidatu zen. Itzulpena, Mexikon 1951n argitaratua, mende erdiz izan zen gaztelaniaz eskuragarri zegoen bakarra eta Heidegger gure hizkuntzan hainbat belaunaldik irakurri zuten modua markatu zuen.</p>",
+  "fuente": "M. Heidegger, El ser y el tiempo, José Gaosen itz., Fondo de Cultura Económica, Mexiko, 1951 (itzultzailearen hitzaurrea)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "popper": {
   "name": "Karl Popper",
   "dates": "1902 – 1994",
@@ -4958,6 +5463,7 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-platon",
    "hf-politica",
+   "hf-utopias-autoras",
    "hf-sospecha",
    "hf-capitalismo",
    "hf-analitica"
@@ -5014,6 +5520,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-existencialismo"
   ]
  },
@@ -5097,6 +5604,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
+   "hf-filosofas-dialogo",
    "hf-beauvoir"
   ]
  },
@@ -5490,6 +5998,31 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-posmodernidad"
+  ]
+ },
+ "heller": {
+  "name": "Ágnes Heller",
+  "dates": "1929 – 2019",
+  "born": 1929,
+  "died": 2019,
+  "place": "Budapest",
+  "role": "filosofoa",
+  "idea": "Marxismo berritu batetik, eguneroko bizitza gizartearen oinarri gisa eta «behar erradikalak» aldaketaren eragile gisa pentsatu zituen; gero demokrazia defendatu zuen sozialismo errealaren «beharren diktaduraren» aurrean.",
+  "bio": "<p>Ágnes Heller 1929an jaio zen Budapesten, familia judu batean. Haren aita Auschwitzen hil zen eta bera eta ama jazarpen naziari bizirik irautea lortu zuten. Filosofia ikasi zuen <strong>Georg Lukács</strong> marxista entzun ondoren, zeina haren maisua izan baitzen; beste ikasle batzuekin <strong>Budapesteko Eskola</strong> osatu zuen, marxismoa Marx gaztetik abiatuta berpentsatu nahi zuena.</p>\n<p>Haren pentsamendua hiru ideiaren inguruan dabil: <strong>eguneroko bizitza</strong> gizartearen eremu funtsezko gisa («hura gabe ez dago gizarterik»), <strong>behar erradikalen teoria</strong> —kapitalismoak ase ezin dituenak eta aldaketara bultzatzen dutenak— eta <strong>nortasunaren etika</strong> bat. Bere teoria sobietar sozialismoari aplikatzean ikusi zuen hau «beharren diktadura» bihurtu zela; kritika horrek erbestera eraman zuen 1977an, Australiara eta gero New Yorkera, non Hannah Arendten katedra bete baitzuen.</p>\n<p>Urteekin demokrazia liberala defendatu zuen «bizitza on baterako» esparru bidezkoen gisa, bere erro materialistak alde batera utzi gabe. Hungariara itzuli zen 1989an eta irakasten jarraitu zuen. Ikasgaian XX. mendeko marxismoaren berritze kritikoaren adibide gisa agertzen da.</p>",
+  "obras": [
+   "Beharren teoria Marxengan",
+   "Eguneroko bizitzaren soziologia",
+   "Historiaren filosofia bat zatitan"
+  ],
+  "anecdota": "<p>Budapesteko getoaren eta erbeste politikoaren bizirik ateratakoa, Hellerrek esan ohi zuen, kontingentziara jaurtiak, geure patua landu dezakegula. 2019an hil zen, laurogeita hamar urterekin, Baláton lakuan igerian ari zela, goizero egiten zuen bezala.</p>",
+  "fuente": "Ágnes Heller, *Beharren teoria Marxengan* eta *Eguneroko bizitzaren soziologia*; Lola Cabrera Trigoren *El pensamiento en femenino plural* lanetik egokitua (Erein, «En diálogo con…» saila; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "derrida": {

@@ -648,6 +648,14 @@ const CITAS = [
   "uso": "Ezagutza zientifikoari eta adimenaren eta errealitatearen arteko harremanari buruzko gai bat irekitzeko, edo harridura filosofikoari buruzko disertazio batean."
  },
  {
+  "c": "Feminismoa Ilustrazioaren seme nahi gabea da.",
+  "a": "Amelia Valcárcel",
+  "o": "«Oroimen kolektiboa eta feminismoaren erronkak» (2000)",
+  "e": "contemporanea",
+  "sen": "Feminismoa Ilustrazioak aldarrikatu zituen berdintasuna eta unibertsaltasuna serio hartzetik eta emakumeei ere aplikatzetik sortzen da, Ilustrazioak berak ukatu baitzizkien.",
+  "uso": "Feminismo ilustratua (Poulain de la Barre, Mary Wollstonecraft) eta Ilustrazioaren eta berdintasunaren arteko harremana azaltzeko."
+ },
+ {
   "c": "Egia tristea da gaizkiaren zatirik handiena inoiz on ala gaizto izatea erabakitzen ez duten pertsonek egiten dutela.",
   "a": "Arendt",
   "o": "Espirituaren bizitza (1978), I. liburukia, «Pentsatzea»",
