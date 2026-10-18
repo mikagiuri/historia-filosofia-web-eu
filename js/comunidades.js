@@ -653,6 +653,144 @@ const COMUNIDADES = [
   ]
  },
  {
+  "id": "coterie-holbach",
+  "cas_ilu": [
+   "holbach",
+   "diderot",
+   "helvetius",
+   "dalembert",
+   "hume",
+   "rousseau"
+  ],
+  "nombre": "Holbach baroiaren tertulia («coterie holbachique»)",
+  "fechas": "Paris eta Grandval, 1750 inguru – 1789",
+  "cas_epoca": "ilu",
+  "lugar": "Holbach baroiaren etxea, Pariseko erdigunean, rue Royale kalean, Saint-Roch muinoan. Astean bitan, ostegunetan eta igandeetan, afari luzeak egiten ziren bertan, eta Europan ia beste inon ez zegoen askatasunez hitz egiten zen haietan. Udan taldea landara joaten zen, Holbachen emaztearen familiaren etxera, Grandvalera, Marneko haranean, Parisetik hego-ekialdera; han Diderotek aste osoak ematen zituen, eta handik idazten zizkion gutunak Sophie Vollandi.",
+  "hoy": "rue Royale zaharra, Saint-Roch muinoan, Parisko gaur egungo 1. barrutiaren trazaduran geratu zen hartua, Saint-Roch elizatik hurbil, eta Holbachen etxetik ez da ezer nabarmenik gorde. Grandvaleko finka gaur egun Sucy-en-Brie dena zegoen (Marneko harana); haren egungo egoerari buruz ezin izan dugu ezer baieztatu iturri fidagarri batekin.",
+  "miembros": "Anfitrioia Paul-Henri Thiry, Holbach baroia, zen: Parisen kokatutako alemaniar bat, fortuna handi bat oinordetzan jaso zuena. Taldearen arima haren adiskide mina zen Denis Diderot, Entziklopediaren zuzendaria. Maiz joaten ziren Helvétius, Friedrich Melchior Grimm kritikaria (bilera hauen berri ematen zuena bere Correspondance littéraire-n), Raynal abadea, Morellet abadea, Marmontel idazlea eta Jacques-André Naigeon, Holbachen idazkari eta laguntzailea, gero haren obrak argitaratuko zituena. D'Alembert ere joaten zen, Entziklopediaren zuzendarikidea. Eta mahai hartatik atzerriko bidaiari ospetsuak igaro ziren: David Hume, Adam Smith, Laurence Sterne, Edward Gibbon, Cesare Beccaria edo Benjamin Franklin. Rousseau izan zen taldea maiz bisitatu zuten lehenetakoa, baina azkenean harekin hautsi zuen. (Grimmek, Raynalek, Morelletek, Marmontelek eta Naigeonek ez dute hemen fitxa propiorik.)",
+  "vida": "Ez zen eskola bat, ezta akademia bat ere, adiskideen arteko tertulia bat baizik: ondo jaten zen eta orduz orduz denaz eztabaidatzen zen, zientziaz, erlijioaz, politikaz eta moralaz. Haietako askok Entziklopedian idazten zuten; Holbachek berak ehunka artikulu idatzi zituen, batez ere kimikaz, mineralogiaz eta alemaniar zientziaz, zeina itzultzen baitzuen. Etxeak, gainera, ideien inprenta klandestino txiki baten gisa funtzionatzen zuen: handik ateratzen ziren, izen faltsuekin eta Frantziatik kanpo argitaratuak, taldearen obrarik ausartenak.",
+  "ideas": "Frantziako Ilustrazioaren hegalik erradikalena ziren. Materialismo oso bat defendatzen zuten (materia mugimenduan baino ez da existitzen, baita pentsamendua ere), erlijioaren aurkako kritika zuzena eta arrazoian eta zorion komunaren bilaketan oinarritutako morala, ez beste bizitza bateko sarian edo zigorrean. Holbach izan zen bere burua argiro ateo aitortu zuten lehen egileetako bat. Denek ez zuten berdin pentsatzen —Hume ez zen ateoa eta haiekin eztabaidatzen zuen, eta askok deismo zuhurrago bat nahiago zuten—, baina uste bera partekatzen zuten: ezein agintek, ez Elizak ez erregek, ez zuela arrazoiaren azterketatik kanpo geratu behar.",
+  "cita": {
+   "t": "Begira mahaiaren inguruan: hemezortzi gara; hamabost ateo hutsak dira, eta beste hirurek oraindik ez dute erabaki.",
+   "ref": "Holbach baroiak David Humeri —inoiz ateorik ezagutu ez zuela zioenari— emandako erantzuna, Diderotek Sophie Vollandi idatzitako gutun batean kontatzen duen bezala (1765eko urria); zenbakiak zertxobait aldatzen dira bertsioaren arabera"
+  },
+  "fin": "Ez zen bat-batean amaitu: bere protagonistekin batera itzali zen pixkanaka. Helvétius 1771n hil zen, Hume 1776an, Rousseau 1778an, D'Alembert 1783an eta Diderot 1784an. Holbach bera Parisen hil zen 1789ko urtarrilaren 21ean, Frantziako Iraultza lehertu baino hilabete batzuk lehenago. Haietako inork ez zuen ikusi. Naigeonek baroiaren obrak argitaratzen eta zabaltzen jarraitu zuen Iraultzan zehar.",
+  "trampa": "Tentagarria da lerro zuzen bat marraztea —«Ilustrazioaren filosofoek Frantziako Iraultza prestatu eta eragin zuten»—, baina komeni da geldiuntea egitea. Tertuliako ia kide guztiak 1789 baino lehen hilak ziren, eta gehienak ez ziren ez iraultzaile ez demokrata: Holbach jendetzez mesfidatzen zen eta goitik egindako erreformak espero zituen, ez behetik egindako iraultza bat. Historialariek eztabaidatzen dute zenbateraino eragin zuten benetan ideia hauek gerora etorri zenean (ikus «Eztabaida»). Eta beste nahaste ohiko bat: «materialista» eta «ateo» hemen ez zuten «berekoi» ez «moralik gabe» esan nahi; hain zuzen ere, etika arrazoitu bat eta zorion partekatua defendatzen zituzten.",
+  "pregunta": "Adiskideen arteko afari batean eztabaidatutako ideiek aldatzen al dute mundua, ala gertaerek bakarrik aldatzen dute? Iraultza edo hondamendi baten ondoren aurreko pentsalarien artean errudunak bilatzen direnean, azaltzen ari gara ala salatzen ari gara?",
+  "temas": [
+   "hf-ilustracion",
+   "hf-metafisica",
+   "hf-contrato"
+  ],
+  "fuentes": [
+   {
+    "t": "Stanford Encyclopedia of Philosophy: Paul-Henri Thiry (Baron) d'Holbach",
+    "url": "https://plato.stanford.edu/entries/holbach/"
+   },
+   {
+    "t": "Wikipedia: Coterie holbachique",
+    "url": "https://en.wikipedia.org/wiki/Coterie_Holbachique"
+   },
+   {
+    "t": "Wikipedia: Holbach baroia",
+    "url": "https://es.wikipedia.org/wiki/Barón_d%27Holbach"
+   }
+  ],
+  "imgs": [
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_retrato.jpg",
+    "pie": "Holbach baroia, Louis Carrogis Carmontelleren arkatzezko eta akuarelazko erretratua (1766)",
+    "page": "https://commons.wikimedia.org/wiki/File:D%27Holbach.jpg"
+   },
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_enciclopedia.jpg",
+    "pie": "Diderot eta D'Alemberten Entziklopediaren frontispizioa, Benoît-Louis Prévostek 1772an grabatua, Charles-Nicolas Cochinen 1764ko marrazki batetik abiatuta: Arrazoiak eta Filosofiak Egia estaltzen duen beloa altxatzen dute. Holbachek artikulu asko idatzi zituen obrarako, batez ere kimikari eta mineralogiari buruzkoak.",
+    "page": "https://commons.wikimedia.org/wiki/File:Encyclopedie_frontispice_full.jpg"
+   },
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_sistema.jpg",
+    "pie": "Naturaren sistema (1770) obraren azala, Holbachen obrarik erradikalena, zentsuratik ihes egiteko jada hildako egile baten izenarekin —«M. Mirabaud»— argitaratua",
+    "page": "https://commons.wikimedia.org/wiki/File:Systemedelanature.jpg"
+   }
+  ],
+  "cronologia": [
+   {
+    "a": "1723",
+    "t": "Paul-Henri Thiry, geroko Holbach baroia, Edesheimen jaiotzen da (Palatinatua, egungo Alemania). Frantzian haziko eta aberastuko da."
+   },
+   {
+    "a": "1750 inguru",
+    "t": "Parisen kokatuta eta fortuna handi baten jabe, Holbachek bere etxea irekitzen die filosofoei. Ostegun eta iganderoko afariak hasten dira."
+   },
+   {
+    "a": "1751",
+    "t": "Entziklopediaren lehen liburukia ateratzen da, Diderotek eta D'Alembertek zuzendua. Holbachek zientzia-artikuluekin laguntzen du."
+   },
+   {
+    "a": "1759",
+    "t": "Botereak Entziklopediaren pribilegioa baliogabetzen du eta obra debekatuta geratzen da; Diderotek, neurri batean, ezkutuan jarraitzen du."
+   },
+   {
+    "a": "1761-1766 inguru",
+    "t": "Kristautasuna agerian klandestinoki zabaltzen da, Holbachek erlijioaren aurka egindako lehen eraso handia."
+   },
+   {
+    "a": "1765",
+    "t": "David Hume, Paristik igarotzean, Holbachen etxean afaltzen du: hortik dator mahaiko ateoei buruzko pasadizo ospetsua. Urte horretan ateratzen dira, inprenta-oin faltsuarekin, Entziklopediari falta zitzaizkion testuaren hamar liburukiak."
+   },
+   {
+    "a": "1770",
+    "t": "Naturaren sistema «Mirabaud» izenarekin argitaratzen da. Pariseko Parlamentuak kondenatu eta erretzeko agintzen du; Voltairek errefutatu egiten du bere deismoa defendatzeko."
+   },
+   {
+    "a": "1771",
+    "t": "Helvétius hiltzen da, tertuliako ohikoetako bat."
+   },
+   {
+    "a": "1772",
+    "t": "Entziklopediaren lamina-liburukiak osatzen dira."
+   },
+   {
+    "a": "1784",
+    "t": "Diderot hiltzen da, Holbachen adiskiderik hurbilena eta taldearen arima (D'Alembert 1783an hil zen)."
+   },
+   {
+    "a": "1789ko urtarrilaren 21a",
+    "t": "Holbach baroia Parisen hiltzen da, Iraultza baino hilabete gutxi lehenago."
+   },
+   {
+    "a": "1789ko uztailaren 14a",
+    "t": "Frantziako Iraultza hasten da. Tertuliako kide nagusietako inork ez zuen ikustera iritsi."
+   }
+  ],
+  "etapas": [
+   {
+    "nom": "Mahaia betetzen da",
+    "a": "1750 – 1759 inguru",
+    "q": "Holbach, Diderot, Grimm, Rousseau (hasieran) eta D'Alembert",
+    "d": "Tertulia Holbachen afarien inguruan sortzen da, Entziklopedia abian jartzen ari den unean bertan. Rousseauk taldea maiz bisitatzen du, baina desadostasunak handitzen dira eta azkenean mespretxuz «coterie holbachique» deitu zuenarekin hautsiko du."
+   },
+   {
+    "nom": "Entziklopediaren urteak",
+    "a": "1751 – 1772",
+    "q": "Diderot, D'Alembert, Holbach, Helvétius, Marmontel, Morellet eta Raynal",
+    "d": "Tertuliakide askok Entziklopedian idazten dute, debekuaren gainetik. Etxea, halaber, Paristik igarotzen diren atzerriko bidaiari ilustratuen topaleku bihurtzen da."
+   },
+   {
+    "nom": "Liburu klandestinoak",
+    "a": "1761 – 1776 inguru",
+    "q": "Holbach eta haren idazkari Naigeon",
+    "d": "Holbachek bere obrarik ausartenak argitaratzen ditu, izen faltsuekin eta Frantziatik kanpo argitaratuak —Naturaren sistema (1770) obran gailurtzen dira—. Taldearen materialismoaren eta ateismoaren unerik borrokalariena da."
+   },
+   {
+    "nom": "Amaiera eta ondorengo eztabaida",
+    "a": "1771tik",
+    "q": "Azken biziraunleak eta, ondoren, historialariak",
+    "d": "Tertulia itzali egiten da bere kideak hiltzean, denak 1789 baino lehen. Ordutik eztabaidatzen da zer harreman izan zuten ideia hauek Iraultzarekin: Jonathan Israel historialariak «Ilustrazio erradikal» hau 1789ko balio demokratikoen jatorrian kokatzen du, beste ikerlari batzuek tesi hori ñabartu eta filosofo hauetako gehienak ez zirela ez iraultzaile ez demokrata gogorarazten duten bitartean."
+   }
+  ]
+ },
+ {
   "id": "escuela-francfort",
   "cas_ilu": [
    "horkheimer",

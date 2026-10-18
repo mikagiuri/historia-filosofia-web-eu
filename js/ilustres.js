@@ -2969,6 +2969,32 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "jefferson": {
+  "name": "Thomas Jefferson",
+  "dates": "1743 – 1826",
+  "born": 1743,
+  "died": 1826,
+  "place": "Shadwell, Virginia (Amerikako kolonia britainiarrak)",
+  "role": "estatubatuar politikari ilustratua, Independentzia Deklarazioaren egilea",
+  "idea": "Gizaki guztiek eskubide naturalak dituzte, hala nola bizitza, askatasuna eta zoriontasunaren bilaketa; gobernuak eskubide horiek babesteko daude, boterea gobernatuen adostasunetik lortzen dute eta erlijiotik bereizi behar dira.",
+  "bio": "<p>Thomas Jefferson Virginian jaio zen, lurjabe-familia batean, eta zuzenbidea ikasi zuen College of William &amp; Mary ikastetxean. Estatu Batuetako <strong>Independentzia Deklarazioaren</strong> (1776) idazle nagusia izan zen, enbaxadore Frantzian Iraultzaren atarian, Estatu idazkari Washingtonekin eta herrialdeko hirugarren presidentea (1801-1809). Zahartzaroan Virginiako Unibertsitatea sortu zuen. Bere Monticelloko etxean hil zen 1826ko uztailaren 4an, Deklarazioa egin eta berrogeita hamar urte zehatzetara.</p>\n<p>Deklarazioak <strong>Locke</strong>ren eskubide naturalen eta gizarte-kontratuaren teoria jasotzen du: gizaki guztiak berdinak sortuak dira, «bizitza, askatasuna eta zoriontasunaren bilaketa» eskubide ukaezinekin, eta gobernu batek horiek urratzen baditu, herriak alda dezake. Jeffersonek <strong>erlijio-askatasuna</strong> eta Elizaren eta Estatuaren arteko «bereizketa-horma» ere defendatu zituen. Haren kontraesan handia: berdintasuna aldarrikatu zuen eta, aldi berean, ehunka pertsona esklaboren jabe izan zen bizitza osoan.</p>",
+  "obras": [
+   "Independentzia Deklarazioa (1776)",
+   "Virginiako estatuari buruzko oharrak (1785)",
+   "Virginiako estatutua erlijio-askatasunerako (1786)",
+   "Nazareteko Jesusen bizitza eta morala (1820)"
+  ],
+  "anecdota": "<p>Jeffersonek Ebanjelioen bere bertsioa prestatu zuen: labana batez Bibliako hainbat aletatik Jesusen irakatsi moralak zituzten bertsetak moztu eta ordenan itsatsi zituen, mirariak eta naturaz gaindikoa kanpoan utzita. John Adamsi idatzi zion benetakoa bereiztea simaurtegi batean diamanteak bereiztea bezain erraza zela. Liburukia, «Jeffersonen Biblia» izenez ezaguna, Smithsonian Institutuan gordetzen da.</p>",
+  "fuente": "Jeffersonek John Adamsi idatzitako gutuna (12-10-1813); jatorrizko alea Smithsonian Institutuan (Washington)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-metafisica"
+  ]
+ },
  "jacobi": {
   "name": "Friedrich Heinrich Jacobi",
   "dates": "1743 – 1819",
@@ -3349,6 +3375,28 @@ const ILUSTRES = {
   "temas": [
    "hf-kant-poetas"
   ]
+ },
+ "malthus": {
+  "name": "Thomas Robert Malthus",
+  "dates": "1766 – 1834",
+  "born": 1766,
+  "died": 1834,
+  "place": "Surrey (Ingalaterra)",
+  "role": "apaiz eta ekonomialari ingelesa",
+  "idea": "Ezerk geldiarazten ez badu, biztanleria elikagaiak baino askoz azkarrago hazten da; horregatik, goseak, gaixotasunak eta miseriak balazta gisa jokatzen dute, pertsonek jaiotzak mugatzen ez badituzte behintzat.",
+  "bio": "<p>Thomas Robert Malthus Surreyn jaio zen, familia aberats batean; haren aita Rousseauren laguna zen. Cambridgeko Unibertsitatean ikasi zuen eta Eliza anglikanoko apaiz egin zen. 1805etik historia eta ekonomia politikoa irakatsi zituen Ekialdeko Indietako Konpainiaren ikastetxean, eta Ingalaterrako ekonomia politikoko lehen irakaslea izan zen. Urteetan eztabaidan aritu zen bere lagun David Ricardo ekonomialariarekin. Bath-en hil zen 1834an.</p>\n<p><em>Biztanleriaren printzipioari buruzko saiakera</em> lanean (1798), <strong>Godwin</strong>en eta <strong>Condorcet</strong>en baikortasunaren aurka idatzia, dio biztanleria progresio geometrikoan (1, 2, 4, 8…) hazteko joera duela eta elikagaiak progresio aritmetikoan soilik (1, 2, 3, 4…). Horregatik, aurrerabide mugagabea ezinezkoa da: goseak, gaixotasunak eta gerrak biztanleria geldiarazten dute, eta hori saihets dezakeen gauza bakarra «murrizketa morala» da (berandu ezkontzea eta mantendu daitezkeen baino seme-alaba gehiago ez izatea). Haren ideiek eragina izan zuten behartsuei laguntzaren aurkako legeetan eta, urteak geroago, Darwinengan.</p>",
+  "obras": [
+   "Biztanleriaren printzipioari buruzko saiakera (1798; edizio zabaldua, 1803)",
+   "Ekonomia politikoaren printzipioak (1820)"
+  ],
+  "anecdota": "<p>1838ko urrian, Charles Darwinek «denbora-pasa» irakurri zuen <em>Biztanleriaren printzipioari buruzko saiakera</em>. Han aurkitu zuen falta zitzaion ideia: bizirauteko gai direnak baino izaki askoz gehiago jaiotzen badira, biziraupenaren aldeko borrokan aldaera onuragarriak mantenduko dira eta kaltegarriak desagertuko. Horrela, Darwinek kontatzen zuenez, azkenean lanerako teoria bat izan zuen: hautespen naturala.</p>",
+  "fuente": "Charles Darwin, Autobiografia (1887)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "schleiermacher": {
   "name": "Friedrich Schleiermacher",
