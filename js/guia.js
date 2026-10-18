@@ -165,7 +165,7 @@ const GUIA = {
      "view": "epocas"
     },
     {
-     "nombre": "Ospetsuak",
+     "nombre": "Biografiak",
      "texto": "Teorian agertzen diren pentsalarien biografiak: nor izan ziren, zer pentsatu zuten eta zein gaitan ikasten ditugun.",
      "view": "ilustres"
     },
