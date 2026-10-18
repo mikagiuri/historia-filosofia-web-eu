@@ -2309,7 +2309,7 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "t": "Mugigailu Higiezina",
+  "t": "Motor ibilgea",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",

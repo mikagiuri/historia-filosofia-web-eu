@@ -981,7 +981,7 @@ const CRONOGRAMAS = [
     "start": -384,
     "end": -322,
     "grp": 0,
-    "note": "Fisika VIII eta Metafisika XII: mugitzaile mugiezina, maitatuak bezala mugitzen duena"
+    "note": "Fisika VIII eta Metafisika XII: motor ibilgea, maitatuak bezala mugitzen duena"
    },
    {
     "name": "Aristoteles · kausa",
@@ -1094,7 +1094,7 @@ const CRONOGRAMAS = [
     "start": 1138,
     "end": 1204,
     "grp": 0,
-    "note": "Nahasien gida II, 1: lehen mugitzailearen froga"
+    "note": "Nahasien gida II, 1: lehen motorraren froga"
    },
    {
     "name": "Maimonides · kontingentzia",
@@ -1115,7 +1115,7 @@ const CRONOGRAMAS = [
     "start": 1225,
     "end": 1274,
     "grp": 0,
-    "note": "Summa Theologiae I, q. 2, a. 3 (1266-1268 inguruan): lehen mugitzailea"
+    "note": "Summa Theologiae I, q. 2, a. 3 (1266-1268 inguruan): lehen motorra"
    },
    {
     "name": "Tomas Akinokoa · 2. bidea",

@@ -376,7 +376,7 @@ const GENEALOGIAS_PLANOS = [
     "id": "mov",
     "name": "1. bidea: mugimendua",
     "color": "#e0a526",
-    "desc": "Mugitzen den oro beste batek mugitzen du, eta katea ezin da infinitua izan: badago lehen mugitzaile bat.",
+    "desc": "Mugitzen den oro beste batek mugitzen du, eta katea ezin da infinitua izan: badago lehen motor bat.",
     "ilustre": [
      "platon",
      "aristoteles",

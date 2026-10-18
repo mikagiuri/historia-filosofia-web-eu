@@ -1461,7 +1461,7 @@ const INFOGRAFIAS = {
     "title": "Haren obra",
     "items": [
      {
-      "h": "Suma Teologikoa",
+      "h": "Summa Theologiae",
       "tag": "obra nagusia",
       "p": "Erdi Aroko jakintza kristauaren sintesi handia."
      },

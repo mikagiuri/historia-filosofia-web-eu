@@ -172,7 +172,7 @@ const GLOSARIO_GRIDS = {
       },
       {
        "rel": "lehen kausa",
-       "t": "Mugigailu Higiezina"
+       "t": "Motor ibilgea"
       }
      ]
     },

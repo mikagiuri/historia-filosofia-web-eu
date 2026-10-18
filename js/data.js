@@ -5852,7 +5852,7 @@ const QUIZZES = {
     "fb": "Lau kausak dira materiala (zerez dagoen egina), formala (bere egitura), eragilea (zerk ekoizten duen) eta finala (zertarako)."
    },
    {
-    "q": "Zer da Aristotelesen «motor higiezina»?",
+    "q": "Zer da Aristotelesen «motor ibilgea»?",
     "o": [
      "Aldaketaren lehen printzipioa, higitu gabe dena kausa final gisa erakartzen duen ekintza hutsa.",
      "Zoriz higitzen den substantzia material bat.",
@@ -5860,7 +5860,7 @@ const QUIZZES = {
      "Planeten mugimendu zirkularra."
     ],
     "a": 0,
-    "fb": "Motor higiezina mugimenduaren lehen printzipioa da: ekintza huts bat, bera higitu gabe, gainerako guztia kausa final gisa erakartzen duena."
+    "fb": "Motor ibilgea mugimenduaren lehen printzipioa da: ekintza huts bat, bera higitu gabe, gainerako guztia kausa final gisa erakartzen duena."
    },
    {
     "q": "Aristotelesen arabera, zertan datza bertute etikoa?",
