@@ -118,6 +118,63 @@ const GUIA = {
   },
   {
    "type": "h",
+   "x": "Garrantzi-puntuak (●●●●●)",
+   "solo": "hf"
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "Webgune honetan, pentsalariek, gaiek eta glosarioko terminoek bat eta bost arteko <strong>garrantzi-puntu</strong> dituzte ●●●●○: zenbat eta puntu gehiago, orduan eta pisu handiagoa du ikasgaian eta USEn. Maila bakoitzak bere izena du:"
+  },
+  {
+   "type": "list",
+   "solo": "hf",
+   "rows": [
+    {
+     "nombre": "●●●●● Ezinbestekoa",
+     "texto": "USEko irakurgaia edo autorea, edo hura ulertzeko ezinbestekoa den zerbait."
+    },
+    {
+     "nombre": "●●●●○ Funtsezkoa",
+     "texto": "Curriculumak ezinbestekotzat jotzen duena (izartxoarekin) edo USEn dagoeneko atera dena."
+    },
+    {
+     "nombre": "●●●○○ Garrantzitsua",
+     "texto": "Curriculumak aipatzen duena, edo aurrekoa ulertzeko behar dena."
+    },
+    {
+     "nombre": "●●○○○ Osagarria",
+     "texto": "Baliagarria testuinguru gisa edo disertazioan argudiatzeko."
+    },
+    {
+     "nombre": "●○○○○ Zabalkuntza",
+     "texto": "Jakingarria edo zabalkuntza: gehiago jakiteko."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "Irizpidea: lehenik, Euskadiko curriculuma (76/2023 Dekretua); ondoren, UPV/EHUko USE. Hau da, legeak ikasgai honetan ikastea eskatzen duena eta azterketan galdetzen dena."
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "Puntuak hemen agertzen dira: <strong>Biografiak</strong> atalean (pentsalari bakoitzaren dataren ondoan; haren fitxan, mailaren izenarekin eta arrazoia azaltzen duen <strong>Zergatik</strong> lerro batekin), ikasgaiaren orriko <strong>gaien zerrendan</strong> eta <strong>Glosarioan</strong>. Biografietan eta Glosarioan, <strong>Ezinbestekoak eta funtsezkoak bakarrik</strong> botoiak bost eta lau puntukoak bakarrik uzten ditu, eta <strong>Zer esan nahi dute puntuek</strong> zabaltzean azalpen hau bera agertzen da."
+  },
+  {
+   "type": "img",
+   "solo": "hf",
+   "src": "11_imprescindibles.webp",
+   "cap": "Biografietako fitxa bat: puntuak, mailaren izena eta «Zergatik»."
+  },
+  {
+   "type": "tip",
+   "solo": "hf",
+   "x": "Denbora gutxi baduzu, hasi bost eta lau puntu dituenarekin; gainerakoak hobeto ulertzen eta disertazioan argudiatzen laguntzen dizu."
+  },
+  {
+   "type": "h",
    "x": "Ikasi"
   },
   {
