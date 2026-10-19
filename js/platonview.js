@@ -168,7 +168,7 @@ function renderRepStart(){
 function drawRepModes(){
   document.getElementById("repModes").innerHTML=
     '<span class="flabel">Zailtasuna</span>'+Object.entries(REP_MODES).map(([k,m])=>'<button class="pbtn" data-mode="'+k+'" aria-pressed="'+(k===rep.mode)+'">'+m.name+'</button>').join("")+
-    '<span class="flabel" style="margin-left:.8rem">Ekintzak</span><button class="pbtn" data-acc="si" aria-pressed="'+(rep.acciones==="si")+'">Ekintzekin</button><button class="pbtn" data-acc="no" aria-pressed="'+(rep.acciones==="no")+'">Ekintzarik gabe</button>'+
+    '<span class="flabel" style="margin-left:.8rem">Ekintzak</span><button class="pbtn" data-acc="si" aria-pressed="'+(rep.acciones==="si")+'">Ekintzekin</button><button class="pbtn" data-acc="ez" aria-pressed="'+(rep.acciones==="ez")+'">Ekintzarik gabe</button>'+
     '<button class="pbtn rep-rnd" id="repRandom">🎲 Ausazkoa</button>'+
     (repHistLoad().length?'<button class="pbtn rep-hist-open" id="repHistOpen">📚 Partidak ('+repHistLoad().length+')</button>':'');
   document.querySelectorAll("#repModes [data-mode]").forEach(b=>b.addEventListener("click",()=>{ rep.mode=b.dataset.mode; drawRepModes(); drawRepSummary(); }));
@@ -368,7 +368,7 @@ function renderRepHistory(){
       '<span class="rep-hist-io">'+(h.length?'<button class="btn2" id="repHistExport" title="Deskargatu zure partida guztiak JSON fitxategi batean, gordetzeko edo beste ordenagailu batera eramateko">⬆️ Esportatu</button>':'')+'<button class="btn2" id="repHistImport" title="Kargatu partidak esportatutako JSON fitxategi batetik (ordenagailu honetakoei gehitzen zaizkie, ezabatu gabe)">⬇️ Inportatu</button>'+(h.length?'<button class="btn2" id="repHistClear" title="Ezabatu nabigatzaile honetan gordetako partida guztiak (ez die esportatutako fitxategiei eragiten)">🗑️ Dena ezabatu</button>':'')+'</span>'+
       '<input type="file" id="repHistFile" accept="application/json,.json" style="display:none">'+
       '</div>'+
-    (h.length? h.map((r,i)=>'<details class="rep-hist-item"><summary><span class="rep-hist-badge">'+r.emoji+'</span> '+(r.name?'<b class="rep-hist-name">'+repEsc(r.name)+'</b> · ':'')+r.rank+' · ⚖ '+r.arm+' · '+r.turns+' txanda · '+r.mode+(r.acc==="no"?" (ekintzarik gabe)":"")+' · <span class="rep-hist-date">'+r.date+'</span></summary>'+
+    (h.length? h.map((r,i)=>'<details class="rep-hist-item"><summary><span class="rep-hist-badge">'+r.emoji+'</span> '+(r.name?'<b class="rep-hist-name">'+repEsc(r.name)+'</b> · ':'')+r.rank+' · ⚖ '+r.arm+' · '+r.turns+' txanda · '+r.mode+(r.acc==="ez"?" (ekintzarik gabe)":"")+' · <span class="rep-hist-date">'+r.date+'</span></summary>'+
         '<pre class="rep-hist-text">'+repEsc(r.text)+'</pre>'+
         '<div class="rep-hist-btns"><button class="btn2" data-hcopy="'+i+'">📋 Kopiatu</button><button class="btn2" data-hdl="'+i+'">💾 Deskargatu</button></div></details>').join("")
       : '<p class="rep-hist-empty">Oraindik ez duzu partidarik amaitu. Jokatu bat eta hemen gordeko da (azken '+REP_HIST_MAX+'ak gordetzen dira).</p>')+

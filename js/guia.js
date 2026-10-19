@@ -3,7 +3,7 @@ const GUIA = {
  "ui": {
   "titulo": "Nola erabili webgunea",
   "eyebrow": "Ikasleentzako gida",
-  "lead": "Webgunean zer dagoen eta nola atera etekina ikasteko, praktikatzeko eta azterketak prestatzeko. Pantaila-argazkiak ordenagailuko webgunearenak dira, besterik adierazten ez bada.",
+  "lead": "Webgunean zer dagoen eta nola atera etekina ikasteko, praktikatzeko eta azterketak prestatzeko. Pantaila-argazkiak ordenagailuko webgunearenak dira eta gau moduan daude, besterik adierazten ez bada.",
   "abrir": "Ireki",
   "pie": "Nola erabiltzen da webgune hau? Gida, pantaila-argazkiekin",
   "pdf": "Deskargatu gida hau PDFn",
@@ -31,13 +31,17 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Menuak <strong>hiru fitxa baino ez ditu</strong>, garrantziaren arabera ordenatuta: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Bakoitzaren barruan, lehenengoa da garrantzitsuena; osagarria maila bat barrurago dago, gezi txiki batekin ▸ zabaltzen diren ataletan.",
+   "x": "Menuak <strong>bost fitxa</strong> ditu. Lehen hirurak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Menuak <strong>hiru fitxa baino ez ditu</strong>, garrantziaren arabera ordenatuta: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>Idatzi eta irakurri</strong> (disertazioa eta testuak). Bakoitzaren barruan, lehenengoa da garrantzitsuena; osagarria maila bat barrurago dago, gezi txiki batekin ▸ zabaltzen diren ataletan.",
+   "x": "Menuak <strong>bost fitxa</strong> ditu. Lehen hirurak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>Idatzi eta irakurri</strong> (disertazioa eta testuak). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
    "solo": "fil"
+  },
+  {
+   "type": "p",
+   "x": "Atal batzuek mota bereko hainbat gauza biltzen dituzte: goian <strong>botoi-errenkada</strong> bat dute batetik bestera pasatzeko. Adibidez, Galdetegietan <strong>Erlojuaren kontra</strong> modura alda zaitezke, eta Biografietan, <strong>Jazarriak</strong> edo <strong>Komunitateak</strong> atalera."
   },
   {
    "type": "h",
@@ -54,8 +58,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gaiak <strong>aroka</strong> multzokatuta daude (Sarrera, Antzinakoa, Erdi Arokoa, Modernoa, Ilustrazioa eta Garaikidea), bakoitza bere kolorearekin. Kolore hori webgune osoan aurkituko duzu: iragazkietan, txarteletan eta galdetegietan.",
+   "x": "Gaiak <strong>aroka</strong> multzokatuta daude (Antzinakoa, Erdi Arokoa, Errenazimentua, Modernoa, Ilustrazioa eta Garaikidea), bakoitza bere kolorearekin, eta zerrenda 3. gaitik hasten da. 1. eta 2. gaiak, ikasgairako sarrera direnak, amaieran daude. Aro bakoitzaren koloreak webgune osoan laguntzen dizu: iragazkietan, txarteletan eta galdetegietan.",
    "solo": "hf"
+  },
+  {
+   "type": "p",
+   "x": "Webgunea lehendik erabili baduzu, goian <strong>Jarraitu utzi zenuen tokitik</strong> agertzen da, ireki zenuen azken gauzarekin."
   },
   {
    "type": "p",
@@ -74,7 +82,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Goiburuan, gainera, <strong>bilatzailea</strong> 🔎, <strong>hizkuntza</strong>-botoia 🌐, <strong>gai argia edo iluna</strong> aukeratzekoa ◐ eta <strong>gida</strong> honena ? dituzu."
+   "x": "Goiburuan, gainera, <strong>bilatzailea</strong> 🔎, <strong>hizkuntza</strong>-botoia 🌐, <strong>gai argia edo iluna</strong> aukeratzekoa ◐ eta <strong>gida</strong> honena ? dituzu. Gida honetako pantaila-argazkiak <strong>gau moduan</strong> daude; hondo argia nahiago baduzu, sakatu ◐."
   },
   {
    "type": "h",
@@ -91,12 +99,18 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin: haren txartelak, galdetegiak, infografiak, mapak, eskemak eta glosarioko kontzeptuak."
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, glosarioko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "solo": "hf"
+  },
+  {
+   "type": "p",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, glosarioko kontzeptuak eta haren aroa), <strong>Pentsatu eta idatzi</strong> (irakurgaiak, disertazioak, dilemak eta Logikaren txokoa) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "solo": "fil"
   },
   {
    "type": "img",
    "src": "06_para_seguir.webp",
-   "cap": "Gaiaren amaierako kutxa: botoi bakoitzak gai bereko material batera eramaten zaitu."
+   "cap": "Gaiaren amaierako kutxa, «Zabaldu» zabalduta: botoi bakoitzak gai bereko material batera eramaten zaitu."
   },
   {
    "type": "tip",
@@ -109,7 +123,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "02_menu_estudiar.webp",
-   "cap": "«Ikasi» menua, «Historia» atala zabalduta.",
+   "cap": "«Ikasi» menua.",
    "w": "menu"
   },
   {
@@ -121,24 +135,14 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "nombre": "Laburpenak",
-     "texto": "Laburpen bat gai edo egile bakoitzeko, orri batean, azterketaren aurretik errepasatzeko. «Grafo gisa ikusi» botoiarekin laburpen bera ikusiko duzu, geziz lotutako kontzeptuen eskema gisa.",
-     "view": "esqautor"
-    },
-    {
      "nombre": "Txartelak",
      "texto": "Sakatu txartela (edo zuriune-barra) buelta emateko, eta markatu «Badakit» menderatzen dituzunak. Zure aurrerapena gorde egiten da.",
      "view": "tarjetas"
     },
     {
-     "nombre": "Kontzeptu-mapak",
-     "texto": "Tolestu eta zabaltzen diren mapak: sakatu nodo bat haren adarrak ireki edo ixteko, arrastatu mugitzeko eta erabili gurpila handitzeko.",
+     "nombre": "Mapak eta infografiak",
+     "texto": "Tolestu eta zabaltzen diren mapak: sakatu nodo bat haren adarrak irekitzeko edo ixteko, arrastatu mugitzeko eta erabili gurpila handitzeko. Gai bakoitzaren infografiak eta eskemak «Gai honekin jarraitzeko» kutxatik edo «Arakatu ikasgaia» ataletik irekitzen dira, ikasgaiaren orrian.",
      "view": "mapas"
-    },
-    {
-     "nombre": "Infografiak",
-     "texto": "Gai bakoitzaren irudi-orriak, begirada batean errepasatzeko.",
-     "view": "infografias"
     },
     {
      "nombre": "Glosarioa",
@@ -153,64 +157,13 @@ const GUIA = {
    "cap": "Txartelak: aukeratu mota, iragazkia eta sorta; behean, aurrera egiteko, nahasteko eta «Badakit» markatzeko botoiak."
   },
   {
-   "type": "p",
-   "x": "<strong>Historia ▸</strong> sakatzean, filosofoen testuingurua ulertzeko materiala zabaltzen da. Ez da ezinbestekoa, baina asko laguntzen du ideiak kokatzen:"
-  },
-  {
-   "type": "list",
-   "rows": [
-    {
-     "nombre": "Aroak",
-     "texto": "Aro bakoitzaren fitxak: nolakoak ziren gizartea, politika, zientzia eta artea, eta nola irudikatzen zen kosmosa.",
-     "view": "epocas"
-    },
-    {
-     "nombre": "Biografiak",
-     "texto": "Teorian agertzen diren pentsalarien biografiak: nor izan ziren, zer pentsatu zuten eta zein gaitan ikasten ditugun.",
-     "view": "ilustres"
-    },
-    {
-     "nombre": "Jazarriak",
-     "texto": "Pentsatzeko moduagatik bizia, askatasuna edo aberria galdu zuten filosofo eta zientzialariak.",
-     "view": "perseguidos"
-    },
-    {
-     "nombre": "Komunitateak",
-     "texto": "Pentsalarien eskolak eta taldeak, eta biltzen ziren tokiak.",
-     "view": "comunidades"
-    },
-    {
-     "nombre": "Kronogramak",
-     "texto": "Denbora-lerroak: nortzuk bizi izan ziren garai berean.",
-     "view": "cronogramas",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Genealogiak",
-     "texto": "Pentsamenduaren tradizio handiak, metro-plano baten moduan marraztuta.",
-     "view": "genealogias",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Adagioak",
-     "texto": "Filosofoek mendeetan zehar aipatu dituzten latinezko eta grekozko leloak, eta noiz erabili.",
-     "view": "adagios"
-    },
-    {
-     "nombre": "Galeria",
-     "texto": "Irudiak egile eta gaika; sakatu pantaila osoan ikusteko.",
-     "view": "galeria"
-    }
-   ]
-  },
-  {
    "type": "h",
    "x": "Praktikatu"
   },
   {
    "type": "img",
    "src": "03_menu_practicar.webp",
-   "cap": "«Praktikatu» menua, «Jokoak» eta «Eztabaidatu» zabalduta.",
+   "cap": "«Praktikatu» menua.",
    "w": "menu"
   },
   {
@@ -218,7 +171,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Galdetegiak",
-     "texto": "Test motako galderak, berehalako zuzenketarekin eta erantzun bakoitzaren azalpenarekin. Zure puntuaziorik onena gorde egiten da.",
+     "texto": "Test motako galderak, berehalako zuzenketarekin eta erantzun bakoitzaren azalpenarekin. Zure puntuaziorik onena gorde egiten da. Goian, Erlojuaren kontra botoia: erlojuaren aurkako galderak, abiadurarengatik eta segidarengatik puntuak dituztenak.",
      "view": "cuestionarios"
     },
     {
@@ -235,78 +188,22 @@ const GUIA = {
      "nombre": "Logikaren txokoa",
      "texto": "Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak.",
      "view": "logica"
+    },
+    {
+     "nombre": "Eztabaidatu",
+     "texto": "Argudiatzen entrenatzeko lau modu, goian dituzten botoiekin: Dilemak (aukeratu garrantzitsuak diren bi gauzaren artean eta eman zure arrazoia), Polemikak (garai bereko filosofoak, benetan elkarren aurka aritu zirenak), Dueloa (eztabaidatu ordenagailuaren aurka) eta Korapiloak (aurkitu non egiten duten talka zure iritziek).",
+     "view": "dilemas"
     }
    ]
   },
   {
    "type": "img",
    "src": "08_cuestionarios.webp",
-   "cap": "Galdetegiak: iragazi, aukeratu galdetegia zabalgarrian eta erantzun."
+   "cap": "Galdetegiak: goian, Erlojuaren kontra botoia; azpian, iragazi, aukeratu galdetegia zabalgarrian eta erantzun."
   },
   {
    "type": "tip",
    "x": "Egin gai baten galdetegia apunteei begiratu gabe, eta irakurri beti huts egiten dituzun galderen azalpena: hor dago ikaskuntza."
-  },
-  {
-   "type": "p",
-   "x": "<strong>Jokoak ▸</strong> eta <strong>Eztabaidatu ▸</strong> atalak jolasean errepasatzeko eta argudiatzen entrenatzeko dira:"
-  },
-  {
-   "type": "list",
-   "rows": [
-    {
-     "nombre": "Erronka",
-     "texto": "Galderak erlojuaren kontra, abiaduragatik eta segidagatik puntuak lortuz.",
-     "view": "reto"
-    },
-    {
-     "nombre": "Bikoteak",
-     "texto": "Lotu glosarioko termino bakoitza bere definizioarekin, erlojuaren kontra.",
-     "view": "parejas"
-    },
-    {
-     "nombre": "Eudaimonia",
-     "texto": "Izan pentsalari greko bat eta egin aurre dilema moralei: zure erabakien arabera lortuko duzu bizitza ona, edo ez.",
-     "view": "eudaimonia",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Errepublika",
-     "texto": "Banatu biztanleria Platonen hiru klaseetan eta mantendu hiria harmonian.",
-     "view": "republica",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Txingoka filosofikoa",
-     "texto": "Ideia-sare batean zeharreko bidaia: zure erantzunek bidea erabakitzen dute, eta amaieran jakingo duzu zein filosoforekin zatozen bat.",
-     "view": "rayuela"
-    },
-    {
-     "nombre": "Leibnizen tailerra",
-     "texto": "XVII. mendeko biderketa-makina batetik zure mugikorreko zero eta batekoetara.",
-     "view": "leibniz"
-    },
-    {
-     "nombre": "Dilema etikoak",
-     "texto": "Aukeratu garrantzia duten bi gauzaren artean, eman zure arrazoia eta begiratu iritziz aldatzen duzun.",
-     "view": "dilemas"
-    },
-    {
-     "nombre": "Polemikak",
-     "texto": "Garai berekoak izan eta benetan aurrez aurre jarri ziren filosofoak: aukeratu norekin zoazen eta irakurri beste aldeko argudiorik onena.",
-     "view": "polemicas"
-    },
-    {
-     "nombre": "Arrazoien dueloa",
-     "texto": "Eztabaidatu ordenagailuaren aurka; neurgailu batek adierazten du nor ari den publikoa konbentzitzen.",
-     "view": "duelo"
-    },
-    {
-     "nombre": "Korapiloak",
-     "texto": "Aurkitu non egiten duten talka zure iritziek, eta askatu korapilo bakoitza arrazoi batekin.",
-     "view": "nudos"
-    }
-   ]
   },
   {
    "type": "p",
@@ -385,6 +282,92 @@ const GUIA = {
   },
   {
    "type": "h",
+   "x": "Historia"
+  },
+  {
+   "type": "p",
+   "x": "<strong>Historia</strong> fitxak filosofoen testuingurua ulertzeko materiala biltzen du. Ez da ezinbestekoa, baina asko laguntzen du ideiak kokatzen:"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "Aroak",
+     "texto": "Aro bakoitzaren fitxak: nolakoak ziren gizartea, politika, zientzia eta artea, eta nola irudikatzen zen kosmosa. Goian, Kronogramak eta Genealogiak botoiak.",
+     "view": "epocas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Aroak",
+     "texto": "Aro bakoitzaren fitxak: nolakoak ziren gizartea, politika, zientzia eta artea, eta nola irudikatzen zen kosmosa.",
+     "view": "epocas",
+     "solo": "fil"
+    },
+    {
+     "nombre": "Kronogramak",
+     "texto": "Denbora-lerroak: nortzuk bizi izan ziren garai berean.",
+     "view": "cronogramas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Biografiak",
+     "texto": "Teorian agertzen diren pentsalarien biografiak: nor izan ziren, zer pentsatu zuten eta zein gaitan ikasten ditugun. Goian, Jazarriak (pentsatzeko moduak bizia, askatasuna edo aberria kostatu zitzaien filosofo eta zientzialariak) eta Komunitateak (pentsalarien eskolak eta taldeak) botoiak.",
+     "view": "ilustres"
+    },
+    {
+     "nombre": "Adagioak",
+     "texto": "Filosofoek mendeetan zehar aipatu dituzten latinezko eta grekozko leloak, eta noiz erabili.",
+     "view": "adagios"
+    },
+    {
+     "nombre": "Galeria",
+     "texto": "Irudiak egile eta gaika; sakatu pantaila osoan ikusteko.",
+     "view": "galeria"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "x": "Jokoak"
+  },
+  {
+   "type": "p",
+   "x": "<strong>Jokoak</strong> fitxa jolasean errepasatzeko da:"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "Eudaimonia",
+     "texto": "Izan pentsalari greko bat eta egin aurre dilema moralei: zure erabakien arabera lortuko duzu bizitza ona, edo ez.",
+     "view": "eudaimonia",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Errepublika",
+     "texto": "Banatu biztanleria Platonen hiru klaseetan eta mantendu hiria harmonian.",
+     "view": "republica",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Txingoka filosofikoa",
+     "texto": "Ideia-sare batean zeharreko bidaia: zure erantzunek bidea erabakitzen dute, eta amaieran jakingo duzu zein filosoforekin zatozen bat.",
+     "view": "rayuela"
+    },
+    {
+     "nombre": "Leibnizen tailerra",
+     "texto": "XVII. mendeko biderketa-makina batetik zure mugikorreko zero eta batekoetara.",
+     "view": "leibniz"
+    },
+    {
+     "nombre": "Unibertso aristotelikoa",
+     "texto": "Fisika, kimika, biologia eta filosofia Aristotelesen arabera, eta zientzia modernoak haiekin egin zuena.",
+     "view": "universo"
+    }
+   ]
+  },
+  {
+   "type": "h",
    "x": "Bilatzailea"
   },
   {
@@ -402,7 +385,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Webguneak berdin funtzionatzen du mugikorrean. Menua ☰ botoian biltzen da: sakatzean hiru fitxak irekitzen dira, bata bestearen azpian, eta ▸ duen atal bakoitza ukitzean zabaltzen da. Maiz erabiltzen baduzu, gehitu hasierako pantailara nabigatzailearen menutik («Gehitu hasierako pantailan»): aplikazio bat bezala irekiko da."
+   "x": "Webgunea berdin dabil mugikorrean. Menua ☰ botoian biltzen da: sakatzean bost fitxak irekitzen dira, bata bestearen azpian, eta bakoitza zabaldu egiten da ukitzean. Sarri erabiltzen baduzu, gehitu hasierako pantailara nabigatzailearen menutik («Gehitu hasierako pantailan»): aplikazio bat bezala irekiko da."
   },
   {
    "type": "img",
@@ -423,9 +406,9 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "titulo": "Errepasatu laburpenarekin",
-     "texto": "Ikasi › Laburpenak. Irudiek laguntzen badizute, sakatu «Grafo gisa ikusi».",
-     "view": "esqautor"
+     "titulo": "Errepasatu eskemarekin",
+     "texto": "«Gai honekin jarraitzeko» kutxatik, ireki haren eskema, mapa edo infografia.",
+     "view": "MATERIA"
     },
     {
      "titulo": "Finkatu kontzeptuak",
@@ -456,7 +439,7 @@ const GUIA = {
     },
     {
      "titulo": "Gehiago nahi baduzu",
-     "texto": "Historia ▸, Jokoak ▸ eta Eztabaidatu ▸ atalak: testuingurua, jokoak eta eztabaidak harago joateko."
+     "texto": "Historia eta Jokoak fitxak, Praktikatu › Eztabaidatu eta gaiaren kutxako «Zabaldu» blokea: testuingurua, jokoak, eztabaidak eta bideoak, harago joateko."
     }
    ]
   },

@@ -224,10 +224,10 @@ const LOGM_EXTRA_TXT = {
   lpDuelo: "Landu itzazu Arrazoien dueloan →"
 };
 const LOGM_CONV = [
-  ["A", "S oro P da", "P oro S da", "no", "Txakur oro ugaztuna da; baina ugaztun oro ez da txakurra."],
+  ["A", "S oro P da", "P oro S da", "ez", "Txakur oro ugaztuna da; baina ugaztun oro ez da txakurra."],
   ["E", "Ezein S ez da P", "Ezein P ez da S", "si", "Ezein arrain ez da ugaztuna; beraz, ezein ugaztun ez da arraina."],
   ["I", "S batzuk P dira", "P batzuk S dira", "si", "Filosofo batzuk greziarrak dira; beraz, greziar batzuk filosofoak dira."],
-  ["O", "S batzuk ez dira P", "P batzuk ez dira S", "no", "Animalia batzuk ez dira txakurrak; baina ez dator txakur batzuk animaliak ez direnik."]
+  ["O", "S batzuk ez dira P", "P batzuk ez dira S", "ez", "Animalia batzuk ez dira txakurrak; baina ez dator txakur batzuk animaliak ez direnik."]
 ];
 const LOGM_AYUDA = [
   { n: "Ekibokoa", ej: "Gauza baten helmuga bere perfekzioa da. Heriotza bizitzaren helmuga da. Beraz, heriotza bizitzaren perfekzioa da.", ve: "Formalizatzean, «helmuga» «helburua» den aldetik eta «helmuga» «amaiera» den aldetik letra desberdinak hartzen dituzte: laugarren termino bat agertzen da eta silogismoa baliozkoa izateari uzten dio." },
