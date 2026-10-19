@@ -41,6 +41,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Akrasía (borondatearen ahulezia)",
+  "et": "Grezierazko ἀκρασία (*akrasía*) hitzetik, «nagusitasunik eza»: ἀ- gabetzailea eta κράτος (*krátos*), «indarra, boterea».",
+  "area": "Etika",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Etika klasikoa",
+  "def": "Zer egin behar duen badakien baina desirari amore ematen dion eta bere iritziaren aurka jokatzen duenaren egoera; gero damutu egiten da. Aristotelesentzat, intelektualismo sokratikoaren aurrean, erakusten du ona jakitea ez dela nahikoa hura egiteko.",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Alexandria",
   "area": "Historia",
   "bloque": "A",
@@ -1796,6 +1809,19 @@ const GLOSARIO = [
   "def": "Platonentzat, justizia ez da kanpoko legea bakarrik. Arimaren eta hiriaren atal bakoitzak bere funtzioa behar bezala betetzen duenean sortzen den harmonia da. Beste hiru bertuteak (jakinduria, ausardia eta neurritasuna) orekatzen dituenak lortzen du: horregatik da gainerako guztiak ordenatzen dituen bertutea.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Kakía (bizioa)",
+  "et": "Grezierazko κακία (*kakía*) hitzetik, «gaiztakeria»; κακός (*kakós*), «txarra», hitzetik.",
+  "area": "Etika",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Etika klasikoa",
+  "def": "Izaeraren ohitura txarra: biziotsuak hautuz jokatzen du gaizki, hori ona dela sinetsita, eta horregatik ez da damutzen. Aristotelesek bertutearen aurka jartzen du eta akrasiatik (akrasía) bereizten du, zeinak bai baitu damua.",
+  "ilustre": [
+   "aristoteles"
   ]
  },
  {
