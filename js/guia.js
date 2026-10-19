@@ -412,14 +412,9 @@ const GUIA = {
      "view": "rayuela"
     },
     {
-     "nombre": "Leibnizen tailerra",
-     "texto": "XVII. mendeko biderketa-makina batetik zure mugikorreko zero eta batekoetara.",
+     "nombre": "Tailerrak",
+     "texto": "Filosofia beste ikasgai batzuekin lotzen duten hiru tailer, goian dituzte botoiak: Leibnizen tailerra (matematika eta informatika), Unibertso aristotelikoa (fisika, kimika eta biologia) eta Hitzaren artea (literatura, erretorika eta hizkuntza klasikoak).",
      "view": "leibniz"
-    },
-    {
-     "nombre": "Unibertso aristotelikoa",
-     "texto": "Fisika, kimika, biologia eta filosofia Aristotelesen arabera, eta zientzia modernoak haiekin egin zuena.",
-     "view": "universo"
     }
    ]
   },
