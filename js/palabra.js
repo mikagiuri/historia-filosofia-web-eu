@@ -407,6 +407,14 @@ const PALABRA = {
    "Metafora",
    "Konparazioa"
   ],
+  "metanoiaTit": "Ozen zuzentzea: metanoia",
+  "metanoia": [
+   "Bada figura bat, <strong>esan berri duzuna zuzentzean</strong> datzana, zerbait indartsuagoa edo zehatzagoa esateko: «Liburu ona da; hobeto esanda, liburu apartekoa da». Latindar erretorikoek <em>correctio</em> deitu zioten («zuzenketa»); greziarrek, ἐπανόρθωσις (<em>epanórthōsis</em>), «zuzentzea», eta geroagoko eskuliburuek, baita <strong>metanoia</strong> ere, «gogoaren aldaketa».",
+   "Badabil, entzuleak aldaketa ikusten duelako: lehen hitza motz geratzen da haren aurrean, eta bigarrenak gehiago pisatzen du kontrasteagatik. <em>Herenniori zuzendutako Erretorika</em>k, gorde den latinezko erretorika-eskuliburu zaharrenak, azaltzen du horrela hunkitzen dela entzulearen gogoa. Hizlariek erabiltzen dute, publizitateak («ez da auto bat: bizimodu bat da») eta klasean eztabaidatzen duen edonork.",
+   "Hitzak beste bizitza bat du filosofian. μετάνοια (<em>metánoia</em>) gogoaren aldaketa serioa ere bada: damutzea, buelta ematea. Platonek «biraketa» (περιαγωγή, <em>periagōgḗ</em>) deitzen dio hezkuntzari, ez baitio ikusmena arimari sartzen, baizik eta osorik biratzen du denera (<em>Errepublika</em> VII, 518c-d). Ebanjelioek «bihotz-berri zaitezte» eskatzen dute (μετανοεῖτε, Markos 1, 15). Eta Ausonio poeta latindarrak Metanoea erretratatzen du, ihes egiten duen Aukeraren lagun gisa: «Egindakoaren eta egin gabekoaren kontuak eskatzen dituen jainkosa naiz, norbaiti damu dakion: horregatik deitzen naute Metanoea». FHko glosarioan dago, «Metanoia» sarreran."
+  ],
+  "cita3": "Zuzenketak esandakoa kentzen du, eta haren ordez egokiagoa iruditzen zaiona jartzen du.",
+  "cita3Pie": "<em>Herenniori zuzendutako Erretorika</em> IV 26, 36 (itzulpen propioa)",
   "cuidado": "Tranpa-kasua: metafora oro ez da literarioa. «Mendiaren oina» edo «manifestazioaren burua» esaten dugu, konturatu gabe: metafora higatuak dira. Eta metafora batzuek ez dute apaintzen bakarrik: gure ordez pentsatzen dute. Pertsonen etorrera bati «inbasio» deitzea ezkutuko argudio bat da jada."
  },
  "poetica": {

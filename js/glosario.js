@@ -2687,6 +2687,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
+  "t": "Metanoia",
+  "et": "Grezierazko μετάνοια (*metánoia*) hitzetik: μετά (*metá*), «aldaketa, ondoren», + νοῦς (*noûs*), «adimena»: «gogoaren aldaketa», eta baita «damua» ere. Platonek περιαγωγή (*periagōgḗ*) dio, «buelta emanaraztea» (*Errepublika* VII, 518d).",
+  "area": "Antropologia",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Pentsatzeko eta bizitzeko moduaren aldaketa sakona, ez iritzi solte batena. Platonengan arima osoaren «biraketa» da: hezkuntzak ez dio ikusmena arimari sartzen, badauka-eta, baizik eta osorik biratzen du aldatzen denetik denera, kobazulotik ateratzen den presoa bezala (*Errepublika* VII, 518c-d). Kristautasunak damu eta konbertsio bihurtzen du («bihotz-berri zaitezte», μετανοεῖτε, Markos 1, 15), eta Agustinek *Aitorpenak* liburuan kontatzen du. Erretorikan, «metanoia» esan berri dena ozen zuzentzen duen figura ere bada («ona da; hobeto esanda, bikaina»).",
+  "ilustre": [
+   "platon",
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Metakontakizuna",
