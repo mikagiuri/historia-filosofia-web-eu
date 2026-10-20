@@ -82,18 +82,6 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "imp": 3,
-  "impg": 12,
-  "t": "Alexandria",
-  "id": "g-alejandria",
-  "area": "Historia",
-  "bloque": "A",
-  "unidad": "A10",
-  "tema": "Helenismoa",
-  "def": "Helenismoaren jakintza-gune nagusietako bat izan zen. Liburutegiak, Museoak eta ikerlarien sareak kultura grekoa mundu zabalago batean antolatu zuten."
- },
- {
-  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Alienazioa",
@@ -5210,21 +5198,6 @@ const GLOSARIO = [
   "ilustre": [
    "descartes",
    "leibniz"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Hiparkia Maroneakoa",
-  "id": "g-hiparquia-de-maronea",
-  "area": "Historia",
-  "bloque": "A",
-  "unidad": "A10",
-  "tema": "Helenismoa",
-  "def": "Filosofo zinikoa (K.a. IV-III. m.), Antzinaroko emakume filosofo bakanetako bat, haren berri dugunetako bat. Aberastasunari uko egin zion naturaren arabera bizitzeko Krates ondoan, ideal zinikoa bere emakume-izaerari ere aplikatuz.",
-  "ilustre": [
-   "hiparquia"
   ]
  },
  {

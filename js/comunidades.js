@@ -456,6 +456,40 @@ const COMUNIDADES = [
   ]
  },
  {
+  "id": "museo-alejandria",
+  "cas_ilu": [
+   "hipatia"
+  ],
+  "nombre": "Alexandriako Museoa eta Liburutegia",
+  "fechas": "Alexandria, K.a. 300 inguruan – K.o. IV.-V. mendeak",
+  "cas_epoca": "ant",
+  "lugar": "Ptolomeoen errege-jauregiaren barruan, Alexandriako portuaren ondoan, Egipton. Museoa (Mouseion, «Musen etxea») ikerketa-erakunde bat zen, ikasgelak, jantoki komun bat, pasealeku bat eta lorategiak zituena; haren ondoan, Liburutegi handiak papiro-erroiluak biltzen zituen. Bigarren liburutegi bat, eskuragarriagoa, Serapeon gordetzen zen, Serapis jainkoaren tenpluan.",
+  "hoy": "Ez da ezer geratzen antzinako eraikinetatik: haien kokaleku zehatza eztabaidatua da, eta Ptolomeoen Alexandriaren zati handi bat gaur egun uraren azpian edo hiri modernoaren azpian dago. 2002an itsasertzean Bibliotheca Alexandrina inauguratu zen, antzinakoa gogorarazten duena haren jarraipena izan gabe.",
+  "miembros": "Lehen Ptolomeoek sortu zuten (Ptolomeo I.ak eta Ptolomeo II.ak), tradizioaren arabera Demetrio Falerokoaren aholkuari jarraituz. Ez zen doktrina bakarreko eskola bat, baizik eta erregeak ordaindutako jakintsuen gune bat: Euklides matematikaria, Eratostenes (Lurraren zirkunferentzia neurtu zuena eta Liburutegia zuzendu zuena), Aristarko Samoskoa astronomoa (Lurra Eguzkiaren inguruan biratzen dela proposatu zuena), Herofilo eta Erasistrato medikuak, eta Kalimako poeta eta liburuzaina, funtsak Pinakes-etan antolatu zituena, lehen katalogo handian. Mendeak geroago, dagoeneko garai erromatarrean, Hipatia filosofo eta matematikariak Alexandrian irakatsi zuen.",
+  "vida": "Jakintsuak errege-soldatatik bizi ziren eta elkarrekin jaten zuten, testuak kopiatzen, zuzentzen eta iruzkintzen eta matematikan, astronomian, geografian eta medikuntzan ikertzen. Liburutegia betetzeko, Ptolomeoek Mediterraneo osoan erosten zituzten erroiluak eta, Galenok kontatzen duenez, portuan geldialdia egiten zuten ontzietan zihoazen liburuak bahitzeko agindua ematen zuten, kopiatzeko.",
+  "ideas": "Munduko idatzizko jakintza guztia leku bakarrean biltzeko eta metodoz aztertzeko ideia. Alexandriak ezagutza lan kolektibo eta antolatu bihurtu zuen, botere politikoak sostengatua.",
+  "cita": {
+   "t": "Liburu handi bat gaitz handi bat da.",
+   "ref": "Alexandriako liburuzain Kalimakori egotzitako esaera, obra laburrak nahiago zituena (465. zatia, Pfeiffer)"
+  },
+  "fin": "Liburutegia ez zen egun bakar batean desagertu. Kalteak jasan zituen Julio Zesarren gerran Alexandrian (K.a. 48) eta mendeetan zehar gainbehera etorri zen Ptolomeoek boterea galtzen zuten heinean; Serapeoa K.o. 391n suntsitu zuten, Teofilo apezpikuaren aginduz. Arabiarrek 642an hiria hartu zutenean, Liburutegi handitik ia ezer ez zen geratzen.",
+  "trampa": "Ohikoa da esatea Liburutegia bat-batean osorik erre zela —Zesarren, kristautasunaren edo arabiarren erruz— eta 700.000 erroiluren kopurua errepikatzen da. Historialariek ñabartu egiten dute: galera motela izan zen eta kausa askorengatik gertatu zen, antzinako kopuruak ez dira oso fidagarriak, eta Omar kalifak liburuak erretzeko agindu zuelako istorio ospetsua bostehun urte baino gehiago geroago agertzen da lehen aldiz, XIII. mendeko autore batengan.",
+  "pregunta": "Leku bakar batek munduko jakintza guztia gorde al dezake? Zer galtzen da liburutegi bat galtzen denean?",
+  "temas": [
+   "hf-helenismo"
+  ],
+  "fuentes": [
+   {
+    "t": "Wikipedia: Alexandriako Liburutegia",
+    "url": "https://es.wikipedia.org/wiki/Biblioteca_de_Alejandr%C3%ADa"
+   },
+   {
+    "t": "Wikipedia: Alexandriako Museoa",
+    "url": "https://es.wikipedia.org/wiki/Museo_de_Alejandr%C3%ADa"
+   }
+  ]
+ },
+ {
   "id": "casa-sabiduria",
   "cas_ilu": [],
   "nombre": "Bagdadeko Jakinduriaren Etxea (Bayt al-Hikma)",
