@@ -247,7 +247,7 @@ const GUIA = {
     },
     {
      "nombre": "Logikaren txokoa",
-     "texto": "Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak.",
+     "texto": "Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak; eta laborategi bat, egia-zuhaitzekin, irudien mundu batekin, erlazioekin eta frogapen gidatuekin.",
      "view": "logica"
     },
     {
@@ -417,7 +417,7 @@ const GUIA = {
     },
     {
      "nombre": "Tailerrak",
-     "texto": "Filosofia beste ikasgai batzuekin lotzen duten hiru tailer, goian dituzte botoiak: Leibnizen tailerra (matematika eta informatika), Unibertso aristotelikoa (fisika, kimika eta biologia) eta Hitzaren artea (literatura, erretorika eta hizkuntza klasikoak).",
+     "texto": "Filosofia beste ikasgai batzuekin lotzen duten lau tailer, goian dituzte botoiak: Leibnizen tailerra (matematika eta informatika), Unibertso aristotelikoa (fisika, kimika eta biologia), Hitzaren artea (literatura, erretorika eta hizkuntza klasikoak) eta Spinozaren afektuak (psikologia eta urratsez urrats simulatzen den eredu bat).",
      "view": "leibniz"
     }
    ]

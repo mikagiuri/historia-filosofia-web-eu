@@ -13,6 +13,11 @@ const PISTAS = [
     "fase": "1. fasea · Berreskuratzea",
     "etiqueta": "Hasierako galdera",
     "pregunta": "Zer adierazten dute presoek, itzalek eta kobazuloaren kanpoaldeak?",
+    "repaso": [
+     "Esan al dut ezagutzari buruzko alegoria bat dela, ez benetako kontakizun bat?",
+     "Azaldu al dut itzalak sentigarriari buruzko iritzia (<em>doxa</em>) direla?",
+     "Esan al dut kanpoaldea eta eguzkia Ideiak eta Ongia direla, arrazoiak bakarrik iristen dituenak (<em>episteme</em>)?"
+    ],
     "intro": [
      "Gogoratu eszena: txikitatik kateatuta dauden preso batzuek kobazulo baten hondoko horma begiratzen dute. Saiatu Platonek zer esan nahi duen azaltzen laguntza eskatu aurretik."
     ],
@@ -32,12 +37,14 @@ const PISTAS = [
       [
        "Ideien mundua.",
        false,
-       "Ez: Ideien mundua kanpoan dago, eguzkiak argituta."
+       "Ez: Ideien mundua kanpoan dago, eguzkiak argituta.",
+       "g-mundo-sensible"
       ],
       [
        "Bere garaiko Atenasko benetako kartzela bat.",
        false,
-       "Ez da kontakizun historiko bat: ezagutzari buruzko alegoria bat da."
+       "Ez da kontakizun historiko bat: ezagutzari buruzko alegoria bat da.",
+       "g-el-mito-de-la-caverna"
       ],
       [
        "Pertsona bakoitzaren subkontzientea.",
@@ -141,6 +148,11 @@ const PISTAS = [
     "fase": "2. fasea · Sakontzea",
     "etiqueta": "Galdera berria",
     "pregunta": "Zergatik itzuli behar du preso askatuak kobazulora?",
+    "repaso": [
+     "Esan al dut Ongia ikusi duenak besteen bila itzultzeko betebeharra duela?",
+     "Lotu al dut itzulera <em>Errepublika</em>ko filosofoen gobernuarekin?",
+     "Aipatu al dut presoek baztertu egiten dutela, Atenasek Sokrates kondenatu zuen bezala?"
+    ],
     "intro": [
      "Kontakizuna ez da kanpoan amaitzen: eguzkia ikusi duena besteen bila itzultzen da. Pentsatu horrek zer lotura duen Platonen politikarekin."
     ],
@@ -170,7 +182,8 @@ const PISTAS = [
       [
        "Kanpoan ez zegoela ezer ikusteko.",
        false,
-       "Kanpoan dago errealena: Ideiak eta eguzkia (Ongia)."
+       "Kanpoan dago errealena: Ideiak eta eguzkia (Ongia).",
+       "g-el-bien"
       ]
      ],
      "ok": "Hala da. Alegoriak ezagutzaren teoria eta politika lotzen ditu.",
@@ -242,6 +255,11 @@ const PISTAS = [
     "fase": "1. fasea · Berreskuratzea",
     "etiqueta": "Hasierako galdera",
     "pregunta": "Zer da zalantza metodikoa eta zertarako erabiltzen du Descartesek?",
+    "repaso": [
+     "Esan al dut zalantzarik gabeko egia batera iristeko metodo bat dela, ez zalantzan geratzeko?",
+     "Izendatu al ditut zalantza egiteko arrazoiak: zentzumenak, ametsa eta jeinu gaiztoa?",
+     "Bereizi al dut Descartes eszeptikoarengandik?"
+    ],
     "intro": [
      "Descartesek zalantzan jar daitekeen guztiaz dudatzea erabakitzen du. Saiatu azaltzen zergatik egingo lukeen norbaitek horrelakorik, laguntza eskatu aurretik."
     ],
@@ -261,7 +279,8 @@ const PISTAS = [
       [
        "Ezer jakin ezin dugula frogatzea.",
        false,
-       "Hori eszeptizismoa litzateke. Descartesek, hain zuzen, zalantzatik ateratzeko dudatzen du."
+       "Hori eszeptizismoa litzateke. Descartesek, hain zuzen, zalantzatik ateratzeko dudatzen du.",
+       "g-duda-metodica"
       ],
       [
        "Aurreko filosofoez trufatzea.",
@@ -369,6 +388,11 @@ const PISTAS = [
     "fase": "2. fasea · Sakontzea",
     "etiqueta": "Galdera berria",
     "pregunta": "Zein ziurtasunek eusten dio zalantzarik erradikalenari?",
+    "repaso": [
+     "Esan al dut ziurtasuna «pentsatzen dut, beraz banaiz» (<em>cogito</em>) dela?",
+     "Justifikatu al dut zergatik eusten dion: zalantza egiteko, eta engainatua izateko ere, pentsatu egin behar dut, eta pentsatzeko, existitu?",
+     "Esan al dut Descartesek ezagutza berreraikitzeko oinarri duen lehen printzipioa dela?"
+    ],
     "intro": [
      "Demagun jeinu gaiztoak guztian engainatzen zaituela. Ba al dago, hala ere, zalantzan jarri ezin duzun zerbait?"
     ],
@@ -388,7 +412,8 @@ const PISTAS = [
       [
        "Zentzumenek existitzen naizela erakusten didatelako.",
        false,
-       "Zentzumenez dudatu da jada: cogitoa ez dago haien mende."
+       "Zentzumenez dudatu da jada: cogitoa ez dago haien mende.",
+       "g-cogito"
       ],
       [
        "Tradizio filosofikoak hala dioelako.",
@@ -398,7 +423,8 @@ const PISTAS = [
       [
        "Jeinu gaiztoak inor ezin duelako engainatu.",
        false,
-       "Gainerako guztian engaina nazake, baina ez pentsatzen dudan bitartean existitzen naizela."
+       "Gainerako guztian engaina nazake, baina ez pentsatzen dudan bitartean existitzen naizela.",
+       "g-el-genio-maligno"
       ]
      ],
      "ok": "Hala da. Zenbat eta gehiago dudatu, orduan eta seguruago nago pentsatzen dudala, eta, beraz, existitzen naizela.",
@@ -471,6 +497,11 @@ const PISTAS = [
     "fase": "1. fasea · Berreskuratzea",
     "etiqueta": "Hasierako galdera",
     "pregunta": "Zer da inperatibo kategorikoa?",
+    "repaso": [
+     "Esan al dut baldintzarik gabe behartzen duen agindua dela, atzean «nahi baduzu…» bat gabe?",
+     "Bereizi al dut inperatibo hipotetikotik?",
+     "Esan al dut ekintzari balio morala ematen diona dela: betebeharrez jokatzea, ez interesez?"
+    ],
     "intro": [
      "Saiatu erantzuten pista bat ireki aurretik. Ez duzu definizio perfektu bat behar: nahikoa da bere ezaugarri nagusia berreskuratzea."
     ],
@@ -486,7 +517,8 @@ const PISTAS = [
       [
        "Helburu bat lortzeko zein bitarteko erabiltzea komeni den adierazten duen araua da.",
        false,
-       "Hori inperatibo hipotetikoa da: betebeharra bilatzen duzun helburuaren menpe dago."
+       "Hori inperatibo hipotetikoa da: betebeharra bilatzen duzun helburuaren menpe dago.",
+       "g-imperativo-hipotetico"
       ],
       [
        "Baldintzarik gabe behartzen duen agindua da, nahi den helburu baten menpe egon gabe.",
@@ -598,6 +630,11 @@ const PISTAS = [
     "fase": "2. fasea · Sakontzea",
     "etiqueta": "Galdera berria",
     "pregunta": "Nola egiaztatzen du Kantek maxima bat morala den?",
+    "repaso": [
+     "Esan al dut aztertzen dena maxima dela, jokatzeko erabiltzen dudan araua?",
+     "Azaldu al dut proba: maxima hori guztientzako lege bihurtzea nahi dezakedan?",
+     "Eman al dut proba gainditzen ez duen maxima baten adibidea, promesa faltsuarena bezala?"
+    ],
     "intro": [
      "Ziklo berri bat hasten da. Orain ez dugu inperatibo kategorikoa definitu nahi, proba gisa nola erabiltzen den baizik. Kantek hainbat modutan adierazi zuen: gogoratzen duzu bat?"
     ],
@@ -627,7 +664,8 @@ const PISTAS = [
       [
        "Ekintza isolatuak, bere araua kontuan hartu gabe.",
        false,
-       "Ez: ekintza gidatzen duen araua aztertzen da."
+       "Ez: ekintza gidatzen duen araua aztertzen da.",
+       "g-imperativo-categorico"
       ]
      ],
      "ok": "Hala da. Ez da ekintza isolatu bat unibertsalizatzen, hura gidatzen duen araua edo maxima baizik.",
@@ -671,7 +709,8 @@ const PISTAS = [
         [
          "Ekintza isolatuak, bere araua kontuan hartu gabe.",
          false,
-         "Irakurri berriro aipua: zein hitz doa «lege unibertsal» esapidearekin?"
+         "Irakurri berriro aipua: zein hitz doa «lege unibertsal» esapidearekin?",
+         "g-imperativo-categorico"
         ]
        ],
        "ok": "Hala da. Maxima da unibertsalizatzen dena.",
@@ -703,6 +742,11 @@ const PISTAS = [
     "fase": "1. fasea · Berreskuratzea",
     "etiqueta": "Hasierako galdera",
     "pregunta": "Zer esan nahi du gizateria beti helburu gisa tratatzeak eta inoiz ez bitarteko soil gisa?",
+    "repaso": [
+     "Esan al dut debekatuta dagoena norbait bitarteko <em>soil</em> gisa tratatzea dela, ez haren laguntzaz baliatzea?",
+     "Azaldu al dut pertsonek duintasuna dutela, ez prezioa?",
+     "Justifikatu al dut duintasun hori pertsona arrazionala izatean eta lege morala bere buruari ematean?"
+    ],
     "intro": [
      "Saiatu zure hitzekin azaltzen laguntza eskatu aurretik. Pentsatu norbait «erabiltzen» den adibide batean."
     ],
@@ -722,7 +766,8 @@ const PISTAS = [
       [
        "Okinari ogia erostea.",
        false,
-       "Bitarteko gisa erabiltzen duzu, baina ez bitarteko soil gisa: hark askatasunez onartzen du trukea."
+       "Bitarteko gisa erabiltzen duzu, baina ez bitarteko soil gisa: hark askatasunez onartzen du trukea.",
+       "g-dignidad"
       ],
       [
        "Ikaskide bati ariketa batekin laguntza eskatzea, zertarako behar duzun azalduz.",
@@ -829,6 +874,11 @@ const PISTAS = [
     "fase": "2. fasea · Erlazioa",
     "etiqueta": "Galdera berria",
     "pregunta": "Zergatik huts egiten du promesa faltsuak bi formuletan aldi berean?",
+    "repaso": [
+     "Azaldu al dut zergatik ezin den promesa faltsuaren maxima unibertsalizatu?",
+     "Esan al dut, gezurra esatean, bestea bitarteko soil gisa erabiltzen dudala?",
+     "Ondorioztatu al dut bi formulek lege moral bera adierazten dutela?"
+    ],
     "intro": [
      "Ezagutzen dituzu jada lege unibertsalaren formula eta gizateriarena. Orain kasu berean lotu behar dira: dirua lortzeko faltsuki agintzea."
     ],
@@ -858,7 +908,8 @@ const PISTAS = [
       [
        "Lehena bakarrik da kategorikoa; bigarrena inperatibo hipotetikoa da.",
        false,
-       "Gizateriaren formulak ez du «… nahi baduzu» esaten: baldintzarik gabe behartzen du, lehenak bezala."
+       "Gizateriaren formulak ez du «… nahi baduzu» esaten: baldintzarik gabe behartzen du, lehenak bezala.",
+       "g-imperativo-hipotetico"
       ]
      ],
      "ok": "Hala da. Unibertsalizatu ezin den araua da, era berean, norbait bitarteko soil gisa erabiltzen duena.",
