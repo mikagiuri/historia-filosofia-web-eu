@@ -149,6 +149,10 @@ const GUIA = {
     {
      "nombre": "●○○○○ Zabalkuntza",
      "texto": "Jakingarria edo zabalkuntza: gehiago jakiteko."
+    },
+    {
+     "nombre": "●●●◐○ Puntu erdia",
+     "texto": "Bi mailaren artean. 3,5 bat ez da oraindik funtsezkotzat hartzen."
     }
    ]
   },

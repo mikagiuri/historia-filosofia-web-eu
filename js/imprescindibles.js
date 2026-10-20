@@ -130,8 +130,8 @@ const IMPRESCINDIBLES = {
    "Dekretuko 25; Beauvoirrekin alderatzeko modu naturala; 2026ko ezohiko deialdiko disertazioa (proiektu irekia)"
   ],
   "arendt": [
-   4,
-   "Dekretuko 22*: totalitarismoa eta gaizki absolutua (USE 2025)"
+   5,
+   "Irakaslearen berrikuspena (2026-10-20): Hannah Arendt, USE"
   ],
   "habermas": [
    4,
@@ -1076,16 +1076,16 @@ const IMPRESCINDIBLES = {
    "Dekretuko jakintza, izartxorik gabe: ikasturtearen abiapuntua"
   ],
   "2": [
-   4,
-   "Dekretua: «metodoak eta tresnak*» (iruzkina, elkarrizketa argudiatua, disertazioa)"
+   3,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "3": [
-   4,
-   "Dekretua: «kosmobisio mitikoa eta teorizazio filosofikoa*»"
+   3,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "4": [
-   3,
-   "Dekretua, izartxorik gabe; Platonen giltza (Parmenides eta Heraklito)"
+   3.5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "5": [
    4,
@@ -1096,88 +1096,100 @@ const IMPRESCINDIBLES = {
    "USEko irakurgaia: Errepublika VII"
   ],
   "7": [
-   3,
-   "Dekretua, izartxorik gabe; arima platonikoa da gehien atera den epigrafea"
+   5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "8": [
-   4,
-   "Dekretua: «intelektualismo sokratiko-platonikoa*»; 2026ko USEko disertazioa"
+   5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "9": [
-   3,
-   "Dekretua, izartxorik gabe; 3. ariketako galdera-eredua"
+   5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "10": [
    4,
    "Dekretua: «estoizismoa, epikureismoa, zinismoa eta eszeptizismoa*»"
   ],
   "11": [
-   4,
-   "Dekretua: «Erdi Aroko filosofia*»"
+   3,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "12": [
-   4,
-   "Dekretua: «fedea eta arrazoia*»; 2026ko USEko 3. ariketa"
+   3.5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "13": [
-   4,
-   "Dekretua: «Europako modernitatearen sorrera*»"
+   3.5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "14": [
    5,
    "USEko irakurgaia: Metodoaren diskurtsoa II-IV"
   ],
   "15": [
-   4,
-   "Dekretua: «substantzien teoria kartesiarra*»"
+   5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "16": [
    4,
    "Dekretua: «gizartearen eta boterearen jatorria eta oinarria*»"
   ],
   "17": [
-   4,
-   "Dekretua: «utilitarismoa eta liberalismoa… lehiakortasuna eta lankidetza*»"
+   3.5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "18": [
    5,
    "USEko irakurgaia: Zer da Ilustrazioa?"
   ],
   "19": [
-   4,
-   "Dekretua: «Kanten filosofia kritikoa*»"
+   5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "20": [
    4,
    "Dekretua: «etika kantiarra utilitarismoaren aurrean*»"
   ],
   "21": [
-   4,
-   "Dekretua: «susmoaren filosofoak*»"
+   5,
+   "USEko irakurgaia: Ecce Homo (Nietzsche) eta Marx; irakaslearen berrikuspena (2026-10-20)"
   ],
   "22": [
    4,
    "Dekretua: «Frankfurteko Eskola*» eta «Hannah Arendt*»"
   ],
   "23": [
-   5,
-   "USEko irakurgaia: Ecce homo"
+   3,
+   "Irakaslearen berrikuspena (2026-10-20): Nietzscheren USEko irakurgaia 21. gaian lantzen da"
   ],
   "24": [
    3,
    "Dekretua, izartxorik gabe"
   ],
   "25": [
-   4,
-   "Dekretua: «María Zambrano*»; 2026ko USEko disertazioa (proiektu irekia)"
+   3.5,
+   "Irakaslearen berrikuspena (2026-10-20)"
   ],
   "26": [
    5,
-   "USEko irakurgaia: Bigarren sexua"
+   "USEko irakurgaia: Bigarren sexua (Simone de Beauvoir)"
   ],
   "27": [
-   4,
-   "Dekretua: XXI. mendeko erronkak* (zerrendako autore bat aski da)"
+   3,
+   "Irakaslearen berrikuspena (2026-10-20)"
+  ],
+  "hf-ap": [
+   5,
+   "Irakaslearen berrikuspena (2026-10-20): Platon, USEko irakurgaia (Errepublika VII)"
+  ],
+  "hf-aa": [
+   5,
+   "Irakaslearen berrikuspena (2026-10-20): Aristoteles, sistema osoa"
+  ],
+  "hf-descartes-makro": [
+   5,
+   "Irakaslearen berrikuspena (2026-10-20): USEko irakurgaia (Metodoaren diskurtsoa II-IV)"
   ]
  },
  "glosarioGrupos": {

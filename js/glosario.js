@@ -1251,7 +1251,7 @@ const GLOSARIO = [
   "imp": 5,
   "impg": 1,
   "t": "Bi munduen arazoa",
-  "et": "Aristotelesek kritikatzen du platonikoek Ideiak gauzetatik «bereiztu» (ἐχώρισαν) izana (*Metafisika* M 4); hortik datorkio arazoari χωρισμός (*khorismós*) izena, «bereizketa».",
+  "et": "Aristotelesek kritikatzen du platonikoek Ideiak gauzetatik «bereiztu» (ἐχώρισαν, *ekhórisan*) izana (*Metafisika* M 4); hortik datorkio arazoari χωρισμός (*khorismós*) izena, «bereizketa».",
   "area": "Metafisika",
   "bloque": "A",
   "unidad": "AA",
@@ -2695,7 +2695,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Pentsatzeko eta bizitzeko moduaren aldaketa sakona, ez iritzi solte batena. Platonengan arima osoaren «biraketa» da: hezkuntzak ez dio ikusmena arimari sartzen, badauka-eta, baizik eta osorik biratzen du aldatzen denetik denera, kobazulotik ateratzen den presoa bezala (*Errepublika* VII, 518c-d). Kristautasunak damu eta konbertsio bihurtzen du («bihotz-berri zaitezte», μετανοεῖτε, Markos 1, 15), eta Agustinek *Aitorpenak* liburuan kontatzen du. Erretorikan, «metanoia» esan berri dena ozen zuzentzen duen figura ere bada («ona da; hobeto esanda, bikaina»).",
+  "def": "Pentsatzeko eta bizitzeko moduaren aldaketa sakona, ez iritzi solte batena. Platonengan arima osoaren «biraketa» da: hezkuntzak ez dio ikusmena arimari sartzen, badauka-eta, baizik eta osorik biratzen du aldatzen denetik denera, kobazulotik ateratzen den presoa bezala (*Errepublika* VII, 518c-d). Kristautasunak damu eta konbertsio bihurtzen du («bihotz-berri zaitezte», μετανοεῖτε, *metanoeîte*, Markos 1, 15), eta Agustinek *Aitorpenak* liburuan kontatzen du. Erretorikan, «metanoia» esan berri dena ozen zuzentzen duen figura ere bada («ona da; hobeto esanda, bikaina»).",
   "ilustre": [
    "platon",
    "agustin"
