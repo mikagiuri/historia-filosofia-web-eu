@@ -484,6 +484,263 @@ const REP_DIAL = {
    ]
   }
  ],
+ "versiones": {
+  "degen": {
+   "emoji": "⛓️",
+   "eyebrow": "A bertsioa",
+   "name": "Erregimenen endekapena",
+   "libros": "Errepublika VIII-IX eta X",
+   "lema": "Hiria eta arima ustelduz doaz: aristokraziatik tiraniara.",
+   "intro": "Sortu hiri justua eta eutsi: krisi bakoitzak maila bat jaitsarazi diezaioke. Irabazten du erori ez dena."
+  },
+  "clases": {
+   "emoji": "⚖️",
+   "eyebrow": "B bertsioa",
+   "name": "Pólis salbatzen duten klaseak",
+   "libros": "Errepublika II-IV",
+   "lema": "Klase bakoitzak bere eginkizuna betetzen du eta justiziak hiria salbatzen du.",
+   "intro": "Banatu hiru klaseak, hezi zaindariak eta lortu bakoitzak berea egitea: jakinduria goian, ausardia laguntzaileengan, neurritasuna guztiengan."
+  }
+ },
+ "acciones": [
+  {
+   "id": "censura",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-censura",
+   "name": "Poeten zentsura",
+   "src": "República II-III, 377b-392c",
+   "d": "Gazteak bertute-ereduekin hazten dira: +1 jakinduria zaindari bakoitzari."
+  },
+  {
+   "id": "limite",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-limite",
+   "name": "Aberastasunaren muga",
+   "src": "Leyes V, 744d-e",
+   "d": "Inork ezin du pobreenak baino lau aldiz gehiago izan: oligarkia moteltzen du (+1 harmonia)."
+  },
+  {
+   "id": "sorteo",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-sorteo",
+   "name": "Kargu-zozketa",
+   "src": "República VIII, 557a",
+   "d": "Hiritar gehiagok gobernatzen dute (+2 AP), baina Platonentzat demokraziarako urratsa da (−1 harmonia)."
+  },
+  {
+   "id": "escolta",
+   "v": "a",
+   "ap": 2,
+   "img": "ac-escolta",
+   "name": "Guardia pertsonala",
+   "src": "República VIII, 566b",
+   "d": "Herriaren babesle batek eskolta eskatzen du: +2 harmonia orain, baina −0,5 hurrengo txanda bakoitzean."
+  },
+  {
+   "id": "consejo",
+   "v": "a",
+   "ap": 2,
+   "img": "ac-consejo",
+   "name": "Gaueko kontseilua",
+   "src": "Leyes XII, 961a-b",
+   "d": "Onenak biltzen dira legeei begiratzeko: +2 harmonia."
+  },
+  {
+   "id": "zanganos",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-zanganos",
+   "name": "Kanpora erlamandoak",
+   "src": "República VIII, 552c",
+   "d": "Ekoitzi gabe gastatzen duten alferrak erlauntzaren gaixotasuna dira: +1 harmonia."
+  },
+  {
+   "id": "oficio",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-oficio",
+   "name": "Pertsona bakoitzak lanbide bat",
+   "src": "República II, 370a-c",
+   "d": "Bakoitzak gauza bakarra egiten du, bere naturari dagokiona: +6 ekoizpen."
+  },
+  {
+   "id": "musica",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-musica",
+   "name": "Musika eta gimnasia",
+   "src": "República III, 410c-412a",
+   "d": "Arimaren eta gorputzaren hezkuntza: +1 jakinduria zaindari bakoitzari."
+  },
+  {
+   "id": "lana",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-lana",
+   "name": "Artilea tindatu",
+   "src": "República IV, 429d-430b",
+   "d": "Hezkuntzak laguntzaileengan finkatzen du beldurgarriari buruzko iritzi zuzena, garbitzen ez den tindagaia bezala: txanda honetan gudariek ×1,5 balio dute."
+  },
+  {
+   "id": "pruebas",
+   "v": "b",
+   "ap": 2,
+   "img": "ac-pruebas",
+   "name": "Zaindarien probak",
+   "src": "República III, 413c-414a",
+   "d": "Plazerrei eta beldurrei eusten dietenek bakarrik gobernatzen dute: zure zaindari guztiak zuzentzat hartzen dira."
+  },
+  {
+   "id": "comun",
+   "v": "b",
+   "ap": 2,
+   "img": "ac-comun",
+   "name": "Zaindarien bizitza komunitarioa",
+   "src": "República III, 416d-417b",
+   "d": "Urrerik eta etxe propiorik gabe, ezerk ez ditu hiritik bereizten: +2 harmonia."
+  },
+  {
+   "id": "mito",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-mito",
+   "name": "Metalen mitoa",
+   "src": "República III, 415a-c",
+   "d": "Kontakizun komun batek hiria batzen du: +1 harmonia."
+  },
+  {
+   "id": "rey",
+   "v": "b",
+   "ap": 3,
+   "img": "ac-rey",
+   "name": "Errege filosofoa",
+   "src": "República V, 473c-d",
+   "d": "Jakinduria osoko zaindariak badituzu, haiek gobernatzen dute: +3 harmonia. Ez badituzu, ez du ezertarako balio."
+  },
+  {
+   "id": "bajar",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-bajar",
+   "name": "Kobazulora itzuli",
+   "src": "República VII, 519c-520d",
+   "d": "Jakintsuak gobernatzera jaisten dira: +2 harmonia, baina −1 jakinduria zaindari bakoitzari."
+  }
+ ],
+ "fases": [
+  {
+   "name": "Espezializazioa",
+   "lema": "Bakoitzak lanbide bat: hiria sortzen da inor ez delako bere buruarekin aski (369b)."
+  },
+  {
+   "name": "Zaindariak",
+   "lema": "Defendatzen dutenak hezi: musika, gimnasia eta iritzi zuzena."
+  },
+  {
+   "name": "Gobernua",
+   "lema": "Nork agintzen du? Dakitenek, badaude."
+  },
+  {
+   "name": "Proba",
+   "lema": "Justiziak eusten al dio krisiak datozenean?"
+  }
+ ],
+ "funciones": [
+  {
+   "k": "sophia",
+   "emoji": "🦉",
+   "name": "Jakinduria",
+   "gr": "σοφία (*sophía*)",
+   "clase": "gobernatzaileak",
+   "ok": "Jakinduria osoko gobernatzaileak daude, Ongiaren zientziarekin.",
+   "no": "Zaindari batek ere ez du jakinduria osora iristen.",
+   "loc": "Errepublika IV, 428b-429a"
+  },
+  {
+   "k": "andreia",
+   "emoji": "🛡️",
+   "name": "Ausardia",
+   "gr": "ἀνδρεία (*andreía*)",
+   "clase": "laguntzaileak",
+   "ok": "Laguntzaileak aski dira hiria defendatzeko eta beldurgarriari buruzko iritzi zuzena gordetzen dute.",
+   "no": "Defendatzaile gutxiegi daude.",
+   "loc": "Errepublika IV, 429b-430c"
+  },
+  {
+   "k": "sophrosyne",
+   "emoji": "🍷",
+   "name": "Neurritasuna",
+   "gr": "σωφροσύνη (*sophrosýne*)",
+   "clase": "klase guztiak",
+   "ok": "Hiria bere buruarekin aski da: guztiek onartzen dute nork agintzen duen.",
+   "no": "Ekoizpena ez da aski: gutizia hiriaren gainetik pasatzen da.",
+   "loc": "Errepublika IV, 430d-432a"
+  },
+  {
+   "k": "dikaiosyne",
+   "emoji": "⚖️",
+   "name": "Justizia",
+   "gr": "δικαιοσύνη (*dikaiosýne*)",
+   "clase": "hiri osoa",
+   "ok": "Klase bakoitzak berea egiten du: hiria justua da.",
+   "no": "Hirurotatik bat falta da: oraindik ez dago justiziarik.",
+   "loc": "Errepublika IV, 433a-434c"
+  }
+ ],
+ "doxa": "Laguntzaileek ez dute zientziarik, ἐπιστήμη (*epistéme*), iritzi zuzena baizik, ὀρθὴ δόξα (*orthè dóxa*): haien ausardia da «zer den beldurgarri eta zer ez denari buruzko iritzi zuzen eta legezkoaren zaintza» (Errepublika IV, 430b). Gobernatzaileek bakarrik ateratzen dira kobazulotik.",
+ "finB": [
+  {
+   "min": 8,
+   "todas": true,
+   "emoji": "🏛️",
+   "name": "Kalipolis: hiri justua",
+   "lema": "Hiru klaseek berea egiten dute eta hiriak eusten dio."
+  },
+  {
+   "min": 5,
+   "emoji": "⚖️",
+   "name": "Hiri zutik, oraindik erabat justua ez dena",
+   "lema": "Eusten du, baina funtzioren batek huts egiten du."
+  },
+  {
+   "min": 0.1,
+   "emoji": "⚠️",
+   "name": "Hiri nahasia",
+   "lema": "Klase bakoitzak besteen eginkizunetan sartzen da."
+  },
+  {
+   "min": -999,
+   "emoji": "💥",
+   "name": "Hiria desegiten da",
+   "lema": "Justiziarik gabe, hiria bat izateari uzten dio."
+  }
+ ],
+ "er": {
+  "titulo": "Epilogoa · Erren mitoa",
+  "situacion": "Er, gudan hil zen gudari bat, errauts-piran bizitzara itzultzen da eta ikusi zuena kontatzen du: arimek hurrengo bizitza aukeratzen dute. Aukeratzen lehena, pentsatu gabe, tiranorik boteretsuenaren bizitza hartzen du; gero, bertan idatzita dagoela ikusten du bere seme-alabak jango dituela.",
+  "cita": "«Errua aukeratzen duenarena da; jainkoak ez du errurik.»",
+  "loc": "Errepublika X, 617e",
+  "griego": "αἰτία ἑλομένου· θεὸς ἀναίτιος (*aitía heloménou; theòs anaítios*).",
+  "pregunta": "Zure txanda da bizitza aukeratzeko. Zein hautatzen duzu?",
+  "opts": [
+   {
+    "t": "Tiranoaren bizitza: mugarik gabeko boterea.",
+    "r": "Lehenaren aukera da: hiri ordenatu batetik zetorren, baina «ohituraz, filosofiarik gabe» izan zen bertutetsua (619c-d)."
+   },
+   {
+    "t": "Norbanako baten bizitza lasaia, Odiseok bezala.",
+    "r": "Odiseok, bere handinahia sendatuta, luzaz bilatzen du kargurik gabeko gizon pribatu baten bizitza, eta pozik aukeratzen du (620c-d)."
+   },
+   {
+    "t": "Onaren eta txarraren arteko aldea hobekien bereizten dakien bizitza.",
+    "r": "Sokratesek aholkatzen duena da: posible diren bizitzen artean hobena beti aukeratzen ikastea da garrantzitsuena (618b-c)."
+   }
+  ],
+  "cierre": "Horrela amaitzen da Errepublika: «mitoa salbatu zen eta ez zen galdu, eta salbatuko gaitu hari kasu egiten badiogu» (621b-c)."
+ },
  "ui": {
   "regTitulo": "Zure hiriaren erregimena (Errepublika, VIII. liburua)",
   "degenera": "Zure hiria endekatzen ari da",
@@ -506,6 +763,35 @@ const REP_DIAL = {
   "dTuya": "Zure ondorioa: zure partidako zer jarrera defendatuko zenuke idatziz, eta zergatik?",
   "glosario": "Glosarioko kontzeptuak",
   "sinDialogos": "Partida honetan ez zen elkarrizketarik izan.",
-  "hudReg": "Erregimena"
+  "hudReg": "Erregimena",
+  "elegir": "Aukeratu bertsioa",
+  "accionesMax": "Ekintzak (gehienez 3 txanda honetan)",
+  "elegirIntro": "Bi joko motor berarekin eta fokatze desberdinekin. Nahi duzunean alda dezakezu.",
+  "jugarEsta": "Jokatu bertsio hau →",
+  "cambiar": "↺ Aldatu bertsioa",
+  "fase": "Fasea",
+  "nuevaFase": "Fase berria: +2 AP",
+  "funciones": "Hiriaren funtzioak",
+  "escolta": "Guardia pertsonala hazten da: −0,5 harmonia.",
+  "erElige": "Zure aukera",
+  "verFin": "Ikusi amaiera →",
+  "version": "Bertsioa",
+  "chuleta": "📋 Jokoaren xuleta",
+  "chuletaT": "Xuleta: arau eta formula guztiak",
+  "volver": "← Itzuli",
+  "cAcciones": "Ekintza-kartak (AP kostua eta eragina)",
+  "cComunes": "Bi bertsioetan komunak",
+  "cEventos": "Gertaerak (zerk eragiten dituen eta zer egiten duten)",
+  "cEconomia": "Puntuen ekonomia",
+  "cEconomiaT": "8 AP-rekin hasten zara. Txanda bakoitzean AP bat gehiago irabazten duzu; B bertsioan, fase berri bakoitzak 2 AP ematen ditu. Txanda bakoitzean gehienez 3 ekintza erabil ditzakezu, bakoitza behin.",
+  "cVictoria": "Nola irabazten eta nola galtzen den",
+  "cVictoriaA": "A bertsioa: aristokrazian hasten zara, 10 harmoniarekin. 8tik behera, timokrazia; 6tik behera, oligarkia; 4tik behera, demokrazia; 2tik behera, tirania. Ez da berriz igotzen. 0 harmoniarekin edo 3 biztanle baino gutxiagorekin, hiria hondoratzen da. Irabazten duzu aristokrazian edo timokrazian amaitzen baduzu.",
+  "cVictoriaB": "B bertsioa: Kalipolis irabazten duzu 8 harmonia edo gehiagorekin eta lau funtzioak betetzen amaitzen baduzu; 5 edo gehiagorekin, hiria zutik dago. 0 harmoniarekin edo 3 biztanle baino gutxiagorekin, desegiten da.",
+  "cFunciones": "Lau funtzioak (B bertsioa): jakinduria = zaindariren batek 5 jakinduria; ausardia = gudariak ≥ ekoizleak ÷ 2,5; neurritasuna = ekoizpena ≥ biztanleria; justizia = hirurak batera.",
+  "cClases": "Klaseak eta haien kostua",
+  "cClasesT": "Profil bakoitzaren kostua = bere hiru bertuteen batura. Zaindaria: hirurak ≥4. Gudaria: ausardia eta neurritasuna ≥4. Ekoizlea: neurritasuna ≥4; ekoizle bakoitzak 2 pertsona elikatzen ditu. 30 biztanletik behera, «Hiri txikitua» gertaerak kentzen du. Errealean, ekoizleak ≥ 2 × (zaindariak + gudariak): jokoaren araua da, ez Platonena.",
+  "cDialogos": "Elkarrizketak: zure bertsiokoak ateratzen dira, hiru txandatik behin. Jarrera eta arrazoia aukeratzen dituzu; emaitzak hiria aldatzen du.",
+  "cDestino": "Patuaren kartak (izurria, gerra, lurrikara, sortzailearen heriotza): kendu eta hil egiten dute, zure erabakiak edozein direla ere. 3 ateratzen dira Errealean eta 2 Errazean.",
+  "cTurnos": "Iraupena: 12 txanda Errazean eta 14 Errealean."
  }
 };
