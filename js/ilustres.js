@@ -2792,7 +2792,7 @@ const ILUSTRES = {
    "Ordena geometrikoaren arabera frogatutako Etika (1677)",
    "Adimenaren hobekuntzari buruzko tratatua (1677)"
   ],
-  "anecdota": "<p>1672ko abuztuan, jendetza haserre batek De Witt anaiak hil zituen Hagan, Spinozak miresten zituen Holandako errepublikako buruzagiak. Haserre bizian, filosofoak, beti hain lasaia, kanpora atera nahi izan zuen lekuaren ondoan kartel bat zintzilikatzeko, latinezko hitz hauekin: <em>ultimi barbarorum</em>, «barbaroetan okerrenak». Etxejabeak, bera ere hilko zuten beldurrez, atea giltzaz itxi zuen eta ez zion irteten utzi. Spinozak urte batzuk geroago kontatu zion Leibnizi, eta honek idatziz jaso zuen.</p>",
+  "anecdota": "<p>1672ko abuztuan, jendetza amorratu batek De Witt anaiak hil zituen Hagan, Spinozak miresten zituen Holandako errepublikako buruzagiak. Sumindurik, filosofoak, beti hain lasaia, gau hartan atera nahi izan zuen, lekuaren ondoan kartel bat zintzilikatzera, <em>ultimi barbarorum</em> hitz latinoekin, «barbaroetan azkenak», hau da, basakeriaren mailarik apalena. Etxejabeak, jendetzak hura ere txiki-txiki egingo zuen beldurrez, giltzaz itxi zuen etxea eta ez zion irteten utzi. Spinozak lau urte geroago kontatu zion Leibnizi, eta honek idatziz jaso zuen.</p>",
   "fuente": "Leibniz, Spinozarekin izandako elkarrizketari buruzko oharrak (1676)",
   "tradicion": false,
   "vida": [

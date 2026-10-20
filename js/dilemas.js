@@ -60,6 +60,33 @@ const DILEMAS = [
     "elige": "B",
     "porque": "Maisuaren erantzuna jasotzen du, baina Errepublikan ondorioztatzen du funtsezko arazoa beste bat dela: ez dakitenek gobernatzen duten bitartean, legeak bidegabeak izango dira; irtenbidea ez da ihes egitea, filosofoek gobernatzea baizik.",
     "ilustre": "platon"
+   },
+   {
+    "quien": "Spinoza",
+    "elige": "B",
+    "porque": "Ñabardurekin. Gizaki askeak ez du inoiz iruzurrez jokatzen, ezta heriotza-arrisku batetik libratzeko ere (Etika, IV, 72, eskolioa), eta bere hiriko legeei iruzur eginez ihes egitea horren antzekoa litzateke. Baina garaiz erretiratzeak borrokatzeak adina irmotasun eskatzen du (IV, 69, korolarioa), eta bera, Sokrates bezala bere komunitatetik kanporatua, kontuz aldendu zen pentsatzen jarraitzeko: ez martiri, ez iheslari.",
+    "ilustre": "spinoza"
+   },
+   {
+    "quien": "Kant",
+    "elige": "B",
+    "porque": "Obeditu zure egintzetan eta arrazoitu publikoan: ofizialak agindua betetzen du, eta gero idatziz kritika dezake (Zer da Ilustrazioa?, 1784). Ohituren metafisikan (1797) matxinatzeko eskubide oro ukatzen du; horrek agindu immoral bat betetzeari uko egitea ere baztertzen duen ala ez, eztabaida irekia da haren interpreteen artean.",
+    "ilustre": "kant"
+   }
+  ],
+  "otra": "Spinozarena, Sokrates bezala bere komunitateak kondenatua: ez legeari iruzur eginez ihes egin, ez hiltzeko geratu, baizik eta garaiz aldendu, ezinbestekoa isildu (haren goiburua «Caute» zen, kontuz) eta pentsatzen jarraitu.",
+  "enlaces": [
+   {
+    "t": "Beren ideiengatik jazarriak: Sokrates",
+    "href": "#perseguidos/socrates"
+   },
+   {
+    "t": "Beren ideiengatik jazarriak: Spinoza",
+    "href": "#perseguidos/spinoza"
+   },
+   {
+    "t": "Esplorazioa - Ihes egin ala geratu?",
+    "href": "#teoria/hf-spinoza-huir"
    }
   ],
   "debate": {
