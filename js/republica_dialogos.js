@@ -766,6 +766,16 @@ const REP_DIAL = {
   "hudReg": "Erregimena",
   "elegir": "Aukeratu bertsioa",
   "accionesMax": "Ekintzak (gehienez 3 txanda honetan)",
+  "clasesB": [
+   "Gobernariak",
+   "Laguntzaileak",
+   "Ekoizleak"
+  ],
+  "rosterB": [
+   "🦉 Gobernariak: σοφία (*sophía*) <span class=\"rep-floor\">hiru bertuteak ≥4 · gutxi, osoaz erabakitzen dutenak</span>",
+   "🛡️ Laguntzaileak: ἀνδρεία (*andreía*) <span class=\"rep-floor\">ausardia eta neurritasuna ≥4 · iritzi zuzena gordetzen dute</span>",
+   "🌾 Ekoizleak: σωφροσύνη (*sophrosýne*) <span class=\"rep-floor\">neurritasuna ≥4 · hiria elikatzen dute</span>"
+  ],
   "elegirIntro": "Bi joko motor berarekin eta fokatze desberdinekin. Nahi duzunean alda dezakezu.",
   "jugarEsta": "Jokatu bertsio hau →",
   "cambiar": "↺ Aldatu bertsioa",
