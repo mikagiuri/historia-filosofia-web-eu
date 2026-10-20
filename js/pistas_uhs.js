@@ -53,6 +53,11 @@ const PISTAS = [
       "boton": "Eskema ikusi behar dut",
       "etiqueta": "Alegoriaren eskema",
       "titulo": "Zer den gauza bakoitza",
+      "glosario": [
+       "g-el-mito-de-la-caverna",
+       "g-doxa",
+       "g-episteme"
+      ],
       "definicion": [
        "<strong>Preso kateatuak</strong> → hezkuntza filosofikorik gabeko gizakiak.",
        "<strong>Horman itzalak</strong> → itxura sentigarriak: iritzia (<em>doxa</em>).",
@@ -91,6 +96,11 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Bi munduak",
+      "glosario": [
+       "g-mundo-sensible",
+       "g-teoria-de-las-ideas",
+       "g-dualismo-ontologico"
+      ],
       "definicion": [
        "Platonek bereizi egiten ditu <strong>mundu sentigarria</strong> (aldakorra, anitza, zentzumenek atzematen dutena) eta <strong>mundu adigarria</strong> edo Ideien mundua (betierekoa, aldaezina, arrazoiak atzematen duena).",
        "Sentigarria Ideien kopia akastun bat baino ez da, itzalak objektuen kopiak diren bezala.",
@@ -171,6 +181,10 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Ezagutza eta politika",
       "titulo": "Filosofoaren itzulera",
+      "glosario": [
+       "g-el-bien",
+       "g-dialectica-ap"
+      ],
       "definicion": [
        "Askatua itzuli egiten da eta, argira ohituta, gaizki ikusten du ilunpean: presoek barre egiten diote eta, ahal izanez gero, hil egingo lukete. Itzultzen dena <strong>Sokrates</strong> da, eta presoak, haren <strong>hiritarkide atenastarrak</strong>, K.a. 399an heriotzara kondenatu zutenak.",
        "Platonentzat, ondo gobernatzeko Ongiaren Ideia ezagutu behar da. Horregatik, hiri justuan <strong>filosofoek</strong> gobernatzen dute, nahiz eta nahiago luketen kontenplatzen geratu.",
@@ -268,6 +282,9 @@ const PISTAS = [
       "boton": "Urratsak ikusi behar ditut",
       "etiqueta": "Zalantzaren bidea",
       "titulo": "Dudatzeko hiru arrazoi",
+      "glosario": [
+       "g-el-genio-maligno"
+      ],
       "definicion": [
        "<strong>Zentzumenak</strong>: batzuetan engainatzen gaituzte → pertzepzio arrunta ez da guztiz fidagarria.",
        "<strong>Ametsa</strong>: ez dugu beti segurtasunez bereizten esna egotea eta amets egitea → kanpoko mundua zalantzagarria izan daiteke.",
@@ -308,6 +325,10 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Zalantza metodikoa",
+      "glosario": [
+       "g-duda-metodica",
+       "g-ideas-claras-y-distintas"
+      ],
       "definicion": [
        "<strong>Zalantza metodikoa</strong> zalantzan jar daitekeen guztia, behin-behinean, faltsutzat hartzean datza.",
        "Ez da <strong>eszeptizismoa</strong>: eszeptikoa zalantzan geratzen da; Descartesek oinarri sendo bat aurkitzeko tresna gisa erabiltzen du.",
@@ -388,6 +409,11 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Lehen ziurtasuna",
       "titulo": "Cogitoa",
+      "glosario": [
+       "g-cogito",
+       "g-res-cogitans",
+       "g-la-garantia-de-dios"
+      ],
       "definicion": [
        "Gainerako guztia zalantzagarria izan arren, bada ukatu ezin dudan zerbait: dudatzen ari naizela. Eta dudatzea pentsatzea da.",
        "Pentsatzen badut, pentsatzen duen gauza gisa existitzen naiz: «<strong>pentsatzen dut, beraz banaiz</strong>» (<em>cogito, ergo sum</em>).",
@@ -485,6 +511,9 @@ const PISTAS = [
       "boton": "Testu bat irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Irakurri eta bilatu aurkakotasun erabakigarria",
+      "glosario": [
+       "g-deber"
+      ],
       "cita": {
        "texto": "«Betebeharragatik egindako ekintza batek ez du bere balio morala haren bidez lortu nahi den xedean, erabakitzeko erabili den maximan baizik.»",
        "fuente": "Kant, Ohituren metafisikaren oinarriak, I. kap."
@@ -524,6 +553,11 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Inperatibo kategorikoa",
+      "glosario": [
+       "g-imperativo-categorico",
+       "g-imperativo-hipotetico",
+       "g-autonomia"
+      ],
       "definicion": [
        "<strong>Baldintzarik gabe</strong> behartzen duen agindu morala da: ez dago helburu jakin bat lortu nahi izatearen menpe.",
        "Agindu hipotetiko batek «X nahi baduzu, Y egin behar duzu» forma hartzen du. Kategorikoak betebeharragatik jokatzeko agintzen du, ekintzak onurarik ekartzen ez badigu ere. Adibidez: «Ez gezurrik esan» balio du gezurrak onura ekarriko lizukeen kasuan ere.",
@@ -604,6 +638,10 @@ const PISTAS = [
       "boton": "Formulazioa erakutsi",
       "etiqueta": "Lege unibertsalaren formulazioa",
       "titulo": "Formulazioa",
+      "glosario": [
+       "g-imperativo-categorico",
+       "g-a-priori"
+      ],
       "cita": {
        "texto": "«Jokatu soilik aldi berean lege unibertsal bihur dadin nahi izan dezakezun maxima haren arabera.»",
        "fuente": "Kant, Ohituren metafisikaren oinarriak, II. kap."
@@ -705,6 +743,9 @@ const PISTAS = [
       "boton": "Testu bat irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Irakurri formula eta erreparatu bi esapideri",
+      "glosario": [
+       "g-imperativo-categorico"
+      ],
       "cita": {
        "texto": "«Jokatu gizateria, bai zure pertsonan bai beste edonoren pertsonan, beti aldi berean helburu gisa eta inoiz ez bitarteko huts gisa erabil dezazun moduan.»",
        "fuente": "Kant, Ohituren metafisikaren oinarriak, II. kap."
@@ -744,6 +785,10 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Prezioa eta duintasuna",
+      "glosario": [
+       "g-dignidad",
+       "g-autonomia"
+      ],
       "definicion": [
        "Kantentzat, gauzek <strong>prezioa</strong> dute: baliokide den zerbaitekin ordezka daitezke. Pertsonek <strong>duintasuna</strong> dute: ez baliokiderik ez trukerik onartzen ez duen balioa.",
        "Duintasuna <strong>autonomiatik</strong> dator: izaki arrazionala gai da bere buruari lege morala emateko. Horregatik da helburu berez, eta ez tresna soil bat.",
@@ -824,6 +869,10 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Bi probak, kasu berean",
       "titulo": "Promesa faltsua, bi aldiz begiratuta",
+      "glosario": [
+       "g-deber",
+       "g-imperativo-categorico"
+      ],
       "definicion": [
        "<strong>Lege unibertsala.</strong> Denek komeni zaienean faltsuki agintzen balute, inork ez lituzke promesak sinetsiko: maxima suntsitu egiten da unibertsalizatzean.",
        "<strong>Gizateria.</strong> Promesa faltsua jasotzen duenak ezin du onartu bera engainatzean datzan plan bat: bitarteko soil gisa erabiltzen da.",

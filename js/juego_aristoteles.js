@@ -3152,5 +3152,324 @@ const JUEGO_ARIS = {
   "Merezi al du ustelezina izatea horrek bizia kosta badiezazuke?",
   "Zerk bereizten ditu bizitza politikoa, diskurtsiboa eta kontenplatiboa? Zein da, Aristotelesen arabera, zoriontsuena?",
   "Zergatik da hain garrantzitsua phrónesis (zuhurtzia) ondo bizitzeko?"
- ]
+ ],
+ "juzgar": {
+  "causas": {
+   "fidelidad": {
+    "nombre": "Bere printzipioak ez traizionatzeagatik",
+    "desc": "justizia edo egia defendatzeagatik hiltzen da, edo injustizia bati beste injustizia batez ez erantzuteagatik"
+   },
+   "temeridad": {
+    "nombre": "Beharrik gabe arriskatzeagatik",
+    "desc": "saihets zezakeen arrisku baten bila hiltzen da"
+   },
+   "ambicion": {
+    "nombre": "Handinahiagatik",
+    "desc": "boterearen edo ospe handiaren atzetik hiltzen da"
+   },
+   "enemigos": {
+    "nombre": "Bere etsaien eskutik",
+    "desc": "metatutako etsaiek bukatzen dute haren bizitza (epaiketa edo atentatua)"
+   },
+   "salud": {
+    "nombre": "Nekeagatik",
+    "desc": "haren gorputzak ez du gehiago eusten"
+   },
+   "ruina": {
+    "nombre": "Hondamenean",
+    "desc": "dena galtzen du eta hiriko bizitzatik kanpo geratzen da"
+   }
+  },
+  "teorias": [
+   {
+    "id": "aristoteles",
+    "nombre": "Aristoteles",
+    "sub": "jokoan bezala",
+    "w": {
+     "car": 2,
+     "phr": 1,
+     "sal": 1,
+     "hac": 1,
+     "rep": 1,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 8,
+     "hac": 8,
+     "rep": 6,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 0.6,
+     "temeridad": 0.35,
+     "ambicion": 0.4,
+     "enemigos": 0.5,
+     "salud": 0.5,
+     "ruina": 0.5
+    },
+    "txt": "Zoriontasuna arimaren jarduera da bertutearekin bat, eta, gainera, «bizitza oso batean: enara batek ez du uda egiten» (Nikomakorentzako Etika I, 7). Baina kanpoko ondasunak behar ditu: nekez izango da zoriontsu oso itsusia, familia txarrekoa edo bakarti eta seme-alabarik gabea dena (I, 8), eta zorigaitz handietan amaitzen duenari, Priamori bezala, inork ez dio zoriontsu deitzen (I, 9). Hemen horrek esan nahi du izaera eta ondasunak mugekin batzen direla: irakurketa honetan, puntu batetik aurrera aberastasun gehiagok ez dio zoriontasunik gehitzen. Bizitza eten bat ez da bizitza oso bat, nahiz eta heriotza guztiek ez duten pisu bera: ausardia koldarkeriaren eta ausarkeriaren arteko erdibidea da (III, 7), eta noblezia osoz hiltzea ez da ausarkeriaz hiltzearen gauza bera."
+   },
+   {
+    "id": "estoicos",
+    "nombre": "Estoikoak",
+    "sub": "bertutea bakarrik",
+    "w": {
+     "car": 3,
+     "phr": 2,
+     "sal": 0,
+     "hac": 0,
+     "rep": 0,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 12,
+     "hac": 12,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.8,
+     "ambicion": 0.7,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "Bertutea da on bakarra; bizitza, osasuna, aberastasuna eta ospea ez dira onak ez gaiztoak, «axolagabeak» baizik (Diogenes Laertzio VII, 101-103; Epikteto, Eskuliburua 1). Jakintsua zoriontsu da dena galdu arren, eta heriotzak ere ez dio ezer kentzen: garrantzitsua bizi bitartean nola bizi den da. Irakurketa honetan, grinaren batengatik hiltzeak bakarrik du pisua, ausarkeriagatik edo handinahiagatik adibidez, horrek bai baitu erakusten iritzi okerra."
+   },
+   {
+    "id": "epicuro",
+    "nombre": "Epikuro",
+    "sub": "plazer lasai bat",
+    "w": {
+     "car": 1,
+     "phr": 1,
+     "sal": 2,
+     "hac": 0.5,
+     "rep": 0,
+     "ene": -1
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 10,
+     "hac": 4,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.9,
+     "ambicion": 0.8,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "Bilatzen dugun plazera gorputzean ez sufritzea eta ariman ez nahastea da (Menezeori gutuna, Diogenes Laertzioren lanean, X, 131), eta heriotza ez da ezer guretzat (X, 124). Beharrezkoarekin aski da: aberastasun gehiagok ez du plazer gehiago ematen. Irakurketa honetan, ospeak eta etsaiek asaldura dakarte, eta horregatik kentzen dute etsaiek."
+   },
+   {
+    "id": "spinoza",
+    "nombre": "Spinoza",
+    "sub": "ahalmena eta ulertzea",
+    "w": {
+     "car": 1,
+     "phr": 2,
+     "sal": 1,
+     "hac": 0.5,
+     "rep": 0.5,
+     "ene": -1
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 10,
+     "hac": 6,
+     "rep": 6,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.7,
+     "ambicion": 0.7,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "Ona deitzen diogu gure izaera kontserbatzeko balio duenari, hau da, gure jarduteko ahalmena handitzen duenari (Etika IV, 8, frogapena). Arimaren asebetetze handiena ezagutzaren hirugarren generotik sortzen da (V, 27), eta dohatsutasuna ez da bertutearen saria, bertutea bera baizik (V, 42). Ezer ez da gizakiarentzat gizakia bera baino baliagarriagoa (IV, 18, eskolioa), eta gorrotoa ezin da inoiz ona izan (IV, 45). Gizaki askeak ezertan ez du heriotzan baino gutxiago pentsatzen (IV, 67): irakurketa honetan, bizitza labur bat ez da okerragoa laburra izateagatik. Baina ez da berdin nola hiltzen den: gizaki askeak irmotasun bera erakusten du garaiz erretiratzean eta borrokatzean (IV, 69, korolarioa); beraz, ausarkeriagatik edo handinahiak eramanda hiltzeak grina bat erakusten du, ez askatasuna."
+   },
+   {
+    "id": "trasimaco",
+    "nombre": "Trasimako",
+    "sub": "boterea",
+    "w": {
+     "car": 0,
+     "phr": 0.5,
+     "sal": 1,
+     "hac": 2,
+     "rep": 2,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 12,
+     "hac": 12,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 0.3,
+     "temeridad": 0.6,
+     "ambicion": 0.9,
+     "enemigos": 0.7,
+     "salud": 0.7,
+     "ruina": 0.3
+    },
+    "txt": "Justizia indartsuenari komeni zaiona da (Platon, Errepublika I, 338c), eta zoriontsuena injustiziarik osoena egiten duena da, tiranoa (344a-c). Justiziari «sinplekeria noblea» deitzen dio (348c). Irakurketa honetan, izaerak ez du balio, etsaiak arrakastaren prezioa dira eta justiziagatik hiltzea ergelkeriarik handiena litzateke."
+   }
+  ],
+  "mia": {
+   "nombre": "Zure teoria",
+   "sub": "edita ezazu",
+   "txt": "Mugitu pisuak eta mugak: zerk balio du bizitza on batean, eta noraino? Pisu negatibo batek kendu egiten du (adibidez, etsaiek)."
+  },
+  "estilos": [
+   {
+    "id": "prudente",
+    "nombre": "Zuhurra",
+    "w": {
+     "phr": 2,
+     "car": 1.5,
+     "sal": 1,
+     "hac": 0.5,
+     "rep": 0.5,
+     "ene": -1.5
+    },
+    "muerte": 20
+   },
+   {
+    "id": "ambicioso",
+    "nombre": "Handinahia",
+    "w": {
+     "rep": 2,
+     "hac": 2,
+     "car": 0,
+     "phr": 0.3,
+     "sal": 0.5,
+     "ene": -0.2
+    },
+    "muerte": 3
+   },
+   {
+    "id": "incorruptible",
+    "nombre": "Ustelezina",
+    "w": {
+     "car": 3,
+     "phr": 1,
+     "rep": 0.2,
+     "hac": 0,
+     "sal": 0.3,
+     "ene": 0
+    },
+    "muerte": 1
+   },
+   {
+    "id": "epicureo",
+    "nombre": "Lasaia",
+    "w": {
+     "sal": 2,
+     "ene": -2,
+     "phr": 1,
+     "car": 0.5,
+     "hac": 0.5,
+     "rep": -0.5
+    },
+    "muerte": 10
+   },
+   {
+    "id": "azar",
+    "nombre": "Zoriz",
+    "w": null,
+    "muerte": 0
+   }
+  ],
+  "preguntas": [
+   "Bilatu Trasimakoren ustez bikaina den eta estoikoentzat porrota den bizitza bat. Zer du? Norekin zaude ados?",
+   "Aristotelesek bizitza osoa eskatzen du. Konparatu arrazoi desberdinengatik etendako bi bizitza (ez traizionatzeagatik, ausarkeriagatik, handinahiagatik): pisu bera izan behar dute? Zer esango luke estoiko batek? Eta Spinozak?",
+   "Zergatik uste duzu bizitza zuhurra ondo ateratzen dela ia teoria guztietan? Jokoaren ezaugarri bat da, ala Aristotelesen tesi bat phrónesis-ari buruz?",
+   "Eraiki «zure teoria» eta defendatu: zerk du pisu handiagoa bizitza on batean, eta zerk ez du balio?",
+   "Ikusten dituzun pisuak filosofo bakoitzaren interpretazio eztabaidagarri bat dira. Aldatu bidegabea iruditzen zaizun bat eta azaldu zergatik."
+  ],
+  "ui": {
+   "modoJugar": "Jokatu",
+   "modoJuzgar": "Bizitza epaitu",
+   "lede": "Bizi bizitza greziar bat Eudaimoniaren motorrarekin eta ikusi gero nola epaituko luketen Aristotelesek, estoikoek, Epikurok, Spinozak eta Trasimakok. Bizitza bera arrakasta izan daiteke batzuentzat eta porrota besteentzat: zoriontasunaren formula ere tesi filosofiko bat da.",
+   "aviso": "Eskola bakoitzaren pisuak, mugak eta faktoreak laborategi honen interpretazio bat dira, konparatu ahal izateko, ez egileen doktrina: haietako inork ez zion zenbakirik jarri zoriontasunari. Eztabaidatu itzazu eta aldatu «Zure teoria» atalean.",
+   "t1": "1 · Bizi bizitza bat",
+   "personaje": "Pertsonaia",
+   "jugarYo": "Neuk jokatu",
+   "o": "edo",
+   "auto": "Automatikoki bizi",
+   "conEstilo": "estilo honekin",
+   "t2": "2 · Bizitza ibilbide gisa",
+   "t2d": "Aldagai bakoitza, txandaz txanda. Pasa hatza edo sagua grafiko baten gainetik une bakoitzean zer erabaki hartu zen ikusteko. Itzaleko zerrenda heldutasuna da.",
+   "t3": "3 · Zoriontasunaren pisuak",
+   "t4": "4 · Bizitzak konparatu",
+   "t4d": "Gorde bizitzak eta konparatu: teoria bakoitzak bere bizitzarik onena aukeratzen du (★). Bat datoz?",
+   "guardar": "Gorde bizitza hau",
+   "diez": "Gehitu ausazko 10 bizitza automatiko",
+   "vaciar": "Hustu",
+   "paraPensar": "Klasean pentsatzeko",
+   "virtud": "Bertutea",
+   "debilidad": "Ahulezia",
+   "ronda": "txanda",
+   "bloqueada": "(zure izaerak ez dizu uzten)",
+   "sinCambios": "aldaketarik ez",
+   "tuDecision": "Zure erabakia:",
+   "saleBien": "Ondo atera da:",
+   "saleMal": "Gaizki atera da:",
+   "fortuna": "Zoria:",
+   "peligro": "Arriskua:",
+   "muerte": "Heriotza:",
+   "pasaTiempo": "Denbora igarotzen da:",
+   "seguir": "Jarraitu",
+   "verFinal": "Ikusi amaiera",
+   "jugadaPorTi": "zuk jokatua",
+   "muereAntes": "Garaia baino lehen hiltzen da",
+   "acabaRuina": "Hondamenean amaitzen du",
+   "completa": "Bizitza oso bat bizi du",
+   "decisiones": "{n} erabaki",
+   "conEstiloX": "(«{e}» estiloa)",
+   "bajaVer": "Jaitsi haren ibilbidea eta teoria bakoitzak nola epaitzen duen ikusteko.",
+   "puntoPartida": "Abiapuntua:",
+   "rondaX": "{n}. txanda ({e}):",
+   "deA": "{k}: hasieran {a}, amaieran {b}",
+   "juegoDice": "Jokoak berak {n} eudaimonia-puntu ematen dizkio: «{b}». Behean, bizitza bera bost teoriak eta zureak epaitua (0tik 100 %-ra). Sakatu bat haren pisuak ikusteko.",
+   "copiar": "Kopiatu pisu hauek «Zure teoria»-n, aldatzeko",
+   "variable": "Aldagaia",
+   "peso": "Pisua",
+   "tope": "Muga",
+   "truncada": "Bizitza eteten bada: zergatik eteten den",
+   "causa": "Arrazoia",
+   "factor": "Faktorea",
+   "multiplica": "Nota honekin biderkatzen da:",
+   "estaVida": "← bizitza hau",
+   "pesoDe": "{k}: pisua",
+   "topeDe": "{k}: muga",
+   "factorDe": "Faktorea: {k}",
+   "comoCalcula": "Nola kalkulatzen den: aldagai bakoitzaren pisua × balioa (muga gainditu gabe) batu, eta ahalik eta gehienarekin zatitu. Pisu negatiboek kendu egiten dute.",
+   "curvaT": "{t}: zoriontasuna txandaz txanda",
+   "curvaAria": "{t}: zoriontasuna bizitza osoan; {p} %-an amaitzen da",
+   "caida": "Azken jaitsiera teoria honek kentzen duena da, bizitza nola eten zen kontuan hartuta ({c}: ×{f}).",
+   "soloFinal": "Aristotelesek esango luke amaierak bakarrik balio duela: ezin zaio inori zoriontsu deitu haren bizitza osoa ikusi arte.",
+   "rondaN": "{n}. txanda",
+   "vidaCol": "Bizitza",
+   "quitar": "Kendu bizitza hau",
+   "vacio": "Oraindik ez dago bizitzarik gordeta. Bizi bat eta sakatu «Gorde bizitza hau», edo gehitu hamar automatiko."
+  }
+ }
 };

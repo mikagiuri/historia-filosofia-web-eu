@@ -502,7 +502,7 @@ const RETRATOS = [
   ],
   "file": "media/retratos/museo/cassirer.jpg",
   "title": "Ernst Cassirer",
-  "artist": "Center for Advanced Research in Phenomenology - CARP http://www.phenomenologycenter.org",
+  "artist": "Center for Advanced Research in Phenomenology (CARP)",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3AErnst_Cassirer.jpg"
  },

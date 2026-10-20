@@ -1438,7 +1438,7 @@ const DECKS = {
    ],
    [
     "🌫️",
-    "Mundu sentigarrira",
+    "Mundu sentigarria",
     "Gauza zehatz, aldakor eta anitzena."
    ],
    [

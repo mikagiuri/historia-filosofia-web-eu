@@ -226,7 +226,7 @@ const INFOGRAFIAS = {
       "p": "Perfektua, betierekoa eta aldaezina; <b>arrazoiaz</b> atzematen da. Benetan erreala dena."
      },
      {
-      "h": "Mundu sentigarrira",
+      "h": "Mundu sentigarria",
       "tag": "kopia",
       "p": "Materiala, aldakorra eta inperfektua; <b>zentzumenez</b> atzematen da. Ideien itzala."
      }
