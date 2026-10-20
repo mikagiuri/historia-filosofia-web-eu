@@ -1265,7 +1265,7 @@ const INFOGRAFIAS = {
       "p": "Ulermenean haztean, bizitzeko potentzia handitzen da."
      },
      {
-      "h": "Dohatasuna",
+      "h": "Dohatsutasuna",
       "tag": "xedea",
       "p": "«Jainkoarekiko maitasun intelektuala»: osotasuna ulertzea."
      }

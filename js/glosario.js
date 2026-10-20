@@ -66,6 +66,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Poza eta tristura (Spinoza)",
+  "id": "g-alegria-y-tristeza",
+  "et": "*Poza*, latineko *alacer* hitzetik, «bizia, adeitsua»; *tristura*, latineko *tristitia*, Spinozak erabiltzen duen hitza.",
+  "area": "Etika",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Desiraren ondoan, oinarrizko afektuak: poza jarduteko potentzia edo perfekzio handiago batera igarotzea da; tristura, txikiago batera igarotzea (*Etika* III, 11. prop., eskolioa). Maitasuna kanpoko kausa baten ideiarekin batera doan poza da, eta gorrotoa, ideia horrekin batera doan tristura (13. prop., eskolioa).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Alexandria",
@@ -394,6 +410,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Dohatsutasuna (Spinoza)",
+  "id": "g-beatitud",
+  "et": "Latineko *beatitudo* hitzetik, *beatus* hitzetik, «zoriontsua, dohatsua».",
+  "area": "Etika",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Zoriontasunik gorena, Jainkoa edo Natura ezagutzetik eta ezagutza horrek sortzen duen maitasun intelektualetik sortzen dena. Ez da bertutearen saria, bertutea bera baizik (*Etika* V, 42. prop.).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Biopolitika",
@@ -537,6 +569,22 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
   "def": "Herrialde edo herri baten menpekotasun politiko, ekonomiko eta kulturala da. Fanonentzat, kolonialismoak subjektuaren autoirudia ere zauritzen du."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Conatus",
+  "id": "g-conatus",
+  "et": "Latineko *conatus* hitzetik, «ahalegina, saiakera», *conari* hitzetik, «saiatu».",
+  "area": "Antropologia",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Gauza bakoitzak, bere baitan dagoen neurrian, bere izatean irauteko egiten duen ahalegina. Spinozarentzat ez da gauzak daukan zerbait, haren esentzia bera baizik (*Etika* III, 6-7. prop.). Gizakiarengan, bere buruaz kontziente denean, desira deitzen da.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -1946,6 +1994,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 15,
+  "t": "Ideia egokia",
+  "id": "g-idea-adecuada",
+  "et": "Latineko *adaequatus* hitzetik, «berdindua, doitua».",
+  "area": "Epistemologia",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Ideia egiazko baten propietate guztiak bere baitan dituen ideia, bere objektua kausen bidez ulertzen duelako (*Etika* II, 4. def.). Askatasunaren gakoa da: pasio den afektu bat pasio izateari uzten dio hari buruzko ideia argi eta bereizia osatzen dugunean (V, 3. prop.).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 10,
   "t": "Ideia erregulatiboa",
   "id": "g-idea-regulativa",
@@ -3121,6 +3185,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Natura naturans eta natura naturata",
+  "id": "g-natura-naturans",
+  "et": "Eskolastikako latina: *naturare* aditzaren partizipio aktiboa eta pasiboa, «naturak egiten duen bezala sortu»: sortzen duena eta sortua.",
+  "area": "Metafisika",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Errealitate bakarra begiratzeko bi modu. Kausa libre gisa, bere baitan dagoen eta bere baitatik ulertzen den substantzia bere atributuekin, *natura naturans* da; harengandik beharrez ondorioztatzen den guztia gisa, hau da, haren moduak, *natura naturata* da (*Etika* I, 29. prop., eskolioa).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Behar faltsuak",
@@ -3284,6 +3364,22 @@ const GLOSARIO = [
   "def": "Hezkuntza zentzu zabalean: izaeraren eta adimenaren prestakuntza. Platonengan, hiriaren eginkizun nagusia; hiriak gobernariak hautatzen ditu, ikasketa eta proba ibilbide luze baten ondoren.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Morrontza (Spinoza)",
+  "id": "g-servidumbre",
+  "et": "Latineko *servitudo* hitzetik, *servus* hitzetik, «esklaboa».",
+  "area": "Etika",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Giza ezintasuna afektuak neurritzeko eta zapaltzeko: haien menpe dagoena ez da bere buruaren jabe, zorteak menderatzen du (*Etika* IV, hitzaurrea). Ez da borondatez garaitzen, afektu bat kontrako eta indartsuago den beste afektu batez soilik zapaltzen delako (IV, 7. prop.).",
+  "ilustre": [
+   "spinoza"
   ]
  },
  {

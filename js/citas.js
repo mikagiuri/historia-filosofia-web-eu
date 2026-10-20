@@ -1742,7 +1742,7 @@ const CITAS = [
   "id": "spinoza",
   "img": "media/retratos/museo/spinoza.jpg",
   "sen": "Spinozak sari eta zigorren morala baztertzen du: ez gara bertutetsuak gero zoriontasuna irabazteko; arrazoiaren arabera bizitzea eta Jainkoa ezagutzea zoriontasuna da jada.",
-  "uso": "Spinozaren etika eta dohatasuna azaltzeko, edo bertutearen eta zoriontasunaren arteko harremanari buruzko disertazio batean."
+  "uso": "Spinozaren etika eta dohatsutasuna azaltzeko, edo bertutearen eta zoriontasunaren arteko harremanari buruzko disertazio batean."
  },
  {
   "c": "Inork ez du orain arte zehaztu gorputzak zer ahal duen.",

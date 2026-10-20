@@ -1248,6 +1248,10 @@ const IMPRESCINDIBLES = {
   "14": [
    1,
    "Jakingarria edo zabalkuntza"
+  ],
+  "15": [
+   4,
+   "Spinozaren Etikaren oinarrizko hiztegia (15. gaia, 5. maila, irakaslearen 2026-10-20ko berrikuspenean)"
   ]
  }
 };
