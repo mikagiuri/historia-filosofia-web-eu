@@ -95,6 +95,14 @@ const LOG_TXT = {
   coEuTrampa: "Kontuz: «{c}» kasuan bat datoz. Kasu hori bakarrik marraztu zuenak lege bat zela uste izango zuen.",
   coEuTres: "Euler-ekin egiaztapena bi multzorekin egiten da (A eta B): hirurekin kasu posible gehiegi daude. Hiru multzotarako, frogatzen duena Venn diagrama da.",
   coDifieren: "Bereizten diren guneak", coUnivVacio: "U = unibertsoa: hizpide dugun guztia. Koloreak emaitza den eremua markatzen du.",
+  /* (20-10) portada de la sección: presenta las familias de herramientas (reutiliza los rótulos de las pestañas) */
+  pIntro: "Logikaren txokoak arrazoitzeko tresnak biltzen ditu: probatu itzazu zeure formulekin eta esaldiekin. Aukeratu nondik hasi.",
+  pPortada: "Azala", pEntrar: "Ireki",
+  pDescClasica: "Silogismoak, oposizio-karratua eta multzoen legeak, Euler eta Venn diagramekin.",
+  pDescModerna: "Egia-taulak, formalizazioa, inferentzia-arauak, lege logikoak, kuantifikatzaileak eta ate logikoak.",
+  pDescFalacias: "Baliozkoak diruditen baina ez diren argudioak: ikasi haiek ezagutzen eta egiaztatu zeuk.",
+  pDescParad: "Paradoxak, ariketak eta autore klasikoen argudioak, tresna hauekin beraiekin aztertuak.",
+  pDescLab: "Praktikatzeko bost mahai: logikaz hitz egin, egia-zuhaitzak, irudien munduak, erlazioak eta frogapen gidatuak.",
   /* (09-10) guía larga y sencilla de cada pestaña, plegada bajo la introducción */
   guiaTit: "Gida: nola erabili eta zertarako balio duen",
   guiaTablas: "<h3>Zertarako balio du</h3><p>Arrazoitzen dugunean, esaldiak lotzen ditugu «ez», «eta», «edo» edo «baldin…, orduan» bezalako hitzekin. Egia-taulak balio du, oker egin gabe, esaldi konposatu bat noiz den egiazkoa eta noiz faltsua ikusteko. Eta arrazoibide bat zuzena den egiaztatzeko ere balio du: ea ondorioak egiazkoa <em>izan behar duen</em> premisak egiazkoak diren guztietan.</p><h3>Hasi aurretik: esaldien ordez letrak</h3><p>Esaldi soil bakoitzaren ordez letra bat jartzen da. Adibidez, «euria ari du» = <em>p</em> eta «lurra bustitzen da» = <em>q</em>. Esaldiak lotzen dituzten hitzei konektiboak deitzen zaie:</p><ul><li><strong>¬</strong> «ez»: ¬p = «ez du euririk egiten».</li><li><strong>∧</strong> «eta»: p ∧ q = «euria ari du eta lurra bustitzen da». Bi zatiak egiazkoak direnean baino ez da egiazkoa.</li><li><strong>∨</strong> «edo»: p ∨ q. Bietako bat gutxienez egiazkoa bada, egiazkoa da.</li><li><strong>→</strong> «baldin…, orduan»: p → q = «euria ari badu, lurra bustitzen da». Kasu bakar batean da faltsua: euria ari duenean eta lurra bustitzen ez denean.</li><li><strong>↔</strong> «baldin eta soilik baldin»: egiazkoa da bi zatiek balio bera dutenean (biak E edo biak F).</li></ul><h3>Urratsez urrats</h3><ol><li>Sakatu adibideetako bat edo idatzi zure formula «Formula» laukian. Teklatuan ez dauden ikurrek botoiak dituzte laukiaren azpian.</li><li>Erabili parentesiak taldekatzeko, matematiketan bezala: (p ∨ q) ∧ r ez da p ∨ (q ∧ r) bezala.</li><li>Taula bere kabuz egiten da idatzi ahala. Errenkada bakoitza aukera bat da, letren E eta F konbinazio bat: bi letrarekin 4 errenkada daude; hirurekin, 8.</li><li>Begiratu azken zutabeari eta azpiko mezuari. Formula <strong>tautologia</strong> (beti egiazkoa), <strong>kontraesana</strong> (beti faltsua) edo <strong>kontingentzia</strong> (mundua nolakoa den araberakoa) izan daiteke.</li><li>Beherago, «Baliozkoa al da argudio hau?» atalean, idatzi premisak puntu eta komaz bereizita, gero ondorioa, eta sakatu «Egiaztatu». Premisa guztiak egiazkoak eta ondorioa faltsua dituen errenkadaren bat badago, gorriz agertuko da. <strong>Kontradibide</strong> bat da: argudioa ez da baliozkoa.</li></ol><h3>Hasteko proba bat</h3><p>Argudioaren adibideetan, sakatu «Atzekaria baieztatzea»: «euria ari badu, lurra bustitzen da; lurra bustita dago; beraz, euria ari du». Arrazoizkoa dirudi, baina taulak kontradibidea aurkitzen du: lurra bustita egon daiteke norbaitek ureztatu duelako. Konparatu «Modus ponens»-ekin, hori bai baita baliozkoa.</p><p class=\"lg-nota\">Kontuz: argudio bat baliozkoa izateak ez du esan nahi haren ondorioa egiazkoa denik. Esan nahi du premisak egiazkoak <em>badira</em>, ondorioa ere egiazkoa dela.</p>",
@@ -106,7 +114,7 @@ const LOG_TXT = {
 };
 const logT = (k, v) => String(LOG_TXT[k] || k).replace(/\{(\w+)\}/g, (_, x) => (v && v[x] != null ? v[x] : ""));
 const logEsc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const LOG = { parGrupo: "all", tab: "tablas", formula: "(p → q) ∧ p → q", prem: "p → q; p", concl: "q",
+const LOG = { parGrupo: "all", tab: "portada", formula: "(p → q) ∧ p → q", prem: "p → q; p", concl: "q",
   sil: { S: "", P: "", M: "", may: "A", men: "A", con: "A", fig: 1 }, cu: { tipo: "A", val: true, trad: true, ej: 1 }, co: { izq: "(A ∪ B)ᶜ", der: "Aᶜ ∩ Bᶜ" }, gate: "AND", gA: 1, gB: 0, circ: {} };
 const logGuia = k => '<details class="lg-guia"><summary>' + logT("guiaTit") + "</summary>" + logT(k) + "</details>";
 const logBox = () => document.getElementById("logicabox");
@@ -662,8 +670,27 @@ const LOG_SUB_SIL = ["silogismos", "cuadrado", "conjuntos"];
 const LOG_SUB_MOD = ["tablas", "formalizar", "inferencia", "leyes", "cuantificadores", "puertas"];   /* (18-10) + «Leyes lógicas» */
 const LOG_INTRO = { tablas: "introTablas", silogismos: "introSilog", cuadrado: "introCuadrado", conjuntos: "introConjuntos", puertas: "introPuertas", ejercicios: "introEjerc", clasicos: "introClasicos", formalizar: "introFormalizar", inferencia: "introInferencia", leyes: "introLeyes", cuantificadores: "introCuantificadores", falacias: "introFalacias" };
 const LOG_GUIA = { tablas: "guiaTablas", silogismos: "guiaSilog", puertas: "guiaPuertas", ejercicios: "guiaEjerc", clasicos: "guiaClasicos" };
+/* (20-10) portada de la sección: una tarjeta por familia de herramientas, con enlaces a cada una.
+   Los rótulos se reutilizan de las pestañas (logT/lbT); solo las descripciones son texto nuevo. */
+function logRenderPortada(){
+  const hayLab = typeof labMontar === "function" && typeof LAB !== "undefined";
+  const hayMod = typeof logRenderFormalizar === "function";
+  const hayFal = typeof logRenderFalacias === "function";
+  const rot = l => (hayLab && /^(tabLab|mesa)/.test(l) ? lbT(l) : logT(l));
+  const chips = arr => '<div class="lg-pchips">' + arr.map(([k, l]) => '<button type="button" class="chip" data-lgtab="' + k + '">' + rot(l) + "</button>").join("") + "</div>";
+  const card = (tit, desc, arr) => '<section class="lg-pcard"><h2>' + rot(tit) + "</h2><p>" + logT(desc) + "</p>" + chips(arr) + "</section>";
+  const mod = [["tablas", "tabTablas"]].concat(hayMod ? [["formalizar", "tabFormalizar"], ["inferencia", "tabInferencia"], ["leyes", "tabLeyes"], ["cuantificadores", "tabCuantificadores"]] : []).concat([["puertas", "tabPuertas"]]);
+  let html = '<p class="lg-intro">' + logT("pIntro") + '</p><div class="lg-portada">';
+  html += card("tabClasica", "pDescClasica", [["silogismos", "tabSilog"], ["cuadrado", "tabCuadrado"], ["conjuntos", "tabConjuntos"]]);
+  html += card("tabModerna", "pDescModerna", mod);
+  if (hayFal) html += card("tabFalacias", "pDescFalacias", [["falacias", "pEntrar"]]);
+  html += card("tabParad", "pDescParad", [["paradojas", "tabParad"], ["ejercicios", "tabEjerc"], ["clasicos", "tabClasicos"]]);
+  if (hayLab) html += card("tabLab", "pDescLab", [["hablamos", "mesaHablamos"], ["arbol", "mesaArbol"], ["mundo", "mesaMundo"], ["relaciones", "mesaRelaciones"], ["demos", "mesaDemos"]]);
+  return html + "</div>";
+}
 function logRender(){
   const box = logBox(); if (!box) return;
+  if (LOG.tab === "portada"){ box.innerHTML = logRenderPortada(); return; }   /* (20-10) estado inicial de la sección */
   /* (12-10) arriba: «Lógica clásica» y «Lógica moderna», cada una con sus subpestañas (no más de 6 pestañas arriba) */
   /* (20-10) + «Laboratorio» (laboratorioview.js: cinco mesas); para no pasar de seis arriba, Paradojas · Ejercicios ·
      Argumentos clásicos van juntas como subpestañas de «Paradojas» (las tres ya eran la misma vista: logRenderParadojas) */
@@ -679,7 +706,7 @@ function logRender(){
   const cuerpo = esLab ? '<div id="lb-box" class="lb-box"></div>' : LOG.tab === "silogismos" ? logRenderSil() : LOG.tab === "cuadrado" ? logRenderCuadrado() + (typeof logmConversion === "function" ? logmConversion() : "") : LOG.tab === "conjuntos" ? logRenderConjuntos() : LOG.tab === "puertas" ? logRenderPuertas()
     : LOG.tab === "formalizar" && typeof logRenderFormalizar === "function" ? logRenderFormalizar() : LOG.tab === "inferencia" && typeof logRenderInferencia === "function" ? logRenderInferencia() : LOG.tab === "leyes" && typeof logRenderLeyes === "function" ? logRenderLeyes() : LOG.tab === "cuantificadores" && typeof logRenderCuantificadores === "function" ? logRenderCuantificadores() : LOG.tab === "falacias" && typeof logRenderFalacias === "function" ? logRenderFalacias()
     : LOG_PAR_VISTAS.includes(LOG.tab) ? logRenderParadojas(LOG.tab) : logRenderTablas();
-  box.innerHTML = '<div class="fgroup lg-tabs" role="tablist">' + tabs.map(([k, l]) => '<button type="button" class="fbtn" data-lgtab="' + k + '" aria-pressed="' + (grupo === k) + '">' + rotulo(l) + "</button>").join("") + "</div>" +
+  box.innerHTML = '<div class="fgroup lg-tabs" role="tablist"><button type="button" class="fbtn lg-home" data-lgtab="portada" title="' + logT("pPortada") + '">‹ ' + logT("pPortada") + '</button>' + tabs.map(([k, l]) => '<button type="button" class="fbtn" data-lgtab="' + k + '" aria-pressed="' + (grupo === k) + '">' + rotulo(l) + "</button>").join("") + "</div>" +
     (sub ? '<div class="fgroup lg-subtabs">' + sub.map(([k, l]) => '<button type="button" class="fbtn" data-lgtab="' + k + '" aria-pressed="' + (LOG.tab === k) + '">' + rotulo(l) + "</button>").join("") + "</div>" : "") +
     /* (08-10) una introducción breve en cada pestaña, por si se llega a ella sin contexto (Paradojas ya tiene la suya) */
     (LOG_INTRO[LOG.tab] ? '<p class="lg-intro">' + logT(LOG_INTRO[LOG.tab]) + "</p>" + (LOG_GUIA[LOG.tab] ? logGuia(LOG_GUIA[LOG.tab]) : "") : "") +
@@ -740,7 +767,8 @@ function loadLogica(arg){
   const m = /^(?:paradojas|ejercicios|clasicos)\/([\w-]+)$/.exec(arg || ""), ficha = m && typeof PARADOJAS !== "undefined" ? PARADOJAS.find(p => p.id === m[1]) : null;
   const grupo = ficha && typeof PARADOJAS_GRUPOS !== "undefined" ? PARADOJAS_GRUPOS.find(g => g.id === ficha.grupo) : null;
   if (ficha){ LOG.tab = (grupo && grupo.view) || "paradojas"; LOG.parGrupo = ficha.grupo; }
-  else if (arg && ["tablas", "silogismos", "cuadrado", "conjuntos", "puertas", "formalizar", "inferencia", "cuantificadores", "falacias", ...LOG_PAR_VISTAS, ...(typeof LB_MESAS !== "undefined" ? LB_MESAS : [])].includes(arg)){ LOG.tab = arg; LOG.parGrupo = "all"; }   /* (20-10) #logica/hablamos|arbol|mundo|relaciones|demos */
+  else if (!arg || arg === "portada"){ LOG.tab = "portada"; LOG.parGrupo = "all"; }   /* (20-10) #logica → portada de la sección */
+  else if (arg && ["tablas", "silogismos", "cuadrado", "conjuntos", "puertas", "formalizar", "inferencia", "leyes", "cuantificadores", "falacias", ...LOG_PAR_VISTAS, ...(typeof LB_MESAS !== "undefined" ? LB_MESAS : [])].includes(arg)){ LOG.tab = arg; LOG.parGrupo = "all"; }   /* (20-10) #logica/hablamos|arbol|mundo|relaciones|demos */
   logRender(); logWire();
   if (ficha){ const el = document.getElementById("par-" + ficha.id); if (el) el.scrollIntoView({ block: "start" }); }
 }

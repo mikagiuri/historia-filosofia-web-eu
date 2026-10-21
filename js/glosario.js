@@ -5204,34 +5204,6 @@ const GLOSARIO = [
   "subject": "hf",
   "imp": 2,
   "impg": 13,
-  "t": "Margarita Porete",
-  "id": "g-margarita-porete",
-  "area": "Erlijioa",
-  "bloque": "B",
-  "tema": "Erdi Aroko filosofia",
-  "def": "Mistikoa eta beginoa (c. 1250-1310). *Arima soilen ispilua* lanean arimaren eta Jainkoaren arteko batasun zuzena defendatu zuen maitasunaren eta askatasunaren bidez, kleroaren bitartekaritzarik gabe. Pariseko Inkisizioak heretiko gisa erre zuen 1310ean.",
-  "ilustre": [
-   "porete"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Christine de Pizan",
-  "id": "g-christine-de-pizan",
-  "area": "Feminismoa",
-  "bloque": "B",
-  "tema": "Erdi Aroko filosofia",
-  "def": "Idazlea (1364-c. 1430), Europan bere lumatik bizi izan zen lehen emakumea. *Damen hiria* lanean bere garaiko misoginia argudioekin ezeztatu zuen; «emakumeen auziaren» aitzindaritzat jotzen da.",
-  "ilustre": [
-   "pizan"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
   "t": "Emakumeen auzia",
   "id": "g-querella-de-las-mujeres",
   "area": "Feminismoa",
@@ -5246,36 +5218,6 @@ const GLOSARIO = [
   "subject": "hf",
   "imp": 2,
   "impg": 13,
-  "t": "María de Maeztu",
-  "id": "g-maria-de-maeztu",
-  "area": "Hezkuntza",
-  "bloque": "C",
-  "unidad": "C8",
-  "tema": "Existentzialismoa",
-  "def": "Pedagogoa (1881-1948), Unamunoren eta Ortegaren ikaslea. Residencia de Señoritas zuzendu zuen (1915-1936), espainiar gazteei unibertsitaterako eta bizitza intelektualerako sarbidea ireki ziena.",
-  "ilustre": [
-   "maeztu"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Lou Andreas-Salomé",
-  "id": "g-lou-andreas-salome",
-  "area": "Psikologia",
-  "bloque": "C",
-  "unidad": "CN",
-  "tema": "Susmoaren filosofoak",
-  "def": "Idazlea eta psikoanalista (1861-1937), Nietzscheren, Rilkeren eta Freuden solaskidea. Nietzscheren filosofiaren lehen azterketa serioetako baten egilea eta erotismoari eta erlijiotasunari buruzko saiakerena.",
-  "ilustre": [
-   "salome"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
   "t": "Behar erradikalak",
   "id": "g-necesidades-radicales",
   "et": "*Erradikala*, latinezko *radix*, «sustraia»: sustraia ukitzen duena.",
@@ -5284,21 +5226,6 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Marxismoaren ondorengo borrokak",
   "def": "Ágnes Hellerren arabera, kapitalismoak ase ezin dituen eta, gizarte-errealitatearekin talka egitean, aldaketa emantzipatzaile baterantz bultzatzen duten behar kualitatiboki goragokoak.",
-  "ilustre": [
-   "heller"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Ágnes Heller",
-  "id": "g-agnes-heller",
-  "area": "Politika",
-  "bloque": "C",
-  "unidad": "C5A",
-  "tema": "Marxismoaren ondorengo borrokak",
-  "def": "Filosofo hungariarra (1929-2019), Budapesteko Eskolakoa. Eguneroko bizitza eta behar erradikalak marxismotik pentsatu zituen; geroago sozialismo erreala «beharren diktadura» gisa kritikatu zuen eta demokrazia defendatu.",
   "ilustre": [
    "heller"
   ]
