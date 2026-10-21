@@ -94,11 +94,19 @@ const LABSPZ = {
   "mundo": "Mundua",
   "mundoTiempo": "Praktikakoa: denbora, iraupena eta sorkuntza",
   "mundoSpinoza": "Spinoza, Etika I",
-  "ledeTiempo": "Praktikarako mundu bat, kontua barneratzeko. Gauzak zein lehenago hasi zen, zein gehiago irauten duen eta zeinek zein sortu zuen kontuan bakarrik bereizten dira. Aukeratu proposizio bat eta onartzen dituzun premisak: mahaiak mundu txiki bat bilatzen du, non premisa guztiak betetzen diren eta proposizioak huts egiten duen; eta ezin bada egon, Isabellek premisa horiekin frogatu duelako, froga ematen dizu.",
+  "ledeTiempo": "Praktikarako mundu bat, kontua barneratzeko. Gauzak zein lehenago hasi zen, zein gehiago irauten duen eta zeinek zein sortu zuen kontuan bakarrik bereizten dira. Eta existitzeari utzi diezaiokete: zerbait sortzen duena desager daiteke bere lanak jarraitzen duen bitartean; beraz, lehenago hastea ez da gehiago irautea. Aukeratu proposizio bat eta onartzen dituzun premisak: mahaiak mundu txiki bat bilatzen du, non premisa guztiak betetzen diren eta proposizioak huts egiten duen; eta ezin bada egon, Isabellek premisa horiekin frogatu duelako, froga ematen dizu.",
   "notaDefsTiempo": "Hiru erlazio eta definizio bat, besterik ez. Premisek esaten ez dutena gerta daiteke: ezerk ez duela bere burua baino lehen hasi markatzen ez baduzu, bilatzen den munduan gerta daiteke.",
   "defsTiempo": "Erlazioak eta definizioa",
   "grupoT": "Praktikarako proposizioak",
   "selloNada": "Premisa bateraezinak",
+  "selloPosible": "Posible da",
+  "puedeOcurrir": "Gerta daiteke",
+  "noPuede": "Premisa horiekin ezin da gertatu",
+  "posibleTxt": "{n} dituen mundu bat dago, markatutako premisa guztiak betetzen dituena eta non hau gertatzen den.",
+  "imposibleTxt": "Ez dago gehienez {c} gauza dituen mundurik, markatutako premisak betetzen dituenik eta non hau gertatzen den.",
+  "seCompruebaPos": "Egiaztatzen da gerta daitekeen: {x}",
+  "posibleIsa": "Isabellek halako mundu bat eraikitzen du ({t}).",
+  "imposibleIsa": "Isabellek frogatzen du ezin dela gertatu {x} erabiliz ({t}).",
   "incompatibles": "Markatutako premisak ez dira elkarrekin sartzen",
   "incompatiblesTxt": "Ez dago gehienez {c} gauza dituen mundurik, non guztiak aldi berean betetzen diren; halako premisetatik edozer ondorioztatuko litzateke. Kendu bat.",
   "hayMundoT": "{n} dituen mundu bat dago, markatutako premisa guztiak betetzen dituena eta non proposizioak huts egiten duen.",
@@ -755,13 +763,13 @@ const LABSPZ = {
     "id": "unico",
     "titulo": "Gehienez gezi bat iristen da",
     "txt": "Gauza bakoitzera erlazioaren gezi bat iristen da gehienez: ∀x y z. R(x, z) ∧ R(y, z) → x = y.",
-    "ej": "Ezerk ez du bi sortzaile: A-k eta B-k C sortu badute, A eta B gauza bera dira."
+    "ej": "Ezerk ez du bi sortzaile: A-k eta B-k C sortu badute, A eta B gauza bera dira. Premisa hori gabe, bi gauza desberdinek hirugarren bat sor dezakete (9. proposizioa)."
    },
    {
     "id": "serie",
     "titulo": "Gauza guztietara gezi bat iristen da",
     "txt": "Gauza bakoitzak gutxienez gezi bat jasotzen du: ∀x. ∃y. R(y, x).",
-    "ej": "Guztia zerbaitek sortu du. Mundu finitu batean, «Antes» irrefleksiboa eta iragankorra izanik, hori ezinezkoa da (6. proposizioa)."
+    "ej": "Guztia zerbaitek sortu du. Mundu finitu batean, «Antes» irrefleksiboa eta iragankorra izanik, hori ezinezkoa da (7. proposizioa)."
    }
   ],
   "tSimbolos": "Sinboloak",
@@ -932,6 +940,42 @@ const LABSPZ = {
    ]
   }
  },
+ "isabelle": {
+  "titulo": "Isabelleri buruz, eta eskerrak",
+  "parrafos": [
+   "Mahai hau <b>Isabelle</b>ri esker dago, froga-laguntzaile bati: programa horretan enuntziatuak hizkuntza formal batean idazten dira eta urratsez urrats frogatzen dira, eta programak urrats bakoitza egiaztatzen du ezer jakintzat eman gabe. Erabiltzen dugun logika Isabelle/HOL da, goi-ordenako logika. Software librea da.",
+   "Mahaiak «Isabellen frogatua» dioenean, Isabellek froga hori premisa horiekin egiaztatu duela esan nahi du. Orriko kontraeredu-bilatzailea apalagoa da: Nitpick imitatzen du, Isabelleren kontraadibide-bilatzailea, baina mundu txikiak bakarrik aztertzen ditu. Horregatik «kontraeredurik gabe» horrek ez du ezer frogatzen.",
+   "Isabelle Robin Milnerren LCF sistematik dator, Edinburgon sortutakoa: froga guztiek zeharkatu behar duten nukleo txiki eta fidagarri bat. Lawrence C. Paulsonek hasi zuen Cambridgeko Unibertsitatean, laurogeiko hamarkadaren erdialdean, eta laster Tobias Nipkowrekin batera egindako proiektu bihurtu zen; Nipkow Municheko Unibertsitate Teknikokoa da. Makarius Wenzelek Isar sortu zuen, froga egituratuak idazteko hizkuntza. Paulsonek Gérard Hueten alabaren izena jarri zion. Gaur munduko pertsona eta erakunde askok egiten dute aurrera."
+  ],
+  "gracias": "Eskerrik asko Lawrence Paulsoni, Tobias Nipkowri, Makarius Wenzeli eta Isabelle eraiki duten eta software libre gisa eskaintzen duten pertsona guztiei. Hamarkadetako lanik gabe, Spinozaren <em>Etika</em> formalizatzea ez litzateke ikasgela baten esku egongo.",
+  "tEnlaces": "Gehiago jakiteko",
+  "enlaces": [
+   {
+    "txt": "Isabelle: webgune ofiziala",
+    "url": "https://isabelle.in.tum.de/"
+   },
+   {
+    "txt": "Archive of Formal Proofs: Isabellerekin egiaztatutako frogen bilduma",
+    "url": "https://www.isa-afp.org/"
+   },
+   {
+    "txt": "Lawrence C. Paulson (Cambridgeko Unibertsitatea)",
+    "url": "https://www.cl.cam.ac.uk/~lp15/"
+   },
+   {
+    "txt": "Tobias Nipkow (Municheko Unibertsitate Teknikoa)",
+    "url": "https://www.professoren.tum.de/en/nipkow-tobias"
+   },
+   {
+    "txt": "Makarius Wenzel",
+    "url": "https://sketis.net/"
+   },
+   {
+    "txt": "L. C. Paulson, T. Nipkow eta M. Wenzel, «From LCF to Isabelle/HOL», Formal Aspects of Computing 31 (2019)",
+    "url": "https://arxiv.org/abs/1907.02836"
+   }
+  ]
+ },
  "guia": {
   "titulo": "Zer daukazun aurrean eta nola erabili",
   "secciones": [
@@ -956,7 +1000,7 @@ const LABSPZ = {
     "lista": [
      "<b>Kontraeredua: ez da ondorioztatzen.</b> Mahaiak zure premisa guztiak betetzen dituen eta proposizioak huts egiten duen mundu txiki bat eraiki du. Ez dela ondorioztatzen frogatzen du. Begiratu marrazkia non huts egiten duen ikusteko, eta gertaeren zerrenda zuk egiaztatzeko.",
      "<b>Isabellen frogatua: ondorioztatzen da.</b> Premisa horiekin, Isabelle/HOLek, frogak urratsez urrats eta ezer jakintzat eman gabe egiaztatzen dituen programak, froga egiaztatu du. Hemen duzu hitzez laburtuta.",
-     "<b>Kontraeredurik gabe.</b> Mahaiak ez du aurkitu huts egiten duen mundurik, baina mundu txikien artean bakarrik bilatzen du, gehienez lau gauzakoen artean. Horrek ez du ezer frogatzen: mundu handiago bat behar izan daiteke, baita infinitu bat ere. Praktikako munduko 6. proposizioa da adibidea.",
+     "<b>Kontraeredurik gabe.</b> Mahaiak ez du aurkitu huts egiten duen mundurik, baina mundu txikien artean bakarrik bilatzen du, gehienez lau gauzakoen artean. Horrek ez du ezer frogatzen: mundu handiago bat behar izan daiteke, baita infinitu bat ere. Praktikarako munduko 7. proposizioa da adibidea.",
      "<b>Premisa bateraezinak.</b> Ez dago mundu txikirik non guztiak batera betetzen diren. Elkarren aurka dauden premisetatik edozer ondorioztatzen da, beraz ez dute ezer frogatzeko balio."
     ]
    },
@@ -1021,10 +1065,12 @@ const LABSPZ = {
   "tRecorrido": "Hasteko ibilbide bat",
   "recorrido": [
    "Praktikako mundua, 2. proposizioa. Sakatu «Ondorioztatzen al da?» dagoen bezala. Premisa bat falta da: begiratu kontraeredua eta esan zein.",
-   "4. proposizioa. Kendu premisa eztabaidagarria. Zein kasu errealek dauka kontraereduaren antza?",
-   "5. proposizioa. Premisa bateragarri guztiak markatuta dator, eta, hala ere, ez da ondorioztatzen. Zergatik?",
-   "6. proposizioa. Sakatu «Guztiak». Zer esaten dizu mahaiak? Zergatik ez da «dena sortua izan da» gainerakoekin sartzen?",
-   "7. proposizioa. Zer gehitu beharko litzateke jatorri bakarra egon dadin?",
+   "4. proposizioa. Premisa eztabaidagarririk gabe dator eta kontraeredu bat ateratzen da: zein kasu errealek dauka haren antza? Gero markatu eta probatu berriro.",
+   "5. proposizioa. Sortutakoak bere sortzaileak baino gehiago iraun al dezake? Begiratu mahaiak eraikitzen duen mundua eta gero markatu premisa eztabaidagarria.",
+   "6. proposizioa. Premisa bateragarri guztiak markatuta dator, eta, hala ere, ez da ondorioztatzen. Zergatik?",
+   "7. proposizioa. Sakatu «Guztiak». Zer esaten dizu mahaiak? Zergatik ez da «dena sortua izan da» gainerakoekin sartzen?",
+   "8. proposizioa. Zer gehitu beharko litzateke sortu gabeko bakarra egon dadin?",
+   "9. proposizioa. Gauza batek bi sortzaile izan ditzake? Zenbatu zenbat gauza behar dituen munduak eta gero markatu «Ezerk ez du bi sortzaile».",
    "Joan Spinozaren mundura, 5. proposizioa. Markatuta datorren premisarekin kontraeredu bat ateratzen da, Leibnizena. Zein premisa falta da eta zer dio?",
    "14. proposizioa. Kendu banan-banan Isabellek erabilitako premisak. Zein iruditzen zaizu eztabaidagarriena?"
   ]
@@ -1100,7 +1146,7 @@ const LABSPZ = {
    {
     "id": "C_creador_dura_mas",
     "grupo": "c",
-    "que": "Zerbait sortzen duenak sortutakoak baino gehiago irauten du (eztabaidagarria)."
+    "que": "Zerbait sortzen duenak sortutakoak baino gehiago irauten du (eztabaidagarria: gauzek existitzeari utz diezaiokete, eta lan batek bere egilea gainditu dezake, bizirik iraunez)."
    },
    {
     "id": "C_todo_creado",
@@ -1220,6 +1266,7 @@ const LABSPZ = {
     ],
     "nombre": "4. Sortutakoak ez du bere sortzaileak baino gehiago irauten",
     "pregunta": "x-k y sortzen badu, y-k <b>ez du x-k baino gehiago irauten</b>.",
+    "nota": "Mundu honetako gauzek existitzeari utz diezaiokete: zerbait sortzen duena desager daiteke bere lanak jarraitzen duen bitartean, hil egiten den egilea eta geratzen den liburua bezala. Lehenago hasteak ez du gehiago irautera behartzen. Sortutakoak bere sortzaileak baino gehiago ez irauteko, premisa gisa onartu behar da: markatu eztabaidagarria eta probatu berriro.",
     "prueba": "x y baino gehiago irauten du (premisa eztabaidagarria); gainera y x baino gehiago iraungo balu, iragankortasunaren ondorioz x bere burua baino gehiago iraungo luke.",
     "leccion": {
      "C_creador_dura_mas": "Lehenagokoa izatea ez da gehiago irautea: premisa hau gabe, sortutakoak bere sortzaileak baino gehiago iraun dezake, idatzi zuenari bizirik irauten dion liburu batek bezala.",
@@ -1228,8 +1275,16 @@ const LABSPZ = {
     }
    },
    {
+    "id": "Q8",
+    "posible": true,
+    "nombre": "5. Sortutakoak bere sortzailea gainditu dezake bizirik",
+    "pregunta": "Sortutako zerbait egon daiteke, <b>gehiago irauten duena</b> sortu zuena baino.",
+    "nota": "Hil egiten den egilea eta geratzen den liburua da: sortu zuenak lehenago hasi zen, baina sortutakoak gehiago irauten du. Denborari eta sorkuntzari buruz dakigun ezerk ez du eragozten.",
+    "notaNo": "Premisa eztabaidagarria markatuta ezin da gertatu: 4. proposizioa da. Zentzuzkoa iruditzen zaizu premisa hori?"
+   },
+   {
     "id": "Q5",
-    "nombre": "5. Lehenagokoak gehiago irauten du",
+    "nombre": "6. Lehenagokoak gehiago irauten du",
     "pregunta": "x y baino lehen hasi bada, x-k y baino <b>gehiago irauten du</b>.",
     "nota": "Ez da ondorioztatzen premisa bateragarrien ezein konbinaziotatik: lehen hastea eta gehiago irautea gauza desberdinak dira, eta ezein premisak ez ditu denbora eta iraupena lotzen, sorkuntzaren bidez ez bada."
    },
@@ -1257,7 +1312,7 @@ const LABSPZ = {
       "k": "fin"
      }
     ],
-    "nombre": "6. Sortu gabeko zerbait dago",
+    "nombre": "7. Sortu gabeko zerbait dago",
     "pregunta": "Badago <b>ezerk sortu ez duen</b> zerbait.",
     "prueba": "Mundu finitu batean ezin da egon lehenik gabeko sortzaile-katerik: dena sortua balitz, katea jarraituz lehendik ikusitako gauza batera itzuliko ginateke, eta hori bere burua baino lehen hasia izango litzateke. Isabellek mundu finituetarako frogatzen du. Mundu infinitu batean ez da balio: zenbaki natural guztietan, zenbaki bakoitza hurrengoak sortzen badu, dena sortua da eta ezer ez da sortu gabea. Horregatik «dena sortua da» ez da sartzen premisa hauekin mundu finitu batean.",
     "leccion": {
@@ -1268,9 +1323,17 @@ const LABSPZ = {
    },
    {
     "id": "Q7",
-    "nombre": "7. Sortu gabeko bakarra dago",
+    "nombre": "8. Sortu gabeko bakarra dago",
     "pregunta": "x eta y sortu gabeak badira, <b>gauza bera dira</b>.",
     "nota": "Ez da ondorioztatzen: bi jatorri independente egon daitezke. Bakarra egoteko zerbait gehiago behar da, eta hori da Spinozak substantziarentzat frogatu nahi duena (5. eta 14. prop.): pasa zaitez beste mundura."
+   },
+   {
+    "id": "Q9",
+    "posible": true,
+    "nombre": "9. Zerbaitek bi sortzaile izan ditzake",
+    "pregunta": "Zerbait <b>bi gauza desberdinek</b> sortua izan daiteke.",
+    "nota": "Hiru gauza behar dira: sortzen duten bi eta sortutako bat. Marrazkian, «sortu zuen» motako bi gezik gauza berera jotzen dute. Hori da hain zuzen «Ezerk ez du bi sortzaile» premisak (C_un_creador) debekatzen duena: hori gabe sortzaile bat baino gehiago egon daitezke; harekin, gehienez bat. Spinozaren munduan, substantzia bakarra egotea ez da jakintzat ematen: frogatzen saiatzen da (5. eta 14. proposizioak).",
+    "notaNo": "«Ezerk ez du bi sortzaile» markatuta, ezin da gertatu: sortuak gehienez sortzaile bat du. Kendu eta probatu berriro."
    }
   ]
  }
