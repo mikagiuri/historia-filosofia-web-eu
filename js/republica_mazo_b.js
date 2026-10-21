@@ -120,7 +120,7 @@ const REP_MAZO_B = {
    "d": "Musikaren eta gimnasiaren ondoren: +2 harmonia. Zaindaria amorratua da etsaiarekin eta otzana bereekin: «Lurraldearen aldeko gerra»k kalte erdia egiten du.",
    "cita": "«Musika eta gimnasia neurri zuzenenean nahasten dituena eta arimari proportzioz aplikatzen dizkiona, hura deituko dugu hezienik eta harmoniatsuena, hari-afinatzailea baino askoz gehiago.»",
    "loc": "Errepublika III, 410c-412a",
-   "nota": "Nahasketa zuzena, μετριότης (*metriótes*): gogo ondo hezia arrazoiaren aliatua da (440e-441a). Sinplifikatuta: gimnasia eskatzen da eta +2 Musika ere egon bada soilik dator; kalte erdia gertaerak aplikatzen du.",
+   "nota": "Neurri zuzena, μετριότης (*metriótes*): gogo ondo hezia arrazoiaren aliatua da (440e-441a). Sinplifikatuta: gimnasia eskatzen da eta +2 Musika ere egon bada soilik dator; kalte erdia gertaerak aplikatzen du.",
    "req": "flag:b_gimnasia",
    "ef": {
     "si": {
@@ -342,7 +342,7 @@ const REP_MAZO_B = {
    "ap": 2,
    "name": "Hiria eta arima",
    "d": "+2 harmonia. Arrazoiak agintzen badu (gobernari jakintsuak badaude), 2 txandatan gertaera negatibo bakoitzak 1 gutxiago kentzen du.",
-   "cita": "«Hirian hiru klase dauden bezala, hala bakoitzaren arimak hiru zati ditu: arrazoitzen duena, sutan jartzen dena eta desiratzen duena. Zuzena da zati bakoitzak berea egiten duena, eta arrazoiak agintzen du, eta gogoak aliatu gisa obeditzen dio.»",
+   "cita": "«Hirian hiru klase dauden bezala, hala bakoitzaren arimak hiru zati ditu: arrazoitzen duena, sutan jartzen dena eta desiratzen duena. Zuzena da zati bakoitzak berea egiten duena, eta arrazoiak agintzen du, eta gogo suminkorrak aliatu gisa obeditzen dio.»",
    "loc": "Errepublika IV, 439d-441c; 441d-442d",
    "nota": "Arima-hiria paralelismoa, USEn gehien galdetzen dena: barne-justiziak politikoaren egitura bera du. Sinplifikatuta: babesa karta jokatzean erabakitzen da.",
    "ef": {
@@ -640,7 +640,7 @@ const REP_MAZO_B = {
    "txt": "Ausardia ekartzen dute: pólisa defendatzen dute eta gobernuak erabakitzen duena exekutatzen dute. Haien balioa hezkuntzak grabatutako beldurgarriari buruzko iritzi zuzena gordetzea da.",
    "cita": "«Ausardia deitzen diot gordetze jakin bati: legeak hezkuntzaren bidez sortutako iritziarena, zer gauzaren eta nolako beldur izan behar den. Hori mina eta plazeretan, beldurretan eta gutizietan gordetzea da ἀνδρεία (*andreía*).»",
    "loc": "Errepublika IV, 429a-430c; II, 374e-375c",
-   "nota": "Platonen ausardia ez da ausarkeria, hezitako sendotasuna baizik: arrazoiari obeditzen dion gogoa, θυμός (*thymós*). Zaindaria «amorratua da etsaiarekin eta otzana bereekin», txakur on bat bezala (375e)."
+   "nota": "Platonen ausardia ez da ausarkeria, hezitako sendotasuna baizik: arrazoiari obeditzen dion gogo suminkorra, θυμός (*thymós*). Zaindaria «amorratua da etsaiarekin eta otzana bereekin», txakur on bat bezala (375e)."
   },
   {
    "id": "b_productores",
@@ -670,7 +670,7 @@ const REP_MAZO_B = {
   },
   {
    "name": "Zaindari laguntzaileak, ἐπίκουροι (*epíkouroi*)",
-   "alma": "Gogoa, θυμός (*thymós*)",
+   "alma": "Gogo suminkorra, θυμός (*thymós*)",
    "virtud": "ἀνδρεία (*andreía*): erabakitakoa defendatzea eta exekutatzea",
    "cumple": "Amorratuak kanpoan, otzanak barruan: defentsa sendoa; oreka areagotzen du.",
    "desborda": "Estatu-kolpe militarra, ohorea arrazoiaren gainetik: timokrazia (A bertsiorako zubia).",
@@ -689,8 +689,334 @@ const REP_MAZO_B = {
    "alma": "Arima osoa ordenan",
    "virtud": "Bakoitza berean, τὰ αὑτοῦ πράττειν (*tà hautoû práttein*)",
    "cumple": "Hiru klaseek betetzen dute: pólisa bat da, osasuntsua eta justua.",
-   "desborda": "Sartze-nahasketa: klaseek lekua trukatzen dute; injustizia, ἀδικία (*adikía*).",
+   "desborda": "Denetan sartzea: klaseek lekua trukatzen dute; injustizia, ἀδικία (*adikía*).",
    "falta": "Desegitea: hiria «askotan» bihurtzen da eta bere buruarekin gerran dago."
+  }
+ ],
+ "dialogos": [
+  {
+   "id": "b_dlg_cerdos",
+   "emoji": "🐖",
+   "quien": "Glaukon",
+   "loc": "Errepublika II, 372a-e",
+   "situacion": "Sokratesek lehen hiria deskribatzen du: garagarrezko ogia, ardoa, gazta, olibak, mirtozko koroak eta zahartzarora arteko bake-bizitza. Glaukonek eten egiten du: hori ez da gizakien hiria.",
+   "cita": "«Eta txerrien hiri bat sortuko bazenu, Sokrates, zerekin loditu beharko zenituzke?»",
+   "griego": "ὑῶν πόλις (*hyôn pólis*): «txerrien hiria». Glaukonek «ohitura dena» eskatzen du: ohe, mahai, janari goxo eta postreak (372d-e).",
+   "pregunta": "Zer hiri sortzen duzu?",
+   "opts": [
+    {
+     "t": "Hiri osasuntsua: beharrezkoa eta ez besterik.",
+     "razon": "Soberakinik desiratzen ez duenak ez du inori ezer kendu beharrik.",
+     "ef": {
+      "arm": 1,
+      "prod": -6
+     },
+     "r": "Inork ez du bizilagunaren lurraldea gutiziatzen (+1 harmonia), baina hiriak jatea ez beste ia guztia baztertzen du (−6 ekoizpena)."
+    },
+    {
+     "t": "Glaukoni arrazoia ematea: ohe, mahai eta janari goxoak.",
+     "razon": "Giza bizitza elikatzea baino zerbait gehiago da.",
+     "ef": {
+      "prod": 6,
+      "arm": -1
+     },
+     "r": "Eskulangileak, sukaldariak eta lurringileak datoz (+6 ekoizpena), baina nahiarekin batera hiria hazi egiten da eta txiki gelditzen hasten da (−1 harmonia)."
+    },
+    {
+     "t": "Sukarrak jotako hiria onartzea, baina eutsiko dioten zaindariekin.",
+     "razon": "Platonek hori egiten du: hiri luxuzkotik gerra eta zaindariak sortzen dira (373d-374a).",
+     "req": "ejercito",
+     "si": {
+      "ef": {
+       "prod": 3,
+       "arm": 1
+      },
+      "r": "Zure gudariek aski dute gutizia eusteko eta muga defendatzeko (+3 ekoizpena eta +1 harmonia)."
+     },
+     "no": {
+      "ef": {
+       "prod": 3,
+       "arm": -2
+      },
+      "r": "Hiria puztu egiten da eta ez du zaintzen duenik (+3 ekoizpena, −2 harmonia)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "«Egiazko hiria dirudienez, ibili dugun hori da, hiri osasuntsu gisa; baina, nahi baduzue, sukarrak jotako hiri bat ere aztertu dezagun.»",
+    "loc": "Errepublika II, 372e"
+   },
+   "critica": {
+    "autor": "Aristoteles",
+    "txt": "Errepublikari leporatzen dio hiria lanbiderik beharrezkoenetatik sortzea, hiri oro beharrezkoaren ondorioz eratuko balitz eta ez, hobeto esanda, ederraren ondorioz (parafrasia). Hiri osasuntsua hiria al da, ala biltegi bat besterik ez?",
+    "loc": "Politika IV 4, 1291a10-19"
+   },
+   "glo": [
+    "g-la-ciudad-justa",
+    "g-templanza",
+    "g-alma-concupiscible"
+   ]
+  },
+  {
+   "id": "b_dlg_perro",
+   "emoji": "🐕",
+   "quien": "Glaukon",
+   "loc": "Errepublika II, 375a-376c",
+   "situacion": "Hiriak zaindariak behar ditu. Sokratesek arrazako txakur batekin konparatzen ditu: hitsa ezezagunarekin, otzana ezagunarekin. Zaintza egingo duten gazteak aukeratu behar dira.",
+   "cita": "«Beharrezkoa da euren artekoekin otzanak eta etsaiekin latzak izatea; bestela, ez dute itxarongo besteek suntsitu ditzaten: haiek aurreratuko dira hori egitera.»",
+   "griego": "φιλόσοφος καὶ θυμοειδής (*philósophos kaì thymoeidés*): «jakinduriaren maitale eta gogo suminkorrekoa», bi gauzak aldi berean.",
+   "pregunta": "Nor aukeratzen duzu zaintzarako?",
+   "opts": [
+    {
+     "t": "Hitsenak: zaintzak ausardia eskatzen du.",
+     "razon": "Defendatzaile otzanak ez du defendatzen.",
+     "ef": {
+      "mov": [
+       "E",
+       "G",
+       1
+      ],
+      "arm": -1
+     },
+     "r": "Ekoizle bat gudari bihurtzen da, baina bere hitsak ez ditu bereizten ezezagunak eta bizilagunak (−1 harmonia)."
+    },
+    {
+     "t": "Otzanenak: inoiz ez daitezen hiriaren aurka jarri.",
+     "razon": "Zaindariaren arriskua otso bihurtzea da.",
+     "ef": {
+      "arm": 1,
+      "ap": -1
+     },
+     "r": "Hiria lasai dago (+1 harmonia), baina zaindariek ez diote inori beldurrik ematen eta indartu egin behar dira (−1 AP)."
+    },
+    {
+     "t": "Gogo suminkorrekoei, ikasteko zaletasuna ere badutenei, eta hezi egitea.",
+     "razon": "Jakinduriak bakarrik bereizten du laguna etsaitik.",
+     "req": "flag:musica",
+     "si": {
+      "ef": {
+       "arm": 2,
+       "ap": -1
+      },
+      "r": "Musikak dagoeneko doitu du haien gogoa: hitsak kanpoan eta otzanak barruan (+2 harmonia, −1 AP hezkuntzagatik)."
+     },
+     "no": {
+      "ef": {
+       "arm": -1,
+       "ap": -1
+      },
+      "r": "Musika-hezkuntzarik gabe, haien gogoak ez daki norori ziztatu (−1 harmonia eta −1 AP)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "«Ikasteko zalea eta jakinduriaren zalea gauza bera dira.» Horregatik, zaindari onak, izatez, «filosofoa, gogo suminkorrekoa, bizkorra eta indartsua» izango da.",
+    "loc": "Errepublika II, 376b-c"
+   },
+   "critica": {
+    "autor": "Sokrates, Polemarkoren aurka (I. liburua)",
+    "txt": "«Ez da zuzenaren lana kaltetzea, ez lagunari ez beste inori, haren kontrakoarena baizik, bidegabearena.» Txakur zaindariak ez al du Sokratesek gezurtatu zuen definiziora bueltatzen: lagunei ona eta etsaiei txarra egitea?",
+    "loc": "Errepublika I, 335d"
+   },
+   "glo": [
+    "g-alma-irascible",
+    "g-valentia",
+    "g-paideia"
+   ]
+  },
+  {
+   "id": "b_dlg_mujeres",
+   "emoji": "⚔️",
+   "quien": "Sokrates",
+   "loc": "Errepublika V, 451c-457b",
+   "situacion": "V. liburuko lehen «olatua» da: Sokratesek proposatzen du emakumeek gizonek bezalako hezkuntza jaso dezatela eta haiek ere hiria zaindu eta gobernatu dezatela. Badaki askok barre egingo dutela gimnasioan entrenatzen ikusita (452a-b).",
+   "cita": "«Ez dago, lagun, hiria administratzen duten jardueretatik bat ere emakumearena denik emakumea delako, ez gizonarena gizona delako: naturak berdin banatuta daude bietan, eta emakumeak, izatez, jarduera guztietan parte hartzen du, eta gizonak guztietan, nahiz eta guztietan emakumea gizona baino ahulagoa den.»",
+   "griego": "ὁμοίως διεσπαρμέναι αἱ φύσεις (*homoíos diesparménai hai phýseis*): «naturak, berdin banatuta».",
+   "pregunta": "Zaintza emakumeei irekitzen diezu?",
+   "opts": [
+    {
+     "t": "Bai: hezkuntza bera eta kargu berak natura duenarentzat.",
+     "razon": "Klasea erabakitzen duena arima da, ez sexua.",
+     "ef": {
+      "mov": [
+       "E",
+       "G",
+       1
+      ],
+      "arm": -1
+     },
+     "r": "Ekoizle bat zaintzara pasatzen da, baina berritasunak batzarra zatitzen du, eta barre egiten du (−1 harmonia)."
+    },
+    {
+     "t": "Ez: sexu bakoitzak bere bertutea du.",
+     "razon": "Aristotelesek defendatuko duena da: bat da agintzen duenaren bertutea, eta beste bat zerbitzatzen duenarena.",
+     "ef": {
+      "arm": 1,
+      "zsj": -1
+     },
+     "r": "Ezer ez da aldatzen eta inork ez du protestatzen (+1 harmonia); Platonen arabera, hiriak gobernatzeko gai diren naturen erdiak galtzen ditu (−1 jakinduria zaindari bakoitzeko)."
+    },
+    {
+     "t": "Pertsona bakoitza banan-banan aztertzea, sexua kontuan hartu gabe.",
+     "razon": "Badago zaintzarako gai den emakumea, eta ez dena ere bai; gizonen artean bezala (456a).",
+     "req": "justos",
+     "si": {
+      "ef": {
+       "mov": [
+        "E",
+        "Z",
+        1
+       ]
+      },
+      "r": "Zure zaindariek aurreiritzirik gabe epaitzen dute: urrezko arima duen emakume bat gobernatzera igotzen da."
+     },
+     "no": {
+      "ef": {
+       "arm": -1
+      },
+      "r": "Zure zaindariak ez dira inpartzialak eta azterketa mesedeetan amaitzen da (−1 harmonia)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "«Badago zaintzarako gai den emakumea, eta ez dena ere bai.» Eta hiria zaintzeko natura bera da emakumearengan eta gizonarengan, «ahulago edo indartsuago izatea salbu».",
+    "loc": "Errepublika V, 456a"
+   },
+   "critica": {
+    "autor": "Aristoteles",
+    "txt": "«Ez da bera emakumearen neurritasuna eta gizonarena, ez ausardia ez justizia, Sokratesek uste zuen bezala, baizik eta bat aginte-ausardia da eta bestea zerbitzu-ausardia.» Feminismotik, irakurketa batzuek V. liburuan aurrekaririk gabeko aurrerapausoa ikusten dute (G. Vlastos, «Was Plato a Feminist?», 1989); beste batzuek, tresna-erabilera: Platonek zaindariak berdintzen ditu hiriaren zerbitzurako eta familia ezabatuz, ez emakumeen interesengatik (J. Annas, «Plato's Republic and Feminism», 1976) (parafrasia).",
+    "loc": "Politika I 13, 1260a20-24"
+   },
+   "glo": [
+    "g-virtud",
+    "g-paideia",
+    "g-la-ciudad-justa"
+   ]
+  },
+  {
+   "id": "b_dlg_leoncio",
+   "emoji": "👁️",
+   "quien": "Glaukon",
+   "loc": "Errepublika IV, 439e-440b",
+   "situacion": "Leontio, Aglaionen semea, Pireotik igotzen da eta hilotzak ikusten ditu borreroaren ondoan. Haiei begiratu nahi die eta aldi berean nazka ematen dio; aurpegia estaltzen du, bere buruarekin borrokatzen da eta, gutiziak garaituta, haiengana korrika joaten da begiak zabal-zabalik (439e-440a-ren parafrasia). Zure hirian antzeko ikuskizun bat dago eta gazteak pilatzen dira.",
+   "cita": "«Hor dituzue, zorigaiztokoak: aseko zaitezte ikuskizun ederraz!»",
+   "griego": "θυμός (*thymós*): gogo suminkorra, hemen bere gutiziaren aurka sumindu egiten dena, ἐπιθυμία (*epithymía*).",
+   "pregunta": "Zer egiten duzu ikusteko gutiziarekin?",
+   "opts": [
+    {
+     "t": "Gazteen gogo suminkorra arrazoiaren alde jarriko dela konfiatzea.",
+     "razon": "Leontioren lotsak frogatzen du arima ez dela gutizia bakarrik.",
+     "req": "justos",
+     "si": {
+      "ef": {
+       "arm": 2
+      },
+      "r": "Zure zaindariak ondo ordenatuta daude: haserreak arrazoiaren zerbitzura jartzen da eta adibideak eragina du (+2 harmonia)."
+     },
+     "no": {
+      "ef": {
+       "arm": -2
+      },
+      "r": "Zure zaindarien gogo suminkorra ez dago hezita: gutiziak irabazten du, Leontiorekin bezala (−2 harmonia)."
+     }
+    },
+    {
+     "t": "Ikuskizuna debekatzea.",
+     "razon": "Hobe gutizia probatan ez jartzea.",
+     "ef": {
+      "arm": 1,
+      "zsj": -1
+     },
+     "r": "Inor ez da pilatzen (+1 harmonia), baina inork ez du bere burua gobernatzen ikasten ere (−1 jakinduria zaindari bakoitzeko)."
+    },
+    {
+     "t": "Bakoitzak nahi badu begira dezala.",
+     "razon": "Inori kalterik egiten ez dion gutizia ez da hiriaren kontua.",
+     "ef": {
+      "ap": 2,
+      "arm": -1
+     },
+     "r": "Hiriak zaintza aurrezten du (+2 AP), baina gutiziak erabakitzera ohitzen da (−1 harmonia)."
+    }
+   ],
+   "platon": {
+    "txt": "«Kontakizun honek adierazten du haserreak batzuetan gutiziekin gerra egiten duela, gauza bat bestea ez balitz bezala.» Gutiziek norbait arrazoiketaren aurka behartzen dutenean, «liskarrean dauden bien artean bezala, gogo suminkorra arrazoiaren aliatu bihurtzen da».",
+    "loc": "Errepublika IV, 440a-b"
+   },
+   "critica": {
+    "autor": "Aristoteles",
+    "txt": "Arima zatitan banatzen bada, zatiak nolabait amaigabeak dira; eta gutizia ez da bakar batean sartzen: arima hiru bada, bakoitzean gutizia egongo da (parafrasia). Leontio zatien artean borrokatzen al da, ala arima bakar bat zatituta dago?",
+    "loc": "Arimari buruz III 9, 432a22-b7"
+   },
+   "glo": [
+    "g-las-tres-partes-del-alma",
+    "g-alma-irascible",
+    "g-alma-concupiscible",
+    "g-alma-racional"
+   ]
+  },
+  {
+   "id": "b_dlg_asclepio",
+   "emoji": "⚕️",
+   "quien": "Glaukon",
+   "loc": "Errepublika III, 405c-408b",
+   "situacion": "Hiria gaixo kronikoz eta medikuz betetzen da. Sokratesek Asklepio gogoratzen du: gaixotzen ziren osasuntsuak sendatzen zituen beren lanbidera itzul zitezen, baina ezin zuenari bizitza luzatzen ez zion (407c-e-ren parafrasia). Herodiko kritikatzen du, heriotza luzatzen duen medikuntza asmatu zuelako (406a-b).",
+   "cita": "«Ondo legeztatutako hiri guztietan, bakoitzari egin beharreko eginkizun bat esleitu zaio, eta inork ez du denborarik bizitza gaixo eta sendatzen pasatzeko.»",
+   "griego": "",
+   "pregunta": "Zer medikuntza izango du zure hiriak?",
+   "opts": [
+    {
+     "t": "Asklepiorena: bere lanbidera itzul daitekeena sendatzea.",
+     "razon": "Medikuntzak hiriaren bizitzari egiten dio zerbitzu, ez gaixotasuna luzatzeari.",
+     "ef": {
+      "prod": 4,
+      "arm": -1
+     },
+     "r": "Hiriak errendimendu handiagoa du (+4 ekoizpena), baina hiritar askok abandonatuta sentitzen dira (−1 harmonia)."
+    },
+    {
+     "t": "Guztiak zaintzea, kostatu ahala kostatu.",
+     "razon": "Bakoitzaren bizitzak berez balio du, ez bere lanbideagatik.",
+     "ef": {
+      "arm": 1,
+      "prod": -6
+     },
+     "r": "Inor ez da atzean gelditzen (+1 harmonia), baina zainketek hiriaren lanaren zati handi bat xurgatzen dute (−6 ekoizpena)."
+    },
+    {
+     "t": "Prebenitzea: mediku gutxi behar dituen bizitza xumea.",
+     "razon": "Platonentzat, mediku eta epaile askok hiri desordenatuaren seinale dira (405a).",
+     "req": "alimenta",
+     "si": {
+      "ef": {
+       "arm": 1,
+       "ap": -1
+      },
+      "r": "Hiriak ondo eta neurriz jaten du: gutxiago gaixotzen da (+1 harmonia, −1 AP erreformagatik)."
+     },
+     "no": {
+      "ef": {
+       "arm": -1,
+       "ap": -1
+      },
+      "r": "Goseak, ez dago bizitza osasuntsurik: prebentzioak huts egiten du (−1 harmonia, −1 AP)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "Asklepiok, bizitzaren ohiko ibilbidean bizitzeko gai ez zenari, «uste zuen ez zuela tratatu behar, ez baitzen onuragarria ez berarentzat ez hiriarentzat».",
+    "loc": "Errepublika III, 407d-e"
+   },
+   "critica": {
+    "autor": "Mundu Medikuntza Elkartea",
+    "txt": "Medikuak agintzen du ez adinak, ez gaixotasunak edo ezgaitasunak, ez gizarte-egoerak ez duela bere betebeharraren eta pazientearen artean tarterik izango (parafrasia). Beste irakurle batzuek pasartea gaur egungo tratamendu-obstinazioari buruzko eztabaidara hurbiltzen dute: non amaitzen da sendatzea eta non hasten da sufrimendua luzatzea?",
+    "loc": "Genevako Adierazpena (1948; 2017ko berrikuspena)"
+   },
+   "glo": [
+    "g-justicia",
+    "g-la-ciudad-justa",
+    "g-templanza"
+   ]
   }
  ]
 };

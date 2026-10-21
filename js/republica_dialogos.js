@@ -20,7 +20,7 @@ const REP_DIAL = {
    "emoji": "🛡️",
    "min": 6,
    "name": "Timokrazia",
-   "lema": "Gogoak gobernatzen du: ohoreak eta gerrak arrazoiak baino pisu handiagoa dute.",
+   "lema": "Gogo suminkorrak gobernatzen du: ohoreak eta gerrak arrazoiak baino pisu handiagoa dute.",
    "causa": "Gobernatzen dutenen artean barne-liskarra sartzen da: onenek agintea galtzen dute eta ohorezaleek hartzen dute.",
    "cita": "«Konstituzio oro aldatzen da boterea dutenen eraginez, haien artean bertan liskarra sortzen denean.»",
    "loc": "Errepublika VIII, 545d",
@@ -73,7 +73,7 @@ const REP_DIAL = {
    "emoji": "🦁",
    "quien": "Trasimako",
    "loc": "Errepublika I, 338c",
-   "situacion": "Trasimako sofista asanbladan zalapartaz sartzen da eta oihukatzen du zure zaindariak inozoak direla.",
+   "situacion": "Trasimako sofista batzarrean zalapartaz sartzen da eta oihukatzen du zure zaindariak inozoak direla.",
    "cita": "«Nik diot zuzena ez dela indartsuenari komeni zaiona besterik.»",
    "griego": "τὸ τοῦ κρείττονος συμφέρον (*tò toû kreíttonos symphéron*): «indartsuenari komeni zaiona».",
    "pregunta": "Zer erantzuten diozu?",
@@ -94,7 +94,7 @@ const REP_DIAL = {
       "arm": 1,
       "ap": -1
      },
-     "r": "Asanblada konbentzitzen duzu (+1 harmonia), baina eztabaidak denbora hartzen dizu (−1 AP)."
+     "r": "Batzarra konbentzitzen duzu (+1 harmonia), baina eztabaidak denbora hartzen dizu (−1 AP)."
     },
     {
      "t": "Kanporatu: sofista batekin ez da eztabaidatzen.",
@@ -103,7 +103,7 @@ const REP_DIAL = {
       "arm": 1,
       "sj": -1
      },
-     "r": "Asanbladak isildu egiten da (+1 harmonia), baina zure zaindariek arrazoiak emateko ohitura galtzen dute (−1 jakinduria bakoitzak)."
+     "r": "Batzarrak isildu egiten da (+1 harmonia), baina zure zaindariek arrazoiak emateko ohitura galtzen dute (−1 jakinduria bakoitzak)."
     }
    ],
    "platon": {
@@ -325,7 +325,7 @@ const REP_DIAL = {
    "emoji": "🦉",
    "quien": "Glaukon",
    "loc": "Errepublika V, 473c-d",
-   "situacion": "Asanbladak eztabaidatzen du nork gobernatu behar duen. Sokratesek berak dioenez denak barre eginaraziko dituen proposamena egiten du.",
+   "situacion": "Batzarrak eztabaidatzen du nork gobernatu behar duen. Sokratesek berak dioenez denak barre eginaraziko dituen proposamena egiten du.",
    "cita": "«Filosofoek hirietan erreinatzen ez badute, edo gaur egun errege eta agintari deitzen direnek benetan eta behar bezala filosofatzen ez badute, ez da gaitzen etenik izango hirientzat, Glaukon maitea, eta uste dut ez gizadiarentzat ere.»",
    "griego": "",
    "pregunta": "Nori ematen diozu boterea?",
@@ -354,7 +354,7 @@ const REP_DIAL = {
       "arm": -1,
       "ap": 2
      },
-     "r": "Asanbladak parte hartzen du (+2 AP), baina Platonentzat nabigatzen ez dakienari lema uztea da (−1 harmonia)."
+     "r": "Batzarrak parte hartzen du (+2 AP), baina Platonentzat nabigatzen ez dakienari lema uztea da (−1 harmonia)."
     },
     {
      "t": "Ausartenei, Esparta bezala.",

@@ -10,7 +10,7 @@ const REP_MAZO_A = {
    "d": "Gazteek entzuten dituzten mitoak zaintzen dira: +1 jakinduria zaindari bakoitzari eta −1 hurrengo txandako gertaeren kalteari.",
    "cita": "«Lehenik mitoak sortzen dituztenak zaindu behar ditugu: ondo sortzen dutena onartu eta ez dutena baztertu.»",
    "loc": "Errepublika II, 377b-c; X, 607a",
-   "nota": "Eztabaida irekia: Platonek arimaren gogoa mitoen bidez hezten du; Aristotelesek gogorarazten du imitatzea berezkoa dela eta horrela ikasten dugula (Poetika 4, 1448b). Sinplifikatua: balaztak edozein gertaeratarako balio du, ez soilik sofistentzat/timokraziarentzat; demokrazian +1 AP gabe.",
+   "nota": "Eztabaida irekia: Platonek arimaren gogo suminkorra mitoen bidez hezten du; Aristotelesek gogorarazten du imitatzea berezkoa dela eta horrela ikasten dugula (Poetika 4, 1448b). Sinplifikatua: balaztak edozein gertaeratarako balio du, ez soilik sofistentzat/timokraziarentzat; demokrazian +1 AP gabe.",
    "ef": {
     "zsj": 1,
     "dura": {
@@ -80,7 +80,7 @@ const REP_MAZO_A = {
    "img": "ac-zanganos",
    "name": "Erlamandoaren erbestea",
    "d": "Gainerakoen kontura bizi den alferra kanporatzen da: +1 harmonia; oligarkian edo okerrago, hurrengo estatu-kolpeak ez du kalterik egiten.",
-   "cita": "«Erlamando ziztaduna hiria astintzen du, ziztarik ez duenak erlauntza nahasten duen bezala.» (parafrasia)",
+   "cita": "«Erlamando eztenduna hiria astintzen du, ziztarik ez duenak erlauntza nahasten duen bezala.» (parafrasia)",
    "loc": "Errepublika VIII, 552c-e; 564b-e",
    "nota": "Erlauntza: astintzen duen alferra demagogoaren lehengaia da. Sinplifikatua: «kolpearen probabilitatean −1» txanda bateko ezkutu gisa. Parafrasia;",
    "ef": {
@@ -198,7 +198,7 @@ const REP_MAZO_A = {
    "emoji": "⛵",
    "quien": "Jeneral zahar bat",
    "loc": "Errepublika VIII, 547e-548a",
-   "situacion": "Asanblada, gogotsu, urruneko irla aberats bat konkistatzea bozkatzen ari da. Gazteek ospeaz amesten dute; jeneral zahar batek hitza eskatzen du kontra hitz egiteko.",
+   "situacion": "Batzarra, gogotsu, urruneko irla aberats bat konkistatzea bozkatzen ari da. Gazteek ospeaz amesten dute; jeneral zahar batek hitza eskatzen du kontra hitz egiteko.",
    "cita": "«Denboraren zatirik handiena gerran emango du.»",
    "griego": "",
    "pregunta": "Zer erabakitzen du zure hiriak?",
@@ -231,7 +231,7 @@ const REP_MAZO_A = {
       "ef": {
        "arm": -1
       },
-      "r": "Inork ez daki zuhurtzia defendatzen, eta asanbladak koldar deitzen dizu (−1 harmonia)."
+      "r": "Inork ez daki zuhurtzia defendatzen, eta batzarrak koldar deitzen dizu (−1 harmonia)."
      }
     },
     {
@@ -329,7 +329,7 @@ const REP_MAZO_A = {
    "loc": "Errepublika VIII, 555c-556a",
    "situacion": "Zorrek itota, nekazariek zorrak barka daitezela eskatzen dute. Hartzekodunak dira gobernatzen dutenak.",
    "cita": "«Zorrak ezabatu eta lurra banatu.»",
-   "griego": "χρεῶν ἀποκοπὰς καὶ γῆς ἀναδασμόν (*khreôn apokopàs kaì gês anadasmón*): «zorren ezabaketa eta lurren banaketa».",
+   "griego": "χρεῶν ἀποκοπὰς καὶ γῆς ἀναδασμόν (*khreôn apokopàs kaì gês anadasmón*): «zorren ezeztapena eta lurren banaketa».",
    "pregunta": "Zer egiten du zure hiriak?",
    "opts": [
     {
@@ -449,21 +449,21 @@ const REP_MAZO_A = {
   {
    "id": "a_arginusas",
    "emoji": "🌊",
-   "quien": "Asanblada",
+   "quien": "Batzarra",
    "loc": "Apologia 32b-c",
-   "situacion": "Hiriak itsas gudu bat irabazi zuen, baina ekaitz batek hondoratuak erreskatatzea eragotzi zuen. Asanbladak, amorratuta, jeneral guztiak bozketa bakar batean kondenatu nahi ditu. Legeak debekatzen du.",
+   "situacion": "Hiriak itsas gudu bat irabazi zuen, baina ekaitz batek hondoratuak erreskatatzea eragotzi zuen. Batzarrak, amorratuta, jeneral guztiak bozketa bakar batean kondenatu nahi ditu. Legeak debekatzen du.",
    "cita": "«Legearekin eta zuzenarekin arriskatu behar nuela uste izan nuen.»",
    "griego": "",
-   "pregunta": "Zer egiten du asanblada zuzentzen duenak?",
+   "pregunta": "Zer egiten du batzarra zuzentzen duenak?",
    "opts": [
     {
      "t": "Bozkatu: herria subiranoa da.",
-     "razon": "Asanbladak erabakitzen duena lege da.",
+     "razon": "Batzarrak erabakitzen duena lege da.",
      "ef": {
       "arm": -2,
       "ap": 2
      },
-     "r": "Asanbladak indartsu sentitzen da (+2 AP). Jeneralak hil egiten dituzte eta hurrengo urtean hiriak damu du (−2 harmonia)."
+     "r": "Batzarrak indartsu sentitzen da (+2 AP). Jeneralak hil egiten dituzte eta hurrengo urtean hiriak damu du (−2 harmonia)."
     },
     {
      "t": "Legez kanpoko zerbait bozkatzeari uko egin.",
@@ -491,7 +491,7 @@ const REP_MAZO_A = {
       "ef": {
        "arm": 1
       },
-      "r": "Asanblada lasaitzen duzu… egun batez (+1 harmonia)."
+      "r": "Batzarra lasaitzen duzu… egun batez (+1 harmonia)."
      },
      "no": {
       "ef": {
@@ -502,7 +502,7 @@ const REP_MAZO_A = {
     }
    ],
    "platon": {
-    "txt": "«Pritaneoetan bakarra izan nintzen legearen aurka ezer egitearen aurka egon zena, eta kontra bozkatu nuen; eta hizlariak salatzeko eta atxilotzeko prest zeuden arren, legearekin eta zuzenarekin arriskatu behar nuela uste izan nuen.»",
+    "txt": "«Atenasko magistratuen, *prytáneis*, artean bakarra izan nintzen legearen aurka ezer egitearen aurka egon zena, eta kontra bozkatu nuen; eta hizlariak salatzeko eta atxilotzeko prest zeuden arren, legearekin eta zuzenarekin arriskatu behar nuela uste izan nuen.»",
     "loc": "Apologia 32b-c; cf. Errepublika VIII, 557b eta 562d"
    },
    "critica": {
@@ -514,7 +514,7 @@ const REP_MAZO_A = {
     "g-justicia"
    ],
    "fase": 3,
-   "nota": "Asanblada legearen gainetik; kontuz, demokraziaren kondena soil gisa ez irakurtzeko: eragozpenak eztabaida irekitzen du. (Apologia)."
+   "nota": "Batzarra legearen gainetik; kontuz, demokraziaren kondena soil gisa ez irakurtzeko: eragozpenak eztabaida irekitzen du. (Apologia)."
   },
   {
    "id": "a_demagogo",
@@ -524,7 +524,7 @@ const REP_MAZO_A = {
    "situacion": "Hiria goseak dago. Hizlari batek gari merkea agintzen die guztiei agintea ematen badiozue; ez dago garirik hura betetzeko.",
    "cita": "«Erro horretatik, eta ez beste ezetik, sortzen da tiranoa.»",
    "griego": "προστάτης (*prostátes*): «babeslea, buru jartzen dena».",
-   "pregunta": "Zer egiten du asanbladak?",
+   "pregunta": "Zer egiten du batzarrak?",
    "opts": [
     {
      "t": "Agintea eman: behar duguna agintzen du.",
@@ -844,12 +844,12 @@ const REP_MAZO_A = {
    "id": "alma_razon",
    "name": "Arima aristokratikoa (arrazoiak gobernatzen du)",
    "lema": "Zati bakoitzak berea egiten du arimaren barruan ere.",
-   "txt": "Arrazoiak (*logistikón*) agintzen du, gogoak (*thymós*) defendatzen du eta gutiziak (*epithymía*) obeditzen du. Justizia ez da politikoa bakarrik: arimaren hiru zatien barne-ordena da.",
+   "txt": "Arrazoiak (*logistikón*) agintzen du, gogo suminkorrak (*thymós*) defendatzen du eta gutiziak (*epithymía*) obeditzen du. Justizia ez da politikoa bakarrik: arimaren hiru zatien barne-ordena da.",
    "loc": "Errepublika IV, 441c-442d; IX, 580d-581a"
   },
   {
    "id": "alma_thymos",
-   "name": "Arima timokratikoa (gogoak gobernatzen du)",
+   "name": "Arima timokratikoa (gogo suminkorrak gobernatzen du)",
    "lema": "Ohorea eta boterea maite ditu jakintza baino gehiago.",
    "txt": "Gizon timokratikoak bere barruko agintea elementu haserrekorrari eta garaipenaren zaleari ematen dio. *Thymós* zati haserrekorra edo biziona da; bere gehiegizkoa anbizioa da (*philotimía*).",
    "loc": "Errepublika VIII, 548d-550b"
@@ -870,7 +870,7 @@ const REP_MAZO_A = {
   },
   {
    "id": "alma_eros_tirano",
-   "name": "Arima tiranikoa (ziztadun desioak gobernatzen du: Eros)",
+   "name": "Arima tiranikoa (eztendun desioak gobernatzen du: Eros)",
    "lema": "Kanpoan dena egin dezakeena da barruan esklaboena.",
    "txt": "Tiranoaren arimaren barruan agintari den desio batek, zizta baten gisa, gainerakoak gobernatzen ditu; benetan esklabo da agintzen duen arren, beldurrez betea, lagunik gabe, nahi duena egiteko ezgai: gizonen artean zorigaiztokoena. Platonen argudioa azaltzen da, ez edozein erregimen errealen gaineko iritzirik.",
    "loc": "Errepublika IX, 571a-580a"
@@ -886,7 +886,7 @@ const REP_MAZO_A = {
   },
   {
    "name": "Timokrazia",
-   "alma": "gogoa (*thymós*)",
+   "alma": "gogo suminkorra (*thymós*)",
    "causa": "diruaren maitasunak ohorea ordezkatzen du",
    "cita": "«Konstituzio oro aldatzen da… liskarra sortzen denean.»",
    "loc": "Errepublika VIII, 545d"
