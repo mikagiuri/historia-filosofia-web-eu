@@ -31,12 +31,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Menuak <strong>bost fitxa</strong> ditu. Lehen hirurak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
+   "x": "Menuaren lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu), <strong>Logika</strong> (Logikaren txokoa, bere ariketekin eta laborategiarekin) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Menuak <strong>bost fitxa</strong> ditu. Lehen hirurak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>Idatzi eta irakurri</strong> (disertazioa eta testuak). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
+   "x": "Menuaren lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu), <strong>Logika</strong> (Logikaren txokoa, bere ariketekin eta laborategiarekin) eta <strong>Idatzi eta irakurri</strong> (disertazioa eta testuak). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
    "solo": "fil"
   },
   {
@@ -209,6 +209,11 @@ const GUIA = {
      "nombre": "Glosarioa",
      "texto": "Ikasgaiaren hiztegia: termino bakoitza bere definizioarekin. Bilatu hitz bat edo iragazi terminoak.",
      "view": "glosario"
+    },
+    {
+     "nombre": "Erroak",
+     "texto": "Nondik datozen filosofiaren hitzak: haien greziar edo latindar erroa, gaur egun zer esan nahi duten hobeto ulertzeko. Bilatu hitz bat edo ibili haietan zehar gaika.",
+     "view": "etimos"
     }
    ]
   },
@@ -246,11 +251,6 @@ const GUIA = {
      "view": "rescritura"
     },
     {
-     "nombre": "Logikaren txokoa",
-     "texto": "Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak; eta laborategi bat, egia-zuhaitzekin, irudien mundu batekin, erlazioekin eta frogapen gidatuekin.",
-     "view": "logica"
-    },
-    {
      "nombre": "Eztabaidatu",
      "texto": "Argudiatzen entrenatzeko lau modu, goian dituzten botoiekin: Dilemak (aukeratu garrantzitsuak diren bi gauzaren artean eta eman zure arrazoia), Polemikak (garai bereko filosofoak, benetan elkarren aurka aritu zirenak), Dueloa (eztabaidatu ordenagailuaren aurka) eta Korapiloak (aurkitu non egiten duten talka zure iritziek).",
      "view": "dilemas"
@@ -269,6 +269,18 @@ const GUIA = {
   {
    "type": "p",
    "x": "<strong>Eztabaidatu</strong> ataleko jarduerak entrenamendu ona dira disertaziorako: arrazoiak ematera eta beste aldekoak kontuan hartzera behartzen dute."
+  },
+  {
+   "type": "h",
+   "x": "Logika"
+  },
+  {
+   "type": "p",
+   "x": "<strong>Logikaren txokoak</strong> orain bere fitxa propioa du. Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak biltzen ditu, arrazoibidea entrenatzeko."
+  },
+  {
+   "type": "p",
+   "x": "Goian <strong>Laborategia</strong> dago, urratsez urrats lantzeko hainbat mahairekin: egia-zuhaitzak, irudien mundu bat, erlazioak, frogapen gidatuak eta Kanten judizioen eta Spinozaren afektuen mahaiak."
   },
   {
    "type": "h",
@@ -377,7 +389,7 @@ const GUIA = {
     },
     {
      "nombre": "Adagioak",
-     "texto": "Filosofoek mendeetan zehar aipatu dituzten latinezko eta grekozko leloak, eta noiz erabili.",
+     "texto": "Filosofoek mendeetan zehar aipatu dituzten latinezko eta grekozko leloak, eta noiz erabili. Goian, <strong>Esaldiak</strong> botoia: pentsalarien esaldi ospetsuak, zer esan nahi duten eta noiz erabili.",
      "view": "adagios"
     },
     {
@@ -441,7 +453,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Webgunea berdin dabil mugikorrean. Menua ☰ botoian biltzen da: sakatzean bost fitxak irekitzen dira, bata bestearen azpian, eta bakoitza zabaldu egiten da ukitzean. Sarri erabiltzen baduzu, gehitu hasierako pantailara nabigatzailearen menutik («Gehitu hasierako pantailan»): aplikazio bat bezala irekiko da."
+   "x": "Webgunea berdin dabil mugikorrean. Menua ☰ botoian biltzen da: sakatzean fitxak irekitzen dira, bata bestearen azpian, eta bakoitza zabaldu egiten da ukitzean. Sarri erabiltzen baduzu, gehitu hasierako pantailara nabigatzailearen menutik («Gehitu hasierako pantailan»): aplikazio bat bezala irekiko da."
   },
   {
    "type": "img",

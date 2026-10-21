@@ -675,6 +675,263 @@ const LABSPZ = {
    "nota": "Ez da aurreko ezertatik ondorioztatzen: Spinozak 34. prop.an (Jainkoaren potentzia bere esentzia da) oinarritzen du, formalizatu gabe. Gehitzen bada, mundu finitu batean kausa-zirkuluak behartzen ditu."
   }
  ],
+ "repaso": {
+  "titulo": "Errepasoa: gauzak, propietateak eta erlazioak",
+  "intro": "Mahaiak jakintzat ematen duen guztia, hemen bertan. Premisen etiketek dagokion sarrera irekitzen dute.",
+  "bloques": [
+   {
+    "id": "cosas",
+    "titulo": "Gauzak",
+    "txt": "Marrazkiko zirkuluak dira. <b>x</b>, <b>y</b>, <b>z</b> letrak aldagaiak dira: edozein gauzatarako balio dute, «norbait berandu iristen bada, trena galtzen du» esaldiko «norbait» bezala. A, B, C eta D gauza konkretuen izenak dira.",
+    "ej": "Hiru gauzako mundu batean, «x gauza orotarako» honako hau da: A-rako, B-rako eta C-rako."
+   },
+   {
+    "id": "propiedad",
+    "titulo": "Propietateak: P(x)",
+    "txt": "Propietate bat <b>gauza bakar batek</b> du edo ez du. Bere izenarekin idazten da, eta gauza parentesi artean.",
+    "ej": "increado(A): A sortu gabea da. Marrazkian, zirkulu bikoitza."
+   },
+   {
+    "id": "relacion",
+    "titulo": "Erlazioak: R(x, y)",
+    "txt": "Erlazio bat <b>bi gauzaren artean</b> gertatzen da, eta ordenak axola du: Crea(A, B)-k esaten du A-k B sortu zuela, ez B-k A sortu zuela. Marrazkian, lehenengotik bigarrenera doan gezi bat da.",
+    "ej": "Antes(A, B): A B baino lehenago hasi zen. Gezia A-tik irten eta B-ra iristen da."
+   },
+   {
+    "id": "cuantificadores",
+    "titulo": "Guztiak eta batzuk",
+    "txt": "<b>∀x</b> honela irakurtzen da: «x gauza orotarako». Ondoren datorrena bakoitzarentzat da egia. <b>∃x</b> honela irakurtzen da: «badago x gauzaren bat». Gutxienez batentzat da egia. «Guztiak» ezeztatzeko kasu bat nahikoa da; «badago bat» ezeztatzeko, guztiak aztertu behar dira.",
+    "ej": "∀x. ¬Crea(x, x): ez da gauzarik bere burua sortzen duenik. ∃x. increado(x): gutxienez gauza bat sortu gabea da."
+   },
+   {
+    "id": "formas",
+    "titulo": "Betiko formak",
+    "txt": "Eguneroko logikaren esaldiek forma finko bat dute:",
+    "lista": [
+     "«P guztiak Q dira»: ∀x. P(x) → Q(x). Kontuz: «→»-rekin, ez «∧»-rekin.",
+     "«Zenbait P Q da»: ∃x. P(x) ∧ Q(x). Hemen bai, «∧»-rekin.",
+     "«Ez da P bat ere Q»: ∀x. P(x) → ¬Q(x).",
+     "«Zenbait P ez da Q»: ∃x. P(x) ∧ ¬Q(x).",
+     "«Baldin... orduan»: A → B faltsua da soilik A egia eta B faltsua denean."
+    ]
+   },
+   {
+    "id": "irrefl",
+    "titulo": "Irreflexiboa",
+    "txt": "",
+    "ej": "Ezer ez zen bere burua baino lehenago hasi: ez dago bere zirkulura itzultzen den Antes geziarik."
+   },
+   {
+    "id": "refl",
+    "titulo": "Erreflexiboa",
+    "txt": "",
+    "ej": "«Neurri berekoa da»: gauza bakoitza bere buruaren neurri berekoa da."
+   },
+   {
+    "id": "sim",
+    "titulo": "Simetrikoa",
+    "txt": "",
+    "ej": "«Garaikidea da»: A B-ren garaikidea bada, B A-ren garaikidea da."
+   },
+   {
+    "id": "asim",
+    "titulo": "Asimetrikoa",
+    "txt": "",
+    "ej": "Sortzea, sortzen duena lehenago hasten bada: A-k B sortu bazuen, B-k ez zuen A sortu (2. proposizioa)."
+   },
+   {
+    "id": "trans",
+    "titulo": "Iragankorra",
+    "txt": "",
+    "ej": "A B baino lehenago eta B C baino lehenago hasi bazen, A C baino lehenago hasi zen."
+   },
+   {
+    "id": "inclusion",
+    "titulo": "Erlazio bat beste baten barruan",
+    "txt": "Erlazio baten gezi bakoitza besteko gezi ere bada: ∀x y. R(x, y) → S(x, y). Kontrakoa ez da beharrezkoa.",
+    "ej": "Crea Antes-en barruan: A-k B sortu bazuen, A B baino lehenago hasi zen. Baina A B baino lehenago hasi daiteke, hura sortu gabe."
+   },
+   {
+    "id": "unico",
+    "titulo": "Gehienez gezi bat iristen da",
+    "txt": "Gauza bakoitzera erlazioaren gezi bat iristen da gehienez: ∀x y z. R(x, z) ∧ R(y, z) → x = y.",
+    "ej": "Ezerk ez du bi sortzaile: A-k eta B-k C sortu badute, A eta B gauza bera dira."
+   },
+   {
+    "id": "serie",
+    "titulo": "Gauza guztietara gezi bat iristen da",
+    "txt": "Gauza bakoitzak gutxienez gezi bat jasotzen du: ∀x. ∃y. R(y, x).",
+    "ej": "Guztia zerbaitek sortu du. Mundu finitu batean, «Antes» irrefleksiboa eta iragankorra izanik, hori ezinezkoa da (6. proposizioa)."
+   }
+  ],
+  "tSimbolos": "Sinboloak",
+  "bPracticar": "Erlazioen propietateak «Erlazioak» mahaian praktikatu",
+  "tLectura": "Honela irakurtzen da",
+  "tPasos": "Urratsez urrats",
+  "pHip": "suposizioa",
+  "pFin": "ondorioa",
+  "conCosas": "{x} dugunean, proposizioak hau dio",
+  "falsoAqui": "Mundu honetan hori faltsua da: egiaztatu marrazkian.",
+  "tForma": "Forma",
+  "tFormula": "Logikan"
+ },
+ "lectura": {
+  "paraToda": "{v} gauza orotarako",
+  "paraTodas": "{v} gauza guztietarako",
+  "paraTodo": "{v} atributu orotarako",
+  "paraTodos": "{v} atributu guztietarako",
+  "hayUna": "badago {v} gauzaren bat, non",
+  "hayVarias": "badaude {v} gauza batzuk, non",
+  "hayAtr": "badago {v} atributuren bat, non",
+  "hayAtrs": "badaude {v} atributu batzuk, non",
+  "hayMixto": "badago {c} gauzaren bat eta {a} atributuren bat, non",
+  "noHay": "ez dago {v} gauzarik, non",
+  "noHayAtr": "ez dago {v} atributurik, non",
+  "trasTodo": "{a}: {b}",
+  "conY": "{a} eta {b}",
+  "conO": "{a} edo {b}",
+  "si": "baldin {a}, orduan {b}",
+  "sii": "{a} baldin eta soilik baldin {b}",
+  "noEs": "ez da egia: {a}",
+  "igual": "{1} eta {2} gauza bera dira",
+  "distinto": "{1} eta {2} gauza desberdinak dira",
+  "define": "{a} honako hau esan nahi du: {b}",
+  "Dios": "Jainkoa",
+  "rel": {
+   "Antes": [
+    "{1} {2} baino lehenago hasi zen",
+    "{1} ez zen {2} baino lehenago hasi"
+   ],
+   "DuraMas": [
+    "{1}-k {2}-k baino gehiago irauten du",
+    "{1}-k ez du {2}-k baino gehiago irauten"
+   ],
+   "Crea": [
+    "{1}-k {2} sortu zuen",
+    "{1}-k ez zuen {2} sortu"
+   ],
+   "increado": [
+    "{1} sortu gabea da",
+    "{1} ez da sortu gabea"
+   ],
+   "En": [
+    "{1} {2}-n dago",
+    "{1} ez dago {2}-n"
+   ],
+   "SeConcibePor": [
+    "{1} {2}-ren bidez ulertzen da",
+    "{1} ez da {2}-ren bidez ulertzen"
+   ],
+   "Causa": [
+    "{1} {2}-ren kausa da",
+    "{1} ez da {2}-ren kausa"
+   ],
+   "AlgoEnComun": [
+    "{1}-k eta {2}-k zerbait dute amankomunean",
+    "{1}-k eta {2}-k ez dute ezer amankomunean"
+   ],
+   "EsParteDe": [
+    "{1} {2}-ren zati da",
+    "{1} ez da {2}-ren zati"
+   ],
+   "Limita": [
+    "{1}-k {2} mugatzen du",
+    "{1}-k ez du {2} mugatzen"
+   ],
+   "MasRealidad": [
+    "{1}-k {2}-k baino errealitate gehiago du",
+    "{1}-k ez du {2}-k baino errealitate gehiago"
+   ],
+   "TieneAtributo": [
+    "{1}-k {2} atributua du",
+    "{1}-k ez du {2} atributua"
+   ],
+   "AtributoSeConcibePor": [
+    "{1} atributua {2} atributuaren bidez ulertzen da",
+    "{1} atributua ez da {2} atributuaren bidez ulertzen"
+   ],
+   "EsenciaImplicaExistencia": [
+    "{1}-ren esentziak existentzia dakar berekin",
+    "{1}-ren esentziak ez dakar existentziarik berekin"
+   ],
+   "ConcebibleComoNoExistente": [
+    "{1} ez-existente gisa ulertu daiteke",
+    "{1} ezin da ez-existente gisa ulertu"
+   ],
+   "Existe": [
+    "{1} existitzen da",
+    "{1} ez da existitzen"
+   ],
+   "ModoDeAtributo": [
+    "{1} {2} atributuaren modua da",
+    "{1} ez da {2} atributuaren modua"
+   ],
+   "SigueDeAtributoAbsoluto": [
+    "{1} {2} atributuaren izaera absolututik ondorioztatzen da",
+    "{1} ez da {2} atributuaren izaera absolututik ondorioztatzen"
+   ],
+   "SigueDeModificacion": [
+    "{1} {2}-k eraldatutako atribututik ondorioztatzen da",
+    "{1} ez da {2}-k eraldatutako atribututik ondorioztatzen"
+   ],
+   "sustancia": [
+    "{1} substantzia da",
+    "{1} ez da substantzia"
+   ],
+   "modo": [
+    "{1} modu bat da",
+    "{1} ez da modu bat"
+   ],
+   "afeccion": [
+    "{1} {2}-ren afekzioa da",
+    "{1} ez da {2}-ren afekzioa"
+   ],
+   "anterior_por_naturaleza": [
+    "{1} {2} baino naturaz lehenagokoa da",
+    "{1} ez da {2} baino naturaz lehenagokoa"
+   ],
+   "finita": [
+    "{1} bere generoan finitua da",
+    "{1} ez da bere generoan finitua"
+   ],
+   "divisible": [
+    "{1} zatigarria da",
+    "{1} ez da zatigarria"
+   ],
+   "libre": [
+    "{1} askea da",
+    "{1} ez da askea"
+   ],
+   "eterno": [
+    "{1} betierekoa da",
+    "{1} ez da betierekoa"
+   ],
+   "atributo_eterno": [
+    "{1} atributua betierekoa da",
+    "{1} atributua ez da betierekoa"
+   ],
+   "causa_inmanente": [
+    "{1} {2}-ren kausa inmanentea da",
+    "{1} ez da {2}-ren kausa inmanentea"
+   ],
+   "causa_transitiva": [
+    "{1} {2}-ren kausa iragankorra da",
+    "{1} ez da {2}-ren kausa iragankorra"
+   ],
+   "contingente": [
+    "{1} kontingentea da",
+    "{1} ez da kontingentea"
+   ],
+   "finita_modo": [
+    "{1} modu finitua da",
+    "{1} ez da modu finitua"
+   ],
+   "eterno_por_atributo": [
+    "{1} bere atributuaren ondorioz betierekoa da",
+    "{1} ez da bere atributuaren ondorioz betierekoa"
+   ]
+  }
+ },
  "guia": {
   "titulo": "Zer daukazun aurrean eta nola erabili",
   "secciones": [
@@ -854,6 +1111,24 @@ const LABSPZ = {
   "props": [
    {
     "id": "Q1",
+    "pasos": [
+     {
+      "txt": "Suposa dezagun x gauzaren bat bere buruak sortu duela: Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Sortzen duena sortutakoa baino lehenago hasten da; beraz, x x baino lehenago hasi zen: Antes(x, x).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Baina ezer ez da bere burua baino lehenago hasten: ¬Antes(x, x). Kontraesana.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "Beraz, hipotesia faltsua zen: ezer ez da bere burua sortzen.",
+      "k": "fin"
+     }
+    ],
     "nombre": "1. Ezerk ez du bere burua sortzen",
     "pregunta": "Ezerk ez du bere burua <b>sortzen</b>.",
     "prueba": "Zerbaitek bere burua sortuko balu, bere burua baino lehen hasiko zen, eta ezerk ez du bere burua baino lehen hasten.",
@@ -864,6 +1139,28 @@ const LABSPZ = {
    },
    {
     "id": "Q2",
+    "pasos": [
+     {
+      "txt": "Suposa dezagun x-k y sortu zuela eta y-k x sortu zuela: Crea(x, y) ∧ Crea(y, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Orduan x y baino lehenago hasi zen, eta y x baino lehenago: Antes(x, y) ∧ Antes(y, x).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Katea eginez, x x baino lehenago hasi zen: Antes(x, x).",
+      "k": "T_transitiva"
+     },
+     {
+      "txt": "Baina ezer ez da bere burua baino lehenago hasten. Kontraesana.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "Beraz, x-k y sortzen badu, y-k ez du x sortzen.",
+      "k": "fin"
+     }
+    ],
     "nombre": "2. Sortzea ez da elkarrekikoa",
     "pregunta": "x-k y sortzen badu, <b>y-k ez du x sortzen</b>.",
     "prueba": "x y baino lehen hasi zen, eta y x baino lehen; iragankortasunaren ondorioz, x x baino lehen hasi zen, eta hori ezinezkoa da.",
@@ -875,6 +1172,20 @@ const LABSPZ = {
    },
    {
     "id": "Q3",
+    "pasos": [
+     {
+      "txt": "Abiapuntua: x-k y sortu zuen eta y-k z sortu zuen: Crea(x, y) ∧ Crea(y, z).",
+      "k": "hip"
+     },
+     {
+      "txt": "Orduan x y baino lehenago hasi zen, eta y z baino lehenago: Antes(x, y) ∧ Antes(y, z).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Katea eginez, x z baino lehenago hasi zen: Antes(x, z).",
+      "k": "T_transitiva"
+     }
+    ],
     "nombre": "3. Sortzailearen sortzailea lehenagokoa da",
     "pregunta": "x-k y sortzen badu eta y-k z sortzen badu, x <b>z baino lehen hasi zen</b>.",
     "prueba": "x y baino lehen hasi zen, eta y z baino lehen; iragankortasunaren ondorioz, x z baino lehen.",
@@ -885,6 +1196,28 @@ const LABSPZ = {
    },
    {
     "id": "Q4",
+    "pasos": [
+     {
+      "txt": "Abiapuntua: x-k y sortu zuen, eta suposa dezagun y-k x-k baino gehiago irauten duela: Crea(x, y) ∧ DuraMas(y, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Sortzen duenak sortutakoak baino gehiago irauten du: DuraMas(x, y).",
+      "k": "C_creador_dura_mas"
+     },
+     {
+      "txt": "Katea eginez, x-k x-k baino gehiago irauten du: DuraMas(x, x).",
+      "k": "D_transitiva"
+     },
+     {
+      "txt": "Baina ezerk ez du bere buruak baino gehiago irauten. Kontraesana.",
+      "k": "D_irreflexiva"
+     },
+     {
+      "txt": "Beraz, sortutakoak ez du bere sortzaileak baino gehiago irauten.",
+      "k": "fin"
+     }
+    ],
     "nombre": "4. Sortutakoak ez du bere sortzaileak baino gehiago irauten",
     "pregunta": "x-k y sortzen badu, y-k <b>ez du x-k baino gehiago irauten</b>.",
     "prueba": "x y baino gehiago irauten du (premisa eztabaidagarria); gainera y x baino gehiago iraungo balu, iragankortasunaren ondorioz x bere burua baino gehiago iraungo luke.",
@@ -902,6 +1235,28 @@ const LABSPZ = {
    },
    {
     "id": "Q6",
+    "pasos": [
+     {
+      "txt": "Suposa dezagun ezer ez dela sortu gabea: gauza bakoitzak sortzaile bat du.",
+      "k": "hip"
+     },
+     {
+      "txt": "Aukeratu gauza bat, bilatu haren sortzailea, gero sortzaile horren sortzailea, eta horrela segidan. Urrats bakoitza denboran atzera doa.",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Lehenago hasi zen zerbait baino lehenago hasi zena lehenago hasi zen: kate osoa atzera doa.",
+      "k": "T_transitiva"
+     },
+     {
+      "txt": "Mundua finitua da; beraz, katea gauza bat errepikatzen amaitzen da, eta gauza hori bere burua baino lehenago hasi izango zen. Kontraesana.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "Beraz, badago sortu gabeko zerbait. Mundu infinitu batean katea agian ez litzateke inoiz errepikatuko: horregatik Isabellek mundu finituetarako soilik frogatzen du.",
+      "k": "fin"
+     }
+    ],
     "nombre": "6. Sortu gabeko zerbait dago",
     "pregunta": "Badago <b>ezerk sortu ez duen</b> zerbait.",
     "prueba": "Mundu finitu batean ezin da egon lehenik gabeko sortzaile-katerik: dena sortua balitz, katea jarraituz lehendik ikusitako gauza batera itzuliko ginateke, eta hori bere burua baino lehen hasia izango litzateke. Isabellek mundu finituetarako frogatzen du. Mundu infinitu batean ez da balio: zenbaki natural guztietan, zenbaki bakoitza hurrengoak sortzen badu, dena sortua da eta ezer ez da sortu gabea. Horregatik «dena sortua da» ez da sartzen premisa hauekin mundu finitu batean.",
