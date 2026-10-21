@@ -94,10 +94,64 @@ const LABSPZ = {
   "mundo": "Mundua",
   "mundoTiempo": "Praktikakoa: denbora, iraupena eta sorkuntza",
   "mundoSpinoza": "Spinoza, Etika I",
+  "mundoReloj": "Denbora, definituta",
+  "ledeReloj": "Orain esaten dugu zer den denbora: uneak ordenan daude, eta gauza bakoitza une batean hasten da eta beste batean amaitzen. Lehenago hastea, gehiago irautea eta bizirik irautea ez dira erlazio solteak: uneen bidez definitzen dira. Praktika-munduan premisa gisa onartu behar zena, hemen frogatu egiten da.",
+  "notaDefsReloj": "Denbora zer den finkoa da, mundu honetan denborak hori esan nahi duelako. Sorreraren premisak, aldiz, kendu daitezke.",
+  "defsTiempoFijo": "Denbora zer den",
+  "defsReloj": "Definizioak",
+  "grupoR": "Denbora definituaren proposizioak",
+  "notaPieR": "4 gauzaraino duten munduak bilatzen dira, A, B, C eta D izenekoak, eta 4 une. «Isabellen frogatua» esan nahi du Isabelle/HOL-ek froga premisa horiekin egiaztatu duela (Mundo_tiempo_definido teoria). Proposizioa huts egiten duen mundurik aurkitzen ez bada, horrek ez du ezer frogatzen.",
+  "hayMundoR": "{n} eta {k} dituen mundu bat dago, markatutako premisa guztiak betetzen dituena eta non proposizioak huts egiten duen.",
+  "unInst": "une 1",
+  "nInst": "{n} une",
+  "sinMundoCompletoR": "Ez dago {c} gauzaraino eta {a} uneraino duen mundurik.",
+  "lyVida": "barra: existitzen den denbora",
+  "lyIncreadoR": "ertz lodia: sortu gabea",
+  "ejeInst": "uneak",
+  "hVidas": "Noiz existitzen da gauza bakoitza",
+  "fVida": "{a}: {b}. unetik {c}. unera",
+  "hRelReloj": "Lehenago, bizirik irautea eta iraupena",
+  "fSobrevive": "{a}-k {b}-ri bizirik irauten dio",
+  "errTipoI": "«{x}»-n, {n}. lekua une baterako da: erabili t, u, v edo w.",
+  "errTipoCI": "«{x}»-n, {n}. lekua gauza baterako da; t, u, v eta w uneak dira.",
+  "errComp": "«{x}»-k uneak alderatzen ditu: bi aldeetan t, u, v edo w joan behar dute.",
   "ledeTiempo": "Praktikarako mundu bat, kontua barneratzeko. Gauzak zein lehenago hasi zen, zein gehiago irauten duen eta zeinek zein sortu zuen kontuan bakarrik bereizten dira. Eta existitzeari utzi diezaiokete: zerbait sortzen duena desager daiteke bere lanak jarraitzen duen bitartean; beraz, lehenago hastea ez da gehiago irautea. Aukeratu proposizio bat eta onartzen dituzun premisak: mahaiak mundu txiki bat bilatzen du, non premisa guztiak betetzen diren eta proposizioak huts egiten duen; eta ezin bada egon, Isabellek premisa horiekin frogatu duelako, froga ematen dizu.",
   "notaDefsTiempo": "Hiru erlazio eta definizio bat, besterik ez. Premisek esaten ez dutena gerta daiteke: ezerk ez duela bere burua baino lehen hasi markatzen ez baduzu, bilatzen den munduan gerta daiteke.",
   "defsTiempo": "Erlazioak eta definizioa",
   "grupoT": "Praktikarako proposizioak",
+  "propiaNombre": "✎ Idatzi zure proposizioa",
+  "tEscribe": "Zure proposizioa, logikan",
+  "phEscribe": "Adibidez: ∀x y. Crea(x, y) → Antes(x, y)",
+  "tTeclado": "Sinboloak",
+  "tVocabulario": "Mundu honetako erlazioak eta definizioak",
+  "atajos": "Hauek ere tekla ditzakezu: ~ (ez), & (eta), | (edo), -> (baldin... orduan), <-> (baldin eta soilik baldin), != (desberdina), «{t}» (∀), «{h}» (∃) eta «{n}» (¬). Aldagaiak letra xeheak dira: x, y, z…",
+  "palTodo": "guztiak",
+  "palHay": "badago",
+  "palNo": "ez",
+  "hasEscrito": "Hau idatzi duzu",
+  "libresTodo": "«guztiak» edo «badago» ez daramaten aldagaiak ({x}) edozertarako balio dute: «guztiak»-ekin hasiko balitz bezala da.",
+  "modoSigue": "Markatutako premisetatik ondorioztatzen al da?",
+  "modoPosible": "Gerta al daiteke markatutako premisekin?",
+  "sinIsabelle": "Hau zuk idazten duzu, beraz Isabellek ez du berrikusi: mahaiak mundu txikiak bakarrik bilatzen ditu. Huts egiten duen bat aurkitzen ez badu, horrek ez du frogatzen.",
+  "tTusPremisas": "Zure premisak",
+  "phPremisa": "Idatzi premisa bat; adibidez: ∀x. ¬Crea(x, x)",
+  "bAnadir": "Gehitu",
+  "bQuitar": "Kendu",
+  "noHayPropias": "Oraindik ez duzu bat ere idatzi.",
+  "errVacio": "Idatzi formula bat.",
+  "errSimbolo": "Ez dut ulertzen «{x}».",
+  "errNombre": "Ez dut ezagutzen «{x}». Mundu honetan hauek erabil ditzakezu: {y}.",
+  "errArgs": "«{x}» horrek {n} eraman behar ditu parentesi artean, komaz bereizita.",
+  "errFaltaParen": "«{x}» horren ondoren parentesiak datoz gauzekin: {x}(x, y).",
+  "errTipo": "«{x}» horretan, {n}. lekua atributu baterako da: erabili a edo b.",
+  "errTipoC": "«{x}» horretan, {n}. lekua gauza baterako da; a eta b atributuak dira.",
+  "errEsperabaCosa": "«{y}» barruan aldagaiak doaz (x, y, z…), ez «{x}».",
+  "errParen": "Parentesi bat itxi gabe dago.",
+  "errAbre": "Parentesi itxi bat soberan dago.",
+  "errSobra": "Ez dakit zer egin «{x}» horrekin. ∧, ∨ edo → bat falta al da?",
+  "errCuant": "{x} ondoren aldagaiak datoz: {x}x. …",
+  "errEsperaba": "Hemen formula bat espero nuen, ez «{x}».",
+  "errFin": "Formula erdizka geratu da: zerbait falta da amaieran.",
   "selloNada": "Premisa bateraezinak",
   "selloPosible": "Posible da",
   "puedeOcurrir": "Gerta daiteke",
@@ -805,7 +859,31 @@ const LABSPZ = {
   "distinto": "{1} eta {2} gauza desberdinak dira",
   "define": "{a} honako hau esan nahi du: {b}",
   "Dios": "Jainkoa",
+  "paraTodoI": "{v} une orotarako",
+  "paraTodosI": "{v} une guztietarako",
+  "hayInst": "badago {v} uneren bat, non",
+  "hayInsts": "badaude {v} une batzuk, non",
+  "hayMixtoI": "badago {c} gauzaren bat eta {a} uneren bat, non",
+  "noHayInst": "ez dago {v} unerik, non",
+  "menorI": "{1} {2} baino lehenagokoa da",
+  "menorIgI": "{1} {2} baino lehenagokoa edo haren berdina da",
   "rel": {
+   "Empieza": [
+    "{1} {2} unean hasten da",
+    "{1} ez da {2} unean hasten"
+   ],
+   "Acaba": [
+    "{1} {2} unean amaitzen da",
+    "{1} ez da {2} unean amaitzen"
+   ],
+   "Sobrevive": [
+    "{1}-k {2}-ri bizirik irauten dio",
+    "{1}-k ez dio {2}-ri bizirik irauten"
+   ],
+   "ExisteEn": [
+    "{1} {2} unean existitzen da",
+    "{1} ez da {2} unean existitzen"
+   ],
    "Antes": [
     "{1} {2} baino lehenago hasi zen",
     "{1} ez zen {2} baino lehenago hasi"
@@ -1017,9 +1095,9 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Zergatik dauden bi mundu",
+    "titulo": "Zergatik dauden hiru mundu",
     "parrafos": [
-     "Praktikakoa txikia da nahita: edonork uler ditzakeen hiru erlazio, kontua barneratzeko. Spinozarenak <em>Etika</em>ren I. zatia formalizatzen du. Han, H_-rekin hasten diren premisak Spinozak agerikotzat jotzen dituenak dira, eta idazten ez dituenak: geuk gehitu behar izan ditugu bere frogak funtziona dezaten. Bat faltsua iruditzen bazaizu, kendu eta begiratu zer uzten den ondorioztatzeari."
+     "Praktikakoa txikia da nahita: edonork uler ditzakeen hiru erlazio, kontua barneratzeko, nahiz eta denbora zer den esan gabe uzten duen. Denbora definituarenak esaten du: uneekin, lehenago hastea, gehiago irautea eta bizirik irautea definitzen dira, eta lehen premisa ziren horiek teorema bihurtzen dira. Spinozarenak <em>Etika</em>ren I. zatia formalizatzen du. Han, H_-rekin hasten diren premisak Spinozak agerikotzat jotzen dituenak dira, eta idazten ez dituenak: geuk gehitu behar izan ditugu bere frogak funtziona dezaten. Bat faltsua iruditzen bazaizu, kendu eta begiratu zer uzten den ondorioztatzeari."
     ]
    }
   ],
@@ -1065,14 +1143,196 @@ const LABSPZ = {
   "tRecorrido": "Hasteko ibilbide bat",
   "recorrido": [
    "Praktikako mundua, 2. proposizioa. Sakatu «Ondorioztatzen al da?» dagoen bezala. Premisa bat falta da: begiratu kontraeredua eta esan zein.",
+   "1. proposizioa. Bi bide daude. Markatu soilik «sortzaileak gehiago irauten du» eta «ezerk ez du bere burua baino gehiago irauten»: ondorioztatzen da? Alderatu froga denboraren bidezkoarekin. Zein iruditzen zaizu sendoagoa?",
    "4. proposizioa. Premisa eztabaidagarririk gabe dator eta kontraeredu bat ateratzen da: zein kasu errealek dauka haren antza? Gero markatu eta probatu berriro.",
    "5. proposizioa. Sortutakoak bere sortzaileak baino gehiago iraun al dezake? Begiratu mahaiak eraikitzen duen mundua eta gero markatu premisa eztabaidagarria.",
    "6. proposizioa. Premisa bateragarri guztiak markatuta dator, eta, hala ere, ez da ondorioztatzen. Zergatik?",
    "7. proposizioa. Sakatu «Guztiak». Zer esaten dizu mahaiak? Zergatik ez da «dena sortua izan da» gainerakoekin sartzen?",
    "8. proposizioa. Zer gehitu beharko litzateke sortu gabeko bakarra egon dadin?",
    "9. proposizioa. Gauza batek bi sortzaile izan ditzake? Zenbatu zenbat gauza behar dituen munduak eta gero markatu «Ezerk ez du bi sortzaile».",
+   "«Denbora, definituta» munduan, 9. eta 10. proposizioak: zeri uko egingo zenioke dena sortzaile batek izan dezan, sortzen duenak lehenago hastea ala denborak hasiera bat izatea? Zer esango luke Spinozak bere burua sortzen duen gauzaz?",
+   "Pasa zaitez «Denbora, definituta» mundura, 5. eta 6. proposizioetara. Zertan bereizten dira bizirik irautea eta gehiago irautea? Begiratu barrei. Gero 7.a: zergatik ez da nahikoa bizirik irautea gehiago irauteko?",
+   "Goitibeherako zerrendaren amaieran, «✎ Idatzi zure proposizioa». Idatzi logikan «zerbait sortzen duena sortu gabea da» eta begiratu ondorioztatzen den. Ez bada, zein premisa behar litzateke zuk jarrita? Gehitu «Zure premisak» atalean.",
    "Joan Spinozaren mundura, 5. proposizioa. Markatuta datorren premisarekin kontraeredu bat ateratzen da, Leibnizena. Zein premisa falta da eta zer dio?",
    "14. proposizioa. Kendu banan-banan Isabellek erabilitako premisak. Zein iruditzen zaizu eztabaidagarriena?"
+  ]
+ },
+ "reloj": {
+  "fijas": [
+   {
+    "id": "F_instantes",
+    "origen": "Denbora",
+    "texto": "Uneak ordenan daude: 0, 1, 2… Denborak hasiera bat du, 0. unea."
+   },
+   {
+    "id": "F_vida",
+    "origen": "Denbora",
+    "texto": "Gauza bakoitza une bakar batean hasten da eta une bakar batean amaitzen da, eta ezer ez da hasi baino lehen amaitzen."
+   }
+  ],
+  "defs": [
+   {
+    "id": "Antes",
+    "origen": "Definizioa",
+    "texto": "x y baino lehenago hasten da: haren hasiera-unea lehenagokoa da."
+   },
+   {
+    "id": "DuraMas",
+    "origen": "Definizioa",
+    "texto": "x-k y-k baino gehiago irauten du: denbora gehiagoz existitzen da, haren barra luzeagoa da."
+   },
+   {
+    "id": "Sobrevive",
+    "origen": "Definizioa",
+    "texto": "x-k y-ri bizirik irauten dio: geroago amaitzen da, y jada existitzen ez denean ere existitzen jarraitzen du."
+   },
+   {
+    "id": "ExisteEn",
+    "origen": "Definizioa",
+    "texto": "x t unean existitzen da: t haren hasieraren eta amaieraren artean dago."
+   },
+   {
+    "id": "increado",
+    "origen": "Definizioa",
+    "texto": "Sortu gabea da ezerk sortu ez duena."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "k",
+    "nom": "Kreazioa"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "K_existe",
+    "grupo": "k",
+    "que": "Sortzen duena sortutakoa hasten den unean existitzen da."
+   },
+   {
+    "id": "K_antes",
+    "grupo": "k",
+    "que": "Sortzen duena sortutakoa baino lehenago hasi zen."
+   },
+   {
+    "id": "K_no_despues",
+    "grupo": "k",
+    "que": "Sortzen duena ez da sortutakoa baino geroago hasten: hasten den une berean sor dezake, edo bere burua sor dezake."
+   },
+   {
+    "id": "K_un_creador",
+    "grupo": "k",
+    "que": "Ezerk ez du bi sortzaile."
+   },
+   {
+    "id": "K_todo_creado",
+    "grupo": "k",
+    "que": "Dena zerbaitek sortu du."
+   }
+  ],
+  "props": [
+   {
+    "id": "R1",
+    "nombre": "1. Ezer ez da bere burua baino lehenago hasten",
+    "pregunta": "Ezer ez da bere burua baino <b>lehenago hasten</b>.",
+    "prueba": "Lehenago hastea lehenagoko une batean hastea da, eta ez dago bere burua baino lehenagokoa den unerik. Denbora zer den horretatik ateratzen da, premisarik gabe: praktika-munduan onartu beharra zegoen."
+   },
+   {
+    "id": "R2",
+    "nombre": "2. «Lehenago» iragankorra da",
+    "pregunta": "x y baino lehenago hasten bada, eta y z baino lehenago, x z baino <b>lehenago hasten</b> da.",
+    "prueba": "x-ren hasiera-unea y-renaren aurrekoa bada, eta y-renak z-renaren aurrekoa, x-renak z-renaren aurrekoa da: horrela daude ordenatuta uneak. Hemen ere ez da premisarik behar."
+   },
+   {
+    "id": "R3",
+    "nombre": "3. «Lehenago» ez da elkarrekikoa",
+    "pregunta": "x y baino lehenago hasten bada, y ez da x baino <b>lehenago hasten</b>.",
+    "prueba": "Bi unek ezin dute bakoitza bestearen aurrekoa izan. Berriro ere, premisarik gabe."
+   },
+   {
+    "id": "R4",
+    "nombre": "4. Ezerk ez du bere burua sortzen",
+    "pregunta": "Ezerk ez du bere burua <b>sortzen</b>.",
+    "pasos": [
+     {
+      "txt": "Suposa dezagun x gauzaren bat bere buruak sortu duela: Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Sortzen duena sortutakoa baino lehenago hasi zen, beraz x x baino lehenago hasi zen: Antes(x, x).",
+      "k": "K_antes"
+     },
+     {
+      "txt": "Baina ezer ez da bere burua baino lehenago hasten (1. proposizioa), eta hori hemen ez da premisa bat: teorema bat da. Kontraesana.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "K_antes": "Hori gabe, ezerk ez dio eragozten gauza bati bere burua sortzea hasten den unean bertan."
+    }
+   },
+   {
+    "id": "R5",
+    "posible": true,
+    "nombre": "5. Sortutakoak bere sortzailea gainditu dezake bizirik",
+    "pregunta": "Sortutako zerbait egon daiteke, bere sortzailea jada existitzen ez denean <b>existitzen jarraitzen duena</b>.",
+    "nota": "Begiratu barrei: sortzaileak denbora batez existitzen da, existitzen den bitartean sortzen du eta gero desagertzen da; sortutakoak jarraitzen du. Bizirik irautea geroago amaitzea da, ez gehiago irautea.",
+    "notaNo": "Premisa hauekin ezin da gertatu."
+   },
+   {
+    "id": "R6",
+    "posible": true,
+    "nombre": "6. Sortutakoak bere sortzaileak baino gehiago iraun dezake",
+    "pregunta": "Sortutako zerbait egon daiteke, bere sortzaileak baino <b>denbora gehiagoz existitzen dena</b>.",
+    "nota": "Gehiago irautea barra luzeagoa izatea da. Ez da bizirik irautea bezala: alderatu 5. proposizioarekin.",
+    "notaNo": "Premisa hauekin ezin da gertatu."
+   },
+   {
+    "id": "R7",
+    "nombre": "7. Bizirik irauten duenak gehiago irauten du",
+    "pregunta": "x-k y-ri bizirik irauten badio, x-k y-k baino <b>gehiago irauten du</b>.",
+    "nota": "Ez da ondorioztatzen: berandu has daiteke eta pixka bat geroago amaitu. Barra eskuinerago amaitzen da, baina laburragoa da."
+   },
+   {
+    "id": "R8",
+    "nombre": "8. Lehenago hasten eta geroago amaitzen denak gehiago irauten du",
+    "pregunta": "x y baino lehenago hasten bada eta y-ri bizirik irauten badio, x-k y-k baino <b>gehiago irauten du</b>.",
+    "prueba": "x-ren barra y-renaren aurretik hasten da eta ondoren amaitzen da: hura barnean hartzen du, beraz luzeagoa da. Denbora zer den horretatik ateratzen da, premisarik gabe."
+   },
+   {
+    "id": "R9",
+    "nombre": "9. Sortu gabeko zerbait badago",
+    "pregunta": "Badago <b>ezerk sortu ez duen</b> zerbait.",
+    "pasos": [
+     {
+      "txt": "Demagun dena sortzaile batek sortua dela.",
+      "k": "hip"
+     },
+     {
+      "txt": "Sortzen duena lehenago hasi zen: sortzaile bakoitza sortzen duenaren hasiera-unea baino lehenagoko une batean hasten da.",
+      "k": "K_antes"
+     },
+     {
+      "txt": "Baina denborak hasiera bat du: lehenen hasten denak ezin du inor aurretik izan. Kontraesana.",
+      "k": "fin"
+     },
+     {
+      "txt": "Beraz, hiru gauza hauek ez dira batera egokitzen: dena sortzaile batek izatea, sortzen duenak lehenago hastea eta denborak hasiera bat izatea. Azken biak onartzen badira, sortu gabeko zerbait badago, gauza-kopuru edozeinekin, baita infinituarekin ere: hala frogatzen du Isabellek. Baina dena sortzaile batek izatea nahi duenak uko egin diezaioke sortzen duenak lehenago hastea: begiratu 10. proposizioa.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "K_antes": "Hori gabe, sortzailea sortutakoa baino aldi berean edo geroago has daiteke, eta dena sortua izan daiteke: A-k B sortzen du eta B-k A."
+    }
+   },
+   {
+    "id": "R10",
+    "posible": true,
+    "nombre": "10. Dena sortzaile batek izan dezake",
+    "pregunta": "<b>Dena</b> zerbaitek sortua izan daiteke.",
+    "nota": "«Sortzen duena lehenago hasi zen» gabe, gerta daiteke. «Sortzen duena ez da geroago hasten» onartuz, zerbaitek sor dezake sortutakoa hasten den une berean, edo bere burua sor dezake. Bere burua sortzen duen gauza bere buruaren kausa da, Spinozaren <em>Etika</em>ren hasierako <em>causa sui</em> (1. definizioa).",
+    "notaNo": "«Sortzen duena lehenago hasi zen» onartuz, ezin da gertatu: 9. proposizioa da. Dena sortzaile batek izan dezan, hari uko egin behar zaio."
+   }
   ]
  },
  "tiempo": {
@@ -1157,6 +1417,25 @@ const LABSPZ = {
   "props": [
    {
     "id": "Q1",
+    "pruebaAlt": "Iraupenaren bidez: zerbaitek bere burua sortuko balu, bere burua baino gehiago iraungo luke, eta ezerk ez du bere burua baino gehiago irauten.",
+    "pasosAlt": [
+     {
+      "txt": "Suposa dezagun x gauzaren bat bere buruak sortu duela: Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Sortzen duenak sortutakoak baino gehiago irauten du; beraz, x-k x-k baino gehiago irauten du: DuraMas(x, x).",
+      "k": "C_creador_dura_mas"
+     },
+     {
+      "txt": "Baina ezerk ez du bere burua baino gehiago irauten: ¬DuraMas(x, x). Kontraesana.",
+      "k": "D_irreflexiva"
+     },
+     {
+      "txt": "Beraz, ezerk ez du bere burua sortzen. Bide hau premisa eztabaidagarri batean oinarritzen da: kentzen baduzu, erortzen da, baina denboraren bidezkoa geratzen da.",
+      "k": "fin"
+     }
+    ],
     "pasos": [
      {
       "txt": "Suposa dezagun x gauzaren bat bere buruak sortu duela: Crea(x, x).",
