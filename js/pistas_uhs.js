@@ -2,6 +2,7 @@
 const PISTAS = [
  {
   "id": "hf-caverna",
+  "ilustre": "platon",
   "subject": "hf",
   "tema": "6. gaia · Platon",
   "unidad": "hf-platon",
@@ -243,7 +244,508 @@ const PISTAS = [
   }
  },
  {
+  "id": "platon-alma",
+  "ilustre": "platon",
+  "subject": "hf",
+  "tema": "7. gaia · Platon: arima",
+  "unidad": "hf-antropologia",
+  "materia": "Filosofia · Platon",
+  "titulo": "Nolakoa da arima Platonen arabera, eta zer da justua izatea?",
+  "lede": "USEn gehien erori den atala: arimaren hiru atalak, haien bertuteak eta hirian duten islada. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zein dira arimaren hiru atalak Platonen arabera, eta zer egiten du bakoitzak?",
+    "repaso": [
+     "Izendatu al ditut hiru atalak: arrazionala (<em>logistikón</em>), suminkorra (<em>thymoeidés</em>) eta gutiziatsua (<em>epithymetikón</em>)?",
+     "Esan al dut zer egiten duen bakoitzak: ezagutu eta gidatu, justua kemenez defendatu, plazera eta materiala bilatu?",
+     "Azaldu al dut argudioa: gure barruan bulkadak talka egiten dute, beraz arima ez da gauza bakarra?"
+    ],
+    "intro": [
+     "Pentsa ezazu egarri handiko norbait, kutsatuta dagoela dakien ur-baso baten aurrean. Haren barruko zerbaitek edan nahi du eta beste zerbaitek ezetz esaten dio. Platon halako eszena batetik abiatzen da."
+    ],
+    "pistas": [
+     "Kokatzeko: Platonek ikusten du gure barruan <strong>bulkadak talka egiten dutela</strong>. Zerbaitek nahi badu eta beste zerbaitek aldi berean aurre egiten badio, arima ezin da gauza bakarra izan.",
+     "Atal batek <strong>arrazoitzen</strong> du eta zer komeni den kalkulatzen du; beste batek <strong>desiratzen</strong> du: jan, edan, plazera, dirua.",
+     "Hirugarren bat ere badago, arrazoia ez eta desira ere ez dena: <strong>kemena</strong>, bidegabekeriaren aurrean haserretzen eta ohorea defendatzen duen atala. Arrazoiaren alde jartzen da normalean.",
+     "<em>Fedron</em> irudi batekin kontatzen du: <strong>gurdizain</strong> bat (arrazoia) bi zaldi hegodun dituen gurdi bat gidatzen; bata noblea (suminkorra) eta bestea errebeldea (gutiziatsua)."
+    ],
+    "comprobacion": {
+     "pregunta": "Arimaren zein atal haserretzen da bidegabekeriaren aurrean eta arrazoiarekin elkartu ohi da?",
+     "opciones": [
+      [
+       "Atal suminkorra (<em>thymoeidés</em>).",
+       true
+      ],
+      [
+       "Atal gutiziatsua (<em>epithymetikón</em>).",
+       false,
+       "Hori desiren atala da: jan, edan, plazera, aberastasuna.",
+       "g-alma-concupiscible"
+      ],
+      [
+       "Atal arrazionala (<em>logistikón</em>).",
+       false,
+       "Arrazoiak ezagutzen eta gidatzen du; haserretzen dena eta bere indarra ematen diona beste bat da.",
+       "g-alma-racional"
+      ],
+      [
+       "Bat ere ez: Platonentzat arima bakarra da.",
+       false,
+       "Hain zuzen ere bulkaden talkak darama hiru atal bereiztera.",
+       "g-las-tres-partes-del-alma"
+      ]
+     ],
+     "ok": "Ondo: kemena (<em>thymós</em>) arrazoiaren aliatu naturala da.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Talka egiten duten bi atal",
+      "glosario": [
+       "g-alma-racional",
+       "g-alma-concupiscible"
+      ],
+      "cita": {
+       "texto": "«Arimak arrazoitzeko erabiltzen duena arrazionala deituko dugu; eta maitatzeko, goseak eta egarriak izateko eta gainerako desirengatik nahasteko erabiltzen duena, irrazionala eta gutiziatsua.»",
+       "fuente": "Platon, <em>Errepublika</em> IV, 439d (grezieratik itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, zer egiten du arimaren atal gutiziatsuak?",
+       "opciones": [
+        [
+         "Maitatzen du, goseak eta egarriak ditu eta desirengatik nahasten da.",
+         true
+        ],
+        [
+         "Arrazoitzen du eta zer komeni den kalkulatzen du.",
+         false,
+         "Hori atal arrazionalak egiten du, testuak lehenik aipatzen duenak."
+        ],
+        [
+         "Bidegabekeriaren aurrean haserretzen da.",
+         false,
+         "Hori atal suminkorra da, zeina zati honek oraindik aipatzen ez baitu."
+        ],
+        [
+         "Ideiak gogoratzen ditu.",
+         false,
+         "Ideien oroitzapena (<em>anámnesis</em>) arrazoiaren kontua da, ez desirena."
+        ]
+       ],
+       "ok": "Zuzen: desiren atala da.",
+       "mal": "Irakurri berriro esaldiaren bigarren erdia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Hiru atal, hiru funtzio",
+      "glosario": [
+       "g-las-tres-partes-del-alma",
+       "g-alma-irascible"
+      ],
+      "definicion": [
+       "<strong>Arrazionala (<em>logistikón</em>)</strong> → egia ezagutzen du eta arima osoa gidatzen du. <em>Timeon</em>, Platonek buruan kokatzen du.",
+       "<strong>Suminkorra (<em>thymoeidés</em>)</strong> → kemena: bidegabekeriaren aurrean haserretzen da eta ohorea defendatzen du. Arrazoiaren aliatua. Bularrean.",
+       "<strong>Gutiziatsua (<em>epithymetikón</em>)</strong> → gorputzaren eta aberastasunaren desirak. Sabelean.",
+       "<strong><em>Fedroren</em> gurdi hegodunak</strong> → gurdizaina arrazoia da; zaldi noblea, suminkorra; errebeldea, gutiziatsua."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Gurdi hegodunaren irudian, nor da gurdizaina?",
+       "opciones": [
+        [
+         "Arrazoia, zeinak bi zaldiak gidatu behar dituen.",
+         true
+        ],
+        [
+         "Desira, indar handiagoz tiratzen duena.",
+         false,
+         "Desira zaldi errebeldea da, ez gidariak."
+        ],
+        [
+         "Gorputza, arima garraiatzen duena.",
+         false,
+         "Irudia osorik arimarena da: gurdizaina eta zaldiak haren atalak dira."
+        ],
+        [
+         "Jainkoak, gure bizitza zuzentzen dutenak.",
+         false,
+         "Irudian jainkoek beren gurdi propioa dute; giza arimaren gurdizaina bere arrazoia da."
+        ]
+       ],
+       "ok": "Zuzen: arrazoiak eusten dizkie bridei.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zer da justizia arimaren barruan, eta zer lotura du hiri justuaren klaseekin?",
+    "repaso": [
+     "Esan al dut atal bakoitzaren bertutea: jakinduria (arrazoia), ausardia (suminkorra) eta neurritasuna?",
+     "Definitu al dut justizia atal bakoitzak berea egitea gisa, arrazoia agintean dela: hiruren harmonia?",
+     "Lotu al ditut hiru atalak hiriaren hiru klaseekin: agintariak, zaindariak eta ekoizleak?"
+    ],
+    "intro": [
+     "<em>Errepublikan</em>, Platonek justizia lehenik hirian bilatzen du, «handiagoa eta ikusten errazagoa» delako, eta gero arimaren barruan. Pentsa zer duten komunean."
+    ],
+    "pistas": [
+     "Gogoratu: arimaren atal bakoitzak bere <strong>bertutea</strong> du, ondo egoteko bere modua. Arrazoiak, <strong>jakinduria</strong>; suminkorrak, <strong>ausardia</strong>.",
+     "<strong>Neurritasuna</strong> atal guztien akordioa da arrazoiak agintzeko; batez ere, desirak gida daitezen uztea.",
+     "Eta <strong>justizia</strong>? Ez da atal baten bertutea: <strong>atal bakoitzak berea egitea</strong> da, besteenetan sartu gabe. Multzoaren harmonia da.",
+     "Hiri justuak egitura bera du: <strong>agintariak</strong> (arrazoia, jakinduria), <strong>zaindariak</strong> (kemena, ausardia) eta <strong>ekoizleak</strong> (desirak). Justua da klase bakoitzak berea egiten duenean."
+    ],
+    "comprobacion": {
+     "pregunta": "Platonen arabera, zer da justizia arimaren barruan?",
+     "opciones": [
+      [
+       "Atal bakoitzak berea egitea, arrazoia agintean dela: hiruren harmonia.",
+       true
+      ],
+      [
+       "Arrazoiak desirak ezabatzea.",
+       false,
+       "Platonek ez ditu desirak ezabatu nahi, arrazoiari obeditzea baizik.",
+       "g-templanza"
+      ],
+      [
+       "Atal guztiek berdin agintzea.",
+       false,
+       "Harmonia ez da aginte berdintasuna: arrazoiak gidatu behar du.",
+       "g-justicia"
+      ],
+      [
+       "Bakoitzari legearen arabera merezi duena ematea.",
+       false,
+       "Hori legezko justizia litzateke; <em>Errepublikan</em> justizia barne-ordena da.",
+       "g-justicia"
+      ]
+     ],
+     "ok": "Hain zuzen: justizia hiru atalen ordena da.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Arima eta hiria",
+      "titulo": "Berea egitea",
+      "glosario": [
+       "g-justicia",
+       "g-sabiduria",
+       "g-valentia",
+       "g-templanza"
+      ],
+      "cita": {
+       "texto": "«Berea egitea eta gauza askotan ez sartzea da justizia.»",
+       "fuente": "Platon, <em>Errepublika</em> IV, 433a (grezieratik itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Arima</strong> → arrazionala (jakinduria, <em>sophía</em>), suminkorra (ausardia, <em>andreía</em>), gutiziatsua. Neurritasuna (<em>sophrosýne</em>) guztien akordioa da, arrazoiak agintzeko.",
+       "<strong>Hiria</strong> → agintari-filosofoak (jakinduria), zaindariak edo laguntzaileak (ausardia) eta ekoizleak. Laguntzaileek ez dute zientziarik (<em>epistéme</em>), beldur izan behar denari buruzko iritzi zuzena baizik (430b).",
+       "<strong>Justizia</strong> (<em>dikaiosýne</em>) → bietan, atal bakoitzak berea egitea. Horregatik, Platonen etika eta politika galdera bera dira, txikian eta handian ikusita."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Hiriaren zein klase dagokio arimaren atal suminkorrari?",
+       "opciones": [
+        [
+         "Zaindariak edo laguntzaileak, zeinen bertutea ausardia den.",
+         true
+        ],
+        [
+         "Agintari-filosofoak.",
+         false,
+         "Agintariak arrazoiari eta jakinduriari dagozkie."
+        ],
+        [
+         "Ekoizleak: nekazariak, artisauak eta merkatariak.",
+         false,
+         "Ekoizleak desiren atalari dagozkio."
+        ],
+        [
+         "Bat ere ez: hiriak ez du zerikusirik arimarekin.",
+         false,
+         "Platonentzat hiria «handian» ikusitako arima da."
+        ]
+       ],
+       "ok": "Zuzen: arimaren kemena, hiriaren zaindariak.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Orain arima eta justizia azal ditzakezu Platonengan",
+   "parrafos": [
+    "Arimak hiru atal ditu: arrazionala (jakinduria), suminkorra (ausardia) eta gutiziatsua; neurritasuna haien akordioa da, arrazoiak agintzeko. Justizia atal bakoitzak berea egitea da, eta hiri justuak egitura hori errepikatzen du agintariekin, zaindariekin eta ekoizleekin.",
+    "USErako: lotu arimaren teoria hau kobazuloarekin (arrazoia hezitzea) eta filosofoen gobernuarekin."
+   ],
+   "siguiente": "hf-caverna"
+  }
+ },
+ {
+  "id": "descartes-metodo",
+  "ilustre": "descartes",
+  "subject": "hf",
+  "tema": "14. gaia · Descartes",
+  "unidad": "hf-racionalismo",
+  "materia": "Filosofia · Descartes",
+  "titulo": "Zer metodo proposatzen du Descartesek, eta nola bizi da zalantzan dagoen bitartean?",
+  "lede": "«Metodoaren diskurtsoaren» II. eta III. atalak, USEko irakurgaitik: pentsatzeko lau arau eta bizitzeko lau maxima. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zein dira metodoaren lau arauak, eta zergatik hartzen ditu matematikatik?",
+    "repaso": [
+     "Izendatu al ditut lau arauak: ebidentzia, analisia, sintesia (ordena) eta zerrendapena?",
+     "Azaldu al dut lehenengoa: ebidentziaz ezagutzen ez den ezer egiatzat ez onartzea, presa eta aurreiritzia saihestuz?",
+     "Esan al dut zergatik matematika: froga zehatzetara iristea lortu zuen jakintza bakarra da, arrazoi-kate luzeekin?"
+    ],
+    "intro": [
+     "Descartesek kexatzen da, urte askoz ikasi ondoren, zalantzak baino ez dituela aurkitu. Metodo bat bilatzea erabakitzen du. Pentsa nola ebazten den geometriako arazo zail bat."
+    ],
+    "pistas": [
+     "Kokatzeko: Descartesek <strong>arau gutxi</strong> nahiago ditu, ondo betetzen direnak, asko eta gaizki jarraitzen direnak baino, errespetatzen diren lege gutxiko Estatu bat bezala.",
+     "Lehenengo araua <strong>ebidentziarena</strong> da: gogoan argi eta bereizki aurkezten ez den ezer ez onartzea.",
+     "Hurrengo biak desmuntatzea eta berriro muntatzea bezalakoak dira: zailtasun bakoitza zatitan <strong>banatzea</strong> (analisia) eta pentsamenduak sinpleenetik konplexuenera <strong>ordenatzea</strong> (sintesia).",
+     "Laugarrena, dena <strong>zerrendatzea</strong> eta berrikustea, ezer ez ahazteko. Eredua geometrak dira, haien «arrazoi-kate luzeak» sinple eta seguruekin."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer eskatzen du metodoaren lehenengo arauak?",
+     "opciones": [
+      [
+       "Ebidentziaz ezagutzen ez den ezer egiatzat ez onartzea, presa eta aurreiritzia saihestuz.",
+       true
+      ],
+      [
+       "Zailtasun bakoitza ahalik eta zati gehienetan banatzea.",
+       false,
+       "Hori bigarren araua da, analisiarena.",
+       "g-reglas-del-metodo"
+      ],
+      [
+       "Antzinako jakintsuek diotena sinestea.",
+       false,
+       "Guztiz kontrakoa: Descartesek ebidentzian bakarrik oinarritu nahi du, ez autoritatean.",
+       "g-racionalismo"
+      ],
+      [
+       "Dena esperimentuekin egiaztatzea.",
+       false,
+       "Descartesen eredua matematika da, ez esperimentua.",
+       "g-intuicion"
+      ]
+     ],
+     "ok": "Ondo: ebidentzia sarrera-atea da.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Lehenengo araua",
+      "glosario": [
+       "g-reglas-del-metodo",
+       "g-ideas-claras-y-distintas"
+      ],
+      "cita": {
+       "texto": "«Lehenengoa zen ebidentziaz egiatzat ezagutzen ez nuen ezer inoiz egiatzat ez onartzea; hau da, presa eta aurreiritzia arretaz saihestea, eta nire epaietan nire gogoari hain argi eta bereizki aurkezten zitzaiona baino ez sartzea, non ezin izango bainuen zalantzan jartzeko aukerarik izan.»",
+       "fuente": "Descartes, <em>Metodoaren diskurtsoa</em>, II (AT VI 18; frantsesetik itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, zer saihestu behar da?",
+       "opciones": [
+        [
+         "Presa (denbora iritsi aurretik epaitzea) eta aurreiritzia (aurrez hartutako iritziak).",
+         true
+        ],
+        [
+         "Zalantza, pentsamendua paralizatzen duelako.",
+         false,
+         "Alderantziz: irizpidea da zalantzatzeko aukerarik ez gelditzea."
+        ],
+        [
+         "Matematika, abstraktuegia delako.",
+         false,
+         "Testuak ez du matematika saihesteaz hitz egiten; hura da bere eredua."
+        ],
+        [
+         "Zentzumenak, beti engainatzen dutelako.",
+         false,
+         "Hori IV. atalean landuko du; hemen presaz eta aurreiritziaz hitz egiten da."
+        ]
+       ],
+       "ok": "Hain zuzen: ez presarik, ez aurreiritzirik.",
+       "mal": "Irakurri berriro lehenengo esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Lau arau",
+      "glosario": [
+       "g-reglas-del-metodo",
+       "g-intuicion",
+       "g-deduccion"
+      ],
+      "definicion": [
+       "<strong>Ebidentzia</strong> → argi eta bereizki aurkezten dena bakarrik onartzea, zalantzatzeko aukerarik gabe.",
+       "<strong>Analisia</strong> → zailtasun bakoitza hobeto ebazteko behar adina zatitan banatzea.",
+       "<strong>Sintesia (ordena)</strong> → pentsamenduak ordenaz eramatea, sinpleenetik konplexuenera.",
+       "<strong>Zerrendapena</strong> → zerrenda hain osoak eta berrikuspen hain orokorrak egitea, non ezer ez den ahazten."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zergatik hartzen du Descartesek bere metodoa matematikatik?",
+       "opciones": [
+        [
+         "Matematikariak baitira froga zehatz eta ebidenteetara iristea lortu zuten bakarrak.",
+         true
+        ],
+        [
+         "Ezagutza guztia kontuak egitean datzalako.",
+         false,
+         "Ez du esaten dena kontuak direnik: arrazoitzeko modua imitatzen du, ez edukia."
+        ],
+        [
+         "Bere garaiko unibertsitateak hala agintzen zuelako.",
+         false,
+         "Descartes, hain zuzen, eskolek irakasten zutenetik aldentzen da."
+        ],
+        [
+         "Matematikak ez duelako araurik behar.",
+         false,
+         "Alderantziz: haietatik ateratzen ditu arauak."
+        ]
+       ],
+       "ok": "Zuzen: filosofia osorako geometriaren ziurtasuna nahi du.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Descartesek dena zalantzan jartzen badu, nola bizi da bitartean? Zer da behin-behineko morala?",
+    "repaso": [
+     "Azaldu al dut etxearen irudia: berreraikitzen den bitartean bizitzeko beste bat behar dela?",
+     "Izendatu al ditut maximak: legeei eta ohiturei men egitea, sendo eta ebatzia izatea, fortuna baino lehen bere burua menderatzea eta arrazoia lantzea?",
+     "Erabili al dut basoan galdutako ibiltarien adibidea sendotasuna azaltzeko?"
+    ],
+    "intro": [
+     "Zalantza metodikoa ezagutzarako da, ez eguneroko bizitzarako: jaten, erabakitzen eta besteekin tratatzen jarraitu behar da. Pentsa zer egingo lukeen bere etxea eraisten duen batek, berriro eraikitzeko."
+    ],
+    "pistas": [
+     "Gogoratu III. ataleko irudia: bere etxea berreraikitzeko eraisten duenak <strong>beste etxe bat</strong> behar du bitartean bizitzeko.",
+     "Etxe behin-behineko hori <strong>behin-behineko morala</strong> da: maxima gutxi batzuk, ekintzan erabakitzeke ez gelditzeko.",
+     "Lehenengoa: bere herriko <strong>lege eta ohiturei</strong> men egitea eta iritzirik moderatuenei jarraitzea. Bigarrena: ekintzetan <strong>sendo</strong> izatea, baso batean galdutako ibiltariek bezala, zeinek beti zuzen joan behar baitute norabide batean.",
+     "Hirugarrena: <strong>fortuna baino lehen bere burua menderatzen</strong> saiatzea eta munduaren ordena baino lehen norberaren desirak aldatzea. Eta ondorio gisa: bizitza <strong>arrazoia lantzera</strong> ematea."
+    ],
+    "comprobacion": {
+     "pregunta": "Zertarako balio du Descartesen behin-behineko moralak?",
+     "opciones": [
+      [
+       "Sendotasunez jardun ahal izateko, bere arrazoiak dena zalantzan jartzen duen bitartean.",
+       true
+      ],
+      [
+       "Etika betiko ordezkatzeko.",
+       false,
+       "Behin-behinekoa da: behin betikoa eraikitzen den bitartean bizitzeko etxea.",
+       "g-moral-provisional"
+      ],
+      [
+       "Legeez ere zalantzatzeko eta haiei ez obeditzeko.",
+       false,
+       "Lehenengo maximak, hain zuzen, legeei eta ohiturei men egitea eskatzen du.",
+       "g-moral-provisional"
+      ],
+      [
+       "Jainkoa existitzen dela frogatzeko.",
+       false,
+       "Hori IV. atala da; behin-behineko morala bizitza praktikorako da.",
+       "g-la-garantia-de-dios"
+      ]
+     ],
+     "ok": "Hain zuzen: zalantza ezagutzan, sendotasuna ekintzan.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Bizi bitartean zalantzan",
+      "titulo": "Basoko ibiltariak",
+      "glosario": [
+       "g-moral-provisional",
+       "g-duda-metodica"
+      ],
+      "cita": {
+       "texto": "«Hor, nolabait basoren batean galduta aurkitzen diren ibiltariak imitatuz, zeinek ez baitute alde batera eta bestera ibili behar, eta are gutxiago leku batean gelditu, baizik eta ahalik eta zuzenen beti alde berera joan.»",
+       "fuente": "Descartes, <em>Metodoaren diskurtsoa</em>, III (AT VI 24; frantsesetik itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>1. maxima</strong> → bere herriko lege eta ohiturei men egitea, bere erlijioari eutsi eta iritzirik moderatuenei jarraitzea.",
+       "<strong>2. maxima</strong> → ekintzetan sendo eta ebatzia izatea: behin erabakita, jarraitzea iritzia dudazkoa bada ere, basoko ibiltariek bezala.",
+       "<strong>3. maxima</strong> → fortuna baino lehen bere burua menderatzea; munduaren ordena baino lehen norberaren desirak aldatzea.",
+       "<strong>Ondorioa</strong> → bizitza arrazoia lantzen eta egiaren ezagutzan aurrera egiten ematea, metodoaren arabera."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer irakasten du basoan galdutako ibiltarien adibideak?",
+       "opciones": [
+        [
+         "Ekintzan hobe dela erabaki bati sendotasunez jarraitzea, dudazkoa izan arren, zalantzan gelditzea baino.",
+         true
+        ],
+        [
+         "Urratsik eman aurretik ziur egon arte itxaron behar dela.",
+         false,
+         "Hori da, hain zuzen, kritikatzen duena: horrela itxaroten duena basoan gelditzen da."
+        ],
+        [
+         "Etorritako bidetik itzuli behar dela.",
+         false,
+         "Ez du itzultzeaz hitz egiten: norabide batean zuzen ibiltzeaz hitz egiten du."
+        ],
+        [
+         "Natura arriskutsua dela.",
+         false,
+         "Erabakiari buruzko irudia da, ez naturari buruzkoa."
+        ]
+       ],
+       "ok": "Zuzen: zuzen ibiliz azkenean basotik ateratzen da.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Orain metodoa eta behin-behineko morala azal ditzakezu",
+   "parrafos": [
+    "Descartesek matematikatik lau arau hartzen ditu: ebidentzia, analisia, sintesia eta zerrendapena. Bere metodoak dena zalantzan jartzen duen bitartean, behin-behineko moral batekin bizi da: legeei men egin, ekintzan sendo izan, fortuna baino lehen bere burua menderatu eta arrazoia landu.",
+    "USErako: lotu II. eta III. atal hauek IV.arekin (zalantza metodikoa eta cogitoa), metodoak bere lehen fruitua ematen duen tokiarekin."
+   ],
+   "siguiente": "hf-duda"
+  }
+ },
+ {
   "id": "hf-duda",
+  "ilustre": "descartes",
   "subject": "hf",
   "tema": "14. gaia · Descartes",
   "unidad": "hf-racionalismo",
@@ -486,6 +988,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-naturaleza",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "15. gaia · Spinoza",
   "unidad": "hf-metafisica",
@@ -729,6 +1232,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-libertad",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "15. gaia · Spinoza",
   "unidad": "hf-metafisica",
@@ -976,6 +1480,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-alegria",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "15. gaia · Spinoza",
   "unidad": "hf-metafisica",
@@ -1219,7 +1724,255 @@ const PISTAS = [
   }
  },
  {
+  "id": "kant-ilustracion",
+  "ilustre": "kant",
+  "subject": "hf",
+  "tema": "18. gaia · Kant: Ilustrazioa",
+  "unidad": "hf-ilustracion",
+  "materia": "Filosofia · Kant",
+  "titulo": "Zer da Ilustrazioa, Kanten arabera?",
+  "lede": "Kanten USEko irakurgaia: 1784ko egunkari-artikulu bat, irakurtzen duena erronkatzen jarraitzen duena. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Nola definitzen du Kantek Ilustrazioa, eta zergatik dio adin-txikitasuna gure errua dela?",
+    "repaso": [
+     "Esan al dut Ilustrazioa norbera errudun den adin-txikitasun batetik irtetea dela?",
+     "Azaldu al dut adin-txikitasuna norberaren adimenaz beste baten gidaritzarik gabe baliatzen ez jakitea dela?",
+     "Eman al ditut kausak, alferkeria eta koldarkeria, eta <em>Sapere aude</em> goiburua?"
+    ],
+    "intro": [
+     "Kantek egunkari batean erantzuten dio Berlinen orduan eztabaidatzen zen galdera bati. Erantzuna definizio famatu batekin hasten da. Saiatu berreraikitzen laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Kokatzeko: Kanten ustez, Ilustrazioa ez da aro bat, ezta liburu multzo bat ere, <strong>pertsonaren aldaketa</strong> bat baizik: irteera bat.",
+     "<strong>Adin-txikitasun</strong> batetik ateratzen da: norberaren adimenaz beste batek gidatu gabe baliatzen ez jakitea.",
+     "Adin-txikitasun hori <strong>gure errua</strong> da adimena falta ez zaigunean, hura erabiltzeko erabakia eta adorea baizik. Haren kausak: <strong>alferkeria</strong> eta <strong>koldarkeria</strong>. Oso erosoa da niretzat pentsatzen duen liburu bat eta niretzat erabakitzen duen tutore bat izatea.",
+     "Horregatik da Ilustrazioaren goiburua <em>Sapere aude!</em>: «izan ezazu zeure adimenaz baliatzeko adorea!»."
+    ],
+    "comprobacion": {
+     "pregunta": "Kanten arabera, zergatik da errudun adin-txikitasuna?",
+     "opciones": [
+      [
+       "Adimen faltagatik ez, beste baten gidaritzarik gabe hura erabiltzeko erabaki eta adore faltagatik gertatzen delako.",
+       true
+      ],
+      [
+       "Adin txikikoek nahikoa ikasi ez dutelako.",
+       false,
+       "Ez da ikasketen ez adinaren kontua: norberak pentsatzeko adorearena da.",
+       "g-minoria-de-edad"
+      ],
+      [
+       "Agintariek jendeari pentsatzen uzten ez dietelako.",
+       false,
+       "Kantek tutoreak kritikatzen ditu, baina seinalatzen duen errua alferkeriaz eta koldarkeriaz gidatzen uzten duenarena da.",
+       "g-minoria-de-edad"
+      ],
+      [
+       "Giza arrazoimenak egia ezagutzeko gai ez delako.",
+       false,
+       "Kantek ez du esaten arrazoimena falta zaigunik: esaten du ez garela ausartzen hura erabiltzen.",
+       "g-autonomia"
+      ]
+     ],
+     "ok": "Ondo: adin-txikitasuna errudun da, alferkeriatik eta koldarkeriatik sortzen delako.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Definizioa",
+      "glosario": [
+       "g-minoria-de-edad",
+       "g-autonomia"
+      ],
+      "cita": {
+       "texto": "«Ilustrazioa gizakia bere erruzko adin-txikitasunetik irtetea da. Adin-txikitasuna norberaren adimenaz beste baten gidaritzarik gabe baliatzeko ezintasuna da.»",
+       "fuente": "Kant, <em>Erantzuna galderari: Zer da Ilustrazioa?</em> (1784), Ak. VIII 35 (alemanetik itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, zer da adin-txikitasuna?",
+       "opciones": [
+        [
+         "Norberaren adimenaz beste baten gidaritzarik gabe baliatzeko ezintasuna.",
+         true
+        ],
+        [
+         "Oraindik hemezortzi urte bete ez izana.",
+         false,
+         "Kantek ez du lege-adinaz hitz egiten: heldu bat «adin txikikoa» izaten jarraitu dezake."
+        ],
+        [
+         "Eskubide politikorik ez izatea.",
+         false,
+         "Testuak adimenaz hitz egiten du, ez eskubideez."
+        ],
+        [
+         "Irakurtzen eta idazten ez jakitea.",
+         false,
+         "Asko irakurtzen jakin daiteke eta, hala ere, beste batek pentsa dezan uztea."
+        ]
+       ],
+       "ok": "Hain zuzen: tutorerik gabe pentsatzera ez ausartzea da.",
+       "mal": "Irakurri berriz bigarren esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Alferkeria, koldarkeria eta tutoreak",
+      "glosario": [
+       "g-minoria-de-edad",
+       "g-autonomia"
+      ],
+      "definicion": [
+       "<strong>Ilustrazioa</strong> → adin-txikitasunetik ateratzea; norberak pentsatzea.",
+       "<strong>Errudun adin-txikitasuna</strong> → ez da adimena falta, erabakia eta adorea baizik. Haren kausak alferkeria (erosoa da beste batek niretzat pentsatzea) eta koldarkeria (beldurra ematen du bakarrik oker egiteak) dira.",
+       "<strong>Tutoreak</strong> → besteentzat pentsatzera eskaintzen direnak eta bakarrik ibiltzearen arriskua ikusarazten dietenak.",
+       "<strong><em>Sapere aude</em></strong> → «ausar zaitez jakitera»: Kantek Horazioren bertso batetik hartzen duen goiburua."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zer zeregin dute tutoreek Kanten testuan?",
+       "opciones": [
+        [
+         "Besteentzat pentsatzera eskaintzen dira eta bakarrik ibiltzeko beldurra sartzen diete, eta horrela adin-txikitasunean mantentzen dituzte.",
+         true
+        ],
+        [
+         "Norberak pentsatzen laguntzen duten maisuak dira.",
+         false,
+         "Kantentzat kontrakoa egiten dute: besteak beren gidaritzapean mantentzen dituzte."
+        ],
+        [
+         "Dagoeneko adin-txikitasunetik atera diren bakarrak dira.",
+         false,
+         "Ez da hori axola duena: testuak besteak zuzentzen dituztenak bezala aurkezten ditu."
+        ],
+        [
+         "Ilustratuak irudikatzen dituzte.",
+         false,
+         "Alderantziz: ilustratuek eskatzen dute bakoitzak bere kabuz pentsatzea, tutorerik gabe."
+        ]
+       ],
+       "ok": "Zuzen: tutoreak adin-txikitasuna erosoa egiten du.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zer bereizten du arrazoimenaren erabilera publikoa pribatutik, eta zergatik izan behar du librea lehenak bakarrik, beti?",
+    "repaso": [
+     "Esan al dut erabilera publikoa zer den: norbaitek jakintsu gisa irakurle-publiko osoaren aurrean egiten duena?",
+     "Esan al dut erabilera pribatua zer den: guri esleitu zaigun kargu edo lanpostu batean egiten dena, non men egin behar den?",
+     "Jarri al dut adibide bat (ofiziala, zergak ordaintzen dituena, apaiza) eta azaldu al dut erabilera publikoa dela Ilustrazioa sortzen duena?"
+    ],
+    "intro": [
+     "Kantek ez du desobeditzeko eskatzen. Hari meheagoa eskatzen du: arrazoimenaren bi erabilera bereizten ditu. Pentsa ezazu okerra iruditzen zaion agindu bat jasotzen duen armadako ofizial bat."
+    ],
+    "pistas": [
+     "Gogoratu Kantek Ilustraziorako jartzen duen baldintza: <strong>askatasuna</strong> baino ez da behar, eta guztietan kaltegabeena.",
+     "Askatasun hori norberaren arrazoimenaren <strong>erabilera publikoa</strong> egitekoa da: jakintsu gisa irakurtzen duen publiko osoaren aurrean hitz egitea.",
+     "<strong>Erabilera pribatua</strong> guri esleitu zaigun kargu batean egiten duguna da. Hor bai, mugatu daiteke: zerbitzuko ofizialak men egin behar du, agindua gaizki iruditu arren.",
+     "Baina ofizial horrek berak, <strong>jakintsu gisa</strong>, gero zerbitzuaren akatsen aurka idatz dezake. Horregatik laburtzen du Kantek bere erregeak dioena: «arrazoitu nahi duzuen guztia eta nahi duzuen gaiaz, baina men egin»."
+    ],
+    "comprobacion": {
+     "pregunta": "Ofizial batek okerra iruditzen zaion agindu bat jasotzen du. Kanten arabera, zer egin behar du?",
+     "opciones": [
+      [
+       "Zerbitzuan dagoen bitartean men egin, eta gero, jakintsu gisa, akatsa publikoki kritikatu irakurleen aurrean.",
+       true
+      ],
+      [
+       "Desobeditu, arrazoimena aginduen gainetik dagoelako.",
+       false,
+       "Kargu horretan, arrazoimenaren erabilera pribatua mugatu daiteke: hor men egin behar da.",
+       "g-uso-privado"
+      ],
+      [
+       "Beti men egin eta isildu, Estatuak horrela funtzionatzen duelako.",
+       false,
+       "Kantek eskatzen du erabilera publikoa beti librea izatea: betiko isiltzea ez da irtenbidea.",
+       "g-uso-publico"
+      ],
+      [
+       "Dimisioa eman, ezin delako men egin eta pentsatu aldi berean.",
+       false,
+       "Kantek erakusten du baietz: kargu horretan men egin eta publikoki arrazoitu daiteke."
+      ]
+     ],
+     "ok": "Hain zuzen: erabilera pribatuan men egin eta erabilera publikoan askatasunez arrazoitu.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Arrazoimenaren bi erabilera",
+      "titulo": "Publikoki arrazoitu, kargu horretan men egin",
+      "glosario": [
+       "g-uso-publico",
+       "g-uso-privado"
+      ],
+      "cita": {
+       "texto": "«Norberaren arrazoimenaren erabilera publikotzat hartzen dut norbaitek, jakintsu gisa, irakurleen munduko publiko osoaren aurrean egiten duena.»",
+       "fuente": "Kant, <em>Zer da Ilustrazioa?</em> (1784), Ak. VIII 37 (alemanetik itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Erabilera publikoa</strong> → jakintsu gisa irakurle guztien aurrean hitz egitea edo idaztea. Beti librea izan behar du, besteei Ilustrazioa eramaten dion bakarra delako.",
+       "<strong>Erabilera pribatua</strong> → guri esleitu zaigun kargu batean egiten dena (ofiziala, funtzionarioa, apaiza bere komunitatearen aurrean). Ilustrazioa oztopatu gabe mugatu daiteke.",
+       "Horregatik dio Kantek <strong>Ilustrazio-aro</strong> batean bizi dela, baina ez aro ilustratu batean: bidea irekita dago, ez egina."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zergatik izan behar du arrazoimenaren erabilera publikoak beti librea?",
+       "opciones": [
+        [
+         "Besteei Ilustrazioa eraman diezaiekeen bakarra delako.",
+         true
+        ],
+        [
+         "Horrela inork ez duelako inoiz men egin behar.",
+         false,
+         "Kantek erabilera pribatuan obedientziari eusten dio."
+        ],
+        [
+         "Agintariek bakarrik egiten dutelako.",
+         false,
+         "Edonork egin dezake, jakintsu gisa, irakurleen aurrean."
+        ],
+        [
+         "Ez duelako inolako ondoriorik.",
+         false,
+         "Kantek ordenarentzat «kaltegabea» deitzen dio, baina Ilustrazioa aurrera eramaten duena da, hain zuzen."
+        ]
+       ],
+       "ok": "Zuzen: erabilera publiko librerik gabe, ez dago Ilustraziorik.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Orain azal dezakezu «Zer da Ilustrazioa?»",
+   "parrafos": [
+    "Ilustrazioa norbera errudun den adin-txikitasun batetik irtetea da: ez da adimena falta, erabakia eta adorea baizik (<em>Sapere aude</em>). Irteteko askatasuna baino ez da behar, arrazoimenaren erabilera publikoa egiteko, zeinak beti librea izan behar baitu; erabilera pribatua, kargukoa, mugatu daiteke.",
+    "USErako: laburpenean, bereizi definizioa, kausak eta arrazoimenaren bi erabilerak; A edo B aukeran, lotu Kanten etikaren autonomiarekin."
+   ],
+   "siguiente": "kant-imperativo"
+  }
+ },
+ {
   "id": "kant-imperativo",
+  "ilustre": "kant",
   "subject": "hf",
   "tema": "20. gaia · Kant: betebeharraren etika",
   "unidad": "hf-etica-deber",
@@ -1465,6 +2218,7 @@ const PISTAS = [
  },
  {
   "id": "kant-humanidad",
+  "ilustre": "kant",
   "subject": "hf",
   "tema": "20. gaia · Kant: betebeharraren etika",
   "unidad": "hf-etica-deber",
@@ -1704,6 +2458,7 @@ const PISTAS = [
  },
  {
   "id": "marx-alienacion",
+  "ilustre": "marx",
   "subject": "hf",
   "tema": "21. gaia · Marx",
   "unidad": "hf-sospecha",
@@ -1950,6 +2705,7 @@ const PISTAS = [
  },
  {
   "id": "nietzsche-destino",
+  "ilustre": "nietzsche",
   "subject": "hf",
   "tema": "21. gaia · Nietzsche",
   "unidad": "hf-sospecha",
@@ -2196,6 +2952,7 @@ const PISTAS = [
  },
  {
   "id": "beauvoir-conclusion",
+  "ilustre": "beauvoir",
   "subject": "hf",
   "tema": "26. gaia · Beauvoir",
   "unidad": "hf-beauvoir",

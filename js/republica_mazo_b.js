@@ -96,6 +96,7 @@ const REP_MAZO_B = {
    "v": "b",
    "fase": 1,
    "ap": 1,
+   "img": "ac-deporte",
    "name": "Hezkuntza: gimnasia (γυμναστική, *gymnastiké*)",
    "d": "+1 ausardia zaindari laguntzaile bakoitzari. Lehenago «Musika» jokatu bada, +1 harmonia lortutako oreka dela eta.",
    "cita": "«Ez da gorputz onak arima ona egiten duena, alderantziz baizik: arima onak, bere bertuteaz, gorputza ahalik eta onena egiten du. Gimnasia eta musika ez dira bata gorputzerako eta bestea arimarako: biek, batez ere, arima hezten dute.»",
@@ -444,6 +445,7 @@ const REP_MAZO_B = {
   {
    "id": "b_ev_desigualdad",
    "v": "b",
+   "img": "../aristoteles/azar-fanaticos",
    "name": "Desberdintasunaren matxinada",
    "loc": "Errepublika IV, 422e-423a",
    "cita": "«Hiri oro, txikia izanda ere, egiazki bi hiri etsai da: pobreena eta aberatsena; eta bakoitzaren barruan, beste asko. Bakar bat bezala tratatzen badituzu, zeure burua engainatzen duzu.»",
@@ -521,6 +523,7 @@ const REP_MAZO_B = {
   {
    "id": "b_ev_defensa",
    "v": "b",
+   "img": "../aristoteles/azar-guerra",
    "name": "Lurraldearen aldeko gerra",
    "loc": "Errepublika II, 374a-e",
    "cita": "«Gerra edonori utziko diogu? Edo hau ere lanbide bat da? Zapatariak aldi berean nekazari, ehule eta igeltsero izan ezin badu, nola izango litzateke gerran ona beste lanbide bat duena? Hiria zaintzeak beste edozein lanak baino ardura gehiago eskatzen du, eta denbora gehiago, eta trebezia, eta dedikazioa.»",

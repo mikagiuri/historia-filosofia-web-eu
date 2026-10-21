@@ -3000,6 +3000,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Adin-txikitasuna",
+  "id": "g-minoria-de-edad",
+  "et": "Alemanezko *Unmündigkeit* hitza itzultzen du: *mündig* ez izatea, hau da, «adin nagusikoa» ez izatea; hitza antzinako *munt* hitzetik dator, «babesa, tutoretza».",
+  "area": "Etika",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kanten filosofia",
+  "def": "Kanten ustez, norberaren adimenaz beste baten gidaritzarik gabe baliatzeko ezintasuna. Norbera da horren errudun adimen faltagatik ez, erabakitzeko eta adorerik ez izateagatik gertatzen denean; haren kausak alferkeria eta koldarkeria dira (*Zer da Ilustrazioa?*, 1784, Ak. VIII 35).",
+  "ilustre": [
+   "kant"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Modernitate osatugabea",
@@ -3044,6 +3060,22 @@ const GLOSARIO = [
   "def": "Substantzia bakarraren adierazpen zehatza da. Izaki partikularrak ez dira substantzia independenteak, modu mugatuak baizik.",
   "ilustre": [
    "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 4,
+  "t": "Behin-behineko morala",
+  "id": "g-moral-provisional",
+  "et": "*Behin-behineko*, latinezko *providere* hitzetik, «aurreikusi, hornitu»: behin betikoa iritsi bitartean hartzen dena.",
+  "area": "Etika",
+  "bloque": "B",
+  "unidad": "DM",
+  "tema": "Descartes eta arrazionalismoa: makro-unitatea",
+  "def": "Descartesek dena zalantzan jartzen duen bitartean bizitzeko bere buruari ematen dizkion maximak (*Metodoaren diskurtsoa*, III): bere herriko lege eta ohiturei men egitea, behin erabakita ekintzetan sendo jardutea, fortuna baino lehen bere burua menderatzen saiatzea eta bizitza arrazoia lantzera ematea.",
+  "ilustre": [
+   "descartes"
   ]
  },
  {
@@ -3352,6 +3384,22 @@ const GLOSARIO = [
   "def": "Hezkuntza zentzu zabalean: izaeraren eta adimenaren prestakuntza. Platonengan, hiriaren eginkizun nagusia; hiriak gobernariak hautatzen ditu, ikasketa eta proba ibilbide luze baten ondoren.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 4,
+  "t": "Metodoaren arauak",
+  "id": "g-reglas-del-metodo",
+  "et": "*Araua*, latinezko *regula* hitzetik, «erregela, arau»; *metodoa*, grezierazko μέθοδος (*méthodos*) hitzetik, «zerbaiten bila joateko bidea».",
+  "area": "Metodoa",
+  "bloque": "B",
+  "unidad": "DM",
+  "tema": "Descartes eta arrazionalismoa: makro-unitatea",
+  "def": "*Metodoaren diskurtsoaren* (II) lau arauak: ebidentzia (ebidentziaz ezagutzen ez den ezer ez onartzea), analisia (zailtasun bakoitza behar beste zatitan banatzea), sintesia (ordenaz joatea, sinpleenetik konplexuenera) eta zerrendapena (dena berrikustea, ezer ez ahazteko).",
+  "ilustre": [
+   "descartes"
   ]
  },
  {
@@ -4608,6 +4656,22 @@ const GLOSARIO = [
   "unidad": "A8",
   "tema": "Etika klasikoa",
   "def": "Gehiegikeriaren eta gabeziaren arteko neurri egokia da, egoerari eta arrazoimen zuzenari egokitua."
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Arrazoimenaren erabilera pribatua",
+  "id": "g-uso-privado",
+  "et": "*Pribatua*, latinezko *privatus* hitzetik, «partikularra, publikotik aparte dagoena».",
+  "area": "Politika",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kanten filosofia",
+  "def": "Norbaitek bere arrazoimenaz egiten duena, berari esleitu zaion kargu edo lanpostu zibil batean: zerbitzuko ofiziala, funtzionarioa, apaiza bere komunitatearen aurrean. Kantek onartzen du hori mugatzea, hor men egin behar baita; erabilera publikoak, ordea, beti librea izan behar du (Ak. VIII 37).",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",

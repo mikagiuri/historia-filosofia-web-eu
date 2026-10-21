@@ -43,7 +43,7 @@ const REP_MAZO_A = {
    "id": "sorteo",
    "v": "a",
    "ap": 1,
-   "img": "ac-sorteo",
+   "img": "../aristoteles/azar-suerte",
    "name": "Kargu-banaketa zozketaz",
    "d": "Kargu guztiak denen artean banatzen dira: +2 AP, baina −1 harmonia, eta hiria demokraziara hurbiltzen da.",
    "cita": "«Gobernua eta kargu guztiak berdintasunez banatzen dituzte, eta gehienetan zozketaz.»",

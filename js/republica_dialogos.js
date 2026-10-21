@@ -693,14 +693,14 @@ const REP_DIAL = {
  "doxa": "Laguntzaileek ez dute zientziarik, ἐπιστήμη (*epistéme*), iritzi zuzena baizik, ὀρθὴ δόξα (*orthè dóxa*): haien ausardia da «zer den beldurgarri eta zer ez denari buruzko iritzi zuzen eta legezkoaren zaintza» (Errepublika IV, 430b). Gobernatzaileek bakarrik ateratzen dira kobazulotik.",
  "finB": [
   {
-   "min": 8,
+   "min": 20,
    "todas": true,
    "emoji": "🏛️",
    "name": "Kalipolis: hiri justua",
    "lema": "Hiru klaseek berea egiten dute eta hiriak eusten dio."
   },
   {
-   "min": 5,
+   "min": 12,
    "emoji": "⚖️",
    "name": "Hiri zutik, oraindik erabat justua ez dena",
    "lema": "Eusten du, baina funtzioren batek huts egiten du."
@@ -766,6 +766,8 @@ const REP_DIAL = {
   "hudReg": "Erregimena",
   "elegir": "Aukeratu bertsioa",
   "accionesMax": "Ekintzak (gehienez 3 txanda honetan)",
+  "justiciaTurno": "⚖️ Hiria justua da: klase bakoitzak berea egiten du (+0,5).",
+  "opcional": "aukerakoa",
   "clasesB": [
    "Gobernariak",
    "Laguntzaileak",
@@ -796,8 +798,8 @@ const REP_DIAL = {
   "cEconomiaT": "8 AP-rekin hasten zara. Txanda bakoitzean AP bat gehiago irabazten duzu; B bertsioan, fase berri bakoitzak 2 AP ematen ditu. Txanda bakoitzean gehienez 3 ekintza erabil ditzakezu, bakoitza behin.",
   "cVictoria": "Nola irabazten eta nola galtzen den",
   "cVictoriaA": "A bertsioa: aristokrazian hasten zara, 10 harmoniarekin. 8tik behera, timokrazia; 6tik behera, oligarkia; 4tik behera, demokrazia; 2tik behera, tirania. Ez da berriz igotzen. 0 harmoniarekin edo 3 biztanle baino gutxiagorekin, hiria hondoratzen da. Irabazten duzu aristokrazian edo timokrazian amaitzen baduzu.",
-  "cVictoriaB": "B bertsioa: Kalipolis irabazten duzu 8 harmonia edo gehiagorekin eta lau funtzioak betetzen amaitzen baduzu; 5 edo gehiagorekin, hiria zutik dago. 0 harmoniarekin edo 3 biztanle baino gutxiagorekin, desegiten da.",
-  "cFunciones": "Lau funtzioak (B bertsioa): jakinduria = zaindariren batek 5 jakinduria; ausardia = gudariak ≥ ekoizleak ÷ 2,5; neurritasuna = ekoizpena ≥ biztanleria; justizia = hirurak batera.",
+  "cVictoriaB": "B bertsioa: Kalipolis irabazten duzu 20 harmonia edo gehiagorekin amaitzen baduzu eta hiria justua bada (hiru funtzioak beteta); 12 edo gehiagorekin, hiriak zutik jarraitzen du. Harmonia 0 edo 3 biztanle baino gutxiagorekin, desegin egiten da. B bertsioan harmonia azkar igotzen da: zaila da amaierara iristea klase bakoitza berean dagoela.",
+  "cFunciones": "Hiriaren funtzioak (bi bertsioetan): jakinduria = jakinduria 5 duen zaindariren bat; ausardia = gudariak ≥ ekoizleak ÷ 2,5; neurritasuna = ekoizpena ≥ biztanleria. Justizia ez da laugarren bertute bat: hirurak aldi berean betetzea da, klase bakoitza berean (Errepublika IV, 433a-c). Hiria justua den txanda bakoitzean, +0,5 harmonia.",
   "cClases": "Klaseak eta haien kostua",
   "cClasesT": "Profil bakoitzaren kostua = bere hiru bertuteen batura. Zaindaria: hirurak ≥4. Gudaria: ausardia eta neurritasuna ≥4. Ekoizlea: neurritasuna ≥4; ekoizle bakoitzak 2 pertsona elikatzen ditu. 30 biztanletik behera, «Hiri txikitua» gertaerak kentzen du. Errealean, ekoizleak ≥ 2 × (zaindariak + gudariak): jokoaren araua da, ez Platonena.",
   "cDialogos": "Elkarrizketak: zure bertsiokoak ateratzen dira, hiru txandatik behin. Jarrera eta arrazoia aukeratzen dituzu; emaitzak hiria aldatzen du.",
