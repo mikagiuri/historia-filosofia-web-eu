@@ -1,5 +1,5 @@
 // Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/biografias_pies.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
-const ILUSTRES_PIES = {
+const BIOGRAFIAS_PIES = {
  "confucio": "Confucius Tang Dynasty · Wu Daozi (egotzia), 685-758 · Public domain",
  "meliso": "Meliso Samoskoa (irudizko erretratua, 1493) · Hartmann Schedel, Nurenbergeko Kronika · Public domain",
  "leucipo": "Leuzipo (irudizko erretratua, 1652-1653) · Luca Giordano · Public domain",

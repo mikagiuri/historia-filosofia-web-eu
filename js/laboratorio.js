@@ -7,6 +7,7 @@ const LAB = {
   "mesaMundo": "Irudien mundua",
   "mesaRelaciones": "Erlazioak",
   "mesaDemos": "Frogapen gidatuak",
+  "mesaSpinoza": "Spinoza (garatzen ari da)",
   "intro": "Logika eskuekin egiteko mahaiak: konektibo ezezagun bat deszifratu, egia-zuhaitzak landatu, perpausak egiazko egiten dituzten munduak eraiki, erlazioak marraztu eta frogapen ospetsuak urratsez urrats jarraitu.",
   "verdadera": "egiazkoa",
   "falsa": "faltsua",
@@ -224,6 +225,29 @@ const LAB = {
   "menCuatro": "4 azalerako lau karratu",
   "menAria1": "2 oineko aldea duen karratua, 4 karratu txikitan zatitua",
   "menAria2": "4 oineko aldea duen karratua: hasierakoa bezalako lau karratu ditu",
+  "mesaKant": "Kanten judizioak",
+  "kLede": "Kantentzat, adimenak egiten duen guztia judizioak egitera mugatzen da (<em>Arrazoimen hutsaren kritika</em>, A69/B94). Horregatik, judizioaren formak hiru momentuko lau izenburutan antolatzen ditu (A70/B95), eta haietatik ateratzen ditu, banan-banan, hamabi kategoriak (A80/B106). Sakatu errenkada bat adibide bat ikusteko, gaur nola idazten den eta Txokoko zein mahaitan lantzen den.",
+  "kJuicio": "Judizioa",
+  "kCategoria": "Kategoria",
+  "kEjemplo": "Adibidea",
+  "kHoy": "Gaur egungo logikan",
+  "kQueHace": "Zer egiten du kategoriak",
+  "kTrabajala": "Landu hemen:",
+  "kElige": "Sakatu taulako errenkada bat.",
+  "kTercera": "Izenburu bakoitzeko hirugarren kategoria lehen biak elkartzetik sortzen da (B110-111): {t}",
+  "kParejaDudosa": "Kantitatean, Kantek bi taulak ordenaren arabera parekatzen ditu (unibertsala-unitatea, singularra-osotasuna), eta espezialistek eztabaidatzen dute arduragabekeria ote den.",
+  "kModal": "Logika modala (□, «beharrezkoa da»; ◇, «posible da») ez dago Txokoan: C. I. Lewisek (1918) eta Saul Kripkek (1959-1963) eraiki zuten.",
+  "kExplo": "Gehiago Filosofiaren Historiako «Judizioetatik kategorietara» esplorazioan",
+  "kEjTit": "Jarri etiketak",
+  "kEjAyuda": "Kantek dioenez, judizio orok izenburu bakoitzeko forma bat du aldi berean. Aukeratu bakoitzarena eta egiaztatu. Begiratu esaldiaren formari, ez egia den ala ez.",
+  "kComprobar": "Egiaztatu",
+  "kSiguiente": "Beste judizio bat",
+  "kFrase": "{n}. judizioa ({m} guztira)",
+  "kBien": "Ondo.",
+  "kMal": "Ez: {x} da.",
+  "kNoSePide": "hemen ez da eskatzen",
+  "kTodas": "<strong>Denak ondo!</strong>",
+  "kRevisa": "Berrikusi markatutakoak.",
   "menAria3": "3 oineko aldea duen karratua, 9 karratu txikirekin",
   "menAria4": "2 oineko lau karratu beren diagonalekin, karratu makurtu bat osatzen dutenak"
  },
@@ -443,6 +467,217 @@ const LAB = {
   "Erreflexiboa eta antisimetrikoa, baina ez iragankorra",
   "Simetrikoa eta asimetrikoa aldi berean, gutxienez gezi batekin"
  ],
+ "kant": {
+  "titulos": [
+   {
+    "nom": "Kantitatea",
+    "preg": "zenbatez ari gara?",
+    "momentos": [
+     {
+      "juicio": "Unibertsala",
+      "cat": "Unitatea",
+      "ej": "Metal guztiak eroaleak dira.",
+      "letras": "M: metala · C: eroalea",
+      "hace": "Zerbait bat bezala hartu",
+      "nota": "Zehaztasuna irabazten da: «edozein gauzatarako, metala bada, eroalea da». Ez du baieztatzen metalak existitzen direnik."
+     },
+     {
+      "juicio": "Partikularra",
+      "cat": "Pluraltasuna",
+      "ej": "Metal batzuk magnetikoak dira.",
+      "letras": "M: metala · G: magnetikoa",
+      "hace": "Zerbait asko bezala hartu",
+      "nota": "Gutxienez bat existitzen dela baieztatzen du, eta ezer gehiago ez: «batzuk» ez da «ez guztiak»."
+     },
+     {
+      "juicio": "Singularra",
+      "cat": "Osotasuna",
+      "ej": "Metal hau kobrea da.",
+      "letras": "a: metal hau · C: kobrea",
+      "hace": "Asko oso bat bezala hartu",
+      "nota": "Kantek arrazoia zuen. Logika tradizionalak singularra unibertsal gisa tratatzen zuen; gaurkoak beste modu batera idazten du, kuantifikatzailerik gabe, norbanako-izen batekin (a)."
+     }
+    ]
+   },
+   {
+    "nom": "Kualitatea",
+    "preg": "baieztatu ala ezeztatu egiten da?",
+    "momentos": [
+     {
+      "juicio": "Baieztatzailea",
+      "cat": "Errealitatea",
+      "ej": "Arima hilkorra da.",
+      "letras": "a: arima · M: hilkorra",
+      "hace": "Zerbait emanda egotea",
+      "nota": "Aldaketarik ez."
+     },
+     {
+      "juicio": "Ezeztatzailea",
+      "cat": "Ezeztapena",
+      "ej": "Arima ez da hilkorra.",
+      "letras": "a: arima · M: hilkorra",
+      "hace": "Zerbait emanda ez egotea",
+      "nota": "Aldaketarik ez."
+     },
+     {
+      "juicio": "Infinitua",
+      "cat": "Mugapena",
+      "ej": "Arima ez-hilkorra da.",
+      "letras": "a: arima · M: hilkorra",
+      "hace": "Ezeztapen batek mugatutako erreala",
+      "nota": "Bereizketa galtzen da. Predikatuen logikan, «ez-hilkorra» eta «ez da hilkorra» berdin idazten dira. Terminoen logikek bakarrik, Aristotelesengandik hurbilago daudenek, bereizten dute predikatu bat ezeztatzea eta esaldi bat ezeztatzea."
+     }
+    ]
+   },
+   {
+    "nom": "Erlazioa",
+    "preg": "nola lotzen dira zatiak?",
+    "momentos": [
+     {
+      "juicio": "Kategorikoa",
+      "cat": "Substantzia eta akzidentea",
+      "ej": "Ura likidoa da.",
+      "letras": "a: ura · L: likidoa",
+      "hace": "Aldatzen denaren azpian irauten duena",
+      "nota": "«S P da» forma bitan banatzen da: norbanako bati buruz zerbait predikatzea, edo bi klase erlazionatzea."
+     },
+     {
+      "juicio": "Hipotetikoa",
+      "cat": "Kausa eta ondorioa",
+      "ej": "Justizia perfektu bat badago, gaizkile tematia zigortua izango da.",
+      "letras": "p: justizia perfektu bat dago · q: gaizkile tematia zigortua izango da",
+      "hace": "Jarrita, arau baten arabera beste zerbait datorkiona",
+      "nota": "Kantengan bezala, ez du baieztatzen ez p ez q: haien lotura bakarrik. Baina gaurko «→» ahulagoa da: egiazkoa da p faltsua den guztietan. Kanten kausalitatea ez da konektiboa, denboran gertatzen den lotura beharrezkoa baizik."
+     },
+     {
+      "juicio": "Disjuntiboa",
+      "cat": "Komunitatea (elkarrekiko ekintza)",
+      "ej": "Mundua zori itsuz existitzen da, edo barne-beharrezkotasunez, edo kanpoko kausa batez.",
+      "letras": "p: zori itsuz · q: barne-beharrezkotasunez · r: kanpoko kausa batez",
+      "hace": "Aldi berean existitzen diren eta elkarri eragiten dioten gauzak",
+      "nota": "Gaurko «∨» barne-hartzailea da. Kantek esaten duena esateko, aukeretako bat eta bakarra egiazkoa dela, gehitu behar da bi ez direla aldi berean gertatzen."
+     }
+    ]
+   },
+   {
+    "nom": "Modalitatea",
+    "preg": "zer indarrez baieztatzen da?",
+    "momentos": [
+     {
+      "juicio": "Problematikoa",
+      "cat": "Posibilitatea eta ezintasuna",
+      "ej": "Baliteke euria egitea.",
+      "letras": "p: euria ari du",
+      "hace": "Esperientziaren baldintzekin bat datorrena",
+      "nota": "Logika modalera igarotzen da, bere arauekin: ◇p ¬□¬p-ren baliokidea da («ez da beharrezkoa ez izatea»)."
+     },
+     {
+      "juicio": "Asertorikoa",
+      "cat": "Existentzia eta ez-existentzia",
+      "ej": "Euria ari du.",
+      "letras": "p: euria ari du",
+      "hace": "Pertzepzioan benetan ematen dena",
+      "nota": "Eragilerik gabe: baieztapena besterik gabe."
+     },
+     {
+      "juicio": "Apodiktikoa",
+      "cat": "Beharrezkotasuna eta kontingentzia",
+      "ej": "Euria egin behar du.",
+      "letras": "p: euria ari du",
+      "hace": "Esperientziaren legeen arabera gertatu gabe ezin dena",
+      "nota": "Zentzua aldatzen da. Kantentzat, modalitateak ez dio ezer gehitzen judizioaren edukiari; logika modalean, □ edukiaren parte da eta haren egia-baldintzak aldatzen ditu."
+     }
+    ]
+   }
+  ],
+  "terceras": "osotasuna unitate gisa hartutako pluraltasuna da; mugapena, ezeztapenarekin lotutako errealitatea; komunitatea, substantzia batzuek besteen gainean elkarrekiko duten kausalitatea; eta beharrezkotasuna, posibilitateak berak emandako existentzia.",
+  "ejercicio": [
+   {
+    "txt": "Gorputz guztiak astunak dira.",
+    "r": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Sokrates hilkorra da.",
+    "r": [
+     2,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Metal batzuk ez dira magnetikoak.",
+    "r": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Metal bat ere ez da gardena.",
+    "r": [
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Baliteke planeta batzuek ur likidoa izatea.",
+    "r": [
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "txt": "Arima ez-hilkorra da.",
+    "r": [
+     -1,
+     2,
+     0,
+     1
+    ],
+    "nota": "Adibidea Kantena da: baieztatu egiten du, baina arima hilkorra ez denaren gainerako eremu mugagabean kokatzen du soilik."
+   },
+   {
+    "txt": "Justizia perfektu bat badago, gaizkile tematia zigortua izango da.",
+    "r": [
+     -1,
+     -1,
+     1,
+     -1
+    ],
+    "nota": "Hau ere Kantena da (A73/B98): bi judizio lotzen ditu, bietako bat ere baieztatu gabe."
+   },
+   {
+    "txt": "Mundua zori itsuz existitzen da, edo barne-beharrezkotasunez, edo kanpoko kausa batez.",
+    "r": [
+     -1,
+     -1,
+     2,
+     -1
+    ],
+    "nota": "Kanten beste adibide bat (A73-74/B99): aukerek elkar baztertzen dute eta, batera, dena estaltzen dute."
+   },
+   {
+    "txt": "Nahitaez, aldaketa orok kausa bat du.",
+    "r": [
+     0,
+     0,
+     0,
+     2
+    ]
+   }
+  ]
+ },
  "demos": [
   {
    "id": "raiz2",

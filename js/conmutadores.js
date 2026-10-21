@@ -26,7 +26,7 @@ const CONMUTADORES = [
   { entry: "cuestionarios", modos: [["cuestionarios", "Galdetegiak"], ["reto", "Erlojuaren kontra"]] },
   { entry: "dilemas",      modos: [["dilemas", "Dilemak"], ["polemicas", "Polemikak"], ["duelo", "Dueloa"], ["nudos", "Korapiloak"]] },
   { entry: "epocas",       modos: [["epocas", "Fitxak"], ["cronogramas", "Kronogramak"], ["genealogias", "Genealogiak"]] },
-  { entry: "ilustres",     modos: [["ilustres", "Guztiak"], ["perseguidos", "Jazarriak"], ["comunidades", "Komunitateak"]] },
+  { entry: "biografias",     modos: [["biografias", "Guztiak"], ["perseguidos", "Jazarriak"], ["comunidades", "Komunitateak"]] },
   { entry: "leibniz",      modos: [["leibniz", "Leibnizen tailerra"], ["universo", "Unibertso aristotelikoa"], ["palabra", "Hitzaren artea"], ["afectos", "Spinozaren afektuak"]] }   // (20-10) + afectos; (19-10) «Talleres»: unidades transversales
 ];
 

@@ -1,6 +1,257 @@
 // Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/pistas_uhs.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const PISTAS = [
  {
+  "id": "socrates-sofistas",
+  "ilustre": "socrates",
+  "subject": "hf",
+  "tema": "5. gaia · Sokrates eta sofistak",
+  "unidad": "hf-sofistas",
+  "materia": "Filosofia · Sokrates",
+  "titulo": "Zergatik egin zien aurre Sokratesek sofistei, eta zergatik zioen inork ez duela gaizkirik egiten jakinez?",
+  "lede": "2026ko USEk jada egin dituen bi galdera: sofisten kritika eta intelektualismo morala. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zertan zen Sokrates sofisten aurkakoa?",
+    "repaso": [
+     "Azaldu al dut Protagorasen erlatibismoa: «gizakia da gauza guztien neurria»?",
+     "Esan al dut Sokratesek definizio unibertsalak bilatzen dituela (zer da justizia, zer da ausardia), guztientzat baliozkoak?",
+     "Deskribatu al dut haren metodoa: ironia (ez dakiela aitortzea) eta maieutika (egia erditzen laguntzea)?"
+    ],
+    "intro": [
+     "Sofistek kobratu egiten zuten batzarrean ondo hitz egiten irakasteagatik. Sokratesek ez zuen kobratzen eta ezer ez zekiela esaten zuen. Pentsatu zergatik izan zitekeen horrelako norbait arazo bat haientzat."
+    ],
+    "pistas": [
+     "Lurreratzeko: sofistek <strong>erretorika</strong> irakasten zuten, konbentzitzeko artea. Askorentzat, zuzena hiriaren eta bakoitzak pentsatzen zuenaren araberakoa zen: hori da <em>nómos</em> (konbentzioa) eta <em>phýsis</em> (natura) arteko aurkaritza.",
+     "Protagorasek honela laburtzen zuen: gizakia da <strong>gauza guztien neurria</strong>. Bakoitza neurria bada, ez dago egia komunik: hori da <strong>erlatibismoa</strong>.",
+     "Sokratesek kontrakoa galdetzen du: <strong>zer da</strong> justizia, ausardia, pietatea? <strong>Definizio unibertsal</strong> bat bilatzen du, guztientzat bera.",
+     "Haren metodoak bi urrats ditu: <strong>ironia</strong>, ez dakiela aitortzea eta besteak uste duen jakituria hura desmuntatzea, eta <strong>maieutika</strong>, egia «erditzen» laguntzea, bere amak bezala, emagina baitzen."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer bilatzen du Sokratesek sofisten erlatibismoaren aurrean?",
+     "opciones": [
+      [
+       "Bertuteen definizio unibertsalak, guztientzat baliozkoak.",
+       true
+      ],
+      [
+       "Batzarra hitzaldirik onenekin konbentzitzea.",
+       false,
+       "Hori da sofistek erretorikarekin irakasten zutena.",
+       "g-sofistas"
+      ],
+      [
+       "Frogatzea bakoitzak bere egia propioa duela.",
+       false,
+       "Hori da Protagorasen jarrera, Sokratesek kritikatzen duena.",
+       "g-subjetivismo"
+      ],
+      [
+       "Gazte aberatsei dirua ordainduta irakastea.",
+       false,
+       "Sokratesek ez zuen kobratzen: sofistekiko bereizgarrietako bat zen.",
+       "g-sofistas"
+      ]
+     ],
+     "ok": "Ondo: bakoitzaren iritziaren aurrean, kontzeptu komun bat.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Gauza guztien neurria",
+      "glosario": [
+       "g-sofistas",
+       "g-nomos"
+      ],
+      "cita": {
+       "texto": "«Gizakia da gauza guztien neurria: direnena, diren heinean; ez direnena, ez diren heinean.»",
+       "fuente": "Protagoras, Platonek <em>Teeteto</em> lanean aipatua, 152a (grezieratik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Gizakia gauza guztien neurria bada, zer ondorio ateratzen du Protagorasek?",
+       "opciones": [
+        [
+         "Gauzak bakoitzarentzat bakoitzari iruditzen zaion bezalakoak direla: ez dago egia komunik.",
+         true
+        ],
+        [
+         "Gizakia unibertsoko izakirik garrantzitsuena dela.",
+         false,
+         "Ez du garrantziaz hitz egiten, egia zer den nork erabakitzen duenaz baizik."
+        ],
+        [
+         "Dena tresnekin neurtu behar dela.",
+         false,
+         "«Neurria» egiaren irizpidea da, ez erregela fisiko bat."
+        ],
+        [
+         "Jakintsuek bakarrik ezagutzen dutela egia.",
+         false,
+         "Guztiz kontrakoa: bakoitza da neurria, ez gutxi batzuk."
+        ]
+       ],
+       "ok": "Zehatz-mehatz: hori da erlatibismoa.",
+       "mal": "Irakurri berriz esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Ironia eta maieutika",
+      "glosario": [
+       "g-ironia-socratica",
+       "g-mayeutica"
+      ],
+      "cita": {
+       "texto": "«Nire erditze-artea emaginena bezalakoa da, gainerako guztian; baina gizonezkoei laguntzen die, ez emakumeei, eta erditzen ari diren arimei erreparatzen die, ez gorputzei.»",
+       "fuente": "Platon, <em>Teeteto</em>, 150b (grezieratik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Ironia</strong> → Sokratesek ezjakintzat jotzen du bere burua eta, galderen bidez, erakusten du besteak ere ez dakiela uste zuena. <em>Apologian</em> (21d) dio bere abantaila dela ez dakiena jakin uste ez izatea; «ezer ez dakidala bakarrik dakit» geroagoko formula bat da.",
+       "<strong>Maieutika</strong> → ondoren besteari laguntzen dio bere baitan zeraman egia berak aurkitzen, emagin batek erditzen laguntzen duen bezala.",
+       "<strong>Helburua</strong> → bertute bakoitzaren definizio unibertsalera (<em>lógos</em>) iristea."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zertarako balio du ironia sokratikoak?",
+       "opciones": [
+        [
+         "Solaskideak uste zuena ez dakiela erakusteko, eta horrela bilaketa irekitzeko.",
+         true
+        ],
+        [
+         "Besteei barre egiteko eta eztabaida irabazteko.",
+         false,
+         "Ez du irainduta edo irabazi nahi; besteak bere ezjakintasuna aitor dezala nahi du."
+        ],
+        [
+         "Erantzun zuzena zuzenean irakasteko.",
+         false,
+         "Sokratesek ez du erantzunik ematen: besteak aurki dezan laguntzen du."
+        ],
+        [
+         "Ez dagoela egiarik frogatzeko.",
+         false,
+         "Alderantziz: zalantzatzea da egia bilatzeko lehen urratsa."
+        ]
+       ],
+       "ok": "Zuzena: lehenengo jakituria faltsua hustu; gero, bilatu.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zer da intelektualismo morala, eta zergatik dio Sokratesek inork ez duela gaizkirik egiten jakinez?",
+    "repaso": [
+     "Esan al dut Sokratesentzat bertutea ezagutza dela: ongia zer den dakienak hura egiten duela?",
+     "Azaldu al dut ondorioa: gaizkia ezjakintasunetik sortzen dela, eta horregatik inork ez duela gaizki jokatzen nahita?",
+     "Aipatu al dut Aristotelesen kritika: ongia jakin eta ez egitea posible dela (<em>akrasía</em>)?"
+    ],
+    "intro": [
+     "Norbaitek badaki zerbaitek kalte egiten diola eta, hala ere, egiten badu, benetan al zekien? Sokratesek ezetz erantzuten du. Pentsatu zergatik."
+    ],
+    "pistas": [
+     "Gogoratu definizioen bilaketa: Sokratesentzat, justizia zer den jakitea justua izateko baldintza da.",
+     "Urrats bat gehiago: <strong>bertutea ezagutza da</strong>. Ongia benetan ezagutzen duenak egiten du, guztiok ona iruditzen zaiguna bilatzen dugulako.",
+     "Horregatik <strong>inork ez du gaizkirik egiten jakinez</strong>: gaizki jokatzen duenak oker dago, ona ez dena ona dela uste baitu. Gaizkia <strong>ezjakintasunetik</strong> sortzen da.",
+     "Hortik dator filosofiaren eginkizuna: norberaren bizitza aztertzea. «Aztertu gabeko bizitzak ez du bizitzea merezi». Aristotelesek aurre egingo dio: batzuetan onena dakigu eta txarrena egiten dugu (<em>akrasía</em>)."
+    ],
+    "comprobacion": {
+     "pregunta": "Intelektualismo moralaren arabera, nondik sortzen da gaizkia?",
+     "opciones": [
+      [
+       "Ezjakintasunetik: gaizki jokatzen duenak ez daki benetan zer den ongia.",
+       true
+      ],
+      [
+       "Gaizkia dela jakinda hura aukeratzen duen borondate gaizto batetik.",
+       false,
+       "Sokratesentzat inork ez du gaizkia gaizki gisa aukeratzen: hori da ukatzen duena.",
+       "g-intelectualismo-moral"
+      ],
+      [
+       "Grinetatik, arrazoia baino indartsuagoak direlako.",
+       false,
+       "Hori da, hobeto esanda, Aristotelesen eragozpena (<em>akrasía</em>).",
+       "g-akrasia"
+      ],
+      [
+       "Hiriko lege bidegabeetatik.",
+       false,
+       "Sokratesek bakoitzaren ezagutzaz hitz egiten du, ez legeez.",
+       "g-intelectualismo-moral"
+      ]
+     ],
+     "ok": "Zehatz-mehatz: gaizki jokatzen duenak oker dago.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Bertutea eta ezagutza",
+      "titulo": "Inork ez du nahita okerrik egiten",
+      "glosario": [
+       "g-intelectualismo-moral",
+       "g-akrasia"
+      ],
+      "cita": {
+       "texto": "«Inongo gizakik ez du nahita okerrik egiten, ezta jakinez gauza lotsagarri eta txarrik ere.» «Aztertu gabeko bizitza ez da gizakiak bizitzeko duina.»",
+       "fuente": "Platon, <em>Protagoras</em>, 345d-e, eta <em>Sokratesen apologia</em>, 38a (grezieratik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Bertutea ezagutza da</strong> → ongia zer den jakitea nahikoa da hura egiteko; inork ez du bere gaizkia bilatzen.",
+       "<strong>Gaizkia ezjakintasuna da</strong> → gaizki jokatzen duenak ona dirudiena eta ona dena nahasten ditu. Horregatik, behar duena ez da zigorra, irakaskuntza baizik.",
+       "<strong>Aristotelesen eragozpena</strong> → badago <em>akrasía</em>: egin behar dena jakin eta desiraren aurrean amore ematea. Ongia jakitea ez da nahikoa: izaera moldatu behar da."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer eragozten dio Aristotelesek intelektualismo moralari?",
+       "opciones": [
+        [
+         "Ongi dagoena jakin eta ez egitea posible dela, borondatearen ahulezia dela eta (<em>akrasía</em>).",
+         true
+        ],
+        [
+         "Ongia ezin dela ezagutu.",
+         false,
+         "Aristotelesek uste du ezagutzen dela; esaten duena da ezagutzea ez dela nahikoa."
+        ],
+        [
+         "Bertutea jainkoen dohain bat dela.",
+         false,
+         "Aristotelesentzat bertute etikoa ohituraz eskuratzen da."
+        ],
+        [
+         "Sokratesek ezer ez zekiela.",
+         false,
+         "Eragozpena filosofikoa da, ez Sokratesi buruzko iritzi bat."
+        ]
+       ],
+       "ok": "Zuzena: jakitea ez da nahikoa; izaera behar da.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Sokrates azaltzeko gai zara jada",
+   "parrafos": [
+    "Sofisten erlatibismoaren aurrean («gizakia da gauza guztien neurria»), Sokratesek definizio unibertsalak bilatzen ditu ironiarekin eta maieutikarekin. Haren intelektualismo moralak dio bertutea ezagutza dela eta inork ez duela gaizkirik egiten jakinez: gaizkia ezjakintasunetik sortzen da.",
+    "USErako: disertazioan, kontrajarri intelektualismo morala Aristotelesen <em>akrasía</em>rekin eta ohituraren etikarekin."
+   ],
+   "siguiente": "aristoteles-etica"
+  }
+ },
+ {
   "id": "hf-caverna",
   "ilustre": "platon",
   "subject": "hf",
@@ -743,6 +994,253 @@ const PISTAS = [
   }
  },
  {
+  "id": "agustin-mal",
+  "ilustre": "agustin",
+  "subject": "hf",
+  "tema": "12. gaia · Agustin Hiponakoa",
+  "unidad": "hf-fe-razon",
+  "materia": "Filosofia · Agustin Hiponakoa",
+  "titulo": "Jainkoa ona bada, nondik dator gaizkia?",
+  "lede": "Agustinek bizitzaren erdia inguru bere baitan eraman zuen galdera da, eta ikasgaiko galdetuenetako bat. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer da gaizkia Agustinentzat, manikeoen erantzunaren aurrean?",
+    "repaso": [
+     "Planteatu al dut arazoa: Jainkoa ona eta ahalguztiduna bada, nondik dator gaizkia?",
+     "Azaldu al dut manikeoen erantzuna: betiko bi printzipio, bata ona eta bestea gaiztoa, borrokan?",
+     "Esan al dut Agustinen erantzuna: gaizkia ez dela substantzia bat, ongi baten gabezia baizik, existitzen den guztia ona delako?"
+    ],
+    "intro": [
+     "Gaztetan, Agustin urte askoan manikeoen artean ibili zen, gaizkiaren inguruan erantzun oso sinplea zutenen artean. Geroago utzi egin zuen. Pentsatu zer zuen erakargarria eta zer arazotsua."
+    ],
+    "pistas": [
+     "Lurreratzeko: arazoa hau da. Jainkoa <strong>ona</strong> eta <strong>ahalguztiduna</strong> bada, eta dena sortu badu, nondik dator gaizkia?",
+     "<strong>Manikeoek</strong> erantzuten zuten badirela betiko <strong>bi printzipio</strong>, bata ona (argia) eta bestea gaiztoa (ilunpea), borrokan. Horrela Jainkoa ez da gaizkiaren erantzule, baina printzipio bakarra izateari uzten dio.",
+     "Agustinek, neoplatonikoen laguntzaz, beste erantzun bat ematen du: existitzen den guztia, existitzen den heinean, <strong>ona</strong> da, Jainkoarengandik datorrelako.",
+     "Orduan gaizkia <strong>ez da gauza bat</strong>, ez da substantzia: <strong>ongiaren falta</strong> da, gabezia bat, itsutasuna ikusmenaren falta den bezala edo iluntasuna argiaren falta den bezala."
+    ],
+    "comprobacion": {
+     "pregunta": "Agustinentzat gaitza zer da?",
+     "opciones": [
+      [
+       "Izan beharko lukeen ongi baten gabezia edo falta; ez substantzia bat.",
+       true
+      ],
+      [
+       "Jainkoaren aurka borrokan dagoen betiko printzipio bat.",
+       false,
+       "Hori da manikeoen erantzuna, Agustinek utzi zuena.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "Ilusio bat: gaizkia ez da inola ere existitzen.",
+       false,
+       "Gaizkia ongiaren benetako faltaren gisa existitzen da: ez da ilusioa, baina ez da gauza bat ere.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "Jainkoak gizakiak zigortzeko sortutako zerbait.",
+       false,
+       "Jainkoak sortzen duen guztia ona da: gaizkia ez da haren sorkari bat.",
+       "g-mal-como-privacion"
+      ]
+     ],
+     "ok": "Ondo: gaizkia ongiaren falta da, ez gauza bat.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Existitzen den guztia ona da",
+      "glosario": [
+       "g-mal-como-privacion",
+       "g-neoplatonismo"
+      ],
+      "cita": {
+       "texto": "«Beraz, existitzen diren gauza guztiak onak dira; eta jatorria bilatzen nuen gaizki hura ez da substantzia bat.»",
+       "fuente": "Agustin, <em>Aitorpenak</em> VII, 12, 18 (latinetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, zergatik ezin da gaizkia substantzia bat izan?",
+       "opciones": [
+        [
+         "Existitzen den guztia ona delako: gaizkia existitzen den gauza bat balitz, ona litzateke.",
+         true
+        ],
+        [
+         "Gaizkia txikiegia delako kontuan hartzeko.",
+         false,
+         "Ez da tamainaren kontua, errealitate-mota zer den baizik."
+        ],
+        [
+         "Irudimenean bakarrik existitzen delako.",
+         false,
+         "Testuak ez du esaten irudizkoa denik: esaten du ez dela substantzia bat."
+        ],
+        [
+         "Jainkoak suntsitu zuelako.",
+         false,
+         "Testuak ez du suntsipenaz hitz egiten: gaizkia zer den esaten du."
+        ]
+       ],
+       "ok": "Zehatz-mehatz: existitzen dena ona da; gaizkia falta dena da.",
+       "mal": "Irakurri berriz esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Manikeismotik gabeziara",
+      "glosario": [
+       "g-mal-como-privacion",
+       "g-conversion"
+      ],
+      "definicion": [
+       "<strong>Arazoa</strong> → Jainkoa ona eta ahalguztiduna bada eta dena sortzen badu, gaizkiak kontraesan egiten diola dirudi («gaizkia nondik datorren bilatzen nuen», <em>Aitorpenak</em> VII, 5, 7).",
+       "<strong>Manikeoak</strong> → betiko bi printzipio, ongia eta gaizkia, borrokan. Arazoa konpontzen du, baina Jainkoa printzipio bakarra ez izatearen kaltetan.",
+       "<strong>Agustin</strong> → existitzen den guztia ona da existitzen den heinean; gaizkia zor zen ongi baten gabezia da (itsutasuna ikusmenaren falta da). Ideia neoplatonikoengandik hartzen du."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zein adibidek azaltzen du ondo gaizkia gabezia gisa?",
+       "opciones": [
+        [
+         "Itsutasunak, gauza bat ez dena, ikusi beharko lukeenaren ikusmen-falta baizik.",
+         true
+        ],
+        [
+         "Pozoi batek, substantzia kaltegarria dena.",
+         false,
+         "Pozoia existitzen den gauza bat da; gabeziaren adibidea falta bat da."
+        ],
+        [
+         "Jendea tentatzen duen deabru batek.",
+         false,
+         "Hori gaizkia izaki gisa pentsatzea litzateke, Agustinek baztertzen duena."
+        ],
+        [
+         "Ekaitz batek, uztak suntsitzen dituenak.",
+         false,
+         "Ekaitza existitzen den zerbait da; gabezia falta dena da."
+        ]
+       ],
+       "ok": "Zuzena: gaizkia falta bat da, ez gauza bat.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Gaizkia gauza bat ez bada, nondik dator gizakiok egiten dugun gaizkia?",
+    "repaso": [
+     "Esan al dut gaizki morala borondatetik sortzen dela, hark borondate askea gaizki erabiltzen duelako?",
+     "Azaldu al dut «erabilera txarra»: borondatea ongi gorenetik aldentzen dela ongi txikiagoetara?",
+     "Esan al dut horrela gaizki moralaren erantzulea gizakia dela, ez Jainkoa, eta aipatu al dut Pelagiorekin graziari buruzko eztabaida?"
+    ],
+    "intro": [
+     "Agustinek <em>Aitorpenak</em> lanean galdetzen dio bere buruari zergatik, gaztetan, jan nahi ere ez zituen udare batzuk lapurtu zituen. Egiten dugun gaizkia ez dirudi argi-faltaren kasu hutsa. Pentsatu non kokatzen duen."
+    ],
+    "pistas": [
+     "Gogoratu: gaizkia ez da substantzia bat. Baina gizakiak gaizkia egiten du, eta hori azaldu behar da.",
+     "Agustinek <strong>borondatean</strong> kokatzen du. Jainkoak <strong>borondate askea</strong> eman zigun, eta hori ongi bat da: hura gabe ezingo genuke ongi jokatu, ezta ezer merezi ere.",
+     "Gaizki morala askatasun horren <strong>erabilera txarra</strong> da: borondatea ongi gorenetik (Jainkoa) aldentzen da eta ongi txikiagoetara (plazera, boterea, gauzak) biratzen da, goreneko balira bezala.",
+     "Horregatik, gaizki moralaren erantzulea <strong>gizakia</strong> da, ez Jainkoa. Geroago, <strong>Pelagioren</strong> aurka, Agustinek azpimarratuko du borondate zauritua ezin dela ongia egin graziaren laguntzarik gabe."
+    ],
+    "comprobacion": {
+     "pregunta": "Agustinen arabera, nondik sortzen da gaizki morala?",
+     "opciones": [
+      [
+       "Borondate askearen erabilera txarretik: borondatea ongi gorenetik aldentzen da ongi txikiagoetara.",
+       true
+      ],
+      [
+       "Jainkoarengandik, akatsekin egin gaituelako.",
+       false,
+       "Agustinentzat sortua ona da; gaizki morala giza borondatetik dator.",
+       "g-libre-albedrio"
+      ],
+      [
+       "Gorputzetik, berez txarra delako.",
+       false,
+       "Hori manikeismoaren antzekoa da; Agustinentzat gorputza, sorkari gisa, ona da.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "Patutik, inork aldatu ezin duenetik.",
+       false,
+       "Agustinek borondate askearen erantzukizuna defendatzen du.",
+       "g-libre-albedrio"
+      ]
+     ],
+     "ok": "Zehatz-mehatz: gaizki morala borondatearen desordena da.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Borondatea",
+      "titulo": "Borondate makur bat",
+      "glosario": [
+       "g-libre-albedrio",
+       "g-interioridad"
+      ],
+      "cita": {
+       "texto": "«Bilatu nuen zer zen gaiztakeria, eta ez nuen substantziarik aurkitu, borondate baten bihurrikeria baizik, substantzia gorenetik, zugandik, Jainkoa, aldentzen dena gauza baxuenetara.»",
+       "fuente": "Agustin, <em>Aitorpenak</em> VII, 16, 22 (latinetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Borondate askea ongi bat da</strong> → hura gabe ez legoke ez ongi moralik ez erantzukizunik.",
+       "<strong>Gaizki morala desordena bat da</strong> → behekoa gorekoa baino gehiago maitatzea: ongi txikiagoak goreneko balira bezala.",
+       "<strong>Erantzukizuna</strong> → egiten dugun gaizkia gurea da, ez Jainkoarena.",
+       "<strong>Pelagiorekiko eztabaida</strong> → Pelagiok uste zuen borondatea nahikoa dela ongia egiteko; Agustinek sostengatu zuen graziaren beharra duela. Haren polemika luzeenetako bat da."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Aipuan, zer da gaiztakeria (gaizki morala)?",
+       "opciones": [
+        [
+         "Jainkoarengandik, ongi gorenetik, gauza baxuenetara aldentzen den borondatea.",
+         true
+        ],
+        [
+         "Munduan dagoen substantzia txar bat.",
+         false,
+         "Testuak esplizituki dio ez zuela substantziarik aurkitu."
+        ],
+        [
+         "Jainkoaren zigor bat.",
+         false,
+         "Aipuak giza borondateaz hitz egiten du, ez zigor batez."
+        ],
+        [
+         "Ongiaren ezjakintasuna, Sokratesek zioen bezala.",
+         false,
+         "Agustinentzat arazoa borondatean dago, ez ezagutzan bakarrik."
+        ]
+       ],
+       "ok": "Zuzena: gaizki morala borondatearen norabidean dago.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Agustinen gaizkiaren arazoa azaltzeko gai zara jada",
+   "parrafos": [
+    "Betiko bi printzipio jartzen zituzten manikeoen aurrean, Agustinek dio existitzen den guztia ona dela eta gaizkia ez dela substantzia bat, ongiaren gabezia baizik. Gaizki morala borondate askearen erabilera txarretik sortzen da: borondate bat ongi gorenetik ongi txikiagoetara aldentzen da. Horregatik haren erantzulea gizakia da, ez Jainkoa.",
+    "USErako: kontrajarri haren erantzuna Sokratesen intelektualismoarekin (gaizkia ezjakintasuna dela) eta Spinozarenarekin (ezer ez dela txarra berez, gugandik begiratuta baizik)."
+   ]
+  }
+ },
+ {
   "id": "descartes-metodo",
   "ilustre": "descartes",
   "subject": "hf",
@@ -1233,6 +1731,256 @@ const PISTAS = [
     "Descartesek metodoz dudatzen du —zentzumenak, ametsa, jeinu gaiztoa— egia zalantzaezin bat aurkitzeko. Cogitoan aurkitzen du: dudatzen badut, pentsatzen dut, eta pentsatzen badut, existitzen naiz. Bere egia-irizpidea argitasuna eta bereiztasuna izango dira.",
     "USErako: alderatu abiapuntu arrazionalista hau Humerenarekin; harentzat ezagutza oro esperientziatik dator."
    ]
+  }
+ },
+ {
+  "id": "hume-empirismo",
+  "ilustre": "hume",
+  "subject": "hf",
+  "tema": "14. gaia · Hume",
+  "unidad": "hf-racionalismo",
+  "materia": "Filosofia · Hume",
+  "titulo": "Nondik datoz gure ideiak Humeren arabera, eta zergatik ezin dugu kausalitatea ikusi?",
+  "lede": "Descartesen bikotea USEn: enpirismoa muturreraino eramanda. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer aldea dago inpresioen eta ideien artean, eta zer irizpide ateratzen du Humek hortik?",
+    "repaso": [
+     "Definitu al ditut inpresioak (pertzepzio bizi-biziak: sentitzea, ikustea, desiratzea) eta ideiak (haien kopia ahulagoak: gogoratzea, irudikatzea)?",
+     "Esan al dut ideia guztia aurreko inpresio batetik datorrela?",
+     "Azaldu al dut irizpidea: hitz batek inpresiorik aipatzen ez badu, ez duela edukirik (eta substantziari edo niari aplikatu diola)?"
+    ],
+    "intro": [
+     "Ez da gauza bera zartagin batekin erretzea eta erre zinela gogoratzea. Humek horrelako alde batetik abiatzen da. Saiatu azaltzen zein den, laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Lurreratzeko: Hume <strong>enpiristea</strong> da, Descartesen aurka. Gogoan dagoen guztia esperientziaren bidez iristen da; ez dago jaiotzetiko ideiarik.",
+     "Gogoan dagoen guztiari <strong>pertzepzioak</strong> deitzen dio, eta bitan banatzen ditu: <strong>inpresioak</strong> (sentitzen, ikusten edo desiratzen duguna, bizi eta indartsuak) eta <strong>ideiak</strong> (haien kopia ahulagoak, gogoratzean edo irudikatzean).",
+     "Gakoa: <strong>ideia guztia inpresio baten kopia da</strong>. Urrezko mendi bat irudikatzen badugu ere, mendien eta urrearen inpresioekin osatzen dugu.",
+     "Hortik <strong>irizpide</strong> bat: hitz filosofiko baten aurrean, galdetu «zer inpresiotatik dator?». Bat ere ez badago, hitzak ez du edukirik. Horrela erasotzen ditu <strong>substantzia</strong> edo <strong>ni</strong>a bezalako ideiak, pertzepzioen multzo bat baino ez dena."
+    ],
+    "comprobacion": {
+     "pregunta": "Humeren arabera, nondik datoz gure ideia guztiak?",
+     "opciones": [
+      [
+       "Aurreko inpresioetatik: ideia guztia inpresio baten kopia ahulagoa da.",
+       true
+      ],
+      [
+       "Arrazoitik, jaiotzatik dituenetik.",
+       false,
+       "Hori da Descartesen jaiotzetiko ideien teoria, Humek baztertzen duena.",
+       "g-empirismo"
+      ],
+      [
+       "Jainkoarengandik, gure gogoan jartzen dituenetik.",
+       false,
+       "Humek ez dio Jainkoari helduko ezagutza azaltzeko: dena esperientziatik dator.",
+       "g-impresion"
+      ],
+      [
+       "Irudimenetik, ezerezetik sortzen dituenetik.",
+       false,
+       "Irudimenak konbinatu egiten du, baina beti inpresioetatik datozen materialekin.",
+       "g-impresion"
+      ]
+     ],
+     "ok": "Ondo: aurretiazko inpresiorik gabe, ez dago ideiarik.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Inpresioen kopiak",
+      "glosario": [
+       "g-impresion",
+       "g-empirismo"
+      ],
+      "cita": {
+       "texto": "«Gure ideia guztiak, edo pertzepzio ahulenak, gure inpresioen, edo pertzepzio biziagoen, kopiak dira.»",
+       "fuente": "Hume, <em>Giza adimenari buruzko ikerketa</em> (1748), II, § 13 (ingelesetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, zerk bereizten ditu inpresioak ideietatik?",
+       "opciones": [
+        [
+         "Bizitasunak: inpresioak biziagoak dira; ideiak, kopia ahulagoak.",
+         true
+        ],
+        [
+         "Jatorriak: batzuk zentzumenetatik datoz eta besteak arrazoi hutsetik.",
+         false,
+         "Humeren ustez biak esperientziatik datoz; aldea intentsitatekoa da."
+        ],
+        [
+         "Egiak: inpresioak egiazkoak dira eta ideiak, faltsuak.",
+         false,
+         "Testuak ez du egiaz eta faltsutasunaz hitz egiten, bizitasunaz baizik."
+        ],
+        [
+         "Ez dago alderik: gauza bera dira.",
+         false,
+         "Testuak bereizten ditu: batzuk besteen kopiak dira."
+        ]
+       ],
+       "ok": "Zehatz-mehatz: aldea indarrekoa eta bizitasunekoa da.",
+       "mal": "Irakurri berriz esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Irizpide enpiristak",
+      "glosario": [
+       "g-impresion",
+       "g-haz-de-percepciones"
+      ],
+      "definicion": [
+       "<strong>Inpresioak</strong> → pertzepzio bizi-biziak: sentsazioak, emozioak, desirak.",
+       "<strong>Ideiak</strong> → inpresioen kopia ahulagoak: gogoratzen edo irudikatzen duguna.",
+       "<strong>Irizpidea</strong> → ideia zilegi orok inpresio batetik dator; hitz batek bat ere aipatzen ez badu, esanahirik gabe dago.",
+       "<strong>Ondorioak</strong> → ez dugu kualitateen azpian dagoen substantzia baten inpresiorik, ezta ni iraunkor batenik ere: nia pertzepzioen multzo bat da."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Humeren irizpidearen arabera, zer gertatzen da «ni» iraunkorraren ideiarekin?",
+       "opciones": [
+        [
+         "Ez dagoela haren inpresiorik: nia segidan doazen pertzepzioen multzoa da.",
+         true
+        ],
+        [
+         "Lehen ziurtasuna dela, Descartesen <em>cogito</em>an bezala.",
+         false,
+         "Hori da Descartesen jarrera, Humek zalantzan jartzen duena."
+        ],
+        [
+         "Jaiotzetiko ideia bat dela.",
+         false,
+         "Humek jaiotzetiko ideiak baztertzen ditu."
+        ],
+        [
+         "Edozein objektu bezala zentzumenekin hautematen dela.",
+         false,
+         "Guztiz kontrakoa: ez dugu niaren inpresiorik aurkitzen."
+        ]
+       ],
+       "ok": "Zuzena: niaren inpresiorik gabe, pertzepzio-multzo bat besterik ez da geratzen.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zergatik dio Humek ez dugula ezagutzen kausaren eta ondorioaren arteko lotura beharrezkoa?",
+    "repaso": [
+     "Bereizi al ditut ideien arteko erlazioak (ziurrak, matematika bezala) eta egitateen gaiak (esperientziaren araberakoak)?",
+     "Azaldu al dut kausalitatean segida eta konjuntzio konstantea ikusten dugula bakarrik, ez lotura beharrezkorik?",
+     "Esan al dut inferentzia kausala ohituran oinarritzen dela, eta lotu al dut indukzioaren arazoarekin?"
+    ],
+    "intro": [
+     "Billar-bola batek beste bat jotzen du eta bigarrena mugitzen da. Lehenak mugimendua «eragin» duela diogu. Humek galdetzen du zer ikusi dugun zehazki."
+    ],
+    "pistas": [
+     "Gogoratu bi ezagutza-motak: <strong>ideien arteko erlazioak</strong> («bi gehi bi lau dira» bezala) ziurrak dira mundura begiratu gabe; <strong>egitateen gaiak</strong> esperientziaren araberakoak dira eta haien aurkakoa beti da posible.",
+     "Kausalitatea egitate-gai bat da. Aplikatu inpresioen irizpidea: billar-bolen kasuan bata ikusten dugu eta gero bestea, <strong>kontigutasuna eta segida</strong>, eta hori beti errepikatzen dela. Baina <strong>ez dugu inongo lotura beharrezkorik ikusten</strong>.",
+     "Nondik dator orduan «gertatu behar du» ideia? <strong>Ohiturarengatik</strong>: gauza bera askotan ikusi ondoren, gogoak errepikatuko dela espero du.",
+     "Horregatik ezin dugu frogatu etorkizuna iraganaren antzekoa izango denik: hori da <strong>indukzioaren arazoa</strong>. Hala ere, ohiturak bizitzeko aukera ematen digu: «giza bizitzaren gida handia» da."
+    ],
+    "comprobacion": {
+     "pregunta": "Humeren arabera, nondik sortzen da kausaren eta ondorioaren arteko lotura beharrezkoaren ideia?",
+     "opciones": [
+      [
+       "Ohiturarengatik: gauza bera askotan ikusi ondoren, errepikatuko dela espero dugu.",
+       true
+      ],
+      [
+       "Kausa ondorioarekin lotzen duen indarra zuzenean hautematen dugulako.",
+       false,
+       "Hori da Humek ukatzen duena: segida bakarrik ikusten dugu, ez lotura.",
+       "g-habito"
+      ],
+      [
+       "Frogapen arrazional batetik, matematikan bezala.",
+       false,
+       "Kausalitatea egitate-gai bat da, ez ideien arteko erlazio bat.",
+       "g-relaciones-de-ideas"
+      ],
+      [
+       "Jainkoarengandik, naturaren ordena bermatzen duenetik.",
+       false,
+       "Humek ez dio Jainkoari helduko: ohituraz azaltzen du.",
+       "g-habito"
+      ]
+     ],
+     "ok": "Zehatz-mehatz: beharra ohiturak jartzen du, ez esperientziak.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Kausalitatea eta ohitura",
+      "titulo": "Bizitzaren gida handia",
+      "glosario": [
+       "g-relaciones-de-ideas",
+       "g-habito",
+       "g-el-problema-de-la-induccion"
+      ],
+      "cita": {
+       "texto": "«Ohitura da, beraz, giza bizitzaren gida handia.»",
+       "fuente": "Hume, <em>Giza adimenari buruzko ikerketa</em> (1748), V, § 36 (ingelesetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Ikusten duguna</strong> → kontigutasuna, segida (lehenengo kausa, gero ondorioa) eta konjuntzio konstantea (beti horrela gertatu da).",
+       "<strong>Ikusten ez duguna</strong> → lotura beharrezkoa, «gertatu behar du». Ez dago haren inpresiorik.",
+       "<strong>Nondik datorren</strong> → ohituratik: errepikapenak gogoan sortzen du berriz errepikatuko dela espero izatea.",
+       "<strong>Ondorioa</strong> → ezin dugu frogatu etorkizuna iraganaren antzekoa izango denik (indukzioaren arazoa). Eszeptizismo moderatu bat da: ez du bizitzea eragozten, baina arrazoiaren asmoak apaltzen ditu."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer da indukzioaren arazoa?",
+       "opciones": [
+        [
+         "Ezin dugula frogatu etorkizuna iraganaren modukoa izango denik, zerbait zenbat aldiz errepikatu den ere.",
+         true
+        ],
+        [
+         "Zientzia ez dela ezertarako.",
+         false,
+         "Humek ez du hori esaten: ohiturak bizitzeko balio digu, baina ziurtasun absoluturik gabe."
+        ],
+        [
+         "Matematika ez dela segurua.",
+         false,
+         "Ideien arteko erlazioak, matematika bezala, ziurrak dira."
+        ],
+        [
+         "Inoiz ez dugula kausarik ikusi.",
+         false,
+         "Segidak ikusten ditugu; ikusten ez duguna lotura beharrezkoa da."
+        ]
+       ],
+       "ok": "Zuzena: errepikatutik ez da beharrezkoa ondorioztatzen.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Humeren enpirismoa azaltzeko gai zara jada",
+   "parrafos": [
+    "Gure ideia guztiak inpresioen kopiak dira; hitz batek inpresiorik aipatzen ez badu, edukirik gabe dago. Kausalitatea egitate-gai bat da: segida eta konjuntzio konstantea ikusten ditugu, baina ez lotura beharrezkoa, ohiturak sortzen duena. Horregatik ezin dugu frogatu etorkizuna iraganaren antzekoa izango denik.",
+    "USErako: konparatu Descartesekin, puntuz puntu: ideien jatorria (jaiotzetikoak edo esperientziakoak), egiaren irizpidea (ebidentzia edo inpresioa) eta arrazoiaren irismena."
+   ],
+   "siguiente": "descartes-metodo"
   }
  },
  {

@@ -1301,6 +1301,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Gaizkia gabezia gisa",
+  "id": "g-mal-como-privacion",
+  "et": "Gaztelaniazko *privación* latinezko *privatio* hitzetik dator, *privare* aditzetik, «kendu, zerbaitik gabe utzi». Eskolastikoek *privatio boni* deitu zioten, «ongiaren gabezia».",
+  "area": "Metafisika",
+  "bloque": "B",
+  "unidad": "B1",
+  "tema": "Agustin Hiponakoa",
+  "def": "Agustinen erantzuna gaizkiaren arazoari: gaizkia ez da substantzia bat, ez eta Jainkoaren aurkako printzipio lehiakide bat ere, manikeoek zioten bezala, izan beharko lukeen ongi baten falta baizik. Existitzen den guztia, existitzen den heinean, ona da (*Aitorpenak* VII, 12, 18).",
+  "ilustre": [
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 11,
   "t": "Kulturaren ondoeza",
   "id": "g-el-malestar-en-la-cultura",
@@ -2788,6 +2804,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Borondate askea",
+  "id": "g-libre-albedrio",
+  "et": "Gaztelaniazko *albedrío* latinezko *arbitrium* hitzetik dator, «iritzia, erabakia»; *libre*, latinezko *liber* hitzetik.",
+  "area": "Antropologia",
+  "bloque": "B",
+  "unidad": "B1",
+  "tema": "Agustin Hiponakoa",
+  "def": "Borondatearen gaitasuna aukeratzeko. Agustinentzat ongi bat da, Jainkoak gizakiari eman ziona ongi jokatzeko; gaizki morala hura gaizki erabiltzetik sortzen da, borondatea ongi handiagotik ongi txikiagoetara aldentzen denean, eta horregatik haren erantzulea gizakia da, ez Jainkoa (*Borondate askeaz*). Geroago, Pelagioren aurka, azpimarratzen du graziarik gabe borondatea ez dela nahikoa ongia egiteko.",
+  "ilustre": [
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 8,
   "t": "Apolineoa",
   "id": "g-lo-apolineo",
@@ -3432,6 +3464,22 @@ const GLOSARIO = [
   "def": "*Metodoaren diskurtsoaren* (II) lau arauak: ebidentzia (ebidentziaz ezagutzen ez den ezer ez onartzea), analisia (zailtasun bakoitza behar beste zatitan banatzea), sintesia (ordenaz joatea, sinpleenetik konplexuenera) eta zerrendapena (dena berrikustea, ezer ez ahazteko).",
   "ilustre": [
    "descartes"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Ideien arteko erlazioak eta egitateen gaiak",
+  "id": "g-relaciones-de-ideas",
+  "et": "Gaztelaniazko *relación* latinezko *relatio* hitzetik dator, «gauza baten beste batekiko erreferentzia»; *hecho*, latinezko *factum* hitzetik, «egindakoa, gertatutakoa».",
+  "area": "Epistemologia",
+  "bloque": "B",
+  "unidad": "BH",
+  "tema": "Hume",
+  "def": "Humeren arabera ezagutza-mota biak (*Giza adimenari buruzko ikerketa*, IV): ideien arteko erlazioak (matematika eta logika), frogapenez ziurrak, haien aurkakoa kontraesankorra delako; eta egitateen gaiak, esperientziaren araberakoak, haien aurkakoa beti posible dena (eguzkia bihar ez ateratzea). Ez bata ez bestea ez denak, lanaren amaieran dioenez, «sutara» joan behar du.",
+  "ilustre": [
+   "hume"
   ]
  },
  {

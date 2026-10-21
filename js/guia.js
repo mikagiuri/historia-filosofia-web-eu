@@ -373,7 +373,7 @@ const GUIA = {
     {
      "nombre": "Biografiak",
      "texto": "Teorian agertzen diren pentsalarien biografiak: nor izan ziren, zer pentsatu zuten eta zein gaitan ikasten ditugun. Goian, Jazarriak (pentsatzeko moduak bizia, askatasuna edo aberria kostatu zitzaien filosofo eta zientzialariak) eta Komunitateak (pentsalarien eskolak eta taldeak) botoiak.",
-     "view": "ilustres"
+     "view": "biografias"
     },
     {
      "nombre": "Adagioak",
