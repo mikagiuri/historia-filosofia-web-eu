@@ -459,6 +459,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Bost bideak",
+  "id": "g-cinco-vias",
+  "et": "*Bide* hitzak latinezko *via* itzultzen du, «bidea»: Tomasek *quinque viae* aipatzen ditu, «bost bide».",
+  "area": "Erlijioa",
+  "bloque": "B",
+  "unidad": "BT",
+  "tema": "Tomas Akinokoa",
+  "def": "Tomas Akinokoak Jainkoa badela a posteriori frogatzeko erabiltzen dituen bost argudioak. Munduko gertakarietatik abiatzen dira (mugimendua, kausak, kontingentzia, perfekzio-mailak eta ordena), beste baten mende daudela erakusten dute eta lehen oinarri bat behar dela ondorioztatzen dute: lehen motorra, lehen kausa, izaki beharrezkoa, izaki guztiz perfektua eta antolatzaile gorena. Argudio metafisikoak dira, ez froga esperimentalak; Humek eta Kantek ukatu egingo dute arrazoiak horrela esperientziaz haraindi jauzi egin dezakeenik.",
+  "ilustre": [
+   "tomas"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 9,
   "t": "Zinismoa",
   "id": "g-cinismo",
@@ -752,6 +768,21 @@ const GLOSARIO = [
   "def": "Lege moralarekiko errespetuagatik jokatzea; ez soilik arauarekin bat etortzea, baizik eta motibazio moral egokia izatea.",
   "ilustre": [
    "kant"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 11,
+  "t": "Emakumearen Eskubideen Adierazpena",
+  "id": "g-declaracion-de-los-derechos-de-la-mujer",
+  "area": "Politika",
+  "bloque": "C",
+  "unidad": "C1",
+  "tema": "Ilustrazioa",
+  "def": "*Emakumearen eta Herritar Emakumearen Eskubideen Adierazpena* (1791), Olympe de Gougesena: 1789koa artikuluz artikulu berridazten du emakumea barne hartzeko, eta salatzen du gizateriaren erdia kanpoan uzten duten eskubide «unibertsalak» beren buruarekin kontraesanean daudela. «Emakumea aske jaiotzen da, eta eskubideetan gizonaren berdina izaten jarraitzen du» (1. art.).",
+  "ilustre": [
+   "gouges"
   ]
  },
  {
@@ -1652,6 +1683,24 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Naturazko egoera",
+  "id": "g-estado-de-naturaleza",
+  "et": "*Natura*, latinezko *natura*, *nasci* aditzetik, «jaio».",
+  "area": "Politika",
+  "bloque": "B",
+  "unidad": "B6",
+  "tema": "Gizarte-kontratua",
+  "def": "Estatuaren aurreko egoera hipotetikoa, botere komunik gabea. Ez da gertaera historiko bat, boterea justifikatzeko pentsamendu-esperimentu bat baizik: Hobbesentzat guztien guztien aurkako gerra da; Lockerentzat badaude jada eskubide naturalak, baina gaizki babestuta; Rousseaurentzat gizakia aske eta ona da, eta gizarte desberdina da hura usteltzen duena.",
+  "ilustre": [
+   "hobbes",
+   "locke",
+   "rousseau"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 9,
   "t": "Eudaimonía (zoriontasuna)",
   "id": "g-eudaimonia",
@@ -2389,6 +2438,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Judizio sintetiko a prioriak",
+  "id": "g-juicios-sinteticos-a-priori",
+  "et": "*Sintetikoa*, grezierazko σύνθεσις (*sýnthesis*): «konposizioa»; *a priori*, latinez: «aurretik doanetik».",
+  "area": "Epistemologia",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kanten filosofia",
+  "def": "Ezagutza zabaltzen duten judizioak (sintetikoak), aldi berean unibertsalak eta beharrezkoak direnak, esperientziaren mende egon gabe (a priori), hala nola «7 + 5 = 12» edo «gertatzen den guztiak kausa bat du». Matematikarenak eta fisikarenak dira; Kantek galdetzen du nola diren posible, eta subjektuaren a priori formekin erantzuten du.",
+  "ilustre": [
+   "kant"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Justizia",
@@ -2958,6 +3023,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 11,
+  "t": "Fede txarra",
+  "id": "g-mala-fe",
+  "et": "Frantsesezko *mauvaise foi* itzultzen du.",
+  "area": "Antropologia",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "Existentzialismoa",
+  "def": "Sartreren arabera, askatasunaren larritasunetik ihes egiteko geure buruari egiten diogun engainua: geure burua izaera finkoa duen gauza bat bagina bezala tratatzea («ni horrelakoa naiz») edo egoerari errua botatzea («ez nuen aukerarik izan»). Beti dago hautua: ez aukeratzea ere aukeratzea da.",
+  "ilustre": [
+   "sartre"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 10,
   "t": "Materialismoa",
   "id": "g-materialismo",
@@ -3452,6 +3533,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
+  "t": "Bizi-arrazoia",
+  "id": "g-razon-vital",
+  "et": "*Bitala*, latinezko *vita*: «bizitza».",
+  "area": "Epistemologia",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "Existentzialismoa",
+  "def": "Arrazoia Ortega y Gassetentzat: ez abstrakzio hotz bat, bizitza zehatzaren tresna bat baizik, bizitza baita errealitate erradikala. Arrazionalismo hutsa eta bitalismo irrazionala aldi berean gainditu nahi ditu; horregatik dio gizakiak ez duela naturarik, historia baizik.",
+  "ilustre": [
+   "ortega"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 5,
   "impg": 4,
   "t": "Metodoaren arauak",
@@ -3480,6 +3577,22 @@ const GLOSARIO = [
   "def": "Humeren arabera ezagutza-mota biak (*Giza adimenari buruzko ikerketa*, IV): ideien arteko erlazioak (matematika eta logika), frogapenez ziurrak, haien aurkakoa kontraesankorra delako; eta egitateen gaiak, esperientziaren araberakoak, haien aurkakoa beti posible dena (eguzkia bihar ez ateratzea). Ez bata ez bestea ez denak, lanaren amaieran dioenez, «sutara» joan behar du.",
   "ilustre": [
    "hume"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Iraultza kopernikarra",
+  "id": "g-revolucion-copernicana",
+  "et": "Nikolas Kopernikorengatik, erdigunean Lurra ez, Eguzkia jarri baitzuen.",
+  "area": "Epistemologia",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "Kanten filosofia",
+  "def": "Kantek ezagutzaren teorian egindako biraketa: ez da subjektua objektuetara egokitzen, baizik eta objektuak, ezagutzen ditugun bezala, subjektuaren a priori formetara (espazioa, denbora eta kategoriak). Horrek ez du esan nahi subjektuak mundua asmatzen duenik: esperientziak jartzen du materia.",
+  "ilustre": [
+   "kant"
   ]
  },
  {
@@ -4799,6 +4912,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Egia naturalak eta naturaz gaindikoak",
+  "id": "g-verdades-naturales-y-sobrenaturales",
+  "et": "*Naturaz gaindikoa* latinezko *super* («gainetik») eta *natura* («natura») hitzen ordaina da.",
+  "area": "Erlijioa",
+  "bloque": "B",
+  "unidad": "BT",
+  "tema": "Tomas Akinokoa",
+  "def": "Tomas Akinokoak egiten duen bereizketa, arrazoi naturalak iristen dituen egien (Jainkoa badela) eta hura gainditzen duten eta errebelazioz bakarrik ezagutzen direnen (Trinitatea) artean. Batzuk bi bideetatik ezagutzen dira. Ezin dute elkarren kontra egin, egia bakarra baita: fedea eta arrazoia bereizi egiten dira, baina elkarlanean aritzen dira.",
+  "ilustre": [
+   "tomas"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Egiaztagarritasuna",
@@ -4970,6 +5099,22 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Feminismoa",
   "def": "Mendekotasuna, zaurgarritasuna eta harremana moralaren erdigunera ekartzen dituen ildoa."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Borondate orokorra",
+  "id": "g-voluntad-general",
+  "et": "*Borondatea*, latinezko *voluntas*, *velle* aditzetik, «nahi».",
+  "area": "Politika",
+  "bloque": "B",
+  "unidad": "B6",
+  "tema": "Gizarte-kontratua",
+  "def": "Rousseauren arabera, komunitate politikoaren interes komuna, gizarte-kontratutik sortzen dena. Ez da «guztien borondatea», interes partikularren batura. Subiranotasuna herriarena da, eta ezin da ordezkatu; aske izatea norberak bere buruari emandako legeari obeditzea da. Haren kritikariek eztabaidatzen dute nork erabakitzen duen, praktikan, zein den interes komun hori.",
+  "ilustre": [
+   "rousseau"
+  ]
  },
  {
   "subject": "hf",

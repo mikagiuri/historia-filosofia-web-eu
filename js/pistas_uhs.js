@@ -1237,7 +1237,262 @@ const PISTAS = [
    "parrafos": [
     "Betiko bi printzipio jartzen zituzten manikeoen aurrean, Agustinek dio existitzen den guztia ona dela eta gaizkia ez dela substantzia bat, ongiaren gabezia baizik. Gaizki morala borondate askearen erabilera txarretik sortzen da: borondate bat ongi gorenetik ongi txikiagoetara aldentzen da. Horregatik haren erantzulea gizakia da, ez Jainkoa.",
     "USErako: kontrajarri haren erantzuna Sokratesen intelektualismoarekin (gaizkia ezjakintasuna dela) eta Spinozarenarekin (ezer ez dela txarra berez, gugandik begiratuta baizik)."
-   ]
+   ],
+   "siguiente": "tomas-fe-razon"
+  }
+ },
+ {
+  "id": "tomas-fe-razon",
+  "ilustre": "tomas",
+  "subject": "hf",
+  "tema": "12. gaia · Tomas Akinokoa",
+  "unidad": "hf-fe-razon",
+  "materia": "Filosofia · Tomas Akinokoa",
+  "titulo": "Fedea eta arrazoia elkarren kontrakoak izan daitezke, eta arrazoiak froga dezake Jainkoa badela?",
+  "lede": "Fedearen eta arrazoiaren arteko harremana 2026ko ezohiko deialdiko USEn atera zen; bost bideak dira Tomasen gauzarik ezagunenak. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Nola bereizten ditu Tomas Akinokoak fedea eta arrazoia, eta zergatik dio ezin direla elkarren kontrakoak izan?",
+    "repaso": [
+     "Bereizi ditut egia naturalak (arrazoiak iristen ditu) eta naturaz gaindikoak (errebelazioz bakarrik, Trinitatea bezala)?",
+     "Esan dut egia batzuk, Jainkoa badela adibidez, bi bideetatik ezagut daitezkeela?",
+     "Azaldu dut zergatik ezin diren elkarren kontrakoak izan: biak Jainkoarengandik datoz eta egia bakarra da?"
+    ],
+    "intro": [
+     "XIII. mendean Aristotelesen lanak iristen dira unibertsitateetara; filosofo pagano bat da, eta Bibliarik gabe azaltzen du mundua. Askok fedearentzako mehatxutzat jotzen dute. Pentsatu zer egiten duen Tomasek harekin laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Lurreratzeko: Tomasek <strong>Aristotelesen</strong> filosofia kristautasunean txertatu nahi du. Ez du fedea arrazoiaz ordezkatzen, ezta arrazoia fedeaz isilarazten ere: bi eremuak <strong>bereizi</strong> egiten ditu eta <strong>elkarlanean</strong> jartzen ditu.",
+     "Badira <strong>egia naturalak</strong>, arrazoiak berez irits ditzakeenak mundua aztertuz, eta <strong>egia naturaz gaindikoak</strong>, arrazoia gainditzen dutenak eta <strong>errebelazioz</strong> bakarrik ezagutzen direnak, Trinitatea bezala.",
+     "Egia batzuk <strong>bi bideetatik</strong> ezagut daitezke: Jainkoa badela fedeak dio, baina arrazoiak ere froga dezake, mundutik abiatuta.",
+     "Eta talka egiten badute? Ezin dute: arrazoia eta errebelazioa Jainko beragandik datoz, eta <strong>egia bakarra da</strong>. Ondorio filosofiko batek fedearen kontra egiten badu, arrazoia urratsen batean oker ibili da."
+    ],
+    "comprobacion": {
+     "pregunta": "Tomasen arabera, zer harreman dago fedearen eta arrazoiaren artean?",
+     "opciones": [
+      [
+       "Bide desberdinak dira, elkarlanean aritzen dira eta ezin dute elkarren kontra egin, egia bakarra baita.",
+       true
+      ],
+      [
+       "Fedeak arrazoia deuseztatzen du: arrazoiak dioenak ez du axola.",
+       false,
+       "Tomasek asko baloratzen du arrazoia: Aristotelesen filosofia da haren lanaren oinarria.",
+       "g-escolastica"
+      ],
+      [
+       "Bi egia kontrajarri dira, eta aldi berean egiazkoak izan daitezke.",
+       false,
+       "Tomasek ukatu egiten du bi egia daudenik: arrazoiak fedearen kontra egiten badu, arrazoiak huts egin du.",
+       "g-verdades-naturales-y-sobrenaturales"
+      ],
+      [
+       "Arrazoiak froga dezake fedeak dioen guztia, Trinitatea barne.",
+       false,
+       "Trinitatea egia naturaz gaindikoa da: arrazoiak ezin du frogatu.",
+       "g-verdades-naturales-y-sobrenaturales"
+      ]
+     ],
+     "ok": "Ondo: bereizi, baina ez banandu.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Egiaren modu bikoitza",
+      "glosario": [
+       "g-verdades-naturales-y-sobrenaturales",
+       "g-escolastica"
+      ],
+      "cita": {
+       "texto": "«Jainkoaz aitortzen ditugunetan egiaren modu bikoitza dago. Jainkoari buruzko egia batzuek giza arrazoiaren ahalmen oro gainditzen dute, Jainkoa hirukoitza eta bakarra dela, esaterako. Beste batzuetara, berriz, arrazoi naturala ere irits daiteke, hala nola Jainkoa badela, bakarra dela eta antzekoetara.»",
+       "fuente": "Tomas Akinokoa, <em>Summa contra gentiles</em>, I, 3 (latinetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, egia hauetatik zein irits dezake arrazoi naturalak?",
+       "opciones": [
+        [
+         "Jainkoa badela.",
+         true
+        ],
+        [
+         "Jainkoa hirukoitza eta bakarra dela.",
+         false,
+         "Testuak adibide hori jartzen du, hain zuzen, arrazoia gainditzen duen egia gisa."
+        ],
+        [
+         "Bat ere ez: Jainkoaz dakigun guztia errebelazioz dakigu.",
+         false,
+         "Testuak bi modu aipatzen ditu: horietako bat arrazoiak iristen du."
+        ],
+        [
+         "Guztiak, ondo arrazoitzen bada.",
+         false,
+         "Testuak dio batzuek «giza arrazoiaren ahalmen oro» gainditzen dutela."
+        ]
+       ],
+       "ok": "Zehatz-mehatz: Jainkoaren existentzia bi bideetako egia da.",
+       "mal": "Irakurri berriz testua.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Bereizi, baina ez banandu",
+      "glosario": [
+       "g-verdades-naturales-y-sobrenaturales",
+       "g-ley-natural"
+      ],
+      "cita": {
+       "texto": "«Graziak ez du natura suntsitzen, osatu baizik.»",
+       "fuente": "Tomas Akinokoa, <em>Summa Theologiae</em>, I, q. 1, a. 8, ad 2 (latinetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Egia naturalak</strong> → arrazoiak iristen ditu mundua, haren kausak eta ordena aztertuz. Filosofiaren eremua dira.",
+       "<strong>Egia naturaz gaindikoak</strong> → arrazoia gainditzen dute eta errebelazioz ezagutzen dira, Trinitatea edo Enkarnazioa bezala. Teologiaren eremua dira.",
+       "<strong>Ez dute elkarren kontra egiten</strong> → biak Jainkoarengandik datoz; arrazoiaren ondorio batek fedearekin talka egiten badu, arrazoibidean akats bat dago («arrazoiak berez daukana ezin da egia horren kontrakoa izan», <em>Summa contra gentiles</em>, I, 7).",
+       "<strong>Bi muturren aurrean</strong> → fideismoa, arrazoia gutxiesten duena, eta arrazionalismo teologikoa, fede osoa arrazoiaren menpe jarri nahi duena. Geroago Ockhamek askoz gehiago bananduko ditu bi eremuak."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zer esan nahi du «graziak ez du natura suntsitzen, osatu baizik» esaldiak?",
+       "opciones": [
+        [
+         "Fedeak ez dituela deuseztatzen arrazoia eta mundu naturalaren balioa, osatu baizik.",
+         true
+        ],
+        [
+         "Natura txarra dela eta graziak suntsitu egin behar duela.",
+         false,
+         "Justu kontrakoa da: natura ona da eta graziak osatu egiten du."
+        ],
+        [
+         "Arrazoia fedearen gainetik dagoela.",
+         false,
+         "Esaldiak dio graziak osatu egiten duela, ez arrazoiak agintzen duela."
+        ],
+        [
+         "Naturak Jainkoaren beharrik batere ez duela.",
+         false,
+         "Tomasentzat Jainkoak sortua da mundua; graziak goratu egiten du."
+        ]
+       ],
+       "ok": "Zuzen: elkarlana, ez ordezkapena.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Nola saiatzen da Tomas Jainkoa badela frogatzen, eta zer dute komunean bost bideek?",
+    "repaso": [
+     "Esan dut frogapena a posteriori dela: esperientziako gertakarietatik abiatzen da, ez Jainkoaren kontzeptutik (argudio ontologikoak bezala)?",
+     "Aipatu ditut bost bideak: mugimendua, kausak, kontingentzia, perfekzio-mailak eta munduaren ordena?",
+     "Azaldu dut egitura komuna: ikusten duguna beste baten mende dago, ezin da infinitura joan, beraz badago lehen bat, eta hari Jainko deitzen diogu?"
+    ],
+    "intro": [
+     "Anselmok Jainkoa haren ideia beretik frogatu nahi izan zuen, mundura begiratu gabe. Tomasen ustez bide horrek ez du balio, eta beste toki batetik hasten da. Pentsatu nondik laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Lurreratzeko: Tomasek baztertu egiten du Jainkoa haren kontzeptu hutsetik frogatzea, Anselmok bezala (argudio ontologikoa). Haren frogapena <strong>a posteriori</strong> da: munduan ikusten dugunetik abiatzen da eta haren kausaraino igotzen da.",
+     "<strong>Bost bideak</strong> bost gertakaritatik abiatzen dira: <strong>mugimendua</strong>, <strong>kausa</strong> eragileak, <strong>kontingentzia</strong> (existitu gabe egon litezkeen gauzak), <strong>perfekzio-mailak</strong> eta naturaren <strong>ordena</strong>.",
+     "Guztiek eskema bera dute: ikusten duguna <strong>beste baten mende dago</strong>; kate horrek <strong>ezin du infinitura joan</strong>, bestela ez bailitzateke ezer izango hura azalduko lukeenik; beraz, badago <strong>lehen</strong> bat: lehen motor bat, lehen kausa bat, izaki beharrezko bat, izaki guztiz perfektu bat, antolatzaile goren bat.",
+     "Azken urratsa «eta hori guztiek Jainko deitzen diote» da. <strong>Argudio metafisikoak</strong> dira, ez laborategiko esperimentuak. Humek eta Kantek eragozpen hau jarriko dute: arrazoiak ezin du esperientziatik esperientzia oroz haraindi dagoen zerbaitera jauzi egin."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer dute komunean bost bideek?",
+     "opciones": [
+      [
+       "Munduko gertakari batetik abiatzen dira, beste baten mende dagoela erakusten dute eta lehen bat egon behar dela ondorioztatzen dute, Jainkoa dena.",
+       true
+      ],
+      [
+       "Jainkoaren ideiatik abiatzen dira eta existitu behar duela ondorioztatzen dute.",
+       false,
+       "Hori Anselmoren argudio ontologikoa da, eta Tomasek ez du onartzen.",
+       "g-argumento-ontologico"
+      ],
+      [
+       "Biblian eta irakurtzen dituenaren fedean oinarritzen dira.",
+       false,
+       "Bideak arrazoi naturalekoak dira: esperientziatik abiatzen dira, ez errebelaziotik.",
+       "g-cinco-vias"
+      ],
+      [
+       "Jainkoa esperimentuen bidez frogatzen dute, fisika modernoak bezala.",
+       false,
+       "Azken oinarriari buruzko argudio metafisikoak dira, ez froga esperimentalak.",
+       "g-cinco-vias"
+      ]
+     ],
+     "ok": "Zehatz-mehatz: mundutik haren lehen oinarrira.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Lehen bidea",
+      "titulo": "Mugimendutik lehen motorrera",
+      "glosario": [
+       "g-cinco-vias",
+       "g-el-ser-necesario",
+       "g-argumento-ontologico"
+      ],
+      "cita": {
+       "texto": "«Jainkoa badela bost bidetatik froga daiteke. Lehena eta argiena mugimendutik hartzen dena da. Ziurra da, eta zentzumenen bidez agerikoa, mundu honetan gauza batzuk mugitzen direla […]. Beraz, beharrezkoa da inork mugitzen ez duen lehen motor batera iristea; eta hori guztiek Jainkotzat ulertzen dute.»",
+       "fuente": "Tomas Akinokoa, <em>Summa Theologiae</em>, I, q. 2, a. 3 (latinetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Abiapuntua</strong> → zentzumenen bidez agerikoa den gertakari bat: mugimendua, kausak, jaio eta hiltzen diren gauzak, ontasun- edo egia-mailak, naturaren ordena.",
+       "<strong>Mendekotasuna</strong> → mugitzen dena beste batek mugitzen du; kausatuak kausa bat du; kontingentea ez da bere kabuz azaltzen.",
+       "<strong>Ez dago infiniturako atzerakadarik</strong> → kate osoa beste baten mende balego, ezerk ez luke azalduko. Ezeren mende ez dagoen lehen bat behar da: lehen motor higiezina (Aristotelesen ondarea), lehen kausa, izaki beharrezkoa.",
+       "<strong>Kritika</strong> → Humek eta Kantek diote kausalitateak esperientziaren barruan bakarrik balio duela eta ez duela uzten hartatik kanpo dagoen zerbait ondorioztatzen. Eztabaida irekia da filosofiaren historian."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zergatik dio Tomasek «beharrezkoa da lehen motor batera iristea»?",
+       "opciones": [
+        [
+         "Motor bakoitza beste batek mugituko balu amaierarik gabe, ez litzatekeelako ezer izango ikusten dugun mugimendua azalduko lukeenik.",
+         true
+        ],
+        [
+         "Bibliak dioelako Jainkoak sortu zuela mundua.",
+         false,
+         "Bidea esperientziatik abiatutako arrazoibide bat da, ez errebelazioaren aipu bat."
+        ],
+        [
+         "Existitzen den guztia bere kabuz mugitzen delako.",
+         false,
+         "Testuak kontrakoa dio: mugitzen dena beste batek mugitzen du."
+        ],
+        [
+         "Mundua benetan mugitzen ez delako.",
+         false,
+         "Bidea mugimendua «zentzumenen bidez agerikoa» dela abiapuntutzat hartuta hasten da."
+        ]
+       ],
+       "ok": "Zuzen: lehen bat gabe, katea ez da azaltzen.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tomas Akinokoa azaltzeko gai zara jada",
+   "parrafos": [
+    "Tomasek bereizi egiten ditu egia naturalak, arrazoiak iristen dituenak, eta naturaz gaindikoak, fedeak bakarrik ezagutzen dituenak; batzuk, Jainkoa badela adibidez, bi bideetatik ezagutzen dira. Ezin dute elkarren kontra egin, egia bakarra baita: graziak ez du natura suntsitzen, osatu egiten du. Bost bideek Jainkoa a posteriori frogatzen dute: munduko gertakari batetik abiatzen dira (mugimendua, kausak, kontingentzia, mailak, ordena), beste baten mende dagoela erakusten dute eta lehen oinarri bat ondorioztatzen dute.",
+    "USErako: alderatu haren elkarlan-eredua Agustinen «sinetsi ulertzeko» esaldiarekin eta Ockhamen banaketarekin; eta gogoratu Kantek ukatu egingo duela arrazoiak Jainkoa froga dezakeenik."
+   ],
+   "siguiente": "descartes-metodo"
   }
  },
  {
@@ -1984,6 +2239,261 @@ const PISTAS = [
   }
  },
  {
+  "id": "descartes-sustancias",
+  "ilustre": "descartes",
+  "subject": "hf",
+  "tema": "15. gaia · Descartes: substantziak",
+  "unidad": "hf-metafisica",
+  "materia": "Filosofia · Descartes",
+  "titulo": "Zenbat substantzia daude Descartesen arabera, eta nola erlazionatzen dira arima eta gorputza?",
+  "lede": "Cogitoaren ondoren, Descartesek errealitatea berreraikitzen du: Jainkoa, pentsamendua eta hedadura. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer da substantzia Descartesentzat, eta zein dira hiru substantziak?",
+    "repaso": [
+     "Eman al dut definizioa: substantzia existitzeko beste ezein gauzaren beharrik ez izateko moduan existitzen dena da?",
+     "Esan al dut, zentzu hertsian, Jainkoak bakarrik betetzen duela definizioa (substantzia infinitua), eta pentsamendua eta gorputza Jainkoaren mende bakarrik dauden substantzia finituak direla?",
+     "Definitu al ditut atributu esentzialak: <em>res cogitans</em>-en pentsamendua eta <em>res extensa</em>-ren hedadura?"
+    ],
+    "intro": [
+     "Zalantzaren ondoren, Descartesi ziurtasun bakarra geratzen zaio: «pentsatzen dut, beraz banaiz». Hortik abiatuta, mundu osoa berriro eraiki behar du. Pentsa ezazu zer behar duen bere gogotik irteteko."
+    ],
+    "pistas": [
+     "Lurreratzeko: Descartesek <strong>substantzia</strong> bere kabuz existitzen dena bezala definitzen du, existitzeko beste gauzarik behar izan gabe.",
+     "Zentzu hertsian, <strong>Jainkoak</strong> bakarrik betetzen du hori, <strong>substantzia infinituak</strong>. Haren existentzia nigan dagoen infinituaren ideiatik frogatzen da, eta Jainkoak <strong>bermatzen</strong> du ideia argi eta bereiziak egiazkoak direla.",
+     "Beste biak <strong>substantzia finituak</strong> dira: Jainkoaren mende bakarrik daude. <strong>Res cogitans</strong> (arima edo gogoa), zeinaren atributua <strong>pentsamendua</strong> den; eta <strong>res extensa</strong> (gorputzak), zeinaren atributua <strong>hedadura</strong> den: luzera, zabalera eta sakonera.",
+     "<strong>Erabat desberdinak</strong> dira: gogoak ez du lekurik betetzen, eta gorputzak ez du pentsatzen. Mundu materiala <strong>makina</strong> handi bat da, irudiaren eta mugimenduaren bidez azaltzen dena (mekanizismoa); gizakia bien batasuna da."
+    ],
+    "comprobacion": {
+     "pregunta": "Zerk bereizten ditu res cogitans eta res extensa?",
+     "opciones": [
+      [
+       "Haien atributu esentzialak: batak pentsatzen du eta ez du lekurik betetzen; besteak hedadura du eta ez du pentsatzen.",
+       true
+      ],
+      [
+       "Bata infinitua dela eta bestea finitua.",
+       false,
+       "Biak dira finituak; infinitua Jainkoa da.",
+       "g-sustancia-dm"
+      ],
+      [
+       "Bata erreala dela eta bestea ilusio bat.",
+       false,
+       "Descartesentzat biak dira substantzia errealak, Jainkoak bermatuak.",
+       "g-dualismo-dm"
+      ],
+      [
+       "Res extensak arima duela eta res cogitansek ez.",
+       false,
+       "Alderantziz da: res cogitans arima da; gorputzak hedadura hutsa dira.",
+       "g-res-cogitans-dm"
+      ]
+     ],
+     "ok": "Ondo: pentsamendua hedaduraren aurrean.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Pentsatu besterik egiten ez duen substantzia",
+      "glosario": [
+       "g-res-cogitans-dm",
+       "g-sustancia-dm"
+      ],
+      "cita": {
+       "texto": "«Hortik ezagutu nuen substantzia bat nintzela, zeinaren esentzia edo izaera osoa pentsatzea baino ez den, eta, izateko, ez duena inongo lekuren beharrik, ez eta inongo gauza materialen mende dagoena ere.»",
+       "fuente": "Descartes, <em>Metodoaren diskurtsoa</em> (1637), IV (frantsesetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, zer behar du ni pentsatzaileak existitzeko?",
+       "opciones": [
+        [
+         "Ez du ez lekurik ez gauza materialik behar: haren esentzia pentsatzea baino ez da.",
+         true
+        ],
+        [
+         "Pentsatzeko aukera emango dion gorputz osasuntsu bat.",
+         false,
+         "Testuak dio ez dagoela «inongo gauza materialen mende»."
+        ],
+        [
+         "Espazioko leku bat, beste edozein gauzak bezala.",
+         false,
+         "Testuak ukatu egiten du: «ez du inongo lekuren beharrik»."
+        ],
+        [
+         "Zentzumenak, ideiak ematen dizkiotenak.",
+         false,
+         "Descartesentzat pentsamendua ez dago zentzumenen mende."
+        ]
+       ],
+       "ok": "Hala da: nia res cogitans hutsa da.",
+       "mal": "Irakurri berriz testua.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Hiru substantziak",
+      "glosario": [
+       "g-sustancia-dm",
+       "g-res-extensa",
+       "g-la-garantia-de-dios-dm"
+      ],
+      "cita": {
+       "texto": "«Substantziatzat ezin dugu beste ezer ulertu, existitzeko beste ezein gauzaren beharrik ez izateko moduan existitzen den gauza bat baino.»",
+       "fuente": "Descartes, <em>Filosofiaren printzipioak</em> (1644), I, 51 (latinetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Jainkoa (substantzia infinitua)</strong> → ezeren mende ez dagoen bakarra. Ideia argi eta bereizien egia bermatzen du, eta, horrekin, munduaren existentzia.",
+       "<strong>Res cogitans</strong> → substantzia pentsatzailea, arima edo gogoa: zalantza egiten du, ulertzen du, nahi du, irudikatzen du, sentitzen du. Ez da hedatua.",
+       "<strong>Res extensa</strong> → substantzia gorpuzduna: luzera, zabalera eta sakonera duen guztia, irudiaren eta mugimenduaren bidez azaltzen dena (mekanizismoa).",
+       "<strong>Dualismoa</strong> → gizakia bi substantzia desberdinen batasuna da; garena izatea ematen diguna gogoa da."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zergatik da, zentzu hertsian, Jainkoa bakarrik substantzia?",
+       "opciones": [
+        [
+         "Existitzeko beste ezein gauzaren beharrik ez duen bakarra delako; gogoa eta gorputzak haren mende daude.",
+         true
+        ],
+        [
+         "Pentsatzen duen bakarra delako.",
+         false,
+         "Giza gogoak ere pentsatzen du; gakoa ezeren mende ez egotea da."
+        ],
+        [
+         "Hedatua den bakarra delako.",
+         false,
+         "Jainkoa ez da hedatua; hedadura gorputzen atributua da."
+        ],
+        [
+         "Bibliak hala dioelako.",
+         false,
+         "Descartesek substantziaren definiziotik ondorioztatzen du, ez errebelaziotik."
+        ]
+       ],
+       "ok": "Zuzena: erabateko independentzia.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Arima eta gorputza hain desberdinak badira, nola eragin diezaiokete batak besteari?",
+    "repaso": [
+     "Planteatu al dut substantzien komunikazioaren arazoa: erabaki batek eskua mugitzen du, eta zauri batek mina sortzen du?",
+     "Azaldu al dut Descartesen erantzuna: guruin pineala, garunean, elkartzen diren lekua dela?",
+     "Aipatu al ditut Isabel Bohemiakoaren eragozpena eta geroko konponbideak (okasionalismoa, Spinozaren monismoa, Leibnizen harmonia aurrez ezarria)?"
+    ],
+    "intro": [
+     "Eskua altxatzea erabakitzen duzu, eta eskua altxatu egiten da. Ziztada bat hartzen duzu, eta mina sentitzen duzu. Ezer arruntagorik ez. Baina gogoak lekurik betetzen ez badu eta gorputzak pentsatzen ez badu, nola da posible? Saiatu korapiloa non dagoen ikusten."
+    ],
+    "pistas": [
+     "Gogoratu: res cogitans eta res extensa ez dute ezer komunean. Batak ez du lekurik betetzen; bestea ukipenaren bidez bakarrik mugitzen da.",
+     "Hala ere, esperientziak erakusten du <strong>elkarri eragiten diotela</strong>: borondateak gorputza mugitzen du, eta gorputzak sentsazioak eta pasioak sortzen ditu gogoan. Hori da <strong>substantzien komunikazioaren arazoa</strong>.",
+     "Descartesek <strong>guruin pinealean</strong> kokatzen du batasuna, garunaren erdian: han mugituko lituzke arimak «animalia-espirituak», eta han jasoko lituzke haien mugimenduak.",
+     "<strong>Isabel Bohemiakoa</strong> printzesak eragozpen hau jartzen dio: nola bultza dezake hedadurarik gabeko zerbaitek gorputz bat? Erantzunak ez zuen konbentzitu, eta haren ondorengoek beste batzuk bilatu zituzten: <strong>okasionalismoa</strong> (Malebranche), Spinozaren <strong>monismoa</strong> eta Leibnizen <strong>harmonia aurrez ezarria</strong>."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer da dualismo kartesiarraren arazo nagusia?",
+     "opciones": [
+      [
+       "Azaltzea nola eragin diezaiokeen elkarri ezer komunik ez duten bi substantziak (pentsamenduak eta hedadurak).",
+       true
+      ],
+      [
+       "Gogoa existitzen dela frogatzea.",
+       false,
+       "Gogoa da frogatzen duen lehen gauza, cogitoaren bidez.",
+       "g-cogito-dm"
+      ],
+      [
+       "Gorputzak zergatik mugitzen diren azaltzea.",
+       false,
+       "Hori mekanizismoak azaltzen du, irudiaren eta mugimenduaren bidez.",
+       "g-mecanicismo-dm"
+      ],
+      [
+       "Jainkoa hedatua dela frogatzea.",
+       false,
+       "Descartesentzat Jainkoa ez da hedatua.",
+       "g-dualismo-dm"
+      ]
+     ],
+     "ok": "Hala da: korapiloa elkarreragina da.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Isabelen eragozpena",
+      "titulo": "Nola mugitzen du arimak gorputza?",
+      "glosario": [
+       "g-dualismo-dm",
+       "g-glandula-pineal",
+       "g-ocasionalismo-dm"
+      ],
+      "cita": {
+       "texto": "«Esan diezadazula eskatzen dizut nola determina ditzakeen gizakiaren arimak gorputzaren espirituak borondatezko ekintzak egitera, substantzia pentsatzaile bat besterik ez izanik.»",
+       "fuente": "Isabel Bohemiakoa, Descartesi 1643ko maiatzean idatzitako gutuna (frantsesetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Arazoa</strong> → gogoak hedadurarik ez badu eta gorputza ukipenaren bidez bakarrik mugitzen bada, elkarreragina ezinezkoa dirudi, nahiz eta une oro bizi dugun.",
+       "<strong>Descartesen erantzuna</strong> → guruin pineala, non arima gorputzarekin elkartzen den; eta, Isabeli idatzitako gutunetan, batasuna nozio primitibo gisa, pentsatuz baino gehiago bizituz ezagutzen dena.",
+       "<strong>Eragozpena</strong> → Isabelek ez du ikusten nola bultza dezakeen zerbait ez-materialak zerbait materiala; errazagoa iruditzen zaio arimari materia eta hedadura egoztea.",
+       "<strong>Beste irtenbide batzuk</strong> → Malebranche: Jainkoak mugitzen du gorputza borondatearen kariaz (okasionalismoa); Spinoza: gogoa eta gorputza substantzia bakar baten bi atributu dira; Leibniz: Jainkoak hasieratik sinkronizatu zituen. Eztabaidak gaur egun ere jarraitzen du gogoaren filosofian."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer eragozpen jartzen dio Isabel Bohemiakoak Descartesi?",
+       "opciones": [
+        [
+         "Ez dela ulertzen nola mugi dezakeen gorputza substantzia pentsatzaile huts batek, hedadurarik gabeak.",
+         true
+        ],
+        [
+         "Gogoa ez dela existitzen.",
+         false,
+         "Isabelek gogoa onartzen du; galdetzen duena da nola eragiten dion gorputzari."
+        ],
+        [
+         "Guruin pineala ez dagoela garunean.",
+         false,
+         "Haren eragozpena filosofikoa da, ez anatomikoa."
+        ],
+        [
+         "Gorputzak bere kabuz pentsa dezakeela.",
+         false,
+         "Ez du hori esaten: bien arteko elkarreraginaz galdetzen du."
+        ]
+       ],
+       "ok": "Zuzena: dualismoak ixten ez duen galdera da.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Descartesen substantziak azaltzeko gai zara jada",
+   "parrafos": [
+    "Substantzia existitzeko beste gauzaren beharrik ez duena da: zentzu hertsian, Jainkoa bakarrik (substantzia infinitua), ideia argi eta bereizien egia bermatzen duena. Substantzia finituak res cogitans dira, zeinaren atributua pentsamendua den, eta res extensa, zeinaren atributua hedadura den. Gizakia bien batasuna da, eta arazo handia da nola eragiten dioten elkarri (guruin pineala, Isabel Bohemiakoaren eragozpena).",
+    "USErako: alderatu Descartesen dualismoa Spinozaren monismoarekin (substantzia bakarra) eta Hobbesen materialismoarekin (gorputzak baino ez)."
+   ],
+   "siguiente": "spinoza-naturaleza"
+  }
+ },
+ {
   "id": "spinoza-naturaleza",
   "ilustre": "spinoza",
   "subject": "hf",
@@ -2717,7 +3227,263 @@ const PISTAS = [
    "parrafos": [
     "Bertutea eta potentzia gauza bera dira: bertutez jardutea norberaren izatea arrazoiaren gidaritzapean kontserbatzea da. Poza ona da eta tristura txarra, eta dohatsutasuna ez da bertutearen saria, bertutea bera baizik. Arrazoiaren azpian, norberaren interesak adiskidetasunera darama: «gizakia jainko bat da gizakiarentzat».",
     "15. gairako eta disertaziorako: kontrastatu potentziaren etika hau Kanten betebeharraren etikarekin eta Aristotelesen erdibidearekin."
-   ]
+   ],
+   "siguiente": "contrato-social"
+  }
+ },
+ {
+  "id": "contrato-social",
+  "ilustre": "rousseau",
+  "subject": "hf",
+  "tema": "16. gaia · Gizarte-kontratua",
+  "unidad": "hf-contrato",
+  "materia": "Filosofia · Hobbes, Locke eta Rousseau",
+  "titulo": "Zergatik obeditzen diogu Estatuari kontratualisten arabera?",
+  "lede": "Galdera beraren hiru erantzun: segurtasuna, eskubideak edo askatasuna. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer da naturazko egoera, eta zergatik iristen dira Hobbes eta Locke hain ondorio desberdinetara?",
+    "repaso": [
+     "Azaldu al dut naturazko egoera ez dela gertaera historiko bat, pentsamendu-esperimentu bat baizik: zer gertatuko litzatekeen botere komunik gabe?",
+     "Deskribatu al dut Hobbesena (guztien guztien aurkako gerra, beldurra) eta haren irtenbidea: botere guztia subirano absolutu bati lagatzea, Leviatanari?",
+     "Deskribatu al dut Lockerena (badaude jada eskubide naturalak: bizitza, askatasuna eta jabetza) eta haren irtenbidea: gobernu mugatu bat, erresistentzia-eskubidearekin?"
+    ],
+    "intro": [
+     "Imajinatu bihar polizia, epaileak eta legeak desagertzen direla. Zer gertatuko litzateke? Zure erantzunak asko esaten du gizakia nolakoa dela uste duzun. Hobbesek eta Lockek oso modu desberdinean erantzun zuten."
+    ],
+    "pistas": [
+     "Lurreratzeko: modernitatean, gizartea ez da jada zerbait natural gisa ikusten (Aristotelesen «animalia politikoa»), eta <strong>itun</strong> gisa ulertzen hasten da. Hori pentsatzeko, <strong>naturazko egoera</strong> imajinatzen da: bizitza botere komunik gabe. Ez da historia, <strong>pentsamendu-esperimentu</strong> bat baizik.",
+     "<strong>Hobbesek</strong> <strong>guztien guztien aurkako gerra</strong> gisa imajinatzen du: zaurgarritasunean berdinak gara, mesfidatu eta lehiatu egiten gara, eta bizitza «bakartia, pobrea, desatsegina, basatia eta laburra» da.",
+     "Heriotzaren <strong>beldurrez</strong>, gizabanakoek itun bat egiten dute beren botere guztia <strong>subirano absolutu</strong> bati lagatzeko, <strong>Leviatanari</strong>, segurtasunaren truke. Muga bakarra: inor ez dago behartuta bere burua hiltzen uztera.",
+     "<strong>Locke</strong> baikorragoa da: naturazko egoeran badaude jada <strong>eskubide naturalak</strong> (bizitza, askatasuna eta jabetza), baina haien defentsa ez da segurua. Itunak haiek babestuko dituen <strong>gobernu mugatu</strong> bat sortzen du; urratzen baditu, herriak <strong>erresistentzia</strong> egin eta gobernua alda dezake. Liberalismo politikoaren oinarria da."
+    ],
+    "comprobacion": {
+     "pregunta": "Zergatik da absolutua Hobbesen subiranoa eta mugatua Lockeren gobernua?",
+     "opciones": [
+      [
+       "Hobbesentzat bilatzen dena segurtasuna delako guztien guztien aurkako gerra baten aurrean; Lockerentzat, berriz, lehendik zeuden eskubide natural batzuk babestea.",
+       true
+      ],
+      [
+       "Hobbes errege zelako eta Locke ez.",
+       false,
+       "Bietako bat ere ez zen errege: aldea naturazko egoera nola imajinatzen duten da.",
+       "g-estado-de-naturaleza"
+      ],
+      [
+       "Lockek uste duelako gizakia gaiztoa dela izatez.",
+       false,
+       "Hobbes da ikuspegirik ezkorrena duena.",
+       "g-estado-de-naturaleza"
+      ],
+      [
+       "Hobbesentzat herriak nahi duenean matxinatu daitekeelako.",
+       false,
+       "Hobbesek ez du onartzen erresistentzia-eskubidea; Lockek bai.",
+       "g-derechos-naturales"
+      ]
+     ],
+     "ok": "Ondo: beldurretik botere indartsua sortzen da; eskubideetatik, botere mugatua.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Bakartia, pobrea, basatia eta laburra",
+      "glosario": [
+       "g-estado-de-naturaleza",
+       "g-contrato-social"
+      ],
+      "cita": {
+       "texto": "«Gizakiak denak beldurpean edukiko dituen botere komunik gabe bizi diren bitartean, gerra deitzen den egoera horretan daude; eta gerra hori gizaki bakoitzarena da gizaki bakoitzaren aurka. […] Eta gizakiaren bizitza bakartia, pobrea, desatsegina, basatia eta laburra da.»",
+       "fuente": "Hobbes, <em>Leviatana</em> (1651), 13. kap. (ingelesetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Testuaren arabera, zer falta da naturazko egoeran bakea egon dadin?",
+       "opciones": [
+        [
+         "Denak beldurpean edukiko dituen botere komun bat.",
+         true
+        ],
+        [
+         "Gizakien ontasun naturala.",
+         false,
+         "Testuak ez du ontasunaz hitz egiten, botere komun baten faltaz baizik."
+        ],
+        [
+         "Guztientzako aberastasun nahikoa.",
+         false,
+         "Pobrezia gerraren ondorio bat da, ez bakerako falta dena."
+        ],
+        [
+         "Erlijio partekatu bat.",
+         false,
+         "Testuak ez du erlijioa aipatzen."
+        ]
+       ],
+       "ok": "Hala da: botere komunik gabe, gerra dago.",
+       "mal": "Irakurri berriz testua.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Hobbes eta Locke",
+      "glosario": [
+       "g-derechos-naturales",
+       "g-poder-legitimo",
+       "g-soberania"
+      ],
+      "cita": {
+       "texto": "«Legearen helburua ez da askatasuna ezabatzea edo mugatzea, baizik eta hura gordetzea eta zabaltzea.»",
+       "fuente": "Locke, <em>Gobernu zibilari buruzko bigarren tratatua</em> (1689), § 57 (ingelesetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Naturazko egoera</strong> → botere komunik gabeko egoera hipotetikoa; Estatua zergatik den beharrezkoa eta zer muga izan behar dituen ikusteko balio du.",
+       "<strong>Hobbes</strong> → guztien guztien aurkako gerra; beldurrezko ituna; subirano absolutua (Leviatana); obedientzia segurtasunak justifikatzen du.",
+       "<strong>Locke</strong> → aurretiko eskubide naturalak (bizitza, askatasuna, jabetza, lanean oinarritua); adostasunezko ituna; gobernu mugatua eta errebokagarria; erresistentzia-eskubidea.",
+       "<strong>Komuna dutena</strong> → boterea ez da legitimoa berez, ezta jatorri jainkotiarragatik ere: legitimoa da gizabanakoek helburu batekin sortzen dutelako."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Lockerentzat, noiz galtzen du gobernu batek bere legitimitatea?",
+       "opciones": [
+        [
+         "Babestu behar zituen eskubide naturalak urratzen dituenean: orduan herriak erresistentzia egin eta gobernua alda dezake.",
+         true
+        ],
+        [
+         "Inoiz ez: ituna egin ondoren, beti obeditu behar da.",
+         false,
+         "Hori Hobbesen jarrera litzateke, ez Lockerena."
+        ],
+        [
+         "Gerra bat galtzen duenean.",
+         false,
+         "Legitimitatea eskubideak babestearen mende dago, ez arrakasta militarraren mende."
+        ],
+        [
+         "Erregea hiltzen denean.",
+         false,
+         "Lockek ez du legitimitatea pertsona bati lotzen, gobernuaren helburuari baizik."
+        ]
+       ],
+       "ok": "Zuzena: gobernua eskubideen zaindaria da, ez jabea.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zer da Rousseauren borondate orokorra, eta zergatik dio hari obeditzea aske izatea dela?",
+    "repaso": [
+     "Azaldu al dut Rousseauren abiapuntua: gizakia aske eta on jaiotzen da, eta gizarteak usteldu eta kateatu egiten du?",
+     "Definitu al dut borondate orokorra (interes komuna), eta bereizi al dut guztien borondatetik (interes partikularren batura)?",
+     "Esan al dut subiranotasuna herriarena dela, askatasuna norberak bere buruari emandako legeari obeditzea dela, eta aipatu al dut kritika («aske izatera behartua»)?"
+    ],
+    "intro": [
+     "Legeak guztion artean egiten baditugu, haiei obeditzea, nolabait, neure buruari obeditzea da. Rousseauk ideia horren gainean eraikitzen du bere teoria. Pentsa ezazu zer arazo konpondu nahi duen."
+    ],
+    "pistas": [
+     "Gogoratu: Hobbesek segurtasuna bilatzen du, eta Lockek eskubideak babestea. <strong>Rousseauk</strong> galdetzen du nola jarraitu <strong>aske</strong> izaten gizartearen barruan: «gizakia aske jaio da, eta nonahi kateatuta dago».",
+     "Harentzat gizakia <strong>ona da izatez</strong>; gaizki antolatutako gizarteak, jabetzarekin eta desberdintasunarekin, usteldu egiten du. Itun legitimoak askatasuna itzuli behar dio.",
+     "Kontratuan bakoitzak bere burua osorik ematen dio komunitateari, eta horrela sortzen da <strong>borondate orokorra</strong>: <strong>interes komuna</strong>, ez dena interes partikularren batura (hori «guztien borondatea» da).",
+     "<strong>Subiranotasuna herriarena da</strong>, eta ezin da ordezkatu. Norberak bere buruari emandako legeari obeditzea <strong>askatasuna</strong> da. Baina Rousseauk dio, halaber, legea obeditzen ez duena «aske izatera behartuko» dutela, eta kritikari askok arrisku bat ikusten dute hor gutxiengoentzat."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer da borondate orokorra Rousseaurentzat?",
+     "opciones": [
+      [
+       "Komunitatearen interes komuna, interes partikularren baturatik bereizia.",
+       true
+      ],
+      [
+       "Une bakoitzean gehiengoak bozkatzen duena.",
+       false,
+       "Hori «guztien borondatetik» hurbilago dago, eta Rousseauk borondate orokorretik bereizten du.",
+       "g-voluntad-general"
+      ],
+      [
+       "Erregearen borondatea, herria ordezkatzen duena.",
+       false,
+       "Rousseaurentzat subiranotasuna herriarena da, eta ezin da ordezkatu.",
+       "g-soberania"
+      ],
+      [
+       "Gizabanako bakoitzak nahi duenaren batura.",
+       false,
+       "Hori da, hain zuzen, «guztien borondatea».",
+       "g-voluntad-general"
+      ]
+     ],
+     "ok": "Hala da: interes komuna, ez batura.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Rousseau",
+      "titulo": "Norberari obeditzea",
+      "glosario": [
+       "g-voluntad-general",
+       "g-soberania",
+       "g-contrato-social"
+      ],
+      "cita": {
+       "texto": "«Gizakia aske jaio da, eta nonahi kateatuta dago.» «Elkartze-modu bat aurkitzea […] zeinaren bidez bakoitzak, guztiekin bat eginda ere, bere buruari baino ez dion obeditzen, eta lehen bezain aske jarraitzen duen.»",
+       "fuente": "Rousseau, <em>Gizarte-kontratua</em> (1762), I, 1 eta I, 6 (frantsesetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Abiapuntua</strong> → gizakia ona eta askea da izatez; gizarte desberdinak kateatu egiten du.",
+       "<strong>Ituna</strong> → bakoitzak bere burua komunitate osoari ematen dio; denek berdin egiten dutenez, inor ez da beste baten menpe geratzen.",
+       "<strong>Borondate orokorra</strong> → interes komuna; guztien borondatetik bereizia, hori interes pribatuen batura baita. Subiranotasuna herriarena da, eta ez da ordezkatzen.",
+       "<strong>Askatasuna</strong> → norberak bere buruari emandako legeari obeditzea. <strong>Eztabaida</strong>: legea obeditzen ez duena «aske izatera behartua» izango bada, nork erabakitzen du zer den interes komuna? Batzuek demokraziaren erroa ikusten dute hemen; beste batzuek, gutxiengoak zapaltzeko arriskua."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zergatik dio Rousseauk, itun legitimoan, bakoitzak «bere buruari baino ez diola obeditzen»?",
+       "opciones": [
+        [
+         "Legeak borondate orokorra adierazten duelako, eta herritar bakoitza haren egilea delako herri subiranoko kide gisa.",
+         true
+        ],
+        [
+         "Bakoitzak nahi duena egiten duelako.",
+         false,
+         "Ez da norberak nahi duena egitea, norberak bere buruari emandako lege komunari obeditzea baizik."
+        ],
+        [
+         "Legerik ez dagoelako.",
+         false,
+         "Badaude legeak: borondate orokorrak ezartzen dituenak."
+        ],
+        [
+         "Erregeak herriari obeditzen diolako.",
+         false,
+         "Rousseaurengan subiranoa herria bera da, ez errege bat."
+        ]
+       ],
+       "ok": "Zuzena: askatasuna autonomia politiko gisa.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Gizarte-kontratua azaltzeko gai zara jada",
+   "parrafos": [
+    "Naturazko egoera boterea justifikatzeko pentsamendu-esperimentu bat da. Hobbesentzat guztien guztien aurkako gerra da, eta beldurrez itun bat egiten da segurtasuna emango duen subirano absolutu batekin. Lockerentzat badaude jada eskubide naturalak (bizitza, askatasuna, jabetza), eta itunak gobernu mugatu bat sortzen du, zeinari erresistentzia egin dakiokeen. Rousseaurentzat, itun legitimoak borondate orokorra sortzen du: herri subiranoa, eta askatasuna norberak bere buruari emandako legeari obeditzea bezala.",
+    "USErako: alderatu hirurak taula batean (naturazko egoera, itunaren arrazoia, botere mota, erresistentzia-eskubidea), eta lotu Rousseauren autonomia Kantenarekin."
+   ],
+   "siguiente": "kant-ilustracion"
   }
  },
  {
@@ -2963,6 +3729,515 @@ const PISTAS = [
    "parrafos": [
     "Ilustrazioa norbera errudun den adin-txikitasun batetik irtetea da: ez da adimena falta, erabakia eta adorea baizik (<em>Sapere aude</em>). Irteteko askatasuna baino ez da behar, arrazoimenaren erabilera publikoa egiteko, zeinak beti librea izan behar baitu; erabilera pribatua, kargukoa, mugatu daiteke.",
     "USErako: laburpenean, bereizi definizioa, kausak eta arrazoimenaren bi erabilerak; A edo B aukeran, lotu Kanten etikaren autonomiarekin."
+   ],
+   "siguiente": "feminismo-ilustrado"
+  }
+ },
+ {
+  "id": "feminismo-ilustrado",
+  "ilustre": "wollstonecraft",
+  "subject": "hf",
+  "tema": "18. gaia · Lehen olatu feminista",
+  "unidad": "hf-ilustracion",
+  "materia": "Filosofia · Olympe de Gouges eta Mary Wollstonecraft",
+  "titulo": "Zer ekarri zion lehen feminismoak Ilustrazioari?",
+  "lede": "2026ko USEk pentsamendu feministaren ekarpenez galdetu zuen. Ilustrazioaren promesak serio hartu zituzten bi egile. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer salatzen du Olympe de Gougesek Emakumearen eta Herritar Emakumearen Eskubideen Adierazpenean?",
+    "repaso": [
+     "Azaldu al dut Ilustrazioaren promesa: eskubide unibertsalak, «gizon guztiak aske eta berdin jaiotzen dira» (1789ko Adierazpena)?",
+     "Esan al dut «gizonaren eskubide» horiek kanpoan uzten zituztela emakumeak herritar gisa: botorik gabe, kargurik gabe, legearen aurreko berdintasunik gabe?",
+     "Azaldu al dut zer egiten duen De Gougesek: Adierazpena artikuluz artikulu berridazten du emakumea barne hartzeko, eta unibertsaltasuna bete dadila eskatzen du?"
+    ],
+    "intro": [
+     "1789an Frantziako Iraultzak aldarrikatu zuen «gizonak aske eta eskubideetan berdin jaiotzen direla, eta hala irauten dutela». Bi urte geroago, emakume batek esaldi hori berridatzi zuen hitz bakar bat aldatuta. Pentsa ezazu zein hitz, eta zergatik zen hain deserosoa."
+    ],
+    "pistas": [
+     "Lurreratzeko: Ilustrazioak eskubide <strong>unibertsalez</strong> hitz egiten du. <strong>Gizonaren eta Herritarraren Eskubideen Adierazpenak</strong> (1789) guztientzat aldarrikatzen ditu… baina emakumeek ez dute botorik ematen, ez dute kargurik betetzen eta ez dira herritar osoak.",
+     "<strong>Olympe de Gougesek</strong> 1791n erantzuten du, <strong>Emakumearen eta Herritar Emakumearen Eskubideen Adierazpenarekin</strong>: 1789koa artikuluz artikulu kopiatzen du, lehen gizona bakarrik zegoen tokian emakumea jarriz.",
+     "Haren argudioa <strong>koherentziazkoa</strong> da: eskubideak benetan naturalak eta unibertsalak badira, gizateriaren erdia kanpoan uztea kontraesan bat da. Salbuespenak justifikazio bat behar du, eta ohitura ez da justifikazioa.",
+     "Haren esaldirik ospetsuenak erakusten du: emakumea <strong>urkamendira</strong> igo badaiteke (beste edonor bezala zigortua izan), <strong>tribunara</strong> ere igo ahal izan behar du (jendaurrean hitz egin eta erabaki). 1793an gillotinatu zuten."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer funtsezko argudio erabiltzen du Olympe de Gougesek?",
+     "opciones": [
+      [
+       "Eskubideak unibertsalak badira, emakumeak kanpoan uztea kontraesan bat dela: Ilustrazioaren promesak bete egin behar du.",
+       true
+      ],
+      [
+       "Emakumeak gizonak baino goragokoak direla eta haiek gobernatu behar dutela.",
+       false,
+       "Ez du goragokotasunik eskatzen, eskubideetako berdintasuna baizik.",
+       "g-feminismo"
+      ],
+      [
+       "Giza eskubideak asmakizun bat direla eta baztertu egin behar direla.",
+       false,
+       "Alderantziz: eskubideak serio hartzen ditu, eta guztiak barne har ditzatela eskatzen du.",
+       "g-la-grieta-de-la-universalidad"
+      ],
+      [
+       "Emakumeak etxean geratu behar duela, baina errespetu handiagoz.",
+       false,
+       "Herritartasun osoa eskatzen du, baita «tribunan» ere, espazio publikoan.",
+       "g-declaracion-de-los-derechos-de-la-mujer"
+      ]
+     ],
+     "ok": "Ondo: ez du Ilustrazioa baztertzen, koherentzia eskatzen dio.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Urkamenditik tribunara",
+      "glosario": [
+       "g-declaracion-de-los-derechos-de-la-mujer",
+       "g-la-grieta-de-la-universalidad"
+      ],
+      "cita": {
+       "texto": "«Emakumea aske jaiotzen da, eta eskubideetan gizonaren berdina izaten jarraitzen du.» «Emakumeak urkamendira igotzeko eskubidea du; berdin izan behar du tribunara igotzekoa ere.»",
+       "fuente": "Olympe de Gouges, <em>Emakumearen eta Herritar Emakumearen Eskubideen Adierazpena</em> (1791), 1. eta 10. artikuluak (frantsesetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Zer esan nahi du urkamendiaren eta tribunaren arteko konparazioak?",
+       "opciones": [
+        [
+         "Legeak emakumea berdin tratatzen badu hura zigortzeko, berdin tratatu behar duela bizitza publikoan parte hartzeko ere.",
+         true
+        ],
+        [
+         "Emakumeak gizonak baino gehiago zigortu behar direla.",
+         false,
+         "Ez du zigor handiagorik eskatzen: betebeharren eta eskubideen arteko desberdintasuna seinalatzen du."
+        ],
+        [
+         "Tribuna urkamendia bezain arriskutsua dela.",
+         false,
+         "Tribuna jendaurrean hitz egiten den eta politikan parte hartzen den lekua da."
+        ],
+        [
+         "De Gougesek heriotzara kondenatua izan nahi zuela.",
+         false,
+         "Testua eskubideei buruzko argudio bat da, ez nahi pertsonal bat."
+        ]
+       ],
+       "ok": "Hala da: berdinak zigorraren aurrean, berdinak herritartasunaren aurrean.",
+       "mal": "Irakurri berriz esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Erdizka geratutako unibertsaltasuna",
+      "glosario": [
+       "g-declaracion-de-los-derechos-de-la-mujer",
+       "g-feminismo",
+       "g-las-olas"
+      ],
+      "cita": {
+       "texto": "«Emakumea, esnatu: arrazoiaren kanpai-hotsa unibertso osoan entzuten da; ezagutu zure eskubideak.»",
+       "fuente": "Olympe de Gouges, <em>Emakumearen eta Herritar Emakumearen Eskubideen Adierazpena</em> (1791), epilogoa (frantsesetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Promesa</strong> → Ilustrazioak eskubide naturalak aldarrikatzen ditu, guztientzat berdinak, Antzinako Erregimenaren pribilegioen aurrean.",
+       "<strong>Arrakala</strong> → praktikan, «herritarra» gizonezkoa da: emakumeak bototik, karguetatik eta legearen aurreko berdintasunetik kanpo geratzen dira.",
+       "<strong>De Gougesen erantzuna</strong> → Adierazpena berridaztea emakumea barne hartzeko, eta Ilustrazioaren arrazoiari berari dei egitea. Beste kausa batzuk ere batzen ditu: pobrezia eta esklabotzaren aurkako jarrera.",
+       "<strong>Lehen olatua</strong> → hala deitzen zaio XVIII. eta XIX. mendeetako lehen feminismo honi, eskubide zibil, politiko eta hezkuntzakoen berdintasunean ardaztua."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zergatik esaten da lehen feminismoak Ilustrazioa «barrutik» kritikatzen duela?",
+       "opciones": [
+        [
+         "Ilustrazioaren printzipio berberak (arrazoia, eskubide unibertsalak) erabiltzen dituelako erakusteko emakumeak kanpoan uzteak printzipio horiek kontraesanean jartzen dituela.",
+         true
+        ],
+        [
+         "Haren egileak Entziklopediako filosofoak zirelako.",
+         false,
+         "Ez da talde bateko kide izatea kontua, argudio berberak erabiltzea baizik."
+        ],
+        [
+         "Arrazoia baztertu eta sentimendua defendatzen duelako.",
+         false,
+         "Alderantziz: arrazoiari dei egiten dio («arrazoiaren kanpai-hotsa»)."
+        ],
+        [
+         "Antzinako Erregimeneko erregeak bakarrik kritikatzen dituelako.",
+         false,
+         "Emakumeak kanpoan utzi zituzten iraultzaileak ere kritikatzen ditu."
+        ]
+       ],
+       "ok": "Zuzena: promesa bete dadila eskatzen du.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zergatik dio Mary Wollstonecraftek emakumearen beheragotasuna ez dela naturala, eta zer proposatzen du Rousseauren aurrean?",
+    "repaso": [
+     "Azaldu al dut Rousseauren jarrera <em>Emilio</em> lanean: emakumeen hezkuntzak gizonei atsegin emateko eta haiek zerbitzatzeko pentsatua egon behar du?",
+     "Esan al dut Wollstonecraften tesia: emakumeen arrazoiari egotzitako ahultasuna hezkuntza desberdinaren ondorioa da, ez naturarena?",
+     "Azaldu al dut haren proposamena (hezkuntza berdinzalea eta independentzia ekonomikoa), eta aipatu al ditut haren mugak (klase ertaina, amatasuna)?"
+    ],
+    "intro": [
+     "Norbait txikitatik atsegin emateko eta obeditzeko bakarrik hezten bada, eta gero «izatez» ondo arrazoitzen ez duela esaten bazaio, zer frogatu da benetan? Galdera hori egiten dio Wollstonecraftek Rousseauri."
+    ],
+    "pistas": [
+     "Lurreratzeko: <strong>Rousseauk</strong>, <em>Emilio</em> lanean (1762), hezkuntza askea proposatzen du gizonezkoarentzat, baina emakumearentzat <strong>gizonekiko</strong> hezkuntza: haiei atsegin ematea, haientzat baliagarri izatea, obeditzea.",
+     "<strong>Mary Wollstonecraftek</strong> <em>Emakumearen eskubideen aldarrikapena</em> lanean (1792) erantzuten du: emakumeen arrazoiaren ustezko ahultasuna <strong>ez da naturala, kulturala baizik</strong>. Hezkuntza desberdinak, ohiturek eta mendekotasun ekonomikoak sortzen dute.",
+     "Arrazoibidea zirkularra da: lehenik emakumeei prestakuntza ukatzen zaie, eta gero haien bazterketa justifikatzen da arrazoi gutxiago dutela esanez. Horregatik laburbiltzen da ideia honela: <strong>arrazoiak ez du sexurik</strong>.",
+     "<strong>Hezkuntza berdinzalea</strong> eta <strong>independentzia ekonomikoa</strong> proposatzen ditu: emakumeak subjektu moralak eta herritarrak izan daitezela, ez etxeko apaingarri. Haren mugak: batez ere klase ertaineko emakumeentzat idazten du, eta amatasuna haien zeregin nagusitzat hartzen jarraitzen du."
+    ],
+    "comprobacion": {
+     "pregunta": "Wollstonecraften arabera, nondik dator emakumeei egotzitako beheragotasuna?",
+     "opciones": [
+      [
+       "Hezkuntza desberdinetik eta mendekotasun sozial eta ekonomikotik, ez naturatik.",
+       true
+      ],
+      [
+       "Naturatik: emakumeen arrazoia ahulagoa da.",
+       false,
+       "Hori da berak borrokatzen duen ideia, Rousseaurengan agertzen dena.",
+       "g-educacion-igualitaria"
+      ],
+      [
+       "Jainkoaren borondatetik.",
+       false,
+       "Wollstonecraftek arrazoitik eta hezkuntzatik argudiatzen du, ez xede jainkotiar batetik.",
+       "g-educacion-igualitaria"
+      ],
+      [
+       "Emakumeek ikasi nahi ez dutelako.",
+       false,
+       "Ez da interes falta: prestakuntza ukatzen zaie.",
+       "g-educacion-igualitaria"
+      ]
+     ],
+     "ok": "Hala da: desberdintasuna sortu egiten da, ez da jaiotzen.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Rousseau eta Wollstonecraft",
+      "titulo": "Beren buruaren gaineko boterea",
+      "glosario": [
+       "g-educacion-igualitaria",
+       "g-feminismo"
+      ],
+      "cita": {
+       "texto": "«Emakumeen hezkuntza osoak gizonekikoa izan behar du: haiei atsegin ematea, haientzat baliagarri izatea.» (Rousseau) — «Ez dut nahi boterea izan dezaten gizonen gainean, beren buruen gainean baizik.» (Wollstonecraft)",
+       "fuente": "Rousseau, <em>Emilio</em> (1762), V. liburua (frantsesetik egindako itzulpen propioa); Wollstonecraft, <em>Emakumearen eskubideen aldarrikapena</em> (1792), 4. kap. (ingelesetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Rousseau</strong> → sexuen arteko aldea naturala eta beharrezkoa da; emakumea atsegin emateko eta obeditzeko hezten da.",
+       "<strong>Wollstonecraft</strong> → mendekotasuna hezkuntzak, ohiturek eta ekonomiak sortutako egoera historiko bat da; arrazoia giza ahalmen bat da, sexurik gabea.",
+       "<strong>Haren proposamena</strong> → hezkuntza bera bi sexuentzat, publikoa, eta emakumearen independentzia ekonomikoa: autonomia, ez gizonen gaineko nagusitasuna.",
+       "<strong>Haren mugak</strong> → batez ere klase ertainari begiratzen dio, eta amatasuna zeregin nagusitzat hartzen jarraitzen du. Hori aitortzeak ez dio baliorik kentzen: Ilustrazioaren kritika bera ere kritikaren mende jartzen da."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer esan nahi du emakumeek «beren buruaren gaineko boterea» izateak?",
+       "opciones": [
+        [
+         "Autonomoak izatea: beren kabuz pentsatu eta erabakitzea, hezkuntzari eta independentziari esker.",
+         true
+        ],
+        [
+         "Gizonen gainean agintzea.",
+         false,
+         "Esaldiak berariaz ukatzen du: «ez gizonen gainean»."
+        ],
+        [
+         "Gizartetik aldentzea.",
+         false,
+         "Wollstonecraftek herritarrak izan daitezen nahi du, ez isolatu daitezen."
+        ],
+        [
+         "Beren emozioak kontrolatzea, atsegin gehiago emateko.",
+         false,
+         "Atsegin emateko heztearen kontrakoa da."
+        ]
+       ],
+       "ok": "Zuzena: autonomia, Ilustrazioaren hitza dena.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Lehen olatu feminista azaltzeko gai zara jada",
+   "parrafos": [
+    "Olympe de Gougesek 1791n 1789ko Adierazpena berridazten du emakumea barne hartzeko: eskubideak unibertsalak badira, emakumea kanpoan uztea kontraesan bat da («urkamendira igo badaiteke, tribunara igo ahal izan behar du»). Mary Wollstonecraftek, Rousseauren aurrean, dio emakumeari egotzitako beheragotasuna hezkuntza desberdinaren ondorioa dela, eta hezkuntza berdinzalea eta independentzia ekonomikoa proposatzen ditu.",
+    "USErako: aurkeztu biak Ilustrazioaren barrutik egindako kritika gisa, haren promesa betetzea eskatzen duena, eta lotu Beauvoirrekin («ez da emakume jaiotzen»), ideia horri oinarri existentzialista emango baitio."
+   ],
+   "siguiente": "kant-conocimiento"
+  }
+ },
+ {
+  "id": "kant-conocimiento",
+  "ilustre": "kant",
+  "subject": "hf",
+  "tema": "19. gaia · Kant: ezagutza",
+  "unidad": "hf-kant",
+  "materia": "Filosofia · Kant",
+  "titulo": "Zer ezagut dezakegu Kanten arabera, eta zergatik ezin da metafisika zientzia izan?",
+  "lede": "Kanten galdera arrazionalismoaren eta enpirismoaren artean, USEn haren gaietatik gehien atera direnetako bat. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Nola gainditzen du Kantek arrazionalismoaren eta enpirismoaren arteko liskarra?",
+    "repaso": [
+     "Azaldu dut arazoa: arrazionalismoa dogmatismoan erortzen da, eta Humeren enpirismoa, eszeptizismoan?",
+     "Esan dut ezagutza oro esperientziarekin hasten dela, baina ez dela guztia hartatik sortzen, eta bereizi ditut materia (a posteriori) eta forma (a priori)?",
+     "Azaldu dut iraultza kopernikarra: ez da subjektua objektura egokitzen, objektua subjektuaren formetara baizik?"
+    ],
+    "intro": [
+     "Kendu ezin dituzun kristal urdineko betaurreko batzuk badituzu, dena urdin ikusiko duzu. Urdina ez dago gauzetan, baina ez duzu zuk asmatzen ere: begiratzeko moduak jartzen du. Pentsatu zer ikusteko duen honek Kantekin."
+    ],
+    "pistas": [
+     "Lurreratzeko: <strong>arrazionalismoak</strong> (Descartes) uste du arrazoimenak berak bakarrik dena dedukatzen duela, eta <strong>dogmatismoan</strong> erortzen da. <strong>Enpirismoak</strong> (Hume) dio dena esperientziatik datorrela, eta <strong>eszeptizismoan</strong> amaitzen du: kausalitatea bera ere ez da zutik geratzen. Humek, dio Kantek, «lo dogmatikotik» esnatu zuen.",
+     "Kantek munduari buruz zerbait berria esaten duten judizioak bilatzen ditu (<strong>sintetikoak</strong>), aldi berean unibertsalak eta beharrezkoak direnak (<strong>a priori</strong>), matematikarenak eta fisikarenak bezala. Haren galdera hau da: nola dira posible <strong>judizio sintetiko a prioriak</strong>?",
+     "Erantzuna: <strong>ezagutza oro esperientziarekin hasten da, baina ez da guztia hartatik sortzen</strong>. Esperientziak jartzen du <strong>materia</strong> (a posteriori); subjektuak jartzen du <strong>forma</strong> (a priori): espazioa eta denbora sentimenean, kategoriak (kausalitatea, adibidez) adimenean.",
+     "Haren <strong>iraultza kopernikarra</strong> da: Kopernikok Lurra Eguzkiaren inguruan biratzea eragin zuen bezala, Kantek objektua subjektuaren inguruan biratzea eragiten du. Ez da subjektua gauzetara egokitzen, baizik eta gauzak, ezagutzen ditugun bezala, haren formetara."
+    ],
+    "comprobacion": {
+     "pregunta": "Kanten arabera, zer jartzen du subjektuak ezagutzan?",
+     "opciones": [
+      [
+       "A priori forma (espazioa, denbora eta kategoriak), esperientziak ematen duena antolatzen duena.",
+       true
+      ],
+      [
+       "Dena: subjektuak mundua bere gustura asmatzen du.",
+       false,
+       "Esperientziak jartzen du materia: hura gabe ez dago ezagutzarik.",
+       "g-trascendental"
+      ],
+      [
+       "Ezer ez: gogoa orri zuri bat da, esperientzia kopiatzen duena.",
+       false,
+       "Hori da Kantek zuzentzen duen irudi enpirista.",
+       "g-a-priori"
+      ],
+      [
+       "Jainkoaren, arimaren eta munduaren ideia sortzetikoak, esperientziarik gabe ezagutzen dituenak.",
+       false,
+       "Hori arrazionalismoaren antzekoa da; Kantentzat ideia horiek ez dute ezagutzarik ematen.",
+       "g-a-priori"
+      ]
+     ],
+     "ok": "Ondo: materia esperientziarena, forma subjektuarena.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Objektuak gure ezagutzaren arabera arau daitezen",
+      "glosario": [
+       "g-revolucion-copernicana",
+       "g-a-priori"
+      ],
+      "cita": {
+       "texto": "«Orain arte suposatu izan da gure ezagutza osoak objektuen arabera arautu behar duela […]. Saia gaitezen, bada, behingoz, ea metafisikaren arazoetan aurrerago egiten ez dugun, objektuek gure ezagutzaren arabera arautu behar dutela suposatuz.»",
+       "fuente": "Kant, <em>Arrazoimen hutsaren kritika</em> (1787), bigarren argitaraldiaren hitzaurrea, B XVI (alemanetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Zer aldaketa proposatzen du Kantek testu honetan?",
+       "opciones": [
+        [
+         "Ezagutza objektuetara egokitzen dela suposatzeari uztea eta objektuak gure ezagutzara egokitzen diren probatzea.",
+         true
+        ],
+        [
+         "Metafisika alde batera uztea eta fisikari bakarrik ekitea.",
+         false,
+         "Testuak «metafisikaren arazoetan» aurrera egin nahi du, ez haiek alde batera utzi."
+        ],
+        [
+         "Objektuak existitzen ez direla frogatzea.",
+         false,
+         "Kantek ez ditu objektuak ukatzen: subjektuaren eta objektuaren arteko harremana aldatzen du."
+        ],
+        [
+         "Ezagutzeko modu tradizionalera itzultzea.",
+         false,
+         "Justu kontrakoa da: «orain arte suposatu izan da» dioena da hark aldatu nahi duena."
+        ]
+       ],
+       "ok": "Zehatz-mehatz: iraultza kopernikarra da.",
+       "mal": "Irakurri berriz testua.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Judizio sintetiko a prioriak",
+      "glosario": [
+       "g-juicios-sinteticos-a-priori",
+       "g-intuiciones-puras",
+       "g-categoria"
+      ],
+      "cita": {
+       "texto": "«Gure ezagutza oro esperientziarekin hasten bada ere, ez da horregatik guztia esperientziatik sortzen.»",
+       "fuente": "Kant, <em>Arrazoimen hutsaren kritika</em>, Sarrera, B 1 (alemanetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Analitikoak</strong> → predikatua subjektuan dago jada: «gorputzak hedatuak dira». Seguruak dira, baina ez dute ezagutza zabaltzen.",
+       "<strong>Sintetiko a posteriori</strong> → ezagutza zabaltzen dute, baina esperientziaren mende daude eta ez dira beharrezkoak: «gorputz honek pisua du».",
+       "<strong>Sintetiko a priori</strong> → ezagutza zabaltzen dute eta unibertsalak eta beharrezkoak dira: «7 + 5 = 12», «gertatzen den guztiak kausa bat du». Matematikak eta fisikak erabiltzen dituzte.",
+       "<strong>Nola diren posible</strong> → subjektuak a priori formak ematen dituelako: espazioaren eta denboraren <strong>intuizio hutsak</strong> (sentimena) eta <strong>kategoriak</strong> (adimena)."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zergatik da «gertatzen den guztiak kausa bat du» judizio sintetiko a priori bat?",
+       "opciones": [
+        [
+         "Gertaerei buruz zerbait berria esaten duelako eta, aldi berean, modu unibertsal eta beharrezkoan balio duelako, esperientziaren zain egon gabe.",
+         true
+        ],
+        [
+         "Kasu guztietan egiaztatu dugulako.",
+         false,
+         "Horrek a posteriori bihurtuko luke, eta inoiz ez dugu dena egiaztatu (Humeren arazoa da)."
+        ],
+        [
+         "«Kausa» jada «gertaera» hitzean jasota dagoelako.",
+         false,
+         "Hala balitz, analitikoa litzateke; Kantek dio zerbait gehitzen duela."
+        ],
+        [
+         "Gogoaren ohitura bat delako, Humek zioen bezala.",
+         false,
+         "Kantek justu kontrakoa nahi du: kausalitatea beharrezkoa izatea, ez ohitura bat."
+        ]
+       ],
+       "ok": "Zuzen: zabaldu egiten du eta beharrezkoa da aldi berean.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zer da fenomenoa eta zer noumenoa, eta zergatik ondorioztatzen du Kantek metafisika ezin dela zientzia izan?",
+    "repaso": [
+     "Definitu ditut fenomenoa (gauza agertzen zaigun bezala, espazioan eta denboran eta kategoriekin pentsatua) eta noumenoa (gauza bere baitan, ezagutzen ez duguna)?",
+     "Azaldu dut ezagutzak intuizioak eta kontzeptuak behar dituela aldi berean («edukirik gabeko pentsamenduak hutsak dira; kontzepturik gabeko intuizioak itsuak dira»)?",
+     "Esan dut Jainkoa, arima eta mundua osotasun gisa ez direla esperientzian ematen, eta, beraz, metafisika ez dela zientzia, nahiz eta haren ideiek erabilera erregulatzailea izaten jarraitzen duten?"
+    ],
+    "intro": [
+     "Itzuli betaurreko urdinetara. Inoiz kendu ezin badituzu, jakin dezakezu zer kolore duten gauzek benetan? Kantek hortik ateratzen du arrazoimenarentzako muga bat."
+    ],
+    "pistas": [
+     "Gogoratu: subjektuaren formekin ezagutzen dugu. Horregatik ezagutzen ditugu gauzak <strong>agertzen zaizkigun bezala</strong>: <strong>fenomenoa</strong>. Gauza <strong>bere baitan</strong> zer den, gure formarik gabe, hori da <strong>noumenoa</strong>: pentsa dezakegu, baina ez ezagutu.",
+     "Ezagutzeko bi gauza behar dira aldi berean: sentimenak <strong>intuitzen</strong> duen zerbait eta hura ordenatzen duen adimenaren <strong>kontzeptu</strong> bat. Intuiziorik gabe, kontzeptua hutsik dago; kontzepturik gabe, intuizioa itsua da.",
+     "<strong>Arrazoimenak</strong> haratago joan eta baldintzagabea pentsatu nahi du: <strong>arima</strong>, <strong>mundua</strong> osotasun gisa eta <strong>Jainkoa</strong>. Baina horietako ezer ez da esperientzian ematen: hor arrazoimena kontraesanetan korapilatzen da (<strong>antinomiak</strong>).",
+     "Ondorioa: fisika eta matematika zientzia dira; <strong>metafisikak ezin du izan</strong>, inoiz agertzen ez denaz hitz egiten baitu. Hala ere, haren ideiek <strong>ideia erregulatzaile</strong> gisa balio dute, eta etikak (20. gaia) beste zentzu bat emango die."
+    ],
+    "comprobacion": {
+     "pregunta": "Kantentzat, zergatik ezin da metafisika zientzia izan?",
+     "opciones": [
+      [
+       "Haren objektuak (Jainkoa, arima, mundua osotasun gisa) ez direlako esperientzian ematen, eta intuiziorik gabe ez dago ezagutzarik.",
+       true
+      ],
+      [
+       "Jainkoa, arima eta mundua existitzen ez direlako.",
+       false,
+       "Kantek ez du hori ukatzen: dio ezin ditugula ezagutu, ez existitzen ez direnik.",
+       "g-noumeno"
+      ],
+      [
+       "Giza arrazoimenak ez duelako ezertarako balio.",
+       false,
+       "Arrazoimenak zientzian funtzionatzen du; arazoa esperientziatik kanpo erabiltzea da.",
+       "g-los-limites-de-la-razon"
+      ],
+      [
+       "Oraindik ez delako metodo egokia aurkitu.",
+       false,
+       "Ez da metodo kontua: arrazoimenaren beraren muga bat da.",
+       "g-fenomeno"
+      ]
+     ],
+     "ok": "Zehatz-mehatz: muga bat, ez porrot bat.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Fenomenoa eta noumenoa",
+      "titulo": "Hutsak eta itsuak",
+      "glosario": [
+       "g-fenomeno",
+       "g-noumeno",
+       "g-idea-regulativa"
+      ],
+      "cita": {
+       "texto": "«Edukirik gabeko pentsamenduak hutsak dira; kontzepturik gabeko intuizioak itsuak dira.»",
+       "fuente": "Kant, <em>Arrazoimen hutsaren kritika</em>, A 51 / B 75 (alemanetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Fenomenoa</strong> → errealitatea agertzen den bezala, espazioan eta denboran eta kategoriekin pentsatua. Ezagutzen dugun bakarra da, eta zientziak haren legeak bilatzen ditu.",
+       "<strong>Noumenoa</strong> → gauza bere baitan, gure formetatik kanpo. Muga gisa pentsa daiteke, baina ezin da ezagutu.",
+       "<strong>Arrazoimenaren ideiak</strong> → arima, mundua eta Jainkoa. Ez dagokie inolako intuiziorik: arrazoimenak objektu gisa ezagutu nahi baditu, ilusioetan eta antinomietan erortzen da.",
+       "<strong>Erabilera erregulatzailea</strong> → ez dute ezagutzarik ematen, baina ikerketa batasunerantz bideratzen dute. Eta etikan, askatasuna, arima hilezkorra eta Jainkoa arrazoimen praktikoaren postulatu gisa itzultzen dira."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer esan nahi du «kontzepturik gabeko intuizioak itsuak dira» esaldiak?",
+       "opciones": [
+        [
+         "Zentzumenen bidez jasotzen duguna ez dela ezagutza adimenak kontzeptuekin ordenatu arte.",
+         true
+        ],
+        [
+         "Zentzumenek beti engainatzen gaituztela.",
+         false,
+         "Kantek ez du esaten engainatzen gaituztenik: dio bakarrik ez direla nahikoak."
+        ],
+        [
+         "Kontzeptuek bakarrik ematen dutela ezagutza, esperientziaren beharrik gabe.",
+         false,
+         "Esaldiaren beste erdiak ukatu egiten du: edukirik gabe, kontzeptuak hutsik daude."
+        ],
+        [
+         "Ezin dugula noumenoa ikusi itsu gaudelako.",
+         false,
+         "Esaldiak intuizioa eta kontzeptua nola konbinatzen diren dio; ez du noumenoaz hitz egiten."
+        ]
+       ],
+       "ok": "Zuzen: bi gauzak behar dira.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Idealismo transzendentala azaltzeko gai zara jada",
+   "parrafos": [
+    "Dogmatismo arrazionalistaren eta Humeren eszeptizismoaren aurrean, Kantek dio ezagutza oro esperientziarekin hasten dela, baina ez dela guztia hartatik sortzen: esperientziak jartzen du materia, eta subjektuak a priori formak (espazioa, denbora eta kategoriak). Horregatik dira posible zientziaren judizio sintetiko a prioriak. Iraultza kopernikarra da: objektua subjektura egokitzen da.",
+    "Fenomenoak ezagutzen ditugu, ez gauza bere baitan (noumenoa). Jainkoa, arima eta mundua esperientzian ematen ez direnez, metafisika ezin da zientzia izan. USErako: alderatu puntuz puntu Descartesekin eta Humerekin, eta lotu 20. gaiko etikarekin."
    ],
    "siguiente": "kant-imperativo"
   }
@@ -4193,7 +5468,258 @@ const PISTAS = [
    "parrafos": [
     "Gaizkiaren hutsalkeria: gaizki izugarri bat egin dezake pertsona arrunt batek, pentsatzeari uko egiten diona, ez munstro batek; tesia eztabaidatzen da, dokumentuek Eichmann ideologikoago bat erakusten dutelako. Bizitza aktiboa: nekeak bizitza mantentzen du, lanak mundu bat fabrikatzen du eta ekintzak, pertsonen artean eta espazio publiko batean, zerbait berria hasteko aukera ematen du.",
     "Disertaziorako: lotu ezazu Arendten «pentsatzea» Kanten «ausartu pentsatzera»rekin eta haren arabera totalitarismoa prestatzen duen bakardade politikoarekin."
-   ]
+   ],
+   "siguiente": "sartre-existencia"
+  }
+ },
+ {
+  "id": "sartre-existencia",
+  "ilustre": "sartre",
+  "subject": "hf",
+  "tema": "25. gaia · Sartre eta existentzialismoa",
+  "unidad": "hf-existencialismo",
+  "materia": "Filosofia · Sartre",
+  "titulo": "Zer esan nahi du existentzia esentziaren aurretik datorrela, eta zergatik gaude «libre izatera kondenatuta»?",
+  "lede": "2026ko ezohiko deialdiko USEko disertazioa (gizakia proiektu ireki gisa) eta Beauvoirren oinarria. Eskatu behar dituzun pistak bakarrik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer esan nahi du Sartrek «existentzia esentziaren aurretik dator» esatean?",
+    "repaso": [
+     "Azaldu dut objektu fabrikatuaren adibidea: artisauak badu ideia (esentzia) hura egin aurretik?",
+     "Esan dut gizakiarengan alderantziz gertatzen dela: lehenik existitzen da eta gero egiten duenaren bidez definitzen da?",
+     "Lotu dut tesia Sartreren ateismoarekin: Jainko sortzailerik ez badago, ez dago aldez aurretik finkatutako giza naturarik?"
+    ],
+    "intro": [
+     "Labana bat fabrikatu aurretik, norbaitek badaki zertarako balioko duen eta nolakoa izango den. Sartrek galdetzen du ea pertsonekin gauza bera gertatzen den. Saiatu erantzuten laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Lurreratzeko: <strong>objektu fabrikatu</strong> batean, paper-labana batean adibidez, <strong>esentzia</strong> (zertarako balio duen, nolakoa den) existentziaren <strong>aurretik</strong> doa: artisauak buruan du hura egin aurretik.",
+     "Mendeetan zehar gizakia ere horrela pentsatu zen: Jainkoak ideia baten arabera sortzen du, emanda datorren <strong>giza natura</strong> baten arabera. Sartre <strong>ateismotik</strong> abiatzen da: sortzailerik ez badago, ez dago aurretiko ideia hori.",
+     "Orduan gizakiarengan <strong>existentzia esentziaren aurretik dator</strong>: lehenik existitzen gara, munduan agertzen gara, eta gero bakarrik <strong>definitzen</strong> gara egiten dugunaren bidez. Ez dago aldez aurretik finkatutako giza naturarik.",
+     "Horregatik gizakia <strong>proiektu</strong> bat da: ez da bere buruaz egiten duena baizik. Gauzak ez bezala (<strong>berez-izatea</strong>), kontzientzia (<strong>beretzat-izatea</strong>) ez dago inoiz bukatuta."
+    ],
+    "comprobacion": {
+     "pregunta": "Sartreren arabera, zer esan nahi du existentzia esentziaren aurretik datorrela?",
+     "opciones": [
+      [
+       "Lehenik existitzen garela eta gero egiten dugunaren bidez definitzen garela: ez dago aldez aurretik emandako giza naturarik.",
+       true
+      ],
+      [
+       "Gizakiak esentzia finko bat duela jaiotzen denetik.",
+       false,
+       "Hori da, hain zuzen, Sartrek ukatzen duena: esentzia ez dago emanda.",
+       "g-la-existencia-primero"
+      ],
+      [
+       "Existitzea pentsatzea baino garrantzitsuagoa dela.",
+       false,
+       "Ez da balioen hierarkia bat, ordena bat baizik: lehenik existitu, gero definitu.",
+       "g-la-existencia-primero"
+      ],
+      [
+       "Gizakia helburu batekin fabrikatutako objektu bat bezalakoa dela.",
+       false,
+       "Objektu fabrikatua da kontraadibidea: hartan esentzia aurretik doa.",
+       "g-ser-para-si"
+      ]
+     ],
+     "ok": "Ondo: ez gara eginda jaiotzen, geure burua egiten dugu.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Gizakia ez da bere buruaz egiten duena baizik",
+      "glosario": [
+       "g-la-existencia-primero",
+       "g-ser-para-si"
+      ],
+      "cita": {
+       "texto": "«Existentzia esentziaren aurretik dator.» «Gizakia ez da bere buruaz egiten duena baizik.»",
+       "fuente": "Sartre, <em>Existentzialismoa humanismo bat da</em> (1946), bi esaldi labur (frantsesetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "«Gizakia ez da bere buruaz egiten duena baizik» bada, nork erabakitzen du zer den pertsona bakoitza?",
+       "opciones": [
+        [
+         "Berak, bere egintza eta hautuekin.",
+         true
+        ],
+        [
+         "Bere naturak, jaiotzean emanda datorrenak.",
+         false,
+         "Esaldiak aurretiko natura ukatzen du: egiten duguna gara."
+        ],
+        [
+         "Jainkoak, helburu batekin sortu zuenak.",
+         false,
+         "Sartre ateismotik abiatzen da: ez dago helburua finkatzen duen sortzailerik."
+        ],
+        [
+         "Gizarteak, hark ezer egin ahal izan gabe.",
+         false,
+         "Sartrerentzat egoerak pisua du, baina beti dago hautua."
+        ]
+       ],
+       "ok": "Zehatz-mehatz: bakoitza aukeratzen duenarekin egiten da.",
+       "mal": "Irakurri berriro esaldiak.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Paper-labana eta gizakia",
+      "glosario": [
+       "g-la-existencia-primero",
+       "g-ser-para-si"
+      ],
+      "definicion": [
+       "<strong>Objektu fabrikatua</strong> → artisauak aurretik ditu ideia eta teknika: esentzia existentziaren aurretik doa.",
+       "<strong>Gizakia</strong> → Jainko sortzailerik ez badago, ez dago gizatasunaren aurretiko ideiarik: lehenik existitzen da, gero definitzen da. Existentzia esentziaren aurretik dator.",
+       "<strong>Berez-izatea eta beretzat-izatea</strong> → gauzak diren horixe dira, itxiak (berez-izatea); kontzientziak bere buruarekiko distantzia hartzen du, aukeratu egiten du eta proiektatu egiten da (beretzat-izatea).",
+       "<strong>Proiektua</strong> → gizakia bere buruaz egiten duena da: haren bizitza beti dago irekita eta egiteke."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zergatik da garrantzitsua ateismoa Sartreren argudioan?",
+       "opciones": [
+        [
+         "Jainko sortzailerik ez badago, ez dagoelako gizakiaren aurretiko ideiarik: inork ez zuen gure esentzia finkatu.",
+         true
+        ],
+        [
+         "Sartrek Jainkoa existitzen ez dela frogatu nahi duelako.",
+         false,
+         "Ez du ateismoa frogatzen: hartatik abiatzen da eta haren ondorioak ateratzen ditu."
+        ],
+        [
+         "Jainkorik gabe ezerk ez duelako axola eta dena berdin delako.",
+         false,
+         "Sartrerentzat kontrakoa gertatzen da: Jainkorik gabe, erantzukizun osoa gurea da."
+        ],
+        [
+         "Fededunak ezin direlako libre izan.",
+         false,
+         "Argudioak giza naturaz hitz egiten du, ez fededunen askatasunaz."
+        ]
+       ],
+       "ok": "Zuzen: sortzailerik gabe, aurretiko esentziarik gabe.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zergatik sortzen du askatasunak larritasuna, eta zer da fede txarra?",
+    "repaso": [
+     "Esan dut «libre izatera kondenatuta» gaudela: ez dugu libre izatea aukeratzen, eta ez aukeratzea ere aukeratzea da?",
+     "Azaldu dut nire burua aukeratzean gizakiaren irudi bat aukeratzen dudala, eta hortik sortzen direla erantzukizuna eta larritasuna?",
+     "Definitu dut fede txarra (geure burua engainatzea «ni horrelakoa naiz» edo «ez neukan aukerarik» esanez) eta Ortegaren zirkunstantziarekin alderatu dut?"
+    ],
+    "intro": [
+     "«Ezin nuen beste ezer egin», «ni horrelakoa naiz», «hori tokatzen da». Sarri esaten dugu. Sartrek esango luke ia beti gezurra dela. Pentsatu zergatik."
+    ],
+    "pistas": [
+     "Gogoratu: ez dago aurretiko esentziarik. Beraz, ez dago gure ordez aukeratzen duen ezer. <strong>Libre izatera kondenatuta</strong> gaude: ez dugu libre izatea aukeratzen, eta abstenitzeak ere ez gaitu libratzen, <strong>ez aukeratzea ere hautu bat delako</strong>.",
+     "Gainera, egiten dudana aukeratzean, edozein pertsonak izan beharko lukeenaren irudi bat proposatzen dut. Nire hautuak gizateria osoa konprometitzen du: hortik dator <strong>erantzukizun</strong> osoa eta <strong>larritasuna</strong>, dena nire mende dagoela jakitearen zorabioa.",
+     "Larritasunetik ihes egiteko geure burua engainatzen dugu: hori da <strong>fede txarra</strong>. Geure burua gauzak bagina bezala tratatzen dugu («ni horrelakoa naiz», «zerbitzariak zerbitzari gisa jokatu behar du», «ez nuen aukerarik izan») askatasunaren zama ez hartzeko.",
+     "Ortegak, zentzu hertsian existentzialista ez zenak, ñabardura bat egiten du: «ni naiz ni eta nire <strong>zirkunstantzia</strong>». Askatasuna beti dago <strong>kokatuta</strong>. Merleau-Pontyk eta Beauvoirrek ere egoeraren pisua azpimarratuko dute."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer da fede txarra Sartrerentzat?",
+     "opciones": [
+      [
+       "Norberak bere burua engainatzea, izaera baten edo egoera baten preso balego bezala aurkeztuz, norberaren askatasuna ez onartzeko.",
+       true
+      ],
+      [
+       "Besteei gezurra esatea zerbait lortzeko.",
+       false,
+       "Fede txarra norberari egindako engainua da, ez besteei.",
+       "g-mala-fe"
+      ],
+      [
+       "Jainkoarengan ez sinestea.",
+       false,
+       "Ez du zerikusirik fede erlijiosoarekin, askatasunetik ihes egitearekin baizik.",
+       "g-mala-fe"
+      ],
+      [
+       "Askatasunaren aurrean larritasuna sentitzea.",
+       false,
+       "Larritasuna da sentitzen dena; fede txarra larritasun horretatik ihes egitea da.",
+       "g-angustia"
+      ]
+     ],
+     "ok": "Zehatz-mehatz: fede txarra askatasunetik ihes egitea da.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Askatasuna eta erantzukizuna",
+      "titulo": "Libre izatera kondenatuak",
+      "glosario": [
+       "g-angustia",
+       "g-mala-fe",
+       "g-circunstancia"
+      ],
+      "cita": {
+       "texto": "«Gizakia libre izatera kondenatuta dago.» «Gizakiak ez du naturarik; daukana… historia da.»",
+       "fuente": "Sartre, <em>Existentzialismoa humanismo bat da</em> (1946; frantsesetik egindako itzulpen propioa), eta Ortega y Gasset, <em>Historia sistema gisa</em> (1935)"
+      },
+      "definicion": [
+       "<strong>Libre izatera kondenatuta</strong> → ez dugu libre izatea aukeratu, baina ezin diogu aukeratzeari utzi: abstenitzea ere aukeratzea da.",
+       "<strong>Erantzukizuna eta larritasuna</strong> → nire burua aukeratzean, gizakiaren irudi bat aukeratzen dut guztientzat. Larritasuna aitzakiarik gabeko erantzukizun horren zama da.",
+       "<strong>Fede txarra</strong> → askatasunetik ihes egiteko norbera engainatzea: bere burua gauza bat bezala tratatzea («ni horrelakoa naiz») edo egoerari errua botatzea («ez nuen aukerarik izan»).",
+       "<strong>Ortega</strong> → gizakiak ez du naturarik, historia baizik: proiektu bat da, baina beti bere zirkunstantziaren barruan. Horregatik da haren arrazoia bizi-arrazoia eta arrazoi historikoa."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zergatik dio Sartrek libre izatera «kondenatuta» gaudela?",
+       "opciones": [
+        [
+         "Ez dugulako libre izatea aukeratzen eta ezin diogulako aukeratzeari utzi: ez erabakitzea ere erabaki bat da.",
+         true
+        ],
+        [
+         "Askatasuna gizarteak ezartzen digun zigor bat delako.",
+         false,
+         "Ez da gizarte-zigor bat: aurretiko esentziarik gabeko giza egoera da."
+        ],
+        [
+         "Egiaz libre ez garelako.",
+         false,
+         "Alderantziz: erabat libre gara, eta horrek pisu handia du."
+        ],
+        [
+         "Askatasunak zoritxarrak bakarrik dakartzalako.",
+         false,
+         "«Kondenatuta» hitzak adierazten du ezin garela hartatik libratu, ez txarra denik."
+        ]
+       ],
+       "ok": "Zuzen: askatasuna ezin da itzuli.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Sartreren existentzialismoa azaltzeko gai zara jada",
+   "parrafos": [
+    "Objektu fabrikatu batean esentzia existentziaren aurretik doa; gizakiarengan, Jainko sortzailerik ez badago, alderantziz gertatzen da: lehenik existitzen da eta gero egiten duenaren bidez definitzen da. Proiektu bat da, libre izatera kondenatua: ez aukeratzea ere aukeratzea da. Hortik datoz erantzukizuna eta larritasuna, eta haietatik fede txarraren bidez egiten dugu ihes.",
+    "USErako: gizakia proiektu ireki gisa lantzen duen disertazioan, kontrajarri Sartre Ortegarekin («ni naiz ni eta nire zirkunstantzia»: askatasun kokatua) eta Beauvoirrekin, tesia emakumeari aplikatzen baitio («ez da emakume jaiotzen»)."
+   ],
+   "siguiente": "beauvoir-conclusion"
   }
  },
  {
