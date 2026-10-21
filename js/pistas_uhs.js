@@ -494,6 +494,255 @@ const PISTAS = [
   }
  },
  {
+  "id": "aristoteles-etica",
+  "ilustre": "aristoteles",
+  "subject": "hf",
+  "tema": "8. gaia · Aristoteles: etika",
+  "unidad": "hf-etica",
+  "materia": "Filosofia · Aristoteles",
+  "titulo": "Zer da zoriontasuna Aristotelesentzat, eta zergatik da bertutea erdibide bat?",
+  "lede": "<em>Nikomakorentzako Etikaren</em> etika: bizitza osorako helburu bat eta praktikaren bidez eratzen den izaera bat. Eskatu behar dituzun pistak soilik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer da zoriontasuna (<em>eudaimonía</em>) Aristotelesentzat?",
+    "repaso": [
+     "Esan al dut zoriontasuna azken helburua dela, bere buruarengatik bilatzen dena eta ez beste ezergatik?",
+     "Azaldu al dut eginkizun propioaren argudioa: gizakiaren berezkoa jarduera arrazionala dela?",
+     "Esan al dut bertuteari jarraitzen dion jarduera dela, bizitza osoan zehar, eta kanpoko ondasun batzuk ere behar dituela?"
+    ],
+    "intro": [
+     "Egiten dugun guztia zerbaiten truke egiten dugu: ikasi egiten dugu gainditzeko, gainditu egiten dugu lana izateko… Aristotelesek galdetzen du non amaitzen den kate hori. Saiatu erantzuten laguntza eskatu aurretik."
+    ],
+    "pistas": [
+     "Kokatzeko: ekintza orok <strong>helburu</strong> bat bilatzen du. Baina ezin da «zertarako»-en kate infinitu bat egon: <strong>bere buruarengatik</strong> bilatzen den helburu bat izan behar da.",
+     "Denek izen bera ematen diote: <strong>zoriontasuna</strong> (<em>eudaimonía</em>). Arazoa zertan datzan da: plazeretan, ohoreetan, aberastasunean…",
+     "Aristotelesek <strong>eginkizun propioarekin</strong> (<em>érgon</em>) erantzuten du: txirula-jotzaile ona txirula ondo jotzen duena da. Zer egiten du gizakiak landareek eta animaliek egiten ez dutena? <strong>Arrazoiaren arabera bizi.</strong>",
+     "Horregatik zoriontasuna da <strong>bertuteari jarraitzen dion arimaren jarduera</strong>, ez behin-behineko egoera bat, eta gainera «bizitza osoan»: enara batek ez du udaberria egiten."
+    ],
+    "comprobacion": {
+     "pregunta": "Aristotelesen arabera, zer da zoriontasuna?",
+     "opciones": [
+      [
+       "Bertuteari jarraitzen dion arimaren jarduera, bizitza osoan zehar mantendua.",
+       true
+      ],
+      [
+       "Nahi duguna lortzen dugunean sentitzen dugun plazera.",
+       false,
+       "Plazerrak jarduera onarekin batera doa, baina zoriontasuna ez da behin-behineko sentimendu bat.",
+       "g-eudaimonia"
+      ],
+      [
+       "Diru asko eta ohore asko izatea.",
+       false,
+       "Aberastasuna eta ohoreak bitartekoak dira edo besteen menpe daude; zoriontasuna bere buruarengatik bilatzen da.",
+       "g-eudaimonia"
+      ],
+      [
+       "Hil ondoren jasotzen den sari bat.",
+       false,
+       "Aristotelesentzat zoriontasuna bizitza honetan bizi da, jardueran.",
+       "g-teleologia"
+      ]
+     ],
+     "ok": "Ondo: jarduera, bertuteari jarraituz, bizitza osoan.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Definizioa",
+      "glosario": [
+       "g-eudaimonia",
+       "g-arete"
+      ],
+      "cita": {
+       "texto": "«Giza ongia arimaren jarduera bat da, bertuteari jarraitzen diona […], eta gainera bizitza osoan. Izan ere, enara batek ez du udaberria egiten, ez eta egun batek ere; eta, beraz, egun batek edo denbora gutxik ez du inor zoriontsu eta dohatsu egiten.»",
+       "fuente": "Aristoteles, <em>Nikomakorentzako Etika</em> I 7, 1098a16-20 (grezieratik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Zer esan nahi du «enara batek ez du udaberria egiten» esaldiak?",
+       "opciones": [
+        [
+         "Une on isolatu batek ez duela aski: zoriontasuna bizitza osoan neurtzen dela.",
+         true
+        ],
+        [
+         "Zoriontasuna urteko sasoiaren araberakoa dela.",
+         false,
+         "Irudi bat da: seinale bakar batek ez du aski zerbait iritsi dela esateko."
+        ],
+        [
+         "Zoriontasuna ezinezkoa dela.",
+         false,
+         "Ez du esaten ezinezkoa denik, jarraitutasuna eskatzen duela baizik."
+        ],
+        [
+         "Animaliak ezin direla zoriontsu izan.",
+         false,
+         "Hori egia da Aristotelesentzat, baina ez da irudi honek esaten duena."
+        ]
+       ],
+       "ok": "Hain zuzen: zoriontasuna bizitza osoko kontua da.",
+       "mal": "Irakurri berriz bigarren esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Azken helburua eta eginkizun propioa",
+      "glosario": [
+       "g-eudaimonia",
+       "g-teleologia"
+      ],
+      "definicion": [
+       "<strong>Azken helburua</strong> → zoriontasuna bere buruarengatik nahi dena da; gainerakoa haren truke nahi da.",
+       "<strong>Eginkizun propioa (<em>érgon</em>)</strong> → gizakia bereizten duena arrazoia da; ondo bizitzea arrazoia ondo erabiltzea da.",
+       "<strong>Bertuteari jarraitzen dion jarduera</strong> → zoriontasuna ez da izaten den zerbait, egiten den zerbait baizik, eta bizitza osoan.",
+       "<strong>Kanpoko ondasunak</strong> → Sokratesek edo estoikoek ez bezala, Aristotelesek onartzen du batzuk behar direla: lagunak, osasuna, nolabaiteko zortea."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zergatik dio Aristotelesek zoriontasuna arrazoiaren arabera bizitzean datzala?",
+       "opciones": [
+        [
+         "Arrazoia gizakiaren eginkizun propioa delako, landareetatik eta animalietatik bereizten duena.",
+         true
+        ],
+        [
+         "Arrazoiak desirik izatetik libratzen gaituelako.",
+         false,
+         "Aristotelesek ez ditu desirak ezabatu nahi, ordenatu baizik."
+        ],
+        [
+         "Filosofoak bakarrik izan daitezkeelako zoriontsu.",
+         false,
+         "Bertuteari jarraituz bizi den edonor izan daiteke, maila desberdinean."
+        ],
+        [
+         "Jainkoek aginduta delako.",
+         false,
+         "Argudioa giza naturatik abiatzen da, ez jainkozko agindu batetik."
+        ]
+       ],
+       "ok": "Zuzen: zoriontsu izatea gizakiaren berezkoa ondo egitea da.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zer da bertute etikoa, nola eskuratzen da eta zergatik da erdibide bat?",
+    "repaso": [
+     "Esan al dut bertute etikoa ohituraren bidez eskuratzen dela, praktikatuz: zuzenak gara gauza zuzenak eginez?",
+     "Definitu al dut bi bizioren arteko erdibidea, bat gehiegikeriazkoa eta bestea gabeziazkoa, adibide batekin (ausardia)?",
+     "Azaldu al dut erdibidea gurekiko erlatiboa dela eta zuhurtziak (<em>phrónesis</em>) finkatzen duela?"
+    ],
+    "intro": [
+     "Inor ez da jaiotzen ausart edo zuzen, baina ezta kontrakoa ere. Pentsatu nola ikasten den musika-tresna bat jotzen eta aplikatu izaerari."
+    ],
+    "pistas": [
+     "Gogoratu: adimenaren bertuteak daude, irakaskuntzaren bidez ikasten direnak, eta izaeraren edo <strong>etikoak</strong> diren bertuteak, <strong>ohituraren</strong> bidez eskuratzen direnak.",
+     "Zitara jotzen jota egiten garen bezala zitarista, <strong>zuzenak gara gauza zuzenak eginez</strong> eta ausartak gauza ausartak eginez. Bertutea ohitura bat da.",
+     "Bertute etiko bakoitza bi bizioren arteko <strong>erdibide</strong> bat da: ausardia koldarkeriaren (gabezia) eta ausarkeriaren (gehiegikeria) artean dago.",
+     "Baina erdibide hori ez da batez besteko matematiko bat: <strong>gurekiko erlatiboa</strong> da, eta egoerarekiko ere bai, eta <strong>zuhurraren</strong> (<em>phrónesis</em>) arrazoiak finkatzen du."
+    ],
+    "comprobacion": {
+     "pregunta": "Aristotelesen arabera, nola eskuratzen da bertute etikoa?",
+     "opciones": [
+      [
+       "Ohituraren bidez: ekintza bertutetsuak praktikatuz izaera eratu arte.",
+       true
+      ],
+      [
+       "Zer den ongia irakurriz eta ikasiz, Sokratesek zioen bezala.",
+       false,
+       "Hori adimenaren bertuteentzat balioko luke; etikoak praktikatuz eratzen dira.",
+       "g-akrasia"
+      ],
+      [
+       "Jaiotzetik naturaz izaten da.",
+       false,
+       "Naturak gaitasuna ematen digu, baina bertutea ohituraren bidez eskuratzen da.",
+       "g-virtud"
+      ],
+      [
+       "Legeei pentsatu gabe obeditzea.",
+       false,
+       "Zuhurtzia behar da: bertutea ez da itsu-itsuan obeditzea, izaera eratzea baizik.",
+       "g-phronesis"
+      ]
+     ],
+     "ok": "Hain zuzen: izaera praktikatuz eratzen da.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Erdibidea",
+      "titulo": "Ez koldarkeria, ez ausarkeria",
+      "glosario": [
+       "g-termino-medio",
+       "g-phronesis",
+       "g-virtud"
+      ],
+      "cita": {
+       "texto": "«Bertutea, beraz, hautapenezko ohitura bat da, gurekiko erlatiboa den erdibide batean datzana, arrazoiak zehaztua, eta zuhurrak zehaztuko lukeen bezalakoa.»",
+       "fuente": "Aristoteles, <em>Nikomakorentzako Etika</em> II 6, 1106b36-1107a2 (grezieratik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Ohitura</strong> → bertute etikoa ez da sentimendu bat ezta berezko gaitasun bat ere: praktikatuz eratzen den jarrera bat da.",
+       "<strong>Erdibidea</strong> → bi bizioren artean: ausardia koldarkeriaren eta ausarkeriaren artean; eskuzabaltasuna zekenkeriaren eta xahutzearen artean.",
+       "<strong>Gurekiko erlatiboa</strong> → ez da batez besteko aritmetikoa: atleta batentzako ale zuzena ez da hasiberri batentzakoa. Horregatik <strong>zuhurtzia</strong> behar da kasu bakoitzean finkatzeko.",
+       "<strong>Sokratesen aurrean</strong> → ongia jakitea ez da aski; dakienak eta egiten ez duenak <em>akrasía</em> (borondatearen ahulezia) jasaten du."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zergatik da erdibidea «gurekiko erlatiboa»?",
+       "opciones": [
+        [
+         "Pertsonaren eta egoeraren araberakoa delako, eta zuhurtziak finkatzen duelako, ez arau matematiko batek.",
+         true
+        ],
+        [
+         "Bakoitzak nahi duena erabakitzen duelako.",
+         false,
+         "Ez da kapritxoa: zuhurraren arrazoiak finkatzen du."
+        ],
+        [
+         "Bi kantitateren arteko batez besteko zehatza delako.",
+         false,
+         "Aristotelesek zehazki hori ukatzen du: ez da batez besteko aritmetiko bat."
+        ],
+        [
+         "Bertutea hiri bakoitzean desberdina delako eta ezer komunik ez dagoelako.",
+         false,
+         "Bertuteak berdinak dira; aldatzen dena kasuari nola aplikatzen zaizkion da."
+        ]
+       ],
+       "ok": "Zuzen: erdibidea kasuari egokitzen zaio zuhurtziarekin.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Orain azal dezakezu Aristotelesen etika",
+   "parrafos": [
+    "Zoriontasuna azken helburua da: bertuteari jarraitzen dion arimaren jarduera, bizitza osoan. Bertute etikoa praktikatuz eratzen den ohitura bat da, eta gurekiko erlatiboa den erdibide batean datza, zuhurtziak finkatzen duena: ausardia, koldarkeriaren eta ausarkeriaren artean.",
+    "Disertaziorako: alderatu ezazu Sokratesen intelektualismo moralarekin eta Kanten betebeharraren etikarekin, edo Spinozarenarekin, zeinentzat dohatsutasuna bertutea bera den."
+   ]
+  }
+ },
+ {
   "id": "descartes-metodo",
   "ilustre": "descartes",
   "subject": "hf",
@@ -2947,6 +3196,255 @@ const PISTAS = [
    "parrafos": [
     "Nietzschek bere burua «lehen immoralista» deitzen du: gizon «onaren» tipoa eta moral kristaua ukatzen ditu, <em>décadence</em>-aren morala eta bizitzaren aurkakoa dela uste duena. Haren formula balio guztien transbalorazioa da: bizitzari baietz esaten dioten balioak sortzea, «Dioniso Gurutziltzatuaren aurka» formulan laburbilduak.",
     "USErako: laburpenean, jaso 4. §ko bi ukapenak; A edo B aukeran, lotu Jainkoaren heriotzarekin eta nihilismoarekin."
+   ]
+  }
+ },
+ {
+  "id": "arendt-mal-accion",
+  "ilustre": "arendt",
+  "subject": "hf",
+  "tema": "22. gaia · Hannah Arendt",
+  "unidad": "hf-capitalismo",
+  "materia": "Filosofia · Hannah Arendt",
+  "titulo": "Zer da gaizkiaren hutsalkeria, eta zergatik da ekintza gizatiarrena?",
+  "lede": "Hannah Arendten bi ideia: munstrorik behar ez duen gaizkia eta besteen artean egiten den bizitza aktiboa. Eskatu behar dituzun pistak soilik.",
+  "ciclos": [
+   {
+    "fase": "1. fasea · Berreskuratzea",
+    "etiqueta": "Hasierako galdera",
+    "pregunta": "Zer esan nahi du Arendtek «gaizkiaren hutsalkeria» esatean?",
+    "repaso": [
+     "Kontatu al dut testuingurua: Eichmannen aurkako epaiketa Jerusalemen (1961), Arendtek <em>The New Yorker</em> aldizkarirako jarraitu zuena?",
+     "Azaldu al dut tesia: gaizki izugarri bat egin dezake pertsona arrunt batek, pentsatzeari uko egiten diona, ez munstro batek?",
+     "Esan al dut «hutsal» ez dela gaizkia gauza makala denik, eta tesia eztabaidatzen dela (Cesarani, Stangneth)?"
+    ],
+    "intro": [
+     "1961ean Adolf Eichmann epaitu zuten Jerusalemen, milioika judu exterminio-esparruetara deportatzea antolatu zuena. Arendtek munstro bat aurkitzea espero zuen. Pentsatu zerk harritu zezakeen."
+    ],
+    "pistas": [
+     "Kokatzeko: Arendtek epaiketa kazetari gisa jarraitu zuen. Ikusi zuena ez zen sadiko bat ezta ahoa apartzen zuen fanatiko bat ere, <strong>funtzionario arrunt</strong> bat baizik.",
+     "Eichmannek esaldi eginekin hitz egiten zuen eta errepikatzen zuen aginduak bete zituela eta bere lana ondo egin zuela. Arendtek zerbait nabarmentzen du: <strong>ez zuen pentsatzen</strong> egiten zuenaz.",
+     "Hortik dator haren tesia: gaizki izugarri bat sor daiteke ez asmo deabruzko batetik, <strong>pentsatzeari uko egitetik</strong> eta bestearen lekuan jartzeari uko egitetik baizik, makineria burokratiko baten barruan.",
+     "«Hutsal» ez da gaizkia gauza makala denik esatea: esan nahi du <strong>ez duela munstrorik behar</strong>. Horregatik pentsatzea, norberak epaitzea, zeregin morala da."
+    ],
+    "comprobacion": {
+     "pregunta": "Arendten arabera, zer zuen Eichmannek bere gaizkia azaltzen duena?",
+     "opciones": [
+      [
+       "Egiten zuenaz pentsatzeko eta besteen lekuan jartzeko ezintasuna.",
+       true
+      ],
+      [
+       "Gaiztakeria sadiko eta deabruzkoa, ohikoa ez dena.",
+       false,
+       "Hori da hain zuzen Arendtek aurkitzea espero zuena eta aurkitu ez zuena.",
+       "g-banalidad-del-mal"
+      ],
+      [
+       "Egiten zuena jakitea eragozten zion buruko gaixotasun bat.",
+       false,
+       "Psikiatrek normaltzat jo zuten; Arendtentzat arduraduna da.",
+       "g-banalidad-del-mal"
+      ],
+      [
+       "Ez du errurik: aginduak betetzen zituen soilik.",
+       false,
+       "Arendtek ez du errugabetzen: pentsatu gabe obeditzeak ez du erantzukizunetik libratzen.",
+       "g-banalidad-del-mal"
+      ]
+     ],
+     "ok": "Ondo: munstrorik gabeko gaizkia ez pentsatzetik sortzen da.",
+     "mal": "Oraindik ez."
+    },
+    "rescate": [
+     {
+      "boton": "Testua irakurri behar dut",
+      "etiqueta": "Laguntza-testua",
+      "titulo": "Hausnarketa-eza hutsa",
+      "glosario": [
+       "g-banalidad-del-mal",
+       "g-totalitarismo"
+      ],
+      "cita": {
+       "texto": "Ez zen tontakeria, «hausnarketa-eza hutsa» baizik, bere garaiko krimen-egile handienetako bat bihurtu zuena.",
+       "fuente": "Arendt, <em>Eichmann Jerusalemen. Gaizkiaren hutsalkeriari buruzko txostena</em> (1963), postdata (parafrasia; aipatutako esapidea, ingelesetik egindako itzulpen propioa)"
+      },
+      "comprobacion": {
+       "etiqueta": "Testuaren egiaztapena",
+       "pregunta": "Zer bereizten du Arendtek, tontakeria ez, hausnarketa-eza zela esatean?",
+       "opciones": [
+        [
+         "Eichmann pentsatzeko gai zela, baina ez zuela pentsatzen: ez zela gelditzen egiten zuena epaitzera.",
+         true
+        ],
+        [
+         "Eichmann ez zela oso adimentsua.",
+         false,
+         "Kontrakoa: espresuki dio ez zela tontakeria."
+        ],
+        [
+         "Eichmannek gehiegi pentsatzen zuela.",
+         false,
+         "Hausnarketa-eza da hain zuzen kontrakoa: pentsatzeko gelditzen ez izatea."
+        ],
+        [
+         "Eichmannek ez zekiela esparruetan gertatzen zena.",
+         false,
+         "Antolatzen zuena bazekien; falta zena horri buruzko judizioa zen."
+        ]
+       ],
+       "ok": "Hain zuzen: ez da adimen falta, judizio falta baizik.",
+       "mal": "Irakurri berriz esaldia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definizioa eta azalpena",
+      "titulo": "Munstrorik gabeko gaizkia, eta haren eztabaida",
+      "glosario": [
+       "g-banalidad-del-mal",
+       "g-soledad-politica"
+      ],
+      "definicion": [
+       "<strong>Tesia</strong> → muturreko gaizkia pertsona arruntek egin dezakete, obeditzen eta pentsatzen ez dutenek, lana banatzen eta erantzukizuna diluitzen duen burokrazia baten barruan.",
+       "<strong>Esaten ez duena</strong> → ez du esaten gaizkia gauza makala denik ezta Eichmann errugabea zenik ere: Arendtek haren kondena onartu zuen.",
+       "<strong>Eztabaida</strong> → zenbait historialarik, David Cesaranik (2004) eta Bettina Stangnethek (2011), dokumentuekin frogatu zuten Eichmann antisemita konbentzitu bat zela eta ez burokrata soil bat. Beste batzuek erantzuten dute Arendten tesiak gaizkiaren motaz hitz egiten duela, ez gizon bakar batez soilik.",
+       "<strong>Ikasgaia</strong> → pentsatzea eta norberak epaitzea ez da filosofoen luxu bat: gaizkia geldiaraz dezakeena da."
+      ],
+      "comprobacion": {
+       "boton": "Ulermena egiaztatu",
+       "etiqueta": "Azken egiaztapena",
+       "pregunta": "Zer esan nahi du «hutsal» hitzak «gaizkiaren hutsalkeria» esamoldean?",
+       "opciones": [
+        [
+         "Gaizkiak ez duela munstrorik behar: pentsatzen ez duen jende arruntetik etor daitekeela.",
+         true
+        ],
+        [
+         "Gaizkia gauza makala dela eta ez zaiola garrantzirik eman behar.",
+         false,
+         "Arendtek ez dio krimenari larritasunik kentzen; haren jatorriaz hitz egiten du."
+        ],
+        [
+         "Gaizkia aspergarria dela.",
+         false,
+         "Ez da gustu kontua: gaizkia nondik sortzen den azaltzen duen tesi bat da."
+        ],
+        [
+         "Denak berdin errudunak direla.",
+         false,
+         "Ez du errua berdin banatzen: bakoitzak egiten duenaz erantzuten du."
+        ]
+       ],
+       "ok": "Zuzen: «hutsal» «deabruzko»ren aurkakoa da, ez «larri»renaren.",
+       "mal": "Oraindik ez."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "2. fasea · Sakontzea",
+    "etiqueta": "Galdera berria",
+    "pregunta": "Zer bereizten ditu nekeak, lanak eta ekintzak, eta zergatik da ekintza garrantzitsuena?",
+    "repaso": [
+     "Bereizi al ditut hiru jarduerak: nekea (bizitza mantentzea), lana (mundu iraunkor bat fabrikatzea) eta ekintza (pertsonen artean, hitzekin eta ekintzekin)?",
+     "Azaldu al dut ekintzak pluraltasuna eta espazio publiko bat behar dituela?",
+     "Lotu al dut ekintza natalitatearekin: zerbait berria hasteko gaitasunarekin?"
+    ],
+    "intro": [
+     "<em>Giza egoera</em> liburuan (1958), Arendtek aktibo egoteko hiru modu bereizten ditu. Pentsatu jatearen, mahai bat eraikitzearen eta batzar batean hitz egitearen arteko aldean."
+    ],
+    "pistas": [
+     "Gogoratu: Arendtek <strong>bizitza aktiboa</strong> (<em>vita activa</em>) deitzen dio egiten dugun guztiaren multzoari, filosofoen bizitza kontenplatiboaren aurrean.",
+     "<strong>Nekeak</strong> bizitza biologikoa mantentzen du: jan, garbitu, kontsumitzen dena ekoitzi eta berriro egin behar dena. <strong>Lanak</strong> mundu komun bat osatzen duten objektu iraunkorrak fabrikatzen ditu: etxeak, erremintak, obrak.",
+     "<strong>Ekintza</strong> desberdina da: pertsonen artean gertatzen da, gauzarik tartean egon gabe, hitzekin eta ekintzekin. <strong>Pluraltasuna</strong> behar du: desberdinak gara eta elkarrekin bizi gara.",
+     "Aritzea <strong>zerbait berria hastea</strong> da: jaiotza bakoitzak mundura hasteko gai den norbait ekartzen du (<strong>natalitatea</strong>). Horregatik ekintza, espazio publikoan bizi dena, askatasun politikoaren oinarria da."
+    ],
+    "comprobacion": {
+     "pregunta": "Zer du berezkoa ekintzak, nekearekin eta lanarekin alderatuta?",
+     "opciones": [
+      [
+       "Pertsonen artean gertatzen dela, hitzekin eta ekintzekin, eta espazio publiko batean zerbait berria hasteko aukera ematen duela.",
+       true
+      ],
+      [
+       "Denbora luzez irauten duten objektuak ekoizten dituela.",
+       false,
+       "Hori lana da, gauzen mundua fabrikatzen duena.",
+       "g-vita-activa"
+      ],
+      [
+       "Bizitza biologikoa mantentzeko balio duela.",
+       false,
+       "Hori da nekea: jan, garbitu, kontsumitzen dena ekoitzi.",
+       "g-vita-activa"
+      ],
+      [
+       "Bakardadean egiten dela, pentsatuz.",
+       false,
+       "Ekintzak besteak behar ditu: pluraltasunik gabe ez dago ekintzarik.",
+       "g-espacio-publico"
+      ]
+     ],
+     "ok": "Hain zuzen: ekintza da berez jarduera politikoa.",
+     "mal": "Ez zehazki."
+    },
+    "rescate": [
+     {
+      "boton": "Azalpena erakutsi",
+      "etiqueta": "Bizitza aktiboa",
+      "titulo": "Nekea, lana eta ekintza",
+      "glosario": [
+       "g-vita-activa",
+       "g-natalidad",
+       "g-espacio-publico"
+      ],
+      "cita": {
+       "texto": "Ekintza pluraltasunaren baldintzari dagokio: «gizakiak, ez Gizakia, bizi dira Lurrean».",
+       "fuente": "Arendt, <em>Giza egoera</em> (1958), 1. kap. (parafrasia; aipatutako esapidea, ingelesetik egindako itzulpen propioa)"
+      },
+      "definicion": [
+       "<strong>Nekea</strong> → bizitza mantentzea: ekoizten dena kontsumitu egiten da eta berriro egin behar da. Haren irudia <em>animal laborans</em> da.",
+       "<strong>Lana</strong> → gauza iraunkorrak fabrikatzea, mundu komun bat osatzen dutenak, gure bizitzak baino egonkorragoa. Haren irudia <em>homo faber</em> da.",
+       "<strong>Ekintza</strong> → besteen aurrean hitz egitea eta aritzea, espazio publiko batean, eta zerbait berria hastea (natalitatea). Han ageri da bakoitza nor den.",
+       "<strong>Arriskua</strong> → dena neke eta kontsumo bihurtzen denean, edo erregimen batek pertsonak isolatzen eta espazio publikoa suntsitzen duenean, ekintza desagertzen da, eta harekin askatasuna."
+      ],
+      "comprobacion": {
+       "boton": "Egiaztatuz amaitu",
+       "pregunta": "Zer harreman dago ekintzaren eta natalitatearen artean?",
+       "opciones": [
+        [
+         "Jaiotza bakoitzak zerbait hasteko gai den norbait berria ekartzen du: aritzea hasteko gaitasun hori da.",
+         true
+        ],
+        [
+         "Ekintzak seme-alabak izateko balio duela.",
+         false,
+         "Irudi filosofiko bat da: jaiotzea hastea da, eta aritzea ere bai."
+        ],
+        [
+         "Gazteek bakarrik jardun dezaketela.",
+         false,
+         "Guztiek jardun dezakete: bakoitza hasiera bat da."
+        ],
+        [
+         "Ekintzak beti gauza bera errepikatzen duela.",
+         false,
+         "Kontrakoa: ekintzaren berezkoa berritasuna da."
+        ]
+       ],
+       "ok": "Zuzen: natalitatea jarduteko askatasunaren sustraia da.",
+       "mal": "Irakurri berriro azalpena."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Orain azal ditzakezu Arendten bi ideia",
+   "parrafos": [
+    "Gaizkiaren hutsalkeria: gaizki izugarri bat egin dezake pertsona arrunt batek, pentsatzeari uko egiten diona, ez munstro batek; tesia eztabaidatzen da, dokumentuek Eichmann ideologikoago bat erakusten dutelako. Bizitza aktiboa: nekeak bizitza mantentzen du, lanak mundu bat fabrikatzen du eta ekintzak, pertsonen artean eta espazio publiko batean, zerbait berria hasteko aukera ematen du.",
+    "Disertaziorako: lotu ezazu Arendten «pentsatzea» Kanten «ausartu pentsatzera»rekin eta haren arabera totalitarismoa prestatzen duen bakardade politikoarekin."
    ]
   }
  },

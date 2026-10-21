@@ -1635,6 +1635,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Eudaimonía (zoriontasuna)",
+  "id": "g-eudaimonia",
+  "et": "Grezierazko εὐδαιμονία (*eudaimonía*) hitzetik: εὖ (*eû*) «ongi» + δαίμων (*daímon*) «jainkotasun, patu»; hitzez hitz, «patu ona izatea».",
+  "area": "Etika",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Etika klasikoa",
+  "def": "Aristotelesentzat, giza bizitzaren azken helburua, bere buruarengatik bilatzen dena eta ez beste ezergatik. Ez da behin-behineko sentimendu bat, bizitza osoan zehar bertuteari jarraituz arimak egiten duen jarduera baizik; kanpoko ondasun batzuk ere behar ditu (*Nikomakorentzako Etika* I 7-8).",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Adostasunaren fabrikazioa",
@@ -3384,6 +3400,22 @@ const GLOSARIO = [
   "def": "Hezkuntza zentzu zabalean: izaeraren eta adimenaren prestakuntza. Platonengan, hiriaren eginkizun nagusia; hiriak gobernariak hautatzen ditu, ikasketa eta proba ibilbide luze baten ondoren.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Zuhurtzia (phrónesis)",
+  "id": "g-phronesis",
+  "et": "Grezierazko φρόνησις (*phrónesis*) hitzetik, φρονεῖν (*phroneîn*) «pentsatu, zentzuduna izan» aditzetik. Latinak *prudentia* gisa itzuli zuen.",
+  "area": "Etika",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "Etika klasikoa",
+  "def": "Egoera zehatz bakoitzean ondo bizitzeko zer komeni den ondo deliberatzen dakien adimenaren bertutea. Bertute etikoen erdibidea finkatzen duena da; horregatik definitzen da bertutea «zuhurrak zehaztuko lukeen bezala» (*Nikomakorentzako Etika* II 6 eta VI 5).",
+  "ilustre": [
+   "aristoteles"
   ]
  },
  {
