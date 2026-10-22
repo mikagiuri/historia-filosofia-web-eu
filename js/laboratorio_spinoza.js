@@ -95,6 +95,15 @@ const LABSPZ = {
   "mundoTiempo": "Praktikakoa: denbora, iraupena eta sorkuntza",
   "mundoSpinoza": "Spinoza, Etika I",
   "mundoReloj": "Denbora, definituta",
+  "chocan": "{x} horiek talka egiten dute elkarrekin. Kendu bat eta saiatu berriro: beste talde batek ere talka egin dezake.",
+  "chocanTodas": "Denek talka egiten dute aldi berean: edozein kenduz gero, besteak elkarrekin kabitzen dira.",
+  "chocanFijas": "Mundu honetan finkatuta dagoenarekin talka egiten dute, premisarik markatu ez arren.",
+  "sobraIsa": "Isabellek frogatzen du premisa hauek soberan daudela, bakoitza bere aldetik (ez guztiak batera):",
+  "sobraItem": "{x}: hori gabe ere ondorioztatzen da ({t}).",
+  "bSobra": "Soberan al dago premisaren bat?",
+  "sobraPosible": "Gehienez {c} gauzako munduetan, proposizioak ez du huts egiten hauetako bakar bat kenduz gero: {x}.",
+  "sobraNoDemuestra": "Horrek ez du frogatzen soberan daudenik: mundu handiago bat behar izan daiteke. Jakiteko, frogatu egin behar da, Isabellek Spinozarenekin egin zuen bezala.",
+  "sobraNinguna": "Bat ere ez dago soberan: horietako edozein kenduz gero, kontraeredu bat agertzen da.",
   "mundoVias": "Bost bideak",
   "ledeVias": "Tomas Akinokoak Jainkoa existitzen dela erakusteko bost bide proposatzen ditu (Summa Theologiae, I, 2. galdera, 3. artikulua). Hemen bide bakoitza bere premisetan banatuta dago, zeinek egiten duen lana eta objekzioek non jartzen duten hatza ikusteko. Mahaiak ez du erabakitzen Jainkoa existitzen den ala ez: zer datorren zertatik egiaztatzen du soilik.",
   "notaDefsVias": "Bideetan, mugitzea eta kausatzea ez dira denboran gertatzen diren gertaerak. <em>Berez</em> diren kausak dira, beren efektuarekin batera eragiten dutenak, esaterako eskuak makila mugitzen duen eta makilak harria mugitzen duen moduan. Mendekotasuna norabide bakarrekoa da: mugitua mugitzailearen mendekoa da, ez mugitzailea mugituaren mendekoa. Horregatik hirugarren bideak soilik erabiltzen ditu uneak: existitzeaz eta existitzeari uzteaz ari da. Mundua denboran hasi zela, Tomasek fedezko egiatzat jotzen du, arrazoiak frogatu ere gezurtatu ere egin ezin duena (I, 46. galdera, 1. eta 2. artikuluak), eta ezein bidek ez du behar. Dena izateko Jainkoaren mende dagoela, aldiz, frogagarritzat jotzen du (I, 44. galdera, 1. artikulua).",
@@ -863,6 +872,64 @@ const LABSPZ = {
   ],
   "tSimbolos": "Sinboloak",
   "bPracticar": "Erlazioen propietateak «Erlazioak» mahaian praktikatu",
+  "tMapa": "Propietateen mapa",
+  "introMapa": "Erlazio baten zer propietate ondorioztatzen den zeinetatik. Edozein erlaziotarako balio du: lehenago hasi, sortu, mugitu, eragin, perfektuagoa izan… Ondorioztatzen dena Isabellen frogatuta dago; ondorioztatzen ez dena, kontraadibide batek erakusten du, hori ere egiaztatua (Propiedades_relaciones teoria).",
+  "mapa": [
+   {
+    "sigue": true,
+    "si": "Irreflexiboa eta iragankorra",
+    "da": "asimetrikoa"
+   },
+   {
+    "sigue": true,
+    "si": "Asimetrikoa",
+    "da": "irreflexiboa"
+   },
+   {
+    "sigue": true,
+    "si": "Erregresio amaigaberik gabe",
+    "da": "asimetrikoa, eta beraz irreflexiboa"
+   },
+   {
+    "sigue": true,
+    "si": "Erregresio amaigaberik gabe, gezirik badago",
+    "da": "lehen bat dago, ezein gezik iristen ez zaiona"
+   },
+   {
+    "sigue": true,
+    "si": "Mundu finitu batean, irreflexiboa eta iragankorra",
+    "da": "erregresio amaigaberik gabe"
+   },
+   {
+    "sigue": true,
+    "si": "Mundu finitu batean, ordena hertsi bat, non guztia konparagarria den",
+    "da": "maximo bat dago"
+   },
+   {
+    "sigue": false,
+    "si": "Asimetrikoa",
+    "da": "iragankorra",
+    "ej": "0 1era doa eta 1 2ra doa, baina 0 ez doa 2ra."
+   },
+   {
+    "sigue": false,
+    "si": "Irreflexiboa",
+    "da": "asimetrikoa",
+    "ej": "«Desberdina da»: A B-ren desberdina da eta B A-ren desberdina."
+   },
+   {
+    "sigue": false,
+    "si": "Iragankorra",
+    "da": "irreflexiboa",
+    "ej": "Gauza bakoitza guztiekin lotzen duen erlazioa, bere buruarekin ere bai."
+   },
+   {
+    "sigue": false,
+    "si": "Gauza infinituekin, irreflexiboa eta iragankorra",
+    "da": "erregresio amaigaberik gabe",
+    "ej": "Zenbakietan, bakoitzaren aurretik hurrengoa dator, amaierarik gabe. Alderatu bosgarren errenkadarekin."
+   }
+  ],
   "tLectura": "Honela irakurtzen da",
   "tPasos": "Urratsez urrats",
   "pHip": "suposizioa",
