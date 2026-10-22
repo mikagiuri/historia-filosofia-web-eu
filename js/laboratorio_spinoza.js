@@ -95,6 +95,41 @@ const LABSPZ = {
   "mundoTiempo": "Praktikakoa: denbora, iraupena eta sorkuntza",
   "mundoSpinoza": "Spinoza, Etika I",
   "mundoReloj": "Denbora, definituta",
+  "mundoVias": "Bost bideak",
+  "ledeVias": "Tomas Akinokoak Jainkoa existitzen dela erakusteko bost bide proposatzen ditu (Summa Theologiae, I, 2. galdera, 3. artikulua). Hemen bide bakoitza bere premisetan banatuta dago, zeinek egiten duen lana eta objekzioek non jartzen duten hatza ikusteko. Mahaiak ez du erabakitzen Jainkoa existitzen den ala ez: zer datorren zertatik egiaztatzen du soilik.",
+  "notaDefsVias": "Bideetan, mugitzea eta kausatzea ez dira denboran gertatzen diren gertaerak. <em>Berez</em> diren kausak dira, beren efektuarekin batera eragiten dutenak, esaterako eskuak makila mugitzen duen eta makilak harria mugitzen duen moduan. Mendekotasuna norabide bakarrekoa da: mugitua mugitzailearen mendekoa da, ez mugitzailea mugituaren mendekoa. Horregatik hirugarren bideak soilik erabiltzen ditu uneak: existitzeaz eta existitzeari uzteaz ari da. Mundua denboran hasi zela, Tomasek fedezko egiatzat jotzen du, arrazoiak frogatu ere gezurtatu ere egin ezin duena (I, 46. galdera, 1. eta 2. artikuluak), eta ezein bidek ez du behar. Dena izateko Jainkoaren mende dagoela, aldiz, frogagarritzat jotzen du (I, 44. galdera, 1. artikulua).",
+  "defsVias": "Definizioak",
+  "grupoV1": "Lehen bidea: mugimendua",
+  "grupoV2": "Bigarren bidea: kausa eragilea",
+  "grupoV3": "Hirugarren bidea: posiblea eta beharrezkoa",
+  "grupoV4": "Laugarren bidea: perfekzio-mailak",
+  "grupoV5": "Bosgarren bidea: gauzen gobernua",
+  "grupoVD": "«Eta horri Jainkoa deitzen diogu»",
+  "notaPieV": "Gehienez 4 gauzako munduak bilatzen dira, A, B, C eta D izenekoak, eta 4 une. «Isabellen frogatua» esan nahi du Isabelle/HOL-ek frogak premisa horiekin egiaztatu zuela (Cinco_vias teoria). Proposizioak huts egiten duen munduren bat aurkitzen ez bada, horrek ez du ezer frogatzen.",
+  "clPrimero": "lehena",
+  "lyPrimero": "zirkulu bikoitza: lehen bat (ezerk ez du mugitzen edo ezerk ez du kausatzen)",
+  "lyMueve": "mugitzen du",
+  "lyPerfecto": "baino perfektuagoa da",
+  "lyDirige": "bere helburura zuzentzen du",
+  "hMovimiento": "Mugimendua",
+  "hExistencia": "Noiz existitzen da gauza bakoitza",
+  "hPerfeccion": "Perfekzioa",
+  "hFines": "Helburuak",
+  "fMueveSi": "{a}-k bere burua mugitzen du",
+  "fMueve": "{a}-k {b} mugitzen du",
+  "fExisteV": "{a} existitzen den uneak: {x}",
+  "fPerfSi": "{a} bera baino perfektuagoa da",
+  "fPerf": "{a} {b} baino perfektuagoa da",
+  "fFin": "{a}-k helburu baterantz jotzen du",
+  "fConoce": "{a}-k ezagutzen du",
+  "fDirigeSi": "{a}-k bere burua bere helburura zuzentzen du",
+  "fDirige": "{a}-k {b} bere helburura zuzentzen du",
+  "eFin": "helburu baterantz jotzen du",
+  "eConoce": "ezagutzen du",
+  "eExiste": "{x} uneetan existitzen da",
+  "eNunca": "ez da inoiz existitzen",
+  "verExploVias": "Bost bideen azterketa, Teorian",
+  "verPlanoDios": "Jainkoaren existentziaren frogak, Genealogietan",
   "ledeReloj": "Orain esaten dugu zer den denbora: uneak ordenan daude, eta gauza bakoitza une batean hasten da eta beste batean amaitzen. Lehenago hastea, gehiago irautea eta bizirik irautea ez dira erlazio solteak: uneen bidez definitzen dira. Praktika-munduan premisa gisa onartu behar zena, hemen frogatu egiten da.",
   "notaDefsReloj": "Denbora zer den finkoa da, mundu honetan denborak hori esan nahi duelako. Sorreraren premisak, aldiz, kendu daitezke.",
   "defsTiempoFijo": "Denbora zer den",
@@ -896,6 +931,50 @@ const LABSPZ = {
     "{1}-k {2} sortu zuen",
     "{1}-k ez zuen {2} sortu"
    ],
+   "Mueve": [
+    "{1}-k {2} mugitzen du",
+    "{1}-k ez du {2} mugitzen"
+   ],
+   "MasPerfecto": [
+    "{1} {2} baino perfektuagoa da",
+    "{1} ez da {2} baino perfektuagoa"
+   ],
+   "TiendeAFin": [
+    "{1}-k helburu baterantz jotzen du",
+    "{1}-k ez du helburu baterantz jotzen"
+   ],
+   "Conoce": [
+    "{1}-k ezagutzen du",
+    "{1}-k ez du ezagutzen"
+   ],
+   "Dirige": [
+    "{1}-k {2} bere helburura zuzentzen du",
+    "{1}-k ez du {2} bere helburura zuzentzen"
+   ],
+   "movido": [
+    "{1} zerbaitek mugitua da",
+    "{1} ez du ezerk mugitzen"
+   ],
+   "causado": [
+    "{1} zerbaitek kausatua da",
+    "{1} ez du ezerk kausatzen"
+   ],
+   "primerMotor": [
+    "{1} lehen mugitzailea da",
+    "{1} ez da lehen mugitzailea"
+   ],
+   "primeraCausa": [
+    "{1} lehen kausa da",
+    "{1} ez da lehen kausa"
+   ],
+   "necesario": [
+    "{1} beharrezkoa da",
+    "{1} ez da beharrezkoa"
+   ],
+   "maximo": [
+    "{1} maximoa da",
+    "{1} ez da maximoa"
+   ],
    "increado": [
     "{1} sortu gabea da",
     "{1} ez da sortu gabea"
@@ -1095,9 +1174,10 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Zergatik dauden hiru mundu",
+    "titulo": "Zergatik dauden lau mundu",
     "parrafos": [
-     "Praktikakoa txikia da nahita: edonork uler ditzakeen hiru erlazio, kontua barneratzeko, nahiz eta denbora zer den esan gabe uzten duen. Denbora definituarenak esaten du: uneekin, lehenago hastea, gehiago irautea eta bizirik irautea definitzen dira, eta lehen premisa ziren horiek teorema bihurtzen dira. Spinozarenak <em>Etika</em>ren I. zatia formalizatzen du. Han, H_-rekin hasten diren premisak Spinozak agerikotzat jotzen dituenak dira, eta idazten ez dituenak: geuk gehitu behar izan ditugu bere frogak funtziona dezaten. Bat faltsua iruditzen bazaizu, kendu eta begiratu zer uzten den ondorioztatzeari."
+     "Praktikakoa txikia da nahita: edonork uler ditzakeen hiru erlazio, kontua barneratzeko, nahiz eta denbora zer den esan gabe uzten duen. Denbora definituarenak esaten du: uneekin, lehenago hastea, gehiago irautea eta bizirik irautea definitzen dira, eta lehen premisa ziren horiek teorema bihurtzen dira. Spinozarenak <em>Etika</em>ren I. zatia formalizatzen du. Han, H_-rekin hasten diren premisak Spinozak agerikotzat jotzen dituenak dira, eta idazten ez dituenak: geuk gehitu behar izan ditugu bere frogak funtziona dezaten. Bat faltsua iruditzen bazaizu, kendu eta begiratu zer uzten den ondorioztatzeari.",
+     "Bost bideen mahaiak Tomas Akinokoaren argudioak premisetan banatzen ditu. Ia bide guztietan, ondorioa premisa batetik ateratzen da berehala: erregresio amaigabea debekatzen duenetik, «dena izan gabe egon daiteke»tik «noizbait ez zen ezer egon»erako pausotik, edo ezagutzen ez duenak helburu baterantz jotzen duela ezagutzen duen norbaitek zuzentzen badu soilik dioenetik. Hor dago eztabaida."
     ]
    }
   ],
@@ -1153,8 +1233,266 @@ const LABSPZ = {
    "«Denbora, definituta» munduan, 9. eta 10. proposizioak: zeri uko egingo zenioke dena sortzaile batek izan dezan, sortzen duenak lehenago hastea ala denborak hasiera bat izatea? Zer esango luke Spinozak bere burua sortzen duen gauzaz?",
    "Pasa zaitez «Denbora, definituta» mundura, 5. eta 6. proposizioetara. Zertan bereizten dira bizirik irautea eta gehiago irautea? Begiratu barrei. Gero 7.a: zergatik ez da nahikoa bizirik irautea gehiago irauteko?",
    "Goitibeherako zerrendaren amaieran, «✎ Idatzi zure proposizioa». Idatzi logikan «zerbait sortzen duena sortu gabea da» eta begiratu ondorioztatzen den. Ez bada, zein premisa behar litzateke zuk jarrita? Gehitu «Zure premisak» atalean.",
+   "«Bost bideak»en, 1. proposizioa. «Zerbait mugitzen da» soilik hartuta hasi, eta kontraeredu bat ateratzen da: zerk huts egiten du? Markatu «ez dago erregresio amaigaberik» eta probatu berriro. Gero 5.a: non huts egiten du «dena izan gabe egon badaiteke, noizbait ez zen ezer egon» pausoak?",
    "Joan Spinozaren mundura, 5. proposizioa. Markatuta datorren premisarekin kontraeredu bat ateratzen da, Leibnizena. Zein premisa falta da eta zer dio?",
    "14. proposizioa. Kendu banan-banan Isabellek erabilitako premisak. Zein iruditzen zaizu eztabaidagarriena?"
+  ]
+ },
+ "vias": {
+  "defs": [
+   {
+    "id": "movido",
+    "origen": "Lehen bidea",
+    "texto": "x mugitua da: zerbaitek mugitzen du, potentziatik aktura pasarazten du."
+   },
+   {
+    "id": "primerMotor",
+    "origen": "Lehen bidea",
+    "texto": "x lehen mugitzailea da: mugitzen du, eta ezerk ez du hura mugitzen."
+   },
+   {
+    "id": "causado",
+    "origen": "Bigarren bidea",
+    "texto": "x kausatua da: zerbait da bere kausa eragilea."
+   },
+   {
+    "id": "primeraCausa",
+    "origen": "Bigarren bidea",
+    "texto": "x lehen kausa da: kausatzen du, eta ezerk ez du hura kausatzen."
+   },
+   {
+    "id": "contingente",
+    "origen": "Hirugarren bidea",
+    "texto": "x kontingentea da, izan gabe egon daiteke: existitzen ez den uneren bat dago."
+   },
+   {
+    "id": "necesario",
+    "origen": "Hirugarren bidea",
+    "texto": "x beharrezkoa da: une guztietan existitzen da."
+   },
+   {
+    "id": "maximo",
+    "origen": "Laugarren bidea",
+    "texto": "x maximoa da: gainerako guztia baino perfektuagoa da."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "v1",
+    "nom": "Lehen bidea: mugimendua"
+   },
+   {
+    "id": "v2",
+    "nom": "Bigarren bidea: kausa eragilea"
+   },
+   {
+    "id": "v3",
+    "nom": "Hirugarren bidea: posiblea eta beharrezkoa"
+   },
+   {
+    "id": "v4",
+    "nom": "Laugarren bidea: perfekzio-mailak"
+   },
+   {
+    "id": "v5",
+    "nom": "Bosgarren bidea: gauzen gobernua"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "V1_hay_movimiento",
+    "grupo": "v1",
+    "que": "Zerbait mugitzen da. Egia da eta zentzumenek erakusten dute."
+   },
+   {
+    "id": "V1_sin_regreso",
+    "grupo": "v1",
+    "que": "Mugitzaileetan ez dago erregresio amaigaberik: ezin da atzerantz joan mugitzailez mugitzaile amaierarik gabe. Mahaian, gauza bakoitzak ordena-zenbaki bat dauka, eta mugitzaileak beti mugitzen duenak baino txikiagoa. Zenbakia ez da une bat: berez diren mugitzaileek aldi berean mugitzen dute."
+   },
+   {
+    "id": "V2_hay_causas",
+    "grupo": "v2",
+    "que": "Kausa eragileak daude: zerbait beste zerbaitek kausatua da."
+   },
+   {
+    "id": "V2_sin_regreso",
+    "grupo": "v2",
+    "que": "Berez diren kausa eragileetan ez dago erregresio amaigaberik."
+   },
+   {
+    "id": "V3_siempre_algo",
+    "grupo": "v3",
+    "que": "Inongo unetan ez da dena falta. Noizbait ezer egon izan ez balitz, orain ez litzateke ezer egongo, ez dena dagoeneko den zerbaitek eraginda soilik hasten baita izaten."
+   },
+   {
+    "id": "V3_paso_de_Tomas",
+    "grupo": "v3",
+    "que": "Dena izan gabe egon badaiteke, uneren batean ez zen ezer egon."
+   },
+   {
+    "id": "V4_orden",
+    "grupo": "v4",
+    "que": "«Baino perfektuagoa» ordena bat da: ezer ez da bera baino perfektuagoa, eta x-k y gainditzen badu, eta y-k z, x-k z gainditzen du."
+   },
+   {
+    "id": "V4_comparables",
+    "grupo": "v4",
+    "que": "Bi gauza desberdin beti konpara daitezke: bata bestea baino perfektuagoa da."
+   },
+   {
+    "id": "V5_hay_fines",
+    "grupo": "v5",
+    "que": "Ezagutzen ez duen zerbaitek helburu baten arabera jokatzen du: gorputz naturalek beti, edo ia beti, modu berean jokatzen dute, onena lortzeko."
+   },
+   {
+    "id": "V5_dirigido",
+    "grupo": "v5",
+    "que": "Ezagutzen ez duenak helburu baterantz jotzen du ezagutzen duen norbaitek zuzentzen badu soilik, gezilariak gezia zuzentzen duen bezala."
+   }
+  ],
+  "props": [
+   {
+    "id": "W1",
+    "parte": 1,
+    "nombre": "1. Badago lehen mugitzaile bat",
+    "pregunta": "Badago <b>mugitua izan gabe mugitzen duen</b> zerbait.",
+    "pasos": [
+     {
+      "txt": "Zerbait mugitzen da: dei diezaiogun m.",
+      "k": "V1_hay_movimiento"
+     },
+     {
+      "txt": "m beste zerbaitek mugitzen du. Hura beste batek mugitzen badu, eta bestea beste batek, atzerantz doa mugitzailez mugitzaile.",
+      "k": "hip"
+     },
+     {
+      "txt": "Erregresio amaigaberik ez dagoenez, ezerk mugitzen ez duen mugitzaile batera iritsi behar da.",
+      "k": "V1_sin_regreso"
+     },
+     {
+      "txt": "Beraz, badago lehen mugitzaile bat. Isabellek gauza infinituekin ere frogatzen du. Frogatzen dena da gutxienez bat badagoela: bakarra dela ez da ondorioztatzen (ikusi 9.a).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V1_sin_regreso": "Hori gabe, mugitzaileak zirkuluan ibil daitezke: A-k B mugitzen du eta B-k A mugitzen du, eta bat ere ez da lehena. Gainera, gauza infinituekin, bakoitza hurrengoak mugi dezake. Kontuz: Tomasek ez du ukatzen denboran kausa-serie infinitu bat dagoenik, batzuk besteen aurretik, adibidez beste aita batek engendratutako aita bat, eta horrela atzerantz amaierarik gabe (I, 46. galdera, 2. artikulua, 7. objekzioari erantzuna). Ukatzen duena da aldi berean mugitzen duten mugitzaileen erregresio infinitua, esku, makila eta harriarena bezala.",
+     "V1_hay_movimiento": "Hori gabe, agian ezer ez da mugitzen, eta orduan ez da mugitzailerik behar."
+    }
+   },
+   {
+    "id": "W1b",
+    "parte": 1,
+    "nombre": "2. Ezerk ez du bere burua mugitzen",
+    "cita": "Ezinezkoa da zerbait, zentzu berean eta modu berean, mugitzaile eta mugitu izatea; hau da, bere burua mugitzea.",
+    "pregunta": "Ezerk ez du <b>bere burua mugitzen</b>.",
+    "prueba": "Tomasek potentziaren eta aktuaren bidez argudiatzen du: mugitzea potentziatik aktura pasatzea da, eta ezer ez dago aldi berean potentzian eta aktuan gauza beraren aldean. Mahaiak beste bide bat aurkitzen du: zerbaitek bere burua mugituko balu, atzerantz mugitzailez mugitzaile joatean ez litzateke inoiz amaituko: x, berriro x, berriro x… Nahikoa da erregresio amaigabea ez onartzea.",
+    "leccion": {
+     "V1_sin_regreso": "Hori gabe, zerbaitek bere burua mugi dezake: zirkulurik laburrena da."
+    }
+   },
+   {
+    "id": "W2",
+    "parte": 2,
+    "nombre": "3. Badago lehen kausa bat",
+    "pregunta": "Badago <b>kausatua izan gabe kausatzen duen</b> zerbait.",
+    "prueba": "Lehen bidearen egitura bera da, «mugitzen du»ren ordez «kausatzen du» jarrita: kausak daude, ez dago erregresio amaigaberik, beraz badago ezerk kausatzen ez duen bat. Tomasek gehitzen du ezer ez dela bere buruaren kausa eragilea, bestela bere buruaren aurrekoa izango litzatekeelako (izaeraz aurrekoa, ez denboran). Spinozak, aldiz, <em>Etika</em> bere buruaren kausarekin hasten du (1. definizioa): alderatu «Denbora, definituta»-ren 10. proposizioarekin.",
+    "leccion": {
+     "V2_sin_regreso": "Hori gabe, kausak zirkuluan ibil daitezke, eta bat ere ez da lehena.",
+     "V2_hay_causas": "Hori gabe, agian ezer ez da kausatua."
+    }
+   },
+   {
+    "id": "W3",
+    "parte": 3,
+    "nombre": "4. Badago beharrezko zerbait",
+    "pregunta": "Badago <b>une guztietan existitzen den</b> zerbait.",
+    "pasos": [
+     {
+      "txt": "Demagun dena kontingentea dela: dena izan gabe egon daiteke.",
+      "k": "hip"
+     },
+     {
+      "txt": "Orduan uneren batean ez zen ezer egon.",
+      "k": "V3_paso_de_Tomas"
+     },
+     {
+      "txt": "Baina inongo unetan ez da dena falta. Talka.",
+      "k": "V3_siempre_algo"
+     },
+     {
+      "txt": "Beraz, badago beharrezko zerbait. Tomasek jarraitzen du: beharrezkoak bere beharra beste batengandik izan dezake, eta horretan ere ezin da infiniturantz joan. Mahaia lehen pauso honetan gelditzen da.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V3_paso_de_Tomas": "Hori gabe, dena kontingentea izan daiteke eta, hala ere, beti zerbait egon: elkar ordezkatzen duten bi gauza, bata hasieran eta bestea gero. Ikusi 5. proposizioa.",
+     "V3_siempre_algo": "Hori gabe, ezer gabeko une bat egon daiteke, eta orduan ezerk ez du behartzen zerbait beharrezkoa izatera."
+    }
+   },
+   {
+    "id": "W3s",
+    "parte": 3,
+    "nombre": "5. «Dena izan gabe egon badaiteke, noizbait ez zen ezer egon»",
+    "cita": "Izan gabe egon daitekeena noizbait ez da. Beraz, gauza guztiak izan gabe egon badaitezke, noizbait ez zen ezer egon.",
+    "pregunta": "Dena existitzeari utz badiezaioke, <b>ezer existitzen ez den</b> une bat dago.",
+    "nota": "Ez da ondorioztatzen: gauza bakoitzak uneren batean falta da, baina ez guztiak une berean. Kuantifikatzaileen jauzia da, «gauza bakoitzarentzat existitzen ez den une bat dago»tik «ezein existitzen ez den une bat dago»ra. Iruzkintzaile askok seinalatu dute, adibidez Anthony Kennyk <em>The Five Ways</em> liburuan (1969). Beste batzuek erantzuten dute Tomasek amaierarik gabeko denbora bat pentsatzen duela, non izan gabe egon daitekeena azkenean ez baita izaten, edo argudioa sortzen eta hondatzen diren gauzen serie osoari buruzkoa dela. Isabellek egiaztatzen du elkar ordezkatzen duten bi gauzako mundu batekin (via3_salto lema)."
+   },
+   {
+    "id": "W4",
+    "parte": 4,
+    "nombre": "6. Badago maximoa den zerbait",
+    "pregunta": "Badago <b>gainerako guztia baino perfektuagoa</b> den zerbait.",
+    "pasos": [
+     {
+      "txt": "«Baino perfektuagoa» ordena bat da: ez dago perfekzio-zirkulurik.",
+      "k": "V4_orden"
+     },
+     {
+      "txt": "Mundu finitu batean, gauza batetik perfektuagoa den beste batera igotzen da, ezerk gainditzen ez duen batera iritsi arte.",
+      "k": "hip"
+     },
+     {
+      "txt": "Dena konparagarria denez, gauza horrek gainerako guztiak gainditzen ditu.",
+      "k": "V4_comparables"
+     },
+     {
+      "txt": "Beraz, badago maximoa den zerbait. Isabellek mundu finitu batean frogatzen du (via4_finito). Gauza infinituekin ez du balio: zenbakien artean, beti dago handiago bat (via4_sin_maximo). Tomasek harago doa: generoko maximoa genero horretako guztiaren kausa da, suak, beroena denez, beroaren kausa den bezala (Aristotelesen <em>Metafisika</em>tik hartua, II. liburua). Mahaiak lehen zatia soilik egiaztatzen du.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V4_comparables": "Hori gabe, konparatzen ez diren bi gauza egon daitezke, eta bat ere ez da guztiak gainditzen dituena: bi gailur, bat ere ez altuagoa. Konpara al daiteke arrosa baten perfekzioa zenbaki batenarekin?",
+     "V4_orden": "Hori gabe, perfekzioa zirkuluan ibil daiteke: A-k B gainditzen du, B-k C eta C-k A."
+    }
+   },
+   {
+    "id": "W4u",
+    "parte": 4,
+    "nombre": "7. Maximoa bakarra da",
+    "pregunta": "x eta y maximoak badira, x eta y <b>gauza bera dira</b>.",
+    "prueba": "Bi maximo desberdin egongo balira, bakoitzak bestea gaindituko luke eta, ordena bat izateagatik, bakoitzak bere burua gaindituko luke. Talka.",
+    "leccion": {
+     "V4_orden": "Hori gabe, bi gauzak elkar gain ditzakete, eta biak dira maximoa."
+    }
+   },
+   {
+    "id": "W5",
+    "parte": 5,
+    "nombre": "8. Badago ezagutzen eta zuzentzen duen norbait",
+    "pregunta": "Badago beste gauza bat bere helburura <b>ezagutzen eta zuzentzen duen</b> zerbait.",
+    "prueba": "Berehala ondorioztatzen da: indar guztia «ezagutzen ez duenak helburu baterantz jotzen du ezagutzen duen norbaitek zuzentzen badu soilik» premisan dago. Batzuek eztabaidatzen dute: Humek, <em>Erlijio naturalari buruzko Elkarrizketak</em> liburuan (1779), eta ondoren Darwinen hautespen naturalean inork zuzentzen ez duen ordena ikusten dutenek. Beste batzuek defendatzen dute, adibidez hautespenak berak suposatzen dituen naturaren lege erregularrak nondik datozen galdetuz.",
+    "leccion": {
+     "V5_dirigido": "Hori gabe, inork zuzentzen ez dituen helburu baterantz jotzen duten gauzak egon daitezke.",
+     "V5_hay_fines": "Hori gabe, agian ezerk ez du helburu baterantz jotzen."
+    }
+   },
+   {
+    "id": "WD",
+    "parte": 6,
+    "nombre": "9. Bera al da bost bideetan?",
+    "pregunta": "x lehen mugitzailea eta y lehen kausa badira, x eta y <b>gauza bera dira</b>.",
+    "nota": "Ez da bideetatik ondorioztatzen: lehen mugitzaile bat egon daiteke eta, bestalde, lehen kausa bat. Bide bakoitza horri «denek Jainkoa deitzen diote» esanez amaitzen da, eta objekzio klasikoa da lehen bat lortzea ez dela oraindik Jainko bakar batera iristea. Tomasek ez du uste bide bakoitzak, bakarrik, Jainkoari buruz esaten den guztia ematen duenik: batasuna, sinpletasuna eta perfekzioa gero argudiatzen ditu (I, 3., 4. eta 11. galderak). Mahaiak, oraingoz, urrats hori beharrezkoa dela soilik erakusten du."
+   }
   ]
  },
  "reloj": {
@@ -1328,7 +1666,7 @@ const LABSPZ = {
    {
     "id": "R10",
     "posible": true,
-    "nombre": "10. Dena sortzaile batek izan dezake",
+    "nombre": "10. Denak izan dezake sortzaile bat",
     "pregunta": "<b>Dena</b> zerbaitek sortua izan daiteke.",
     "nota": "«Sortzen duena lehenago hasi zen» gabe, gerta daiteke. «Sortzen duena ez da geroago hasten» onartuz, zerbaitek sor dezake sortutakoa hasten den une berean, edo bere burua sor dezake. Bere burua sortzen duen gauza bere buruaren kausa da, Spinozaren <em>Etika</em>ren hasierako <em>causa sui</em> (1. definizioa).",
     "notaNo": "«Sortzen duena lehenago hasi zen» onartuz, ezin da gertatu: 9. proposizioa da. Dena sortzaile batek izan dezan, hari uko egin behar zaio."
