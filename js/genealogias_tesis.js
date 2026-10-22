@@ -116,7 +116,7 @@ const GEN_TESIS = {
   {
    "id": "tom-vias",
    "ilustre": "tomas",
-   "t": "Jainkoaren existentzia mundu sentigarrian dituen ondorioetatik abiatuta frogatzen da (bost bideak).",
+   "t": "Jainkoaren existentzia mundu sentigarrian dituen efektuetatik abiatuta frogatzen da (bost bideak).",
    "ref": "Summa theologiae I, q. 2, a. 3",
    "forma": "parafrasia"
   },
@@ -186,7 +186,7 @@ const GEN_TESIS = {
   {
    "id": "hum-causa",
    "ilustre": "hume",
-   "t": "Kausaren eta ondorioaren arteko lotura beharrezkoa ez da hautematen: ohituraz espero dugu.",
+   "t": "Kausaren eta efektuaren arteko lotura beharrezkoa ez da hautematen: ohituraz espero dugu.",
    "ref": "Giza adimenari buruzko ikerketa, V. eta VII. atalak",
    "forma": "parafrasia"
   },
@@ -382,7 +382,7 @@ const GEN_TESIS = {
   {
    "k": "ari-exp|tom-vias",
    "tipo": "acuerdo",
-   "por": "Tomasek Jainkoa modu aristotelikoan frogatzen du: ondorio sentigarrietatik (mugimendua, kausak, kontingentzia…) haien lehen kausaraino."
+   "por": "Tomasek Jainkoa modu aristotelikoan frogatzen du: efektu sentigarrietatik (mugimendua, kausak, kontingentzia…) haien lehen kausaraino."
   },
   {
    "k": "pla-ideas|ock-univ",

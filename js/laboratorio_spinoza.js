@@ -263,7 +263,7 @@ const LABSPZ = {
   {
    "id": "A4",
    "grupo": "ax",
-   "que": "Ondorioa bere kausaren bidez ulertzen da."
+   "que": "Efektua bere kausaren bidez ulertzen da."
   },
   {
    "id": "A5",
@@ -467,12 +467,12 @@ const LABSPZ = {
   {
    "id": "causa_inmanente",
    "origen": "18. prop. · kausa immanentea",
-   "texto": "Bere ondorioa zeinen baitan dagoen, kausa hori."
+   "texto": "Bere efektua zeinen baitan dagoen, kausa hori."
   },
   {
    "id": "causa_transitiva",
    "origen": "18. prop. · kausa iragankorra",
-   "texto": "Bere ondorioa zeinen baitan ez dagoen, kausa hori."
+   "texto": "Bere efektua zeinen baitan ez dagoen, kausa hori."
   },
   {
    "id": "atributo_eterno",
@@ -527,7 +527,7 @@ const LABSPZ = {
    "nombre": "3. prop.: ezer komunean ez badago, ez dago kausarik",
    "cita": "Bi gauzak elkarrekin ezer komunean ez badute, bata ezin da bestearen kausa izan.",
    "pregunta": "x eta y-k ezer komunean ez badute, <b>bat ere ez da bestearen kausa</b>.",
-   "prueba": "Ondorioa bere kausaren bidez ulertzen da (4. axioma), eta ezer komunean ez duena ezin da bata bestearen bidez ulertu (5. axioma)."
+   "prueba": "Efektua bere kausaren bidez ulertzen da (4. axioma), eta ezer komunean ez duena ezin da bata bestearen bidez ulertu (5. axioma)."
   },
   {
    "id": "P5",
@@ -776,7 +776,7 @@ const LABSPZ = {
    "id": "P36",
    "parte": 2,
    "nombre": "36. prop.: gauza orok zerbait eragiten du",
-   "cita": "Ez da existitzen naturatik ondorioren bat dakarrenik ez duen ezer.",
+   "cita": "Ez da existitzen naturatik efekturen bat dakarrenik ez duen ezer.",
    "pregunta": "Gauza orok <b>zerbait eragiten du</b>.",
    "nota": "Ez da aurreko ezertatik ondorioztatzen: Spinozak 34. prop.an (Jainkoaren potentzia bere esentzia da) oinarritzen du, formalizatu gabe. Gehitzen bada, mundu finitu batean kausa-zirkuluak behartzen ditu."
   }

@@ -231,7 +231,7 @@ const LEIBNIZ = {
   "rectTxt": "Mugitu kontrola: y = x² kurbaren azpiko azalera, 0 eta 1 artean, laukizuzenak batuz kalkulatzen da. Zenbat eta gehiago izan, orduan eta finagoak dira, eta orduan eta gehiago hurbiltzen zaio batura azalera zehatzari, ∫ x² dx = 1/3. Laukizuzen infinitu finen batura infinitu hori da Leibnizek S luzatu batekin idatzi zuena.",
   "serieTit": "Leibnizen seriea",
   "serieTxt": "Batu 1 − 1/3 + 1/5 − 1/7 + … serieko lehen gaiak eta biderkatu 4z: emaitza π-ra hurbiltzen da, baina oso poliki, alde batera eta bestera jauzika.",
-  "cuidado": "Kasu tranpa: «Leibnizek asmatu zuen kalkulua» erdizka da egia. Newtonek lehenago zeukan, 1665-1666 inguruan, argitaratu ez bazuen ere, eta emaitza solte asko Arkimedesengandik, Cavalieri, Fermat, Pascal edo Barrowrengandik zetozen. Leibnizena bakarrik notazioa da: ∫, d eta haiekin kalkulatzeko modua, gaur oraindik erabiltzen duguna."
+  "cuidado": "Tranpa-kasua: «Leibnizek asmatu zuen kalkulua» erdizka da egia. Newtonek lehenago zeukan, 1665-1666 inguruan, argitaratu ez bazuen ere, eta emaitza solte asko Arkimedesengandik, Cavalieri, Fermat, Pascal edo Barrowrengandik zetozen. Leibnizena bakarrik notazioa da: ∫, d eta haiekin kalkulatzeko modua, gaur oraindik erabiltzen duguna."
  },
  "calculemos": {
   "titulo": "Kalkula dezagun!",
@@ -311,7 +311,7 @@ const LEIBNIZ = {
    "1755eko azaroaren 1ean, lurrikara batek, itsasikara batek eta sute batek Lisboa suntsitu eta hamarnaka mila pertsona hil zituzten. Voltairek poema amorratu bat idatzi zuen: benetan hau al da munduetan onena? (Rousseauk erantzun zion naturak ez zituela sei eta zazpi solairuko hogei mila etxe eraiki: hondamendiaren zati handi bat gizakien lana zela.)",
    "1759an, Voltairek <em>Kandido</em> argitaratu zuen, eleberri labur bat non gazte inozo batek mundua zeharkatzen duen zorigaitzak kateatuz: gerrak, itsasontzi-hondoratzeak, Inkisizioa, Lisboako lurrikara bera. Haren maisuak, <strong>Panglossek</strong>, hondamendi bakoitzaren aurrean errepikatzen du dena ondo dagoela mundu posibleen artean onenean."
   ],
-  "cita": "Panglossek metafisiko-teologo-kosmolo-tentelologia irakasten zuen. Bikain frogatzen zuen ez dagoela kausarik gabeko ondoriorik eta, mundu posibleen artean onena den honetan…",
+  "cita": "Panglossek metafisiko-teologo-kosmolo-tentelologia irakasten zuen. Bikain frogatzen zuen ez dagoela kausarik gabeko efekturik eta, mundu posibleen artean onena den honetan…",
   "citaPie": "Voltaire, Kandido, 1. kap. Frantsesez, «cosmolonigologie»: barruan ezkutatuta dago nigaud, «tentel».",
   "nombre": "Eta Leibniz bere izenarekin agertzen da: 28. kapituluan, Panglossek, urkatu, disekzionatu eta galeretara kondenatu ondoren, dio ez duela iritziz aldatzeko asmorik, «Leibniz ezin delako oker egon».",
   "matiz": "Kontuz: Voltairek bertsio sinplifikatu bat barregarri uzten du. Leibnizek ez zuen esaten zorigaitz bakoitza ona denik, munduaren multzoa posible den onena dela baizik. Eta badago datu bitxi bat: Émilie du Châtelet, Voltairerekin urtetan bizi izan zen zientzialaria, leibniztarra zen eta haren ideiak defendatu zituen fisikako liburu batean (1740).",

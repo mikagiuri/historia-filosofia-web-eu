@@ -843,7 +843,7 @@ const ESQUEMAS_AUTOR = [
     "items": [
      {
       "t": "Arrazoiarentzat ebidentea",
-      "d": "Kausak gutxienez bere ondorioak adina errealitate du: printzipio horrekin frogatzen du Jainkoa badela."
+      "d": "Kausak gutxienez bere efektuak adina errealitate du: printzipio horrekin frogatzen du Jainkoa badela."
      },
      {
       "t": "Ohitura, ez beharrezkotasuna",
@@ -908,7 +908,7 @@ const ESQUEMAS_AUTOR = [
    {
     "heading": "Okasionalismoa",
     "items": [],
-    "d": "Substantziek ez diote elkarri eragiten: Jainkoak sortzen du ondorioa kasu bakoitzean.",
+    "d": "Substantziek ez diote elkarri eragiten: Jainkoak sortzen du efektua kasu bakoitzean.",
     "a": "Malebranche"
    },
    {

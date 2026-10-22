@@ -26,7 +26,7 @@ const ADG_TXT = {
   originalBtn: "Ikusi jatorrizkoa latinez", originalBtnGr: "Ikusi jatorrizkoa latinez eta grezieraz, eta nola irakurtzen den grekoa",
   latin: "Latinez:", griego: "Grezieraz:",
   origen: "Nondik dator:", erasmo: "Erasmo, Adagia {n}",
-  sentido: "Zer esan nahi du:", uso: "Erabili:", trampa: "Kasu tranpa", temas: "Gaietan:",
+  sentido: "Zer esan nahi du:", uso: "Erabili:", trampa: "Tranpa-kasua", temas: "Gaietan:",
   verBio: "Ikusi {n}(r)en biografia",
   cuenta: "{n} adagio", cuenta1: "Adagio 1",
   hTit: "Nondik dator hau: Errenazimentuko hizkuntza komuna",

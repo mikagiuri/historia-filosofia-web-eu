@@ -238,7 +238,7 @@ const ESQUEMAS = {
      "rel": "lehen jomuga",
      "t": "Kausalitatea",
      "k": true,
-     "d": "Kausak ondorioa nahitaez sortzen duela uste dugu.",
+     "d": "Kausak efektua nahitaez sortzen duela uste dugu.",
      "c": [
       {
        "rel": "esperientziak erakusten du",
@@ -254,7 +254,7 @@ const ESQUEMAS = {
        "rel": "honen bidez azaltzen da",
        "t": "Ohitura",
        "k": true,
-       "d": "Errepikapenak ondorioa itxaroteko ohitura sortzen du gugan: sinesmen bat da, ez arrazoi bat."
+       "d": "Errepikapenak efektua itxaroteko ohitura sortzen du gugan: sinesmen bat da, ez arrazoi bat."
       }
      ]
     },
@@ -397,7 +397,7 @@ const ESQUEMAS = {
       },
       {
        "rel": "honen bidez",
-       "t": "Kausa eta ondorioa",
+       "t": "Kausa eta efektua",
        "d": "Kea ikusteak suan pentsarazten digu."
       }
      ]
@@ -438,7 +438,7 @@ const ESQUEMAS = {
     {
      "de": "Egitate-kontuak",
      "rel": "honen erlazioan oinarritzen dira",
-     "a": "Kausa eta ondorioa"
+     "a": "Kausa eta efektua"
     }
    ],
    "idea": "Humerentzat dena inpresioetan hasten da: ideiak haien kopiak dira, eta bi jakintza baino ez daude: ideien arteko erlazioak (beharrezkoak) eta egitate-kontuak (kontingenteak)."
@@ -3374,7 +3374,7 @@ const ESQUEMAS = {
       {
        "rel": "Descartesen arabera",
        "t": "Arrazoiarentzat ebidentea",
-       "d": "Kausak gutxienez bere ondorioak adina errealitate du: printzipio horrekin frogatzen du Jainkoa badela."
+       "d": "Kausak gutxienez bere efektuak adina errealitate du: printzipio horrekin frogatzen du Jainkoa badela."
       },
       {
        "rel": "Humeren arabera",
@@ -3477,7 +3477,7 @@ const ESQUEMAS = {
      "rel": "1. konponbidea",
      "t": "Okasionalismoa",
      "a": "Malebranche",
-     "d": "Substantziek ez diote elkarri eragiten: Jainkoak sortzen du ondorioa kasu bakoitzean."
+     "d": "Substantziek ez diote elkarri eragiten: Jainkoak sortzen du efektua kasu bakoitzean."
     },
     {
      "rel": "2. konponbidea",

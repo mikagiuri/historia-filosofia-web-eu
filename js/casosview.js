@@ -11,7 +11,7 @@ const CAS_TXT = {
   muerte: "Heriotza", carcel: "Kartzela", exilio: "Erbestea", censura: "Zentsura",
   volver: "← Itzuli zerrendara", anterior: "‹ Aurrekoa", siguiente: "Hurrengoa ›",
   ninguno: "Ez dago fitxarik iragazki horiekin.", verBio: "Ikusi {n}(r)en biografia", biografias: "Biografiak:",
-  temas: "Gaietan:", fuentes: "Gehiago jakiteko:", trampa: "Kasu tranpa", pensar: "Pentsatzeko", cita: "Bere hitzetan",
+  temas: "Gaietan:", fuentes: "Gehiago jakiteko:", trampa: "Tranpa-kasua", pensar: "Pentsatzeko", cita: "Bere hitzetan",
   // Perseguidos
   perCuenta: "{n} kasu", perCuenta1: "Kasu 1",
   perCriterio: "Pentsatzen, irakasten edo ikertzen zutenagatik zigortutako filosofoak eta zientzialariak: heriotzarekin, kartzelarekin, erbestearekin edo zentsurarekin. Fitxa bakoitzak bereizi egiten du dakiguna eta gaizki kontatu ohi dena.",

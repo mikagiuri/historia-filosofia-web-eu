@@ -488,7 +488,7 @@ const PALABRA = {
    "Kontrakoak",
    "Gehiago eta gutxiago",
    "Definizioa",
-   "Kausa eta ondorioa"
+   "Kausa eta efektua"
   ],
   "argumentos": [
    {
@@ -521,7 +521,7 @@ const PALABRA = {
     "r": [
      4
     ],
-    "e": "Kausaren eta ondorioaren lekua: ondorioen bidez argudiatzen da."
+    "e": "Kausaren eta efektuaren lekua: ondorioen bidez argudiatzen da."
    },
    {
     "id": "a5",
@@ -633,7 +633,7 @@ const PALABRA = {
    "Zure ustez, zergatik jartzen du Aristotelesek éthos-a diskurtsoaren barruan, eta ez hitz egiten duenak aurretik duen ospean? Gauza bera gertatzen al da gaur influencerrekin?",
    "Pentsatu harrapatu zaituen telesail batean: non daude peripezia eta anagnorisia?",
    "Poesia «historia baino filosofikoagoa» bada, eleberri batek gerra bati buruz historia-liburu batek baino gehiago irakats al diezazuke?",
-   "Aukeratu tesi bat («etxeko lanak debekatu beharko lirateke») eta bilatu argudio bat leku bakoitzarekin: kontrakoak, gehiago eta gutxiago, definizioa, kausa eta ondorioa.",
+   "Aukeratu tesi bat («etxeko lanak debekatu beharko lirateke») eta bilatu argudio bat leku bakoitzarekin: kontrakoak, gehiago eta gutxiago, definizioa, kausa eta efektua.",
    "Ondo egin al zuen Lopek «aginduak sei giltzaz giltzapetzean»? Badago hausteak merezi duen araurik?"
   ],
   "otras": [

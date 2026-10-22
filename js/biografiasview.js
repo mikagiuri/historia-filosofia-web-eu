@@ -304,7 +304,7 @@ function bioAbrirGlosario(t, sub){
    los pensadores de esa época en Ilustres (calculado) y el paso a la época siguiente. */
 const ILU_EPO = { ver: "Ikusi aroaren fitxa", abre: "Zerk irekitzen duen", social: "Gizartea", politico: "Politika",
   ciencia: "Zientzia eta teknika", arte: "Artea", pensamiento: "Pentsamendua", pensadores: "Aro honetako pentsalariak", rupturas: "Hausturak eta trantsizioak",
-  trampa: "Kasu tranpa", epoca: "Aroa", volver: "← Biografia guztiak" };
+  trampa: "Tranpa-kasua", epoca: "Aroa", volver: "← Biografia guztiak" };
 function bioListaPlegada(items, n){
   const resto = items.slice(n);
   return items.slice(0, n).join(", ") + (resto.length ? ' <details class="bio-conc-mas"><summary>' + ILU_REL.mas.replace("{n}", resto.length) + '</summary>' + resto.join(", ") + '</details>' : '');

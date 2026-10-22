@@ -485,7 +485,7 @@ const RAYUELA_HF = {
     "m-cientificismo"
    ],
    "titulo": "Kausa ohitura bada, zer ematen digu zientziak?",
-   "texto": "Erantzun batean diozu kausaren eta ondorioaren arteko lotura ohiturak jartzen duela, edo mundua agertzen zaigun bezala baino ez dugula ezagutzen; beste batean, zientziak mundua den bezala ematen digula, eta gainerakoa hitz hutsak direla. Baina zientzia kausetan eta legeetan oinarritzen da: haien beharra gure adimenak jartzen badu, zientziak ezin dizkigu gauzak berez diren bezala eman. Humek eta Kantek ez zuten zientzia gutxiesten, baina mugak jartzen zizkioten."
+   "texto": "Erantzun batean diozu kausaren eta efektuaren arteko lotura ohiturak jartzen duela, edo mundua agertzen zaigun bezala baino ez dugula ezagutzen; beste batean, zientziak mundua den bezala ematen digula, eta gainerakoa hitz hutsak direla. Baina zientzia kausetan eta legeetan oinarritzen da: haien beharra gure adimenak jartzen badu, zientziak ezin dizkigu gauzak berez diren bezala eman. Humek eta Kantek ez zuten zientzia gutxiesten, baina mugak jartzen zizkioten."
   },
   {
    "id": "t-tecnica-dominio",
@@ -1128,12 +1128,12 @@ const RAYUELA_HF = {
     13.2,
     10.4
    ],
-   "titulo": "Kausa eta ondorioa",
+   "titulo": "Kausa eta efektua",
    "texto": "Billar-bola batek beste bat jotzen du, eta bigarrena mugitu egiten da. Mila aldiz ikusi duzu. Baina ikusi al duzu inoiz kausa, bigarren bola mugiarazten duen indar hori? Ala gauza bat bestearen ondoren datorrela bakarrik ikusi duzu?",
    "pregunta": "Zer ikusten duzu kausa bat ikusten duzunean?",
    "opciones": [
     {
-     "t": "Lotura bera: kausak ondorioa sortzen du nahitaez.",
+     "t": "Lotura bera: kausak efektua sortzen du nahitaez.",
      "to": "97",
      "marca": "m-causa-necesaria"
     },

@@ -475,7 +475,7 @@ const DECKS = {
    ],
    [
     "💡",
-    "«Egitatezko gaiei buruzko arrazoibide guztiak kausa eta ondorioaren erlazioan oinarritzen direla dirudi.»",
+    "«Egitatezko gaiei buruzko arrazoibide guztiak kausa eta efektuaren erlazioan oinarritzen direla dirudi.»",
     "Hume — Kausalitatearen kritika (Giza naturari buruzko tratatua)"
    ],
    [
@@ -784,7 +784,7 @@ const DECKS = {
    [
     "🔗",
     "Kausalitatea",
-    "Erlazio-kategoria: ondorio orok kausa bat du."
+    "Erlazio-kategoria: efektu orok kausa bat du."
    ],
    [
     "🔗",
@@ -1010,7 +1010,7 @@ const DECKS = {
    ],
    [
     "🧠",
-    "Kanten arabera, kausa-ondorio erlazioa munduaren ezaugarri objektibo bat da, ala gure gogoak ezarritako egitura bat?",
+    "Kanten arabera, kausa-efektu erlazioa munduaren ezaugarri objektibo bat da, ala gure gogoak ezarritako egitura bat?",
     "Gure adimenak esperientzia antolatzeko erabiltzen duen «a priori» kategoria bat da, ez mundu noumenikoaren berezko ezaugarri bat."
    ],
    [
@@ -1085,7 +1085,7 @@ const DECKS = {
    ],
    [
     "🧠",
-    "Zein da, Kanten arabera, kausa-ondorio printzipioaren baliozkotasun-eremua?",
+    "Zein da, Kanten arabera, kausa-efektu printzipioaren baliozkotasun-eremua?",
     "Fenomenoen mundura bakarrik mugatzen da."
    ],
    [
@@ -1263,7 +1263,7 @@ const DECKS = {
    [
     "⚖️",
     "Nola kritikatzen du Humek kausalitatearen nozioa?",
-    "Dio kausaren eta ondorioaren arteko lotura beharrezkoa ohitura psikologiko bat besterik ez dela: bi gertaeraren segida etengabea behatzen dugu, baina ez haien lotura logikoa."
+    "Dio kausaren eta efektuaren arteko lotura beharrezkoa ohitura psikologiko bat besterik ez dela: bi gertaeraren segida etengabea behatzen dugu, baina ez haien lotura logikoa."
    ],
    [
     "⚖️",
@@ -8195,7 +8195,7 @@ const QUIZZES = {
      "Beharrezkotasun inpertsonal batek jainkoen patu pertsonala ordezkatzen duela."
     ],
     "a": 3,
-    "fb": "Beharrezkotasun inpertsonalak (ananke) patu pertsonala (moira) ordezkatzen du: ondorio orok kausa natural eta beharrezkoa du, ez apetazkoa."
+    "fb": "Beharrezkotasun inpertsonalak (ananke) patu pertsonala (moira) ordezkatzen du: efektu orok kausa natural eta beharrezkoa du, ez apetazkoa."
    },
    {
     "q": "Zergatik da natura uniforme eta kausal baten ideia zientzia egoteko baldintza?",
@@ -8415,7 +8415,7 @@ const QUIZZES = {
      "Fenomeno bakoitza jainkoek finkatutako patu pertsonalaren mende dagoela."
     ],
     "a": 1,
-    "fb": "Fenomenoek legeei jarraitzen badiete soilik aurreikus daiteke: natura uniformea, kausala eta adigarria da, eta ondorio orok kausa beharrezko bat du."
+    "fb": "Fenomenoek legeei jarraitzen badiete soilik aurreikus daiteke: natura uniformea, kausala eta adigarria da, eta efektu orok kausa beharrezko bat du."
    },
    {
     "q": "Norbaitek dio: «Ez dut inolako antzik duela hamar urteko harekin, baina ni izaten jarraitzen dut: mantentzen dena eraldatzen naizen ordena da». Zein filosoforekin bat dator haren erantzuna?",
@@ -12230,7 +12230,7 @@ const QUIZZES = {
    {
     "q": "Zer argudiok lotzen du Descartes Anselmo Canterburykoarekin?",
     "o": [
-     "Bost bideek, munduko ondorioetatik Jainkoarengana doazenek",
+     "Bost bideek, munduko efektuetatik Jainkoarengana doazenek",
      "Ohituraren argudioak, kausalitatea azaltzen duenak",
      "Ametsaren argudioak, kanpoko mundua zalantzan jartzen duenak",
      "Argudio ontologikoak, Jainkoa bere definiziotik frogatzen duenak"
@@ -12275,7 +12275,7 @@ const QUIZZES = {
     "q": "Haur batek askotan ikusten du suak erretzen duela, eta hurrengoan ere erreko duela espero du. Nola azalduko luke Humek itxaropen hori?",
     "o": [
      "Arrazoiak atzematen duen lotura beharrezko baten bidez",
-     "Kausa eta ondorioaren jaiotzetiko ideia baten bidez",
+     "Kausa eta efektuaren jaiotzetiko ideia baten bidez",
      "Errepikapenak sortzen duen ohituraren bidez",
      "A priori ideien arteko harreman baten bidez"
     ],
@@ -17899,11 +17899,11 @@ const QUIZZES = {
     "o": [
      "Jainkoek beren apetaz erabakitzen dute gertaera bakoitza.",
      "Giza gaiek bakarrik jarraitzen dituzte legeak.",
-     "Ondorio bakoitza kausa natural eta nahitaezko bati zor zaio.",
+     "Efektu bakoitza kausa natural eta nahitaezko bati zor zaio.",
      "Zoriak gobernatzen du gertatzen den guztia."
     ],
     "a": 2,
-    "fb": "Presokratikoentzat kosmosa ez dago jainkoen apetaren menpe: ondorio orok kausa natural eta nahitaezko bat du."
+    "fb": "Presokratikoentzat kosmosa ez dago jainkoen apetaren menpe: efektu orok kausa natural eta nahitaezko bat du."
    },
    {
     "q": "Zertan bereizten da Anaxagoras Enpedoklesengandik errealitatearen printzipioak finkatzerakoan?",
@@ -19653,10 +19653,10 @@ const QUIZZES = {
      "Garunean kokatutako organo baten bidez komunikatzen dira",
      "Ez dago inolako arazorik, substantzia bakarra dagoelako",
      "Jainkoak hasieratik sinkronizatu zituen, bi erloju bezala",
-     "Jainkoak une bakoitzean dagokion ondorioa sortzen du"
+     "Jainkoak une bakoitzean dagokion efektua sortzen du"
     ],
     "a": 3,
-    "fb": "Malebranchek ukatu egiten du substantziek elkarrengan zuzenean eragiten dutenik: haren ustez kausa bakarra Jainkoa da, ondorio bakoitza bere unean sortzen duena."
+    "fb": "Malebranchek ukatu egiten du substantziek elkarrengan zuzenean eragiten dutenik: haren ustez kausa bakarra Jainkoa da, efektu bakoitza bere unean sortzen duena."
    },
    {
     "q": "Sistema kartesiarrean, nola definitzen da substantzia?",

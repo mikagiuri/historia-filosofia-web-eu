@@ -31,7 +31,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Menuaren lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu), <strong>Logika</strong> (Logikaren txokoa, bere ariketekin eta laborategiarekin) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
+   "x": "Menuaren lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>. <strong>Logikaren txokoak</strong> ez du fitxarik webgune honetan: erabiltzen duten gaietako estekek irekitzen dute.",
    "solo": "hf"
   },
   {

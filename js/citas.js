@@ -383,7 +383,7 @@ const CITAS = [
   "uso": "Hobbesen arabera subirano bat zergatik onartzen dugun azaltzeko, eta Lockeren eta Rousseauren naturazko egoerarekin alderatzeko."
  },
  {
-  "c": "Egitatezko gaiei buruzko arrazoibide guztiak kausa eta ondorioaren erlazioan oinarritzen direla dirudi.",
+  "c": "Egitatezko gaiei buruzko arrazoibide guztiak kausa eta efektuaren erlazioan oinarritzen direla dirudi.",
   "a": "David Hume",
   "o": "Giza adimenari buruzko ikerketa (1748), IV. atala, 1. zatia",
   "e": "modernoa",

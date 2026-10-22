@@ -826,7 +826,7 @@ const PILARES = {
      "epoca": "ilu",
      "titulo": "Inork ikusi al du kausa bat?",
      "quien": "Hume (1711-1776)",
-     "dice": "Humek bere araua aplikatzen dio kausari: zer inpresiotatik dator ideia hau? Billar-bola batek beste bat jotzen duenean, mugimendu bat ikusten dugu eta gero beste bat; ez dugu inoiz ikusten «indarra», ezta haien arteko <strong>lotura beharrezkoa</strong> ere. Esperientziaren aurretik, ondorioa ezin da kausatik dedukitu. Duguna <strong>elkartze konstantea</strong> da: beti horrela ikusi dugu. Eta ohiturak hurrengoan gauza bera gertatzea espero arazten digu. Beharrezkotasuna ez dago gauzetan: gogoaren itxaropenean dago.",
+     "dice": "Humek bere araua aplikatzen dio kausari: zer inpresiotatik dator ideia hau? Billar-bola batek beste bat jotzen duenean, mugimendu bat ikusten dugu eta gero beste bat; ez dugu inoiz ikusten «indarra», ezta haien arteko <strong>lotura beharrezkoa</strong> ere. Esperientziaren aurretik, efektua ezin da kausatik dedukitu. Duguna <strong>elkartze konstantea</strong> da: beti horrela ikusi dugu. Eta ohiturak hurrengoan gauza bera gertatzea espero arazten digu. Beharrezkotasuna ez dago gauzetan: gogoaren itxaropenean dago.",
      "cita": {
       "t": "«Kausa defini dezakegu beste batek jarraitzen dion objektu gisa, halako moldez non lehenengoaren antzeko objektu guztiei bigarrenaren antzeko objektuek jarraitzen baitiete.»",
       "ref": "Hume, <em>Giza adimenari buruzko ikerketa</em>, VII. atala, 2. zatia."
@@ -858,7 +858,7 @@ const PILARES = {
      "quien": "Kant (1724-1804)",
      "dice": "Kantek kontatzen du Humeren oroitzapenak bere «lo dogmatikotik» esnatu zuela (<em>Prolegomenoak</em>, hitzaurrea). Onartzen du kausa ez dela gauzetan ikusten, baina ukatzen du ohitura besterik ez denik. Kausalitatea <strong>kategoria</strong> bat da: adimenak jartzen duen kontzeptu hutsa, denboran ordenatutako esperientzia bat egon dadin. Ezingo genuke bereizi gertaera bat (ibaian behera doan itsasontzi bat) pertzepzioen segida huts batetik (etxe bati goitik behera begiratzea), gertatzen dena zerbaiten ondoren arau baten arabera datorrela pentsatuko ez bagenu. Horregatik balio du kausalitateak nahitaez esperientzia posible ororentzat, eta harentzat bakarrik.",
      "cita": {
-      "t": "«Aldaketa guztiak kausaren eta ondorioaren loturaren legearen arabera gertatzen dira.»",
+      "t": "«Aldaketa guztiak kausaren eta efektuaren loturaren legearen arabera gertatzen dira.»",
       "ref": "Kant, <em>Arrazoimen hutsaren kritika</em>, esperientziaren bigarren analogia, B232."
      },
      "aplica": "Etxe bati begiratzean, zure pertzepzioak teilatutik atea arte doaz, baina alderantziz joan litezke. Ibaian behera doan itsasontzi bat ikustean, ez. Azaldu Kanten adibide honekin zergatik den kausa gertatzen denari denboran ordena ematen diona.",
@@ -886,7 +886,7 @@ const PILARES = {
      "epoca": "con",
      "titulo": "Legeak eta probabilitateak: kausa klasikoaren amaiera",
      "quien": "Russell (1872-1970) eta XX. mendeko fisika",
-     "dice": "1912an Bertrand Russellek hitza alde batera uztea proposatu zuen: zientzia aurreratuek ez dute kausez hitz egiten, <strong>lege funtzionalez</strong> baizik, magnitudeak erlazionatzen dituzten eta denboran aurrera eta atzera berdin balio duten ekuazioez. Fisika kuantikoak beste arrakala bat gehitu zuen: gertaera batzuk (atomo jakin bat noiz desintegratzen den) <strong>probabilitateekin</strong> bakarrik aurreikus daitezke, ez ziurtasunez. Kausa klasikoa, «aurrekari bera, ondorio bera, beti», ez da jada azalpen zientifiko ororen forma. Baina medikuntzan, zuzenbidean edo eguneroko bizitzan zerk zer eragin zuen esan behar dugu oraindik.",
+     "dice": "1912an Bertrand Russellek hitza alde batera uztea proposatu zuen: zientzia aurreratuek ez dute kausez hitz egiten, <strong>lege funtzionalez</strong> baizik, magnitudeak erlazionatzen dituzten eta denboran aurrera eta atzera berdin balio duten ekuazioez. Fisika kuantikoak beste arrakala bat gehitu zuen: gertaera batzuk (atomo jakin bat noiz desintegratzen den) <strong>probabilitateekin</strong> bakarrik aurreikus daitezke, ez ziurtasunez. Kausa klasikoa, «aurrekari bera, efektu bera, beti», ez da jada azalpen zientifiko ororen forma. Baina medikuntzan, zuzenbidean edo eguneroko bizitzan zerk zer eragin zuen esan behar dugu oraindik.",
      "cita": {
       "t": "«Kausalitatearen legea […] joandako aro baten erlikia da.»",
       "ref": "Russell, «On the Notion of Cause» («Kausaren nozioaz»), <em>Proceedings of the Aristotelian Society</em> 13 (1912-1913)."

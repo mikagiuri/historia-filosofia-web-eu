@@ -545,7 +545,7 @@ const LAB = {
      },
      {
       "juicio": "Hipotetikoa",
-      "cat": "Kausa eta ondorioa",
+      "cat": "Kausa eta efektua",
       "ej": "Justizia perfektu bat badago, gaizkile tematia zigortua izango da.",
       "letras": "p: justizia perfektu bat dago · q: gaizkile tematia zigortua izango da",
       "hace": "Jarrita, arau baten arabera beste zerbait datorkiona",

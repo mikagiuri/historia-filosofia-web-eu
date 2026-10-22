@@ -2134,7 +2134,7 @@ const PISTAS = [
    {
     "fase": "2. fasea · Sakontzea",
     "etiqueta": "Galdera berria",
-    "pregunta": "Zergatik dio Humek ez dugula ezagutzen kausaren eta ondorioaren arteko lotura beharrezkoa?",
+    "pregunta": "Zergatik dio Humek ez dugula ezagutzen kausaren eta efektuaren arteko lotura beharrezkoa?",
     "repaso": [
      "Bereizi al ditut ideien arteko erlazioak (ziurrak, matematika bezala) eta egitateen gaiak (esperientziaren araberakoak)?",
      "Azaldu al dut kausalitatean segida eta konjuntzio konstantea ikusten dugula bakarrik, ez lotura beharrezkorik?",
@@ -2150,14 +2150,14 @@ const PISTAS = [
      "Horregatik ezin dugu frogatu etorkizuna iraganaren antzekoa izango denik: hori da <strong>indukzioaren arazoa</strong>. Hala ere, ohiturak bizitzeko aukera ematen digu: «giza bizitzaren gida handia» da."
     ],
     "comprobacion": {
-     "pregunta": "Humeren arabera, nondik sortzen da kausaren eta ondorioaren arteko lotura beharrezkoaren ideia?",
+     "pregunta": "Humeren arabera, nondik sortzen da kausaren eta efektuaren arteko lotura beharrezkoaren ideia?",
      "opciones": [
       [
        "Ohiturarengatik: gauza bera askotan ikusi ondoren, errepikatuko dela espero dugu.",
        true
       ],
       [
-       "Kausa ondorioarekin lotzen duen indarra zuzenean hautematen dugulako.",
+       "Kausa efektuarekin lotzen duen indarra zuzenean hautematen dugulako.",
        false,
        "Hori da Humek ukatzen duena: segida bakarrik ikusten dugu, ez lotura.",
        "g-habito"
@@ -2193,7 +2193,7 @@ const PISTAS = [
        "fuente": "Hume, <em>Giza adimenari buruzko ikerketa</em> (1748), V, § 36 (ingelesetik egindako itzulpen propioa)"
       },
       "definicion": [
-       "<strong>Ikusten duguna</strong> → kontigutasuna, segida (lehenengo kausa, gero ondorioa) eta konjuntzio konstantea (beti horrela gertatu da).",
+       "<strong>Ikusten duguna</strong> → kontigutasuna, segida (lehenengo kausa, gero efektua) eta konjuntzio konstantea (beti horrela gertatu da).",
        "<strong>Ikusten ez duguna</strong> → lotura beharrezkoa, «gertatu behar du». Ez dago haren inpresiorik.",
        "<strong>Nondik datorren</strong> → ohituratik: errepikapenak gogoan sortzen du berriz errepikatuko dela espero izatea.",
        "<strong>Ondorioa</strong> → ezin dugu frogatu etorkizuna iraganaren antzekoa izango denik (indukzioaren arazoa). Eszeptizismo moderatu bat da: ez du bizitzea eragozten, baina arrazoiaren asmoak apaltzen ditu."
@@ -2609,7 +2609,7 @@ const PISTAS = [
        "pregunta": "Zer dira <em>natura naturans</em> eta <em>natura naturata</em>?",
        "opciones": [
         [
-         "Errealitate bera begiratzeko bi modu: kausa gisa eta ondorio gisa.",
+         "Errealitate bera begiratzeko bi modu: kausa gisa eta efektu gisa.",
          true
         ],
         [
@@ -2620,7 +2620,7 @@ const PISTAS = [
         [
          "Natura basatia eta gizakiak landutako natura.",
          false,
-         "Ez: ez da landaren eta hiriaren arteko bereizketa, kausaren eta ondorioaren artekoa baizik."
+         "Ez: ez da landaren eta hiriaren arteko bereizketa, kausaren eta efektuaren artekoa baizik."
         ],
         [
          "Arima eta gorputza.",
