@@ -14,6 +14,7 @@ const LOG_ITIN = {
  "progreso": "{t} mailatik {n} gainditu dituzu.",
  "progresoNada": "Markatu maila bakoitza bere kontrol-puntua gainditzen duzunean: nabigatzaile honetan bakarrik gordetzen da.",
  "noAqui": "ez dago web honetan",
+ "enLaDe1o": "1. mailako webgunean",
  "mapaIntro": "Sakatu maila bat bere orria irekitzeko. Markatutako laukia zuri hurrengo dagokiona da.",
  "estHecho": "gaindituta",
  "estSig": "hurrengoa",

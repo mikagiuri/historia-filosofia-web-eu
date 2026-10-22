@@ -277,15 +277,18 @@ const GUIA = {
   },
   {
    "type": "h",
-   "x": "Logika"
+   "x": "Logika",
+   "solo": "fil"
   },
   {
    "type": "p",
+   "solo": "fil",
    "x": "<strong>Logikaren txokoak</strong> orain bere fitxa propioa du. Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak biltzen ditu, arrazoibidea entrenatzeko."
   },
   {
    "type": "p",
-   "x": "Goian <strong>Laborategia</strong> dago, urratsez urrats lantzeko hainbat mahairekin: egia-zuhaitzak, irudien mundu bat, erlazioak, frogapen gidatuak eta Kanten judizioen eta Spinozaren afektuen mahaiak."
+   "solo": "fil",
+   "x": "Goian <strong>Laborategia</strong> dago, urratsez urrats lantzeko hainbat mahairekin: egia-zuhaitzak, irudien mundu bat, erlazioak, frogapen gidatuak eta Kanten judizioen eta Spinozaren Etikaren mahaiak."
   },
   {
    "type": "h",
@@ -374,12 +377,6 @@ const GUIA = {
      "texto": "Aro bakoitzaren fitxak: nolakoak ziren gizartea, politika, zientzia eta artea, eta nola irudikatzen zen kosmosa. Goian, Kronogramak eta Genealogiak botoiak.",
      "view": "epocas",
      "solo": "hf"
-    },
-    {
-     "nombre": "Aroak",
-     "texto": "Aro bakoitzaren fitxak: nolakoak ziren gizartea, politika, zientzia eta artea, eta nola irudikatzen zen kosmosa.",
-     "view": "epocas",
-     "solo": "fil"
     },
     {
      "nombre": "Kronogramak",
