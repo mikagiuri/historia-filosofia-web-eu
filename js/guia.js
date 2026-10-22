@@ -430,7 +430,14 @@ const GUIA = {
     {
      "nombre": "Tailerrak",
      "texto": "Filosofia beste ikasgai batzuekin lotzen duten lau tailer, goian dituzte botoiak: Leibnizen tailerra (matematika eta informatika), Unibertso aristotelikoa (fisika, kimika eta biologia), Hitzaren artea (literatura, erretorika eta hizkuntza klasikoak) eta Spinozaren afektuak (psikologia eta urratsez urrats simulatzen den eredu bat).",
-     "view": "leibniz"
+     "view": "leibniz",
+     "solo": "fil"
+    },
+    {
+     "nombre": "Tailerrak",
+     "texto": "Filosofia beste ikasgai batzuekin lotzen duten bost tailer, goian dituzte botoiak: Leibnizen tailerra (matematika eta informatika), Unibertso aristotelikoa (fisika, kimika eta biologia), Hitzaren artea (literatura, erretorika eta hizkuntza klasikoak), Spinozaren afektuak (psikologia eta urratsez urrats simulatzen den eredu bat) eta Hegelen tailerra (historia: kontzientziaren bidea eta askatasunaren historia, Hegelek bezala eta ilearen kontra irakurria).",
+     "view": "leibniz",
+     "solo": "hf"
     }
    ]
   },

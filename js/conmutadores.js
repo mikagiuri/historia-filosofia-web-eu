@@ -27,7 +27,7 @@ const CONMUTADORES = [
   { entry: "dilemas",      modos: [["dilemas", "Dilemak"], ["polemicas", "Polemikak"], ["duelo", "Dueloa"], ["nudos", "Korapiloak"]] },
   { entry: "epocas",       modos: [["epocas", "Fitxak"], ["cronogramas", "Kronogramak"], ["genealogias", "Genealogiak"]] },
   { entry: "biografias",     modos: [["biografias", "Guztiak"], ["perseguidos", "Jazarriak"], ["comunidades", "Komunitateak"]] },
-  { entry: "leibniz",      modos: [["leibniz", "Leibnizen tailerra"], ["universo", "Unibertso aristotelikoa"], ["palabra", "Hitzaren artea"], ["afectos", "Spinozaren afektuak"]] }   // (20-10) + afectos; (19-10) «Talleres»: unidades transversales
+  { entry: "leibniz",      modos: [["leibniz", "Leibnizen tailerra"], ["universo", "Unibertso aristotelikoa"], ["palabra", "Hitzaren artea"], ["afectos", "Spinozaren afektuak"], ["hegel", "Hegelen tailerra"]] }   // (22-10) + hegel (solo HF); (20-10) + afectos; (19-10) «Talleres»: unidades transversales
 ];
 
 /* índices vista → { entrada, rótulo, grupo } */
