@@ -7,6 +7,8 @@ const LAB = {
   "mesaMundo": "Irudien mundua",
   "mesaRelaciones": "Erlazioak",
   "mesaDemos": "Frogapen gidatuak",
+  "mesaDeduccion": "Dedukzio naturala",
+  "mesaInduccion": "Indukzioa eta abdukzioa",
   "mesaSpinoza": "Spinoza (garatzen ari da)",
   "intro": "Logika eskuekin egiteko mahaiak: konektibo ezezagun bat deszifratu, egia-zuhaitzak landatu, perpausak egiazko egiten dituzten munduak eraiki, erlazioak marraztu eta frogapen ospetsuak urratsez urrats jarraitu.",
   "verdadera": "egiazkoa",

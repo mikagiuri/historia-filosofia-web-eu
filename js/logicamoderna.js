@@ -42,7 +42,18 @@ const LOGM_FZ = [
   { f: "Ez da egia, euria ari badu, partida bertan behera geratzen denik.", d: [["p", "euria ari du"], ["q", "partida bertan behera geratzen da"]], s: "¬(p → q)", pista: "«Ez da egia» egiturak baldintzazko osoa ukatzen du: parentesiaren aurretik doa." },
   { f: "Epikuro: «Gu gaudenean, heriotza ez dago; eta heriotza dagoenean, gu jada ez gaude».", d: [["p", "gu gaude"], ["q", "heriotza dago"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "Bi baldintzazko dira, «eta»-k lotuak. (Menekeori gutuna, 125.)" },
   /* (17-10) caso «Mónica» con cinco letras (docs/34): la ficha de Argumentos clásicos lo formaliza con tres */
-  { f: "Monika, hitzez hitz: «Gauza onak nahi baditu eta baditu, zoriontsu da; baina gauza txarrak nahi baditu, baditu arren, zorigaiztokoa da».", d: [["p", "zoriontsu da"], ["q", "gauza onak nahi ditu"], ["r", "gauza onak ditu"], ["s", "gauza txarrak nahi ditu"], ["t", "gauza txarrak ditu"]], s: "((q ∧ r) → p) ∧ ((s ∧ t) → ¬p)", pista: "«Baina» eta «arren» ∧ gisa idazten dira: «baditu arren»-ek ez du ukatzen dituela, baieztatzen du. Konparatu Monikaren fitxako hiru letrako irakurketarekin (Argudio klasikoak): zer gertatzen da ongia eta gaizkia nahi dituenarekin, dena badu eta zoriontsu bada? Formula batek onartzen du eta besteak ez." }
+  { f: "Monika, hitzez hitz: «Gauza onak nahi baditu eta baditu, zoriontsu da; baina gauza txarrak nahi baditu, baditu arren, zorigaiztokoa da».", d: [["p", "zoriontsu da"], ["q", "gauza onak nahi ditu"], ["r", "gauza onak ditu"], ["s", "gauza txarrak nahi ditu"], ["t", "gauza txarrak ditu"]], s: "((q ∧ r) → p) ∧ ((s ∧ t) → ¬p)", pista: "«Baina» eta «arren» ∧ gisa idazten dira: «baditu arren»-ek ez du ukatzen dituela, baieztatzen du. Konparatu Monikaren fitxako hiru letrako irakurketarekin (Argudio klasikoak): zer gertatzen da ongia eta gaizkia nahi dituenarekin, dena badu eta zoriontsu bada? Formula batek onartzen du eta besteak ez." },
+  /* (22-10, nube) T2a: diez frases más, con casos trampa («a menos que», «solo si» delante, «siempre que», «aunque» + subjuntivo, «salvo que») */
+  { f: "Ez naiz joango, zu nirekin etorri ezean.", d: [["p", "joaten naiz"], ["q", "nirekin etortzen zara"]], s: "¬q → ¬p", pista: "Tranpa-kasua: «ez p, q ezean» esateak «q ez bada, ez p» esan nahi du. p → q formularen baliokidea da: zu nirekin etortzea baldintza beharrezkoa da ni joateko." },
+  { f: "Ikasten baduzu bakarrik gaindituko duzu.", d: [["p", "gainditu egiten duzu"], ["q", "ikasten duzu"]], s: "p → q", pista: "Tranpa-kasua: «…bada bakarrik» hasieran egon arren, baldintza beharrezkoa adierazten du oraindik, eta hori geziaren atzean doa. Gainditzen baduzu, ikasi duzulako da." },
+  { f: "Ikasten duzun bakoitzean, gainditzen duzu.", d: [["p", "gainditu egiten duzu"], ["q", "ikasten duzu"]], s: "q → p", pista: "Gaztelaniaz indikatiboarekin, «siempre que» «aldi bakoitzean» esan nahi du, hau da, «baldin»: ikastea baldintza nahikoa da eta gezi aurretik doa. Alderatu aurrekoarekin. Tranpa-kasua: subjuntiboarekin («aprobarás siempre que estudies») «ikasten baduzu bakarrik» bezala irakur daiteke, eta orduan p → q litzateke." },
+  { f: "Ez dago ez euririk ez eguzkirik, baina hotz egiten du.", d: [["p", "euria ari du"], ["q", "eguzkia dago"], ["r", "hotz egiten du"]], s: "¬p ∧ ¬q ∧ r", pista: "«Ez… ez…»-k lehenengo biak ezeztatzen ditu eta «baina» beste konjuntzio bat da: ¬p, ¬q eta r baieztatzen dira." },
+  { f: "Ez da egia euria edo elurra ari duenik.", d: [["p", "euria ari du"], ["q", "elurra ari du"]], s: "¬(p ∨ q)", pista: "Disjuntzio osoa ezeztatzen da: ez du euririk egiten eta ez du elurrik egiten. De Morganen arabera, ¬p ∧ ¬q ere balio du." },
+  { f: "Astelehena ez bada, ez dago logika-klaserik.", d: [["p", "astelehena da"], ["q", "logika-klasea dago"]], s: "¬p → ¬q", pista: "Tranpa-kasua: q → p formularen baliokidea da (logika-klasea badago, astelehena da), ez p → q formularena: esaldiak ez du klaserik agintzen astelehen guztietarako." },
+  { f: "Euria egiten badu ere, irtengo gara.", d: [["p", "euria ari du"], ["q", "irteten gara"]], s: "(p → q) ∧ (¬p → q)", pista: "Tranpa-kasua: «…-bada ere» egiturak ez du baieztatzen euria ari duenik; esaten du irtengo garela, euria egin zein ez. Formula q soilaren baliokidea da. («Euria ari duen arren, irteten gara» esaldia, berriz, p ∧ q litzateke.)" },
+  { f: "Euria ari badu, etxean geratzen naiz; eta ari ez badu, parkera joaten naiz.", d: [["p", "euria ari du"], ["q", "etxean geratzen naiz"], ["r", "parkera joaten naiz"]], s: "(p → q) ∧ (¬p → r)", pista: "Bi baldintzazko dira, «eta»-k lotuta; «ari ez badu» horrek «euria ari ez badu» esan nahi du." },
+  { f: "Azterketa gainditzea beharrezkoa eta nahikoa da ikasturtea gainditzeko.", d: [["p", "azterketa gainditzen duzu"], ["q", "ikasturtea gainditzen duzu"]], s: "p ↔ q", pista: "Nahikoa: p → q. Beharrezkoa: q → p. Biak batera bibaldintzazkoa dira." },
+  { f: "Euria ari badu, ez naiz irteten, aterkia izan ezean.", d: [["p", "euria ari du"], ["q", "irteten naiz"], ["r", "aterkia daukat"]], s: "(p ∧ ¬r) → ¬q", pista: "Tranpa-kasua: «aterkia izan ezean» esateak «aterkirik ez badaukat» esan nahi du: euria ari badu eta aterkirik ez badaukat, ez naiz irteten. p → (¬r → ¬q) ere balio du, baliokidea baita." }
 ];
 function logmEquiv(a, b){
   const vars = logVars([a, b]);
@@ -101,7 +112,16 @@ const LOGM_EJ = [
   { t: "Arima materiala balitz, gorputza bezala deskonposatuko litzateke. Arima ez da deskonposatzen. Beraz, arima ez da materiala.", r: "mt" },
   { t: "Teoria ona bada, bere iragarpenak betetzen dira. Bere iragarpenak betetzen dira. Beraz, teoria ona da.", r: "ac" },
   { t: "Euria ari badu, hodeiak daude. Beraz, hodeiak badaude, euria ari du.", r: "cc" },
-  { t: "Ez da egia akusatua erruduna dela eta bakarrik jardun duela. Beraz, akusatua ez da erruduna.", r: "nc" }
+  { t: "Ez da egia akusatua erruduna dela eta bakarrik jardun duela. Beraz, akusatua ez da erruduna.", r: "nc" },
+  /* (22-10, nube) T2b: ocho más; cinco son trampas (ac, na, ad, cc, nc) */
+  { t: "Museoa irekita badago, sarreran argia dago. Sarreran ez dago argirik. Beraz, museoa ez dago irekita.", r: "mt" },
+  { t: "Platonek arrazoi badu, arima hilezkorra da. Arima hilezkorra da. Beraz, Platonek arrazoi du.", r: "ac" },
+  { t: "Hotz handia egiten badu, aintzira izoztu egiten da. Ez du hotz handirik egiten. Beraz, aintzira ez da izozten.", r: "na" },
+  { t: "Beak igeri edo bizikletan ibiltzen daki. Igeri egiten daki. Beraz, ez daki bizikletan ibiltzen.", r: "ad" },
+  { t: "Bilbokoa bazara, Bizkaikoa zara. Beraz, Bizkaikoa bazara, Bilbokoa zara.", r: "cc" },
+  { t: "Etxeko taldeak irabazten badu, festa izango da; kanpokoak irabazten badu ere, festa izango da, biak herrikoak baitira. Bietako batek irabaziko du. Beraz, festa izango da.", r: "dc" },
+  { t: "Gasolioa garestitzen bada, garraioa garestitzen da; garraioa garestitzen bada, elikagaiak garestitzen dira. Beraz, gasolioa garestitzen bada, elikagaiak garestitzen dira.", r: "sh" },
+  { t: "Ez da egia Juan aldi berean ordezkaria eta diruzaina denik. Beraz, Juan ez da diruzaina.", r: "nc" }
 ];
 function logmTodas(){ return LOGM_REGLAS.concat(LOGM_FALACIAS); }
 function logmForma(x){ return x.p.split(";").map(s => s.trim()).join(" · ") + " ⊢ " + x.c; }
@@ -160,13 +180,22 @@ const LOGM_CQ_EJ = [
   { f: "Filosofo guztiak jakin-nahiak dira.", d: "F = filosofoa, C = jakin-nahia", o: ["∀x (Fx → Cx)", "∀x (Fx ∧ Cx)", "∃x (Fx ∧ Cx)", "∀x (Cx → Fx)"], r: 0, por: "Baiezko unibertsala (A). ∧ ikurrarekin esango luke mundu guztia dela filosofoa eta jakin-nahia; gezia alderantziz jarrita, jakin-nahi oro filosofoa dela." },
   { f: "Sofistaren batek kobratu egiten zuen irakasteagatik.", d: "S = sofista, C = irakasteagatik kobratzen zuen", o: ["∃x (Sx → Cx)", "∃x (Sx ∧ Cx)", "∀x (Sx → Cx)"], r: 1, por: "Baiezko partikularra (I): badago norbait sofista dena eta kobratzen zuena. Geziarekin nahikoa litzateke sofista ez den zerbait egotea." },
   { f: "Ezein jainko ez da hilkorra.", d: "D = jainkoa, M = hilkorra", o: ["¬∀x (Dx → Mx)", "∀x (¬Dx → Mx)", "∀x (Dx → ¬Mx)"], r: 2, por: "Ezezko unibertsala (E). ¬∃x (Dx ∧ Mx) ere balio du: «ez dago jainko eta hilkor den ezer»." },
-  { f: "Ez ziren greziar guztiak filosofoak.", d: "G = greziarra, F = filosofoa", o: ["∀x (Gx → ¬Fx)", "¬∀x (Gx → Fx)", "¬∃x (Gx ∧ Fx)"], r: 1, por: "Kasu tranpa: «ez guztiak» ez da «bat ere ez». ∃x (Gx ∧ ¬Fx) formularen baliokidea da: greziarren bat ez zen filosofoa (O)." },
+  { f: "Ez ziren greziar guztiak filosofoak.", d: "G = greziarra, F = filosofoa", o: ["∀x (Gx → ¬Fx)", "¬∀x (Gx → Fx)", "¬∀x (Gx ∧ Fx)"], r: 1, por: "Tranpa-kasua: «ez guztiak» ez da «inor ere ez». ∃x (Gx ∧ ¬Fx)-ren baliokidea da: grekoren bat ez zen filosofoa (O). ¬∀x (Gx ∧ Fx) egiazkoa izango litzateke greko ez zen zerbait egotearekin." },
   { f: "Hiritarrek bakarrik ematen zuten botoa batzarrean.", d: "V = batzarrean botoa ematen zuen, C = hiritarra", o: ["∀x (Cx → Vx)", "∀x (Vx → Cx)", "∃x (Vx ∧ Cx)"], r: 1, por: "Kasu tranpa: «C-ak bakarrik» baldintza beharrezkoa geziaren atzean jartzen du: botoa ematen zuen oro hiritarra zen (ez hiritar orok ematen zuen botoa)." },
-  { f: "Bada beste ezerk eragin ez duen zerbait.", d: "C = beste zerbaitek eragina", o: ["¬∃x Cx", "∀x ¬Cx", "∃x ¬Cx"], r: 2, por: "Badago gutxienez eragin gabeko x bat: Aristotelesen lehen motorraren edo Tomas Akinokoaren lehen kausaren ideia da." },
+  { f: "Bada beste ezerk eragin ez duen zerbait.", d: "C = beste zerbaitek eragina", o: ["¬∃x ¬Cx", "∀x ¬Cx", "∃x ¬Cx"], r: 2, por: "Badago gutxienez eragin gabeko x bat: Aristotelesen lehen motorraren edo Tomas Akinokoaren lehen kausaren ideia da." },
   { f: "Sokrates hilkorra da.", d: "M = hilkorra, s = Sokrates", o: ["∃x Mx", "Ms", "∀x Mx"], r: 1, por: "Banako zehatz bat letra xehe batez idazten da (konstante bat): ez da kuantifikatzailerik behar." },
   { f: "Pentsatzen duen oro existitzen da.", d: "P = pentsatzen du, E = existitzen da", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Baiezko unibertsala (A). «Ni existitzen naiz» ateratzeko, «nik pentsatzen dut» (Pi) premisa eta instantziazio unibertsala ere beharko lirateke, Sokratesekin bezala." },
   { f: "Mundu guztiak du ama bat.", d: "M = «y x-ren ama da»", o: ["∃y ∀x Myx", "∀x ∃y Myx", "∀x ∀y Myx"], r: 1, por: "Pertsona bakoitzarentzat badago amaren bat (kasu bakoitzean desberdina izan daiteke). ∃y ∀x Myx formulak esango luke badagoela guztien ama bakar bat: kuantifikatzaileen ordena aldatzea da." },
-  { f: "Badago norbait, denek miresten dutena.", d: "A = «x-k y miresten du»", o: ["∀x ∃y Axy", "∃y ∀x Axy", "∃x ∃y Axy"], r: 1, por: "Badago y bat, non denek hura miresten duten. ∀x ∃y Axy formulak esango luke bakarrik bakoitzak norbait miresten duela, agian pertsona desberdinak." }
+  { f: "Badago norbait, denek miresten dutena.", d: "A = «x-k y miresten du»", o: ["∀x ∃y Axy", "∃y ∀x Axy", "∃x ∃y Axy"], r: 1, por: "Badago y bat, non denek hura miresten duten. ∀x ∃y Axy formulak esango luke bakarrik bakoitzak norbait miresten duela, agian pertsona desberdinak." },
+  /* (22-10, nube) T2c: «solo los», «no todos», «nadie» y relaciones */
+  { f: "Adin nagusikoek bakarrik eman dezakete botoa.", d: "V = botoa eman dezake, M = adin nagusikoa", o: ["∀x (Mx → Vx)", "∀x (Mx ∧ Vx)", "∀x (Vx → Mx)"], r: 2, por: "Tranpa-kasua: «soilik M-ak»-k M gezi atzean jartzen du: bozkatu dezakeen oro adinez nagusia da. Ez du esaten adinez nagusi guztiek bozka dezaketenik (∀x (Mx → Vx)), ezta mundu guztia adinez nagusia dela eta bozkatzen duenik ere (∀x (Mx ∧ Vx))." },
+  { f: "Ez ziren sofista guztiak atzerritarrak.", d: "S = sofista, E = atzerritarra", o: ["∃x (Sx ∧ ¬Ex)", "∀x (Sx → ¬Ex)", "∃x (Sx → ¬Ex)"], r: 0, por: "«Ez guztiak» O da: gutxienez sofista bat ez zen atzerritarra. ¬∀x (Sx → Ex)-ren baliokidea da. ∀x (Sx → ¬Ex)-k ezein sofista ez zela atzerritarra esaten du, askoz gehiago; ∃x (Sx → ¬Ex), geziarekin, egiazkoa izango litzateke sofista ez zen zerbait egotearekin." },
+  { f: "Inor ez da perfektua.", d: "P = perfektua (pertsonez ari gara)", o: ["∃x ¬Px", "¬∀x ¬Px", "¬∃x Px"], r: 2, por: "Tranpa-kasua: «inor ez» «ez dago bat ere» da: ¬∃x Px, ∀x ¬Px-ren baliokidea. ∃x ¬Px-k askoz gutxiago esaten du: norbait ez dela perfektua. ¬∀x ¬Px ∃x Px-ren baliokidea da: norbait perfektua dela esaten du." },
+  { f: "Denek miresten dute Sokrates.", d: "A = «x-k y miresten du», s = Sokrates", o: ["∀x Asx", "∀x Axs", "∃x Axs"], r: 1, por: "Letren ordenak garrantzia du: Axs «x-k Sokrates miresten du» da. ∀x Asx formulak esango luke Sokratesek denak miresten dituela." },
+  { f: "Sokratesek bera miresten ez duen norbait miresten du.", d: "A = «x-k y miresten du», s = Sokrates", o: ["∃y (Asy → ¬Ays)", "∀y (Asy ∧ ¬Ays)", "∃y (Asy ∧ ¬Ays)"], r: 2, por: "∃-rekin ∧ doa: Sokratesek miresten duen eta Sokrates miresten ez duen norbait dago. Geziarekin, aski litzateke Sokratesek miresten ez duen norbait existitzea; ∀-rekin, formula kontraesanean erortzen da: y = Sokrates hartuta, Sokratesek bere burua miresten duela eta miresten ez duela esango luke." },
+  { f: "Filosofo greziar batek ere ez zuen latinez idatzi.", d: "F = filosofoa, G = greziarra, L = latinez idatzi zuen", o: ["∀x ((Fx ∧ Gx) → ¬Lx)", "∀x (Fx → (Gx ∧ ¬Lx))", "¬∃x (Fx ∧ Lx)"], r: 0, por: "Subjektua «filosofo greziarra» osoa da: elkarrekin doa gezi aurretik. ∀x (Fx → (Gx ∧ ¬Lx))-k filosofo guztiak greziarrak direla esaten du; ¬∃x (Fx ∧ Lx)-k, ezein filosofok ez zuela latinez idatzi, eta Agustinek edo Tomasek egin zuten." },
+  { f: "Ikasle batzuek ez dute libururik irakurri.", d: "A = ikaslea, B = liburua, L = «x-k y irakurri du»", o: ["∃x (Ax ∧ ∃y (By ∧ ¬Lxy))", "¬∃x (Ax ∧ ∃y (By ∧ Lxy))", "∃x (Ax ∧ ¬∃y (By ∧ Lxy))"], r: 2, por: "Badago ikasle bat, irakurritako libururik ez duena. ∃x (Ax ∧ ∃y (By ∧ ¬Lxy))-k irakurri ez duen liburu bat dagoela baino ez du esaten (mundu guztiari gertatzen zaio); ¬∃x (Ax ∧ ∃y (By ∧ Lxy))-k, ezein ikaslek ezer irakurri ez duela." },
+  { f: "Ondorio orok du kausaren bat.", d: "E = ondorioa, C = «y x-ren kausa da»", o: ["∀x (Ex → ∃y Cyx)", "∃y ∀x (Ex → Cyx)", "∀x ∃y (Ex ∧ Cyx)"], r: 0, por: "Efektu bakoitzak kausaren bat du, agian desberdina. ∃y ∀x-k efektu guztien kausa bakar bat dagoela esango luke: batetik bestera pasatzea kuantifikatzaileen ordena-aldaketa da, eta Jainkoaren existentziaren froga batzuetan jauzi hori ikusi duenik bada. ∀x ∃y (Ex ∧ Cyx)-k, gainera, dena efektu bat dela esaten du." }
 ];
 function logmCqEval(m){
   const ix = i => LOGM_CQ_IND[i], S = m.map(r => !!r[0]), P = m.map(r => !!r[1]), all = [0, 1, 2, 3, 4];
@@ -221,6 +250,7 @@ const LOGM_EXTRA_TXT = {
   lpIntro: "Goiko falazia formalak formaren bidez errefusatzen dira: kontraadibide bat nahikoa da. Beste falazia batzuek ez dute formazko akatsik, baina formalizatzeak haiek ikusten laguntzen du; eta beste batzuk ezin dira logikaz errefusatu, arazoa edukian baitago.",
   lpAyuda: "Logikak laguntzen du, baina ez da nahikoa", lpNo: "Logikak ez ditu errefusatzen", lpQueVe: "Logikak zer erakusten duen",
   lpNoIntro: "Haien forma baliozkoa izan daiteke, edo ez da argudio bat ere: akatsa premisak egiazkoak diren ala gaiari dagozkion da. Haiek antzemateko edukiaz galdetu behar da.",
+  lpNoNomina: "Hau lagin bat baino ez da. Falazia ez-formalen zerrenda osoa, bakoitzari izen bat eta glosarioko definizioa emanda, «Falazia ez-formalak: Txokoaren zerrenda» da, fitxa honetan beherago.", lpNoNominaIr: "Joan zerrenda osora ↓",   /* (22-10) remite a la nómina única */
   lpDuelo: "Landu itzazu Arrazoien dueloan →"
 };
 const LOGM_CONV = [
@@ -237,13 +267,13 @@ const LOGM_AYUDA = [
   { n: "Entimema", ej: "Garestia da; beraz, ona izango da.", ve: "Baliozkoa izateko premisa bat falta da: «garesti den oro ona da». Formalizatzeak agerian jartzen du, eta orduan faltsua dela ikusten da." }
 ];
 const LOGM_NOFORMAL = [
-  ["Pertsonaren aurkako erasoa (ad hominem)", "Hitz egiten duenari erasotzen dio, ez esaten duenari."],
-  ["Autoritate faltsua", "Ondorioa gai horretan aditua ez den norbaitengan oinarritzen du."],
-  ["Gehiengoari deia (ad populum)", "Jende askok sinesteak ez du egiazko bihurtzen."],
-  ["Errukiari edo beldurrari deia", "Emozio bat bilatzen du arrazoi bat eman beharrean."],
-  ["Lastozko gizona", "Besteak esandakoaren bertsio desitxuratu bat errefusatzen du."],
-  ["Kausa faltsua", "Zerbait ondoren gertatzeak ez du frogatzen hark eragiten duenik."]
-];
+  ["Pertsonaren aurkako erasoa (ad hominem)", "Hitz egiten duenari erasotzen dio, ez esaten duenari.", "g-fil-ad-hominem"],
+  ["Autoritate faltsua", "Ondorioa gai horretan aditua ez den norbaitengan oinarritzen du.", "g-fil-apelacion-a-la-autoridad"],
+  ["Gehiengoari deia (ad populum)", "Jende askok sinesteak ez du egiazko bihurtzen.", "g-fil-apelacion-a-la-mayoria"],
+  ["Errukiari edo beldurrari deia", "Emozio bat bilatzen du arrazoi bat eman beharrean.", "g-fil-apelacion-a-la-emocion"],
+  ["Lastozko gizona", "Besteak esandakoaren bertsio desitxuratu bat errefusatzen du.", "g-fil-hombre-de-paja"],
+  ["Kausa faltsua", "Zerbait ondoren gertatzeak ez du frogatzen hark eragiten duenik.", "g-fil-causa-falsa"]
+];   /* (22-10) tercer campo: entrada del glosario de 1.º; la lista completa es la nómina única (logmNomina, #lg-nomina), en esta misma pestaña */
 function logmConversion(){
   return '<div class="lg-panel"><h2>' + logmT("convTit") + '</h2><p class="lg-nota">' + logmT("convIntro") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th></th><th>' + logmT("convProp") + "</th><th>" + logmT("convConv") + "</th><th>" + logmT("convVale") + "</th><th>" + logmT("convEj") + "</th></tr></thead><tbody>" +
     LOGM_CONV.map(([t, p, c, v, e]) => "<tr><th>" + t + "</th><td>" + logEsc(p) + "</td><td>" + logEsc(c) + '</td><td class="lg-' + (v === "si" ? "v" : "f") + '">' + logmT(v === "si" ? "convSi" : "convNo") + (t === "A" ? "<br><small>" + logmT("convAcc") + "</small>" : "") + "</td><td>" + logEsc(e) + "</td></tr>").join("") + "</tbody></table></div></div>";
@@ -255,7 +285,8 @@ function logmPuedeNoPuede(){
   const duelo = document.getElementById("duelo") ? '<p><button type="button" class="btn ghost" data-igo="duelo" data-iarg="">' + logmT("lpDuelo") + "</button></p>" : "";
   return '<div class="lg-panel"><h2>' + logmT("lpTit") + '</h2><p class="lg-nota">' + logmT("lpIntro") + "</p><h3>" + logmT("lpAyuda") + '</h3><div class="lg-reglas">' +
     LOGM_AYUDA.map(x => '<div class="lg-regla lg-medio"><h3>' + logEsc(x.n) + '</h3><p><b>' + logmT("ejemplo") + ":</b> " + logEsc(x.ej) + "</p><p><b>" + logmT("lpQueVe") + ":</b> " + logEsc(x.ve) + "</p></div>").join("") + "</div>" +
-    "<h3>" + logmT("lpNo") + '</h3><p class="lg-nota">' + logmT("lpNoIntro") + '</p><ul class="lg-nof">' + LOGM_NOFORMAL.map(([n, d]) => "<li><b>" + logEsc(n) + ":</b> " + logEsc(d) + "</li>").join("") + "</ul>" + duelo + "</div>";
+    "<h3>" + logmT("lpNo") + '</h3><p class="lg-nota">' + logmT("lpNoIntro") + '</p><ul class="lg-nof">' + LOGM_NOFORMAL.map(([n, d, g]) => "<li><b>" + (logmGlos(g) ? '<a href="#glosario/' + g + '">' + logEsc(n) + "</a>" : logEsc(n)) + ":</b> " + logEsc(d) + "</li>").join("") + "</ul>" +
+    (typeof LOGX !== "undefined" && LOGX.falacias ? '<p class="lg-nota">' + logmT("lpNoNomina") + ' <button type="button" class="btn ghost" data-lgnomina="1">' + logmT("lpNoNominaIr") + "</button></p>" : "") + duelo + "</div>";
 }
 Object.assign(LOGM_TXT, LOGM_EXTRA_TXT);
 
@@ -278,7 +309,29 @@ function logRenderFalacias(){
   return '<div class="lg-panel"><h2>' + logmT("falacias") + '</h2><div class="lg-reglas">' + LOGM_FALACIAS.map(x => logmCarta(x, true)).join("") + "</div></div>" +
     '<div class="lg-panel"><h2>' + logmT("falSilTit") + '</h2><p class="lg-nota">' + logmT("falSilIntro") + '</p><div class="lg-reglas">' +
     LOGM_FAL_SIL.map(([r, m]) => '<div class="lg-regla lg-falaz"><h3>' + logmT("falR" + r.slice(1)) + "</h3><p>" + logT(r) + '</p><p class="lg-forma">' + m + '</p><p><button type="button" class="btn ghost" data-falsil="' + m + '">' + logmT("falProbar") + "</button></p></div>").join("") + "</div></div>" +
-    logmConversion() + logmGeneralizacion() + logmCqOrden() + logmPuedeNoPuede();
+    logmConversion() + logmGeneralizacion() + logmCqOrden() + logmPuedeNoPuede() + logmNomina() + logmQueFalacia();
+}
+/* (22-10, nube) T5: falacias no formales. La definición vive en el glosario de 1.º (fuente única); aquí, la lista con sus
+   otros nombres, un ejemplo y cómo pararla, y el ejercicio «¿Qué falacia es?». Datos y textos en logica_ejercicios.js (LOGX).
+   En la web de HF no están esas entradas del glosario: el nombre se queda sin enlace y sin definición. */
+function logmGlos(id){ return typeof GLOSARIO !== "undefined" ? GLOSARIO.find(g => g.id === id) : null; }
+function logmNomina(){
+  if (typeof LOGX === "undefined" || !LOGX.falacias) return "";
+  const e = logEsc, T = LOGX.t;
+  return '<div class="lg-panel" id="lg-nomina"><h2>' + e(T.nomTit) + '</h2><p class="lg-nota">' + e(T.nomIntro) + '</p><div class="lg-reglas">' +
+    LOGX.falacias.map(f => { const g = logmGlos(f.g);
+      return '<div class="lg-regla lg-falaz"><h3>' + (g ? '<a href="#glosario/' + f.g + '">' + e(g.t) + "</a>" : e(f.nom)) + "</h3>" + (g ? "<p>" + e(g.def) + "</p>" : "") +
+        '<p class="lg-nota"><b>' + e(T.nomOtros) + "</b> " + e(f.otros) + "</p><p><b>" + e(T.nomEj) + "</b> " + e(f.ej) + "</p><p><b>" + e(T.nomParar) + "</b> " + e(f.parar) + "</p></div>"; }).join("") + "</div></div>";
+}
+function logmQueFalacia(){
+  if (typeof LOGX === "undefined" || !LOGX.qf) return "";
+  const e = logEsc, T = LOGX.t, R = (LOG.qf = LOG.qf || {}), nom = id => (id === "no-es-falacia" ? T.qfNo : ((LOGX.falacias.find(f => f.g === id) || {}).nom || id));
+  const hechas = Object.keys(R), bien = hechas.filter(i => R[i] === LOGX.qf[i].tipo).length;
+  return '<div class="lg-panel" id="lg-qf"><h2>' + e(T.qfTit) + '</h2><p class="lg-nota">' + e(T.qfIntro) + '</p><p class="lg-nota" aria-live="polite">' + e(T.qfCuenta.replace("{a}", bien).replace("{n}", hechas.length)) + "</p>" +
+    LOGX.qf.map((x, i) => { const r = R[i];
+      return '<div class="lg-infej"><p>' + (i + 1) + ". " + e(x.txt) + '</p><div class="lg-teclas">' +
+        x.o.map(o => '<button type="button" class="chip' + (r != null && o === x.tipo ? " lg-chip-ok" : r === o ? " lg-chip-no" : "") + '" data-qf="' + i + '" data-qfo="' + o + '"' + (r != null ? " disabled" : "") + ">" + e(nom(o)) + "</button>").join("") + "</div>" +
+        (r != null ? '<p class="lg-veredicto ' + (r === x.tipo ? "lg-tautologia" : "lg-contradiccion") + '">' + e(r === x.tipo ? T.qfBien : T.qfMal.replace("{x}", nom(x.tipo))) + " " + e(x.por) + "</p>" : "") + "</div>"; }).join("") + "</div>";
 }
 
 
@@ -437,6 +490,8 @@ function logRenderLeyes(){
     else if (b.dataset.falsil){ const [m, f] = b.dataset.falsil.split("-"); Object.assign(LOG.sil, { may: m[0], men: m[1], con: m[2], fig: +f }); LOG.tab = "silogismos"; logRender(); const c = document.getElementById("lg-sil"); if (c) c.scrollIntoView({ block: "start" }); }
     else if (b.dataset.cqpre){ if (!document.getElementById("lg-cq")){ LOG.tab = "cuantificadores"; logRender(); } LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c){ c.innerHTML = logmCqMundo(); if (b.closest(".lg-panel") !== c.closest(".lg-panel")) c.scrollIntoView({ block: "center" }); } }
     else if (b.dataset.cqej != null){ LOG.cq.ej[+b.dataset.cqej] = +b.dataset.cqo; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
+    else if (b.dataset.lgnomina){ const n = document.getElementById("lg-nomina"); if (n) n.scrollIntoView({ block: "start" }); }   /* (22-10) de la lista breve a la nómina única */
+    else if (b.dataset.qf != null){ LOG.qf = LOG.qf || {}; LOG.qf[+b.dataset.qf] = b.dataset.qfo; const y = window.scrollY; logRender(); window.scrollTo(0, y); }   /* (22-10, nube) T5 */
     else if (b.dataset.infej != null){ LOG.inf[+b.dataset.infej] = b.dataset.infr; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
   });
   box.addEventListener("input", ev => { const t = ev.target; if (t.dataset && t.dataset.fz != null){ const i = +t.dataset.fz; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { f: t.value, hecho: false, sol: false }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = ""; } });

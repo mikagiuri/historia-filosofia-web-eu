@@ -1,4 +1,7 @@
 // Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/paradojas.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
+const PARADOJAS_TXT = {
+ "lineaNivel": "Ibilbidea: {n}. maila"
+};
 const PARADOJAS_GRUPOS = [
  {
   "id": "autorref",
@@ -49,6 +52,12 @@ const PARADOJAS_GRUPOS = [
   "intro": "Ez dira paradoxak: klasean aztertu ditugun esaldiak dira. Lehenik, haien forma logikoa ateratzen da; gero, zer esaten duten, zer ematen duten aldez aurretik onartutzat eta zer ez duten esaten, hala dirudien arren."
  },
  {
+  "id": "historia",
+  "view": "clasicos",
+  "titulo": "Logikaren historia: estoikoak eta Erdi Arokoak",
+  "intro": "Txokoko tresna batzuk nondik datozen. Estoikoek, beste inork baino mende batzuk lehenago, enuntziatuen logika bat egin zuten; Erdi Aroko logikariek ondorioztapenen teoria eta terminoen azterketa findu zituzten. Aristotelesek, Leibnizek, Kantek, Fregek eta Russellek beren tokia dute Filosofiaren Historiako teorian eta Leibnizen tailerrean."
+ },
+ {
   "id": "agustin",
   "view": "clasicos",
   "titulo": "San Agustin: <em>Bizitza zoriontsuaz</em>",
@@ -59,6 +68,7 @@ const PARADOJAS = [
  {
   "id": "mentiroso",
   "grupo": "autorref",
+  "nivel": 3,
   "titulo": "Gezurtia",
   "origen": "Eubulides Miletokoa, K.a. IV. mendea.",
   "enunciado": "«Esaldi hau faltsua da.»",
@@ -69,6 +79,7 @@ const PARADOJAS = [
  {
   "id": "epimenides",
   "grupo": "autorref",
+  "nivel": 6,
   "titulo": "Epimenides: «Kretar guztiak gezurtiak dira»",
   "origen": "Epimenides Knososkoa (Kreta), K.a. VI. mendea. Batzuetan ateniarrekin edo beste herri batekin kontatzen da, baina bertsio zaharra kretarrarena da.",
   "enunciado": "Epimenidesek, kretarra izanik, dio: «Kretar guztiek gezurra esaten dute beti».",
@@ -79,6 +90,7 @@ const PARADOJAS = [
  {
   "id": "barbero",
   "grupo": "autorref",
+  "nivel": 5,
   "titulo": "Russellen bizargina",
   "origen": "Bertrand Russellek 1918an erabili zuen bere multzoen paradoxa (1901) modu errazean azaltzeko.",
   "enunciado": "Herri batean bizargin bat dago, beren burua bizartzen ez duten gizon guztiak bizartzen dituena, eta haiek bakarrik. Nork bizartzen du bizargina?",
@@ -89,6 +101,7 @@ const PARADOJAS = [
  {
   "id": "grelling",
   "grupo": "autorref",
+  "nivel": 5,
   "titulo": "«Heterologiko»-ren paradoxa",
   "origen": "Kurt Grelling eta Leonard Nelson, 1908.",
   "enunciado": "Hitz batzuek beraiek betetzen duten zerbait esaten dute: «hitz» hitz bat da, «polisilabiko»-k silaba asko ditu. <em>Autologiko</em> deitzen diegu. Gainerakoak, «monosilabiko» edo «luzeegia» bezala, <em>heterologikoak</em> dira. «Heterologiko» hitza heterologikoa al da?",
@@ -99,6 +112,7 @@ const PARADOJAS = [
  {
   "id": "cocodrilo",
   "grupo": "autorref",
+  "nivel": 3,
   "titulo": "Krokodiloa",
   "origen": "Greziako logikaren problema klasikoa, estoikoek eta Lukianok jasoa.",
   "enunciado": "Krokodilo batek haur bat lapurtzen du eta amari esaten dio: «Itzuliko dizut, zer egingo dudan asmatzen baduzu». Amak erantzuten du: «Ez didazu itzuliko».",
@@ -109,6 +123,7 @@ const PARADOJAS = [
  {
   "id": "aquiles",
   "grupo": "zenon",
+  "nivel": 9,
   "titulo": "Akiles eta dortoka",
   "origen": "Zenon Eleakoa, K.a. V. mendea; Aristotelesek kontatzen digu <em>Fisika</em>n (VI. liburua).",
   "enunciado": "Akilesek, greziarren artean azkarrenak, lasterketa bat egiten du dortoka batekin eta abantaila ematen dio. Dortoka zegoen tokira iristen denean, hura pixka bat aurreratu da. Puntu berri horretara iristen denean, beste pixka bat aurreratu da. Eta horrela beti: Akilesek ez du inoiz harrapatzen.",
@@ -119,6 +134,7 @@ const PARADOJAS = [
  {
   "id": "dicotomia",
   "grupo": "zenon",
+  "nivel": 9,
   "titulo": "Dikotomia",
   "origen": "Zenon Eleakoa, K.a. V. mendea.",
   "enunciado": "Gela zeharkatzeko, lehenik erdira iritsi behar duzu. Baina lehenago, erdiaren erdira. Eta lehenago, erdi horren erdira… Ez dago lehen urratsik; beraz, ezin zara mugitzen hasi ere egin.",
@@ -129,6 +145,7 @@ const PARADOJAS = [
  {
   "id": "flecha",
   "grupo": "zenon",
+  "nivel": 9,
   "titulo": "Gezia",
   "origen": "Zenon Eleakoa, K.a. V. mendea; Aristotelesen <em>Fisika</em>n ere bai.",
   "enunciado": "Une bakoitzean, hegan doan gezi batek bere tamaina bereko espazioa betetzen du: une horretan geldi dago. Denbora uneez egina dago. Beraz, gezia beti dago geldi.",
@@ -139,6 +156,7 @@ const PARADOJAS = [
  {
   "id": "sorites",
   "grupo": "vaguedad",
+  "nivel": 7,
   "titulo": "Pila (sorites)",
   "origen": "Eubulides Miletokoa, K.a. IV. mendea. «Sorites» grezierazko <em>sōrós</em> hitzetik dator, «pila».",
   "enunciado": "Hare-ale bat ez da pila bat. Zerbait pila bat ez bada, ale bakar bat gehitzeak ez du pila bihurtzen. Beraz, bi ale ez dira pila bat, ezta hiru ere… ezta milioi bat ere.",
@@ -149,6 +167,7 @@ const PARADOJAS = [
  {
   "id": "teseo",
   "grupo": "vaguedad",
+  "nivel": 7,
   "titulo": "Teseoren ontzia",
   "origen": "Plutarko, <em>Teseoren bizitza</em> (I-II. mendea); Thomas Hobbesek bigarren zatia gehitu zuen XVII. mendean.",
   "enunciado": "Atenastarrek Teseoren ontzia gordetzen zuten eta ohol ustelak berriekin ordezkatzen zituzten, jatorrizkoetatik bat ere geratu ez zen arte. Teseoren ontzia izaten jarraitzen du? Eta norbaitek ohol zaharrak gorde eta berriro muntatuko balitu, bietatik zein litzateke Teseoren ontzia?",
@@ -159,6 +178,7 @@ const PARADOJAS = [
  {
   "id": "sivispacem",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "«Si vis pacem, para bellum»",
   "origen": "«Bakea nahi baduzu, presta ezazu gerra.» Ideia Vegeziorengandik dator, idazle militar erromatarra (IV-V. mendeak): <em>qui desiderat pacem, praeparet bellum</em>. Formula laburra geroagokoa da.",
   "enunciado": "Bakea lortzeko gerrarako prestatu behar da: ondo armatuta dagoena ez dute erasoko.",
@@ -169,6 +189,7 @@ const PARADOJAS = [
  {
   "id": "tolerancia",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "Tolerantziaren paradoxa",
   "origen": "Karl Popper, <em>Gizarte irekia eta haren etsaiak</em> (1945), 7. kapituluko ohar batean.",
   "enunciado": "Gizarte bat mugarik gabe tolerantea bada, baita tolerantzia suntsitu nahi dutenekin ere, horiek amaiera eman diezaiokete. Mugarik gabeko tolerantziak tolerantziaren desagerpena dakar.",
@@ -179,6 +200,7 @@ const PARADOJAS = [
  {
   "id": "buridan",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "Buridanen astoa",
   "origen": "Jean Buridani egozten zaio (XIV. mendea), nahiz eta ez den haren lanetan agertzen. Ideia Aristotelesen <em>Zeruaz</em> lanean dago jada (II. liburua).",
   "enunciado": "Asto bat, bi aldeetatik berdin goseak, belar-pila berdin biren erdi-erdian dago. Ez du arrazoirik bata bestearen aurretik aukeratzeko; beraz, ez da mugitzen eta goseak hiltzen da.",
@@ -189,6 +211,7 @@ const PARADOJAS = [
  {
   "id": "hedonismo",
   "grupo": "accion",
+  "nivel": 7,
   "titulo": "Hedonismoaren paradoxa",
   "origen": "Henry Sidgwick, <em>Etikaren metodoak</em> (1874); John Stuart Millek bere <em>Autobiografia</em>n kontatzen du (1873).",
   "enunciado": "Plazera edo zoriontasuna zuzenean bilatzen duenak ez du aurkitzen. Beste zerbaiti ematen zaionak aurkitzen du.",
@@ -199,6 +222,7 @@ const PARADOJAS = [
  {
   "id": "examen",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "Ezusteko azterketa",
   "origen": "XX. mendeko 40ko hamarkadan zabaldu zen; D. J. O'Connorrek argitaratu zuen 1948an.",
   "enunciado": "Irakasleak iragartzen du: «Datorren astean ezusteko azterketa bat egongo da: ez duzue jakingo zein egunetan den egun horretako goizera arte». Ikasle batek arrazoitzen du: «Ezin da ostirala izan, ostegun arratsaldean jakingo genukeelako ostiralean dela. Ostirala baztertuta, ezin da osteguna izan ere, arrazoi beragatik… Beraz, ezin da ezusteko azterketarik egon». Asteazkenean azterketa dago, eta inork ez zuen espero.",
@@ -209,6 +233,7 @@ const PARADOJAS = [
  {
   "id": "protagoras",
   "grupo": "razonar",
+  "nivel": 4,
   "titulo": "Protagoras eta Euatlo",
   "origen": "Aulo Gelio, <em>Gau atikoak</em> (II. mendea), Protagoras sofistari buruz kontatzen du.",
   "enunciado": "Protagorasek zuzenbidea irakasten dio Euatlori, eta hark ordainduko dio bere lehen epaiketa irabazten duenean. Euatlok amaitzen du eta ez du inor defendatzen. Protagorasek salatu egiten du. Protagoras: «Irabazten badut, ordainduko didazu epaileak agintzen duelako; galtzen badut, ordainduko didazu zure lehen epaiketa irabaziko duzulako». Euatlo: «Irabazten badut, ez dut ordainduko epaileak agintzen duelako; galtzen badut, ez dut ordainduko oraindik ez dudalako epaiketarik irabazi».",
@@ -219,6 +244,7 @@ const PARADOJAS = [
  {
   "id": "omnipotencia",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "Altxatu ezin den harria",
   "origen": "Ahalguztiduntasunaren paradoxa, Erdi Aroko filosofian eztabaidatua.",
   "enunciado": "Izaki ahalguztidun batek sor al dezake hain harri astuna, non berak ere ezin baitu altxatu?",
@@ -229,6 +255,7 @@ const PARADOJAS = [
  {
   "id": "berry",
   "grupo": "autorref",
+  "nivel": 7,
   "titulo": "Berryren paradoxa",
   "origen": "Russellek argitaratu zuen 1908an, eta G. G. Berryri egotzi zion, Oxfordeko Unibertsitateko liburuzainari.",
   "enunciado": "Pentsa «hamabost hitz baino gutxiagorekin izendatu ezin den zenbaki arrunt txikiena». Badira horrelako zenbakiak, hamabost hitz baino gutxiagorekin esaldi kopuru mugatu bat baino ezin baita osatu, eta zenbakiak ez dira inoiz amaitzen; eta horien artean bat izango da txikiena. Baina komatxo arteko esaldiak hamar hitz ditu.",
@@ -239,6 +266,7 @@ const PARADOJAS = [
  {
   "id": "agripa",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Münchhausenen trilema",
   "origen": "Agripa, greziar eszeptikoa (I. mendea), Sexto Enpirikoak jasoa <em>Esbozos pirrónicos</em> lanean (I. liburua). Izena Hans Albertena da (1968), Münchhausen baroiagatik, zeinak kontatzen baitzuen zingira batetik bere burua atera zuela ilean tiraka.",
   "enunciado": "—Nola dakizu hori egia dela? —Arrazoi honengatik. —Eta nola dakizu arrazoi hori egia dela? —Beste honengatik. —Eta hori? … Galdetzen jarraitzen badugu, hiru amaiera besterik ez daude.",
@@ -249,6 +277,7 @@ const PARADOJAS = [
  {
   "id": "tortugas",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Dortokak behera arte",
   "origen": "John Lockek, <em>Ensayo sobre el entendimiento humano</em> lanean (1690, II. liburua, 23. kap.), elefantearen eta dortokaren bertsioa kontatzen du. Dortoka infinituena hainbat zientzialariri egozten zaien pasadizo bat da; Stephen Hawkingek <em>Historia del tiempo</em> (1988) hasteko erabiltzen du.",
   "enunciado": "Jakintsu batek azaltzen du Lurra elefante baten gainean dagoela, eta elefantea dortoka baten gainean. —Eta dortoka, zeren gainean dago? —Beste dortoka baten gainean. —Eta hori? —Alferrik da, gazte: dortokak dira behera arte.",
@@ -259,6 +288,7 @@ const PARADOJAS = [
  {
   "id": "primermotor",
   "grupo": "regreso",
+  "nivel": 11,
   "titulo": "Lehen kausa: absolutu batean gelditzen den atzerakada",
   "origen": "Aristoteles, <em>Física</em> (VIII. liburua) eta <em>Metafísica</em> (XII. liburua); Tomas Akinokoa, <em>Suma teológica</em> laneko «bost bideak» (I, 2. galdera, 3. artikulua).",
   "enunciado": "Mugitzen den guztia beste batek mugitzen du. Beste hori, aldi berean, beste batek mugitzen du. Baina ezin da horrela jarraitu infinituraino, orduan ez bailitzateke lehen eragilerik izango eta ezer ez litzateke mugituko. Beraz, badago ezerk mugitzen ez duen lehen eragile bat, «eta hori da guztiek Jainkotzat ulertzen dutena».",
@@ -269,6 +299,7 @@ const PARADOJAS = [
  {
   "id": "carroll",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Dortokak Akilesi esan ziona",
   "origen": "Lewis Carroll, <em>Alizia herrialde miresgarrian</em> liburuaren egilea eta logika irakaslea, <em>Mind</em> aldizkarian (1895).",
   "enunciado": "Akilesek arrazoibide bat erakusten dio dortokari: «Euria egiten badu, lurra bustitzen da. Euria egiten du. Beraz, lurra bustitzen da». Dortokak bi premisak onartzen ditu, baina ez ondorioa, araua ere idazten den arte: «Egia bada euria egiten badu lurra bustitzen dela, eta egia bada euria egiten duela, orduan lurra bustitzen da». Akilesek gehitu egiten du. Dortokak beste arau bat eskatzen du orduan, esango duena hiru horiekin ondorioa ateratzen dela. Eta horrela beti.",
@@ -279,6 +310,7 @@ const PARADOJAS = [
  {
   "id": "tercerhombre",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Hirugarren gizona",
   "origen": "Platonek bere buruari planteatzen dio <em>Parménides</em> lanean (132a); izena Aristotelesena da (<em>Metafísica</em>, I. liburua).",
   "enunciado": "Sokrates, Platon eta Fedon gizakiak dira, guztiek Gizakiaren Ideian parte hartzen dutelako. Baina Gizakiaren Ideiak eta gizaki zehatzek zerbaitetan antza dute: guztiak dira «gizaki». Antzekotasun hori azaltzeko beste Ideia bat beharko litzateke haien gainetik: «hirugarren gizaki» bat. Eta hirugarren gizaki horrek aurrekoen antza izango luke, eta laugarren Ideia bat beharko luke…",
@@ -289,6 +321,7 @@ const PARADOJAS = [
  {
   "id": "custodes",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Nork zaintzen du zaintzailea?",
   "origen": "Juvenal, <em>Sátiras</em> (VI, 347-348): <em>quis custodiet ipsos custodes?</em> Platonek <em>República</em> lanean planteatzen du jada (III, 403e).",
   "enunciado": "Gehiegikeriak saihesteko zaintzaile bat jartzen dugu. Baina zaintzaileak ere gehiegikeriak egin ditzake; beraz, norbait behar da hura zaintzeko. Eta nork zaintzen du hori?",
@@ -299,6 +332,7 @@ const PARADOJAS = [
  {
   "id": "huevo",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Zer izan zen lehenago, arrautza ala oiloa?",
   "origen": "Plutarkok eztabaidatzen du galdera <em>Charlas de sobremesa</em> lanean (II. liburua, 3), I-II. mendean.",
   "enunciado": "Oilo oro arrautza batetik ateratzen da, eta oilo-arrautza oro oilo batek erruten du. Beraz, edozein oiloren aurretik arrautza bat egon zen, eta arrautza horren aurretik, oilo bat… Zein izan zen lehena?",
@@ -309,6 +343,7 @@ const PARADOJAS = [
  {
   "id": "diccionario",
   "grupo": "regreso",
+  "nivel": 7,
   "titulo": "Hiztegiaren begizta",
   "origen": "Hizkuntzaren filosofiako arazo klasikoa; erabiltzen du, adibidez, Wittgensteinek <em>Investigaciones filosóficas</em> lanean (1953).",
   "enunciado": "Hiztegi batean «handi» bilatzen duzu, eta honelako zerbait dio: «ohikoa baino tamaina handiagokoa». «Tamaina» bilatzen duzu: «gauza baten magnitudea». «Magnitude» bilatzen duzu: «tamaina edo handitasuna». Hasierara itzuli zara.",
@@ -319,6 +354,7 @@ const PARADOJAS = [
  {
   "id": "yablo",
   "grupo": "regreso",
+  "nivel": 6,
   "titulo": "Yabloren paradoxa: autoerreferentziarik gabeko gezurtia",
   "origen": "Stephen Yablo, <em>Analysis</em> aldizkarian (1993).",
   "enunciado": "Imajinatu esaldien zerrenda infinitu bat. 1. esaldiak dio: «Nire ondoren datozen esaldi guztiak faltsuak dira». 2. esaldiak gauza bera dio, eta 3.ak, eta horrela amaierarik gabe. Bat ere ez da bere buruaz ari.",
@@ -329,6 +365,7 @@ const PARADOJAS = [
  {
   "id": "distintos",
   "grupo": "colectivo",
+  "nivel": 6,
   "titulo": "«Denok desberdinak izan nahi badugu, orduan denok berdinak gara»",
   "origen": "Modei buruz asko errepikatzen den ideia. Georg Simmelek aztertu zuen <em>Filosofía de la moda</em> lanean (1905); Monty Pythonek zinemara eraman zuen <em>La vida de Brian</em> filmean (1979), non jendetza batek koruan erantzuten duen denak direla norbanakoak.",
   "enunciado": "Denok izan nahi dugu besteengandik desberdinak. Baina denok gauza bera nahi badugu, horretan berdinak gara. Eta, izan ere, modatik ihes egiten dutenek denek berdin janzten dute azkenean.",
@@ -339,6 +376,7 @@ const PARADOJAS = [
  {
   "id": "concierto",
   "grupo": "colectivo",
+  "nivel": 7,
   "titulo": "Zutik kontzertuan",
   "origen": "Ekonomiako eskuliburuetako adibide klasikoa, <strong>konposizioaren falazia</strong> azaltzeko. Izena Aristotelesengandik dator (<em>Refutaciones sofísticas</em>), nahiz eta hark zertxobait bestela ulertzen zuen.",
   "enunciado": "Kontzertu batean, pertsona bat zutik jartzen bada, hobeto ikusten du. Beraz, publiko osoa zutik jartzen bada, denek hobeto ikusiko dute.",
@@ -349,6 +387,7 @@ const PARADOJAS = [
  {
   "id": "ahorro",
   "grupo": "colectivo",
+  "nivel": 7,
   "titulo": "Aurrezpenaren paradoxa",
   "origen": "John Maynard Keynes, <em>The General Theory of Employment, Interest and Money</em> (1936), Mandeville eta haren <em>The Fable of the Bees</em> (1714) gogora ekartzen dituena.",
   "enunciado": "Aurreztea ona da familia batentzat: irabazten duena baino gutxiago gastatzen badu, dirua izango du behar duenerako. Beraz, krisi batean familia guztiek gehiago aurrezten badute, herrialdea hobeto egongo da.",
@@ -359,6 +398,7 @@ const PARADOJAS = [
  {
   "id": "comunes",
   "grupo": "colectivo",
+  "nivel": 7,
   "titulo": "Komunalen tragedia",
   "origen": "William Forster Lloyd (1833); Garrett Hardinek ospetsu egin zuen <em>Science</em> aldizkarian (1968).",
   "enunciado": "Larre bat herriko artzain guztiena da. Artzain bakoitzari ardi bat gehiago sartzea komeni zaio: onura osoa beretzat da, eta larreari egindako kaltea guztien artean banatzen da. Denek berdin arrazoitzen dutenez, larrea agortu egiten da eta inork ezin du erabili.",
@@ -369,6 +409,7 @@ const PARADOJAS = [
  {
   "id": "moore",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "Mooreren paradoxa: «Euria ari du, baina ez dut sinesten»",
   "origen": "G. E. Moorek planteatu zuen XX. mendeko 40ko hamarkadan; Wittgensteinek eman zion izena.",
   "enunciado": "«Euria ari du, baina ez dut sinesten euria ari duenik.»",
@@ -379,6 +420,7 @@ const PARADOJAS = [
  {
   "id": "prefacio",
   "grupo": "razonar",
+  "nivel": 7,
   "titulo": "Hitzaurrearen paradoxa",
   "origen": "David Makinson, <em>Analysis</em> aldizkarian (1965).",
   "enunciado": "Egile batek arretaz berrikusi du bere liburua, eta idatzi dituen esaldi guztiak sinesten ditu. Baina hitzaurrean jartzen du: «Ziur liburu honetan akatsen bat dagoela, eta barkamena eskatzen dut». Hori ere sinesten du, liburu luze guztiek baitituzte akatsak.",
@@ -389,6 +431,7 @@ const PARADOJAS = [
  {
   "id": "infelices",
   "grupo": "ejercicios",
+  "nivel": 3,
   "titulo": "«Zorigaiztoko guztien artean…»",
   "origen": "Klasean ariketa gisa proposatutako esaldia.",
   "enunciado": "«Zorigaiztoko guztien artean, nahi duten guztia lortzen dutenak ez dira zatirik txarrena eramaten dutenak.»",
@@ -449,6 +492,7 @@ const PARADOJAS = [
  {
   "id": "apenas",
   "grupo": "ejercicios",
+  "nivel": 6,
   "titulo": "«Ia ez dira gutxiago zorigaiztoko…»",
   "origen": "Klasean ariketa gisa proposatutako esaldia, aurrekoaren jarraian.",
   "enunciado": "«Nahi duten guztia lortzen dutenak ia ez dira gutxi edo ezer lortzen ez dutenak baino gutxiago zorigaiztoko.»",
@@ -531,6 +575,7 @@ const PARADOJAS = [
  {
   "id": "tanto",
   "grupo": "ejercicios",
+  "nivel": 3,
   "titulo": "«Dena lortzen dutenak zein ezer lortzen ez dutenak…»",
   "origen": "Klasean ariketa gisa proposatutako esaldia, aurrekoen jarraian.",
   "enunciado": "«Dena lortzen dutenak zein ezer lortzen ez dutenak zorigaiztokoak dira.»",
@@ -583,6 +628,7 @@ const PARADOJAS = [
  {
   "id": "monica",
   "grupo": "agustin",
+  "nivel": 3,
   "titulo": "Monika: «Gauza onak desiratu eta baditu, zoriontsua da»",
   "origen": "Monika, Agustinen ama, <em>Bizitza zoriontsua</em> lanean (II, 10). Agustinek erantzuten dio «filosofiaren gotorlekura bertara» iritsi dela.",
   "enunciado": "«Gauza onak desiratu eta baditu, zoriontsua da; baina gauza txarrak desiratzen baditu, nahiz eta izan, zoritxarrekoa da.»",
@@ -651,6 +697,7 @@ const PARADOJAS = [
  {
   "id": "agustin",
   "grupo": "agustin",
+  "nivel": 3,
   "titulo": "Agustin: «Galdu ezin duena desiratzen duenak bakarrik…»",
   "origen": "Agustin Hiponakoaren parafrasia, <em>Bizitza zoriontsua</em> (386), II. kapitulua: zoriontsu izan nahi duenak beti irauten duena eta inolako zorik kendu ezin diona bilatu behar du.",
   "enunciado": "«Galdu ezin duena desiratzen duenak bakarrik lor dezake zoriontasuna.»",
@@ -689,6 +736,7 @@ const PARADOJAS = [
  {
   "id": "agustin2",
   "grupo": "agustin",
+  "nivel": 3,
   "titulo": "Agustin, aldaera: «…guztiok nahitaez bilatzen dugun helburua»",
   "origen": "Aurreko esaldiaren aldaera. Bigarren zatia ere Agustinena da: <em>Bizitza zoriontsua</em> lanean (II) argitzat ematen du guztiok nahi dugula zoriontsu izan.",
   "enunciado": "«Galdu ezin duena desiratu eta lortzen duenak bakarrik lor dezake zoriontasuna, guztiok nahitaez bilatzen dugun helburua baita.»",
@@ -800,6 +848,7 @@ const PARADOJAS = [
  {
   "id": "contrafactico",
   "grupo": "ejercicios",
+  "nivel": 3,
   "titulo": "«…zoriontsuak izango lirateke, desiratzeari utzi ezin baliote»",
   "origen": "Klasean ariketa gisa proposatutako esaldia, Monikarekin eta Agustinekin elkarrizketan.",
   "enunciado": "«Desiratzen duten eta galdu ezin duten zerbait lortzen dutenak zoriontsuak izango lirateke, hura desiratzeari utzi ezin baliote.»",
@@ -848,5 +897,60 @@ const PARADOJAS = [
    "contTitulo": "Kontingentea geziarekin, baina hutsa kontrafaktiko gisa",
    "contingencia": "<p>Tauletako geziarekin, <em>(q ∧ r) → p</em>-k zortzi errenkada ditu eta bakarra da faltsua: <strong>kontingentea</strong> da. Berdez nabarmendutako errenkada da aditzaren moduak errealtzat ematen duena.</p><div class=\"tablewrap\"><table class=\"lg-tabla lg-zonas\"><thead><tr><th>p</th><th>q</th><th>r</th><th>(q ∧ r) → p</th><th>Nor den</th><th>Diagraman</th></tr></thead><tbody><tr><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td>Zoriontsua, lortzen du eta ezin dio desiratzeari utzi</td><td>r, p-ren barruan.</td></tr><tr><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Zoriontsua, lortzen du eta desiratzeari utz diezaioke</td><td>p r-tik kanpo.</td></tr><tr><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td>Galdu ezin duen ezer lortzen ez duen eta desiratzeari utzi ezin dion zoriontsua</td><td>Markotik kanpo: esaldiak ez du ezer esaten.</td></tr><tr><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Galdu ezin duen ezer lortzen ez duen eta desiratzeari utz diezaiokeen zoriontsua</td><td>Markotik kanpo.</td></tr><tr class=\"lg-contra\"><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td>Lortzen du, ezin dio desiratzeari utzi eta ez da zoriontsua</td><td><strong>Ez dago</strong>: r p-ren barruan dago. Errenkada faltsu bakarra da.</td></tr><tr class=\"lg-ok\"><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Lortzen du, desiratzeari utz diezaioke eta ez da zoriontsua</td><td>Markoa p-tik kanpo, ✕-arekin: aditzaren moduak iradokitzen duen kasu erreala.</td></tr><tr><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td class=\"lg-v\">V</td><td>Ez du lortzen, ezin dio desiratzeari utzi eta ez da zoriontsua</td><td>Markotik kanpo.</td></tr><tr><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-f\">F</td><td class=\"lg-v\">V</td><td>Ez du lortzen, desiratzeari utz diezaioke eta ez da zoriontsua</td><td>Markotik kanpo.</td></tr></tbody></table></div><ul><li><strong>Kontrafaktikoaren tranpa.</strong> Kasu errealaren errenkadan, <em>r</em> faltsua da, eta <em>r</em> faltsua denean gezia egiazkoa da <em>p</em>-rekin gertatzen dena gertatzen dela. Horrela, taularekin, «desiratzeari utzi ezin baliote, zoriontsuak izango lirateke» bezain egiazkoa litzateke «desiratzeari utzi ezin baliote, are zorigaiztokoagoak izango lirateke». Taulak ez ditu biak bereizten.</li><li>Horregatik, kontrafaktikoek beste tresna bat behar dute. Ezagunena mundu posibleena da (Robert Stalnaker, David Lewis): esaldia egiazkoa da baldin eta, desiratzeari utzi ezin dioten eta gurearen antzekoena den munduan, zoriontsuak badira. Jada ez da nahikoa egia-balioei begiratzea: gauzak nolakoak izango liratekeen irudikatu behar da.</li></ul>"
   }
+ },
+ {
+  "id": "curry",
+  "grupo": "autorref",
+  "nivel": 4,
+  "titulo": "Curryren paradoxa: «Esaldi hau egiazkoa bada, Ilargia gaztaz egina dago»",
+  "origen": "Haskell B. Curry, «The Inconsistency of Certain Formal Logics», <em>Journal of Symbolic Logic</em> 7 (1942).",
+  "enunciado": "Dei diezaiogun C «C egiazkoa bada, Ilargia gaztaz egina dago» esaldiari. Suposatu C egiazkoa dela. Orduan, Cek dioenagatik, C egiazkoa bada, Ilargia gaztaz egina dago; eta C egiazkoa denez, modus ponens bidez, Ilargia gaztaz egina dago. Beraz, C suposatuta, Ilargia gaztaz egina dagoela ondorioztatzen da: baldintzazko frogaren bidez, «C bada, Ilargia gaztaz egina dago», eta hori da, hain zuzen, Cek dioena. Beraz, C egiazkoa da, eta, berriro modus ponens bidez, Ilargia gaztaz egina dago.",
+  "problema": "Urrats bakoitza 4. mailako dedukzio naturalaren arau bat da (suposizioa, modus ponens, baldintzazko froga). Ez da ezeztapenik behar, gezurtiaren paradoxan bezala, eta ondorioa edozer izan daiteke. C esaldia zilegi bada, nahi dena froga daiteke.",
+  "salidas": "<ul><li>Esaldi batek bere buruaz modu horretan hitz egitea debekatzea, gezurtiaren paradoxan bezala (Tarski: hizkuntza eta metahizkuntza).</li><li>Kontrakzioa baztertzea: logika batzuek ez dute onartzen suposizio bera bitan erabiltzea (deribazioan, C suposizioa behin erabiltzen da modus ponens-aren premisa gisa eta beste behin C-k dioena ateratzeko, «C bada, Ilargia gazta da»), eta horrela paradoxa ez da ateratzen.</li><li>Modus ponens baztertzea baldintzazko horretarako: badaude «askatzerik gabeko» logikak, non «C bada, orduan A» eta C-tik ezin den A askatu.</li></ul><p>Irteera gisa balio ez duena: baldintzazko materiala beste, zorrotzagoa den batekin ordeztea. Paradoxa hiru gauza betetzen dituen edozein baldintzazkorekin ateratzen da: identitatea (C-tik C ondorioztatzen da), modus ponens eta kontrakzioa.</p>",
+  "pensar": "Egin ezazu «Dedukzio naturala» mahaian: zer arau erabiliko zenuke urrats bakoitzerako, eta horietako zein aldatuko zenuke paradoxa atera ez zedin?"
+ },
+ {
+  "id": "cuervos",
+  "grupo": "razonar",
+  "nivel": 6,
+  "titulo": "Hempelen beleak: sagar berde batek berresten al du beleak beltzak direla?",
+  "origen": "Carl G. Hempel, «Studies in the Logic of Confirmation», <em>Mind</em> 54 (1945). Erantzun kuantitatiboa: Janina Hosiasson-Lindenbaum, «On Confirmation», <em>Journal of Symbolic Logic</em> 5 (1940), eta J. L. Mackie, «The Paradox of Confirmation», <em>British Journal for the Philosophy of Science</em> 13 (1963).",
+  "enunciado": "Ikusten dudan bele beltz bakoitzak apur bat berresten du «Bele guztiak beltzak dira». Esaldi hori «Beltza ez den guztia ez da belea» esaldiaren baliokidea da (kontrapositzioa). Eta belea ez den gauza ez-beltz bakoitzak, sagar berde batek esaterako, bigarren esaldi hori berresten du. Beraz, etxetik irten gabe, sagar berde batek berresten du bele guztiak beltzak direla.",
+  "problema": "Bi urratsak zuzenak dirudite: kasuek orokortzeak berresten dituzte, eta esaldi bat berresten duenak haren baliokideak ere berresten ditu. Baina ondorioa absurdoa dirudi.",
+  "salidas": "<ul><li>Hempelek ondorioa onartu zuen: sagarrak berresten du. Berarentzat bitxitasuna psikologikoa da, ez logikoa: arraroa iruditzen zaigu aldez aurretik badakigulako sagarra ez dela bele bat, eta atzeko jakintza hori ez dago datuen artean.</li><li>Erantzun bayestarra edo kuantitatiboa (Janina Hosiasson-Lindenbaum, 1940; J. L. Mackie, 1963): sagarrak berresten du, baina oso gutxi, eta bele beltz batek, askoz gehiago, beleak baino gauza ez-beltz askoz gehiago daudelako. Berrespen-maila klase bakoitzeko zenbat gauza dauden araberakoa da.</li><li>Beste batzuek diote arazoa «kasuen bidezko berrespenaren» ideian dagoela, ez kontraposizioaren logikan, hori zeharo zuzena baita (enuntziatuena, 4. maila; unibertsal batena, 6. maila).</li></ul>",
+  "pensar": "Begiratu «Indukzioa eta abdukzioa» mahaiari: zergatik da indartsuagoa kasu askotarikoak dituen orokortze bat kasu berdin asko dituena baino?"
+ },
+ {
+  "id": "newcomb",
+  "grupo": "razonar",
+  "nivel": 7,
+  "titulo": "Newcomben paradoxa: kutxa bat ala biak?",
+  "origen": "William Newcomb fisikariak asmatu zuen; Robert Nozickek argitaratu zuen, «Newcomb's Problem and Two Principles of Choice» (1969).",
+  "enunciado": "Bi kutxa daude. Gardenak 1.000 euro ditu. Opakoak milioi bat ditu edo ezer ez. Opakoa bakarrik eraman dezakezu, edo biak. Atzo, ia inoiz huts egiten ez duen iragarle batek milioia opakoan jarri zuen, soilik hura bakarrik eramango zenuela iragarri bazuen. Zer egiten duzu?",
+  "problema": "Akatsik gabeko bi arrazoibide talka egiten dute. Bata: kutxa bat eramaten duenak ia beti milioi batekin alde egiten du, eta bi eramaten dituenak mila eurorekin; beraz, bat. Bestea: dirua dagoeneko badago edo ez dago; hartzen duzuna hartzen duzula, ez duzu aldatzen, eta biekin beti duzu mila euro gehiago; beraz, biak.",
+  "salidas": "<ul><li>Erabaki-teoria «kausalak» bi kutxa aukeratzen ditu: orain egiten duzunak ez du atzo gertatu zena eragiten.</li><li>Teoria «ebidentzialak» bat aukeratzen du: zure aukera da iragarleak zer iragarri zuen jakiteko seinalerik onena.</li><li>Beste batzuek zalantzan jartzen dute horrelako iragarle bat posible denik, aukera libre izateari utzi gabe. Eztabaidak irekita jarraitzen du.</li></ul>",
+  "pensar": "Idatzi bi arrazoibideak premisa zenbakidun argudio gisa: zein da haiek bereizten dituen premisa?"
+ },
+ {
+  "id": "estoicos",
+  "grupo": "historia",
+  "nivel": 4,
+  "titulo": "Logika estoikoa: Krisiporen bost frogaezinak",
+  "origen": "Krisipo Solikoa (K.a. 280-206 inguru), Sexto Enpirikoaren <em>Matematikarien aurka</em> VIII 223-227 eta Diogenes Laertzioren <em>Bizitzak</em> VII 79-81 jarraituz. Baldintzazkoari buruzko eztabaida, Sexto Enpirikoan, <em>Matematikarien aurka</em> VIII 112-117; Krisiporen irizpidea, Diogenes Laertzion, VII 73; Kalimakoren beleak, Sexto Enpirikoan, <em>Matematikarien aurka</em> I 309-310.",
+  "enunciado": "Aristotelesek terminoekin arrazoitzen zuen bitartean («gizaki oro hilkorra da»), estoikoek enuntziatu osoekin arrazoitzen zuten, «baldin», «eta» eta «edo» bidez lotuta. Krisipok frogarik behar ez duten bost forma jarri zituen oinarrian, «frogaezinak», eta erakutsi zuen gainerakoak haietara murrizten direla. Haren adibideek egunaz eta argiaz hitz egiten dute: «Eguna bada, argia dago; eguna da; beraz, argia dago».",
+  "problema": "<ul><li>1.a: lehena bada, bigarrena; lehena; beraz, bigarrena. <strong>Modus ponens</strong> da.</li><li>2.a: lehena bada, bigarrena; ez bigarrena; beraz, ez lehena. <strong>Modus tollens</strong> da.</li><li>3.a: ez (lehena eta bigarrena); lehena; beraz, ez bigarrena. «Dedukzio naturala» mahaiko 10. ariketa da.</li><li>4.a: edo lehena edo bigarrena; lehena; beraz, ez bigarrena. Kontuz: balio du «edo» estoikoa <strong>esklusiboa</strong> delako; gaur egungo «edo» inklusiboarekin, disjuntu bat baieztatzearen falazia da.</li><li>5.a: edo lehena edo bigarrena; ez lehena; beraz, bigarrena. <strong>Silogismo disjuntiboa</strong> da.</li></ul>",
+  "salidas": "<p>Estoikoek baldintzazko bat noiz den egiazkoa ere eztabaidatu zuten, hainbesterainoko non Kalimako poetak txantxetan zioen teilatuetako beleek ere horretaz kraxkatzen zutela. Filon Megarakoak esan zuen soilik faltsua dela aurrekaria egiazkoa eta atzekaria faltsua denean: 3. mailako egia-taulen baldintzazko materiala da. Diodoro Kronosek gehiago eskatu zuen: aurrekaria egiazkoa eta atzekaria faltsua inoiz ez izatea, ez izan ez izango. Krisipok lotura bat exijitu zuen: atzekariaren kontraesankorrak, hau da, haren ezeztapenak (ἀντικείμενον, <em>antikeímenon</em>), aurrekariarekin talka egitea.</p><p>Esaten ez duena: estoikoek ez zituzten letrak erabiltzen, «lehena» eta «bigarrena» baizik, eta ez zuten egia-taularik; haien logika ia osoa galdu zen eta XX. mendean berreraiki zen.</p>",
+  "pensar": "Baldintzazkoaren hiru ideietatik (Filon, Diodoro, Krisipo), zein da hizketan erabiltzen dugun «baldin»-en antzekoena? Probatu «Ilargia gaztaz egina badago, 2 + 2 = 4» esaldiarekin."
+ },
+ {
+  "id": "medievales",
+  "grupo": "historia",
+  "nivel": 6,
+  "titulo": "Erdi Aroko logika: suposizioa, ondorioztapenak eta obligazioak",
+  "origen": "Gilen Ockhamgoa, <em>Summa logicae</em> (1323 inguru), I 63-64 (suposizioa) eta II 32-33 (konjuntzio eta disjuntzio baten kontraesankorra); Jean Buridan, <em>Ondorioztapenen tratatua</em> (1335 inguru); Walter Burley, <em>De obligationibus</em> (1302 inguru).",
+  "enunciado": "Erdi Aroko unibertsitateetan logika zen ikasketen erdigunea. XIII. eta XIV. mendeetako logikariak, sinbolorik gabe eta latinez, gaur formulekin idazten diren ideietara iritsi ziren: termino batek esaldi baten barruan zeri buruz hitz egiten duen, esaldi bat noiz ondorioztatzen den beste batetik, eta nola mantendu koherente eztabaida batean.",
+  "problema": "<ul><li><strong>Suposizioa:</strong> «gizona korrika dago» esaldian, «gizona» gizon zehatzen ordez dago (suposizio pertsonala); «gizona espezie bat da» esaldian, espeziearen ordez (soila); «“gizona”-k bi silaba ditu» esaldian, hitzaren ordez (materiala). Gaur egun aldagaiek, kuantifikatzaileek eta komatxoek egiten dutena da.</li><li><strong>Ondorioztapenak:</strong> ondorioztapen bat ona da aurrekaria egiazkoa eta atzekaria faltsua izatea ezinezkoa bada. Buridanek definizio hori kritikatzen du: berarentzat esaldi-aleak bakarrik dira egiazkoak edo faltsuak, norbaitek egiaz osatzen dituenak, eta horrekin «Ez dago esaldi ezezkorik; beraz, ezein astok ez du korrika egiten» ona aterako litzateke, aurrekaria ezin delako egiazkoa izan (osatzean, esaldi ezezko bat badago dagoeneko); eta ez da ona. Esaldi horiek kontuan hartuta birformulatzen du: ona da ezinezkoa bada gauzak aurrekariak dioen bezala egotea atzekariak dioen bezala egon gabe, biak aldi berean osatzen direnean. Ondorioztapen formalak bereizten zituzten, formaren indarrez balio dutenak, materialetatik: 1. mailako baliozkotasunaren ideia da.</li><li><strong>Obligazioak:</strong> aurkari baten eta erantzule baten arteko jokoa. Hasieran esaldi bat onartzen da, normalean faltsua (<em>positio</em>), eta, hortik aurrera, erantzuleak ondorioztatzen dena onartu eta talka egiten duena ukatu behar du, inoiz kontraesanean erori gabe. «Spinoza» mahaiko kontraereduen bilaketa bezalakoa da.</li></ul>",
+  "salidas": "<p>Ockhamek hitzez enuntziatu zituen gaur De Morganen legeak deitzen ditugunak, De Morgan baino bost mende lehenago (<em>Summa logicae</em> II 32-33: konjuntzio baten kontraesankorra bere zatien kontraesankorren disjuntzioa da, eta alderantziz). Buridanen izena eraman zuen astoaren paradoxak (zeina, bide batez, bere lanetan ez den agertzen).</p><p>Esaten ez duena: egile hauek ez zuten Fregeren modukoa den ∀ eta ∃ dituen predikatu-logikarik; suposizioaren teoriak arazo horietako batzuk beste bitarteko batzuekin konpontzen zituen, eta logika modernoak mendeetan ahaztuta izan zuen.</p>",
+  "pensar": "«Gizaki orok emakumeren bat maite du» esaldian, zer emakumez hitz egiten du «emakume» hitzak: denentzat bakar batez ala bakoitzarentzat desberdin batez? Alderatu ∀x ∃y eta ∃y ∀x formekin (6. maila)."
  }
 ];

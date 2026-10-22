@@ -14,6 +14,45 @@ const LOG_ITIN = {
  "progreso": "{t} mailatik {n} gainditu dituzu.",
  "progresoNada": "Markatu maila bakoitza bere kontrol-puntua gainditzen duzunean: nabigatzaile honetan bakarrik gordetzen da.",
  "noAqui": "ez dago web honetan",
+ "mapaIntro": "Sakatu maila bat bere orria irekitzeko. Markatutako laukia zuri hurrengo dagokiona da.",
+ "estHecho": "gaindituta",
+ "estSig": "hurrengoa",
+ "anterior": "Aurreko maila",
+ "siguiente": "Hurrengo maila",
+ "volverMapa": "Ibilbidearen mapa",
+ "etapas": [
+  {
+   "titulo": "Logika klasikoa",
+   "de": 1,
+   "a": 2
+  },
+  {
+   "titulo": "Enuntziatuak, legeak eta klaseak",
+   "de": 3,
+   "a": 5
+  },
+  {
+   "titulo": "Predikatuak eta aplikazioa",
+   "de": 6,
+   "a": 9
+  },
+  {
+   "titulo": "Isabelle: programa batekin frogatzea",
+   "de": 10,
+   "a": 12
+  }
+ ],
+ "guiaTit": "Lan-gida",
+ "guiaObj": "Helburua:",
+ "guiaRec": "Ibilbidea",
+ "guiaPreg": "Galderak: kendu eta jarri premisak",
+ "guiaRub": "Kontrol-puntuaren errubrika",
+ "guiaNiv": [
+  "Aditua",
+  "Aurreratua",
+  "Bidean",
+  "Hasiberria"
+ ],
  "ramasTit": "Alboko adarrak",
  "ramasIntro": "Adar horietan sartzeko, adierazitako mailatik abiatu daiteke, bide nagusia utzi gabe.",
  "desde": "{n}. mailatik",
@@ -96,8 +135,14 @@ const LOG_ITIN = {
     }
    ],
    "control": {
-    "t": "4. gaiko galdetegia",
-    "h": "#cuestionarios/fil-t4-banco"
+    "t": "Galdetegia: baliozkotasuna eta egia, dedukzioa eta indukzioa",
+    "h": "#cuestionarios/fil-validez-q",
+    "mas": [
+     {
+      "t": "4. gaiko galdetegia",
+      "h": "#cuestionarios/fil-t4-banco"
+     }
+    ]
    },
    "limite": "Silogismoak gauza-multzoekin eta hiru terminorekin lan egiten du. Ez daki zer egin «baldin…, orduan» edo «edo» lotuta dauden esaldiekin: hori 3. mailan iritsiko da."
   },
@@ -112,6 +157,10 @@ const LOG_ITIN = {
     },
     {
      "t": "Silogismoak: premisen eta ondorioaren diagramak",
+     "h": "#logica/silogismos"
+    },
+    {
+     "t": "Silogismoak, amaieran: zortzi silogismo Vennen marrazkian urratsez urrats, Eulerrek engainatzen duen kasu batekin",
      "h": "#logica/silogismos"
     }
    ],
@@ -131,7 +180,7 @@ const LOG_ITIN = {
      "h": "#logica/hablamos"
     },
     {
-     "t": "Formalizatu: 13 esaldi, tranpa-kasuarekin",
+     "t": "Formalizatu: 23 esaldi, tranpa-kasuarekin",
      "h": "#logica/formalizar"
     },
     {
@@ -144,10 +193,15 @@ const LOG_ITIN = {
     }
    ],
    "control": {
-    "t": "Galdetegia: egia-taulak eta logika",
-    "h": "#cuestionarios/fil-logica-q"
+    "t": "Galdetegia: enuntziatuen logikan formalizatzea",
+    "h": "#cuestionarios/fil-formalizar-q",
+    "mas": [
+     {
+      "t": "Galdetegia: egia-taulak eta logika",
+      "h": "#cuestionarios/fil-logica-q"
+     }
+    ]
    },
-   "falta": "Formalizazio-galdetegi bat eta egia-taulen galdetegiaren bertsio zabaldu bat.",
    "limite": "Egia-taulak dena erabakitzen du, baina oso azkar hazten da: 5 letrarekin jada 32 errenkada dira. Taula osoa egin gabe arrazoitzeko legeak eta arauak behar dira: 4. maila."
   },
   {
@@ -166,13 +220,16 @@ const LOG_ITIN = {
     {
      "t": "Lege logikoak: 21 arau eratorriak",
      "h": "#logica/leyes"
+    },
+    {
+     "t": "Laborategia, «Dedukzio naturala»: 27 froga lerroz lerro, behin-behineko suposizioekin",
+     "h": "#logica/deduccion"
     }
    ],
    "control": {
-    "t": "Inferentzia-arauen «araua ala tranpa?» ariketa, 12tik 10 asmatuta",
+    "t": "Inferentzia-arauen «araua ala tranpa?» ariketa, 20tik 16 asmatuta",
     "h": "#logica/inferencia"
    },
-   "falta": "Frogapenak dedukzio naturalean, arauak lerroz lerro aplikatuz.",
    "limite": "Dedukzio-arau bakoitza taulako tautologia bat da: taulak justifikatzen ditu eta arauek lana aurrezten dute. Baina horrek guztiak esaldi osoez hitz egiten du, ez haien barruan dagoenaz."
   },
   {
@@ -203,7 +260,13 @@ const LOG_ITIN = {
    ],
    "puentes": true,
    "control": {
-    "t": "Lege bera (adibidez, De Morganena) zubien taulako bost hizkuntzetan idaztea eta egia-taulan eta Vennen diagraman egiaztatzea."
+    "t": "Lege bera (adibidez, De Morganena) zubien taulako bost hizkuntzetan idaztea eta egia-taulan eta Vennen diagraman egiaztatzea.",
+    "mas": [
+     {
+      "t": "Galdetegia: lege bera bost hizkuntzatan",
+      "h": "#cuestionarios/fil-boole-q"
+     }
+    ]
    },
    "limite": "Klaseekin «A guztiak B dira» esaten da, baina ez «A bakoitzak B bat maite du»: falta da gauza bakoitzaz bereizita hitz egitea. 6. maila da."
   },
@@ -222,10 +285,15 @@ const LOG_ITIN = {
     }
    ],
    "control": {
-    "t": "Kuantifikatzaileen ariketa (10 esaldi)",
-    "h": "#logica/cuantificadores"
+    "t": "Galdetegia: kuantifikatzaileak, oposizio-karratua eta konbertsioa",
+    "h": "#cuestionarios/fil-cuantif-q",
+    "mas": [
+     {
+      "t": "Kuantifikatzaileen ariketa",
+      "h": "#logica/cuantificadores"
+     }
+    ]
    },
-   "falta": "Kuantifikatzaileen eta konbertsioaren galdetegi bat.",
    "limite": "Antzinako karratuak onartzen du hitz egiten den zerbait badagoela; gaurko logikak ez. Horregatik betiko inferentzia batzuk (Darapti) premisa hori gehitzen bada bakarrik balio dute."
   },
   {
@@ -247,6 +315,10 @@ const LOG_ITIN = {
     },
     {
      "t": "Falazia klasikoak",
+     "h": "#logica/falacias"
+    },
+    {
+     "t": "Falazia ez-formalak: Txokoko zerrenda eta «Zer falazia da?» ariketa (20 kasu)",
      "h": "#logica/falacias"
     },
     {
@@ -283,7 +355,13 @@ const LOG_ITIN = {
    ],
    "control": {
     "t": "Irudien munduko eta Erlazioetako erronkak",
-    "h": "#logica/mundo"
+    "h": "#logica/mundo",
+    "mas": [
+     {
+      "t": "Galdetegia: erlazioen propietateak eta mundu txikiak",
+      "h": "#cuestionarios/fil-relaciones-q"
+     }
+    ]
    },
    "limite": "Mundu txiki batek esaldi bat gezurtatu dezake, baina ez frogatu: badira mundu handietan edo infinituetan soilik huts egiten duten esaldiak."
   },
@@ -303,6 +381,31 @@ const LOG_ITIN = {
    ],
    "control": {
     "t": "Frogapen gidatu bat hasieratik bukaeraraino egitea, urrats bakar batean ere huts egin gabe."
+   },
+   "guia": {
+    "obj": "Frogapen bat hasieratik amaierara jarraitzea, urrats bakoitza zerk justifikatzen duen esatea eta frogatzen dena onartutzat ematen denetik bereiztea.",
+    "rec": [
+     "Frogapen gidatuak, «√2 irrazionala da»: egin urrats guztiak pistei begiratu gabe.",
+     "«Zenbaki lehenak infinituak dira»: erreparatu ezertatik ondorioztatzen ez den urratsari (N eraikitzea).",
+     "«Menonen karratua»: zer dakien esklaboak hasieran eta zer amaieran.",
+     "«Argudio ontologikoa»: jarraitu urratsei eta lotu objekzio bakoitza zein urratsi zuzentzen zaion.",
+     "Kanten judizioak: sailkatu «7 + 5 = 12» eta azaldu zergatik ez zuen Kantek analitikotzat hartzen."
+    ],
+    "preg": [
+     "√2ren frogapenean, kendu «zatikia sinplifikatuta dago» premisa: kontraesana dago oraindik? Zein urratsek uzten dio talka egiteari?",
+     "Frogapen berean, non erabiltzen da zenbaki oso oro bikoitia edo bakoitia dela? Hori onartuko ez bazenu, zein urrats eroriko litzateke?",
+     "Euklidesenean, kendu «1 baino handiagoa den zenbaki orok badu zatitzaile lehenen bat»: jarrai daiteke? Zergatik ez da nahikoa N lehena dela esatea?",
+     "Euklidesek N eraikitzen du. Premisa bat da, arau bat ala urrats bat? 4. mailako dedukzio naturalaren arau gisa idatz liteke?",
+     "Argudio ontologikoan, kendu 4. urratseko premisa (errealitatean existitzea handiagoa da): kontraesanik dago 5. urratsean? Lotu Kanten objekzioarekin.",
+     "Jarri horren ordez Gauniloren uhartea: idatzi argudioa «hura baino handiagorik pentsa ezin daitekeen uhartea» erabiliz. Zein premisa onartu beharko zenuke argudioak funtziona zezan?",
+     "Kantek dio «7 + 5 = 12» sintetiko a priori dela. «Batuketa» kontzeptuari buruzko zein premisa gehitu beharko litzaioke analitikoa izan zedin, Leibnizek uste zuen bezala?"
+    ],
+    "rub": [
+     "Frogapen bateko urrats bakoitza bere justifikazioarekin azaltzen du, zein premisa erabiltzen dituen eta zein ematen diren onartutzat esaten du, eta premisa bat kenduta froga hausten den kasu bat proposatzen du.",
+     "Frogapen gidatua akatsik gabe egiten du eta premisak izendatzen ditu, baina ez du beti esaten zer gertatuko litzatekeen bat faltako balitz.",
+     "Frogapenari pisten laguntzaz jarraitzen dio; batzuetan premisa bat ondorioztatutako urrats batekin nahasten du.",
+     "Urratsak errepikatzen ditu, bakoitza zergatik ondorioztatzen den esan gabe."
+    ]
    },
    "limite": "Eskuz idatzitako froga batek urrats bat saltatu dezake inork konturatu gabe. Eta programa batek urrats guztiak egiaztatuko balitu? Hori da datorrena."
   },
@@ -331,6 +434,30 @@ const LOG_ITIN = {
    "control": {
     "t": "«Denbora, definituta» munduan, azaltzea zergatik 9. proposizioak ez gaituen derrigortzen sortu gabeko zerbait onartzera: zein hiru tesi ez datozen batera."
    },
+   "guia": {
+    "obj": "Frogapen-laguntzaile batek zer egiten duen ulertzea, kontraeredu-bilatzailea erabiltzea zein premisa behar diren ikusteko, eta zure proposizioak idaztea.",
+    "rec": [
+     "«Spinoza» mahaia, «Isabelleri buruz, eta eskerrak»: zer egiaztatzen duen Isabellek eta zer ez.",
+     "Praktika-mundua: mahaiaren «hasteko ibilbidea», hurrenez hurren.",
+     "«Denbora, definituta» mundua: 9. eta 10. proposizioak.",
+     "«✎ Idatzi zure proposizioa» bi munduetatik edozeinetan."
+    ],
+    "preg": [
+     "Praktika-munduan, 2. proposizioa: sakatu «Ondorioztatzen al da?» dagoen bezala. Zein premisa falta da? Gehitu eta probatu berriro.",
+     "4. proposizioa: premisa eztabaidagarririk gabe dator, eta kontraeredu bat ateratzen da. Zein kasu errealek dauka haren antza? Onartuko zenuke premisa?",
+     "Praktika-munduko 9. proposizioa: zenbat gauza behar ditu munduak zerbaitek bi sortzaile izan ditzan? Markatu «Ezerk ez du bi sortzaile» eta azaldu zer aldatzen den.",
+     "«Denbora, definituta» munduan, praktika-munduko zein premisa bihurtu dira teorema denbora definitzean? Zergatik da hori aurrerapen bat?",
+     "Denbora definituaren 9. proposizioa: kendu aldi bakoitzean talka egiten duten hiru tesietako bat. Zein kenduko zenuke zuk, eta zergatik?",
+     "Idatzi egiazkoa iruditzen zaizun proposizio bat. Bilatu kontraeredu bat; ateratzen ez bada, frogatuta geratzen da? Zer esango luke Isabellek?",
+     "Zer alde dago «ez dut aurkitu huts egiten duen mundurik» eta «Isabellen frogatua» artean?"
+    ],
+    "rub": [
+     "Bilatzailea erabiltzen du zein premisa behar den aurkitzeko, kontraeredua kasu erreal batekin interpretatzen du eta zehatz bereizten ditu kontraeredurik ez aurkitzea eta frogatuta egotea.",
+     "Falta diren premisak aurkitzen ditu eta kontraereduak irakurtzen ditu, baina kosta egiten zaio kasu errealekin lotzea.",
+     "Ibilbideko proposizioak laguntzarekin egiten ditu; batzuetan «mundu txikietan ez du huts egiten» eta «frogatua» nahasten ditu.",
+     "Botoiak sakatzen ditu, ikusten duena interpretatu gabe."
+    ]
+   },
    "limite": "Orriko bilatzaileak lau gauzaraino dituzten munduak soilik aztertzen ditu; aurkitzen ez duena ez dago frogatuta. Frogatuta dagoena Isabellek egiaztatu duena da."
   },
   {
@@ -350,6 +477,30 @@ const LOG_ITIN = {
    "control": {
     "t": "Zure hitzekin azaltzea 5. eta 9. proposizioen kontraeredua: zein premisa falta den eta zergatik."
    },
+   "guia": {
+    "obj": "Argudio ospetsu bat bere premisetan banatzea, urrats bakoitzean zeinek egiten duen lana eta objekzioek non jartzen duten hatza ikustea, funtsezko auziari buruzko epairik eman gabe.",
+    "rec": [
+     "Irakurri «Bost bideak eta nondik datozen» esplorazioa.",
+     "«Spinoza» mahaia, «Bost bideak» mundua: bide bakoitza bere premisekin.",
+     "5. eta 9. proposizioak: bilatu haien kontraereduak.",
+     "Definizioen azpian dagoen oharra, «berezko» kausei eta denborari buruzkoa."
+    ],
+    "preg": [
+     "Lehen bidean, kendu erregresio amaigabea debekatzen duen premisa. Zer mundu eraikitzen du mahaiak? Mundu posible bat da?",
+     "Bideek ez dute denboran hasierarik aipatzen, eta Tomasentzat Jainkoa ez dago denboran: betikoa da (Summa Theologiae I, q. 10). Bigarren kausen katean, kausa bakoitza bere efektuarekin batera jarduten da; «batera» hori bigarren kausentzat balio du, ez Jainkoarentzat. Mendekotasuna norabide bakarrekoa da: efektua kausaren mendekoa da, eta ez alderantziz. Zein premisa gehitu beharko zenuke lehen une batez hitz egiteko? Bideren batek behar al du?",
+     "5. proposizioa: non dago «gauza bakoitza une batean falta da»-tik «bada une bat zeinetan ez dagoen ezer»-erako jauzia? Idatzi ∀ eta ∃ erabiliz (6. maila).",
+     "9. proposizioa: zergatik izan litezke lehen motor bat eta lehen kausa bat bi gauza desberdin? Zein premisa beharko litzateke gauza bera izan daitezen?",
+     "Tomasek ukatu egiten du zerbait bere buruaren kausa izatea. Non agertzen da ideia hori mahaian (premisetan edo oharretan)? Zer gertatuko litzateke bigarren bidearekin onartuko balitz?",
+     "Tomasek frogagarritzat du dena Jainkoaren mende dagoela izateko (Summa Theologiae I, q. 44) eta fedezko egiatzat, ez frogagarri ez gezurtagarri, mundua denboran hasi zela (I, q. 46, 1. eta 2. artikuluak). Zertan antzematen da alde hori mahaiko premisetan?",
+     "Aukeratu eztabaidagarriena iruditzen zaizun premisa. Logikako arazo bat da ala filosofiakoa?"
+    ],
+    "rub": [
+     "Bide bakoitzean lana egiten duen premisa identifikatzen du, 5. eta 9. proposizioen kontraeredua azaltzen du eta argudioaren baliozkotasuna eta premisen onargarritasuna bereizten ditu, funtsezko auzia itxitzat eman gabe.",
+     "Bi kontraereduak azaltzen ditu, baina ez daki beti zein premisak saihesten dituen.",
+     "Mahaiari jarraitzen dio eta premisak ezagutzen ditu, baina kritika logikoa eta ondorioari buruzko iritzia nahasten ditu.",
+     "Jainkoaren existentziari buruzko epaia ematen du, argudioa aztertu beharrean."
+    ]
+   },
    "limite": "Premisa batek lan guztia egiteak ez du faltsu bihurtzen: onartu ala ez erabakitzea ez da jada logika, filosofia da."
   },
   {
@@ -365,6 +516,29 @@ const LOG_ITIN = {
    "control": {
     "t": "Proposizio bat aukeratzea, ahal diren premisa guztiak kentzea eta, idatziz, eztabaidagarriena onargarria den defendatzea."
    },
+   "guia": {
+    "obj": "Etikaren I. zatia sistema gisa irakurtzea, Spinozak idazten ez dituen premisak aurkitzea, zein dauden soberan eta zeinek egiten duten talka ikustea, eta programa batek obra oso bat egiaztatzeak zer esan nahi duen ulertzea.",
+    "rec": [
+     "«Spinoza» mahaia, «Spinoza, Etika I» mundua: hasi lehen geruzatik.",
+     "Aukeratu proposizio bat eta sakatu «Soberan al dago premisaren bat?».",
+     "Bilatu H_ hasiera duen premisa bat (Spinozak idazten ez dituenak) eta irakurri lasai.",
+     "«✎ Idatzi zure proposizioa» Etikaren terminoekin."
+    ],
+    "preg": [
+     "Aukeratu proposizio bat. Kendu premisak banan-banan: zeintzuk dira benetan beharrezkoak? Bat datoz Spinozak bere frogapenean aipatzen dituenekin?",
+     "Zein H_ premisa iruditzen zaizu eztabaidagarriena? Kendu eta begiratu kontraeredua: zer motatako mundua onartzen du?",
+     "Bi premisak talka egiten badute, zein kenduko zenuke? Zein proposizio eroriko lirateke harekin batera?",
+     "Spinozak dio Jainkoa bere buruaren kausa dela, eta Tomasek ukatu egiten du. Mahaiaren laguntzaz, Etikaren zein definiziok edo axiomak egiten du posible bere buruaren kausa?",
+     "Etikak substantziaren atributuez hitz egiten du, eta horiek propietateen propietateak dira. Zergatik eramaten du horrek lehen mailako logikatik harago (6. maila)?",
+     "Zer irabazten du irakurle batek programa batek obra oso bat egiaztatzen duenean? Zer ezin dio esan programak?"
+    ],
+    "rub": [
+     "Proposizio bat aukeratzen du, ahal dituen premisa guztiak kentzen ditu kontraereduekin justifikatuz, eta idatziz defendatzen du premisa eztabaidagarriena onargarria den ala ez, logika eta filosofia bereiziz.",
+     "Premisak kentzen ditu eta kontraereduak irakurtzen ditu, baina idatzizko defentsa laburra da edo ez ditu logika eta filosofia bereizten.",
+     "«Soberan al dago premisaren bat?» erabiltzen du eta ateratzen dena deskribatzen du, baloratu gabe.",
+     "Ez da iristen premisak Spinozaren frogapenarekin lotzera."
+    ]
+   },
    "limite": "Spinozak substantziaren atributuez hitz egiten du, eta propietateen propietateez hitz egiteak lehen mailako predikatuen logikatik harago eramaten du: goi-mailako logikaren atea da, Isabelle/HOLena."
   }
  ],
@@ -375,7 +549,7 @@ const LOG_ITIN = {
    "txt": "Formaren ez baizik edukiaren tranpak, eta eztabaidatzeko artea.",
    "pasos": [
     {
-     "t": "Falaziak",
+     "t": "Falaziak: ez-formalen zerrenda, glosategiarekin lotua, eta «Zer falazia da?»",
      "h": "#logica/falacias"
     },
     {
@@ -391,8 +565,20 @@ const LOG_ITIN = {
   {
    "titulo": "Logikaren historia",
    "desde": 1,
-   "txt": "Aristoteles, Leibniz, Kant, Frege eta Russell: tresna bakoitza nondik datorren.",
+   "txt": "Aristoteles, estoikoak, Erdi Arokoak, Leibniz, Kant, Frege eta Russell: tresna bakoitza nondik datorren.",
    "pasos": [
+    {
+     "t": "Logika estoikoa: Krisiporen bost frogaezinak",
+     "h": "#logica/clasicos/estoicos"
+    },
+    {
+     "t": "Erdi Aroko logika: suposizioa, ondorioztapenak eta obligazioak",
+     "h": "#logica/clasicos/medievales"
+    },
+    {
+     "t": "Helenismoa (Filosofia 1.): estoikoak eta epikurearrak",
+     "h": "#teoria/fil-helenismo"
+    },
     {
      "t": "Leibnizen tailerra",
      "h": "#leibniz"
@@ -413,11 +599,14 @@ const LOG_ITIN = {
    "txt": "Ziurtasunik gabe arrazoitzea: orokortu, alderatu eta azalpen onena bilatu.",
    "pasos": [
     {
+     "t": "Laborategia, «Indukzioa eta abdukzioa»: ziurtasunik gabe arrazoitzeko lau modu, Humeren arazoa, Peirceren abdukzioa eta hogei kasu",
+     "h": "#logica/induccion"
+    },
+    {
      "t": "Logika eta argudiaketa (4. gaia): abdukzioa eta analogia",
      "h": "#teoria/fil-t4"
     }
-   ],
-   "falta": "Indukzio-indarraren, analogiaren eta azalpen onenaren mahai bat."
+   ]
   }
  ]
 };
