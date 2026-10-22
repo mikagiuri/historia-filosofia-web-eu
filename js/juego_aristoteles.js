@@ -3454,7 +3454,7 @@ const JUEGO_ARIS = {
    "peso": "Pisua",
    "tope": "Muga",
    "truncada": "Bizitza eteten bada: zergatik eteten den",
-   "causa": "Arrazoia",
+   "causa": "Kausa",
    "factor": "Faktorea",
    "multiplica": "Nota honekin biderkatzen da:",
    "estaVida": "← bizitza hau",

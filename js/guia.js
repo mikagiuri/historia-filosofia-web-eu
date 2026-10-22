@@ -196,6 +196,11 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
+     "nombre": "Zutabeak",
+     "texto": "Kontzeptu handiak (arrazoia, ideia, kausa) hamar mailatan, eguneroko hitzetik gaur egungo eztabaidaraino. Maila bakoitzak aurrekoa zuzentzen du eta lana eskatzen du: ideia kasu bati aplikatzea, igo duzunarekin lotzea eta ulertu duzun egiaztatzea. Markatu gainditzen dituzun mailak: zure nabigatzailean bakarrik gordetzen da.",
+     "view": "pilares"
+    },
+    {
      "nombre": "Txartelak",
      "texto": "Sakatu txartela (edo zuriune-barra) buelta emateko, eta markatu «Badakit» menderatzen dituzunak. Zure aurrerapena gorde egiten da.",
      "view": "tarjetas"

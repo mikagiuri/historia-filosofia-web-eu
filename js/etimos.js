@@ -31,7 +31,7 @@ const ETIMOS = [
   "def": "Erromatarrek *essentia* sortu zuten *esse*, «izan», hitzaren gainean, Aristotelesen grekozko formula zaila itzultzeko: «izatea zena». Zerbait den hori eta ez beste ezer izatea eragiten duena da: haren definizioa."
  },
  {
-  "t": "Arrazoia",
+  "t": "Kausa",
   "id": "et-causa",
   "area": "Metafisika",
   "gr": "αἰτία (*aitía*)",
