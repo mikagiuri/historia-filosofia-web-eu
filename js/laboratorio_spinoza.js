@@ -153,6 +153,7 @@ const LABSPZ = {
   "gNombre": "«Mundu posibleak» deitzen da, hori baita bilatzen duena: mundu posible bat non zure premisa guztiak egiazkoak diren eta baieztapena faltsua. Halakorik ez badago, baieztapena ondorioztatzen da. Ideia Leibnizena da, eta logika modalarena.",
   "tEjemplo": "Adibide-mundu bat",
   "ejemploTxt": "Mundu honetan zure premisa guztiak betetzen dira, eta baieztapena ere bai. Ez da kasualitatea: premisa horiek betetzen dituzten mundu posible guztietan gertatzen da, eta hori da ondorioztatzea.",
+  "verIsabelle": "Ikusi froga Isabellen",
   "gElige": "Aukeratu teoria bat",
   "gNRetos": "{n} erronka",
   "gEmpieza": "hasteko",
@@ -1948,6 +1949,93 @@ const LABSPZ = {
     "pregunta": "Agian munduko guztiak bere baldintza du, kanpoko ezerk ez du baldintzatzen eta <b>ezer ez da beharrezkoa</b>.",
     "nota": "Kleantesen objekzioa da D. Humeren <em>Erlijio naturalari buruzko elkarrizketak</em> lanean (1779, IX. zatia): betiko kate bateko kide bakoitzak bere azalpena badu, osotasunaren kausaz galdetzea sobera dagoen galdera bat da. Nahikoa da tesiaren premisa uztea, «baldintzen seriea osatuta dago». Isabellek mundu hori zenbaki osoekin eraikitzen du (modelo_antitesis4). Eztabaida irekia, epairik gabe.",
     "notaNo": "Seriea osatuta dagoela ezin da gertatu: munduko zerbait baldintzagabea litzateke (salida4_con_serie_completa)."
+   }
+  ]
+ },
+ "isabelleWeb": {
+  "titulo": "Zer da Isabelle? Frogapenak, barrutik",
+  "parrafos": [
+   "Isabelle/HOL ordenagailu-programa bat da, frogapenak urratsez urrats egiaztatzen dituena: froga bat onartzen badu, ez du errore logikorik. Mahai honetako premisa bakoitza Isabelleko definizio bat da, eta mahaiak frogatutzat ematen duen baieztapen bakoitza teorema bat da, bere frogarekin, Isabellek inolako errorerik gabe onartu duena.",
+   "Hemen froga horiek idatzi ziren bezala ikus ditzakezu. Mahaiko emaitza bakoitzaren ondoan, «Ikusi froga Isabellen» esteka zuzenean teorema zehatzera eramaten zaitu."
+  ],
+  "pdf": "Deskargatu Isabelleren koadernoa (PDF, 79 orrialde)",
+  "tTeorias": "15 teoriak, 298 emaitzekin",
+  "nota": "Frogak Isabelleren hizkuntzan idatzita daude, iruzkinak gaztelaniaz. Guztiak Isabelle2025-2rekin egiaztatu ziren.",
+  "teorias": [
+   {
+    "f": "Mundo_tiempo_creacion",
+    "t": "Praktikakoa: denbora, iraupena eta sorkuntza",
+    "d": "Lehenago hasi, gehiago iraun eta sortu, bere premisekin."
+   },
+   {
+    "f": "Mundo_tiempo_definido",
+    "t": "Denbora, definituta",
+    "d": "Unekoekin: hasi, amaitu, iraun eta biziraun, definituta."
+   },
+   {
+    "f": "Propiedades_relaciones",
+    "t": "Erlazioen propietateak",
+    "d": "Erlazio baten zer propietate zeinetatik ondorioztatzen den, eta zeinetatik ez."
+   },
+   {
+    "f": "Etica_proposicional",
+    "t": "Etika enuntziatuen logikan",
+    "d": "Ukapenarekin, disjuntzioarekin eta konjuntzioarekin bakarrik."
+   },
+   {
+    "f": "Etica_nand",
+    "t": "Etika konektiba bakar batekin",
+    "d": "Dena NANDekin, Shefferren barrarekin."
+   },
+   {
+    "f": "Spinoza_Etica_I",
+    "t": "Spinoza, Etika I",
+    "d": "Etikaren I. zatia, premisa bakoitza ikusgai dela."
+   },
+   {
+    "f": "Spinoza_Etica_I_piloto",
+    "t": "Spinoza: berak aipatzen duena bakarrik",
+    "d": "Proposizio bakoitza, Spinozak aipatzen dituen premisekin bakarrik."
+   },
+   {
+    "f": "Spinoza_identidad_minimal",
+    "t": "Spinoza: gutxieneko muina",
+    "d": "Gutxieneko bertsio bat, Spinozaren ordenan."
+   },
+   {
+    "f": "Spinoza_diagnostico_quatenus",
+    "t": "Spinoza: «-ren aldetik» esamoldearen diagnostikoa",
+    "d": "Zein premisak galarazten duen gorputz bat eta haren ideia gauza bera izatea."
+   },
+   {
+    "f": "Spinoza_redundancia",
+    "t": "Spinoza: soberan dauden premisak",
+    "d": "Benetan soberan dauden egiaztatzen da."
+   },
+   {
+    "f": "Cinco_vias",
+    "t": "Bost bideak",
+    "d": "Tomas Akinokoa, bide batetik bestera, bere premisekin."
+   },
+   {
+    "f": "Antinomias_matematicas",
+    "t": "Kanten antinomiak: hasiera eta soila",
+    "d": "Tesia, antitesia, talka eta irteerak."
+   },
+   {
+    "f": "Antinomias_dinamicas",
+    "t": "Kanten antinomiak: askatasuna eta izaki beharrezkoa",
+    "d": "Tesia, antitesia, talka eta irteerak."
+   },
+   {
+    "f": "Parmenides_herederos",
+    "t": "Izatetik kosmosera: Parmenides eta haren oinordekoak",
+    "d": "Bakarra, higiezina, atomistak, Melisso eta Zenon."
+   },
+   {
+    "f": "Timeo_demiurgo",
+    "t": "Izatetik kosmosera: Demiurgoa",
+    "d": "Timeo: egilea, eredua eta denbora."
    }
   ]
  },
