@@ -246,7 +246,7 @@ function bioCitas(p){
    · Conceptos del glosario: los términos con su id en el campo «ilustre» (tools/build_glosario_ilustres.js).
    Solo se enlaza a pensadores que están en esta web (build_subject.js filtra BIOGRAFIAS por materia). */
 const ILU_REL = { tit: "Hurbilak eta aurkakoak", frente: "Aurrez aurre", tesis: "Bere tesiak eztabaidan", acuerdo: "Ados", desacuerdo: "Aurka",
-  conceptos: "Glosarioko kontzeptuak", mas: "eta beste {n}" };
+  conceptos: "Hiztegiko kontzeptuak", mas: "eta beste {n}" };
 function bioLink(id, cl){
   const q = BIOGRAFIAS[id]; if (!q) return "";
   return '<button type="button" class="bio-rel-a' + (cl ? " " + cl : "") + '" data-go-ilu="' + bioEsc(id) + '">' + bioEsc(q.name) + '</button>';

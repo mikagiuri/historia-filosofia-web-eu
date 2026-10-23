@@ -250,7 +250,7 @@ const LOGM_EXTRA_TXT = {
   lpIntro: "Goiko falazia formalak formaren bidez errefusatzen dira: kontraadibide bat nahikoa da. Beste falazia batzuek ez dute formazko akatsik, baina formalizatzeak haiek ikusten laguntzen du; eta beste batzuk ezin dira logikaz errefusatu, arazoa edukian baitago.",
   lpAyuda: "Logikak laguntzen du, baina ez da nahikoa", lpNo: "Logikak ez ditu errefusatzen", lpQueVe: "Logikak zer erakusten duen",
   lpNoIntro: "Haien forma baliozkoa izan daiteke, edo ez da argudio bat ere: akatsa premisak egiazkoak diren ala gaiari dagozkion da. Haiek antzemateko edukiaz galdetu behar da.",
-  lpNoNomina: "Hau lagin bat baino ez da. Falazia ez-formalen zerrenda osoa, bakoitzari izen bat eta glosarioko definizioa emanda, «Falazia ez-formalak: Txokoaren zerrenda» da, fitxa honetan beherago.", lpNoNominaIr: "Joan zerrenda osora ↓",   /* (22-10) remite a la nómina única */
+  lpNoNomina: "Hau lagin bat baino ez da. Falazia ez-formalen zerrenda osoa, bakoitzari izen bat eta hiztegiko definizioa emanda, «Falazia ez-formalak: Txokoaren zerrenda» da, fitxa honetan beherago.", lpNoNominaIr: "Joan zerrenda osora ↓",   /* (22-10) remite a la nómina única */
   lpDuelo: "Landu itzazu Arrazoien dueloan →"
 };
 const LOGM_CONV = [

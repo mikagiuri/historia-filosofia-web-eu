@@ -558,7 +558,7 @@ const LOG_ITIN = {
    "txt": "Formaren ez baizik edukiaren tranpak, eta eztabaidatzeko artea.",
    "pasos": [
     {
-     "t": "Falaziak: ez-formalen zerrenda, glosategiarekin lotua, eta «Zer falazia da?»",
+     "t": "Falaziak: ez-formalen zerrenda, hiztegiarekin lotua, eta «Zer falazia da?»",
      "h": "#logica/falacias"
     },
     {

@@ -12,7 +12,7 @@ const ETI_TXT = {
   cuenta: "{n} kontzeptu", cuenta1: "Kontzeptu 1",
   ninguno: "Ez dago bilaketarekin bat datorren kontzepturik.",
   griego: "Grekoa", latin: "Latina", castellano: "Gaztelania", euskera: "Euskara",
-  verTermino: "Ikusi «{t}» glosarioan",
+  verTermino: "Ikusi «{t}» hiztegian",
 };
 const etiT = (k, v) => String(ETI_TXT[k] == null ? k : ETI_TXT[k]).replace(/\{(\w+)\}/g, (_, x) => (v && v[x] != null ? v[x] : ""));
 

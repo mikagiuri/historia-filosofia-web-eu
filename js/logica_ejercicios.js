@@ -18,7 +18,7 @@ const LOGX = {
   "silNoValido": "Ez da baliozkoa",
   "silTrad": "Baliozkoa, erdiko terminoak dioena existitzen bada bakarrik",
   "nomTit": "Falazia ez-formalak: Txokoko zerrenda",
-  "nomIntro": "Arrazoibidearen forman ez, edukian dauden tranpak: zer esaten den, norengatik eta zertarako. Izen bakoitzak glosategiko bere sarrerara eramaten du, han definitzen baitira; hemen beste izen batzuk, adibide bat eta nola geldiarazi daude.",
+  "nomIntro": "Arrazoibidearen forman ez, edukian dauden tranpak: zer esaten den, norengatik eta zertarako. Izen bakoitzak hiztegiko bere sarrerara eramaten du, han definitzen baitira; hemen beste izen batzuk, adibide bat eta nola geldiarazi daude.",
   "nomOtros": "Beste izen batzuk:",
   "nomEj": "Adibidea:",
   "nomParar": "Nola geldiarazi:",

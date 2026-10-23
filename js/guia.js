@@ -99,12 +99,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, glosarioko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, glosarioko kontzeptuak eta haren aroa), <strong>Pentsatu eta idatzi</strong> (irakurgaiak, disertazioak, dilemak eta Logikaren txokoa) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak eta haren aroa), <strong>Pentsatu eta idatzi</strong> (irakurgaiak, disertazioak, dilemak eta Logikaren txokoa) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
    "solo": "fil"
   },
   {
@@ -124,7 +124,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "Webgune honetan, pentsalariek, gaiek eta glosarioko terminoek bat eta bost arteko <strong>garrantzi-puntu</strong> dituzte ●●●●○: zenbat eta puntu gehiago, orduan eta pisu handiagoa du ikasgaian eta USEn. Maila bakoitzak bere izena du:"
+   "x": "Webgune honetan, pentsalariek, gaiek eta hiztegiko terminoek bat eta bost arteko <strong>garrantzi-puntu</strong> dituzte ●●●●○: zenbat eta puntu gehiago, orduan eta pisu handiagoa du ikasgaian eta USEn. Maila bakoitzak bere izena du:"
   },
   {
    "type": "list",
@@ -164,7 +164,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "Puntuak hemen agertzen dira: <strong>Biografiak</strong> atalean (pentsalari bakoitzaren dataren ondoan; haren fitxan, mailaren izenarekin eta arrazoia azaltzen duen <strong>Zergatik</strong> lerro batekin), ikasgaiaren orriko <strong>gaien zerrendan</strong> eta <strong>Glosarioan</strong>. Biografietan eta Glosarioan, <strong>Ezinbestekoak eta funtsezkoak bakarrik</strong> botoiak bost eta lau puntukoak bakarrik uzten ditu, eta <strong>Zer esan nahi dute puntuek</strong> zabaltzean azalpen hau bera agertzen da."
+   "x": "Puntuak hemen agertzen dira: <strong>Biografiak</strong> atalean (pentsalari bakoitzaren dataren ondoan; haren fitxan, mailaren izenarekin eta arrazoia azaltzen duen <strong>Zergatik</strong> lerro batekin), ikasgaiaren orriko <strong>gaien zerrendan</strong> eta <strong>Hiztegian</strong>. Biografietan eta Hiztegian, <strong>Ezinbestekoak eta funtsezkoak bakarrik</strong> botoiak bost eta lau puntukoak bakarrik uzten ditu, eta <strong>Zer esan nahi dute puntuek</strong> zabaltzean azalpen hau bera agertzen da."
   },
   {
    "type": "img",
@@ -323,7 +323,7 @@ const GUIA = {
     },
     {
      "nombre": "Irakurgaiak",
-     "texto": "USEko bost testuak, haien irakurketa-gidarekin, zatiekin, erantzun-ereduekin eta glosarioarekin.",
+     "texto": "USEko bost testuak, haien irakurketa-gidarekin, zatiekin, erantzun-ereduekin eta hiztegiarekin.",
      "view": "lecturas"
     }
    ]
@@ -449,7 +449,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Sakatu lupa 🔎 eta idatzi hitz bat: bilatzaileak webgune osoan bilatzen du (teoria, glosarioa, irakurgaiak, galderak, txartelak…) eta emaitzak motaka multzokatzen ditu, hitza nabarmenduta. Mugitu geziekin, ireki emaitza bat Sartu teklarekin eta itxi Esc teklarekin. Emaitza bat irekitzean, webguneak hitza agertzen den toki zehatzera eramaten zaitu."
+   "x": "Sakatu lupa 🔎 eta idatzi hitz bat: bilatzaileak webgune osoan bilatzen du (teoria, hiztegia, irakurgaiak, galderak, txartelak…) eta emaitzak motaka multzokatzen ditu, hitza nabarmenduta. Mugitu geziekin, ireki emaitza bat Sartu teklarekin eta itxi Esc teklarekin. Emaitza bat irekitzean, webguneak hitza agertzen den toki zehatzera eramaten zaitu."
   },
   {
    "type": "img",

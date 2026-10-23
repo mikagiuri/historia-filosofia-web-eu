@@ -42,7 +42,7 @@ const PILARES = {
      "limite": "Badakigu zer den arrazoi bat ematea, baina ez zerk egiten duen arrazoi batek beste batek baino gehiago balio izatea.",
      "enl": [
       {
-       "t": "Glosarioa: arrazoia",
+       "t": "Hiztegia: arrazoia",
        "h": "#glosario/g-fil-razon"
       },
       {
@@ -166,11 +166,11 @@ const PILARES = {
        "h": "#teoria/hf-verdad-no-contradice"
       },
       {
-       "t": "Glosarioa: fedearen eta arrazoiaren arteko lankidetza",
+       "t": "Hiztegia: fedearen eta arrazoiaren arteko lankidetza",
        "h": "#glosario/g-colaboracion-fe-razon"
       },
       {
-       "t": "Glosarioa: arrazoiaren mugak",
+       "t": "Hiztegia: arrazoiaren mugak",
        "h": "#glosario/g-los-limites-de-la-razon"
       }
      ]
@@ -200,11 +200,11 @@ const PILARES = {
        "h": "#teoria/hf-descartes-makro"
       },
       {
-       "t": "Glosarioa: arrazoiaren autonomia",
+       "t": "Hiztegia: arrazoiaren autonomia",
        "h": "#glosario/g-autonomia-de-la-razon"
       },
       {
-       "t": "Glosarioa: ideia argiak eta bereiziak",
+       "t": "Hiztegia: ideia argiak eta bereiziak",
        "h": "#glosario/g-ideas-claras-y-distintas"
       }
      ]
@@ -238,7 +238,7 @@ const PILARES = {
        "h": "#teoria/fil-t5"
       },
       {
-       "t": "Glosarioa: ideien arteko harremanak eta gertaerazko gaiak",
+       "t": "Hiztegia: ideien arteko harremanak eta gertaerazko gaiak",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -268,11 +268,11 @@ const PILARES = {
        "h": "#teoria/hf-kant"
       },
       {
-       "t": "Glosarioa: arrazoiaren erabilera pribatua",
+       "t": "Hiztegia: arrazoiaren erabilera pribatua",
        "h": "#glosario/g-uso-privado"
       },
       {
-       "t": "Glosarioa: ideia erregulatzailea",
+       "t": "Hiztegia: ideia erregulatzailea",
        "h": "#glosario/g-idea-regulativa"
       }
      ]
@@ -302,11 +302,11 @@ const PILARES = {
        "h": "#teoria/hf-posmodernidad"
       },
       {
-       "t": "Glosarioa: arrazoi instrumentala",
+       "t": "Hiztegia: arrazoi instrumentala",
        "h": "#glosario/g-razon-instrumental"
       },
       {
-       "t": "Glosarioa: susmoa",
+       "t": "Hiztegia: susmoa",
        "h": "#glosario/g-sospecha"
       }
      ]
@@ -328,11 +328,11 @@ const PILARES = {
        "h": "#teoria/hf-posmodernidad"
       },
       {
-       "t": "Glosarioa: arrazoi komunikatiboa",
+       "t": "Hiztegia: arrazoi komunikatiboa",
        "h": "#glosario/g-razon-comunicativa"
       },
       {
-       "t": "Glosarioa: hizketa-egoera ideala",
+       "t": "Hiztegia: hizketa-egoera ideala",
        "h": "#glosario/g-situacion-ideal-de-habla"
       },
       {
@@ -414,7 +414,7 @@ const PILARES = {
        "h": "#teoria/hf-platon-superficie"
       },
       {
-       "t": "Glosarioa: Ideien teoria",
+       "t": "Hiztegia: Ideien teoria",
        "h": "#glosario/g-teoria-de-las-ideas"
       },
       {
@@ -444,7 +444,7 @@ const PILARES = {
        "h": "#teoria/hf-aa"
       },
       {
-       "t": "Glosarioa: Ideien baztertzea",
+       "t": "Hiztegia: Ideien baztertzea",
        "h": "#glosario/g-el-rechazo-de-las-ideas"
       },
       {
@@ -478,7 +478,7 @@ const PILARES = {
        "h": "#teoria/hf-platon-agustin"
       },
       {
-       "t": "Glosarioa: nominalismoa",
+       "t": "Hiztegia: nominalismoa",
        "h": "#glosario/g-nominalismo"
       }
      ]
@@ -508,11 +508,11 @@ const PILARES = {
        "h": "#teoria/hf-descartes-simulacion"
       },
       {
-       "t": "Glosarioa: innatismoa",
+       "t": "Hiztegia: innatismoa",
        "h": "#glosario/g-innatismo"
       },
       {
-       "t": "Glosarioa: ideia argiak eta bereiziak",
+       "t": "Hiztegia: ideia argiak eta bereiziak",
        "h": "#glosario/g-ideas-claras-y-distintas-dm"
       }
      ]
@@ -538,11 +538,11 @@ const PILARES = {
        "h": "#teoria/hf-racionalismo"
       },
       {
-       "t": "Glosarioa: inpresioa",
+       "t": "Hiztegia: inpresioa",
        "h": "#glosario/g-impresion"
       },
       {
-       "t": "Glosarioa: ideien arteko harremanak eta gertaerazko gaiak",
+       "t": "Hiztegia: ideien arteko harremanak eta gertaerazko gaiak",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -572,11 +572,11 @@ const PILARES = {
        "h": "#teoria/hf-kant-juicios"
       },
       {
-       "t": "Glosarioa: ideia erregulatzailea",
+       "t": "Hiztegia: ideia erregulatzailea",
        "h": "#glosario/g-idea-regulativa"
       },
       {
-       "t": "Glosarioa: kategoria",
+       "t": "Hiztegia: kategoria",
        "h": "#glosario/g-categoria"
       }
      ]
@@ -606,15 +606,15 @@ const PILARES = {
        "h": "#teoria/hf-sospecha"
       },
       {
-       "t": "Glosarioa: dialektika",
+       "t": "Hiztegia: dialektika",
        "h": "#glosario/g-dialectica"
       },
       {
-       "t": "Glosarioa: dialektika materialista",
+       "t": "Hiztegia: dialektika materialista",
        "h": "#glosario/g-dialectica-materialista"
       },
       {
-       "t": "Glosarioa: idealismoa",
+       "t": "Hiztegia: idealismoa",
        "h": "#glosario/g-fil-idealismo"
       }
      ]
@@ -670,7 +670,7 @@ const PILARES = {
      "limite": "Badakigu aurretik etortzea ez dela nahikoa kausa izateko. Baina zer, bi gauza beti batera badoaz?",
      "enl": [
       {
-       "t": "Glosarioa: kausa faltsua",
+       "t": "Hiztegia: kausa faltsua",
        "h": "#glosario/g-fil-causa-falsa"
       }
      ]
@@ -688,7 +688,7 @@ const PILARES = {
      "limite": "Badakigu zer ez den nahikoa kausa izateko, baina oraindik ez zer den kausa bat. Hori serio galdetzen duen lehen filosofoak kartzela batetik egiten du.",
      "enl": [
       {
-       "t": "Glosarioa: kausa faltsua",
+       "t": "Hiztegia: kausa faltsua",
        "h": "#glosario/g-fil-causa-falsa"
       },
       {
@@ -752,11 +752,11 @@ const PILARES = {
        "h": "#universo"
       },
       {
-       "t": "Glosarioa: lau kausak",
+       "t": "Hiztegia: lau kausak",
        "h": "#glosario/g-las-cuatro-causas"
       },
       {
-       "t": "Glosarioa: Motor ibilgea",
+       "t": "Hiztegia: Motor ibilgea",
        "h": "#glosario/g-motor-inmovil"
       },
       {
@@ -790,7 +790,7 @@ const PILARES = {
        "h": "#teoria/hf-fe-razon"
       },
       {
-       "t": "Glosarioa: bost bideak",
+       "t": "Hiztegia: bost bideak",
        "h": "#glosario/g-cinco-vias"
       }
      ]
@@ -842,11 +842,11 @@ const PILARES = {
        "h": "#teoria/hf-racionalismo"
       },
       {
-       "t": "Glosarioa: ohitura",
+       "t": "Hiztegia: ohitura",
        "h": "#glosario/g-habito"
       },
       {
-       "t": "Glosarioa: ideien arteko harremanak eta gertaerazko gaiak",
+       "t": "Hiztegia: ideien arteko harremanak eta gertaerazko gaiak",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -876,7 +876,7 @@ const PILARES = {
        "h": "#teoria/hf-kant-juicios"
       },
       {
-       "t": "Glosarioa: kategoria",
+       "t": "Hiztegia: kategoria",
        "h": "#glosario/g-categoria"
       }
      ]
@@ -932,7 +932,7 @@ const PILARES = {
        "h": "#teoria/hf-siglo21"
       },
       {
-       "t": "Glosarioa: kausa faltsua",
+       "t": "Hiztegia: kausa faltsua",
        "h": "#glosario/g-fil-causa-falsa"
       }
      ]

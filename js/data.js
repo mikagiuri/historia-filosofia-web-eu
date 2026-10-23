@@ -7927,7 +7927,7 @@ const QUIZZES = {
     "fb": "Teogonian, jatorrizko kaos batetik aurkari-bikoteak sortzen dira; izaki jainkozkoek protagonizatutako kontakizun mitikoa da."
    },
    {
-    "q": "Gaiaren glosarioan, logos terminoak, «hitza» eta «arrazoia» ez ezik, hau ere barne hartzen du…",
+    "q": "Gaiaren hiztegian, logos terminoak, «hitza» eta «arrazoia» ez ezik, hau ere barne hartzen du…",
     "o": [
      "poetek transmititzen dutena onartzeko betebeharra",
      "batzarrak onartutako legeei obeditzea",
@@ -10162,7 +10162,7 @@ const QUIZZES = {
     "fb": "Intelektualismo sokratikoarentzat gaizkia ezjakintasunetik sortzen da: ongia benetan ezagutzen bada, ongi jokatzen da; beraz, konponbidea irakastea da."
    },
    {
-    "q": "Zer esan nahi du areté hitzak gaiaren glosarioaren arabera?",
+    "q": "Zer esan nahi du areté hitzak gaiaren hiztegiaren arabera?",
     "o": [
      "Bertutea: berezko funtzioa gauzatzeko bikaintasuna",
      "Zoriontasun betea: giza ekintza guztien azken helburua",
@@ -11477,7 +11477,7 @@ const QUIZZES = {
     "fb": "Ockhamen labanak agintzen du entitateak beharrik gabe ez biderkatzeko: bi azalpen baliokideren artean, sinpleena."
    },
    {
-    "q": "Zer da egia naturala, gaiaren glosarioaren arabera?",
+    "q": "Zer da egia naturala, gaiaren hiztegiaren arabera?",
     "o": [
      "Arrazoiak iristen duena eta guztientzat eskuragarri dagoena.",
      "Jainkozko errebelazioaren bidez bakarrik ezagutzen dena.",
@@ -13280,7 +13280,7 @@ const QUIZZES = {
      "XX. mendeko neoliberalismoaren asmakizun berri bat"
     ],
     "a": 2,
-    "fb": "Glosarioaren arabera, jabetza pribatua eskubide natural gisa ulertzen da, eta kapitalismoaren oinarria da."
+    "fb": "Hiztegiaren arabera, jabetza pribatua eskubide natural gisa ulertzen da, eta kapitalismoaren oinarria da."
    },
    {
     "q": "Gaiaren aporiaren arabera, zeren mende dago zer sistema politiko iruditzen zaigun «natural»?",
@@ -17346,7 +17346,7 @@ const QUIZZES = {
     "fb": "Herrerok onura lehenesten duen eta planetako baliabideak infinituak balira bezala jokatzen duen sistema kritikatzen du, ekomendekoak garela ahaztuta."
    },
    {
-    "q": "Gaiko glosarioaren arabera, zer lotzen du Yayo Herreroren ekofeminismoak?",
+    "q": "Gaiko hiztegiaren arabera, zer lotzen du Yayo Herreroren ekofeminismoak?",
     "o": [
      "Krisi ekologikoa eta emakumeen zapalkuntza",
      "Langileen borroka eta merkatu librearen defentsa",
@@ -17734,7 +17734,7 @@ const QUIZZES = {
     "fb": "Aurkakoen egitura eta ordena baten bilaketa gordetzen dira, baina naturaz gaindikora eta arbitrariora jotzea baztertzen da."
    },
    {
-    "q": "Gaiaren glosarioan, polisa honela definitzen da:…",
+    "q": "Gaiaren hiztegian, polisa honela definitzen da:…",
     "o": [
      "hiria eta komunitate politikoa",
      "batzarrean hitz egiteko eskubide berdina",
@@ -18477,7 +18477,7 @@ const QUIZZES = {
     "fb": "Aristotelesentzat gizakia materia (gorputza) gehi forma (arima) da: hilemorfismoa."
    },
    {
-    "q": "Gaiaren glosategiaren arabera, zertan datza aldaketa?",
+    "q": "Gaiaren hiztegiaren arabera, zertan datza aldaketa?",
     "o": [
      "Materiaren eta formaren batasunean.",
      "Potentziatik ekintzarako igarotzean.",
@@ -18485,7 +18485,7 @@ const QUIZZES = {
      "Arima filosofiaren bidez araztean."
     ],
     "a": 1,
-    "fb": "Glosategiak aldaketa honela definitzen du: potentziatik (izateko aukera) ekintzarako (haren gauzatzea) igarotzea."
+    "fb": "Hiztegiak aldaketa honela definitzen du: potentziatik (izateko aukera) ekintzarako (haren gauzatzea) igarotzea."
    },
    {
     "q": "Noiz kokatzen du teoriak filosofiaren bira antropologikoa?",
@@ -18627,7 +18627,7 @@ const QUIZZES = {
     "fb": "Bertute etikoak ekintzak errepikatuz eskuratzen diren ohiturak dira; dianoetikoak, berriz, irakaskuntzaren bidez eskuratzen dira."
    },
    {
-    "q": "Nola definitzen du glosategiak «erdibidea»?",
+    "q": "Nola definitzen du hiztegiak «erdibidea»?",
     "o": [
      "Bi kopururen artean kalkulatzen den batez besteko aritmetikoa",
      "Arimaren eta gorputzaren artean gertatzen den oreka",
@@ -18894,7 +18894,7 @@ const QUIZZES = {
     "fb": "Estoizismoa Zenon Zitiokoak sortu zuen."
    },
    {
-    "q": "Gaiaren glosarioan, zer da koiné?",
+    "q": "Gaiaren hiztegian, zer da koiné?",
     "o": [
      "Ezkutuan bizitzearen ideala",
      "Helenismoaren greziera komuna",
@@ -19246,7 +19246,7 @@ const QUIZZES = {
      "Kristautasuna Inperioaren salaketen aurrean defendatu zuten egileen multzoa."
     ],
     "a": 0,
-    "fb": "Glosarioak patristika honela definitzen du: Elizaren lehen pentsalarien tradizioa, fede kristaua greziar eta erromatar kontzeptu-hizkerarekin azaltzen saiatzen dena; Agustin da haren gailurretako bat."
+    "fb": "Hiztegiak patristika honela definitzen du: Elizaren lehen pentsalarien tradizioa, fede kristaua greziar eta erromatar kontzeptu-hizkerarekin azaltzen saiatzen dena; Agustin da haren gailurretako bat."
    },
    {
     "q": "Nola definitzen da eskolastika gaian?",
@@ -22203,7 +22203,7 @@ const QUIZZES = {
     "fb": "Gaiak «heteroaraua» deitzen dio normal gisa aurkezten denari, Butlerren arabera ez baita naturala, errepikatutako arau baten emaitza baizik."
    },
    {
-    "q": "Gaiaren glosarioaren arabera, zer da performatibitatea?",
+    "q": "Gaiaren hiztegiaren arabera, zer da performatibitatea?",
     "o": [
      "Sexuaren esentzia biologiko eta aldaezina",
      "Gizarte-rolen kanpoko debekua",
@@ -22214,7 +22214,7 @@ const QUIZZES = {
     "fb": "Performatibitateak generoa egintza errepikatu gisa izendatzen du: keinuak, arropa eta hitz egiteko moduak errepikatuz egiten dugun zerbait."
    },
    {
-    "q": "Glosarioaren arabera, ekomendekotasunaren ideiak dio…",
+    "q": "Hiztegiaren arabera, ekomendekotasunaren ideiak dio…",
     "o": [
      "gizakia naturatik kanpo dagoen subjektu subiranoa dela",
      "ekonomiak biosferatik at funtzionatzen duela",
@@ -22258,7 +22258,7 @@ const QUIZZES = {
     "fb": "Esparru publikoak informazio fidagarria, eztabaida arrazoitua eta arreta partekatua behar ditu; plataformen logikak baldintza horiek ahultzen ditu sarritan."
    },
    {
-    "q": "Langileak hautatzeko sistema automatiko batek auzo jakin batzuetako hautagaiak baztertzen ditu, datu historiko alboratuetatik ikasten duelako. Glosarioko zer kontzeptuk azaltzen du hori ondoen?",
+    "q": "Langileak hautatzeko sistema automatiko batek auzo jakin batzuetako hautagaiak baztertzen ditu, datu historiko alboratuetatik ikasten duelako. Hiztegiko zer kontzeptuk azaltzen du hori ondoen?",
     "o": [
      "Diskriminazio algoritmikoa",
      "Adostasunaren fabrikazioa",
