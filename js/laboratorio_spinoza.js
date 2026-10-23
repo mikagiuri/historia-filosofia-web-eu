@@ -95,6 +95,83 @@ const LABSPZ = {
   "mundoTiempo": "Praktikakoa: denbora, iraupena eta sorkuntza",
   "mundoSpinoza": "Spinoza, Etika I",
   "mundoReloj": "Denbora, definituta",
+  "mundoAnt": "Kanten antinomiak",
+  "ledeAnt": "Kantek «Arrazoimen hutsaren kritikan» (A426-461 / B454-489) erakutsi zuen arrazoia, mundua osotasun gisa pentsatzean, kontraesanean erortzen dela: munduaren hasierari, bakunari, askatasunari eta izaki beharrezkoari buruz, tesia ere eta antitesia ere froga daitezke. Hemen froga bakoitza bere premisetan banatuta dago: bakoitza berearekin frogatzen da, eta talka egiten dutenak premisak dira (markatu itzazu batera eta ikusiko duzu). Gero datoz irtenbideak: Kantena (lehen biak, tesia eta antitesia biak faltsuak izan daitezke; azken biak, biak egiazkoak) eta Kantek hartu ez zuen beste irtenbide bat, tesiaren premisa uztea. Amaieran, Kanten beraren premisei buruzko eztabaida.",
+  "notaDefsAnt": "Mahaiak antinomien eskeleto logikoa biltzen du, ez Kanten idealismo transzendentala. «Seriea osatuta dago» hemen «ez dago erregresio amaigaberik» gisa irakurtzen da, bost bideetan bezala: interpretazio bat da. Eta mahaiak mundu finituak bakarrik bilatzen dituenez, erregresio amaigabea eta zatiketa amaigabea zirkulu gisa ikusten dira; mundu infinituak Isabellek eraikitzen ditu.",
+  "defsAnt": "Definizioak",
+  "grupoA1": "1. Munduaren hasiera",
+  "grupoA2": "2. Bakuna",
+  "grupoA3": "3. Askatasuna",
+  "grupoA4": "4. Izaki beharrezkoa",
+  "notaPieA": "Gehienez 4 gauza eta 4 uneko munduak bilatzen dira. «Isabellen frogatua» esaten denean, Isabelle/HOLek froga premisa horiekin egiaztatu zuela esan nahi da (Antinomias_matematicas eta Antinomias_dinamicas teoriak). Proposizioak huts egiten duen mundurik aurkitzen ez bada, horrek ez du ezer frogatzen.",
+  "notaSinA": "Mundu finitu batean beti dago lehen une bat, lehen kausa bat eta azken zati bat. Horregatik hasierarik gabeko mundua, erregresio amaigabea eta zatiketa amaigabea ez dira mahaian sartzen: Isabellek zenbaki oso eta naturalekin eraikitzen ditu (modelo_antitesis1, modelo_antitesis2, modelo_antitesis3).",
+  "choqueIsa": "Isabellek frogatzen du premisa hauek edozein munduan talka egiten dutela, mundu infinituan ere ({t}).",
+  "mundoCosmos": "Izatetik kosmosera",
+  "ledeCosmos": "Parmenidesek premisa oso gutxitatik abiatuta arrazoitzen du: den hori, bada, eta ez-izatea ez da. Handik ondorioztatzen du izatea ez dela jaiotzen, ez dela aldatzen eta bat dela. Hemen froga bere premisetan banatuta dago, eta ikusten da zeinek egiten duen lana. Gero datoz haren oinordekoak, bakoitzak premisa desberdin bat askatzen duena: atomistek hutsa onartzen dute; Melisok, ezer askatu gabe, balio ez duen urrats bat ematen du; eta Platonek, Timeon, arazoa bi planotan banatzen du, beti dena eta bilakatzen dena, eta egile bat jartzen du, Demiurgoa.",
+  "notaDefsCosmos": "Hemen gauzak eta uneak daude. «Da» «badago» gisa irakurtzen da: <code>ExisteEn(x, t)</code>, x t unean da. <code>Claro(x, t)</code> alda daitekeen edozein kalitaterena egiten du, B8 zatiko kolore distiratsuarena adibidez. <em>Timeo</em>ko erlazioek ez dute denboraz hitz egiten, hastearena izan ezik.",
+  "defsCosmos": "Definizioak",
+  "grupoC1": "Parmenides: izatea",
+  "grupoC2": "Atomistak: hutsa",
+  "grupoC3": "Meliso: sortu gabekoa",
+  "grupoC4": "Timeoko Demiurgoa",
+  "notaPieC": "Gehienez 4 gauzako eta 3 uneko munduak bilatzen dira. «Isabellen frogatua» esaten denean, Isabelle/HOLek froga premisa horiekin egiaztatu zuela esan nahi da (Parmenides_herederos eta Timeo_demiurgo teoriak). Proposizioak huts egiten duen mundurik aurkitzen ez bada, horrek ez du ezer frogatzen.",
+  "clSiempre": "beti da",
+  "clVacio": "hutsa",
+  "lyHace": "egiten du",
+  "lyCopia": "kopia da",
+  "lyDobleC": "zirkulu bikoitza: beti dena, edo hutsa",
+  "eDeviene": "bilakatzen da",
+  "eVisible": "ikusgarria",
+  "eBello": "ederra",
+  "eBueno": "ona",
+  "eGenerado": "sortua",
+  "ePrincipio": "hasiera duena",
+  "eClaro": "argia {x}-n",
+  "eNuncaClaro": "inoiz ez da argia",
+  "hClaro": "Noiz den argia gauza bakoitza",
+  "hVacio": "Hutsa",
+  "hMeliso": "Sorkuntza eta hasiera",
+  "hDemiurgo": "Demiurgoa",
+  "fClaroV": "{a} argia den uneak: {x}",
+  "fVacio": "{a} hutsa da",
+  "fGenerado": "{a} sortua da",
+  "fPrincipio": "{a}-k hasiera du",
+  "fCopia": "{a} {b}-ren kopia da",
+  "fCopiaSi": "{a} bere buruaren kopia da",
+  "fSiempre": "{a} beti da",
+  "fDeviene": "{a} bilakatzen da",
+  "fVisible": "{a} ikusgarria da",
+  "fBello": "{a} ederra da",
+  "fBueno": "{a} ona da",
+  "infinitoTxt": "Gerta daiteke, baina mundu infinitu batean soilik: mahaiak, lau gauzako munduak bilatzen dituenak, ezin du eraiki. Isabellek bai eraikitzen du ({t}).",
+  "lyCausaInt": "honen kausa adigarria da",
+  "lyCond": "honen baldintza da",
+  "lyFund": "honen oinarri adigarria da",
+  "lyDobleA": "zirkulu bikoitza: askea, baldintzagabea edo bakuna",
+  "clLibre": "aske",
+  "clIncond": "baldintzagabea",
+  "clSimple": "bakuna",
+  "eFen": "fenomenoa",
+  "eEnMundo": "munduan",
+  "eEspacio": "espazioan",
+  "hTiempoMundo": "Noiz existitzen den mundua",
+  "fMundoEn": "Mundua {x} uneetan existitzen da",
+  "fMundoNunca": "Mundua ez da une batean ere existitzen",
+  "hPartes": "Zatiak",
+  "hCondiciones": "Baldintzak",
+  "fParteSi": "{a} bere buruaren zati da",
+  "fCausaInt": "{a} {b}-ren kausa adigarria da",
+  "fCausaIntSi": "{a} bere buruaren kausa adigarria da",
+  "fCond": "{a} {b}-ren baldintza da",
+  "fCondSi": "{a} bere buruaren baldintza da",
+  "fFund": "{a} {b}-ren oinarri adigarria da",
+  "fFundSi": "{a} bere buruaren oinarria da",
+  "fFen": "{a} fenomeno bat da",
+  "fEnMundo": "{a} munduan dago",
+  "fEspacio": "{a}-k espazio bat betetzen du",
+  "tamTiempo": "{k} uneko lerro bat dago, markatutako premisa guztiak betetzen dituena eta non proposizioak huts egiten duen.",
+  "dibujoAriaT": "Denbora-lerroa: kolorez, mundua existitzen den uneak.",
+  "ejeMundo": "uneak (kolorez, mundua existitzen denean)",
   "chocan": "{x} horiek talka egiten dute elkarrekin. Kendu bat eta saiatu berriro: beste talde batek ere talka egin dezake.",
   "chocanTodas": "Denek talka egiten dute aldi berean: edozein kenduz gero, besteak elkarrekin kabitzen dira.",
   "chocanFijas": "Mundu honetan finkatuta dagoenarekin talka egiten dute, premisarik markatu ez arren.",
@@ -986,6 +1063,58 @@ const LABSPZ = {
     "{1} {2} unean existitzen da",
     "{1} ez da {2} unean existitzen"
    ],
+   "Claro": [
+    "{1} argia da {2} unean",
+    "{1} ez da argia {2} unean"
+   ],
+   "Vacio": [
+    "{1} hutsa da",
+    "{1} ez da hutsa"
+   ],
+   "Generado": [
+    "{1} sortua da",
+    "{1} ez da sortua"
+   ],
+   "Principio": [
+    "{1}-k hasiera du",
+    "{1}-k ez du hasierarik"
+   ],
+   "Siempre": [
+    "{1} beti denaren parte da",
+    "{1} ez da beti denaren parte"
+   ],
+   "Deviene": [
+    "{1} bilakatzen da",
+    "{1} ez da bilakatzen"
+   ],
+   "Visible": [
+    "{1} ikusgarria eta ukigarria da",
+    "{1} ez da ikusgarria"
+   ],
+   "Bello": [
+    "{1} ederra da",
+    "{1} ez da ederra"
+   ],
+   "Bueno": [
+    "{1} ona da",
+    "{1} ez da ona"
+   ],
+   "Copia": [
+    "{1} {2}-ren kopia da",
+    "{1} ez da {2}-ren kopia"
+   ],
+   "cambia": [
+    "{1} aldatzen da",
+    "{1} ez da aldatzen"
+   ],
+   "siempreEs": [
+    "{1} beti da",
+    "{1} ez da beti"
+   ],
+   "comienza": [
+    "{1} hasten da",
+    "{1} ez da hasten"
+   ],
    "Antes": [
     "{1} {2} baino lehenago hasi zen",
     "{1} ez zen {2} baino lehenago hasi"
@@ -997,6 +1126,50 @@ const LABSPZ = {
    "Crea": [
     "{1}-k {2} sortu zuen",
     "{1}-k ez zuen {2} sortu"
+   ],
+   "Mundo": [
+    "mundua existitzen da {1}. unean",
+    "mundua ez da existitzen {1}. unean"
+   ],
+   "Parte": [
+    "{1} {2}-ren zati da",
+    "{1} ez da {2}-ren zati"
+   ],
+   "EnEspacio": [
+    "{1}-k espazio bat betetzen du",
+    "{1}-k ez du espaziorik betetzen"
+   ],
+   "Fen": [
+    "{1} fenomeno bat da",
+    "{1} ez da fenomeno bat"
+   ],
+   "CausaInt": [
+    "{1} {2}-ren kausa adigarria da",
+    "{1} ez da {2}-ren kausa adigarria"
+   ],
+   "Cond": [
+    "{1} {2}-ren baldintza da",
+    "{1} ez da {2}-ren baldintza"
+   ],
+   "EnMundo": [
+    "{1} munduan dago",
+    "{1} ez dago munduan"
+   ],
+   "Fund": [
+    "{1} {2}-ren oinarri adigarria da",
+    "{1} ez da {2}-ren oinarri adigarria"
+   ],
+   "incondicionado": [
+    "{1} baldintzagabea da",
+    "{1} ez da baldintzagabea"
+   ],
+   "simple": [
+    "{1} bakuna da",
+    "{1} ez da bakuna"
+   ],
+   "compuesto": [
+    "{1} konposatua da",
+    "{1} ez da konposatua"
    ],
    "Mueve": [
     "{1}-k {2} mugitzen du",
@@ -1241,10 +1414,12 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Zergatik dauden lau mundu",
+    "titulo": "Zergatik dauden sei mundu",
     "parrafos": [
      "Praktikakoa txikia da nahita: edonork uler ditzakeen hiru erlazio, kontua barneratzeko, nahiz eta denbora zer den esan gabe uzten duen. Denbora definituarenak esaten du: uneekin, lehenago hastea, gehiago irautea eta bizirik irautea definitzen dira, eta lehen premisa ziren horiek teorema bihurtzen dira. Spinozarenak <em>Etika</em>ren I. zatia formalizatzen du. Han, H_-rekin hasten diren premisak Spinozak agerikotzat jotzen dituenak dira, eta idazten ez dituenak: geuk gehitu behar izan ditugu bere frogak funtziona dezaten. Bat faltsua iruditzen bazaizu, kendu eta begiratu zer uzten den ondorioztatzeari.",
-     "Bost bideen mahaiak Tomas Akinokoaren argudioak premisetan banatzen ditu. Ia bide guztietan, ondorioa premisa batetik ateratzen da berehala: erregresio amaigabea debekatzen duenetik, «dena izan gabe egon daiteke»tik «noizbait ez zen ezer egon»erako pausotik, edo ezagutzen ez duenak helburu baterantz jotzen duela ezagutzen duen norbaitek zuzentzen badu soilik dioenetik. Hor dago eztabaida."
+     "Bost bideen mahaiak Tomas Akinokoaren argudioak premisetan banatzen ditu. Ia bide guztietan, ondorioa premisa batetik ateratzen da berehala: erregresio amaigabea debekatzen duenetik, «dena izan gabe egon daiteke»tik «noizbait ez zen ezer egon»erako pausotik, edo ezagutzen ez duenak helburu baterantz jotzen duela ezagutzen duen norbaitek zuzentzen badu soilik dioenetik. Hor dago eztabaida.",
+     "Kanten antinomien munduak arrazoiaren lau kontraesanak hartzen ditu, arrazoiak mundua osotasun gisa pentsatzean sortzen direnak: hasiera, bakuna, askatasuna eta izaki beharrezkoa. Tesi eta antitesi bakoitza bere premisarekin frogatzen da, eta talka egiten dutenak premisak dira. Kantek bi irtenbide proposatzen ditu: lehen biak, bi aldeak faltsuak izan daitezke; azken biak, egiazkoak. Badira beste batzuk: tesiaren premisa uztea edo, Hegelekin, kontraesanean errorerik ez ikustea. Mahaiak mundu txikiekin egiaztatzen du, eta Isabellek infinituekin.",
+     "Parmenidesena eta haren oinordekoena, «Izatetik kosmosera», ideia bakar bati jarraitzen dio: argudio beraren aurrean, eskola bakoitzak premisa desberdin bat askatzen du. «Argia ez izatetik» «ez-izatera» egiten den jauziak bat eta higiezina ematen ditu aldi berean; atomistek «hutsa ez da» askatzen dute; Melisok balio ez duen urrats bat ematen du; eta Platonek, <em>Timeo</em>n, arazoa bi planotan banatzen du eta egile bat jartzen du, Demiurgoa."
     ]
    }
   ],
@@ -1301,8 +1476,781 @@ const LABSPZ = {
    "Pasa zaitez «Denbora, definituta» mundura, 5. eta 6. proposizioetara. Zertan bereizten dira bizirik irautea eta gehiago irautea? Begiratu barrei. Gero 7.a: zergatik ez da nahikoa bizirik irautea gehiago irauteko?",
    "Goitibeherako zerrendaren amaieran, «✎ Idatzi zure proposizioa». Idatzi logikan «zerbait sortzen duena sortu gabea da» eta begiratu ondorioztatzen den. Ez bada, zein premisa behar litzateke zuk jarrita? Gehitu «Zure premisak» atalean.",
    "«Bost bideak»en, 1. proposizioa. «Zerbait mugitzen da» soilik hartuta hasi, eta kontraeredu bat ateratzen da: zerk huts egiten du? Markatu «ez dago erregresio amaigaberik» eta probatu berriro. Gero 5.a: non huts egiten du «dena izan gabe egon badaiteke, noizbait ez zen ezer egon» pausoak?",
+   "«Izatetik kosmosera» munduan, 2. proposizioa: zein premisak egiten du lan guztia? Kendu eta probatu 3.a. Gero 6.a, dagoen bezala: zergatik ez da ondorioztatzen Melisok dioena?",
+   "«Kanten antinomiak» munduan, 8. proposizioa. Gero markatu batera «Kausen seriea osatuta dago» eta «Lege naturala»: zer esaten dizu mahaiak? Amaitu 10.ekin: nola sartzen dira biak?",
    "Joan Spinozaren mundura, 5. proposizioa. Markatuta datorren premisarekin kontraeredu bat ateratzen da, Leibnizena. Zein premisa falta da eta zer dio?",
    "14. proposizioa. Kendu banan-banan Isabellek erabilitako premisak. Zein iruditzen zaizu eztabaidagarriena?"
+  ]
+ },
+ "antinomias": {
+  "defs": [
+   {
+    "id": "libre",
+    "origen": "Hirugarren antinomia",
+    "texto": "x askea da, zentzu kosmologikoan: serie bat bere kabuz hasten du; aurreko ezein egoerak ez du zehazten."
+   },
+   {
+    "id": "incondicionado",
+    "origen": "Laugarren antinomia",
+    "texto": "x baldintzagabea da, erabat beharrezkoa: bere existentzia ez dago ezein baldintzaren mende."
+   },
+   {
+    "id": "simple",
+    "origen": "Bigarren antinomia",
+    "texto": "x bakuna da: ez du zatirik."
+   },
+   {
+    "id": "compuesto",
+    "origen": "Bigarren antinomia",
+    "texto": "x konposatua da: zatiren bat du."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "a1",
+    "nom": "1. Munduaren hasiera"
+   },
+   {
+    "id": "a2",
+    "nom": "2. Bakuna"
+   },
+   {
+    "id": "a3",
+    "nom": "3. Askatasuna"
+   },
+   {
+    "id": "a4",
+    "nom": "4. Izaki beharrezkoa"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "T1_sintesis_completa",
+    "grupo": "a1",
+    "que": "Mundu-egoera iraganen seriea osatuta dago: ez dago atzerantz erregresio amaigaberik. Horrela irakurtzen du mahaiak Kanten esaldia: «serie infinitu bat ezin da sintesi jarraituz osatu». Mundu finitu batean, mahaikoetan bezala, beti betetzen da."
+   },
+   {
+    "id": "A1_tiempo_sin_principio",
+    "grupo": "a1",
+    "que": "Denborak ez du lehen unerik: une bakoitzaren aurretik beste bat dago. Mundu infinitu batean bakarrik sartzen da, mahaiak eraiki ezin duena."
+   },
+   {
+    "id": "A1_tiempo_vacio_homogeneo",
+    "grupo": "a1",
+    "que": "Denbora hutsa homogeneoa da: mundua une batean existitzen bada eta aurretik ezer ez bazegoen, ezerk ez du une hori aurreko une huts batetik bereizten; beraz, mundua hartan ere existitu beharko litzateke."
+   },
+   {
+    "id": "M1_hay_mundo",
+    "grupo": "a1",
+    "que": "Mundua uneren batean existitzen da: denboran emandako osotasun bat da."
+   },
+   {
+    "id": "T2_division_acaba",
+    "grupo": "a2",
+    "que": "Zatiketa bukatu egiten da: ez dago amaierarik gabeko zatien zatirik. Horrela irakurtzen du mahaiak Kant: konposizioa substantzien arteko erlazio bat besterik ez da, eta kenduko balitz, zerbait geratu beharko litzateke."
+   },
+   {
+    "id": "M_transitiva",
+    "grupo": "a2",
+    "que": "Zati baten zatia osoaren zati da."
+   },
+   {
+    "id": "M_irreflexiva",
+    "grupo": "a2",
+    "que": "Ezer ez da bere buruaren zati propioa."
+   },
+   {
+    "id": "A2_espacio_divisible",
+    "grupo": "a2",
+    "que": "Espazioa betetzen duenak espazioa ere betetzen duten zatiak ditu: espazioa ez da puntuz osatua, espazioz baizik."
+   },
+   {
+    "id": "M2_hay_espacio",
+    "grupo": "a2",
+    "que": "Zerbaitek espazio bat betetzen du."
+   },
+   {
+    "id": "T3_serie_completa",
+    "grupo": "a3",
+    "que": "Gertatzen denaren kausen seriea osatuta dago: ez dago erregresio amaigaberik."
+   },
+   {
+    "id": "A3_ley_natural",
+    "grupo": "a3",
+    "que": "Lege naturala: gertatzen den guztiak zehazten duen aurreko egoera bat du."
+   },
+   {
+    "id": "S3_ley_de_los_fenomenos",
+    "grupo": "a3",
+    "que": "Lege naturalak fenomenoentzat balio du: fenomeno orok kausa natural bat du, eta hori ere fenomeno bat da."
+   },
+   {
+    "id": "T4_serie_completa",
+    "grupo": "a4",
+    "que": "Existentziaren baldintzen seriea osatuta dago: ez dago erregresio amaigaberik."
+   },
+   {
+    "id": "T4_condicion_en_el_tiempo",
+    "grupo": "a4",
+    "que": "Denboran dagoen zerbait baldintzatzen duena ere denboran dago, munduan. Tesiak eta antitesiak erabiltzen dute."
+   },
+   {
+    "id": "A4_ley_dinamica",
+    "grupo": "a4",
+    "que": "Lege dinamikoa: munduan dagoen guztiak baldintza bat du."
+   },
+   {
+    "id": "M4_hay_mundo",
+    "grupo": "a4",
+    "que": "Mundua badago: zerbait existitzen da bertan."
+   },
+   {
+    "id": "S4_ley_en_el_mundo",
+    "grupo": "a4",
+    "que": "Munduaren barruan, gauza orok baldintza bat du, eta hori ere munduan dago."
+   }
+  ],
+  "debate": {
+   "titulo": "Eta arazoa Kanten premisak badira?",
+   "parrafos": [
+    "Logikak ez du erabakitzen tesia eta antitesia kontraesankorrak ala kontrakoak diren: aurretiazko premisa baten araberakoa da, hots, «mundua» emandako osotasun bat den ala ez. Kantek bere filosofiarekin ebazten du, eta horrek hainbat objekzio irekitzen ditu. Hemen ez da epairik ematen.",
+    "<b>Zirkulu bat?</b> Kantek antinomiak bere idealismo transzendentalaren froga zeharkako gisa aurkezten ditu: mundua gauza bere baitan balitz, arrazoia kontraesanean eroriko litzateke (A506-507 / B534-535). Baina bere irtenbideak jada suposatzen du espazioa eta denbora gure sentiberatasunaren formak direla, eta horregatik mundua ez dago inoiz osorik emana. Antinomiak idealismoari esker desegiten badira, aldi berean haren froga independente izan al daitezke? H. E. Allisonek, <em>Kant's Transcendental Idealism</em> (1983) lanean, premisa ahulago bat nahikoa dela erantzuten du: errealistak mundua bere baitan emandako osotasun bat dela suposatzen du, eta suposizio horrek berak kontraesanera eramaten du.",
+    "<b>Zergatik utzi premisa hori eta ez beste bat?</b> Talka bakoitza hainbat premisatan oinarritzen da, eta mahaiak edozein kentzen uzten du. Kantek emandako mundua uzten du. Tesiaren premisa uzten duenak, «seriea osatuta dago», antitesia gordetzen du antinomiarik gabe: 4b, 7b, 10b eta 14b proposizioak dira, Isabellek zenbaki oso eta naturalekin eraikitzen dituenak. Horrela ikusi zuten, arrazoi desberdinekin, Schopenhauerrek, Cantorrek eta Russellek.",
+    "<b>Eta kontraesana errorea ez bada?</b> G. W. F. Hegelek, <em>Zientzia filosofikoen entziklopedia</em> lanean (48. §), Kanti mundua gehiegi maitatzea egozten dio: mundutik kontraesana kentzen dio arrazoiari egozteko. Hegelentzat, kontraesana gauzetan bertan dago, eta ez dago lau antinomia, kontzeptu guztietan agertzen dira baizik. Mahaiko logika klasikoak ez du irtenbide hori onartzen: bertan, kontraesan batetik edozer ondorioztatzen da.",
+    "Pentsatzeko: mahaian, zein premisa iruditzen zaizu errazagoa uztea antinomia bakoitzean? Lauetan bera al da?"
+   ],
+   "tAntes": "Kanten aurretik",
+   "antes": [
+    "Zenon Eleakoa (K.a. V. mendea): mugimenduaren eta amaierarik gabeko zatiketaren paradoxak, Aristotelesek <em>Fisika</em> lanean jasotzen dituen bezala (VI. liburua).",
+    "Sexto Enpiriko (II. mendea), <em>Esbozos pirrónicos</em>: arrazoibide bakoitzari indar bereko beste bat kontrajartzea (<em>isosthéneia</em>) eta epaia etetea (<em>epokhḗ</em>).",
+    "Maimonides, <em>Nahasien gida</em> (II, 15-25), eta Tomas Akinokoa, <em>Summa Theologiae</em> (I, q. 46, a. 2) eta <em>Sobre la eternidad del mundo</em>: ez munduaren hasiera ez haren betierekotasuna ezin dira frogatu. Kantek zerbait indartsuagoa esango du: biak frogatzen direla.",
+    "P. Bayle, <em>Diccionario histórico y crítico</em> (1697), «Zenon Eleakoa» sarrera: hedadura ezin da osatuta egon ez puntuz, ez atomo hedatuz, ez amaierarik gabe zatigarriak diren zatiz. Ia bigarren antinomia da, baina Baylek federa jo behar dela ondorioztatzen du.",
+    "G. W. Leibniz eta S. Clarke, <em>Correspondencia</em> (1715-1716): munduaren hasiera, espazio absolutua eta askatasuna. S. M. Al-Azmek, <em>The Origins of Kant's Arguments in the Antinomies</em> (1972) lanean, dio Kantek handik hartu zituela bere froga askoren zati handi bat."
+   ]
+  },
+  "props": [
+   {
+    "id": "K1T",
+    "parte": 1,
+    "nombre": "1. Munduak hasiera bat du (tesia)",
+    "cita": "Munduak hasiera bat du denboran, eta espazioan ere mugen barruan itxia dago. (A426 / B454)",
+    "pregunta": "Munduak <b>hasiera</b> bat du denboran: badago une bat non existitzen den eta non aurretik ez zen existitzen.",
+    "pasos": [
+     {
+      "txt": "Demagun munduak ez duela hasierarik: munduaren egoera bakoitzaren aurretik beste bat egon zen.",
+      "k": "hip"
+     },
+     {
+      "txt": "Orduan oraingoz egoeren serie infinitu bat igaro beharko litzateke, eta serie infinitu bat ezin da osatu izan.",
+      "k": "T1_sintesis_completa"
+     },
+     {
+      "txt": "Baina mundua existitzen da. Talka.",
+      "k": "M1_hay_mundo"
+     },
+     {
+      "txt": "Beraz, hasiera bat du. Isabellek frogatzen du (tesis1), sintesi osoa «erregresio amaigaberik ez» gisa irakurrita.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T1_sintesis_completa": "Hori gabe, munduak ez izan dezake hasierarik, baina mundu infinitu batean soilik, zenbaki osoak bezala: mahaiak ezin du eraiki (modelo_antitesis1). Mundu finitu batean beti dago lehen une bat.",
+     "M1_hay_mundo": "Hori gabe, agian ez dago mundurik, eta orduan hasierarik ere ez."
+    }
+   },
+   {
+    "id": "K1A",
+    "parte": 1,
+    "nombre": "2. Munduak ez du hasierarik (antitesia)",
+    "cita": "Munduak ez du hasierarik ez mugarik espazioan, baizik eta infinitua da bai denboran bai espazioan. (A427 / B455)",
+    "pregunta": "Munduak <b>ez du hasierarik</b> denboran.",
+    "pasos": [
+     {
+      "txt": "Demagun mundua une batean hasten dela.",
+      "k": "hip"
+     },
+     {
+      "txt": "Une horren aurretik beste bat egon zen: denbora huts bat.",
+      "k": "A1_tiempo_sin_principio"
+     },
+     {
+      "txt": "Baina denbora hutsean ezein unek ez du beste batetik bereizten: mundua hemen hasi bazen, aurreko unean ere existitu beharko zuen. Talka.",
+      "k": "A1_tiempo_vacio_homogeneo"
+     },
+     {
+      "txt": "Beraz, mundua ez da hasten. Isabellek frogatzen du (antitesis1).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "A1_tiempo_sin_principio": "Hori gabe, denborak lehen une bat izan dezake, eta munduak hartan hasi, aurretik denbora hutsik gabe.",
+     "A1_tiempo_vacio_homogeneo": "Hori gabe, mundua edozein unetan has daiteke, denbora huts baten ondoren."
+    }
+   },
+   {
+    "id": "K1D",
+    "parte": 1,
+    "nombre": "3. Mundua emanda badago, hasten da edo ez",
+    "pregunta": "Mundua osotasun gisa denboran existitzen bada, edo <b>hasiera du</b> edo <b>ez du</b>.",
+    "prueba": "Mundua emanda dagoenean, «hasiera du» eta «ez du hasierarik» kontraesankorrak dira: bietako bat egiazkoa da eta bestea faltsua. Horregatik Kantek bakoitza frogatu dezake bestea errefutatuz: haren froga guztiak absurdora eramatearen bidezkoak dira."
+   },
+   {
+    "id": "K1S",
+    "parte": 1,
+    "posible": true,
+    "nombre": "4. Emandako mundurik gabe, biak erortzen dira (Kanten irtenbidea)",
+    "pregunta": "Gerta daiteke munduak <b>ez hasierarik izatea, ez hasierarik gabea izatea ere</b>.",
+    "nota": "Mundua denboran emandako osotasun bat ez bada gertatzen da. Antinomia matematikoentzat Kantek proposatzen duen irtenbidea da (A501-507 / B529-535): tesia eta antitesia ez dira kontraesankorrak, kontrakoak baizik, «gorputz oro usain onekoa da» eta «gorputz oro usain txarrekoa da» bezala, gorputzek usainik ez badute biak faltsuak direnak. Kantentzat, mundua ez da gauza bere baitan, esperientzien erregresio bat baizik, inoiz osorik emana ez dena. Mahaiak forma logikoa bakarrik erakusten du: aurresuposiziorik gabe, bietako batek ere ez du betetzen.",
+    "notaNo": "Mundua emanda dagoenean ezin da gertatu: 3. proposizioa da."
+   },
+   {
+    "id": "K1C",
+    "parte": 1,
+    "posible": true,
+    "nombre": "4b. Beste irtenbide bat: hasierarik gabeko iragana",
+    "pregunta": "Agian mundua existitzen da eta <b>ez du hasierarik</b>: egoera bakoitzaren aurretik beste bat egon zen, amaierarik gabe.",
+    "nota": "Kantek hartu ez zuen irtenbide bat da: tesiaren premisa uztea, «serie infinitu bat ezin da osatu». G. Cantorren infinitu aktualarekin, igarota dagoen iragan infinitu batek ez dakar kontraesanik, eta antitesiak aurkaririk gabe geratzen da. B. Russellek, <em>Our Knowledge of the External World</em> lanean (1914, VI. hitzaldia), tesien frogak infinituari buruzko errore batean oinarritzen direla defendatu zuen. Isabellek mundu hori zenbaki osoekin eraikitzen du (modelo_antitesis1). Zein premisa utzi behar den, tesiarena ala emandako munduarena, logikak ez du jada erabakitzen.",
+    "notaNo": "Tesiaren premisarekin ezin da gertatu: 1. proposizioa da."
+   },
+   {
+    "id": "K2T",
+    "parte": 2,
+    "nombre": "5. Konposatu orok zati bakunez osatuta dago (tesia)",
+    "cita": "Munduko substantzia konposatu orok zati bakunez osatuta dago, eta inon ez dago bakuna edo bakunez konposatua dena baino besterik. (A434 / B462)",
+    "pregunta": "Konposatu orok <b>zati bakun</b> bat du gutxienez.",
+    "pasos": [
+     {
+      "txt": "Demagun zati bakunik gabeko konposatu bat: haren zati bakoitzak beste zati bat du, eta horrek beste bat, amaierarik gabe.",
+      "k": "hip"
+     },
+     {
+      "txt": "Baina zatiketa bukatu egiten da: konposizioa substantzien arteko erlazio bat besterik ez da, eta kenduko balitz zerbait geratuko litzateke.",
+      "k": "T2_division_acaba"
+     },
+     {
+      "txt": "Iristen den azkena konposatuaren zati da, zati baten zatia zati baita.",
+      "k": "M_transitiva"
+     },
+     {
+      "txt": "Beraz, konposatuak zati bakun bat du. Isabellek frogatzen du (tesis2).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T2_division_acaba": "Hori gabe, mundu finitu batean huts egin dezake zerbait bere buruaren zati bada bakarrik: benetako zatiketa amaigabeak mundu infinitu bat behar du (modelo_antitesis2).",
+     "M_transitiva": "Hori gabe, zatituz iristen den azkena konposatuaren zati ez izan daiteke."
+    }
+   },
+   {
+    "id": "K2A",
+    "parte": 2,
+    "nombre": "6. Ezer ez da bakuna (antitesia)",
+    "cita": "Munduko ezein gauza konposatuk ez du zati bakunik, eta munduan ez dago ezer bakunik. (A435 / B463)",
+    "pregunta": "Espazioa betetzen duen ezer ez da <b>bakuna</b>.",
+    "prueba": "Konposatu orok espazioa betetzen du, eta espazioa ez da puntuz osatua, espazioz baizik: hura betetzen duenak elkarren kanpoko zatiak ditu, eta horiek ere espazioa betetzen dute. Hartan ezer ezin da bakuna izan. Isabellek frogatzen du (antitesis2).",
+    "leccion": {
+     "A2_espacio_divisible": "Hori gabe, espazioan zerbait bakuna izan daiteke, atomo bat bezala."
+    }
+   },
+   {
+    "id": "K2M",
+    "parte": 2,
+    "posible": true,
+    "nombre": "7. Zerbait bakuna eta zati bakunik gabeko konposatu bat (biak huts egiten dute)",
+    "pregunta": "Zerbait bakuna egon daiteke eta, aldi berean, <b>zati bakunik batere ez duen</b> konposatu bat.",
+    "nota": "Mundu horrek tesia eta antitesia aldi berean faltsu egiten ditu: hemen ere ez dira kontraesankorrak, kontrakoak baizik, eta lehenengoan baino argiago, konposatuak daudelako. Kantentzat, gorputz baten zatiketa «zehaztugabera» doa soilik: ez da zati bakunetara iristen, ezta zati infinituak emanda daudenik ere (A523-527 / B551-555). Hori logikak ez du jada egiaztatzen."
+   },
+   {
+    "id": "K2C",
+    "parte": 2,
+    "posible": true,
+    "nombre": "7b. Beste irtenbide bat: amaierarik gabe zatigarria",
+    "pregunta": "Konposatuak egon daitezke eta <b>ezer bakunik ez</b>: zati bakoitzak, aldi berean, zatiak ditu, amaierarik gabe.",
+    "nota": "Berriro ere, tesiaren premisa uztea, «zatiketa bukatu egiten da». A. Schopenhauerrek, <em>Mundua nahimen eta errepresentazio gisa</em> lanari (1819) gehitu zion «Kanten filosofiaren kritikan», lau antinomietan antitesien frogak bakarrik baliozkoak direla defendatzen du, eta tesienak sofismak direla. Jarraituaren matematikak, Cantor eta Dedekindetik, kontraesanik gabe tratatzen du zati infinituak dituen segmentu bat. Isabellek mundu hori zenbaki naturalekin eraikitzen du (modelo_antitesis2).",
+    "notaNo": "Tesiaren premisarekin ezin da gertatu: zatiketa bukatzen bada, zerbait bakuna da."
+   },
+   {
+    "id": "K3T",
+    "parte": 3,
+    "nombre": "8. Askatasunezko kausalitatea dago (tesia)",
+    "cita": "Naturaren legeen araberako kausalitatea ez da munduko fenomeno guztiak ondorioztatu daitezkeen bakarra. Haiek azaltzeko, askatasunezko kausalitate bat ere onartu behar da. (A444 / B472)",
+    "pregunta": "Badago zerbait <b>askea</b>: serie bat bere kabuz hasten du, zehazten duen aurreko egoerarik gabe.",
+    "pasos": [
+     {
+      "txt": "Demagun dena lege naturalen arabera soilik gertatzen dela: egoera bakoitzak zehazten duen aurreko egoera bat du.",
+      "k": "hip"
+     },
+     {
+      "txt": "Orduan kausen serieak ez du inoiz lehen hasierarik.",
+      "k": "hip"
+     },
+     {
+      "txt": "Baina kausen seriea osatuta egon behar da: ezer ez da gertatzen nahikoa zehaztutako kausarik gabe. Talka.",
+      "k": "T3_serie_completa"
+     },
+     {
+      "txt": "Beraz, badago serie bat bere kabuz hasten duen kausa bat: askatasunezko kausalitate bat. Isabellek frogatzen du (tesis3).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T3_serie_completa": "Hori gabe, kausak zirkuluan joan daitezke, eta gertaera orok bere kausa du. Isabellek, gainera, erregresio amaigabea eraikitzen du zenbaki osoekin (modelo_antitesis3)."
+    }
+   },
+   {
+    "id": "K3A",
+    "parte": 3,
+    "nombre": "9. Dena lege naturalen arabera gertatzen da (antitesia)",
+    "cita": "Ez dago askatasunik, baizik eta munduan dena naturaren legeen arabera soilik gertatzen da. (A445 / B473)",
+    "pregunta": "Ezer ez da <b>askea</b>: orok zehazten duen aurreko egoera bat du.",
+    "prueba": "Kausa aske batek serie bat hasiko luke legearen arabera zehaztuko lukeen aurreko egoerarik gabe. Horrek kausalitatearen legea hausten du eta, harekin, esperientziaren batasuna. Isabellek frogatzen du (antitesis3).",
+    "leccion": {
+     "A3_ley_natural": "Hori gabe, gertaeraren bat bere kabuz has daiteke."
+    }
+   },
+   {
+    "id": "K3S",
+    "parte": 3,
+    "posible": true,
+    "nombre": "10. Askatasuna eta natura, aldi berean (Kanten irtenbidea)",
+    "pregunta": "Agian badago <b>fenomeno ez den</b> zerbait, askea, fenomenoen kausa adigarria dena, nahiz eta fenomeno bakoitzak bere kausa naturala izan.",
+    "nota": "Antinomia dinamikoentzat Kantek proposatzen duen irtenbidea da (A532-558 / B560-586): antitesiak fenomenoentzat balio du eta tesiak adigarriarentzat. Bi kausalitate desberdinekin, fenomenoen arteko naturalarekin eta kanpotik datorren adigarriarekin, biak batera sartzen dira: hemen ez dira biak faltsuak, matematikoetan bezala, biak egiazkoak baizik. Mundu finitu batean, fenomenoen arteko kausalitate naturala zirkuluan ateratzen da; Isabellek zirkulurik gabe eraikitzen du, zenbaki osoekin (solucion3). Kausa adigarri hori existitzen den ala ez, logikak ez du erabakitzen: kontraesanik ez dagoela bakarrik erakusten du.",
+    "notaNo": "Premisa hauekin ezin da gertatu."
+   },
+   {
+    "id": "K3C",
+    "parte": 3,
+    "posible": true,
+    "nombre": "10b. Beste irtenbide bat: lehen kausarik gabeko kausak",
+    "pregunta": "Agian guztiak bere kausa du, <b>zirkulurik gabe eta lehen kausarik gabe</b>: amaierarik gabeko erregresio bat.",
+    "nota": "Tesiaren premisa uztea, «kausen seriea osatuta dago», antitesia bakarrik uzten du: guztia lege naturalen arabera gertatzen da, eta ez da beharrezkoa seriea hasten duen kausa aske bat. Isabellek zenbaki osoekin eraikitzen du (modelo_antitesis3). Orduan giza askatasunarentzat lekurik geratzen den, beste galdera bat da, eta logikak ez du erabakitzen.",
+    "notaNo": "Tesiaren premisarekin ezin da gertatu: badago zerbait aske (8. proposizioa)."
+   },
+   {
+    "id": "K4T",
+    "parte": 4,
+    "nombre": "11. Munduari zerbait beharrezkoa dagokio (tesia)",
+    "cita": "Munduari zerbait dagokio, bere zati gisa nahiz bere kausa gisa, erabat beharrezkoa den izaki bat dena. (A452 / B480)",
+    "pregunta": "Munduan badago zerbait <b>baldintzagabea</b>, erabat beharrezkoa.",
+    "pasos": [
+     {
+      "txt": "Demagun munduan dagoen guztiak baldintza bat duela.",
+      "k": "hip"
+     },
+     {
+      "txt": "Baina baldintzen seriea osatuta dago: zerbait baldintzagabera iritsi behar da.",
+      "k": "T4_serie_completa"
+     },
+     {
+      "txt": "Denboran dagoen zerbait baldintzatzen duena denboran dago: baldintzagabea munduari dagokio.",
+      "k": "T4_condicion_en_el_tiempo"
+     },
+     {
+      "txt": "Eta mundua badago. Talka.",
+      "k": "M4_hay_mundo"
+     },
+     {
+      "txt": "Beraz, munduari zerbait erabat beharrezkoa dagokio. Isabellek frogatzen du (tesis4). Kontuz: «munduko gauza bakoitzak baldintza bat du» horretatik ez da ondorioztatzen «mundu osoak bere kanpoan baldintza bat du». Kantek kritikatzen duen argudio kosmologikoaren urratsa da, eta egiaztatzeko gauza-multzoez hitz egin behar da, goi-mailako logikan (el_todo_no_tiene_condicion_exterior).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T4_serie_completa": "Hori gabe, baldintzak zirkuluan joan daitezke, eta munduko ezer ez da baldintzagabea.",
+     "T4_condicion_en_el_tiempo": "Hori gabe, baldintzagabea munduaren kanpoan egon daiteke, eta tesiak ez du jada esaten munduari dagokionik.",
+     "M4_hay_mundo": "Hori gabe, agian ez dago mundurik."
+    }
+   },
+   {
+    "id": "K4A",
+    "parte": 4,
+    "nombre": "12. Munduko ezer ez da beharrezkoa (antitesia)",
+    "cita": "Inon ez dago erabat beharrezko izakirik, ez munduan ez munduaren kanpoan haren kausa gisa. (A453 / B481)",
+    "pregunta": "Munduan dagoen ezer ez da <b>baldintzagabea</b>.",
+    "prueba": "Munduaren barruan lege dinamikoak agintzen du: bertan dagoen guztiak baldintza bat du. Isabellek frogatzen du (antitesis4_en_el_mundo).",
+    "leccion": {
+     "A4_ley_dinamica": "Hori gabe, munduko zerbaitek baldintzarik ez izan dezake."
+    }
+   },
+   {
+    "id": "K4F",
+    "parte": 4,
+    "nombre": "13. Munduaren kanpoko ezerk ez du baldintzatzen (antitesia)",
+    "pregunta": "<b>Munduaren kanpoan</b> dagoen ezer ez da munduko zerbaiten baldintza.",
+    "prueba": "Kanpoko zerbaitek munduko zerbait baldintzatuko balu, serie bat hasiko luke denboran eta, beraz, munduan egongo litzateke. Tesiak erabiltzen zuen premisa bera da: «denboran dagoen zerbait baldintzatzen duena denboran dago». Isabellek frogatzen du (antitesis4_fuera).",
+    "leccion": {
+     "T4_condicion_en_el_tiempo": "Hori gabe, munduaren kanpoko zerbaitek munduko zerbait baldintza dezake."
+    }
+   },
+   {
+    "id": "K4S",
+    "parte": 4,
+    "posible": true,
+    "nombre": "14. Denboratik kanpoko oinarri bat (Kanten irtenbidea)",
+    "pregunta": "Agian badago <b>munduaren kanpoan</b> zerbait, baldintzagabea, munduko guztiaren oinarri adigarria dena, nahiz eta munduaren barruan guztiak bere baldintza izan.",
+    "nota": "Kantek ez du «denboran dagoen zerbait baldintzatzen duena denboran dago» premisa oinarri adigarriari aplikatzen, ez baita denborazko baldintza bat. Horrela sartzen dira tesia, adigarriarena, eta antitesia, fenomenoena (A559-565 / B587-593). Oinarri hori existitzen den ala ez, eta erlijioak Jainkoa deitzen diona den ala ez, logikak ez du jada erabakitzen: Kantek arrazoimen praktikoari uzten dio. Isabellek zirkulurik gabeko mundua eraikitzen du (solucion4).",
+    "notaNo": "Premisa hauekin ezin da gertatu."
+   },
+   {
+    "id": "K4C",
+    "parte": 4,
+    "posible": true,
+    "nombre": "14b. Beste irtenbide bat: izaki beharrezkorik gabeko katea",
+    "pregunta": "Agian munduko guztiak bere baldintza du, kanpoko ezerk ez du baldintzatzen eta <b>ezer ez da beharrezkoa</b>.",
+    "nota": "Kleantesen objekzioa da D. Humeren <em>Erlijio naturalari buruzko elkarrizketak</em> lanean (1779, IX. zatia): betiko kate bateko kide bakoitzak bere azalpena badu, osotasunaren kausaz galdetzea sobera dagoen galdera bat da. Nahikoa da tesiaren premisa uztea, «baldintzen seriea osatuta dago». Isabellek mundu hori zenbaki osoekin eraikitzen du (modelo_antitesis4). Eztabaida irekia, epairik gabe.",
+    "notaNo": "Seriea osatuta dagoela ezin da gertatu: munduko zerbait baldintzagabea litzateke (salida4_con_serie_completa)."
+   }
+  ]
+ },
+ "cosmos": {
+  "defs": [
+   {
+    "id": "cambia",
+    "origen": "Parmenides, B8",
+    "texto": "x aldatzen da: argia da une batean eta ez da argia beste batean."
+   },
+   {
+    "id": "siempreEs",
+    "origen": "Parmenides, B8",
+    "texto": "x beti da: une guztietan existitzen da."
+   },
+   {
+    "id": "comienza",
+    "origen": "Timeo, 28b",
+    "texto": "x hasten da: une batean existitzen da, eta aurreko inongo unetan ez."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "c1",
+    "nom": "Parmenides: izatea"
+   },
+   {
+    "id": "c2",
+    "nom": "Atomistak: hutsa"
+   },
+   {
+    "id": "c3",
+    "nom": "Meliso: sortu gabekoa"
+   },
+   {
+    "id": "c4",
+    "nom": "Timeoko Demiurgoa"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "P_no_ser",
+    "grupo": "c1",
+    "que": "Ez-izatea ez da: den hori une guztietan da; ezer ez da hasten, ezta izateari uzten ere (B6, B8)."
+   },
+   {
+    "id": "P_salto_otro",
+    "grupo": "c1",
+    "que": "Beste bat izatea ez-izatea da: x ez bada y, orduan x ez da. «y ez izatea» «ez-izatea» soil gisa irakurtzea da."
+   },
+   {
+    "id": "P_salto_cambio",
+    "grupo": "c1",
+    "que": "Argia izateari uzteak ez-izatea dakar: x une batean argia ez bada, une horretan x ez da."
+   },
+   {
+    "id": "P_sin_vacio",
+    "grupo": "c2",
+    "que": "Hutsa ez da: ezer ez da hutsa."
+   },
+   {
+    "id": "P_separa",
+    "grupo": "c2",
+    "que": "Bi izaki bereizten dira soilik haien artean huts den zerbait badago. Horrela irakurtzen ditu Aristotelesek eleatarrak."
+   },
+   {
+    "id": "M_generado_principio",
+    "grupo": "c3",
+    "que": "Sortuak hasiera du."
+   },
+   {
+    "id": "M_no_generado",
+    "grupo": "c3",
+    "que": "Izatea ez da sortua."
+   },
+   {
+    "id": "M_conversa",
+    "grupo": "c3",
+    "que": "Hasiera duena sortua da. Lehenengoaren alderantzizkoa da, eta Melisok ez du esaten."
+   },
+   {
+    "id": "D_dos_planos",
+    "grupo": "c4",
+    "que": "Ezer ez da beti eta aldi berean bilakatzen: bi plano dira (27d-28a)."
+   },
+   {
+    "id": "D_causa",
+    "grupo": "c4",
+    "que": "Bilakatzen den guztia kausaren batengatik bilakatzen da (28a)."
+   },
+   {
+    "id": "D_visible",
+    "grupo": "c4",
+    "que": "Ikusgarria eta ukigarria bilakatzen da (28b-c)."
+   },
+   {
+    "id": "D_bello",
+    "grupo": "c4",
+    "que": "Ikusgarria, kosmosa, ederra da (29a)."
+   },
+   {
+    "id": "D_hacedor_bueno",
+    "grupo": "c4",
+    "que": "Ikusgarria egiten duena ona da (29a)."
+   },
+   {
+    "id": "D_modelo",
+    "grupo": "c4",
+    "que": "Eginak ederra bada eta egileak ona, beti den eredu bati begira egin zuen (29a)."
+   },
+   {
+    "id": "U_dos_copias",
+    "grupo": "c4",
+    "que": "Eredu beraren bi kopia balira, bakoitza bi horiek hartuko lituzkeen beste eredu baten kopia izango litzateke (31a)."
+   },
+   {
+    "id": "U_un_modelo",
+    "grupo": "c4",
+    "que": "Kopia bakoitza eredu bakar baten kopia da, osoarena (31b)."
+   },
+   {
+    "id": "L_literal",
+    "grupo": "c4",
+    "que": "Eginak hasten da. Horrela irakurtzen du Aristotelesek Timeoko «izatera iritsi da» (<em>gégonen</em>)."
+   }
+  ],
+  "debate": {
+   "titulo": "Zenon, eta logikak erabakitzen ez duena",
+   "parrafos": [
+    "<b>Zenon eta dikotomia.</b> Parmenides defendatzeko, Zenonek mugimendua ezinezkoa dela argudiatzen du: estadio bat zeharkatzeko lehenago erdia zeharkatu behar da, eta lehenago geratzen denaren erdia, eta horrela amaierarik gabe (Aristoteles, <em>Fisika</em>, VI 9, 239b11-14). Erantzun matematiko modernoa da amaierarik gabeko erdiek distantzia finitu bat batzen dutela: 1/2 + 1/4 + 1/8 + … = 1. Isabellek frogatzen du (dicotomia); mahaiak ezin du, mundu infinitu bat beharko litzatekeelako. Horrek benetan Zenoni erantzuten dion, hark galdetzen zuelako nola osatzen den amaierarik gabeko serie bat, eztabaidatzen jarraitzen da: Kanten lehen antinomiaren galdera bera da.",
+    "<b>Zein premisa askatu?</b> Parmenidesen aurrean, oinordeko bakoitzak bat desberdina askatzen du: atomistek, «hutsa ez da»; Platonek, «argia ez izatetik» «ez-izatera» doan jauzia; Enpedoklesek eta Anaxagorasek, «ezer ez da aldatzen», eta honen ordez dagoenaren nahasketa eta banaketa jartzen dute. Inork ez du askatzen «ezer ez da ezerezetik sortzen». Logikak esaten du zein premisak egiten duten talka; zein askatu behar den, filosofiak erabakitzen du.",
+    "<b>Kontakizun egiantzekoa.</b> Platonek bere kosmologiari <em>eikṑs mŷthos</em> deitzen dio, kontakizun egiantzekoa (29d). Mahaiak bere egitura erakusten du eta zein premisak egiten duten lana, ez egia den ala ez. Eztabaida irekia, epairik gabe.",
+    "Pentsatzeko: Demiurgoak kosmosa egiten du, baina nork egiten du Demiurgoa? 7. proposizioko zein premisak eragozten edo ahalbidetzen du hori?"
+   ]
+  },
+  "props": [
+   {
+    "id": "C1",
+    "parte": 1,
+    "nombre": "1. Ezer ez da aldatzen",
+    "cita": "Horregatik izen hutsa izango da hilkorrek egiazkotzat ezarri duten guztia: jaiotzea eta hiltzea, izatea eta ez-izatea, lekuz aldatzea eta kolore distiratsua mudatzea. (B8, 38-41)",
+    "pregunta": "Ezer ez da <b>aldatzen</b>: argia dena beti da argia, eta argia ez dena, inoiz ez.",
+    "pasos": [
+     {
+      "txt": "Suposa dezagun x une batean argia dela eta beste batean ez.",
+      "k": "hip"
+     },
+     {
+      "txt": "Argia ez den unean, x ez da: «argia ez izatetik» «ez-izatera» egiten den jauzia da.",
+      "k": "P_salto_cambio"
+     },
+     {
+      "txt": "Baina ez-izatea ez da: x une guztietan da. Talka.",
+      "k": "P_no_ser"
+     },
+     {
+      "txt": "Beraz, ezer ez da aldatzen. Isabellek frogatzen du (inmovil_mesa).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "P_salto_cambio": "Hori gabe, zerbait aldatu eta izaten jarraitu daiteke: argia izateari uzteak ez du esan nahi izateari uztea. Platonek <em>Sofista</em>n duen irtenbidea da (3. proposizioa).",
+     "P_no_ser": "Hori gabe, zerbait aldatu daiteke argia ez denean izateari uzten badio. Parmenidesek ez luke onartuko."
+    }
+   },
+   {
+    "id": "C2",
+    "parte": 1,
+    "nombre": "2. Izatea bat da",
+    "cita": "Ez zen inoiz izan, ez izango da, orain baita, oro batera, bat, jarraitua. (B8, 5-6)",
+    "pregunta": "Dena <b>gauza bera</b> da: ez dago bi gauza.",
+    "pasos": [
+     {
+      "txt": "Suposa dezagun bi gauza desberdin daudela, x eta y.",
+      "k": "hip"
+     },
+     {
+      "txt": "x ez da y, eta jauziak dio orduan x ez dela.",
+      "k": "P_salto_otro"
+     },
+     {
+      "txt": "Baina ez-izatea ez da. Talka.",
+      "k": "P_no_ser"
+     },
+     {
+      "txt": "Beraz, gauza bakar bat dago. Isabellek frogatzen du (uno_mesa). Jauzi beraz, «beste bat izatea» eta «argia ez izatea» gaiei aplikatuta, bat eta higiezina ematen dira: Isabellen, bi kasuak goi-mailako premisa bakar batetik ateratzen dira (salto_casos).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "P_salto_otro": "Hori gabe, gauza asko egon daitezke: beste bat izateak ez du ez-izatea esan nahi.",
+     "P_no_ser": "Hori gabe, bi gauza egon daitezke, baina bat ere ez litzateke inoiz izango."
+    }
+   },
+   {
+    "id": "C3",
+    "parte": 1,
+    "posible": true,
+    "nombre": "3. Aldatzen diren gauza asko, ez-izatera jo gabe (Sofistaren irtenbidea)",
+    "pregunta": "Egon daitezke <b>bi gauza</b> beti direnak, eta horietako bat <b>aldatzea</b>.",
+    "nota": "Gertatzen da jauzia askatzen bada: «argia ez izatea» «argiaz bestelakoa izatea» esan nahi du, ez «batere ez izatea». Platonek <em>Sofista</em>n (241d) egiten duena da, «gure aita Parmenidesen» arrazoibidea probatu behar dela dioenean: parrizidio deritzona. Parmenidesek jauzi horrekin arrazoitu zuela interpretazio bat da, iruzkintzaile batzuek defendatua, G. E. L. Owenek bezala, eta beste batzuek eztabaidatua. Isabellek mundu hori eraikitzen du (sin_el_salto).",
+    "notaNo": "Jauziarekin ezin da gertatu: 1. proposizioa da."
+   },
+   {
+    "id": "C4",
+    "parte": 2,
+    "nombre": "4. Hutsik gabe, den hori bat da",
+    "cita": "Zaharretako batzuek uste zuten den hori nahitaez bat eta higiezina dela: hutsa ez da, eta ezin liteke gauza asko egon haiek bereizten dituen zerbaitik gabe. (Aristoteles, Sorkuntzari eta ustelketari buruz, I 8, 325a2-6)",
+    "pregunta": "Hutsa ez dena <b>gauza bakar bat</b> da.",
+    "prueba": "Bi izaki balira, huts den zerbaitek bereiziko lituzke; baina hutsa ez da. Isabellek frogatzen du (uno_sin_vacio). Bat izatera doan beste bide bat da, jauzirik gabea: Aristotelesen irakurketarena.",
+    "leccion": {
+     "P_sin_vacio": "Hori gabe, izaki asko egon daitezke haien artean hutsarekin: atomisten irtenbidea da (5. proposizioa).",
+     "P_separa": "Hori gabe, bi izaki elkarrekin egon daitezke tartean ezer gabe."
+    }
+   },
+   {
+    "id": "C5",
+    "parte": 2,
+    "posible": true,
+    "nombre": "5. Atomo asko eta hutsa (atomisten irtenbidea)",
+    "cita": "Leuzipok eta bere lagun Demokritok diote elementuak betea eta hutsa direla, eta bata izatea eta bestea ez-izatea deitzen dutela; horregatik diote ere izatea ez dela ez-izatea baino gehiago. (Aristoteles, Metafisika, I 4, 985b4-8)",
+    "pregunta": "Egon daitezke <b>bi izaki</b> eta <b>huts</b> den zerbait.",
+    "nota": "Atomistek onartzen dute bi izaki hutsaren bidez soilik bereizten direla, eta «hutsa ez da» askatzen dute. Parmenidesen beste premisa bat gordetzen dute: ezer ez da ezerezetik sortzen. Atomoak ez dira jaiotzen ez hiltzen; hutsean zehar mugitzen dira soilik. Isabellek mundu hori eraikitzen du (muchos_con_vacio) eta mugimendua duen beste bat (atomistas).",
+    "notaNo": "Hutsik gabe ezin da gertatu: 4. proposizioa da."
+   },
+   {
+    "id": "C6",
+    "parte": 3,
+    "nombre": "6. Sortu gabekoak ez du hasierarik (Meliso)",
+    "cita": "Ez zenez jaio, bada, eta beti zen eta beti izango da, eta ez du hasierarik ez amaierarik, infinitua baita. (Meliso, B2)",
+    "pregunta": "Ezerk ez du <b>hasierarik</b>.",
+    "pasos": [
+     {
+      "txt": "Izatea ez da sortua.",
+      "k": "M_no_generado"
+     },
+     {
+      "txt": "Hasiera duena sortua da. Hau da behar den premisa, eta Melisok ez du esaten.",
+      "k": "M_conversa"
+     },
+     {
+      "txt": "Beraz, izateak ez du hasierarik. Isabellek frogatzen du alderantzizkoarekin (Meliso_con_la_conversa).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "M_conversa": "Hori gabe ez da ondorioztatzen: zerbaitek hasiera izan dezake sortua izan gabe. Aristotelesek seinalatzen dion akatsa da (<em>Ezeztapen sofistikoak</em>, 5, 167b13-20): «sortuak hasiera du» esatetik «sortu gabeak ez du» esatera igarotzen da Meliso, eta hori aurrekoa ukatzea da (falacia_de_Meliso).",
+     "M_no_generado": "Hori gabe, zerbait sortua izan eta hasiera izan dezake."
+    }
+   },
+   {
+    "id": "C7",
+    "parte": 4,
+    "nombre": "7. Ikusgarriak egile bat du",
+    "cita": "Bilakatzen den guztia nahitaez kausaren batengatik bilakatzen da. (Timeo, 28a)",
+    "pregunta": "<b>Ikusgarri</b> guztiak du <b>egiten</b> duen norbait.",
+    "pasos": [
+     {
+      "txt": "Hartu zerbait ikusgarria.",
+      "k": "hip"
+     },
+     {
+      "txt": "Ikusgarria eta ukigarria bilakatzen da.",
+      "k": "D_visible"
+     },
+     {
+      "txt": "Bilakatzen denak kausa bat du.",
+      "k": "D_causa"
+     },
+     {
+      "txt": "Beraz, ikusgarriak egile bat du, Demiurgoa. Isabellek frogatzen du (hay_hacedor_mesa). Tomasen bigarren bidearen forma bera da, baina hemen ez da esaten egilea bakarra denik ezta kausarik ez duenik ere.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "D_visible": "Hori gabe, ikusgarri den zerbait ez bilakatu daiteke, eta ez du kausarik behar.",
+     "D_causa": "Hori gabe, zerbait kausarik gabe bilakatu daiteke."
+    }
+   },
+   {
+    "id": "C8",
+    "parte": 4,
+    "nombre": "8. Kosmosak eredu betierekoa kopiatzen du",
+    "cita": "Kosmos hau ederra bada eta bere egilea ona, agerikoa da betierekoari begiratu ziola. (Timeo, 29a)",
+    "pregunta": "Ikusgarri guztia <b>beti den eredu bati begira</b> egina dago.",
+    "prueba": "Ikusgarriak egile bat du (7. proposizioa). Ikusgarria ederra da eta bere egilea ona; eta norbait onak egindako ederrak eredu betierekoa kopiatzen du. Isabellek frogatzen du (modelo_eterno_mesa). Premisa horietako bi ez dira gertakarizkoak, balioarenak baizik: Platonek gehitzen du bestela pentsatzea ez dela zilegi, ezta esatea ere.",
+    "leccion": {
+     "D_hacedor_bueno": "Hori gabe, egilea ez izan daiteke ona eta ez kopiatu eredu betierekorik (sin_hacedor_bueno).",
+     "D_bello": "Hori gabe, ikusgarria ez izan daiteke ederra, eta ezerk ez du eredu betierekoa behartzen.",
+     "D_modelo": "Hori gabe, egile on batek zerbait eder egin dezake eredurik gabe.",
+     "D_causa": "Hori gabe, ikusgarriak ez izan dezake egilerik.",
+     "D_visible": "Hori gabe, ikusgarria ez bilakatu eta egilerik ez izan daiteke."
+    }
+   },
+   {
+    "id": "C9",
+    "parte": 4,
+    "nombre": "9. Eredua ez da bilakatzen",
+    "cita": "Zer da beti dena eta sorkuntzarik ez duena, eta zer beti bilakatzen dena eta inoiz ez dena? (Timeo, 27d-28a)",
+    "pregunta": "<b>Beti</b> dena ez da <b>bilakatzen</b>.",
+    "prueba": "Bi plano dira: beti dena eta sorkuntzarik ez duena, eta beti bilakatzen dena eta inoiz ez dena. Isabellek frogatzen du (el_modelo_no_deviene). Platonek Parmenidesen aurrean egindako jokaldia da: ez aldatzea plano batean balio du, eta aldaketa, bestean. Kantek antzeko zerbait egingo du antinomia dinamikoetan.",
+    "leccion": {
+     "D_dos_planos": "Hori gabe, zerbait beti izan eta aldi berean bilakatu daiteke: planoak nahasten dira."
+    }
+   },
+   {
+    "id": "C10",
+    "parte": 4,
+    "nombre": "10. Kosmos bakar bat dago",
+    "cita": "Ondo esan al dugu zeru bakar bat dagoela, ala zuzenagoa zen asko eta infinitu direla esatea? Bat, ereduaren arabera eginda egon behar badu. (Timeo, 31a)",
+    "pregunta": "Eredu beraren bi kopia <b>bera</b> dira.",
+    "pasos": [
+     {
+      "txt": "Suposa dezagun eredu beraren bi kopia desberdin daudela.",
+      "k": "hip"
+     },
+     {
+      "txt": "Bakoitza bi horiek hartuko lituzkeen beste eredu baten kopia izango litzateke.",
+      "k": "U_dos_copias"
+     },
+     {
+      "txt": "Baina kopia bakoitza eredu bakar baten kopia da. Talka.",
+      "k": "U_un_modelo"
+     },
+     {
+      "txt": "Beraz, kosmos bakar bat dago. Isabellek frogatzen du (un_solo_cosmos_mesa). Atzerabideko argudio bat da, Platonen <em>Parmenides</em>eko «hirugarren gizonaren» lehengusua (132a-b).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "U_dos_copias": "Hori gabe, bi kosmosek eredu bera kopiatu dezakete (sin_dos_copias): argudioaren pisu osoa premisa honetan dago.",
+     "U_un_modelo": "Hori gabe, kopia bat aldi berean bi ereduren kopia izan daiteke."
+    }
+   },
+   {
+    "id": "C11",
+    "parte": 4,
+    "posible": true,
+    "nombre": "11. Eginak eta hasierarik gabe (Xenokratesen irakurketa)",
+    "pregunta": "Egon daiteke <b>egina</b> den zerbait, existitzen dena eta <b>hasten ez dena</b>.",
+    "nota": "Horrela irakurtzen zuten <em>Timeo</em> Xenokratesek eta, geroago, neoplatonikoek: «izatera iritsi da» (<em>gégonen</em>) esan nahi du «kausa baten mende dago», ez «une batean hasi zen»; eta Platonek hasten dela bezala kontatuko luke hobeto irakasteko. Aristotelesek irakurketa hori baztertzen du (<em>Zeruari buruz</em>, I 10, 279b32-280a11). Kosmos kausatu eta betierekoak infinitu une behar ditu atzerantz: Isabellek zenbaki osoekin eraikitzen du (lectura_dependencia). Konparatu Tomas Akinokoarekin, «Bost bideak»n: berarentzat, arrazoi hutsak ez du erabakitzen mundua hasi den ala ez.",
+    "notaNo": "Irakurketa literalarekin ezin da gertatu: eginak hasten da."
+   },
+   {
+    "id": "C12",
+    "parte": 4,
+    "posible": true,
+    "nombre": "12. «Aurretik» gabeko hasiera: denbora kosmosarekin jaiotzen da",
+    "cita": "Denbora, beraz, zerurekin batera jaio zen, batera jaioak batera desegin daitezen ere, inoiz desegiten badira. (Timeo, 38b)",
+    "pregunta": "Egon daiteke zerbait <b>hasten</b> dena eta, hala ere, <b>beti</b> dena: ez dago existitzen ez zen unerik.",
+    "nota": "Platonen erantzuna da: denbora «betikotasunaren irudi higikorra» da (37d) eta kosmosarekin jaiotzen da. Kosmosak lehen une bat du, baina ez dago haren aurretik denbora hutsik. Horrela irakurketa literala sar daiteke denbora hutsaren eragozpenik gabe: Platonek Kanten lehen antinomiako A1_tiempo_sin_principio premisa askatzen du. Agustinek ere esango du <em>Aitorpenak</em> lanean (XI): Jainkoak sortu aurretik zer egiten zuen galdetzeak ez du zentzurik, ez baitzegoen aurretik. Isabellek egiaztatzen du (tiempo_con_el_cosmos).",
+    "notaNo": "Premisa hauekin ezin da gertatu."
+   }
   ]
  },
  "vias": {

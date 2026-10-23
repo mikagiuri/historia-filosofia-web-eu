@@ -471,6 +471,14 @@ const LOG_ITIN = {
      "h": "#logica/spinoza"
     },
     {
+     "t": "Laborategia, «Spinoza», «Kanten antinomiak» mundua: tesia, antitesia, Kanten irtenbidea eta beste batzuk",
+     "h": "#logica/spinoza"
+    },
+    {
+     "t": "Laborategia, «Spinoza», «Izatetik kosmosera» mundua: Parmenides, haren oinordekoak eta Demiurgoa",
+     "h": "#logica/spinoza"
+    },
+    {
      "t": "Bost bideak eta nondik datozen",
      "h": "#teoria/hf-cinco-vias"
     }
