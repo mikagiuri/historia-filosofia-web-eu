@@ -350,7 +350,7 @@ const LOG_ITIN = {
      "h": "#logica/relaciones"
     },
     {
-     "t": "Laborategia, «Spinoza»: berrikuspeneko propietate-mapa",
+     "t": "Laborategia, «Mundu posibleak»: errepasoko propietateen mapa",
      "h": "#logica/spinoza"
     }
    ],
@@ -416,15 +416,15 @@ const LOG_ITIN = {
    "meta": "zer den frogapen-laguntzaile bat, kontraereduak bilatzea eta premisak kentzea zeintzuk behar diren ikusteko, eta zure proposizioak eta premisak idaztea.",
    "pasos": [
     {
-     "t": "Laborategia, «Spinoza»: «Isabelleri buruz, eta eskerrak»",
+     "t": "Laborategia, «Mundu posibleak»: «Isabelleri buruz, eta eskerrak»",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laborategia, «Spinoza», praktika-mundua: denbora, iraupena eta sorkuntza",
+     "t": "Laborategia, «Mundu posibleak», praktikako teoria: denbora, iraupena eta sorkuntza",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laborategia, «Spinoza», «Denbora, definituta» mundua",
+     "t": "Laborategia, «Mundu posibleak», «Denbora, definituta» teoria",
      "h": "#logica/spinoza"
     },
     {
@@ -438,10 +438,10 @@ const LOG_ITIN = {
    "guia": {
     "obj": "Frogapen-laguntzaile batek zer egiten duen ulertzea, kontraeredu-bilatzailea erabiltzea zein premisa behar diren ikusteko, eta zure proposizioak idaztea.",
     "rec": [
-     "«Spinoza» mahaia, «Isabelleri buruz, eta eskerrak»: zer egiaztatzen duen Isabellek eta zer ez.",
-     "Praktika-mundua: mahaiaren «hasteko ibilbidea», hurrenez hurren.",
-     "«Denbora, definituta» mundua: 9. eta 10. proposizioak.",
-     "«✎ Idatzi zure proposizioa» bi munduetatik edozeinetan."
+     "«Mundu posibleak» mahaia, «Isabelleri buruz, eta eskerrak»: zer egiaztatzen duen Isabellek eta zer ez.",
+     "Praktikako teoria: mahaiaren «hasteko ibilbidea», ordenan.",
+     "«Denbora, definituta» teoria: 9. eta 10. proposizioak.",
+     "«✎ Idatzi zure proposizioa» bi teorietako edozeinetan."
     ],
     "preg": [
      "Praktika-munduan, 2. proposizioa: sakatu «Ondorioztatzen al da?» dagoen bezala. Zein premisa falta da? Gehitu eta probatu berriro.",
@@ -467,15 +467,15 @@ const LOG_ITIN = {
    "meta": "argudio ospetsu bat bere premisetan banatzea, urrats bakoitzean zeinek egiten duen lana ikustea eta eragozpenek non jartzen duten hatza.",
    "pasos": [
     {
-     "t": "Laborategia, «Spinoza», «Bost bideak» mundua",
+     "t": "Laborategia, «Mundu posibleak», «Bost bideak» teoria",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laborategia, «Spinoza», «Kanten antinomiak» mundua: tesia, antitesia, Kanten irtenbidea eta beste batzuk",
+     "t": "Laborategia, «Mundu posibleak», «Kanten antinomiak» teoria: tesia, antitesia, Kanten irtenbidea eta besteak",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laborategia, «Spinoza», «Izatetik kosmosera» mundua: Parmenides, haren oinordekoak eta Demiurgoa",
+     "t": "Laborategia, «Mundu posibleak», «Izatetik kosmosera» teoria: Parmenides, haren oinordekoak eta Demiurgoa",
      "h": "#logica/spinoza"
     },
     {
@@ -490,7 +490,7 @@ const LOG_ITIN = {
     "obj": "Argudio ospetsu bat bere premisetan banatzea, urrats bakoitzean zeinek egiten duen lana eta objekzioek non jartzen duten hatza ikustea, funtsezko auziari buruzko epairik eman gabe.",
     "rec": [
      "Irakurri «Bost bideak eta nondik datozen» esplorazioa.",
-     "«Spinoza» mahaia, «Bost bideak» mundua: bide bakoitza bere premisekin.",
+     "«Mundu posibleak» mahaia, «Bost bideak» teoria: bide bakoitza bere premisekin.",
      "5. eta 9. proposizioak: bilatu haien kontraereduak.",
      "Definizioen azpian dagoen oharra, «berezko» kausei eta denborari buruzkoa."
     ],
@@ -518,7 +518,7 @@ const LOG_ITIN = {
    "meta": "Etikaren I. zatia sistema gisa irakurtzea, egileak idazten ez dituen premisak aurkitzea, zeintzuk soberan dauden eta zeintzuk talka egiten duten ikustea, eta programa batek obra oso bat egiaztatzeak zer esan nahi duen ulertzea.",
    "pasos": [
     {
-     "t": "Laborategia, «Spinoza», «Spinoza, Etika I» mundua: geruzak, «Soberan al dago premisaren bat?» eta «Idatzi zure proposizioa»",
+     "t": "Laborategia, «Mundu posibleak», «Spinoza, Etika I» teoria: geruzak, «Soberan al dago premisaren bat?» eta «Idatzi zure proposizioa»",
      "h": "#logica/spinoza"
     }
    ],
@@ -528,7 +528,7 @@ const LOG_ITIN = {
    "guia": {
     "obj": "Etikaren I. zatia sistema gisa irakurtzea, Spinozak idazten ez dituen premisak aurkitzea, zein dauden soberan eta zeinek egiten duten talka ikustea, eta programa batek obra oso bat egiaztatzeak zer esan nahi duen ulertzea.",
     "rec": [
-     "«Spinoza» mahaia, «Spinoza, Etika I» mundua: hasi lehen geruzatik.",
+     "«Mundu posibleak» mahaia, «Spinoza, Etika I» teoria: hasi lehen geruzatik.",
      "Aukeratu proposizio bat eta sakatu «Soberan al dago premisaren bat?».",
      "Bilatu H_ hasiera duen premisa bat (Spinozak idazten ez dituenak) eta irakurri lasai.",
      "«✎ Idatzi zure proposizioa» Etikaren terminoekin."
