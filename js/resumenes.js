@@ -972,7 +972,7 @@ const RESUMENES = [
     "items": [
      {
       "t": "Denak denen aurkako gerra",
-      "d": "«Gizakia otso da gizakiarentzat.»"
+      "d": "«Gizakia otsoa da gizakiarentzat»: Hobbesek ospetsu egin zuen Plautoren esaldia."
      },
      {
       "t": "Subirano absolutu bat: Leviatana",

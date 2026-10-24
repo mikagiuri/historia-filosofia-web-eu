@@ -2310,8 +2310,8 @@ const RAYUELA_HF = {
     17.8,
     10.6
    ],
-   "titulo": "Isabel Bohemiakoak Descartesi idazten dio",
-   "texto": "Haga, 1643. Isabel Bohemiakoak, hogeita lau urteko printzesa erbesteratu batek, galdera bat idazten dio Descartesi, eta hark ez daki ondo erantzuten: arimak lekurik hartzen ez badu eta hedadurarik ez badu, nola mugi dezake gorputza? Descartesek guruin pinealaz hitz egiten du; bera ez da konbentzitzen.",
+   "titulo": "Elisabet Bohemiakoak Descartesi idazten dio",
+   "texto": "Haga, 1643. Elisabet Bohemiakoak, hogeita lau urteko printzesa erbesteratu batek, galdera bat idazten dio Descartesi, eta hark ez daki ondo erantzuten: arimak lekurik hartzen ez badu eta hedadurarik ez badu, nola mugi dezake gorputza? Descartesek guruin pinealaz hitz egiten du; bera ez da konbentzitzen.",
    "pregunta": "Nork du arrazoia?",
    "opciones": [
     {

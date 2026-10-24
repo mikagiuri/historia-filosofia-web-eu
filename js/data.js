@@ -12932,7 +12932,7 @@ const QUIZZES = {
      "Hobbesek berekoia ikusten du; Rousseauk, ona, gizarteak usteltzen duen arte."
     ],
     "a": 3,
-    "fb": "Hobbesentzat, Estaturik gabe gizakia berekoia da («otsoa gizakiarentzat»); Rousseaurentzat berez ona da, eta gizarteak usteltzen du."
+    "fb": "Hobbesentzat, Estaturik gabe gizakia berekoia da («otsoa gizakiarentzat», berak ospetsu egin zuen Plautoren esaldiaren arabera); Rousseaurentzat berez ona da, eta gizarteak usteltzen du."
    },
    {
     "q": "Antzinako tradizioaren zer ideia jartzen dute zalantzan kontraktualista modernoek?",
@@ -13067,15 +13067,15 @@ const QUIZZES = {
     "fb": "Hertsapena Estatuak legeak betearazteko indarra erabiltzea da (hemen, zigorra)."
    },
    {
-    "q": "Norena da «gizakia otsoa da gizakiarentzat» esaldia?",
+    "q": "Zein filosofo modernok egin zuen ezagun Plautoren «gizakia otsoa da gizakiarentzat» esaldia?",
     "o": [
-     "Makiavelorekin.",
-     "Rousseaurena.",
-     "Lockerena.",
-     "Hobbesena."
+     "Makiavelo.",
+     "Rousseau.",
+     "Locke.",
+     "Hobbes."
     ],
     "a": 3,
-    "fb": "Esaldiak Hobbesek naturazko egoeraz duen ikuspegia laburbiltzen du: Estaturik gabe, berekoikeriak denen aurkako denen gerrara darama."
+    "fb": "Esaldia Plautorena da (Asinaria), baina Hobbesek egin zuen ospetsu Herritarraz (De cive) lanean (1642): haren ustez, Estaturik gabe, berekoikeriak denen aurkako denen gerrara darama."
    },
    {
     "q": "Zer egilek idatzi zuen «Printzea», non boterea den bezala deskribatzen duen?",

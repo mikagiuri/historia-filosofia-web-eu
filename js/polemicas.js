@@ -698,7 +698,7 @@ const POLEMICAS = [
   },
   "fuerte_a": "Argi pentsa dezaket nire gogoa gorputzik batere gabe, eta gorputza pentsamendurik batere gabe; bereizita pentsa daitekeena bereizita existi daiteke.",
   "fuerte_b": "Neure buruaz pentsa dezakedan arren nire gorputzaz pentsatu gabe, horrek ez du frogatzen gorputza ez naizenik: «paseatzen ari naiz» horretatik ez da ondorioztatzen «paseo bat naiz», eta, era berean, pentsatzetik ez da ondorioztatzen zer motatako gauzak pentsatzen duen.",
-  "desenlace": "Descartesek puntuz puntu erantzun zuen, eta dualismoa defendatzen jarraitu zuen; Gassendik liburu oso batekin erantzun zion (Disquisitio metaphysica). Gogo inmaterial batek gorputz bat nola mugitzen duen galdera Isabel Bohemiakoarekin itzuli zen, eta irekita jarraitzen du gogoaren filosofian.",
+  "desenlace": "Descartesek puntuz puntu erantzun zuen, eta dualismoa defendatzen jarraitu zuen; Gassendik liburu oso batekin erantzun zion (Disquisitio metaphysica). Gogo inmaterial batek gorputz bat nola mugitzen duen galdera Elisabet Bohemiakoarekin itzuli zen, eta irekita jarraitzen du gogoaren filosofian.",
   "trucos": "Gassendik «Oi, Gogo!» iseka batekin zuzentzen zion hitza Descartesi, eta Descartesek «Oi, Haragi!» deituz erantzun zion; Hobbesekin, berriz, haren erantzunak laburrak eta lehorrak izan ziren.",
   "fuentes": [
    {

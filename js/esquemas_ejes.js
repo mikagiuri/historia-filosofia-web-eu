@@ -198,7 +198,7 @@ const EA_EJES = {
      "Makiavelo; Hobbes, Locke eta Rousseau kontratualistak; Montesquieu, boterea nola mugatu pentsatzen duena.",
      "Boterearen jatorri jainkotiar edo naturalarekin haustura: gizartea giza borondatearen emaitza da. Lockek eskubide naturalak Jainkoarengan oinarritzen ditu; Hobbesek mekanikoki arrazoitzen du.",
      "Natura egoera ez da gertaera historikoa, esperimentu filosofikoa baizik: botere politikoa arrazionalki justifikatzeko eredua.",
-     "Otsoa gizakiarentzat, berekoia (Hobbes); arrazoizkoa, bizitzarako, askatasunerako eta jabetzarako eskubideekin (Locke); berez ona, gizarteak usteltzen duena (Rousseau).",
+     "Berekoia, otsoa gizakiarentzat (Hobbes, Plautoren hitzekin); arrazoizkoa, bizitzarako, askatasunerako eta jabetzarako eskubideekin (Locke); berez ona, gizarteak usteltzen duena (Rousseau).",
      "Segurtasuna ematen duen botere absolutua (Leviatana), gobernu mugatua eta ezeztagarria (Locke), herri-subiranotasuna eta borondate orokorra (Rousseau), botere banaketa (Montesquieu).",
      "Makiavelok boterea den bezala deskribatzen du, ez izan beharko lukeen bezala (fortuna eta virtù); Hobbesek politika zientzia berriaren begirada mekanikoaz azaltzen du.",
      "Liberalismoaren eta zuzenbide-estatuaren oinarria; oihartzuna AEBetako Independentzia Deklarazioan (1776); legitimotasunaren irizpidea: boterearen jatorria, helburua eta muga."

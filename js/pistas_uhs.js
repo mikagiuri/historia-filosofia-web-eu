@@ -2393,7 +2393,7 @@ const PISTAS = [
     "repaso": [
      "Planteatu al dut substantzien komunikazioaren arazoa: erabaki batek eskua mugitzen du, eta zauri batek mina sortzen du?",
      "Azaldu al dut Descartesen erantzuna: guruin pineala, garunean, elkartzen diren lekua dela?",
-     "Aipatu al ditut Isabel Bohemiakoaren eragozpena eta geroko konponbideak (okasionalismoa, Spinozaren monismoa, Leibnizen harmonia aurrez ezarria)?"
+     "Aipatu al ditut Elisabet Bohemiakoaren eragozpena eta geroko konponbideak (okasionalismoa, Spinozaren monismoa, Leibnizen harmonia aurrez ezarria)?"
     ],
     "intro": [
      "Eskua altxatzea erabakitzen duzu, eta eskua altxatu egiten da. Ziztada bat hartzen duzu, eta mina sentitzen duzu. Ezer arruntagorik ez. Baina gogoak lekurik betetzen ez badu eta gorputzak pentsatzen ez badu, nola da posible? Saiatu korapiloa non dagoen ikusten."
@@ -2402,7 +2402,7 @@ const PISTAS = [
      "Gogoratu: res cogitans eta res extensa ez dute ezer komunean. Batak ez du lekurik betetzen; bestea ukipenaren bidez bakarrik mugitzen da.",
      "Hala ere, esperientziak erakusten du <strong>elkarri eragiten diotela</strong>: borondateak gorputza mugitzen du, eta gorputzak sentsazioak eta pasioak sortzen ditu gogoan. Hori da <strong>substantzien komunikazioaren arazoa</strong>.",
      "Descartesek <strong>guruin pinealean</strong> kokatzen du batasuna, garunaren erdian: han mugituko lituzke arimak «animalia-espirituak», eta han jasoko lituzke haien mugimenduak.",
-     "<strong>Isabel Bohemiakoa</strong> printzesak eragozpen hau jartzen dio: nola bultza dezake hedadurarik gabeko zerbaitek gorputz bat? Erantzunak ez zuen konbentzitu, eta haren ondorengoek beste batzuk bilatu zituzten: <strong>okasionalismoa</strong> (Malebranche), Spinozaren <strong>monismoa</strong> eta Leibnizen <strong>harmonia aurrez ezarria</strong>."
+     "<strong>Elisabet Bohemiakoa</strong> printzesak eragozpen hau jartzen dio: nola bultza dezake hedadurarik gabeko zerbaitek gorputz bat? Erantzunak ez zuen konbentzitu, eta haren ondorengoek beste batzuk bilatu zituzten: <strong>okasionalismoa</strong> (Malebranche), Spinozaren <strong>monismoa</strong> eta Leibnizen <strong>harmonia aurrez ezarria</strong>."
     ],
     "comprobacion": {
      "pregunta": "Zer da dualismo kartesiarraren arazo nagusia?",
@@ -2445,17 +2445,17 @@ const PISTAS = [
       ],
       "cita": {
        "texto": "«Esan diezadazula eskatzen dizut nola determina ditzakeen gizakiaren arimak gorputzaren espirituak borondatezko ekintzak egitera, substantzia pentsatzaile bat besterik ez izanik.»",
-       "fuente": "Isabel Bohemiakoa, Descartesi 1643ko maiatzean idatzitako gutuna (frantsesetik egindako itzulpen propioa)"
+       "fuente": "Elisabet Bohemiakoa, Descartesi 1643ko maiatzean idatzitako gutuna (frantsesetik egindako itzulpen propioa)"
       },
       "definicion": [
        "<strong>Arazoa</strong> → gogoak hedadurarik ez badu eta gorputza ukipenaren bidez bakarrik mugitzen bada, elkarreragina ezinezkoa dirudi, nahiz eta une oro bizi dugun.",
-       "<strong>Descartesen erantzuna</strong> → guruin pineala, non arima gorputzarekin elkartzen den; eta, Isabeli idatzitako gutunetan, batasuna nozio primitibo gisa, pentsatuz baino gehiago bizituz ezagutzen dena.",
+       "<strong>Descartesen erantzuna</strong> → guruin pineala, non arima gorputzarekin elkartzen den; eta, Elisabeti idatzitako gutunetan, batasuna nozio primitibo gisa, pentsatuz baino gehiago bizituz ezagutzen dena.",
        "<strong>Eragozpena</strong> → Isabelek ez du ikusten nola bultza dezakeen zerbait ez-materialak zerbait materiala; errazagoa iruditzen zaio arimari materia eta hedadura egoztea.",
        "<strong>Beste irtenbide batzuk</strong> → Malebranche: Jainkoak mugitzen du gorputza borondatearen kariaz (okasionalismoa); Spinoza: gogoa eta gorputza substantzia bakar baten bi atributu dira; Leibniz: Jainkoak hasieratik sinkronizatu zituen. Eztabaidak gaur egun ere jarraitzen du gogoaren filosofian."
       ],
       "comprobacion": {
        "boton": "Egiaztatuz amaitu",
-       "pregunta": "Zer eragozpen jartzen dio Isabel Bohemiakoak Descartesi?",
+       "pregunta": "Zer eragozpen jartzen dio Elisabet Bohemiakoak Descartesi?",
        "opciones": [
         [
          "Ez dela ulertzen nola mugi dezakeen gorputza substantzia pentsatzaile huts batek, hedadurarik gabeak.",
@@ -2487,7 +2487,7 @@ const PISTAS = [
   "cierre": {
    "titulo": "Descartesen substantziak azaltzeko gai zara jada",
    "parrafos": [
-    "Substantzia existitzeko beste gauzaren beharrik ez duena da: zentzu hertsian, Jainkoa bakarrik (substantzia infinitua), ideia argi eta bereizien egia bermatzen duena. Substantzia finituak res cogitans dira, zeinaren atributua pentsamendua den, eta res extensa, zeinaren atributua hedadura den. Gizakia bien batasuna da, eta arazo handia da nola eragiten dioten elkarri (guruin pineala, Isabel Bohemiakoaren eragozpena).",
+    "Substantzia existitzeko beste gauzaren beharrik ez duena da: zentzu hertsian, Jainkoa bakarrik (substantzia infinitua), ideia argi eta bereizien egia bermatzen duena. Substantzia finituak res cogitans dira, zeinaren atributua pentsamendua den, eta res extensa, zeinaren atributua hedadura den. Gizakia bien batasuna da, eta arazo handia da nola eragiten dioten elkarri (guruin pineala, Elisabet Bohemiakoaren eragozpena).",
     "USErako: alderatu Descartesen dualismoa Spinozaren monismoarekin (substantzia bakarra) eta Hobbesen materialismoarekin (gorputzak baino ez)."
    ],
    "siguiente": "spinoza-naturaleza"
@@ -3134,16 +3134,16 @@ const PISTAS = [
     "repaso": [
      "Esan al dut, Spinozarentzat, ezer ez dela gizakiarentzat beste gizaki bat baino baliagarriagoa?",
      "Azaldu al dut arrazoiak gidatzen dituztenak bat datozela, besteentzat norbere buruarentzat nahi dutena nahi dutelako?",
-     "Kontrajarri al dut haren «gizakia jainko bat da gizakiarentzat» formula Hobbesen «otsoari»?"
+     "Kontrajarri al dut haren «gizakia jainko bat da gizakiarentzat» formula Hobbesek ezagun egin zuen Plautoren «otsoari»?"
     ],
     "intro": [
-     "Hobbesek, Spinozaren garaikideak, uste zuen, bakoitzak berea bilatzen badu, gizakia otsoa dela gizakiarentzat. Spinozak ere norberaren interesetik abiatzen da. Pentsatu nora iristen den."
+     "Hobbesek, Spinozaren garaikideak, uste zuen, bakoitzak berea bilatzen badu, gizakia otsoa dela gizakiarentzat (berak ospetsu egin zuen Plautoren esaldia). Spinozak ere norberaren interesetik abiatzen da. Pentsatu nora iristen den."
     ],
     "pistas": [
      "Gogoratu: Spinozarentzat, norberaren probetxua bilatzea ez da bizio bat; bertutearen oinarria da.",
      "Galdetu zeure buruari zer den baliagarriena zure potentzia kontserbatzeko eta handitzeko. Gauza bat, ala norbait?",
      "Spinozak erantzuten du <strong>ezer ez dela gizakiarentzat gizakia baino baliagarriagoa</strong>, batez ere arrazoiak gidatzen duena: ondo pentsatzen duten bik elkarren artean bateragarriak diren gauzak nahi dituzte.",
-     "Horregatik, arrazoiak gidatzen dituztenek <strong>ez dute beren buruarentzat besteentzat nahi ez dutenik nahi</strong>. Hobbesen otsoaren aurrean, Spinozak idazten du «gizakia jainko bat dela gizakiarentzat»."
+     "Horregatik, arrazoiak gidatzen dituztenek <strong>ez dute beren buruarentzat besteentzat nahi ez dutenik nahi</strong>. Hobbesek ezagun egin zuen otsoaren aurrean (esaldia Plautorena da), Spinozak idazten du «gizakia jainko bat dela gizakiarentzat»."
     ],
     "comprobacion": {
      "pregunta": "Zergatik ez dakar, Spinozaren arabera, norberaren probetxua bilatzeak elkarren aurka jartzea?",
@@ -3189,7 +3189,7 @@ const PISTAS = [
       "definicion": [
        "Spinozak ez ditu kontrajartzen norberaren interesa eta morala: norberarentzat baliagarria dena bilatzea, arrazoiaren azpian, bertutea da.",
        "Baina arrazoiak erakusten du bakoitzarentzat baliagarriena arrazoiak gidatzen duen beste gizaki bat dela: elkarrekin ahaltsuagoak dira bereizita baino. Horregatik besteentzat nahi dute beren buruarentzat nahi dutena.",
-       "Pasioek, ordea, elkarren aurka jartzen gaituzte: haietan gizakiak desados daude. Hobbesen «otsoaren» aurrean, hura eusteko subirano bat behar duenaren aurrean, Spinozak konfiantza du arrazoiak adiskidetasuna sortuko duela."
+       "Pasioek, ordea, elkarren aurka jartzen gaituzte: haietan gizakiak desados daude. Hobbesek ospetsu egin zuen Plautoren «otsoak» subirano bat behar du hari eusteko; horren aurrean, Spinozak konfiantza du arrazoiak adiskidetasuna sortuko duela."
       ],
       "comprobacion": {
        "boton": "Egiaztatuz amaitu",
@@ -3212,7 +3212,7 @@ const PISTAS = [
         [
          "Inoiz ez: gizakia otsoa da gizakiarentzat.",
          false,
-         "Hori Hobbesen tesia da, Spinozak buelta ematen diona."
+         "Hori da Hobbesek Plautoren esaldiarekin ospetsu egin zuen ikuspegia, eta Spinozak buelta ematen dio."
         ]
        ],
        "ok": "Zuzen: arrazoiak batzen du; pasioek bereizten dute.",

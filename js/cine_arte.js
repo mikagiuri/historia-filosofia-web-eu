@@ -77,7 +77,7 @@ const CINE = [
   "t": "Eulien erregea",
   "year": 1990,
   "autor": "Harry Hook",
-  "q": "Hobbesen naturazko egoera: itunik gabe, «gizakia otsoa da gizakiarentzat».",
+  "q": "Hobbesen naturazko egoera: itunik gabe, «gizakia otsoa da gizakiarentzat» (berak ospetsu egin zuen Plautoren esaldia).",
   "esc": "Maskorra hitz egiteko txandaren ikur gisa, eta Jacken taldeak hura mespretxatzen duen unea.",
   "pregs": [
    "Zer adierazten du maskorrak, eta zergatik galtzen du bere boterea?",

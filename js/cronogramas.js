@@ -1489,7 +1489,7 @@ const CRONOGRAMAS = [
     "grp": 3
    },
    {
-    "name": "Isabel Bohemiakoa",
+    "name": "Elisabet Bohemiakoa",
     "start": 1618,
     "end": 1680,
     "note": "Descartesekin eztabaidatzen du arimaren eta gorputzaren batasuna",

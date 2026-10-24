@@ -112,7 +112,7 @@ const MAPS = {
   "subject": "hf",
   "tema": "Filosofiaren Historia · Filosofia politiko modernoa",
   "title": "Gizarte-kontratua",
-  "md": "# Gizarte-kontratua\n## Ideia\n- Boterea ez dator Jainkoagandik, baizik eta banakoen arteko **itun** batetik\n- **Naturazko egoeratik** **gizarte zibilera**\n## Hobbes — absolutismoa\n- Naturazko egoera: **denen aurkako denen gerra**\n- *«Gizona otsoa da gizonarentzat»*\n- Botere **osoa** subiranoari lagatzen zaio: **Leviatana**\n- Xedea: **segurtasuna**\n## Locke — liberalismoa\n- Eskubide naturalak: bizitza, askatasuna eta **jabetza**\n- Boterea **mugatua** eta errebokagarria da\n- **Botereen banaketa**; monarkia parlamentarioa\n- Xedea: eskubideak babestea\n## Rousseau — demokrazia\n- Giza izakia **on** jaiotzen da; gizarteak ustelarazten du\n- **Borondate orokorra** — herriaren subiranotasuna\n- Xedea: **askatasuna** eta berdintasuna"
+  "md": "# Gizarte-kontratua\n## Ideia\n- Boterea ez dator Jainkoagandik, baizik eta banakoen arteko **itun** batetik\n- **Naturazko egoeratik** **gizarte zibilera**\n## Hobbes — absolutismoa\n- Naturazko egoera: **denen aurkako denen gerra**\n- *«Gizakia otsoa da gizakiarentzat»* (Plauto; Hobbesek egin zuen ezagun)\n- Botere **osoa** subiranoari lagatzen zaio: **Leviatana**\n- Xedea: **segurtasuna**\n## Locke — liberalismoa\n- Eskubide naturalak: bizitza, askatasuna eta **jabetza**\n- Boterea **mugatua** eta errebokagarria da\n- **Botereen banaketa**; monarkia parlamentarioa\n- Xedea: eskubideak babestea\n## Rousseau — demokrazia\n- Giza izakia **on** jaiotzen da; gizarteak ustelarazten du\n- **Borondate orokorra** — herriaren subiranotasuna\n- Xedea: **askatasuna** eta berdintasuna"
  },
  "map-utilitarismo-liberalismo": {
   "subject": "hf",

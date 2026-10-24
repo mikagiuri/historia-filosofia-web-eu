@@ -800,7 +800,7 @@ const INFOGRAFIAS = {
   "title": "THOMAS<br><em>HOBBES</em>",
   "kicker": "Filosofiaren Historia · Hobbes",
   "subtitle": "Beldurraren kontratua",
-  "tagline": "Homo homini lupus",
+  "tagline": "Homo homini lupus (Plauto)",
   "author": "1588–1679",
   "ghost": "Leviathan",
   "portrait": "hobbes.jpg",
@@ -817,7 +817,7 @@ const INFOGRAFIAS = {
      },
      {
       "t": "Denak denen aurkako gerra",
-      "p": "«Gizakia otso da gizakiarentzat»; bizitza bakartia, pobrea eta laburra da."
+      "p": "Plautoren esaldiak dioen bezala, «gizakia otsoa da gizakiarentzat»; bizitza bakartia, pobrea eta laburra da."
      },
      {
       "t": "Ituna",

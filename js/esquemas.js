@@ -3550,7 +3550,7 @@ const ESQUEMAS = {
   "block": "B",
   "tema": "Gizarte-kontratua",
   "title": "Gizarte-kontratua",
-  "mermaid": "flowchart TD\n  center[\"GIZARTE-KONTRATUA\"]:::axis\n  idea[\"Naturazko egoeratik gizartera<br>itun baten bidez\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"tesi komuna\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"«homo homini lupus»\"]\n  hob -->|\"ematen duen ituna\"| h2[\"Leviatan:<br>monarkia absolutua\"]\n  loc --> l1[\"eskubide naturalak:<br>bizitza, askatasuna, jabetza\"]\n  loc -->|\"ematen duen ituna\"| l2[\"monarkia parlamentarioa<br>+ botere-banaketa\"]\n  rou --> r1[\"borondate orokorra\"]\n  rou -->|\"ematen duen ituna\"| r2[\"batzar-demokrazia\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
+  "mermaid": "flowchart TD\n  center[\"GIZARTE-KONTRATUA\"]:::axis\n  idea[\"Naturazko egoeratik gizartera<br>itun baten bidez\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"tesi komuna\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"«homo homini lupus»<br>(Plauto, Hobbesek ezagun egina)\"]\n  hob -->|\"ematen duen ituna\"| h2[\"Leviatan:<br>monarkia absolutua\"]\n  loc --> l1[\"eskubide naturalak:<br>bizitza, askatasuna, jabetza\"]\n  loc -->|\"ematen duen ituna\"| l2[\"monarkia parlamentarioa<br>+ botere-banaketa\"]\n  rou --> r1[\"borondate orokorra\"]\n  rou -->|\"ematen duen ituna\"| r2[\"batzar-demokrazia\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
   "v2": {
    "pregunta": "Gizartea naturala ez bada, zergatik obeditzen diogu botereari eta zer muga ditu?",
    "raiz": "GIZARTE-KONTRATUA",
@@ -3576,7 +3576,7 @@ const ESQUEMAS = {
       {
        "rel": "naturazko egoera",
        "t": "Denak denen aurkako gerra",
-       "d": "«Gizakia otso da gizakiarentzat.»"
+       "d": "«Gizakia otsoa da gizakiarentzat»: Hobbesek ospetsu egin zuen Plautoren esaldia."
       },
       {
        "rel": "kontratuak sortzen du",
