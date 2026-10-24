@@ -12,7 +12,7 @@
      epocas         →  Fichas · Cronogramas · Genealogías   (epocas / cronogramas / genealogias)
      biografias     →  Todos · Perseguidos · Comunidades   (biografias / perseguidos / comunidades)
      talleres       →  Taller de Leibniz · El universo aristotélico · El arte de la palabra · Los afectos de Spinoza   (leibniz / universo / palabra / afectos; 19-10, 20-10)
-     mapas          →  Mapas conceptuales ⇄ Infografías   (mapas / infografias; 23-10: el botón «Mapas e infografías» ya no abre solo Mapas)
+     mapas          →  Mapas conceptuales ⇄ Infografías ⇄ Mi mapa   (mapas / infografias / mimapa; 23-10: el botón «Mapas e infografías» ya no abre solo Mapas; 24-10: «Mi mapa», DUA D3.2, solo FIL y HF)
 
    Integración con el resto (sin tocar esos ficheros más que lo justo):
    - app.js (show) usa commuteEntry(id) para marcar en el menú la ENTRADA del grupo
@@ -29,7 +29,7 @@ const CONMUTADORES = [
   { entry: "epocas",       modos: [["epocas", "Fitxak"], ["cronogramas", "Kronogramak"], ["genealogias", "Genealogiak"]] },
   { entry: "biografias",     modos: [["biografias", "Guztiak"], ["perseguidos", "Jazarriak"], ["comunidades", "Komunitateak"]] },
   { entry: "leibniz",      modos: [["leibniz", "Leibnizen tailerra"], ["universo", "Unibertso aristotelikoa"], ["palabra", "Hitzaren artea"], ["afectos", "Spinozaren afektuak"], ["hegel", "Hegelen tailerra"]] },   // (22-10) + hegel (solo HF); (20-10) + afectos; (19-10) «Talleres»: unidades transversales
-  { entry: "mapas",        modos: [["mapas", "Kontzeptu-mapak"], ["infografias", "Infografiak"]] }   // (23-10) el botón «Mapas e infografías» cumple su rótulo: Infografías no tenía puerta de menú; el conmutador la saca (ambas secciones ya están en el build de fil y hf)
+  { entry: "mapas",        modos: [["mapas", "Kontzeptu-mapak"], ["infografias", "Infografiak"], ["mimapa", "Nire mapa"]] }   // (23-10) el botón «Mapas e infografías» cumple su rótulo: Infografías no tenía puerta de menú; el conmutador la saca (ambas secciones ya están en el build de fil y hf)
 ];
 
 /* índices vista → { entrada, rótulo, grupo } */

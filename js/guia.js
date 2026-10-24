@@ -58,7 +58,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gaiak <strong>aroka</strong> multzokatuta daude (Antzinakoa, Erdi Arokoa, Errenazimentua, Modernoa, Ilustrazioa eta Garaikidea), bakoitza bere kolorearekin, eta zerrenda 3. gaitik hasten da. 1. eta 2. gaiak, ikasgairako sarrera direnak, amaieran daude. Aro bakoitzaren koloreak webgune osoan laguntzen dizu: iragazkietan, txarteletan eta galdetegietan.",
+   "x": "Gaiak <strong>aroka</strong> multzokatuta daude (Antzinakoa, Erdi Arokoa, Modernoa, Ilustrazioa eta Garaikidea), bakoitza bere kolorearekin, eta zerrenda 3. gaitik hasten da. 1. eta 2. gaiak, ikasgairako sarrera direnak, amaieran daude. Aro bakoitzaren koloreak webgune osoan laguntzen dizu: iragazkietan, txarteletan eta galdetegietan.",
    "solo": "hf"
   },
   {
@@ -85,6 +85,10 @@ const GUIA = {
    "x": "Goiburuan, gainera, <strong>bilatzailea</strong> 🔎, <strong>hizkuntza</strong>-botoia 🌐, <strong>gai argia edo iluna</strong> aukeratzekoa ◐ eta <strong>gida</strong> honena ? dituzu. Gida honetako pantaila-argazkiak <strong>gau moduan</strong> daude; hondo argia nahiago baduzu, sakatu ◐."
   },
   {
+   "type": "p",
+   "x": "<strong>Aa</strong> botoiak <strong>irakurketa-ezarpenak</strong> irekitzen ditu. <strong>Entzun orri hau</strong> aukerak ozen irakurtzen du, paragrafoz paragrafo, aurrean duzuna. Letra handitu dezakezu, eta lerroak, letrak eta hitzak gehiago bereizi; letra-mota aldatu, testua ezkerrean lerrokatu, kontrastea igo edo animazioak kendu. Ezarpenak zure gailuan bakarrik gordetzen dira, eta <strong>Berrezarri</strong> aukerak dena lehen bezala uzten du. Entzuteko, gailuak webguneko hizkuntzako ahots bat behar du; Chrome edo Edgeren «sareko» ahotsekin, orriko testua nabigatzailearen ahots-zerbitzutik pasatzen da."
+  },
+  {
    "type": "h",
    "x": "Gai baten barruan"
   },
@@ -99,12 +103,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, dilemak, pistak, Logikaren txokoa, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak eta haren aroa), <strong>Pentsatu eta idatzi</strong> (irakurgaiak, disertazioak, dilemak eta Logikaren txokoa) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak eta haren aroa), <strong>Pentsatu eta idatzi</strong> (irakurgaiak, disertazioak, dilemak, pistak eta Logikaren txokoa) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
    "solo": "fil"
   },
   {
@@ -207,11 +211,11 @@ const GUIA = {
     },
     {
      "nombre": "Mapak eta infografiak",
-     "texto": "Tolestu eta zabaltzen diren mapak: sakatu nodo bat haren adarrak irekitzeko edo ixteko, arrastatu mugitzeko eta erabili gurpila handitzeko. Gai bakoitzaren infografiak eta eskemak «Gai honekin jarraitzeko» kutxatik edo «Arakatu ikasgaia» ataletik irekitzen dira, ikasgaiaren orrian.",
+     "texto": "Tolestu eta zabaltzen diren mapak: sakatu nodo bat haren adarrak irekitzeko edo ixteko, arrastatu mugitzeko eta erabili gurpila handitzeko. Goian bi botoi daude kontzeptu-mapetatik infografietara pasatzeko. Gai bakoitzaren eskemak «Gai honekin jarraitzeko» kutxatik edo «Arakatu ikasgaia» ataletik irekitzen dira, ikasgaiaren orrian.",
      "view": "mapas"
     },
     {
-     "nombre": "Glosarioa",
+     "nombre": "Hiztegia",
      "texto": "Ikasgaiaren hiztegia: termino bakoitza bere definizioarekin. Bilatu hitz bat edo iragazi terminoak.",
      "view": "diccionario"
     },
@@ -226,6 +230,10 @@ const GUIA = {
    "type": "img",
    "src": "07_tarjetas.webp",
    "cap": "Txartelak: aukeratu mota, iragazkia eta sorta; behean, aurrera egiteko, nahasteko eta «Badakit» markatzeko botoiak."
+  },
+  {
+   "type": "tip",
+   "x": "<strong>Mapak eta infografiak</strong> atalean <strong>Nire mapa</strong> ere badago: egin zure mapa propioa irakurtzen duzun bitartean, ideia bat lerro bakoitzean eta koska adarretarako, edo hasi webguneko mapa batetik eta osatu. Zure gailuan gordetzen da eta deskargatu egin dezakezu konexiorik gabe ikusteko. Ez da entregatzen eta ez da zuzentzen: ikasteko da."
   },
   {
    "type": "h",
@@ -283,12 +291,12 @@ const GUIA = {
   {
    "type": "p",
    "solo": "fil",
-   "x": "<strong>Logikaren txokoak</strong> orain bere fitxa propioa du. Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak biltzen ditu, arrazoibidea entrenatzeko."
+   "x": "<strong>Logikaren txokoak</strong> orain bere fitxa propioa du. Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak biltzen ditu, arrazoibidea entrenatzeko, baita <strong>zerotik aditu izaterako ibilbide</strong> bat ere, ordenan egiteko."
   },
   {
    "type": "p",
    "solo": "fil",
-   "x": "Goian <strong>Laborategia</strong> dago, urratsez urrats lantzeko hainbat mahairekin: egia-zuhaitzak, irudien mundu bat, erlazioak, frogapen gidatuak eta Kanten judizioen eta Spinozaren Etikaren mahaiak."
+   "x": "Goian <strong>Laborategia</strong> dago, urratsez urrats lantzeko hainbat mahairekin: egia-zuhaitzak, irudien mundu bat, erlazioak, frogapen gidatuak, dedukzio naturala, indukzioa eta abdukzioa, «Hitz egin dezagun», Kanten judizioak eta «Mundu posibleak», oraindik garapenean dagoena."
   },
   {
    "type": "h",
