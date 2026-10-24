@@ -1007,9 +1007,9 @@ const CITAS = [
   "uso": "Ilustrazioa eta haren «Sapere aude!» lema azaltzeko, edo autonomiari eta hezkuntzari buruzko eztabaidetan."
  },
  {
-  "c": "Ofizialak dio: ez arrazoitu, egin instrukzioa! Zerga-biltzaileak: ez arrazoitu, ordaindu! Apaizak: ez arrazoitu, sinetsi! […] Munduan jaun bakar batek dio: arrazoitu nahi beste eta nahi duzuen guztiaz, baina obeditu.",
+  "c": "Ofizialak dio: «Ez arrazoitu, egin instrukzioa!». Finantza-kontseilariak: «Ez arrazoitu, ordaindu!». Elizgizonak: «Ez arrazoitu, sinetsi!». [...] Munduko jaun bakar batek dio: «Arrazoitu nahi duzuen guztia eta nahi duzuenaren gainean; baina obeditu!».",
   "a": "Immanuel Kant",
-  "o": "Galderari erantzuna: Zer da Ilustrazioa? (1784) (Ak VIII, 36-37)",
+  "o": "Galdera honi erantzuna: Zer da Ilustrazioa? (1784) (Ak VIII, 36-37), itzulpen propioa",
   "e": "modernoa",
   "id": "kant",
   "img": "media/retratos/museo/kant.jpg",
@@ -1037,9 +1037,9 @@ const CITAS = [
   "uso": "Nietzschek moralari egiten dion kritika eta haren perspektibismoa azaltzeko, edo balio moral objektiboak ba ote dauden buruzko disertazio batean."
  },
  {
-  "c": "Egiak ilusioak dira, eta ahaztu egin zaigu ilusioak direla; higatu eta indar sentigarria galdu duten metaforak, irudia galdu duten txanponak […].",
+  "c": "Egiak ilusioak dira, baina ahaztu egin da ilusioak direla; erabileraz higatu eta zentzumenentzako indarra galdu duten metaforak; irudia galdu duten txanponak, jada ez txanpon gisa, metal gisa baizik kontatzen direnak.",
   "a": "Friedrich Nietzsche",
-  "o": "Egiaz eta gezurraz zentzu ez-moralean (1873), 1. §",
+  "o": "Egiaz eta gezurraz zentzu estramoralean (1873), 1. §, itzulpen propioa",
   "e": "contemporanea",
   "id": "nietzsche",
   "img": "media/retratos/museo/nietzsche.jpg",
@@ -1047,9 +1047,9 @@ const CITAS = [
   "uso": "Nietzschek ezagutzari eta hizkuntzari egiten dien kritika azaltzeko, edo egia zer den buruzko disertazio batean."
  },
  {
-  "c": "Zer da ona? Gizakiarengan botere-sentimendua, boterearen nahimena, boterea bera goratzen duen guztia. Zer da txarra? Ahultasunetik datorren guztia.",
+  "c": "Zer da ona? Gizakiarengan botere-sentimendua, botere-nahia, boterea bera areagotzen duen guztia. Zer da txarra? Ahuleziatik sortzen den guztia.",
   "a": "Friedrich Nietzsche",
-  "o": "Antikristo (1888), 2. §",
+  "o": "Antikristoa (1888), 2. §, itzulpen propioa",
   "e": "contemporanea",
   "id": "nietzsche",
   "img": "media/retratos/museo/nietzsche.jpg",
@@ -1077,9 +1077,9 @@ const CITAS = [
   "uso": "Bigarren sexua lanaren ondorioa eta sexuen arteko harreman aske eta berdinzaleari buruzko haren ideia azaltzeko, edo zapalkuntzari buruzko eztabaidetan."
  },
  {
-  "c": "Baina zer naiz, bada? Pentsatzen duen gauza bat. Eta zer da hori? Zalantza egiten duen, ulertzen duen, baieztatzen duen, ukatzen duen, nahi duen, nahi ez duen, irudikatzen ere duen eta sentitzen duen gauza bat.",
+  "c": "Baina zer naiz, orduan? Pentsatzen duen gauza bat. Eta zer da hori? Alegia, zalantza egiten duen, ulertzen duen, baieztatzen eta ukatzen duen, nahi duen eta nahi ez duen zerbait, eta irudikatu eta sentitu ere egiten duena.",
   "a": "René Descartes",
-  "o": "Meditazio metafisikoak (1641) II (AT VII, 28)",
+  "o": "Gogoeta metafisikoak (1641), II (AT VII, 28), itzulpen propioa",
   "e": "modernoa",
   "id": "descartes",
   "img": "media/retratos/museo/descartes.jpg",
@@ -1087,9 +1087,9 @@ const CITAS = [
   "uso": "Res cogitans eta dualismo kartesiarra azaltzeko, edo adimena zer den buruzko disertazio batean."
  },
  {
-  "c": "Gure gorputzen antza duten eta gure ekintzak imitatzen dituzten makinak balira, bi bide oso ziur izango genituzke horregatik benetako gizakiak ez liratekeela ezagutzeko.",
+  "c": "Gure gorputzen itxura izan eta gure ekintzak praktikan ahal den neurrian imitatuko lituzketen makinak balira, bi bide oso seguru izango genituzke beti, horregatik ez liratekeela benetako gizakiak ezagutzeko.",
   "a": "René Descartes",
-  "o": "Metodoaren diskurtsoa (1637) V (AT VI, 56)",
+  "o": "Metodoaren diskurtsoa (1637), V (AT VI, 56), itzulpen propioa",
   "e": "modernoa",
   "id": "descartes",
   "img": "media/retratos/museo/descartes.jpg",
@@ -1097,9 +1097,9 @@ const CITAS = [
   "uso": "Descartesen mekanizismoa eta dualismoa azaltzeko, edo adimen artifizialari eta Turingen testari buruzko gaur egungo eztabaidetan."
  },
  {
-  "c": "Ba al du kantitateari edo zenbakiari buruzko arrazoiketa abstrakturik? Ez. Ba al du gertakarien gaineko arrazoiketa esperimentalik […]? Ez. Bota dezagun, beraz, sutara, sofisteria eta ilusioa besterik ezin baitu eduki.",
+  "c": "Liburuki bat hartzen badugu eskuan, teologiakoa edo metafisika eskolastikokoa, adibidez, galde dezagun: kantitateari edo zenbakiari buruzko arrazoiketa abstrakturik ote dauka? Ez. Gertakariei eta existentziari buruzko arrazoiketa esperimentalik ote dauka? Ez. Bota sutara, beraz, ezin baitu sofisteria eta ilusioa besterik eduki.",
   "a": "David Hume",
-  "o": "Giza adimenari buruzko ikerketa (1748), XII. atala, 3. zatia",
+  "o": "Giza adimenari buruzko ikerketa (1748), XII. atala, 3. zatia, itzulpen propioa",
   "e": "modernoa",
   "id": "hume",
   "img": "media/retratos/museo/hume.jpg",
@@ -1107,9 +1107,9 @@ const CITAS = [
   "uso": "Humek metafisikari egiten dion kritika eta «Humeren sardea» deritzona azaltzeko, edo enpirismoa arrazionalismoaren aurrean aurkeztean."
  },
  {
-  "c": "Berdin esan genezake gizon batek, ontzi batean geratzeagatik, kapitainaren nagusitasuna askatasunez onartzen duela, nahiz eta lo zegoela eraman zuten ontzira […].",
+  "c": "Era berean esan genezake ontzi batean geratzen den gizon batek libreki onartzen duela patroiaren agintea, nahiz eta lo zegoela igo zuten ontzira eta, ontzia uzten duen unean, itsasora salto egin eta hil beharko lukeen.",
   "a": "David Hume",
-  "o": "«Jatorrizko kontratuaz» (1748), in Saiakera moral, politiko eta literarioak",
+  "o": "«Jatorrizko kontratuaz» (1748), Saiakera moral, politiko eta literarioak, itzulpen propioa",
   "e": "modernoa",
   "id": "hume",
   "img": "media/retratos/museo/hume.jpg",
@@ -1117,9 +1117,9 @@ const CITAS = [
   "uso": "Lockeren kontraktualismoari egindako kritikak aurkezteko, edo betebehar politikoaren jatorriari buruzko disertazio batean."
  },
  {
-  "c": "Demagun, bada, gogoa, esan ohi dugunez, paper zuri bat dela, inolako karakteretik gabea, ideiarik gabea. Nola betetzen da? […] Horri hitz bakar batez erantzuten diot: esperientziatik.",
+  "c": "Demagun, bada, gogoa, esan ohi dugunez, paper zuri bat dela, inolako karaktererik gabea, ideiarik gabea. Nola hornitzen da? [...] Nondik ateratzen ditu arrazoimenaren eta ezagutzaren material guztiak? Hitz bakar batez erantzuten dut: esperientziatik.",
   "a": "John Locke",
-  "o": "Giza adimenari buruzko saiakera (1690) II, 1, 2. §",
+  "o": "Giza adimenari buruzko saiakera (1690), II, 1, 2. §, itzulpen propioa",
   "e": "modernoa",
   "id": "locke",
   "img": "media/retratos/museo/locke.jpg",
@@ -1128,9 +1128,9 @@ const CITAS = [
   "trampa": "Esan ohi da Lockek «tabula rasa»-z hitz egiten duela, baina Saiakera-n irudia paper zuri batena da; latinezko esapidea tradizio aristotelikotik dator."
  },
  {
-  "c": "Filosofoen artean onartua den axioma hura jarriko didate aurrez: arimak ez duela zentzumenetatik ez datorren ezer. Baina arima bera eta haren afekzioak salbuetsi behar dira.",
+  "c": "Filosofoen artean onartua den axioma hau jarriko didate aurka: ariman ez dagoela zentzumenetatik ez datorren ezer. Baina salbuetsi egin behar dira arima bera eta haren afekzioak. Adimenean ez dago lehenago zentzumenetan egon ez den ezer, adimena bera izan ezik.",
   "a": "Leibniz",
-  "o": "Giza adimenari buruzko saiakera berriak (1704; arg. 1765) II, 1, 2. §",
+  "o": "Giza adimenari buruzko saiakera berriak (1704; arg. 1765), II, 1, 2. §, itzulpen propioa",
   "e": "modernoa",
   "id": "leibniz",
   "img": "media/retratos/museo2/leibniz.jpg",
@@ -1139,9 +1139,9 @@ const CITAS = [
   "trampa": "Leibnizek esperientzia baztertzen duela uste izan ohi da; egiaz, axioma eskolastiko zaharra onartzen du eta adimenaren beraren salbuespena baino ez dio gehitzen («nisi ipse intellectus»)."
  },
  {
-  "c": "Haien izatea hautemanak izatea da, eta ezin dute inolako existentziarik izan hautematen dituzten gogo edo gauza pentsatzaileetatik kanpo.",
+  "c": "Pentsatzen ez duten gauzen existentzia absolutuaz esaten dena, hautemanak izatearekin inolako loturarik gabe, guztiz ulertezina zait. Haien esse hautemana izatea da (percipi), eta ezinezkoa da inolako existentziarik izatea haiek hautematen dituzten gogoez, hau da, gauza pentsatzaileez, kanpo.",
   "a": "Berkeley",
-  "o": "Giza ezagutzaren printzipioei buruzko tratatua (1710) I, 3. §",
+  "o": "Giza ezagutzaren printzipioei buruzko tratatua (1710), I, 3. §, itzulpen propioa",
   "e": "modernoa",
   "id": "berkeley",
   "img": "media/retratos/museo2/berkeley.jpg",
@@ -1150,9 +1150,9 @@ const CITAS = [
   "trampa": "Esan ohi da, Berkeleyrentzat, gauzak desagertu egiten direla inork begiratzen ez dienean; egiaz, existitzen jarraitzen dute, Jainkoak beti hautematen dituelako."
  },
  {
-  "c": "Argiak bere burua eta iluntasuna agerian jartzen dituen bezala, egia bere buruaren eta faltsuaren araua da.",
+  "c": "Izan ere, argiak bere burua eta iluntasuna agerian jartzen dituen bezala, egia bera da bere buruaren eta faltsuaren araua.",
   "a": "Spinoza",
-  "o": "Etika (1677) II, 43. proposizioa, eskolioa",
+  "o": "Etika (1677), II, 43. proposizioa, eskolioa, itzulpen propioa",
   "e": "modernoa",
   "id": "spinoza",
   "img": "media/retratos/museo/spinoza.jpg",
@@ -1170,9 +1170,9 @@ const CITAS = [
   "uso": "Egia korrespondentzia gisa ulertzen duen teoria aurkezteko, edo egia zer den eta haren teoria desberdinei buruzko disertazio batean."
  },
  {
-  "c": "Etxeak eraikiz egiten dira eraikitzaile, eta zitara joz, zitarajole. Era berean, justizia praktikatuz egiten gara zuzen; neurritasuna praktikatuz, neurritsu; eta ausardia praktikatuz, ausart.",
+  "c": "Egiteko ikasi behar ditugun gauzak eginez ikasten ditugu: eraikiz egiten da bat eraikitzaile, eta zitara joz zitarajole. Era berean, egintza zuzenak eginez bihurtzen gara zuzen; neurrizkoak eginez, neurritsu; eta ausartak eginez, ausart.",
   "a": "Aristoteles",
-  "o": "Nikomakorentzako etika II, 1, 1103a33-b2",
+  "o": "Nikomakorako etika, II, 1, 1103a32-b2, itzulpen propioa",
   "e": "antigua",
   "id": "aristoteles",
   "img": "media/retratos/museo/aristoteles.jpg",
@@ -1180,9 +1180,9 @@ const CITAS = [
   "uso": "Aristotelesen etikan bertutea ohitura gisa azaltzeko, edo hezkuntza moralari buruzko eztabaidetan."
  },
  {
-  "c": "Askok, haietako bakoitza gizon bertutetsua ez izan arren, elkartuta haiek baino hobeak izan daitezke, ez banaka, multzoan baizik […].",
+  "c": "Gerta daiteke askok, horietako bakoitza bere aldetik gizon bikaina ez izan arren, elkartzen direnean gutxi haiek baino hobeak izatea, ez banan-banan, baizik eta denak batera: bakoitzak zerbait ekarriz egindako otorduak bakar batek ordaindutakoak baino hobeak diren bezala.",
   "a": "Aristoteles",
-  "o": "Politika III, 11, 1281a42-b3",
+  "o": "Politika, III, 11, 1281a42-b3, itzulpen propioa",
   "e": "antigua",
   "id": "aristoteles",
   "img": "media/retratos/museo/aristoteles.jpg",
@@ -1200,9 +1200,9 @@ const CITAS = [
   "uso": "Familiari eta polisari buruzko ikuspegi aristotelikoa azaltzeko, edo klasikoak gaur egungo balioetatik nola epaitu buruzko eztabaidetan."
  },
  {
-  "c": "Egia ez den zerbait esaten badut gustura ezeztatuko luketenetakoa naiz, eta hori esaten duena gustura ezeztatuko luketenetakoa […].",
+  "c": "Eta ni, nolakoa naiz? Egia ez den zerbait esaten badut gustura ezeztatua izaten uzten dutenetakoa, eta beste norbaitek egia ez den zerbait esaten badu gustura ezeztatzen dutenetakoa; eta ez zait gutxiago atsegin ezeztatua izatea ezeztatzea baino, ondasun handiagotzat baitut: hobe da norbera gaitzik handienetik libratzea, beste bat libratzea baino.",
   "a": "Platon",
-  "o": "Gorgias 458a (Sokratesek dio)",
+  "o": "Gorgias, 458a (Sokrates mintzo da), itzulpen propioa",
   "e": "antigua",
   "id": "platon",
   "img": "media/retratos/museo/platon.jpg",
@@ -1210,9 +1210,9 @@ const CITAS = [
   "uso": "Metodo sokratikoa eta elkarrizketaren eta erretorika sofistikoaren arteko aldea azaltzeko, edo ondo eztabaidatzeari buruzko disertazio batean."
  },
  {
-  "c": "Horrelako bi eraztun balira, eta bata zuzenak eta bestea bidegabeak jarriko balu, inor ez litzateke, dirudienez, justizian irauteko bezain altzairuzkoa izango.",
+  "c": "Horrelako bi eraztun baleude, eta bata zuzenak eta bestea bidegabeak jarriko balu, ez litzateke inor izango, dirudienez, justizian iraun eta besteren gauzak ez ukitzeko adorea izango lukeen bezain irmoa.",
   "a": "Platon",
-  "o": "Errepublika II, 360b (Glaukonek dio)",
+  "o": "Errepublika, II, 360b (Glaukon mintzo da), itzulpen propioa",
   "e": "antigua",
   "id": "platon",
   "img": "media/retratos/museo/platon.jpg",
@@ -1220,9 +1220,9 @@ const CITAS = [
   "uso": "Platonen Errepublika-ko justiziaren arazoa aurkezteko, edo inork ikusiko ez bagintu ondo jokatuko ote genukeen buruzko disertazio batean."
  },
  {
-  "c": "Marinelak ontziaren gobernuagatik liskarrean ari dira elkarren artean, eta bakoitzak uste du berak gidatu behar duela, artea inoiz ikasi gabe […].",
+  "c": "Marinelak elkarren aurka liskarrean dabiltza lemaren gobernuagatik; bakoitzak uste du berari dagokiola ontzia gidatzea, nahiz eta inoiz ez duen arte hori ikasi, eta ezin duen erakutsi nork irakatsi zion edo noiz ikasi zuen [...].",
   "a": "Platon",
-  "o": "Errepublika VI, 488b",
+  "o": "Errepublika, VI, 488b-c, itzulpen propioa",
   "e": "antigua",
   "id": "platon",
   "img": "media/retratos/museo/platon.jpg",
@@ -1230,9 +1230,9 @@ const CITAS = [
   "uso": "Platonek demokraziari egiten dion kritika eta filosofoen gobernua azaltzeko, edo politikari eta adituen jakintzari buruzko eztabaidetan."
  },
  {
-  "c": "Idazkeraren gauza larria, Fedro, benetan pinturaren antza duela da: haren sorkariak ere bizirik baleude bezala agertzen dira, baina zerbait galdetuz gero, isilik geratzen dira solemnitate osoz.",
+  "c": "Idazketak, Fedro, badu zerbait kezkagarria, eta horretan egiazki margolaritzaren antzekoa da: margolaritzak sortutakoak bizirik baleude bezala daude zutik, baina zerbait galdetzen badiezu, isil-isilik geratzen dira, oso solemne. Gauza bera gertatzen da idatzizko hitzekin.",
   "a": "Platon",
-  "o": "Fedro 275d",
+  "o": "Fedro, 275d, itzulpen propioa",
   "e": "antigua",
   "id": "platon",
   "img": "media/retratos/museo/platon.jpg",
@@ -1240,9 +1240,9 @@ const CITAS = [
   "uso": "Platonek Fedro-n idazkerari egiten dion kritika azaltzeko, edo oroimenari, irakurketari eta teknologia berriei buruzko eztabaidetan."
  },
  {
-  "c": "Gerra gauza guztien aita da eta guztien errege: batzuk jainko gisa erakutsi zituen, beste batzuk gizaki gisa; batzuk esklabo egin zituen, beste batzuk aske.",
+  "c": "Gerra da guztien aita eta guztien errege; batzuk jainko gisa agerrarazi ditu, eta beste batzuk gizaki gisa; batzuk esklabo egin ditu, eta beste batzuk aske.",
   "a": "Heraklito",
-  "o": "DK 22 B53 zatia",
+  "o": "DK 22 B53 zatia, itzulpen propioa",
   "e": "antigua",
   "id": "heraclito",
   "img": "media/retratos/museo2/heraclito.jpg",
@@ -1251,9 +1251,9 @@ const CITAS = [
   "trampa": "Herrien arteko gerraren laudorio gisa irakurri ohi da; Heraklitorengan, «gerra»-k batez ere errealitatea mugiarazten duen kontrarioen tentsioa adierazten du."
  },
  {
-  "c": "Dena sortu gabea eta galezina da, osoa, bakarra, higiezina eta mugarik gabea. Ez zen inoiz, ez da izango, orain baita, dena batera, bat, jarraitua.",
+  "c": "Den hori sortu gabea eta galezina da, osoa baita, mota bakarrekoa, higiezina eta amaigabea. Ez zen inoiz izan, ezta izango ere, orain baita, dena batera, bat, jarraitua.",
   "a": "Parmenides",
-  "o": "DK 28 B8 zatia, 3-6",
+  "o": "DK 28 B8 zatia, 3-6, itzulpen propioa",
   "e": "antigua",
   "id": "parmenides",
   "img": "media/retratos/museo2/parmenides.jpg",
@@ -1261,9 +1261,9 @@ const CITAS = [
   "uso": "Parmenidesen egiaren bidea azaltzeko, edo izate higiezina Heraklitoren bilakaerari kontrajartzean."
  },
  {
-  "c": "Hitzarmenez gozoa eta hitzarmenez mingotsa; hitzarmenez beroa, hitzarmenez hotza, hitzarmenez kolorea; baina egiaz, atomoak eta hutsa.",
+  "c": "Hitzarmenez gozoa, hitzarmenez mingotsa, hitzarmenez beroa, hitzarmenez hotza, hitzarmenez kolorea; egiaz, atomoak eta hutsa.",
   "a": "Demokrito",
-  "o": "DK 68 B9 zatia (Sexto Enpirikoa, Matematikarien aurka VII, 135)",
+  "o": "DK 68 B9 zatia (Sexto Enpirikoa, Matematikarien aurka, VII, 135), itzulpen propioa",
   "e": "antigua",
   "id": "democrito",
   "img": "media/retratos/museo2/democrito.jpg",
@@ -1271,9 +1271,9 @@ const CITAS = [
   "uso": "Demokritoren atomismoa azaltzeko, edo itxuraren eta errealitatearen arteko aldeari buruzko disertazio batean."
  },
  {
-  "c": "Hitza agintari ahaltsua da: gorputz txiki-txikiaz eta guztiz ikusezinaz egintza jainkotiarrak burutzen ditu; beldurra geldiarazi, pena kendu, poza sortu eta errukia areagotu dezake.",
+  "c": "Hitza agintari handia da: gorputzik txikienaz eta ikusezinenaz egintzarik jainkotiarrenak burutzen ditu; izan ere, gai da beldurra eteteko, nahigabea kentzeko, poza sorrarazteko eta errukia areagotzeko.",
   "a": "Gorgias",
-  "o": "Helenaren laudorioa, 8 (DK 82 B11)",
+  "o": "Helenaren laudorioa, 8 (DK 82 B11), itzulpen propioa",
   "e": "antigua",
   "id": "gorgias",
   "img": "media/retratos/museo2/gorgias.jpg",
@@ -1281,9 +1281,9 @@ const CITAS = [
   "uso": "Sofisten erretorika azaltzeko, edo pertsuasioari, manipulazioari eta propagandari buruzko eztabaidetan."
  },
  {
-  "c": "Inork ez dezala, gaztea delako, filosofatzea atzeratu, ezta, zaharra delako, filosofatzeaz nekatu ere. Arimaren osasunerako inor ez da goizegi edo beranduegi iristen.",
+  "c": "Inor ez dadila, gaztea delako, filosofiari ekiteko atzeratu, ezta, zahartu delako, filosofiaz nekatu ere; izan ere, arimaren osasunari dagokionez, inorentzat ez da inoiz goizegi ez beranduegi.",
   "a": "Epikuro",
-  "o": "Menekeori gutuna, 122 (Diogenes Laertziokoa, Bizitzak X)",
+  "o": "Meneceori gutuna, 122 (Diogenes Laertzio, Bizitzak X, 122), itzulpen propioa",
   "e": "antigua",
   "id": "epicuro",
   "img": "media/retratos/museo/epicuro.jpg",
@@ -1291,9 +1291,9 @@ const CITAS = [
   "uso": "Epikuroren etika eta filosofia helenistikoa bizitzeko arte gisa aurkezteko, edo filosofia zertarako den buruzko disertazio batean."
  },
  {
-  "c": "Ezjakinari dagokio besteei errua botatzea gauzak gaizki doazkionean; ikasten hasi denari, bere buruari; eta jada ikasia denari, ez besteari ez bere buruari.",
+  "c": "Norberari gaizki doakionaz besteei errua botatzea hezigabearen kontua da; norberari botatzea, hezten hasi denarena; ez besteei ez norberari errurik ez botatzea, dagoeneko hezita dagoenarena.",
   "a": "Epikteto",
-  "o": "Eskuliburua (Enkheiridion) 5",
+  "o": "Eskuliburua 5, itzulpen propioa",
   "e": "antigua",
   "id": "epicteto",
   "img": "media/retratos/citas/epicteto.jpg",
@@ -1301,9 +1301,9 @@ const CITAS = [
   "uso": "Estoizismoa eta gure mende dagoenaren eta gure mende ez dagoenaren arteko bereizketa azaltzeko, edo erantzukizunari buruzko eztabaidetan."
  },
  {
-  "c": "Filosofia ez da herri-ofizio bat, ezta erakusteko egina ere; ez dago hitzetan, egintzetan baizik. […] Arima moldatu eta eraikitzen du, bizitza antolatzen du, ekintzak gidatzen ditu.",
+  "c": "Filosofia ez da jendetzari atsegin emateko lanbide bat, ezta harrokeriaz erakusteko gauza bat ere; ez datza hitzetan, egintzetan baizik. [...] Arima moldatu eta eraikitzen du, bizitza antolatzen du, ekintzak gobernatzen ditu, zer egin eta zer utzi behar den erakusten du.",
   "a": "Seneka",
-  "o": "Luziliori gutunak 16, 3",
+  "o": "Luziliori gutunak 16, 3, itzulpen propioa",
   "e": "antigua",
   "id": "seneca",
   "img": "media/retratos/museo/seneca.jpg",
@@ -1321,17 +1321,17 @@ const CITAS = [
   "uso": "Kosmopolitismo estoikoa azaltzeko, edo interes indibidualaren eta ongi komunaren arteko harremanari buruzko eztabaidetan."
  },
  {
-  "c": "Ez zara zu hilkorra, gorputz hau baizik; ezta zure forma horrek erakusten duena ere: bakoitzaren gogoa da bakoitza, eta ez hatzaz seinala daitekeen irudi hori.",
+  "c": "Ahalegindu zaitez, beraz, eta jakin ezazu ziur: ez zara zu hilkorra, gorputz hau baizik. Ez zara zu irudi horrek erakusten duena; bakoitza bere adimena da, eta ez hatzaz seinala daitekeen itxura hori.",
   "a": "Zizeron",
-  "o": "Errepublikaz VI, 26 («Eszipionen ametsa»)",
+  "o": "Errepublikaz VI, 26 («Eszipionen ametsa»), itzulpen propioa",
   "e": "antigua",
   "sen": "Eszipionen ametsean, Zizeronek dio benetako nia gogoa edo arima dela, ez ikusten den gorputz hilkorra: gorputza hil egiten da, baina arima da benetan garena.",
   "uso": "Erroman ondare platonikoa eta arimaren eta gorputzaren arteko harremana azaltzeko, edo identitate pertsonalari buruzko disertazio batean."
  },
  {
-  "c": "Ez irten kanpora; itzuli zeure baitara: barneko gizakiarengan bizi da egia. Eta zeure izaera aldakorra dela aurkitzen baduzu, gainditu zeure burua ere.",
+  "c": "Ez zoaz kanpora; itzul zaitez zeure baitara: gizakiaren barnean bizi da egia. Eta zure izaera aldakorra dela aurkitzen baduzu, joan zaitez zeure buruaz haratago ere.",
   "a": "San Agustin",
-  "o": "Egiazko erlijioaz (390-391) XXXIX, 72",
+  "o": "Egiazko erlijioaz (390-391) XXXIX, 72, itzulpen propioa",
   "e": "medieval",
   "id": "agustin",
   "img": "media/retratos/museo/agustin.jpg",
@@ -1339,9 +1339,9 @@ const CITAS = [
   "uso": "San Agustinengan barnekotasuna eta argiztapena azaltzeko, edo Descartesen cogitoarekin alderatzean."
  },
  {
-  "c": "Enpirikoek, inurriaren erara, metatu eta metatutakoa erabili baino ez dute egiten; arrazionalek, armiarmen erara, beren baitatik ateratzen dute sarea. Erleak bitarteko bidea du.",
+  "c": "Enpiristek, inurriek bezala, metatu eta kontsumitu besterik ez dute egiten; arrazionalistek, armiarmek bezala, beren baitatik ehuntzen dituzte amaraunak. Erleak, ordea, bide ertaina darabil: baratzeko eta soroko loreetatik ateratzen du gaia, baina bere ahalmenaz eraldatu eta digeritzen du.",
   "a": "Francis Bacon",
-  "o": "Novum Organum (1620) I, 95. aforismoa",
+  "o": "Novum Organum (1620) I, 95. aforismoa, itzulpen propioa",
   "e": "modernoa",
   "id": "francis_bacon",
   "img": "media/retratos/museo2/bacon.jpg",
@@ -1349,9 +1349,9 @@ const CITAS = [
   "uso": "Baconen metodo induktiboa eta zientzia modernoaren sorrera azaltzeko, edo arrazoiari eta esperientziari buruzko disertazio batean."
  },
  {
-  "c": "Eta guztietan okerrena, etengabeko beldurra eta heriotza bortitzaren arriskua; eta gizakiaren bizitza, bakartia, pobrea, desatsegina, basatia eta laburra.",
+  "c": "[...] ez dago arterik, ez letrarik, ez gizarterik; eta, okerrena, etengabeko beldurra eta heriotza bortitzaren arriskua; eta gizakiaren bizitza bakartia, behartsua, nazkagarria, basatia eta laburra.",
   "a": "Thomas Hobbes",
-  "o": "Leviatan (1651) I, 13",
+  "o": "Leviatana (1651) I, 13, itzulpen propioa",
   "e": "modernoa",
   "id": "hobbes",
   "img": "media/retratos/museo2/hobbes.jpg",
@@ -1360,9 +1360,9 @@ const CITAS = [
   "trampa": "Hobbesek garai historiko bat deskribatzen duela uste izan ohi da; egiaz, batez ere Estaturik gabe zer gertatuko litzatekeen buruzko hipotesi bat da."
  },
  {
-  "c": "Hori da Leviatan handi haren sorrera, edo hobeto esanda —begirune handiagoz mintzatuz— jainko hilkor harena; berari zor dizkiogu, Jainko hilezkorraren azpian, gure bakea eta gure defentsa.",
+  "c": "Hala sortzen da Leviatan handi hori edo, begirune handiagoz mintzatzeko, jainko hilkor hori, zeinari zor dizkiogun, Jainko hilezkorraren azpitik, gure bakea eta babesa.",
   "a": "Thomas Hobbes",
-  "o": "Leviatana (1651) II, 17",
+  "o": "Leviatana (1651) II, 17, itzulpen propioa",
   "e": "modernoa",
   "id": "hobbes",
   "img": "media/retratos/museo2/hobbes.jpg",
@@ -1390,9 +1390,9 @@ const CITAS = [
   "uso": "Rousseaurengan desberdintasunaren jatorria azaltzeko, edo jabetza pribatuari eta justizia sozialari buruzko eztabaidetan."
  },
  {
-  "c": "Beraz, emakumeen hezkuntza osoak gizonei begira egon behar du. Haiei atsegin ematea, haientzat baliagarri izatea, haiek maitatuak eta ohoratuak izatea […]: horra emakumeen betebeharrak garai guztietan.",
+  "c": "Horrenbestez, emakumeen hezkuntza osoak gizonei lotuta egon behar du. Haiei atsegin ematea, haientzat baliagarri izatea, haien maitasuna eta begirunea irabaztea, txikitan haztea, heldutan zaintzea, aholkuak ematea, kontsolatzea, bizitza atsegin eta gozo egitea: horra emakumeen eginbeharrak garai guztietan, eta haurtzarotik irakatsi behar zaiena.",
   "a": "Rousseau",
-  "o": "Emile edo hezkuntzaz (1762) V",
+  "o": "Emile edo Hezkuntzaz (1762) V, itzulpen propioa",
   "e": "modernoa",
   "id": "rousseau",
   "img": "media/retratos/museo/rousseau.jpg",
@@ -1400,9 +1400,9 @@ const CITAS = [
   "uso": "Ilustrazioan berdintasunaren eta emakumeen bazterketaren arteko kontraesana azaltzeko, edo Mary Wollstonecraftek Rousseauri egindako kritika aurkeztean."
  },
  {
-  "c": "Bata eta bestea izan nahiko litzateke; baina, biak batzea zaila denez, askoz seguruagoa da beldurra eragitea maitatua izatea baino, bietako bat falta behar denean.",
+  "c": "Erantzuna da biak izatea komeni litzatekeela; baina, biak batzea zaila denez, bietako bati uko egin behar zaionean, askoz seguruagoa da beldurra sorraraztea maitasuna sorraraztea baino.",
   "a": "Makiavelo",
-  "o": "Printzea (1513) XVII",
+  "o": "Printzea (1513) XVII, itzulpen propioa",
   "e": "modernoa",
   "id": "maquiavelo",
   "img": "media/retratos/museo2/maquiavelo.jpg",
@@ -1411,9 +1411,9 @@ const CITAS = [
   "trampa": "Makiavelori «xedeak bitartekoak justifikatzen ditu» egozten zaio, baina esaldi hori ez da Printzea-n agertzen."
  },
  {
-  "c": "Adabakiak gara denok, eta hain ehundura itxuragabe eta askotarikoa dugu, ezen pieza bakoitzak, une bakoitzak, bere jokoa egiten baitu. Eta gu eta geu artean gu eta beste baten artean bezainbesteko aldea dago.",
+  "c": "Zatiz eginak gaude guztiok, eta hain ehundura itxuragabe eta askotarikoz, non pieza bakoitzak, une bakoitzak, bere kasa jokatzen baitu. Eta gure eta gure buruaren artean beste horrenbesteko aldea dago, gure eta besteen artean dagoen bezainbeste.",
   "a": "Montaigne",
-  "o": "Saiakerak (1580) II, 1",
+  "o": "Saiakerak (1580) II, 1, itzulpen propioa",
   "e": "modernoa",
   "id": "montaigne",
   "img": "media/retratos/museo2/montaigne.jpg",
@@ -1421,9 +1421,9 @@ const CITAS = [
   "uso": "Montaigneren Saiakerak eta haren eszeptizismoa aurkezteko, edo identitate pertsonalari buruzko disertazio batean: beti pertsona bera al gara?"
  },
  {
-  "c": "Ez dago ezer zuzen edo bidegaberik klimaz aldatzean bere izaera aldatzen ez duenik. […] Justizia barregarria, ibai batek mugatzen duena! Egia Pirinioen alde honetan, errorea bestean.",
+  "c": "Ez da ikusten ezer zuzen edo bidegaberik, klimaz aldatzean bere izaera aldatzen ez duenik. Poloaren hiru gradu altuerak jurisprudentzia osoa irauli egiten dute; meridiano batek erabakitzen du zer den egia. [...] Justizia bitxia, ibai batek mugatzen duena! Egia Pirinioen alde honetan, errorea beste aldean.",
   "a": "Blaise Pascal",
-  "o": "Pentsamenduak, 60. zatia (Lafuma arg.) / 294 (Brunschvicg arg.)",
+  "o": "Pentsamenduak, 60. zatia (Lafuma arg.) / 294 (Brunschvicg arg.), itzulpen propioa",
   "e": "modernoa",
   "id": "pascal",
   "img": "media/retratos/museo2/pascal.jpg",
@@ -1431,9 +1431,9 @@ const CITAS = [
   "uso": "Erlatibismo morala eta kulturala azaltzeko, edo guztientzat balio duen justizia natural bat ba ote dagoen buruzko disertazio batean."
  },
  {
-  "c": "Klase menderatzailearen ideiak dira garai bakoitzean ideia menderatzaileak; hau da, gizartearen botere material menderatzailea den klasea da, aldi berean, haren botere espiritual menderatzailea.",
+  "c": "Garai guztietan, klase nagusiaren pentsamenduak dira pentsamendu nagusiak; hau da, gizartean botere material nagusia den klasea da, aldi berean, haren botere espiritual nagusia.",
   "a": "Karl Marx",
-  "o": "Ideologia alemana (1845-1846, F. Engelsekin), I, «Feuerbach»",
+  "o": "Ideologia alemana (1845-1846, F. Engelsekin), I, «Feuerbach», itzulpen propioa",
   "e": "contemporanea",
   "id": "marx",
   "img": "media/retratos/museo/marx.jpg",
@@ -1441,9 +1441,9 @@ const CITAS = [
   "uso": "Marxengan ideologiaren kontzeptua eta azpiegituraren eta gainegituraren arteko harremana azaltzeko."
  },
  {
-  "c": "Jainkoaren kontzientzia gizakiaren autokontzientzia da; Jainkoaren ezagutza, gizakiak bere buruaz duen ezagutza.",
+  "c": "Jainkoaren kontzientzia gizakiak bere buruaz duen kontzientzia da; Jainkoaren ezagutza, gizakiak bere buruaz duen ezagutza. Haren Jainkoaren bidez ezagutzen duzu gizakia, eta, alderantziz, gizakiaren bidez haren Jainkoa: biak gauza bera dira.",
   "a": "Feuerbach",
-  "o": "Kristautasunaren esentzia (1841), Sarrera, 2",
+  "o": "Kristautasunaren esentzia (1841), Sarrera, 2, itzulpen propioa",
   "e": "contemporanea",
   "id": "feuerbach",
   "img": "media/retratos/museo2/feuerbach.jpg",
@@ -1461,9 +1461,9 @@ const CITAS = [
   "uso": "Schopenhauerren etika betebehar kantiarraren aurrean aurkezteko, edo morala arrazoian ala sentimenduetan oinarritzen den buruzko disertazio batean."
  },
  {
-  "c": "Bere buruaren gainean, bere gorputzaren eta bere gogoaren gainean, norbanakoa subiranoa da.",
+  "c": "Berari bakarrik dagokion alorrean, haren independentzia erabatekoa da, eskubidez. Bere buruaren gainean, bere gorputzaren eta adimenaren gainean, norbanakoa burujabea da.",
   "a": "John Stuart Mill",
-  "o": "Askatasunaz (1859), I. kap.",
+  "o": "Askatasunaz (1859), I. kap., itzulpen propioa",
   "e": "contemporanea",
   "id": "mill",
   "img": "media/retratos/museo/mill.jpg",
@@ -1471,9 +1471,9 @@ const CITAS = [
   "uso": "Millen liberalismoa azaltzeko, edo autonomia pertsonalari, eutanasiari edo drogen kontsumoari buruzko eztabaidetan."
  },
  {
-  "c": "Gizarte zibilizatu bateko kide baten gainean, haren borondatearen aurka, boterea zilegiz erabiltzeko helburu bakarra besteei kalte egitea saihestea da.",
+  "c": "Komunitate zibilizatu bateko edozein kideren gainean, haren borondatearen aurka, boterea zilegiz erabiltzeko helburu bakarra besteei kalterik egin diezaien eragoztea da. Haren beraren ongia, fisikoa izan nahiz morala, ez da aski justifikazio gisa.",
   "a": "John Stuart Mill",
-  "o": "Askatasunaz (1859), I. kap.",
+  "o": "Askatasunaz (1859), I. kap., itzulpen propioa",
   "e": "contemporanea",
   "id": "mill",
   "img": "media/retratos/museo/mill.jpg",
@@ -1481,9 +1481,9 @@ const CITAS = [
   "uso": "Millengan askatasunaren mugak eta paternalismoaren kritika azaltzeko, edo adierazpen-askatasunari buruzko disertazio batean."
  },
  {
-  "c": "Eskubide naturalak zentzugabekeria hutsa dira; eskubide natural eta preskribaezinak, zentzugabekeria erretorikoa, zankoen gaineko zentzugabekeria.",
+  "c": "Eskubide naturalak zentzugabekeria hutsa dira; eskubide natural eta preskribaezinak, zentzugabekeria erretorikoa: zankaluzeen gainera igotako zentzugabekeria.",
   "a": "Jeremy Bentham",
-  "o": "Falazia anarkikoak (1796an idatzia; arg. 1843), II. artikulua",
+  "o": "Falazia anarkikoak (1796an idatzia; 1843an argitaratua), II. artikulua, itzulpen propioa",
   "e": "modernoa",
   "id": "bentham",
   "img": "media/retratos/museo2/bentham.jpg",
@@ -1491,9 +1491,9 @@ const CITAS = [
   "uso": "Benthamen utilitarismoa eta positibismo juridikoa aurkezteko, edo giza eskubideen oinarriari buruzko eztabaida batean."
  },
  {
-  "c": "Ustez besterenezinak ziren Gizakiaren Eskubideak aplikaezinak zirela frogatu zen —baita konstituzioak haietan oinarritzen zituzten herrialdeetan ere— inongo Estatu subiranoren herritar ez ziren pertsonak agertu bezain laster.",
+  "c": "Giza Eskubideak, ustez besterenezinak zirenak, ezin izan ziren betearazi —ezta haietan oinarritutako konstituzioak zituzten herrialdeetan ere— inongo estatu burujaberen herritar ez ziren pertsonak agertu orduko.",
   "a": "Arendt",
-  "o": "Totalitarismoaren jatorriak (1951), II. zatia, 9. kap.",
+  "o": "Totalitarismoaren jatorriak (1951), II. zatia, 9. kap., itzulpen propioa",
   "e": "contemporanea",
   "id": "arendt",
   "img": "media/retratos/museo/arendt.jpg",
@@ -1521,9 +1521,9 @@ const CITAS = [
   "uso": "Russellen jarrera liberal eta antidogmatikoa aurkezteko, edo pentsamendu-askatasunari eta konformismoari buruzko disertazio batean."
  },
  {
-  "c": "Mundua nolakoa izan behar den irakasteari buruz beste hitz bat esateko: horretarako filosofia beti iristen da beranduegi. […] Minervaren hontzak ez du hegan egiten ilunabarra iritsi arte.",
+  "c": "Munduak nolakoa izan behar duen irakasteaz hitz bat gehiago esateko: horretarako, nolanahi ere, filosofia beti iristen da beranduegi. Munduaren pentsamendu gisa, errealitateak bere eraketa-prozesua osatu eta bukatu ondoren baino ez da agertzen denboran. [...] Minervaren hontza ilunabarra datorrenean baino ez da hegan hasten.",
   "a": "Hegel",
-  "o": "Zuzenbidearen filosofiaren oinarriak (1820), Hitzaurrea",
+  "o": "Zuzenbidearen filosofiaren oinarriak (1820), Hitzaurrea, itzulpen propioa",
   "e": "contemporanea",
   "id": "hegel",
   "img": "media/retratos/museo/hegel.jpg",
@@ -1551,26 +1551,26 @@ const CITAS = [
   "uso": "María Zambranoren arrazoi poetikoa aurkezteko, edo filosofiaren eta literaturaren arteko harremanari buruzko disertazio batean."
  },
  {
-  "c": "Bidegabekeria halakoa bada, non beste baten aurkako bidegabekeriaren eragile izatea eskatzen baitizu, orduan zera diotsut: hautsi legea.",
+  "c": "Baina bidegabekeria horrek beste baten aurkako bidegabekeriaren tresna izatea eskatzen badizu, orduan, hala diot: hautsi legea.",
   "a": "Thoreau",
-  "o": "Desobedientzia zibila (1849)",
+  "o": "Desobedientzia zibila (1849), itzulpen propioa",
   "e": "contemporanea",
   "sen": "Thoreaurentzat, kontzientzia legearen gainetik dago: hari obeditzeak beste baten aurkako bidegabekeria bat egitera behartzen bazaitu, esklabotza edo gerra bidegabe bat adibidez, desobeditu egin behar duzu eta ondorioak onartu.",
   "uso": "Desobedientzia zibila azaltzeko, edo legearen eta justiziaren arteko harremanari edo obeditzeko betebeharrari buruzko disertazio batean."
  },
  {
-  "c": "Zoritxarrekoek ez dute mundu honetan beste ezer behar, arreta jartzeko gai diren gizakiak baizik. […] Hurkoarekiko maitasunaren betetasuna, besterik gabe, hau galdetzeko gai izatean datza: «Zein da zure oinazea?».",
+  "c": "Zorigaitzekoek ez dute mundu honetan beste ezer behar, haiei arreta jartzeko gai diren pertsonak baino. [...] Hurkoarenganako maitasunaren betetasuna, besterik gabe, hari «Zein da zure oinazea?» galdetzeko gai izatea da.",
   "a": "Simone Weil",
-  "o": "«Eskola-ikasketen erabilera onari buruzko gogoetak, Jainkoaren maitasuna lantzeko bide gisa» (1942), in Jainkoaren zain",
+  "o": "«Eskola-ikasketen erabilera onari buruzko gogoetak, Jainkoaren maitasuna lantzeko bide gisa» (1942), Jainkoaren zain liburuan, itzulpen propioa",
   "e": "contemporanea",
   "img": "media/retratos/museo2/weil.jpg",
   "sen": "Simone Weilentzat, sufritzen duenari laguntzea gauza erraz eta zail batekin hasten da: benetan arreta jartzearekin, haren zoritxar zehatzaz interesatzearekin, beste kasu bat gehiago bezala ikusi beharrean.",
   "uso": "Simone Weilen arretaren etika aurkezteko, edo errukiari, zaintzari eta hurkoarekiko maitasunari buruzko disertazio batean."
  },
  {
-  "c": "Gizon guztiak aske jaiotzen badira, nola da posible emakume guztiak esklabo jaiotzea?",
+  "c": "Gizon guztiak libre jaiotzen badira, zergatik jaiotzen dira emakume guztiak esklabo? Eta hala jaiotzen dira, baldin eta gizonen borondate aldakor, ziurgabe, ezezagun eta arbitrarioaren menpe egotea esklabotzaren egoera betea bada.",
   "a": "Mary Astell",
-  "o": "Ezkontzari buruzko gogoeta batzuk, 3. argitalpenaren hitzaurrea (1706)",
+  "o": "Ezkontzari buruzko zenbait gogoeta, 3. argitalpenaren hitzaurrea (1706), itzulpen propioa",
   "e": "modernoa",
   "sen": "Astellek askatasunaren defendatzaileen kontraesan bat seinalatzen du: gizon guztiak aske jaiotzen direla diote erregearen botere absolutuaren aurrean, baina senarrak emaztearen gainean duen botere absolutua onartzen dute.",
   "uso": "Pentsamendu feministaren jatorria aurkezteko, edo eskubideen unibertsaltasunari eta haien bazterketei buruzko disertazio batean."
