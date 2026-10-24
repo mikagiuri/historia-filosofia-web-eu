@@ -3,301 +3,301 @@ const GEN_TESIS = {
  "tesis": [
   {
    "id": "her-flujo",
-   "ilustre": "heraclito",
+   "biografia": "heraclito",
    "t": "Dena isurian dago: ezin da bi aldiz ibai berean bainatu.",
    "ref": "DK 22 B 91 zatia (Plutarko); «dena isurian dago» (panta rhei) da tradizioak hura laburbiltzeko erabiltzen duen formula",
    "forma": "formula tradizionala"
   },
   {
    "id": "par-ser",
-   "ilustre": "parmenides",
+   "biografia": "parmenides",
    "t": "Izatea bada eta ez-izatea ez da: aldaketa eta aniztasuna itxura dira.",
    "ref": "Poema, DK 28 B 2 eta B 8 zatiak",
    "forma": "parafrasia"
   },
   {
    "id": "pro-medida",
-   "ilustre": "protagoras",
+   "biografia": "protagoras",
    "t": "Gizakia da gauza guztien neurria.",
    "ref": "DK 80 B 1 zatia, Platonek aipatua, Teeteto 152a",
    "forma": "literala"
   },
   {
    "id": "soc-examen",
-   "ilustre": "socrates",
+   "biografia": "socrates",
    "t": "Aztertu gabeko bizitzak ez du bizitzea merezi.",
    "ref": "Platon, Sokratesen apologia 38a",
    "forma": "literala"
   },
   {
    "id": "soc-virtud",
-   "ilustre": "socrates",
+   "biografia": "socrates",
    "t": "Inork ez du gaizki jokatzen jakinaren gainean: bertutea ezagutza da.",
    "ref": "Platon, Protagoras 345d-e eta 358c-d (intelektualismo morala)",
    "forma": "parafrasia"
   },
   {
    "id": "pla-ideas",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "Ideiak, betierekoak eta aldaezinak, dira benetako errealitatea; sentigarria haien kopia baino ez da.",
    "ref": "Errepublika VII 514a-517c (kobazuloa); Fedon 74a-75d",
    "forma": "parafrasia"
   },
   {
    "id": "pla-anam",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "Ezagutzea arimak jaio aurretik kontenplatu zuena oroitzea da.",
    "ref": "Menon 81c-d; Fedon 72e-76e (anamnesis)",
    "forma": "parafrasia"
   },
   {
    "id": "pla-rey",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "Hirietako gaitzek ez dute amaierarik izango, harik eta filosofoek gobernatu arte edo gobernariek filosofatu arte.",
    "ref": "Errepublika V 473c-d",
    "forma": "parafrasia"
   },
   {
    "id": "ari-forma",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "Ez dago Ideia bereizirik: forma gauzetan bertan dago, materiari lotuta.",
    "ref": "Metafisika I 9 (990b-991b) eta VII",
    "forma": "parafrasia"
   },
   {
    "id": "ari-exp",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "Ezagutza oro zentzumen-pertzepzioan hasten da: hartatik sortzen dira oroimena eta esperientzia.",
    "ref": "Metafisika I 1 (980a-981a); Bigarren analitikoak II 19 (100a)",
    "forma": "parafrasia"
   },
   {
    "id": "ari-habito",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "Bertute etikoa ez da zientzia bat bezala irakasten: ohituraz eskuratzen da, praktikatuz.",
    "ref": "Nikomakorentzako etika II 1 (1103a14-b25)",
    "forma": "parafrasia"
   },
   {
    "id": "ari-polis",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "Gizakia, berez, animalia politikoa da.",
    "ref": "Politika I 2 (1253a2-3)",
    "forma": "literala"
   },
   {
    "id": "epi-placer",
-   "ilustre": "epicuro",
+   "biografia": "epicuro",
    "t": "Plazera da bizitza zoriontsuaren hasiera eta helburua.",
    "ref": "Menezeori gutuna 128-129",
    "forma": "literala"
   },
   {
    "id": "agu-interior",
-   "ilustre": "agustin",
+   "biografia": "agustin",
    "t": "Ez irten kanpora, itzuli zeure baitara: gizakiaren barnean bizi da egia.",
    "ref": "De vera religione 39, 72",
    "forma": "literala"
   },
   {
    "id": "agu-creer",
-   "ilustre": "agustin",
+   "biografia": "agustin",
    "t": "Sinetsi ulertzeko eta ulertu sinesteko.",
    "ref": "Sermoia 43, 7, 9",
    "forma": "parafrasia"
   },
   {
    "id": "tom-armonia",
-   "ilustre": "tomas",
+   "biografia": "tomas",
    "t": "Arrazoiak eta fedeak ezin dute elkar kontraesan, biak Jainkoarengandik datozelako.",
    "ref": "Summa contra gentiles I 7",
    "forma": "parafrasia"
   },
   {
    "id": "tom-vias",
-   "ilustre": "tomas",
+   "biografia": "tomas",
    "t": "Jainkoaren existentzia mundu sentigarrian dituen efektuetatik abiatuta frogatzen da (bost bideak).",
    "ref": "Summa theologiae I, q. 2, a. 3",
    "forma": "parafrasia"
   },
   {
    "id": "ock-navaja",
-   "ilustre": "ockham",
+   "biografia": "ockham",
    "t": "Ez dira izakiak beharrik gabe ugaldu behar.",
    "ref": "«Ockhamen labana»; bere obretan: «ez da aniztasunik ezarri behar beharrik gabe» (Ordinatio I, d. 30, q. 1)",
    "forma": "formula tradizionala"
   },
   {
    "id": "ock-univ",
-   "ilustre": "ockham",
+   "biografia": "ockham",
    "t": "Unibertsalak ez daude gogotik kanpo: gauza singular asko adierazten dituzten zeinuak dira.",
    "ref": "Summa logicae I 14-15",
    "forma": "parafrasia"
   },
   {
    "id": "des-cogito",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "Pentsatzen dut, beraz existitzen naiz.",
    "ref": "Metodoaren diskurtsoa IV (AT VI 32)",
    "forma": "literala"
   },
   {
    "id": "des-innatas",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "Badira jaiotzetiko ideiak, Jainkoarena kasu, zentzumenetatik ez datozenak.",
    "ref": "Meditazio metafisikoak III (AT VII 37-38 eta 51)",
    "forma": "parafrasia"
   },
   {
    "id": "des-dual",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "Arima eta gorputza bi substantzia desberdin dira: batak pentsatzen du eta bestea hedatua da.",
    "ref": "Meditazio metafisikoak VI (AT VII 78)",
    "forma": "parafrasia"
   },
   {
    "id": "hob-guerra",
-   "ilustre": "hobbes",
+   "biografia": "hobbes",
    "t": "Denak beldurrean hartuko dituen botere komunik gabe, gizakiak guztien guztien aurkako gerran bizi dira, eta bizitza bakartia, pobrea, nazkagarria, basatia eta laburra da.",
    "ref": "Leviatana I 13",
    "forma": "parafrasia"
   },
   {
    "id": "loc-tabla",
-   "ilustre": "locke",
+   "biografia": "locke",
    "t": "Ez dago jaiotzetiko ideiarik: hasieran gogoa paper zuri bat bezalakoa da, eta dena esperientziatik datorkio.",
    "ref": "Giza adimenari buruzko saiakera I eta II 1, § 2",
    "forma": "parafrasia"
   },
   {
    "id": "loc-resistir",
-   "ilustre": "locke",
+   "biografia": "locke",
    "t": "Gobernua bizitza, askatasuna eta jabetza babesteko dago; horiek urratzen baditu, herriak aurre egin diezaioke.",
    "ref": "Gobernu zibilari buruzko bigarren tratatua §§ 123-131 eta 222",
    "forma": "parafrasia"
   },
   {
    "id": "hum-impr",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "Gure ideia guztiak inpresioen kopiak dira.",
    "ref": "Giza adimenari buruzko ikerketa, II. atala",
    "forma": "parafrasia"
   },
   {
    "id": "hum-causa",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "Kausaren eta efektuaren arteko lotura beharrezkoa ez da hautematen: ohituraz espero dugu.",
    "ref": "Giza adimenari buruzko ikerketa, V. eta VII. atalak",
    "forma": "parafrasia"
   },
   {
    "id": "hum-esclava",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "Arrazoia grinen esklabo da, eta halakoa besterik ez luke izan behar.",
    "ref": "Giza naturari buruzko tratatua II, 3, 3",
    "forma": "literala"
   },
   {
    "id": "rou-bueno",
-   "ilustre": "rousseau",
+   "biografia": "rousseau",
    "t": "Gizakia ona da berez: gizarteak usteltzen du.",
    "ref": "Desberdintasunaren jatorriari buruzko diskurtsoa eta Emilioren hasiera laburbiltzen dituen formula («dena endekatzen da gizakiaren eskuetan»)",
    "forma": "formula tradizionala"
   },
   {
    "id": "kan-sapere",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Ilustrazioa gizakia bere adin-txikitasunetik ateratzea da: izan ausardia zeure adimena erabiltzeko!",
    "ref": "Erantzuna galdera honi: Zer da Ilustrazioa? (1784), AA VIII 35",
    "forma": "literala"
   },
   {
    "id": "kan-exp",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Gure ezagutza guztia esperientziarekin hasten bada ere, ez da horregatik guztia esperientziatik sortzen.",
    "ref": "Arrazoimen hutsaren kritika, Sarrera, B 1",
    "forma": "literala"
   },
   {
    "id": "kan-ley",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Jokatu soilik aldi berean lege unibertsal bihur dadin nahi izan dezakezun maxima haren arabera.",
    "ref": "Ohituren metafisikaren oinarriak, AA IV 421",
    "forma": "literala"
   },
   {
    "id": "kan-mentir",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Ez da zilegi gezurra esatea, ezta zure laguna non ezkutatzen den galdetzen duen hiltzaileari ere.",
    "ref": "Gizakiarenganako maitasunagatik gezurra esateko ustezko eskubide bati buruz (1797), AA VIII 425-430",
    "forma": "parafrasia"
   },
   {
    "id": "mil-util",
-   "ilustre": "mill",
+   "biografia": "mill",
    "t": "Ekintzak zuzenak dira zoriontasuna sustatzeko joera duten neurrian, eta okerrak horren aurkakoa sortzen badute.",
    "ref": "Utilitarismoa, II. kap.",
    "forma": "parafrasia"
   },
   {
    "id": "mil-socrates",
-   "ilustre": "mill",
+   "biografia": "mill",
    "t": "Hobe da Sokrates asegabea izatea ergel asea baino.",
    "ref": "Utilitarismoa, II. kap.",
    "forma": "literala"
   },
   {
    "id": "mar-conciencia",
-   "ilustre": "marx",
+   "biografia": "marx",
    "t": "Ez du kontzientziak izatea determinatzen; izate sozialak determinatzen du kontzientzia.",
    "ref": "Ekonomia politikoaren kritikarako ekarpena (1859), Hitzaurrea",
    "forma": "literala"
   },
   {
    "id": "mar-tesis",
-   "ilustre": "marx",
+   "biografia": "marx",
    "t": "Filosofoek mundua modu desberdinetan interpretatu besterik ez dute egin; kontua hura eraldatzea da.",
    "ref": "Feuerbachi buruzko tesiak, XI",
    "forma": "literala"
   },
   {
    "id": "nie-dios",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "Jainkoa hil da, eta guk hil dugu.",
    "ref": "Zientzia alaia § 125 («Zoroa»)",
    "forma": "literala"
   },
   {
    "id": "nie-fabula",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "«Egiazko mundua» fabula bat da: ez dago beste mundurik bizi garen honen atzean.",
    "ref": "Idoloen ilunabarra, «Nola bihurtu zen azkenean “egiazko mundua” fabula»",
    "forma": "parafrasia"
   },
   {
    "id": "nie-socrates",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "Sokrates dekadentziaren sintoma da: arrazoia instintuen aurka jartzea gaixotzea da.",
    "ref": "Idoloen ilunabarra, «Sokratesen arazoa»",
    "forma": "parafrasia"
   },
   {
    "id": "ort-circ",
-   "ilustre": "ortega",
+   "biografia": "ortega",
    "t": "Ni neu naiz eta nire zirkunstantzia, eta hura salbatzen ez badut, neu ere ez naiz salbatzen.",
    "ref": "Kixoteari buruzko meditazioak (1914), «Irakurlea…»",
    "forma": "literala"
   },
   {
    "id": "sar-exist",
-   "ilustre": "sartre",
+   "biografia": "sartre",
    "t": "Existentzia esentziaren aurretik doa: gizakia ez da bere buruaz egiten duena baino beste ezer.",
    "ref": "Existentzialismoa humanismo bat da (1946)",
    "forma": "literala"
   },
   {
    "id": "bea-mujer",
-   "ilustre": "beauvoir",
+   "biografia": "beauvoir",
    "t": "Emakumea ez da jaiotzen: egin egiten da.",
    "ref": "Bigarren sexua, II. liburukia, lehen zatia, I. kap.",
    "forma": "literala"

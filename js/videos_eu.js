@@ -5,7 +5,7 @@ const VIDEOS_EU = [
   "eu_titulo": "PLATON ulertzeko gakoak",
   "es": "Platon ulertzeko gakoak",
   "dur": "7:23",
-  "ilustre": [
+  "biografia": [
    "platon"
   ],
   "temas": [
@@ -18,7 +18,7 @@ const VIDEOS_EU = [
   "eu_titulo": "ARISTOTELES ulertzeko gakoak",
   "es": "Aristoteles ulertzeko gakoak",
   "dur": "8:23",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ],
   "temas": [
@@ -30,7 +30,7 @@ const VIDEOS_EU = [
   "eu_titulo": "DESCARTES ulertzeko gakoak",
   "es": "Descartes ulertzeko gakoak",
   "dur": "6:38",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ],
   "temas": [
@@ -43,7 +43,7 @@ const VIDEOS_EU = [
   "eu_titulo": "KANT ulertzeko gakoak",
   "es": "Kant ulertzeko gakoak",
   "dur": "7:32",
-  "ilustre": [
+  "biografia": [
    "kant"
   ],
   "temas": [
@@ -56,7 +56,7 @@ const VIDEOS_EU = [
   "eu_titulo": "NIETZSCHE ulertzeko gakoak",
   "es": "Nietzsche ulertzeko gakoak",
   "dur": "6:54",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ],
   "temas": [
@@ -69,7 +69,7 @@ const VIDEOS_EU = [
   "eu_titulo": "HANNAH ARENDT ulertzeko gakoak",
   "es": "Hannah Arendt ulertzeko gakoak",
   "dur": "7:20",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ],
   "temas": [
@@ -81,7 +81,7 @@ const VIDEOS_EU = [
   "eu_titulo": "SIMONE DE BEAUVOIR ulertzeko gakoak",
   "es": "Simone de Beauvoir ulertzeko gakoak",
   "dur": "8:29",
-  "ilustre": [
+  "biografia": [
    "beauvoir"
   ],
   "temas": [
@@ -94,7 +94,7 @@ const VIDEOS_EU = [
   "eu_titulo": "KARL MARX ulertzeko gakoak",
   "es": "Karl Marx ulertzeko gakoak",
   "dur": "8:19",
-  "ilustre": [
+  "biografia": [
    "marx"
   ],
   "temas": [
@@ -107,7 +107,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MARY WOLLSTONECRAFT ulertzeko gakoak",
   "es": "Mary Wollstonecraft ulertzeko gakoak",
   "dur": "6:56",
-  "ilustre": [
+  "biografia": [
    "wollstonecraft"
   ],
   "temas": [
@@ -120,7 +120,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MICHEL FOUCAULT ulertzeko gakoak",
   "es": "Michel Foucault ulertzeko gakoak",
   "dur": "8:42",
-  "ilustre": [
+  "biografia": [
    "foucault"
   ],
   "temas": [
@@ -132,7 +132,7 @@ const VIDEOS_EU = [
   "eu_titulo": "bell hooks ulertzeko gakoak",
   "es": "bell hooks ulertzeko gakoak",
   "dur": "7:08",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-beauvoir"
   ]
@@ -142,7 +142,7 @@ const VIDEOS_EU = [
   "eu_titulo": "SALLY HASLANGER ulertzeko gakoak",
   "es": "Sally Haslanger ulertzeko gakoak",
   "dur": "8:36",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-beauvoir"
   ]
@@ -152,7 +152,7 @@ const VIDEOS_EU = [
   "eu_titulo": "JOXE AZURMENDI ulertzeko gakoak",
   "es": "Joxe Azurmendi ulertzeko gakoak",
   "dur": "8:33",
-  "ilustre": [
+  "biografia": [
    "azurmendi"
   ],
   "temas": [
@@ -164,7 +164,7 @@ const VIDEOS_EU = [
   "eu_titulo": "TXILLARDEGI ulertzeko gakoak",
   "es": "Txillardegi ulertzeko gakoak",
   "dur": "6:46",
-  "ilustre": [
+  "biografia": [
    "txillardegi"
   ],
   "temas": [
@@ -176,7 +176,7 @@ const VIDEOS_EU = [
   "eu_titulo": "JUDITH BUTLER ulertzeko gakoak",
   "es": "Judith Butler ulertzeko gakoak",
   "dur": "7:47",
-  "ilustre": [
+  "biografia": [
    "butler"
   ],
   "temas": [
@@ -188,7 +188,7 @@ const VIDEOS_EU = [
   "eu_titulo": "BYUNG-CHUL HAN ulertzeko gakoak",
   "es": "Byung-Chul Han ulertzeko gakoak",
   "dur": "7:44",
-  "ilustre": [
+  "biografia": [
    "han"
   ],
   "temas": [
@@ -200,7 +200,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MIGUEL UNAMUNO ulertzeko gakoak",
   "es": "Miguel Unamuno ulertzeko gakoak",
   "dur": "8:32",
-  "ilustre": [
+  "biografia": [
    "unamuno"
   ],
   "temas": [
@@ -213,7 +213,7 @@ const VIDEOS_EU = [
   "eu_titulo": "LUDWIG WITTGENSTEIN ulertzeko gakoak",
   "es": "Ludwig Wittgenstein ulertzeko gakoak",
   "dur": "8:43",
-  "ilustre": [
+  "biografia": [
    "wittgenstein"
   ],
   "temas": [
@@ -225,7 +225,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Ideia jakin batzuk barneratuta jaiotzen gara? | ENPIRISMOA",
   "es": "Ideia jakin batzuk barneratuta jaiotzen gara? Enpirismoa",
   "dur": "8:01",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-racionalismo",
    "fil-t3"
@@ -236,7 +236,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Arauak behar ditugu gizartean bizitzeko? | KONTRAKTUALISMOA",
   "es": "Arauak behar ditugu gizartean bizitzeko? Kontraktualismoa",
   "dur": "8:53",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-contrato",
    "fil-t6"
@@ -247,7 +247,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Nola izan zoriontsu? | ESTOIZISMOA",
   "es": "Nola izan zoriontsu? Estoizismoa",
   "dur": "7:33",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-helenismo",
    "fil-helenismo"
@@ -258,7 +258,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Nola dakigu ez garela simulazio batean bizi? | ESZEPTIZISMO KARTESIARRA",
   "es": "Nola dakigu ez garela simulazio batean bizi? Eszeptizismo kartesiarra",
   "dur": "7:13",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-descartes-simulacion",
    "hf-racionalismo"
@@ -269,7 +269,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MARI LUZ ESTEBAN ulertzeko gakoak",
   "es": "Mari Luz Esteban ulertzeko gakoak",
   "dur": "9:10",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-beauvoir"
   ]
@@ -279,7 +279,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Ezin bada frogatu, ez da nire iraultza | POSITIBISMOA",
   "es": "Ezin bada frogatu, ez da nire iraultza: positibismoa",
   "dur": "8:36",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-sospecha",
    "hf-analitica",
@@ -291,7 +291,7 @@ const VIDEOS_EU = [
   "eu_titulo": "DAVID HUME ulertzeko gakoak",
   "es": "David Hume ulertzeko gakoak",
   "dur": "7:03",
-  "ilustre": [
+  "biografia": [
    "hume"
   ],
   "temas": [
@@ -303,7 +303,7 @@ const VIDEOS_EU = [
   "eu_titulo": "SIGMUND FREUD ulertzeko gakoak",
   "es": "Sigmund Freud ulertzeko gakoak",
   "dur": "8:14",
-  "ilustre": [
+  "biografia": [
    "freud"
   ],
   "temas": [
@@ -315,7 +315,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Zoriontsu izateko formula? | EPIKUREISMOA",
   "es": "Zoriontsu izateko formula? Epikureismoa",
   "dur": "8:09",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-helenismo",
    "fil-helenismo"
@@ -326,7 +326,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Nork urratu du emakumeen askapen bidea? | EMAKUMEEN AUZIA",
   "es": "Nork urratu du emakumeen askapen bidea? Emakumeen auzia",
   "dur": "9:37",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "fil-t1-filosofia-mujer",
    "hf-filosofas-dialogo"
@@ -337,7 +337,7 @@ const VIDEOS_EU = [
   "eu_titulo": "AYN RAND ulertzeko gakoak",
   "es": "Ayn Rand ulertzeko gakoak",
   "dur": "9:06",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-silicon-valley"
   ]
@@ -347,7 +347,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Utopiak, zergatik eta zertarako? | UTOPIAK",
   "es": "Utopiak, zergatik eta zertarako?",
   "dur": "8:28",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-utopias-autoras",
    "hf-modernidad"
@@ -358,7 +358,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Mary Shelley-en Frankenstein, eleberri beldurgarri bezain filosofikoa",
   "es": "Mary Shelley-ren Frankenstein, eleberri beldurgarri bezain filosofikoa",
   "dur": "8:35",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "fil-t2"
   ]
@@ -368,7 +368,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Adimen artifizialak artea egin dezake?",
   "es": "Adimen artifizialak artea egin dezake?",
   "dur": "6:53",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "fil-t7"
   ]
@@ -378,7 +378,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Teknozientzia: zientzia enpresa teknologiko handien esku?",
   "es": "Teknozientzia: zientzia enpresa teknologiko handien esku?",
   "dur": "6:07",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-siglo21",
    "hf-silicon-valley"
@@ -389,7 +389,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Teknologiari begiratzeko bi modu: teknopositibismoa vs luddismoa",
   "es": "Teknologiari begiratzeko bi modu: teknopositibismoa vs luddismoa",
   "dur": "4:21",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-siglo21",
    "hf-silicon-valley"

@@ -48,7 +48,7 @@ const DILEMAS = [
     "quien": "Sokrates",
     "elige": "B",
     "porque": "Hiru arrazoi Kritonen: ez da bidegabekeria bidegabekeriaz itzuli behar; Legeek hazi dute eta berak onartu zituen Atenasen geratzean (isilbidezko akordio bat); ihes egiteak arima kaltetuko lioke, eta arimak bizitzak baino gehiago balio du.",
-    "ilustre": "socrates"
+    "biografia": "socrates"
    },
    {
     "quien": "Antigona (Sofokles)",
@@ -59,19 +59,19 @@ const DILEMAS = [
     "quien": "Platon",
     "elige": "B",
     "porque": "Maisuaren erantzuna jasotzen du, baina Errepublikan ondorioztatzen du funtsezko arazoa beste bat dela: ez dakitenek gobernatzen duten bitartean, legeak bidegabeak izango dira; irtenbidea ez da ihes egitea, filosofoek gobernatzea baizik.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Spinoza",
     "elige": "B",
     "porque": "Ñabardurekin. Gizaki askeak ez du inoiz iruzurrez jokatzen, ezta heriotza-arrisku batetik libratzeko ere (Etika, IV, 72, eskolioa), eta bere hiriko legeei iruzur eginez ihes egitea horren antzekoa litzateke. Baina garaiz erretiratzeak borrokatzeak adina irmotasun eskatzen du (IV, 69, korolarioa), eta bera, Sokrates bezala bere komunitatetik kanporatua, kontuz aldendu zen pentsatzen jarraitzeko: ez martiri, ez iheslari.",
-    "ilustre": "spinoza"
+    "biografia": "spinoza"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "Obeditu zure egintzetan eta arrazoitu publikoan: ofizialak agindua betetzen du, eta gero idatziz kritika dezake (Zer da Ilustrazioa?, 1784). Ohituren metafisikan (1797) matxinatzeko eskubide oro ukatzen du; horrek agindu immoral bat betetzeari uko egitea ere baztertzen duen ala ez, eztabaida irekia da haren interpreteen artean.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "otra": "Spinozarena, Sokrates bezala bere komunitateak kondenatua: ez legeari iruzur eginez ihes egin, ez hiltzeko geratu, baizik eta garaiz aldendu, ezinbestekoa isildu (haren goiburua «Caute» zen, kontuz) eta pentsatzen jarraitu.",
@@ -121,13 +121,13 @@ const DILEMAS = [
     "quien": "Platon",
     "elige": "A",
     "porque": "Ongia ikusi duena ezin da hari begira geratu: hiriak hezi zuen eta itzultzea zor dio; gobernatzen ez duen filosofoak boterea maite dutenei uzten die boterea.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Epikuro",
     "elige": "B",
     "porque": "«Bizi ezkutuan»: politika asaldura-iturria da; jakintsuak bere lorategia lantzen du lagunekin eta ez du jendetza salbatu nahi, salbatua izan nahi ez duena.",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "Estoikoak",
@@ -138,7 +138,7 @@ const DILEMAS = [
     "quien": "Nietzsche",
     "elige": "B",
     "porque": "Susmoz: eta jaisten dena askatu nahi ez baina menderatu nahi badu? Zaratustra menditik jaisten da eta deskubritzen du herriak ez duela bere oparia nahi. Egia ez da inposatzen: jasan dezakeenari eskaintzen zaio.",
-    "ilustre": "nietzsche"
+    "biografia": "nietzsche"
    }
   ],
   "debate": {
@@ -173,7 +173,7 @@ const DILEMAS = [
     "quien": "Epikuro",
     "elige": "A",
     "porque": "Arimaren plazerak, adiskidetasuna eta solasa nahikoak dira; desira naturala erraz asetzen da, eta jainkoei eta heriotzari beldur izatea arrazoibide-akats bat da. «Bizi ezkutuan».",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "Estoikoak (Zenon, Seneka, Epikteto)",
@@ -189,7 +189,7 @@ const DILEMAS = [
     "quien": "Aristoteles",
     "elige": "B",
     "porque": "Zuzenketa batekin: zoriona arrazoiaren jarduera da hirian, lagunekin eta kanpoko ondasun batzuekin; ez Diogenesen upela ez Epikuroren lorategia ez dira nahikoak bizitza bete baterako.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    }
   ],
   "debate": {
@@ -229,13 +229,13 @@ const DILEMAS = [
     "quien": "Agustin Hiponakoa",
     "elige": "A",
     "porque": "Ñabardura batekin: «sinetsi ulertzeko». Fedea doa lehenik, baina ez arrazoiaren aurka, haren gidari gisa baizik; arrazoia gero sartzen da sinetsitakoa ulertzeko.",
-    "ilustre": "agustin"
+    "biografia": "agustin"
    },
    {
     "quien": "Tomas Akinokoa",
     "elige": "B",
     "porque": "Fedeak eta arrazoiak elkarlanean dihardute, iturri beretik datozelako; arrazoiak Jainkoa existitzen dela frogatu dezake (bost bideak) eta fedea defendatu, nahiz eta misterioak (Hirutasuna) haren gainetik geratu.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "Gilen Ockhamgoa",
@@ -280,7 +280,7 @@ const DILEMAS = [
     "quien": "Tomas Akinokoa",
     "elige": "B",
     "porque": "Egiazkoak ezin dio egiazkoari kontra egin. Aristotelesek mundua betierekoa dela ondorioztatzen badu, haren argudioa aztertu behar da: arrazoiak, dio Tomasek, ezin du frogatu ez betierekotasuna ez sorkuntza; auzia fedearentzat geratzen da.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "Tempier apezpikua (1277ko kondena)",
@@ -325,13 +325,13 @@ const DILEMAS = [
     "quien": "Descartes (arrazionalismoa)",
     "elige": "A",
     "porque": "Zalantza metodikoa borondatezkoa, behin-behinekoa eta erradikala da, eta hondo bat aurkitzen du: zalantza egiten dut, beraz pentsatzen dut, beraz banaiz. Hortik, Jainkoaren bermearekin, dena ziurtasunez berreraikitzen da.",
-    "ilustre": "descartes"
+    "biografia": "descartes"
    },
    {
     "quien": "Hume (enpirismoa)",
     "elige": "B",
     "porque": "Zalantza kartesiarra, posible balitz, sendaezina litzateke: ez dago zalantzan jarri ezin den printzipiorik. Zorionez ezinezkoa da: naturak sinestera behartzen gaitu. Esperientziatik abiatu behar da, ez ezerezetik.",
-    "ilustre": "hume"
+    "biografia": "hume"
    },
    {
     "quien": "Peirce eta pragmatismoa (XIX. mendea)",
@@ -342,7 +342,7 @@ const DILEMAS = [
     "quien": "Kant",
     "elige": "A",
     "porque": "Bere erara: ez zuen guztiaz zalantza egin, baina bai galdetu zuen ezagutza posible ororen baldintzez, bat bera ere onartu aurretik. Kritika metodo bihurtutako zalantza kartesiarra da.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "debate": {
@@ -377,13 +377,13 @@ const DILEMAS = [
     "quien": "Hobbes",
     "elige": "A",
     "porque": "Naturazko egoeran bizitza «bakartia, pobrea, basatia eta laburra» da; beldurrez, gizakiek beren eskubide guztia subirano absolutu bati lagatzen diote. Boterea banatzea gerrara itzultzea da.",
-    "ilustre": "hobbes"
+    "biografia": "hobbes"
    },
    {
     "quien": "Rousseau",
     "elige": "B",
     "porque": "Gizakia libre eta on jaiotzen da; itun legitimoak ez du askatasuna entregatzen, eraldatu baizik: bakoitzak bere parte den borondate orokorrari obeditzen dio, eta horrela bere buruari bakarrik obeditzen dio.",
-    "ilustre": "rousseau"
+    "biografia": "rousseau"
    },
    {
     "quien": "Locke",
@@ -428,19 +428,19 @@ const DILEMAS = [
     "quien": "Kant",
     "elige": "B",
     "porque": "1797an idatzi zuen, kasu hau objekzio gisa jarri ziotenen aurka: gezurra esatea beti da betebeharraren aurkakoa, «komeni zaidanean gezurra esaten dut» maxima ezin baita unibertsalizatu hizkuntza bera posible egiten duen konfiantza suntsitu gabe; egiaren emaitzaren erantzulea ez naiz ni, hiltzailea baizik.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Bentham eta Mill (utilitarismoa)",
     "elige": "A",
     "porque": "Ekintza bat ona da ahalik eta jende gehienarentzat ahalik eta zoriontasun handiena sortzen badu; bizitza bat salbatzen duen gezurra nahitaezkoa da. Millek gehituko luke «gezurrik ez esan» araua oro har baliagarria dela, eta horregatik salbuespenek oso bakanak eta oso argiak izan behar dutela.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Aristoteles",
     "elige": "A",
     "porque": "Ez kalkuluz: pertsona zuhurrak (phronesis) badaki egiazkotasuna bertute bat dela beste batzuen artean, eta justiziak eta adiskidetasunak hemen gehiago pisatzen dutela; etika ez da arauak aplikatzea, kasu zehatza ondo epaitzea baizik.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Benjamin Constant",
@@ -480,13 +480,13 @@ const DILEMAS = [
     "quien": "Nietzsche",
     "elige": "A",
     "porque": "Jaunen moralak «ona» esaten dio nobleari eta indartsuari; esklaboenak, erresuminetik jaioak, balioak alderantzikatzen ditu: otzanari ona deitzen dio, eta boteretsuari, gaiztoa. Judaismoak eta kristautasunak irabazi zuten borroka hori; balioak transbaloratu egin behar dira.",
-    "ilustre": "nietzsche"
+    "biografia": "nietzsche"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "Duintasuna berdina da izaki arrazional guztietan; ez dago «jaunik» ez «esklaborik» lege moralaren aurrean. Moralak ahula faboratzeak ez du morala gezurtatzen: gizateria ez da txapelketa bat.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Marx",
@@ -497,7 +497,7 @@ const DILEMAS = [
     "quien": "Simone de Beauvoir",
     "elige": "B",
     "porque": "Anbiguotasunaren morala: nire askatasuna besteen askatasuna nahi badu bakarrik da benetakoa; esklaboak behar dituen «jaun» nietzschetarra ez da askea, bere nagusitasunaren mendekoa da.",
-    "ilustre": "beauvoir"
+    "biografia": "beauvoir"
    }
   ],
   "debate": {
@@ -532,13 +532,13 @@ const DILEMAS = [
     "quien": "Hannah Arendt",
     "elige": "B",
     "porque": "Eichmann erruduna zen eta hil behar zuen; baina izugarria bere normaltasuna zen: beste baten ikuspuntutik pentsatzeko ezintasuna. Gaizki erradikalak ez du gaiztakeriarik behar, epaitzeari uztea baino ez. Eta hori edonori gerta dakioke.",
-    "ilustre": "arendt"
+    "biografia": "arendt"
    },
    {
     "quien": "Kant",
     "elige": "A",
     "porque": "Autonomia morala norberak bere buruari legea ematea da; agindu inmoral bat obeditzen duenak bere arrazoiari uko egin dio, eta erantzule izaten jarraitzen du, inor ezin baita behartu inmorala izatera. Kant, ironia tragikoa, Eichmannek irakurria zuela zioen filosofoa zen.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Sartre (existentzialismoa)",
@@ -549,7 +549,7 @@ const DILEMAS = [
     "quien": "Sokrates",
     "elige": "A",
     "porque": "Hogeita Hamar Tiranoen aurrean esan zuen jada, errugabe bat atxilotzeko agindu ziotenean: etxera joan zen. Hobe da injustizia jasatea egitea baino, eta lege injustu batek ez du justu bihurtzen agintzen duena.",
-    "ilustre": "socrates"
+    "biografia": "socrates"
    }
   ],
   "debate": {
@@ -584,7 +584,7 @@ const DILEMAS = [
     "quien": "Simone de Beauvoir",
     "elige": "B",
     "porque": "«Ez da emakume jaiotzen: emakume bihurtzen da». Emakumea Bestea gisa eraiki da; bere askatasuna benetakoa da, baina kokatua, eta zapalkuntza-egoera batek aukera posibleak estutzen ditu. Ez da pertsona epaitzen: egoera aldatzen da.",
-    "ilustre": "beauvoir"
+    "biografia": "beauvoir"
    },
    {
     "quien": "Sartre",
@@ -595,7 +595,7 @@ const DILEMAS = [
     "quien": "Mill (liberalismoa)",
     "elige": "A",
     "porque": "Bere buruaren gainean, bere gorputzaren eta gogoaren gainean, gizabanakoa subiranoa da; gizarteak besteei kalte egitea saihesteko bakarrik esku har dezake. Nahiz eta Millek berak, Emakumeen mendekotasuna liburuan, onartzen duen mendekotasunean hezitako lehentasun bat ez dela erabat lehentasun bat.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Marx",
@@ -635,7 +635,7 @@ const DILEMAS = [
     "quien": "Rawls (liberalismo berdinzalea)",
     "elige": "B",
     "porque": "Ezjakintasunaren beloaren pean, izaki arrazional batek maximin estrategia aukeratzen du: lekurik txarrena ahalik eta onena izatea. Hortik datoz bere bi printzipioak: oinarrizko askatasunak guztientzat, eta desberdintasunak egoerarik txarrenean daudenen mesedetan direnean bakarrik. Ongizate-estatuak, horrela, oinarri moral bat du: esku hartzea ez da karitatea, justizia baizik.",
-    "ilustre": "rawls"
+    "biografia": "rawls"
    },
    {
     "quien": "Nozick (libertarismoa)",

@@ -118,7 +118,7 @@ const CITAS = [
   "o": "DK 21 B15 zatia",
   "e": "antigua",
   "id": "jenofanes",
-  "img": "media/retratos/ilustres/jenofanes.jpg",
+  "img": "media/retratos/biografias/jenofanes.jpg",
   "sen": "Xenofanesek erlijio grekoaren antropomorfismoa kritikatzen du: herri bakoitzak bere irudira irudikatzen ditu jainkoak. Horren aurrean, jainko bakar bat defendatzen du, hilkorren antzik ez duena.",
   "uso": "Mitotik logoserako igarotzea eta Homeroren jainkoei egindako kritika presokratikoa azaltzeko, edo erlijioari eta giza proiekzioari buruzko eztabaidetan."
  },
@@ -222,7 +222,7 @@ const CITAS = [
   "o": "Scivias-en aurkitu gabeko parafrasia; «argi bizia» Gembloux-ko Guiberti idatzitako gutunetik dator (1175)",
   "e": "medieval",
   "id": "hildegarda",
-  "img": "media/retratos/ilustres/hildegarda.jpg",
+  "img": "media/retratos/biografias/hildegarda.jpg",
   "sen": "Hildegardak bere ikuskariak Jainkoarengandik datorren eta kreatura guztietan islatzen den argi gisa deskribatzen ditu. Harentzat, mundu osoak jainkozko distira agertzen du.",
   "uso": "Hildegarda Bingengoa eta Erdi Aroko mistika aurkezteko, edo Erdi Aroko emakume filosofoei buruzko aurkezpen batean.",
   "trampa": "Ez da aipu kokatu bat: parafrasia da; «argi bizia» Gembloux-ko Guiberti idatzitako gutunetik dator, ez Scivias-etik."
@@ -469,7 +469,7 @@ const CITAS = [
   "o": "Gizaki makina (1748) lanaren parafrasia",
   "e": "modernoa",
   "id": "lamettrie",
-  "img": "media/retratos/ilustres/lamettrie.jpg",
+  "img": "media/retratos/biografias/lamettrie.jpg",
   "sen": "La Mettriek materialismo erradikal bat defendatzen du: gizakia makina konplexu bat da, eta arima deitzen dioguna gorputzaren antolamenduaren mende dago erabat.",
   "uso": "Materialismo ilustratua dualismo kartesiarraren aurrean aurkezteko, edo adimen-garun harremanari buruzko eztabaidetan.",
   "trampa": "Ez da aipu literala, baizik eta Gizaki-makina lanaren tesi nagusiaren laburpena."
@@ -500,7 +500,7 @@ const CITAS = [
   "o": "Kristauaren askatasuna (1520), § 1",
   "e": "modernoa",
   "id": "lutero",
-  "img": "media/retratos/ilustres/lutero.jpg",
+  "img": "media/retratos/biografias/lutero.jpg",
   "sen": "Luterok paradoxa bat aurkezten du: fedearen bidez, kristaua askea da eta ez dago inoren mende salbatzeko; maitasunagatik, besteen zerbitzura jartzen da.",
   "uso": "Erreforma protestantea eta haren barne-askatasunaren ideia aurkezteko, edo askatasunari eta erantzukizunari buruzko eztabaidetan."
  },
@@ -632,7 +632,7 @@ const CITAS = [
   "o": "Ilustrazioaren dialektika (1944), «Ilustrazioaren kontzeptua»",
   "e": "contemporanea",
   "id": "adorno",
-  "img": "media/retratos/ilustres/adorno.jpg",
+  "img": "media/retratos/biografias/adorno.jpg",
   "sen": "Adorno eta Horkheimerrentzat, arrazoi ilustratua, dena kalkulura eta natura menderatzera murriztean, gizakien beraien aurka itzultzen da eta menderakuntzaren zerbitzura amaitzen du.",
   "uso": "Frankfurteko Eskola eta arrazoi instrumentala azaltzeko, edo aurrerapen teknikoaren mugei buruzko disertazio batean.",
   "trampa": "Ez da Ilustrazioaren arbuioa: egileek nahi dute arrazoiak bere burua kritikatzea, emantzipazio-promesa salbatzeko."
@@ -681,7 +681,7 @@ const CITAS = [
   "o": "Generoa eztabaidan (1990), 1. kap.",
   "e": "contemporanea",
   "id": "butler",
-  "img": "media/retratos/ilustres/butler.jpg",
+  "img": "media/retratos/biografias/butler.jpg",
   "sen": "Butlerrentzat generoa ez da berez den zerbait, egiten den zerbait baizik: arau sozialen arabera errepikatutako ekintzak, hainbeste errepikatzearen poderioz esentzia natural bat dirudite.",
   "uso": "Generoaren performatibitatearen teoria azaltzeko, edo identitatean naturari eta kulturari buruzko eztabaidetan."
  },
@@ -701,7 +701,7 @@ const CITAS = [
   "o": "Gramatologiaz (1967), II. zatia, 2. kap.",
   "e": "contemporanea",
   "id": "derrida",
-  "img": "media/retratos/ilustres/derrida.jpg",
+  "img": "media/retratos/biografias/derrida.jpg",
   "sen": "Derridak dio ez dagoela zentzu garbirik hizkuntzatik kanpo: ulertzen dugun guztia zeinu- eta interpretazio-sareen barruan iristen zaigu dagoeneko.",
   "uso": "Dekonstrukzioa eta hizkuntzaren bira aurkezteko, edo interpretazioari eta egiari buruzko eztabaidetan.",
   "trampa": "Ez du esan nahi liburuak baino ez direla existitzen edo mundua erreala ez dela, baizik eta ez dugula ezer atzitzen hizkuntzaren eta interpretazioaren bitartekaritzarik gabe."
@@ -911,7 +911,7 @@ const CITAS = [
   "o": "Egoera postmodernoa (1979), Sarrera",
   "e": "contemporanea",
   "id": "lyotard",
-  "img": "media/retratos/ilustres/lyotard.jpg",
+  "img": "media/retratos/biografias/lyotard.jpg",
   "sen": "Lyotardentzat, postmodernitateak utzi egiten dio historiari zentzua ematen zioten kontakizun handietan sinesteari, hala nola aurrerapenean, emantzipazioan edo iraultzan.",
   "uso": "Postmodernitatea eta modernitatearen krisia aurkezteko, edo aurrerapenari buruzko disertazio batean."
  },
@@ -982,7 +982,7 @@ const CITAS = [
   "o": "Modernitate likidoa (2000), Hitzaurrea",
   "e": "contemporanea",
   "id": "bauman",
-  "img": "media/retratos/ilustres/bauman.jpg",
+  "img": "media/retratos/biografias/bauman.jpg",
   "sen": "Baumanek likidoen irudia erabiltzen du gure garaia deskribatzeko: lanak, harremanak eta identitateak ez dira jada sendoak ezta iraunkorrak ere, etengabe aldatzen dute forma.",
   "uso": "Baumanen modernitate likidoa azaltzeko, edo prekarietateari, kontsumoari eta gaur egungo gizarteko harremanei buruzko eztabaidetan."
  },
@@ -1591,7 +1591,7 @@ const CITAS = [
   "o": "Herderri gutuna, 1784ko abuztuaren 6a",
   "e": "modernoa",
   "id": "hamann",
-  "img": "media/retratos/ilustres/hamann.jpg",
+  "img": "media/retratos/biografias/hamann.jpg",
   "sen": "Hamannek Kanten arrazoimen hutsa kritikatzen du: ez dago hizkuntzatik bereizitako arrazoirik, beti hizkuntza zehatz, heredatu eta historiko bateko hitzekin pentsatzen baitugu. Grezieraz, logos-ek arrazoia eta hitza esan nahi du aldi berean.",
   "uso": "Ilustrazioaren kritika eta hizkuntzarako bira aurkezteko, edo pentsamenduaren eta hizkuntzaren arteko harremanari buruzko disertazio batean."
  },
@@ -1601,7 +1601,7 @@ const CITAS = [
   "o": "Hizkuntzaren jatorriari buruzko tratatua (1772), lehen esaldia",
   "e": "modernoa",
   "id": "herder",
-  "img": "media/retratos/ilustres/herder.jpg",
+  "img": "media/retratos/biografias/herder.jpg",
   "sen": "Herderrek bere tratatua hasten du esanez hizkuntza ez dela jainkozko oparia ezta geroagoko asmakizuna ere: sentsazioen adierazpen naturalean ditu sustraiak, eta hori gizakiak animaliekin partekatzen du.",
   "uso": "Hizkuntzaren jatorriari buruzko eztabaida ilustratua azaltzeko, edo gizakia animaliengandik zerk bereizten duen buruzko disertazio batean."
  },
@@ -1611,7 +1611,7 @@ const CITAS = [
   "o": "Werther gaztearen sufrimenduak (1774), maiatzaren 22ko gutuna",
   "e": "modernoa",
   "id": "goethe",
-  "img": "media/retratos/ilustres/goethe.jpg",
+  "img": "media/retratos/biografias/goethe.jpg",
   "sen": "Werther, Goetheren protagonista, bere barnean babesten da, eta han sentimendu eta irudimenezko mundu oso bat aurkitzen du, etsitzen duen kanpoko errealitatea baino aberatsagoa.",
   "uso": "Sturm und Drang-a eta Erromantizismoa aurkezteko, sentimenduari eta barnekotasunari arrazoi ilustratuaren aurrean ematen dioten balioarekin."
  },
@@ -1621,7 +1621,7 @@ const CITAS = [
   "o": "Fausto I (1808), lan-gelako eszena",
   "e": "modernoa",
   "id": "goethe",
-  "img": "media/retratos/ilustres/goethe.jpg",
+  "img": "media/retratos/biografias/goethe.jpg",
   "sen": "Faustok Joanen Ebanjelioaren hasiera itzultzen saiatzen da, «Hasieran Hitza zen», eta «ekintza» jartzen du azkenean: lehena ez da hitza ezta pentsamendua ere, egitea baizik.",
   "uso": "Goetheren Fausto eta ekintzaren lehentasuna aurkezteko, edo teoriari eta praktikari buruzko disertazio batean."
  },
@@ -1631,7 +1631,7 @@ const CITAS = [
   "o": "Gizakiaren hezkuntza estetikoari buruzko gutunak (1795), 15. gutuna",
   "e": "modernoa",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Schillerrentzat, jolasean, eta batez ere artean, gizakiak bere bi bulkadak batzen ditu, sentikorra eta arrazionala, batak besteari nagusitu gabe; horregatik da hor guztiz aske eta gizatiar.",
   "uso": "Schillerren hezkuntza estetikoa azaltzeko, edo arteari, jolasari eta askatasunari buruzko disertazio batean."
  },
@@ -1641,7 +1641,7 @@ const CITAS = [
   "o": "Goetheri emandako erantzuna jatorrizko landareari buruz (1794), Goetheren arabera, Gertaera zoriontsua (1817)",
   "e": "modernoa",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Goethek uste zuen landare guztiak eratortzen diren jatorrizko landarea ikusi zuela; Schillerrek, kantiarra zenez, erantzun zion hori ez dela ikusten: arrazoiaren ideia bat da, ez esperientzian emandako zerbait.",
   "uso": "Esperientziaren eta ideiaren arteko bereizketa kantiarra azaltzeko, edo Goetheren eta Schillerren arteko elkarrizketa zientziari eta naturari buruz."
  },
@@ -1661,7 +1661,7 @@ const CITAS = [
   "o": "Athenaeum (1798), 116. zatia",
   "e": "contemporanea",
   "id": "schlegel",
-  "img": "media/retratos/ilustres/schlegel.jpg",
+  "img": "media/retratos/biografias/schlegel.jpg",
   "sen": "Schlegelek poesia erromantikoa proiektu ireki gisa definitzen du: generoak nahasten ditu, poesia, filosofia eta bizitza batzen ditu, eta ez da inoiz amaitzen: beti egiten ari da.",
   "uso": "Erromantizismo alemana eta artea bilaketa infinitu gisa ikusten duen haren ideia aurkezteko, klasizismoaren aurrean."
  },
@@ -1689,7 +1689,7 @@ const CITAS = [
   "o": "Gizartearen ikuspegi berri bat (1813), lehen saiakera",
   "e": "contemporanea",
   "id": "owen",
-  "img": "media/retratos/ilustres/owen.jpg",
+  "img": "media/retratos/biografias/owen.jpg",
   "sen": "Owenentzat, pertsonen izaera ez dago haien mende, jasotzen dituzten inguruabarren eta hezkuntzaren mende baizik; ingurunea aldatuz gero, gizarte oso bat hobea era daiteke.",
   "uso": "Owenen sozialismo utopikoa aurkezteko, edo inguruneak eta hezkuntzak izaeran duten eraginari buruzko disertazio batean."
  },
@@ -1699,7 +1699,7 @@ const CITAS = [
   "o": "Lau mugimenduen teoria (1808)",
   "e": "contemporanea",
   "id": "fourier",
-  "img": "media/retratos/ilustres/fourier.jpg",
+  "img": "media/retratos/biografias/fourier.jpg",
   "sen": "Fourierrentzat, emakumeen askatasun-maila da gizarte baten aurrerapenaren neurria: zenbat eta askeago izan, orduan eta aurreratuagoa da gizartea.",
   "uso": "Fourierren sozialismo utopikoa eta feminismoarekin duen harremana aurkezteko, edo gizarte-aurrerapenari buruzko disertazio batean."
  },
@@ -1709,7 +1709,7 @@ const CITAS = [
   "o": "Zer da jabetza? (1840), 1. kap.",
   "e": "contemporanea",
   "id": "proudhon",
-  "img": "media/retratos/ilustres/proudhon.jpg",
+  "img": "media/retratos/biografias/proudhon.jpg",
   "sen": "Proudhonek jabetza kritikatzen du, lan egin gabe diru-sarrerak lortzeko eskubide gisa ulertuta, errenten edo interesen bidez: harentzat, hori besteren lana bereganatzea da.",
   "uso": "Anarkismoa eta XIX. mendeko sozialismoa aurkezteko, edo jabetza pribatuari buruzko disertazio batean.",
   "trampa": "Ez da Marxena, eta Proudhonek ez du edukitza oro baztertzen: besteren lanetik bizi den jabetza bereizten du norberak erabili eta lantzen duenaren edukitzatik."
@@ -1770,7 +1770,7 @@ const CITAS = [
   "o": "Hegeli gutuna, 1795eko otsailaren 4a",
   "e": "contemporanea",
   "id": "schelling",
-  "img": "media/retratos/ilustres/schelling.jpg",
+  "img": "media/retratos/biografias/schelling.jpg",
   "sen": "Schelling gazteak Hegeli aitortzen dio Spinozarekin bat egin duela: hark bezala, dena eratortzen den printzipio absolutu bakar bat bilatzen zuen, nahiz eta nitik eta askatasunetik abiatuta.",
   "uso": "Spinozak idealismo alemanean izan zuen eragina eta Schellingen eta Hegelen arteko adiskidetasuna aurkezteko."
  },
@@ -1801,7 +1801,7 @@ const CITAS = [
   "o": "Gizakiaren hezkuntza estetikoari buruzko gutunak (1795), 6. gutuna",
   "e": "modernoa",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Schillerrek gizarte modernoko lan-banaketa eta espezializazioa kritikatzen ditu: pertsona bakoitza zeregin txiki batera murrizten da eta bere zati bat baino ez du garatzen, gizaki oso bat izan beharrean.",
   "uso": "Schillerrengan modernitatearen kritika azaltzeko, Marxengan alienazioaren aurrekari gisa, edo espezializazioari buruzko eztabaidetan."
  },
@@ -1821,7 +1821,7 @@ const CITAS = [
   "o": "Goriot aita (1835), Vautrinen hitzak",
   "e": "contemporanea",
   "id": "balzac",
-  "img": "media/retratos/ilustres/balzac.jpg",
+  "img": "media/retratos/biografias/balzac.jpg",
   "sen": "Vautrinek, Balzacen eleberriko gaizkile batek, iradokitzen du jatorri ilunko fortuna handiek inork gogoratzen ez duen delitu bat ezkutatzen dutela, arrastorik utzi gabe egin zelako.",
   "uso": "XIX. mendeko gizarte burgesari egindako kritika literarioa argitzeko, edo aberastasunaren jatorriari eta desberdintasunari buruzko eztabaidetan.",
   "trampa": "«Fortuna handi ororen atzean krimen bat dago» bezala aipatu ohi da, baina Balzacek itxurazko arrazoirik gabeko fortunez baino ez du hitz egiten, eta pertsonaia batek esaten du, ez egileak."
@@ -1832,7 +1832,7 @@ const CITAS = [
   "o": "Hesseko landa-mezularia (1834), Friedrich Ludwig Weidigekin; Frantziako Iraultzaren leloa",
   "e": "contemporanea",
   "id": "buchner",
-  "img": "media/retratos/ilustres/buchner.jpg",
+  "img": "media/retratos/biografias/buchner.jpg",
   "sen": "Büchnerren eta Weidigen liburuxkak nekazari pobreei dei egiten die zergen bidez esplotatzen dituzten printzeen eta aberatsen aurka matxinatzeko: borroka behekoena da goikoen aurka.",
   "uso": "1848 aurreko pentsamendu iraultzailea eta XIX. mendeko gizarte-kritika aurkezteko.",
   "trampa": "Büchnerri egotzi ohi zaio berea balitz bezala, baina hark Frantziako Iraultzaren lelo gisa hartu zuen."

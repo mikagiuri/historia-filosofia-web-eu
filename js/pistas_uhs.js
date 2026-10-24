@@ -2,7 +2,7 @@
 const PISTAS = [
  {
   "id": "socrates-sofistas",
-  "ilustre": "socrates",
+  "biografia": "socrates",
   "subject": "hf",
   "tema": "5. gaia · Sokrates eta sofistak",
   "unidad": "hf-sofistas",
@@ -62,7 +62,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Gauza guztien neurria",
-      "glosario": [
+      "diccionario": [
        "g-sofistas",
        "g-nomos"
       ],
@@ -102,7 +102,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Ironia eta maieutika",
-      "glosario": [
+      "diccionario": [
        "g-ironia-socratica",
        "g-mayeutica"
       ],
@@ -198,7 +198,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Bertutea eta ezagutza",
       "titulo": "Inork ez du nahita okerrik egiten",
-      "glosario": [
+      "diccionario": [
        "g-intelectualismo-moral",
        "g-akrasia"
       ],
@@ -253,7 +253,7 @@ const PISTAS = [
  },
  {
   "id": "hf-caverna",
-  "ilustre": "platon",
+  "biografia": "platon",
   "subject": "hf",
   "tema": "6. gaia · Platon",
   "unidad": "hf-platon",
@@ -312,7 +312,7 @@ const PISTAS = [
       "boton": "Eskema ikusi behar dut",
       "etiqueta": "Alegoriaren eskema",
       "titulo": "Zer den gauza bakoitza",
-      "glosario": [
+      "diccionario": [
        "g-el-mito-de-la-caverna",
        "g-doxa",
        "g-episteme"
@@ -355,7 +355,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Bi munduak",
-      "glosario": [
+      "diccionario": [
        "g-mundo-sensible",
        "g-teoria-de-las-ideas",
        "g-dualismo-ontologico"
@@ -446,7 +446,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Ezagutza eta politika",
       "titulo": "Filosofoaren itzulera",
-      "glosario": [
+      "diccionario": [
        "g-el-bien",
        "g-dialectica-ap"
       ],
@@ -496,7 +496,7 @@ const PISTAS = [
  },
  {
   "id": "platon-alma",
-  "ilustre": "platon",
+  "biografia": "platon",
   "subject": "hf",
   "tema": "7. gaia · Platon: arima",
   "unidad": "hf-antropologia",
@@ -556,7 +556,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Talka egiten duten bi atal",
-      "glosario": [
+      "diccionario": [
        "g-alma-racional",
        "g-alma-concupiscible"
       ],
@@ -596,7 +596,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Hiru atal, hiru funtzio",
-      "glosario": [
+      "diccionario": [
        "g-las-tres-partes-del-alma",
        "g-alma-irascible"
       ],
@@ -689,7 +689,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Arima eta hiria",
       "titulo": "Berea egitea",
-      "glosario": [
+      "diccionario": [
        "g-justicia",
        "g-sabiduria",
        "g-valentia",
@@ -746,7 +746,7 @@ const PISTAS = [
  },
  {
   "id": "aristoteles-etica",
-  "ilustre": "aristoteles",
+  "biografia": "aristoteles",
   "subject": "hf",
   "tema": "8. gaia · Aristoteles: etika",
   "unidad": "hf-etica",
@@ -806,7 +806,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Definizioa",
-      "glosario": [
+      "diccionario": [
        "g-eudaimonia",
        "g-arete"
       ],
@@ -846,7 +846,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Azken helburua eta eginkizun propioa",
-      "glosario": [
+      "diccionario": [
        "g-eudaimonia",
        "g-teleologia"
       ],
@@ -939,7 +939,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Erdibidea",
       "titulo": "Ez koldarkeria, ez ausarkeria",
-      "glosario": [
+      "diccionario": [
        "g-termino-medio",
        "g-phronesis",
        "g-virtud"
@@ -995,7 +995,7 @@ const PISTAS = [
  },
  {
   "id": "agustin-mal",
-  "ilustre": "agustin",
+  "biografia": "agustin",
   "subject": "hf",
   "tema": "12. gaia · Agustin Hiponakoa",
   "unidad": "hf-fe-razon",
@@ -1055,7 +1055,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Existitzen den guztia ona da",
-      "glosario": [
+      "diccionario": [
        "g-mal-como-privacion",
        "g-neoplatonismo"
       ],
@@ -1095,7 +1095,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Manikeismotik gabeziara",
-      "glosario": [
+      "diccionario": [
        "g-mal-como-privacion",
        "g-conversion"
       ],
@@ -1187,7 +1187,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Borondatea",
       "titulo": "Borondate makur bat",
-      "glosario": [
+      "diccionario": [
        "g-libre-albedrio",
        "g-interioridad"
       ],
@@ -1243,7 +1243,7 @@ const PISTAS = [
  },
  {
   "id": "tomas-fe-razon",
-  "ilustre": "tomas",
+  "biografia": "tomas",
   "subject": "hf",
   "tema": "12. gaia · Tomas Akinokoa",
   "unidad": "hf-fe-razon",
@@ -1303,7 +1303,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Egiaren modu bikoitza",
-      "glosario": [
+      "diccionario": [
        "g-verdades-naturales-y-sobrenaturales",
        "g-escolastica"
       ],
@@ -1343,7 +1343,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Bereizi, baina ez banandu",
-      "glosario": [
+      "diccionario": [
        "g-verdades-naturales-y-sobrenaturales",
        "g-ley-natural"
       ],
@@ -1440,7 +1440,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Lehen bidea",
       "titulo": "Mugimendutik lehen motorrera",
-      "glosario": [
+      "diccionario": [
        "g-cinco-vias",
        "g-el-ser-necesario",
        "g-argumento-ontologico"
@@ -1497,7 +1497,7 @@ const PISTAS = [
  },
  {
   "id": "descartes-metodo",
-  "ilustre": "descartes",
+  "biografia": "descartes",
   "subject": "hf",
   "tema": "14. gaia · Descartes",
   "unidad": "hf-racionalismo",
@@ -1557,7 +1557,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Lehenengo araua",
-      "glosario": [
+      "diccionario": [
        "g-reglas-del-metodo",
        "g-ideas-claras-y-distintas"
       ],
@@ -1597,7 +1597,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Lau arau",
-      "glosario": [
+      "diccionario": [
        "g-reglas-del-metodo",
        "g-intuicion",
        "g-deduccion"
@@ -1691,7 +1691,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Bizi bitartean zalantzan",
       "titulo": "Basoko ibiltariak",
-      "glosario": [
+      "diccionario": [
        "g-moral-provisional",
        "g-duda-metodica"
       ],
@@ -1747,7 +1747,7 @@ const PISTAS = [
  },
  {
   "id": "hf-duda",
-  "ilustre": "descartes",
+  "biografia": "descartes",
   "subject": "hf",
   "tema": "14. gaia · Descartes",
   "unidad": "hf-racionalismo",
@@ -1805,7 +1805,7 @@ const PISTAS = [
       "boton": "Urratsak ikusi behar ditut",
       "etiqueta": "Zalantzaren bidea",
       "titulo": "Dudatzeko hiru arrazoi",
-      "glosario": [
+      "diccionario": [
        "g-el-genio-maligno"
       ],
       "definicion": [
@@ -1848,7 +1848,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Zalantza metodikoa",
-      "glosario": [
+      "diccionario": [
        "g-duda-metodica",
        "g-ideas-claras-y-distintas"
       ],
@@ -1939,7 +1939,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Lehen ziurtasuna",
       "titulo": "Cogitoa",
-      "glosario": [
+      "diccionario": [
        "g-cogito",
        "g-res-cogitans",
        "g-la-garantia-de-dios"
@@ -1990,7 +1990,7 @@ const PISTAS = [
  },
  {
   "id": "hume-empirismo",
-  "ilustre": "hume",
+  "biografia": "hume",
   "subject": "hf",
   "tema": "14. gaia · Hume",
   "unidad": "hf-racionalismo",
@@ -2050,7 +2050,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Inpresioen kopiak",
-      "glosario": [
+      "diccionario": [
        "g-impresion",
        "g-empirismo"
       ],
@@ -2090,7 +2090,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Irizpide enpiristak",
-      "glosario": [
+      "diccionario": [
        "g-impresion",
        "g-haz-de-percepciones"
       ],
@@ -2183,7 +2183,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Kausalitatea eta ohitura",
       "titulo": "Bizitzaren gida handia",
-      "glosario": [
+      "diccionario": [
        "g-relaciones-de-ideas",
        "g-habito",
        "g-el-problema-de-la-induccion"
@@ -2240,7 +2240,7 @@ const PISTAS = [
  },
  {
   "id": "descartes-sustancias",
-  "ilustre": "descartes",
+  "biografia": "descartes",
   "subject": "hf",
   "tema": "15. gaia · Descartes: substantziak",
   "unidad": "hf-metafisica",
@@ -2300,7 +2300,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Pentsatu besterik egiten ez duen substantzia",
-      "glosario": [
+      "diccionario": [
        "g-res-cogitans-dm",
        "g-sustancia-dm"
       ],
@@ -2340,7 +2340,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Hiru substantziak",
-      "glosario": [
+      "diccionario": [
        "g-sustancia-dm",
        "g-res-extensa",
        "g-la-garantia-de-dios-dm"
@@ -2438,7 +2438,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Isabelen eragozpena",
       "titulo": "Nola mugitzen du arimak gorputza?",
-      "glosario": [
+      "diccionario": [
        "g-dualismo-dm",
        "g-glandula-pineal",
        "g-ocasionalismo-dm"
@@ -2495,7 +2495,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-naturaleza",
-  "ilustre": "spinoza",
+  "biografia": "spinoza",
   "subject": "hf",
   "tema": "15. gaia · Spinoza",
   "unidad": "hf-metafisica",
@@ -2554,7 +2554,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Etikak dioena",
-      "glosario": [
+      "diccionario": [
        "g-deus-sive-natura",
        "g-modo"
       ],
@@ -2594,7 +2594,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Sortzen duena eta sortua",
-      "glosario": [
+      "diccionario": [
        "g-natura-naturans",
        "g-sustancia-b5"
       ],
@@ -2684,7 +2684,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Beharra helbururik gabe",
       "titulo": "«Zertarako» horren aurreiritzia",
-      "glosario": [
+      "diccionario": [
        "g-deus-sive-natura",
        "g-panteismo"
       ],
@@ -2739,7 +2739,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-libertad",
-  "ilustre": "spinoza",
+  "biografia": "spinoza",
   "subject": "hf",
   "tema": "15. gaia · Spinoza",
   "unidad": "hf-metafisica",
@@ -2799,7 +2799,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Ahaleginaren eta afektuen gainean",
-      "glosario": [
+      "diccionario": [
        "g-conatus",
        "g-alegria-y-tristeza"
       ],
@@ -2839,7 +2839,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Conatus-etik maitasunera eta gorrotora",
-      "glosario": [
+      "diccionario": [
        "g-conatus",
        "g-alegria-y-tristeza"
       ],
@@ -2932,7 +2932,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Askatasuna borondate aske gabe",
       "titulo": "Ulertzea jardutea da",
-      "glosario": [
+      "diccionario": [
        "g-servidumbre",
        "g-idea-adecuada"
       ],
@@ -2987,7 +2987,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-alegria",
-  "ilustre": "spinoza",
+  "biografia": "spinoza",
   "subject": "hf",
   "tema": "15. gaia · Spinoza",
   "unidad": "hf-metafisica",
@@ -3047,7 +3047,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Etikako hiru esaldi",
-      "glosario": [
+      "diccionario": [
        "g-beatitud",
        "g-conatus"
       ],
@@ -3087,7 +3087,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Potentziaren etika bat",
-      "glosario": [
+      "diccionario": [
        "g-alegria-y-tristeza",
        "g-beatitud"
       ],
@@ -3178,7 +3178,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Onura eta komunitatea",
       "titulo": "Gizakia, gizakiarentzat jainko bat",
-      "glosario": [
+      "diccionario": [
        "g-conatus",
        "g-servidumbre"
       ],
@@ -3233,7 +3233,7 @@ const PISTAS = [
  },
  {
   "id": "contrato-social",
-  "ilustre": "rousseau",
+  "biografia": "rousseau",
   "subject": "hf",
   "tema": "16. gaia · Gizarte-kontratua",
   "unidad": "hf-contrato",
@@ -3293,7 +3293,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Bakartia, pobrea, basatia eta laburra",
-      "glosario": [
+      "diccionario": [
        "g-estado-de-naturaleza",
        "g-contrato-social"
       ],
@@ -3333,7 +3333,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Hobbes eta Locke",
-      "glosario": [
+      "diccionario": [
        "g-derechos-naturales",
        "g-poder-legitimo",
        "g-soberania"
@@ -3431,7 +3431,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Rousseau",
       "titulo": "Norberari obeditzea",
-      "glosario": [
+      "diccionario": [
        "g-voluntad-general",
        "g-soberania",
        "g-contrato-social"
@@ -3488,7 +3488,7 @@ const PISTAS = [
  },
  {
   "id": "kant-ilustracion",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "18. gaia · Kant: Ilustrazioa",
   "unidad": "hf-ilustracion",
@@ -3548,7 +3548,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Definizioa",
-      "glosario": [
+      "diccionario": [
        "g-minoria-de-edad",
        "g-autonomia"
       ],
@@ -3588,7 +3588,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Alferkeria, koldarkeria eta tutoreak",
-      "glosario": [
+      "diccionario": [
        "g-minoria-de-edad",
        "g-autonomia"
       ],
@@ -3680,7 +3680,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Arrazoimenaren bi erabilera",
       "titulo": "Publikoki arrazoitu, kargu horretan men egin",
-      "glosario": [
+      "diccionario": [
        "g-uso-publico",
        "g-uso-privado"
       ],
@@ -3735,7 +3735,7 @@ const PISTAS = [
  },
  {
   "id": "feminismo-ilustrado",
-  "ilustre": "wollstonecraft",
+  "biografia": "wollstonecraft",
   "subject": "hf",
   "tema": "18. gaia · Lehen olatu feminista",
   "unidad": "hf-ilustracion",
@@ -3795,7 +3795,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Urkamenditik tribunara",
-      "glosario": [
+      "diccionario": [
        "g-declaracion-de-los-derechos-de-la-mujer",
        "g-la-grieta-de-la-universalidad"
       ],
@@ -3835,7 +3835,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Erdizka geratutako unibertsaltasuna",
-      "glosario": [
+      "diccionario": [
        "g-declaracion-de-los-derechos-de-la-mujer",
        "g-feminismo",
        "g-las-olas"
@@ -3933,7 +3933,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Rousseau eta Wollstonecraft",
       "titulo": "Beren buruaren gaineko boterea",
-      "glosario": [
+      "diccionario": [
        "g-educacion-igualitaria",
        "g-feminismo"
       ],
@@ -3989,7 +3989,7 @@ const PISTAS = [
  },
  {
   "id": "kant-conocimiento",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "19. gaia · Kant: ezagutza",
   "unidad": "hf-kant",
@@ -4049,7 +4049,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Objektuak gure ezagutzaren arabera arau daitezen",
-      "glosario": [
+      "diccionario": [
        "g-revolucion-copernicana",
        "g-a-priori"
       ],
@@ -4089,7 +4089,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Judizio sintetiko a prioriak",
-      "glosario": [
+      "diccionario": [
        "g-juicios-sinteticos-a-priori",
        "g-intuiciones-puras",
        "g-categoria"
@@ -4187,7 +4187,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Fenomenoa eta noumenoa",
       "titulo": "Hutsak eta itsuak",
-      "glosario": [
+      "diccionario": [
        "g-fenomeno",
        "g-noumeno",
        "g-idea-regulativa"
@@ -4244,7 +4244,7 @@ const PISTAS = [
  },
  {
   "id": "kant-imperativo",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "20. gaia · Kant: betebeharraren etika",
   "unidad": "hf-etica-deber",
@@ -4302,7 +4302,7 @@ const PISTAS = [
       "boton": "Testu bat irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Irakurri eta bilatu aurkakotasun erabakigarria",
-      "glosario": [
+      "diccionario": [
        "g-deber"
       ],
       "cita": {
@@ -4344,7 +4344,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Inperatibo kategorikoa",
-      "glosario": [
+      "diccionario": [
        "g-imperativo-categorico",
        "g-imperativo-hipotetico",
        "g-autonomia"
@@ -4435,7 +4435,7 @@ const PISTAS = [
       "boton": "Formulazioa erakutsi",
       "etiqueta": "Lege unibertsalaren formulazioa",
       "titulo": "Formulazioa",
-      "glosario": [
+      "diccionario": [
        "g-imperativo-categorico",
        "g-a-priori"
       ],
@@ -4490,7 +4490,7 @@ const PISTAS = [
  },
  {
   "id": "kant-humanidad",
-  "ilustre": "kant",
+  "biografia": "kant",
   "subject": "hf",
   "tema": "20. gaia · Kant: betebeharraren etika",
   "unidad": "hf-etica-deber",
@@ -4548,7 +4548,7 @@ const PISTAS = [
       "boton": "Testu bat irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Irakurri formula eta erreparatu bi esapideri",
-      "glosario": [
+      "diccionario": [
        "g-imperativo-categorico"
       ],
       "cita": {
@@ -4590,7 +4590,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Prezioa eta duintasuna",
-      "glosario": [
+      "diccionario": [
        "g-dignidad",
        "g-autonomia"
       ],
@@ -4680,7 +4680,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Bi probak, kasu berean",
       "titulo": "Promesa faltsua, bi aldiz begiratuta",
-      "glosario": [
+      "diccionario": [
        "g-deber",
        "g-imperativo-categorico"
       ],
@@ -4730,7 +4730,7 @@ const PISTAS = [
  },
  {
   "id": "marx-alienacion",
-  "ilustre": "marx",
+  "biografia": "marx",
   "subject": "hf",
   "tema": "21. gaia · Marx",
   "unidad": "hf-sospecha",
@@ -4789,7 +4789,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Gero eta gehiago ekoitzi, orduan eta pobreago",
-      "glosario": [
+      "diccionario": [
        "g-alienacion",
        "g-plusvalia"
       ],
@@ -4829,7 +4829,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Lau alienazioak",
-      "glosario": [
+      "diccionario": [
        "g-alienacion",
        "g-praxis"
       ],
@@ -4922,7 +4922,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Oinarria eta gainegitura",
       "titulo": "Izate soziala eta kontzientzia",
-      "glosario": [
+      "diccionario": [
        "g-infraestructura",
        "g-ideologia"
       ],
@@ -4977,7 +4977,7 @@ const PISTAS = [
  },
  {
   "id": "nietzsche-destino",
-  "ilustre": "nietzsche",
+  "biografia": "nietzsche",
   "subject": "hf",
   "tema": "21. gaia · Nietzsche",
   "unidad": "hf-sospecha",
@@ -5035,7 +5035,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Dinamita",
-      "glosario": [
+      "diccionario": [
        "g-transmutacion-de-los-valores",
        "g-nihilismo"
       ],
@@ -5079,7 +5079,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Immoralistaren bi ukapenak",
-      "glosario": [
+      "diccionario": [
        "g-ressentiment",
        "g-genealogia-de-la-moral"
       ],
@@ -5170,7 +5170,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Morala eta bizitza",
       "titulo": "Bizitzaren aurka, bizitzaren alde",
-      "glosario": [
+      "diccionario": [
        "g-la-muerte-de-dios",
        "g-superhombre"
       ],
@@ -5224,7 +5224,7 @@ const PISTAS = [
  },
  {
   "id": "arendt-mal-accion",
-  "ilustre": "arendt",
+  "biografia": "arendt",
   "subject": "hf",
   "tema": "22. gaia · Hannah Arendt",
   "unidad": "hf-capitalismo",
@@ -5284,7 +5284,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Hausnarketa-eza hutsa",
-      "glosario": [
+      "diccionario": [
        "g-banalidad-del-mal",
        "g-totalitarismo"
       ],
@@ -5324,7 +5324,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Munstrorik gabeko gaizkia, eta haren eztabaida",
-      "glosario": [
+      "diccionario": [
        "g-banalidad-del-mal",
        "g-soledad-politica"
       ],
@@ -5417,7 +5417,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Bizitza aktiboa",
       "titulo": "Nekea, lana eta ekintza",
-      "glosario": [
+      "diccionario": [
        "g-vita-activa",
        "g-natalidad",
        "g-espacio-publico"
@@ -5474,7 +5474,7 @@ const PISTAS = [
  },
  {
   "id": "sartre-existencia",
-  "ilustre": "sartre",
+  "biografia": "sartre",
   "subject": "hf",
   "tema": "25. gaia · Sartre eta existentzialismoa",
   "unidad": "hf-existencialismo",
@@ -5534,7 +5534,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Gizakia ez da bere buruaz egiten duena baizik",
-      "glosario": [
+      "diccionario": [
        "g-la-existencia-primero",
        "g-ser-para-si"
       ],
@@ -5574,7 +5574,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Paper-labana eta gizakia",
-      "glosario": [
+      "diccionario": [
        "g-la-existencia-primero",
        "g-ser-para-si"
       ],
@@ -5667,7 +5667,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Askatasuna eta erantzukizuna",
       "titulo": "Libre izatera kondenatuak",
-      "glosario": [
+      "diccionario": [
        "g-angustia",
        "g-mala-fe",
        "g-circunstancia"
@@ -5724,7 +5724,7 @@ const PISTAS = [
  },
  {
   "id": "beauvoir-conclusion",
-  "ilustre": "beauvoir",
+  "biografia": "beauvoir",
   "subject": "hf",
   "tema": "26. gaia · Beauvoir",
   "unidad": "hf-beauvoir",
@@ -5784,7 +5784,7 @@ const PISTAS = [
       "boton": "Testua irakurri behar dut",
       "etiqueta": "Laguntza-testua",
       "titulo": "Inolako patu gabe",
-      "glosario": [
+      "diccionario": [
        "g-el-destino",
        "g-la-situacion"
       ],
@@ -5828,7 +5828,7 @@ const PISTAS = [
      {
       "etiqueta": "Definizioa eta azalpena",
       "titulo": "Natura eta historia",
-      "glosario": [
+      "diccionario": [
        "g-la-construccion-del-genero",
        "g-la-ambiguedad"
       ],
@@ -5919,7 +5919,7 @@ const PISTAS = [
       "boton": "Azalpena erakutsi",
       "etiqueta": "Gerratik anaitasunera",
       "titulo": "Elkar aitortzen duten bi askatasun",
-      "glosario": [
+      "diccionario": [
        "g-alteridad",
        "g-la-ambiguedad"
       ],

@@ -43,7 +43,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Hiztegia: arrazoia",
-       "h": "#glosario/g-fil-razon"
+       "h": "#diccionario/g-fil-razon"
       },
       {
        "t": "Logika eta argumentazioa (Filosofia 1.)",
@@ -167,11 +167,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: fedearen eta arrazoiaren arteko lankidetza",
-       "h": "#glosario/g-colaboracion-fe-razon"
+       "h": "#diccionario/g-colaboracion-fe-razon"
       },
       {
        "t": "Hiztegia: arrazoiaren mugak",
-       "h": "#glosario/g-los-limites-de-la-razon"
+       "h": "#diccionario/g-los-limites-de-la-razon"
       }
      ]
     },
@@ -201,11 +201,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: arrazoiaren autonomia",
-       "h": "#glosario/g-autonomia-de-la-razon"
+       "h": "#diccionario/g-autonomia-de-la-razon"
       },
       {
        "t": "Hiztegia: ideia argiak eta bereiziak",
-       "h": "#glosario/g-ideas-claras-y-distintas"
+       "h": "#diccionario/g-ideas-claras-y-distintas"
       }
      ]
     },
@@ -239,7 +239,7 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: ideien arteko harremanak eta gertaerazko gaiak",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -269,11 +269,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: arrazoiaren erabilera pribatua",
-       "h": "#glosario/g-uso-privado"
+       "h": "#diccionario/g-uso-privado"
       },
       {
        "t": "Hiztegia: ideia erregulatzailea",
-       "h": "#glosario/g-idea-regulativa"
+       "h": "#diccionario/g-idea-regulativa"
       }
      ]
     },
@@ -303,11 +303,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: arrazoi instrumentala",
-       "h": "#glosario/g-razon-instrumental"
+       "h": "#diccionario/g-razon-instrumental"
       },
       {
        "t": "Hiztegia: susmoa",
-       "h": "#glosario/g-sospecha"
+       "h": "#diccionario/g-sospecha"
       }
      ]
     },
@@ -329,11 +329,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: arrazoi komunikatiboa",
-       "h": "#glosario/g-razon-comunicativa"
+       "h": "#diccionario/g-razon-comunicativa"
       },
       {
        "t": "Hiztegia: hizketa-egoera ideala",
-       "h": "#glosario/g-situacion-ideal-de-habla"
+       "h": "#diccionario/g-situacion-ideal-de-habla"
       },
       {
        "t": "Logika eta argumentazioa (Filosofia 1.)",
@@ -415,7 +415,7 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: Ideien teoria",
-       "h": "#glosario/g-teoria-de-las-ideas"
+       "h": "#diccionario/g-teoria-de-las-ideas"
       },
       {
        "t": "Errealitatea: zer dago eta nolakoa da? (Filosofia 1.)",
@@ -445,7 +445,7 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: Ideien baztertzea",
-       "h": "#glosario/g-el-rechazo-de-las-ideas"
+       "h": "#diccionario/g-el-rechazo-de-las-ideas"
       },
       {
        "t": "Tailerra: unibertso aristotelikoa",
@@ -479,7 +479,7 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: nominalismoa",
-       "h": "#glosario/g-nominalismo"
+       "h": "#diccionario/g-nominalismo"
       }
      ]
     },
@@ -509,11 +509,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: innatismoa",
-       "h": "#glosario/g-innatismo"
+       "h": "#diccionario/g-innatismo"
       },
       {
        "t": "Hiztegia: ideia argiak eta bereiziak",
-       "h": "#glosario/g-ideas-claras-y-distintas-dm"
+       "h": "#diccionario/g-ideas-claras-y-distintas-dm"
       }
      ]
     },
@@ -539,11 +539,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: inpresioa",
-       "h": "#glosario/g-impresion"
+       "h": "#diccionario/g-impresion"
       },
       {
        "t": "Hiztegia: ideien arteko harremanak eta gertaerazko gaiak",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -573,11 +573,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: ideia erregulatzailea",
-       "h": "#glosario/g-idea-regulativa"
+       "h": "#diccionario/g-idea-regulativa"
       },
       {
        "t": "Hiztegia: kategoria",
-       "h": "#glosario/g-categoria"
+       "h": "#diccionario/g-categoria"
       }
      ]
     },
@@ -607,15 +607,15 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: dialektika",
-       "h": "#glosario/g-dialectica"
+       "h": "#diccionario/g-dialectica"
       },
       {
        "t": "Hiztegia: dialektika materialista",
-       "h": "#glosario/g-dialectica-materialista"
+       "h": "#diccionario/g-dialectica-materialista"
       },
       {
        "t": "Hiztegia: idealismoa",
-       "h": "#glosario/g-fil-idealismo"
+       "h": "#diccionario/g-fil-idealismo"
       }
      ]
     },
@@ -671,7 +671,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Hiztegia: kausa faltsua",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       }
      ]
     },
@@ -689,7 +689,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Hiztegia: kausa faltsua",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       },
       {
        "t": "Metodo hipotetiko-deduktiboa: Semmelweisen kasua (Filosofia 1.)",
@@ -753,11 +753,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: lau kausak",
-       "h": "#glosario/g-las-cuatro-causas"
+       "h": "#diccionario/g-las-cuatro-causas"
       },
       {
        "t": "Hiztegia: Motor ibilgea",
-       "h": "#glosario/g-motor-inmovil"
+       "h": "#diccionario/g-motor-inmovil"
       },
       {
        "t": "Errealitatea: zer dago eta nolakoa da? (Filosofia 1.)",
@@ -791,7 +791,7 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: bost bideak",
-       "h": "#glosario/g-cinco-vias"
+       "h": "#diccionario/g-cinco-vias"
       }
      ]
     },
@@ -843,11 +843,11 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: ohitura",
-       "h": "#glosario/g-habito"
+       "h": "#diccionario/g-habito"
       },
       {
        "t": "Hiztegia: ideien arteko harremanak eta gertaerazko gaiak",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -877,7 +877,7 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: kategoria",
-       "h": "#glosario/g-categoria"
+       "h": "#diccionario/g-categoria"
       }
      ]
     },
@@ -933,7 +933,7 @@ const PILARES = {
       },
       {
        "t": "Hiztegia: kausa faltsua",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       }
      ]
     }

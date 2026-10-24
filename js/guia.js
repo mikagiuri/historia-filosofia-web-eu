@@ -41,7 +41,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Atal batzuek mota bereko hainbat gauza biltzen dituzte: goian <strong>botoi-errenkada</strong> bat dute batetik bestera pasatzeko. Adibidez, Galdetegietan <strong>Erlojuaren kontra</strong> modura alda zaitezke, eta Biografietan, <strong>Jazarriak</strong> edo <strong>Komunitateak</strong> atalera."
+   "x": "Atal batzuek mota bereko hainbat gauza biltzen dituzte: goian <strong>botoi-errenkada</strong> bat dute batetik bestera pasatzeko. Adibidez, Galdetegietan <strong>Erronkak</strong> modura alda zaitezke, eta Biografietan, <strong>Jazarriak</strong> edo <strong>Komunitateak</strong> atalera."
   },
   {
    "type": "h",
@@ -213,7 +213,7 @@ const GUIA = {
     {
      "nombre": "Glosarioa",
      "texto": "Ikasgaiaren hiztegia: termino bakoitza bere definizioarekin. Bilatu hitz bat edo iragazi terminoak.",
-     "view": "glosario"
+     "view": "diccionario"
     },
     {
      "nombre": "Erroak",
@@ -242,7 +242,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Galdetegiak",
-     "texto": "Test motako galderak, berehalako zuzenketarekin eta erantzun bakoitzaren azalpenarekin. Zure puntuaziorik onena gorde egiten da. Goian, Erlojuaren kontra botoia: erlojuaren aurkako galderak, abiadurarengatik eta segidarengatik puntuak dituztenak.",
+     "texto": "Test motako galderak, berehalako zuzenketarekin eta erantzun bakoitzaren azalpenarekin. Zure puntuaziorik onena gorde egiten da. Goian, Erronkak botoia: erlojuaren aurkako galderak, abiadurarengatik eta segidarengatik puntuak dituztenak.",
      "view": "cuestionarios"
     },
     {
@@ -265,7 +265,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "08_cuestionarios.webp",
-   "cap": "Galdetegiak: goian, Erlojuaren kontra botoia; azpian, iragazi, aukeratu galdetegia zabalgarrian eta erantzun."
+   "cap": "Galdetegiak: goian, Erronkak botoia; azpian, iragazi, aukeratu galdetegia zabalgarrian eta erantzun."
   },
   {
    "type": "tip",
@@ -307,9 +307,9 @@ const GUIA = {
    "solo": "hf",
    "rows": [
     {
-     "nombre": "Probaren gida",
+     "nombre": "Prestatu USE",
      "texto": "Nolakoa den azterketa, nola egin 1. ariketa (testu-ulermena) eta 3. ariketa (azalpena), eta eredu ofizialak.",
-     "view": "pau"
+     "view": "prepara_PAU"
     },
     {
      "nombre": "Testu-iruzkina",
@@ -331,7 +331,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Hasi probaren gidatik, zer eskatuko dizuten jakiteko, eta jarraitu ikasgaiaren orriko USE ibilbidea: ariketa guztietatik ordenan eramaten zaitu."
+   "x": "Hasi «Prestatu USE» ataletik, zer eskatuko dizuten jakiteko, eta jarraitu ikasgaiaren orriko USE ibilbidea: ariketa guztietatik ordenan eramaten zaitu."
   },
   {
    "type": "h",
@@ -505,7 +505,7 @@ const GUIA = {
     {
      "titulo": "Prestatu azterketa",
      "texto": "USE: irakurgaiak, iruzkinak eta disertazioak.",
-     "view": "pau",
+     "view": "prepara_PAU",
      "solo": "hf"
     },
     {

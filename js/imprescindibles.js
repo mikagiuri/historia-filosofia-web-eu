@@ -1192,7 +1192,7 @@ const IMPRESCINDIBLES = {
    "Irakaslearen berrikuspena (2026-10-20): USEko irakurgaia (Metodoaren diskurtsoa II-IV)"
   ]
  },
- "glosarioGrupos": {
+ "diccionarioGrupos": {
   "1": [
    5,
    "Errepublika VII lanaren hiztegia, USEko irakurgaia"

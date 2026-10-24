@@ -761,7 +761,7 @@ const REP_DIAL = {
   "dPlaton": "Platonen argudioa: justizia zatien harmonia da, hirian eta arimaren barruan (Errepublika IV, 433a eta 441d-e).",
   "dObjecion": "Eragozpena: aukeratu zure partidan atera diren kritiketako bat (Trasimako, Glaukon, Aristoteles, Popper…) eta azaldu zure hitzekin.",
   "dTuya": "Zure ondorioa: zure partidako zer jarrera defendatuko zenuke idatziz, eta zergatik?",
-  "glosario": "Hiztegiko kontzeptuak",
+  "diccionario": "Hiztegiko kontzeptuak",
   "sinDialogos": "Partida honetan ez zen elkarrizketarik izan.",
   "hudReg": "Erregimena",
   "elegir": "Aukeratu bertsioa",

@@ -6,7 +6,7 @@ const GENEALOGIAS = {
    "name": "Arrazoia eta Ideiak",
    "color": "#2f6fd6",
    "desc": "Benetako ezagutza arrazoitik dator, ez zentzumenetatik.",
-   "ilustre": [
+   "biografia": [
     "parmenides",
     "platon",
     "plotino",
@@ -24,7 +24,7 @@ const GENEALOGIAS = {
    "name": "Arima-gorputz dualismoa",
    "color": "#1b9e9e",
    "desc": "Gizakia bi gauza desberdin da: arima edo adimen ez-material bat eta gorputz material bat.",
-   "ilustre": [
+   "biografia": [
     "pitagoras",
     "platon",
     "plotino",
@@ -41,7 +41,7 @@ const GENEALOGIAS = {
    "name": "Esperientzia eta zientzia",
    "color": "#d95f02",
    "desc": "Ezagutza oro esperientziarekin hasten da eta harekin egiaztatzen da.",
-   "ilustre": [
+   "biografia": [
     "aristoteles",
     "roger_bacon",
     "ockham",
@@ -60,7 +60,7 @@ const GENEALOGIAS = {
    "name": "Materia eta natura",
    "color": "#7a5230",
    "desc": "Materia baino ez dago; gizakia ere naturaren bidez azaltzen da.",
-   "ilustre": [
+   "biografia": [
     "leucipo",
     "democrito",
     "epicuro",
@@ -77,7 +77,7 @@ const GENEALOGIAS = {
    "name": "Fedea eta arrazoia",
    "color": "#8a4b84",
    "desc": "Nola bateratu sinesten dena eta frogatzen dena.",
-   "ilustre": [
+   "biografia": [
     "plotino",
     "agustin",
     "escoto_erigena",
@@ -96,7 +96,7 @@ const GENEALOGIAS = {
    "name": "Eszeptizismoa",
    "color": "#6b7a8f",
    "desc": "Ezin dugu ziurtasunik lortu: zentzuzkoena iritzia etetea edo probablearekin konformatzea da.",
-   "ilustre": [
+   "biografia": [
     "gorgias",
     "pirron",
     "timon",
@@ -111,7 +111,7 @@ const GENEALOGIAS = {
    "name": "Zalantza metodikoa eta kritika",
    "color": "#8f6600",
    "desc": "Zalantza egin jakiteko: zalantza metodo gisa eta ezagutzaren mugen kritika.",
-   "ilustre": [
+   "biografia": [
     "socrates",
     "descartes",
     "hume",
@@ -124,7 +124,7 @@ const GENEALOGIAS = {
    "name": "Zoriontasuna eta bizitza ona",
    "color": "#2e9e6b",
    "desc": "Etika ondo bizitzeko arte gisa: bertutea, plazera, erabilgarritasuna.",
-   "ilustre": [
+   "biografia": [
     "socrates",
     "aristipo",
     "aristoteles",
@@ -143,7 +143,7 @@ const GENEALOGIAS = {
    "name": "Boterea eta Estatua",
    "color": "#c0392b",
    "desc": "Nork agindu behar duen eta zergatik obeditzen dugun: polisetik kontratura eta demokraziara.",
-   "ilustre": [
+   "biografia": [
     "platon",
     "aristoteles",
     "maquiavelo",
@@ -163,7 +163,7 @@ const GENEALOGIAS = {
    "name": "Bilakaera, dialektika eta gizarte-kritika",
    "color": "#b44fc4",
    "desc": "Errealitatea aurkakoen talkaren bidez aldatzen da; filosofia gizartearen kritika gisa.",
-   "ilustre": [
+   "biografia": [
     "heraclito",
     "hegel",
     "feuerbach",
@@ -178,7 +178,7 @@ const GENEALOGIAS = {
    "name": "Susmoa eta postmodernitatea",
    "color": "#e377c2",
    "desc": "Egiaren eta kontzientziaren atzean interesak, bulkadak eta boterea daude.",
-   "ilustre": [
+   "biografia": [
     "nietzsche",
     "freud",
     "heidegger",
@@ -194,7 +194,7 @@ const GENEALOGIAS = {
    "name": "Existentzia eta askatasuna",
    "color": "#3fa7c9",
    "desc": "Gizaki zehatza, bere askatasuna eta bere larritasuna.",
-   "ilustre": [
+   "biografia": [
     "agustin",
     "nietzsche",
     "unamuno",
@@ -210,7 +210,7 @@ const GENEALOGIAS = {
    "name": "Emakumeak eta feminismoa",
    "color": "#a8b82e",
    "desc": "Ahaztutako filosofoengandik patriarkatuaren eta generoaren kritikara.",
-   "ilustre": [
+   "biografia": [
     "aspasia",
     "hipatia",
     "hildegarda",
@@ -230,7 +230,7 @@ const GENEALOGIAS = {
    "name": "Logika eta hizkuntza",
    "color": "#5b4fc4",
    "desc": "Ondo pentsatzea zorroztasunez hitz egitea da: logikatik bira linguistikora.",
-   "ilustre": [
+   "biografia": [
     "aristoteles",
     "ockham",
     "llull",
@@ -245,121 +245,121 @@ const GENEALOGIAS = {
  ],
  "op": [
   {
-   "ilustre": [
+   "biografia": [
     "heraclito",
     "parmenides"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "protagoras",
     "socrates"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "platon",
     "aristoteles"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "epicuro",
     "zenon"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "tomas",
     "averroes"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "tomas",
     "ockham"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "hume"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "hobbes",
     "rousseau"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "rousseau",
     "wollstonecraft"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "kant",
     "bentham"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "hegel",
     "marx"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "hegel",
     "nietzsche"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "marx",
     "popper"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "habermas",
     "foucault"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "sartre",
     "foucault"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "isabel"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "spinoza"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "ryle"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "pirron"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "arcesilao",
     "zenon"
    ]
@@ -377,7 +377,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "1. bidea: mugimendua",
     "color": "#e0a526",
     "desc": "Mugitzen den oro beste batek mugitzen du, eta katea ezin da infinitua izan: badago lehen motor bat.",
-    "ilustre": [
+    "biografia": [
      "platon",
      "aristoteles",
      "averroes",
@@ -390,7 +390,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "2. bidea: kausa",
     "color": "#3fa7c9",
     "desc": "Ezer ez da bere buruaren kausa, eta lehen kausa bat gabe ez legoke bat ere: badago lehen kausa bat.",
-    "ilustre": [
+    "biografia": [
      "aristoteles",
      "avicena",
      "tomas",
@@ -403,7 +403,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "3. bidea: kontingentzia",
     "color": "#7b61d9",
     "desc": "Existitu gabe egon litekeenak beste zerbait behar du existitzeko: badago berez beharrezkoa den izaki bat.",
-    "ilustre": [
+    "biografia": [
      "avicena",
      "maimonides",
      "tomas",
@@ -416,7 +416,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "4. bidea: mailak",
     "color": "#b44fc4",
     "desc": "Gauza batzuk gehiago edo gutxiago onak eta egiazkoak badira, badago maximo bat, haien neurria eta kausa dena.",
-    "ilustre": [
+    "biografia": [
      "platon",
      "agustin",
      "boecio",
@@ -429,7 +429,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "5. bidea: ordena",
     "color": "#2e9e6b",
     "desc": "Ezagutzarik gabeko gauzek helburu baten arabera jarduten dute, gezilariak zuzentzen duen geziak bezala: badago natura ordenatzen duen adimen bat.",
-    "ilustre": [
+    "biografia": [
      "ciceron",
      "tomas",
      "paley"
@@ -440,7 +440,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "Argudio ontologikoa",
     "color": "#d95f02",
     "desc": "Jainkoaren kontzeptutik bakarrik, «ezer handiagorik pentsa ezin daitekeen hori» izanik, existitzen dela ondorioztatuko litzateke.",
-    "ilustre": [
+    "biografia": [
      "anselmo",
      "descartes",
      "leibniz"
@@ -451,7 +451,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "Kalam: mundua hasi egin zen",
     "color": "#9a7b5f",
     "desc": "Munduak hasiera bat izan zuen, eta existitzen hasten den orok kausa bat du.",
-    "ilustre": [
+    "biografia": [
      "al_kindi",
      "al_ghazali",
      "buenaventura"
@@ -462,7 +462,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "Kritikariak",
     "color": "#6e6e78",
     "desc": "Arrazoiak Jainkoaren existentzia frogatu dezakeela zalantzan jarri zutenak.",
-    "ilustre": [
+    "biografia": [
      "hume",
      "kant",
      "darwin",
@@ -472,49 +472,49 @@ const GENEALOGIAS_PLANOS = [
   ],
   "op": [
    {
-    "ilustre": [
+    "biografia": [
      "anselmo",
      "tomas"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "tomas",
      "buenaventura"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "avicena",
      "averroes"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "al_ghazali",
      "averroes"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "descartes",
      "kant"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "hume",
      "paley"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "paley",
      "darwin"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "russell",
      "copleston"
     ]
