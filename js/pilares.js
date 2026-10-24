@@ -1,7 +1,7 @@
 // Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/pilares.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
 const PILARES = {
  "t": {
-  "intro": "<strong>Zutabe</strong> bat filosofiaren zati handi bati eusten dion kontzeptua da, historian zehar zentzuz aldatu dena. Hemen hamar mailatan igotzen da haren gainetik: maila bakoitza hura ulertzeko modu bat da, aurrekoa zuzendu edo baztertzen duena. Lehenengoak errazak irudituko zaizkizu; azkenak, benetan zailak. Ez da errepasatzeko glosario bat: ariketa bat da. Maila bakoitzean esaten dena ulertu behar da, kasu bati aplikatu, lehendik igotakoarekin lotu eta ulertu den egiaztatu.",
+  "intro": "<strong>Zutabe</strong> bat filosofiaren zati handi bati eusten dion kontzeptua da, historian zehar zentzuz aldatu dena. Hemen hamar mailatan igotzen da haren gainetik: maila bakoitza hura ulertzeko modu bat da, aurrekoa zuzendu edo baztertzen duena. Lehenengoak errazak irudituko zaizkizu; azkenak, benetan zailak. Ez da errepasatzeko hiztegi bat: ariketa bat da. Maila bakoitzean esaten dena ulertu behar da, kasu bati aplikatu, lehendik igotakoarekin lotu eta ulertu den egiaztatu.",
   "comoTit": "Nola lantzen den zutabe bat",
   "como": [
    "<strong>Ulertu</strong> esaten dena eta aipua: irakurri astiro eta azaldu zure hitzekin.",
