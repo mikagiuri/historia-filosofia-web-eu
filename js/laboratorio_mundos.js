@@ -154,6 +154,8 @@ const LABMP = {
   "tEjemplo": "Adibide-mundu bat",
   "ejemploTxt": "Mundu honetan zure premisa guztiak betetzen dira, eta baieztapena ere bai. Ez da kasualitatea: premisa horiek betetzen dituzten mundu posible guztietan gertatzen da, eta hori da ondorioztatzea.",
   "verIsabelle": "Ikusi froga Isabellen",
+  "asiIsabelle": "Horrela egiaztatzen du Isabellek (sakatu teoria osoa ikusteko):",
+  "altTeorema": "Isabelleren pantailaren argazkia: {t} teorema eta haren froga",
   "altCaptura": "Isabelleren pantailaren argazkia: {t}",
   "gElige": "Aukeratu teoria bat",
   "gNRetos": "{n} erronka",
