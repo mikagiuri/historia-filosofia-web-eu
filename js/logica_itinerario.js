@@ -351,7 +351,7 @@ const LOG_ITIN = {
     },
     {
      "t": "Laborategia, «Mundu posibleak»: errepasoko propietateen mapa",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {
@@ -417,19 +417,19 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laborategia, «Mundu posibleak»: «Isabelleri buruz, eta eskerrak»",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laborategia, «Mundu posibleak», praktikako teoria: denbora, iraupena eta sorkuntza",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laborategia, «Mundu posibleak», «Denbora, definituta» teoria",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "«✎ Idatzi zure proposizioa», bi munduetatik edozeinetan",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {
@@ -468,15 +468,15 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laborategia, «Mundu posibleak», «Bost bideak» teoria",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laborategia, «Mundu posibleak», «Kanten antinomiak» teoria: tesia, antitesia, Kanten irtenbidea eta besteak",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laborategia, «Mundu posibleak», «Izatetik kosmosera» teoria: Parmenides, haren oinordekoak eta Demiurgoa",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Bost bideak eta nondik datozen",
@@ -519,7 +519,7 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laborategia, «Mundu posibleak», «Spinoza, Etika I» teoria: geruzak, «Soberan al dago premisaren bat?» eta «Idatzi zure proposizioa»",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {

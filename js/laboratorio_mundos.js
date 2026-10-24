@@ -1,5 +1,5 @@
-// Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/laboratorio_spinoza.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
-const LABSPZ = {
+// Generado por web_i18n/i18n_rebuild.js (eu) a partir de web/js/laboratorio_mundos.js. No editar a mano: editar la memoria tm/eu.json y regenerar.
+const LABMP = {
  "t": {
   "enDesarrollo": "Garatzen ari da",
   "avisoDesarrollo": "<strong>Mahai hau garatzen ari da.</strong> Spinozaren <em>Etika</em>ren I. zatia formalizatzen du, Isabelle/HOL frogen laguntzailean egiaztatu den moduan. Alda daiteke eta akatsak izan ditzake.",
@@ -154,6 +154,7 @@ const LABSPZ = {
   "tEjemplo": "Adibide-mundu bat",
   "ejemploTxt": "Mundu honetan zure premisa guztiak betetzen dira, eta baieztapena ere bai. Ez da kasualitatea: premisa horiek betetzen dituzten mundu posible guztietan gertatzen da, eta hori da ondorioztatzea.",
   "verIsabelle": "Ikusi froga Isabellen",
+  "altCaptura": "Isabelleren pantailaren argazkia: {t}",
   "gElige": "Aukeratu teoria bat",
   "gNRetos": "{n} erronka",
   "gEmpieza": "hasteko",
@@ -1957,6 +1958,50 @@ const LABSPZ = {
   "parrafos": [
    "Isabelle/HOL ordenagailu-programa bat da, frogapenak urratsez urrats egiaztatzen dituena: froga bat onartzen badu, ez du errore logikorik. Mahai honetako premisa bakoitza Isabelleko definizio bat da, eta mahaiak frogatutzat ematen duen baieztapen bakoitza teorema bat da, bere frogarekin, Isabellek inolako errorerik gabe onartu duena.",
    "Hemen froga horiek idatzi ziren bezala ikus ditzakezu. Mahaiko emaitza bakoitzaren ondoan, «Ikusi froga Isabellen» esteka zuzenean teorema zehatzera eramaten zaitu."
+  ],
+  "tCapturas": "Horrela ikusten da Isabelle: pantailaren zortzi argazki",
+  "introCapturas": "Programaren pantailaren benetako argazkiak (Isabelle2025-2), mahai honetako teoriekin. Sakatu irudi bat handian ikusteko.",
+  "capturas": [
+   {
+    "f": "01_programa_abierto",
+    "t": "1. Programa irekita.",
+    "d": "Ezkerrean, editorea, teoria idazten den lekua (hemen, Parmenidesena). Behean, «Output» panela, Isabellek erantzuten duen lekua. Eskuinean, teorien zerrenda: laukizuri zuriak esan nahi du dena egiaztatuta dagoela."
+   },
+   {
+    "f": "02_definiciones",
+    "t": "2. Premisa izena duen esaldi bat da.",
+    "d": "«definition P_no_ser»-ek esaldi bati izena ematen dio: «x gauza orok existitzen da t une orotan». Beheraxeago, «P_salto_otro»: x eta y desberdinak badira, x ez da existitzen. Mahaian, esaldi hauek dira premisen txartelak."
+   },
+   {
+    "f": "03_teorema_demostrado",
+    "t": "3. Frogatutako teorema bat.",
+    "d": "«theorem uno_mesa»: bi premisekin («assumes»), gauza guztiak bera dira («shows»). Froga azken lerroa da («by blast»). Isabellek onartzen du: «Output»-en teorema errepikatzen du, inolako oharrik gabe."
+   },
+   {
+    "f": "04_sin_la_premisa",
+    "t": "4. Premisa bat gabe, froga ez da ateratzen.",
+    "d": "Froga bera, baina «P_salto_otro» gabe. Isabellek lerroa gorriz markatzen du eta ohartarazten du: «Failed to apply initial proof method» (ezin izan du hasierako frogabidea aplikatu). «P_no_ser» bakarrik izanda, baieztapena ez da ondorioztatzen."
+   },
+   {
+    "f": "05_nitpick_contramodelo",
+    "t": "5. Nitpick-ek huts egiten duen mundu bat bilatzen du.",
+    "d": "Nitpick-ek mahaiak egiten duena egiten du: mundu posible bat bilatzen du, non premisa egia den eta baieztapena, faltsua. 2 gauzarekin eta unebatekin aurkitzen du: x = c₁ eta y = c₂ bi gauza desberdin dira, eta biak existitzen dira. Kontraadibide bat da: horregatik baieztapena ez da ondorioztatzen."
+   },
+   {
+    "f": "06_prueba_por_pasos",
+    "t": "6. Urratsez urratseko froga bat.",
+    "d": "Laugarren antinomiaren tesia («tesis4»), urratsez urrats frogatuta, mahaiko «Urratsez urrats» atalean bezala: «have» edo «obtain» duen lerro bakoitza urrats bat da, bere justifikazioarekin («by …»). Behean, «Proof state»-k frogatzeko falta dena erakusten du."
+   },
+   {
+    "f": "07_modelo_infinito",
+    "t": "7. Eredu infinitu bat.",
+    "d": "«modelo_antitesis3»-k zenbaki osoak (int) erabiltzen ditu: zenbaki bakoitzak kausa bat du, aurrekoa (x = y + 1), eta seriea ez da inoiz bukatzen atzerantz. Mahaiak mundu txikiak bakarrik eraikitzen ditu; Isabellek mundu infinituei buruz ere arrazoitzen du."
+   },
+   {
+    "f": "08_cuenta_con_numeros",
+    "t": "8. Isabellek matematika ere badaki.",
+    "d": "Zenonen dikotomia: 1/2 + 1/4 + 1/8 + … = 1. Isabellen honela idazten da: «(λn. (1/2) ^ Suc n) sums 1» («Suc n» n + 1 da), eta bere liburutegiko serieei buruzko bi teoremarekin frogatzen da: erdi infinituek distantzia finitu bat osatzen dute."
+   }
   ],
   "pdf": "Deskargatu Isabelleren koadernoa (PDF, 79 orrialde)",
   "tTeorias": "15 teoriak, 298 emaitzekin",
