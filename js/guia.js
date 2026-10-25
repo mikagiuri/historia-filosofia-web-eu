@@ -31,12 +31,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Menuaren lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>. <strong>Logikaren txokoak</strong> ez du fitxarik webgune honetan: erabiltzen duten gaietako estekek irekitzen dute.",
+   "x": "Menuko lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren osagarriak datoz: <strong>Historia</strong> (filosofoen testuingurua, Zutabeekin eta Erroekin) eta <strong>Jokoak</strong>. <strong>Logikaren txokoa</strong>ek ez du fitxarik web honetan: hura erabiltzen duten gaien estekek irekitzen dute.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Menuaren lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu), <strong>Logika</strong> (Logikaren txokoa, bere ariketekin eta laborategiarekin) eta <strong>Idatzi eta irakurri</strong> (disertazioa eta testuak). Marra baten ondoren datoz osagarriak: <strong>Historia</strong> (filosofoen testuingurua) eta <strong>Jokoak</strong>.",
+   "x": "Menuko lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu), <strong>Logika</strong> (Logikaren txokoa, bere ariketekin eta laborategiarekin) eta <strong>Idatzi eta irakurri</strong> (disertazioa eta testuak). Marra baten ondoren osagarriak datoz: <strong>Historia</strong> (filosofoen testuingurua, Zutabeekin eta Erroekin) eta <strong>Jokoak</strong>.",
    "solo": "fil"
   },
   {
@@ -67,7 +67,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gaiak filosofiaren <strong>adarka</strong> multzokatuta daude (antropologia, ezagutza, logika, etika, politika eta estetika), bakoitza bere kolorearekin. Kolore hori webgune osoan aurkituko duzu: iragazkietan, txarteletan eta galdetegietan.",
+   "x": "Gaiak <strong>blokeetan</strong> daude multzokatuta («2. blokea · …»), eta bakoitzak filosofiaren adarraren kolorea du (antropologia, ezagutza, logika, etika, politika eta estetika). Sakatu blokearen goiburua zabaltzeko: bertako gaiak ikusiko dituzu, azpigaiak zenbakituta (1.1, 1.2…). 1. gaia bereizita doa, Sarrera taldean, grisez. Kolore hori web osoan zehar datorkizu lagun: iragazkietan, txartelen eta galdetegien barruan.",
    "solo": "fil"
   },
   {
@@ -77,7 +77,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "<strong>Esplorazioak</strong> atalak gaia zabaltzeko irakurgaiak erakusten ditu; borondatezkoak dira. Beherago dago <strong>Arakatu ikasgaia</strong>: webgunean dagoen guztia, motaka zenbatuta.",
+   "x": "Bloke bakoitzaren barruan, <strong>Esplorazioak</strong> atalak zabaltzeko jarduerak eta irakurgaiak erakusten ditu, borondatezkoak direnak. Behean <strong>Arakatu ikasgaia</strong> duzu: webean dagoen guztia, motaren arabera kontatuta.",
    "solo": "fil"
   },
   {
@@ -86,7 +86,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "<strong>Aa</strong> botoiak <strong>irakurketa-ezarpenak</strong> irekitzen ditu. <strong>Entzun orri hau</strong> aukerak ozen irakurtzen du, paragrafoz paragrafo, aurrean duzuna. Letra handitu dezakezu, eta lerroak, letrak eta hitzak gehiago bereizi; letra-mota aldatu, testua ezkerrean lerrokatu, kontrastea igo edo animazioak kendu. Ezarpenak zure gailuan bakarrik gordetzen dira, eta <strong>Berrezarri</strong> aukerak dena lehen bezala uzten du. Entzuteko, gailuak webguneko hizkuntzako ahots bat behar du; Chrome edo Edgeren «sareko» ahotsekin, orriko testua nabigatzailearen ahots-zerbitzutik pasatzen da."
+   "x": "<strong>Aa</strong> botoiak <strong>irakurketa-ezarpenak</strong> irekitzen ditu. <strong>Entzun orri hau</strong> aukerak ozen irakurtzen du, paragrafoz paragrafo, aurrean duzuna. Letra handitu dezakezu, eta lerroak, letrak eta hitzak gehiago bereizi; letra-mota aldatu, testua ezkerrean lerrokatu, kontrastea igo edo animazioak kendu. Ezarpenak zure gailuan bakarrik gordetzen dira, eta <strong>Berrezarri</strong> aukerak dena lehen bezala uzten du. Entzuteko, gailuak webguneko hizkuntzako ahots bat behar du; Chrome edo Edgeren «sareko» ahotsekin, orriko testua nabigatzailearen ahots-zerbitzutik pasatzen da. Gainera, Teorian, hiztegiko terminoak testuaren barruan puntuz azpimarratuta agertzen dira. Gogaitzen bazaitu, itzali <strong>Aa</strong> botoiarekin."
   },
   {
    "type": "h",
@@ -103,12 +103,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, dilemak, pistak, Logikaren txokoa, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, dilemak, pistak, Logikaren txokoa, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin). Koadroa <strong>behin bakarrik</strong> ageri da, amaieran. Gainera, gaiaren materialak (txartelak, eskemak…) <strong>paragrafoen artean tartekatuta</strong> ere ageri dira, dagokien tokian.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak eta haren aroa), <strong>Pentsatu eta idatzi</strong> (irakurgaiak, disertazioak, dilemak, pistak eta Logikaren txokoa) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin).",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak eta haren aroa), <strong>Pentsatu eta idatzi</strong> (irakurgaiak, disertazioak, dilemak, pistak eta Logikaren txokoa) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin). Koadroa <strong>behin bakarrik</strong> ageri da, amaieran. Gainera, gaiaren materialak (txartelak, eskemak…) <strong>paragrafoen artean tartekatuta</strong> ere ageri dira, dagokien tokian.",
    "solo": "fil"
   },
   {
@@ -200,29 +200,24 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "nombre": "Zutabeak",
-     "texto": "Kontzeptu handiak (arrazoia, ideia, kausa) hamar mailatan, eguneroko hitzetik gaur egungo eztabaidaraino. Maila bakoitzak aurrekoa zuzentzen du eta lana eskatzen du: ideia kasu bati aplikatzea, igo duzunarekin lotzea eta ulertu duzun egiaztatzea. Markatu gainditzen dituzun mailak: zure nabigatzailean bakarrik gordetzen da.",
-     "view": "pilares"
-    },
-    {
      "nombre": "Txartelak",
      "texto": "Sakatu txartela (edo zuriune-barra) buelta emateko, eta markatu «Badakit» menderatzen dituzunak. Zure aurrerapena gorde egiten da.",
      "view": "tarjetas"
     },
     {
      "nombre": "Mapak eta infografiak",
-     "texto": "Tolestu eta zabaltzen diren mapak: sakatu nodo bat haren adarrak irekitzeko edo ixteko, arrastatu mugitzeko eta erabili gurpila handitzeko. Goian bi botoi daude kontzeptu-mapetatik infografietara pasatzeko. Gai bakoitzaren eskemak «Gai honekin jarraitzeko» kutxatik edo «Arakatu ikasgaia» ataletik irekitzen dira, ikasgaiaren orrian.",
+     "texto": "Tolestu eta zabaltzen diren mapak: sakatu nodo bat haren adarrak ireki edo ixteko, arrastatu mugitzeko eta erabili gurpila handitzeko. Goian bi botoi daude, kontzeptu-mapetatik infografietara pasatzeko.",
      "view": "mapas"
     },
     {
-     "nombre": "Hiztegia",
-     "texto": "Ikasgaiaren hiztegia: termino bakoitza bere definizioarekin. Bilatu hitz bat edo iragazi terminoak.",
-     "view": "diccionario"
+     "nombre": "Eskemak",
+     "texto": "Eskema kontzeptualak, haien harremanekin. Aukeratu bat izenburuaren arabera. Filosofiaren Historian aroaren arabera iragazi ditzakezu.",
+     "view": "esquemas"
     },
     {
-     "nombre": "Erroak",
-     "texto": "Nondik datozen filosofiaren hitzak: haien greziar edo latindar erroa, gaur egun zer esan nahi duten hobeto ulertzeko. Bilatu hitz bat edo ibili haietan zehar gaika.",
-     "view": "etimos"
+     "nombre": "Hiztegia",
+     "texto": "Ikasgaiaren hiztegia: termino bakoitza bere definizioarekin. Bilatu hitz bat edo iragazi terminoak. Teoriaren barruan, gai horretako hiztegiko terminoek <em>azpimarra puntuduna</em> dute atal bakoitzean lehen aldiz ageri direnean. Sakatu ezazu, iritsi zaitez teklatuarekin edo pasa sagua gainetik: definizioa, erroa eta «Ikusi fitxa» ikusiko dituzu. <strong>Esc</strong> teklak ixten du. Berez aktibatuta dator, eta <strong>Aa</strong> botoiak itzaltzen du.",
+     "view": "diccionario"
     }
    ]
   },
@@ -316,7 +311,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Prestatu USE",
-     "texto": "Nolakoa den azterketa, nola egin 1. ariketa (testu-ulermena) eta 3. ariketa (azalpena), eta eredu ofizialak.",
+     "texto": "6 talde tolesgarriko aurkibide bat, azterketaren hurrenkeran: <strong>Ezagutu azterketa</strong>, <strong>1. ariketa · Testu-ulermena</strong>, <strong>2. ariketa · Disertazioa</strong>, <strong>3. ariketa · Filosofiaren Historia berriz pentsatzen</strong>, <strong>Bost irakurgaiak</strong> eta <strong>Praktikatu: simulakroak</strong>. Ireki gida bakoitza bere estekatik eta pasatu batetik bestera <strong>Aurrekoa</strong> eta <strong>Hurrengoa</strong> botoiekin. <strong>Ariketa ebatziak</strong> ere badaude: 1. ariketaren, disertazioaren eta 3. ariketaren eredu ebatziak.",
      "view": "prepara_PAU"
     },
     {
@@ -339,7 +334,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Hasi «Prestatu USE» ataletik, zer eskatuko dizuten jakiteko, eta jarraitu ikasgaiaren orriko USE ibilbidea: ariketa guztietatik ordenan eramaten zaitu."
+   "x": "Hasi Prestatu USE atalean, zer eskatuko dizuten jakiteko. Ibili 6 taldeak hurrenkeran <strong>Aurrekoa</strong> eta <strong>Hurrengoa</strong> botoiekin, eta jarraitu ikasgaiaren orriko USE Ibilbidea: ariketa bakoitzean zehar eramaten zaitu hurrenkeran. Zalantzak dituzunean, begiratu <strong>Ariketa ebatziak</strong>."
   },
   {
    "type": "h",
@@ -406,6 +401,16 @@ const GUIA = {
      "nombre": "Galeria",
      "texto": "Irudiak egile eta gaika; sakatu pantaila osoan ikusteko.",
      "view": "galeria"
+    },
+    {
+     "nombre": "Zutabeak",
+     "texto": "Kontzeptu handiak (arrazoia, ideia, kausa) hamar mailatan, eguneroko hitzetik gaur egungo eztabaidaraino. Maila bakoitzak aurrekoa zuzentzen du eta lana eskatzen du: ideia kasu bati aplikatzea, igo duzunarekin lotzea eta ulertu duzun egiaztatzea. Markatu gainditzen dituzun mailak: zure nabigatzailean bakarrik gordetzen da.",
+     "view": "pilares"
+    },
+    {
+     "nombre": "Erroak",
+     "texto": "Nondik datozen filosofiaren hitzak: haien greziar edo latindar erroa, gaur egun zer esan nahi duten hobeto ulertzeko. Bilatu hitz bat edo ibili haietan zehar gaika.",
+     "view": "etimos"
     }
    ]
   },

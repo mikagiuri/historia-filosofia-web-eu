@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&display=swap">
 <link rel="stylesheet" href="css/bundle.css">
+   <!-- (25-10) maquetación de la teoría, piloto (js/maqueta.js) -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Filosofiaren Historia · Batxilergoko 2. maila">
 <meta property="og:description" content="Batxilergoko 2. mailako Filosofiaren Historiaren tailerra orri bakarrean: teoria, testuak, eskemak, txartelak eta USEko praktika (disertazioa eta iruzkina).">
@@ -39,7 +40,7 @@
   <div class="wrap bar-in">
     <a class="brand" href="#hf"><span class="owl" aria-hidden="true">🦉</span> Filosofia Gela</a>
     <nav class="tabs" id="tabs" aria-label="Atalak">
-      <div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Ikasi</span><div class="navmenu"><button data-view="hf" aria-current="true">Teoria</button><button data-view="pilares">Zutabeak</button><button data-view="tarjetas">Txartelak</button><button data-view="mapas">Mapak eta infografiak</button><button data-view="diccionario">Hiztegia</button><button data-view="etimos">Erroak</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Praktikatu</span><div class="navmenu"><button data-view="cuestionarios">Galdetegiak</button><button data-view="pistas">Pistak</button><button data-view="rescritura">Berridazketa</button><button data-view="dilemas">Eztabaidatu</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">USE</span><div class="navmenu"><button data-view="prepara_PAU">Prestatu USE</button><button data-view="comentario">Testu-iruzkina</button><button data-view="disertaciones">Disertazioak</button><button data-view="lecturas">Irakurgaiak</button></div></div><div class="navsec navsplit"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Historia</span><div class="navmenu"><button data-view="epocas">Aroak</button><button data-view="cronogramas">Kronogramak</button><button data-view="biografias">Biografiak</button><button data-view="adagios">Adagioak</button><button data-view="galeria">Galeria</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Jokoak</span><div class="navmenu"><button data-view="eudaimonia">Eudaimonia</button><button data-view="republica">Errepublika</button><button data-view="rayuela">Txingoka filosofikoa</button><button data-view="leibniz">Tailerrak</button></div></div>
+      <div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Ikasi</span><div class="navmenu"><button data-view="hf" aria-current="true">Teoria</button><button data-view="tarjetas">Txartelak</button><button data-view="mapas">Mapak eta infografiak</button><button data-view="esquemas">Eskemak</button><button data-view="diccionario">Hiztegia</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Praktikatu</span><div class="navmenu"><button data-view="cuestionarios">Galdetegiak</button><button data-view="pistas">Pistak</button><button data-view="rescritura">Berridazketa</button><button data-view="dilemas">Eztabaidatu</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">USE</span><div class="navmenu"><button data-view="prepara_PAU">Prestatu USE</button><button data-view="comentario">Testu-iruzkina</button><button data-view="disertaciones">Disertazioak</button><button data-view="lecturas">Irakurgaiak</button></div></div><div class="navsec navsplit"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Historia</span><div class="navmenu"><button data-view="epocas">Aroak</button><button data-view="cronogramas">Kronogramak</button><button data-view="biografias">Biografiak</button><button data-view="adagios">Adagioak</button><button data-view="galeria">Galeria</button><button data-view="pilares">Zutabeak</button><button data-view="etimos">Erroak</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Jokoak</span><div class="navmenu"><button data-view="eudaimonia">Eudaimonia</button><button data-view="republica">Errepublika</button><button data-view="rayuela">Txingoka filosofikoa</button><button data-view="leibniz">Tailerrak</button></div></div>
     </nav>
     <button class="navtoggle" id="navtoggle" aria-label="Ireki atalen menua" aria-expanded="false">☰</button>
     <button class="theme" id="helpbtn" title="Nola erabili webgunea" aria-label="Nola erabili webgunea">?</button>
@@ -177,7 +178,7 @@
   <section class="view" id="prepara_PAU">
     <p class="eyebrow">Selektibitatea</p>
     <h1 class="title">Prestatu USE</h1>
-    <p class="lead">Filosofiaren Historiako azterketarako behar den guztia: probaren <strong>egitura</strong>, nola egin <strong>1. ariketa</strong> (testu-ulermena) eta <strong>3. ariketa</strong> (azalpena), eta <strong>eredu ofizialak</strong>. 2. ariketak, disertazioak, bere fitxa du.</p>
+    <p class="lead">Filosofiaren Historiako azterketarako behar den guztia, ariketaz ariketa: nolakoa den proba, zer eskatzen duten, nola egiten den, ariketa ebatziak eta simulakroak.</p>
     <div class="chips" id="pauchips" role="group" aria-label="Aukeratu USE gida"></div>
     <div class="theory-layout">
       <nav class="toc" id="pautoc" aria-label="Gidaren aurkibidea"></nav>
@@ -734,13 +735,13 @@
       </ul>
       <h2>Agiri ofizialak</h2>
       <ul>
-        <li>Filosofiaren Historiako USaPeko azterketa-ereduak, zuzentzeko irizpideak eta errubrikak (UPV/EHU, 2026).</li>
-        <li>USaPeko azterketa-ereduak dituen UPV/EHUren orri ofiziala; hortik datoz «Prestatu USE» atalak aipatzen dituen egitura, errubrika eta enuntziatu ofizialak: <a href="https://www.ehu.eus/eu/web/unibertsitaterako-sarbidea/sarbideak/batxilergoa-eta-goi-mailako-heziketa-zikloak/usap/azterketen-eredu-berriak" target="_blank" rel="noopener">Unibertsitaterako sarbidea · Azterketa-ereduak</a>.</li>
+        <li>Filosofiaren Historiako USEeko azterketa-ereduak, zuzentzeko irizpideak eta errubrikak (UPV/EHU, 2026).</li>
+        <li>USEeko azterketa-ereduak dituen UPV/EHUren orri ofiziala; hortik datoz «Prestatu USE» atalak aipatzen dituen egitura, errubrika eta enuntziatu ofizialak: <a href="https://www.ehu.eus/eu/web/unibertsitaterako-sarbidea/sarbideak/batxilergoa-eta-goi-mailako-heziketa-zikloak/usap/azterketen-eredu-berriak" target="_blank" rel="noopener">Unibertsitaterako sarbidea · Azterketa-ereduak</a>.</li>
         <li>Euskadiko Batxilergoko curriculuma.</li>
       </ul>
       <h2>Eskuliburuak eta erreferentziazko materialak</h2>
       <ul>
-        <li>ÁGORA, Filosofiako irakasleen elkartea (Agora Filosofia Elkartea): Filosofiaren Historiako teoria eta gai-zerrenda epigrafeka, USaPerako testu-hautaketa, disertazio-gaien proposamena eta zuzentzeko irizpideak.</li>
+        <li>ÁGORA, Filosofiako irakasleen elkartea (Agora Filosofia Elkartea): Filosofiaren Historiako teoria eta gai-zerrenda epigrafeka, USEerako testu-hautaketa, disertazio-gaien proposamena eta zuzentzeko irizpideak.</li>
         <li>Martín de Bertendona BHIko Filosofia departamentuaren apunteak eta materialak.</li>
         <li>Edelvivesen Filosofiaren Historiako apunteak.</li>
         <li>Eukeni Acebal, Areté bilduma: <em>Filosofia</em>, <em>Filosofiaren historia</em> eta <em>Preparación de la PAU</em> (CC BY-SA 4.0).</li>
@@ -827,6 +828,7 @@
         <li>Euskara, 2026-10-22 (Hegelen tailerra): «conciencia desgraciada» «zoritxarreko kontzientzia» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=zoritxarreko" target="_blank" rel="noopener">zoritxarreko</a>, 1. adiera: «zoritxarra duena») eta «eticidad» (<em>Sittlichkeit</em>) «etikotasuna» (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=etikotasun" target="_blank" rel="noopener">etikotasun</a>, Hiztegiak jasotzen ez duena); biak <em>Fenomenologia</em>ren euskal itzulpeneko formak dira (<em>Gogoaren fenomenologia</em> I eta II, Xabier Insausti eta Ibon Uribarri itzultzaileak, Klasikoak, 2005: <a href="https://www.ehu.eus/ehg/klasikoak/?f=50" target="_blank" rel="noopener">I. liburukia</a>, <a href="https://www.ehu.eus/ehg/klasikoak/?f=51" target="_blank" rel="noopener">II. liburukia</a>).</li>
         <li>Euskara, 2026-10-22 (Zutabeak): «pilar» «zutabe» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=zutabe" target="_blank" rel="noopener">zutabe</a>, 1. adiera: eraikin baten euskarri bertikala; gaztelaniazko «pilar» hitzaren metafora bera); «peldaño» «maila» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=maila" target="_blank" rel="noopener">maila</a>, 1. adiera: «eskaileretan, oina jartzeko euskarrietako bakoitza»); «causa» «kausa» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=kausa" target="_blank" rel="noopener">kausa</a>, adiera filosofikoa), eta horrela zuzentzen da hitz solteak lehen zuen itzulpena, «arrazoia», «razón» hitzarekin nahasten baitzuen; «razón», ahalmen gisa, «arrazoia» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=arrazoimen" target="_blank" rel="noopener">arrazoimen</a> sarrerak «arrazoi»-ra bidaltzen du, 3. adiera), webguneak lehendik erabiltzen duen forma; eta «idea» «ideia» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=ideia" target="_blank" rel="noopener">ideia</a>, 1. adiera).</li>
         <li>Euskara, 2026-10-23 (atalaren izena): terminoen atalak «Diccionario» du izena gaztelaniaz, eta «Hiztegia» euskaraz (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=hiztegi" target="_blank" rel="noopener">hiztegi</a>, 1. adiera: hitzen bilduma sailkatua, bakoitza bere definizioarekin; hitz arrunta da). Frantsesez, «Dictionnaire»; ingelesez, «Dictionary»; arabieraz, «القاموس».</li>
+        <li>Euskara, 2026-10-25 (Prestatu USE): «respuestas resueltas» «ariketa ebatziak» da (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=ebatzi" target="_blank" rel="noopener">ebatzi</a>, 3. adiera: problema baten edo ariketa baten emaitza aurkitu, «ariketak ebazteko»). Ariketak ebazten dira, ez erantzunak; horregatik ez da «erantzun ebatziak».</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>Oharrak eta erreferentziak gaika</h2>
@@ -1297,6 +1299,8 @@
 <script src="js/quiz.js"></script>
 <script src="js/retosview.js"></script>
 <script src="js/theory.js"></script>
+<script src="js/maqueta.js"></script>
+<script src="js/maquetaview.js"></script>   <!-- (25-10) maquetación de la teoría: antes de theoryview.js, que pinta el primer tema al cargar -->
 <script src="js/theoryview.js"></script>
 <script src="js/retratos_museo.js"></script>
 <script src="js/galeria_pensar.js"></script>
@@ -1432,7 +1436,7 @@
 <script src="js/compacto.js"></script>
 <script src="js/nav_toc.js"></script>
 <script src="js/lazy_libs.js"></script>
-<script>window.USO_CONFIG={"url":"https://script.google.com/macros/s/AKfycbzBE41zf12MG7pFbgwgjbOQPriNBJZz4vSigkE-gIjWgSx67pQ-K1IgI4qoRpMlIaQT/exec","grupos":{"hf":["2E"]},"version":"v286"};</script>
+<script>window.USO_CONFIG={"url":"https://script.google.com/macros/s/AKfycbzBE41zf12MG7pFbgwgjbOQPriNBJZz4vSigkE-gIjWgSx67pQ-K1IgI4qoRpMlIaQT/exec","grupos":{"hf":["2E"]},"version":"v287"};</script>
 <script src="js/uso.js"></script>
 <script>
   /* PWA: registra el service worker (offline + instalable). Falla en silencio
