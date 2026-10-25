@@ -4990,7 +4990,7 @@ const PISTAS = [
     "etiqueta": "Hasierako galdera",
     "pregunta": "Zer esan nahi du Nietzschek bere burua «lehen immoralista» deitzen duenean?",
     "repaso": [
-     "Esan al dut «immoralista» hitzak bi ukapen dituela: gizon «onaren» tipoarena eta moral kristauarena?",
+     "Esan al dut «immoralista» hitzak bi ukapen dituela: gizaki «onaren» tipoarena eta moral kristauarena?",
      "Azaldu al dut moral hori «<em>décadence</em>-aren morala» deitzen duela, ahuleziaren eta gainbehera doan bizitzaren seinale?",
      "Esan al dut ukatzea ez dela haren azken hitza: ukatzen du bizitzari baietz esateko?"
     ],
@@ -5000,14 +5000,14 @@ const PISTAS = [
     "pistas": [
      "Kokatzeko: <strong>immoralista</strong> ez da krimena defendatzen duena, jasotako morala bere baitan baliozkoa dela ukatzen duena baizik.",
      "4. §an Nietzschek dio hitzak <strong>bi ukapen</strong> dituela. Bilatu bakoitza zeri buruzkoa den: pertsona-tipo bati eta moral-tipo bati.",
-     "Gorena dela uste den gizon-tipoa ukatzen du, <strong>onak</strong>, onginahiak; eta «berez moral» gisa ezarri den morala ukatzen du: <strong>moral kristaua</strong>, <em>décadence</em>-aren morala deitzen duena.",
+     "Gorena dela uste den gizaki-tipoa ukatzen du, <strong>onak</strong>, onginahiak; eta «berez moral» gisa ezarri den morala ukatzen du: <strong>moral kristaua</strong>, <em>décadence</em>-aren morala deitzen duena.",
      "Baina ez da «ez» bat soilik: ezetz esaten duen izpiritu baten antitesi gisa aurkezten du bere burua. <strong>Ukatzea eta suntsitzea bizitzari baietz esateko baldintzak dira</strong>."
     ],
     "comprobacion": {
      "pregunta": "Zer ukatzen du Nietzschek bere burua «immoralista» deitzean?",
      "opciones": [
       [
-       "Gizon «onaren» tipoa eta moral kristaua, dekadentziaren moraltzat jotzen duena.",
+       "Gizaki «onaren» tipoa eta moral kristaua, dekadentziaren moraltzat jotzen duena.",
        true
       ],
       [
@@ -5027,7 +5027,7 @@ const PISTAS = [
        "Ez: kritikatzen duena moralak «ona» eta «txarra» banatu duen modua da."
       ]
      ],
-     "ok": "Ondo: bi ukapen, gizon «ona» eta <em>décadence</em>-aren morala.",
+     "ok": "Ondo: bi ukapen, gizaki «ona» eta <em>décadence</em>-aren morala.",
      "mal": "Oraindik ez."
     },
     "rescate": [
@@ -5084,7 +5084,7 @@ const PISTAS = [
        "g-genealogia-de-la-moral"
       ],
       "definicion": [
-       "<strong>Lehen ukapena</strong> → gorentzat jotzen den gizon-tipoa: «onak», onginahiak. Haien existentzia-baldintza, dio, errealitatea nolakoa den ez ikusi nahi izatea da (4. §).",
+       "<strong>Lehen ukapena</strong> → gorentzat jotzen den gizaki-tipoa: «onak», onginahiak. Haien existentzia-baldintza, dio, errealitatea nolakoa den ez ikusi nahi izatea da (4. §).",
        "<strong>Bigarren ukapena</strong>, erabakigarria → moral kristaua, <em>décadence</em>-aren morala: bere buruari uko egitearen morala, amaiera-nahimena agerian uzten duena (4. eta 7. §).",
        "<strong>Baina ez da «ez» soil bat</strong> → ukatzea eta suntsitzea bizitzari baietz esateko baldintzak dira. Horregatik «mezulari alaia» deitzen dio bere buruari (1. §)."
       ],
@@ -5100,7 +5100,7 @@ const PISTAS = [
         [
          "Atseginak diren pertsona zehatzena.",
          false,
-         "Ez du pertsona zehatzak erasotzen, moralak eredu gisa jarri duen gizon-tipo bat baizik."
+         "Ez du pertsona zehatzak erasotzen, moralak eredu gisa jarri duen gizaki-tipo bat baizik."
         ],
         [
          "Zientziarena eta ezagutzarena.",
@@ -5217,7 +5217,7 @@ const PISTAS = [
   "cierre": {
    "titulo": "Orain azal dezakezu «Zergatik naizen patu bat»",
    "parrafos": [
-    "Nietzschek bere burua «lehen immoralista» deitzen du: gizon «onaren» tipoa eta moral kristaua ukatzen ditu, <em>décadence</em>-aren morala eta bizitzaren aurkakoa dela uste duena. Haren formula balio guztien transbalorazioa da: bizitzari baietz esaten dioten balioak sortzea, «Dioniso Gurutziltzatuaren aurka» formulan laburbilduak.",
+    "Nietzschek bere burua «lehen immoralista» deitzen du: gizaki «onaren» tipoa eta moral kristaua ukatzen ditu, <em>décadence</em>-aren morala eta bizitzaren aurkakoa dela uste duena. Haren formula balio guztien transbalorazioa da: bizitzari baietz esaten dioten balioak sortzea, «Dioniso Gurutziltzatuaren aurka» formulan laburbilduak.",
     "USErako: laburpenean, jaso 4. §ko bi ukapenak; A edo B aukeran, lotu Jainkoaren heriotzarekin eta nihilismoarekin."
    ]
   }

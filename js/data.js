@@ -4406,7 +4406,7 @@ const QUIZZES = {
      "Eztabaida publikoa debekatzea."
     ],
     "a": 1,
-    "fb": "Eskubideen hizkerak arazo bat irekitzen du: «gizona» hitzak nor barne hartzen duen benetan, emakumeak, esklaboak eta kolonizatuak kanpoan geratzen baitziren."
+    "fb": "Eskubideen hizkerak arazo bat irekitzen du: «gizakia» hitzak nor barne hartzen duen benetan, emakumeak, esklaboak eta kolonizatuak kanpoan geratzen baitziren."
    },
    {
     "q": "Zer egiten du Olympe de Gougesen kritikak?",

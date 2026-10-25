@@ -524,7 +524,7 @@ const DILEMAS = [
   "titulo": "Aginduak betetzen baino ez zuen egiten",
   "situacion": "Jerusalem, 1961. Adolf Eichmannek, sarraski-esparruetarako trenak antolatu zituen funtzionarioak, bere burua defendatzen du: ez zuen inor gorroto, ez zuen inor hil bere eskuez, bere Estatuaren legeak eta nagusien aginduak bete zituen; desobeditzea izango zen, bere munduan, inmorala. Hannah Arendtek, epaiketan dagoela, idazten du ez zela munstro bat, pentsatzeari utzi zion gizon bat baizik. Zu epaimahaiko kide zara.",
   "a": "Erruduna, aringarririk gabe: obeditzeak ez du erantzukizunetik salbuesten; pertsona bakoitza egiten duenaren erantzule da, eta «aginduak betetzea» borrero guztien aitzakia da.",
-  "b": "Erruduna, baina epaia ez da nahikoa: gizon normal batek hau egin ahal izan bazuen pentsatu ez zuelako soilik, arazoa ez da bera, obedienteak fabrikatzen dituen sistema bat baizik; bera epaitzea erosoegia da.",
+  "b": "Erruduna, baina epaia ez da nahikoa: gizaki normal batek hau egin ahal izan bazuen pentsatu ez zuelako soilik, arazoa ez da bera, obedienteak fabrikatzen dituen sistema bat baizik; bera epaitzea erosoegia da.",
   "pregunta": "Izan al daiteke pertsona bat obedituz egiten duen gaizkiaren erantzule? Gaizkia aukera bat da, ala pentsamendu-falta bat?",
   "enjuego": "Gaizkiaren banalitatea, sistema baten barruko erantzukizun indibiduala, eta pentsatzearen eta ondo jokatzearen arteko harremana.",
   "escuelas": [
@@ -563,7 +563,7 @@ const DILEMAS = [
    "Gaizkia ez pentsatzea bada, filosofia txerto bat al da? Eta zergatik zeuden filosofia-irakasleak alderdi nazian?",
    "Ba al dago gaur pentsatu gabe betetzen duzun agindurik (lanean, taldean, sarean)? Non jarriko zenuke muga, eta nola jakingo zenuke gainditu duzula?"
   ],
-  "ysi": "Eta Eichmannek desobeditu izan balu eta fusilatu izan balute, eta trenak berdin-berdin irten izan balira beste funtzionario batekin? Arendtek erantzuten du baietz, axola duela: ez emaitza aldatzen duelako, baizik eta mundua beste bat izango litzatekeelako baietz esan zuen gizon bat gutxiagorekin.",
+  "ysi": "Eta Eichmannek desobeditu izan balu eta fusilatu izan balute, eta trenak berdin-berdin irten izan balira beste funtzionario batekin? Arendtek erantzuten du baietz, axola duela: ez emaitza aldatzen duelako, baizik eta mundua beste bat izango litzatekeelako baietz esan zuen gizaki bat gutxiagorekin.",
   "pau": "«Aginduak obeditzen dituena bere ekintzen erantzule al da?» Argudiatu 200-300 hitzetan Arendtetik eta gutxienez beste jarrera batetik abiatuta (Kant, Sartre edo Sokrates), gaur egungo adibide batekin.",
   "dato": "Arendt gogor erasotu zuen komunitate juduak liburuagatik: askok «banalitatea» aitzakia gisa irakurri zuten. Berak erantzun zuen munstro bat baino beldurgarriagoa den zerbait deskribatu zuela: gaizkiak ez duela munstrorik behar."
  },

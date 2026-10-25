@@ -855,14 +855,14 @@ const REP_MAZO_A = {
    "id": "alma_thymos",
    "name": "Arima timokratikoa (gogo suminkorrak gobernatzen du)",
    "lema": "Ohorea eta boterea maite ditu jakintza baino gehiago.",
-   "txt": "Gizon timokratikoak bere barruko agintea elementu haserrekorrari eta garaipenaren zaleari ematen dio. *Thymós* zati haserrekorra edo biziona da; bere gehiegizkoa anbizioa da (*philotimía*).",
+   "txt": "Gizaki timokratikoak bere barruko agintea elementu haserrekorrari eta garaipenaren zaleari ematen dio. *Thymós* zati haserrekorra edo biziona da; bere gehiegizkoa anbizioa da (*philotimía*).",
    "loc": "Errepublika VIII, 548d-550b"
   },
   {
    "id": "alma_epithymia_nec",
    "name": "Arima oligarkikoa (beharrezko gutiziak gobernatzen du)",
    "lema": "Aurrezten du, gastatzeko beldur da, eta irabazirik ematen ez duen desio oro asetu gabe uzten du.",
-   "txt": "Gizon oligarkikoak tronuan jartzen du gutizia-elementua, diruaren zalea. *Epithymía* gutiziazko zatia da; hemen bere forma «beharrezkoa» nagusitzen da, diruarena.",
+   "txt": "Gizaki oligarkikoak tronuan jartzen du gutizia-elementua, diruaren zalea. *Epithymía* gutiziazko zatia da; hemen bere forma «beharrezkoa» nagusitzen da, diruarena.",
    "loc": "Errepublika VIII, 553a-554e"
   },
   {
@@ -876,7 +876,7 @@ const REP_MAZO_A = {
    "id": "alma_eros_tirano",
    "name": "Arima tiranikoa (eztendun desioak gobernatzen du: Eros)",
    "lema": "Kanpoan dena egin dezakeena da barruan esklaboena.",
-   "txt": "Tiranoaren arimaren barruan agintari den desio batek, zizta baten gisa, gainerakoak gobernatzen ditu; benetan esklabo da agintzen duen arren, beldurrez betea, lagunik gabe, nahi duena egiteko ezgai: gizonen artean zorigaiztokoena. Platonen argudioa azaltzen da, ez edozein erregimen errealen gaineko iritzirik.",
+   "txt": "Tiranoaren arimaren barruan agintari den desio batek, zizta baten gisa, gainerakoak gobernatzen ditu; benetan esklabo da agintzen duen arren, beldurrez betea, lagunik gabe, nahi duena egiteko ezgai: gizakien artean zorigaiztokoena. Platonen argudioa azaltzen da, ez edozein erregimen errealen gaineko iritzirik.",
    "loc": "Errepublika IX, 571a-580a"
   }
  ],

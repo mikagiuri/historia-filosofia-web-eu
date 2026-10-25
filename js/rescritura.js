@@ -363,7 +363,7 @@ const RESCRITURA_TEXTOS = [
    },
    {
     "tipo": "sinonimia",
-    "texto": "Analizatu gabeko existentziak ez du bizi izatea merezi gizonarentzat.",
+    "texto": "Analizatu gabeko existentziak ez du bizi izatea merezi gizakiarentzat.",
     "porque": "Esaldi bera sinonimoekin. Eta «analisia» ez da «azterketa»: Sokrates ez da datuak aztertzeaz ari, norberaren bizitza elkarrizketan berrikusteaz baizik."
    },
    {

@@ -1180,7 +1180,7 @@ const CITAS = [
   "uso": "Aristotelesen etikan bertutea ohitura gisa azaltzeko, edo hezkuntza moralari buruzko eztabaidetan."
  },
  {
-  "c": "Gerta daiteke askok, horietako bakoitza bere aldetik gizon bikaina ez izan arren, elkartzen direnean gutxi haiek baino hobeak izatea, ez banan-banan, baizik eta denak batera: bakoitzak zerbait ekarriz egindako otorduak bakar batek ordaindutakoak baino hobeak diren bezala.",
+  "c": "Gerta daiteke askok, horietako bakoitza bere aldetik gizaki bikaina ez izan arren, elkartzen direnean gutxi haiek baino hobeak izatea, ez banan-banan, baizik eta denak batera: bakoitzak zerbait ekarriz egindako otorduak bakar batek ordaindutakoak baino hobeak diren bezala.",
   "a": "Aristoteles",
   "o": "Politika, III, 11, 1281a42-b3, itzulpen propioa",
   "e": "antigua",
