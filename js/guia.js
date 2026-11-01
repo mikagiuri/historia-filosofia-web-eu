@@ -54,11 +54,11 @@ const GUIA = {
   {
    "type": "img",
    "src": "01_ficha.webp",
-   "cap": "Ikasgaiaren orria: goian, menua; behean, gaien zerrenda."
+   "cap": "Ikasgaiaren orria: goian, menua; behean, gaiak, zabaltzen diren blokeetan (hemen, bat irekita)."
   },
   {
    "type": "p",
-   "x": "Gaiak <strong>aroka</strong> multzokatuta daude (Antzinakoa, Erdi Arokoa, Modernoa, Ilustrazioa eta Garaikidea), bakoitza bere kolorearekin, eta zerrenda 3. gaitik hasten da. 1. eta 2. gaiak, ikasgairako sarrera direnak, amaieran daude. Aro bakoitzaren koloreak webgune osoan laguntzen dizu: iragazkietan, txarteletan eta galdetegietan.",
+   "x": "Gaiak <strong>blokeetan</strong> daude multzokatuta, aroka («Blokea 1 · Antzinakoa», «Blokea 2 · Erdi Arokoa»… Garaikidearaino), bakoitza bere kolorearekin eta, parentesi artean, zenbat gai dituen. Sakatu blokearen goiburua zabaltzeko, eta bertako gaiak ikusiko dituzu; sakatu berriro tolesteko. 1. eta 2. gaiak, ikasgairako sarrera direnak, amaieran daude, <strong>Sarrera</strong> taldean, grisez. Aro bakoitzaren koloreak webgune osoan laguntzen dizu: iragazkietan, txarteletan eta galdetegietan.",
    "solo": "hf"
   },
   {
@@ -67,7 +67,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gaiak <strong>blokeetan</strong> daude multzokatuta («2. blokea · …»), eta bakoitzak filosofiaren adarraren kolorea du (antropologia, ezagutza, logika, etika, politika eta estetika). Sakatu blokearen goiburua zabaltzeko: bertako gaiak ikusiko dituzu, azpigaiak zenbakituta (1.1, 1.2…). 1. gaia bereizita doa, Sarrera taldean, grisez. Kolore hori web osoan zehar datorkizu lagun: iragazkietan, txartelen eta galdetegien barruan.",
+   "x": "Gaiak <strong>blokeetan</strong> daude multzokatuta («2. blokea · …»), eta bakoitzak filosofiaren adarraren kolorea du (antropologia, ezagutza, logika, etika, politika eta estetika). Sakatu blokearen goiburua zabaltzeko: bertako gaiak ikusiko dituzu, azpigaiak zenbakituta (1.1, 1.2…). 1. blokea («Zer da filosofia?») sarrera da, eta grisez doa. Kolore hori web osoan zehar datorkizu lagun: iragazkietan, txartelen eta galdetegien barruan.",
    "solo": "fil"
   },
   {
@@ -212,7 +212,14 @@ const GUIA = {
     {
      "nombre": "Eskemak",
      "texto": "Eskema kontzeptualak, haien harremanekin. Aukeratu bat izenburuaren arabera. Filosofiaren Historian aroaren arabera iragazi ditzakezu.",
-     "view": "esquemas"
+     "view": "esquemas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Eskemak",
+     "texto": "Eskema kontzeptualak, haien harremanekin. Aukeratu bat izenburuaren arabera.",
+     "view": "esquemas",
+     "solo": "fil"
     },
     {
      "nombre": "Hiztegia",
