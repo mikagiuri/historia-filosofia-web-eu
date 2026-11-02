@@ -27,7 +27,7 @@ const RAY_TXT = {
   pregunta: "Geltokia", vida: "Filosofo baten bizitza", contradiccion: "Kontraesana", final: "Azken geltokia",
   chocan: "Talka egiten duten zure erantzunak:",
   coinciden: "Lotutako filosofoak", estudia: "Ikasi teorian", abierto: "Zabalik geratzen zaizu",
-  paraPau: "USErako (2. ariketa: hausnarketa filosofikoa)", tuTexto: "Idatzi hemen zure hausnarketa (200-300 hitz). Nabigatzaile honetan bakarrik gordetzen da.",
+  paraPau: "USaPerako (2. ariketa: hausnarketa filosofikoa)", tuTexto: "Idatzi hemen zure hausnarketa (200-300 hitz). Nabigatzaile honetan bakarrik gordetzen da.",
   guardado: "Nabigatzaile honetan gordeta.", palabras: "hitz",
   recorrido: "Zure ibilbidea", nuevo: "Amaiera berria!", todos: "Sareko amaiera guztiak aurkitu dituzu!", transbordo: "Transbordoa",
   plano: "Zure ibilbidea planoan", leyenda: "Legenda", sinViajes: "Hemen marraztuko da zure ibilbidea, geltokiz geltoki. Sarearen gainerakoa aurkitzeko dago.", verViaje: "Ikusi planoan",

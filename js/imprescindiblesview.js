@@ -6,14 +6,14 @@
 
 const IMP_TXT = {
   n5: "Ezinbestekoa", n4: "Funtsezkoa", n3: "Garrantzitsua", n2: "Osagarria", n1: "Zabalkuntza",
-  aria: "USErako garrantzia: 5etik {n}, {t}.", por: "Zergatik",
+  aria: "USaPerako garrantzia: 5etik {n}, {t}.", por: "Zergatik",
   leyTit: "Zer esan nahi dute puntuek",
-  ley5: "USEko irakurgaia edo autorea, edo hura ulertzeko ezinbestekoa den zerbait.",
-  ley4: "Curriculumak ezinbestekotzat jotzen duena (izartxoarekin) edo USEn dagoeneko atera dena.",
+  ley5: "USaPeko irakurgaia edo autorea, edo hura ulertzeko ezinbestekoa den zerbait.",
+  ley4: "Curriculumak ezinbestekotzat jotzen duena (izartxoarekin) edo USaPen dagoeneko atera dena.",
   ley3: "Curriculumak aipatzen duena, edo aurrekoa ulertzeko behar dena.",
   ley2: "Baliagarria testuinguru gisa edo disertazioan argudiatzeko.",
   ley1: "Jakingarria edo zabalkuntza: gehiago jakiteko.",
-  leyPie: "Irizpidea: lehenik, Euskadiko curriculuma (76/2023 Dekretua); ondoren, UPV/EHUko USE.",
+  leyPie: "Irizpidea: lehenik, Euskadiko curriculuma (76/2023 Dekretua); ondoren, UPV/EHUko USaP.",
   filtro: "Ezinbestekoak eta funtsezkoak bakarrik",
   leyMedio: "Puntu erdia: bi mailaren artean. 3,5 bat ez da oraindik funtsezkotzat hartzen."   /* (20-10) */
 };

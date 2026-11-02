@@ -1404,7 +1404,7 @@ const ESQUEMAS = {
   "v2": {
    "pregunta": "Askeak bagara, zergatik bizi izan da emakumea «Bestea» gisa?",
    "raiz": "EMAKUMEA, BESTETASUNA ETA ASKATASUNA",
-   "raiz_d": "Bigarren sexua lanaren argudioa (USEko testua: Ondorioa), Beauvoirrek Sartrerekin partekatzen duen existentzialismotik irakurria.",
+   "raiz_d": "Bigarren sexua lanaren argudioa (USaPeko testua: Ondorioa), Beauvoirrek Sartrerekin partekatzen duen existentzialismotik irakurria.",
    "ramas": [
     {
      "rel": "hemendik abiatzen da",

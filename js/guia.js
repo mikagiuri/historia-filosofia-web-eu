@@ -31,7 +31,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Menuko lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USE</strong> (azterketa, testuak eta idazketa). Marra baten ondoren osagarriak datoz: <strong>Historia</strong> (filosofoen testuingurua, Zutabeekin eta Erroekin) eta <strong>Jokoak</strong>. <strong>Logikaren txokoa</strong>ek ez du fitxarik web honetan: hura erabiltzen duten gaien estekek irekitzen dute.",
+   "x": "Menuko lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>USaP</strong> (azterketa, testuak eta idazketa). Marra baten ondoren osagarriak datoz: <strong>Historia</strong> (filosofoen testuingurua, Zutabeekin eta Erroekin) eta <strong>Jokoak</strong>. <strong>Logikaren txokoa</strong>ek ez du fitxarik web honetan: hura erabiltzen duten gaien estekek irekitzen dute.",
    "solo": "hf"
   },
   {
@@ -72,7 +72,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Urrezko <strong>PAUKO IRAKURKETA</strong> etiketak USEko bost testuetako bat duten gaiak markatzen ditu (Platon, Descartes, Kant, Nietzsche eta Beauvoir). <strong>Esplorazioak</strong> atalak gaia zabaltzeko irakurgaiak erakusten ditu; borondatezkoak dira. Beherago daude <strong>Arakatu ikasgaia</strong> (webgunean dagoen guztia, motaka zenbatuta) eta <strong>USE ibilbidea</strong>, azterketaren prestaketan urratsez urrats gidatzen zaituena.",
+   "x": "Urrezko <strong>USaPeko irakurgaia</strong> etiketak Unibertsitatera Sartzeko Probako (USaP) bost testuetako bat duten gaiak markatzen ditu (Platon, Descartes, Kant, Nietzsche eta Beauvoir). <strong>Esplorazioak</strong> atalak gaia zabaltzeko irakurgaiak erakusten ditu; borondatezkoak dira. Beherago daude <strong>Arakatu ikasgaia</strong> (webgunean dagoen guztia, motaka zenbatuta) eta <strong>USaP ibilbidea</strong>, azterketaren prestaketan urratsez urrats gidatzen zaituena.",
    "solo": "hf"
   },
   {
@@ -103,7 +103,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak, haren aroa eta kronograma), <strong>PAU prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, dilemak, pistak, Logikaren txokoa, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin). Koadroa <strong>behin bakarrik</strong> ageri da, amaieran. Gainera, gaiaren materialak (txartelak, eskemak…) <strong>paragrafoen artean tartekatuta</strong> ere ageri dira, dagokien tokian.",
+   "x": "Gai bakoitzaren amaieran kutxa bat dago, <strong>Gai honekin jarraitzeko</strong>, gai horren material guztiarekin, hiru blokotan: <strong>Ikasi</strong> (txartelak, galdetegiak, infografiak, mapak, eskemak, hiztegiko kontzeptuak, haren aroa eta kronograma), <strong>USaP prestatu</strong> (irakurgaiak, iruzkinak, disertazioak eta konparazioak) eta <strong>Zabaldu</strong>, sakatzean zabaltzen dena (esplorazioak, dilemak, pistak, Logikaren txokoa, polemikak, komunitateak, jazarriak, Arrazoien dueloa, jokoak eta, gai batzuetan, euskarazko bideoak beren transkripzioarekin). Koadroa <strong>behin bakarrik</strong> ageri da, amaieran. Gainera, gaiaren materialak (txartelak, eskemak…) <strong>paragrafoen artean tartekatuta</strong> ere ageri dira, dagokien tokian.",
    "solo": "hf"
   },
   {
@@ -128,7 +128,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "Webgune honetan, pentsalariek, gaiek eta hiztegiko terminoek bat eta bost arteko <strong>garrantzi-puntu</strong> dituzte ●●●●○: zenbat eta puntu gehiago, orduan eta pisu handiagoa du ikasgaian eta USEn. Maila bakoitzak bere izena du:"
+   "x": "Webgune honetan, pentsalariek, gaiek eta hiztegiko terminoek bat eta bost arteko <strong>garrantzi-puntu</strong> dituzte ●●●●○: zenbat eta puntu gehiago, orduan eta pisu handiagoa du ikasgaian eta USaPen. Maila bakoitzak bere izena du:"
   },
   {
    "type": "list",
@@ -136,11 +136,11 @@ const GUIA = {
    "rows": [
     {
      "nombre": "●●●●● Ezinbestekoa",
-     "texto": "USEko irakurgaia edo autorea, edo hura ulertzeko ezinbestekoa den zerbait."
+     "texto": "USaPeko irakurgaia edo autorea, edo hura ulertzeko ezinbestekoa den zerbait."
     },
     {
      "nombre": "●●●●○ Funtsezkoa",
-     "texto": "Curriculumak ezinbestekotzat jotzen duena (izartxoarekin) edo USEn dagoeneko atera dena."
+     "texto": "Curriculumak ezinbestekotzat jotzen duena (izartxoarekin) edo USaPen dagoeneko atera dena."
     },
     {
      "nombre": "●●●○○ Garrantzitsua",
@@ -163,7 +163,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "Irizpidea: lehenik, Euskadiko curriculuma (76/2023 Dekretua); ondoren, UPV/EHUko USE. Hau da, legeak ikasgai honetan ikastea eskatzen duena eta azterketan galdetzen dena."
+   "x": "Irizpidea: lehenik, Euskadiko curriculuma (76/2023 Dekretua); ondoren, UPV/EHUko USaP. Hau da, legeak ikasgai honetan ikastea eskatzen duena eta azterketan galdetzen dena."
   },
   {
    "type": "p",
@@ -308,7 +308,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "04_menu_tercera.webp",
-   "cap": "«USE» menua.",
+   "cap": "«USaP» menua.",
    "w": "menu",
    "solo": "hf"
   },
@@ -317,7 +317,7 @@ const GUIA = {
    "solo": "hf",
    "rows": [
     {
-     "nombre": "Prestatu USE",
+     "nombre": "Prestatu USaP",
      "texto": "6 talde tolesgarriko aurkibide bat, azterketaren hurrenkeran: <strong>Ezagutu azterketa</strong>, <strong>1. ariketa · Testu-ulermena</strong>, <strong>2. ariketa · Disertazioa</strong>, <strong>3. ariketa · Filosofiaren Historia berriz pentsatzen</strong>, <strong>Bost irakurgaiak</strong> eta <strong>Praktikatu: simulakroak</strong>. Ireki gida bakoitza bere estekatik eta pasatu batetik bestera <strong>Aurrekoa</strong> eta <strong>Hurrengoa</strong> botoiekin. <strong>Ariketa ebatziak</strong> ere badaude: 1. ariketaren, disertazioaren eta 3. ariketaren eredu ebatziak.",
      "view": "prepara_PAU"
     },
@@ -333,7 +333,7 @@ const GUIA = {
     },
     {
      "nombre": "Irakurgaiak",
-     "texto": "USEko bost testuak, haien irakurketa-gidarekin, zatiekin, erantzun-ereduekin eta hiztegiarekin.",
+     "texto": "USaPeko bost testuak, haien irakurketa-gidarekin, zatiekin, erantzun-ereduekin eta hiztegiarekin.",
      "view": "lecturas"
     }
    ]
@@ -341,7 +341,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Hasi Prestatu USE atalean, zer eskatuko dizuten jakiteko. Ibili 6 taldeak hurrenkeran <strong>Aurrekoa</strong> eta <strong>Hurrengoa</strong> botoiekin, eta jarraitu ikasgaiaren orriko USE Ibilbidea: ariketa bakoitzean zehar eramaten zaitu hurrenkeran. Zalantzak dituzunean, begiratu <strong>Ariketa ebatziak</strong>."
+   "x": "Hasi Prestatu USaP atalean, zer eskatuko dizuten jakiteko. Ibili 6 taldeak hurrenkeran <strong>Aurrekoa</strong> eta <strong>Hurrengoa</strong> botoiekin, eta jarraitu ikasgaiaren orriko USaP Ibilbidea: ariketa bakoitzean zehar eramaten zaitu hurrenkeran. Zalantzak dituzunean, begiratu <strong>Ariketa ebatziak</strong>."
   },
   {
    "type": "h",
@@ -498,6 +498,11 @@ const GUIA = {
    "type": "steps",
    "rows": [
     {
+     "titulo": "Errepasatu haren terminoak",
+     "texto": "Gai bakoitzaren goian, ireki «Hasi aurretik: 5 termino» eta irakurri haien definizioak teoriaren aurretik.",
+     "view": "MATERIA"
+    },
+    {
      "titulo": "Irakurri gaiaren teoria",
      "texto": "Ikasi › Teoria › gaia. Erabili ezkerreko atalak zatika joateko.",
      "view": "MATERIA"
@@ -524,7 +529,7 @@ const GUIA = {
     },
     {
      "titulo": "Prestatu azterketa",
-     "texto": "USE: irakurgaiak, iruzkinak eta disertazioak.",
+     "texto": "USaP: irakurgaiak, iruzkinak eta disertazioak.",
      "view": "prepara_PAU",
      "solo": "hf"
     },
@@ -537,6 +542,40 @@ const GUIA = {
     {
      "titulo": "Gehiago nahi baduzu",
      "texto": "Historia eta Jokoak fitxak, Praktikatu › Eztabaidatu eta gaiaren kutxako «Zabaldu» blokea: testuingurua, jokoak, eztabaidak eta bideoak, harago joateko."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "x": "<strong>Hobeto ikasteko</strong>, edozein dela gaia:"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "Bloke laburretan",
+     "texto": "10-20 minutuz arreta osoz, eta atsedenaldi labur bat batetik bestera: arratsalde oso bat erdipurdi ibiltzea baino etekin handiagoa ematen du."
+    },
+    {
+     "nombre": "Bi aldeko txartela",
+     "texto": "Alde batean, egilea eta haren tesia esaldi batean; bestean, ideiaren marrazki bat. Errepasatu alde bati begira eta bestea esanez."
+    },
+    {
+     "nombre": "Marraztu berriz mapa",
+     "texto": "Begiratu gaiaren kontzeptu-mapa, itxi eta marraztu berriz oroimenez. Gero, alderatu jatorrizkoarekin: falta dena da errepasatu behar duzuna."
+    },
+    {
+     "nombre": "Berreraiki argudio bat",
+     "texto": "Hiru galderarekin: zer baieztatzen du egileak?, zergatik baieztatzen du?, nola iristen da bere arrazoietatik bere ondoriora?"
+    },
+    {
+     "nombre": "Erantzun aurretik",
+     "texto": "Markatu enuntziatua: agindua, gaia eta mugak. «Nola irakurri enuntziatu bat» fitxak azaltzen du, Disertazioak atalean.",
+     "view": "disertaciones"
+    },
+    {
+     "nombre": "Ezer gogoratzen ez baduzu",
+     "texto": "Idatzi gogoratzen duzun lehenengoa, hitz solte bat bada ere, eta itzuli galderara. Ikasten ari bazara, begiratu atalaren izenburua bakarrik eta saiatu berriz, berriro irakurri aurretik."
     }
    ]
   },

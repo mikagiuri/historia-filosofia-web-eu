@@ -523,7 +523,7 @@ const RESCRITURA_TEXTOS = [
    {
     "tipo": "copia",
     "texto": "Ezin da pentsatu mugarik gabe ontzat jo daitekeen ezer, borondate ona bakarrik izan ezik. Adimena, zorroztasuna eta judizioa egiteko gaitasuna, edo ausardia, erabakitasuna eta iraunkortasuna, onak eta desiragarriak dira zalantzarik gabe, baina oso txarrak eta kaltegarriak ere bihur daitezke dohain horiek erabili behar dituen borondatea ona ez bada. Gauza bera gertatzen da zoriaren dohainekin: botereak, aberastasunak, ohoreak eta osasunak adorea ematen dute eta askotan baita harrokeria ere, ez badago borondate onik. Borondate ona ez da ona egiten edo lortzen duenagatik, nahiagatik bakarrik; hau da, berez da ona. Bere ahaleginik handienarekin ezer lortuko ez balu ere, bere kabuz distiratuko luke harribitxi batek bezala, bere baitan balio osoa duen zerbaitek bezala.",
-    "porque": "Ideiak ondo hautatzen ditu, baina esaldi bakoitza jatorrizkotik hartuta dago. Zer kopiatu aukeratzea ez da azaltzea bezala: USEn ulermena puntuatzen da, eta hemen ez da ikusten."
+    "porque": "Ideiak ondo hautatzen ditu, baina esaldi bakoitza jatorrizkotik hartuta dago. Zer kopiatu aukeratzea ez da azaltzea bezala: USaPen ulermena puntuatzen da, eta hemen ez da ikusten."
    },
    {
     "tipo": "sinonimia",

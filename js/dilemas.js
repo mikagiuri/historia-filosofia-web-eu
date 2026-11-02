@@ -144,7 +144,7 @@ const DILEMAS = [
   "debate": {
    "epoca": "Siglo IV a. C.",
    "texto": "«Gure zeregina da onenak Ongiaren ezagutzara iristera behartzea, aldapa malkartsu hartatik gora igotzera, eta, iritsi direnean, orain uzten zaiena ez uztea: han geratzea eta presoen ondora berriro jaitsi nahi ez izatea.»",
-   "fuente": "Platon, Errepublika, VII, 519c-520a (PAUko testua).",
+   "fuente": "Platon, Errepublika, VII, 519c-520a (USaPeko testua).",
    "unidad": "hf-platon"
   },
   "preguntas": [
@@ -503,7 +503,7 @@ const DILEMAS = [
   "debate": {
    "epoca": "1887",
    "texto": "«Esklaboen matxinada moralean erresumina bera sortzaile bihurtzen denean eta balioak sortzen dituenean hasten da. […] Moral noble oro bere buruari esandako bai garaile batetik jaiotzen den bitartean, esklaboen moralak ez esaten dio kanpoan dagoenari.»",
-   "fuente": "Nietzsche, Moralaren genealogia, I, 10 (PAUko testua).",
+   "fuente": "Nietzsche, Moralaren genealogia, I, 10 (USaPeko testua).",
    "unidad": "hf-sospecha"
   },
   "preguntas": [
@@ -606,7 +606,7 @@ const DILEMAS = [
   "debate": {
    "epoca": "1949",
    "texto": "«Ez da emakume jaiotzen: emakume bihurtzen da. Ez dago patu biologiko, psikiko edo ekonomikorik giza emeak gizartearen barruan hartzen duen irudia definitzen duenik; zibilizazio osoak lantzen du tarteko produktu hori.»",
-   "fuente": "Simone de Beauvoir, Bigarren sexua, II, 1 (1949; PAUko testua).",
+   "fuente": "Simone de Beauvoir, Bigarren sexua, II, 1 (1949; USaPeko testua).",
    "unidad": "hf-beauvoir"
   },
   "preguntas": [

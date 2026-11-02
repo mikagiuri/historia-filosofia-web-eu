@@ -362,7 +362,7 @@ const REP_MAZO_B = {
    "d": "+2 harmonia. Arrazoiak agintzen badu (gobernari jakintsuak badaude), 2 txandatan gertaera negatibo bakoitzak 1 gutxiago kentzen du.",
    "cita": "«Hirian hiru klase dauden bezala, hala bakoitzaren arimak hiru zati ditu: arrazoitzen duena, sutan jartzen dena eta desiratzen duena. Zuzena da zati bakoitzak berea egiten duena, eta arrazoiak agintzen du, eta gogo suminkorrak aliatu gisa obeditzen dio.»",
    "loc": "Errepublika IV, 439d-441c; 441d-442d",
-   "nota": "Arima-hiria paralelismoa, USEn gehien galdetzen dena: barne-justiziak politikoaren egitura bera du. Sinplifikatuta: babesa karta jokatzean erabakitzen da.",
+   "nota": "Arima-hiria paralelismoa, USaPen gehien galdetzen dena: barne-justiziak politikoaren egitura bera du. Sinplifikatuta: babesa karta jokatzean erabakitzen da.",
    "ef": {
     "arm": 2,
     "si": {

@@ -199,7 +199,7 @@ const PALABRA = {
   "tradicionTit": "Gero etorri zena",
   "tradicion": [
    "Erromak erretorika hezkuntzaren erdigune bihurtu zuen. Zizeronek foroan landu zuen, eta <em>Hizlariaz</em> lanean teorizatu; Kintilianok, <em>Hizlariaren prestakuntza</em> lanean, Katonen definizioa jaso zuen: hizlaria «hitz egiten dakien gizon zintzoa» da. Mendeetan zehar, idazten ikastea erretorika ikastea izan zen.",
-   "Gaur publizitatean, hauteskunde-eztabaidetan eta sare sozialetan aurkituko duzu, baita zure azterketetan ere: USEko disertazioak Aristotelesek eskatzen zuena eskatzen du, hain zuzen: aldeko eta kontrako argudioak, eta konbentzitzen duen ondorio bat."
+   "Gaur publizitatean, hauteskunde-eztabaidetan eta sare sozialetan aurkituko duzu, baita zure azterketetan ere: USaPeko disertazioak Aristotelesek eskatzen zuena eskatzen du, hain zuzen: aldeko eta kontrako argudioak, eta konbentzitzen duen ondorio bat."
   ],
   "cita4": "Hezi nahi dugun hizlaria, Marko Katonen definizioaren arabera, hitz egiten dakien gizon zintzoa da.",
   "cita4Pie": "Kintiliano, <em>Hizlariaren prestakuntza</em> XII 1, 1 (itzulpen propioa)",
@@ -210,7 +210,7 @@ const PALABRA = {
    "<strong>Euskara eta Literatura:</strong> ahozko argudiaketa; <em>bertsolari</em>ak ere éthos, páthos eta lógos bidez konbentzitzen du.",
    "<strong>Latina eta Greziera:</strong> hitzak handik datoz: erretorika (<em>rhetoriké</em>), entimema, epidiktiko; eta Zizeron Latineko irakurgaia da."
   ],
-  "enlaces": "Webgunean: Arrazoien dueloa (eztabaidatu eta falaziak antzeman); Polemikak (Sokrates sofisten aurrean); USEko disertazioa; sofistak eta Sokrates (FH, 5. gaia)."
+  "enlaces": "Webgunean: Arrazoien dueloa (eztabaidatu eta falaziak antzeman); Polemikak (Sokrates sofisten aurrean); USaPeko disertazioa; sofistak eta Sokrates (FH, 5. gaia)."
  },
  "img": {
   "catilina": {
@@ -641,6 +641,6 @@ const PALABRA = {
    "<strong>Euskara eta Literatura:</strong> ahozko argudiaketa eta <em>bertsolaritza</em>, bat-bateko erretorika eta poetika.",
    "<strong>Latina eta Greziera:</strong> Zizeron, Horazio eta Sofokles beren hizkuntzan; erretorikaren lexikoa (<em>inventio</em>, <em>dispositio</em>, <em>elocutio</em>)."
   ],
-  "enlaces": "Webgunean: Arrazoien dueloa eta Polemikak (eztabaidatu); Adagioak (leku komunak); Logikaren txokoa (falaziak); sofistak eta Sokrates (FH, 5. gaia); USEko disertazioa eta iruzkina; estetika (Filosofia 1., 7. gaia)."
+  "enlaces": "Webgunean: Arrazoien dueloa eta Polemikak (eztabaidatu); Adagioak (leku komunak); Logikaren txokoa (falaziak); sofistak eta Sokrates (FH, 5. gaia); USaPeko disertazioa eta iruzkina; estetika (Filosofia 1., 7. gaia)."
  }
 };

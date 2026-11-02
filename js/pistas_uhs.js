@@ -8,7 +8,7 @@ const PISTAS = [
   "unidad": "hf-sofistas",
   "materia": "Filosofia · Sokrates",
   "titulo": "Zergatik egin zien aurre Sokratesek sofistei, eta zergatik zioen inork ez duela gaizkirik egiten jakinez?",
-  "lede": "2026ko USEk jada egin dituen bi galdera: sofisten kritika eta intelektualismo morala. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "2026ko USaPek jada egin dituen bi galdera: sofisten kritika eta intelektualismo morala. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -246,7 +246,7 @@ const PISTAS = [
    "titulo": "Sokrates azaltzeko gai zara jada",
    "parrafos": [
     "Sofisten erlatibismoaren aurrean («gizakia da gauza guztien neurria»), Sokratesek definizio unibertsalak bilatzen ditu ironiarekin eta maieutikarekin. Haren intelektualismo moralak dio bertutea ezagutza dela eta inork ez duela gaizkirik egiten jakinez: gaizkia ezjakintasunetik sortzen da.",
-    "USErako: disertazioan, kontrajarri intelektualismo morala Aristotelesen <em>akrasía</em>rekin eta ohituraren etikarekin."
+    "USaPerako: disertazioan, kontrajarri intelektualismo morala Aristotelesen <em>akrasía</em>rekin eta ohituraren etikarekin."
    ],
    "siguiente": "aristoteles-etica"
   }
@@ -490,7 +490,7 @@ const PISTAS = [
    "titulo": "Orain badakizu alegoria azaltzen",
    "parrafos": [
     "Kobazuloa mundu sentigarria da, eta haren itzalak, iritzia; kanpoaldea Ideien mundua da, arrazoiak bakarrik iristen duena. Irtetea heztea da; itzultzea, filosofoak hiria gobernatzeko duen betebeharra.",
-    "USErako: lotu alegoria Ideien teoriarekin eta <em>Errepublikako</em> filosofoen gobernuarekin."
+    "USaPerako: lotu alegoria Ideien teoriarekin eta <em>Errepublikako</em> filosofoen gobernuarekin."
    ]
   }
  },
@@ -502,7 +502,7 @@ const PISTAS = [
   "unidad": "hf-antropologia",
   "materia": "Filosofia · Platon",
   "titulo": "Nolakoa da arima Platonen arabera, eta zer da justua izatea?",
-  "lede": "USEn gehien erori den atala: arimaren hiru atalak, haien bertuteak eta hirian duten islada. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "USaPen gehien erori den atala: arimaren hiru atalak, haien bertuteak eta hirian duten islada. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -739,7 +739,7 @@ const PISTAS = [
    "titulo": "Orain arima eta justizia azal ditzakezu Platonengan",
    "parrafos": [
     "Arimak hiru atal ditu: arrazionala (jakinduria), suminkorra (ausardia) eta gutiziatsua; neurritasuna haien akordioa da, arrazoiak agintzeko. Justizia atal bakoitzak berea egitea da, eta hiri justuak egitura hori errepikatzen du agintariekin, zaindariekin eta ekoizleekin.",
-    "USErako: lotu arimaren teoria hau kobazuloarekin (arrazoia hezitzea) eta filosofoen gobernuarekin."
+    "USaPerako: lotu arimaren teoria hau kobazuloarekin (arrazoia hezitzea) eta filosofoen gobernuarekin."
    ],
    "siguiente": "hf-caverna"
   }
@@ -1236,7 +1236,7 @@ const PISTAS = [
    "titulo": "Agustinen gaizkiaren arazoa azaltzeko gai zara jada",
    "parrafos": [
     "Betiko bi printzipio jartzen zituzten manikeoen aurrean, Agustinek dio existitzen den guztia ona dela eta gaizkia ez dela substantzia bat, ongiaren gabezia baizik. Gaizki morala borondate askearen erabilera txarretik sortzen da: borondate bat ongi gorenetik ongi txikiagoetara aldentzen da. Horregatik haren erantzulea gizakia da, ez Jainkoa.",
-    "USErako: kontrajarri haren erantzuna Sokratesen intelektualismoarekin (gaizkia ezjakintasuna dela) eta Spinozarenarekin (ezer ez dela txarra berez, gugandik begiratuta baizik)."
+    "USaPerako: kontrajarri haren erantzuna Sokratesen intelektualismoarekin (gaizkia ezjakintasuna dela) eta Spinozarenarekin (ezer ez dela txarra berez, gugandik begiratuta baizik)."
    ],
    "siguiente": "tomas-fe-razon"
   }
@@ -1249,7 +1249,7 @@ const PISTAS = [
   "unidad": "hf-fe-razon",
   "materia": "Filosofia · Tomas Akinokoa",
   "titulo": "Fedea eta arrazoia elkarren kontrakoak izan daitezke, eta arrazoiak froga dezake Jainkoa badela?",
-  "lede": "Fedearen eta arrazoiaren arteko harremana 2026ko ezohiko deialdiko USEn atera zen; bost bideak dira Tomasen gauzarik ezagunenak. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "Fedearen eta arrazoiaren arteko harremana 2026ko ezohiko deialdiko USaPen atera zen; bost bideak dira Tomasen gauzarik ezagunenak. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -1490,7 +1490,7 @@ const PISTAS = [
    "titulo": "Tomas Akinokoa azaltzeko gai zara jada",
    "parrafos": [
     "Tomasek bereizi egiten ditu egia naturalak, arrazoiak iristen dituenak, eta naturaz gaindikoak, fedeak bakarrik ezagutzen dituenak; batzuk, Jainkoa badela adibidez, bi bideetatik ezagutzen dira. Ezin dute elkarren kontra egin, egia bakarra baita: graziak ez du natura suntsitzen, osatu egiten du. Bost bideek Jainkoa a posteriori frogatzen dute: munduko gertakari batetik abiatzen dira (mugimendua, kausak, kontingentzia, mailak, ordena), beste baten mende dagoela erakusten dute eta lehen oinarri bat ondorioztatzen dute.",
-    "USErako: alderatu haren elkarlan-eredua Agustinen «sinetsi ulertzeko» esaldiarekin eta Ockhamen banaketarekin; eta gogoratu Kantek ukatu egingo duela arrazoiak Jainkoa froga dezakeenik."
+    "USaPerako: alderatu haren elkarlan-eredua Agustinen «sinetsi ulertzeko» esaldiarekin eta Ockhamen banaketarekin; eta gogoratu Kantek ukatu egingo duela arrazoiak Jainkoa froga dezakeenik."
    ],
    "siguiente": "descartes-metodo"
   }
@@ -1503,7 +1503,7 @@ const PISTAS = [
   "unidad": "hf-racionalismo",
   "materia": "Filosofia · Descartes",
   "titulo": "Zer metodo proposatzen du Descartesek, eta nola bizi da zalantzan dagoen bitartean?",
-  "lede": "«Metodoaren diskurtsoaren» II. eta III. atalak, USEko irakurgaitik: pentsatzeko lau arau eta bizitzeko lau maxima. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "«Metodoaren diskurtsoaren» II. eta III. atalak, USaPeko irakurgaitik: pentsatzeko lau arau eta bizitzeko lau maxima. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -1740,7 +1740,7 @@ const PISTAS = [
    "titulo": "Orain metodoa eta behin-behineko morala azal ditzakezu",
    "parrafos": [
     "Descartesek matematikatik lau arau hartzen ditu: ebidentzia, analisia, sintesia eta zerrendapena. Bere metodoak dena zalantzan jartzen duen bitartean, behin-behineko moral batekin bizi da: legeei men egin, ekintzan sendo izan, fortuna baino lehen bere burua menderatu eta arrazoia landu.",
-    "USErako: lotu II. eta III. atal hauek IV.arekin (zalantza metodikoa eta cogitoa), metodoak bere lehen fruitua ematen duen tokiarekin."
+    "USaPerako: lotu II. eta III. atal hauek IV.arekin (zalantza metodikoa eta cogitoa), metodoak bere lehen fruitua ematen duen tokiarekin."
    ],
    "siguiente": "hf-duda"
   }
@@ -1984,7 +1984,7 @@ const PISTAS = [
    "titulo": "Orain azal ditzakezu zalantza eta cogitoa",
    "parrafos": [
     "Descartesek metodoz dudatzen du —zentzumenak, ametsa, jeinu gaiztoa— egia zalantzaezin bat aurkitzeko. Cogitoan aurkitzen du: dudatzen badut, pentsatzen dut, eta pentsatzen badut, existitzen naiz. Bere egia-irizpidea argitasuna eta bereiztasuna izango dira.",
-    "USErako: alderatu abiapuntu arrazionalista hau Humerenarekin; harentzat ezagutza oro esperientziatik dator."
+    "USaPerako: alderatu abiapuntu arrazionalista hau Humerenarekin; harentzat ezagutza oro esperientziatik dator."
    ]
   }
  },
@@ -1996,7 +1996,7 @@ const PISTAS = [
   "unidad": "hf-racionalismo",
   "materia": "Filosofia · Hume",
   "titulo": "Nondik datoz gure ideiak Humeren arabera, eta zergatik ezin dugu kausalitatea ikusi?",
-  "lede": "Descartesen bikotea USEn: enpirismoa muturreraino eramanda. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "Descartesen bikotea USaPen: enpirismoa muturreraino eramanda. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -2233,7 +2233,7 @@ const PISTAS = [
    "titulo": "Humeren enpirismoa azaltzeko gai zara jada",
    "parrafos": [
     "Gure ideia guztiak inpresioen kopiak dira; hitz batek inpresiorik aipatzen ez badu, edukirik gabe dago. Kausalitatea egitate-gai bat da: segida eta konjuntzio konstantea ikusten ditugu, baina ez lotura beharrezkoa, ohiturak sortzen duena. Horregatik ezin dugu frogatu etorkizuna iraganaren antzekoa izango denik.",
-    "USErako: konparatu Descartesekin, puntuz puntu: ideien jatorria (jaiotzetikoak edo esperientziakoak), egiaren irizpidea (ebidentzia edo inpresioa) eta arrazoiaren irismena."
+    "USaPerako: konparatu Descartesekin, puntuz puntu: ideien jatorria (jaiotzetikoak edo esperientziakoak), egiaren irizpidea (ebidentzia edo inpresioa) eta arrazoiaren irismena."
    ],
    "siguiente": "descartes-metodo"
   }
@@ -2488,7 +2488,7 @@ const PISTAS = [
    "titulo": "Descartesen substantziak azaltzeko gai zara jada",
    "parrafos": [
     "Substantzia existitzeko beste gauzaren beharrik ez duena da: zentzu hertsian, Jainkoa bakarrik (substantzia infinitua), ideia argi eta bereizien egia bermatzen duena. Substantzia finituak res cogitans dira, zeinaren atributua pentsamendua den, eta res extensa, zeinaren atributua hedadura den. Gizakia bien batasuna da, eta arazo handia da nola eragiten dioten elkarri (guruin pineala, Elisabet Bohemiakoaren eragozpena).",
-    "USErako: alderatu Descartesen dualismoa Spinozaren monismoarekin (substantzia bakarra) eta Hobbesen materialismoarekin (gorputzak baino ez)."
+    "USaPerako: alderatu Descartesen dualismoa Spinozaren monismoarekin (substantzia bakarra) eta Hobbesen materialismoarekin (gorputzak baino ez)."
    ],
    "siguiente": "spinoza-naturaleza"
   }
@@ -3481,7 +3481,7 @@ const PISTAS = [
    "titulo": "Gizarte-kontratua azaltzeko gai zara jada",
    "parrafos": [
     "Naturazko egoera boterea justifikatzeko pentsamendu-esperimentu bat da. Hobbesentzat guztien guztien aurkako gerra da, eta beldurrez itun bat egiten da segurtasuna emango duen subirano absolutu batekin. Lockerentzat badaude jada eskubide naturalak (bizitza, askatasuna, jabetza), eta itunak gobernu mugatu bat sortzen du, zeinari erresistentzia egin dakiokeen. Rousseaurentzat, itun legitimoak borondate orokorra sortzen du: herri subiranoa, eta askatasuna norberak bere buruari emandako legeari obeditzea bezala.",
-    "USErako: alderatu hirurak taula batean (naturazko egoera, itunaren arrazoia, botere mota, erresistentzia-eskubidea), eta lotu Rousseauren autonomia Kantenarekin."
+    "USaPerako: alderatu hirurak taula batean (naturazko egoera, itunaren arrazoia, botere mota, erresistentzia-eskubidea), eta lotu Rousseauren autonomia Kantenarekin."
    ],
    "siguiente": "kant-ilustracion"
   }
@@ -3494,7 +3494,7 @@ const PISTAS = [
   "unidad": "hf-ilustracion",
   "materia": "Filosofia · Kant",
   "titulo": "Zer da Ilustrazioa, Kanten arabera?",
-  "lede": "Kanten USEko irakurgaia: 1784ko egunkari-artikulu bat, irakurtzen duena erronkatzen jarraitzen duena. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "Kanten USaPeko irakurgaia: 1784ko egunkari-artikulu bat, irakurtzen duena erronkatzen jarraitzen duena. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -3728,7 +3728,7 @@ const PISTAS = [
    "titulo": "Orain azal dezakezu «Zer da Ilustrazioa?»",
    "parrafos": [
     "Ilustrazioa norbera errudun den adin-txikitasun batetik irtetea da: ez da adimena falta, erabakia eta adorea baizik (<em>Sapere aude</em>). Irteteko askatasuna baino ez da behar, arrazoimenaren erabilera publikoa egiteko, zeinak beti librea izan behar baitu; erabilera pribatua, kargukoa, mugatu daiteke.",
-    "USErako: laburpenean, bereizi definizioa, kausak eta arrazoimenaren bi erabilerak; A edo B aukeran, lotu Kanten etikaren autonomiarekin."
+    "USaPerako: laburpenean, bereizi definizioa, kausak eta arrazoimenaren bi erabilerak; A edo B aukeran, lotu Kanten etikaren autonomiarekin."
    ],
    "siguiente": "feminismo-ilustrado"
   }
@@ -3741,7 +3741,7 @@ const PISTAS = [
   "unidad": "hf-ilustracion",
   "materia": "Filosofia · Olympe de Gouges eta Mary Wollstonecraft",
   "titulo": "Zer ekarri zion lehen feminismoak Ilustrazioari?",
-  "lede": "2026ko USEk pentsamendu feministaren ekarpenez galdetu zuen. Ilustrazioaren promesak serio hartu zituzten bi egile. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "2026ko USaPek pentsamendu feministaren ekarpenez galdetu zuen. Ilustrazioaren promesak serio hartu zituzten bi egile. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -3982,7 +3982,7 @@ const PISTAS = [
    "titulo": "Lehen olatu feminista azaltzeko gai zara jada",
    "parrafos": [
     "Olympe de Gougesek 1791n 1789ko Adierazpena berridazten du emakumea barne hartzeko: eskubideak unibertsalak badira, emakumea kanpoan uztea kontraesan bat da («urkamendira igo badaiteke, tribunara igo ahal izan behar du»). Mary Wollstonecraftek, Rousseauren aurrean, dio emakumeari egotzitako beheragotasuna hezkuntza desberdinaren ondorioa dela, eta hezkuntza berdinzalea eta independentzia ekonomikoa proposatzen ditu.",
-    "USErako: aurkeztu biak Ilustrazioaren barrutik egindako kritika gisa, haren promesa betetzea eskatzen duena, eta lotu Beauvoirrekin («ez da emakume jaiotzen»), ideia horri oinarri existentzialista emango baitio."
+    "USaPerako: aurkeztu biak Ilustrazioaren barrutik egindako kritika gisa, haren promesa betetzea eskatzen duena, eta lotu Beauvoirrekin («ez da emakume jaiotzen»), ideia horri oinarri existentzialista emango baitio."
    ],
    "siguiente": "kant-conocimiento"
   }
@@ -3995,7 +3995,7 @@ const PISTAS = [
   "unidad": "hf-kant",
   "materia": "Filosofia · Kant",
   "titulo": "Zer ezagut dezakegu Kanten arabera, eta zergatik ezin da metafisika zientzia izan?",
-  "lede": "Kanten galdera arrazionalismoaren eta enpirismoaren artean, USEn haren gaietatik gehien atera direnetako bat. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "Kanten galdera arrazionalismoaren eta enpirismoaren artean, USaPen haren gaietatik gehien atera direnetako bat. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -4237,7 +4237,7 @@ const PISTAS = [
    "titulo": "Idealismo transzendentala azaltzeko gai zara jada",
    "parrafos": [
     "Dogmatismo arrazionalistaren eta Humeren eszeptizismoaren aurrean, Kantek dio ezagutza oro esperientziarekin hasten dela, baina ez dela guztia hartatik sortzen: esperientziak jartzen du materia, eta subjektuak a priori formak (espazioa, denbora eta kategoriak). Horregatik dira posible zientziaren judizio sintetiko a prioriak. Iraultza kopernikarra da: objektua subjektura egokitzen da.",
-    "Fenomenoak ezagutzen ditugu, ez gauza bere baitan (noumenoa). Jainkoa, arima eta mundua esperientzian ematen ez direnez, metafisika ezin da zientzia izan. USErako: alderatu puntuz puntu Descartesekin eta Humerekin, eta lotu 20. gaiko etikarekin."
+    "Fenomenoak ezagutzen ditugu, ez gauza bere baitan (noumenoa). Jainkoa, arima eta mundua esperientzian ematen ez direnez, metafisika ezin da zientzia izan. USaPerako: alderatu puntuz puntu Descartesekin eta Humerekin, eta lotu 20. gaiko etikarekin."
    ],
    "siguiente": "kant-imperativo"
   }
@@ -4983,7 +4983,7 @@ const PISTAS = [
   "unidad": "hf-sospecha",
   "materia": "Filosofia · Nietzsche",
   "titulo": "Zergatik dio Nietzschek «patu bat» dela?",
-  "lede": "USEko irakurgaia: «Ecce homo» lanaren azken kapitulua. Nietzschek bere burua moralaren aurkako dinamita gisa aurkezten du. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "USaPeko irakurgaia: «Ecce homo» lanaren azken kapitulua. Nietzschek bere burua moralaren aurkako dinamita gisa aurkezten du. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -5218,7 +5218,7 @@ const PISTAS = [
    "titulo": "Orain azal dezakezu «Zergatik naizen patu bat»",
    "parrafos": [
     "Nietzschek bere burua «lehen immoralista» deitzen du: gizaki «onaren» tipoa eta moral kristaua ukatzen ditu, <em>décadence</em>-aren morala eta bizitzaren aurkakoa dela uste duena. Haren formula balio guztien transbalorazioa da: bizitzari baietz esaten dioten balioak sortzea, «Dioniso Gurutziltzatuaren aurka» formulan laburbilduak.",
-    "USErako: laburpenean, jaso 4. §ko bi ukapenak; A edo B aukeran, lotu Jainkoaren heriotzarekin eta nihilismoarekin."
+    "USaPerako: laburpenean, jaso 4. §ko bi ukapenak; A edo B aukeran, lotu Jainkoaren heriotzarekin eta nihilismoarekin."
    ]
   }
  },
@@ -5480,7 +5480,7 @@ const PISTAS = [
   "unidad": "hf-existencialismo",
   "materia": "Filosofia · Sartre",
   "titulo": "Zer esan nahi du existentzia esentziaren aurretik datorrela, eta zergatik gaude «libre izatera kondenatuta»?",
-  "lede": "2026ko ezohiko deialdiko USEko disertazioa (gizakia proiektu ireki gisa) eta Beauvoirren oinarria. Eskatu behar dituzun pistak bakarrik.",
+  "lede": "2026ko ezohiko deialdiko USaPeko disertazioa (gizakia proiektu ireki gisa) eta Beauvoirren oinarria. Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -5717,7 +5717,7 @@ const PISTAS = [
    "titulo": "Sartreren existentzialismoa azaltzeko gai zara jada",
    "parrafos": [
     "Objektu fabrikatu batean esentzia existentziaren aurretik doa; gizakiarengan, Jainko sortzailerik ez badago, alderantziz gertatzen da: lehenik existitzen da eta gero egiten duenaren bidez definitzen da. Proiektu bat da, libre izatera kondenatua: ez aukeratzea ere aukeratzea da. Hortik datoz erantzukizuna eta larritasuna, eta haietatik fede txarraren bidez egiten dugu ihes.",
-    "USErako: gizakia proiektu ireki gisa lantzen duen disertazioan, kontrajarri Sartre Ortegarekin («ni naiz ni eta nire zirkunstantzia»: askatasun kokatua) eta Beauvoirrekin, tesia emakumeari aplikatzen baitio («ez da emakume jaiotzen»)."
+    "USaPerako: gizakia proiektu ireki gisa lantzen duen disertazioan, kontrajarri Sartre Ortegarekin («ni naiz ni eta nire zirkunstantzia»: askatasun kokatua) eta Beauvoirrekin, tesia emakumeari aplikatzen baitio («ez da emakume jaiotzen»)."
    ],
    "siguiente": "beauvoir-conclusion"
   }
@@ -5730,7 +5730,7 @@ const PISTAS = [
   "unidad": "hf-beauvoir",
   "materia": "Filosofia · Simone de Beauvoir",
   "titulo": "Zergatik ez da emakumea inolako patuaren biktima?",
-  "lede": "USEko irakurgaia: «Bigarren sexua» lanaren «Ondorioa». Sexuen arteko betiereko gerra al dago, ala gainditu daiteke? Eskatu behar dituzun pistak bakarrik.",
+  "lede": "USaPeko irakurgaia: «Bigarren sexua» lanaren «Ondorioa». Sexuen arteko betiereko gerra al dago, ala gainditu daiteke? Eskatu behar dituzun pistak bakarrik.",
   "ciclos": [
    {
     "fase": "1. fasea · Berreskuratzea",
@@ -5967,7 +5967,7 @@ const PISTAS = [
    "titulo": "Orain azal dezakezu Beauvoirren «Ondorioa»",
    "parrafos": [
     "Ez dago patu biologikorik emakumea kondenatzen duenik: gizadia bilakaera historiko bat da, eta emakumearen mendekotasuna bere egoerak ezarri dio. Zapalkuntza orok gerra-egoera bat sortzen du; irtenbidea gizonek eta emakumeek elkar askatasun berdin gisa aitortzea eta beren anaitasuna baieztatzea da.",
-    "USErako: laburpenean, bereizi «patuaren» kritika eta azken proposamena; A edo B aukeran, lotu existentzia esentziaren aurretik dagoela dioen ideia existentzialistarekin."
+    "USaPerako: laburpenean, bereizi «patuaren» kritika eta azken proposamena; A edo B aukeran, lotu existentzia esentziaren aurretik dagoela dioen ideia existentzialistarekin."
    ]
   }
  }

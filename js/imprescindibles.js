@@ -3,35 +3,35 @@ const IMPRESCINDIBLES = {
  "autores": {
   "platon": [
    5,
-   "USEko irakurgaia (Errepublika VII) eta A blokearen ardatza"
+   "USaPeko irakurgaia (Errepublika VII) eta A blokearen ardatza"
   ],
   "descartes": [
    5,
-   "USEko irakurgaia (Diskurtsoa II-IV); 2026ko USEko ohiko deialdiko 1. ariketako testua"
+   "USaPeko irakurgaia (Diskurtsoa II-IV); 2026ko USaPeko ohiko deialdiko 1. ariketako testua"
   ],
   "kant": [
    5,
-   "USEko irakurgaia (Zer da Ilustrazioa?); Ilustrazioa eta autonomia, gehien ateratzen dena"
+   "USaPeko irakurgaia (Zer da Ilustrazioa?); Ilustrazioa eta autonomia, gehien ateratzen dena"
   ],
   "nietzsche": [
    5,
-   "USEko irakurgaia (Ecce homo, «Zergatik naizen patu bat»)"
+   "USaPeko irakurgaia (Ecce homo, «Zergatik naizen patu bat»)"
   ],
   "beauvoir": [
    5,
-   "USEko irakurgaia (Bigarren sexua, Ondorioa); 2026ko ezohiko deialdiko 1. ariketako testua"
+   "USaPeko irakurgaia (Bigarren sexua, Ondorioa); 2026ko ezohiko deialdiko 1. ariketako testua"
   ],
   "protagoras": [
    4,
-   "Dekretuko 5*: «sofistak eta Sokrates»; 2026ko USEko 3. ariketa (sofistei egindako kritikak)"
+   "Dekretuko 5*: «sofistak eta Sokrates»; 2026ko USaPeko 3. ariketa (sofistei egindako kritikak)"
   ],
   "gorgias": [
    4,
-   "Sofistak (dekretuko 5*); 2026ko USEko 3. ariketa bera"
+   "Sofistak (dekretuko 5*); 2026ko USaPeko 3. ariketa bera"
   ],
   "socrates": [
    4,
-   "Dekretuko 5* eta 8*; intelektualismo morala (2026ko USEko disertazioa) eta sofistei egindako kritika (2026ko USEko 3. ariketa)"
+   "Dekretuko 5* eta 8*; intelektualismo morala (2026ko USaPeko disertazioa) eta sofistei egindako kritika (2026ko USaPeko 3. ariketa)"
   ],
   "aspasia": [
    4,
@@ -95,7 +95,7 @@ const IMPRESCINDIBLES = {
   ],
   "wollstonecraft": [
    4,
-   "Dekretuko 18*: lehen olatu feminista; 2026ko USEko 3. ariketa, «pentsamendu feministaren ekarpenak»"
+   "Dekretuko 18*: lehen olatu feminista; 2026ko USaPeko 3. ariketa, «pentsamendu feministaren ekarpenak»"
   ],
   "mill": [
    4,
@@ -103,7 +103,7 @@ const IMPRESCINDIBLES = {
   ],
   "marx": [
    4,
-   "Dekretuko 21*-22*; alienazioa (USE 2025), XIX. mendetik gehien galdetzen dena"
+   "Dekretuko 21*-22*; alienazioa (USaP 2025), XIX. mendetik gehien galdetzen dena"
   ],
   "freud": [
    4,
@@ -131,7 +131,7 @@ const IMPRESCINDIBLES = {
   ],
   "arendt": [
    5,
-   "Irakaslearen berrikuspena (2026-10-20): Hannah Arendt, USE"
+   "Irakaslearen berrikuspena (2026-10-20): Hannah Arendt, USaP"
   ],
   "habermas": [
    4,
@@ -1089,11 +1089,11 @@ const IMPRESCINDIBLES = {
   ],
   "5": [
    4,
-   "Dekretua: «sofistak eta Sokrates*»; 2026ko USEko 3. ariketa"
+   "Dekretua: «sofistak eta Sokrates*»; 2026ko USaPeko 3. ariketa"
   ],
   "6": [
    5,
-   "USEko irakurgaia: Errepublika VII"
+   "USaPeko irakurgaia: Errepublika VII"
   ],
   "7": [
    5,
@@ -1125,7 +1125,7 @@ const IMPRESCINDIBLES = {
   ],
   "14": [
    5,
-   "USEko irakurgaia: Metodoaren diskurtsoa II-IV"
+   "USaPeko irakurgaia: Metodoaren diskurtsoa II-IV"
   ],
   "15": [
    5,
@@ -1141,7 +1141,7 @@ const IMPRESCINDIBLES = {
   ],
   "18": [
    5,
-   "USEko irakurgaia: Zer da Ilustrazioa?"
+   "USaPeko irakurgaia: Zer da Ilustrazioa?"
   ],
   "19": [
    5,
@@ -1153,7 +1153,7 @@ const IMPRESCINDIBLES = {
   ],
   "21": [
    5,
-   "USEko irakurgaia: Ecce Homo (Nietzsche) eta Marx; irakaslearen berrikuspena (2026-10-20)"
+   "USaPeko irakurgaia: Ecce Homo (Nietzsche) eta Marx; irakaslearen berrikuspena (2026-10-20)"
   ],
   "22": [
    4,
@@ -1161,7 +1161,7 @@ const IMPRESCINDIBLES = {
   ],
   "23": [
    3,
-   "Irakaslearen berrikuspena (2026-10-20): Nietzscheren USEko irakurgaia 21. gaian lantzen da"
+   "Irakaslearen berrikuspena (2026-10-20): Nietzscheren USaPeko irakurgaia 21. gaian lantzen da"
   ],
   "24": [
    3,
@@ -1173,7 +1173,7 @@ const IMPRESCINDIBLES = {
   ],
   "26": [
    5,
-   "USEko irakurgaia: Bigarren sexua (Simone de Beauvoir)"
+   "USaPeko irakurgaia: Bigarren sexua (Simone de Beauvoir)"
   ],
   "27": [
    3,
@@ -1181,7 +1181,7 @@ const IMPRESCINDIBLES = {
   ],
   "hf-ap": [
    5,
-   "Irakaslearen berrikuspena (2026-10-20): Platon, USEko irakurgaia (Errepublika VII)"
+   "Irakaslearen berrikuspena (2026-10-20): Platon, USaPeko irakurgaia (Errepublika VII)"
   ],
   "hf-aa": [
    5,
@@ -1189,41 +1189,41 @@ const IMPRESCINDIBLES = {
   ],
   "hf-descartes-makro": [
    5,
-   "Irakaslearen berrikuspena (2026-10-20): USEko irakurgaia (Metodoaren diskurtsoa II-IV)"
+   "Irakaslearen berrikuspena (2026-10-20): USaPeko irakurgaia (Metodoaren diskurtsoa II-IV)"
   ]
  },
  "diccionarioGrupos": {
   "1": [
    5,
-   "Errepublika VII lanaren hiztegia, USEko irakurgaia"
+   "Errepublika VII lanaren hiztegia, USaPeko irakurgaia"
   ],
   "2": [
    5,
-   "Arima Platonengan: USEn gehien atera den epigrafea"
+   "Arima Platonengan: USaPen gehien atera den epigrafea"
   ],
   "3": [
    5,
-   "Intelektualismo morala: dekretua (izartxoarekin) eta 2026ko USEko disertazioa"
+   "Intelektualismo morala: dekretua (izartxoarekin) eta 2026ko USaPeko disertazioa"
   ],
   "4": [
    5,
-   "Metodoaren diskurtsoa lanaren hiztegia, USEko irakurgaia"
+   "Metodoaren diskurtsoa lanaren hiztegia, USaPeko irakurgaia"
   ],
   "5": [
    5,
-   "Zer da Ilustrazioa? lanaren eta Kanten filosofiaren hiztegia, USEko irakurgaia"
+   "Zer da Ilustrazioa? lanaren eta Kanten filosofiaren hiztegia, USaPeko irakurgaia"
   ],
   "6": [
    5,
-   "Ecce homo lanaren hiztegia, USEko irakurgaia"
+   "Ecce homo lanaren hiztegia, USaPeko irakurgaia"
   ],
   "7": [
    5,
-   "Bigarren sexua lanaren hiztegia, USEko irakurgaia"
+   "Bigarren sexua lanaren hiztegia, USaPeko irakurgaia"
   ],
   "8": [
    4,
-   "Nietzsche: USEn atera da edo haren irakurgaiak eskatzen du"
+   "Nietzsche: USaPen atera da edo haren irakurgaiak eskatzen du"
   ],
   "9": [
    4,

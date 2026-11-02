@@ -63,7 +63,7 @@ const SUBJECTS = {
   "name": "Filosofiaren Historia",
   "kick": "2. Batxilergoa · A, B eta C blokeak",
   "color": "var(--hf)",
-  "intro": "Antzinako filosofiatik filosofia garaikidera: 27 gaien teoria, ikasgelako materialak eta USEko bost testuak (Platon, Descartes, Kant, Nietzsche eta Beauvoir), «Irakurgaiak» fitxan.",
+  "intro": "Antzinako filosofiatik filosofia garaikidera: 27 gaien teoria, ikasgelako materialak eta USaPeko bost testuak (Platon, Descartes, Kant, Nietzsche eta Beauvoir), «Irakurgaiak» fitxan.",
   "mats": [],
   "tools": [
    [
@@ -122,7 +122,7 @@ const SUBJECTS = {
     ""
    ],
    [
-    "USEren gida eta praktika",
+    "USaPen gida eta praktika",
     "pau",
     ""
    ]

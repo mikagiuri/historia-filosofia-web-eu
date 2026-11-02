@@ -819,7 +819,7 @@ const DICCIONARIO = [
   "impg": 10,
   "t": "Eskubide naturalak",
   "id": "g-derechos-naturales",
-  "et": "*Eskubidea* gaztelaniaz *derecho* da, latinezko *directum*, «zuzena». *Naturala*, *natura* hitzetik, eta hau *nasci* aditzetik, «jaio». Aurrekari grekoa τὸ φυσικὸν δίκαιον (*tò physikòn díkaion*) da, «naturaz zuzena», Aristotelesena, nahiz eta beretzat zuzena izan, ez pertsona bakoitzaren eskubidea.",
+  "et": "*Eskubidea* gaztelaniaz *derecho* da, latinezko *directum*, «zuzena». *Naturala*, *natura* hitzetik, eta hau *nasci* aditzetik, «jaio». Aurrekari grekoa τὸ φυσικὸν δίκαιον (*tò physikòn díkaion*) da, «naturaz zuzena», Aristotelesena; harentzat, ordea, zuzena dena da, ez pertsona bakoitzaren eskubide bat.",
   "area": "Politika",
   "bloque": "B",
   "unidad": "B6",
