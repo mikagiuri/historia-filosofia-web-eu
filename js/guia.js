@@ -36,7 +36,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Menuko lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu), <strong>Logika</strong> (Logikaren txokoa, bere ariketekin eta laborategiarekin) eta <strong>Idatzi eta irakurri</strong> (disertazioa eta testuak). Marra baten ondoren osagarriak datoz: <strong>Historia</strong> (filosofoen testuingurua, Zutabeekin eta Erroekin) eta <strong>Jokoak</strong>.",
+   "x": "Menuko lehen fitxak ezinbestekoak dira: <strong>Ikasi</strong> (teoria eta hura ikasten laguntzen dizuna), <strong>Praktikatu</strong> (dakizuna egiaztatu eta entrenatu) eta <strong>Arrazoitu eta idatzi</strong> (Logikaren txokoa, disertazioa eta testuak). Marra baten ondoren osagarriak datoz: <strong>Historia</strong> (filosofoen testuingurua, Zutabeekin eta Erroekin) eta <strong>Jokoak</strong>.",
    "solo": "fil"
   },
   {
@@ -49,7 +49,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Webgunea irekitzean, <strong>ikasgaiaren orrira</strong> iristen zara: izenburua, aurkezpen labur bat eta <strong>gaien zerrenda</strong>. Sakatu gai bat haren teoria irekitzeko. Edozein tokitatik hona itzultzen zara <strong>Ikasi › Teoria</strong> sakatuta edo, goian ezkerrean, «Filosofia Gela» sakatuta."
+   "x": "Webgunea irekitzean, <strong>ikasgaiaren orrira</strong> iristen zara: izenburua eta <strong>gaien zerrenda</strong>. Sakatu gai bat haren teoria irekitzeko. Edozein tokitatik hona itzultzen zara <strong>Ikasi › Teoria</strong> sakatuta edo, goian ezkerrean, «Filosofia Gela» sakatuta."
   },
   {
    "type": "img",
@@ -293,7 +293,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "fil",
-   "x": "<strong>Logikaren txokoak</strong> orain bere fitxa propioa du. Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak biltzen ditu, arrazoibidea entrenatzeko, baita <strong>zerotik aditu izaterako ibilbide</strong> bat ere, ordenan egiteko."
+   "x": "<strong>Logikaren txokoa</strong> <strong>Arrazoitu eta idatzi</strong> taldean dago, disertazioarekin eta irakurgaiekin batera. Egia-taulak, argudio baliozkoak, silogismoak Vennen diagramekin, paradoxak eta ariketak biltzen ditu, arrazoibidea entrenatzeko, baita <strong>zerotik aditu izaterako ibilbide</strong> bat ere, ordenan egiteko."
   },
   {
    "type": "p",
@@ -345,13 +345,13 @@ const GUIA = {
   },
   {
    "type": "h",
-   "x": "Idatzi eta irakurri",
+   "x": "Arrazoitu eta idatzi",
    "solo": "fil"
   },
   {
    "type": "img",
    "src": "04_menu_tercera.webp",
-   "cap": "«Idatzi eta irakurri» menua.",
+   "cap": "«Arrazoitu eta idatzi» menua.",
    "w": "menu",
    "solo": "fil"
   },
@@ -535,7 +535,7 @@ const GUIA = {
     },
     {
      "titulo": "Prestatu azterketa",
-     "texto": "Idatzi eta irakurri: disertazioak eta irakurgaiak.",
+     "texto": "Arrazoitu eta idatzi: logika, disertazioak eta irakurgaiak.",
      "view": "disertaciones",
      "solo": "fil"
     },

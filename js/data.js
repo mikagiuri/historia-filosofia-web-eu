@@ -61,9 +61,9 @@ const WEEK = [
 const SUBJECTS = {
  "hf": {
   "name": "Filosofiaren Historia",
-  "kick": "2. Batxilergoa · A, B eta C blokeak",
+  "kick": "2. Batxilergoa",
   "color": "var(--hf)",
-  "intro": "Antzinako filosofiatik filosofia garaikidera: 27 gaien teoria, ikasgelako materialak eta USaPeko bost testuak (Platon, Descartes, Kant, Nietzsche eta Beauvoir), «Irakurgaiak» fitxan.",
+  "intro": "",
   "mats": [],
   "tools": [
    [
@@ -6984,7 +6984,7 @@ const QUIZZES = {
   ]
  },
  "hf-a01-banco": {
-  "name": "T1 · Filosofiaren historikotasuna eta unibertsaltasuna (galdera-bilduma zabaldua)",
+  "name": "T1 · Filosofiaren historikotasuna eta unibertsaltasuna",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -7376,7 +7376,7 @@ const QUIZZES = {
   ]
  },
  "hf-a02-banco": {
-  "name": "T2 · Filosofiaren metodoak (galdera-bilduma zabaldua)",
+  "name": "T2 · Filosofiaren metodoak",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -7768,7 +7768,7 @@ const QUIZZES = {
   ]
  },
  "hf-a03-banco": {
-  "name": "T3 · Filosofiaren sorrera: mitotik logosera (galdera-bilduma zabaldua)",
+  "name": "T3 · Filosofiaren sorrera: mitotik logosera",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -8160,7 +8160,7 @@ const QUIZZES = {
   ]
  },
  "hf-a04-banco": {
-  "name": "T4 · Errealitatearen arazoa presokratikoengan (galdera-bilduma zabaldua)",
+  "name": "T4 · Errealitatearen arazoa presokratikoengan",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -8596,7 +8596,7 @@ const QUIZZES = {
   ]
  },
  "hf-a05-banco": {
-  "name": "T5 · Ilustrazio greziarra: sofistak, Sokrates eta Aspasia (galdera-bilduma zabaldua)",
+  "name": "T5 · Ilustrazio greziarra: sofistak, Sokrates eta Aspasia",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9021,7 +9021,7 @@ const QUIZZES = {
   ]
  },
  "hf-a06-banco": {
-  "name": "T6 · Platon: Ideien teoria eta Errepublika (galdera-bilduma zabaldua)",
+  "name": "T6 · Platon: Ideien teoria eta Errepublika",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9457,7 +9457,7 @@ const QUIZZES = {
   ]
  },
  "hf-a07-banco": {
-  "name": "T7 · Antropologia klasikoa: Sokrates, Platon eta Aristoteles (galdera-bilduma zabaldua)",
+  "name": "T7 · Antropologia klasikoa: Sokrates, Platon eta Aristoteles",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9849,7 +9849,7 @@ const QUIZZES = {
   ]
  },
  "hf-a08-banco": {
-  "name": "T8 · Etika klasikoa: intelektualismoa, bertuteak eta eudaimonia (galdera-bilduma zabaldua)",
+  "name": "T8 · Etika klasikoa: intelektualismoa, bertuteak eta eudaimonia",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -10241,7 +10241,7 @@ const QUIZZES = {
   ]
  },
  "hf-a09-banco": {
-  "name": "T9 · Politika klasikoa: Platon eta Aristoteles (galdera-bilduma zabaldua)",
+  "name": "T9 · Politika klasikoa: Platon eta Aristoteles",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -10633,7 +10633,7 @@ const QUIZZES = {
   ]
  },
  "hf-a10-banco": {
-  "name": "T10 · Helenismoa: zinismoa, estoizismoa, epikureismoa eta eszeptizismoa (galdera-bilduma zabaldua)",
+  "name": "T10 · Helenismoa: zinismoa, estoizismoa, epikureismoa eta eszeptizismoa",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -11025,7 +11025,7 @@ const QUIZZES = {
   ]
  },
  "hf-b11-banco": {
-  "name": "T11 · Erdi Aroko filosofia: etapak, metodoak eta unibertsalen arazoa (galdera-bilduma zabaldua)",
+  "name": "T11 · Erdi Aroko filosofia: etapak, metodoak eta unibertsalen arazoa",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -11340,7 +11340,7 @@ const QUIZZES = {
   ]
  },
  "hf-b12-banco": {
-  "name": "T12 · Fedea eta arrazoia: filosofia grekoaren asimilazioa eta Jainkoaren existentzia (galdera-bilduma zabaldua)",
+  "name": "T12 · Fedea eta arrazoia: filosofia grekoaren asimilazioa eta Jainkoaren existentzia",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -11677,7 +11677,7 @@ const QUIZZES = {
   ]
  },
  "hf-b13-banco": {
-  "name": "T13 · Modernitatearen jaiotza: Errenazimentua, protestantismoa eta iraultza zientifikoa (galdera-bilduma zabaldua)",
+  "name": "T13 · Modernitatearen jaiotza: Errenazimentua, protestantismoa eta iraultza zientifikoa",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12014,7 +12014,7 @@ const QUIZZES = {
   ]
  },
  "hf-b14-banco": {
-  "name": "T14 · Arrazionalismoa eta enpirismoa: Descartes eta Hume (galdera-bilduma zabaldua)",
+  "name": "T14 · Arrazionalismoa eta enpirismoa: Descartes eta Hume",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12406,7 +12406,7 @@ const QUIZZES = {
   ]
  },
  "hf-b15-banco": {
-  "name": "T15 · Eztabaida metafisiko modernoa: dualismoa eta materialismoa (galdera-bilduma zabaldua)",
+  "name": "T15 · Eztabaida metafisiko modernoa: dualismoa eta materialismoa",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12743,7 +12743,7 @@ const QUIZZES = {
   ]
  },
  "hf-b16-banco": {
-  "name": "T16 · Gizartearen eta boterearen jatorria: Makiavelo eta gizarte-kontratua (galdera-bilduma zabaldua)",
+  "name": "T16 · Gizartearen eta boterearen jatorria: Makiavelo eta gizarte-kontratua",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -13135,7 +13135,7 @@ const QUIZZES = {
   ]
  },
  "hf-b17-banco": {
-  "name": "T17 · Utilitarismoa eta liberalismoa: kapitalismoaren oinarriak (galdera-bilduma zabaldua)",
+  "name": "T17 · Utilitarismoa eta liberalismoa: kapitalismoaren oinarriak",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -13527,7 +13527,7 @@ const QUIZZES = {
   ]
  },
  "hf-c18-banco": {
-  "name": "T18 · Proiektu ilustratua: arrazoiaren ahalmena eta mugak (galdera-bilduma zabaldua)",
+  "name": "T18 · Proiektu ilustratua: arrazoiaren ahalmena eta mugak",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -13919,7 +13919,7 @@ const QUIZZES = {
   ]
  },
  "hf-c19-banco": {
-  "name": "T19 · Kanten filosofia kritikoa eta metafisikaren arazoa (galdera-bilduma zabaldua)",
+  "name": "T19 · Kanten filosofia kritikoa eta metafisikaren arazoa",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -14311,7 +14311,7 @@ const QUIZZES = {
   ]
  },
  "hf-c20-banco": {
-  "name": "T20 · Zoriontasunaren etikak eta betebeharraren etikak: Kant utilitarismoaren aurrean (galdera-bilduma zabaldua)",
+  "name": "T20 · Zoriontasunaren etikak eta betebeharraren etikak: Kant utilitarismoaren aurrean",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -14703,7 +14703,7 @@ const QUIZZES = {
   ]
  },
  "hf-c21-banco": {
-  "name": "T21 · Susmoaren filosofoak: Marx, Nietzsche eta Freud (galdera-bilduma zabaldua)",
+  "name": "T21 · Susmoaren filosofoak: Marx, Nietzsche eta Freud",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15095,7 +15095,7 @@ const QUIZZES = {
   ]
  },
  "hf-c22-banco": {
-  "name": "T22 · Kapitalismoaren kritika: Marxetik Rawlsera (galdera-bilduma zabaldua)",
+  "name": "T22 · Kapitalismoaren kritika: Marxetik Rawlsera",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15487,7 +15487,7 @@ const QUIZZES = {
   ]
  },
  "hf-c23-banco": {
-  "name": "T23 · Nietzsche eta postmodernitatea: Habermas hausleen aurrean (galdera-bilduma zabaldua)",
+  "name": "T23 · Nietzsche eta postmodernitatea: Habermas hausleen aurrean",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15868,7 +15868,7 @@ const QUIZZES = {
   ]
  },
  "hf-c24-banco": {
-  "name": "T24 · Filosofia analitikoa: Wittgenstein eta bihurgune linguistikoa (galdera-bilduma zabaldua)",
+  "name": "T24 · Filosofia analitikoa: Wittgenstein eta bihurgune linguistikoa",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -16260,7 +16260,7 @@ const QUIZZES = {
   ]
  },
  "hf-c25-banco": {
-  "name": "T25 · Existentzialismoa: Heidegger, Sartre eta filosofia espainiarra (galdera-bilduma zabaldua)",
+  "name": "T25 · Existentzialismoa: Heidegger, Sartre eta filosofia espainiarra",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -16652,7 +16652,7 @@ const QUIZZES = {
   ]
  },
  "hf-c26-banco": {
-  "name": "T26 · Feminismo garaikidea: Simone de Beauvoir (galdera-bilduma zabaldua)",
+  "name": "T26 · Feminismo garaikidea: Simone de Beauvoir",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -17033,7 +17033,7 @@ const QUIZZES = {
   ]
  },
  "hf-c27-banco": {
-  "name": "T27 · Gaur egungo gizartea: XXI. mendeko erronkak (galdera-bilduma zabaldua)",
+  "name": "T27 · Gaur egungo gizartea: XXI. mendeko erronkak",
   "subject": "hf",
   "block": "C",
   "items": [

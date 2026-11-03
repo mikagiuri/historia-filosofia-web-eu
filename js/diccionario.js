@@ -374,6 +374,7 @@ const DICCIONARIO = [
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kanten filosofia",
   "def": "Subjektu arrazionalak bere buruari lege unibertsal gisa eman diezaiokeen printzipioaren arabera jokatzea.",
   "biografia": [
@@ -424,6 +425,19 @@ const DICCIONARIO = [
   "unidad": "C6",
   "tema": "Postmodernitatea",
   "def": "Botere modernoak bizitza administratzen duenean sortzen den erregimena: populazioak, osasuna, sexualitatea, jaiotza-tasak, migrazioak kudeatzen ditu, ez soilik legeen bidez, baizik eta estatistika, epidemiologia eta segurtasun-dispositiboen bidez."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Kanona",
+  "id": "g-canon",
+  "et": "Grezierazko κανών (*kanón*) hitzetik: «neurtzeko makila, erregela».",
+  "area": "Historia",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Filosofiaren atarian",
+  "def": "Tradizio batek «klasikotzat» dituen eta, horregatik, ikasten diren egile eta obren zerrenda. Haiek aukeratzea ez da neutrala: mendeetan zehar filosofo emakume asko eta Europaz kanpoko pentsalariak kanpoan utzi zituen."
  },
  {
   "subject": "hf",
@@ -667,6 +681,19 @@ const DICCIONARIO = [
   "subject": "hf",
   "imp": 3,
   "impg": 12,
+  "t": "Mundu-ikuskera",
+  "id": "g-cosmovision",
+  "et": "Alemanezko *Weltanschauung* hitzaren kalkoa (*Welt*, «mundua», eta *Anschauung*, «ikuspegia»). Gaztelaniazko *cosmovisión* grezierazko κόσμος (*kósmos*), «ordena, mundua», eta latinezko *visio*, «ikusmena», hitzekin osatua dago.",
+  "area": "Historia",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Filosofiaren atarian",
+  "def": "Garai batek edo kultura batek eztabaidatu gabe ematen dituen eta mundua interpretatzeko abiapuntu hartzen dituen sinesmenen multzoa. Sinesmen horiek zalantzan jartzea da, askotan, filosofia aurrera eramaten duena."
+ },
+ {
+  "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Krisi ekologikoa",
   "id": "g-crisis-ecologica",
   "et": "*Krisia*, grezierazko κρίσις (*krísis*), «erabakia, une erabakigarria». *Ekologia*, grezierazko οἶκος (*oîkos*) «etxea» + λόγος (*lógos*) «azterketa».",
@@ -764,6 +791,7 @@ const DICCIONARIO = [
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kanten filosofia",
   "def": "Lege moralarekiko errespetuagatik jokatzea; ez soilik arauarekin bat etortzea, baizik eta motibazio moral egokia izatea.",
   "biografia": [
@@ -1012,6 +1040,7 @@ const DICCIONARIO = [
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kanten filosofia",
   "def": "Pertsonaren balio absolutua; ez da prezioa, erabilgarritasuna edo ordezkagarritasuna.",
   "biografia": [
@@ -1736,6 +1765,7 @@ const DICCIONARIO = [
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Filosofiaren atarian",
   "def": "Sendoa dirudien baina bere ondorioa behar bezala justifikatzen ez duen arrazoibidea."
  },
@@ -1891,8 +1921,9 @@ const DICCIONARIO = [
   "area": "Testua",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Filosofiaren atarian",
-  "def": "Definizioa: Pentsamendua antolatu eta adierazteko forma idatzia edo diskurtsiboa."
+  "def": "Pentsamendua antolatu eta adierazteko forma idatzia edo diskurtsiboa."
  },
  {
   "subject": "hf",
@@ -1989,7 +2020,7 @@ const DICCIONARIO = [
   "bloque": "A",
   "unidad": "A1-A2",
   "tema": "Filosofiaren atarian",
-  "def": "Etimologia: historia + -tasun, izaera edo egoera.\nDefinizioa: Pentsamendua beti garai, gizarte eta kultura jakin batean kokatuta egotea."
+  "def": "Pentsamendua beti dago garai, gizarte eta kultura jakin batean kokatuta."
  },
  {
   "subject": "hf",
@@ -2145,6 +2176,7 @@ const DICCIONARIO = [
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kanten filosofia",
   "def": "Agindu moral baldintzagabea: ekintza bat bere baitan agintzen du, inork nahi duen inolako helburuaren menpe egon gabe. Bere lehen formula, lege unibertsalarena: jokatu soilik lege unibertsal bihurtzea aldi berean nahi dezakezun maximaren arabera (*Ohituren metafisikaren oinarriak*, II, Ak. IV 421).",
   "biografia": [
@@ -2161,6 +2193,7 @@ const DICCIONARIO = [
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kanten filosofia",
   "def": "Agindu baldintzatua: norberak nahi duen helburu baterako bitarteko bat agintzen du («gainditu nahi baduzu, ikasi»). Kantek trebetasun-arauak eta zuhurtzia-aholkuak bereizten ditu; horiei men egiteak ez dio ekintzari balio moralik ematen (*Oinarriak*, II, Ak. IV 414-417).",
   "biografia": [
@@ -3040,6 +3073,19 @@ const DICCIONARIO = [
   "subject": "hf",
   "imp": 4,
   "impg": 10,
+  "t": "Esku ikusezina",
+  "id": "g-mano-invisible",
+  "et": "Adam Smithen metafora (*invisible hand*), *Nazioen aberastasuna* (1776) lanean, IV. liburua, 2. kapitulua.",
+  "area": "Ekonomia",
+  "bloque": "B",
+  "unidad": "B7",
+  "tema": "Utilitarismoa eta liberalismoa",
+  "def": "Adam Smithen irudia: merkatu librean bere interesa bilatzen duenak, nahi gabe, guztien ongizateari laguntzen dio, esku ikusezin batek bakoitzaren interesak koordinatuko balitu bezala. Hortik dator Estatuak ekonomian gutxi esku hartu behar duelako haren ideia."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Materialismoa",
   "id": "g-materialismo",
   "et": "*Materia*, latinezko *materia*, «egurra, eraikuntzako materiala», *mater*, «ama», hitzarekin ahaidetua.",
@@ -3137,11 +3183,25 @@ const DICCIONARIO = [
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 18,
   "tema": "Kanten filosofia",
   "def": "Kanten ustez, norberaren adimenaz beste baten gidaritzarik gabe baliatzeko ezintasuna. Norbera da horren errudun adimen faltagatik ez, erabakitzeko eta adorerik ez izateagatik gertatzen denean; haren kausak alferkeria eta koldarkeria dira (*Zer da Ilustrazioa?*, 1784, Ak. VIII 35).",
   "biografia": [
    "kant"
   ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Mitoa",
+  "id": "g-mito",
+  "et": "Grezierazko μῦθος (*mýthos*): «hitza, kontakizuna».",
+  "area": "Historia",
+  "bloque": "A",
+  "unidad": "A3",
+  "tema": "Filosofiaren sorrera Grezian",
+  "def": "Poetek (batez ere Homerok eta Hesiodok) transmititutako kontakizun tradizionala. Munduaren jatorria eta bertan gertatzen dena jainkoen eta izaki apartekoen borondatearen bidez azaltzen ditu, kausak naturan bertan bilatu gabe."
  },
  {
   "subject": "hf",
@@ -3154,7 +3214,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "Postmodernitatea",
-  "def": "Definizioa: Ilustrazioaren askatasun eta arrazoi promesak baztertu gabe kritikoki berreraiki behar direla dioen Habermasen ideia.",
+  "def": "Ilustrazioaren askatasun eta arrazoi promesak baztertu gabe kritikoki berreraiki behar direla dioen Habermasen ideia.",
   "biografia": [
    "habermas"
   ]
@@ -3281,6 +3341,7 @@ const DICCIONARIO = [
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Filosofiaren atarian",
   "def": "Galderak, kontzeptuak eta argudioak antolatzen dituen prozedura, arazo bat lantzeko."
  },
@@ -3533,6 +3594,20 @@ const DICCIONARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
+  "t": "Quaestio eta disputatio",
+  "id": "g-quaestio-disputatio",
+  "et": "Latinezko *quaestio* hitzetik, «bilaketa, galdera», *quaerere* aditzetik, «bilatu»; eta *disputatio* hitzetik, «eztabaida», *disputare* aditzetik, «sakon aztertu».",
+  "area": "Metodoa",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "temaN": 2,
+  "tema": "Filosofiaren atarian",
+  "def": "Erdi Aroko unibertsitateetako metodoa: galdera bat planteatzen da, aldeko eta kontrako arrazoiak eta autoritateak biltzen dira, erantzun arrazoitu bat ematen da eta objekzio bakoitzari erantzuten zaio. Horrela idatzi zuen Tomas Akinokoak bere *Summa theologiae*."
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Bizi-arrazoia",
@@ -3642,6 +3717,19 @@ const DICCIONARIO = [
   "biografia": [
    "aristoteles"
   ]
+ },
+ {
+  "subject": "hf",
+  "imp": 3,
+  "impg": 12,
+  "t": "Transmisioa",
+  "id": "g-transmision",
+  "et": "Latinezko *transmissio* hitzetik, «beste aldera igarotzea», *transmittere* aditzetik, «zeharka bidali».",
+  "area": "Historia",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Filosofiaren atarian",
+  "def": "Testuak eta ideiak belaunaldi batetik bestera iristeko bidea: eskoletan, monasterioetan edo unibertsitateetan kopiatu, itzuli, iruzkindu eta irakasten dira. Transmititu ez zena galdu egin zen, eta horrek aldatu egiten du egile bakoitzaz dugun irudia."
  },
  {
   "subject": "hf",
@@ -3946,7 +4034,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C10",
   "tema": "XXI. mendeko erronkak",
-  "def": "Definizioa: Boterea debekuaren ordez etengabeko ahalmen, auto-hobekuntza eta errendimenduaren agindu gisa agertzea."
+  "def": "Boterea debekuaren ordez etengabeko ahalmen, auto-hobekuntza eta errendimenduaren agindu gisa agertzea."
  },
  {
   "subject": "hf",
@@ -3999,6 +4087,7 @@ const DICCIONARIO = [
   "area": "Metodoa",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Filosofiaren atarian",
   "def": "Testu edo solaskide bat interpretatzean haren bertsiorik sendoena berreraikitzen saiatzea da. Ez da ados egotea, baizik eta kritika egin aurretik benetan zer defendatzen duen ulertzea."
  },
@@ -4198,6 +4287,7 @@ const DICCIONARIO = [
   "area": "Etika",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "Kanten filosofia",
   "def": "Joxe Azurmendiren jarrera etikoa: balio absolutuei uko egitea, baina nihilismoan erori gabe; konbentzimenduaren (printzipioak) eta erantzukizunaren (ondorioak) etikak uztartzea, bietako bati ere balio absoluturik aitortu gabe.",
   "biografia": [
@@ -4684,7 +4774,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Hizkuntza eta Zientzia",
-  "def": "Definizioa: Esaldi baten azaleko gramatikaren azpian dagoen egitura logikoa argitzeko Russellen analisia.",
+  "def": "Esaldi baten azaleko gramatikaren azpian dagoen egitura logikoa argitzeko Russellen analisia.",
   "biografia": [
    "russell"
   ]
@@ -4849,6 +4939,19 @@ const DICCIONARIO = [
   "unidad": "A8",
   "tema": "Etika klasikoa",
   "def": "Gehiegikeriaren eta gabeziaren arteko neurri egokia da, egoerari eta arrazoimen zuzenari egokitua."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Unibertsaltasuna",
+  "id": "g-universalidad",
+  "et": "Latinezko *universalis* hitzetik, «osoari dagokiona», *universus* hitzetik, «oso, batera itzulia» (*unus* + *versus*).",
+  "area": "Historia",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Filosofiaren atarian",
+  "def": "Garai eta kultura desberdinetan behin eta berriz agertzen diren galdera filosofikoen ezaugarria (zer den egia, zer den zuzena, libreak garen ala ez), giza bizitzaren oinarrizko kezketatik sortzen baitira. Ez du esan nahi erantzun bakarra dagoenik."
  },
  {
   "subject": "hf",
@@ -5497,6 +5600,7 @@ const DICCIONARIO = [
   "id": "g-querella-de-las-mujeres",
   "area": "Feminismoa",
   "bloque": "B",
+  "temaN": 11,
   "tema": "Erdi Aroko filosofia",
   "def": "Christine de Pizanek 1400 inguruan «Arrosaren auziarekin» ireki zuen polemika luzea, emakumeen duintasunaz eta gaitasun intelektualaz; Europako kulturan Frantziako Iraultzaraino luzatu zen.",
   "biografia": [
