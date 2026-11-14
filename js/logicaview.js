@@ -18,7 +18,7 @@ const LOG_TXT = {
   argTitulo: "Baliozkoa al da argudio hau?", premisas: "Premisak (puntu eta komaz bereizita)", conclusion: "Ondorioa",
   comprobar: "Egiaztatu", premisa: "{n}. premisa",
   valido: "Baliozkoa: premisak egiazkoak diren errenkada guztietan, ondorioa ere egiazkoa da.",
-  noValido: "Ez da baliozkoa: badago gutxienez errenkada bat premisak egiazkoak eta ondorioa faltsua dituena (gorriz markatua). Kontraadibide bat da.",
+  noValido: "Ez da baliozkoa: badago gutxienez errenkada bat premisak egiazkoak eta ondorioa faltsua dituena (✗ ikurrarekin markatua). Kontraadibide bat da.",
   filasPremisas: "Nabarmendutako errenkadetan premisa guztiak egiazkoak dira.",
   mp: "Modus ponens", mt: "Modus tollens", ac: "Atzekaria baieztatzea (falazia)", sd: "Silogismo disjuntiboa", sh: "Silogismo hipotetikoa",
   demorgan: "De Morganen legea", tercero: "Hirugarren baztertua", nocontra: "Kontraesana",
