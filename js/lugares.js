@@ -179,5 +179,187 @@ const LUGARES = {
     "t": "Kolapsoaren ondoren Basileako klinika batean sartu zuten, eta gero Jenakoan (1889-1890); ondoren amaren ardurapean bizi izan zen Naumburgen. Ama hil ondoren, 1897an Elisabeth arrebak Weimarrera eraman zuen, Nietzsche Artxiboaren egoitzara. 1900eko abuztuaren 25ean hil zen."
    }
   ]
+ },
+ "marx": {
+  "titulo": "Marxen lekuak",
+  "intro": "Marx prusiar jaio zen eta aberrigabe hil. Zentsurak eta kanporatzeek Prusiatik Parisera eraman zuten, Parisetik Bruselara eta, 1848ko iraultzaren ondoren, Londresera; han eman zuen, erbesteratuta, bizitzaren bigarren erdia.",
+  "nota": "Lerroak bidaiaren hurrenkerari jarraitzen dio. Koloniara eta Parisera itzuli egin zen: 1848an Bruselatik Koloniara joan zen, Parisen aste batzuk eman ondoren, eta 1849an, Koloniatik Parisera eta handik Londresera.",
+  "notaFronteras": "Mugak 1849koak dira. Alemania ez zen Estatu bat: Germaniar Konfederazioa zegoen, berrogei bat estatu subiranoren liga, Austria eta Prusia buru zituena. Trier, Bonn eta Kolonia Prusiako erresumarenak ziren 1815etik, eta erresuma horren lurraldea bitan zatituta zegoen. Gainerako estatu alemanak (Hannover, Saxonia, Bavaria, Württemberg…) kolore berean ageri dira hemen, puntu-lerroz bereizita.",
+  "marco": [
+   -1.1,
+   47.9,
+   15.6,
+   54.5
+  ],
+  "fronteras": 1849,
+  "internos": true,
+  "detalle": {
+   "marco": [
+    6.4,
+    50.58,
+    7.3,
+    51.08
+   ],
+   "en": [
+    0.21,
+    0.03
+   ],
+   "ancho": 0.17
+  },
+  "ruta": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   4,
+   5,
+   7
+  ],
+  "rotulos": [
+   {
+    "t": "Prusiako Erresuma",
+    "tipo": "pais",
+    "lon": 12.3,
+    "lat": 53.15,
+    "partir": true
+   },
+   {
+    "t": "Prusia",
+    "tipo": "pais",
+    "lon": 8,
+    "lat": 51.75
+   },
+   {
+    "t": "Frantzia",
+    "tipo": "pais",
+    "lon": 4.6,
+    "lat": 48.5
+   },
+   {
+    "t": "Erresuma Batua",
+    "tipo": "pais",
+    "lon": 0.35,
+    "lat": 52.75,
+    "partir": true
+   },
+   {
+    "t": "Belgika",
+    "tipo": "pais",
+    "lon": 4.6,
+    "lat": 50.4
+   },
+   {
+    "t": "Herbehereak",
+    "tipo": "pais",
+    "lon": 5.65,
+    "lat": 52.4,
+    "partir": true
+   },
+   {
+    "t": "Luxenburgo",
+    "tipo": "menor",
+    "lon": 5.6,
+    "lat": 49.26
+   },
+   {
+    "t": "Austriar Inperioa",
+    "tipo": "pais",
+    "lon": 13.9,
+    "lat": 49.6,
+    "partir": true
+   },
+   {
+    "t": "Hannover",
+    "tipo": "interno",
+    "lon": 9.5,
+    "lat": 52.8
+   },
+   {
+    "t": "Saxonia",
+    "tipo": "interno",
+    "lon": 13.2,
+    "lat": 51
+   },
+   {
+    "t": "Bavaria",
+    "tipo": "interno",
+    "lon": 11.5,
+    "lat": 49
+   },
+   {
+    "t": "Württemberg",
+    "tipo": "interno",
+    "lon": 9.2,
+    "lat": 48.5
+   },
+   {
+    "t": "Ipar itsasoa",
+    "tipo": "mar",
+    "lon": 6.7,
+    "lat": 54.1
+   },
+   {
+    "t": "Mantxako kanala",
+    "tipo": "mar",
+    "lon": 0.1,
+    "lat": 50.45,
+    "partir": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "Trier",
+    "fechas": "1818-1835",
+    "lon": 6.641,
+    "lat": 49.757,
+    "t": "1818ko maiatzaren 5ean jaio zen, protestantismora bihurtutako jatorri juduko abokatu baten seme. Hiriko institutuan ikasi zuen 1835era arte. Hemen ezagutu zuen Jenny von Westphalen, eta harekin ezkonduko zen 1843an."
+   },
+   {
+    "lugar": "Bonn",
+    "fechas": "1835-1836",
+    "lon": 7.099,
+    "lat": 50.734,
+    "det": true,
+    "t": "Unibertsitatean Zuzenbidea ikasten hasi zen. Urtebete eman zuen, ikasten baino gehiago ikasle-bizitzan, eta aitak Berlinera bidali zuen ikasketak jarraitzera."
+   },
+   {
+    "lugar": "Berlin",
+    "fechas": "1836-1841",
+    "lon": 13.405,
+    "lat": 52.52,
+    "t": "Zuzenbidea utzi eta Filosofiara jo zuen, eta hegeliar gazteekin bat egin zuen. 1841ean doktore egin zen, Demokritori eta Epikurori buruzko tesi batekin: Jenako Unibertsitatean aurkeztu zuen, hara joan gabe."
+   },
+   {
+    "lugar": "Kolonia",
+    "fechas": "1842-1843 eta 1848-1849",
+    "lon": 6.958,
+    "lat": 50.938,
+    "det": true,
+    "t": "<em>Renaniako Gazeta</em> (<em>Rheinische Zeitung</em>) zuzendu zuen, Prusiako Gobernuak 1843an debekatu zuen egunkari liberala. 1848ko iraultzarekin itzuli zen, eta <em>Renaniako Gazeta Berria</em> sortu zuen; 1849ko maiatzean Prusiatik kanporatu zuten, eta azken zenbakia tinta gorriz inprimatuta atera zen."
+   },
+   {
+    "lugar": "Paris",
+    "fechas": "1843-1845 eta 1849",
+    "lon": 2.352,
+    "lat": 48.857,
+    "t": "Ezkondu berritan iritsi zen, Arnold Rugerekin aldizkari bat argitaratzera. <em>Eskuizkribu ekonomiko-filosofikoak</em> (1844) idatzi zituen, eta urte berean hasi zen Friedrich Engelsekiko adiskidetasuna. Frantziak 1845ean kanporatu zuen, Prusiak eskatuta; 1849an hilabete batzuetarako itzuli zen, Londreserako bidean."
+   },
+   {
+    "lugar": "Brusela",
+    "fechas": "1845-1848",
+    "lon": 4.352,
+    "lat": 50.847,
+    "t": "Hemen idatzi zituen <em>Feuerbachi buruzko tesiak</em> (1845) eta, Engelsekin batera, <em>Ideologia alemana</em> eta <em>Manifestu komunista</em>; azken hori Londresen argitaratu zen 1848ko otsailean. Egun batzuk geroago iraultza lehertu zen Parisen, eta Belgikak kanporatu egin zuen."
+   },
+   {
+    "lugar": "Londres",
+    "fechas": "1849-1883",
+    "lon": -0.128,
+    "lat": 51.507,
+    "t": "Behin betiko erbestea: hogeita hamar urte baino gehiago, horietako asko pobrezian eta Engelsen diru-laguntzarekin. Ekonomia ikasi zuen Museo Britainiarreko liburutegian, eta <em>Kapitala</em>ren lehen liburua argitaratu zuen (1867). 1883ko martxoaren 14an hil zen, eta Highgateko hilerrian dago lurperatuta."
+   }
+  ]
  }
 };
