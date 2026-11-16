@@ -1141,5 +1141,429 @@ const LUGARES = {
     "t": "Alexandro hil zenean, K.a. 323an, Atenas Mazedoniaren aurka altxatu zen, eta Aristoteles, mazedoniarren laguna, erlijiogabekeriaz akusatu zuten. Lizeoa Teofrastoren esku utzi eta Kaltzisera erretiratu zen, Eubea uhartera, amaren familiak etxe bat baitzuen han. Han hil zen hurrengo urtean, gaixotasun batek jota, hirurogeita bi urte zituela."
    }
   ]
+ },
+ "presocraticos": {
+  "titulo": "Presokratikoen lekuak",
+  "intro": "Greziar filosofia ez zen Atenasen jaio, periferiako hirietan baizik: lehenik Jonian, Asia Txikiko kostaldean, eta gero Magna Grezian, Italiako hegoaldean eta Sizilian, persiarrengandik ihesi joniar asko iritsi baitziren hara. Portuak eta koloniak ziren, merkataritzari eta beste kultura batzuei irekiak. Mapak presokratikoei jarraitzen die hiriz hiri, gutxi gorabehera agertu ziren ordenan.",
+  "nota": "Zenbaki bakoitza hiri bat da: pentsalari bat jaio zen hiria edo hark irakatsi zuena. Datak gutxi gorabeherakoak dira, eta haien bizitzaz dakigunaren zati handi bat askoz geroagoko biografoek kontatzen dute, Diogenes Laertziok, adibidez.",
+  "notaFronteras": "Mapak ez du mugarik marrazten: K.a. VI. eta V. mendeen artean, greziar mundua ehunka hiri independentek osatzen zuten, Mediterraneoko kostaldeetan barreiatuta, eta K.a. 546tik aurrera Joniakoak Persiako erregearen menpe zeuden. Eskualdeen izenak baino ez dira ematen.",
+  "marco": [
+   11.6,
+   33.4,
+   29.6,
+   42.3
+  ],
+  "sinRuta": true,
+  "sinFronteras": true,
+  "detalle": {
+   "marco": [
+    26.2,
+    37.35,
+    27.75,
+    38.55
+   ],
+   "en": [
+    0.25,
+    0.52
+   ],
+   "ancho": 0.3
+  },
+  "zonas": [
+   {
+    "tipo": "h",
+    "poly": [
+     [
+      26.15,
+      38.85
+     ],
+     [
+      27.15,
+      38.85
+     ],
+     [
+      27.75,
+      38.55
+     ],
+     [
+      28,
+      38.1
+     ],
+     [
+      27.95,
+      37.6
+     ],
+     [
+      27.6,
+      37.3
+     ],
+     [
+      27.1,
+      37.28
+     ],
+     [
+      26.5,
+      37.55
+     ],
+     [
+      25.8,
+      38.1
+     ],
+     [
+      25.8,
+      38.65
+     ]
+    ]
+   },
+   {
+    "tipo": "d",
+    "poly": [
+     [
+      14.75,
+      40.72
+     ],
+     [
+      15.6,
+      40.95
+     ],
+     [
+      16.6,
+      40.85
+     ],
+     [
+      17.5,
+      40.75
+     ],
+     [
+      18.7,
+      40.45
+     ],
+     [
+      18.7,
+      39.6
+     ],
+     [
+      17.6,
+      37.7
+     ],
+     [
+      15.66,
+      37.7
+     ],
+     [
+      15.66,
+      38.32
+     ],
+     [
+      15.4,
+      38.9
+     ],
+     [
+      15.25,
+      39.55
+     ],
+     [
+      14.55,
+      39.95
+     ]
+    ]
+   },
+   {
+    "tipo": "d",
+    "poly": [
+     [
+      13.1,
+      38.4
+     ],
+     [
+      15.75,
+      38.4
+     ],
+     [
+      15.75,
+      36.5
+     ],
+     [
+      12.9,
+      36.9
+     ]
+    ]
+   }
+  ],
+  "grupos": [
+   {
+    "t": "Miletoarrak",
+    "paradas": [
+     1
+    ],
+    "d": "Tales, Anaximandro eta Anaximenes, Miletokoak, <em>arkhearen</em> bila dabiltza, dena egiteko oinarri den printzipioaren bila."
+   },
+   {
+    "t": "Pitagorikoak",
+    "paradas": [
+     2,
+     4
+    ],
+    "viajes": [
+     {
+      "de": 2,
+      "a": 4
+     }
+    ],
+    "d": "Pitagoras Samosen jaio zen eta Krotonen sortu zuen bere komunitatea; haren jarraitzaileek, Filolaok adibidez, zenbakietan ikusten dute unibertsoaren gakoa."
+   },
+   {
+    "t": "Heraklito",
+    "paradas": [
+     5
+    ],
+    "d": "Heraklito Efesokoak ez zuen eskolarik izan: dena aldatzen da, baina lege baten arabera, <em>logosaren</em> arabera."
+   },
+   {
+    "t": "Eleatarrak",
+    "paradas": [
+     3,
+     6,
+     2
+    ],
+    "viajes": [
+     {
+      "de": 3,
+      "a": [
+       15.08,
+       37.5
+      ]
+     },
+     {
+      "de": [
+       15.08,
+       37.5
+      ],
+      "a": 6,
+      "dudoso": true
+     }
+    ],
+    "d": "Parmenides eta Zenon, Eleakoak, eta Meliso, Samoskoa: izatea ezin da aldatu, eta zentzumenek engainatu egiten dute. Tradizioak Xenofanes Kolofongoa jotzen du haien aitzindaritzat."
+   },
+   {
+    "t": "Pluralistak",
+    "paradas": [
+     7,
+     8,
+     9
+    ],
+    "viajes": [
+     {
+      "de": 7,
+      "a": 9
+     }
+    ],
+    "d": "Enpedokles, Akragaskoa, eta Anaxagoras, Klazomenaikoa, Atenasen irakatsi zuena: dena elkartu eta bereizten diren elementu askoz eginda dago."
+   },
+   {
+    "t": "Atomistak",
+    "paradas": [
+     10
+    ],
+    "viajes": [
+     {
+      "de": 1,
+      "a": 10,
+      "dudoso": true
+     },
+     {
+      "de": 6,
+      "a": 10,
+      "dudoso": true,
+      "comba": -0.12
+     }
+    ],
+    "d": "Leuzipo eta Demokrito, Abderan: dena hutsean mugitzen diren atomoz eginda dago."
+   }
+  ],
+  "rotulos": [
+   {
+    "t": "Magna Grezia",
+    "tipo": "region",
+    "lon": 16.55,
+    "lat": 40.55,
+    "partir": true
+   },
+   {
+    "t": "Sizilia",
+    "tipo": "region",
+    "lon": 14.35,
+    "lat": 37.85
+   },
+   {
+    "t": "Grezia",
+    "tipo": "region",
+    "lon": 21.9,
+    "lat": 39.45
+   },
+   {
+    "t": "Trazia",
+    "tipo": "region",
+    "lon": 25.6,
+    "lat": 41.55
+   },
+   {
+    "t": "Asia Txikia",
+    "tipo": "region",
+    "lon": 28.9,
+    "lat": 39.35,
+    "partir": true
+   },
+   {
+    "t": "Egeo itsasoa",
+    "tipo": "mar",
+    "lon": 25,
+    "lat": 38.95
+   },
+   {
+    "t": "Itsaso Jonikoa",
+    "tipo": "mar",
+    "lon": 19,
+    "lat": 38.95
+   },
+   {
+    "t": "Itsaso Tirrenoa",
+    "tipo": "mar",
+    "lon": 13.2,
+    "lat": 39.9
+   },
+   {
+    "t": "Jonia",
+    "tipo": "region",
+    "lon": 27.45,
+    "lat": 38.3,
+    "det": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "Mileto",
+    "anio": -585,
+    "fechas": "K.a. VI. mendea",
+    "lon": 27.28,
+    "lat": 37.53,
+    "det": true,
+    "biografia": [
+     "tales",
+     "anaximandro",
+     "anaximenes"
+    ],
+    "t": "Joniako hiririk aberatsena, Egiptori, Feniziari eta Babiloniari irekitako portua. Hemen hasten dira greziar filosofia eta zientzia, gauza guztien printzipioa, <em>arkhea</em>, bilatzen duten hiru pentsalarirekin: Tales (ura), Anaximandro (<em>apeirona</em>, mugagabea) eta Anaximenes (airea). Persiarrek K.a. 494an suntsitu zuten Mileto. Gaur egun haren hondakinak itsasotik zortzi bat kilometrora daude: Meandro ibaiaren sedimentuek badia itxi zuten."
+   },
+   {
+    "lugar": "Samos",
+    "anio": -570,
+    "anioGrupo": {
+     "3": -440
+    },
+    "fechas": "K.a. 570-530 ingur. eta K.a. V. mendea",
+    "lon": 26.94,
+    "lat": 37.69,
+    "det": true,
+    "biografia": [
+     "pitagoras",
+     "meliso"
+    ],
+    "t": "Mileto parean dagoen uharte honetan jaio zen Pitagoras, K.a. 570 inguruan. 530 inguruan Italiara joan zen, kontatzen denez Polikrates tiranoarengandik ihesi. Hurrengo mendean Samoskoa da Meliso, Parmenidesen jarraitzailea, uhartearen ontzidia Atenasen aurka gidatu zuena."
+   },
+   {
+    "lugar": "Kolofon",
+    "anio": -546,
+    "fechas": "K.a. 570-546 ingur.",
+    "lon": 27.14,
+    "lat": 38.12,
+    "det": true,
+    "biografia": [
+     "jenofanes"
+    ],
+    "t": "Xenofanesen sorterria. Persiarrek Jonia konkistatu zutenean, K.a. 546an, hogeita bost bat urterekin utzi zuen, eta bere bizitza luzearen gainerakoa greziar hirietan zehar ibili zen, batez ere Sizilian, bere bertsoak errezitatzen. Bertso horietan giza itxurako jainkoez burla egiten du: idiek margotzen jakingo balute, idi itxurako jainkoak margotuko lituzkete."
+   },
+   {
+    "lugar": "Kroton",
+    "anio": -530,
+    "fechas": "K.a. 530 ingurutik aurrera",
+    "lon": 17.12,
+    "lat": 39.08,
+    "biografia": [
+     "pitagoras",
+     "filolao"
+    ],
+    "t": "Italiako hegoaldeko kolonia honetan elkarrekin bizitzeko komunitate bat sortu zuen Pitagorasek, janariari eta isiltasunari buruzko arauekin; zenbakiak unibertsoaren gakotzat aztertzen zituen, eta hiria gobernatzera ere iritsi zen. Matxinada batek amaiera eman zion haren botereari, eta Pitagoras inguruko Metapontoan hil zen. Krotongoa da, halaber, Filolao (K.a. V. mendea), liburu bat idatzi zuen lehen pitagorikoa."
+   },
+   {
+    "lugar": "Efeso",
+    "anio": -500,
+    "fechas": "K.a. 540-480 ingur.",
+    "lon": 27.34,
+    "lat": 37.94,
+    "det": true,
+    "biografia": [
+     "heraclito"
+    ],
+    "t": "Heraklito, familia nobleko kidea, hemen bizi da, politikatik eta jendetik aparte. Dio dena aldatzen dela, bi aldiz bainatu ezin garen ibai bat bezala, baina aldaketak lege bati jarraitzen diola, <em>logosari</em>. «Iluna» deitzen zioten bere estiloagatik, eta tradizioaren arabera bere liburua Artemisaren tenpluan utzi zuen."
+   },
+   {
+    "lugar": "Elea",
+    "anio": -480,
+    "fechas": "K.a. V. mendea",
+    "lon": 15.15,
+    "lat": 40.16,
+    "biografia": [
+     "parmenides",
+     "zenon_elea"
+    ],
+    "t": "K.a. 540 inguruan Italiako hegoaldean sortutako kolonia, persiarrengandik ihesi zihoazen Foziako joniarrek sortua. Hemen idatzi zuen Parmenidesek izateari buruzko poema: dena dena da, eta ezin da aldatu ezta izateari utzi ere; zentzumenek engainatu egiten dute. Tradizioaren arabera, legeak eman zizkion hiriari. Haren ikasle Zenonek paradoxekin defendatzen du, Akilesena eta dortokarena bezalakoekin."
+   },
+   {
+    "lugar": "Klazomenai",
+    "anio": -500,
+    "fechas": "K.a. 500 ingur.",
+    "lon": 26.77,
+    "lat": 38.36,
+    "det": true,
+    "biografia": [
+     "anaxagoras"
+    ],
+    "t": "Anaxagoras jaio zen hiri joniarra, familia aberats batean. Kontatzen denez, bere ondasunak senideei utzi zizkien naturaren azterketara emateko. Haren ustez, dena dago denean, zati txiki-txikietan nahasita, eta adimen batek, <em>nousak</em>, ordenatzen du."
+   },
+   {
+    "lugar": "Akragas (Agrigento)",
+    "anio": -465,
+    "fechas": "K.a. 495-435 ingur.",
+    "lon": 13.58,
+    "lat": 37.31,
+    "biografia": [
+     "empedocles"
+    ],
+    "t": "Siziliako hegoaldeko greziar hiri aberatsa. Enpedoklesek, familia noblekoak, demokrazia defendatzen du hemen, eta, tradizioaren arabera, errege izateari uko egin zion. Irakasten du dena lau sustraiz eginda dagoela (lurra, ura, airea eta sua), Maitasunak batzen eta Gorrotoak bereizten dituenak. Kondairak dio Etnara jauzi eginez hil zela."
+   },
+   {
+    "lugar": "Atenas",
+    "anio": -455,
+    "fechas": "K.a. 460-430 ingur.",
+    "lon": 23.73,
+    "lat": 37.98,
+    "biografia": [
+     "anaxagoras"
+    ],
+    "t": "Anaxagorasek Joniako filosofia ekarri zuen Atenasera; hogeita hamar bat urtez bizi izan zen bertan, eta Periklesen laguna izan zen. Eguzkia harri gori bat dela esateagatik erlijioaren aurkako delitua leporatu zioten, eta Lampsakora joan zen, eta han hil zen K.a. 428 inguruan. Platonen arabera, 450 inguruan Parmenidesek eta Zenonek Atenas bisitatu zuten; Demokritok, berriz, kontatzen zuen han egon zela eta inork ez zuela ezagutu."
+   },
+   {
+    "lugar": "Abdera",
+    "anio": -430,
+    "fechas": "K.a. V. mendea",
+    "lon": 24.98,
+    "lat": 40.94,
+    "biografia": [
+     "leucipo",
+     "democrito"
+    ],
+    "t": "Traziako kostaldeko kolonia joniarra. Hemen irakatsi zuen Demokritok (K.a. 460-370 ingur.): dena atomoz eginda dago, hutsean mugitzen diren partikula zatiezinez. Ideia Leuzipogandik ikasi zuen, zeinari buruz oso gutxi dakigun; tradizioak Abderan kokatzen du, nahiz eta beste batzuek Miletokotzat edo Eleakotzat jotzen duten. Abderakoa zen, halaber, Protagoras sofista."
+   }
+  ]
  }
 };
